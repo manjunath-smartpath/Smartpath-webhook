@@ -7,7 +7,7 @@ const VERIFY_TOKEN = process.env.VERIFY_TOKEN;
 const WHATSAPP_TOKEN = process.env.WHATSAPP_TOKEN;
 const PHONE_NUMBER_ID = process.env.PHONE_NUMBER_ID;
 const FLOWISE_URL = process.env.FLOWISE_URL;
-const FLOWISE_CHATFLOW_ID = process.env.FLOWISE_CHATFLOW_ID;
+const FLOWISE_CHATFLOW_ID = "a54ef309-fd3a-4545-ad22-59e32cdafd55";
 
 app.get('/webhook', (req, res) => {
   const mode = req.query['hub.mode'];
