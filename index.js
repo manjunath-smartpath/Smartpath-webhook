@@ -57,8 +57,9 @@ app.post('/webhook', async (req, res) => {
         }
       }
     );
-  } catch (err) {
-    console.error('Error:', err.message);
+  } catch (err) {    
+    console.error("FULL ERROR:",
+    err.response?.data || err.message);
   }
 });
 
