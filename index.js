@@ -2,6 +2,10 @@ const express = require('express');
 const axios = require('axios');
 const app = express();
 app.use(express.json());
+app.use((req, res, next) => {
+  console.log("Incoming:", req.method, req.url);
+  next();
+});
 
 const VERIFY_TOKEN = process.env.VERIFY_TOKEN;
 const WHATSAPP_TOKEN = process.env.WHATSAPP_TOKEN;
