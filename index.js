@@ -37,7 +37,7 @@ app.post('/webhook', async (req, res) => {
 
     const flowiseRes = await axios.post(
       `${FLOWISE_URL}/api/v1/prediction/${FLOWISE_CHATFLOW_ID}`,
-      { question: userMsg },
+      { question: userMsg, sessionId: from },
       { headers: { 'Content-Type': 'application/json' } }
     );
 
