@@ -20,7 +20,7 @@ const GOOGLE_SERVICE_ACCOUNT_JSON = process.env.GOOGLE_SERVICE_ACCOUNT_JSON;
 
 // ========== Google Sheets Setup ==========
 async function getSheet() {
-  const creds = JSON.parse(GOOGLE_SERVICE_ACCOUNT_JSON);
+  const creds = JSON.parse(process.env.GOOGLE_SERVICE_ACCOUNT_JSON);
   const jwt = new JWT({
     email: creds.client_email,
     key: creds.private_key,
