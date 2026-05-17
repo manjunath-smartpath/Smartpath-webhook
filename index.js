@@ -16,9 +16,7 @@ const PHONE_NUMBER_ID = process.env.PHONE_NUMBER_ID;
 const FLOWISE_URL = process.env.FLOWISE_URL;
 const FLOWISE_CHATFLOW_ID = "a54ef309-fd3a-4545-ad22-59e32cdafd55";
 const GOOGLE_SHEET_ID = process.env.GOOGLE_SHEET_ID;
-const GOOGLE_SERVICE_ACCOUNT_JSON = process.env.GOOGLE_SERVICE_ACCOUNT_JSON;
 
-// ========== Google Sheets Setup ==========
 async function getSheet() {
   const creds = JSON.parse(process.env.GOOGLE_SERVICE_ACCOUNT_JSON);
   const jwt = new JWT({
@@ -31,68 +29,61 @@ async function getSheet() {
   return doc.sheetsByIndex[0];
 }
 
-// ========== Student Check & Save ==========
-async function getStudentStatus(phone) {
+async function getStudent(phone) {
   try {
     const sheet = await getSheet();
     const rows = await sheet.getRows();
-    const student = rows.find(r => r.get('Phone') === phone);
-    if (!student) return { status: 'NEW', student: null };
-    return { status: student.get('Status'), student };
+    return rows.find(r => r.get('Phone') === phone) || null;
   } catch (e) {
     console.error("Sheet read error:", e.message);
-    return { status: 'ERROR', student: null };
+    return null;
   }
 }
 
-async function saveNewStudent(phone, name, cls, school, city) {
+async function saveNewStudent(phone) {
   try {
     const sheet = await getSheet();
     const today = new Date();
     const expiry = new Date(today);
-    expiry.setDate(expiry.getDate() + 2); // 2 days free trial
-
+    expiry.setDate(expiry.getDate() + 2);
     await sheet.addRow({
       Phone: phone,
-      Name: name || 'Unknown',
-      Class: cls || 'Unknown',
-      School: school || 'Unknown',
-      City: city || 'Unknown',
+      Name: '',
+      Class: '',
+      School: '',
+      City: '',
       Start_Date: today.toISOString().split('T')[0],
       Status: 'TRIAL',
-      Expiry_Date: expiry.toISOString().split('T')[0]
+      Expiry_Date: expiry.toISOString().split('T')[0],
+      Registration_Step: 'PENDING_NAME'
     });
-    console.log("New student saved:", phone);
   } catch (e) {
     console.error("Sheet write error:", e.message);
   }
 }
 
-async function checkTrialExpiry(student) {
-  const expiry = new Date(student.get('Expiry_Date'));
-  const today = new Date();
-  return today > expiry;
+async function updateStudent(student, field, value) {
+  try {
+    student.set(field, value);
+    await student.save();
+  } catch (e) {
+    console.error("Sheet update error:", e.message);
+  }
 }
 
-// ========== Send WhatsApp Message ==========
+async function isExpired(student) {
+  const expiry = new Date(student.get('Expiry_Date'));
+  return new Date() > expiry;
+}
+
 async function sendMessage(to, text) {
   await axios.post(
     `https://graph.facebook.com/v19.0/${PHONE_NUMBER_ID}/messages`,
-    {
-      messaging_product: 'whatsapp',
-      to,
-      text: { body: text }
-    },
-    {
-      headers: {
-        Authorization: `Bearer ${WHATSAPP_TOKEN}`,
-        'Content-Type': 'application/json'
-      }
-    }
+    { messaging_product: 'whatsapp', to, text: { body: text } },
+    { headers: { Authorization: `Bearer ${WHATSAPP_TOKEN}`, 'Content-Type': 'application/json' } }
   );
 }
 
-// ========== Webhook GET ==========
 app.get('/webhook', (req, res) => {
   const mode = req.query['hub.mode'];
   const token = req.query['hub.verify_token'];
@@ -104,7 +95,6 @@ app.get('/webhook', (req, res) => {
   }
 });
 
-// ========== Webhook POST ==========
 app.post('/webhook', async (req, res) => {
   res.sendStatus(200);
   try {
@@ -113,49 +103,72 @@ app.post('/webhook', async (req, res) => {
     const message = changes?.value?.messages?.[0];
     if (!message || message.type !== 'text') return;
 
-    const userMsg = message.text.body;
+    const userMsg = message.text.body.trim();
     const from = message.from;
 
-    // Check student status
-    const { status, student } = await getStudentStatus(from);
+    let student = await getStudent(from);
 
-    // NEW student → save and allow 2 day trial
-    if (status === 'NEW') {
-      await saveNewStudent(from, null, null, null, null);
-      console.log("New student trial started:", from);
+    if (!student) {
+      await saveNewStudent(from);
+      await sendMessage(from, `🙏 ಸ್ವಾಗತ! ನಾನು Smartpath Kalike, ನಿಮ್ಮ KSEEB ಟ್ಯೂಟರ್!\n\nಮೊದಲು ನಿಮ್ಮ ಹೆಸರು ಹೇಳಿ:`);
+      return;
     }
 
-    // BLOCKED → send payment message
-    if (status === 'BLOCKED') {
+    const step = student.get('Registration_Step');
+    const status = student.get('Status');
+
+    if (step === 'PENDING_NAME') {
+      await updateStudent(student, 'Name', userMsg);
+      await updateStudent(student, 'Registration_Step', 'PENDING_CLASS');
+      await sendMessage(from, `ನಮಸ್ಕಾರ ${userMsg}! 😊\n\nನೀವು ಯಾವ ತರಗತಿ?\n(6, 7, 8, 9 ಅಥವಾ 10 ಎಂದು ಹೇಳಿ)`);
+      return;
+    }
+
+    if (step === 'PENDING_CLASS') {
+      if (!['6','7','8','9','10'].includes(userMsg)) {
+        await sendMessage(from, `⚠️ ದಯವಿಟ್ಟು 6, 7, 8, 9 ಅಥವಾ 10 ಎಂದು ಮಾತ್ರ ಹೇಳಿ:`);
+        return;
+      }
+      await updateStudent(student, 'Class', userMsg);
+      await updateStudent(student, 'Registration_Step', 'PENDING_SCHOOL');
+      await sendMessage(from, `${userMsg}ನೇ ತರಗತಿ ✅\n\nನಿಮ್ಮ ಶಾಲೆ ಹೆಸರು ಹೇಳಿ:`);
+      return;
+    }
+
+    if (step === 'PENDING_SCHOOL') {
+      await updateStudent(student, 'School', userMsg);
+      await updateStudent(student, 'Registration_Step', 'PENDING_CITY');
+      await sendMessage(from, `${userMsg} ✅\n\nನಿಮ್ಮ ಊರು (City) ಹೇಳಿ:`);
+      return;
+    }
+
+    if (step === 'PENDING_CITY') {
+      await updateStudent(student, 'City', userMsg);
+      await updateStudent(student, 'Registration_Step', 'COMPLETE');
+      const name = student.get('Name');
+      const cls = student.get('Class');
       await sendMessage(from,
-        `⛔ ನಿಮ್ಮ Trial ಮುಗಿದಿದೆ!\n\n` +
-        `Smartpath Kalike ಮುಂದುವರಿಸಲು:\n` +
-        `💰 ₹199/month ಗೆ Subscribe ಮಾಡಿ\n\n` +
-        `📞 Admin: 7019068606 ಗೆ WhatsApp ಮಾಡಿ\n` +
-        `🌐 www.smartpathkalike.com`
+        `🎉 ನೋಂದಣಿ ಪೂರ್ಣವಾಯಿತು!\n\n` +
+        `ಹೆಸರು: ${name}\nತರಗತಿ: ${cls}ನೇ\nಶಾಲೆ: ${student.get('School')}\nಊರು: ${userMsg}\n\n` +
+        `✅ 2 ದಿನ FREE Trial ಶುರುವಾಯಿತು!\n\nಈಗ ಯಾವ ವಿಷಯದ ಪ್ರಶ್ನೆ ಬೇಕಾದರೂ ಕೇಳಿ! 📚`
       );
       return;
     }
 
-    // TRIAL → check expiry
-    if (status === 'TRIAL' && student) {
-      const expired = await checkTrialExpiry(student);
-      if (expired) {
-        // Update status to BLOCKED
-        student.set('Status', 'BLOCKED');
-        await student.save();
+    if (status === 'BLOCKED') {
+      await sendMessage(from, `⛔ ನಿಮ್ಮ Trial ಮುಗಿದಿದೆ!\n\n💰 ₹199/month ಗೆ Subscribe ಮಾಡಿ\n📞 Admin: 7019068606`);
+      return;
+    }
 
-        await sendMessage(from,
-          `⏰ ನಿಮ್ಮ 2 ದಿನದ Free Trial ಮುಗಿದಿದೆ!\n\n` +
-          `Admin Approval ಕಾಯಿರಿ ಅಥವಾ:\n` +
-          `📞 7019068606 ಗೆ WhatsApp ಮಾಡಿ\n` +
-          `💰 ₹199/month ಗೆ Subscribe ಮಾಡಿ`
-        );
+    if (status === 'TRIAL') {
+      const expired = await isExpired(student);
+      if (expired) {
+        await updateStudent(student, 'Status', 'BLOCKED');
+        await sendMessage(from, `⏰ ನಿಮ್ಮ 2 ದಿನದ Free Trial ಮುಗಿದಿದೆ!\n\n📞 7019068606 ಗೆ WhatsApp ಮಾಡಿ\n💰 ₹199/month ಗೆ Subscribe ಮಾಡಿ`);
         return;
       }
     }
 
-    // PAID or APPROVED or TRIAL (active) → send to Flowise
     const flowiseRes = await axios.post(
       `${FLOWISE_URL}/api/v1/prediction/${FLOWISE_CHATFLOW_ID}`,
       { question: userMsg, sessionId: from },
@@ -163,13 +176,6 @@ app.post('/webhook', async (req, res) => {
     );
 
     const botReply = flowiseRes.data.text || 'ಉತ್ತರ ಸಿಗಲಿಲ್ಲ, ದಯವಿಟ್ಟು ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ.';
-
-    // Update student name/class from conversation if possible
-    if (status === 'NEW' || (student && !student.get('Name'))) {
-      // Extract name if message contains name info
-      // This will be updated when student provides their details
-    }
-
     await sendMessage(from, botReply);
 
   } catch (err) {
