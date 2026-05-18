@@ -175,7 +175,8 @@ app.post('/webhook', async (req, res) => {
       { headers: { 'Content-Type': 'application/json' } }
     );
 
-    const botReply = flowiseRes.data.text || 'ಉತ್ತರ ಸಿಗಲಿಲ್ಲ, ದಯವಿಟ್ಟು ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ.';
+    const fullReply = flowiseRes.data.text || 'ಉತ್ತರ ಸಿಗಲಿಲ್ಲ, ದಯವಿಟ್ಟು ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ.';
+    const botReply = fullReply.substring(0, 4000);
     await sendMessage(from, botReply);
 
   } catch (err) {
