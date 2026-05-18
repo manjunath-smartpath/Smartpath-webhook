@@ -169,13 +169,23 @@ app.post('/webhook', async (req, res) => {
       }
     }
 
-    const flowiseRes = await axios.post(
-      `${FLOWISE_URL}/api/v1/prediction/${FLOWISE_CHATFLOW_ID}`,
-      { question: `${userMsg}\n\n(ಉತ್ತರವನ್ನು 250 words ಒಳಗೆ ಕೊಡಿ)`, sessionId: from },
-      { headers: { 'Content-Type': 'application/json' } }
-    );
+    // Flowise call — timeout 25s + 1 retry
+    let fullReply = '⚠️ ಸರ್ವರ್ ಬ바zy ಆಗಿದೆ, 30 ಸೆಕೆಂಡ್ ನಂತರ ಮತ್ತೆ ಕೇಳಿ.';
+    for (let attempt = 1; attempt <= 2; attempt++) {
+      try {
+        const flowiseRes = await axios.post(
+          `${FLOWISE_URL}/api/v1/prediction/${FLOWISE_CHATFLOW_ID}`,
+          { question: `${userMsg}\n\n(ಉತ್ತರವನ್ನು 250 words ಒಳಗೆ ಕೊಡಿ)`, sessionId: from },
+          { headers: { 'Content-Type': 'application/json' }, timeout: 25000 }
+        );
+        fullReply = flowiseRes.data.text || 'ಉತ್ತರ ಸಿಗಲಿಲ್ಲ, ದಯವಿಟ್ಟು ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ.';
+        break;
+      } catch (e) {
+        console.error(`Flowise attempt ${attempt} failed:`, e.message);
+        if (attempt < 2) await new Promise(r => setTimeout(r, 5000));
+      }
+    }
 
-    const fullReply = flowiseRes.data.text || 'ಉತ್ತರ ಸಿಗಲಿಲ್ಲ, ದಯವಿಟ್ಟು ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ.';
     const botReply = fullReply.substring(0, 4000);
     await sendMessage(from, botReply);
 
