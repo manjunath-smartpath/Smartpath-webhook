@@ -169,14 +169,14 @@ app.post('/webhook', async (req, res) => {
       }
     }
 
-    // Flowise call — timeout 25s + 1 retry
-    let fullReply = '⚠️ ಸರ್ವರ್ ಬ바zy ಆಗಿದೆ, 30 ಸೆಕೆಂಡ್ ನಂತರ ಮತ್ತೆ ಕೇಳಿ.';
+    // Flowise call — timeout 60s + 1 retry
+    let fullReply = '⚠️ ಸರ್ವರ್ ತಡವಾಗಿದೆ, 30 ಸೆಕೆಂಡ್ ನಂತರ ಮತ್ತೆ ಕೇಳಿ.';
     for (let attempt = 1; attempt <= 2; attempt++) {
       try {
         const flowiseRes = await axios.post(
           `${FLOWISE_URL}/api/v1/prediction/${FLOWISE_CHATFLOW_ID}`,
           { question: `${userMsg}\n\n(ಉತ್ತರವನ್ನು 250 words ಒಳಗೆ ಕೊಡಿ)`, sessionId: from },
-          { headers: { 'Content-Type': 'application/json' }, timeout: 25000 }
+          { headers: { 'Content-Type': 'application/json' }, timeout: 60000 }
         );
         fullReply = flowiseRes.data.text || 'ಉತ್ತರ ಸಿಗಲಿಲ್ಲ, ದಯವಿಟ್ಟು ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ.';
         break;
@@ -196,3 +196,15 @@ app.post('/webhook', async (req, res) => {
 
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
+
+// ✅ Flowise keep-alive ping — ಪ್ರತಿ 9 ನಿಮಿಷಕ್ಕೆ sleep ಆಗದಿರಲು
+setInterval(async () => {
+  try {
+    await axios.get(`${FLOWISE_URL}/api/v1/chatflows`, {
+      timeout: 10000
+    });
+    console.log("Flowise ping ✅");
+  } catch (e) {
+    console.error("Flowise ping failed:", e.message);
+  }
+}, 9 * 60 * 1000);
