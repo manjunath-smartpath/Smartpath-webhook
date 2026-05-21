@@ -16,14 +16,12 @@ const VERIFY_TOKEN = process.env.VERIFY_TOKEN;
 const WHATSAPP_TOKEN = process.env.WHATSAPP_TOKEN;
 const PHONE_NUMBER_ID = process.env.PHONE_NUMBER_ID;
 const GOOGLE_SHEET_ID = process.env.GOOGLE_SHEET_ID;
-const PINECONE_API_KEY = process.env.PINECONE_API_KEY;
-const OPENAI_API_KEY = process.env.OPENAI_API_KEY;
-
-const pc = new Pinecone({ apiKey: PINECONE_API_KEY });
-const openai = new OpenAI({ apiKey: OPENAI_API_KEY });
 
 async function askKSEEB(question, studentClass) {
   try {
+    const pc = new Pinecone({ apiKey: process.env.PINECONE_API_KEY });
+    const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
+
     // Step 1: Embedding
     const embRes = await openai.embeddings.create({
       model: 'text-embedding-3-small',
@@ -231,7 +229,7 @@ app.post('/webhook', async (req, res) => {
       }
     }
 
-    // Direct Pinecone + GPT Answer
+    // Direct Pinecone + GPT
     const studentClass = student.get('Class') || '6';
     const reply = await askKSEEB(userMsg, studentClass);
     await sendMessage(from, reply.substring(0, 4000));
