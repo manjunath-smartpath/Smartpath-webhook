@@ -2,6 +2,8 @@ const express = require('express');
 const axios = require('axios');
 const { GoogleSpreadsheet } = require('google-spreadsheet');
 const { JWT } = require('google-auth-library');
+const { Pinecone } = require('@pinecone-database/pinecone');
+const OpenAI = require('openai');
 
 const app = express();
 app.use(express.json());
@@ -13,13 +15,69 @@ app.use((req, res, next) => {
 const VERIFY_TOKEN = process.env.VERIFY_TOKEN;
 const WHATSAPP_TOKEN = process.env.WHATSAPP_TOKEN;
 const PHONE_NUMBER_ID = process.env.PHONE_NUMBER_ID;
-const FLOWISE_URL = process.env.FLOWISE_URL;
-const FLOWISE_PASSWORD = process.env.FLOWISE_PASSWORD;
-const FLOWISE_CHATFLOW_ID = "a54ef309-fd3a-4545-ad22-59e32cdafd55";
 const GOOGLE_SHEET_ID = process.env.GOOGLE_SHEET_ID;
+const PINECONE_API_KEY = process.env.PINECONE_API_KEY;
+const OPENAI_API_KEY = process.env.OPENAI_API_KEY;
 
-// Flowise Basic Auth header
-const FLOWISE_AUTH = Buffer.from(`admin:${FLOWISE_PASSWORD}`).toString('base64');
+const pc = new Pinecone({ apiKey: PINECONE_API_KEY });
+const openai = new OpenAI({ apiKey: OPENAI_API_KEY });
+
+async function askKSEEB(question, studentClass) {
+  try {
+    // Step 1: Embedding
+    const embRes = await openai.embeddings.create({
+      model: 'text-embedding-3-small',
+      input: question
+    });
+    const queryVector = embRes.data[0].embedding;
+
+    // Step 2: Pinecone Search
+    const index = pc.index('kseeb-kalike');
+    const searchRes = await index.query({
+      vector: queryVector,
+      topK: 4,
+      includeMetadata: true,
+      filter: { class: { $eq: studentClass } }
+    });
+
+    // Step 3: Context
+    const context = searchRes.matches
+      .map(m => m.metadata.text)
+      .join('\n\n');
+
+    if (!context || context.trim() === '') {
+      return 'ಈ ಪ್ರಶ್ನೆಗೆ ಉತ್ತರ textbook ನಲ್ಲಿ ಸಿಗಲಿಲ್ಲ.';
+    }
+
+    // Step 4: GPT
+    const gptRes = await openai.chat.completions.create({
+      model: 'gpt-4o-mini',
+      messages: [
+        {
+          role: 'system',
+          content: `You are a KSEEB Karnataka state board tutor for classes 6-10.
+Answer ONLY using the provided context.
+Do NOT use general knowledge.
+Do NOT make up answers.
+Answer in Kannada.
+Keep answer under 250 words.
+If answer not in context, say exactly: "ಈ ಪ್ರಶ್ನೆಗೆ ಉತ್ತರ textbook ನಲ್ಲಿ ಸಿಗಲಿಲ್ಲ"
+
+Context:
+${context}`
+        },
+        { role: 'user', content: question }
+      ],
+      max_tokens: 500
+    });
+
+    return gptRes.choices[0].message.content;
+
+  } catch (e) {
+    console.error('askKSEEB error:', e.message);
+    return '⚠️ ತಾಂತ್ರಿಕ ತೊಂದರೆ ಆಗಿದೆ, ದಯವಿಟ್ಟು ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ.';
+  }
+}
 
 async function getSheet() {
   const creds = JSON.parse(process.env.GOOGLE_SERVICE_ACCOUNT_JSON);
@@ -173,31 +231,10 @@ app.post('/webhook', async (req, res) => {
       }
     }
 
-    // Flowise call — Basic Auth + timeout 60s + 1 retry
-    let fullReply = '⚠️ ಸರ್ವರ್ ತಡವಾಗಿದೆ, 30 ಸೆಕೆಂಡ್ ನಂತರ ಮತ್ತೆ ಕೇಳಿ.';
-    for (let attempt = 1; attempt <= 2; attempt++) {
-      try {
-        const flowiseRes = await axios.post(
-          `${FLOWISE_URL}/api/v1/prediction/${FLOWISE_CHATFLOW_ID}`,
-          { question: `${userMsg}\n\n(ಉತ್ತರವನ್ನು 250 words ಒಳಗೆ ಕೊಡಿ)`, sessionId: from },
-          {
-            headers: {
-              'Content-Type': 'application/json',
-              'Authorization': `Basic ${FLOWISE_AUTH}`
-            },
-            timeout: 60000
-          }
-        );
-        fullReply = flowiseRes.data.text || 'ಉತ್ತರ ಸಿಗಲಿಲ್ಲ, ದಯವಿಟ್ಟು ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ.';
-        break;
-      } catch (e) {
-        console.error(`Flowise attempt ${attempt} failed:`, e.message);
-        if (attempt < 2) await new Promise(r => setTimeout(r, 5000));
-      }
-    }
-
-    const botReply = fullReply.substring(0, 4000);
-    await sendMessage(from, botReply);
+    // Direct Pinecone + GPT Answer
+    const studentClass = student.get('Class') || '6';
+    const reply = await askKSEEB(userMsg, studentClass);
+    await sendMessage(from, reply.substring(0, 4000));
 
   } catch (err) {
     console.error("FULL ERROR:", err.response?.data || err.message);
@@ -206,16 +243,3 @@ app.post('/webhook', async (req, res) => {
 
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
-
-// ✅ Flowise keep-alive ping — ಪ್ರತಿ 9 ನಿಮಿಷಕ್ಕೆ sleep ಆಗದಿರಲು
-setInterval(async () => {
-  try {
-    await axios.get(`${FLOWISE_URL}/api/v1/chatflows`, {
-      headers: { 'Authorization': `Basic ${FLOWISE_AUTH}` },
-      timeout: 10000
-    });
-    console.log("Flowise ping ✅");
-  } catch (e) {
-    console.error("Flowise ping failed:", e.message);
-  }
-}, 9 * 60 * 1000);
