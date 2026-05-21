@@ -46,8 +46,9 @@ async function askKSEEB(question, studentClass) {
       console.log('Top match text:', searchRes.matches[0].metadata.text.substring(0, 100));
     }
 
-    // Step 3: Context
+    // Step 3: Context — score 0.3 ಮೇಲಿರುವ matches ಮಾತ್ರ
     const context = searchRes.matches
+      .filter(m => m.score > 0.3)
       .map(m => m.metadata.text)
       .join('\n\n');
 
@@ -63,6 +64,7 @@ async function askKSEEB(question, studentClass) {
           role: 'system',
           content: `You are a KSEEB Karnataka state board tutor for classes 6-10.
 Answer ONLY using the provided context.
+Answer based on the context even if it is partial information.
 Do NOT use general knowledge.
 Do NOT make up answers.
 Answer in the same language as the question.
