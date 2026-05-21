@@ -57,9 +57,11 @@ async function askKSEEB(question, studentClass) {
 Answer ONLY using the provided context.
 Do NOT use general knowledge.
 Do NOT make up answers.
-Answer in Kannada.
+Answer in the same language as the question.
+If question is in Kannada, answer in Kannada.
+If question is in English, answer in English.
 Keep answer under 250 words.
-If answer not in context, say exactly: "ಈ ಪ್ರಶ್ನೆಗೆ ಉತ್ತರ textbook ನಲ್ಲಿ ಸಿಗಲಿಲ್ಲ"
+If answer not in context, say: "ಈ ಪ್ರಶ್ನೆಗೆ ಉತ್ತರ textbook ನಲ್ಲಿ ಸಿಗಲಿಲ್ಲ"
 
 Context:
 ${context}`
