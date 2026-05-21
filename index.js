@@ -33,10 +33,18 @@ async function askKSEEB(question, studentClass) {
     const index = pc.index('kseeb-kalike');
     const searchRes = await index.query({
       vector: queryVector,
-      topK: 4,
+      topK: 8,
       includeMetadata: true,
       filter: { class: { $eq: studentClass } }
     });
+
+    // Debug logs
+    console.log('Student class:', studentClass);
+    console.log('Pinecone matches:', searchRes.matches.length);
+    if (searchRes.matches.length > 0) {
+      console.log('Top match score:', searchRes.matches[0].score);
+      console.log('Top match text:', searchRes.matches[0].metadata.text.substring(0, 100));
+    }
 
     // Step 3: Context
     const context = searchRes.matches
@@ -61,7 +69,7 @@ Answer in the same language as the question.
 If question is in Kannada, answer in Kannada.
 If question is in English, answer in English.
 Keep answer under 250 words.
-If answer not in context, say: "ಈ ಪ್ರಶ್ನೆಗೆ ಉತ್ತರ textbook ನಲ್ಲಿ ಸಿಗಲಿಲ್ಲ"
+If answer not in context, say exactly: "ಈ ಪ್ರಶ್ನೆಗೆ ಉತ್ತರ textbook ನಲ್ಲಿ ಸಿಗಲಿಲ್ಲ"
 
 Context:
 ${context}`
