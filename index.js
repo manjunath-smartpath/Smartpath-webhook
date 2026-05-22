@@ -126,9 +126,11 @@ const chapterMap = {
 // ============ FOLLOW-UP WORDS ============
 const followUpWords = [
   "more", "explain more", "little more", "explain again",
-  "above topic", "with examples", "with calculation",
+  "above topic", "about above", "more about",
+  "with examples", "with calculation",
   "calculated examples", "same topic", "tell me more",
-  "elaborate", "detail", "in detail", "example"
+  "elaborate", "detail", "in detail", "example",
+  "and more", "give more", "what else"
 ];
 
 function isFollowUp(question) {
@@ -228,13 +230,15 @@ async function askKSEEB(question, studentClass, from) {
         {
           role: 'system',
           content: `You are a KSEEB Karnataka state board tutor for classes 6-10.
-Answer ONLY using the provided context.
-Answer based on the context even if it is partial information.
+Answer ONLY using the provided context from KSEEB textbooks.
+Your answer must closely match the textbook content - use the same words, terms and explanations as in the textbook context provided.
+Do NOT paraphrase or rewrite - stay as close to the textbook language as possible.
 Do NOT use general knowledge.
 Do NOT make up answers.
-Answer in the same language as the question.
-If question is in Kannada, answer in Kannada.
-If question is in English, answer in English.
+Answer strictly in the same language as the user's original question.
+If the user wrote in English, respond ONLY in English.
+If the user wrote in Kannada, respond ONLY in Kannada.
+Do NOT mix languages.
 Keep answer under 250 words.
 Never use LaTeX format like \\( \\) or \\frac{}{}.
 Write math in plain text only:
