@@ -4,6 +4,8 @@ const { GoogleSpreadsheet } = require('google-spreadsheet');
 const { JWT } = require('google-auth-library');
 const { Pinecone } = require('@pinecone-database/pinecone');
 const OpenAI = require('openai');
+const fs = require('fs');
+const path = require('path');
 
 const app = express();
 app.use(express.json());
@@ -17,19 +19,235 @@ const WHATSAPP_TOKEN = process.env.WHATSAPP_TOKEN;
 const PHONE_NUMBER_ID = process.env.PHONE_NUMBER_ID;
 const GOOGLE_SHEET_ID = process.env.GOOGLE_SHEET_ID;
 
-async function askKSEEB(question, studentClass) {
+// ============ MEMORY ============
+const studentMemory = {};
+
+// ============ FAQ CACHE ============
+const CACHE_FILE = '/app/faq_cache.json';
+let faqCache = {};
+
+function loadCache() {
   try {
+    if (fs.existsSync(CACHE_FILE)) {
+      faqCache = JSON.parse(fs.readFileSync(CACHE_FILE, 'utf8'));
+      console.log(`Cache loaded: ${Object.keys(faqCache).length} entries`);
+    }
+  } catch (e) {
+    console.error('Cache load error:', e.message);
+    faqCache = {};
+  }
+}
+
+function saveCache(key, value) {
+  try {
+    faqCache[key] = value;
+    fs.writeFileSync(CACHE_FILE, JSON.stringify(faqCache), 'utf8');
+  } catch (e) {
+    console.error('Cache save error:', e.message);
+  }
+}
+
+loadCache();
+
+// ============ CHAPTER MAPPING ============
+const chapterMap = {
+  "6": {
+    "1": "Patterns in Mathematics",
+    "2": "Lines and Angles",
+    "3": "Playing with Numbers",
+    "4": "Basic Geometrical Ideas",
+    "5": "Understanding Elementary Shapes",
+    "6": "Perimeter and Area",
+    "7": "Fractions",
+    "8": "Decimals",
+    "9": "Data Handling",
+    "10": "Mensuration",
+    "11": "Algebra",
+    "12": "Ratio and Proportion",
+  },
+  "7": {
+    "1": "Integers",
+    "2": "Fractions and Decimals",
+    "3": "Data Handling",
+    "4": "Simple Equations",
+    "5": "Lines and Angles",
+    "6": "Triangle and its Properties",
+    "7": "Comparing Quantities",
+    "8": "Rational Numbers",
+    "9": "Perimeter and Area",
+    "10": "Algebraic Expressions",
+    "11": "Exponents and Powers",
+    "12": "Symmetry",
+    "13": "Visualising Solid Shapes",
+  },
+  "8": {
+    "1": "Rational Numbers",
+    "2": "Linear Equations in One Variable",
+    "3": "Understanding Quadrilaterals",
+    "4": "Practical Geometry",
+    "5": "Data Handling",
+    "6": "Squares and Square Roots",
+    "7": "Cubes and Cube Roots",
+    "8": "Comparing Quantities",
+    "9": "Algebraic Expressions and Identities",
+    "10": "Visualizing Solid Shapes",
+  },
+  "9": {
+    "1": "Number Systems",
+    "2": "Polynomials",
+    "3": "Coordinate Geometry",
+    "4": "Linear Equations in Two Variables",
+    "5": "Euclid Geometry",
+    "6": "Lines and Angles",
+    "7": "Triangles",
+    "8": "Quadrilaterals",
+    "9": "Circles",
+    "10": "Heron Formula",
+    "11": "Surface Areas and Volumes",
+    "12": "Statistics",
+  },
+  "10": {
+    "1": "Real Numbers",
+    "2": "Polynomials",
+    "3": "Pair of Linear Equations",
+    "4": "Quadratic Equations",
+    "5": "Arithmetic Progressions",
+    "6": "Triangles",
+    "7": "Coordinate Geometry",
+    "8": "Trigonometry",
+    "9": "Applications of Trigonometry",
+    "10": "Circles",
+    "11": "Areas Related to Circles",
+    "12": "Surface Areas and Volumes",
+    "13": "Statistics",
+    "14": "Probability",
+  }
+};
+
+// ============ ENHANCED QUESTION MAPPING ============
+const enhancedMap = {
+  // 6th Maths
+  "explain area": "Explain area perimeter rectangle square",
+  "explain area of triangle": "Explain area of a triangle",
+  "explain area of a triangle": "Explain area of a triangle",
+  "explain fraction": "Explain fractions",
+  "explain factor": "Explain factors and divisors",
+  "explain factors or divisors": "Explain factors or divisors of a number",
+  "explain multiple": "Explain multiples",
+  "explain integer": "Explain integers",
+  "explain pattern": "Explain patterns in mathematics",
+  "explain patterns in number": "Explain patterns in numbers",
+  "explain common factor": "Explain common factors of two numbers",
+  "explain common multiple": "Explain common multiples of two numbers",
+  "explain artistic": "Explain Artistic and Aesthetic Considerations in maths",
+  "explain fractional unit": "Explain Fractional Units and Equal Shares",
+  // 7th Science
+  "explain nutrition": "Explain nutrition in plants and animals",
+  "explain respiration": "Explain respiration in organisms",
+  "explain light": "Explain light reflection refraction",
+  // 8th Science
+  "explain combustion": "Explain combustion and flame types",
+  "explain friction": "Explain force of friction types",
+  // 9th Science
+  "explain matter": "Explain physical nature of matter states",
+  "explain atom": "Explain structure of atom electrons",
+  "explain gravitation": "Explain gravitation free fall mass weight",
+  "explain motion": "Explain motion velocity acceleration equations",
+  // 10th Science
+  "explain reflection": "Explain reflection of light spherical mirrors",
+  "explain refraction": "Explain refraction of light through prism",
+  "explain heredity": "Explain heredity and variation",
+  "explain acid": "Explain acids bases and salts",
+  "explain metal": "Explain metals and non-metals properties",
+  "explain carbon": "Explain carbon compounds covalent bond",
+};
+
+// ============ FOLLOW-UP WORDS ============
+const followUpWords = [
+  "more", "explain more", "little more", "explain again",
+  "above topic", "with examples", "with calculation",
+  "calculated examples", "same topic", "tell me more",
+  "elaborate", "detail", "in detail", "example"
+];
+
+function isFollowUp(question) {
+  const q = question.toLowerCase().trim();
+  return followUpWords.some(word => q.includes(word));
+}
+
+function enhanceQuestion(question, studentClass) {
+  const q = question.toLowerCase().trim();
+
+  // Chapter number mapping
+  const chapterMatch = q.match(/chapter\s+(\d+)/);
+  if (chapterMatch) {
+    const chNum = chapterMatch[1];
+    if (chapterMap[studentClass] && chapterMap[studentClass][chNum]) {
+      const chName = chapterMap[studentClass][chNum];
+      question = question.replace(/chapter\s+\d+/i, chName);
+    }
+  }
+
+  // Enhanced mapping
+  for (const [key, value] of Object.entries(enhancedMap)) {
+    if (q.includes(key)) {
+      question = question.replace(new RegExp(key, 'i'), value);
+      break;
+    }
+  }
+
+  return `Class ${studentClass} KSEEB: ${question}`;
+}
+
+function cleanLatex(text) {
+  return text
+    .replace(/\\\(|\\\)/g, '')
+    .replace(/\\\[|\\\]/g, '')
+    .replace(/\\frac\{([^}]+)\}\{([^}]+)\}/g, '$1/$2')
+    .replace(/\\times/g, 'x')
+    .replace(/\\div/g, '÷')
+    .replace(/\\pm/g, '±')
+    .replace(/\\sqrt\{([^}]+)\}/g, 'sqrt($1)')
+    .replace(/\\_/g, '_')
+    .replace(/\\text\{([^}]+)\}/g, '$1')
+    .replace(/\{|\}/g, '')
+    .replace(/\\\\/g, '\n');
+}
+
+// ============ ASK KSEEB ============
+async function askKSEEB(question, studentClass, from) {
+  try {
+    // Follow-up check
+    let searchQuestion = question;
+    if (isFollowUp(question) && studentMemory[from]) {
+      searchQuestion = `${studentMemory[from]} ${question}`;
+      console.log('Follow-up detected, combined:', searchQuestion);
+    } else {
+      studentMemory[from] = question;
+    }
+
+    // Enhanced question
+    const enhanced = enhanceQuestion(searchQuestion, studentClass);
+    console.log('Enhanced question:', enhanced);
+
+    // Cache check
+    const cacheKey = `${studentClass}_${enhanced.toLowerCase().trim()}`;
+    if (faqCache[cacheKey]) {
+      console.log('Cache hit!');
+      return faqCache[cacheKey];
+    }
+
     const pc = new Pinecone({ apiKey: process.env.PINECONE_API_KEY });
     const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
 
-    // Step 1: Embedding
+    // Embedding
     const embRes = await openai.embeddings.create({
       model: 'text-embedding-3-small',
-      input: question
+      input: enhanced
     });
     const queryVector = embRes.data[0].embedding;
 
-    // Step 2: Pinecone Search
+    // Pinecone Search
     const index = pc.index('kseeb-kalike');
     const searchRes = await index.query({
       vector: queryVector,
@@ -38,15 +256,11 @@ async function askKSEEB(question, studentClass) {
       filter: { class: { $eq: studentClass } }
     });
 
-    // Debug logs
-    console.log('Student class:', studentClass);
     console.log('Pinecone matches:', searchRes.matches.length);
     if (searchRes.matches.length > 0) {
-      console.log('Top match score:', searchRes.matches[0].score);
-      console.log('Top match text:', searchRes.matches[0].metadata.text.substring(0, 100));
+      console.log('Top score:', searchRes.matches[0].score);
     }
 
-    // Step 3: Context — score 0.3 ಮೇಲಿರುವ matches ಮಾತ್ರ
     const context = searchRes.matches
       .filter(m => m.score > 0.3)
       .map(m => m.metadata.text)
@@ -56,7 +270,7 @@ async function askKSEEB(question, studentClass) {
       return 'ಈ ಪ್ರಶ್ನೆಗೆ ಉತ್ತರ textbook ನಲ್ಲಿ ಸಿಗಲಿಲ್ಲ.';
     }
 
-    // Step 4: GPT
+    // GPT
     const gptRes = await openai.chat.completions.create({
       model: 'gpt-4o-mini',
       messages: [
@@ -71,6 +285,11 @@ Answer in the same language as the question.
 If question is in Kannada, answer in Kannada.
 If question is in English, answer in English.
 Keep answer under 250 words.
+Never use LaTeX format like \\( \\) or \\frac{}{}.
+Write math in plain text only:
+- Use 2 1/3 instead of \\(2 \\frac{1}{3}\\)
+- Use a/b instead of \\frac{a}{b}
+- Use x^2 instead of \\(x^2\\)
 If answer not in context, say exactly: "ಈ ಪ್ರಶ್ನೆಗೆ ಉತ್ತರ textbook ನಲ್ಲಿ ಸಿಗಲಿಲ್ಲ"
 
 Context:
@@ -81,7 +300,13 @@ ${context}`
       max_tokens: 500
     });
 
-    return gptRes.choices[0].message.content;
+    let reply = gptRes.choices[0].message.content;
+    reply = cleanLatex(reply);
+
+    // Cache save
+    saveCache(cacheKey, reply);
+
+    return reply;
 
   } catch (e) {
     console.error('askKSEEB error:', e.message);
@@ -89,6 +314,7 @@ ${context}`
   }
 }
 
+// ============ GOOGLE SHEET ============
 async function getSheet() {
   const creds = JSON.parse(process.env.GOOGLE_SERVICE_ACCOUNT_JSON);
   const jwt = new JWT({
@@ -156,6 +382,7 @@ async function sendMessage(to, text) {
   );
 }
 
+// ============ WEBHOOK ============
 app.get('/webhook', (req, res) => {
   const mode = req.query['hub.mode'];
   const token = req.query['hub.verify_token'];
@@ -241,9 +468,8 @@ app.post('/webhook', async (req, res) => {
       }
     }
 
-    // Direct Pinecone + GPT
     const studentClass = student.get('Class') || '6';
-    const reply = await askKSEEB(userMsg, studentClass);
+    const reply = await askKSEEB(userMsg, studentClass, from);
     await sendMessage(from, reply.substring(0, 4000));
 
   } catch (err) {
