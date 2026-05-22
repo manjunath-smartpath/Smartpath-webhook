@@ -4,7 +4,6 @@ const { GoogleSpreadsheet } = require('google-spreadsheet');
 const { JWT } = require('google-auth-library');
 const { Pinecone } = require('@pinecone-database/pinecone');
 const OpenAI = require('openai');
-const fs = require('fs');
 
 const app = express();
 app.use(express.json());
@@ -18,96 +17,19 @@ const WHATSAPP_TOKEN = process.env.WHATSAPP_TOKEN;
 const PHONE_NUMBER_ID = process.env.PHONE_NUMBER_ID;
 const GOOGLE_SHEET_ID = process.env.GOOGLE_SHEET_ID;
 
-// ============ MEMORY ============
-const studentMemory = {};
-
-// ============ FAQ CACHE ============
-const CACHE_FILE = '/app/faq_cache.json';
-let faqCache = {};
-
-function loadCache() {
+async function askKSEEB(question, studentClass) {
   try {
-    if (fs.existsSync(CACHE_FILE)) {
-      faqCache = JSON.parse(fs.readFileSync(CACHE_FILE, 'utf8'));
-      console.log(`Cache loaded: ${Object.keys(faqCache).length} entries`);
-    }
-  } catch (e) {
-    console.error('Cache load error:', e.message);
-    faqCache = {};
-  }
-}
-
-function saveCache(key, value) {
-  try {
-    faqCache[key] = value;
-    fs.writeFileSync(CACHE_FILE, JSON.stringify(faqCache), 'utf8');
-  } catch (e) {
-    console.error('Cache save error:', e.message);
-  }
-}
-
-loadCache();
-
-// ============ FOLLOW-UP WORDS ============
-const followUpWords = [
-  "more", "explain more", "little more", "explain again",
-  "above topic", "with examples", "with calculation",
-  "calculated examples", "same topic", "tell me more",
-  "elaborate", "detail", "in detail", "example"
-];
-
-function isFollowUp(question) {
-  const q = question.toLowerCase().trim();
-  return followUpWords.some(word => q.includes(word));
-}
-
-function cleanLatex(text) {
-  return text
-    .replace(/\\\(|\\\)/g, '')
-    .replace(/\\\[|\\\]/g, '')
-    .replace(/\\frac\{([^}]+)\}\{([^}]+)\}/g, '$1/$2')
-    .replace(/\\times/g, 'x')
-    .replace(/\\div/g, '÷')
-    .replace(/\\pm/g, '±')
-    .replace(/\\sqrt\{([^}]+)\}/g, 'sqrt($1)')
-    .replace(/\\text\{([^}]+)\}/g, '$1')
-    .replace(/\{|\}/g, '')
-    .replace(/\\\\/g, '\n');
-}
-
-// ============ ASK KSEEB ============
-async function askKSEEB(question, studentClass, from) {
-  try {
-    // Follow-up check
-    let searchQuestion = question;
-    if (isFollowUp(question) && studentMemory[from]) {
-      searchQuestion = `${studentMemory[from]} ${question}`;
-      console.log('Follow-up detected, combined:', searchQuestion);
-    } else {
-      studentMemory[from] = question;
-    }
-
-    const enhanced = `Class ${studentClass} KSEEB: ${searchQuestion}`;
-    console.log('Enhanced question:', enhanced);
-
-    // Cache check
-    const cacheKey = `${studentClass}_${enhanced.toLowerCase().trim()}`;
-    if (faqCache[cacheKey]) {
-      console.log('Cache hit!');
-      return faqCache[cacheKey];
-    }
-
     const pc = new Pinecone({ apiKey: process.env.PINECONE_API_KEY });
     const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
 
-    // Embedding
+    // Step 1: Embedding
     const embRes = await openai.embeddings.create({
       model: 'text-embedding-3-small',
-      input: enhanced
+      input: question
     });
     const queryVector = embRes.data[0].embedding;
 
-    // Pinecone Search
+    // Step 2: Pinecone Search
     const index = pc.index('kseeb-kalike');
     const searchRes = await index.query({
       vector: queryVector,
@@ -116,11 +38,15 @@ async function askKSEEB(question, studentClass, from) {
       filter: { class: { $eq: studentClass } }
     });
 
+    // Debug logs
+    console.log('Student class:', studentClass);
     console.log('Pinecone matches:', searchRes.matches.length);
     if (searchRes.matches.length > 0) {
-      console.log('Top score:', searchRes.matches[0].score);
+      console.log('Top match score:', searchRes.matches[0].score);
+      console.log('Top match text:', searchRes.matches[0].metadata.text.substring(0, 100));
     }
 
+    // Step 3: Context — score 0.3 ಮೇಲಿರುವ matches ಮಾತ್ರ
     const context = searchRes.matches
       .filter(m => m.score > 0.3)
       .map(m => m.metadata.text)
@@ -130,7 +56,7 @@ async function askKSEEB(question, studentClass, from) {
       return 'ಈ ಪ್ರಶ್ನೆಗೆ ಉತ್ತರ textbook ನಲ್ಲಿ ಸಿಗಲಿಲ್ಲ.';
     }
 
-    // GPT
+    // Step 4: GPT
     const gptRes = await openai.chat.completions.create({
       model: 'gpt-4o-mini',
       messages: [
@@ -145,11 +71,6 @@ Answer in the same language as the question.
 If question is in Kannada, answer in Kannada.
 If question is in English, answer in English.
 Keep answer under 250 words.
-Never use LaTeX format like \\( \\) or \\frac{}{}.
-Write math in plain text only:
-- Use 2 1/3 instead of \\(2 \\frac{1}{3}\\)
-- Use a/b instead of \\frac{a}{b}
-- Use x^2 instead of \\(x^2\\)
 If answer not in context, say exactly: "ಈ ಪ್ರಶ್ನೆಗೆ ಉತ್ತರ textbook ನಲ್ಲಿ ಸಿಗಲಿಲ್ಲ"
 
 Context:
@@ -160,13 +81,7 @@ ${context}`
       max_tokens: 500
     });
 
-    let reply = gptRes.choices[0].message.content;
-    reply = cleanLatex(reply);
-
-    // Cache save
-    saveCache(cacheKey, reply);
-
-    return reply;
+    return gptRes.choices[0].message.content;
 
   } catch (e) {
     console.error('askKSEEB error:', e.message);
@@ -174,7 +89,6 @@ ${context}`
   }
 }
 
-// ============ GOOGLE SHEET ============
 async function getSheet() {
   const creds = JSON.parse(process.env.GOOGLE_SERVICE_ACCOUNT_JSON);
   const jwt = new JWT({
@@ -242,7 +156,6 @@ async function sendMessage(to, text) {
   );
 }
 
-// ============ WEBHOOK ============
 app.get('/webhook', (req, res) => {
   const mode = req.query['hub.mode'];
   const token = req.query['hub.verify_token'];
@@ -328,8 +241,9 @@ app.post('/webhook', async (req, res) => {
       }
     }
 
+    // Direct Pinecone + GPT
     const studentClass = student.get('Class') || '6';
-    const reply = await askKSEEB(userMsg, studentClass, from);
+    const reply = await askKSEEB(userMsg, studentClass);
     await sendMessage(from, reply.substring(0, 4000));
 
   } catch (err) {
