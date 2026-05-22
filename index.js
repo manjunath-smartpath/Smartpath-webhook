@@ -123,60 +123,6 @@ const chapterMap = {
   }
 };
 
-// ============ ENHANCED QUESTION MAPPING ============
-const enhancedMap = {
-  // SPECIFIC ಮೊದಲು
-  "explain area of a triangle": "Explain area of a triangle",
-  "explain area of triangle": "Explain area of a triangle",
-  "explain area of rectangle": "Explain area of rectangle",
-  "explain area of square": "Explain area of square",
-  "explain patterns in shapes": "Explain patterns in shapes regular polygons complete graphs Koch snowflake",
-  "explain patterns in number": "Explain patterns in numbers visualising sequences",
-  "explain patterns in mathematics": "Explain patterns in mathematics number sequences shapes",
-  "explain common factors": "Explain common factors of two numbers",
-  "explain common multiples": "Explain common multiples of two numbers",
-  "explain factors or divisors": "Explain factors or divisors of a number",
-  "explain fractional units": "Explain Fractional Units and Equal Shares",
-  "explain mixed fraction": "Explain mixed fractions whole number fractional part",
-  "explain equivalent fraction": "Explain equivalent fractions",
-  "explain like fraction": "Explain like and unlike fractions",
-
-  // GENERIC ಕೊನೆಯಲ್ಲಿ
-  "explain area": "Explain area mensuration",
-  "explain fraction": "Explain fractions",
-  "explain factor": "Explain factors and divisors",
-  "explain multiple": "Explain multiples",
-  "explain integer": "Explain integers",
-  "explain pattern": "Explain patterns in mathematics",
-  "explain common factor": "Explain common factors of two numbers",
-  "explain common multiple": "Explain common multiples of two numbers",
-  "explain artistic": "Explain Artistic and Aesthetic Considerations in maths",
-  "explain fractional unit": "Explain Fractional Units and Equal Shares",
-
-  // 7th Science
-  "explain nutrition": "Explain nutrition in plants and animals",
-  "explain respiration": "Explain respiration in organisms",
-  "explain light": "Explain light reflection refraction",
-
-  // 8th Science
-  "explain combustion": "Explain combustion and flame types",
-  "explain friction": "Explain force of friction types",
-
-  // 9th Science
-  "explain matter": "Explain physical nature of matter states",
-  "explain atom": "Explain structure of atom electrons",
-  "explain gravitation": "Explain gravitation free fall mass weight",
-  "explain motion": "Explain motion velocity acceleration equations",
-
-  // 10th Science
-  "explain reflection": "Explain reflection of light spherical mirrors",
-  "explain refraction": "Explain refraction of light through prism",
-  "explain heredity": "Explain heredity and variation",
-  "explain acid": "Explain acids bases and salts",
-  "explain metal": "Explain metals and non-metals properties",
-  "explain carbon": "Explain carbon compounds covalent bond",
-};
-
 // ============ FOLLOW-UP WORDS ============
 const followUpWords = [
   "more", "explain more", "little more", "explain again",
@@ -193,22 +139,13 @@ function isFollowUp(question) {
 function enhanceQuestion(question, studentClass) {
   let q = question.toLowerCase().trim();
 
-  // Chapter number mapping
+  // Chapter number mapping only
   const chapterMatch = q.match(/chapter\s+(\d+)/);
   if (chapterMatch) {
     const chNum = chapterMatch[1];
     if (chapterMap[studentClass] && chapterMap[studentClass][chNum]) {
       const chName = chapterMap[studentClass][chNum];
       question = question.replace(/chapter\s+\d+/i, chName);
-      q = question.toLowerCase().trim();
-    }
-  }
-
-  // Enhanced mapping — SPECIFIC ಮೊದಲು match ಆಗುತ್ತದೆ
-  for (const [key, value] of Object.entries(enhancedMap)) {
-    if (q.includes(key)) {
-      question = value;
-      break;
     }
   }
 
@@ -241,7 +178,7 @@ async function askKSEEB(question, studentClass, from) {
       studentMemory[from] = question;
     }
 
-    // Enhanced question
+    // Enhanced question — chapter mapping only
     const enhanced = enhanceQuestion(searchQuestion, studentClass);
     console.log('Enhanced question:', enhanced);
 
