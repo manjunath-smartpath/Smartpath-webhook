@@ -48,81 +48,6 @@ function saveCache(key, value) {
 
 loadCache();
 
-// ============ CHAPTER MAPPING ============
-const chapterMap = {
-  "6": {
-    "1": "Patterns in Mathematics",
-    "2": "Lines and Angles",
-    "3": "Playing with Numbers",
-    "4": "Basic Geometrical Ideas",
-    "5": "Understanding Elementary Shapes",
-    "6": "Perimeter and Area",
-    "7": "Fractions",
-    "8": "Decimals",
-    "9": "Data Handling",
-    "10": "Mensuration",
-    "11": "Algebra",
-    "12": "Ratio and Proportion",
-  },
-  "7": {
-    "1": "Integers",
-    "2": "Fractions and Decimals",
-    "3": "Data Handling",
-    "4": "Simple Equations",
-    "5": "Lines and Angles",
-    "6": "Triangle and its Properties",
-    "7": "Comparing Quantities",
-    "8": "Rational Numbers",
-    "9": "Perimeter and Area",
-    "10": "Algebraic Expressions",
-    "11": "Exponents and Powers",
-    "12": "Symmetry",
-    "13": "Visualising Solid Shapes",
-  },
-  "8": {
-    "1": "Rational Numbers",
-    "2": "Linear Equations in One Variable",
-    "3": "Understanding Quadrilaterals",
-    "4": "Practical Geometry",
-    "5": "Data Handling",
-    "6": "Squares and Square Roots",
-    "7": "Cubes and Cube Roots",
-    "8": "Comparing Quantities",
-    "9": "Algebraic Expressions and Identities",
-    "10": "Visualizing Solid Shapes",
-  },
-  "9": {
-    "1": "Number Systems",
-    "2": "Polynomials",
-    "3": "Coordinate Geometry",
-    "4": "Linear Equations in Two Variables",
-    "5": "Euclid Geometry",
-    "6": "Lines and Angles",
-    "7": "Triangles",
-    "8": "Quadrilaterals",
-    "9": "Circles",
-    "10": "Heron Formula",
-    "11": "Surface Areas and Volumes",
-    "12": "Statistics",
-  },
-  "10": {
-    "1": "Real Numbers",
-    "2": "Polynomials",
-    "3": "Pair of Linear Equations",
-    "4": "Quadratic Equations",
-    "5": "Arithmetic Progressions",
-    "6": "Triangles",
-    "7": "Coordinate Geometry",
-    "8": "Trigonometry",
-    "9": "Applications of Trigonometry",
-    "10": "Circles",
-    "11": "Areas Related to Circles",
-    "12": "Surface Areas and Volumes",
-    "13": "Statistics",
-    "14": "Probability",
-  }
-};
-
 // ============ FOLLOW-UP WORDS ============
 const followUpWords = [
   "more", "explain more", "little more", "explain again",
@@ -134,22 +59,6 @@ const followUpWords = [
 function isFollowUp(question) {
   const q = question.toLowerCase().trim();
   return followUpWords.some(word => q.includes(word));
-}
-
-function enhanceQuestion(question, studentClass) {
-  let q = question.toLowerCase().trim();
-
-  // Chapter number mapping only
-  const chapterMatch = q.match(/chapter\s+(\d+)/);
-  if (chapterMatch) {
-    const chNum = chapterMatch[1];
-    if (chapterMap[studentClass] && chapterMap[studentClass][chNum]) {
-      const chName = chapterMap[studentClass][chNum];
-      question = question.replace(/chapter\s+\d+/i, chName);
-    }
-  }
-
-  return `Class ${studentClass} KSEEB: ${question}`;
 }
 
 function cleanLatex(text) {
@@ -178,8 +87,7 @@ async function askKSEEB(question, studentClass, from) {
       studentMemory[from] = question;
     }
 
-    // Enhanced question — chapter mapping only
-    const enhanced = enhanceQuestion(searchQuestion, studentClass);
+    const enhanced = `Class ${studentClass} KSEEB: ${searchQuestion}`;
     console.log('Enhanced question:', enhanced);
 
     // Cache check
