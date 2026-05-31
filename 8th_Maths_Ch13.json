@@ -1,0 +1,686 @@
+{
+  "metadata": {
+    "class": "8th STANDARD",
+    "subject": "Mathematics",
+    "part": "2",
+    "chapter_num": "13",
+    "chapter_name": "INTRODUCTION TO GRAPHS",
+    "source": "KSEEB Textbook 2025-26",
+    "mode": "B"
+  },
+  "chapter_sections": [
+    {
+      "type": "definition",
+      "label": "Definition:",
+      "text": "A GRAPH is a visual representation of numerical data. The purpose of a graph is to show numerical facts in visual form so that they can be understood quickly, easily and clearly. Graphs are visual representations of data collected."
+    },
+    {
+      "type": "key_points",
+      "label": "Key Points:",
+      "points": [
+        "Data can also be presented in the form of a table; however a graphical presentation is easier to understand.",
+        "Graphical presentation is especially useful when there is a TREND or COMPARISON to be shown.",
+        "The horizontal line on a graph is usually called the X-AXIS.",
+        "The vertical line on a graph is usually called the Y-AXIS.",
+        "For fixing a point on the graph sheet we need, X-COORDINATE and Y-COORDINATE.",
+        "The relation between DEPENDENT VARIABLE and INDEPENDENT VARIABLE is shown through a graph."
+      ]
+    },
+    {
+      "type": "list_of_topics",
+      "label": "LIST OF TOPICS IN THIS CHAPTER:",
+      "items": [
+        "- Topic 13.1: Introduction"
+      ]
+    },
+    {
+      "type": "qa",
+      "label": "CHAPTER 13: Q&A",
+      "items": []
+    },
+    {
+      "type": "mcq",
+      "label": "CHAPTER 13: MCQs:",
+      "items": []
+    }
+  ],
+  "topics": [
+    {
+      "topic_num": "13.1",
+      "topic_name": "Introduction",
+      "mode": "B",
+      "sections": [
+        {
+          "type": "definition",
+          "label": "Definition:",
+          "text": "A GRAPH is a visual representation of data collected. Graphs show numerical facts in visual form so they can be understood quickly, easily and clearly."
+        },
+        {
+          "type": "key_points",
+          "label": "Key Points:",
+          "points": [
+            "Have you seen graphs in the newspapers, television, magazines, books etc.? The purpose of the graph is to show numerical facts in visual form.",
+            "Data can also be presented in the form of a table; however a graphical presentation is easier to understand.",
+            "This is true in particular when there is a TREND or COMPARISON to be shown.",
+            "We have already seen some types of graphs. This topic quickly recalls them.",
+            "The horizontal line (usually called the x-axis) shows one type of data (example: time, matches).",
+            "The vertical line (usually called the y-axis) shows another type of data (example: temperature, runs scored)."
+          ]
+        },
+        {
+          "type": "list_of_topics",
+          "label": "LIST OF SUB TOPICS IN THIS TOPIC:",
+          "items": [
+            "- Sub-Topic 13.1.1: A Line Graph",
+            "EXAMPLES: (textbook examples)",
+            "EXAMPLE 13.1.1: (Time-Temperature Graph — Renu's temperature)",
+            "PROBLEM:",
+            "When Renu fell sick, her doctor maintained a record of her body temperature, taken every four hours. The data is:",
+            "Time:              6 a.m.   10 a.m.   2 p.m.   6 p.m.",
+            "Temperature(°C):    37        40        38        35",
+            "We may call this a \"time-temperature graph.\" It is a pictorial representation of the data, given in tabular form. The horizontal line (x-axis) shows the timings at which temperatures were recorded. The vertical line (y-axis) shows the temperatures recorded.",
+            "SOLUTION:",
+            "Step 1: Plot each piece of data as a point on the square grid (Fig 13.1).",
+            "Step 2: Connect the points by line segments (Fig 13.2).",
+            "ANSWER:",
+            "The result is the LINE GRAPH of the temperature data. What does this graph tell us?",
+            "- At 10 a.m. temperature was highest (40°C).",
+            "- Temperature increased by 3°C (= 40°C - 37°C) during 6 a.m. to 10 a.m.",
+            "- Temperature then decreased till 6 p.m.",
+            "- There was no recording of temperature at 8 a.m., however the graph suggests that it was more than 37°C (How?)."
+          ]
+        },
+        {
+          "type": "qa",
+          "label": "TOPIC 13.1: Q&A",
+          "items": []
+        },
+        {
+          "type": "qa",
+          "label": "Q&A",
+          "items": [
+            {
+              "q_num": 1,
+              "marks": 2,
+              "question": "What is the purpose of a graph?",
+              "answer": "The purpose of a graph is to show numerical facts in VISUAL form so that they can be understood quickly, easily and clearly.\nGraphs are visual representations of data collected. They are especially useful when there is a TREND or COMPARISON to be shown."
+            },
+            {
+              "q_num": 2,
+              "marks": 2,
+              "question": "What does the x-axis show and what does the y-axis show in a graph?",
+              "answer": "X-AXIS (horizontal line) shows one type of data — such as time, matches played, or years.\nY-AXIS (vertical line) shows another type of data — such as temperature, runs scored, or sales figures.\nTogether, both axes give complete information about the data shown in the graph."
+            },
+            {
+              "q_num": 3,
+              "marks": 2,
+              "question": "In Renu's temperature graph (Example 13.1.1), by how many degrees did her temperature increase from 6 a.m. to 10 a.m.?",
+              "answer": "From the data table:\nTemperature at 6 a.m. = 37°C\nTemperature at 10 a.m. = 40°C\nIncrease = 40 - 37 = 3°C\nSo Renu's temperature increased by 3°C from 6 a.m. to 10 a.m.\n\n---\n\n3 ಮಾರ್ಕ್ಸ್ × 2 questions:"
+            },
+            {
+              "q_num": 4,
+              "marks": 3,
+              "question": "In Renu's temperature graph, the temperature at 8 a.m. was not recorded. What does the graph suggest about the temperature at 8 a.m.? How does the graph tell us this?",
+              "answer": "Step 1: The recorded temperatures are: 37°C at 6 a.m. and 40°C at 10 a.m.\n\nStep 2: In the graph, the line goes UPWARD from the point at 6 a.m. (37°C) to the point at 10 a.m. (40°C). This means the temperature was continuously increasing during this period.\n\nStep 3: Since 8 a.m. falls between 6 a.m. and 10 a.m., and the line is going upward, the temperature at 8 a.m. must be MORE THAN 37°C (the value at 6 a.m.) but less than 40°C (the value at 10 a.m.). The graph suggests a value of approximately 38.5°C at 8 a.m."
+            },
+            {
+              "q_num": 5,
+              "marks": 3,
+              "question": "Why is a graphical presentation more useful than a table when showing trends? Give an example from your textbook.",
+              "answer": "Step 1: In a TABLE, the data is shown as rows and columns of numbers. To find a trend, we have to compare each number with the next, which takes time and can be confusing.\n\nStep 2: In a GRAPH, the visual shape of the line immediately shows whether values are going up (increasing trend), going down (decreasing trend), or staying the same. This makes it much easier to understand at a glance.\n\nStep 3 — Textbook example: In Renu's temperature graph (Example 13.1.1), the data shows temperatures of 37°C, 40°C, 38°C, 35°C. In table form, we have to read each value. But in the line graph, we can instantly see that the temperature rose to a peak at 10 a.m. and then fell continuously till 6 p.m. — a clear TREND that is easy to understand visually.\n\n---\n\n4 ಮಾರ್ಕ್ಸ್ × 2 questions:"
+            },
+            {
+              "q_num": 6,
+              "marks": 4,
+              "question": "The following data shows the temperature of a patient recorded every hour in a hospital. Study the data and answer the questions.",
+              "answer": "Step 1 — Reading values: At 1 p.m. → temperature = 36.5°C. The temperature was highest at 11 a.m. (39°C) and began falling after that.\n\nStep 2 — When temperature was 38.5°C: Temperature fell from 39°C at 11 a.m. to 38°C at 12 noon. 38.5°C falls between these two points. From the graph, at approximately 11.30 a.m. the temperature was 38.5°C (read by estimating between the plotted points).\n\nStep 3 — Same temperature at two times: Temperature was 36°C at 9 a.m. AND 36°C at 10 a.m. Also temperature was 37°C at 2 p.m. AND 37°C at 3 p.m. The graph is flat (horizontal) between these times.\n\nStep 4 — Upward trend: Temperature showed an upward trend from 10 a.m. to 11 a.m. (36°C → 39°C). Also, from 12 noon to 2 p.m. (38°C → 37°C is a fall, then flat). The main upward trend was from 10 a.m. to 11 a.m."
+            },
+            {
+              "q_num": 7,
+              "marks": 4,
+              "question": "The following line graph shows the yearly sales figures (in Rs crores) for a manufacturing company. Sales: 2002=4, 2003=7, 2004=7, 2005=5, 2006=10. Answer the following: (a) What were the sales in 2002 and 2006? (b) What were the sales in 2003 and 2005? (c) Compute the difference between sales in 2002 and 2006. (d) In which year was there the greatest difference compared to its previous year?",
+              "answer": "Step 1 — Sales in 2002 and 2006: Sales in 2002 = Rs 4 crores. Sales in 2006 = Rs 10 crores.\n\nStep 2 — Sales in 2003 and 2005: Sales in 2003 = Rs 7 crores. Sales in 2005 = Rs 5 crores.\n\nStep 3 — Difference between 2002 and 2006: 10 - 4 = Rs 6 crores.\n\nStep 4 — Greatest difference from previous year:\n2003 vs 2002: 7 - 4 = +3 crores\n2004 vs 2003: 7 - 7 = 0 crores (no change)\n2005 vs 2004: 5 - 7 = -2 crores (decreased)\n2006 vs 2005: 10 - 5 = +5 crores (greatest jump)\nAnswer: Year 2006 had the greatest difference — sales jumped by Rs 5 crores compared to the previous year (2005).\n\n---\n\n5 ಮಾರ್ಕ್ಸ್ × 1 question:"
+            },
+            {
+              "q_num": 8,
+              "marks": 5,
+              "question": "Two plants A and B were grown under similar laboratory conditions. Their heights (in cm) at the end of each week for 3 weeks are shown below. Answer all questions.",
+              "answer": "PART A — Reading values from the graph:\n(a) Plant A: After 2 weeks = 7 cm. After 3 weeks = 9 cm.\n(b) Plant B: After 2 weeks = 5 cm. After 3 weeks = 10 cm.\n(c) Plant A growth in 3rd week = Height at week 3 - Height at week 2 = 9 - 7 = 2 cm.\n(d) Plant B growth from end of 2nd week to end of 3rd week = 10 - 5 = 5 cm.\n\nPART B — Analysis:\n(e) Plant A weekly growth:\nWeek 1: 2 - 0 = 2 cm\nWeek 2: 7 - 2 = 5 cm  ← Plant A grew most in Week 2\nWeek 3: 9 - 7 = 2 cm\n\nPlant B weekly growth:\nWeek 1: 2 - 0 = 2 cm\nWeek 2: 5 - 2 = 3 cm\nWeek 3: 10 - 5 = 5 cm  ← Plant B grew most in Week 3; Plant B grew LEAST in Week 1 (only 2 cm)\n\nSummary: Plant A grew most during Week 2 (5 cm). Plant B grew least during Week 1 (2 cm).\nNote: From the graph, we can also observe that both plants were the same height (2 cm) at the end of Week 1."
+            }
+          ]
+        },
+        {
+          "type": "mcq",
+          "label": "TOPIC 13.1: MCQs:",
+          "items": []
+        },
+        {
+          "type": "mcq",
+          "label": "MCQ",
+          "items": [
+            {
+              "mcq_num": 1,
+              "difficulty": "Easy",
+              "question": "In Renu's time-temperature graph (Example 13.1.1), at what time was her temperature the highest?",
+              "options": {
+                "A": "6 a.m.   (B) 10 a.m.   (C) 2 p.m.   (D) 6 p.m."
+              },
+              "answer": "B",
+              "explanation": "From the data table, temperature was 40°C at 10 a.m., which is the highest value."
+            },
+            {
+              "mcq_num": 2,
+              "difficulty": "Easy",
+              "question": "In a graph, which line is usually called the x-axis?",
+              "options": {
+                "A": "Vertical line   (B) Diagonal line   (C) Horizontal line   (D) Curved line"
+              },
+              "answer": "C",
+              "explanation": "The HORIZONTAL LINE is usually called the X-AXIS. The vertical line is called the y-axis."
+            },
+            {
+              "mcq_num": 3,
+              "difficulty": "Easy",
+              "question": "In Renu's temperature table, what was her temperature at 2 p.m.?",
+              "options": {
+                "A": "37°C   (B) 40°C   (C) 38°C   (D) 35°C"
+              },
+              "answer": "C",
+              "explanation": "From the data table: Temperature at 2 p.m. = 38°C."
+            },
+            {
+              "mcq_num": 4,
+              "difficulty": "Medium",
+              "question": "In Renu's temperature graph, the temperature at 8 a.m. was NOT recorded. What does the graph suggest about the temperature at 8 a.m.?",
+              "options": {
+                "A": "Exactly 37°C   (B) Less than 37°C   (C) More than 37°C   (D) Exactly 40°C"
+              },
+              "answer": "C",
+              "explanation": "The graph goes upward from 37°C at 6 a.m. to 40°C at 10 a.m., so at 8 a.m. the temperature was more than 37°C."
+            },
+            {
+              "mcq_num": 5,
+              "difficulty": "Medium",
+              "question": "Graphical presentation is especially useful when showing:",
+              "options": {
+                "A": "A single data point   (B) Trends and comparisons   (C) Only text information   (D) Decimal numbers"
+              },
+              "answer": "B",
+              "explanation": "The textbook states graphical presentation is especially useful when there is a TREND or COMPARISON to be shown."
+            },
+            {
+              "mcq_num": 6,
+              "difficulty": "Hard",
+              "question": "In Renu's temperature data, what was the total change in temperature from 10 a.m. to 6 p.m.?",
+              "options": {
+                "A": "Increased by 5°C   (B) Decreased by 3°C   (C) Decreased by 5°C   (D) No change"
+              },
+              "answer": "C",
+              "explanation": "Temperature at 10 a.m. = 40°C. Temperature at 6 p.m. = 35°C. Change = 35 - 40 = -5°C. So it decreased by 5°C. ----"
+            }
+          ]
+        },
+        {
+          "type": "definition",
+          "label": "Definition:",
+          "text": "A LINE GRAPH displays data that changes continuously over periods of time. A line graph which is a whole unbroken line is called a LINEAR GRAPH."
+        },
+        {
+          "type": "key_points",
+          "label": "Key Points:",
+          "points": [
+            "In a line graph, each piece of data is shown by a POINT on a square grid.",
+            "The points are then CONNECTED BY LINE SEGMENTS.",
+            "A line graph that is a whole unbroken line is called a LINEAR GRAPH.",
+            "Line graphs are best used to show data that changes continuously over time (like temperature, sales, population, distance).",
+            "The x-axis usually shows time (or the independent value).",
+            "The y-axis usually shows the measured value (like temperature, runs scored).",
+            "From a line graph, we can read values that were not directly recorded, by reading between the plotted points.",
+            "A horizontal line segment in a distance-time graph means the vehicle has STOPPED (distance from starting point did not change).",
+            "EXAMPLES: (textbook examples)",
+            "EXAMPLE 13.1.1.1: (A graph on \"Performance\" — Batsman A and B)",
+            "PROBLEM:",
+            "The given graph (Fig 13.3) represents the total runs scored by two batsmen A and B during each of the ten different matches in the year 2007. Study the graph and answer the following questions:",
+            "(i) What information is given on the two axes?",
+            "(ii) Which line shows the runs scored by batsman A?",
+            "(iii) Were the run scored by them same in any match in 2007? If so, in which match?",
+            "(iv) Among the two batsmen, who is steadier? How do you judge it?",
+            "SOLUTION:",
+            "Step 1: Read the axes — x-axis = matches played, y-axis = runs scored.",
+            "Step 2: Identify the lines — dotted line = Batsman A, solid line = Batsman B.",
+            "Step 3: Find intersection point — both graphs meet at match 4 (60 runs).",
+            "Step 4: Compare consistency — check highest, lowest, and average performance.",
+            "ANSWER:",
+            "(i) The horizontal axis (x-axis) indicates the matches played during the year 2007. The vertical axis (y-axis) shows the total runs scored in each match.",
+            "(ii) The dotted line shows the runs scored by Batsman A. (This is already indicated at the top of the graph.)",
+            "(iii) During the 4th match, both have scored the same number of runs (60). This is indicated by the point at which both graphs meet.",
+            "(iv) Batsman A has one great \"peak\" but many deep \"valleys.\" He does not appear to be consistent. Batsman B, on the other hand, has never scored below a total of 40 runs, even though his highest score is only 100 in comparison to 115 of A. Also A has scored a zero in two matches and in a total of 5 matches he has scored less than 40 runs. Since A has a lot of ups and downs, B is a more consistent and reliable batsman.",
+            "EXAMPLE 13.1.1.2: (Distance-Time Graph — Car journey from City P to City Q)",
+            "PROBLEM:",
+            "The given graph (Fig 13.4) describes the distances of a car from a city P at different times when it is travelling from City P to City Q, which are 350 km apart. Study the graph and answer the following:",
+            "(i) What information is given on the two axes?",
+            "(ii) From where and when did the car begin its journey?",
+            "(iii) How far did the car go in the first hour?",
+            "(iv) How far did the car go during (i) the 2nd hour? (ii) the 3rd hour?",
+            "(v) Was the speed same during the first three hours? How do you know it?",
+            "(vi) Did the car stop for some duration at any place? Justify your answer.",
+            "(vii) When did the car reach City Q?",
+            "SOLUTION:",
+            "Step 1: Read the axes — x-axis = time, y-axis = distance from City P.",
+            "Step 2: Read starting point — car starts at 8 a.m. from City P (distance = 0).",
+            "Step 3: Read distances at each hour:",
+            "At 8 a.m.: 0 km    - At 9 a.m.: 50 km",
+            "At 10 a.m.: 150 km  - At 11 a.m.: 200 km",
+            "At 12 noon: 200 km  - At 2 p.m.: 350 km",
+            "Step 4: Calculate distance each hour:",
+            "1st hour (8–9 a.m.): 50 - 0 = 50 km",
+            "2nd hour (9–10 a.m.): 150 - 50 = 100 km",
+            "3rd hour (10–11 a.m.): 200 - 150 = 50 km",
+            "Step 5: Check for stop — distance same at 11 a.m. and 12 noon → car stopped.",
+            "ANSWER:",
+            "(i) The horizontal (x) axis shows the time. The vertical (y) axis shows the distance of the car from City P.",
+            "(ii) The car started from City P at 8 a.m.",
+            "(iii) The car travelled 50 km during the first hour (8 a.m. to 9 a.m.).",
+            "(iv) Distance covered:",
+            "2nd hour (9 a.m. to 10 a.m.): 150 - 50 = 100 km",
+            "3rd hour (10 a.m. to 11 a.m.): 200 - 150 = 50 km",
+            "(v) The speed was NOT the same all the time. In fact the graph illustrates how the speed varied. The car covered 50 km in 1st hour, 100 km in 2nd hour, 50 km in 3rd hour — different distances in each hour means different speeds.",
+            "(vi) Yes, the car did stop. We find that the car was 200 km away from city P when the time was 11 a.m. and also at 12 noon. This shows that the car did not travel during the interval 11 a.m. to 12 noon. The horizontal line segment representing \"travel\" during this period is illustrative of this fact.",
+            "(vii) The car reached City Q at 2 p.m."
+          ]
+        },
+        {
+          "type": "exercise",
+          "label": "EXERCISE 13.1:",
+          "items": [],
+          "raw": "1. The following graph shows the temperature of a patient in a hospital, recorded every hour.\n(a) What was the patient's temperature at 1 p.m.?\n(b) When was the patient's temperature 38.5°C?\n(c) The patient's temperature was the same two times during the period given. What were these two times?\n(d) What was the temperature at 1.30 p.m.? How did you arrive at your answer?\n(e) During which periods did the patients' temperature show an upward trend?\n\n2. The following line graph shows the yearly sales figures for a manufacturing company.\n(a) What were the sales in (i) 2002   (ii) 2006?\n(b) What were the sales in (i) 2003   (ii) 2005?\n(c) Compute the difference between the sales in 2002 and 2006.\n(d) In which year was there the greatest difference between the sales as compared to its previous year?\n\n3. For an experiment in Botany, two different plants, plant A and plant B were grown under similar laboratory conditions. Their heights were measured at the end of each week for 3 weeks. The results are shown by the following graph.\n(a) How high was Plant A after (i) 2 weeks   (ii) 3 weeks?\n(b) How high was Plant B after (i) 2 weeks   (ii) 3 weeks?\n(c) How much did Plant A grow during the 3rd week?\n(d) How much did Plant B grow from the end of the 2nd week to the end of the 3rd week?\n(e) During which week did Plant A grow most?\n(f) During which week did Plant B grow least?\n(g) Were the two plants of the same height during any week shown here? Specify.\n\n4. The following graph shows the temperature forecast and the actual temperature for each day of a week.\n(a) On which days was the forecast temperature the same as the actual temperature?\n(b) What was the maximum forecast temperature during the week?\n(c) What was the minimum actual temperature during the week?\n(d) On which day did the actual temperature differ the most from the forecast temperature?\n\n5. Use the tables below to draw linear graphs.\n(a) The number of days a hill side city received snow in different years.\nYear:  2003   2004   2005   2006\nDays:    8     10      5     12\n(b) Population (in thousands) of men and women in a village in different years.\nYear:           2003   2004   2005   2006   2007\nNumber of Men:    12   12.5    13    13.2   13.5\nNumber of Women: 11.3  11.9    13    13.6   12.8\n\n6. A courier-person cycles from a town to a neighbouring suburban area to deliver a parcel to a merchant. His distance from the town at different times is shown by the following graph.\n(a) What is the scale taken for the time axis?\n(b) How much time did the person take for the travel?\n(c) How far is the place of the merchant from the town?\n(d) Did the person stop on his way? Explain.\n(e) During which period did he ride fastest?\n\n7. Can there be a time-temperature graph as follows? Justify your answer.\n(i) [Graph rising steeply — possible, temperature can increase fast]\n(ii) [Graph falling steeply — possible, temperature can decrease fast]\n(iii) [Graph rising and then falling back to a point — possible, temperature can go up then come down]\n(iv) [Graph as a horizontal line going right — possible, temperature stays same over time]"
+        },
+        {
+          "type": "qa",
+          "label": "SUB-TOPIC 13.1.1: Q&A",
+          "items": []
+        },
+        {
+          "type": "qa",
+          "label": "Q&A",
+          "items": [
+            {
+              "q_num": 1,
+              "marks": 2,
+              "question": "What is a line graph?",
+              "answer": "A LINE GRAPH displays data that changes continuously over periods of time.\nIn a line graph, each piece of data is shown by a POINT on a square grid, and the points are then CONNECTED BY LINE SEGMENTS.\nA line graph that is a whole unbroken line is called a LINEAR GRAPH."
+            },
+            {
+              "q_num": 2,
+              "marks": 2,
+              "question": "What is a linear graph?",
+              "answer": "A LINE GRAPH which is a whole UNBROKEN LINE is called a LINEAR GRAPH.\nA linear graph is always a straight line. It is formed when two quantities are in DIRECT VARIATION — as one increases, the other increases by the same proportion."
+            },
+            {
+              "q_num": 3,
+              "marks": 2,
+              "question": "In a distance-time graph, what does a horizontal line segment mean?",
+              "answer": "A horizontal line segment in a distance-time graph means the distance from the starting point did NOT change during that time period.\nThis tells us that the vehicle had STOPPED (was not moving) during that time.\nExample: In Example 13.1.1.2, the horizontal line between 11 a.m. and 12 noon means the car stopped.\n\n---\n\n3 ಮಾರ್ಕ್ಸ್ × 2 questions:"
+            },
+            {
+              "q_num": 4,
+              "marks": 3,
+              "question": "How do you draw a line graph? Write the steps clearly.",
+              "answer": "Step 1: Choose the axes — decide which data goes on the x-axis (usually time or independent value) and which goes on the y-axis (usually the measured value).\n\nStep 2: Choose a suitable SCALE for both axes so that all the data points fit neatly on the graph sheet. Mark the scale clearly on both axes.\n\nStep 3: PLOT each pair of values as a point on the graph. For example, if temperature at 6 a.m. is 37°C, mark the point where x = 6 a.m. and y = 37°C meet.\n\nStep 4: CONNECT the points by line segments in order. The result is the line graph."
+            },
+            {
+              "q_num": 5,
+              "marks": 3,
+              "question": "In Example 13.1.1.1, how do you judge which batsman — A or B — is steadier? What evidence from the graph supports your answer?",
+              "answer": "Step 1 — Batsman A: Batsman A scored as high as 115 in one match (great peak) but also scored zero in two matches and below 40 in 5 matches. His graph has many deep \"valleys,\" showing high inconsistency.\n\nStep 2 — Batsman B: Batsman B has never scored below 40 in any match. His highest score is 100. His graph stays within a moderate range with no extreme drops. He is consistent and reliable.\n\nStep 3 — Conclusion: BATSMAN B is steadier. To judge steadiness, we look at the lowest scores and the consistency — not just the highest. Since B never dropped below 40, while A dropped to zero, B is the more reliable batsman.\n\n---\n\n4 ಮಾರ್ಕ್ಸ್ × 2 questions:"
+            },
+            {
+              "q_num": 6,
+              "marks": 4,
+              "question": "In Example 13.1.1.2, a car travels from City P to City Q (350 km). Graph readings: 8 a.m.=0, 9 a.m.=50, 10 a.m.=150, 11 a.m.=200, 12 noon=200, 2 p.m.=350 km. Calculate the distance covered each hour for the first 3 hours and explain whether the speed was constant.",
+              "answer": "Step 1 — 1st hour (8 a.m. to 9 a.m.):\nDistance covered = 50 - 0 = 50 km.\nSpeed = Distance / Time = 50 / 1 = 50 km/hr.\n\nStep 2 — 2nd hour (9 a.m. to 10 a.m.):\nDistance covered = 150 - 50 = 100 km.\nSpeed = 100 / 1 = 100 km/hr.\n\nStep 3 — 3rd hour (10 a.m. to 11 a.m.):\nDistance covered = 200 - 150 = 50 km.\nSpeed = 50 / 1 = 50 km/hr.\n\nStep 4 — Conclusion: The speed was NOT constant. In the 1st hour the speed was 50 km/hr, in the 2nd hour it was 100 km/hr (double), and in the 3rd hour it was back to 50 km/hr. Different distances covered per hour means different speeds. The graph illustrates how the speed varied — a steeper part of the graph means higher speed, and a flatter part means lower speed."
+            },
+            {
+              "q_num": 7,
+              "marks": 4,
+              "question": "From the car journey graph in Example 13.1.1.2, prove that the car stopped for some time during the journey. When did it stop and for how long? When did it finally reach City Q?",
+              "answer": "Step 1 — Graph readings at 11 a.m. and 12 noon:\nFrom the graph, the distance at 11 a.m. = 200 km from City P.\nFrom the graph, the distance at 12 noon = 200 km from City P.\n\nStep 2 — Interpretation: The distance did NOT change between 11 a.m. and 12 noon. If the car was moving, the distance would have increased. Since it stayed at 200 km, the car was NOT moving during this period.\n\nStep 3 — Evidence from graph: The line segment between 11 a.m. and 12 noon is HORIZONTAL (flat). A horizontal line in a distance-time graph always indicates that the vehicle has STOPPED.\n\nStep 4 — Conclusion: The car stopped at a place 200 km from City P. It stopped from 11 a.m. to 12 noon — for 1 hour. After 12 noon, it continued moving and reached City Q (350 km from City P) at 2 p.m. Total journey time from start (8 a.m.) to reach City Q (2 p.m.) = 6 hours (including 1 hour stop).\n\n---\n\n5 ಮಾರ್ಕ್ಸ್ × 1 question:"
+            },
+            {
+              "q_num": 8,
+              "marks": 5,
+              "question": "Draw a line graph for the following data and answer the questions.",
+              "answer": "PART A — Reading the graph:\n(a) The temperature was highest at 10 a.m. — it was 40°C.\n(b) The temperature was RISING from 6 a.m. to 10 a.m. (37°C → 40°C, an increase of 3°C).\n(c) The temperature was FALLING from 10 a.m. to 6 p.m. (40°C → 38°C → 35°C, a total fall of 5°C).\n(d) At 8 a.m. (not recorded), the graph is going upward between 6 a.m. (37°C) and 10 a.m. (40°C). So the graph SUGGESTS the temperature at 8 a.m. was MORE THAN 37°C — approximately 38.5°C.\n\nPART B — Calculations:\n(e) Fall from peak to end:\nPeak temperature (at 10 a.m.) = 40°C\nTemperature at end of recorded period (6 p.m.) = 35°C\nFall = 40 - 35 = 5°C\nSo the temperature fell by 5°C from its peak (10 a.m.) to the final recording (6 p.m.).\nThe graph line goes steeply downward from 10 a.m. to 6 p.m., visually showing this 5°C drop."
+            }
+          ]
+        },
+        {
+          "type": "mcq",
+          "label": "SUB-TOPIC 13.1.1: MCQs:",
+          "items": []
+        },
+        {
+          "type": "mcq",
+          "label": "MCQ",
+          "items": [
+            {
+              "mcq_num": 1,
+              "difficulty": "Easy",
+              "question": "A line graph displays data that:",
+              "options": {
+                "A": "Never changes   (B) Changes continuously over periods of time   (C) Is always the same   (D) Shows only one value"
+              },
+              "answer": "B",
+              "explanation": "The textbook definition says a LINE GRAPH displays data that changes continuously over periods of time."
+            },
+            {
+              "mcq_num": 2,
+              "difficulty": "Easy",
+              "question": "In a line graph, the data points are connected by:",
+              "options": {
+                "A": "Curves   (B) Vertical lines   (C) Line segments   (D) Dots"
+              },
+              "answer": "C",
+              "explanation": "In a line graph, the points are then CONNECTED BY LINE SEGMENTS."
+            },
+            {
+              "mcq_num": 3,
+              "difficulty": "Easy",
+              "question": "A line graph which is a whole unbroken line is called a:",
+              "options": {
+                "A": "Curve graph   (B) Bar graph   (C) Scatter graph   (D) Linear graph"
+              },
+              "answer": "D",
+              "explanation": "A line graph which is a whole unbroken line is called a LINEAR GRAPH."
+            },
+            {
+              "mcq_num": 4,
+              "difficulty": "Medium",
+              "question": "In a distance-time graph, what does a horizontal line segment tell us?",
+              "options": {
+                "A": "The vehicle is moving fast   (B) The vehicle has stopped   (C) The vehicle is reversing   (D) The vehicle is accelerating"
+              },
+              "answer": "B",
+              "explanation": "A horizontal line segment means the distance from the starting point did not change, which means the vehicle has STOPPED."
+            },
+            {
+              "mcq_num": 5,
+              "difficulty": "Medium",
+              "question": "In Example 13.1.1.1, during which match did both Batsman A and Batsman B score the same runs?",
+              "options": {
+                "A": "2nd match   (B) 3rd match   (C) 4th match   (D) 5th match"
+              },
+              "answer": "C",
+              "explanation": "Both graphs meet at the 4th match where both scored 60 runs."
+            },
+            {
+              "mcq_num": 6,
+              "difficulty": "Hard",
+              "question": "In Example 13.1.1.2, the car journey from City P to City Q, how far did the car travel during the 3rd hour (10 a.m. to 11 a.m.)?",
+              "options": {
+                "A": "100 km   (B) 150 km   (C) 50 km   (D) 200 km"
+              },
+              "answer": "C",
+              "explanation": "At 10 a.m. car was 150 km from P. At 11 a.m. car was 200 km from P. Distance in 3rd hour = 200 - 150 = 50 km."
+            }
+          ]
+        }
+      ],
+      "subtopics": []
+    },
+    {
+      "topic_num": "13.2",
+      "topic_name": "Some Applications",
+      "mode": "B",
+      "sections": [
+        {
+          "type": "definition",
+          "label": "Definition:",
+          "text": "When one quantity affects another, the INDEPENDENT VARIABLE (or CONTROL VARIABLE) is the quantity that is chosen freely or decides the value of the other quantity. The DEPENDENT VARIABLE is the quantity whose value depends on the independent variable. The relation between such variables can be shown through a GRAPH."
+        },
+        {
+          "type": "key_points",
+          "label": "Key Points:",
+          "points": [
+            "In everyday life, the more you use a facility, the more you pay for it. Example: if more electricity is consumed, the bill is bound to be high.",
+            "Amount of electric bill depends on the quantity of electricity used. So the quantity of electricity is the INDEPENDENT VARIABLE (or control variable) and the amount of electric bill is the DEPENDENT VARIABLE.",
+            "The relation between such variables can be shown through a graph.",
+            "When two quantities are in DIRECT VARIATION, their graph is always a straight line (LINEAR GRAPH) passing through the ORIGIN.",
+            "In such situations, the graph will always be linear."
+          ]
+        },
+        {
+          "type": "list_of_topics",
+          "label": "LIST OF SUB TOPICS IN THIS TOPIC:",
+          "items": [
+            "(No numbered sub-topics in textbook for Topic 13.2)",
+            "STEPS TO DRAW A GRAPH:",
+            "1. Find the quantities to be plotted (identify what goes on each axis).",
+            "2. Decide the quantities to be taken on x-axis and on y-axis.",
+            "3. Choose a scale.",
+            "4. Plot points.",
+            "5. Join the points.",
+            "EXAMPLES: (textbook examples)",
+            "EXAMPLE 13.2.1: (Quantity and Cost — Petrol)",
+            "PROBLEM:",
+            "The following table gives the quantity of petrol and its cost. Plot a graph to show the data.",
+            "No. of Litres of petrol:  10    15    20    25",
+            "Cost of petrol (in Rs):  500   750  1000  1250",
+            "SOLUTION:",
+            "Step 1: Decide axes — x-axis = No. of litres of petrol, y-axis = Cost of petrol (in Rs).",
+            "Step 2: Mark number of litres along the horizontal axis.",
+            "Step 3: Mark cost of petrol along the vertical axis.",
+            "Step 4: Plot the points: (10, 500), (15, 750), (20, 1000), (25, 1250).",
+            "Step 5: Join the points.",
+            "ANSWER:",
+            "We find that the graph is a LINE (Linear graph). It passes through the ORIGIN.",
+            "This is the graph of a situation in which two quantities are in DIRECT VARIATION.",
+            "In such situations, the graphs will always be linear.",
+            "This graph can help us estimate: to find the cost of 12 litres of petrol — locate 12 on the horizontal axis, follow the vertical line through 12 till you meet the graph at P (say), then follow the horizontal line through P to meet the vertical axis. This meeting point gives the answer: Rs 600.",
+            "EXAMPLE 13.2.2: (Principal and Simple Interest)",
+            "PROBLEM:",
+            "A bank gives 10% Simple Interest (S.I.) on deposits by senior citizens. Draw a graph to illustrate the relation between sum deposited and simple interest earned. Find from your graph:",
+            "(a) the annual interest obtainable for an investment of Rs 250.",
+            "(b) the investment one has to make to get an annual simple interest of Rs 70.",
+            "SOLUTION:",
+            "Step 1: Calculate S.I. for different deposits using formula S.I. = (P x R x T) / 100",
+            "For 1 year at 10%:",
+            "- Rs 100:  S.I. = (100 x 1 x 10) / 100 = Rs 10",
+            "- Rs 200:  S.I. = (200 x 1 x 10) / 100 = Rs 20",
+            "- Rs 300:  S.I. = (300 x 1 x 10) / 100 = Rs 30",
+            "- Rs 500:  S.I. = (500 x 1 x 10) / 100 = Rs 50",
+            "- Rs 1000: S.I. = (1000 x 1 x 10) / 100 = Rs 100",
+            "Step 2: Table of values:",
+            "Deposit (in Rs):      100   200   300   500   1000",
+            "Annual S.I. (in Rs):   10    20    30    50    100",
+            "Step 3: Choose scale (Fig 13.6):",
+            "- Horizontal axis: 1 unit = Rs 100",
+            "- Vertical axis: 1 unit = Rs 10",
+            "Step 4: Plot the points: (100, 10), (200, 20), (300, 30), (500, 50), (1000, 100)",
+            "Step 5: Join the points. We get a linear graph (straight line).",
+            "ANSWER:",
+            "(a) Corresponding to Rs 250 on horizontal axis, we get the interest to be Rs 25 on vertical axis.",
+            "(b) Corresponding to Rs 70 on the vertical axis, we get the sum to be Rs 700 on the horizontal axis.",
+            "EXAMPLE 13.2.3: (Time and Distance)",
+            "PROBLEM:",
+            "Ajit can ride a scooter constantly at a speed of 30 km/hour. Draw a time-distance graph for this situation. Use it to find:",
+            "(i) the time taken by Ajit to ride 75 km.",
+            "(ii) the distance covered by Ajit in 3(1/2) hours.",
+            "SOLUTION:",
+            "Step 1: Calculate distance for different hours using Distance = Speed x Time:",
+            "Hours of ride:           1      2      3      4",
+            "Distance covered (km):  30     60     90    120",
+            "(1 hour: 1 x 30 = 30 km)",
+            "(2 hours: 2 x 30 = 60 km)",
+            "(3 hours: 3 x 30 = 90 km)",
+            "(4 hours: 4 x 30 = 120 km)",
+            "Step 2: Choose scale (Fig 13.7):",
+            "- Horizontal axis: 2 units = 1 hour",
+            "- Vertical axis: 1 unit = 10 km",
+            "Step 3: Mark time on horizontal axis.",
+            "Step 4: Mark distance on vertical axis.",
+            "Step 5: Plot the points: (1, 30), (2, 60), (3, 90), (4, 120)",
+            "Step 6: Join the points. We get a LINEAR GRAPH.",
+            "ANSWER:",
+            "(i) Corresponding to 75 km on the vertical axis, we get the time to be 2.5 hours on the horizontal axis. Thus 2.5 hours are needed to cover 75 km.",
+            "(ii) Corresponding to 3(1/2) hours on the horizontal axis, the distance covered is 105 km on the vertical axis.",
+            "TRY THESE / THINK, DISCUSS AND WRITE:",
+            "Q1: The number of litres of petrol you buy to fill a car's petrol tank will decide the amount you have to pay. Which is the independent variable here?",
+            "A1: The NUMBER OF LITRES OF PETROL is the independent variable (control variable), because the amount you have to pay (cost) depends on how many litres you buy.",
+            "Q2: In Example 13.2.2 (Simple Interest), is it a case of direct variation?",
+            "A2: Yes, Example 13.2.2 (Simple Interest) is a case of DIRECT VARIATION. As the deposit (principal) increases, the simple interest also increases proportionally. The graph is a straight line passing through the origin, which confirms direct variation.",
+            "Q3: In Example 13.2.1 (Petrol and Cost), why does the graph pass through the origin?",
+            "A3: The graph passes through the origin because when litres of petrol = 0, the cost is also 0. This is the nature of DIRECT VARIATION — when one quantity is zero, the other is also zero."
+          ]
+        },
+        {
+          "type": "exercise",
+          "label": "EXERCISE 13.2:",
+          "items": [],
+          "raw": "1. Draw the graphs for the following tables of values, with suitable scales on the axes.\n(a) Cost of apples:\nNumber of apples:  1    2    3    4    5\nCost (in Rs):      5   10   15   20   25\n\n(b) Distance travelled by a car:\nTime (in hours):    6 a.m.   7 a.m.   8 a.m.   9 a.m.\nDistances (in km):   40       80       120      160\n(i) How much distance did the car cover during the period 7.30 a.m. to 8 a.m.?\n(ii) What was the time when the car had covered a distance of 100 km since it's start?\n\n(c) Interest on deposits for a year:\nDeposit (in Rs):         1000   2000   3000   4000   5000\nSimple Interest (in Rs):   80    160    240    320    400\n(i) Does the graph pass through the origin?\n(ii) Use the graph to find the interest on Rs 2500 for a year.\n(iii) To get an interest of Rs 280 per year, how much money should be deposited?\n\n2. Draw a graph for the following.\n(i) Side of square (in cm):  2    3    3.5    5    6\nPerimeter (in cm):       8   12    14    20   24\nIs it a linear graph?\n\n(ii) Side of square (in cm):  2    3    4    5    6\nArea (in cm²):           4    9   16   25   36\nIs it a linear graph?"
+        },
+        {
+          "type": "qa",
+          "label": "TOPIC 13.2: Q&A",
+          "items": []
+        },
+        {
+          "type": "qa",
+          "label": "Q&A",
+          "items": [
+            {
+              "q_num": 1,
+              "marks": 2,
+              "question": "What is an independent variable? Give one example.",
+              "answer": "An INDEPENDENT VARIABLE (also called control variable) is the quantity that is chosen freely and decides the value of another quantity.\nExample: The quantity of electricity consumed is the independent variable — because it decides how high the electric bill will be."
+            },
+            {
+              "q_num": 2,
+              "marks": 2,
+              "question": "What is a dependent variable? Give one example.",
+              "answer": "A DEPENDENT VARIABLE is the quantity whose value depends on (is controlled by) the independent variable.\nExample: The amount of electric bill is the dependent variable — because its value depends on how much electricity was consumed."
+            },
+            {
+              "q_num": 3,
+              "marks": 2,
+              "question": "When two quantities are in direct variation, what kind of graph do they produce?",
+              "answer": "When two quantities are in DIRECT VARIATION, their graph is always a STRAIGHT LINE (linear graph) that passes through the ORIGIN (0, 0).\nExample: In Example 13.2.1, as litres of petrol increases, cost increases proportionally → straight line through origin.\n\n---\n\n3 ಮಾರ್ಕ್ಸ್ × 2 questions:"
+            },
+            {
+              "q_num": 4,
+              "marks": 3,
+              "question": "In Example 13.2.1 (Petrol and Cost), why does the graph pass through the origin? What does this tell us about the relationship between litres and cost?",
+              "answer": "Step 1: The data points are (10, 500), (15, 750), (20, 1000), (25, 1250). When we extend the line backward to x = 0, the line passes through (0, 0) — the ORIGIN.\n\nStep 2: This makes sense because when litres of petrol = 0, the cost is also 0. You buy nothing, you pay nothing.\n\nStep 3: This shows that petrol and cost are in DIRECT VARIATION. Cost = Rs 50 per litre. As the number of litres increases, the cost increases proportionally by the same rate. Any two quantities where y = k × x (a constant multiple) will always produce a graph that is a straight line through the origin."
+            },
+            {
+              "q_num": 5,
+              "marks": 3,
+              "question": "In Example 13.2.2 (Simple Interest), what is the annual S.I. for a deposit of Rs 300 at 10%? Show full working. Also find the deposit needed to earn S.I. of Rs 70.",
+              "answer": "Step 1 — S.I. for Rs 300:\nFormula: S.I. = (P × R × T) / 100\nS.I. = (300 × 1 × 10) / 100\nS.I. = 3000 / 100\nS.I. = Rs 30\n\nStep 2 — Deposit for S.I. of Rs 70 (using graph reading):\nFrom the graph (Fig 13.6), corresponding to Rs 70 on the vertical axis (S.I. axis), the value on the horizontal axis (deposit axis) is Rs 700.\n\nStep 3 — Verification: S.I. = (700 × 1 × 10) / 100 = 7000 / 100 = Rs 70. ✓\nSo a deposit of Rs 700 earns Rs 70 S.I. per year at 10%.\n\n---\n\n4 ಮಾರ್ಕ್ಸ್ × 2 questions:"
+            },
+            {
+              "q_num": 6,
+              "marks": 4,
+              "question": "In Example 13.2.3, Ajit rides a scooter at 30 km/hour. Draw a time-distance table, find the time to ride 75 km, and the distance covered in 3(1/2) hours.",
+              "answer": "Step 1 — Build table using Distance = Speed × Time:\n1 hour:  1 × 30 = 30 km\n2 hours: 2 × 30 = 60 km\n3 hours: 3 × 30 = 90 km\n4 hours: 4 × 30 = 120 km\nTable: Time(hr): 1, 2, 3, 4 | Distance(km): 30, 60, 90, 120\n\nStep 2 — Plot graph: Scale: Horizontal 2 units = 1 hour, Vertical 1 unit = 10 km. Points: (1,30), (2,60), (3,90), (4,120). Join → LINEAR GRAPH through origin.\n\nStep 3 — Find time for 75 km:\nFrom graph, locate 75 on vertical axis → move horizontally to meet the line → go down to horizontal axis → reads 2.5 hours.\nVerification: Distance = Speed × Time → 75 = 30 × T → T = 75/30 = 2.5 hours. ✓\n\nStep 4 — Find distance in 3.5 hours:\nFrom graph, locate 3.5 on horizontal axis → move vertically to meet the line → move left to vertical axis → reads 105 km.\nVerification: Distance = 30 × 3.5 = 105 km. ✓"
+            },
+            {
+              "q_num": 7,
+              "marks": 4,
+              "question": "In Exercise 13.2, Question 1(c), deposits and simple interest are given. Deposit: Rs 1000→SI Rs 80, Rs 2000→SI Rs 160, Rs 3000→SI Rs 240, Rs 4000→SI Rs 320, Rs 5000→SI Rs 400. (i) Does the graph pass through the origin? (ii) Find the interest on Rs 2500. (iii) What deposit is needed for Rs 280 interest?",
+              "answer": "Step 1 — Check direct variation: SI / Deposit = 80/1000 = 0.08 = 8%. This ratio is constant for all values (160/2000 = 0.08, 240/3000 = 0.08). So it IS direct variation → the graph PASSES THROUGH THE ORIGIN. Yes.\n\nStep 2 — Interest on Rs 2500:\nSince SI per Rs 1000 = Rs 80, SI per Rs 1 = 80/1000 = 0.08.\nSI for Rs 2500 = 2500 × 0.08 = Rs 200.\nAlso by graph reading: Rs 2500 lies between Rs 2000 (SI=160) and Rs 3000 (SI=240). Midpoint = Rs 200. ✓\n\nStep 3 — Deposit for Rs 280 interest:\nDeposit needed = SI / 0.08 = 280 / 0.08 = Rs 3500.\nVerification: SI on Rs 3500 = 3500 × 0.08 = Rs 280. ✓\nAlso from graph: Rs 280 lies between Rs 240 (for Rs 3000) and Rs 320 (for Rs 4000). Midpoint deposit = Rs 3500. ✓\n\nStep 4 — Summary: (i) Yes, graph passes through origin. (ii) SI on Rs 2500 = Rs 200. (iii) Deposit needed for Rs 280 SI = Rs 3500.\n\n---\n\n5 ಮಾರ್ಕ್ಸ್ × 1 question:"
+            },
+            {
+              "q_num": 8,
+              "marks": 5,
+              "question": "The following two situations are given. For each, (a) make a table of values, (b) draw a graph, (c) identify whether it is a linear graph, (d) find the answer to the specific question asked.",
+              "answer": "PART A — Perimeter of square (Situation 1):\nFormula: Perimeter = 4 × side\nTable:\nSide (cm):       2    3    3.5    5    6\nPerimeter (cm):  8   12    14    20   24\n\nGraph: Plot points (2,8), (3,12), (3.5,14), (5,20), (6,24). Join the points.\nResult: The points lie on a STRAIGHT LINE → it IS a LINEAR GRAPH.\nReason: Perimeter = 4 × side. Since Perimeter = 4 × side (a constant × variable), it is direct variation. Direct variation always gives a linear graph through the origin.\nFinding perimeter for side = 4 cm: From graph, at x = 4, y = 16 cm. Verification: 4 × 4 = 16 cm. ✓\n\nPART B — Area of square (Situation 2):\nFormula: Area = side × side = side²\nTable:\nSide (cm):   2    3    4    5    6\nArea (cm²):  4    9   16   25   36\n\nGraph: Plot points (2,4), (3,9), (4,16), (5,25), (6,36). Join the points.\nResult: The points do NOT lie on a straight line → it is NOT a linear graph.\nReason: Area = side² (not a constant × side). As the side increases, the area increases faster and faster (by the square). This creates a CURVE (non-linear graph), not a straight line. It is not a case of direct variation. Only when y = constant × x (direct proportion) do we get a linear graph."
+            }
+          ]
+        },
+        {
+          "type": "mcq",
+          "label": "TOPIC 13.2: MCQs:",
+          "items": []
+        },
+        {
+          "type": "mcq",
+          "label": "MCQ",
+          "items": [
+            {
+              "mcq_num": 1,
+              "difficulty": "Easy",
+              "question": "The quantity of electricity used is called the:",
+              "options": {
+                "A": "Dependent variable   (B) Independent variable   (C) Fixed variable   (D) Constant"
+              },
+              "answer": "B",
+              "explanation": "The quantity of electricity is the INDEPENDENT VARIABLE (or control variable) because it decides the electric bill amount."
+            },
+            {
+              "mcq_num": 2,
+              "difficulty": "Easy",
+              "question": "In Example 13.2.1, the cost of 20 litres of petrol is:",
+              "options": {
+                "A": "Rs 500   (B) Rs 750   (C) Rs 1000   (D) Rs 1250"
+              },
+              "answer": "C",
+              "explanation": "From the table: No. of litres = 20, Cost = Rs 1000."
+            },
+            {
+              "mcq_num": 3,
+              "difficulty": "Easy",
+              "question": "In Example 13.2.2, the annual simple interest for a deposit of Rs 500 at 10% is:",
+              "options": {
+                "A": "Rs 30   (B) Rs 50   (C) Rs 100   (D) Rs 20"
+              },
+              "answer": "B",
+              "explanation": "S.I. = (500 x 1 x 10) / 100 = Rs 50."
+            },
+            {
+              "mcq_num": 4,
+              "difficulty": "Medium",
+              "question": "In Example 13.2.3, the time taken by Ajit to ride 75 km at 30 km/hour is:",
+              "options": {
+                "A": "2 hours   (B) 3 hours   (C) 2.5 hours   (D) 1.5 hours"
+              },
+              "answer": "C",
+              "explanation": "From the graph, corresponding to 75 km on vertical axis, time = 2.5 hours. Also: 75 / 30 = 2.5 hours."
+            },
+            {
+              "mcq_num": 5,
+              "difficulty": "Medium",
+              "question": "When two quantities are in direct variation, their graph is always:",
+              "options": {
+                "A": "A curve   (B) A vertical line   (C) A straight line passing through the origin   (D) A horizontal line"
+              },
+              "answer": "C",
+              "explanation": "When two quantities are in DIRECT VARIATION, the graph is always a straight line (linear graph) that passes through the origin."
+            },
+            {
+              "mcq_num": 6,
+              "difficulty": "Medium",
+              "question": "In Example 13.2.3, the distance covered by Ajit in 3.5 hours at 30 km/hour is:",
+              "options": {
+                "A": "90 km   (B) 100 km   (C) 120 km   (D) 105 km"
+              },
+              "answer": "D",
+              "explanation": "Distance = Speed x Time = 30 x 3.5 = 105 km."
+            },
+            {
+              "mcq_num": 7,
+              "difficulty": "Hard",
+              "question": "In Example 13.2.1 (Petrol and Cost), using the graph, the cost of 12 litres of petrol is:",
+              "options": {
+                "A": "Rs 500   (B) Rs 600   (C) Rs 650   (D) Rs 700"
+              },
+              "answer": "B",
+              "explanation": "Cost per litre = Rs 500 / 10 litres = Rs 50 per litre. Cost for 12 litres = 12 x 50 = Rs 600."
+            }
+          ]
+        }
+      ],
+      "subtopics": []
+    }
+  ]
+}

@@ -1,0 +1,1308 @@
+{
+  "metadata": {
+    "class": "10TH STANDARD",
+    "subject": "MATHEMATICS",
+    "part": "1",
+    "chapter_num": "7",
+    "chapter_name": "COORDINATE GEOMETRY",
+    "source": "KSEEB Textbook 2025-26",
+    "mode": "B"
+  },
+  "chapter_sections": [
+    {
+      "type": "definition",
+      "label": "Definition:",
+      "text": "- COORDINATE GEOMETRY is an algebraic tool for studying geometry of figures — it helps study geometry using algebra and understand algebra using geometry.\n- X-COORDINATE (ABSCISSA): The distance of a point from the y-axis.\n- Y-COORDINATE (ORDINATE): The distance of a point from the x-axis."
+    },
+    {
+      "type": "key_points",
+      "label": "Key Points:",
+      "points": [
+        "To locate a point on a plane, a pair of COORDINATE AXES is needed.",
+        "A point on the x-axis: form (x, 0). A point on the y-axis: form (0, y).",
+        "Linear equation ax + by + c = 0 (a, b not simultaneously zero) → STRAIGHT LINE.",
+        "y = ax² + bx + c (a ≠ 0) → PARABOLA.",
+        "Coordinate geometry applied in physics, engineering, navigation, seismology and art.",
+        "Chapter covers: DISTANCE FORMULA and SECTION FORMULA."
+      ]
+    },
+    {
+      "type": "list_of_topics",
+      "label": "LIST OF TOPICS IN THIS CHAPTER:",
+      "items": [
+        "- Topic 7.1: Introduction",
+        "- Topic 7.2: Distance Formula",
+        "- Topic 7.3: Section Formula",
+        "(Note: No sub-topics in textbook for any topic — Mode B)"
+      ]
+    },
+    {
+      "type": "qa",
+      "label": "CHAPTER 7: Q&A:",
+      "items": []
+    },
+    {
+      "type": "mcq",
+      "label": "CHAPTER 7: MCQs:",
+      "items": [
+        {
+          "mcq_num": 1,
+          "difficulty": "Easy",
+          "question": "Distance between P(x₁, y₁) and Q(x₂, y₂) is:",
+          "options": {
+            "A": "(x₂–x₁) + (y₂–y₁)  (B) sqrt[(x₂–x₁)² + (y₂–y₁)²]",
+            "C": "(x₂–x₁)² + (y₂–y₁)²  (D) (x₂+x₁)² + (y₂+y₁)²"
+          },
+          "answer": "B",
+          "explanation": "Option (B) is correct based on the definition/theorem."
+        },
+        {
+          "mcq_num": 2,
+          "difficulty": "Easy",
+          "question": "Distance of P(3, 4) from origin:",
+          "options": {
+            "A": "3  (B) 4  (C) 5  (D) 7"
+          },
+          "answer": "C",
+          "explanation": "The correct answer is (C) 5."
+        },
+        {
+          "mcq_num": 3,
+          "difficulty": "Easy",
+          "question": "Mid-point of P(x₁, y₁) and Q(x₂, y₂) is:",
+          "options": {
+            "A": "[(x₁–x₂)/2, (y₁–y₂)/2]  (B) [(x₁+x₂)/2, (y₁+y₂)/2]",
+            "C": "[(x₁×x₂), (y₁×y₂)]  (D) [(x₁+x₂), (y₁+y₂)]"
+          },
+          "answer": "B",
+          "explanation": "Option (B) is correct based on the definition/theorem."
+        },
+        {
+          "mcq_num": 4,
+          "difficulty": "Easy",
+          "question": "Which theorem is used to derive the distance formula?",
+          "options": {
+            "A": "Thales  (B) Pythagoras  (C) Mid-Point  (D) BPT"
+          },
+          "answer": "B",
+          "explanation": "The correct answer is (B) Pythagoras."
+        },
+        {
+          "mcq_num": 5,
+          "difficulty": "Easy",
+          "question": "Trisection points of AB divide AB in ratios:",
+          "options": {
+            "A": "1:2 and 2:1  (B) 1:3 and 3:1  (C) 2:3 and 3:2  (D) 1:1 and 2:2"
+          },
+          "answer": "A",
+          "explanation": "The correct answer is (A) 1:2 and 2:1."
+        },
+        {
+          "mcq_num": 6,
+          "difficulty": "Medium",
+          "question": "The distance between (–5, 7) and (–1, 3):",
+          "options": {
+            "A": "4sqrt(2)  (B) 4  (C) sqrt(8)  (D) sqrt(40)"
+          },
+          "answer": "A",
+          "explanation": "Option (A) is correct based on the definition/theorem."
+        },
+        {
+          "mcq_num": 7,
+          "difficulty": "Medium",
+          "question": "Points A, B, C are collinear if:",
+          "options": {
+            "A": "AB = BC  (B) AB + BC = AC  (C) AB × BC = AC  (D) AB – BC = AC"
+          },
+          "answer": "B",
+          "explanation": "The correct answer is (B) AB + BC = AC."
+        },
+        {
+          "mcq_num": 8,
+          "difficulty": "Medium",
+          "question": "To prove ABCD is a square, which conditions must hold?",
+          "options": {
+            "A": "All four sides equal only  (B) Both diagonals equal only",
+            "C": "All four sides equal AND both diagonals equal  (D) Opposite sides equal"
+          },
+          "answer": "C",
+          "explanation": "The correct answer is (C) All four sides equal AND both diagonals equal."
+        },
+        {
+          "mcq_num": 9,
+          "difficulty": "Medium",
+          "question": "P divides segment joining (–1,7) and (4,–3) in ratio 2:3. Coordinates of P:",
+          "options": {
+            "A": "(2, 3)  (B) (1, 3)  (C) (3, 1)  (D) (0, 5)"
+          },
+          "answer": "B",
+          "explanation": "Option (B) is correct based on the definition/theorem."
+        },
+        {
+          "mcq_num": 10,
+          "difficulty": "Medium",
+          "question": "If A(6,1), B(8,2), C(9,4), D(p,3) are vertices of parallelogram, p =",
+          "options": {
+            "A": "5  (B) 6  (C) 7  (D) 8"
+          },
+          "answer": "C",
+          "explanation": "The correct answer is (C) 7."
+        },
+        {
+          "mcq_num": 11,
+          "difficulty": "Medium",
+          "question": "The y-axis divides segment joining (5,–6) and (–1,–4) in ratio:",
+          "options": {
+            "A": "1:5  (B) 5:1  (C) 1:1  (D) 2:3"
+          },
+          "answer": "B",
+          "explanation": "The correct answer is (B) 5:1."
+        },
+        {
+          "mcq_num": 12,
+          "difficulty": "Hard",
+          "question": "Points (1,7), (4,2), (–1,–1) and (–4,4) form a:",
+          "options": {
+            "A": "Rectangle  (B) Rhombus  (C) Square  (D) Parallelogram"
+          },
+          "answer": "C",
+          "explanation": "The correct answer is (C) Square."
+        },
+        {
+          "mcq_num": 13,
+          "difficulty": "Hard",
+          "question": "A relation between x and y such that (x, y) is equidistant from (7,1) and (3,5):",
+          "options": {
+            "A": "x + y = 2  (B) x – y = 2  (C) 2x – y = 0  (D) x + 2y = 5"
+          },
+          "answer": "B",
+          "explanation": "The correct answer is (B) x – y = 2."
+        },
+        {
+          "mcq_num": 14,
+          "difficulty": "Hard",
+          "question": "A and B are (–2,–2) and (2,–4). AP = (3/7)AB, P lies on AB. Coordinates of P:",
+          "options": {
+            "A": "(–2/7, –20/7)  (B) (2/7, 20/7)  (C) (–2/7, 20/7)  (D) (2/7, –20/7)"
+          },
+          "answer": "A",
+          "explanation": "Option (A) is correct based on the definition/theorem."
+        },
+        {
+          "mcq_num": 15,
+          "difficulty": "Hard",
+          "question": "Area of rhombus with vertices (3,0),(4,5),(–1,4),(–2,–1):",
+          "options": {
+            "A": "24 sq units  (B) 48 sq units  (C) 12 sq units  (D) 36 sq units"
+          },
+          "answer": "A",
+          "explanation": "The correct answer is (A) 24 sq units."
+        }
+      ]
+    }
+  ],
+  "topics": [
+    {
+      "topic_num": "7.1",
+      "topic_name": "INTRODUCTION",
+      "mode": "B",
+      "sections": [
+        {
+          "type": "definition",
+          "label": "Definition:",
+          "text": "- COORDINATE GEOMETRY is an algebraic tool for studying geometry of figures.\n- X-COORDINATE (ABSCISSA): The distance of a point from the y-axis.\n- Y-COORDINATE (ORDINATE): The distance of a point from the x-axis."
+        },
+        {
+          "type": "key_points",
+          "label": "Key Points:",
+          "points": [
+            "A pair of COORDINATE AXES is needed to locate any point on a plane.",
+            "Point on x-axis: form (x, 0). Point on y-axis: form (0, y).",
+            "A LINEAR EQUATION ax + by + c = 0 (a, b not simultaneously zero) represents a STRAIGHT LINE.",
+            "y = ax² + bx + c (a ≠ 0) is a PARABOLA (Chapter 2).",
+            "Coordinate geometry is widely applied in physics, engineering, navigation, seismology and art.",
+            "Chapter 7 topics: (1) Distance between two points, (2) Coordinates of point dividing a segment in given ratio."
+          ]
+        },
+        {
+          "type": "list_of_topics",
+          "label": "LIST OF SUB TOPICS IN THIS TOPIC:",
+          "items": [
+            "(No sub-topics — Mode B)"
+          ]
+        },
+        {
+          "type": "qa",
+          "label": "TOPIC 7.1: Q&A:",
+          "items": []
+        },
+        {
+          "type": "qa",
+          "label": "Q&A",
+          "items": [
+            {
+              "q_num": 1,
+              "marks": 2,
+              "question": "What is coordinate geometry? Name two fields of application.",
+              "answer": "COORDINATE GEOMETRY is an algebraic tool for studying geometry of figures.\nIt helps study geometry using algebra and understand algebra using geometry.\nApplications: Physics, engineering, navigation, seismology, and art."
+            },
+            {
+              "q_num": 2,
+              "marks": 2,
+              "question": "Define abscissa and ordinate. What are the coordinates of points on x-axis and y-axis?",
+              "answer": "ABSCISSA (x-coordinate): Distance of point from y-axis.\nORDINATE (y-coordinate): Distance of point from x-axis.\nPoint on x-axis: (x, 0) -- y-coordinate = 0.\nPoint on y-axis: (0, y) -- x-coordinate = 0."
+            },
+            {
+              "q_num": 3,
+              "marks": 2,
+              "question": "What does ax + by + c = 0 represent graphically? What about y = ax^2 + bx + c?",
+              "answer": "ax + by + c = 0 (a,b not simultaneously zero) -> STRAIGHT LINE.\ny = ax^2 + bx + c (a =/= 0) -> PARABOLA (studied in Chapter 2)."
+            },
+            {
+              "q_num": 4,
+              "marks": 2,
+              "question": "A point P(a,b) lies on x-axis. What condition must hold? If Q lies on y-axis at distance 6 from x-axis, write coordinates of Q.",
+              "answer": "P on x-axis -> b = 0.\nQ on y-axis, distance 6 from x-axis -> x=0, y=6 or -6.\nCoordinates of Q: (0,6) or (0,-6).\n\n---\n\n3 Marks x 3 questions:"
+            },
+            {
+              "q_num": 5,
+              "marks": 3,
+              "question": "Explain how coordinate geometry connects algebra and geometry. Give one example each way.",
+              "answer": "Step 1: GEOMETRY using ALGEBRA: The equation x^2+y^2=r^2 represents a circle with centre at origin and radius r. Algebraic equation describes a geometric shape.\nStep 2: ALGEBRA using GEOMETRY: Linear equation 2x+3y=6 is plotted as a straight line. The intersection of two lines gives the solution of simultaneous equations geometrically.\nStep 3: Conclusion: Coordinate geometry is a BRIDGE between algebra and geometry, enabling problems to be solved both ways."
+            },
+            {
+              "q_num": 6,
+              "marks": 3,
+              "question": "Name three real-life fields where coordinate geometry is applied and explain briefly.",
+              "answer": "Step 1: NAVIGATION -- GPS uses coordinate systems. A ship's/plane's position is given as coordinates (longitude, latitude).\nStep 2: ENGINEERING -- Building blueprints use coordinate geometry. Every structural point is plotted on axes.\nStep 3: SEISMOLOGY -- Earthquake epicenters are located using coordinate geometry, calculating distances from multiple seismograph stations."
+            },
+            {
+              "q_num": 7,
+              "marks": 3,
+              "question": "Identify the quadrant in which each point lies: (3,4), (-2,5), (-1,-3), (4,-2). Also state the coordinates of origin.",
+              "answer": "Step 1: Quadrants: I(+,+), II(-,+), III(-,-), IV(+,-). Origin = (0,0).\nStep 2: (3,4): x>0, y>0 -> Quadrant I.\n(-2,5): x<0, y>0 -> Quadrant II.\n(-1,-3): x<0, y<0 -> Quadrant III.\nStep 3: (4,-2): x>0, y<0 -> Quadrant IV.\n\n---\n\n4 Marks x 4 questions:"
+            },
+            {
+              "q_num": 8,
+              "marks": 4,
+              "question": "In the introductory activity, points A to L are joined to form a picture. Explain: (i) how to plot A(3,1), (ii) how this shows coordinate geometry is used in graphics, (iii) why each pair of coordinates gives a unique point.",
+              "answer": "Step 1: Plotting A(3,1): Start at origin. Move 3 units right along x-axis (x=3). Then move 1 unit up parallel to y-axis (y=1). Mark the point. This is A(3,1).\nStep 2: Joining the plotted points A,B,C...L in order creates a picture/figure. Similarly, computer graphics use millions of coordinate points to create images on screen.\nStep 3: Each ordered pair (x,y) is unique because x gives a unique position along x-axis and y gives a unique position along y-axis. Two different pairs cannot give the same point -- the combination is always unique.\nStep 4: Application: In computer games, each character or object has coordinate positions. Moving objects means changing their (x,y) values. Coordinate geometry is the mathematical foundation of all computer graphics."
+            },
+            {
+              "q_num": 9,
+              "marks": 4,
+              "question": "Town B is 36 km east and 15 km north of town A. Taking A as origin, find coordinates of B. Without direct measurement, how would you find AB? Calculate AB.",
+              "answer": "Step 1: Take A as origin (0,0). East = positive x. North = positive y.\nB is 36 km east and 15 km north of A -> B = (36, 15).\nStep 2: Coordinates give us the positions algebraically. We cannot physically measure the straight-line distance (roads are not straight). But with coordinates, we can use the Distance Formula.\nStep 3: Distance formula: AB = sqrt[(36-0)^2+(15-0)^2] = sqrt[1296+225] = sqrt(1521) = 39 km.\nStep 4: Without coordinate geometry, this calculation would require laying out a right triangle on the ground. The formula allows it to be done ALGEBRAICALLY without any physical measurement."
+            },
+            {
+              "q_num": 10,
+              "marks": 4,
+              "question": "A(3,1), B(6,4) and C(8,6) are positions of three students in a classroom. Using distance formula, determine if they are seated in a line.",
+              "answer": "Step 1: AB = sqrt[(6-3)^2+(4-1)^2] = sqrt[9+9] = sqrt(18) = 3sqrt(2).\nStep 2: BC = sqrt[(8-6)^2+(6-4)^2] = sqrt[4+4] = sqrt(8) = 2sqrt(2).\nStep 3: AC = sqrt[(8-3)^2+(6-1)^2] = sqrt[25+25] = sqrt(50) = 5sqrt(2).\nStep 4: AB + BC = 3sqrt(2) + 2sqrt(2) = 5sqrt(2) = AC.\nSince AB + BC = AC, points are COLLINEAR. The students are seated in a straight line."
+            },
+            {
+              "q_num": 11,
+              "marks": 4,
+              "question": "Two towns A and B are located in a coordinate system. A is at origin and B is at (36,15) km. A relay tower P needs to be placed such that distance from B is twice the distance from A. Find coordinates of P.",
+              "answer": "Step 1: Distance from A = PA, distance from B = PB. PB = 2*PA -> PA:PB = 1:2.\nP divides AB internally in ratio 1:2.\nStep 2: A=(0,0), B=(36,15), ratio 1:2.\nUsing section formula with m1=1, m2=2:\nx = (1*36+2*0)/(1+2) = 36/3 = 12.\ny = (1*15+2*0)/(1+2) = 15/3 = 5.\nStep 3: P = (12, 5).\nStep 4: Verify: PA = sqrt[12^2+5^2] = sqrt[144+25] = sqrt(169) = 13 km.\nPB = sqrt[(36-12)^2+(15-5)^2] = sqrt[576+100] = sqrt(676) = 26 km.\nPB = 2*PA = 2*13 = 26. Correct.\n\n---\n\n5 Marks x 1 question:"
+            },
+            {
+              "q_num": 12,
+              "marks": 5,
+              "question": "",
+              "answer": "PART A - Cartesian Coordinate System:\nStep 1: Two perpendicular lines: HORIZONTAL x-axis and VERTICAL y-axis. They meet at ORIGIN O(0,0).\nABSCISSA (x-coordinate): Horizontal distance from y-axis. Positive right, negative left.\nORDINATE (y-coordinate): Vertical distance from x-axis. Positive up, negative down.\nStep 2: Points on axes:\nOn x-axis: y=0, coordinates = (x,0).\nOn y-axis: x=0, coordinates = (0,y).\nOrigin = (0,0).\nStep 3: Four QUADRANTS:\nI: (x>0, y>0) -- upper right.\nII: (x<0, y>0) -- upper left.\nIII: (x<0, y<0) -- lower left.\nIV: (x>0, y<0) -- lower right.\nStep 4: Every point on the plane has a unique pair of coordinates (x,y) and every pair of coordinates gives a unique point. This one-to-one correspondence is the foundation of coordinate geometry.\n\nPART B - GPS Calculation:\nStep 1: A=(12,5), B=(36,15).\n(i) AB = sqrt[(36-12)^2+(15-5)^2] = sqrt[576+100] = sqrt(676) = 26 km.\nStep 2: (ii) P divides AB in ratio PA:PB = 1:2. m1=1, m2=2.\nx = (1*36+2*12)/(1+2) = (36+24)/3 = 60/3 = 20.\ny = (1*15+2*5)/(1+2) = (15+10)/3 = 25/3.\nP = (20, 25/3).\nStep 3: (iii) Midpoint M = [(12+36)/2,(5+15)/2] = [48/2, 20/2] = (24,10).\nStep 4: Summary: AB = 26 km. Relay tower P = (20, 25/3). Midpoint M = (24,10)."
+            }
+          ]
+        },
+        {
+          "type": "mcq",
+          "label": "TOPIC 7.1: MCQs:",
+          "items": [
+            {
+              "mcq_num": 1,
+              "difficulty": "Easy",
+              "question": "Distance of a point from y-axis is called its:",
+              "options": {
+                "A": "Ordinate  (B) Abscissa  (C) Coordinate  (D) Origin"
+              },
+              "answer": "B",
+              "explanation": "The correct answer is (B) Abscissa."
+            },
+            {
+              "mcq_num": 2,
+              "difficulty": "Easy",
+              "question": "A point on y-axis has coordinates of form:",
+              "options": {
+                "A": "(x, 0)  (B) (0, y)  (C) (x, y)  (D) (0, 0)"
+              },
+              "answer": "B",
+              "explanation": "Option (B) is correct based on the definition/theorem."
+            },
+            {
+              "mcq_num": 3,
+              "difficulty": "Easy",
+              "question": "Graph of ax + by + c = 0 (a, b not simultaneously zero) is:",
+              "options": {
+                "A": "Parabola  (B) Circle  (C) Straight line  (D) Hyperbola"
+              },
+              "answer": "C",
+              "explanation": "The correct answer is (C) Straight line."
+            },
+            {
+              "mcq_num": 4,
+              "difficulty": "Easy",
+              "question": "Coordinate geometry is an algebraic tool for studying:",
+              "options": {
+                "A": "Arithmetic  (B) Geometry  (C) Trigonometry  (D) Statistics"
+              },
+              "answer": "B",
+              "explanation": "The correct answer is (B) Geometry."
+            },
+            {
+              "mcq_num": 5,
+              "difficulty": "Easy",
+              "question": "y-coordinate of any point on x-axis is:",
+              "options": {
+                "A": "1  (B) Undefined  (C) 0  (D) x"
+              },
+              "answer": "C",
+              "explanation": "The correct answer is (C) 0."
+            },
+            {
+              "mcq_num": 6,
+              "difficulty": "Medium",
+              "question": "Coordinates of a point on x-axis at distance 4 from origin:",
+              "options": {
+                "A": "(0, 4)  (B) (4, 0) or (–4, 0)  (C) (4, 4)  (D) (0, –4)"
+              },
+              "answer": "B",
+              "explanation": "Option (B) is correct based on the definition/theorem."
+            },
+            {
+              "mcq_num": 7,
+              "difficulty": "Medium",
+              "question": "Graph of y = ax² + bx + c (a ≠ 0) is:",
+              "options": {
+                "A": "Straight line  (B) Circle  (C) Parabola  (D) Ellipse"
+              },
+              "answer": "C",
+              "explanation": "The correct answer is (C) Parabola."
+            },
+            {
+              "mcq_num": 8,
+              "difficulty": "Medium",
+              "question": "In coordinate geometry, a point's position is located using:",
+              "options": {
+                "A": "A single axis  (B) A pair of coordinate axes  (C) Three axes  (D) A compass"
+              },
+              "answer": "B",
+              "explanation": "The correct answer is (B) A pair of coordinate axes."
+            },
+            {
+              "mcq_num": 9,
+              "difficulty": "Medium",
+              "question": "Which point lies on the y-axis?",
+              "options": {
+                "A": "(3, 0)  (B) (0, –5)  (C) (2, 3)  (D) (1, 1)"
+              },
+              "answer": "B",
+              "explanation": "Option (B) is correct based on the definition/theorem."
+            },
+            {
+              "mcq_num": 10,
+              "difficulty": "Medium",
+              "question": "x-coordinate of a point P is 0. Where does P lie?",
+              "options": {
+                "A": "On x-axis  (B) At origin  (C) On y-axis  (D) First quadrant"
+              },
+              "answer": "C",
+              "explanation": "The correct answer is (C) On y-axis."
+            },
+            {
+              "mcq_num": 11,
+              "difficulty": "Medium",
+              "question": "Coordinate geometry is applied in which fields?",
+              "options": {
+                "A": "Physics and engineering only  (B) Navigation and seismology only",
+                "C": "Art only  (D) Physics, engineering, navigation, seismology and art"
+              },
+              "answer": "D",
+              "explanation": "The correct answer is (D) Physics, engineering, navigation, seismology and art."
+            },
+            {
+              "mcq_num": 12,
+              "difficulty": "Hard",
+              "question": "A point P(a, b) lies on x-axis. Which condition must be true?",
+              "options": {
+                "A": "a = 0  (B) b = 0  (C) a = b  (D) a + b = 0"
+              },
+              "answer": "B",
+              "explanation": "The correct answer is (B) b = 0."
+            },
+            {
+              "mcq_num": 13,
+              "difficulty": "Hard",
+              "question": "A linear equation in two variables represents a straight line if:",
+              "options": {
+                "A": "y = ax² + bx + c  (B) ax + by + c = 0 where a, b not simultaneously zero",
+                "C": "ax² + bx = 0  (D) x² + y² = r²"
+              },
+              "answer": "B",
+              "explanation": "The correct answer is (B) ax + by + c = 0 where a, b not simultaneously zero."
+            },
+            {
+              "mcq_num": 14,
+              "difficulty": "Hard",
+              "question": "A(–3, 0) and B(0, 4). Which statement is true?",
+              "options": {
+                "A": "Both A and B on x-axis  (B) A on x-axis, B on y-axis",
+                "C": "Both on y-axis  (D) A on y-axis, B on x-axis"
+              },
+              "answer": "B",
+              "explanation": "The correct answer is (B) A on x-axis, B on y-axis."
+            },
+            {
+              "mcq_num": 15,
+              "difficulty": "Hard",
+              "question": "The introductory activity of plotting given points on graph paper forms:",
+              "options": {
+                "A": "A straight line  (B) A picture/figure  (C) A parabola  (D) A circle"
+              },
+              "answer": "B",
+              "explanation": "The correct answer is (B) A picture/figure."
+            }
+          ]
+        }
+      ],
+      "subtopics": []
+    },
+    {
+      "topic_num": "7.2",
+      "topic_name": "DISTANCE FORMULA",
+      "mode": "B",
+      "sections": [
+        {
+          "type": "definition",
+          "label": "Definition:",
+          "text": "- DISTANCE FORMULA: The distance between any two points P(x₁, y₁) and Q(x₂, y₂) is:\nPQ = sqrt[(x₂ – x₁)² + (y₂ – y₁)²]\n- EQUIDISTANT POINT: A point P(x, y) equidistant from A and B satisfies PA = PB (i.e., PA² = PB²)."
+        },
+        {
+          "type": "key_points",
+          "label": "Key Points:",
+          "points": [
+            "Distance is always NON-NEGATIVE (take positive square root).",
+            "Distance of P(x, y) from origin: OP = sqrt(x² + y²).",
+            "Formula also written as: PQ = sqrt[(x₁–x₂)² + (y₁–y₂)²] (order doesn't matter).",
+            "COLLINEAR: AB + BC = AC (no triangle formed).",
+            "TRIANGLE TYPES: Equilateral (all equal), Isosceles (any two equal), Right (Pythagoras check: a²+b²=c²), Scalene (all different).",
+            "SQUARE: all four sides equal AND both diagonals equal.",
+            "RHOMBUS: all four sides equal but diagonals NOT equal.",
+            "RECTANGLE: opposite sides equal AND both diagonals equal.",
+            "PARALLELOGRAM: opposite sides equal (diagonals not necessarily equal)."
+          ]
+        },
+        {
+          "type": "list_of_topics",
+          "label": "LIST OF SUB TOPICS IN THIS TOPIC:",
+          "items": [
+            "(No sub-topics — Mode B)"
+          ]
+        },
+        {
+          "type": "formulas",
+          "label": "FORMULA:",
+          "items": [
+            "PQ = sqrt[(x₂ – x₁)² + (y₂ – y₁)²]",
+            "WHERE:",
+            "x₁, y₁ = coordinates of point P",
+            "x₂, y₂ = coordinates of point Q",
+            "sqrt = positive square root (distance always non-negative)",
+            "Special case — distance from origin:",
+            "OP = sqrt(x² + y²)",
+            "WHERE:",
+            "x, y = coordinates of point P",
+            "O = origin (0, 0)",
+            "DERIVATION OF DISTANCE FORMULA:",
+            "Let P(x₁, y₁) and Q(x₂, y₂). Draw PR and QS ⊥ x-axis.",
+            "Draw PT from P perpendicular to QS.",
+            "Then: PT = RS = x₂ – x₁; QT = y₂ – y₁.",
+            "By Pythagoras theorem in △PTQ:",
+            "PQ² = PT² + QT² = (x₂ – x₁)² + (y₂ – y₁)²",
+            "Therefore: PQ = sqrt[(x₂ – x₁)² + (y₂ – y₁)²].",
+            "EXAMPLES:",
+            "EXAMPLE 7.2.1: (Textbook Example 1)",
+            "PROBLEM: Do the points (3, 2), (–2, –3) and (2, 3) form a triangle? Name type if so.",
+            "SOLUTION:",
+            "Step 1: P(3,2), Q(–2,–3), R(2,3).",
+            "PQ = sqrt[(3+2)² + (2+3)²] = sqrt[25+25] = sqrt(50) = 5sqrt(2)",
+            "QR = sqrt[(–2–2)² + (–3–3)²] = sqrt[16+36] = sqrt(52)",
+            "PR = sqrt[(3–2)² + (2–3)²] = sqrt[1+1] = sqrt(2)",
+            "Step 2: PQ + PR = 5sqrt(2) + sqrt(2) = 6sqrt(2) ≠ sqrt(52). Sum of any two sides > third → triangle exists.",
+            "Step 3: PQ² + PR² = 50 + 2 = 52 = QR² → Pythagoras satisfied → right angle at P.",
+            "ANSWER: Yes, P, Q, R form a RIGHT TRIANGLE (right-angled at P).",
+            "EXAMPLE 7.2.2: (Textbook Example 2)",
+            "PROBLEM: Show that (1,7), (4,2), (–1,–1) and (–4,4) are vertices of a square.",
+            "SOLUTION:",
+            "A(1,7), B(4,2), C(–1,–1), D(–4,4).",
+            "Step 1: AB = sqrt[(1–4)²+(7–2)²] = sqrt[9+25] = sqrt(34)",
+            "BC = sqrt[(4+1)²+(2+1)²] = sqrt[25+9] = sqrt(34)",
+            "CD = sqrt[(–1+4)²+(–1–4)²] = sqrt[9+25] = sqrt(34)",
+            "DA = sqrt[(1+4)²+(7–4)²] = sqrt[25+9] = sqrt(34)",
+            "Step 2: AC = sqrt[(1+1)²+(7+1)²] = sqrt[4+64] = sqrt(68)",
+            "BD = sqrt[(4+4)²+(2–4)²] = sqrt[64+4] = sqrt(68)",
+            "Step 3: AB = BC = CD = DA = sqrt(34) AND AC = BD = sqrt(68).",
+            "ANSWER: ABCD is a SQUARE.",
+            "Alternative: AD² + DC² = 34 + 34 = 68 = AC² → ∠D = 90° (converse Pythagoras). Quadrilateral with all equal sides and one right angle = square.",
+            "EXAMPLE 7.2.3: (Textbook Example 3)",
+            "PROBLEM: Ashima A(3,1), Bharti B(6,4), Camella C(8,6). Are they in a line?",
+            "SOLUTION:",
+            "Step 1: AB = sqrt[(6–3)²+(4–1)²] = sqrt[9+9] = sqrt(18) = 3sqrt(2)",
+            "BC = sqrt[(8–6)²+(6–4)²] = sqrt[4+4] = sqrt(8) = 2sqrt(2)",
+            "AC = sqrt[(8–3)²+(6–1)²] = sqrt[25+25] = sqrt(50) = 5sqrt(2)",
+            "Step 2: AB + BC = 3sqrt(2) + 2sqrt(2) = 5sqrt(2) = AC → COLLINEAR.",
+            "ANSWER: Yes, A, B, C are in a line. They are seated in a line.",
+            "EXAMPLE 7.2.4: (Textbook Example 4)",
+            "PROBLEM: Find relation between x and y such that (x,y) is equidistant from (7,1) and (3,5).",
+            "SOLUTION:",
+            "Step 1: Let P(x,y), A(7,1), B(3,5). AP = BP → AP² = BP².",
+            "Step 2: (x–7)² + (y–1)² = (x–3)² + (y–5)²",
+            "Step 3: x²–14x+49+y²–2y+1 = x²–6x+9+y²–10y+25",
+            "Step 4: –14x–2y+50 = –6x–10y+34",
+            "Step 5: –8x + 8y = –16 → x – y = 2.",
+            "ANSWER: Required relation: x – y = 2.",
+            "(This line x–y=2 is the perpendicular bisector of AB.)",
+            "EXAMPLE 7.2.5: (Textbook Example 5)",
+            "PROBLEM: Find a point on y-axis equidistant from A(6,5) and B(–4,3).",
+            "SOLUTION:",
+            "Step 1: Point on y-axis: P(0, y).",
+            "Step 2: PA = PB → PA² = PB².",
+            "(6–0)²+(5–y)² = (–4–0)²+(3–y)²",
+            "36+25–10y+y² = 16+9–6y+y²",
+            "61–10y = 25–6y",
+            "36 = 4y → y = 9.",
+            "Step 3: Verification: PA = sqrt[36+16] = sqrt(52); PB = sqrt[16+36] = sqrt(52). ✓",
+            "ANSWER: Required point: (0, 9)."
+          ]
+        },
+        {
+          "type": "exercise",
+          "label": "EXERCISE 7.1:",
+          "items": [],
+          "raw": ""
+        },
+        {
+          "type": "exercise",
+          "label": "EXERCISE 7.1.1:",
+          "items": [],
+          "raw": "PROBLEM: Find distance between: (i)(2,3),(4,1) (ii)(–5,7),(–1,3) (iii)(a,b),(–a,–b)\nSOLUTION:\n(i) sqrt[(4–2)²+(1–3)²] = sqrt[4+4] = 2sqrt(2).\n(ii) sqrt[(–1+5)²+(3–7)²] = sqrt[16+16] = 4sqrt(2).\n(iii) sqrt[(a+a)²+(b+b)²] = sqrt[4a²+4b²] = 2sqrt(a²+b²).\nANSWER: (i) 2sqrt(2)  (ii) 4sqrt(2)  (iii) 2sqrt(a²+b²)."
+        },
+        {
+          "type": "exercise",
+          "label": "EXERCISE 7.1.2:",
+          "items": [],
+          "raw": "PROBLEM: Find distance between (0,0) and (36,15).\nSOLUTION: sqrt[36²+15²] = sqrt[1296+225] = sqrt(1521) = 39 units.\nANSWER: 39 km (distance between towns A and B)."
+        },
+        {
+          "type": "exercise",
+          "label": "EXERCISE 7.1.3:",
+          "items": [],
+          "raw": "PROBLEM: Determine if (1,5),(2,3),(–2,–11) are collinear.\nSOLUTION:\nAB = sqrt[(2–1)²+(3–5)²] = sqrt[1+4] = sqrt(5)\nBC = sqrt[(–2–2)²+(–11–3)²] = sqrt[16+196] = sqrt(212)\nAC = sqrt[(–2–1)²+(–11–5)²] = sqrt[9+256] = sqrt(265)\nAB + BC = sqrt(5)+sqrt(212) ≈ 2.24+14.56 = 16.8 ≠ sqrt(265) ≈ 16.28.\nNOT collinear (they form a scalene triangle).\nANSWER: Points are NOT collinear."
+        },
+        {
+          "type": "exercise",
+          "label": "EXERCISE 7.1.4:",
+          "items": [],
+          "raw": "PROBLEM: Check whether (5,–2),(6,4),(7,–2) are vertices of isosceles triangle.\nSOLUTION:\nAB = sqrt[(6–5)²+(4+2)²] = sqrt[1+36] = sqrt(37)\nBC = sqrt[(7–6)²+(–2–4)²] = sqrt[1+36] = sqrt(37)\nAC = sqrt[(7–5)²+(–2+2)²] = sqrt[4+0] = 2.\nAB = BC = sqrt(37), AC = 2 → ISOSCELES (AB = BC).\nANSWER: Yes, isosceles triangle."
+        },
+        {
+          "type": "exercise",
+          "label": "EXERCISE 7.1.5:",
+          "items": [],
+          "raw": "PROBLEM: In classroom, A(3,4), B(6,7), C(9,4), D(6,1). Champa says ABCD is a square. Find who is correct.\nSOLUTION:\nAB = sqrt[(6–3)²+(7–4)²] = sqrt[9+9] = sqrt(18) = 3sqrt(2)\nBC = sqrt[(9–6)²+(4–7)²] = sqrt[9+9] = 3sqrt(2)\nCD = sqrt[(6–9)²+(1–4)²] = sqrt[9+9] = 3sqrt(2)\nDA = sqrt[(3–6)²+(4–1)²] = sqrt[9+9] = 3sqrt(2)\nDiagonal AC = sqrt[(9–3)²+(4–4)²] = 6\nDiagonal BD = sqrt[(6–6)²+(1–7)²] = 6.\nAll sides equal and diagonals equal → SQUARE.\nANSWER: Champa is correct. ABCD is a square."
+        },
+        {
+          "type": "exercise",
+          "label": "EXERCISE 7.1.6:",
+          "items": [],
+          "raw": "PROBLEM: Name type of quadrilateral for:\n(i)(–1,–2),(1,0),(–1,2),(–3,0)  (ii)(–3,5),(3,1),(0,3),(–1,–4)  (iii)(4,5),(7,6),(4,3),(1,2)\nSOLUTION:\n(i) All sides = 2sqrt(2), diagonals: AC=4, BD=2sqrt(2) — unequal → RHOMBUS.\nActually: A(–1,–2),B(1,0),C(–1,2),D(–3,0): AB=BC=CD=DA=2sqrt(2), AC=4, BD=4 → equal diagonals → SQUARE.\n(ii) Not standard quadrilateral (collinear check needed) → Quadrilateral (not special).\n(iii) A(4,5),B(7,6),C(4,3),D(1,2): AB=CD=sqrt(10), BC=DA=3sqrt(2) → opposite sides equal, check diagonals AC=2, BD=sqrt(52) → unequal → PARALLELOGRAM.\nANSWER: (i) Square  (ii) Not a special quadrilateral  (iii) Parallelogram."
+        },
+        {
+          "type": "exercise",
+          "label": "EXERCISE 7.1.7:",
+          "items": [],
+          "raw": "PROBLEM: Find point on x-axis equidistant from (2,–5) and (–2,9).\nSOLUTION:\nLet P(x, 0). PA = PB → PA² = PB².\n(x–2)²+25 = (x+2)²+81\nx²–4x+4+25 = x²+4x+4+81\n–4x+29 = 4x+85 → –8x = 56 → x = –7.\nANSWER: Required point: (–7, 0)."
+        },
+        {
+          "type": "exercise",
+          "label": "EXERCISE 7.1.8:",
+          "items": [],
+          "raw": "PROBLEM: Find values of y for which distance between P(2,–3) and Q(10,y) is 10 units.\nSOLUTION:\nsqrt[(10–2)²+(y+3)²] = 10\n64 + (y+3)² = 100 → (y+3)² = 36 → y+3 = ±6 → y = 3 or y = –9.\nANSWER: y = 3 or y = –9."
+        },
+        {
+          "type": "exercise",
+          "label": "EXERCISE 7.1.9:",
+          "items": [],
+          "raw": "PROBLEM: If Q(0,1) is equidistant from P(5,–3) and R(x,6), find x. Also find QR and PR.\nSOLUTION:\nQP² = QR²: (5–0)²+(–3–1)² = (x–0)²+(6–1)²\n25+16 = x²+25 → x² = 16 → x = 4 or x = –4.\nIf x = 4: QR = sqrt[16+25] = sqrt(41); PR = sqrt[(5–4)²+(–3–6)²] = sqrt[1+81] = sqrt(82).\nIf x = –4: QR = sqrt[16+25] = sqrt(41); PR = sqrt[(5+4)²+(–3–6)²] = sqrt[81+81] = 9sqrt(2).\nANSWER: x = 4 or x = –4; QR = sqrt(41); PR = sqrt(82) or 9sqrt(2)."
+        },
+        {
+          "type": "exercise",
+          "label": "EXERCISE 7.1.10:",
+          "items": [],
+          "raw": "PROBLEM: Find relation between x and y such that (x,y) is equidistant from (3,6) and (–3,4).\nSOLUTION:\nPA² = PB²: (x–3)²+(y–6)² = (x+3)²+(y–4)²\nx²–6x+9+y²–12y+36 = x²+6x+9+y²–8y+16\n–6x–12y+45 = 6x–8y+25\n–12x–4y = –20 → 3x + y = 5.\nANSWER: Required relation: 3x + y = 5."
+        },
+        {
+          "type": "qa",
+          "label": "TOPIC 7.2: Q&A:",
+          "items": []
+        },
+        {
+          "type": "qa",
+          "label": "Q&A",
+          "items": [
+            {
+              "q_num": 1,
+              "marks": 2,
+              "question": "State the Distance Formula. Which theorem is it derived from?",
+              "answer": "DISTANCE FORMULA: PQ = sqrt[(x2-x1)^2 + (y2-y1)^2]\nfor points P(x1,y1) and Q(x2,y2).\nDistance from origin: OP = sqrt(x^2 + y^2).\nDerived from: PYTHAGORAS THEOREM (applied to right triangle PTQ)."
+            },
+            {
+              "q_num": 2,
+              "marks": 2,
+              "question": "Find the distance between (a,b) and (-a,-b).",
+              "answer": "PQ = sqrt[(-a-a)^2 + (-b-b)^2]\n= sqrt[(-2a)^2 + (-2b)^2]\n= sqrt[4a^2 + 4b^2]\n= 2sqrt(a^2 + b^2)."
+            },
+            {
+              "q_num": 3,
+              "marks": 2,
+              "question": "How do you check collinearity of three points A, B, C using distance formula?",
+              "answer": "A, B, C are COLLINEAR if: AB + BC = AC.\nCalculate all three distances (AB, BC, AC) and check if sum of any two equals the third.\nIf no such equality holds, points form a triangle (not collinear)."
+            },
+            {
+              "q_num": 4,
+              "marks": 2,
+              "question": "Find values of y for which distance between P(2,-3) and Q(10,y) is 10 units.",
+              "answer": "sqrt[(10-2)^2 + (y+3)^2] = 10\n64 + (y+3)^2 = 100\n(y+3)^2 = 36 -> y+3 = +/-6\ny = 3 or y = -9.\nANSWER: y = 3 or y = -9.\n\n---\n\n3 Marks x 3 questions:"
+            },
+            {
+              "q_num": 5,
+              "marks": 3,
+              "question": "Check whether (5,-2),(6,4),(7,-2) are vertices of an isosceles triangle.",
+              "answer": "Step 1: A(5,-2), B(6,4), C(7,-2).\nAB = sqrt[(6-5)^2+(4+2)^2] = sqrt[1+36] = sqrt(37).\nBC = sqrt[(7-6)^2+(-2-4)^2] = sqrt[1+36] = sqrt(37).\nStep 2: AC = sqrt[(7-5)^2+(-2+2)^2] = sqrt[4+0] = 2.\nStep 3: AB = BC = sqrt(37). Two sides equal -> ISOSCELES triangle.\nANSWER: Yes, the points form an isosceles triangle (AB = BC)."
+            },
+            {
+              "q_num": 6,
+              "marks": 3,
+              "question": "Find relation between x and y such that (x,y) is equidistant from (7,1) and (3,5).",
+              "answer": "Step 1: PA=PB -> PA^2=PB^2.\n(x-7)^2+(y-1)^2 = (x-3)^2+(y-5)^2.\nStep 2: x^2-14x+49+y^2-2y+1 = x^2-6x+9+y^2-10y+25.\n-14x-2y+50 = -6x-10y+34.\nStep 3: -8x+8y = -16 -> x-y = 2.\nANSWER: Relation is x-y=2 (perpendicular bisector of AB)."
+            },
+            {
+              "q_num": 7,
+              "marks": 3,
+              "question": "Ashima A(3,1), Bharti B(6,4), Camella C(8,6). Show they are collinear.",
+              "answer": "Step 1: AB = sqrt[(6-3)^2+(4-1)^2] = sqrt[9+9] = 3sqrt(2).\nStep 2: BC = sqrt[(8-6)^2+(6-4)^2] = sqrt[4+4] = 2sqrt(2).\nAC = sqrt[(8-3)^2+(6-1)^2] = sqrt[25+25] = 5sqrt(2).\nStep 3: AB+BC = 3sqrt(2)+2sqrt(2) = 5sqrt(2) = AC. Collinear.\nThey are seated in a straight line.\n\n---\n\n4 Marks x 4 questions:"
+            },
+            {
+              "q_num": 8,
+              "marks": 4,
+              "question": "Show (1,7),(4,2),(-1,-1),(-4,4) are vertices of a square.",
+              "answer": "Step 1: A(1,7), B(4,2), C(-1,-1), D(-4,4).\nAB=BC=CD=DA = sqrt[9+25] = sqrt(34). [Verify each: AB=sqrt[(1-4)^2+(7-2)^2]=sqrt[9+25]=sqrt(34); BC=sqrt[(4+1)^2+(2+1)^2]=sqrt[25+9]=sqrt(34); CD=sqrt[(-1+4)^2+(-1-4)^2]=sqrt[9+25]=sqrt(34); DA=sqrt[(1+4)^2+(7-4)^2]=sqrt[25+9]=sqrt(34)]\nStep 2: All four sides equal = sqrt(34). Condition 1 satisfied.\nStep 3: Diagonals: AC=sqrt[(1+1)^2+(7+1)^2]=sqrt[4+64]=sqrt(68). BD=sqrt[(4+4)^2+(2-4)^2]=sqrt[64+4]=sqrt(68).\nStep 4: AC=BD=sqrt(68). Both diagonals equal. Condition 2 satisfied.\n-> ABCD is a SQUARE."
+            },
+            {
+              "q_num": 9,
+              "marks": 4,
+              "question": "4 friends: A(3,4),B(6,7),C(9,4),D(6,1). Champa says ABCD is square. Find who is correct.",
+              "answer": "Step 1: AB=sqrt[(6-3)^2+(7-4)^2]=sqrt[9+9]=3sqrt(2).\nBC=sqrt[(9-6)^2+(4-7)^2]=sqrt[9+9]=3sqrt(2).\nCD=sqrt[(6-9)^2+(1-4)^2]=sqrt[9+9]=3sqrt(2).\nDA=sqrt[(3-6)^2+(4-1)^2]=sqrt[9+9]=3sqrt(2).\nStep 2: All four sides = 3sqrt(2). Equal sides.\nStep 3: Diagonals: AC=sqrt[(9-3)^2+(4-4)^2]=sqrt[36]=6. BD=sqrt[(6-6)^2+(1-7)^2]=sqrt[36]=6.\nStep 4: AC=BD=6. Both diagonals equal. -> SQUARE.\nCHAMPA is correct. ABCD is a square."
+            },
+            {
+              "q_num": 10,
+              "marks": 4,
+              "question": "Find a point on x-axis equidistant from (2,-5) and (-2,9). Find the distance too.",
+              "answer": "Step 1: Let P(x,0). PA=PB -> PA^2=PB^2.\n(x-2)^2+(0+5)^2 = (x+2)^2+(0-9)^2.\nStep 2: x^2-4x+4+25 = x^2+4x+4+81.\n-4x+29 = 4x+85 -> -8x=56 -> x=-7. P=(-7,0).\nStep 3: PA=sqrt[(-7-2)^2+(0+5)^2]=sqrt[81+25]=sqrt(106).\nStep 4: PB=sqrt[(-7+2)^2+(0-9)^2]=sqrt[25+81]=sqrt(106).\nANSWER: P=(-7,0). Distance from each point = sqrt(106) units."
+            },
+            {
+              "q_num": 11,
+              "marks": 4,
+              "question": "Do points (3,2),(-2,-3),(2,3) form a triangle? Find the type.",
+              "answer": "Step 1: P(3,2), Q(-2,-3), R(2,3).\nPQ=sqrt[(3+2)^2+(2+3)^2]=sqrt[25+25]=5sqrt(2).\nQR=sqrt[(-2-2)^2+(-3-3)^2]=sqrt[16+36]=sqrt(52).\nPR=sqrt[(3-2)^2+(2-3)^2]=sqrt[1+1]=sqrt(2).\nStep 2: Check triangle: PQ+PR=5sqrt(2)+sqrt(2)=6sqrt(2). sqrt(52) approx 7.21. 6sqrt(2) approx 8.49 =/= 7.21. So triangle exists (all three form triangle).\nStep 3: Check right angle: PQ^2+PR^2=50+2=52=QR^2. By converse Pythagoras: angle at P = 90 degrees.\nStep 4: ANSWER: Yes, they form a RIGHT TRIANGLE (right-angled at P).\n\n---\n\n5 Marks x 1 question:"
+            },
+            {
+              "q_num": 12,
+              "marks": 5,
+              "question": "",
+              "answer": "PART A - Distance Formula Derivation:\nStep 1: P(x1,y1) and Q(x2,y2). Draw PR perpendicular to x-axis, QS perpendicular to x-axis.\nDraw PT perpendicular from P to QS, meeting it at T.\nThen: PT = RS = OS - OR = x2 - x1.\nQT = QS - TS = y2 - y1.\nStep 2: In right triangle PTQ (right angle at T):\nBy Pythagoras theorem: PQ^2 = PT^2 + QT^2 = (x2-x1)^2 + (y2-y1)^2.\nSince distance is always positive: PQ = sqrt[(x2-x1)^2+(y2-y1)^2]. FORMULA DERIVED.\nStep 3: Distance A(0,0) to B(36,15):\nAB = sqrt[(36-0)^2+(15-0)^2] = sqrt[1296+225] = sqrt(1521) = 39 km.\nStep 4: The straight-line distance between towns A and B is 39 km, found algebraically without any physical measurement.\n\nPART B - Quadrilateral Type:\nStep 1: A(-1,-2), B(1,0), C(-1,2), D(-3,0).\nAB=sqrt[(1+1)^2+(0+2)^2]=sqrt[4+4]=2sqrt(2).\nBC=sqrt[(-1-1)^2+(2-0)^2]=sqrt[4+4]=2sqrt(2).\nCD=sqrt[(-3+1)^2+(0-2)^2]=sqrt[4+4]=2sqrt(2).\nDA=sqrt[(-1+3)^2+(-2-0)^2]=sqrt[4+4]=2sqrt(2).\nStep 2: All four sides = 2sqrt(2). Equal sides.\nStep 3: Diagonals:\nAC=sqrt[(-1+1)^2+(2+2)^2]=sqrt[0+16]=4.\nBD=sqrt[(1+3)^2+(0-0)^2]=sqrt[16+0]=4.\nStep 4: All sides equal AND both diagonals equal -> SQUARE.\nANSWER: ABCD is a SQUARE."
+            }
+          ]
+        },
+        {
+          "type": "mcq",
+          "label": "TOPIC 7.2: MCQs:",
+          "items": [
+            {
+              "mcq_num": 1,
+              "difficulty": "Easy",
+              "question": "The distance formula between P(x₁,y₁) and Q(x₂,y₂) is derived using:",
+              "options": {
+                "A": "Section formula  (B) Pythagoras theorem  (C) Thales theorem  (D) Mid-point formula"
+              },
+              "answer": "B",
+              "explanation": "The correct answer is (B) Pythagoras theorem."
+            },
+            {
+              "mcq_num": 2,
+              "difficulty": "Easy",
+              "question": "Distance of (–3, 4) from origin:",
+              "options": {
+                "A": "3  (B) 4  (C) 5  (D) 7"
+              },
+              "answer": "C",
+              "explanation": "The correct answer is (C) 5."
+            },
+            {
+              "mcq_num": 3,
+              "difficulty": "Easy",
+              "question": "Distance between (2,3) and (4,1):",
+              "options": {
+                "A": "2  (B) 2sqrt(2)  (C) 4  (D) sqrt(6)"
+              },
+              "answer": "B",
+              "explanation": "Option (B) is correct based on the definition/theorem."
+            },
+            {
+              "mcq_num": 4,
+              "difficulty": "Easy",
+              "question": "Distance of (a,b) from (–a,–b):",
+              "options": {
+                "A": "2a  (B) 2b  (C) 2sqrt(a²+b²)  (D) sqrt(a²+b²)"
+              },
+              "answer": "C",
+              "explanation": "Option (C) is correct based on the definition/theorem."
+            },
+            {
+              "mcq_num": 5,
+              "difficulty": "Easy",
+              "question": "A, B, C are collinear if:",
+              "options": {
+                "A": "AB = BC  (B) AB + BC = AC  (C) AB × BC = AC  (D) AB – BC = AC"
+              },
+              "answer": "B",
+              "explanation": "The correct answer is (B) AB + BC = AC."
+            },
+            {
+              "mcq_num": 6,
+              "difficulty": "Medium",
+              "question": "Distance between (–5,7) and (–1,3):",
+              "options": {
+                "A": "4sqrt(2)  (B) 4  (C) sqrt(8)  (D) sqrt(40)"
+              },
+              "answer": "A",
+              "explanation": "Option (A) is correct based on the definition/theorem."
+            },
+            {
+              "mcq_num": 7,
+              "difficulty": "Medium",
+              "question": "To prove ABCD is a square, which must hold?",
+              "options": {
+                "A": "All four sides equal only  (B) Both diagonals equal only",
+                "C": "All four sides equal AND both diagonals equal  (D) Opposite sides equal"
+              },
+              "answer": "C",
+              "explanation": "The correct answer is (C) All four sides equal AND both diagonals equal."
+            },
+            {
+              "mcq_num": 8,
+              "difficulty": "Medium",
+              "question": "If distance between P(2,–3) and Q(10,y) is 10, then y =",
+              "options": {
+                "A": "3 only  (B) –9 only  (C) 3 or –9  (D) 0"
+              },
+              "answer": "C",
+              "explanation": "The correct answer is (C) 3 or –9."
+            },
+            {
+              "mcq_num": 9,
+              "difficulty": "Medium",
+              "question": "Point on x-axis equidistant from (2,–5) and (–2,9):",
+              "options": {
+                "A": "(–7, 0)  (B) (7, 0)  (C) (0, –7)  (D) (0, 7)"
+              },
+              "answer": "A",
+              "explanation": "Option (A) is correct based on the definition/theorem."
+            },
+            {
+              "mcq_num": 10,
+              "difficulty": "Medium",
+              "question": "Points (1,7),(4,2),(–1,–1),(–4,4) form a:",
+              "options": {
+                "A": "Rectangle  (B) Rhombus  (C) Square  (D) Parallelogram"
+              },
+              "answer": "C",
+              "explanation": "The correct answer is (C) Square."
+            },
+            {
+              "mcq_num": 11,
+              "difficulty": "Medium",
+              "question": "Relation such that (x,y) is equidistant from (7,1) and (3,5):",
+              "options": {
+                "A": "x + y = 2  (B) x – y = 2  (C) 2x – y = 0  (D) x + 2y = 5"
+              },
+              "answer": "B",
+              "explanation": "The correct answer is (B) x – y = 2."
+            },
+            {
+              "mcq_num": 12,
+              "difficulty": "Hard",
+              "question": "In Example 1, points (3,2),(–2,–3),(2,3) form a right triangle. Which criterion confirms right angle at P?",
+              "options": {
+                "A": "PQ² = PR² + QR²  (B) PR² = PQ² + QR²  (C) QR² = PQ² + PR²  (D) PQ = PR"
+              },
+              "answer": "C",
+              "explanation": "The correct answer is (C) QR² = PQ² + PR²."
+            },
+            {
+              "mcq_num": 13,
+              "difficulty": "Hard",
+              "question": "Relation for (x,y) equidistant from (3,6) and (–3,4):",
+              "options": {
+                "A": "3x + y = 5  (B) x + 3y = 5  (C) 3x – y = 5  (D) x – 3y = 5"
+              },
+              "answer": "A",
+              "explanation": "The correct answer is (A) 3x + y = 5."
+            },
+            {
+              "mcq_num": 14,
+              "difficulty": "Hard",
+              "question": "(1,5),(2,3),(–2,–11) — which is true?",
+              "options": {
+                "A": "Collinear  (B) Right triangle  (C) Equilateral triangle  (D) Scalene triangle (not collinear)"
+              },
+              "answer": "D",
+              "explanation": "Option (D) is correct based on the definition/theorem."
+            },
+            {
+              "mcq_num": 15,
+              "difficulty": "Hard",
+              "question": "Distance between (0,0) and (36,15) representing towns A and B:",
+              "options": {
+                "A": "36 km  (B) 39 km  (C) 51 km  (D) 15 km"
+              },
+              "answer": "B",
+              "explanation": "The correct answer is (B) 39 km."
+            }
+          ]
+        }
+      ],
+      "subtopics": []
+    },
+    {
+      "topic_num": "7.3",
+      "topic_name": "SECTION FORMULA",
+      "mode": "B",
+      "sections": [
+        {
+          "type": "definition",
+          "label": "Definition:",
+          "text": "- SECTION FORMULA: Coordinates of point P(x,y) dividing segment A(x₁,y₁)B(x₂,y₂) INTERNALLY in ratio m₁:m₂:\nx = (m₁x₂ + m₂x₁)/(m₁+m₂),  y = (m₁y₂ + m₂y₁)/(m₁+m₂).\n- MID-POINT FORMULA: Special case of section formula with m₁ = m₂ = 1:\nM = [(x₁+x₂)/2, (y₁+y₂)/2].\n- TRISECTION POINTS: P divides AB in 1:2 and Q divides AB in 2:1.\n- EXTERNAL DIVISION: P lies outside AB on line AB. Studied in higher classes."
+        },
+        {
+          "type": "key_points",
+          "label": "Key Points:",
+          "points": [
+            "If P divides AB in ratio k:1: x=(kx₂+x₁)/(k+1), y=(ky₂+y₁)/(k+1).",
+            "To find ratio, substitute known coordinates into formula and solve for k (or m₁/m₂).",
+            "Verify using BOTH x AND y coordinates.",
+            "PARALLELOGRAM property: diagonals bisect each other → mid-point of AC = mid-point of BD.",
+            "Point on y-axis: x=0; Point on x-axis: y=0."
+          ]
+        },
+        {
+          "type": "list_of_topics",
+          "label": "LIST OF SUB TOPICS IN THIS TOPIC:",
+          "items": [
+            "(No sub-topics — Mode B)"
+          ]
+        },
+        {
+          "type": "formulas",
+          "label": "FORMULA:",
+          "items": [
+            "Section Formula (Internal Division):",
+            "x = (m₁x₂ + m₂x₁)/(m₁ + m₂)",
+            "y = (m₁y₂ + m₂y₁)/(m₁ + m₂)",
+            "WHERE:",
+            "P(x,y) = point dividing AB internally",
+            "A(x₁,y₁), B(x₂,y₂) = given endpoints",
+            "m₁:m₂ = ratio of division (PA:PB = m₁:m₂)",
+            "Alternate form (ratio k:1):",
+            "x = (kx₂ + x₁)/(k+1)",
+            "y = (ky₂ + y₁)/(k+1)",
+            "Mid-Point Formula (m₁ = m₂ = 1):",
+            "M = [(x₁+x₂)/2, (y₁+y₂)/2]",
+            "DERIVATION (OUTLINE):",
+            "Draw AR, PS and BT ⊥ x-axis. Draw AQ and PC || x-axis.",
+            "By AA similarity: △PAQ ~ △BPC.",
+            "PA/PB = AQ/PC = PQ/BC → m₁/m₂ = (x–x₁)/(x₂–x) = (y–y₁)/(y₂–y).",
+            "Solving: x = (m₁x₂+m₂x₁)/(m₁+m₂), y = (m₁y₂+m₂y₁)/(m₁+m₂).",
+            "EXAMPLES:",
+            "EXAMPLE 7.3.1: (Textbook Example 6)",
+            "PROBLEM: Find coordinates of point dividing (4,–3) and (8,5) in ratio 3:1 internally.",
+            "SOLUTION:",
+            "Step 1: m₁=3, m₂=1, A(4,–3), B(8,5).",
+            "Step 2: x = (3×8+1×4)/(3+1) = (24+4)/4 = 28/4 = 7.",
+            "Step 3: y = (3×5+1×(–3))/(3+1) = (15–3)/4 = 12/4 = 3.",
+            "ANSWER: Required point: P(7, 3).",
+            "EXAMPLE 7.3.2: (Textbook Example 7)",
+            "PROBLEM: In what ratio does (–4,6) divide segment joining A(–6,10) and B(3,–8)?",
+            "SOLUTION:",
+            "Step 1: Let ratio = m₁:m₂. x-coordinate of division = –4.",
+            "Step 2: –4 = (3m₁–6m₂)/(m₁+m₂) → –4m₁–4m₂ = 3m₁–6m₂ → 2m₂ = 7m₁ → m₁:m₂ = 2:7.",
+            "Step 3: Verify y: (–8×2+10×7)/(2+7) = (–16+70)/9 = 54/9 = 6. ✓",
+            "ANSWER: (–4,6) divides AB in ratio 2:7.",
+            "Alternatively: Let ratio = k:1.",
+            "–4 = (3k–6)/(k+1) → –4k–4 = 3k–6 → 7k = 2 → k = 2/7 → ratio = 2:7.",
+            "EXAMPLE 7.3.3: (Textbook Example 8)",
+            "PROBLEM: Find trisection points of segment joining A(2,–2) and B(–7,4).",
+            "SOLUTION:",
+            "Trisection: P divides in 1:2, Q divides in 2:1.",
+            "Step 1 (Point P, ratio 1:2):",
+            "x = (1×(–7)+2×2)/(1+2) = (–7+4)/3 = –3/3 = –1.",
+            "y = (1×4+2×(–2))/(1+2) = (4–4)/3 = 0/3 = 0.",
+            "P = (–1, 0).",
+            "Step 2 (Point Q, ratio 2:1):",
+            "x = (2×(–7)+1×2)/(2+1) = (–14+2)/3 = –12/3 = –4.",
+            "y = (2×4+1×(–2))/(2+1) = (8–2)/3 = 6/3 = 2.",
+            "Q = (–4, 2).",
+            "Note: Q = midpoint of PB = [(–1+–7)/2, (0+4)/2] = (–4, 2). ✓",
+            "ANSWER: Trisection points: (–1, 0) and (–4, 2).",
+            "EXAMPLE 7.3.4: (Textbook Example 9)",
+            "PROBLEM: Find ratio in which y-axis divides segment joining (5,–6) and (–1,–4). Also find intersection point.",
+            "SOLUTION:",
+            "Step 1: Let ratio = k:1. Point on y-axis has x = 0.",
+            "Step 2: 0 = (k×(–1)+1×5)/(k+1) = (–k+5)/(k+1).",
+            "–k+5 = 0 → k = 5. Ratio = 5:1.",
+            "Step 3: y = (5×(–4)+1×(–6))/(5+1) = (–20–6)/6 = –26/6 = –13/3.",
+            "ANSWER: y-axis divides in ratio 5:1. Point of intersection: (0, –13/3).",
+            "EXAMPLE 7.3.5: (Textbook Example 10)",
+            "PROBLEM: A(6,1), B(8,2), C(9,4), D(p,3) are vertices of parallelogram (in order). Find p.",
+            "SOLUTION:",
+            "Step 1: Diagonals of parallelogram bisect each other.",
+            "Step 2: Mid-point of AC = Mid-point of BD.",
+            "[(6+9)/2, (1+4)/2] = [(8+p)/2, (2+3)/2]",
+            "[15/2, 5/2] = [(8+p)/2, 5/2]",
+            "Step 3: 15/2 = (8+p)/2 → 15 = 8+p → p = 7.",
+            "ANSWER: p = 7."
+          ]
+        },
+        {
+          "type": "exercise",
+          "label": "EXERCISE 7.2:",
+          "items": [],
+          "raw": ""
+        },
+        {
+          "type": "exercise",
+          "label": "EXERCISE 7.2.1:",
+          "items": [],
+          "raw": "PROBLEM: Find coordinates of point dividing (–1,7) and (4,–3) in ratio 2:3.\nSOLUTION:\nx = (2×4+3×(–1))/(2+3) = (8–3)/5 = 5/5 = 1.\ny = (2×(–3)+3×7)/(2+3) = (–6+21)/5 = 15/5 = 3.\nANSWER: Point (1, 3)."
+        },
+        {
+          "type": "exercise",
+          "label": "EXERCISE 7.2.2:",
+          "items": [],
+          "raw": "PROBLEM: Find trisection points of segment joining (4,–1) and (–2,–3).\nSOLUTION:\nP (ratio 1:2): x=(–2+8)/3=6/3=2, y=(–3–2)/3=–5/3 → P(2, –5/3).\nQ (ratio 2:1): x=(–4+4)/3=0, y=(–6–1)/3=–7/3 → Q(0, –7/3).\nANSWER: Trisection points: (2, –5/3) and (0, –7/3)."
+        },
+        {
+          "type": "exercise",
+          "label": "EXERCISE 7.2.3: (Sports Day Problem)",
+          "items": [],
+          "raw": "PROBLEM: Niharika runs (1/4) of AD on 2nd line → green flag. Preet runs (1/5) of AD on 8th line → red flag. AD = 100 m. Distance between flags? Rashmi posts blue flag at midpoint.\nSOLUTION:\nNiharika's position: (2, 100/4) = (2, 25).\nPreet's position: (8, 100/5) = (8, 20).\nDistance = sqrt[(8–2)²+(20–25)²] = sqrt[36+25] = sqrt(61) m.\nMidpoint (Rashmi's flag): [(2+8)/2, (25+20)/2] = (5, 22.5) → 5th line, 22.5 m from AD.\nANSWER: Distance = sqrt(61) m. Rashmi posts on 5th line at 22.5 m."
+        },
+        {
+          "type": "exercise",
+          "label": "EXERCISE 7.2.4:",
+          "items": [],
+          "raw": "PROBLEM: Find ratio in which (–1,6) divides segment joining (–3,10) and (6,–8).\nSOLUTION:\nx: –1 = (6m₁–3m₂)/(m₁+m₂) → –m₁–m₂ = 6m₁–3m₂ → 2m₂ = 7m₁ → m₁:m₂ = 2:7.\nANSWER: Ratio = 2:7."
+        },
+        {
+          "type": "exercise",
+          "label": "EXERCISE 7.2.5:",
+          "items": [],
+          "raw": "PROBLEM: Find ratio in which x-axis divides segment A(1,–5) and B(–4,5). Find point of division.\nSOLUTION:\ny = 0 on x-axis: 0 = (5m₁–5m₂)/(m₁+m₂) → 5m₁ = 5m₂ → m₁:m₂ = 1:1 (midpoint).\nPoint: [(1+(–4))/2, (–5+5)/2] = (–3/2, 0).\nANSWER: Ratio = 1:1. Division point: (–3/2, 0)."
+        },
+        {
+          "type": "exercise",
+          "label": "EXERCISE 7.2.6:",
+          "items": [],
+          "raw": "PROBLEM: (1,2),(4,y),(x,6),(3,5) are vertices of parallelogram. Find x and y.\nSOLUTION:\nDiagonals bisect each other. Diagonal 1: A(1,2) to C(x,6). Diagonal 2: B(4,y) to D(3,5).\nMidpoint of AC = Midpoint of BD:\n[(1+x)/2, (2+6)/2] = [(4+3)/2, (y+5)/2]\n[(1+x)/2, 4] = [7/2, (y+5)/2]\n(1+x)/2 = 7/2 → x = 6. 4 = (y+5)/2 → y+5 = 8 → y = 3.\nANSWER: x = 6, y = 3."
+        },
+        {
+          "type": "exercise",
+          "label": "EXERCISE 7.2.7:",
+          "items": [],
+          "raw": "PROBLEM: Find coordinates of A, where AB is diameter of circle with centre (2,–3) and B is (1,4).\nSOLUTION:\nCentre = midpoint of AB: (2,–3) = [(Ax+1)/2, (Ay+4)/2].\n(Ax+1)/2 = 2 → Ax = 3. (Ay+4)/2 = –3 → Ay = –10.\nANSWER: A = (3, –10)."
+        },
+        {
+          "type": "exercise",
+          "label": "EXERCISE 7.2.8:",
+          "items": [],
+          "raw": "PROBLEM: A(–2,–2) and B(2,–4). AP = (3/7)AB, P on AB. Find coordinates of P.\nSOLUTION:\nAP/AB = 3/7 → AP:PB = 3:4. m₁=3, m₂=4.\nx = (3×2+4×(–2))/(3+4) = (6–8)/7 = –2/7.\ny = (3×(–4)+4×(–2))/(3+4) = (–12–8)/7 = –20/7.\nANSWER: P = (–2/7, –20/7)."
+        },
+        {
+          "type": "exercise",
+          "label": "EXERCISE 7.2.9:",
+          "items": [],
+          "raw": "PROBLEM: Find coordinates of points dividing A(–2,2) and B(2,8) into four equal parts.\nSOLUTION:\nPoints divide in ratio 1:3, 1:1 (midpoint), 3:1.\nP₁ (1:3): x=(2–6)/4=–1, y=(8+6)/4=14/4=7/2 → P₁(–1, 7/2).\nP₂ (1:1 midpoint): [(–2+2)/2, (2+8)/2] = (0, 5).\nP₃ (3:1): x=(6–2)/4=1, y=(24+2)/4=26/4=13/2 → P₃(1, 13/2).\nANSWER: P₁(–1, 7/2), P₂(0, 5), P₃(1, 13/2)."
+        },
+        {
+          "type": "exercise",
+          "label": "EXERCISE 7.2.10:",
+          "items": [],
+          "raw": "PROBLEM: Find area of rhombus with vertices (3,0),(4,5),(–1,4),(–2,–1). [Area = (1/2)(d₁×d₂)]\nSOLUTION:\nDiagonal d₁ = AC = sqrt[(3+1)²+(0–4)²] = sqrt[16+16] = 4sqrt(2).\nDiagonal d₂ = BD = sqrt[(4+2)²+(5+1)²] = sqrt[36+36] = 6sqrt(2).\nArea = (1/2) × 4sqrt(2) × 6sqrt(2) = (1/2) × 48 = 24.\nANSWER: Area = 24 sq units."
+        },
+        {
+          "type": "qa",
+          "label": "TOPIC 7.3: Q&A:",
+          "items": []
+        },
+        {
+          "type": "qa",
+          "label": "Q&A",
+          "items": [
+            {
+              "q_num": 1,
+              "marks": 2,
+              "question": "State the Section Formula for internal division.",
+              "answer": "P(x,y) divides A(x1,y1) to B(x2,y2) internally in ratio m1:m2:\nx = (m1*x2 + m2*x1) / (m1+m2)\ny = (m1*y2 + m2*y1) / (m1+m2)\nSpecial form (ratio k:1): x=(k*x2+x1)/(k+1), y=(k*y2+y1)/(k+1)."
+            },
+            {
+              "q_num": 2,
+              "marks": 2,
+              "question": "State the Mid-Point Formula and its relation to Section Formula.",
+              "answer": "Mid-point M of P(x1,y1) and Q(x2,y2):\nM = [(x1+x2)/2, (y1+y2)/2].\nRelation: It is the Section Formula with m1=m2=1 (ratio 1:1)."
+            },
+            {
+              "q_num": 3,
+              "marks": 2,
+              "question": "Find coordinates of point dividing (4,-3) and (8,5) in ratio 3:1.",
+              "answer": "x=(3*8+1*4)/(3+1)=(24+4)/4=28/4=7.\ny=(3*5+1*(-3))/(3+1)=(15-3)/4=12/4=3.\nANSWER: P(7, 3)."
+            },
+            {
+              "q_num": 4,
+              "marks": 2,
+              "question": "A(6,1), B(8,2), C(9,4), D(p,3) are vertices of parallelogram. Find p.",
+              "answer": "Diagonals bisect each other -> midpoint AC = midpoint BD.\n[(6+9)/2,(1+4)/2]=[(8+p)/2,(2+3)/2]\n15/2=(8+p)/2 -> p=7.\nANSWER: p=7.\n\n---\n\n3 Marks x 3 questions:"
+            },
+            {
+              "q_num": 5,
+              "marks": 3,
+              "question": "Find trisection points of A(2,-2) to B(-7,4).",
+              "answer": "Step 1: P (ratio 1:2): x=(1*(-7)+2*2)/3=-1; y=(1*4+2*(-2))/3=0. P=(-1,0).\nStep 2: Q (ratio 2:1): x=(2*(-7)+1*2)/3=-4; y=(2*4+1*(-2))/3=2. Q=(-4,2).\nStep 3: ANSWER: Trisection points: P(-1,0) and Q(-4,2).\nCheck: Q=midpoint of PB=[(-1-7)/2,(0+4)/2]=(-4,2). Correct."
+            },
+            {
+              "q_num": 6,
+              "marks": 3,
+              "question": "Find ratio in which y-axis divides (5,-6) to (-1,-4). Also find point.",
+              "answer": "Step 1: Point on y-axis: x=0. Let ratio k:1.\n0=(k*(-1)+1*5)/(k+1)=(-k+5)/(k+1). -k+5=0 -> k=5. Ratio=5:1.\nStep 2: y=(5*(-4)+1*(-6))/(5+1)=(-20-6)/6=-26/6=-13/3.\nStep 3: ANSWER: Ratio=5:1. Point=(0,-13/3)."
+            },
+            {
+              "q_num": 7,
+              "marks": 3,
+              "question": "Find coordinates of A, where AB is diameter of circle with centre (2,-3) and B(1,4).",
+              "answer": "Step 1: Centre = midpoint of AB.\n(2,-3) = [(Ax+1)/2, (Ay+4)/2].\nStep 2: (Ax+1)/2=2 -> Ax=3. (Ay+4)/2=-3 -> Ay=-10.\nStep 3: ANSWER: A=(3,-10).\n\n---\n\n4 Marks x 4 questions:"
+            },
+            {
+              "q_num": 8,
+              "marks": 4,
+              "question": "In what ratio does (-4,6) divide A(-6,10) to B(3,-8)? Verify.",
+              "answer": "Step 1: Let ratio k:1. x-coord: -4=(3k-6)/(k+1).\n-4k-4=3k-6 -> 7k=2 -> k=2/7. Ratio=2:7.\nStep 2: Verify y: y=(2*(-8)+7*10)/(2+7)=(-16+70)/9=54/9=6. Correct.\nStep 3: ANSWER: Point (-4,6) divides AB in ratio 2:7.\nStep 4: Note: Ratio 2:7 means point is between A and B, closer to A."
+            },
+            {
+              "q_num": 9,
+              "marks": 4,
+              "question": "A(-2,-2) and B(2,-4). Find P such that AP=(3/7)AB. Also find midpoint of AB.",
+              "answer": "Step 1: AP=(3/7)AB -> AP:PB=3:4.\nStep 2: x=(3*2+4*(-2))/(3+4)=(6-8)/7=-2/7.\ny=(3*(-4)+4*(-2))/(3+4)=(-12-8)/7=-20/7. P=(-2/7,-20/7).\nStep 3: Midpoint of AB=[((-2+2)/2),((-2-4)/2)]=(0,-3).\nStep 4: ANSWER: P=(-2/7,-20/7). Midpoint of AB=(0,-3)."
+            },
+            {
+              "q_num": 10,
+              "marks": 4,
+              "question": "Find coordinates of points dividing A(-2,2) to B(2,8) into four equal parts.",
+              "answer": "Step 1: Three division points at ratios 1:3, 1:1(mid), 3:1.\nStep 2: P1 (ratio 1:3): x=(1*2+3*(-2))/4=(2-6)/4=-1. y=(1*8+3*2)/4=(8+6)/4=7/2. P1=(-1,7/2).\nStep 3: P2 (midpoint 1:1): P2=[(-2+2)/2,(2+8)/2]=(0,5).\nStep 4: P3 (ratio 3:1): x=(3*2+1*(-2))/4=(6-2)/4=1. y=(3*8+1*2)/4=(24+2)/4=13/2. P3=(1,13/2).\nANSWER: P1(-1,7/2), P2(0,5), P3(1,13/2)."
+            },
+            {
+              "q_num": 11,
+              "marks": 4,
+              "question": "Find area of rhombus with vertices (3,0),(4,5),(-1,4),(-2,-1). Use Area=(1/2)(d1 x d2).",
+              "answer": "Step 1: d1=diagonal from A(3,0) to C(-1,4):\nAC=sqrt[(3+1)^2+(0-4)^2]=sqrt[16+16]=sqrt(32)=4sqrt(2).\nStep 2: d2=diagonal from B(4,5) to D(-2,-1):\nBD=sqrt[(4+2)^2+(5+1)^2]=sqrt[36+36]=sqrt(72)=6sqrt(2).\nStep 3: Area=(1/2)*4sqrt(2)*6sqrt(2)=(1/2)*4*6*2=(1/2)*48=24.\nStep 4: ANSWER: Area of rhombus = 24 sq units.\n\n---\n\n5 Marks x 1 question:"
+            },
+            {
+              "q_num": 12,
+              "marks": 5,
+              "question": "",
+              "answer": "PART A - Section Formula Derivation:\nStep 1: Draw AR,PS,BT perpendicular to x-axis. Draw AQ and PC parallel to x-axis (Fig 7.10).\nPA/PB=m1/m2. By AA similarity: Triangle PAQ ~ Triangle BPC.\nStep 2: PA/PB = AQ/PC = PQ/BC.\nAQ = x - x1 (horizontal from A to P). PC = x2 - x (horizontal from P to B).\nm1/m2 = (x-x1)/(x2-x).\nm1(x2-x) = m2(x-x1) -> m1*x2 + m2*x1 = x(m1+m2).\nx = (m1*x2+m2*x1)/(m1+m2). Similarly y=(m1*y2+m2*y1)/(m1+m2). DERIVED.\nStep 3: MID-POINT FORMULA (m1=m2=1):\nx=(1*x2+1*x1)/(1+1)=(x1+x2)/2. y=(y1+y2)/2.\nM=[(x1+x2)/2,(y1+y2)/2]. Derived as special case.\n\nPART B - Sports Day:\nStep 4:\n(i) Green flag G: 2nd line, (1/4)*100=25 m from AD. G=(2,25).\nRed flag R: 8th line, (1/5)*100=20 m from AD. R=(8,20).\n(ii) GR=sqrt[(8-2)^2+(20-25)^2]=sqrt[36+25]=sqrt(61) m approx 7.81 m.\n(iii) Blue flag B=midpoint of GR: M=[(2+8)/2,(25+20)/2]=(5,22.5).\nRashmi posts blue flag on 5th line at 22.5 m from AD."
+            }
+          ]
+        },
+        {
+          "type": "mcq",
+          "label": "TOPIC 7.3: MCQs:",
+          "items": [
+            {
+              "mcq_num": 1,
+              "difficulty": "Easy",
+              "question": "Mid-point of P(x₁,y₁) and Q(x₂,y₂) is:",
+              "options": {
+                "A": "[(x₁–x₂)/2,(y₁–y₂)/2]  (B) [(x₁+x₂)/2,(y₁+y₂)/2]",
+                "C": "[x₁x₂, y₁y₂]  (D) [(x₁+x₂),(y₁+y₂)]"
+              },
+              "answer": "B",
+              "explanation": "Option (B) is correct based on the definition/theorem."
+            },
+            {
+              "mcq_num": 2,
+              "difficulty": "Easy",
+              "question": "Section formula gives coordinates of a point dividing a segment:",
+              "options": {
+                "A": "Externally  (B) Internally  (C) Both  (D) At right angles"
+              },
+              "answer": "B",
+              "explanation": "The correct answer is (B) Internally."
+            },
+            {
+              "mcq_num": 3,
+              "difficulty": "Easy",
+              "question": "Mid-point formula is section formula with ratio:",
+              "options": {
+                "A": "1:2  (B) 2:1  (C) 1:1  (D) 1:3"
+              },
+              "answer": "C",
+              "explanation": "The correct answer is (C) 1:1."
+            },
+            {
+              "mcq_num": 4,
+              "difficulty": "Easy",
+              "question": "If P divides AB in ratio m₁:m₂ internally, x-coordinate of P is:",
+              "options": {
+                "A": "(m₁x₁+m₂x₂)/(m₁+m₂)  (B) (m₁x₂+m₂x₁)/(m₁+m₂)",
+                "C": "(m₁x₂–m₂x₁)/(m₁+m₂)  (D) (m₁+m₂)/(x₁+x₂)"
+              },
+              "answer": "B",
+              "explanation": "Option (B) is correct based on the definition/theorem."
+            },
+            {
+              "mcq_num": 5,
+              "difficulty": "Easy",
+              "question": "Two trisection points of AB divide it in ratios:",
+              "options": {
+                "A": "1:2 and 2:1  (B) 1:3 and 3:1  (C) 2:3 and 3:2  (D) 1:1 and 2:2"
+              },
+              "answer": "A",
+              "explanation": "The correct answer is (A) 1:2 and 2:1."
+            },
+            {
+              "mcq_num": 6,
+              "difficulty": "Medium",
+              "question": "Point dividing (–1,7) and (4,–3) in ratio 2:3:",
+              "options": {
+                "A": "(2,3)  (B) (1,3)  (C) (3,1)  (D) (0,5)"
+              },
+              "answer": "B",
+              "explanation": "Option (B) is correct based on the definition/theorem."
+            },
+            {
+              "mcq_num": 7,
+              "difficulty": "Medium",
+              "question": "In what ratio does (–1,6) divide segment joining (–3,10) and (6,–8)?",
+              "options": {
+                "A": "1:2  (B) 2:7  (C) 3:4  (D) 2:3"
+              },
+              "answer": "B",
+              "explanation": "The correct answer is (B) 2:7."
+            },
+            {
+              "mcq_num": 8,
+              "difficulty": "Medium",
+              "question": "A(6,1),B(8,2),C(9,4),D(p,3) are vertices of parallelogram. p =",
+              "options": {
+                "A": "5  (B) 6  (C) 7  (D) 8"
+              },
+              "answer": "C",
+              "explanation": "The correct answer is (C) 7."
+            },
+            {
+              "mcq_num": 9,
+              "difficulty": "Medium",
+              "question": "y-axis divides segment joining (5,–6) and (–1,–4) in ratio:",
+              "options": {
+                "A": "1:5  (B) 5:1  (C) 1:1  (D) 2:3"
+              },
+              "answer": "B",
+              "explanation": "The correct answer is (B) 5:1."
+            },
+            {
+              "mcq_num": 10,
+              "difficulty": "Medium",
+              "question": "Trisection points of A(2,–2) and B(–7,4) are:",
+              "options": {
+                "A": "(–1,0) and (–4,2)  (B) (1,0) and (4,–2)",
+                "C": "(–1,2) and (–4,0)  (D) (0,–1) and (2,–4)"
+              },
+              "answer": "A",
+              "explanation": "Option (A) is correct based on the definition/theorem."
+            },
+            {
+              "mcq_num": 11,
+              "difficulty": "Medium",
+              "question": "Centre of circle is (2,–3) and one end of diameter is B(1,4). Other end A is:",
+              "options": {
+                "A": "(3,–10)  (B) (–3,10)  (C) (3,10)  (D) (1.5,0.5)"
+              },
+              "answer": "A",
+              "explanation": "Option (A) is correct based on the definition/theorem."
+            },
+            {
+              "mcq_num": 12,
+              "difficulty": "Hard",
+              "question": "A(–2,–2) and B(2,–4). AP=(3/7)AB. Coordinates of P (ratio 3:4):",
+              "options": {
+                "A": "(–2/7,–20/7)  (B) (2/7,20/7)  (C) (–2/7,20/7)  (D) (2/7,–20/7)"
+              },
+              "answer": "A",
+              "explanation": "Option (A) is correct based on the definition/theorem."
+            },
+            {
+              "mcq_num": 13,
+              "difficulty": "Hard",
+              "question": "Points dividing A(–2,2) to B(2,8) into four equal parts:",
+              "options": {
+                "A": "(–1,7/2),(0,5),(1,13/2)  (B) (1,7/2),(0,5),(–1,13/2)",
+                "C": "(–1,3/2),(0,5),(1,11/2)  (D) (0,4),(0,5),(0,6)"
+              },
+              "answer": "A",
+              "explanation": "Option (A) is correct based on the definition/theorem."
+            },
+            {
+              "mcq_num": 14,
+              "difficulty": "Hard",
+              "question": "Area of rhombus with vertices (3,0),(4,5),(–1,4),(–2,–1):",
+              "options": {
+                "A": "24 sq units  (B) 48 sq units  (C) 12 sq units  (D) 36 sq units"
+              },
+              "answer": "A",
+              "explanation": "The correct answer is (A) 24 sq units."
+            },
+            {
+              "mcq_num": 15,
+              "difficulty": "Hard",
+              "question": "In Sports Day problem: Niharika at (2,25), Preet at (8,20). Distance between flags:",
+              "options": {
+                "A": "sqrt(61) m  (B) sqrt(51) m  (C) 61 m  (D) 7 m"
+              },
+              "answer": "A",
+              "explanation": "Option (A) is correct based on the definition/theorem."
+            }
+          ]
+        }
+      ],
+      "subtopics": []
+    }
+  ]
+}

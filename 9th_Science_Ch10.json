@@ -1,0 +1,2208 @@
+{
+  "metadata": {
+    "class": "9th STANDARD",
+    "subject": "Science",
+    "part": "2",
+    "chapter_num": "10",
+    "chapter_name": "WORK AND ENERGY",
+    "source": "KSEEB Textbook 2025-26",
+    "mode": "A"
+  },
+  "chapter_sections": [
+    {
+      "type": "key_points",
+      "label": "KEY POINTS:",
+      "points": [
+        "Work, energy and power are fundamental concepts in physics.",
+        "All living beings and machines need energy to perform activities.",
+        "The Sun is the biggest natural source of energy for us.",
+        "Energy exists in many forms: kinetic, potential, heat, chemical, electrical and light energy.",
+        "The unit of both work and energy is joule (J). The unit of power is watt (W).",
+        "The law of conservation of energy states that energy can neither be created nor destroyed, only transformed from one form to another."
+      ]
+    },
+    {
+      "type": "list_of_topics",
+      "label": "LIST OF TOPICS:",
+      "items": [
+        "10.1 Work",
+        "10.1.1 Not Much Work in Spite of Working Hard",
+        "10.1.2 Scientific Conception of Work",
+        "10.1.3 Work Done by a Constant Force",
+        "10.2 Energy",
+        "10.2.1 Forms of Energy",
+        "10.2.2 Kinetic Energy",
+        "10.2.3 Potential Energy",
+        "10.2.4 Potential Energy of an Object at a Height",
+        "10.2.5 Are Various Energy Forms Interconvertible?",
+        "10.2.6 Law of Conservation of Energy",
+        "10.3 Rate of Doing Work"
+      ]
+    }
+  ],
+  "topics": [
+    {
+      "topic_num": "10.1",
+      "topic_name": "WORK",
+      "mode": "A",
+      "sections": [
+        {
+          "type": "list_of_topics",
+          "label": "LIST OF SUB-TOPICS:",
+          "items": [
+            "10.1.1 Not Much Work in Spite of Working Hard",
+            "10.1.2 Scientific Conception of Work",
+            "10.1.3 Work Done by a Constant Force",
+            "DEFINITION: Work is said to be done when a force acts on an object and the object is displaced in the direction of the applied force. Work done = Force x Displacement (W = F x s). The SI unit of work is joule (J). 1 joule = 1 newton x 1 metre."
+          ]
+        },
+        {
+          "type": "key_points",
+          "label": "KEY POINTS:",
+          "points": [
+            "For work to be done, two conditions must be satisfied: (i) a force should act on the object, and (ii) the object must be displaced.",
+            "If either condition is not met, work is not done in the scientific sense.",
+            "Work has only magnitude and no direction (it is a scalar quantity).",
+            "Work done is positive when force and displacement are in the same direction.",
+            "Work done is negative when force and displacement are in opposite directions.",
+            "Work done is zero when force is perpendicular to displacement or when displacement is zero."
+          ]
+        },
+        {
+          "type": "activity",
+          "label": "ACTIVITY 10.1:",
+          "aim": "To identify situations where work is done in the scientific sense.",
+          "materials": "List of daily-life activities.",
+          "procedure": [
+            "For each activity from daily life, ask: (i) What is the work being done on? (ii) What is happening to the object? (iii) Who (or what) is doing the work?"
+          ],
+          "observation": "Activities like pushing a rock that does not move, or standing still with a heavy load, do not involve scientific work despite physical effort.",
+          "conclusion": "Work in science requires both a force and a displacement of the object on which the force acts.",
+          "caution": ""
+        },
+        {
+          "type": "activity",
+          "label": "ACTIVITY 10.2:",
+          "aim": "To think of daily-life situations involving work.",
+          "materials": "None (discussion activity).",
+          "procedure": [
+            "Think of situations from daily life involving work, list them, discuss whether work is done, identify the force and the object, and determine what happens to the object."
+          ],
+          "observation": "A bullock pulling a cart, a girl pulling a trolley, lifting a book - all involve force and displacement, hence work is done.",
+          "conclusion": "Work is done whenever force causes displacement in an object.",
+          "caution": ""
+        },
+        {
+          "type": "activity",
+          "label": "ACTIVITY 10.3:",
+          "aim": "To identify situations where object is not displaced despite a force, and situations where object gets displaced in the absence of a force.",
+          "materials": "None (thought experiment).",
+          "procedure": [
+            "Think of situations where: (a) object is not displaced despite a force (e.g., pushing a wall), (b) object is displaced in the absence of apparent force (e.g., a ball rolling on a smooth surface)."
+          ],
+          "observation": "When there is no displacement, no work is done even if force is applied. When displacement occurs without an apparent external force, the object was already in motion.",
+          "conclusion": "Only when force produces displacement is work said to be done.",
+          "caution": ""
+        },
+        {
+          "type": "exercise",
+          "label": "EXERCISE 10.1:",
+          "items": [],
+          "raw": "Q: A force of 7 N acts on an object. The displacement is 8 m in the direction of the force. Let the force act on the object through the displacement. What is the work done in this case?\nA: W = F x s = 7 N x 8 m = 56 J. The work done is 56 J.\n\n--------------------------------------------------------------------------------"
+        },
+        {
+          "type": "qa",
+          "label": "TOPIC 10.1 Q&A",
+          "items": [
+            {
+              "q_num": 1,
+              "marks": null,
+              "question": "When do we say that work is done?",
+              "answer": "Work is done when:\n(i) A force acts on an object.\n(ii) The object is displaced in the direction of the applied force.\nBoth conditions must be satisfied simultaneously for work to be done."
+            },
+            {
+              "q_num": 2,
+              "marks": null,
+              "question": "Write the SI unit of work and define it.",
+              "answer": "The SI unit of work is joule (J).\nDefinition: 1 joule is the amount of work done when a force of 1 newton displaces an object through 1 metre in the direction of the force.\n1 J = 1 N x 1 m = 1 N m."
+            },
+            {
+              "q_num": 3,
+              "marks": null,
+              "question": "What is the formula for work done by a constant force?",
+              "answer": "Work done = Force x Displacement\nW = F x s\nWhere W = work done (in joules), F = force applied (in newtons), s = displacement (in metres) in the direction of the force."
+            },
+            {
+              "q_num": 4,
+              "marks": null,
+              "question": "When is work done said to be negative?",
+              "answer": "Work done is said to be negative when the force acts in the direction opposite to the displacement. In this case, the work done by the force is denoted by a minus sign: W = F x (-s) or W = -F x s.\nExample: A retarding force applied to stop a moving ball does negative work."
+            },
+            {
+              "q_num": 5,
+              "marks": null,
+              "question": "A force of 5 N acts on an object displaced through 2 m in the direction of the force. What is the work done?",
+              "answer": "W = F x s\nW = 5 N x 2 m\nW = 10 N m = 10 J\nThe work done is 10 joules."
+            },
+            {
+              "q_num": 6,
+              "marks": null,
+              "question": "A pair of bullocks exerts a force of 140 N on a plough. The field being ploughed is 15 m long. How much work is done in ploughing the length of the field?",
+              "answer": "W = F x s\nW = 140 N x 15 m\nW = 2100 N m = 2100 J\nThe work done in ploughing the field is 2100 J."
+            },
+            {
+              "q_num": 7,
+              "marks": null,
+              "question": "Explain with an example why a person pushing a wall does no work in the scientific sense even though they get tired.",
+              "answer": "For work to be done in the scientific sense, two conditions must be met:\n(i) A force must act on the object.\n(ii) The object must get displaced.\nWhen a person pushes a wall:\n- A force is applied on the wall. Condition (i) is satisfied.\n- The wall does not move. There is zero displacement. Condition (ii) is NOT satisfied.\nSince displacement is zero: W = F x 0 = 0\nTherefore, no work is done on the wall.\nThe person gets tired because internal muscular energy is used, but no mechanical work is done on the wall."
+            },
+            {
+              "q_num": 8,
+              "marks": null,
+              "question": "Distinguish between positive work and negative work with one example each.",
+              "answer": "POSITIVE WORK:\n- When force and displacement are in the same direction.\n- Example: A boy pushing a cart forward - the cart moves in the direction of the applied force. Work done is positive.\n- W = +F x s\n\nNEGATIVE WORK:\n- When force and displacement are in opposite directions.\n- Example: A ball thrown upward - gravity acts downward while the ball moves upward. Work done by gravity is negative.\n- W = -F x s\n\nIn both cases, the magnitude of work = force x displacement, but the sign indicates direction of energy transfer."
+            },
+            {
+              "q_num": 9,
+              "marks": null,
+              "question": "Is work done by gravity when a ball thrown upward rises to its maximum height? Justify.",
+              "answer": "Yes, work is done by gravity, and it is negative.\n- The ball thrown upward moves upward (displacement is upward).\n- Gravity always acts downward.\n- Force (downward) is opposite to displacement (upward).\nTherefore, work done by gravity = -F x s = -mgs (where s is height reached).\nThis negative work means gravity is taking away energy from the ball, which is why the ball slows down as it rises.\nAt maximum height, velocity = 0 and all kinetic energy has been converted to potential energy."
+            },
+            {
+              "q_num": 10,
+              "marks": null,
+              "question": "A porter lifts a luggage of 15 kg from the ground and puts it on his head 1.5 m above the ground. Calculate the work done by him on the luggage.",
+              "answer": "Given:\nMass of luggage, m = 15 kg\nDisplacement, s = 1.5 m\nAcceleration due to gravity, g = 10 m/s^2\n\nForce applied = weight of luggage = m x g = 15 x 10 = 150 N\n\nWork done, W = F x s = mg x s\nW = 15 kg x 10 m/s^2 x 1.5 m\nW = 225 kg m/s^2 x m\nW = 225 N m = 225 J\n\nThe work done by the porter on the luggage is 225 J."
+            },
+            {
+              "q_num": 11,
+              "marks": null,
+              "question": "What is work done when force is zero? What is work done when displacement is zero? Explain with suitable situations.",
+              "answer": "CASE 1 - Force is zero:\nW = F x s = 0 x s = 0\nWork done is zero.\nSituation: A ball rolling on a perfectly smooth, frictionless horizontal surface continues to move without any force. No work is done on it.\n\nCASE 2 - Displacement is zero:\nW = F x s = F x 0 = 0\nWork done is zero.\nSituation: A person holds a heavy book standing still. Even though force (weight of book) acts, there is no displacement, so no work is done on the book.\n\nIn both cases, the mathematical product W = F x s = 0. Work is done only when both force and displacement are non-zero and have a component along each other.\n\n--------------------------------------------------------------------------------"
+            }
+          ]
+        },
+        {
+          "type": "mcq",
+          "label": "TOPIC 10.1 MCQ",
+          "items": [
+            {
+              "mcq_num": 1,
+              "difficulty": "Easy",
+              "question": "The SI unit of work is:",
+              "options": {
+                "A": "newton",
+                "B": "watt",
+                "C": "joule",
+                "D": "pascal"
+              },
+              "answer": "C",
+              "explanation": "Work = Force x Displacement. SI unit = N x m = joule (J). Newton is unit of force, watt is unit of power, pascal is unit of pressure."
+            },
+            {
+              "mcq_num": 2,
+              "difficulty": "Easy",
+              "question": "Work is done when:",
+              "options": {
+                "A": "force is applied but no displacement occurs",
+                "B": "force is applied and displacement occurs in direction of force",
+                "C": "object moves without any force",
+                "D": "force is perpendicular to displacement"
+              },
+              "answer": "B",
+              "explanation": "For work to be done, both force and displacement must exist and displacement should be in (or have a component in) the direction of force. If displacement is zero or perpendicular, work done is zero."
+            },
+            {
+              "mcq_num": 3,
+              "difficulty": "Easy",
+              "question": "A force of 10 N displaces an object by 5 m in the direction of the force. Work done is:",
+              "options": {
+                "A": "2 J",
+                "B": "15 J",
+                "C": "50 J",
+                "D": "0.5 J"
+              },
+              "answer": "C",
+              "explanation": "W = F x s = 10 N x 5 m = 50 J. Simply multiply force by displacement in the direction of force."
+            },
+            {
+              "mcq_num": 4,
+              "difficulty": "Easy",
+              "question": "When a ball is thrown upward, the work done by gravity is:",
+              "options": {
+                "A": "zero",
+                "B": "positive",
+                "C": "negative",
+                "D": "infinite"
+              },
+              "answer": "C",
+              "explanation": "Gravity acts downward, but displacement of ball is upward. Force and displacement are in opposite directions, so work done by gravity = -mgs, which is negative."
+            },
+            {
+              "mcq_num": 5,
+              "difficulty": "Easy",
+              "question": "1 joule is defined as work done when a force of 1 N displaces an object through:",
+              "options": {
+                "A": "1 cm",
+                "B": "1 km",
+                "C": "1 m",
+                "D": "10 m"
+              },
+              "answer": "C",
+              "explanation": "1 J = 1 N x 1 m. The joule is defined with metre (SI unit of length) and newton (SI unit of force)."
+            },
+            {
+              "mcq_num": 6,
+              "difficulty": "Medium",
+              "question": "A person holds a 20 kg box stationary on his head for 5 minutes. Work done on the box is:",
+              "options": {
+                "A": "200 J",
+                "B": "1000 J",
+                "C": "6000 J",
+                "D": "0 J"
+              },
+              "answer": "D",
+              "explanation": "Although the person exerts force (weight = 200 N upward), displacement of the box is zero. W = F x 0 = 0. No scientific work is done on the box, though the person expends muscular energy."
+            },
+            {
+              "mcq_num": 7,
+              "difficulty": "Medium",
+              "question": "A force of F acts in the opposite direction to displacement s. The work done is:",
+              "options": {
+                "A": "+Fs",
+                "B": "-Fs",
+                "C": "F/s",
+                "D": "zero"
+              },
+              "answer": "B",
+              "explanation": "When force and displacement are in opposite directions, work done is negative. W = -Fs. This represents energy being taken away from the object (like friction stopping a moving object)."
+            },
+            {
+              "mcq_num": 8,
+              "difficulty": "Medium",
+              "question": "A bullock cart is pulled by a force of 200 N. If the work done is 2000 J, the displacement of the cart is:",
+              "options": {
+                "A": "4 m",
+                "B": "10 m",
+                "C": "100 m",
+                "D": "400 m"
+              },
+              "answer": "B",
+              "explanation": "W = F x s, so s = W/F = 2000/200 = 10 m. Always check: W = 200 x 10 = 2000 J."
+            },
+            {
+              "mcq_num": 9,
+              "difficulty": "Medium",
+              "question": "Which of the following involves zero work done in the scientific sense?",
+              "options": {
+                "A": "A coolie carrying luggage and walking horizontally",
+                "B": "A ball rolling on ground due to applied force",
+                "C": "Lifting a stone from ground",
+                "D": "A car accelerating due to engine force"
+              },
+              "answer": "A",
+              "explanation": "A coolie carrying luggage walks horizontally. The force he applies is vertical (upward, to support luggage), but displacement is horizontal. Force is perpendicular to displacement, so work done by the coolie on luggage = 0. Options B, C, D all have force and displacement in the same direction."
+            },
+            {
+              "mcq_num": 10,
+              "difficulty": "Medium",
+              "question": "kJ stands for kilojoule. How many joules equal 1 kJ?",
+              "options": {
+                "A": "10 J",
+                "B": "100 J",
+                "C": "1000 J",
+                "D": "10000 J"
+              },
+              "answer": "C",
+              "explanation": "The prefix 'kilo' means 1000. So 1 kJ = 1000 J. This is used when dealing with large amounts of energy like food energy."
+            },
+            {
+              "mcq_num": 11,
+              "difficulty": "Hard",
+              "question": "An object is moved from point A to point B and back to A by the same path. The total work done by a constant horizontal force F acting in the direction A to B is:",
+              "options": {
+                "A": "2 x F x d (where d = distance AB)",
+                "B": "F x d",
+                "C": "0",
+                "D": "-F x d"
+              },
+              "answer": "D",
+              "explanation": "From A to B: displacement = +d, force = +F, work = +Fd. From B to A: displacement = -d (opposite direction), force = +F (unchanged), work = -Fd. Total = Fd + (-Fd) = 0. But wait - this is work done BY the force. Actually, on return journey, force F still acts from A to B direction, but displacement is from B to A. So work on return = F x (-d) = -Fd. Total = Fd + (-Fd) = 0. Net displacement is zero, so net work is zero. Answer (C) 0 is correct."
+            },
+            {
+              "mcq_num": 12,
+              "difficulty": "Hard",
+              "question": "Work done by a force on a stationary object is zero. Which of the following CORRECTLY explains why a person standing with heavy luggage gets tired even though no work is done?",
+              "options": {
+                "A": "The person does work against gravity",
+                "B": "Internal muscular energy is consumed to maintain the static position",
+                "C": "Potential energy increases in the luggage",
+                "D": "Kinetic energy of the person increases"
+              },
+              "answer": "B",
+              "explanation": "In the scientific sense, no work is done on the luggage (zero displacement). However, to maintain a static position against gravity, the muscles undergo repeated contractions and relaxations at the cellular level, consuming chemical energy (from food). This internal energy expenditure causes tiredness even though no mechanical work is done on the luggage. Options A and C are incorrect as no work or energy change occurs in the luggage."
+            }
+          ]
+        }
+      ],
+      "subtopics": [
+        {
+          "subtopic_num": "10.1.1",
+          "subtopic_name": "NOT MUCH WORK IN SPITE OF WORKING HARD",
+          "sections": [
+            {
+              "type": "key_points",
+              "label": "KEY POINTS:",
+              "points": [
+                "Common usage of 'work' includes reading, writing, thinking, exercising etc.",
+                "Scientific definition of work is much more specific and limited.",
+                "Kamali studying for examinations is a good example: she reads, writes, draws diagrams, attends classes - all considered hard work in common parlance.",
+                "But in science, if there is no displacement of an object by a force, this 'hard work' involves very little scientific work.",
+                "Pushing a huge rock that does not move = no scientific work done even if person is exhausted.",
+                "Standing still with heavy load = no scientific work done on the load.",
+                "-------------------------------------------------------------------------------"
+              ]
+            },
+            {
+              "type": "qa",
+              "label": "SUB-TOPIC 10.1.1 Q&A",
+              "items": [
+                {
+                  "q_num": 1,
+                  "marks": 2,
+                  "question": "Give two examples from daily life where common usage of 'work' differs from the scientific definition of work.",
+                  "answer": "Example 1: Pushing a heavy wall.\n- Common sense: Person is working hard.\n- Scientific sense: No work done (wall does not move, displacement = 0).\n\nExample 2: A student studying all night.\n- Common sense: The student is working very hard.\n- Scientific sense: Very little scientific work done (reading and thinking involve no significant displacement of objects by force)."
+                },
+                {
+                  "q_num": 2,
+                  "marks": 3,
+                  "question": "Explain why climbing a flight of stairs involves scientific work but standing still with a heavy load on your head does not.",
+                  "answer": "CLIMBING STAIRS:\n- Force applied: upward (to lift body weight against gravity).\n- Displacement: upward (body moves up each step).\n- Force and displacement are in the same direction.\n- W = F x s = mgs (not zero).\n- Scientific work IS done.\n\nSTANDING STILL WITH LOAD:\n- Force applied: upward (to support the weight of load).\n- Displacement: zero (neither person nor load moves vertically).\n- W = F x 0 = 0.\n- Scientific work is NOT done on the load.\n\nThe key difference is displacement. Climbing produces upward displacement, while standing produces none.\n\n--------------------------------------------------------------------------------"
+                }
+              ]
+            },
+            {
+              "type": "mcq",
+              "label": "SUB-TOPIC 10.1.1 MCQ",
+              "items": [
+                {
+                  "mcq_num": 1,
+                  "difficulty": "Easy",
+                  "question": "In which of the following is scientific work done?",
+                  "options": {
+                    "A": "A student reading a textbook",
+                    "B": "A person pushing a wall that does not move",
+                    "C": "A coolie lifting a bag from the ground",
+                    "D": "A man standing with luggage on his head"
+                  },
+                  "answer": "C",
+                  "explanation": "Lifting a bag involves force (upward) and displacement (upward), so work is done. Reading involves no physical displacement. Pushing an immovable wall has zero displacement. Standing still has zero displacement."
+                },
+                {
+                  "mcq_num": 2,
+                  "difficulty": "Easy",
+                  "question": "A student says she worked hard all day studying. In science, she:",
+                  "options": {
+                    "A": "did a lot of work",
+                    "B": "did no work at all in any sense",
+                    "C": "did very little scientific work",
+                    "D": "did the same work as a weightlifter"
+                  },
+                  "answer": "C",
+                  "explanation": "In daily life, studying is considered hard work. In science, work requires force and displacement. Mental activities involve negligible physical force and displacement, so very little scientific work is done."
+                },
+                {
+                  "mcq_num": 3,
+                  "difficulty": "Medium",
+                  "question": "Why does a person holding a 10 kg bag stationary at arm's length get tired even though no scientific work is done on the bag?",
+                  "options": {
+                    "A": "The bag gains potential energy",
+                    "B": "Muscular cells continuously contract using chemical energy",
+                    "C": "Kinetic energy of the arm increases",
+                    "D": "Work is done against friction"
+                  },
+                  "answer": "B",
+                  "explanation": "Though displacement = 0 means no mechanical work is done, muscles continuously contract and relax at the cellular level to maintain position, consuming chemical (food) energy and causing fatigue."
+                },
+                {
+                  "mcq_num": 4,
+                  "difficulty": "Medium",
+                  "question": "Which of the following is an example of zero scientific work?",
+                  "options": {
+                    "A": "A ball rolling down a slope under gravity",
+                    "B": "An engine pulling a train",
+                    "C": "A man carrying a bucket of water while walking horizontally",
+                    "D": "A rocket launching into space"
+                  },
+                  "answer": "C",
+                  "explanation": "The force the man applies is vertical (upward, to carry the bucket) but displacement is horizontal. Force is perpendicular to displacement, so work done on the bucket = 0. All other options involve force and displacement in the same direction."
+                },
+                {
+                  "mcq_num": 5,
+                  "difficulty": "Hard",
+                  "question": "Ramu pushed a heavy rock with all his strength for 1 hour but it did not move. Somu lifted a 1 kg stone by 1 m. Who did more scientific work?",
+                  "options": {
+                    "A": "Ramu, because he applied more force",
+                    "B": "Somu, because displacement occurred",
+                    "C": "Both did equal work",
+                    "D": "Neither did any work"
+                  },
+                  "answer": "B",
+                  "explanation": "Ramu applied force but displacement = 0, so W_Ramu = F x 0 = 0. Somu lifted a stone: W_Somu = mgs = 1 x 10 x 1 = 10 J. Somu did more scientific work despite applying much less force, because displacement occurred. Force alone does not determine work."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "subtopic_num": "10.1.2",
+          "subtopic_name": "SCIENTIFIC CONCEPTION OF WORK",
+          "sections": [
+            {
+              "type": "key_points",
+              "label": "KEY POINTS:",
+              "points": [
+                "Pebble pushed on surface: force acts, pebble moves = work done.",
+                "Girl pulls trolley and it moves = work done.",
+                "Lifting a book: force applied, book rises = work done.",
+                "Key principle: force AND displacement, both must be present.",
+                "Work done can be positive, negative or zero.",
+                "If force is in direction of displacement: positive work.",
+                "If force is opposite to displacement: negative work.",
+                "If force is perpendicular to displacement: zero work."
+              ]
+            },
+            {
+              "type": "activity",
+              "label": "ACTIVITY 10.2:",
+              "aim": "To understand the scientific conception of work through daily-life examples.",
+              "materials": "None (thought experiment/discussion).",
+              "procedure": [
+                "- Think of daily life situations involving work.",
+                "- For each, identify: what is the force acting on? What is happening to the object? Who is doing the work?",
+                "- Determine if both conditions (force + displacement) are satisfied."
+              ],
+              "observation": "Only those activities where force produces displacement involve scientific work. Pushing an immovable object, or holding an object stationary, do not constitute work.",
+              "conclusion": "Work = Force x Displacement (only when force produces displacement of the object on which it acts).",
+              "caution": ""
+            },
+            {
+              "type": "activity",
+              "label": "ACTIVITY 10.3:",
+              "aim": "To identify situations where object is not displaced despite force, and vice versa.",
+              "materials": "None.",
+              "procedure": [
+                "Think of and list: (a) situations where object is not displaced despite force, (b) situations where object is displaced without apparent force, (c) discuss whether work is done."
+              ],
+              "observation": "A ball rolling on smooth floor moves with no additional force - no work being done on it. A person pushing a wall - no displacement - no work done.",
+              "conclusion": "Displacement is essential for work to be done.\n\n--------------------------------------------------------------------------------",
+              "caution": ""
+            },
+            {
+              "type": "qa",
+              "label": "SUB-TOPIC 10.1.2 Q&A",
+              "items": [
+                {
+                  "q_num": 1,
+                  "marks": 2,
+                  "question": "State the two conditions necessary for work to be done in science.",
+                  "answer": "For work to be done in science, the following two conditions must be satisfied:\n(i) A force must act on the object.\n(ii) The object must be displaced (moved) by the action of the force.\nIf either condition is absent, scientific work is zero."
+                },
+                {
+                  "q_num": 2,
+                  "marks": 3,
+                  "question": "Give one example each of positive work and negative work. Explain.",
+                  "answer": "POSITIVE WORK: A football player kicks a ball. The force (kick) and the resulting displacement of the ball are in the same direction (forward). W = +Fs. Energy is transferred to the ball, increasing its kinetic energy.\n\nNEGATIVE WORK: A braking force is applied to stop a moving car. The car moves forward (displacement is forward) but the braking force acts backward (opposite direction). W = -Fs. Energy is removed from the car, reducing its kinetic energy and bringing it to rest."
+                },
+                {
+                  "q_num": 3,
+                  "marks": 4,
+                  "question": "A girl pulls a trolley through 10 m using a force of 30 N. A boy tries to push a heavy box but it does not move. Compare the work done in both cases and explain.",
+                  "answer": "GIRL PULLING TROLLEY:\n- Force = 30 N (in direction of motion)\n- Displacement = 10 m\n- W = F x s = 30 x 10 = 300 J\n- Both conditions satisfied: force is applied AND trolley is displaced.\n- Work done = 300 J (positive work).\n\nBOY PUSHING BOX:\n- Force = some F N (applied to box)\n- Displacement = 0 (box does not move)\n- W = F x 0 = 0 J\n- Only one condition satisfied: force is applied BUT there is no displacement.\n- Work done = 0 J (zero work).\n\nComparison: The girl does 300 J of work. The boy does 0 J of scientific work despite possibly applying a large force. This shows that force alone, without displacement, does not constitute work.\n\n--------------------------------------------------------------------------------"
+                }
+              ]
+            },
+            {
+              "type": "mcq",
+              "label": "SUB-TOPIC 10.1.2 MCQ",
+              "items": [
+                {
+                  "mcq_num": 1,
+                  "difficulty": "Easy",
+                  "question": "Work done = 0 when:",
+                  "options": {
+                    "A": "force is large and displacement is small",
+                    "B": "force acts but displacement is zero",
+                    "C": "displacement is large and force is small",
+                    "D": "force and displacement are in same direction"
+                  },
+                  "answer": "B",
+                  "explanation": "W = F x s. If s = 0, then W = F x 0 = 0, regardless of how large F is. Only when displacement occurs is work done."
+                },
+                {
+                  "mcq_num": 2,
+                  "difficulty": "Easy",
+                  "question": "A pebble is pushed on a table and slides 0.5 m under a 2 N force. Work done is:",
+                  "options": {
+                    "A": "0.25 J",
+                    "B": "1 J",
+                    "C": "2.5 J",
+                    "D": "4 J"
+                  },
+                  "answer": "B",
+                  "explanation": "W = F x s = 2 N x 0.5 m = 1 J. Force and displacement are in same direction, so work is positive."
+                },
+                {
+                  "mcq_num": 3,
+                  "difficulty": "Medium",
+                  "question": "A ball is thrown upward. Which force does NEGATIVE work on the ball while it rises?",
+                  "options": {
+                    "A": "Air resistance only",
+                    "B": "Gravity only",
+                    "C": "Both gravity and air resistance",
+                    "D": "The initial throwing force"
+                  },
+                  "answer": "C",
+                  "explanation": "Both gravity (acts downward, ball moves upward) and air resistance (acts downward, opposing motion, ball moves upward) act opposite to displacement. Both do negative work on the rising ball."
+                },
+                {
+                  "mcq_num": 4,
+                  "difficulty": "Medium",
+                  "question": "Which of the following best represents the scientific conception of work?",
+                  "options": {
+                    "A": "Effort or exertion involved in any activity",
+                    "B": "Product of force and displacement in the direction of force",
+                    "C": "Energy spent regardless of displacement",
+                    "D": "Time taken to complete a task"
+                  },
+                  "answer": "B",
+                  "explanation": "Scientifically, W = F x s where s is displacement in the direction of force. It is not about effort, energy spent without displacement, or time."
+                },
+                {
+                  "mcq_num": 5,
+                  "difficulty": "Hard",
+                  "question": "A satellite orbits Earth in a circular orbit at constant speed. The gravitational force always points toward Earth's center (perpendicular to satellite's motion). Work done by gravity on the satellite per complete orbit is:",
+                  "options": {
+                    "A": "mgh (where h = orbital height)",
+                    "B": "2 x pi x r x F_gravity",
+                    "C": "zero",
+                    "D": "maximum at highest point"
+                  },
+                  "answer": "C",
+                  "explanation": "In circular motion, force (gravity) is always perpendicular to displacement (tangential velocity direction). When force is perpendicular to displacement, work done = 0. Over a complete orbit, net displacement is also zero, confirming zero net work by gravity on a satellite in circular orbit."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "subtopic_num": "10.1.3",
+          "subtopic_name": "WORK DONE BY A CONSTANT FORCE",
+          "sections": [
+            {
+              "type": "key_points",
+              "label": "KEY POINTS:",
+              "points": [
+                "Work done = Force x Displacement: W = Fs",
+                "Unit: newton metre (N m) = joule (J)",
+                "Work is a scalar quantity (no direction).",
+                "1 joule = work done by 1 N force producing 1 m displacement.",
+                "When force acts in the direction of displacement: W = +Fs (positive work).",
+                "When force acts opposite to displacement: W = -Fs (negative work), e.g., a retarding force F applied in opposite direction.",
+                "Work done can be expressed as W = F x (-s) = -Fs when retarding force opposes displacement.",
+                "kJ (kilojoule) = 1000 J (for large energy quantities).",
+                "EXAMPLE 10.1:",
+                "A force of 5 N acts on an object. The object is displaced through 2 m in the direction of the force. If the force acts on the object all through the displacement, find the work done.",
+                "Solution:",
+                "F = 5 N, s = 2 m",
+                "W = F x s = 5 x 2 = 10 N m = 10 J",
+                "Work done is 10 J.",
+                "EXAMPLE (from textbook, activity context):",
+                "A force of 7 N acts on an object. Displacement = 8 m in direction of force.",
+                "W = F x s = 7 x 8 = 56 J.",
+                "-------------------------------------------------------------------------------"
+              ]
+            },
+            {
+              "type": "qa",
+              "label": "SUB-TOPIC 10.1.3 Q&A",
+              "items": [
+                {
+                  "q_num": 1,
+                  "marks": 2,
+                  "question": "Write the formula for work done by a constant force and state the meaning of each symbol.",
+                  "answer": "Formula: W = F x s\nWhere:\nW = Work done (in joules, J)\nF = Constant force applied (in newtons, N)\ns = Displacement of the object in the direction of force (in metres, m)\nThe unit of work is N m = joule (J)."
+                },
+                {
+                  "q_num": 2,
+                  "marks": 3,
+                  "question": "Explain with an example why work done can be negative. Also explain when work done is zero.",
+                  "answer": "NEGATIVE WORK: Work is negative when force and displacement are in opposite directions.\nExample: A moving car is braked. The car moves forward (displacement = +s) but braking force acts backward (-F). Work done by braking force = (-F)(s) = -Fs. The negative value shows energy is removed from the car.\n\nZERO WORK: Work is zero when:\n(a) Displacement is zero (e.g., pushing a wall): W = F x 0 = 0.\n(b) Force is perpendicular to displacement (e.g., a satellite in circular orbit): force toward center, motion is tangential - perpendicular - so W = 0."
+                },
+                {
+                  "q_num": 3,
+                  "marks": 4,
+                  "question": "A force of 5 N acts on an object displaced through 2 m. (i) If force is in direction of displacement, find work done. (ii) If force is opposite to displacement, find work done. What do the signs tell us?",
+                  "answer": "(i) Force in direction of displacement:\nW = +F x s = +5 x 2 = +10 J\nPositive work: Force transfers energy to the object, increasing its kinetic energy.\n\n(ii) Force opposite to displacement:\nW = -F x s = -5 x 2 = -10 J\nNegative work: Force takes away energy from the object, decreasing its kinetic energy (like a braking/retarding force).\n\nINTERPRETATION OF SIGNS:\n- Positive (+): Energy is given TO the object by the force. Object speeds up.\n- Negative (-): Energy is taken FROM the object by the force. Object slows down.\n- Zero (0): No energy transfer between force and object.\nThe sign of work indicates the direction of energy transfer.\n\n--------------------------------------------------------------------------------"
+                }
+              ]
+            },
+            {
+              "type": "mcq",
+              "label": "SUB-TOPIC 10.1.3 MCQ",
+              "items": [
+                {
+                  "mcq_num": 1,
+                  "difficulty": "Easy",
+                  "question": "The formula W = F x s gives work done when:",
+                  "options": {
+                    "A": "force and displacement are perpendicular",
+                    "B": "force is in the direction of displacement",
+                    "C": "force acts but object is stationary",
+                    "D": "displacement occurs without force"
+                  },
+                  "answer": "B",
+                  "explanation": "W = Fs is valid when force F is in the direction of displacement s. If perpendicular, work = 0. If opposite, work = -Fs."
+                },
+                {
+                  "mcq_num": 2,
+                  "difficulty": "Easy",
+                  "question": "If F = 10 N and s = 3 m in the direction of force, work done is:",
+                  "options": {
+                    "A": "3.3 J",
+                    "B": "13 J",
+                    "C": "30 J",
+                    "D": "7 J"
+                  },
+                  "answer": "C",
+                  "explanation": "W = F x s = 10 x 3 = 30 J. Simple multiplication of force and displacement."
+                },
+                {
+                  "mcq_num": 3,
+                  "difficulty": "Medium",
+                  "question": "A retarding force of 8 N acts on a moving object and brings it to rest after 4 m. The work done by the retarding force is:",
+                  "options": {
+                    "A": "+32 J",
+                    "B": "-32 J",
+                    "C": "+2 J",
+                    "D": "zero"
+                  },
+                  "answer": "B",
+                  "explanation": "Retarding force acts opposite to direction of motion (displacement). So W = -F x s = -8 x 4 = -32 J. Negative sign shows the force removed kinetic energy from the object."
+                },
+                {
+                  "mcq_num": 4,
+                  "difficulty": "Medium",
+                  "question": "1 kilojoule (kJ) equals:",
+                  "options": {
+                    "A": "10 J",
+                    "B": "100 J",
+                    "C": "1000 J",
+                    "D": "1,000,000 J"
+                  },
+                  "answer": "C",
+                  "explanation": "The prefix 'kilo' means 10^3 = 1000. So 1 kJ = 1000 J. Kilojoules are used when measuring larger energies like food calories or electrical energy."
+                },
+                {
+                  "mcq_num": 5,
+                  "difficulty": "Hard",
+                  "question": "An object is displaced by s = 5 m under force F = 6 N (in direction of displacement) and then by s = 3 m under retarding force F = 6 N (opposite to displacement). Total work done is:",
+                  "options": {
+                    "A": "54 J",
+                    "B": "30 J",
+                    "C": "18 J",
+                    "D": "12 J"
+                  },
+                  "answer": "D",
+                  "explanation": "Work in first part = +6 x 5 = +30 J. Work in second part = -6 x 3 = -18 J. Total work = 30 + (-18) = 12 J. Work is a scalar and can be added algebraically with sign."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic_num": "10.2",
+      "topic_name": "ENERGY",
+      "mode": "A",
+      "sections": [
+        {
+          "type": "list_of_topics",
+          "label": "LIST OF SUB-TOPICS:",
+          "items": [
+            "10.2.1 Forms of Energy",
+            "10.2.2 Kinetic Energy",
+            "10.2.3 Potential Energy",
+            "10.2.4 Potential Energy of an Object at a Height",
+            "10.2.5 Are Various Energy Forms Interconvertible?",
+            "10.2.6 Law of Conservation of Energy",
+            "DEFINITION: Energy is the capacity of an object to do work. An object that possesses energy can exert a force on another object. When this happens, energy is transferred from the first object to the second. The unit of energy is the same as that of work - joule (J). 1 J is the energy required to do 1 joule of work."
+          ]
+        },
+        {
+          "type": "key_points",
+          "label": "KEY POINTS:",
+          "points": [
+            "Energy is possessed by an object by virtue of its motion (kinetic energy) or position/configuration (potential energy).",
+            "The SI unit of energy is joule (J). 1 kJ = 1000 J.",
+            "Energy can neither be created nor destroyed - it can only be transformed from one form to another (Law of Conservation of Energy).",
+            "The Sun is the biggest natural source of energy.",
+            "Sources of energy: Sun, nuclei of atoms, interior of earth, tides.",
+            "An object having capability to do work is said to possess energy.",
+            "The object which does work loses energy; the object on which work is done gains energy."
+          ]
+        },
+        {
+          "type": "activity",
+          "label": "ACTIVITY 10.5:",
+          "aim": "To list and discuss various sources of energy.",
+          "materials": "None (discussion).",
+          "procedure": [
+            "A few sources of energy are given. List many more sources. Discuss in small groups how certain sources are due to the Sun. Identify sources not due to the Sun."
+          ],
+          "observation": "Most energy sources (wind, water, food, fossil fuels, plants) ultimately derive from solar energy. Tidal energy, geothermal energy and nuclear energy are not solar in origin.",
+          "conclusion": "Energy exists in many forms and comes from various natural sources, with the Sun being the primary source for most.\n\n--------------------------------------------------------------------------------",
+          "caution": ""
+        },
+        {
+          "type": "qa",
+          "label": "TOPIC 10.2 Q&A",
+          "items": [
+            {
+              "q_num": 1,
+              "marks": null,
+              "question": "Define energy. What is its SI unit?",
+              "answer": "Energy is the capacity of an object to do work. An object that possesses energy can exert a force on another object and when it does so, energy is transferred from the first to the second object.\nSI unit of energy is joule (J), same as that of work.\n1 J = 1 N m. For larger quantities, kilojoule (kJ) is used: 1 kJ = 1000 J."
+            },
+            {
+              "q_num": 2,
+              "marks": null,
+              "question": "Name any four forms of energy.",
+              "answer": "The four forms of energy are:\n(i) Kinetic energy - energy due to motion.\n(ii) Potential energy - energy due to position or configuration.\n(iii) Heat energy - energy associated with temperature.\n(iv) Chemical energy - energy stored in chemical bonds (e.g., food, fuels).\nOther forms include electrical energy and light energy."
+            },
+            {
+              "q_num": 3,
+              "marks": null,
+              "question": "State the Law of Conservation of Energy.",
+              "answer": "The Law of Conservation of Energy states that energy can only be converted from one form to another; it can neither be created nor destroyed. The total energy before and after any transformation always remains the same. This law is valid in all situations and for all kinds of energy transformations."
+            },
+            {
+              "q_num": 4,
+              "marks": null,
+              "question": "Write the formula for kinetic energy of an object. Define each term.",
+              "answer": "Kinetic energy, E_k = (1/2) m v^2\nWhere:\nm = mass of the object (in kg)\nv = velocity of the object (in m/s)\nE_k = kinetic energy (in joules, J)\nKinetic energy is always positive (as m and v^2 are always positive)."
+            },
+            {
+              "q_num": 5,
+              "marks": null,
+              "question": "Write the formula for gravitational potential energy of an object at a height. Define each term.",
+              "answer": "Gravitational Potential Energy, E_p = m g h\nWhere:\nm = mass of the object (in kg)\ng = acceleration due to gravity (9.8 m/s^2, approx. 10 m/s^2)\nh = height above the ground/reference level (in m)\nE_p = potential energy (in joules, J)\nIt represents the work done against gravity in lifting the object to height h."
+            },
+            {
+              "q_num": 6,
+              "marks": null,
+              "question": "What is the relationship between work done and kinetic energy?",
+              "answer": "The work done on an object is equal to the change in its kinetic energy. This is called the work-energy theorem.\nW = Change in KE = (1/2)mv^2 - (1/2)mu^2 = (1/2)m(v^2 - u^2)\nWhere u = initial velocity and v = final velocity.\nIf u = 0: W = (1/2)mv^2 = E_k.\nThe work done on a body from rest equals its final kinetic energy."
+            },
+            {
+              "q_num": 7,
+              "marks": null,
+              "question": "Explain the energy transformation when a fast-moving cricket ball hits a stationary wicket and knocks it away.",
+              "answer": "INITIAL STATE:\n- Cricket ball: moving fast, possesses kinetic energy = (1/2)mv^2.\n- Wicket: stationary, kinetic energy = 0.\n\nDURING IMPACT:\n- Ball exerts force on wicket.\n- Work is done by ball on wicket.\n- Energy is transferred from ball to wicket.\n\nFINAL STATE:\n- Wicket: moves (thrown away), gains kinetic energy.\n- Ball: slows down, loses kinetic energy.\n\nTRANSFORMATION: Kinetic energy of ball is transferred to the wicket as kinetic energy (and some heat/sound due to impact). Total energy remains conserved. This demonstrates both energy transfer during work and the law of conservation of energy."
+            },
+            {
+              "q_num": 8,
+              "marks": null,
+              "question": "Explain what happens to the energy of a freely falling object as it falls from height h to the ground.",
+              "answer": "Consider an object of mass m falling freely from height h.\n\nAT HEIGHT h (just before release):\n- KE = 0 (velocity = 0)\n- PE = mgh\n- Total mechanical energy = mgh\n\nAT HEIGHT h/2 (midway):\n- The object has fallen h/2, velocity v^2 = 2g(h/2) = gh\n- KE = (1/2)mv^2 = (1/2)m(gh) = mgh/2\n- PE = mg(h/2) = mgh/2\n- Total = mgh/2 + mgh/2 = mgh (SAME)\n\nAT GROUND (h = 0):\n- PE = 0\n- KE = (1/2)mv^2, and v^2 = 2gh, so KE = mgh\n- Total = mgh (SAME)\n\nCONCLUSION: At every point during free fall, the sum of KE and PE = mgh = constant. PE converts to KE as the object falls. Total mechanical energy is conserved throughout."
+            },
+            {
+              "q_num": 9,
+              "marks": null,
+              "question": "Why does the work done by gravity depend only on vertical height and not on the path taken?",
+              "answer": "The work done by gravity depends only on vertical height because gravity is a conservative force.\n\nConsider an object moved from A to B via two different paths:\n- Path 1: Straight vertical rise of height h.\n- Path 2: Inclined or curved path to the same height h.\n\nIn both cases, work done by gravity = -mgh (same).\nThis is because gravity acts only in the vertical direction.\nThe horizontal component of any displacement involves no work against gravity.\n\nFormula: W_gravity = -mgh (negative because gravity acts downward, displacement is upward).\n\nThis height-dependence-only (path-independence) is a key property of gravitational potential energy. The potential energy stored in an object at height h is always mgh, regardless of how it got there."
+            },
+            {
+              "q_num": 10,
+              "marks": null,
+              "question": "An object of mass 15 kg is moving with a uniform velocity of 4 m/s. Calculate its kinetic energy.",
+              "answer": "Given:\nMass of object, m = 15 kg\nVelocity, v = 4 m/s\n\nKinetic energy, E_k = (1/2) m v^2\nE_k = (1/2) x 15 kg x (4 m/s)^2\nE_k = (1/2) x 15 x 16\nE_k = (1/2) x 240\nE_k = 120 J\n\nThe kinetic energy of the object is 120 J."
+            },
+            {
+              "q_num": 11,
+              "marks": null,
+              "question": "Find the energy possessed by an object of mass 10 kg when it is at a height of 6 m above the ground. (g = 9.8 m/s^2)",
+              "answer": "Given:\nMass of object, m = 10 kg\nHeight above ground, h = 6 m\ng = 9.8 m/s^2\n\nGravitational Potential Energy, E_p = mgh\nE_p = 10 kg x 9.8 m/s^2 x 6 m\nE_p = 10 x 9.8 x 6\nE_p = 588 J\n\nThe potential energy possessed by the object is 588 J.\n(This is also the work done against gravity to lift the object to that height.)\n\n--------------------------------------------------------------------------------"
+            }
+          ]
+        },
+        {
+          "type": "mcq",
+          "label": "TOPIC 10.2 MCQ",
+          "items": [
+            {
+              "mcq_num": 1,
+              "difficulty": "Easy",
+              "question": "Energy is defined as:",
+              "options": {
+                "A": "force times time",
+                "B": "capacity to do work",
+                "C": "rate of doing work",
+                "D": "product of mass and velocity"
+              },
+              "answer": "B",
+              "explanation": "Energy is the capacity of an object to do work. Force x time = impulse. Rate of doing work = power. Mass x velocity = momentum."
+            },
+            {
+              "mcq_num": 2,
+              "difficulty": "Easy",
+              "question": "The SI unit of energy is:",
+              "options": {
+                "A": "watt",
+                "B": "newton",
+                "C": "joule",
+                "D": "pascal"
+              },
+              "answer": "C",
+              "explanation": "Energy has the same SI unit as work - joule (J). Watt is unit of power, newton is unit of force, pascal is unit of pressure."
+            },
+            {
+              "mcq_num": 3,
+              "difficulty": "Easy",
+              "question": "Kinetic energy of an object of mass m moving with velocity v is:",
+              "options": {
+                "A": "mv",
+                "B": "(1/2)mv",
+                "C": "mv^2",
+                "D": "(1/2)mv^2"
+              },
+              "answer": "D",
+              "explanation": "E_k = (1/2)mv^2. The kinetic energy is half the product of mass and the square of velocity."
+            },
+            {
+              "mcq_num": 4,
+              "difficulty": "Easy",
+              "question": "Gravitational potential energy of an object of mass m at height h is:",
+              "options": {
+                "A": "mh",
+                "B": "gh",
+                "C": "mgh",
+                "D": "mg/h"
+              },
+              "answer": "C",
+              "explanation": "E_p = mgh, where g = acceleration due to gravity. This represents work done against gravity in raising the object to height h."
+            },
+            {
+              "mcq_num": 5,
+              "difficulty": "Easy",
+              "question": "The law of conservation of energy states that energy:",
+              "options": {
+                "A": "can be created but not destroyed",
+                "B": "can be destroyed but not created",
+                "C": "can neither be created nor destroyed",
+                "D": "increases with every transformation"
+              },
+              "answer": "C",
+              "explanation": "Energy can only be converted from one form to another. It can neither be created nor destroyed. Total energy always remains constant."
+            },
+            {
+              "mcq_num": 6,
+              "difficulty": "Medium",
+              "question": "If the velocity of an object is doubled, its kinetic energy becomes:",
+              "options": {
+                "A": "double",
+                "B": "half",
+                "C": "four times",
+                "D": "unchanged"
+              },
+              "answer": "C",
+              "explanation": "E_k = (1/2)mv^2. If v becomes 2v: E_k_new = (1/2)m(2v)^2 = (1/2)m(4v^2) = 4 x (1/2)mv^2 = 4 E_k. KE is proportional to the square of velocity."
+            },
+            {
+              "mcq_num": 7,
+              "difficulty": "Medium",
+              "question": "An object of mass 12 kg is at a height of 4 m. Its potential energy (g = 10 m/s^2) is:",
+              "options": {
+                "A": "48 J",
+                "B": "120 J",
+                "C": "480 J",
+                "D": "1200 J"
+              },
+              "answer": "C",
+              "explanation": "E_p = mgh = 12 x 10 x 4 = 480 J. Check: mass(kg) x g(10) x height(m) = 12 x 10 x 4 = 480 J."
+            },
+            {
+              "mcq_num": 8,
+              "difficulty": "Medium",
+              "question": "An object falls freely from rest through a height h. Just before hitting the ground, all its initial potential energy has converted to:",
+              "options": {
+                "A": "heat energy",
+                "B": "kinetic energy",
+                "C": "sound energy",
+                "D": "chemical energy"
+              },
+              "answer": "B",
+              "explanation": "During free fall (no air resistance), PE converts entirely to KE. At ground level, h = 0 so PE = 0, and KE = initial PE = mgh. This demonstrates conservation of mechanical energy."
+            },
+            {
+              "mcq_num": 9,
+              "difficulty": "Medium",
+              "question": "Two objects of masses 4 kg and 16 kg are moving with the same kinetic energy. The ratio of their velocities (v_4/v_16) is:",
+              "options": {
+                "A": "1:4",
+                "B": "4:1",
+                "C": "2:1",
+                "D": "1:2"
+              },
+              "answer": "C",
+              "explanation": "If KE is same: (1/2)(4)v_4^2 = (1/2)(16)v_16^2. So 4v_4^2 = 16v_16^2. v_4^2/v_16^2 = 4. v_4/v_16 = 2:1. The lighter object must move faster to have the same KE as the heavier object."
+            },
+            {
+              "mcq_num": 10,
+              "difficulty": "Hard",
+              "question": "An object of mass 12 kg is at a certain height. Its potential energy is 480 J (g = 10 m/s^2). Find the height.",
+              "options": {
+                "A": "2 m",
+                "B": "4 m",
+                "C": "6 m",
+                "D": "8 m"
+              },
+              "answer": "B",
+              "explanation": "E_p = mgh. So h = E_p/(mg) = 480/(12 x 10) = 480/120 = 4 m. Always check: 12 x 10 x 4 = 480 J. Correct."
+            },
+            {
+              "mcq_num": 11,
+              "difficulty": "Hard",
+              "question": "An object of mass m is dropped from height h. At height h/3 from the ground, what is the ratio of PE to KE?",
+              "options": {
+                "A": "1:2",
+                "B": "1:3",
+                "C": "2:1",
+                "D": "1:1"
+              },
+              "answer": "A",
+              "explanation": "At height h/3 from ground: PE = mg(h/3). Total energy = mgh. KE = mgh - mg(h/3) = mgh(1 - 1/3) = 2mgh/3. Ratio PE:KE = (mgh/3):(2mgh/3) = 1:2."
+            },
+            {
+              "mcq_num": 12,
+              "difficulty": "Hard",
+              "question": "A ball of mass 0.5 kg is thrown upward with initial velocity 20 m/s. At the highest point, its energy is: (g = 10 m/s^2)",
+              "options": {
+                "A": "0 J",
+                "B": "50 J",
+                "C": "100 J",
+                "D": "200 J"
+              },
+              "answer": "C",
+              "explanation": "Initial KE = (1/2)(0.5)(20)^2 = (1/2)(0.5)(400) = 100 J. At highest point, v = 0, so KE = 0. By conservation of energy, all KE has converted to PE = 100 J. Maximum height h = u^2/(2g) = 400/20 = 20 m. PE = mgh = 0.5 x 10 x 20 = 100 J. Total energy = 100 J throughout."
+            }
+          ]
+        }
+      ],
+      "subtopics": [
+        {
+          "subtopic_num": "10.2.1",
+          "subtopic_name": "FORMS OF ENERGY",
+          "sections": [
+            {
+              "type": "key_points",
+              "label": "KEY POINTS:",
+              "points": [
+                "Mechanical energy = Kinetic energy + Potential energy.",
+                "Kinetic energy: energy due to motion (moving objects, flowing water, blowing wind, flying aircraft).",
+                "Potential energy: energy due to position or configuration (stretched rubber band, water in reservoir, wound spring).",
+                "Heat energy: energy associated with temperature of an object.",
+                "Chemical energy: energy stored in bonds of chemical substances (food, fuels, batteries).",
+                "Electrical energy: energy associated with electric charges in motion.",
+                "Light energy: energy carried by electromagnetic radiation (from Sun, bulbs, etc.).",
+                "The sum of kinetic and potential energies of an object is called its mechanical energy.",
+                "1 kJ = 1000 J (kilojoule, for larger energy quantities).",
+                "DO YOU KNOW: James Prescott Joule (1818-1889) was an outstanding British physicist. He is best known for his research in electricity and thermodynamics. He verified experimentally the law of conservation of energy and discovered the value of the mechanical equivalent of heat. The unit of energy and work called joule is named after him.",
+                "-------------------------------------------------------------------------------"
+              ]
+            },
+            {
+              "type": "qa",
+              "label": "SUB-TOPIC 10.2.1 Q&A",
+              "items": [
+                {
+                  "q_num": 1,
+                  "marks": 2,
+                  "question": "List any four forms in which energy exists in nature.",
+                  "answer": "Energy exists in nature in the following forms:\n(i) Kinetic energy - energy possessed by objects in motion (e.g., moving car, flowing river).\n(ii) Potential energy - energy possessed by objects due to their position or configuration (e.g., water in a reservoir, a stretched spring).\n(iii) Heat energy - energy associated with temperature (e.g., heat from a fire, sun).\n(iv) Chemical energy - energy stored in chemical substances (e.g., food, coal, petrol, batteries).\nOther forms: electrical energy, light energy."
+                },
+                {
+                  "q_num": 2,
+                  "marks": 3,
+                  "question": "What is mechanical energy? Give examples to show it can be kinetic, potential, or both.",
+                  "answer": "MECHANICAL ENERGY: The sum of the kinetic energy and potential energy of an object is called its mechanical energy.\nMechanical Energy = KE + PE = (1/2)mv^2 + mgh\n\nEXAMPLES:\n(i) Pure Kinetic Energy: A ball rolling on a flat surface (h=0, so PE=0). All mechanical energy is kinetic.\nExample: a moving car on a flat road.\n\n(ii) Pure Potential Energy: A ball held stationary at a height (v=0, so KE=0). All mechanical energy is potential.\nExample: water stored in a dam reservoir.\n\n(iii) Both KE and PE: A ball rolling down a slope. It has both height (PE) and speed (KE).\nExample: a stone thrown at an angle - at any point during flight, it has both height (PE) and velocity (KE).\n\n--------------------------------------------------------------------------------"
+                }
+              ]
+            },
+            {
+              "type": "mcq",
+              "label": "SUB-TOPIC 10.2.1 MCQ",
+              "items": [
+                {
+                  "mcq_num": 1,
+                  "difficulty": "Easy",
+                  "question": "Mechanical energy is:",
+                  "options": {
+                    "A": "only kinetic energy",
+                    "B": "only potential energy",
+                    "C": "sum of kinetic and potential energy",
+                    "D": "product of kinetic and potential energy"
+                  },
+                  "answer": "C",
+                  "explanation": "Mechanical energy = KE + PE. It is the total energy an object possesses due to its motion and position combined."
+                },
+                {
+                  "mcq_num": 2,
+                  "difficulty": "Easy",
+                  "question": "A wound-up toy spring has energy due to:",
+                  "options": {
+                    "A": "its motion",
+                    "B": "its temperature",
+                    "C": "its chemical composition",
+                    "D": "its configuration (deformation)"
+                  },
+                  "answer": "D",
+                  "explanation": "A wound spring has potential energy stored due to its deformed/stretched configuration. This is elastic potential energy - a form of potential energy due to shape change."
+                },
+                {
+                  "mcq_num": 3,
+                  "difficulty": "Medium",
+                  "question": "Which scientist's name is the unit of energy named after?",
+                  "options": {
+                    "A": "Isaac Newton",
+                    "B": "James Prescott Joule",
+                    "C": "Albert Einstein",
+                    "D": "James Watt"
+                  },
+                  "answer": "B",
+                  "explanation": "The joule (J), the SI unit of energy and work, is named after James Prescott Joule (1818-1889), the British physicist who verified the law of conservation of energy experimentally."
+                },
+                {
+                  "mcq_num": 4,
+                  "difficulty": "Medium",
+                  "question": "Energy in food is primarily in the form of:",
+                  "options": {
+                    "A": "kinetic energy",
+                    "B": "potential energy",
+                    "C": "chemical energy",
+                    "D": "electrical energy"
+                  },
+                  "answer": "C",
+                  "explanation": "Food stores energy in chemical bonds of molecules like carbohydrates, proteins and fats. This chemical energy is released during digestion and metabolism to power body functions."
+                },
+                {
+                  "mcq_num": 5,
+                  "difficulty": "Hard",
+                  "question": "A stone is thrown at an angle upward. At the highest point, which statement is CORRECT?",
+                  "options": {
+                    "A": "Total energy is zero",
+                    "B": "KE is zero and PE is maximum",
+                    "C": "KE is maximum and PE is zero",
+                    "D": "KE and PE are both zero"
+                  },
+                  "answer": "B",
+                  "explanation": "At the highest point in projectile motion, the vertical component of velocity = 0, but the horizontal component still exists. So KE is NOT zero (horizontal KE remains). PE is maximum. However, if the stone is thrown straight up, KE = 0 and PE = maximum at highest point. The question says 'at an angle' so there is always some horizontal KE. Strictly for straight vertical throw, (B) is correct. For angled throw, (B) is partially correct (PE maximum, KE minimum but not zero)."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "subtopic_num": "10.2.2",
+          "subtopic_name": "KINETIC ENERGY",
+          "sections": [
+            {
+              "type": "key_points",
+              "label": "KEY POINTS:",
+              "points": [
+                "Objects in motion possess kinetic energy: moving bullet, blowing wind, rotating wheel, speeding stone, flowing water, flying aircraft, running athlete.",
+                "Kinetic energy is always positive (both m and v^2 are positive).",
+                "KE depends on both mass and velocity, but velocity has more influence (KE proportional to v^2).",
+                "If mass doubles: KE doubles.",
+                "If velocity doubles: KE becomes 4 times.",
+                "Unit of KE is joule (J).",
+                "Work-energy theorem: Work done on an object = change in its kinetic energy.",
+                "W = (1/2)mv^2 - (1/2)mu^2 = (1/2)m(v^2 - u^2)",
+                "If starting from rest (u=0): W = (1/2)mv^2 = KE.",
+                "DERIVATION OF KE FORMULA:",
+                "Consider an object of mass m initially at rest (u = 0).",
+                "Force F acts on it over displacement s.",
+                "Using Newton's 2nd law: F = ma.",
+                "Using 3rd equation of motion: v^2 = u^2 + 2as = 0 + 2as, so a = v^2/(2s).",
+                "Work done: W = F x s = ma x s = m x (v^2/2s) x s = (1/2)mv^2.",
+                "Since this work is stored as kinetic energy: E_k = W = (1/2)mv^2."
+              ]
+            },
+            {
+              "type": "activity",
+              "label": "ACTIVITY 10.6:",
+              "aim": "To understand that a falling ball can do work (possesses energy due to motion).",
+              "materials": "Heavy ball, wet sand bed.",
+              "procedure": [
+                "Drop the ball from height 25 cm onto wet sand. Note depression. Repeat from 50 cm, 1 m, 1.5 m. Compare depths of depressions."
+              ],
+              "observation": "Ball dropped from greater height creates a deeper depression. This means it does more work on the sand and has more energy.",
+              "conclusion": "Kinetic energy of the ball increases with height (and therefore velocity) from which it falls. Objects in motion can do work.",
+              "caution": ""
+            },
+            {
+              "type": "activity",
+              "label": "ACTIVITY 10.7:",
+              "aim": "To show that a moving object can do work by pushing another object.",
+              "materials": "Trolley, wooden block, pan with weights.",
+              "procedure": [
+                "Set up trolley and block as in Fig 10.5. Place wooden block in front of trolley. Add mass to pan to make trolley move. Note displacement of block. Increase mass on pan and repeat."
+              ],
+              "observation": "Trolley moves and hits block, pushing it. More mass on pan = more trolley speed = greater block displacement = more work done. Moving trolley possesses energy (kinetic energy).",
+              "conclusion": "A moving object possesses kinetic energy proportional to its mass and the square of its speed.\n\nEXAMPLE 10.3:\nAn object of mass 15 kg is moving with a uniform velocity of 4 m/s. What is its kinetic energy?\nSolution: m = 15 kg, v = 4 m/s\nE_k = (1/2)mv^2 = (1/2) x 15 x (4)^2 = (1/2) x 15 x 16 = 120 J.\n\nEXAMPLE 10.4:\nWhat is the work to be done to increase velocity of a car from 30 km/h to 60 km/h if mass = 1500 kg?\nSolution:\nu = 30 km/h = 30 x 1000/3600 = 25/3 m/s\nv = 60 km/h = 50/3 m/s\nInitial KE = (1/2)(1500)(25/3)^2 = (1/2)(1500)(625/9) = 156250/3 J\nFinal KE = (1/2)(1500)(50/3)^2 = (1/2)(1500)(2500/9) = 625000/3 J\nWork done = Final KE - Initial KE = 625000/3 - 156250/3 = 468750/3 = 156250 J.\n\n--------------------------------------------------------------------------------",
+              "caution": ""
+            },
+            {
+              "type": "qa",
+              "label": "SUB-TOPIC 10.2.2 Q&A",
+              "items": [
+                {
+                  "q_num": 1,
+                  "marks": 2,
+                  "question": "Define kinetic energy and give two examples of objects possessing kinetic energy.",
+                  "answer": "DEFINITION: Kinetic energy is the energy possessed by an object by virtue of its motion. Formula: E_k = (1/2)mv^2.\n\nExamples:\n1. A moving bullet - it can penetrate objects because of kinetic energy.\n2. Blowing wind - turns windmill blades because of kinetic energy.\nOther examples: flowing water, a rolling ball, a running athlete."
+                },
+                {
+                  "q_num": 2,
+                  "marks": 2,
+                  "question": "Derive the SI unit of kinetic energy from its formula E_k = (1/2)mv^2.",
+                  "answer": "E_k = (1/2) x m x v^2\nUnit of m = kg\nUnit of v = m/s\nUnit of v^2 = m^2/s^2\nUnit of E_k = kg x m^2/s^2\n= kg x m/s^2 x m\n= N x m (since N = kg m/s^2)\n= joule (J)\nTherefore, the SI unit of kinetic energy is joule (J)."
+                },
+                {
+                  "q_num": 3,
+                  "marks": 3,
+                  "question": "State the work-energy theorem and derive the expression for kinetic energy of an object starting from rest.",
+                  "answer": "WORK-ENERGY THEOREM: The work done on an object is equal to the change in its kinetic energy.\nW = Delta(KE) = (1/2)mv^2 - (1/2)mu^2\n\nDERIVATION of E_k for object starting from rest (u = 0):\n- Let mass = m, initial velocity u = 0, final velocity = v.\n- Force F acts through displacement s.\n- F = ma (Newton's 2nd law).\n- Using v^2 = u^2 + 2as: v^2 = 0 + 2as, so a = v^2/(2s).\n- Work done: W = F x s = ma x s = m x (v^2/2s) x s = (1/2)mv^2.\n- This work is completely stored as kinetic energy.\n- Therefore: E_k = (1/2)mv^2."
+                },
+                {
+                  "q_num": 4,
+                  "marks": 4,
+                  "question": "A car of mass 1500 kg is moving with velocity 30 km/h. Find its kinetic energy. What would be its kinetic energy if velocity is doubled to 60 km/h?",
+                  "answer": "GIVEN:\nm = 1500 kg\nv1 = 30 km/h = 30 x (1000/3600) = 8.33 m/s (approx) = 25/3 m/s\nv2 = 60 km/h = 50/3 m/s\n\nKINETIC ENERGY AT 30 km/h:\nE_k1 = (1/2) x 1500 x (25/3)^2\n= (1/2) x 1500 x 625/9\n= (750 x 625)/9\n= 468750/9\n= 52083.33 J approx 52083 J\n\nKINETIC ENERGY AT 60 km/h:\nE_k2 = (1/2) x 1500 x (50/3)^2\n= (1/2) x 1500 x 2500/9\n= (750 x 2500)/9\n= 1875000/9\n= 208333.33 J approx 208333 J\n\nRATIO: E_k2/E_k1 = 208333/52083 = 4.\nWhen velocity is doubled, kinetic energy becomes 4 times. This confirms E_k proportional to v^2."
+                },
+                {
+                  "q_num": 5,
+                  "marks": 4,
+                  "question": "An object of mass m moving with velocity of 5 m/s has kinetic energy of 25 J. What will be its kinetic energy when its velocity is doubled? What will be the velocity?",
+                  "answer": "GIVEN:\nE_k1 = 25 J when v1 = 5 m/s\nFind mass m:\nE_k1 = (1/2)mv1^2\n25 = (1/2) x m x 25\nm = 25 x 2/25 = 2 kg\n\nWHEN VELOCITY IS DOUBLED (v2 = 10 m/s):\nE_k2 = (1/2) x 2 x (10)^2\n= (1/2) x 2 x 100\n= 100 J\n\nALTERNATIVELY: Since E_k is proportional to v^2:\nE_k2/E_k1 = (v2/v1)^2 = (10/5)^2 = 4\nE_k2 = 4 x E_k1 = 4 x 25 = 100 J.\n\nWHEN VELOCITY IS TRIPLED (v3 = 15 m/s):\nE_k3 = (1/2) x 2 x (15)^2 = 1 x 225 = 225 J.\nOr: E_k3 = 9 x 25 = 225 J (since 3^2 = 9)."
+                },
+                {
+                  "q_num": 6,
+                  "marks": 6,
+                  "question": "A bullet of mass 10 g is fired from a gun with a muzzle velocity of 400 m/s. (i) Find the kinetic energy of the bullet. (ii) Find the work done by the gun on the bullet. (iii) If the bullet embeds in a target and comes to rest, what happens to its kinetic energy? (g = 10 m/s^2)",
+                  "answer": "GIVEN:\nMass of bullet, m = 10 g = 10/1000 = 0.01 kg\nInitial velocity (at rest in gun), u = 0 m/s\nMuzzle velocity, v = 400 m/s\n\n(i) KINETIC ENERGY OF BULLET:\nE_k = (1/2)mv^2\n= (1/2) x 0.01 x (400)^2\n= (1/2) x 0.01 x 160000\n= 0.01 x 80000\n= 800 J\nKinetic energy of the bullet = 800 J.\n\n(ii) WORK DONE BY GUN ON BULLET:\nBy work-energy theorem:\nWork done = Change in KE = Final KE - Initial KE\n= (1/2)mv^2 - (1/2)mu^2\n= 800 J - 0\n= 800 J\nWork done by the gun on the bullet = 800 J.\n(Chemical energy of gunpowder is converted to kinetic energy of bullet.)\n\n(iii) WHAT HAPPENS WHEN BULLET STOPS IN TARGET:\nWhen bullet embeds in target and comes to rest:\nFinal KE = 0.\nInitial KE = 800 J.\nBy law of conservation of energy, the 800 J is converted to:\n- Heat energy (bullet and target get hot due to friction).\n- Sound energy (bang when bullet hits target).\n- Deformation energy (target gets deformed/damaged).\nTotal energy is conserved - 800 J is distributed as heat, sound and deformation energy.\n\n--------------------------------------------------------------------------------"
+                }
+              ]
+            },
+            {
+              "type": "mcq",
+              "label": "SUB-TOPIC 10.2.2 MCQ",
+              "items": [
+                {
+                  "mcq_num": 1,
+                  "difficulty": "Easy",
+                  "question": "A moving bullet can pierce through a wooden board because of its:",
+                  "options": {
+                    "A": "potential energy",
+                    "B": "chemical energy",
+                    "C": "kinetic energy",
+                    "D": "heat energy"
+                  },
+                  "answer": "C",
+                  "explanation": "The bullet possesses kinetic energy due to its motion. This kinetic energy enables it to do work on the wooden board - pushing apart the wood fibers and piercing through."
+                },
+                {
+                  "mcq_num": 2,
+                  "difficulty": "Easy",
+                  "question": "If mass of an object is doubled and velocity remains same, its KE becomes:",
+                  "options": {
+                    "A": "half",
+                    "B": "same",
+                    "C": "double",
+                    "D": "four times"
+                  },
+                  "answer": "C",
+                  "explanation": "E_k = (1/2)mv^2. If m becomes 2m: E_k_new = (1/2)(2m)v^2 = 2 x (1/2)mv^2 = 2E_k. KE doubles when mass doubles (velocity constant)."
+                },
+                {
+                  "mcq_num": 3,
+                  "difficulty": "Medium",
+                  "question": "An object of mass 4 kg is moving with velocity 3 m/s. Its kinetic energy is:",
+                  "options": {
+                    "A": "6 J",
+                    "B": "12 J",
+                    "C": "18 J",
+                    "D": "36 J"
+                  },
+                  "answer": "C",
+                  "explanation": "E_k = (1/2)mv^2 = (1/2) x 4 x (3)^2 = (1/2) x 4 x 9 = 2 x 9 = 18 J."
+                },
+                {
+                  "mcq_num": 4,
+                  "difficulty": "Medium",
+                  "question": "Which of the following has the MOST kinetic energy?",
+                  "options": {
+                    "A": "KE = (1/2)(10)(4) = 20 J.",
+                    "B": "KE = (1/2)(5)(16) = 40 J.",
+                    "C": "KE = (1/2)(2)(100) = 100 J.",
+                    "D": "KE = (1/2)(20)(1) = 10 J. Option C has highest KE. Velocity has greater influence (squared term)."
+                  },
+                  "answer": "C",
+                  "explanation": ""
+                },
+                {
+                  "mcq_num": 5,
+                  "difficulty": "Hard",
+                  "question": "Work done to bring a 2 kg object from rest to velocity 10 m/s is:",
+                  "options": {
+                    "A": "20 J",
+                    "B": "100 J",
+                    "C": "200 J",
+                    "D": "40 J"
+                  },
+                  "answer": "B",
+                  "explanation": "By work-energy theorem, work done = change in KE = final KE - initial KE = (1/2)(2)(10)^2 - 0 = (1/2)(2)(100) = 100 J. Work done equals kinetic energy gained from rest."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "subtopic_num": "10.2.3",
+          "subtopic_name": "POTENTIAL ENERGY",
+          "sections": [
+            {
+              "type": "key_points",
+              "label": "KEY POINTS:",
+              "points": [
+                "Examples: water stored in a dam, a wound clock spring, a stretched rubber band, a drawn bow, a raised hammer.",
+                "Potential energy is stored energy - it is not kinetic but has the potential to do work.",
+                "Gravitational PE: E_p = mgh (for object at height h).",
+                "Elastic PE: stored in stretched/compressed springs, rubber bands etc.",
+                "Potential energy due to configuration: compressed spring, wound-up toy spring.",
+                "Work done on the object to change its position or configuration is stored as potential energy.",
+                "The more you stretch a rubber band, the more elastic PE it stores."
+              ]
+            },
+            {
+              "type": "activity",
+              "label": "ACTIVITY 10.8 (RUBBER BAND):",
+              "aim": "To observe elastic potential energy in a stretched rubber band.",
+              "materials": "Rubber band.",
+              "procedure": [
+                "Take a rubber band. Hold one end fixed, pull the other end to stretch. Release one end."
+              ],
+              "observation": "The band tends to regain its original length. When stretched, the band acquired energy (elastic PE). When released, the elastic PE converts to kinetic energy of the band.",
+              "conclusion": "A stretched object possesses elastic potential energy due to its deformed configuration.",
+              "caution": ""
+            },
+            {
+              "type": "activity",
+              "label": "ACTIVITY 10.9 (SLINKY):",
+              "aim": "To observe elastic potential energy in a stretched slinky.",
+              "materials": "Slinky.",
+              "procedure": [
+                "Hold one end with a friend holding the other end. Move away to stretch the slinky, then release."
+              ],
+              "observation": "Stretched slinky acquires energy. On release, it contracts - potential energy converts to kinetic energy.",
+              "conclusion": "Elastic objects store potential energy when deformed.",
+              "caution": ""
+            },
+            {
+              "type": "activity",
+              "label": "ACTIVITY 10.10 (TOY CAR):",
+              "aim": "To observe stored potential energy in a wound spring.",
+              "materials": "Toy car with wind-up key.",
+              "procedure": [
+                "Wind the toy car using its key. Place on ground and observe."
+              ],
+              "observation": "When wound up, the spring stores elastic PE. When released, spring unwinds and car moves (KE). More windings = more PE stored = car moves more.",
+              "conclusion": "Elastic potential energy stored in a spring converts to kinetic energy when released.\n\n--------------------------------------------------------------------------------",
+              "caution": ""
+            },
+            {
+              "type": "qa",
+              "label": "SUB-TOPIC 10.2.3 Q&A",
+              "items": [
+                {
+                  "q_num": 1,
+                  "marks": 2,
+                  "question": "Define potential energy and give two examples from daily life.",
+                  "answer": "DEFINITION: Potential energy is the energy possessed by an object by virtue of its position or its configuration (shape/deformation).\nFormula (gravitational): E_p = mgh.\n\nExamples:\n1. Water stored in a dam at a height - possesses gravitational PE.\n2. A stretched rubber band - possesses elastic PE due to deformation.\nOther examples: wound clock spring, a raised hammer, a drawn bow."
+                },
+                {
+                  "q_num": 2,
+                  "marks": 3,
+                  "question": "With the help of Activities 10.8 and 10.9, explain how potential energy is stored in a rubber band and a slinky.",
+                  "answer": "RUBBER BAND (Activity 10.8):\n- When rubber band is stretched, work is done on it (force x extension).\n- This work is stored as elastic potential energy in the deformed rubber band.\n- When released, elastic PE converts to kinetic energy (band snaps back).\n- More stretch = more elastic PE stored.\n\nSLINKY (Activity 10.9):\n- When slinky is stretched by pulling its ends apart, work is done against the elastic restoring force.\n- This work is stored as elastic potential energy.\n- When released, elastic PE converts to kinetic energy (slinky contracts).\n- The energy was transferred TO the spring when stretched, and FROM the spring when released.\n\nKEY POINT: In both cases, energy input (work done on object) = energy stored (as PE) = energy output (as KE when released). This illustrates energy storage and the conservation principle."
+                },
+                {
+                  "q_num": 3,
+                  "marks": 4,
+                  "question": "A bow and arrow system demonstrates potential energy. Explain the energy transformations when (i) the bow is drawn, (ii) the arrow is released, and (iii) the arrow hits a target.",
+                  "answer": "(i) BOW IS DRAWN:\n- Archer does work by pulling the bowstring (force x displacement).\n- This work is stored as elastic potential energy in the bent bow and stretched string.\n- The more the bow is drawn, the more elastic PE is stored.\n- Kinetic energy = 0 (bow is stationary when fully drawn).\n- Energy: W = stored PE.\n\n(ii) ARROW IS RELEASED:\n- Elastic PE of bow converts to kinetic energy of arrow.\n- PE of bow decreases as it returns to original shape.\n- Arrow accelerates from rest and gains KE.\n- Total energy: PE of bow = KE of arrow + heat (small, due to air resistance and string vibration).\n- Energy transformation: Elastic PE -> KE.\n\n(iii) ARROW HITS TARGET:\n- KE of moving arrow is used to do work on target (penetrate or push it).\n- Arrow slows down (KE decreases).\n- Target material gets pushed/deformed.\n- KE converts to: deformation energy of target + heat (due to friction) + sound.\n- Total energy is conserved throughout.\n\n--------------------------------------------------------------------------------"
+                }
+              ]
+            },
+            {
+              "type": "mcq",
+              "label": "SUB-TOPIC 10.2.3 MCQ",
+              "items": [
+                {
+                  "mcq_num": 1,
+                  "difficulty": "Easy",
+                  "question": "A stretched rubber band possesses energy due to its:",
+                  "options": {
+                    "A": "position in a gravitational field",
+                    "B": "high temperature",
+                    "C": "deformed configuration",
+                    "D": "chemical composition"
+                  },
+                  "answer": "C",
+                  "explanation": "A stretched rubber band possesses elastic potential energy due to its deformed shape/configuration. This energy is due to the stretching (change in configuration), not due to gravity, temperature, or chemistry."
+                },
+                {
+                  "mcq_num": 2,
+                  "difficulty": "Easy",
+                  "question": "Water stored in a dam at a height possesses:",
+                  "options": {
+                    "A": "kinetic energy",
+                    "B": "elastic potential energy",
+                    "C": "gravitational potential energy",
+                    "D": "chemical energy"
+                  },
+                  "answer": "C",
+                  "explanation": "Water at height h possesses gravitational potential energy = mgh. It is not moving (no KE), not deformed (no elastic PE), and no chemical change occurs."
+                },
+                {
+                  "mcq_num": 3,
+                  "difficulty": "Medium",
+                  "question": "A wound-up clock spring releases energy to make the clock tick. The energy transformation is:",
+                  "options": {
+                    "A": "KE to elastic PE",
+                    "B": "Elastic PE to KE",
+                    "C": "Gravitational PE to KE",
+                    "D": "Chemical energy to KE"
+                  },
+                  "answer": "B",
+                  "explanation": "Winding the clock stores elastic potential energy in the compressed spring. As the spring unwinds, this elastic PE converts to kinetic energy of the clock gears and hands. This demonstrates elastic PE to KE transformation."
+                },
+                {
+                  "mcq_num": 4,
+                  "difficulty": "Medium",
+                  "question": "An archer draws a bowstring back 0.5 m using a force of 80 N. The elastic PE stored in the bow is approximately:",
+                  "options": {
+                    "A": "0.16 J",
+                    "B": "40 J",
+                    "C": "80 J",
+                    "D": "160 J"
+                  },
+                  "answer": "B",
+                  "explanation": "Work done = Force x Displacement = 80 x 0.5 = 40 J. This work is stored as elastic PE. (Note: Actual calculation requires knowing if force is constant, but for a simple approximation: W = F x s = 80 x 0.5 = 40 J.)"
+                },
+                {
+                  "mcq_num": 5,
+                  "difficulty": "Hard",
+                  "question": "A ball is held at height h above a spring. It is released and falls onto the spring, compressing it maximum. At maximum compression, which statement is CORRECT?",
+                  "options": {
+                    "A": "Ball has maximum KE and spring has maximum elastic PE",
+                    "B": "Ball has zero KE and spring has maximum elastic PE",
+                    "C": "Ball has maximum KE and spring has zero elastic PE",
+                    "D": "Both ball and spring have zero energy"
+                  },
+                  "answer": "B",
+                  "explanation": "At maximum compression, the ball has momentarily stopped (velocity = 0, KE = 0). All the initial PE of ball (mgh) + any KE gained during fall has been transferred to the spring as elastic PE (maximum). This is the point of maximum spring compression. Energy transformation: Gravitational PE of ball -> KE (during fall) -> Elastic PE of spring (at max compression)."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "subtopic_num": "10.2.4",
+          "subtopic_name": "POTENTIAL ENERGY OF AN OBJECT AT A HEIGHT",
+          "sections": [
+            {
+              "type": "key_points",
+              "label": "KEY POINTS:",
+              "points": [
+                "When object is raised by height h: Work done = force x displacement = mg x h = mgh.",
+                "This work is stored as gravitational PE.",
+                "E_p = mgh (where m = mass, g = 9.8 m/s^2 approx 10 m/s^2, h = height above reference).",
+                "PE depends on the reference level (ground level chosen as zero PE).",
+                "The higher the object, the more PE it stores.",
+                "The gravitational PE depends on vertical height only, not on path taken.",
+                "An object in a given position can have different PE values with respect to different reference levels.",
+                "DERIVATION:",
+                "Object of mass m at rest on ground. A force = weight = mg is applied upward.",
+                "Object is raised through height h.",
+                "Work done against gravity = Force x Displacement = mg x h = mgh.",
+                "This work is stored as potential energy.",
+                "E_p = mgh.",
+                "EXAMPLE 10.5 (Textbook):",
+                "Find the energy possessed by an object of mass 10 kg at height 6 m. g = 9.8 m/s^2.",
+                "E_p = mgh = 10 x 9.8 x 6 = 588 J.",
+                "EXAMPLE 10.6 (Textbook):",
+                "An object of mass 12 kg is at a height where its PE is 480 J. Find height. g = 10 m/s^2.",
+                "E_p = mgh",
+                "480 = 12 x 10 x h",
+                "h = 480/120 = 4 m."
+              ]
+            },
+            {
+              "type": "activity",
+              "label": "ACTIVITY 10.11:",
+              "aim": "To show that a lifted object gains energy (potential energy) and can do work when released.",
+              "materials": "Any object.",
+              "procedure": [
+                "Lift an object to a certain height. Release it and note the effect when it falls."
+              ],
+              "observation": "Lifted object can do work when it falls (e.g., driving a nail, crushing something). Object raised to greater height can do more work.",
+              "conclusion": "Work done in lifting stores as PE. This PE can be released as work. The greater the height, the more PE, hence more work can be done.\n\n--------------------------------------------------------------------------------",
+              "caution": ""
+            },
+            {
+              "type": "qa",
+              "label": "SUB-TOPIC 10.2.4 Q&A",
+              "items": [
+                {
+                  "q_num": 1,
+                  "marks": 2,
+                  "question": "Define gravitational potential energy and write its formula with explanation.",
+                  "answer": "DEFINITION: Gravitational potential energy is the energy stored in an object due to its position above the ground (or any reference level). It is equal to the work done against gravity in raising the object to that height.\n\nFormula: E_p = mgh\nWhere:\nm = mass of the object (in kg)\ng = acceleration due to gravity (9.8 m/s^2 or 10 m/s^2 approx)\nh = height above reference level (in m)\nE_p = gravitational potential energy (in joules, J)."
+                },
+                {
+                  "q_num": 2,
+                  "marks": 2,
+                  "question": "An object of mass 5 kg is raised to a height of 3 m. Calculate its potential energy. (g = 10 m/s^2)",
+                  "answer": "Given:\nm = 5 kg, h = 3 m, g = 10 m/s^2.\nE_p = mgh\n= 5 x 10 x 3\n= 150 J.\nThe potential energy of the object is 150 J.\n(This equals the work done in lifting it: W = F x s = mg x h = 5 x 10 x 3 = 150 J.)"
+                },
+                {
+                  "q_num": 3,
+                  "marks": 3,
+                  "question": "Derive the expression for gravitational potential energy of an object of mass m at height h.",
+                  "answer": "DERIVATION:\nConsider an object of mass m lying at rest on the ground (reference level, h = 0).\n\nStep 1: To lift the object, we apply an upward force just equal to its weight (minimum force needed).\nUpward force F = mg (weight of object).\n\nStep 2: Object is raised through vertical height h (from ground to height h).\nDisplacement = h (in direction of applied force).\n\nStep 3: Work done by the applied force:\nW = Force x Displacement = F x h = mg x h = mgh.\n\nStep 4: This work done against gravity is stored as potential energy in the object.\nE_p = W = mgh.\n\nTherefore, E_p = mgh.\nNote: This energy is released when the object falls back to the ground level."
+                },
+                {
+                  "q_num": 4,
+                  "marks": 4,
+                  "question": "A stone of mass 2 kg is dropped from a building. Just before it hits the ground, its velocity is 20 m/s. From what height was it dropped? Also find its initial PE. (g = 10 m/s^2)",
+                  "answer": "Given: m = 2 kg, u = 0 (dropped), v = 20 m/s just before hitting ground.\n\nSTEP 1 - FIND HEIGHT:\nUsing v^2 = u^2 + 2gh (taking downward as positive):\n(20)^2 = 0 + 2 x 10 x h\n400 = 20h\nh = 20 m.\nThe stone was dropped from 20 m height.\n\nSTEP 2 - FIND INITIAL PE:\nE_p = mgh = 2 x 10 x 20 = 400 J.\n\nVERIFICATION (using KE at ground):\nKE at ground = (1/2)mv^2 = (1/2) x 2 x (20)^2 = (1/2) x 2 x 400 = 400 J.\nInitial PE (400 J) = Final KE (400 J). Energy is conserved."
+                },
+                {
+                  "q_num": 5,
+                  "marks": 4,
+                  "question": "An object of mass 12 kg is at a certain height. Its potential energy is 480 J. Find the height. If the object is dropped from this height, find its velocity just before hitting the ground. (g = 10 m/s^2)",
+                  "answer": "PART A - FIND HEIGHT:\nE_p = mgh\n480 = 12 x 10 x h\n480 = 120h\nh = 480/120 = 4 m.\nThe object is at a height of 4 m.\n\nPART B - VELOCITY ON REACHING GROUND:\nUsing conservation of energy:\nInitial PE = Final KE (at ground)\nmgh = (1/2)mv^2\ngh = (1/2)v^2\nv^2 = 2gh = 2 x 10 x 4 = 80\nv = sqrt(80) = 4sqrt(5) approx 8.94 m/s.\n\nAlternatively: v^2 = u^2 + 2gh = 0 + 2 x 10 x 4 = 80\nv = sqrt(80) = approx 8.94 m/s.\nVelocity just before hitting ground = approx 8.94 m/s."
+                },
+                {
+                  "q_num": 6,
+                  "marks": 6,
+                  "question": "Activity 10.15 type: An object of mass 20 kg is dropped from a height of 4 m. Complete the table showing PE, KE and total energy at heights 4 m, 3 m, 2 m, 1 m and just above ground. (Take g = 10 m/s^2)",
+                  "answer": "Given: m = 20 kg, initial height h = 4 m, g = 10 m/s^2.\nTotal mechanical energy = Initial PE = mgh = 20 x 10 x 4 = 800 J (constant throughout).\n\nAT HEIGHT 4 m (just released):\nPE = mgh = 20 x 10 x 4 = 800 J\nKE = 0 (starts from rest)\nTotal = 800 J\n\nAT HEIGHT 3 m (fallen 1 m):\nPE = 20 x 10 x 3 = 600 J\nKE = 800 - 600 = 200 J\n(Check: v^2 = 2g(1) = 20, KE = (1/2)(20)(20) = 200 J.) Correct.\nTotal = 800 J\n\nAT HEIGHT 2 m (fallen 2 m):\nPE = 20 x 10 x 2 = 400 J\nKE = 800 - 400 = 400 J\nTotal = 800 J\n\nAT HEIGHT 1 m (fallen 3 m):\nPE = 20 x 10 x 1 = 200 J\nKE = 800 - 200 = 600 J\nTotal = 800 J\n\nJUST ABOVE GROUND (height = 0, fallen 4 m):\nPE = 0 J\nKE = 800 J\n(Check: v^2 = 2g x 4 = 80, KE = (1/2)(20)(80) = 800 J.) Correct.\nTotal = 800 J\n\nCONCLUSION: At every height, PE + KE = 800 J = constant. As object falls, PE decreases and KE increases by equal amounts. Total mechanical energy is conserved.\n\n--------------------------------------------------------------------------------"
+                }
+              ]
+            },
+            {
+              "type": "mcq",
+              "label": "SUB-TOPIC 10.2.4 MCQ",
+              "items": [
+                {
+                  "mcq_num": 1,
+                  "difficulty": "Easy",
+                  "question": "Gravitational potential energy of an object depends on:",
+                  "options": {
+                    "A": "its velocity",
+                    "B": "its temperature",
+                    "C": "its height above reference level",
+                    "D": "the path taken to reach that height"
+                  },
+                  "answer": "C",
+                  "explanation": "E_p = mgh. PE depends on mass (m), gravitational acceleration (g) and height (h) above reference level. It does NOT depend on velocity or path taken to reach that height."
+                },
+                {
+                  "mcq_num": 2,
+                  "difficulty": "Easy",
+                  "question": "If height of an object is doubled, its gravitational PE becomes:",
+                  "options": {
+                    "A": "half",
+                    "B": "same",
+                    "C": "double",
+                    "D": "four times"
+                  },
+                  "answer": "C",
+                  "explanation": "E_p = mgh. If h becomes 2h: E_p_new = mg(2h) = 2mgh = 2E_p. PE is directly proportional to height."
+                },
+                {
+                  "mcq_num": 3,
+                  "difficulty": "Medium",
+                  "question": "A 5 kg object is at height 10 m. Its PE (g = 10 m/s^2) and its velocity when it reaches the ground are:",
+                  "options": {
+                    "A": "PE = 50 J, v = 10 m/s",
+                    "B": "PE = 500 J, v = 10 m/s",
+                    "C": "PE = 500 J, v = 14.1 m/s",
+                    "D": "PE = 50 J, v = 14.1 m/s"
+                  },
+                  "answer": "C",
+                  "explanation": "PE = mgh = 5 x 10 x 10 = 500 J. At ground: (1/2)mv^2 = 500. v^2 = 1000/5 = 200. v = sqrt(200) = 10sqrt(2) = 14.14 m/s approx 14.1 m/s."
+                },
+                {
+                  "mcq_num": 4,
+                  "difficulty": "Medium",
+                  "question": "Why is gravitational PE said to be independent of path taken to reach a height?",
+                  "options": {
+                    "A": "Gravity is a strong force",
+                    "B": "Gravity is a conservative force that acts only vertically",
+                    "C": "Gravity depends on velocity",
+                    "D": "Gravity increases with height"
+                  },
+                  "answer": "B",
+                  "explanation": "Gravity acts only in the vertical direction. Horizontal motion requires no work against gravity. Therefore, only vertical height matters, not the path. This path-independence is the defining property of conservative forces like gravity."
+                },
+                {
+                  "mcq_num": 5,
+                  "difficulty": "Hard",
+                  "question": "A ball of mass 2 kg is thrown upward with KE = 200 J. How high will it rise? (g = 10 m/s^2)",
+                  "options": {
+                    "A": "5 m",
+                    "B": "10 m",
+                    "C": "20 m",
+                    "D": "40 m"
+                  },
+                  "answer": "B",
+                  "explanation": "At maximum height, all KE converts to PE: KE = PE. 200 = mgh = 2 x 10 x h = 20h. h = 200/20 = 10 m. Conservation of energy: initial KE = final PE (at max height where v = 0)."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "subtopic_num": "10.2.5",
+          "subtopic_name": "ARE VARIOUS ENERGY FORMS INTERCONVERTIBLE?",
+          "sections": [
+            {
+              "type": "key_points",
+              "label": "KEY POINTS:",
+              "points": [
+                "Chemical energy (food) -> Kinetic energy (body movement).",
+                "Electrical energy -> Light + heat energy (bulb).",
+                "Potential energy -> Kinetic energy (falling object).",
+                "Kinetic energy -> Potential energy (rising object).",
+                "Solar energy -> Chemical energy (photosynthesis in green plants).",
+                "Chemical energy (fuel) -> Heat energy -> Kinetic energy (steam engine).",
+                "The total amount of energy remains constant during any transformation."
+              ]
+            },
+            {
+              "type": "activity",
+              "label": "ACTIVITY 10.13:",
+              "aim": "To discuss various ways of energy conversion in nature.",
+              "materials": "None (group discussion).",
+              "procedure": [
+                "Sit in small groups. Discuss: (a) How do green plants produce food? (b) Where do they get energy? (c) Why does air move? (d) How are fuels like coal and petroleum formed? (e) What energy conversions sustain the water cycle?"
+              ],
+              "observation": "Plants use solar energy (light) for photosynthesis -> chemical energy in food. Air moves due to uneven heating of earth by Sun -> solar to kinetic (wind). Coal/petroleum formed from ancient organic matter over millions of years (stored solar energy). Water cycle: solar energy evaporates water (heat->PE), clouds form, rain falls (PE->KE).",
+              "conclusion": "Energy changes form but total amount remains constant in all natural processes.",
+              "caution": ""
+            },
+            {
+              "type": "activity",
+              "label": "ACTIVITY 10.14:",
+              "aim": "To identify energy conversions in human activities and gadgets.",
+              "materials": "List of activities and gadgets.",
+              "procedure": [
+                "List activities and gadgets involving energy conversion. Identify the type of conversion in each case."
+              ],
+              "observation": "- Electric fan: electrical -> kinetic.\n- Microphone: sound -> electrical.\n- Speaker: electrical -> sound.\n- Battery: chemical -> electrical.\n- Solar cell: light -> electrical.\n- Burning fuel: chemical -> heat -> kinetic.",
+              "conclusion": "Energy transformations are ubiquitous in human technology. All conversions obey conservation of energy.\n\n--------------------------------------------------------------------------------",
+              "caution": ""
+            },
+            {
+              "type": "qa",
+              "label": "SUB-TOPIC 10.2.5 Q&A",
+              "items": [
+                {
+                  "q_num": 1,
+                  "marks": 2,
+                  "question": "Give two examples of energy conversion from nature and two from human-made devices.",
+                  "answer": "FROM NATURE:\n1. Photosynthesis: Green plants convert solar (light) energy into chemical energy stored in food (glucose).\n2. Waterfall: Water at height (gravitational PE) converts to KE as it falls.\n\nFROM HUMAN-MADE DEVICES:\n1. Electric bulb: Electrical energy converts to light energy and heat energy.\n2. Battery: Chemical energy converts to electrical energy."
+                },
+                {
+                  "q_num": 2,
+                  "marks": 3,
+                  "question": "Describe the energy conversions involved when coal is burned to drive a steam engine.",
+                  "answer": "STEP-BY-STEP ENERGY CONVERSIONS:\n\nStep 1: Coal burns (Chemical energy -> Heat energy).\nChemical energy stored in coal (from ancient plant matter) is released as heat when coal burns in the furnace.\n\nStep 2: Heat boils water (Heat energy -> Heat energy of steam under pressure).\nThe heat converts water to steam. Steam under high pressure has both thermal energy and pressure potential energy.\n\nStep 3: Steam drives pistons (Thermal/Pressure energy -> Kinetic energy).\nHigh pressure steam pushes pistons, converting steam energy to kinetic energy of moving pistons.\n\nStep 4: Pistons turn wheels (Kinetic energy -> Kinetic energy of wheels).\nThe reciprocating motion of pistons is converted to rotational kinetic energy of the engine wheels.\n\nOverall transformation: Chemical energy (coal) -> Kinetic energy (wheels).\nAt each step, some energy is lost as heat to the surroundings, but total energy is conserved.\n\n--------------------------------------------------------------------------------"
+                }
+              ]
+            },
+            {
+              "type": "mcq",
+              "label": "SUB-TOPIC 10.2.5 MCQ",
+              "items": [
+                {
+                  "mcq_num": 1,
+                  "difficulty": "Easy",
+                  "question": "When a green plant makes food using sunlight, the energy transformation is:",
+                  "options": {
+                    "A": "Chemical to light",
+                    "B": "Light to chemical",
+                    "C": "Kinetic to chemical",
+                    "D": "Electrical to chemical"
+                  },
+                  "answer": "B",
+                  "explanation": "In photosynthesis, plants absorb light energy from the Sun and convert it to chemical energy stored in glucose molecules. This is a light to chemical energy transformation."
+                },
+                {
+                  "mcq_num": 2,
+                  "difficulty": "Easy",
+                  "question": "In a microphone, sound energy is converted to:",
+                  "options": {
+                    "A": "light energy",
+                    "B": "heat energy",
+                    "C": "electrical energy",
+                    "D": "kinetic energy"
+                  },
+                  "answer": "C",
+                  "explanation": "A microphone converts sound waves (mechanical/acoustic energy) into electrical signals (electrical energy). Speakers do the reverse - electrical to sound."
+                },
+                {
+                  "mcq_num": 3,
+                  "difficulty": "Medium",
+                  "question": "During photosynthesis, solar energy is converted to chemical energy. Where is this chemical energy ultimately stored?",
+                  "options": {
+                    "A": "In the roots of the plant",
+                    "B": "In the leaves temporarily",
+                    "C": "In glucose molecules (food)",
+                    "D": "In the soil"
+                  },
+                  "answer": "C",
+                  "explanation": "Photosynthesis converts light energy + CO2 + H2O into glucose (C6H12O6) + O2. The chemical energy is stored in the bonds of glucose molecules - the food of the plant."
+                },
+                {
+                  "mcq_num": 4,
+                  "difficulty": "Medium",
+                  "question": "A battery-operated toy car converts energy in what sequence?",
+                  "options": {
+                    "A": "Chemical -> Electrical -> Kinetic",
+                    "B": "Electrical -> Chemical -> Kinetic",
+                    "C": "Kinetic -> Electrical -> Chemical",
+                    "D": "Chemical -> Kinetic -> Electrical"
+                  },
+                  "answer": "A",
+                  "explanation": "Battery stores chemical energy -> chemical energy converts to electrical energy as battery discharges -> electrical energy powers motor -> motor converts electrical energy to kinetic energy (motion of car)."
+                },
+                {
+                  "mcq_num": 5,
+                  "difficulty": "Hard",
+                  "question": "Coal and petroleum are called 'stored solar energy'. Explain why this statement is scientifically correct in terms of energy transformation.",
+                  "options": {
+                    "A": "Because coal and petroleum come from the sun",
+                    "B": "Because ancient plants stored solar energy as chemical energy, which was preserved in coal/petroleum",
+                    "C": "Because burning coal releases sunlight",
+                    "D": "Because coal is made of sunlight"
+                  },
+                  "answer": "B",
+                  "explanation": "Millions of years ago, living plants and organisms captured solar energy through photosynthesis and stored it as chemical energy. When they died, they decomposed under pressure and heat to form coal and petroleum. So these fuels contain ancient solar energy in chemical form - hence they are 'stored solar energy'. When burned, this chemical energy is released as heat."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "subtopic_num": "10.2.6",
+          "subtopic_name": "LAW OF CONSERVATION OF ENERGY",
+          "sections": [
+            {
+              "type": "key_points",
+              "label": "KEY POINTS:",
+              "points": [
+                "Total mechanical energy = KE + PE = constant (for objects with no friction/air resistance).",
+                "For a freely falling object: at any point, mgh + (1/2)mv^2 = constant = initial PE.",
+                "At height h: KE = 0, PE = mgh, total = mgh.",
+                "At height h/2: KE = mgh/2, PE = mgh/2, total = mgh.",
+                "At ground: KE = mgh, PE = 0, total = mgh.",
+                "This law applies to all forms of energy (not just mechanical).",
+                "Energy appears to be 'lost' in practice due to conversion to heat (friction, air resistance) - but total energy including heat is still conserved.",
+                "The law was verified experimentally by James Prescott Joule.",
+                "MATHEMATICAL PROOF (Free Fall):",
+                "Object of mass m falls from height h (starting from rest).",
+                "At any intermediate height x (measured from ground):",
+                "Velocity v^2 = 2g(h-x) (using v^2 = u^2 + 2as, with a = g, s = h-x)",
+                "KE = (1/2)mv^2 = (1/2)m x 2g(h-x) = mg(h-x)",
+                "PE = mgx",
+                "Total = KE + PE = mg(h-x) + mgx = mgh - mgx + mgx = mgh = constant.",
+                "Therefore, total mechanical energy is constant at every point during free fall."
+              ]
+            },
+            {
+              "type": "activity",
+              "label": "ACTIVITY 10.15:",
+              "aim": "To verify law of conservation of energy by computing PE and KE at different heights.",
+              "materials": "None (calculation exercise).",
+              "procedure": [
+                "Object of mass 20 kg dropped from 4 m. Calculate PE = mgh and KE = (1/2)mv^2 at heights 4, 3, 2, 1 m and just above ground. Take g = 10 m/s^2."
+              ],
+              "observation": "At each height, total energy = PE + KE = 800 J = constant.",
+              "conclusion": "As object falls, PE decreases and KE increases by equal amounts. Total energy remains conserved.\n\n--------------------------------------------------------------------------------",
+              "caution": ""
+            },
+            {
+              "type": "qa",
+              "label": "SUB-TOPIC 10.2.6 Q&A",
+              "items": [
+                {
+                  "q_num": 1,
+                  "marks": 2,
+                  "question": "State the law of conservation of energy.",
+                  "answer": "The law of conservation of energy states that: Energy can only be converted from one form to another; it can neither be created nor destroyed.\nEquivalently: The total energy of a system before and after any energy transformation always remains the same.\nThis law is valid in all situations and for all kinds of energy transformations."
+                },
+                {
+                  "q_num": 2,
+                  "marks": 2,
+                  "question": "For a freely falling object, show that the sum of KE and PE remains constant at any point during the fall.",
+                  "answer": "Consider object of mass m at any intermediate height x from the ground during free fall from height h.\n- Velocity at this point: v^2 = 2g(h-x) (from equations of motion)\n- KE = (1/2)mv^2 = (1/2)m x 2g(h-x) = mg(h-x)\n- PE = mgx\n- Total mechanical energy = KE + PE = mg(h-x) + mgx = mgh - mgx + mgx = mgh.\n\nSince mgh is a constant (m, g, h are all fixed), the total mechanical energy is constant at every point during free fall."
+                },
+                {
+                  "q_num": 3,
+                  "marks": 3,
+                  "question": "A pendulum bob swings from one extreme to another. Explain the energy transformation and show that total mechanical energy is conserved.",
+                  "answer": "Consider pendulum bob swinging from extreme A to lowest point O to extreme B.\n\nAT EXTREME A (highest point):\n- Velocity = 0 (momentarily at rest).\n- KE = 0.\n- PE = mgh (where h = height of A above O).\n- Total = mgh.\n\nAT LOWEST POINT O:\n- Velocity is maximum (v_max).\n- PE = 0 (reference level).\n- KE = (1/2)mv_max^2.\n- By conservation of energy: (1/2)mv_max^2 = mgh, so v_max = sqrt(2gh).\n- Total = mgh.\n\nAT EXTREME B (same height h as A):\n- Velocity = 0 (momentarily at rest again).\n- KE = 0.\n- PE = mgh.\n- Total = mgh.\n\nCONCLUSION: At every point, Total = mgh = constant. PE continuously converts to KE and back to PE. This demonstrates conservation of mechanical energy.\n\n(In reality, pendulum gradually slows due to air resistance - mechanical energy converts to heat. But total energy including heat is still conserved.)"
+                },
+                {
+                  "q_num": 4,
+                  "marks": 4,
+                  "question": "An object of mass 2 kg is thrown upward with velocity 20 m/s. (i) Find its KE at the moment of throwing. (ii) Find its maximum height. (iii) Find its PE at maximum height. (iv) Verify conservation of energy.",
+                  "answer": "Given: m = 2 kg, u = 20 m/s, g = 10 m/s^2.\n\n(i) KE AT THROWING:\nE_k = (1/2)mu^2 = (1/2) x 2 x (20)^2 = 1 x 400 = 400 J.\n\n(ii) MAXIMUM HEIGHT:\nAt maximum height, v = 0. Using v^2 = u^2 - 2gh (retardation due to gravity):\n0 = (20)^2 - 2 x 10 x h\n20h = 400\nh = 20 m.\n\n(iii) PE AT MAXIMUM HEIGHT:\nE_p = mgh = 2 x 10 x 20 = 400 J.\n\n(iv) VERIFICATION:\nInitial state: KE = 400 J, PE = 0 (ground level), Total = 400 J.\nAt maximum height: KE = 0, PE = 400 J, Total = 400 J.\nBoth totals are equal. Conservation of energy is verified.\nInitial KE = Final PE (400 J). Energy converted from KE to PE completely. No energy gained or lost."
+                },
+                {
+                  "q_num": 5,
+                  "marks": 4,
+                  "question": "A rock of mass 5 kg is at the top of a cliff 20 m high. (i) Find its PE. (ii) Find its velocity just before hitting the base of cliff. (iii) Find its KE just before hitting. (g = 10 m/s^2)",
+                  "answer": "Given: m = 5 kg, h = 20 m, g = 10 m/s^2.\n\n(i) PE AT TOP OF CLIFF:\nE_p = mgh = 5 x 10 x 20 = 1000 J.\n\n(ii) VELOCITY JUST BEFORE HITTING GROUND:\nUsing conservation of energy (PE at top = KE at bottom):\nmgh = (1/2)mv^2\nv^2 = 2gh = 2 x 10 x 20 = 400\nv = sqrt(400) = 20 m/s.\n\nAlternatively: v^2 = u^2 + 2gh = 0 + 2 x 10 x 20 = 400. v = 20 m/s.\n\n(iii) KE JUST BEFORE HITTING:\nE_k = (1/2)mv^2 = (1/2) x 5 x (20)^2 = (1/2) x 5 x 400 = 1000 J.\n\nNote: Initial PE (1000 J) = Final KE (1000 J). Energy is conserved."
+                },
+                {
+                  "q_num": 6,
+                  "marks": 6,
+                  "question": "Explain with detailed steps how the law of conservation of energy is demonstrated in a freely falling stone of mass 3 kg dropped from 5 m height. Calculate PE, KE and total energy at heights 5 m, 2.5 m and 0 m. (g = 10 m/s^2)",
+                  "answer": "Given: m = 3 kg, h = 5 m, g = 10 m/s^2.\nTotal mechanical energy = Initial PE = mgh = 3 x 10 x 5 = 150 J (this must remain constant).\n\nAT HEIGHT 5 m (starting point, u = 0):\nPE = mgh = 3 x 10 x 5 = 150 J\nKE = (1/2)mu^2 = 0 (at rest)\nTotal energy = 150 + 0 = 150 J\n\nAT HEIGHT 2.5 m (midway, fallen 2.5 m):\nDistance fallen = 5 - 2.5 = 2.5 m\nv^2 = 2 x g x distance fallen = 2 x 10 x 2.5 = 50\nKE = (1/2)mv^2 = (1/2) x 3 x 50 = 75 J\nPE = mgh = 3 x 10 x 2.5 = 75 J\nTotal energy = 75 + 75 = 150 J\n\nAT HEIGHT 0 m (ground level, fallen 5 m):\nv^2 = 2 x g x 5 = 100\nKE = (1/2)mv^2 = (1/2) x 3 x 100 = 150 J\nPE = mgh = 3 x 10 x 0 = 0 J\nTotal energy = 150 + 0 = 150 J"
+                }
+              ]
+            },
+            {
+              "type": "keywords",
+              "label": "SUMMARY TABLE:",
+              "text": "Height | PE   | KE   | Total\n5 m    | 150 J| 0 J  | 150 J\n2.5 m  | 75 J | 75 J | 150 J\n0 m    | 0 J  | 150 J| 150 J\n\nCONCLUSION: At every height during free fall, the total mechanical energy = 150 J = constant.\n- PE decreases as stone falls (height decreases).\n- KE increases as stone falls (velocity increases).\n- Decrease in PE = Increase in KE at every point.\n- Total energy is conserved. This verifies the law of conservation of energy.\n\n--------------------------------------------------------------------------------"
+            },
+            {
+              "type": "mcq",
+              "label": "SUB-TOPIC 10.2.6 MCQ",
+              "items": [
+                {
+                  "mcq_num": 1,
+                  "difficulty": "Easy",
+                  "question": "The total mechanical energy of a freely falling object (no air resistance) is:",
+                  "options": {
+                    "A": "always increasing",
+                    "B": "always decreasing",
+                    "C": "zero throughout",
+                    "D": "constant throughout"
+                  },
+                  "answer": "D",
+                  "explanation": "For free fall (no friction/air resistance), total mechanical energy = KE + PE = constant throughout. As height decreases (PE decreases), velocity increases (KE increases) by equal amounts."
+                },
+                {
+                  "mcq_num": 2,
+                  "difficulty": "Easy",
+                  "question": "An object hits the ground after falling. Where does its kinetic energy go?",
+                  "options": {
+                    "A": "It disappears completely",
+                    "B": "It converts to heat, sound and deformation of ground",
+                    "C": "It converts back to potential energy",
+                    "D": "It is destroyed"
+                  },
+                  "answer": "B",
+                  "explanation": "By law of conservation of energy, energy cannot be destroyed. When object hits ground, KE converts to heat (due to impact friction), sound (impact sound) and deformation energy (ground gets dented). Total energy is conserved."
+                },
+                {
+                  "mcq_num": 3,
+                  "difficulty": "Medium",
+                  "question": "A pendulum clock eventually stops. This is because:",
+                  "options": {
+                    "A": "law of conservation of energy is violated",
+                    "B": "energy is destroyed by the pendulum",
+                    "C": "KE and PE convert to heat due to air resistance and friction",
+                    "D": "the clock uses up energy and creates none"
+                  },
+                  "answer": "C",
+                  "explanation": "The pendulum loses a small amount of mechanical energy at each swing due to air resistance and friction at the pivot. This mechanical energy converts to heat (not destroyed). Eventually all mechanical energy is converted to heat and pendulum stops. Total energy (mechanical + heat) remains conserved. Clock batteries/springs replace this lost energy in running clocks."
+                },
+                {
+                  "mcq_num": 4,
+                  "difficulty": "Medium",
+                  "question": "An object of mass 1 kg is thrown up with velocity 10 m/s. Its total mechanical energy throughout flight (g = 10 m/s^2) is:",
+                  "options": {
+                    "A": "10 J",
+                    "B": "50 J",
+                    "C": "100 J",
+                    "D": "varies"
+                  },
+                  "answer": "B",
+                  "explanation": "Total mechanical energy = initial KE (at ground, PE = 0) = (1/2)(1)(10)^2 = 50 J. By conservation of energy, this remains 50 J throughout (ignoring air resistance). At max height: PE = 50 J, KE = 0 J, total = 50 J."
+                },
+                {
+                  "mcq_num": 5,
+                  "difficulty": "Hard",
+                  "question": "A ball falls from 10 m, bounces off the floor and rises to 8 m. The percentage of energy lost in the bounce is:",
+                  "options": {
+                    "A": "8%",
+                    "B": "20%",
+                    "C": "25%",
+                    "D": "80%"
+                  },
+                  "answer": "B",
+                  "explanation": "Initial PE = mgh = mg x 10. After bounce, PE = mg x 8. Energy lost = mg x 10 - mg x 8 = mg x 2. Percentage lost = (2/10) x 100 = 20%. The energy 'lost' actually converts to heat and sound during the bounce. 20% of mechanical energy is converted to heat and sound."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic_num": "10.3",
+      "topic_name": "RATE OF DOING WORK",
+      "mode": "B",
+      "sections": [
+        {
+          "type": "key_points",
+          "label": "KEY POINTS:",
+          "points": [
+            "Power = Work done / Time taken: P = W/t.",
+            "SI unit of power: watt (W). 1 W = 1 J s^-1.",
+            "Larger unit: kilowatt (kW). 1 kW = 1000 W = 1000 J s^-1.",
+            "Average power: Total energy consumed / Total time taken.",
+            "A stronger/more powerful agent does the same work in less time.",
+            "Power describes how fast or slow work is done.",
+            "Commercial unit of electrical energy: kilowatt hour (kWh). 1 kWh = 3.6 x 10^6 J = 3600000 J.",
+            "1 watt = 1 joule/second.",
+            "Power can also be written as: P = (F x s)/t = F x v (where v = s/t = velocity).",
+            "Power measures the speed of energy transfer, not the total amount.",
+            "CONVERSIONS:",
+            "1 kW = 1000 W",
+            "1 kWh = 1 kW x 1 hour = 1000 W x 3600 s = 3,600,000 J = 3.6 x 10^6 J.",
+            "DO YOU KNOW: James Watt (1736-1819) developed the modern steam engine. The unit watt is named after him.",
+            "EXAMPLE 10.7 (Textbook):",
+            "Two girls, each of weight 400 N, climb a rope 8 m high. Girl A takes 20 s, Girl B takes 50 s. Find power expended by each.",
+            "For A: Work = 400 x 8 = 3200 J. Power = 3200/20 = 160 W.",
+            "For B: Power = 3200/50 = 64 W.",
+            "A expends more power - she does the same work in less time.",
+            "EXAMPLE 10.8 (Textbook):",
+            "Boy of mass 50 kg runs up staircase of 45 steps, each 15 cm high, in 9 s. (g = 10 m/s^2)",
+            "mg = 500 N. Height = 45 x 15/100 = 6.75 m.",
+            "Work = 500 x 6.75 = 3375 J. Power = 3375/9 = 375 W."
+          ]
+        },
+        {
+          "type": "activity",
+          "label": "ACTIVITY 10.16:",
+          "aim": "To understand why different agents doing the same work at different rates have different powers.",
+          "materials": "None (thought activity).",
+          "procedure": [
+            "Consider two children A and B of same weight. Both climb 8 m. A takes 15 s, B takes 20 s. Calculate work done by each. Determine who does more work per second."
+          ],
+          "observation": "Work done by each = same (mgh). But A takes less time -> A does more work per second -> A has more power. A is more powerful.",
+          "conclusion": "Power = Work/Time. Same work done in less time = more power. Two agents with same power output but different times will do different amounts of work.",
+          "caution": ""
+        },
+        {
+          "type": "activity",
+          "label": "ACTIVITY 10.17:",
+          "aim": "To observe and record electrical energy consumption using an electricity meter.",
+          "materials": "Household electricity meter.",
+          "procedure": [
+            "Take close look at electric meter installed at home. Note features. Read meter each day at 6:30 am and 6:30 pm for about a week. Tabulate observations. Calculate units consumed during day and night."
+          ],
+          "observation": "More units consumed when more high-power appliances are used. Commercial electricity is measured in kilowatt hours (kWh) = 1 'unit'.",
+          "conclusion": "Electrical energy consumption depends on power of appliances and time of use. 1 unit = 1 kWh = 3.6 x 10^6 J.",
+          "caution": ""
+        },
+        {
+          "type": "exercise",
+          "label": "EXERCISE 10.3:",
+          "items": [
+            {
+              "q_num": 1,
+              "marks": null,
+              "question": "What is power?",
+              "answer": "Power is defined as the rate of doing work or the rate of transfer of energy. P = W/t. Unit is watt (W)."
+            },
+            {
+              "q_num": 2,
+              "marks": null,
+              "question": "Define 1 watt of power.",
+              "answer": "1 watt is the power of an agent that does work at the rate of 1 joule per second. 1 W = 1 J/s."
+            },
+            {
+              "q_num": 3,
+              "marks": null,
+              "question": "A lamp consumes 1000 J of electrical energy in 10 s. What is its power?",
+              "answer": "P = W/t = 1000/10 = 100 W."
+            },
+            {
+              "q_num": 4,
+              "marks": null,
+              "question": "Define average power.",
+              "answer": "Average power is obtained by dividing total energy consumed by the total time taken. It accounts for the fact that power may not be constant throughout an activity.\n\n--------------------------------------------------------------------------------"
+            }
+          ],
+          "raw": "Q1: What is power?\nA1: Power is defined as the rate of doing work or the rate of transfer of energy. P = W/t. Unit is watt (W).\n\nQ2: Define 1 watt of power.\nA2: 1 watt is the power of an agent that does work at the rate of 1 joule per second. 1 W = 1 J/s.\n\nQ3: A lamp consumes 1000 J of electrical energy in 10 s. What is its power?\nA3: P = W/t = 1000/10 = 100 W.\n\nQ4: Define average power.\nA4: Average power is obtained by dividing total energy consumed by the total time taken. It accounts for the fact that power may not be constant throughout an activity.\n\n--------------------------------------------------------------------------------"
+        },
+        {
+          "type": "qa",
+          "label": "TOPIC 10.3 Q&A",
+          "items": [
+            {
+              "q_num": 1,
+              "marks": null,
+              "question": "Define power and write its SI unit and formula.",
+              "answer": "DEFINITION: Power is the rate of doing work, or equivalently, the rate of transfer of energy.\nFORMULA: P = W/t\nWhere P = power, W = work done (in J), t = time taken (in s).\nSI UNIT: Watt (W). 1 W = 1 J/s.\nLarger unit: Kilowatt (kW). 1 kW = 1000 W."
+            },
+            {
+              "q_num": 2,
+              "marks": null,
+              "question": "Define 1 watt of power.",
+              "answer": "1 watt is defined as the power of an agent that does work at the rate of 1 joule per second.\n1 W = 1 J s^-1 = 1 J/s.\nWe can also say power is 1 W when the rate of consumption of energy is 1 J per second."
+            },
+            {
+              "q_num": 3,
+              "marks": null,
+              "question": "What is 1 kilowatt hour (kWh)? How many joules equal 1 kWh?",
+              "answer": "1 kilowatt hour (kWh) is the commercial unit of electrical energy. It is the energy consumed when a device of power 1 kilowatt works for 1 hour.\n1 kWh = 1 kW x 1 hour = 1000 W x 3600 s = 3,600,000 J = 3.6 x 10^6 J.\nNote: 1 kWh = 1 'unit' of electricity as used in electricity bills."
+            },
+            {
+              "q_num": 4,
+              "marks": null,
+              "question": "A lamp consumes 1000 J of electrical energy in 10 seconds. What is its power?",
+              "answer": "Given: W = 1000 J, t = 10 s.\nPower P = W/t = 1000/10 = 100 J/s = 100 W.\nThe power of the lamp is 100 watts."
+            },
+            {
+              "q_num": 5,
+              "marks": null,
+              "question": "What is the unit of power named after and why?",
+              "answer": "The SI unit of power is named watt (W) after James Watt (1736-1819), a Scottish inventor and mechanical engineer. He developed the modern steam engine and made significant contributions to the Industrial Revolution. The unit was named in his honour because of his work on studying and improving the concept of power in machines."
+            },
+            {
+              "q_num": 6,
+              "marks": null,
+              "question": "A household has consumed 250 units (kWh) of energy during a month. How much energy is this in joules?",
+              "answer": "250 units = 250 kWh.\n1 kWh = 3.6 x 10^6 J.\n250 kWh = 250 x 3.6 x 10^6 J = 900 x 10^6 J = 9 x 10^8 J.\nThe energy consumed = 9 x 10^8 joules."
+            },
+            {
+              "q_num": 7,
+              "marks": null,
+              "question": "Two girls, A and B, each of weight 400 N, climb a rope 8 m high. A takes 20 s and B takes 50 s. Who does more work? Who has more power? Explain.",
+              "answer": "WORK DONE BY EACH:\nWork = Force x Displacement = Weight x Height = 400 x 8 = 3200 J.\nBoth A and B do the same work (3200 J), because work depends on force and displacement, not time.\n\nPOWER OF A:\nP_A = W/t = 3200/20 = 160 W.\n\nPOWER OF B:\nP_B = W/t = 3200/50 = 64 W.\n\nA has more power (160 W > 64 W). Although both do the same total work, A does it faster (in less time), so A's rate of doing work is higher. Power measures how fast work is done, not the total amount."
+            },
+            {
+              "q_num": 8,
+              "marks": null,
+              "question": "Explain with an example the difference between work done and power.",
+              "answer": "WORK DONE: Work = Force x Displacement. It measures the total energy transferred. It does NOT depend on time.\n\nPOWER: Power = Work/Time. It measures the rate of energy transfer. It DOES depend on time.\n\nEXAMPLE: Two engines, A and B, both do 10,000 J of work in moving a train.\n- Engine A takes 10 seconds: P_A = 10000/10 = 1000 W.\n- Engine B takes 100 seconds: P_B = 10000/100 = 100 W.\n\nBoth engines do the same work (10,000 J). But Engine A is 10 times more powerful because it does the work 10 times faster. Power tells us about the efficiency (speed) of doing work, while work done tells us about the total energy transferred."
+            },
+            {
+              "q_num": 9,
+              "marks": null,
+              "question": "A certain household consumes 250 units of electricity in a month. What does this mean? Calculate the cost at 5 rupees per unit.",
+              "answer": "250 UNITS MEANS:\n1 unit of electricity = 1 kWh (kilowatt hour).\n250 units = 250 kWh = energy consumed when 1000 W appliances run for 250 hours, or 100 W appliances run for 2500 hours.\nIn joules: 250 kWh = 250 x 3.6 x 10^6 = 9 x 10^8 J = 900 million joules.\n\nCOST CALCULATION:\nCost per unit = Rs. 5.\nTotal cost = 250 units x Rs. 5 per unit = Rs. 1250.\n\nThe household must pay Rs. 1250 for the month's electricity.\n\nThis shows why using high-power appliances for many hours makes electricity bills expensive. Conservation of electricity means using less energy over time."
+            },
+            {
+              "q_num": 10,
+              "marks": null,
+              "question": "A boy of mass 50 kg runs up a staircase of 45 steps in 9 s. If the height of each step is 15 cm, calculate his power. (g = 10 m/s^2)",
+              "answer": "Given:\nm = 50 kg, g = 10 m/s^2.\nNumber of steps = 45, height of each step = 15 cm = 0.15 m.\nTime = 9 s.\n\nTOTAL HEIGHT:\nh = 45 x 0.15 = 6.75 m.\n\nWEIGHT OF BOY:\nmg = 50 x 10 = 500 N.\n\nWORK DONE (against gravity):\nW = mg x h = 500 x 6.75 = 3375 J.\n\nPOWER:\nP = W/t = 3375/9 = 375 J/s = 375 W.\n\nThe boy's power output is 375 watts."
+            },
+            {
+              "q_num": 11,
+              "marks": null,
+              "question": "Find the energy in joules consumed in 10 hours by four devices each of power 500 W. Also find the cost at Rs. 3 per unit.",
+              "answer": "Given:\nNumber of devices = 4, power of each = 500 W.\nTime = 10 hours.\n\nTOTAL POWER: 4 x 500 = 2000 W = 2 kW.\n\nENERGY CONSUMED:\nEnergy = Power x Time = 2 kW x 10 h = 20 kWh = 20 units.\n\nIN JOULES:\n20 kWh = 20 x 3.6 x 10^6 J = 72 x 10^6 J = 7.2 x 10^7 J.\n\nCOST:\nTotal cost = 20 units x Rs. 3 per unit = Rs. 60.\n\nThe energy consumed is 7.2 x 10^7 joules and the cost is Rs. 60.\n\n--------------------------------------------------------------------------------"
+            }
+          ]
+        },
+        {
+          "type": "mcq",
+          "label": "TOPIC 10.3 MCQ",
+          "items": [
+            {
+              "mcq_num": 1,
+              "difficulty": "Easy",
+              "question": "Power is defined as:",
+              "options": {
+                "A": "force times distance",
+                "B": "energy times time",
+                "C": "rate of doing work",
+                "D": "work done per unit force"
+              },
+              "answer": "C",
+              "explanation": "Power = Work done / Time taken = Rate of doing work. P = W/t. It measures how quickly work is done or how fast energy is transferred."
+            },
+            {
+              "mcq_num": 2,
+              "difficulty": "Easy",
+              "question": "The SI unit of power is:",
+              "options": {
+                "A": "joule",
+                "B": "newton",
+                "C": "watt",
+                "D": "pascal"
+              },
+              "answer": "C",
+              "explanation": "The SI unit of power is watt (W), named after James Watt. 1 W = 1 J/s. Joule is unit of energy, newton is unit of force, pascal is unit of pressure."
+            },
+            {
+              "mcq_num": 3,
+              "difficulty": "Easy",
+              "question": "1 watt equals:",
+              "options": {
+                "A": "1 J x 1 s",
+                "B": "1 J / 1 s",
+                "C": "1 N x 1 m",
+                "D": "1 kg x 1 m/s^2"
+              },
+              "answer": "B",
+              "explanation": "1 W = 1 joule per second = 1 J/s. Power is the rate of doing work, so it equals work divided by time."
+            },
+            {
+              "mcq_num": 4,
+              "difficulty": "Easy",
+              "question": "1 kilowatt (kW) equals:",
+              "options": {
+                "A": "10 W",
+                "B": "100 W",
+                "C": "1000 W",
+                "D": "10000 W"
+              },
+              "answer": "C",
+              "explanation": "Kilo means 1000. So 1 kW = 1000 W. This is used for larger power values like electric motors, engines, etc."
+            },
+            {
+              "mcq_num": 5,
+              "difficulty": "Easy",
+              "question": "A device uses 600 J of energy in 2 minutes. Its power is:",
+              "options": {
+                "A": "300 W",
+                "B": "30 W",
+                "C": "5 W",
+                "D": "1200 W"
+              },
+              "answer": "C",
+              "explanation": "t = 2 min = 120 s. P = W/t = 600/120 = 5 W. Always convert time to seconds before calculating power."
+            },
+            {
+              "mcq_num": 6,
+              "difficulty": "Medium",
+              "question": "Two workers A and B do the same 1000 J of work. A takes 10 s and B takes 20 s. What is true?",
+              "options": {
+                "A": "A is more powerful than B",
+                "B": "B is more powerful than A",
+                "C": "Both have equal power",
+                "D": "Neither does any work"
+              },
+              "answer": "A",
+              "explanation": "P_A = 1000/10 = 100 W. P_B = 1000/20 = 50 W. A is more powerful because he does the same work in less time. Power = Work/Time, so less time = more power for same work."
+            },
+            {
+              "mcq_num": 7,
+              "difficulty": "Medium",
+              "question": "A 100 W bulb works for 2 hours. Energy consumed in kWh is:",
+              "options": {
+                "A": "200 kWh",
+                "B": "0.2 kWh",
+                "C": "2 kWh",
+                "D": "20 kWh"
+              },
+              "answer": "B",
+              "explanation": "Energy = Power x Time = 100 W x 2 h = 100 W x 2 h = 0.1 kW x 2 h = 0.2 kWh. The bulb uses 0.2 units of electricity. (Or: 100 W x 2 x 3600 s = 720000 J = 0.2 kWh)."
+            },
+            {
+              "mcq_num": 8,
+              "difficulty": "Medium",
+              "question": "Power can also be expressed as:",
+              "options": {
+                "A": "F x t (force x time)",
+                "B": "F x v (force x velocity)",
+                "C": "m x a (mass x acceleration)",
+                "D": "F / v (force / velocity)"
+              },
+              "answer": "B",
+              "explanation": "P = W/t = (F x s)/t = F x (s/t) = F x v. So power = force x velocity. This is useful when calculating power of engines or motors moving at constant velocity."
+            },
+            {
+              "mcq_num": 9,
+              "difficulty": "Medium",
+              "question": "The commercial unit of electricity is:",
+              "options": {
+                "A": "watt",
+                "B": "joule",
+                "C": "kilowatt hour",
+                "D": "newton metre"
+              },
+              "answer": "C",
+              "explanation": "The commercial unit of electrical energy is kilowatt hour (kWh), also called a 'unit'. Electricity bills are calculated in kWh. 1 kWh = 3.6 x 10^6 J."
+            },
+            {
+              "mcq_num": 10,
+              "difficulty": "Hard",
+              "question": "A pump can lift 500 kg of water through 3 m in 10 s. (g = 10 m/s^2). Power of pump is:",
+              "options": {
+                "A": "150 W",
+                "B": "1500 W",
+                "C": "15000 W",
+                "D": "50 W"
+              },
+              "answer": "B",
+              "explanation": "Work done = mgh = 500 x 10 x 3 = 15000 J. Time = 10 s. Power = W/t = 15000/10 = 1500 W = 1.5 kW."
+            },
+            {
+              "mcq_num": 11,
+              "difficulty": "Hard",
+              "question": "A machine does 36000 J of work in 1 hour. Its power in watts is:",
+              "options": {
+                "A": "36000 W",
+                "B": "600 W",
+                "C": "10 W",
+                "D": "60 W"
+              },
+              "answer": "C",
+              "explanation": "t = 1 hour = 3600 s. P = W/t = 36000/3600 = 10 W. The machine has very low power of 10 W despite doing 36000 J of work (because it takes a long time - 1 hour)."
+            },
+            {
+              "mcq_num": 12,
+              "difficulty": "Hard",
+              "question": "An electric motor rated 1.5 kW powers a machine for 3 hours. Energy consumed in joules is:",
+              "options": {
+                "A": "4.5 J",
+                "B": "4500 J",
+                "C": "1.62 x 10^7 J",
+                "D": "5.4 x 10^7 J"
+              },
+              "answer": "C",
+              "explanation": "Energy = Power x Time = 1.5 kW x 3 h = 4.5 kWh. Converting: 4.5 kWh = 4.5 x 3.6 x 10^6 J = 16.2 x 10^6 J = 1.62 x 10^7 J. Always convert to SI: 1500 W x (3 x 3600 s) = 1500 x 10800 = 16,200,000 J = 1.62 x 10^7 J."
+            }
+          ]
+        }
+      ],
+      "subtopics": []
+    }
+  ]
+}

@@ -1,0 +1,668 @@
+{
+  "metadata": {
+    "class": "9th STANDARD",
+    "subject": "Mathematics",
+    "part": "1",
+    "chapter_num": "3",
+    "chapter_name": "COORDINATE GEOMETRY",
+    "source": "KSEEB Textbook 2025-26",
+    "mode": "B"
+  },
+  "chapter_sections": [
+    {
+      "type": "definition",
+      "label": "Definition:",
+      "text": "COORDINATE GEOMETRY is a branch of Mathematics in which the position of a point\nin a plane is described using two perpendicular reference lines and numbers.\nThe system used for this purpose is known as the CARTESIAN SYSTEM, named in\nhonour of the French philosopher and mathematician Rene Descartes (1596-1650)."
+    },
+    {
+      "type": "key_points",
+      "label": "Key Points:",
+      "points": [
+        "To locate a point on a number line, we need only ONE piece of information.",
+        "To locate a point in a PLANE, we need TWO independent pieces of information.",
+        "The position of any object lying in a plane can be represented with the help of",
+        "two perpendicular lines.",
+        "Rene Descartes developed this system as a development of the older idea of",
+        "LATITUDE AND LONGITUDE."
+      ]
+    },
+    {
+      "type": "list_of_topics",
+      "label": "LIST OF TOPICS IN THIS CHAPTER:",
+      "items": [
+        "- Topic 3.1: Introduction",
+        "- Topic 3.2: Cartesian System",
+        "(No sub-topics in textbook for this chapter - Mode B)"
+      ]
+    },
+    {
+      "type": "qa",
+      "label": "CHAPTER 3: Q&A",
+      "items": []
+    },
+    {
+      "type": "keywords",
+      "label": "SUMMARY TABLE:",
+      "text": "Point | Position              | Coordinates\n------|------------------------|------------\nA     | On +x-axis, 4 right   | (4, 0)\nB     | On +y-axis, 3 up      | (0, 3)\nC     | On −x-axis, 5 left    | (−5, 0)\nD     | On −y-axis, 4 down    | (0, −4)\nE     | On +x-axis, 2/3 right | (2/3, 0)"
+    },
+    {
+      "type": "mcq",
+      "label": "CHAPTER 3: MCQs:",
+      "items": [
+        {
+          "mcq_num": 1,
+          "difficulty": "Easy",
+          "question": "The Cartesian system is named after:",
+          "options": {
+            "A": "Isaac Newton   (B) Rene Descartes   (C) Euclid   (D) Pythagoras"
+          },
+          "answer": "B",
+          "explanation": "Named in honour of French mathematician Rene Descartes (1596-1650)."
+        },
+        {
+          "mcq_num": 2,
+          "difficulty": "Easy",
+          "question": "How many pieces of information are needed to locate a point in a plane?",
+          "options": {
+            "A": "One   (B) Two   (C) Three   (D) Four"
+          },
+          "answer": "B",
+          "explanation": "A plane is two-dimensional, so two independent pieces of information are needed."
+        },
+        {
+          "mcq_num": 3,
+          "difficulty": "Medium",
+          "question": "The point (4, −7) lies in which quadrant?",
+          "options": {
+            "A": "Quadrant I   (B) Quadrant II   (C) Quadrant III   (D) Quadrant IV"
+          },
+          "answer": "D",
+          "explanation": "x = +4 (positive), y = −7 (negative). Signs (+, −) = Quadrant IV."
+        },
+        {
+          "mcq_num": 4,
+          "difficulty": "Medium",
+          "question": "A point P has abscissa −5 and ordinate 3. The coordinates of P are:",
+          "options": {
+            "A": "(3, −5)   (B) (−5, 3)   (C) (5, 3)   (D) (5, −3)"
+          },
+          "answer": "B",
+          "explanation": "Abscissa = x-coordinate = −5. Ordinate = y-coordinate = 3."
+        },
+        {
+          "mcq_num": 5,
+          "difficulty": "Hard",
+          "question": "How many of the following points lie on the y-axis? (2, 0), (0, −3), (0, 5), (4, 0), (0, 0)",
+          "options": {
+            "A": "2   (B) 3   (C) 4   (D) 5"
+          },
+          "answer": "B",
+          "explanation": "Points with x = 0 lie on y-axis: (0,−3), (0,5), (0,0) = 3 points."
+        }
+      ]
+    }
+  ],
+  "topics": [
+    {
+      "topic_num": "3.1",
+      "topic_name": "INTRODUCTION",
+      "mode": "B",
+      "sections": [
+        {
+          "type": "definition",
+          "label": "Definition:",
+          "text": "The study of how to locate a point in a plane using two independent pieces of\ninformation is called the INTRODUCTION TO COORDINATE GEOMETRY. The concept was\ninspired by the idea of latitude and longitude and developed by Rene Descartes."
+        },
+        {
+          "type": "key_points",
+          "label": "Key Points:",
+          "points": [
+            "You have already studied how to locate a point on a number line.",
+            "There are many situations where we need to find a point using more than one",
+            "reference line.",
+            "Example I (Street Plan): To find a friend's house, knowing only the street",
+            "number is not enough. We need BOTH the street number AND the house number.",
+            "E.g., Street 2, House 5 is written as (2, 5). Street 7, House 4 is written as (7, 4).",
+            "Example II (Dot on paper): \"Dot is near left edge\" is not enough to fix position.",
+            "But \"5 cm from left edge AND 9 cm above the bottom\" fixes it exactly.",
+            "Two perpendicular fixed reference lines are needed to fix any position in a plane.",
+            "The branch of Mathematics that resulted from this idea is COORDINATE GEOMETRY.",
+            "The system is known as the CARTESIAN SYSTEM, developed by Rene Descartes (1596-1650).",
+            "His method was a development of the older idea of LATITUDE AND LONGITUDE."
+          ]
+        },
+        {
+          "type": "list_of_topics",
+          "label": "LIST OF SUB TOPICS IN THIS TOPIC:",
+          "items": [
+            "- No sub-topics in the textbook for Topic 3.1 (Mode B - Flat)"
+          ]
+        },
+        {
+          "type": "activity",
+          "label": "ACTIVITY 3.1.1 (SEATING PLAN):",
+          "aim": "To understand how two independent pieces of information fix a position in a plane.\nMETHOD:\n- Draw a plan of the classroom, pushing all desks together.\n- Represent each desk by a square.\n- Write the name of the student occupying that desk in the square.\n- Position of each student is described by: (i) column number, (ii) row number.",
+          "materials": "",
+          "procedure": [],
+          "observation": "- A student sitting in the 5th column and 3rd row is written as (5, 3).\n- This is NOT the same as (3, 5) which is 3rd column, 5th row.\n- If Sonia sits in the 4th column and 1st row, write S(4, 1).",
+          "conclusion": "The position of any object in a plane is fixed precisely by two independent\ninformations: the column (horizontal direction) and the row (vertical direction).\n\nEXERCISES: EXERCISE 3.1",
+          "caution": ""
+        },
+        {
+          "type": "exercise",
+          "label": "EXERCISE 3.1.1:",
+          "items": [],
+          "raw": "PROBLEM: How will you describe the position of a table lamp on your study table\nto another person?\nSOLUTION:\nStep 1: Choose any two perpendicular edges of the table as reference lines\n(e.g., left edge and bottom edge).\nStep 2: Measure the distance of the lamp from the left edge (say 25 cm).\nStep 3: Measure the distance of the lamp from the bottom edge (say 30 cm).\nStep 4: Tell the person \"The lamp is 25 cm from the left edge and 30 cm from\nthe bottom edge.\"\nANSWER: Two measurements (perpendicular distances from two reference edges) fix\nthe lamp's position exactly."
+        },
+        {
+          "type": "exercise",
+          "label": "EXERCISE 3.1.2:",
+          "items": [],
+          "raw": "PROBLEM: (Street Plan) A city has two main roads which cross each other at the\ncentre of the city. These roads are along the North-South direction and East-West\ndirection. All other streets run parallel to these roads and are 200 m apart.\nThere are 5 streets in each direction. Using 1 cm = 200 m, draw a model on your\nnotebook. Represent the roads/streets by single lines.\nUsing the convention that the 2nd street running in the North-South direction and\n5th street in the East-West direction meet at cross-street (2, 5), find:\n(i) How many cross-streets can be referred to as (4, 3)?\n(ii) How many cross-streets can be referred to as (3, 4)?\nSOLUTION:\nStep 1: Draw the model with 5 N-S streets and 5 E-W streets on paper using\n1 cm = 200 m scale.\nStep 2: Label N-S streets 1 to 5 (left to right) and E-W streets 1 to 5\n(bottom to top).\nStep 3: Cross-street (4, 3) = crossing of 4th N-S street and 3rd E-W street.\nOnly ONE such crossing exists.\nStep 4: Cross-street (3, 4) = crossing of 3rd N-S street and 4th E-W street.\nOnly ONE such crossing exists (different from (4, 3)).\n(i) ANSWER: Only ONE cross-street can be referred to as (4, 3).\n(ii) ANSWER: Only ONE cross-street can be referred to as (3, 4).\nNOTE: (4, 3) and (3, 4) refer to TWO DIFFERENT cross-streets. Order matters.\n\nADDITIONAL CALCULATIONS:\n\nProblem 1: In a cinema hall, there are 12 columns and 10 rows of seats.\nHow many total seats are there? How would you describe the seat in the\n7th column and 4th row?\nSolution:\nTotal seats = 12 x 10 = 120 seats.\nThe seat in 7th column and 4th row is written as (7, 4).\nThe seat (4, 7) would be a different seat - 4th column, 7th row.\nAnswer: 120 seats; described as (7, 4).\n\nProblem 2: On a sheet of paper, point P is 3 cm from the left edge and 7 cm\nfrom the bottom. Point Q is 7 cm from the left edge and 3 cm from the bottom.\nAre P and Q the same point?\nSolution:\nP = (3, 7) [3 cm horizontal, 7 cm vertical]\nQ = (7, 3) [7 cm horizontal, 3 cm vertical]\nSince (3, 7) ≠ (7, 3), P and Q are DIFFERENT points.\nAnswer: No, P and Q are different points."
+        },
+        {
+          "type": "qa",
+          "label": "TOPIC 3.1: Q&A",
+          "items": []
+        },
+        {
+          "type": "qa",
+          "label": "Q&A",
+          "items": [
+            {
+              "q_num": 1,
+              "marks": 2,
+              "question": "How is the position of a student uniquely described in a classroom",
+              "answer": "The position is described using TWO pieces of information:\n(i)  The COLUMN number (horizontal position from left).\n(ii) The ROW number (vertical position from front/bottom).\nExample: A student in the 5th column and 3rd row is written as (5, 3).\nThis is different from (3, 5), which is 3rd column, 5th row."
+            },
+            {
+              "q_num": 2,
+              "marks": 2,
+              "question": "In a street plan, what does the cross-street (2, 5) mean?",
+              "answer": "Cross-street (2, 5) means the crossing of:\n- The 2nd street running in the NORTH-SOUTH direction, AND\n- The 5th street running in the EAST-WEST direction.\nThe first number always refers to the N-S street and the second to the\nE-W street. Order of numbers matters."
+            },
+            {
+              "q_num": 3,
+              "marks": 2,
+              "question": "What inspired Rene Descartes to develop the Cartesian system?",
+              "answer": "Rene Descartes (1596−1650) developed the Cartesian system as a development\nof the older idea of LATITUDE AND LONGITUDE used in maps and navigation.\nHe extended this idea to a mathematical plane by placing two number lines\nperpendicular to each other, giving birth to Coordinate Geometry."
+            },
+            {
+              "q_num": 4,
+              "marks": 2,
+              "question": "In the dot-on-paper example, a dot is 5 cm from the left edge and",
+              "answer": "The ordered pair for the dot's position is (5, 9).\n- First number = horizontal distance from left edge = 5 cm (abscissa).\n- Second number = vertical distance from bottom = 9 cm (ordinate).\nThe horizontal distance is always written FIRST by convention.\n\n---\n\n3 ಮಾರ್ಕ್ಸ್ × 2 questions:"
+            },
+            {
+              "q_num": 5,
+              "marks": 3,
+              "question": "Why is saying \"the dot is near the left edge of the paper\" not",
+              "answer": "Step 1 — Why one piece of information is not enough:\nSaying \"near the left edge\" only gives an approximate HORIZONTAL distance.\nThe dot could be at any height on that vertical line — near the top, middle,\nor bottom of the paper. One reference gives only ONE-DIMENSIONAL information.\n\nStep 2 — Additional information needed:\nWe also need the VERTICAL distance from the bottom (or top) of the paper.\nFor example: \"5 cm from the left edge AND 9 cm above the bottom.\"\nNow the position is fixed exactly as (5, 9).\n\nStep 3 — Conclusion:\nA plane is TWO-DIMENSIONAL. Two independent pieces of information — one\nhorizontal and one vertical — are ALWAYS needed to uniquely fix a point\nin a plane. This is the fundamental idea behind Coordinate Geometry."
+            },
+            {
+              "q_num": 6,
+              "marks": 3,
+              "question": "In Exercise 3.1 Street Plan, with 5 streets in each direction,",
+              "answer": "Step 1 — Total number of cross-streets:\nThere are 5 streets running North-South and 5 streets running East-West.\nEach N-S street crosses EACH E-W street exactly once.\nTotal distinct cross-streets = 5 × 5 = 25.\nEach cross-street has a unique ordered pair label (x, y).\n\nStep 2 — Are (4, 3) and (3, 4) the same?\nCross-street (4, 3) = crossing of 4th N-S street and 3rd E-W street.\nCross-street (3, 4) = crossing of 3rd N-S street and 4th E-W street.\nThese are TWO DIFFERENT locations on the map.\n\nStep 3 — Conclusion:\nThe ORDER of the numbers in a cross-street label MATTERS.\n(4, 3) ≠ (3, 4). There is only ONE cross-street for each label.\n\n---\n\n4 ಮಾರ್ಕ್ಸ್ × 3 questions:"
+            },
+            {
+              "q_num": 7,
+              "marks": 4,
+              "question": "Describe Activity 3.1.1 (Seating Plan) completely, including aim,",
+              "answer": "Step 1 — AIM:\nTo demonstrate that two independent pieces of information are needed to\nuniquely fix the position of any object (student) in a two-dimensional plane\n(classroom).\n\nStep 2 — METHOD:\n- Draw a plan of the classroom by pushing all desks together.\n- Represent each desk by a square on paper.\n- Write the name of the student occupying that desk in the square.\n- Each student's position is described by:\n(i) The COLUMN number (horizontal, from left).\n(ii) The ROW number (vertical, from bottom/front).\n\nStep 3 — OBSERVATIONS:\n- A student in the 5th column and 3rd row is written as (5, 3).\n- This is NOT the same as (3, 5) — which is 3rd column, 5th row.\n- If Sonia sits in 4th column and 1st row, she is at position S(4, 1).\n- The teacher's desk is NOT included in the seating plan.\n- Two students cannot share the same (column, row) pair.\n\nStep 4 — CONCLUSION:\nThe position of any object in a plane is UNIQUELY fixed by exactly two\nindependent pieces of information: the column (horizontal) and row (vertical).\nThis is the basis of the Cartesian coordinate system."
+            },
+            {
+              "q_num": 8,
+              "marks": 4,
+              "question": "Explain with full working: In Exercise 3.1.2 (Street Plan), using",
+              "answer": "Step 1 — Understanding the convention:\nIn this street plan:\n- First number in (x, y) = number of the N-S street.\n- Second number in (x, y) = number of the E-W street.\n- Example: (2, 5) = 2nd N-S street meets 5th E-W street.\n- The city has 5 N-S streets and 5 E-W streets, 200 m apart.\n\nStep 2 — Finding cross-streets labelled (4, 3):\n(4, 3) = 4th N-S street meets 3rd E-W street.\nThere is EXACTLY ONE 4th N-S street and EXACTLY ONE 3rd E-W street.\nThey can cross each other at only ONE point.\nAnswer (i): Only ONE cross-street can be referred to as (4, 3).\n\nStep 3 — Finding cross-streets labelled (3, 4):\n(3, 4) = 3rd N-S street meets 4th E-W street.\nAgain, there is only ONE 3rd N-S street and ONE 4th E-W street.\nThey cross at only ONE point — a DIFFERENT location from (4, 3).\nAnswer (ii): Only ONE cross-street can be referred to as (3, 4).\n\nStep 4 — Why (4, 3) and (3, 4) are different:\n(4, 3) and (3, 4) involve the SAME numbers but in DIFFERENT ORDERS.\nThey refer to different N-S and E-W street combinations.\nThe ORDER of numbers in an ordered pair ALWAYS matters in Coordinate Geometry.\nThis principle applies throughout: (x, y) ≠ (y, x) if x ≠ y."
+            },
+            {
+              "q_num": 9,
+              "marks": 4,
+              "question": "Give four different real-life situations where two independent",
+              "answer": "Step 1 — Situation 1: Street Plan (from textbook)\nTwo main roads cross a city centre. Streets run N-S and E-W, 200 m apart.\nSample pair: (3, 2) = 3rd N-S street meets 2nd E-W street.\nOnly ONE unique crossing corresponds to this label.\n\nStep 2 — Situation 2: Seating Plan in Classroom (from textbook)\nDesks are arranged in rows and columns.\nSample pair: (4, 2) = 4th column, 2nd row.\nThis uniquely identifies one desk. (2, 4) is a different desk.\n\nStep 3 — Situation 3: Dot on Paper (from textbook)\nA dot is placed on a sheet of paper.\nSample pair: (5, 9) = 5 cm from left edge, 9 cm from bottom.\nBoth measurements together fix the position exactly.\n\nStep 4 — Situation 4: Latitude and Longitude on a Map\nThis was the original inspiration for the Cartesian system.\nSample pair: (13°N, 77°E) = 13 degrees North latitude, 77 degrees East longitude.\nThis uniquely identifies a location on Earth (approximately Bengaluru city).\nThe latitude and longitude together act as the two coordinates of a point.\n\n---\n\n5 ಮಾರ್ಕ್ಸ್ × 1 question:"
+            },
+            {
+              "q_num": 10,
+              "marks": 5,
+              "question": "",
+              "answer": "PART A — Street Plan (Exercise 3.1.2):\n\nSetup:\nA city has two main roads — one along N-S direction and one along E-W direction,\ncrossing at the city centre. All other streets run parallel to these roads and\nare 200 m apart. There are 5 streets in each direction.\nScale used: 1 cm = 200 m on the notebook model.\n\nConvention:\nEach cross-street is identified by a pair (x, y) where:\n- x = number of the N-S street (1 to 5, left to right).\n- y = number of the E-W street (1 to 5, bottom to top).\nExample: The 2nd N-S street and 5th E-W street meet at (2, 5).\n\nFinding cross-streets labelled (4, 3):\n(4, 3) = 4th N-S street ∩ 3rd E-W street.\nThere is exactly one 4th N-S street and exactly one 3rd E-W street.\nThey intersect at exactly ONE point.\nAnswer: Only ONE cross-street is labelled (4, 3).\n\nFinding cross-streets labelled (3, 4):\n(3, 4) = 3rd N-S street ∩ 4th E-W street.\nThis is a DIFFERENT crossing from (4, 3) because the street numbers are swapped.\nAnswer: Only ONE cross-street is labelled (3, 4), and it is different from (4, 3).\n\nTotal distinct cross-streets:\nEach of 5 N-S streets can cross each of 5 E-W streets exactly once.\nTotal = 5 × 5 = 25 distinct cross-streets, each with a unique (x, y) label.\n\nPART B — Seating Plan Calculations:\n\n(i) Total number of seats:\nNumber of columns = 8, Number of rows = 6.\nTotal seats = 8 × 6 = 48 seats.\nEach seat has a unique ordered pair (column, row).\n\n(ii) Seats where column number = row number (form (n, n)):\nWe need n to be a valid column (1 to 8) AND a valid row (1 to 6).\nSo n can be 1, 2, 3, 4, 5, or 6 (the smaller of 8 and 6).\nValid seats: (1,1), (2,2), (3,3), (4,4), (5,5), (6,6).\nAnswer: 6 such seats exist.\n\n(iii) Student moves from (5, 4):\nOriginal position: column 5, row 4 → (5, 4).\nMoves 2 columns to the RIGHT: new column = 5 + 2 = 7.\nMoves 1 row UP: new row = 4 + 1 = 5.\nNew position = (7, 5).\nCheck: column 7 ≤ 8 ✓, row 5 ≤ 6 ✓. Position is valid.\nAnswer: New position of the student is (7, 5)."
+            }
+          ]
+        },
+        {
+          "type": "mcq",
+          "label": "TOPIC 3.1: MCQs:",
+          "items": [
+            {
+              "mcq_num": 1,
+              "difficulty": "Easy",
+              "question": "To locate a point on a NUMBER LINE, how many pieces of information are needed?",
+              "options": {
+                "A": "One   (B) Two   (C) Three   (D) Zero"
+              },
+              "answer": "A",
+              "explanation": "A number line is one-dimensional, so only one distance from the origin is needed."
+            },
+            {
+              "mcq_num": 2,
+              "difficulty": "Easy",
+              "question": "In a seating plan, a student sits in the 3rd column and 5th row. Her position is:",
+              "options": {
+                "A": "(5, 3)   (B) (3, 5)   (C) (8, 8)   (D) (15, 15)"
+              },
+              "answer": "B",
+              "explanation": "Column number is written first, row number second. So 3rd column, 5th row = (3, 5)."
+            },
+            {
+              "mcq_num": 3,
+              "difficulty": "Easy",
+              "question": "The Cartesian system was developed as a branch of:",
+              "options": {
+                "A": "Trigonometry   (B) Algebra   (C) Coordinate Geometry   (D) Statistics"
+              },
+              "answer": "C",
+              "explanation": "Descartes' work of locating points using two perpendicular axes gave birth to Coordinate Geometry."
+            },
+            {
+              "mcq_num": 4,
+              "difficulty": "Medium",
+              "question": "In the Seating Plan activity, position (5, 3) means:",
+              "options": {
+                "A": "5th row, 3rd column   (B) 5th column, 3rd row",
+                "C": "5th column, 5th row   (D) 3rd column, 3rd row"
+              },
+              "answer": "B",
+              "explanation": "The first number = column, second number = row."
+            },
+            {
+              "mcq_num": 5,
+              "difficulty": "Medium",
+              "question": "A dot is placed on paper. Its position is \"5 cm from left edge and 9 cm from the bottom.\" What is the ordered pair for this position?",
+              "options": {
+                "A": "(9, 5)   (B) (5, 9)   (C) (14, 14)   (D) (5, 0)"
+              },
+              "answer": "B",
+              "explanation": "Horizontal (left edge) = 5 written first, vertical (bottom) = 9 second."
+            },
+            {
+              "mcq_num": 6,
+              "difficulty": "Medium",
+              "question": "In a street plan, cross-street (4, 3) and cross-street (3, 4) are:",
+              "options": {
+                "A": "The same crossing   (B) Two different crossings",
+                "C": "Both on main road   (D) Not possible to locate"
+              },
+              "answer": "B",
+              "explanation": "Order matters in coordinate pairs. (4, 3) ≠ (3, 4)."
+            },
+            {
+              "mcq_num": 7,
+              "difficulty": "Medium",
+              "question": "In Exercise 3.1 Street Plan, how many cross-streets can be labelled as (4, 3)?",
+              "options": {
+                "A": "Zero   (B) One   (C) Two   (D) Four"
+              },
+              "answer": "B",
+              "explanation": "There is only one crossing of the 4th N-S street and 3rd E-W street."
+            },
+            {
+              "mcq_num": 8,
+              "difficulty": "Hard",
+              "question": "In a classroom with 10 columns and 7 rows, how many different seat positions exist?",
+              "options": {
+                "A": "17   (B) 70   (C) 35   (D) 10"
+              },
+              "answer": "B",
+              "explanation": "Total = 10 × 7 = 70. Each position is a unique ordered pair (col, row)."
+            },
+            {
+              "mcq_num": 9,
+              "difficulty": "Hard",
+              "question": "Rene Descartes' method was a development of which older concept?",
+              "options": {
+                "A": "The number line   (B) Euclidean geometry",
+                "C": "Latitude and longitude   (D) Pythagorean theorem"
+              },
+              "answer": "C",
+              "explanation": "Textbook states Descartes' method was a development of the older idea of latitude and longitude."
+            },
+            {
+              "mcq_num": 10,
+              "difficulty": "Hard",
+              "question": "If a city has 5 streets running North-South and 5 streets running East-West, how many distinct cross-streets are there?",
+              "options": {
+                "A": "10   (B) 20   (C) 25   (D) 50"
+              },
+              "answer": "C",
+              "explanation": "5 × 5 = 25. Each of the 5 N-S streets crosses each of the 5 E-W streets exactly once, giving 25 unique (x, y) pairs."
+            },
+            {
+              "mcq_num": 11,
+              "difficulty": "Hard",
+              "question": "A student says: \"To describe any position in a plane, one reference line is enough.\" This statement is:",
+              "options": {
+                "A": "Always true   (B) Sometimes true   (C) False   (D) True only for vertical lines"
+              },
+              "answer": "C",
+              "explanation": "One line gives only 1D information. A plane is 2D — always need two perpendicular reference lines."
+            },
+            {
+              "mcq_num": 12,
+              "difficulty": "Hard",
+              "question": "In Exercise 3.1 Q2, are the cross-streets (4, 3) and (3, 4) the same or different? What is the total number of unique cross-streets with 5 streets in each direction?",
+              "options": {
+                "A": "Same; 10 total   (B) Different; 25 total",
+                "C": "Same; 25 total   (D) Different; 10 total"
+              },
+              "answer": "B",
+              "explanation": "(4,3) and (3,4) are different (order matters). Total = 5 × 5 = 25."
+            }
+          ]
+        }
+      ],
+      "subtopics": []
+    },
+    {
+      "topic_num": "3.2",
+      "topic_name": "CARTESIAN SYSTEM",
+      "mode": "B",
+      "sections": [
+        {
+          "type": "definition",
+          "label": "Definition:",
+          "text": "The CARTESIAN PLANE (also called COORDINATE PLANE or XY-PLANE) is the plane\nformed by two perpendicular number lines called COORDINATE AXES. The horizontal\nline is the X-AXIS (X'X) and the vertical line is the Y-AXIS (Y'Y). The point\nwhere they intersect is called the ORIGIN (O)."
+        },
+        {
+          "type": "key_points",
+          "label": "Key Points:",
+          "points": [
+            "Two number lines X'X (horizontal) and Y'Y (vertical) are placed perpendicular",
+            "to each other at their zeroes (origins) — this forms the Cartesian plane.",
+            "Positive x-axis direction: OX (right). Negative x-axis direction: OX' (left).",
+            "Positive y-axis direction: OY (upward). Negative y-axis direction: OY' (downward).",
+            "The two axes divide the plane into FOUR parts called QUADRANTS, numbered I, II,",
+            "III, IV in ANTICLOCKWISE direction starting from OX (positive x-axis).",
+            "Quadrant I: between positive x-axis and positive y-axis. Signs: (+, +)",
+            "Quadrant II: between negative x-axis and positive y-axis. Signs: (−, +)",
+            "Quadrant III: between negative x-axis and negative y-axis. Signs: (−, −)",
+            "Quadrant IV: between positive x-axis and negative y-axis. Signs: (+, −)",
+            "X-COORDINATE (ABSCISSA): perpendicular distance of a point from the y-axis,",
+            "measured along the x-axis. Positive to right of y-axis, negative to left.",
+            "Y-COORDINATE (ORDINATE): perpendicular distance of a point from the x-axis,",
+            "measured along the y-axis. Positive above x-axis, negative below.",
+            "Coordinates are written as ordered pair (x, y): abscissa first, ordinate second.",
+            "Any point on the x-axis: ordinate = 0 → coordinates of form (x, 0).",
+            "Any point on the y-axis: abscissa = 0 → coordinates of form (0, y).",
+            "Coordinates of origin O = (0, 0).",
+            "Coordinates describe a point UNIQUELY: (3, 4) is NOT the same as (4, 3)",
+            "(unless x = y, in which case they are equal).",
+            "REMARK: Writing x-coordinate first is a worldwide convention to avoid confusion."
+          ]
+        },
+        {
+          "type": "list_of_topics",
+          "label": "LIST OF SUB TOPICS IN THIS TOPIC:",
+          "items": [
+            "- No sub-topics in the textbook for Topic 3.2 (Mode B - Flat)",
+            "EXAMPLES: EXAMPLE 3.2",
+            "EXAMPLE 3.2.1: Reading coordinates from a graph (Fig. 3.11)",
+            "PROBLEM: See Fig. 3.11 and complete the following statements:",
+            "(i)  Abscissa and ordinate of point B are ___ and ___, respectively.",
+            "(ii) x-coordinate and y-coordinate of point M are ___ and ___, respectively.",
+            "(iii) x-coordinate and y-coordinate of point L are ___ and ___, respectively.",
+            "(iv) x-coordinate and y-coordinate of point S are ___ and ___, respectively.",
+            "SOLUTION:",
+            "Step 1: Point B — 4 units right of y-axis (abscissa = 4), 3 units above x-axis (ordinate = 3).",
+            "Coordinates of B = (4, 3). [Quadrant I]",
+            "Step 2: Point M — 3 units left of y-axis (abscissa = −3), 4 units above x-axis (ordinate = 4).",
+            "Coordinates of M = (−3, 4). [Quadrant II]",
+            "Step 3: Point L — 5 units left of y-axis (abscissa = −5), 4 units below x-axis (ordinate = −4).",
+            "Coordinates of L = (−5, −4). [Quadrant III]",
+            "Step 4: Point S — 3 units right of y-axis (abscissa = 3), 4 units below x-axis (ordinate = −4).",
+            "Coordinates of S = (3, −4). [Quadrant IV]",
+            "EXAMPLE 3.2.2: Coordinates of points on axes (Fig. 3.12)",
+            "PROBLEM: Write the coordinates of the points A, B, C, D, E marked on the axes",
+            "in Fig. 3.12.",
+            "SOLUTION:",
+            "Step 1: A is on x-axis, 4 units right → ordinate = 0, abscissa = 4. A = (4, 0).",
+            "Step 2: B is on y-axis, 3 units above → abscissa = 0, ordinate = 3. B = (0, 3).",
+            "Step 3: C is on x-axis, 5 units left  → ordinate = 0, abscissa = −5. C = (−5, 0).",
+            "Step 4: D is on y-axis, 4 units below → abscissa = 0, ordinate = −4. D = (0, −4).",
+            "Step 5: E is on x-axis, 2/3 units right → ordinate = 0, abscissa = 2/3. E = (2/3, 0).",
+            "EXERCISES: EXERCISE 3.2"
+          ]
+        },
+        {
+          "type": "exercise",
+          "label": "EXERCISE 3.2.1:",
+          "items": [],
+          "raw": "PROBLEM: Write the answer to each of the following:\n(i)  What is the name of horizontal and vertical lines drawn to determine the\nposition of any point in the Cartesian plane?\n(ii) What is the name of each part of the plane formed by these two lines?\n(iii) Write the name of the point where these two lines intersect.\nSOLUTION:\n(i)   Horizontal line = X-AXIS. Vertical line = Y-AXIS. Together = COORDINATE AXES.\n(ii)  Each part = QUADRANT. There are four quadrants: I, II, III, and IV.\n(iii) Point of intersection = ORIGIN, denoted by O."
+        },
+        {
+          "type": "exercise",
+          "label": "EXERCISE 3.2.2:",
+          "items": [],
+          "raw": "PROBLEM: See Fig. 3.14 and write:\n(i) coordinates of B, (ii) coordinates of C, (iii) point at (−3, −5),\n(iv) point at (2, −4), (v) abscissa of D, (vi) ordinate of H,\n(vii) coordinates of L, (viii) coordinates of M.\nSOLUTION:\nStep 1: B is 5 left, 2 up    → B = (−5, 2).\nStep 2: C is 6 right, 5 down → C = (6, −5).\nStep 3: (−3, −5) → Point E.\nStep 4: (2, −4)  → Point G.\nStep 5: D is 6 units right of y-axis → Abscissa of D = 6.\nStep 6: H is 3 units below x-axis   → Ordinate of H = −3.\nStep 7: L is on y-axis, 5 up        → L = (0, 5).\nStep 8: M is on x-axis, 3 left      → M = (−3, 0).\n\nADDITIONAL CALCULATIONS:\n\nProblem 1: Identify the quadrant for each point and state the sign convention:\n(a) P = (4, 3)   (b) Q = (−6, −2)   (c) R = (−3, 4)   (d) T = (5, −4)\nSolution:\n(a) P = (4, 3):   x = +4, y = +3. Signs (+, +) → Quadrant I.\n(b) Q = (−6, −2): x = −6, y = −2. Signs (−, −) → Quadrant III.\n(c) R = (−3, 4):  x = −3, y = +4. Signs (−, +) → Quadrant II.\n(d) T = (5, −4):  x = +5, y = −4. Signs (+, −) → Quadrant IV.\n\nProblem 2: A point P has x-coordinate = 0 and y-coordinate = −4. On which axis\ndoes it lie? What are its coordinates?\nSolution:\nx = 0 → point lies on the y-axis.\ny = −4 → 4 units below origin on the negative y-axis.\nCoordinates of P = (0, −4).\nAnswer: P = (0, −4) lies on the y-axis (negative side).\n\nProblem 3: Plot and identify: A(3,0), B(0,4), C(−2,5), D(0,−3), E(6,0).\nWhich points lie on axes? Which are in quadrants?\nSolution:\nA = (3, 0):  y = 0 → lies on x-axis (positive side).\nB = (0, 4):  x = 0 → lies on y-axis (positive side).\nC = (−2, 5): x < 0, y > 0 → lies in Quadrant II.\nD = (0, −3): x = 0 → lies on y-axis (negative side).\nE = (6, 0):  y = 0 → lies on x-axis (positive side).\nAnswer: A, E on x-axis. B, D on y-axis. C in Quadrant II."
+        },
+        {
+          "type": "qa",
+          "label": "TOPIC 3.2: Q&A",
+          "items": []
+        },
+        {
+          "type": "qa",
+          "label": "Q&A",
+          "items": [
+            {
+              "q_num": 1,
+              "marks": 2,
+              "question": "What is the Cartesian plane? Give its other names.",
+              "answer": "The CARTESIAN PLANE is the plane formed by placing two perpendicular number\nlines (x-axis and y-axis) at their zeroes (origins).\nOther names:\n- COORDINATE PLANE\n- XY-PLANE\nThe axes are called COORDINATE AXES. The point of intersection is the ORIGIN O."
+            },
+            {
+              "q_num": 2,
+              "marks": 2,
+              "question": "What is the origin? Write its coordinates and give the reason.",
+              "answer": "The ORIGIN is the point where the x-axis and the y-axis intersect each other.\n- Denoted by: O\n- Coordinates: (0, 0)\nREASON: The origin has ZERO perpendicular distance from both the x-axis and\nthe y-axis. So both abscissa and ordinate are 0. Hence coordinates = (0, 0)."
+            },
+            {
+              "q_num": 3,
+              "marks": 2,
+              "question": "Write the coordinates of any point on the x-axis and any point on",
+              "answer": "Point on x-axis:\nThe ordinate (y-coordinate) = 0 for any point on the x-axis.\nCoordinates are of the form (x, 0).\nExample: (5, 0) is 5 units to the right of origin on the x-axis.\n\nPoint on y-axis:\nThe abscissa (x-coordinate) = 0 for any point on the y-axis.\nCoordinates are of the form (0, y).\nExample: (0, −3) is 3 units below the origin on the y-axis."
+            },
+            {
+              "q_num": 4,
+              "marks": 2,
+              "question": "How many quadrants are there in the Cartesian plane? In what",
+              "answer": "There are FOUR quadrants in the Cartesian plane.\n- They are numbered I, II, III, IV in ANTICLOCKWISE direction.\n- Starting from OX (the POSITIVE x-axis direction).\n- Quadrant I is between the positive x-axis and positive y-axis.\n- Each successive quadrant is counted anticlockwise from there.\n\n---\n\n3 ಮಾರ್ಕ್ಸ್ × 2 questions:"
+            },
+            {
+              "q_num": 5,
+              "marks": 3,
+              "question": "Define abscissa and ordinate. Using Fig. 3.10 from the textbook,",
+              "answer": "Step 1 — Abscissa (x-coordinate):\nThe ABSCISSA of a point is its perpendicular distance from the y-axis,\nmeasured along the x-axis.\n- Positive if the point is to the RIGHT of the y-axis.\n- Negative if the point is to the LEFT of the y-axis.\n\nStep 2 — Ordinate (y-coordinate):\nThe ORDINATE of a point is its perpendicular distance from the x-axis,\nmeasured along the y-axis.\n- Positive if the point is ABOVE the x-axis.\n- Negative if the point is BELOW the x-axis.\n\nStep 3 — Determining coordinates of P from Fig. 3.10:\nDraw a perpendicular PM from P to the x-axis. M is the foot of perpendicular.\nPN = OM = 4 units (distance from y-axis, in positive direction) → abscissa = 4.\nPM = ON = 3 units (distance from x-axis, in positive direction) → ordinate = 3.\nTherefore, coordinates of P = (4, 3). P lies in Quadrant I."
+            },
+            {
+              "q_num": 6,
+              "marks": 3,
+              "question": "Verify with full working: Are the points (3, 4) and (4, 3) the",
+              "answer": "Step 1 — Meaning of (3, 4):\nAbscissa = 3 → 3 units to the right of y-axis.\nOrdinate = 4 → 4 units above the x-axis.\nSo (3, 4) is a point in Quadrant I at horizontal distance 3 and vertical distance 4.\n\nStep 2 — Meaning of (4, 3):\nAbscissa = 4 → 4 units to the right of y-axis.\nOrdinate = 3 → 3 units above the x-axis.\nSo (4, 3) is ALSO in Quadrant I but at horizontal distance 4 and vertical distance 3.\n\nStep 3 — Comparison and general rule:\n(3, 4) ≠ (4, 3) because they represent different distances from the axes.\nThe textbook states: If x ≠ y, then (x, y) ≠ (y, x).\nBut if x = y (for example, (2, 2)), then (x, y) = (y, x).\nGENERAL RULE: Coordinates describe a point UNIQUELY. The order of the numbers\n(abscissa first, ordinate second) is a worldwide convention that must be followed.\n\n---\n\n4 ಮಾರ್ಕ್ಸ್ × 3 questions:"
+            },
+            {
+              "q_num": 7,
+              "marks": 4,
+              "question": "From Fig. 3.11 (Example 3.2.1), find the coordinates of points B,",
+              "answer": "Step 1 — Coordinates of B:\nDistance of B from y-axis = 4 units (positive/right direction) → abscissa = 4.\nDistance of B from x-axis = 3 units (positive/up direction)    → ordinate = 3.\nCoordinates of B = (4, 3). Both positive → QUADRANT I.\n\nStep 2 — Coordinates of M:\nDistance of M from y-axis = 3 units (negative/left direction) → abscissa = −3.\nDistance of M from x-axis = 4 units (positive/up direction)   → ordinate = 4.\nCoordinates of M = (−3, 4). x−, y+ → QUADRANT II.\n\nStep 3 — Coordinates of L:\nDistance of L from y-axis = 5 units (negative/left direction)  → abscissa = −5.\nDistance of L from x-axis = 4 units (negative/down direction)  → ordinate = −4.\nCoordinates of L = (−5, −4). Both negative → QUADRANT III.\n\nStep 4 — Coordinates of S:\nDistance of S from y-axis = 3 units (positive/right direction) → abscissa = 3.\nDistance of S from x-axis = 4 units (negative/down direction)  → ordinate = −4.\nCoordinates of S = (3, −4). x+, y− → QUADRANT IV."
+            },
+            {
+              "q_num": 8,
+              "marks": 4,
+              "question": "From Fig. 3.14 (Exercise 3.2.2), find with complete working:",
+              "answer": "Step 1 — Coordinates of B and C:\nB: 5 units LEFT of y-axis → abscissa = −5.\n2 units ABOVE x-axis  → ordinate = 2.\nB = (−5, 2). [Quadrant II]\n\nC: 6 units RIGHT of y-axis → abscissa = 6.\n5 units BELOW x-axis   → ordinate = −5.\nC = (6, −5). [Quadrant IV]\n\nStep 2 — Points identified by coordinates:\nLocate x = −3 (3 left), y = −5 (5 down): This is point E = (−3, −5).\nLocate x = 2 (2 right), y = −4 (4 down): This is point G = (2, −4).\n\nStep 3 — Abscissa of D and ordinate of H:\nD is on the positive x-axis side: D = (6, 2) → Abscissa of D = 6.\nH is below the x-axis: H = (−5, −3) → Ordinate of H = −3.\n\nStep 4 — Coordinates of L and M:\nL is on the y-axis (abscissa = 0), 5 units above origin → L = (0, 5).\nM is on the x-axis (ordinate = 0), 3 units left of origin → M = (−3, 0)."
+            },
+            {
+              "q_num": 9,
+              "marks": 4,
+              "question": "Identify the quadrant or axis for each of the following points.",
+              "answer": "Step 1 — Point (−3, 4):\nx = −3 (negative), y = 4 (positive). Signs (−, +) → QUADRANT II.\n\nStep 2 — Point (5, −2):\nx = 5 (positive), y = −2 (negative). Signs (+, −) → QUADRANT IV.\n\nStep 3 — Point (0, −7):\nx = 0 → point lies ON THE Y-AXIS (negative side, 7 units below origin).\nNot in any quadrant.\n\nStep 4 — Point (4, 0):\ny = 0 → point lies ON THE X-AXIS (positive side, 4 units right of origin).\nNot in any quadrant.\n\nStep 5 — Point (−2, −6):\nx = −2 (negative), y = −6 (negative). Signs (−, −) → QUADRANT III.\n\nStep 6 — Point (3, 3):\nx = 3 (positive), y = 3 (positive). Signs (+, +) → QUADRANT I.\nAlso note: since x = y = 3, the point (3, 3) = (3, 3). The ordered pair\nis same even if reversed, which is the special case mentioned in the textbook.\n\n---\n\n5 ಮಾರ್ಕ್ಸ್ × 1 question:"
+            },
+            {
+              "q_num": 10,
+              "marks": 5,
+              "question": "",
+              "answer": "PART A — Complete Cartesian System:\n\n(i) Formation:\nTake two number lines X'X and Y'Y. Place them perpendicular to each other\nso that they cross at their zero points (origins). The plane so formed is\ncalled the CARTESIAN PLANE (or Coordinate Plane, or XY-Plane).\n\n(ii) The Four Half-Axes and Their Directions:\n- OX  → Positive x-axis: extends to the RIGHT from origin.\n- OX' → Negative x-axis: extends to the LEFT from origin.\n- OY  → Positive y-axis: extends UPWARD from origin.\n- OY' → Negative y-axis: extends DOWNWARD from origin.\nOX and OY are the POSITIVE DIRECTIONS of the respective axes.\n\n(iii) Four Quadrants and Sign Conventions:\nThe coordinate axes divide the Cartesian plane into FOUR QUADRANTS,\nnumbered I, II, III, IV in ANTICLOCKWISE order starting from OX:\n- Quadrant I  : enclosed by +x axis and +y axis. Signs: (+, +).\n- Quadrant II : enclosed by −x axis and +y axis. Signs: (−, +).\n- Quadrant III: enclosed by −x axis and −y axis. Signs: (−, −).\n- Quadrant IV : enclosed by +x axis and −y axis. Signs: (+, −).\n\n(iv) Coordinates of Origin:\nOrigin O is the intersection of both axes.\nIts perpendicular distance from x-axis = 0 → ordinate = 0.\nIts perpendicular distance from y-axis = 0 → abscissa = 0.\nCoordinates of origin O = (0, 0).\n\n(v) REMARK (from textbook):\nThe system of writing x-coordinate first and y-coordinate second is a\nconvention accepted ALL OVER THE WORLD to avoid any confusion.\nIf x ≠ y, then (x, y) ≠ (y, x).\nIf x = y, then (x, y) = (y, x).\n\nPART B — Coordinates of Points A, B, C, D, E (Fig. 3.12) + P and Q (Fig. 3.10):\n\nPoint A (Fig. 3.12):\nA is on x-axis, 4 units to the RIGHT of origin.\nOn x-axis → ordinate = 0. Positive direction → abscissa = +4.\nA = (4, 0).\n\nPoint B (Fig. 3.12):\nB is on y-axis, 3 units ABOVE the origin.\nOn y-axis → abscissa = 0. Positive direction → ordinate = +3.\nB = (0, 3).\n\nPoint C (Fig. 3.12):\nC is on x-axis, 5 units to the LEFT of origin.\nOn x-axis → ordinate = 0. Negative direction → abscissa = −5.\nC = (−5, 0).\n\nPoint D (Fig. 3.12):\nD is on y-axis, 4 units BELOW the origin.\nOn y-axis → abscissa = 0. Negative direction → ordinate = −4.\nD = (0, −4).\n\nPoint E (Fig. 3.12):\nE is on x-axis, 2/3 units to the RIGHT of origin.\nOn x-axis → ordinate = 0. Positive direction → abscissa = +2/3.\nE = (2/3, 0).\n\nPoint P (Fig. 3.10):\nP is 4 units right of y-axis → abscissa = 4.\nP is 3 units above x-axis   → ordinate = 3.\nP = (4, 3). Both positive → QUADRANT I.\n\nPoint Q (Fig. 3.10):\nQ is 6 units left of y-axis  → abscissa = −6.\nQ is 2 units below x-axis    → ordinate = −2.\nQ = (−6, −2). Both negative → QUADRANT III."
+            }
+          ]
+        },
+        {
+          "type": "mcq",
+          "label": "TOPIC 3.2: MCQs:",
+          "items": [
+            {
+              "mcq_num": 1,
+              "difficulty": "Easy",
+              "question": "The horizontal line in the Cartesian plane is called:",
+              "options": {
+                "A": "y-axis   (B) x-axis   (C) z-axis   (D) ordinate axis"
+              },
+              "answer": "B",
+              "explanation": "The horizontal number line in the Cartesian plane is the x-axis."
+            },
+            {
+              "mcq_num": 2,
+              "difficulty": "Easy",
+              "question": "The coordinates of the origin are:",
+              "options": {
+                "A": "(1, 1)   (B) (0, 1)   (C) (1, 0)   (D) (0, 0)"
+              },
+              "answer": "D",
+              "explanation": "Origin has zero distance from both axes, so coordinates are (0, 0)."
+            },
+            {
+              "mcq_num": 3,
+              "difficulty": "Easy",
+              "question": "A point on the x-axis has its y-coordinate equal to:",
+              "options": {
+                "A": "1   (B) −1   (C) 0   (D) Any value"
+              },
+              "answer": "C",
+              "explanation": "Every point on the x-axis has no perpendicular distance from x-axis, so ordinate = 0 always."
+            },
+            {
+              "mcq_num": 4,
+              "difficulty": "Easy",
+              "question": "Quadrants are numbered in which direction starting from the positive x-axis?",
+              "options": {
+                "A": "Clockwise   (B) Anticlockwise   (C) Horizontal   (D) Vertical"
+              },
+              "answer": "B",
+              "explanation": "Quadrants I, II, III, IV are numbered anticlockwise from OX."
+            },
+            {
+              "mcq_num": 5,
+              "difficulty": "Easy",
+              "question": "The x-coordinate of a point is also called:",
+              "options": {
+                "A": "Ordinate   (B) Abscissa   (C) Origin   (D) Quadrant"
+              },
+              "answer": "B",
+              "explanation": "x-coordinate = abscissa = perpendicular distance from y-axis."
+            },
+            {
+              "mcq_num": 6,
+              "difficulty": "Medium",
+              "question": "In Example 3.2.1 (Fig. 3.11), the coordinates of point M are:",
+              "options": {
+                "A": "(3, 4)   (B) (−3, 4)   (C) (3, −4)   (D) (−3, −4)"
+              },
+              "answer": "B",
+              "explanation": "M is 3 units to the left of y-axis (x = −3) and 4 units above x-axis (y = 4). So M = (−3, 4)."
+            },
+            {
+              "mcq_num": 7,
+              "difficulty": "Medium",
+              "question": "The point (4, −7) lies in which quadrant?",
+              "options": {
+                "A": "Quadrant I   (B) Quadrant II   (C) Quadrant III   (D) Quadrant IV"
+              },
+              "answer": "D",
+              "explanation": "x = +4 (positive), y = −7 (negative). Signs (+, −) = Quadrant IV."
+            },
+            {
+              "mcq_num": 8,
+              "difficulty": "Medium",
+              "question": "A point lies in Quadrant II. Which of the following could be its coordinates?",
+              "options": {
+                "A": "(3, 5)   (B) (−3, −5)   (C) (−3, 5)   (D) (3, −5)"
+              },
+              "answer": "C",
+              "explanation": "Quadrant II has signs (−, +). x negative, y positive. (−3, 5) matches."
+            },
+            {
+              "mcq_num": 9,
+              "difficulty": "Medium",
+              "question": "In Exercise 3.2.2 (Fig. 3.14), the coordinates of point C are:",
+              "options": {
+                "A": "(5, −5)   (B) (−5, 5)   (C) (6, −5)   (D) (−6, 5)"
+              },
+              "answer": "C",
+              "explanation": "C is 6 units to the right of y-axis (x = 6) and 5 units below x-axis (y = −5). So C = (6, −5)."
+            },
+            {
+              "mcq_num": 10,
+              "difficulty": "Hard",
+              "question": "How many of the following points lie on the y-axis? (2, 0), (0, −3), (0, 5), (4, 0), (0, 0)",
+              "options": {
+                "A": "2   (B) 3   (C) 4   (D) 5"
+              },
+              "answer": "B",
+              "explanation": "Points on y-axis have x = 0: (0,−3), (0,5), (0,0) = 3 points. (2,0) and (4,0) have y = 0, so they lie on x-axis."
+            },
+            {
+              "mcq_num": 11,
+              "difficulty": "Hard",
+              "question": "Point A is at (3, 4) and Point B is at (4, 3). What is the relationship?",
+              "options": {
+                "A": "They are the same point",
+                "B": "They are in the same quadrant but different points",
+                "C": "They are in different quadrants",
+                "D": "Both are on the x-axis"
+              },
+              "answer": "B",
+              "explanation": "Both have positive x and y, so both in Quadrant I. But (3,4) ≠ (4,3) since 3 ≠ 4. Different points, same quadrant."
+            },
+            {
+              "mcq_num": 12,
+              "difficulty": "Hard",
+              "question": "A point P is 5 units from the y-axis in the negative direction and 2 units from the x-axis in the positive direction. The coordinates of P are:",
+              "options": {
+                "A": "(5, 2)   (B) (2, −5)   (C) (−5, 2)   (D) (−2, 5)"
+              },
+              "answer": "C",
+              "explanation": "5 units from y-axis in NEGATIVE x-direction → abscissa = −5. 2 units from x-axis in POSITIVE y-direction → ordinate = +2. So P = (−5, 2). This point lies in Quadrant II."
+            }
+          ]
+        },
+        {
+          "type": "qa",
+          "label": "TOPIC 3.1 Q&A FORMAT      : [✓] 9th — ರೇಖಾ ಗಣಿತ | 10 questions",
+          "items": []
+        },
+        {
+          "type": "qa",
+          "label": "TOPIC 3.2 Q&A FORMAT      : [✓] 9th — ರೇಖಾ ಗಣಿತ | 10 questions",
+          "items": []
+        },
+        {
+          "type": "mcq",
+          "label": "MCQs (Chapter + each Topic): [✓] 12 each",
+          "items": []
+        }
+      ],
+      "subtopics": []
+    }
+  ]
+}

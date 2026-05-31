@@ -1,0 +1,2191 @@
+{
+  "metadata": {
+    "class": "8th Standard",
+    "subject": "Mathematics",
+    "part": "2",
+    "chapter_num": "9",
+    "chapter_name": "MENSURATION",
+    "source": "KSEEB Textbook 2025-26",
+    "mode": "B"
+  },
+  "chapter_sections": [
+    {
+      "type": "definition",
+      "label": "Definition:",
+      "text": "MENSURATION is the branch of mathematics that deals with measurement of geometric figures — their length, area and volume.\nPERIMETER is the distance around the boundary of a closed plane figure.\nAREA is the region covered by a closed plane figure.\nSURFACE AREA of a solid is the sum of the areas of all its faces.\nVOLUME is the amount of space occupied by a three dimensional object."
+    },
+    {
+      "type": "key_points",
+      "label": "Key Points:",
+      "points": [
+        "We have already learnt area and perimeter of plane figures such as triangles, rectangles and circles.",
+        "In this chapter, we solve problems related to perimeter and area of other plane closed figures like quadrilaterals.",
+        "We also learn about surface area and volume of solids such as cube, cuboid and cylinder."
+      ]
+    },
+    {
+      "type": "list_of_topics",
+      "label": "LIST OF TOPICS IN THIS CHAPTER:",
+      "items": [
+        "- Topic 9.1: Introduction",
+        "- Topic 9.2: Area of a Polygon",
+        "- Topic 9.3: Solid Shapes",
+        "- Topic 9.4: Surface Area of Cube, Cuboid and Cylinder"
+      ]
+    },
+    {
+      "type": "qa",
+      "label": "CHAPTER 9: Q&A",
+      "items": []
+    },
+    {
+      "type": "mcq",
+      "label": "CHAPTER 9: MCQs:",
+      "items": [
+        {
+          "mcq_num": 1,
+          "difficulty": "Easy",
+          "question": "The total surface area of a cube of side 3 cm is:",
+          "options": {
+            "A": "9 sq.cm   (B) 27 sq.cm   (C) 54 sq.cm   (D) 18 sq.cm"
+          },
+          "answer": "C",
+          "explanation": "TSA = 6l^2 = 6 x 9 = 54 sq.cm."
+        },
+        {
+          "mcq_num": 2,
+          "difficulty": "Easy",
+          "question": "Volume is measured in:",
+          "options": {
+            "A": "Square units   (B) Linear units   (C) Cubic units   (D) Decimal units"
+          },
+          "answer": "C",
+          "explanation": "Volume is a 3D measurement, so cubic units (cm^3, m^3) are used."
+        },
+        {
+          "mcq_num": 3,
+          "difficulty": "Medium",
+          "question": "A cylinder has r = 7 cm and h = 10 cm. Its total surface area is: (pi = 22/7)",
+          "options": {
+            "A": "440 sq.cm   (B) 748 sq.cm   (C) 594 sq.cm   (D) 308 sq.cm"
+          },
+          "answer": "B",
+          "explanation": "TSA = 2*pi*r(r+h) = 2 x (22/7) x 7 x 17 = 44 x 17 = 748 sq.cm."
+        },
+        {
+          "mcq_num": 4,
+          "difficulty": "Medium",
+          "question": "1 m^3 is equal to how many litres?",
+          "options": {
+            "A": "100   (B) 1000   (C) 10000   (D) 1000000"
+          },
+          "answer": "B",
+          "explanation": "1 m^3 = 1000000 cm^3 = 1000 L."
+        },
+        {
+          "mcq_num": 5,
+          "difficulty": "Hard",
+          "question": "A cuboid has TSA 94 sq.cm, l = 5 cm, b = 4 cm. Its volume is:",
+          "options": {
+            "A": "60 cm^3   (B) 94 cm^3   (C) 120 cm^3   (D) 47 cm^3"
+          },
+          "answer": "A",
+          "explanation": "TSA=94 => 2(20+4h+5h)=94 => 20+9h=47 => h=3 cm. Volume=5x4x3=60 cm^3."
+        },
+        {
+          "mcq_num": 6,
+          "difficulty": "Hard",
+          "question": "A cylindrical tank of r = 1 m and h = 7 m is filled with milk. The quantity of milk in litres is: (pi = 22/7)",
+          "options": {
+            "A": "154 L   (B) 22000 L   (C) 15400 L   (D) 22 L"
+          },
+          "answer": "B",
+          "explanation": "V = (22/7) x 1^2 x 7 = 22 m^3 = 22 x 1000 = 22000 litres."
+        }
+      ]
+    }
+  ],
+  "topics": [
+    {
+      "topic_num": "9.1",
+      "topic_name": "Introduction",
+      "mode": "B",
+      "sections": [
+        {
+          "type": "definition",
+          "label": "Definition:",
+          "text": "PERIMETER is the distance around the boundary of a closed plane figure.\nAREA is the region covered by a closed plane figure.\nSURFACE AREA of a solid is the sum of the areas of all its faces.\nVOLUME is the amount of space occupied by a three dimensional object."
+        },
+        {
+          "type": "key_points",
+          "label": "Key Points:",
+          "points": [
+            "We have already learnt area and perimeter of plane figures like triangles, rectangles, circles.",
+            "In this chapter, we solve problems related to perimeter and area of other plane closed figures like quadrilaterals.",
+            "We also learn about surface area and volume of solids such as cube, cuboid and cylinder."
+          ]
+        },
+        {
+          "type": "list_of_topics",
+          "label": "LIST OF SUB TOPICS IN THIS TOPIC:",
+          "items": [
+            "- None (Introduction topic — no sub-topics)"
+          ]
+        },
+        {
+          "type": "qa",
+          "label": "TOPIC 9.1: Q&A",
+          "items": []
+        },
+        {
+          "type": "qa",
+          "label": "Q&A",
+          "items": [
+            {
+              "q_num": 1,
+              "marks": 2,
+              "question": "What is perimeter? Give its unit.",
+              "answer": "PERIMETER is the total distance around the boundary of a closed plane figure. It is measured in linear units such as cm, m, km.\nFor example, the perimeter of a rectangle with length l and breadth b is 2(l + b).\nThe perimeter of a circle (circumference) = 2*pi*r."
+            },
+            {
+              "q_num": 2,
+              "marks": 2,
+              "question": "What is area? Give its unit.",
+              "answer": "AREA is the region (space) enclosed within a closed plane figure. It is measured in square units such as sq.cm, sq.m.\nFor example, area of a rectangle = l x b. Area of a triangle = (1/2) x base x height."
+            },
+            {
+              "q_num": 3,
+              "marks": 2,
+              "question": "What is surface area of a solid? What is the difference between TSA and LSA?",
+              "answer": "SURFACE AREA of a solid is the sum of areas of all its faces.\nTOTAL SURFACE AREA (TSA) = sum of areas of ALL faces including top and bottom.\nLATERAL SURFACE AREA (LSA) = area of side faces only, NOT including top and bottom faces.\nBoth are measured in square units.\n\n---\n\n3 ಮಾರ್ಕ್ಸ್ × 2 questions:"
+            },
+            {
+              "q_num": 4,
+              "marks": 3,
+              "question": "What is volume? State two examples showing why volume is measured in cubic units.",
+              "answer": "Step 1: VOLUME is the amount of space occupied by a three-dimensional object. It is measured in cubic units.\nStep 2: Example 1 — A cube of side 1 cm occupies a volume of 1 cm^3. To fill a box, we count how many such unit cubes fit inside.\nStep 3: Example 2 — A swimming pool of 10 m x 5 m x 2 m has volume = 10 x 5 x 2 = 100 m^3. This tells us how much water it can hold.\nKey unit conversions: 1 cm^3 = 1 mL, 1 L = 1000 cm^3, 1 m^3 = 1000 L."
+            },
+            {
+              "q_num": 5,
+              "marks": 3,
+              "question": "Name the plane figures and solids studied in Chapter 9. State one formula each.",
+              "answer": "Step 1: PLANE FIGURES studied: Trapezium, Rhombus, Polygon (pentagon, hexagon).\nFormulas: Area of Trapezium = (1/2) x h x (a + b). Area of Rhombus = (1/2) x d1 x d2.\nStep 2: SOLIDS studied: Cube, Cuboid, Cylinder.\nSurface area formulas: Cuboid TSA = 2(lb + bh + hl). Cube TSA = 6l^2. Cylinder TSA = 2*pi*r(r + h).\nStep 3: Volume formulas: Cuboid = l x b x h. Cube = l^3. Cylinder = pi*r^2*h.\n\n---\n\n4 ಮಾರ್ಕ್ಸ್ × 2 questions:"
+            },
+            {
+              "q_num": 6,
+              "marks": 4,
+              "question": "Explain how mensuration is used in daily life with two detailed examples — one using area and one using volume.",
+              "answer": "Step 1: MENSURATION is the branch of mathematics dealing with measurement of geometric shapes — their area, perimeter, surface area and volume.\nStep 2: AREA EXAMPLE — Tiling a floor: A hall is 8 m x 6 m. Area = 48 sq.m. Each tile is 0.5 m x 0.5 m = 0.25 sq.m. Number of tiles needed = 48 / 0.25 = 192 tiles. This saves money by buying exactly the right number.\nStep 3: VOLUME EXAMPLE — Water storage: A cylindrical tank with r = 1.4 m and h = 5 m. Volume = (22/7) x 1.4^2 x 5 = (22/7) x 1.96 x 5 = 30.8 m^3 = 30,800 litres. This tells how much water the tank can store.\nStep 4: Without mensuration, we cannot plan construction, packaging, storage, or manufacturing efficiently."
+            },
+            {
+              "q_num": 7,
+              "marks": 4,
+              "question": "A cuboidal room is 10 m long, 8 m wide and 4 m high. Find (i) the area of the four walls, (ii) the area of the floor and ceiling, and (iii) the volume of the room.",
+              "answer": "Step 1: Given: l = 10 m, b = 8 m, h = 4 m.\nStep 2: Area of four walls = Lateral Surface Area = 2(l + b) x h\n= 2(10 + 8) x 4 = 2 x 18 x 4 = 144 sq.m.\nStep 3: Area of floor = l x b = 10 x 8 = 80 sq.m.\nArea of ceiling = l x b = 10 x 8 = 80 sq.m.\nTotal floor + ceiling = 80 + 80 = 160 sq.m.\nStep 4: Volume of room = l x b x h = 10 x 8 x 4 = 320 m^3.\nAnswer: Four walls = 144 sq.m. Floor + ceiling = 160 sq.m. Volume = 320 m^3.\n\n---\n\n5 ಮಾರ್ಕ್ಸ್ × 1 question:"
+            },
+            {
+              "q_num": 8,
+              "marks": 5,
+              "question": "A school has a cuboidal swimming pool of dimensions 25 m x 10 m x 2 m and 15 cylindrical pillars each of radius 0.28 m and height 4 m supporting the roof. Find (A) the volume of water needed to fill the pool and express it in litres, and (B) the total curved surface area of all pillars and the cost to paint them at Rs. 12 per sq.m.",
+              "answer": "PART A — Volume of Swimming Pool:\nStep 1: l = 25 m, b = 10 m, h = 2 m.\nStep 2: Volume of pool = l x b x h = 25 x 10 x 2 = 500 m^3.\nStep 3: In litres: 500 m^3 = 500 x 1000 = 5,00,000 litres.\nThe pool needs 5,00,000 litres of water to be completely filled.\n\nPART B — Painting Cylindrical Pillars:\nStep 1: r = 0.28 m, h = 4 m, pi = 22/7. Number of pillars = 15.\nStep 2: CSA of one pillar = 2 x pi x r x h\n= 2 x (22/7) x 0.28 x 4\n= 2 x 22 x 0.04 x 4\n= 7.04 sq.m.\nStep 3: CSA of 15 pillars = 7.04 x 15 = 105.6 sq.m.\nStep 4: Cost of painting = 105.6 x 12 = Rs. 1267.20.\n\nFinal Answer: Water needed = 5,00,000 litres. Cost of painting pillars = Rs. 1267.20."
+            }
+          ]
+        },
+        {
+          "type": "mcq",
+          "label": "MCQ",
+          "items": [
+            {
+              "mcq_num": 1,
+              "difficulty": "Easy",
+              "question": "The distance around the boundary of a closed plane figure is called:",
+              "options": {
+                "A": "Area   (B) Volume   (C) Perimeter   (D) Surface area"
+              },
+              "answer": "C",
+              "explanation": "Perimeter is the distance around the boundary of a closed plane figure."
+            },
+            {
+              "mcq_num": 2,
+              "difficulty": "Easy",
+              "question": "Area is measured in:",
+              "options": {
+                "A": "cm   (B) sq.cm   (C) cm^3   (D) km"
+              },
+              "answer": "B",
+              "explanation": "Area is a 2D measurement, so it is measured in square units (sq.cm, sq.m)."
+            },
+            {
+              "mcq_num": 3,
+              "difficulty": "Medium",
+              "question": "Surface area of a solid is:",
+              "options": {
+                "A": "Volume of the solid   (B) Sum of areas of all its faces   (C) Area of the base only   (D) Perimeter of the base"
+              },
+              "answer": "B",
+              "explanation": "Surface area = sum of areas of all faces of the solid."
+            },
+            {
+              "mcq_num": 4,
+              "difficulty": "Medium",
+              "question": "Lateral surface area does NOT include:",
+              "options": {
+                "A": "Side faces   (B) Top and bottom faces   (C) Front face   (D) Back face"
+              },
+              "answer": "B",
+              "explanation": "Lateral (side) surface area excludes the top and bottom faces."
+            },
+            {
+              "mcq_num": 5,
+              "difficulty": "Hard",
+              "question": "Which of the following is a three dimensional solid?",
+              "options": {
+                "A": "Triangle   (B) Circle   (C) Cuboid   (D) Trapezium"
+              },
+              "answer": "C",
+              "explanation": "Cuboid is a 3D solid. Triangle, circle, trapezium are 2D plane figures."
+            },
+            {
+              "mcq_num": 6,
+              "difficulty": "Hard",
+              "question": "Which branch of mathematics deals with measurement of geometric figures?",
+              "options": {
+                "A": "Algebra   (B) Mensuration   (C) Statistics   (D) Arithmetic"
+              },
+              "answer": "B",
+              "explanation": "Mensuration is the branch that deals with measurement of geometric shapes — length, area, surface area, volume. ----------------------------------------------------------------"
+            }
+          ]
+        },
+        {
+          "type": "definition",
+          "label": "Definition:",
+          "text": "A POLYGON is a closed plane figure with three or more straight sides.\nThe AREA OF A POLYGON is found by dividing it into triangles and trapeziums and adding their areas.\nA TRAPEZIUM is a quadrilateral with one pair of parallel sides.\nA RHOMBUS is a quadrilateral with all four sides equal."
+        },
+        {
+          "type": "key_points",
+          "label": "Key Points:",
+          "points": [
+            "A pentagon ABCDE can be divided into triangles by drawing two diagonals AC and AD.",
+            "Area of ABCDE = Area of triangle ABC + Area of triangle ACD + Area of triangle AED.",
+            "Another method: Draw one diagonal AD and two perpendiculars BF and CG on it.",
+            "Pentagon ABCDE = right angled triangle AFB + trapezium BFGC + right angled triangle CGD + triangle AED.",
+            "A quadrilateral shaped field can be divided using one diagonal and perpendiculars from opposite vertices.",
+            "Area of quadrilateral = (1/2) x diagonal x (sum of perpendiculars from opposite vertices).",
+            "Area of Trapezium = (1/2) x h x (a + b).",
+            "Area of Rhombus = (1/2) x d1 x d2."
+          ]
+        },
+        {
+          "type": "list_of_topics",
+          "label": "LIST OF SUB TOPICS IN THIS TOPIC:",
+          "items": [
+            "- None (no sub-topics in textbook for 9.2)"
+          ]
+        },
+        {
+          "type": "formulas",
+          "label": "FORMULA:",
+          "items": [
+            "Area of Trapezium:",
+            "A = (1/2) x h x (a + b)",
+            "WHERE:",
+            "h = perpendicular distance between the parallel sides",
+            "a, b = lengths of the two parallel sides",
+            "Area of Rhombus:",
+            "A = (1/2) x d1 x d2",
+            "WHERE:",
+            "d1, d2 = lengths of the two diagonals",
+            "EXAMPLES:",
+            "EXAMPLE 9.2.1:",
+            "PROBLEM: The area of a trapezium shaped field is 480 sq.m, the distance between two parallel sides is 15 m and one of the parallel sides is 20 m. Find the other parallel side.",
+            "SOLUTION:",
+            "Step 1: Let the other parallel side = b. Given: Area = 480 sq.m, h = 15 m, a = 20 m.",
+            "Step 2: Area of trapezium = (1/2) x h x (a + b)",
+            "480 = (1/2) x 15 x (20 + b)",
+            "Step 3: 480 x 2 = 15 x (20 + b)",
+            "960 = 15 x (20 + b)",
+            "Step 4: 960/15 = 20 + b",
+            "64 = 20 + b",
+            "Step 5: b = 64 - 20 = 44 m",
+            "ANSWER: The other parallel side is 44 m.",
+            "EXAMPLE 9.2.2:",
+            "PROBLEM: The area of a rhombus is 240 sq.cm and one of the diagonals is 16 cm. Find the other diagonal.",
+            "SOLUTION:",
+            "Step 1: Let d1 = 16 cm, d2 = ?",
+            "Step 2: Area of rhombus = (1/2) x d1 x d2",
+            "240 = (1/2) x 16 x d2",
+            "Step 3: 8 x d2 = 240",
+            "d2 = 240/8 = 30 cm",
+            "ANSWER: The length of the second diagonal is 30 cm.",
+            "EXAMPLE 9.2.3:",
+            "PROBLEM: There is a hexagon MNOPQR of side 5 cm (Fig 9.6, parallel sides 11 cm and 5 cm, height 4 cm). Find the area using both Aman's and Ridhima's method.",
+            "SOLUTION:",
+            "Aman's method:",
+            "Step 1: Diagonal NQ divides the hexagon into two congruent trapeziums MNQR and NOPQ.",
+            "Step 2: Area of trapezium MNQR = (1/2) x h x (a + b) = (1/2) x 4 x (11 + 5) = 2 x 16 = 32 sq.cm",
+            "Step 3: Area of hexagon MNOPQR = 2 x 32 = 64 sq.cm",
+            "Ridhima's method:",
+            "Step 1: Triangle MNO and triangle RPQ are congruent triangles with base 8 cm and altitude 3 cm.",
+            "Step 2: Area of triangle MNO = (1/2) x 8 x 3 = 12 sq.cm = Area of triangle RPQ",
+            "Step 3: Area of rectangle MOPR = 8 x 5 = 40 sq.cm",
+            "Step 4: Area of hexagon = 40 + 12 + 12 = 64 sq.cm",
+            "ANSWER: Area of hexagon MNOPQR = 64 sq.cm.",
+            "TRY THESE / FIGURE IT OUT:",
+            "Q1: Divide polygon EFGHI (Fig 9.3, FI is a diagonal) into parts to find its area.",
+            "A1: FI is the diagonal of polygon EFGHI. Draw perpendiculars from E, G, H to diagonal FI. Area = sum of areas of triangles and trapeziums formed.",
+            "Q2: Polygon ABCDE is divided as shown (Fig 9.4). AD = 8 cm, AH = 6 cm, AG = 4 cm, AF = 3 cm, BF = 2 cm, CH = 3 cm, EG = 2.5 cm. Find area of polygon ABCDE.",
+            "A2: Area of triangle AFB = (1/2) x 3 x 2 = 3 sq.cm",
+            "Area of trapezium FBCH = FH x (BF+CH)/2 = (AH-AF) x (2+3)/2 = 3 x 2.5 = 7.5 sq.cm",
+            "Area of triangle CHD = (1/2) x (AD-AH) x CH = (1/2) x 2 x 3 = 3 sq.cm",
+            "Area of triangle ADE = (1/2) x AD x EG = (1/2) x 8 x 2.5 = 10 sq.cm",
+            "Total = 3 + 7.5 + 3 + 10 = 23.5 sq.cm",
+            "ADDITIONAL CALCULATIONS:",
+            "Problem 1: The diagonal of a quadrilateral shaped field is 24 m and the perpendiculars dropped on it from the remaining opposite vertices are 8 m and 13 m. Find the area of the field.",
+            "Solution:",
+            "Area = (1/2) x diagonal x (h1 + h2)",
+            "= (1/2) x 24 x (8 + 13)",
+            "= (1/2) x 24 x 21",
+            "= 252 sq.m",
+            "Answer: Area = 252 sq.m"
+          ]
+        },
+        {
+          "type": "qa",
+          "label": "TOPIC 9.2: Q&A",
+          "items": []
+        },
+        {
+          "type": "qa",
+          "label": "Q&A",
+          "items": [
+            {
+              "q_num": 1,
+              "marks": 2,
+              "question": "State the formula for the area of a trapezium with a neat explanation of each term.",
+              "answer": "AREA OF TRAPEZIUM = (1/2) x h x (a + b)\nWHERE: a and b are the lengths of the two parallel sides, h is the perpendicular distance (height) between the two parallel sides.\nExample: Trapezium with a = 6 cm, b = 10 cm, h = 4 cm. Area = (1/2) x 4 x (6+10) = 2 x 16 = 32 sq.cm."
+            },
+            {
+              "q_num": 2,
+              "marks": 2,
+              "question": "State the formula for the area of a rhombus. Why do we use diagonals?",
+              "answer": "AREA OF RHOMBUS = (1/2) x d1 x d2\nWHERE: d1 and d2 are the lengths of the two diagonals.\nA rhombus can be split into 4 right triangles using its diagonals. The diagonals bisect each other at right angles. So using diagonals directly gives us the area without needing the height.\nExample: d1 = 10 cm, d2 = 8 cm. Area = (1/2) x 10 x 8 = 40 sq.cm."
+            },
+            {
+              "q_num": 3,
+              "marks": 2,
+              "question": "How do we find the area of a polygon by splitting it into simpler shapes?",
+              "answer": "To find the area of any polygon, we draw diagonals and perpendiculars to split it into triangles and trapeziums, find the area of each part separately, then add all areas.\nFor a quadrilateral ABCD with diagonal d and perpendiculars h1 and h2 from opposite vertices:\nArea = (1/2) x d x (h1 + h2).\n\n---\n\n3 ಮಾರ್ಕ್ಸ್ × 2 questions:"
+            },
+            {
+              "q_num": 4,
+              "marks": 3,
+              "question": "The area of a trapezium shaped field is 480 sq.m. The distance between the two parallel sides is 15 m and one parallel side is 20 m. Find the other parallel side.",
+              "answer": "Step 1: Given: Area = 480 sq.m, h = 15 m, a = 20 m, b = ?\nStep 2: Area = (1/2) x h x (a + b)\n480 = (1/2) x 15 x (20 + b)\n480 x 2 = 15 x (20 + b)\n960 = 15 x (20 + b)\nStep 3: 20 + b = 960/15 = 64\nb = 64 - 20 = 44 m.\nAnswer: The other parallel side = 44 m."
+            },
+            {
+              "q_num": 5,
+              "marks": 3,
+              "question": "The area of a rhombus is 240 sq.cm and one of the diagonals is 16 cm. Find the other diagonal. Also find the perimeter if the side of the rhombus is 17 cm.",
+              "answer": "Step 1: Given: Area = 240 sq.cm, d1 = 16 cm. Side = 17 cm.\nStep 2: Area = (1/2) x d1 x d2\n240 = (1/2) x 16 x d2\n8 x d2 = 240\nd2 = 30 cm.\nStep 3: Perimeter = 4 x side = 4 x 17 = 68 cm.\nAnswer: Other diagonal = 30 cm. Perimeter = 68 cm.\n\n---\n\n4 ಮಾರ್ಕ್ಸ್ × 2 questions:"
+            },
+            {
+              "q_num": 6,
+              "marks": 4,
+              "question": "A farmer has a rhombus-shaped field with diagonals 40 m and 30 m. He wants to fence the field. If each side of the rhombus is 25 m and fencing costs Rs. 20 per metre, find (i) the area of the field and (ii) the total fencing cost.",
+              "answer": "Step 1: Given: d1 = 40 m, d2 = 30 m, side = 25 m. Rate = Rs. 20 per m.\nStep 2: Area of rhombus = (1/2) x d1 x d2\n= (1/2) x 40 x 30\n= 600 sq.m.\nStep 3: Perimeter of rhombus = 4 x side = 4 x 25 = 100 m.\nStep 4: Cost of fencing = 100 x 20 = Rs. 2000.\nAnswer: Area = 600 sq.m. Fencing cost = Rs. 2000."
+            },
+            {
+              "q_num": 7,
+              "marks": 4,
+              "question": "A hexagon MNOPQR is divided by diagonal NQ into two congruent trapeziums. The parallel sides of each trapezium are 11 cm and 5 cm, and the height is 4 cm. Find (i) the area of each trapezium and (ii) the total area of the hexagon. Also, if the hexagon is a garden and it costs Rs. 50 per sq.cm to lay grass, find the total cost.",
+              "answer": "Step 1: Given: Parallel sides of trapezium: a = 11 cm, b = 5 cm, h = 4 cm. Rate = Rs. 50 per sq.cm.\nStep 2: Area of one trapezium = (1/2) x h x (a + b)\n= (1/2) x 4 x (11 + 5)\n= 2 x 16\n= 32 sq.cm.\nStep 3: Total area of hexagon = 2 x 32 = 64 sq.cm.\nStep 4: Cost of laying grass = 64 x 50 = Rs. 3200.\nAnswer: Area of each trapezium = 32 sq.cm. Total hexagon area = 64 sq.cm. Cost = Rs. 3200.\n\n---\n\n5 ಮಾರ್ಕ್ಸ್ × 1 question:"
+            },
+            {
+              "q_num": 8,
+              "marks": 5,
+              "question": "A park is in the shape of a quadrilateral ABCD. The diagonal AC = 24 m. Perpendiculars from B and D to AC are 10 m and 8 m respectively. Inside the park, there is a rhombus-shaped flower bed with diagonals 12 m and 8 m. Find (A) the area of the park (quadrilateral ABCD) and (B) the area of the remaining park after the flower bed, and the cost to lay grass there at Rs. 30 per sq.m.",
+              "answer": "PART A — Area of Quadrilateral Park (ABCD):\nStep 1: Diagonal AC = 24 m. Perpendicular from B (h1) = 10 m. Perpendicular from D (h2) = 8 m.\nStep 2: Area of quadrilateral = (1/2) x diagonal x (h1 + h2)\n= (1/2) x 24 x (10 + 8)\n= (1/2) x 24 x 18\n= 12 x 18\n= 216 sq.m.\n\nPART B — Remaining Area and Cost:\nStep 1: d1 = 12 m, d2 = 8 m.\nStep 2: Area of rhombus flower bed = (1/2) x d1 x d2\n= (1/2) x 12 x 8\n= 48 sq.m.\nStep 3: Remaining area = 216 - 48 = 168 sq.m.\nStep 4: Cost of laying grass = 168 x 30 = Rs. 5040.\n\nFinal Answer: Area of park = 216 sq.m. Area of flower bed = 48 sq.m. Remaining area = 168 sq.m. Cost = Rs. 5040."
+            }
+          ]
+        },
+        {
+          "type": "mcq",
+          "label": "MCQ",
+          "items": [
+            {
+              "mcq_num": 1,
+              "difficulty": "Easy",
+              "question": "The area of a trapezium with parallel sides 6 cm and 10 cm and height 4 cm is:",
+              "options": {
+                "A": "32 sq.cm   (B) 48 sq.cm   (C) 16 sq.cm   (D) 64 sq.cm"
+              },
+              "answer": "A",
+              "explanation": "Area = (1/2) x 4 x (6 + 10) = 2 x 16 = 32 sq.cm."
+            },
+            {
+              "mcq_num": 2,
+              "difficulty": "Easy",
+              "question": "The formula for area of a rhombus is:",
+              "options": {
+                "A": "base x height   (B) (1/2) x d1 x d2   (C) (1/2) x h x (a+(B)   (D) side^2"
+              },
+              "answer": "B",
+              "explanation": "Area of rhombus = (1/2) x d1 x d2, where d1 and d2 are the diagonals."
+            },
+            {
+              "mcq_num": 3,
+              "difficulty": "Medium",
+              "question": "The area of a rhombus with diagonals 10 cm and 8 cm is:",
+              "options": {
+                "A": "80 sq.cm   (B) 40 sq.cm   (C) 20 sq.cm   (D) 16 sq.cm"
+              },
+              "answer": "B",
+              "explanation": "Area = (1/2) x 10 x 8 = 40 sq.cm."
+            },
+            {
+              "mcq_num": 4,
+              "difficulty": "Medium",
+              "question": "A trapezium has area 120 sq.cm, height 8 cm and one parallel side 10 cm. The other parallel side is:",
+              "options": {
+                "A": "20 cm   (B) 30 cm   (C) 15 cm   (D) 25 cm"
+              },
+              "answer": "A",
+              "explanation": "120 = (1/2) x 8 x (10 + b) => 120 = 4(10+b) => 30 = 10+b => b = 20 cm."
+            },
+            {
+              "mcq_num": 5,
+              "difficulty": "Hard",
+              "question": "A hexagon is divided into two congruent trapeziums by one diagonal. Each trapezium has parallel sides 11 cm and 5 cm with height 4 cm. The area of the hexagon is:",
+              "options": {
+                "A": "32 sq.cm   (B) 48 sq.cm   (C) 64 sq.cm   (D) 128 sq.cm"
+              },
+              "answer": "C",
+              "explanation": "Area of one trapezium = (1/2) x 4 x (11+5) = 32 sq.cm. Hexagon = 2 x 32 = 64 sq.cm."
+            },
+            {
+              "mcq_num": 6,
+              "difficulty": "Hard",
+              "question": "The diagonal of a quadrilateral is 20 cm. The perpendiculars from the opposite vertices are 6 cm and 9 cm. The area of the quadrilateral is:",
+              "options": {
+                "A": "150 sq.cm   (B) 270 sq.cm   (C) 90 sq.cm   (D) 120 sq.cm"
+              },
+              "answer": "A",
+              "explanation": "Area = (1/2) x 20 x (6 + 9) = (1/2) x 20 x 15 = 150 sq.cm. ----------------------------------------------------------------"
+            }
+          ]
+        },
+        {
+          "type": "definition",
+          "label": "Definition:",
+          "text": "SOLID SHAPES (three dimensional shapes) have three dimensions: length, breadth and height.\nFACE is a flat surface of a solid.\nEDGE is a line where two faces meet.\nVERTEX is a point where three or more edges meet.\nRIGHT CIRCULAR CYLINDER: A cylinder whose congruent circular faces are parallel to each other and the line segment joining the centre of circular faces is perpendicular to the base."
+        },
+        {
+          "type": "key_points",
+          "label": "Key Points:",
+          "points": [
+            "Two dimensional figures can be identified as the faces of three dimensional shapes.",
+            "Solids we study: Cuboid, Cylinder, Cone, Cube, Pyramid.",
+            "Cuboid: All six faces are rectangular, opposite faces are identical — three pairs of identical faces.",
+            "Parts: 6 rectangular faces, 12 edges, 8 vertices.",
+            "Cubical Box (Cube): All six faces are squares and identical.",
+            "Parts: 6 square faces, 12 equal edges, 8 vertices.",
+            "Cylindrical Box: One curved surface and two circular faces which are identical.",
+            "Parts: 2 circular faces (top and bottom) and 1 curved surface.",
+            "We study only right circular cylinders."
+          ]
+        },
+        {
+          "type": "list_of_topics",
+          "label": "LIST OF SUB TOPICS IN THIS TOPIC:",
+          "items": [
+            "- None (no sub-topics in textbook for 9.3)"
+          ]
+        },
+        {
+          "type": "additional_facts",
+          "label": "ADDITIONAL FACTS:",
+          "text": "- Soaps, toys, pastes, snacks often come in cuboidal, cubical or cylindrical boxes.\n- Examples of cylinders in real life: tins, round pillars, tube lights, water pipes.\n- A right circular cylinder is different from an oblique cylinder where the axis is not perpendicular to the base."
+        },
+        {
+          "type": "qa",
+          "label": "TOPIC 9.3: Q&A",
+          "items": []
+        },
+        {
+          "type": "qa",
+          "label": "Q&A",
+          "items": [
+            {
+              "q_num": 1,
+              "marks": 2,
+              "question": "What is a right circular cylinder? Give two real-life examples.",
+              "answer": "A RIGHT CIRCULAR CYLINDER is a cylinder whose congruent circular faces are parallel to each other and the line joining the centres of the two circular faces is perpendicular to the base.\nReal-life examples: (i) A tin can of paint or food. (ii) A water pipe or tube light.\nWe study only right circular cylinders in this chapter."
+            },
+            {
+              "q_num": 2,
+              "marks": 2,
+              "question": "How many faces, edges and vertices does a cuboid have? What shape are the faces?",
+              "answer": "A CUBOID has: 6 faces (all rectangular), 12 edges, 8 vertices.\nOpposite faces are identical — there are 3 pairs of identical rectangular faces.\nExample: A brick, a book, a box of biscuits are shaped like cuboids."
+            },
+            {
+              "q_num": 3,
+              "marks": 2,
+              "question": "What is the difference between a cube and a cuboid?",
+              "answer": "A CUBE is a special cuboid where all six faces are squares and all edges are equal (l = b = h).\nA CUBOID has all faces as rectangles, but length, breadth and height may all be different.\nSo every cube is a cuboid, but every cuboid is not a cube.\n\n---\n\n3 ಮಾರ್ಕ್ಸ್ × 2 questions:"
+            },
+            {
+              "q_num": 4,
+              "marks": 3,
+              "question": "Name the parts of a cylinder and explain how it differs from a cuboid.",
+              "answer": "Step 1: PARTS OF CYLINDER — (i) Two circular flat faces (top and bottom, congruent and parallel). (ii) One curved lateral surface connecting the two circular faces.\nStep 2: PARTS OF CUBOID — Six rectangular flat faces, 12 edges, 8 vertices. All surfaces are flat.\nStep 3: KEY DIFFERENCE — A cylinder has a curved surface and circular cross-section. A cuboid has only flat rectangular faces and straight edges. The formula for surface area and volume are different for each."
+            },
+            {
+              "q_num": 5,
+              "marks": 3,
+              "question": "Describe the cuboid, cube and cylinder using their faces, edges and vertices.",
+              "answer": "Step 1: CUBOID — 6 rectangular faces (3 pairs of identical faces), 12 edges (4 each of 3 different lengths), 8 vertices.\nStep 2: CUBE — 6 square faces (all identical), 12 equal edges, 8 vertices. It is a special cuboid with l = b = h.\nStep 3: CYLINDER — 2 circular flat faces (top and bottom) + 1 curved surface. No edges in the traditional sense (curved edges). No vertices.\n\n---\n\n4 ಮಾರ್ಕ್ಸ್ × 2 questions:"
+            },
+            {
+              "q_num": 6,
+              "marks": 4,
+              "question": "A toy manufacturer makes cuboidal boxes, cubical boxes and cylindrical tin boxes. Describe each solid with examples. If the cuboid is 10 cm x 8 cm x 5 cm, cube has side 6 cm, and cylinder has r = 7 cm and h = 10 cm, find the surface area of each.",
+              "answer": "Step 1: CUBOID (10 x 8 x 5 cm): 6 rectangular faces, 12 edges, 8 vertices.\nTSA = 2(lb + bh + hl) = 2(10x8 + 8x5 + 5x10) = 2(80+40+50) = 2x170 = 340 sq.cm.\nStep 2: CUBE (side 6 cm): 6 identical square faces, 12 equal edges, 8 vertices.\nTSA = 6l^2 = 6 x 36 = 216 sq.cm.\nStep 3: CYLINDER (r=7, h=10 cm): 2 circular faces + 1 curved surface.\nTSA = 2*pi*r(r+h) = 2 x (22/7) x 7 x (7+10) = 44 x 17 = 748 sq.cm.\nStep 4: The cylinder has the largest surface area (748 sq.cm) among the three."
+            },
+            {
+              "q_num": 7,
+              "marks": 4,
+              "question": "A classroom has 30 cuboidal desks (60 cm x 40 cm x 75 cm) and 30 cylindrical stools (radius 14 cm, height 45 cm). Find the lateral surface area of one desk and one stool.",
+              "answer": "Step 1: DESK (cuboid): l = 60 cm, b = 40 cm, h = 75 cm.\nStep 2: LSA of desk = 2h(l + b) = 2 x 75 x (60 + 40) = 150 x 100 = 15,000 sq.cm.\nStep 3: STOOL (cylinder): r = 14 cm, h = 45 cm, pi = 22/7.\nStep 4: CSA of stool = 2*pi*r*h = 2 x (22/7) x 14 x 45 = 2 x 22 x 2 x 45 = 3960 sq.cm.\nAnswer: LSA of one desk = 15,000 sq.cm. CSA of one stool = 3960 sq.cm.\n\n---\n\n5 ಮಾರ್ಕ್ಸ್ × 1 question:"
+            },
+            {
+              "q_num": 8,
+              "marks": 5,
+              "question": "A storage room is in the form of a cuboid (12 m x 8 m x 5 m). Inside it, there are 10 cylindrical drums each of radius 35 cm and height 1.2 m. Find (A) the total surface area of the room (all six faces) and (B) the total curved surface area of all 10 drums and the cost to paint them at Rs. 15 per sq.m.",
+              "answer": "PART A — Total Surface Area of the Room:\nStep 1: l = 12 m, b = 8 m, h = 5 m.\nStep 2: TSA = 2(lb + bh + hl)\n= 2(12x8 + 8x5 + 5x12)\n= 2(96 + 40 + 60)\n= 2 x 196\n= 392 sq.m.\nThe room has 392 sq.m total surface area.\n\nPART B — Painting Cylindrical Drums:\nStep 1: r = 35 cm = 0.35 m, h = 1.2 m, pi = 22/7. 10 drums.\nStep 2: CSA of one drum = 2*pi*r*h\n= 2 x (22/7) x 0.35 x 1.2\n= 2 x 22 x 0.05 x 1.2\n= 2 x 1.32\n= 2.64 sq.m.\nStep 3: CSA of 10 drums = 2.64 x 10 = 26.4 sq.m.\nStep 4: Cost = 26.4 x 15 = Rs. 396.\n\nFinal Answer: TSA of room = 392 sq.m. Cost of painting drums = Rs. 396."
+            }
+          ]
+        },
+        {
+          "type": "mcq",
+          "label": "MCQ",
+          "items": [
+            {
+              "mcq_num": 1,
+              "difficulty": "Easy",
+              "question": "A cuboid has:",
+              "options": {
+                "A": "4 faces   (B) 5 faces   (C) 6 faces   (D) 8 faces"
+              },
+              "answer": "C",
+              "explanation": "A cuboid has 6 rectangular faces."
+            },
+            {
+              "mcq_num": 2,
+              "difficulty": "Easy",
+              "question": "How many edges does a cube have?",
+              "options": {
+                "A": "6   (B) 8   (C) 12   (D) 4"
+              },
+              "answer": "C",
+              "explanation": "A cube has 12 equal edges (4 on top, 4 on bottom, 4 vertical)."
+            },
+            {
+              "mcq_num": 3,
+              "difficulty": "Medium",
+              "question": "Which solid has all six identical square faces?",
+              "options": {
+                "A": "Cuboid   (B) Cylinder   (C) Cone   (D) Cube"
+              },
+              "answer": "D",
+              "explanation": "A cube has all six faces as identical squares."
+            },
+            {
+              "mcq_num": 4,
+              "difficulty": "Medium",
+              "question": "A cylinder has:",
+              "options": {
+                "A": "2 flat faces and 1 curved surface   (B) 1 flat face and 1 curved surface   (C) 3 flat faces   (D) 4 curved surfaces"
+              },
+              "answer": "A",
+              "explanation": "A cylinder has 2 circular flat faces (top and bottom) and 1 curved surface."
+            },
+            {
+              "mcq_num": 5,
+              "difficulty": "Hard",
+              "question": "A cube has all edges equal to 5 cm. How many pairs of identical faces does it have?",
+              "options": {
+                "A": "1   (B) 3   (C) 6   (D) All 6 faces are identical"
+              },
+              "answer": "D",
+              "explanation": "In a cube, all 6 faces are identical squares. So all 6 faces are identical."
+            },
+            {
+              "mcq_num": 6,
+              "difficulty": "Hard",
+              "question": "Which of the following statements is TRUE?",
+              "options": {
+                "A": "Every cube is a cuboid   (B) Every cuboid is a cube   (C) A cylinder has flat faces only   (D) A cube has 6 vertices"
+              },
+              "answer": "A",
+              "explanation": "A cube is a special cuboid where l = b = h. So every cube is a cuboid, but not vice versa. ----------------------------------------------------------------"
+            }
+          ]
+        },
+        {
+          "type": "definition",
+          "label": "Definition:",
+          "text": "SURFACE AREA of a solid is the total area of all the faces of that solid.\nTOTAL SURFACE AREA (TSA) = sum of areas of ALL faces including top and bottom.\nLATERAL SURFACE AREA (LSA) or CURVED SURFACE AREA (CSA) = area of side faces only, excluding top and bottom."
+        },
+        {
+          "type": "key_points",
+          "label": "Key Points:",
+          "points": [
+            "Surface area is the sum of areas of all the faces.",
+            "To find total surface area: find area of each face and add them all.",
+            "Lateral surface area of a cuboid = area of four walls (excluding top and bottom).",
+            "pi = 22/7 unless otherwise stated."
+          ]
+        },
+        {
+          "type": "list_of_topics",
+          "label": "LIST OF SUB TOPICS IN THIS TOPIC:",
+          "items": [
+            "- Sub-Topic 9.4.1: Cuboid",
+            "- Sub-Topic 9.4.2: Cube",
+            "- Sub-Topic 9.4.3: Cylinders"
+          ]
+        },
+        {
+          "type": "qa",
+          "label": "TOPIC 9.4: Q&A",
+          "items": []
+        },
+        {
+          "type": "qa",
+          "label": "Q&A",
+          "items": [
+            {
+              "q_num": 1,
+              "marks": 2,
+              "question": "What is surface area of a solid? Give its unit.",
+              "answer": "SURFACE AREA of a solid is the total area of all the outer faces of that solid. It is measured in square units (sq.cm, sq.m).\nTOTAL SURFACE AREA (TSA) = sum of areas of ALL faces.\nLATERAL SURFACE AREA (LSA) = area of side faces only (top and bottom excluded)."
+            },
+            {
+              "q_num": 2,
+              "marks": 2,
+              "question": "Write the formulas for TSA and LSA of a cuboid.",
+              "answer": "TSA of cuboid = 2(lb + bh + hl)\nLSA of cuboid = 2h(l + b) = perimeter of base x height.\nWHERE: l = length, b = breadth, h = height.\nNote: TSA = LSA + 2 x (area of base) = LSA + 2lb."
+            },
+            {
+              "q_num": 3,
+              "marks": 2,
+              "question": "Write the formulas for TSA and CSA of a cylinder.",
+              "answer": "CURVED SURFACE AREA (CSA) of cylinder = 2*pi*r*h\nTOTAL SURFACE AREA (TSA) of cylinder = 2*pi*r(r + h)\nWHERE: r = radius of circular base, h = height.\nNote: TSA = CSA + 2 x (area of circular base) = 2*pi*r*h + 2*pi*r^2.\n\n---\n\n3 ಮಾರ್ಕ್ಸ್ × 2 questions:"
+            },
+            {
+              "q_num": 4,
+              "marks": 3,
+              "question": "Find the total surface area and lateral surface area of a cuboid with l = 20 cm, b = 15 cm, h = 10 cm.",
+              "answer": "Step 1: Given: l = 20 cm, b = 15 cm, h = 10 cm.\nStep 2: TSA = 2(lb + bh + hl)\n= 2(20x15 + 15x10 + 10x20)\n= 2(300 + 150 + 200)\n= 2 x 650 = 1300 sq.cm.\nStep 3: LSA = 2h(l + b) = 2 x 10 x (20 + 15) = 20 x 35 = 700 sq.cm.\nAnswer: TSA = 1300 sq.cm. LSA = 700 sq.cm."
+            },
+            {
+              "q_num": 5,
+              "marks": 3,
+              "question": "Find the height of a cylinder whose radius is 7 cm and total surface area is 968 sq.cm. (pi = 22/7)",
+              "answer": "Step 1: Given: r = 7 cm, TSA = 968 sq.cm.\nStep 2: TSA = 2*pi*r(r + h)\n968 = 2 x (22/7) x 7 x (7 + h)\n968 = 44 x (7 + h)\nStep 3: 7 + h = 968/44 = 22\nh = 22 - 7 = 15 cm.\nAnswer: Height of cylinder = 15 cm.\n\n---\n\n4 ಮಾರ್ಕ್ಸ್ × 2 questions:"
+            },
+            {
+              "q_num": 6,
+              "marks": 4,
+              "question": "An aquarium is a cuboid with external dimensions 80 cm x 30 cm x 40 cm. The base, two side faces and one back face are to be covered with coloured paper. Find the area of paper needed and its cost if paper costs Rs. 5 per 100 sq.cm.",
+              "answer": "Step 1: l = 80 cm, b = 30 cm, h = 40 cm.\nStep 2: Area of base = l x b = 80 x 30 = 2400 sq.cm.\nArea of back face = l x h = 80 x 40 = 3200 sq.cm.\nArea of one side face = b x h = 30 x 40 = 1200 sq.cm.\nStep 3: Total area = base + back + 2 side = 2400 + 3200 + 2 x 1200 = 2400 + 3200 + 2400 = 8000 sq.cm.\nStep 4: Cost = (8000/100) x 5 = 80 x 5 = Rs. 400.\nAnswer: Paper needed = 8000 sq.cm. Cost = Rs. 400."
+            },
+            {
+              "q_num": 7,
+              "marks": 4,
+              "question": "In a building, 24 cylindrical pillars each of radius 28 cm and height 4 m are to be painted. Find the curved surface area of all pillars and the cost at Rs. 8 per sq.m.",
+              "answer": "Step 1: r = 28 cm = 0.28 m, h = 4 m, pi = 22/7. Number of pillars = 24.\nStep 2: CSA of one pillar = 2*pi*r*h\n= 2 x (22/7) x 0.28 x 4\n= 2 x 22 x 0.04 x 4\n= 7.04 sq.m.\nStep 3: CSA of 24 pillars = 7.04 x 24 = 168.96 sq.m.\nStep 4: Cost of painting = 168.96 x 8 = Rs. 1351.68.\nAnswer: Total CSA = 168.96 sq.m. Cost = Rs. 1351.68.\n\n---\n\n5 ಮಾರ್ಕ್ಸ್ × 1 question:"
+            },
+            {
+              "q_num": 8,
+              "marks": 5,
+              "question": "A school has a cuboidal hall (20 m x 12 m x 5 m) and inside it are 8 cylindrical columns (radius 0.7 m, height 5 m). The four walls and ceiling of the hall are to be painted at Rs. 8 per sq.m (excluding columns). The columns are painted separately at Rs. 12 per sq.m. Find (A) the area and cost to paint the hall walls and ceiling and (B) the total curved surface area of columns and cost to paint them.",
+              "answer": "PART A — Painting Hall Walls and Ceiling:\nStep 1: l = 20 m, b = 12 m, h = 5 m.\nStep 2: Area of four walls = 2(l + b) x h = 2(20+12) x 5 = 2 x 32 x 5 = 320 sq.m.\nStep 3: Area of ceiling = l x b = 20 x 12 = 240 sq.m.\nStep 4: Total area = 320 + 240 = 560 sq.m. Cost = 560 x 8 = Rs. 4480.\n\nPART B — Painting Cylindrical Columns:\nStep 1: r = 0.7 m, h = 5 m, pi = 22/7. 8 columns.\nStep 2: CSA of one column = 2 x (22/7) x 0.7 x 5 = 2 x 22 x 0.1 x 5 = 22 sq.m.\nStep 3: CSA of 8 columns = 22 x 8 = 176 sq.m.\nStep 4: Cost = 176 x 12 = Rs. 2112.\n\nFinal Answer: Hall painting area = 560 sq.m, Cost = Rs. 4480. Column painting area = 176 sq.m, Cost = Rs. 2112."
+            }
+          ]
+        },
+        {
+          "type": "mcq",
+          "label": "MCQ",
+          "items": [
+            {
+              "mcq_num": 1,
+              "difficulty": "Easy",
+              "question": "The surface area of a solid is found by:",
+              "options": {
+                "A": "Adding the volumes of all faces   (B) Adding the areas of all faces   (C) Multiplying l x b x h   (D) Adding all the edges"
+              },
+              "answer": "B",
+              "explanation": "Surface area = sum of areas of all faces of the solid."
+            },
+            {
+              "mcq_num": 2,
+              "difficulty": "Easy",
+              "question": "TSA of a cuboid = ?",
+              "options": {
+                "A": "lbh   (B) 2(l+b+h)   (C) 2(lb+bh+hl)   (D) 2h(l+b)"
+              },
+              "answer": "C",
+              "explanation": "TSA = 2(lb + bh + hl)."
+            },
+            {
+              "mcq_num": 3,
+              "difficulty": "Medium",
+              "question": "Lateral surface area of a solid does NOT include:",
+              "options": {
+                "A": "Side faces   (B) Front and back faces   (C) Top and bottom faces   (D) Curved surface"
+              },
+              "answer": "C",
+              "explanation": "Lateral surface area includes only the side faces. Top and bottom are excluded."
+            },
+            {
+              "mcq_num": 4,
+              "difficulty": "Medium",
+              "question": "The curved surface area of a cylinder is equal to:",
+              "options": {
+                "A": "pi*r^2   (B) 2*pi*r*h   (C) 2*pi*r(r+h)   (D) pi*r^2*h"
+              },
+              "answer": "B",
+              "explanation": "CSA = 2*pi*r*h = circumference of base x height."
+            },
+            {
+              "mcq_num": 5,
+              "difficulty": "Hard",
+              "question": "We take pi = 22/7 for calculations unless:",
+              "options": {
+                "A": "The base is square   (B) Otherwise stated   (C) The solid is a cuboid   (D) The height is given"
+              },
+              "answer": "B",
+              "explanation": "pi = 22/7 is used unless otherwise stated in the problem."
+            },
+            {
+              "mcq_num": 6,
+              "difficulty": "Hard",
+              "question": "LSA of a cuboid with l = 8 cm, b = 6 cm, h = 4 cm is:",
+              "options": {
+                "A": "112 sq.cm   (B) 208 sq.cm   (C) 56 sq.cm   (D) 96 sq.cm"
+              },
+              "answer": "A",
+              "explanation": "LSA = 2h(l+b) = 2 x 4 x (8+6) = 8 x 14 = 112 sq.cm. ----"
+            }
+          ]
+        },
+        {
+          "type": "definition",
+          "label": "Definition:",
+          "text": "TOTAL SURFACE AREA OF CUBOID = sum of areas of all six rectangular faces = 2(lb + bh + hl).\nLATERAL SURFACE AREA OF CUBOID = area of the four side faces (walls), excluding top and bottom = 2h(l + b).\nNET of a cuboid = the flat shape you get when you cut open and unfold a cuboidal box."
+        },
+        {
+          "type": "key_points",
+          "label": "Key Points:",
+          "points": [
+            "A cuboid has three pairs of identical faces.",
+            "Total surface area = 2(lb + bh + hl), where l = length, b = breadth, h = height.",
+            "Lateral surface area = 2(l + b) x h = perimeter of base x height.",
+            "TSA = LSA + 2 x (area of base)."
+          ]
+        },
+        {
+          "type": "formulas",
+          "label": "FORMULA:",
+          "items": [
+            "Total Surface Area of Cuboid:",
+            "TSA = 2(lb + bh + hl)",
+            "WHERE:",
+            "l = length",
+            "b = breadth",
+            "h = height",
+            "UNITS: sq.cm, sq.m, etc.",
+            "Lateral Surface Area of Cuboid:",
+            "LSA = 2h(l + b)",
+            "WHERE:",
+            "l = length, b = breadth, h = height",
+            "EXAMPLES:",
+            "EXAMPLE 9.4.1.1:",
+            "PROBLEM: Find the total surface area of a cuboid with length 20 cm, breadth 15 cm, height 10 cm.",
+            "SOLUTION:",
+            "Step 1: l = 20 cm, b = 15 cm, h = 10 cm.",
+            "Step 2: TSA = 2(lb + bh + hl)",
+            "= 2(20x15 + 15x10 + 10x20)",
+            "= 2(300 + 150 + 200)",
+            "= 2 x 650",
+            "= 1300 sq.cm",
+            "ANSWER: TSA = 1300 sq.cm.",
+            "EXAMPLE 9.4.1.2:",
+            "PROBLEM: An aquarium is in the form of a cuboid whose external measures are 80 cm x 30 cm x 40 cm. The base, side faces and back face are to be covered with a coloured paper. Find the area of the paper needed.",
+            "SOLUTION:",
+            "Step 1: l = 80 cm, b = 30 cm, h = 40 cm.",
+            "Step 2: Area of base = l x b = 80 x 30 = 2400 sq.cm",
+            "Step 3: Area of side face = b x h = 30 x 40 = 1200 sq.cm",
+            "Step 4: Area of back face = l x h = 80 x 40 = 3200 sq.cm",
+            "Step 5: Required area = base + back + 2 x side",
+            "= 2400 + 3200 + (2 x 1200) = 8000 sq.cm",
+            "ANSWER: Area of coloured paper required = 8000 sq.cm.",
+            "EXAMPLE 9.4.1.3:",
+            "PROBLEM: The internal measures of a cuboidal room are 12 m x 8 m x 4 m. Find the total cost of whitewashing all four walls, if cost is Rs.5 per sq.m. Also find cost to whitewash the ceiling.",
+            "SOLUTION:",
+            "Step 1: l = 12 m, b = 8 m, h = 4 m.",
+            "Step 2: Area of four walls (LSA) = 2(l + b) x h = 2(12 + 8) x 4 = 2 x 20 x 4 = 160 sq.m",
+            "Step 3: Cost of whitewashing walls = 160 x 5 = Rs.800",
+            "Step 4: Area of ceiling = l x b = 12 x 8 = 96 sq.m",
+            "Step 5: Cost of whitewashing ceiling = 96 x 5 = Rs.480",
+            "Step 6: Total cost = 800 + 480 = Rs.1280",
+            "ANSWER: Total cost = Rs.1280.",
+            "TRY THESE / FIGURE IT OUT:",
+            "Q1: Find the total surface area of the following cuboids (Fig 9.17): (i) l=6 cm, b=4 cm, h=2 cm. (ii) l=4 cm, b=4 cm, h=10 cm.",
+            "A1: (i) TSA = 2(6x4 + 4x2 + 2x6) = 2(24+8+12) = 2x44 = 88 sq.cm.",
+            "(ii) TSA = 2(4x4 + 4x10 + 10x4) = 2(16+40+40) = 2x96 = 192 sq.cm.",
+            "ADDITIONAL CALCULATIONS:",
+            "Problem 1: A cuboidal room has l = 5 m, b = 4 m, h = 3 m. Find (a) total surface area (b) lateral surface area.",
+            "Solution:",
+            "(a) TSA = 2(5x4 + 4x3 + 3x5) = 2(20+12+15) = 2x47 = 94 sq.m.",
+            "(b) LSA = 2(5+4)x3 = 2x9x3 = 54 sq.m.",
+            "Answer: TSA = 94 sq.m, LSA = 54 sq.m."
+          ]
+        },
+        {
+          "type": "qa",
+          "label": "SUB-TOPIC 9.4.1: Q&A",
+          "items": []
+        },
+        {
+          "type": "qa",
+          "label": "Q&A",
+          "items": [
+            {
+              "q_num": 1,
+              "marks": 2,
+              "question": "Write the formula for TSA and LSA of a cuboid with explanation of each term.",
+              "answer": "TSA of cuboid = 2(lb + bh + hl)\nLSA of cuboid = 2h(l + b)\nWHERE: l = length, b = breadth, h = height (all in same units).\nTSA = LSA + 2 x (area of base) = 2h(l+b) + 2lb."
+            },
+            {
+              "q_num": 2,
+              "marks": 2,
+              "question": "The net of a cuboid has how many rectangles? Explain with an example.",
+              "answer": "The NET of a cuboid has 6 rectangles (representing the 6 faces). Opposite faces are identical — 3 pairs.\nExample: Cuboid 6 cm x 4 cm x 2 cm has faces: two 6x4 = 24 sq.cm each, two 4x2 = 8 sq.cm each, two 6x2 = 12 sq.cm each.\nTSA = 2(24 + 8 + 12) = 2 x 44 = 88 sq.cm."
+            },
+            {
+              "q_num": 3,
+              "marks": 2,
+              "question": "Show that TSA of cuboid = LSA + 2 x area of base.",
+              "answer": "LSA = 2h(l + b) = 2hl + 2bh.\n2 x area of base = 2 x lb = 2lb.\nLSA + 2lb = 2hl + 2bh + 2lb = 2(lb + bh + hl) = TSA. Proved.\n\n---\n\n3 ಮಾರ್ಕ್ಸ್ × 2 questions:"
+            },
+            {
+              "q_num": 4,
+              "marks": 3,
+              "question": "Find the TSA and LSA of a cuboid with l = 12 cm, b = 8 cm, h = 5 cm.",
+              "answer": "Step 1: l = 12 cm, b = 8 cm, h = 5 cm.\nStep 2: TSA = 2(lb + bh + hl)\n= 2(12x8 + 8x5 + 5x12)\n= 2(96 + 40 + 60)\n= 2 x 196 = 392 sq.cm.\nStep 3: LSA = 2h(l + b) = 2 x 5 x (12+8) = 10 x 20 = 200 sq.cm.\nAnswer: TSA = 392 sq.cm. LSA = 200 sq.cm."
+            },
+            {
+              "q_num": 5,
+              "marks": 3,
+              "question": "A cuboidal room has l = 12 m, b = 8 m, h = 4 m. Find the area of the four walls and the cost to whitewash at Rs. 5 per sq.m.",
+              "answer": "Step 1: l = 12 m, b = 8 m, h = 4 m.\nStep 2: Area of four walls = LSA = 2h(l + b) = 2 x 4 x (12+8) = 8 x 20 = 160 sq.m.\nStep 3: Cost = 160 x 5 = Rs. 800.\nAnswer: Area of four walls = 160 sq.m. Cost = Rs. 800.\n\n---\n\n4 ಮಾರ್ಕ್ಸ್ × 2 questions:"
+            },
+            {
+              "q_num": 6,
+              "marks": 4,
+              "question": "An aquarium in the form of a cuboid has external measures 80 cm x 30 cm x 40 cm. The base, back face and two side faces are to be covered with coloured paper. Find the total area of paper required.",
+              "answer": "Step 1: l = 80 cm, b = 30 cm, h = 40 cm.\nStep 2: Area of base = l x b = 80 x 30 = 2400 sq.cm.\nStep 3: Area of back face = l x h = 80 x 40 = 3200 sq.cm.\nStep 4: Area of one side face = b x h = 30 x 40 = 1200 sq.cm. Two side faces = 2400 sq.cm.\nStep 5: Total = 2400 + 3200 + 2400 = 8000 sq.cm.\nAnswer: Area of paper required = 8000 sq.cm."
+            },
+            {
+              "q_num": 7,
+              "marks": 4,
+              "question": "A cuboidal box has TSA = 160 sq.cm. Its length is 6 cm and breadth is 4 cm. Find its height and volume.",
+              "answer": "Step 1: TSA = 160 sq.cm, l = 6 cm, b = 4 cm, h = ?\nStep 2: TSA = 2(lb + bh + hl)\n160 = 2(6x4 + 4h + h x6)\n160 = 2(24 + 4h + 6h)\n80 = 24 + 10h\nStep 3: 10h = 80 - 24 = 56\nh = 5.6 cm.\nStep 4: Volume = l x b x h = 6 x 4 x 5.6 = 134.4 cm^3.\nAnswer: Height = 5.6 cm. Volume = 134.4 cm^3.\n\n---\n\n5 ಮಾರ್ಕ್ಸ್ × 1 question:"
+            },
+            {
+              "q_num": 8,
+              "marks": 5,
+              "question": "A cuboidal room (15 m x 10 m x 4 m) is to be renovated. The four walls and ceiling are to be painted at Rs. 6 per sq.m. The floor is to be tiled at Rs. 40 per sq.m. Find (A) the cost of painting the walls and ceiling and (B) the cost of tiling the floor. Also find the total cost.",
+              "answer": "PART A — Painting Walls and Ceiling:\nStep 1: l = 15 m, b = 10 m, h = 4 m.\nStep 2: Area of four walls = 2h(l + b) = 2 x 4 x (15+10) = 8 x 25 = 200 sq.m.\nStep 3: Area of ceiling = l x b = 15 x 10 = 150 sq.m.\nStep 4: Total painting area = 200 + 150 = 350 sq.m.\nStep 5: Cost of painting = 350 x 6 = Rs. 2100.\n\nPART B — Tiling the Floor:\nStep 1: Area of floor = l x b = 15 x 10 = 150 sq.m.\nStep 2: Cost of tiling = 150 x 40 = Rs. 6000.\nStep 3: Total cost = Rs. 2100 + Rs. 6000 = Rs. 8100.\n\nFinal Answer: Painting cost = Rs. 2100. Tiling cost = Rs. 6000. Total = Rs. 8100."
+            }
+          ]
+        },
+        {
+          "type": "mcq",
+          "label": "MCQ",
+          "items": [
+            {
+              "mcq_num": 1,
+              "difficulty": "Easy",
+              "question": "The total surface area of a cuboid with l = 3 cm, b = 2 cm, h = 1 cm is:",
+              "options": {
+                "A": "22 sq.cm   (B) 11 sq.cm   (C) 12 sq.cm   (D) 6 sq.cm"
+              },
+              "answer": "A",
+              "explanation": "TSA = 2(3x2 + 2x1 + 1x3) = 2(6+2+3) = 2x11 = 22 sq.cm."
+            },
+            {
+              "mcq_num": 2,
+              "difficulty": "Easy",
+              "question": "LSA of a cuboid equals:",
+              "options": {
+                "A": "Perimeter of base + height   (B) Perimeter of base x height   (C) 2(lb+bh+hl)   (D) lbh"
+              },
+              "answer": "B",
+              "explanation": "LSA = 2(l+b) x h = perimeter of base x height."
+            },
+            {
+              "mcq_num": 3,
+              "difficulty": "Medium",
+              "question": "Lateral surface area of a cuboid is:",
+              "options": {
+                "A": "2(lb + bh + hl)   (B) 2h(l + (B)   (C) lbh   (D) 2(l + b + h)"
+              },
+              "answer": "B",
+              "explanation": "LSA = perimeter of base x height = 2(l+b) x h."
+            },
+            {
+              "mcq_num": 4,
+              "difficulty": "Medium",
+              "question": "A cuboid has l = 10 cm, b = 6 cm, h = 4 cm. Its LSA is:",
+              "options": {
+                "A": "128 sq.cm   (B) 248 sq.cm   (C) 64 sq.cm   (D) 96 sq.cm"
+              },
+              "answer": "A",
+              "explanation": "LSA = 2 x 4 x (10+6) = 8 x 16 = 128 sq.cm."
+            },
+            {
+              "mcq_num": 5,
+              "difficulty": "Hard",
+              "question": "A cuboid has TSA 94 sq.cm. If l = 5 cm and b = 4 cm, the height is:",
+              "options": {
+                "A": "2 cm   (B) 3 cm   (C) 4 cm   (D) 5 cm"
+              },
+              "answer": "B",
+              "explanation": "94 = 2(5x4 + 4xh + hx5) => 47 = 20 + 9h => h = 3 cm."
+            },
+            {
+              "mcq_num": 6,
+              "difficulty": "Hard",
+              "question": "A cuboidal box (8 cm x 5 cm x 3 cm) is to be painted on all faces. The area to be painted is:",
+              "options": {
+                "A": "79 sq.cm   (B) 158 sq.cm   (C) 120 sq.cm   (D) 240 sq.cm"
+              },
+              "answer": "B",
+              "explanation": "TSA = 2(8x5 + 5x3 + 3x8) = 2(40+15+24) = 2x79 = 158 sq.cm. ----"
+            }
+          ]
+        },
+        {
+          "type": "definition",
+          "label": "Definition:",
+          "text": "A CUBE is a special cuboid where length = breadth = height = l (all edges are equal).\nTOTAL SURFACE AREA OF CUBE = 6l^2.\nLATERAL SURFACE AREA OF CUBE = 4l^2."
+        },
+        {
+          "type": "key_points",
+          "label": "Key Points:",
+          "points": [
+            "All six faces of a cube are identical squares.",
+            "Area of each face = l x l = l^2.",
+            "Total surface area = 6 x l^2 = 6l^2.",
+            "Lateral surface area = 4 x l^2 = 4l^2 (four side walls only)."
+          ]
+        },
+        {
+          "type": "formulas",
+          "label": "FORMULA:",
+          "items": [
+            "Total Surface Area of Cube:",
+            "TSA = 6l^2",
+            "WHERE:",
+            "l = length of each side (edge)",
+            "Lateral Surface Area of Cube:",
+            "LSA = 4l^2",
+            "EXAMPLES:",
+            "EXAMPLE 9.4.2.1:",
+            "PROBLEM: Find the surface area of a cube of side 10 cm.",
+            "SOLUTION:",
+            "Step 1: l = 10 cm.",
+            "Step 2: TSA = 6l^2 = 6 x 10^2 = 6 x 100 = 600 sq.cm.",
+            "ANSWER: Surface area = 600 sq.cm.",
+            "TRY THESE / FIGURE IT OUT:",
+            "Q1: Find the surface area of cube A (side 10 cm) and lateral surface area of cube B (side 8 cm) (Fig 9.22).",
+            "A1: Cube A: TSA = 6 x 10^2 = 600 sq.cm.",
+            "Cube B: LSA = 4 x 8^2 = 4 x 64 = 256 sq.cm.",
+            "ADDITIONAL CALCULATIONS:",
+            "Problem 1: If each side of a cube is doubled, how does the surface area change?",
+            "Solution:",
+            "Original TSA = 6l^2.",
+            "New side = 2l. New TSA = 6(2l)^2 = 6 x 4l^2 = 24l^2 = 4 x (6l^2).",
+            "Surface area becomes 4 times the original.",
+            "Answer: Surface area becomes 4 times."
+          ]
+        },
+        {
+          "type": "qa",
+          "label": "SUB-TOPIC 9.4.2: Q&A",
+          "items": []
+        },
+        {
+          "type": "qa",
+          "label": "Q&A",
+          "items": [
+            {
+              "q_num": 1,
+              "marks": 2,
+              "question": "Write the formula for TSA and LSA of a cube of side l.",
+              "answer": "TSA of cube = 6l^2 (sum of areas of all 6 identical square faces, each l x l).\nLSA of cube = 4l^2 (area of 4 side faces only, excluding top and bottom).\nWHERE: l = length of each edge (side) of the cube."
+            },
+            {
+              "q_num": 2,
+              "marks": 2,
+              "question": "Find the TSA of a cube with side 10 cm.",
+              "answer": "l = 10 cm.\nTSA = 6l^2 = 6 x 10^2 = 6 x 100 = 600 sq.cm.\nEach face has area 100 sq.cm. Total 6 faces = 600 sq.cm."
+            },
+            {
+              "q_num": 3,
+              "marks": 2,
+              "question": "A cube has TSA 150 sq.cm. Find its side and LSA.",
+              "answer": "TSA = 6l^2 = 150 => l^2 = 25 => l = 5 cm.\nLSA = 4l^2 = 4 x 25 = 100 sq.cm.\n\n---\n\n3 ಮಾರ್ಕ್ಸ್ × 2 questions:"
+            },
+            {
+              "q_num": 4,
+              "marks": 3,
+              "question": "If the side of a cube is doubled, how does the TSA change? Show with an example.",
+              "answer": "Step 1: Let original side = l. Original TSA = 6l^2.\nStep 2: New side = 2l. New TSA = 6(2l)^2 = 6 x 4l^2 = 24l^2.\nStep 3: Ratio = New TSA / Original TSA = 24l^2 / 6l^2 = 4.\nExample: l = 5 cm. Original TSA = 150 sq.cm. New side = 10 cm. New TSA = 600 sq.cm = 4 x 150.\nAnswer: TSA becomes 4 times when side is doubled."
+            },
+            {
+              "q_num": 5,
+              "marks": 3,
+              "question": "A cubical box has TSA 486 sq.cm. Find its side, LSA and the area of one face.",
+              "answer": "Step 1: TSA = 6l^2 = 486.\nStep 2: l^2 = 486/6 = 81. l = 9 cm.\nStep 3: LSA = 4l^2 = 4 x 81 = 324 sq.cm.\nArea of one face = l^2 = 81 sq.cm.\nAnswer: Side = 9 cm. LSA = 324 sq.cm. Area of one face = 81 sq.cm.\n\n---\n\n4 ಮಾರ್ಕ್ಸ್ × 2 questions:"
+            },
+            {
+              "q_num": 6,
+              "marks": 4,
+              "question": "A cube of side 12 cm is cut into smaller cubes of side 3 cm each. Find (i) the TSA of the original cube, (ii) the number of small cubes formed, and (iii) the TSA of one small cube.",
+              "answer": "Step 1: Original cube side = 12 cm. Small cube side = 3 cm.\nStep 2: TSA of original cube = 6 x 12^2 = 6 x 144 = 864 sq.cm.\nStep 3: Number of small cubes = (12/3)^3 = 4^3 = 64 small cubes.\nStep 4: TSA of one small cube = 6 x 3^2 = 6 x 9 = 54 sq.cm.\nAnswer: TSA of original = 864 sq.cm. 64 small cubes. TSA of one small cube = 54 sq.cm."
+            },
+            {
+              "q_num": 7,
+              "marks": 4,
+              "question": "Sonu has a cubical gift box with side 25 cm. He wants to cover it completely with decorative paper, leaving no overlap. The paper costs Rs. 2 per sq.cm. Find the total cost of paper. Also find the cost if only 4 side faces are covered.",
+              "answer": "Step 1: l = 25 cm.\nStep 2: TSA (all 6 faces) = 6l^2 = 6 x 625 = 3750 sq.cm.\nStep 3: Cost for all 6 faces = 3750 x 2 = Rs. 7500.\nStep 4: LSA (4 side faces only) = 4l^2 = 4 x 625 = 2500 sq.cm.\nCost for 4 faces = 2500 x 2 = Rs. 5000.\nAnswer: Cost for all faces = Rs. 7500. Cost for 4 side faces = Rs. 5000.\n\n---\n\n5 ಮಾರ್ಕ್ಸ್ × 1 question:"
+            },
+            {
+              "q_num": 8,
+              "marks": 5,
+              "question": "A cubical water tank of side 2 m is painted on the outside at Rs. 80 per sq.m. A smaller cubical display box of side 50 cm is painted at Rs. 10 per sq.cm. Find (A) the cost of painting the outer surface of the water tank and (B) the cost of painting the display box. Also find the ratio of the two costs.",
+              "answer": "PART A — Painting the Water Tank:\nStep 1: Side = 2 m.\nStep 2: TSA of tank = 6l^2 = 6 x 2^2 = 6 x 4 = 24 sq.m.\nStep 3: Cost = 24 x 80 = Rs. 1920.\n\nPART B — Painting the Display Box:\nStep 1: Side = 50 cm.\nStep 2: TSA of box = 6 x 50^2 = 6 x 2500 = 15000 sq.cm.\nStep 3: Cost = 15000 x 10 = Rs. 1,50,000.\nStep 4: Ratio of costs = 1920 : 150000 = 192 : 15000 = 32 : 2500 = 16 : 1250.\n\nFinal Answer: Cost of water tank painting = Rs. 1920. Cost of display box = Rs. 1,50,000."
+            }
+          ]
+        },
+        {
+          "type": "mcq",
+          "label": "MCQ",
+          "items": [
+            {
+              "mcq_num": 1,
+              "difficulty": "Easy",
+              "question": "The total surface area of a cube of side 5 cm is:",
+              "options": {
+                "A": "25 sq.cm   (B) 125 sq.cm   (C) 150 sq.cm   (D) 30 sq.cm"
+              },
+              "answer": "C",
+              "explanation": "TSA = 6 x 5^2 = 6 x 25 = 150 sq.cm."
+            },
+            {
+              "mcq_num": 2,
+              "difficulty": "Easy",
+              "question": "TSA of a cube = ?",
+              "options": {
+                "A": "4l^2   (B) 6l^2   (C) l^3   (D) 12l"
+              },
+              "answer": "B",
+              "explanation": "A cube has 6 identical square faces, each of area l^2. TSA = 6l^2."
+            },
+            {
+              "mcq_num": 3,
+              "difficulty": "Medium",
+              "question": "A cube has TSA 54 sq.cm. Its side is:",
+              "options": {
+                "A": "3 cm   (B) 6 cm   (C) 9 cm   (D) 27 cm"
+              },
+              "answer": "A",
+              "explanation": "6l^2 = 54 => l^2 = 9 => l = 3 cm."
+            },
+            {
+              "mcq_num": 4,
+              "difficulty": "Medium",
+              "question": "The lateral surface area of a cube of side 4 cm is:",
+              "options": {
+                "A": "16 sq.cm   (B) 64 sq.cm   (C) 96 sq.cm   (D) 48 sq.cm"
+              },
+              "answer": "B",
+              "explanation": "LSA = 4l^2 = 4 x 16 = 64 sq.cm."
+            },
+            {
+              "mcq_num": 5,
+              "difficulty": "Hard",
+              "question": "If each side of a cube is tripled, its TSA becomes:",
+              "options": {
+                "A": "3 times   (B) 6 times   (C) 9 times   (D) 27 times"
+              },
+              "answer": "C",
+              "explanation": "New TSA = 6(3l)^2 = 6 x 9l^2 = 9 x 6l^2 = 9 times original."
+            },
+            {
+              "mcq_num": 6,
+              "difficulty": "Hard",
+              "question": "A cube has TSA 384 sq.cm. Its side is:",
+              "options": {
+                "A": "6 cm   (B) 8 cm   (C) 10 cm   (D) 12 cm"
+              },
+              "answer": "B",
+              "explanation": "6l^2 = 384 => l^2 = 64 => l = 8 cm. ----"
+            }
+          ]
+        },
+        {
+          "type": "definition",
+          "label": "Definition:",
+          "text": "LATERAL (CURVED) SURFACE AREA OF CYLINDER = area of the curved side surface = 2*pi*r*h.\nTOTAL SURFACE AREA OF CYLINDER = curved surface + 2 circular faces = 2*pi*r*h + 2*pi*r^2 = 2*pi*r(r + h).\nRIGHT CIRCULAR CYLINDER: Cylinder with circular base and axis perpendicular to base."
+        },
+        {
+          "type": "key_points",
+          "label": "Key Points:",
+          "points": [
+            "Most cylinders we see (tins, pillars, tube lights, water pipes) are right circular cylinders.",
+            "When curved surface is cut and laid flat, it forms a rectangle of length 2*pi*r and width h.",
+            "So LSA = 2*pi*r*h = circumference of base x height.",
+            "TSA = LSA + 2 x (area of circular face) = 2*pi*r*h + 2*pi*r^2 = 2*pi*r(r + h).",
+            "pi = 22/7 unless otherwise stated."
+          ]
+        },
+        {
+          "type": "formulas",
+          "label": "FORMULA:",
+          "items": [
+            "Lateral (Curved) Surface Area of Cylinder:",
+            "LSA = 2*pi*r*h",
+            "WHERE:",
+            "r = radius of circular base",
+            "h = height of cylinder",
+            "Total Surface Area of Cylinder:",
+            "TSA = 2*pi*r(r + h)",
+            "WHERE:",
+            "r = radius, h = height",
+            "EXAMPLES:",
+            "EXAMPLE 9.4.3.1:",
+            "PROBLEM: In a building there are 24 cylindrical pillars. Radius of each pillar is 28 cm and height is 4 m. Find total cost of painting the curved surface area of all pillars at Rs.8 per sq.m.",
+            "SOLUTION:",
+            "Step 1: r = 28 cm = 0.28 m, h = 4 m.",
+            "Step 2: CSA of one pillar = 2*pi*r*h = 2 x (22/7) x 0.28 x 4",
+            "= 2 x (22/7) x 0.28 x 4 = 7.04 sq.m",
+            "Step 3: CSA of 24 pillars = 7.04 x 24 = 168.96 sq.m",
+            "Step 4: Cost = 168.96 x 8 = Rs.1351.68",
+            "ANSWER: Total cost of painting = Rs.1351.68.",
+            "EXAMPLE 9.4.3.2:",
+            "PROBLEM: Find the height of a cylinder whose radius is 7 cm and total surface area is 968 sq.cm.",
+            "SOLUTION:",
+            "Step 1: r = 7 cm, TSA = 968 sq.cm.",
+            "Step 2: TSA = 2*pi*r(h + r)",
+            "968 = 2 x (22/7) x 7 x (h + 7)",
+            "968 = 44 x (h + 7)",
+            "Step 3: h + 7 = 968/44 = 22",
+            "h = 22 - 7 = 15 cm",
+            "ANSWER: Height of the cylinder = 15 cm.",
+            "TRY THESE / FIGURE IT OUT:",
+            "Q1: Find total surface area of cylinders (Fig 9.27): (i) r = 14 cm, h = 8 cm. (ii) r = 1 m, h = 2 m.",
+            "A1: (i) TSA = 2 x (22/7) x 14 x (14+8) = 2 x 22 x 2 x 22 = 1936 sq.cm.",
+            "(ii) TSA = 2 x (22/7) x 1 x (1+2) = (44/7) x 3 = 132/7 = 18.86 sq.m (approx).",
+            "ADDITIONAL CALCULATIONS:",
+            "Problem 1: A cylinder has r = 7 cm and h = 10 cm. Find its curved surface area and total surface area. (pi = 22/7)",
+            "Solution:",
+            "CSA = 2 x (22/7) x 7 x 10 = 2 x 22 x 10 = 440 sq.cm.",
+            "TSA = 2 x (22/7) x 7 x (7+10) = 44 x 17 = 748 sq.cm.",
+            "Answer: CSA = 440 sq.cm, TSA = 748 sq.cm."
+          ]
+        },
+        {
+          "type": "qa",
+          "label": "SUB-TOPIC 9.4.3: Q&A",
+          "items": []
+        },
+        {
+          "type": "qa",
+          "label": "Q&A",
+          "items": [
+            {
+              "q_num": 1,
+              "marks": 2,
+              "question": "Write the formulas for CSA and TSA of a cylinder with explanation.",
+              "answer": "CSA (Curved Surface Area) = 2*pi*r*h\nTSA (Total Surface Area) = 2*pi*r(r + h) = 2*pi*r^2 + 2*pi*r*h\nWHERE: r = radius of circular base, h = height.\nNote: TSA = CSA + 2 x (area of circular base) = 2*pi*r*h + 2*pi*r^2."
+            },
+            {
+              "q_num": 2,
+              "marks": 2,
+              "question": "Why is CSA of a cylinder = circumference of base x height?",
+              "answer": "When the curved surface of a cylinder is cut vertically and unrolled, it forms a rectangle.\nLength of rectangle = circumference of circular base = 2*pi*r.\nWidth of rectangle = height of cylinder = h.\nArea of rectangle = 2*pi*r x h = 2*pi*r*h.\nSo CSA = circumference of base x height."
+            },
+            {
+              "q_num": 3,
+              "marks": 2,
+              "question": "A cylinder has r = 7 cm and h = 10 cm. Find its CSA. (pi = 22/7)",
+              "answer": "CSA = 2*pi*r*h = 2 x (22/7) x 7 x 10 = 2 x 22 x 10 = 440 sq.cm.\n\n---\n\n3 ಮಾರ್ಕ್ಸ್ × 2 questions:"
+            },
+            {
+              "q_num": 4,
+              "marks": 3,
+              "question": "Find the TSA of a cylinder with r = 7 cm and h = 10 cm. (pi = 22/7)",
+              "answer": "Step 1: r = 7 cm, h = 10 cm, pi = 22/7.\nStep 2: TSA = 2*pi*r(r + h)\n= 2 x (22/7) x 7 x (7 + 10)\n= 2 x 22 x 17\n= 44 x 17 = 748 sq.cm.\nAnswer: TSA = 748 sq.cm."
+            },
+            {
+              "q_num": 5,
+              "marks": 3,
+              "question": "Find the height of a cylinder whose radius is 7 cm and TSA is 968 sq.cm. (pi = 22/7)",
+              "answer": "Step 1: r = 7 cm, TSA = 968 sq.cm.\nStep 2: 2*pi*r(r + h) = 968\n2 x (22/7) x 7 x (7 + h) = 968\n44 x (7 + h) = 968\nStep 3: 7 + h = 968/44 = 22\nh = 22 - 7 = 15 cm.\nAnswer: Height = 15 cm.\n\n---\n\n4 ಮಾರ್ಕ್ಸ್ × 2 questions:"
+            },
+            {
+              "q_num": 6,
+              "marks": 4,
+              "question": "In a building, 24 cylindrical pillars each of radius 28 cm and height 4 m are to be painted at Rs. 8 per sq.m. Find the CSA of all pillars and the total cost. (pi = 22/7)",
+              "answer": "Step 1: r = 28 cm = 0.28 m, h = 4 m, pi = 22/7. 24 pillars.\nStep 2: CSA of one pillar = 2*pi*r*h\n= 2 x (22/7) x 0.28 x 4\n= (44 x 0.28 x 4)/7\n= (49.28)/7 = 7.04 sq.m.\nStep 3: Total CSA = 7.04 x 24 = 168.96 sq.m.\nStep 4: Cost = 168.96 x 8 = Rs. 1351.68.\nAnswer: Total CSA = 168.96 sq.m. Cost = Rs. 1351.68."
+            },
+            {
+              "q_num": 7,
+              "marks": 4,
+              "question": "A closed cylindrical tin of radius 14 cm and height 20 cm is to be made from sheet metal. Find the total area of sheet metal required. If sheet metal costs Rs. 2 per sq.cm, find the cost. (pi = 22/7)",
+              "answer": "Step 1: r = 14 cm, h = 20 cm, pi = 22/7.\nStep 2: TSA = 2*pi*r(r + h)\n= 2 x (22/7) x 14 x (14 + 20)\n= 2 x 22 x 2 x 34\n= 88 x 34 = 2992 sq.cm.\nStep 3: Cost = 2992 x 2 = Rs. 5984.\nAnswer: Sheet metal = 2992 sq.cm. Cost = Rs. 5984.\n\n---\n\n5 ಮಾರ್ಕ್ಸ್ × 1 question:"
+            },
+            {
+              "q_num": 8,
+              "marks": 5,
+              "question": "A water tower has a cylindrical tank of radius 3.5 m and height 10 m. It also has a cylindrical supply pipe of radius 7 cm and length 50 m. Find (A) the CSA of the water tank and the cost to paint it at Rs. 20 per sq.m, and (B) the total outer surface area of the supply pipe (CSA only). (pi = 22/7)",
+              "answer": "PART A — Water Tank:\nStep 1: r = 3.5 m, h = 10 m, pi = 22/7.\nStep 2: CSA of tank = 2*pi*r*h\n= 2 x (22/7) x 3.5 x 10\n= 2 x 22 x 0.5 x 10\n= 220 sq.m.\nStep 3: Cost of painting = 220 x 20 = Rs. 4400.\n\nPART B — Supply Pipe:\nStep 1: r = 7 cm = 0.07 m, h = 50 m, pi = 22/7.\nStep 2: CSA of pipe = 2*pi*r*h\n= 2 x (22/7) x 0.07 x 50\n= 2 x 22 x 0.01 x 50\n= 2 x 11\n= 22 sq.m.\n\nFinal Answer: CSA of tank = 220 sq.m. Painting cost = Rs. 4400. CSA of pipe = 22 sq.m."
+            }
+          ]
+        },
+        {
+          "type": "mcq",
+          "label": "MCQ",
+          "items": [
+            {
+              "mcq_num": 1,
+              "difficulty": "Easy",
+              "question": "The curved surface area of a cylinder with r = 7 cm and h = 5 cm is: (pi = 22/7)",
+              "options": {
+                "A": "110 sq.cm   (B) 220 sq.cm   (C) 154 sq.cm   (D) 440 sq.cm"
+              },
+              "answer": "B",
+              "explanation": "CSA = 2 x (22/7) x 7 x 5 = 2 x 22 x 5 = 220 sq.cm."
+            },
+            {
+              "mcq_num": 2,
+              "difficulty": "Easy",
+              "question": "CSA of cylinder = ?",
+              "options": {
+                "A": "pi*r^2   (B) 2*pi*r*h   (C) 2*pi*r(r+h)   (D) pi*r^2*h"
+              },
+              "answer": "B",
+              "explanation": "CSA = 2*pi*r*h = circumference x height."
+            },
+            {
+              "mcq_num": 3,
+              "difficulty": "Medium",
+              "question": "Total surface area of a cylinder is:",
+              "options": {
+                "A": "pi*r^2*h   (B) 2*pi*r*h   (C) 2*pi*r(r + h)   (D) 2(pi*r^2 + h)"
+              },
+              "answer": "C",
+              "explanation": "TSA = 2*pi*r^2 + 2*pi*r*h = 2*pi*r(r + h)."
+            },
+            {
+              "mcq_num": 4,
+              "difficulty": "Medium",
+              "question": "A cylinder has r = 14 cm and h = 20 cm. Its curved surface area is: (pi = 22/7)",
+              "options": {
+                "A": "1760 sq.cm   (B) 880 sq.cm   (C) 3080 sq.cm   (D) 440 sq.cm"
+              },
+              "answer": "A",
+              "explanation": "CSA = 2 x (22/7) x 14 x 20 = 2 x 22 x 2 x 20 = 1760 sq.cm."
+            },
+            {
+              "mcq_num": 5,
+              "difficulty": "Hard",
+              "question": "If the radius of a cylinder is halved and height is doubled, its CSA:",
+              "options": {
+                "A": "Doubles   (B) Halves   (C) Remains the same   (D) Becomes 4 times"
+              },
+              "answer": "C",
+              "explanation": "New CSA = 2*pi*(r/2)*(2h) = 2*pi*r*h. Same as original."
+            },
+            {
+              "mcq_num": 6,
+              "difficulty": "Hard",
+              "question": "A cylinder has TSA 968 sq.cm and r = 7 cm. Its height is: (pi = 22/7)",
+              "options": {
+                "A": "10 cm   (B) 12 cm   (C) 15 cm   (D) 22 cm"
+              },
+              "answer": "C",
+              "explanation": "2 x (22/7) x 7 x (7+h) = 968 => 44(7+h) = 968 => 7+h = 22 => h = 15 cm. ----------------------------------------------------------------"
+            }
+          ]
+        },
+        {
+          "type": "definition",
+          "label": "Definition:",
+          "text": "VOLUME is the amount of space occupied by a three dimensional object. It is measured in cubic units.\nCUBIC UNIT: 1 cubic cm = 1 cm x 1 cm x 1 cm = 1 cm^3."
+        },
+        {
+          "type": "key_points",
+          "label": "Key Points:",
+          "points": [
+            "We use cubic units to find volume (just as square units for area).",
+            "Volume of a solid = number of unit cubes it contains.",
+            "1 cm^3 = 1 cm x 1 cm x 1 cm",
+            "1 m^3 = 100 cm x 100 cm x 100 cm = 1000000 cm^3",
+            "Volume of any solid with uniform cross-section = Area of base x height."
+          ]
+        },
+        {
+          "type": "list_of_topics",
+          "label": "LIST OF SUB TOPICS IN THIS TOPIC:",
+          "items": [
+            "- Sub-Topic 9.5.1: Cuboid",
+            "- Sub-Topic 9.5.2: Cube",
+            "- Sub-Topic 9.5.3: Cylinder"
+          ]
+        },
+        {
+          "type": "qa",
+          "label": "TOPIC 9.5: Q&A",
+          "items": []
+        },
+        {
+          "type": "qa",
+          "label": "Q&A",
+          "items": [
+            {
+              "q_num": 1,
+              "marks": 2,
+              "question": "What is volume? State its unit.",
+              "answer": "VOLUME is the amount of space occupied by a three-dimensional object. It is measured in cubic units such as cm^3, m^3.\n1 cm^3 = 1 cubic centimetre = volume of a cube with side 1 cm.\nWe find volume by counting how many unit cubes fit inside the solid."
+            },
+            {
+              "q_num": 2,
+              "marks": 2,
+              "question": "What is 1 cubic metre equal to in cubic centimetres? What is 1 m^3 in litres?",
+              "answer": "1 m^3 = 1 m x 1 m x 1 m = 100 cm x 100 cm x 100 cm = 10,00,000 cm^3.\nAlso, 1 cm^3 = 1 mL, so 1 m^3 = 10,00,000 mL = 1000 L.\nKey: 1 m^3 = 10,00,000 cm^3 = 1000 L."
+            },
+            {
+              "q_num": 3,
+              "marks": 2,
+              "question": "Name the three solids studied in Topic 9.5 and write the formula for each volume.",
+              "answer": "Cuboid: Volume = l x b x h.\nCube: Volume = l^3.\nCylinder: Volume = pi*r^2*h.\nAll three: Volume = Area of base x height.\n\n---\n\n3 ಮಾರ್ಕ್ಸ್ × 2 questions:"
+            },
+            {
+              "q_num": 4,
+              "marks": 3,
+              "question": "Explain why volume of a solid = area of base x height, with an example using a cuboid.",
+              "answer": "Step 1: Consider a cuboid of l = 4 cm, b = 3 cm, h = 2 cm.\nStep 2: We arrange 1 cm^3 unit cubes. In one layer: 4 x 3 = 12 cubes = area of base.\nStep 3: Number of layers = h = 2. Total cubes = 12 x 2 = 24 = l x b x h.\nThis shows: Volume = area of base x height for any solid with uniform cross-section (cuboid, cylinder, prism)."
+            },
+            {
+              "q_num": 5,
+              "marks": 3,
+              "question": "Find the volume of a cuboid whose TSA is 94 sq.cm, l = 5 cm, b = 4 cm.",
+              "answer": "Step 1: TSA = 2(lb + bh + hl) = 94. l = 5, b = 4.\nStep 2: 94 = 2(20 + 4h + 5h) = 2(20 + 9h)\n47 = 20 + 9h\n9h = 27, h = 3 cm.\nStep 3: Volume = l x b x h = 5 x 4 x 3 = 60 cm^3.\nAnswer: Volume = 60 cm^3.\n\n---\n\n4 ಮಾರ್ಕ್ಸ್ × 2 questions:"
+            },
+            {
+              "q_num": 6,
+              "marks": 4,
+              "question": "A godown is a cuboid of 60 m x 40 m x 30 m. How many cuboidal boxes (0.8 m^3 each) can be stored? If each box weighs 15 kg, find the total weight of all boxes.",
+              "answer": "Step 1: Volume of godown = 60 x 40 x 30 = 72,000 m^3.\nStep 2: Number of boxes = 72000 / 0.8 = 90,000 boxes.\nStep 3: Total weight = 90,000 x 15 = 13,50,000 kg = 1350 tonnes.\nStep 4: The warehouse can store 90,000 boxes with a total weight of 1350 tonnes."
+            },
+            {
+              "q_num": 7,
+              "marks": 4,
+              "question": "A cylindrical water tank has radius 1.4 m and height 5 m. It is filled with water using a pump that fills at 100 litres per minute. Find (i) volume of tank in m^3, (ii) capacity in litres, (iii) time to fill completely. (pi = 22/7)",
+              "answer": "Step 1: r = 1.4 m, h = 5 m, pi = 22/7.\nStep 2: Volume = pi*r^2*h = (22/7) x 1.4^2 x 5 = (22/7) x 1.96 x 5 = (22 x 9.8)/7 = 215.6/7 = 30.8 m^3.\nStep 3: Capacity = 30.8 m^3 = 30.8 x 1000 = 30,800 litres.\nStep 4: Time = 30,800 / 100 = 308 minutes = 5 hours 8 minutes.\nAnswer: Volume = 30.8 m^3. Capacity = 30,800 L. Time = 308 minutes.\n\n---\n\n5 ಮಾರ್ಕ್ಸ್ × 1 question:"
+            },
+            {
+              "q_num": 8,
+              "marks": 5,
+              "question": "A school has a cuboidal swimming pool (25 m x 10 m x 2 m) and a cylindrical overhead tank (r = 3.5 m, h = 4 m) to supply water. Find (A) the volume of the swimming pool in litres and (B) the capacity of the overhead tank in litres. Also find how many times the tank must be filled to fill the pool. (pi = 22/7)",
+              "answer": "PART A — Volume of Swimming Pool:\nStep 1: l = 25 m, b = 10 m, h = 2 m.\nStep 2: Volume = l x b x h = 25 x 10 x 2 = 500 m^3.\nStep 3: In litres = 500 x 1000 = 5,00,000 litres.\n\nPART B — Capacity of Overhead Tank:\nStep 1: r = 3.5 m, h = 4 m, pi = 22/7.\nStep 2: Volume = pi*r^2*h = (22/7) x 3.5^2 x 4\n= (22/7) x 12.25 x 4\n= (22 x 49)/7 = 22 x 7 = 154 m^3.\nStep 3: Capacity = 154 x 1000 = 1,54,000 litres.\nStep 4: Number of times = 5,00,000 / 1,54,000 ≈ 3.25 times (approximately 4 full tanks needed).\n\nFinal Answer: Pool volume = 5,00,000 L. Tank capacity = 1,54,000 L. About 4 tank-fills needed."
+            }
+          ]
+        },
+        {
+          "type": "mcq",
+          "label": "MCQ",
+          "items": [
+            {
+              "mcq_num": 1,
+              "difficulty": "Easy",
+              "question": "Volume is measured in:",
+              "options": {
+                "A": "Square units   (B) Cubic units   (C) Linear units   (D) Decimal units"
+              },
+              "answer": "B",
+              "explanation": "Volume is a 3D measurement, so cubic units (cm^3, m^3) are used."
+            },
+            {
+              "mcq_num": 2,
+              "difficulty": "Easy",
+              "question": "Volume of a cuboid = ?",
+              "options": {
+                "A": "l + b + h   (B) 2(lb+bh+hl)   (C) l x b x h   (D) (1/2) x l x b x h"
+              },
+              "answer": "C",
+              "explanation": "Volume of cuboid = l x b x h."
+            },
+            {
+              "mcq_num": 3,
+              "difficulty": "Medium",
+              "question": "1 cubic metre = _______ cubic centimetres.",
+              "options": {
+                "A": "100   (B) 10000   (C) 1000   (D) 1000000"
+              },
+              "answer": "D",
+              "explanation": "1 m^3 = 100 x 100 x 100 cm^3 = 1000000 cm^3."
+            },
+            {
+              "mcq_num": 4,
+              "difficulty": "Medium",
+              "question": "Volume of a cylinder is:",
+              "options": {
+                "A": "2*pi*r*h   (B) pi*r^2   (C) pi*r^2*h   (D) 2*pi*r(r+h)"
+              },
+              "answer": "C",
+              "explanation": "Volume of cylinder = pi*r^2*h = area of circular base x height."
+            },
+            {
+              "mcq_num": 5,
+              "difficulty": "Hard",
+              "question": "The volume of a solid is found by:",
+              "options": {
+                "A": "Counting unit cubes inside   (B) Adding all face areas   (C) Perimeter of base   (D) Sum of edges"
+              },
+              "answer": "A",
+              "explanation": "Volume = number of unit cubes that fit inside = l x b x h."
+            },
+            {
+              "mcq_num": 6,
+              "difficulty": "Hard",
+              "question": "A cuboid has volume 360 cm^3, l = 12 cm, b = 5 cm. Its height is:",
+              "options": {
+                "A": "4 cm   (B) 5 cm   (C) 6 cm   (D) 3 cm"
+              },
+              "answer": "C",
+              "explanation": "h = V/(l x b) = 360/(12 x 5) = 360/60 = 6 cm. ----"
+            }
+          ]
+        },
+        {
+          "type": "definition",
+          "label": "Definition:",
+          "text": "VOLUME OF CUBOID = length x breadth x height = l x b x h.\nVolume of cuboid = Area of base x height (since l x b = base area)."
+        },
+        {
+          "type": "key_points",
+          "label": "Key Points:",
+          "points": [
+            "We arrange equal cubes to form a cuboid. Total number of unit cubes = l x b x h.",
+            "Volume = l x b x h.",
+            "Volume = Area of base x height."
+          ]
+        },
+        {
+          "type": "formulas",
+          "label": "FORMULA:",
+          "items": [
+            "Volume of Cuboid:",
+            "V = l x b x h",
+            "WHERE:",
+            "l = length, b = breadth, h = height",
+            "UNITS: cm^3, m^3, etc.",
+            "EXAMPLES:",
+            "EXAMPLE 9.5.1.1:",
+            "PROBLEM: Find the volume of a cuboid with l = 12 cm, b = 3 cm, h = 1 cm.",
+            "SOLUTION:",
+            "Step 1: V = l x b x h = 12 x 3 x 1 = 36 cm^3.",
+            "ANSWER: Volume = 36 cm^3.",
+            "EXAMPLE 9.5.1.2:",
+            "PROBLEM: Find the height of a cuboid whose volume is 275 cm^3 and base area is 25 sq.cm.",
+            "SOLUTION:",
+            "Step 1: Volume = Base area x Height",
+            "275 = 25 x Height",
+            "Step 2: Height = 275/25 = 11 cm.",
+            "ANSWER: Height = 11 cm.",
+            "EXAMPLE 9.5.1.3:",
+            "PROBLEM: A godown is a cuboid of measures 60 m x 40 m x 30 m. How many cuboidal boxes (volume 0.8 m^3 each) can be stored in it?",
+            "SOLUTION:",
+            "Step 1: Volume of godown = 60 x 40 x 30 = 72000 m^3.",
+            "Step 2: Number of boxes = 72000 / 0.8 = 90,000.",
+            "ANSWER: 90,000 cuboidal boxes can be stored.",
+            "TRY THESE / FIGURE IT OUT:",
+            "Q1: Find the volume of the following cuboids (Fig 9.30): (i) l=8 cm, b=3 cm, h=2 cm. (ii) base area=24 sq.m, h=3 cm.",
+            "A1: (i) V = 8 x 3 x 2 = 48 cm^3.",
+            "(ii) V = 24 x 3 = 72 m^3.",
+            "ADDITIONAL CALCULATIONS:",
+            "Problem 1: How many small cubes of side 0.5 cm can be placed in a cuboid of dimensions 4 cm x 3 cm x 2 cm?",
+            "Solution:",
+            "Volume of cuboid = 4 x 3 x 2 = 24 cm^3.",
+            "Volume of small cube = 0.5 x 0.5 x 0.5 = 0.125 cm^3.",
+            "Number of small cubes = 24 / 0.125 = 192.",
+            "Answer: 192 small cubes."
+          ]
+        },
+        {
+          "type": "qa",
+          "label": "SUB-TOPIC 9.5.1: Q&A",
+          "items": []
+        },
+        {
+          "type": "qa",
+          "label": "Q&A",
+          "items": [
+            {
+              "q_num": 1,
+              "marks": 2,
+              "question": "Write the formula for volume of a cuboid and explain each term.",
+              "answer": "Volume of cuboid = l x b x h\nWHERE: l = length, b = breadth, h = height (all in same units).\nAlso, Volume = Area of base x height (since base area = l x b).\nUnits: cm^3, m^3 etc."
+            },
+            {
+              "q_num": 2,
+              "marks": 2,
+              "question": "A cuboid has volume 275 cm^3 and base area 25 sq.cm. Find its height.",
+              "answer": "Volume = Base area x height\n275 = 25 x height\nHeight = 275/25 = 11 cm."
+            },
+            {
+              "q_num": 3,
+              "marks": 2,
+              "question": "Find the volume of a cuboid with l = 12 cm, b = 3 cm, h = 1 cm.",
+              "answer": "Volume = l x b x h = 12 x 3 x 1 = 36 cm^3.\n\n---\n\n3 ಮಾರ್ಕ್ಸ್ × 2 questions:"
+            },
+            {
+              "q_num": 4,
+              "marks": 3,
+              "question": "A godown measures 60 m x 40 m x 30 m. How many cuboidal boxes of volume 0.8 m^3 each can be stored?",
+              "answer": "Step 1: Volume of godown = 60 x 40 x 30 = 72,000 m^3.\nStep 2: Volume of one box = 0.8 m^3.\nStep 3: Number of boxes = 72,000 / 0.8 = 90,000 boxes.\nAnswer: 90,000 boxes can be stored."
+            },
+            {
+              "q_num": 5,
+              "marks": 3,
+              "question": "A cuboidal tank (5 m x 4 m x 3 m) is being filled at 200 litres per minute. Find the time to fill it completely.",
+              "answer": "Step 1: Volume = 5 x 4 x 3 = 60 m^3.\nStep 2: Capacity = 60 m^3 = 60 x 1000 = 60,000 litres.\nStep 3: Time = 60,000 / 200 = 300 minutes = 5 hours.\nAnswer: Time to fill = 300 minutes (5 hours).\n\n---\n\n4 ಮಾರ್ಕ್ಸ್ × 2 questions:"
+            },
+            {
+              "q_num": 6,
+              "marks": 4,
+              "question": "A swimming pool (50 m x 20 m x 1.5 m) is to be filled with water. Water costs Rs. 0.005 per litre. Find the volume in m^3, capacity in litres and total cost of water.",
+              "answer": "Step 1: l = 50 m, b = 20 m, h = 1.5 m.\nStep 2: Volume = 50 x 20 x 1.5 = 1500 m^3.\nStep 3: Capacity = 1500 x 1000 = 15,00,000 litres.\nStep 4: Cost = 15,00,000 x 0.005 = Rs. 7500.\nAnswer: Volume = 1500 m^3. Capacity = 15,00,000 L. Cost = Rs. 7500."
+            },
+            {
+              "q_num": 7,
+              "marks": 4,
+              "question": "A box (40 cm x 30 cm x 20 cm) is packed with small cubes of side 5 cm. Find (i) volume of box, (ii) volume of one small cube, (iii) number of small cubes that fit in the box.",
+              "answer": "Step 1: Volume of box = 40 x 30 x 20 = 24,000 cm^3.\nStep 2: Volume of one small cube = 5 x 5 x 5 = 125 cm^3.\nStep 3: Number of cubes = 24,000 / 125 = 192 cubes.\nStep 4: Check: Along length = 40/5 = 8, breadth = 30/5 = 6, height = 20/5 = 4. Total = 8x6x4 = 192. Correct.\nAnswer: Box volume = 24,000 cm^3. Cube volume = 125 cm^3. Number = 192.\n\n---\n\n5 ಮಾರ್ಕ್ಸ್ × 1 question:"
+            },
+            {
+              "q_num": 8,
+              "marks": 5,
+              "question": "A rectangular plot (30 m x 20 m) has a cuboidal pit dug for construction (8 m x 5 m x 3 m). The soil removed is used to raise the level of the remaining plot. Find (A) the volume of soil removed from the pit and (B) the height by which the remaining plot is raised (area of remaining plot = 30x20 - 8x5 = 560 sq.m).",
+              "answer": "PART A — Volume of Soil Removed:\nStep 1: Pit dimensions: l = 8 m, b = 5 m, h = 3 m.\nStep 2: Volume of soil = l x b x h = 8 x 5 x 3 = 120 m^3.\nThe pit has 120 m^3 of soil removed.\n\nPART B — Height Raised on Remaining Plot:\nStep 1: Area of total plot = 30 x 20 = 600 sq.m.\nStep 2: Area of pit = 8 x 5 = 40 sq.m.\nStep 3: Remaining area = 600 - 40 = 560 sq.m.\nStep 4: Volume of soil = Area x height raised\n120 = 560 x height raised\nHeight = 120/560 = 3/14 m ≈ 0.214 m ≈ 21.4 cm.\n\nFinal Answer: Volume of soil = 120 m^3. Height raised = 3/14 m ≈ 21.4 cm."
+            }
+          ]
+        },
+        {
+          "type": "mcq",
+          "label": "MCQ",
+          "items": [
+            {
+              "mcq_num": 1,
+              "difficulty": "Easy",
+              "question": "Volume of a cuboid with l = 4 cm, b = 3 cm, h = 2 cm is:",
+              "options": {
+                "A": "9 cm^3   (B) 18 cm^3   (C) 24 cm^3   (D) 48 cm^3"
+              },
+              "answer": "C",
+              "explanation": "V = 4 x 3 x 2 = 24 cm^3."
+            },
+            {
+              "mcq_num": 2,
+              "difficulty": "Easy",
+              "question": "Volume of cuboid = ?",
+              "options": {
+                "A": "TSA   (B) l x b x h   (C) 2(l+b+h)   (D) l + b + h"
+              },
+              "answer": "B",
+              "explanation": "Volume = l x b x h."
+            },
+            {
+              "mcq_num": 3,
+              "difficulty": "Medium",
+              "question": "If volume of a cuboid is 360 cm^3 and base area is 60 sq.cm, the height is:",
+              "options": {
+                "A": "5 cm   (B) 6 cm   (C) 4 cm   (D) 3 cm"
+              },
+              "answer": "B",
+              "explanation": "Height = 360/60 = 6 cm."
+            },
+            {
+              "mcq_num": 4,
+              "difficulty": "Medium",
+              "question": "A cuboid has l = 8 cm, b = 5 cm, h = 3 cm. Its volume is:",
+              "options": {
+                "A": "16 cm^3   (B) 120 cm^3   (C) 79 cm^3   (D) 158 cm^3"
+              },
+              "answer": "B",
+              "explanation": "V = 8 x 5 x 3 = 120 cm^3."
+            },
+            {
+              "mcq_num": 5,
+              "difficulty": "Hard",
+              "question": "Volume of a cuboid is equal to:",
+              "options": {
+                "A": "Perimeter of base x height   (B) Area of base x height   (C) 2(lb + bh + hl)   (D) Area of base + height"
+              },
+              "answer": "B",
+              "explanation": "Volume = l x b x h = Area of base x height."
+            },
+            {
+              "mcq_num": 6,
+              "difficulty": "Hard",
+              "question": "A godown (10 m x 8 m x 5 m) stores boxes of volume 0.5 m^3 each. How many boxes fit?",
+              "options": {
+                "A": "400   (B) 800   (C) 1600   (D) 200"
+              },
+              "answer": "B",
+              "explanation": "Volume of godown = 10 x 8 x 5 = 400 m^3. Boxes = 400/0.5 = 800. ----"
+            }
+          ]
+        },
+        {
+          "type": "definition",
+          "label": "Definition:",
+          "text": "VOLUME OF CUBE = l x l x l = l^3, where l is the side (edge).\nA cube is a special case of cuboid where l = b = h."
+        },
+        {
+          "type": "key_points",
+          "label": "Key Points:",
+          "points": [
+            "Volume of cube = l^3.",
+            "If each edge is doubled, volume becomes 8 times (since (2l)^3 = 8l^3)."
+          ]
+        },
+        {
+          "type": "formulas",
+          "label": "FORMULA:",
+          "items": [
+            "Volume of Cube:",
+            "V = l^3",
+            "WHERE:",
+            "l = side of the cube",
+            "EXAMPLES:",
+            "EXAMPLE 9.5.2.1:",
+            "PROBLEM: Find the volume of a cube with side 4 cm.",
+            "SOLUTION:",
+            "Step 1: V = l^3 = 4^3 = 4 x 4 x 4 = 64 cm^3.",
+            "ANSWER: Volume = 64 cm^3.",
+            "TRY THESE / FIGURE IT OUT:",
+            "Q1: Find the volume of the following cubes: (a) side 4 cm. (b) side 1.5 m.",
+            "A1: (a) V = 4^3 = 64 cm^3.",
+            "(b) V = (1.5)^3 = 1.5 x 1.5 x 1.5 = 3.375 m^3.",
+            "ADDITIONAL CALCULATIONS:",
+            "Problem 1: If each side of a cube is tripled, how many times does volume increase?",
+            "Solution:",
+            "Original V = l^3. New side = 3l. New V = (3l)^3 = 27l^3.",
+            "Volume increases 27 times.",
+            "Answer: Volume becomes 27 times."
+          ]
+        },
+        {
+          "type": "qa",
+          "label": "SUB-TOPIC 9.5.2: Q&A",
+          "items": []
+        },
+        {
+          "type": "qa",
+          "label": "Q&A",
+          "items": [
+            {
+              "q_num": 1,
+              "marks": 2,
+              "question": "Write the formula for volume of a cube and explain why it is l^3.",
+              "answer": "Volume of cube = l^3 = l x l x l.\nA cube has l = b = h. So Volume = l x b x h = l x l x l = l^3.\nExample: Cube of side 4 cm. Volume = 4^3 = 64 cm^3."
+            },
+            {
+              "q_num": 2,
+              "marks": 2,
+              "question": "A cube has side 1.5 m. Find its volume.",
+              "answer": "V = l^3 = (1.5)^3 = 1.5 x 1.5 x 1.5 = 3.375 m^3."
+            },
+            {
+              "q_num": 3,
+              "marks": 2,
+              "question": "A cube has volume 512 cm^3. Find its side.",
+              "answer": "l^3 = 512. l = cube root of 512 = 8 cm (since 8 x 8 x 8 = 512).\n\n---\n\n3 ಮಾರ್ಕ್ಸ್ × 2 questions:"
+            },
+            {
+              "q_num": 4,
+              "marks": 3,
+              "question": "If each side of a cube is doubled, how many times does the volume increase? Show with calculation.",
+              "answer": "Step 1: Original side = l. Original Volume = l^3.\nStep 2: New side = 2l. New Volume = (2l)^3 = 8l^3.\nStep 3: Ratio = 8l^3 / l^3 = 8.\nExample: l = 3 cm. Original V = 27 cm^3. New l = 6 cm. New V = 216 = 8 x 27.\nAnswer: Volume becomes 8 times when side is doubled."
+            },
+            {
+              "q_num": 5,
+              "marks": 3,
+              "question": "How many small cubes of side 3 cm can be packed in a cube of side 12 cm?",
+              "answer": "Step 1: Volume of big cube = 12^3 = 1728 cm^3.\nStep 2: Volume of small cube = 3^3 = 27 cm^3.\nStep 3: Number = 1728/27 = 64 small cubes.\nCheck: Along each edge = 12/3 = 4. Total = 4 x 4 x 4 = 64. Correct.\n\n---\n\n4 ಮಾರ್ಕ್ಸ್ × 2 questions:"
+            },
+            {
+              "q_num": 6,
+              "marks": 4,
+              "question": "A metal cube of side 10 cm is melted and recast into smaller cubes of side 2 cm. Find (i) volume of original cube, (ii) volume of one small cube, (iii) number of small cubes formed.",
+              "answer": "Step 1: Original cube side = 10 cm.\nStep 2: Volume of original = 10^3 = 1000 cm^3.\nStep 3: Volume of one small cube = 2^3 = 8 cm^3.\nStep 4: Number of small cubes = 1000/8 = 125 small cubes.\nAnswer: Original volume = 1000 cm^3. Small cube = 8 cm^3. 125 small cubes formed."
+            },
+            {
+              "q_num": 7,
+              "marks": 4,
+              "question": "A cubical tank of side 2 m is completely filled with water. The water is transferred into small cuboidal cans (40 cm x 25 cm x 20 cm). Find how many cans are needed.",
+              "answer": "Step 1: Volume of tank = 2^3 = 8 m^3 = 8 x 1000000 cm^3 = 80,00,000 cm^3.\nStep 2: Volume of one can = 40 x 25 x 20 = 20,000 cm^3.\nStep 3: Number of cans = 80,00,000 / 20,000 = 400 cans.\nAnswer: 400 cans are needed.\n\n---\n\n5 ಮಾರ್ಕ್ಸ್ × 1 question:"
+            },
+            {
+              "q_num": 8,
+              "marks": 5,
+              "question": "A cube of ice has side 30 cm. Another cube of ice has side 20 cm. Both are kept in a tray. Find (A) the total volume of ice and express it in litres, and (B) when the ice melts completely, the water fills a cuboidal tray (50 cm x 40 cm). Find the height of water in the tray.",
+              "answer": "PART A — Total Volume of Ice:\nStep 1: Volume of big cube = 30^3 = 27,000 cm^3.\nStep 2: Volume of small cube = 20^3 = 8000 cm^3.\nStep 3: Total volume = 27,000 + 8000 = 35,000 cm^3.\nStep 4: In litres = 35,000 / 1000 = 35 litres.\n\nPART B — Height of Water in Tray:\nStep 1: Volume of water = 35,000 cm^3.\nStep 2: Base area of tray = 50 x 40 = 2000 sq.cm.\nStep 3: Height = Volume / Base area = 35,000 / 2000 = 17.5 cm.\n\nFinal Answer: Total ice volume = 35,000 cm^3 = 35 L. Height of water = 17.5 cm."
+            }
+          ]
+        },
+        {
+          "type": "mcq",
+          "label": "MCQ",
+          "items": [
+            {
+              "mcq_num": 1,
+              "difficulty": "Easy",
+              "question": "Volume of a cube of side 3 cm is:",
+              "options": {
+                "A": "9 cm^3   (B) 27 cm^3   (C) 18 cm^3   (D) 54 cm^3"
+              },
+              "answer": "B",
+              "explanation": "V = 3^3 = 27 cm^3."
+            },
+            {
+              "mcq_num": 2,
+              "difficulty": "Easy",
+              "question": "Volume of cube = ?",
+              "options": {
+                "A": "6l^2   (B) 4l^2   (C) l^3   (D) l^2"
+              },
+              "answer": "C",
+              "explanation": "Volume = l x l x l = l^3."
+            },
+            {
+              "mcq_num": 3,
+              "difficulty": "Medium",
+              "question": "If each side of a cube is tripled, the volume becomes:",
+              "options": {
+                "A": "3 times   (B) 9 times   (C) 27 times   (D) 6 times"
+              },
+              "answer": "C",
+              "explanation": "New volume = (3l)^3 = 27l^3. Volume becomes 27 times."
+            },
+            {
+              "mcq_num": 4,
+              "difficulty": "Medium",
+              "question": "A cube has volume 125 cm^3. Its side is:",
+              "options": {
+                "A": "5 cm   (B) 25 cm   (C) 3 cm   (D) 10 cm"
+              },
+              "answer": "A",
+              "explanation": "l^3 = 125 => l = 5 cm (since 5^3 = 125)."
+            },
+            {
+              "mcq_num": 5,
+              "difficulty": "Hard",
+              "question": "Volume of a cube is 512 cm^3. Its side is:",
+              "options": {
+                "A": "6 cm   (B) 7 cm   (C) 8 cm   (D) 9 cm"
+              },
+              "answer": "C",
+              "explanation": "l^3 = 512 => l = 8 cm (since 8^3 = 512)."
+            },
+            {
+              "mcq_num": 6,
+              "difficulty": "Hard",
+              "question": "If each side of a cube is halved, the volume becomes:",
+              "options": {
+                "A": "Half   (B) 1/4 th   (C) 1/8 th   (D) 1/6 th"
+              },
+              "answer": "C",
+              "explanation": "New V = (l/2)^3 = l^3/8. Volume becomes 1/8 th. ----"
+            }
+          ]
+        },
+        {
+          "type": "definition",
+          "label": "Definition:",
+          "text": "VOLUME OF CYLINDER = Area of circular base x height = pi*r^2*h.\nLike a cuboid, volume = area of base x height."
+        },
+        {
+          "type": "key_points",
+          "label": "Key Points:",
+          "points": [
+            "A cylinder has congruent parallel circular bases and perpendicular lateral surface (like cuboid).",
+            "Area of circular base = pi*r^2.",
+            "Volume = pi*r^2 x h = pi*r^2*h.",
+            "pi = 22/7 unless otherwise stated."
+          ]
+        },
+        {
+          "type": "formulas",
+          "label": "FORMULA:",
+          "items": [
+            "Volume of Cylinder:",
+            "V = pi*r^2*h",
+            "WHERE:",
+            "r = radius of circular base",
+            "h = height of cylinder",
+            "UNITS: cm^3, m^3, etc.",
+            "EXAMPLES:",
+            "EXAMPLE 9.5.3.1:",
+            "PROBLEM: A rectangular paper of width 14 cm is rolled along its width and a cylinder of radius 20 cm is formed. Find the volume of the cylinder. (pi = 22/7)",
+            "SOLUTION:",
+            "Step 1: Width of paper = height of cylinder: h = 14 cm. Radius r = 20 cm.",
+            "Step 2: V = pi*r^2*h = (22/7) x 20 x 20 x 14",
+            "= (22/7) x 400 x 14",
+            "= 22 x 400 x 2 = 17600 cm^3.",
+            "ANSWER: Volume = 17600 cm^3.",
+            "EXAMPLE 9.5.3.2:",
+            "PROBLEM: A rectangular piece of paper 11 cm x 4 cm is folded without overlapping to make a cylinder of height 4 cm. Find the volume of the cylinder.",
+            "SOLUTION:",
+            "Step 1: Height h = 4 cm. Length of paper = circumference of base = 2*pi*r = 11 cm.",
+            "Step 2: 2 x (22/7) x r = 11 => r = (11 x 7)/(2 x 22) = 77/44 = 7/4 cm.",
+            "Step 3: V = pi*r^2*h = (22/7) x (7/4)^2 x 4",
+            "= (22/7) x (49/16) x 4",
+            "= (22 x 49 x 4)/(7 x 16) = (22 x 7)/4 = 154/4 = 38.5 cm^3.",
+            "ANSWER: Volume = 38.5 cm^3.",
+            "TRY THESE / FIGURE IT OUT:",
+            "Q1: Find the volume of the following cylinders (Fig 9.38): (i) r=7 cm, h=10 cm. (ii) base area=250 sq.m, h=2 m.",
+            "A1: (i) V = (22/7) x 7^2 x 10 = (22/7) x 49 x 10 = 1540 cm^3.",
+            "(ii) V = 250 x 2 = 500 m^3.",
+            "ADDITIONAL CALCULATIONS:",
+            "Problem 1: A cylindrical tank has radius 1.5 m and length 7 m. Find the quantity of milk (in litres) it can store. (pi = 22/7)",
+            "Solution:",
+            "V = (22/7) x 1.5^2 x 7 = 22 x 2.25 = 49.5 m^3.",
+            "Capacity = 49.5 x 1000 = 49,500 litres.",
+            "Answer: 49,500 litres."
+          ]
+        },
+        {
+          "type": "qa",
+          "label": "SUB-TOPIC 9.5.3: Q&A",
+          "items": []
+        },
+        {
+          "type": "qa",
+          "label": "Q&A",
+          "items": [
+            {
+              "q_num": 1,
+              "marks": 2,
+              "question": "Write the formula for volume of a cylinder. Explain each term.",
+              "answer": "Volume of cylinder = pi*r^2*h\nWHERE: r = radius of circular base, h = height, pi = 22/7 (unless stated otherwise).\nThis equals area of circular base (pi*r^2) x height."
+            },
+            {
+              "q_num": 2,
+              "marks": 2,
+              "question": "A cylinder has r = 7 cm and h = 10 cm. Find its volume. (pi = 22/7)",
+              "answer": "V = pi*r^2*h = (22/7) x 7^2 x 10 = (22/7) x 49 x 10 = 22 x 7 x 10 = 1540 cm^3."
+            },
+            {
+              "q_num": 3,
+              "marks": 2,
+              "question": "Explain why volume of cylinder = area of base x height.",
+              "answer": "A cylinder has two congruent, parallel circular bases. Between them, the cross-section is always the same circle (uniform cross-section). For any solid with uniform cross-section: Volume = Area of cross-section x height. For a cylinder, cross-section = circle = pi*r^2. So Volume = pi*r^2*h.\n\n---\n\n3 ಮಾರ್ಕ್ಸ್ × 2 questions:"
+            },
+            {
+              "q_num": 4,
+              "marks": 3,
+              "question": "A cylindrical tank has r = 1.5 m and h = 7 m. Find its capacity in litres. (pi = 22/7)",
+              "answer": "Step 1: r = 1.5 m, h = 7 m, pi = 22/7.\nStep 2: Volume = (22/7) x (1.5)^2 x 7\n= (22/7) x 2.25 x 7\n= 22 x 2.25\n= 49.5 m^3.\nStep 3: Capacity = 49.5 x 1000 = 49,500 litres.\nAnswer: Capacity = 49,500 litres."
+            },
+            {
+              "q_num": 5,
+              "marks": 3,
+              "question": "A rectangular piece of paper 11 cm x 4 cm is rolled (without overlap) to form a cylinder of height 4 cm. Find its volume. (pi = 22/7)",
+              "answer": "Step 1: h = 4 cm. Length of paper = circumference = 2*pi*r = 11.\nStep 2: 2 x (22/7) x r = 11 => r = (11 x 7)/(2 x 22) = 77/44 = 7/4 cm.\nStep 3: V = (22/7) x (7/4)^2 x 4 = (22/7) x (49/16) x 4 = (22 x 49 x 4)/(7 x 16) = (22 x 7)/4 = 154/4 = 38.5 cm^3.\nAnswer: Volume = 38.5 cm^3.\n\n---\n\n4 ಮಾರ್ಕ್ಸ್ × 2 questions:"
+            },
+            {
+              "q_num": 6,
+              "marks": 4,
+              "question": "A rectangular paper of width 14 cm is rolled along its width and a cylinder of radius 20 cm is formed. Find (i) the height of the cylinder, (ii) its volume, and (iii) capacity in litres. (pi = 22/7)",
+              "answer": "Step 1: Width of paper = height of cylinder: h = 14 cm. Radius r = 20 cm.\nStep 2: Volume = pi*r^2*h = (22/7) x 20^2 x 14\n= (22/7) x 400 x 14\n= 22 x 400 x 2\n= 17,600 cm^3.\nStep 3: Capacity = 17,600 cm^3 = 17,600 mL = 17.6 litres.\nAnswer: h = 14 cm. Volume = 17,600 cm^3. Capacity = 17.6 litres."
+            },
+            {
+              "q_num": 7,
+              "marks": 4,
+              "question": "A well of diameter 14 m is dug 10 m deep. The earth taken out is spread on a rectangular plot (77 m x 20 m). Find the height of the platform formed. (pi = 22/7)",
+              "answer": "Step 1: r = 7 m (diameter = 14 m), h = 10 m.\nStep 2: Volume of earth = pi*r^2*h = (22/7) x 7^2 x 10 = (22/7) x 49 x 10 = 1540 m^3.\nStep 3: Area of rectangular plot = 77 x 20 = 1540 sq.m.\nStep 4: Height of platform = Volume / Area = 1540 / 1540 = 1 m.\nAnswer: Height of platform = 1 m.\n\n---\n\n5 ಮಾರ್ಕ್ಸ್ × 1 question:"
+            },
+            {
+              "q_num": 8,
+              "marks": 5,
+              "question": "A cylindrical overhead tank of r = 1.4 m and h = 2.1 m supplies water to a building. From it, water flows into a cuboidal sump (2.1 m x 1.68 m x height). Find (A) the volume of the overhead tank and (B) if all water from the tank fills the sump and the sump height needed is to be calculated. (pi = 22/7)",
+              "answer": "PART A — Volume of Overhead Tank:\nStep 1: r = 1.4 m, h = 2.1 m, pi = 22/7.\nStep 2: Volume = pi*r^2*h = (22/7) x (1.4)^2 x 2.1\n= (22/7) x 1.96 x 2.1\n= (22 x 1.96 x 2.1)/7\n= (22 x 4.116)/7\n= 90.552/7\n= 12.936 m^3.\n\nPART B — Height of Cuboidal Sump:\nStep 1: Volume of water = 12.936 m^3.\nStep 2: Base area of sump = 2.1 x 1.68 = 3.528 sq.m.\nStep 3: Height = Volume / Base area = 12.936 / 3.528 = 3.666... ≈ 3.67 m.\n\nFinal Answer: Volume of tank = 12.936 m^3. Height of sump = approximately 3.67 m."
+            }
+          ]
+        },
+        {
+          "type": "mcq",
+          "label": "MCQ",
+          "items": [
+            {
+              "mcq_num": 1,
+              "difficulty": "Easy",
+              "question": "Volume of a cylinder with r = 7 cm and h = 10 cm is: (pi = 22/7)",
+              "options": {
+                "A": "1540 cm^3   (B) 770 cm^3   (C) 3080 cm^3   (D) 308 cm^3"
+              },
+              "answer": "A",
+              "explanation": "V = (22/7) x 49 x 10 = 1540 cm^3."
+            },
+            {
+              "mcq_num": 2,
+              "difficulty": "Easy",
+              "question": "Volume of cylinder = ?",
+              "options": {
+                "A": "2*pi*r*h   (B) pi*r^2*h   (C) pi*r^2   (D) 2*pi*r(r+h)"
+              },
+              "answer": "B",
+              "explanation": "Volume = pi*r^2*h = area of circular base x height."
+            },
+            {
+              "mcq_num": 3,
+              "difficulty": "Medium",
+              "question": "Volume of a cylinder is:",
+              "options": {
+                "A": "2*pi*r*h   (B) pi*r*h   (C) pi*r^2*h   (D) 2*pi*r^2*h"
+              },
+              "answer": "C",
+              "explanation": "Volume = pi*r^2*h."
+            },
+            {
+              "mcq_num": 4,
+              "difficulty": "Medium",
+              "question": "A cylindrical tank of r = 7 m, h = 3 m. Its capacity in litres is: (pi = 22/7)",
+              "options": {
+                "A": "462 L   (B) 4620 L   (C) 462000 L   (D) 46200 L"
+              },
+              "answer": "C",
+              "explanation": "V = (22/7) x 49 x 3 = 462 m^3 = 462 x 1000 = 462000 L."
+            },
+            {
+              "mcq_num": 5,
+              "difficulty": "Hard",
+              "question": "A cylinder has volume 770 cm^3 and radius 7 cm. Its height is: (pi = 22/7)",
+              "options": {
+                "A": "4 cm   (B) 5 cm   (C) 6 cm   (D) 7 cm"
+              },
+              "answer": "B",
+              "explanation": "770 = (22/7) x 49 x h => 770 = 154h => h = 5 cm."
+            },
+            {
+              "mcq_num": 6,
+              "difficulty": "Hard",
+              "question": "A cylindrical well of r = 1.4 m and h = 10 m. Volume of earth dug is: (pi = 22/7)",
+              "options": {
+                "A": "44 m^3   (B) 61.6 m^3   (C) 88 m^3   (D) 30.8 m^3"
+              },
+              "answer": "B",
+              "explanation": "V = (22/7) x 1.4^2 x 10 = (22/7) x 1.96 x 10 = 22 x 0.28 x 10 = 61.6 m^3. ----------------------------------------------------------------"
+            }
+          ]
+        },
+        {
+          "type": "definition",
+          "label": "Definition:",
+          "text": "VOLUME refers to the amount of space occupied by an object.\nCAPACITY refers to the quantity that a container can hold (liquid/gas)."
+        },
+        {
+          "type": "key_points",
+          "label": "Key Points:",
+          "points": [
+            "Volume and capacity are closely related but slightly different.",
+            "Volume = space the object occupies.",
+            "Capacity = how much liquid or material the container can hold.",
+            "If a water tin holds 100 cm^3 of water, the capacity of the tin is 100 cm^3.",
+            "1 mL = 1 cm^3, 1 L = 1000 cm^3, 1 m^3 = 1000000 cm^3 = 1000 L."
+          ]
+        },
+        {
+          "type": "list_of_topics",
+          "label": "LIST OF SUB TOPICS IN THIS TOPIC:",
+          "items": [
+            "- None (no sub-topics in textbook for 9.6)"
+          ]
+        },
+        {
+          "type": "formulas",
+          "label": "FORMULA:",
+          "items": [
+            "Capacity Conversions:",
+            "1 mL = 1 cm^3",
+            "1 L = 1000 cm^3 = 1000 mL",
+            "1 m^3 = 1000000 cm^3 = 1000 L",
+            "EXAMPLES:",
+            "EXAMPLE 9.6.1:",
+            "PROBLEM: Find the height of a cuboid whose volume is 275 cm^3 and base area is 25 sq.cm. (Also relates to capacity)",
+            "SOLUTION:",
+            "Step 1: Volume = Base area x Height",
+            "275 = 25 x Height",
+            "Step 2: Height = 275/25 = 11 cm.",
+            "ANSWER: Height = 11 cm.",
+            "ADDITIONAL CALCULATIONS:",
+            "Problem 1: A cylindrical tank has volume 49.5 m^3. Find its capacity in litres.",
+            "Solution: Capacity = 49.5 x 1000 = 49,500 litres.",
+            "Answer: 49,500 litres.",
+            "Problem 2: A cuboidal reservoir has volume 108 m^3. Water is poured at 60 litres per minute. How many hours to fill?",
+            "Solution:",
+            "Capacity = 108 m^3 = 108 x 1000 L = 108000 L.",
+            "Time = 108000 / 60 = 1800 minutes = 1800/60 = 30 hours.",
+            "Answer: 30 hours."
+          ]
+        },
+        {
+          "type": "qa",
+          "label": "TOPIC 9.6: Q&A",
+          "items": []
+        },
+        {
+          "type": "qa",
+          "label": "Q&A",
+          "items": [
+            {
+              "q_num": 1,
+              "marks": 2,
+              "question": "What is the difference between volume and capacity?",
+              "answer": "VOLUME is the amount of space occupied by a 3D object. It tells how much space the object takes up.\nCAPACITY is how much a container can hold (liquid, gas, or solid). It refers to the inside space.\nExample: The volume of a water tank includes the walls. Capacity is only the water it can hold inside."
+            },
+            {
+              "q_num": 2,
+              "marks": 2,
+              "question": "State the conversion between litre, mL and cm^3.",
+              "answer": "1 mL = 1 cm^3.\n1 L = 1000 mL = 1000 cm^3.\n1 m^3 = 10,00,000 cm^3 = 1000 L.\nSo to convert m^3 to litres, multiply by 1000. To convert cm^3 to litres, divide by 1000."
+            },
+            {
+              "q_num": 3,
+              "marks": 2,
+              "question": "Convert: (i) 2.5 L to cm^3. (ii) 49.5 m^3 to litres.",
+              "answer": "(i) 2.5 L = 2.5 x 1000 = 2500 cm^3.\n(ii) 49.5 m^3 = 49.5 x 1000 = 49,500 litres.\n\n---\n\n3 ಮಾರ್ಕ್ಸ್ × 2 questions:"
+            },
+            {
+              "q_num": 4,
+              "marks": 3,
+              "question": "A cylindrical tank of r = 1.4 m, h = 5 m is filled with water. Find the capacity in litres and the time to fill it if a pipe fills at 200 L per minute. (pi = 22/7)",
+              "answer": "Step 1: V = (22/7) x 1.4^2 x 5 = (22/7) x 1.96 x 5 = 22 x 1.4 = 30.8 m^3.\nStep 2: Capacity = 30.8 x 1000 = 30,800 L.\nStep 3: Time = 30,800 / 200 = 154 minutes.\nAnswer: Capacity = 30,800 L. Time = 154 minutes."
+            },
+            {
+              "q_num": 5,
+              "marks": 3,
+              "question": "A cuboidal tank (4 m x 3 m x 2 m) is three-quarters full of water. How many litres of water does it contain?",
+              "answer": "Step 1: Total volume = 4 x 3 x 2 = 24 m^3.\nStep 2: Three-quarters full: Volume of water = (3/4) x 24 = 18 m^3.\nStep 3: Capacity = 18 x 1000 = 18,000 litres.\nAnswer: 18,000 litres of water.\n\n---\n\n4 ಮಾರ್ಕ್ಸ್ × 2 questions:"
+            },
+            {
+              "q_num": 6,
+              "marks": 4,
+              "question": "A swimming pool (50 m x 15 m x 2 m) is to be filled using a pipe that delivers 2000 litres per minute. Find (i) volume in m^3, (ii) capacity in litres, (iii) time to fill in hours.",
+              "answer": "Step 1: Volume = 50 x 15 x 2 = 1500 m^3.\nStep 2: Capacity = 1500 x 1000 = 15,00,000 litres.\nStep 3: Time = 15,00,000 / 2000 = 750 minutes = 750/60 = 12.5 hours.\nAnswer: Volume = 1500 m^3. Capacity = 15,00,000 L. Time = 12.5 hours."
+            },
+            {
+              "q_num": 7,
+              "marks": 4,
+              "question": "A village has a cylindrical water storage tank (r = 2.8 m, h = 5 m). Each family needs 200 litres per day. If the tank is filled once a day, how many families can be supplied? (pi = 22/7)",
+              "answer": "Step 1: r = 2.8 m, h = 5 m.\nStep 2: V = (22/7) x 2.8^2 x 5 = (22/7) x 7.84 x 5 = (22 x 7.84 x 5)/7 = 22 x 5.6 = 123.2 m^3.\nStep 3: Capacity = 123.2 x 1000 = 1,23,200 litres.\nStep 4: Families = 1,23,200 / 200 = 616 families.\nAnswer: 616 families can be supplied.\n\n---\n\n5 ಮಾರ್ಕ್ಸ್ × 1 question:"
+            },
+            {
+              "q_num": 8,
+              "marks": 5,
+              "question": "A water supply system has a cylindrical overhead tank (r = 1.75 m, h = 4 m) and delivers water to a colony through a rectangular channel (2 m x 0.5 m). Find (A) the capacity of the overhead tank in litres and (B) if the channel is 10 m long and water flows at a depth of 0.4 m, find the volume of water currently in the channel. (pi = 22/7)",
+              "answer": "PART A — Capacity of Overhead Tank:\nStep 1: r = 1.75 m, h = 4 m, pi = 22/7.\nStep 2: V = (22/7) x (1.75)^2 x 4\n= (22/7) x 3.0625 x 4\n= (22 x 12.25)/7\n= 269.5/7 = 38.5 m^3.\nStep 3: Capacity = 38.5 x 1000 = 38,500 litres.\n\nPART B — Volume of Water in Channel:\nStep 1: Channel: length = 10 m, width = 2 m, water depth = 0.4 m.\nStep 2: Volume = l x b x h = 10 x 2 x 0.4 = 8 m^3.\nStep 3: In litres = 8 x 1000 = 8000 litres.\n\nFinal Answer: Tank capacity = 38,500 litres. Water in channel = 8000 litres."
+            }
+          ]
+        },
+        {
+          "type": "mcq",
+          "label": "MCQ",
+          "items": [
+            {
+              "mcq_num": 1,
+              "difficulty": "Easy",
+              "question": "1 litre is equal to:",
+              "options": {
+                "A": "100 cm^3   (B) 1000 cm^3   (C) 10 cm^3   (D) 10000 cm^3"
+              },
+              "answer": "B",
+              "explanation": "1 L = 1000 mL = 1000 cm^3."
+            },
+            {
+              "mcq_num": 2,
+              "difficulty": "Easy",
+              "question": "1 mL = ?",
+              "options": {
+                "A": "1 L   (B) 1 cm^3   (C) 1 m^3   (D) 10 cm^3"
+              },
+              "answer": "B",
+              "explanation": "1 mL = 1 cm^3. This is the basic capacity-volume link."
+            },
+            {
+              "mcq_num": 3,
+              "difficulty": "Medium",
+              "question": "1 m^3 = _______ litres.",
+              "options": {
+                "A": "100   (B) 10000   (C) 1000   (D) 100000"
+              },
+              "answer": "C",
+              "explanation": "1 m^3 = 1000000 cm^3 = 1000 L."
+            },
+            {
+              "mcq_num": 4,
+              "difficulty": "Medium",
+              "question": "Volume refers to:",
+              "options": {
+                "A": "Area of surface   (B) Amount of space an object occupies   (C) Weight of the object   (D) Quantity a container holds"
+              },
+              "answer": "B",
+              "explanation": "Volume = space occupied. Capacity = how much a container holds."
+            },
+            {
+              "mcq_num": 5,
+              "difficulty": "Hard",
+              "question": "A tank holds 50 m^3 of water. Its capacity in litres is:",
+              "options": {
+                "A": "5000 L   (B) 50000 L   (C) 500 L   (D) 500000 L"
+              },
+              "answer": "B",
+              "explanation": "50 m^3 = 50 x 1000 L = 50,000 L."
+            },
+            {
+              "mcq_num": 6,
+              "difficulty": "Hard",
+              "question": "A cuboidal tank (3 m x 2 m x h) has capacity 12000 litres. Find h.",
+              "options": {
+                "A": "1 m   (B) 2 m   (C) 3 m   (D) 4 m"
+              },
+              "answer": "B",
+              "explanation": "12000 L = 12 m^3. V = 3 x 2 x h = 12 => 6h = 12 => h = 2 m."
+            }
+          ]
+        }
+      ],
+      "subtopics": []
+    }
+  ]
+}

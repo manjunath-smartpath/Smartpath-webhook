@@ -1,0 +1,682 @@
+{
+  "metadata": {
+    "class": "8th STANDARD",
+    "subject": "Mathematics",
+    "part": "1",
+    "chapter_num": "2",
+    "chapter_name": "LINEAR EQUATIONS IN ONE VARIABLE",
+    "source": "KSEEB Textbook 2025-26",
+    "mode": "B"
+  },
+  "chapter_sections": [
+    {
+      "type": "definition",
+      "label": "Definition:",
+      "text": "A LINEAR EQUATION IN ONE VARIABLE is an equation formed using linear\nexpressions in one variable only. The highest power of the variable in\nthe equation is 1."
+    },
+    {
+      "type": "key_points",
+      "label": "Key Points:",
+      "points": [
+        "An ALGEBRAIC EQUATION is an equality involving variables. It has an",
+        "equality (=) sign.",
+        "The expression on the left of the equality sign is the Left Hand Side (LHS).",
+        "The expression on the right of the equality sign is the Right Hand Side (RHS).",
+        "Equations use the equality (=) sign; it is missing in expressions.",
+        "A LINEAR EXPRESSION is one where the highest power of the variable is 1.",
+        "In an equation, the values of LHS and RHS are equal only for certain",
+        "values of the variable. These values are the SOLUTIONS of the equation.",
+        "To find the solution, we perform the same mathematical operations on",
+        "both sides so that the balance is not disturbed."
+      ]
+    },
+    {
+      "type": "list_of_topics",
+      "label": "LIST OF TOPICS IN THIS CHAPTER:",
+      "items": [
+        "- Topic 2.1: Introduction",
+        "- Topic 2.2: Solving Equations having the Variable on both Sides",
+        "- Topic 2.3: Reducing Equations to Simpler Form",
+        "EXAMPLES: (textbook examples — Chapter level overview)",
+        "EXAMPLE 2.1: Solve 2x - 3 = x + 2",
+        "PROBLEM: Solve 2x - 3 = x + 2",
+        "SOLUTION:",
+        "Step 1: 2x - 3 = x + 2",
+        "Step 2: 2x = x + 2 + 3        (transposing -3 to RHS)",
+        "Step 3: 2x = x + 5",
+        "Step 4: 2x - x = x + 5 - x    (subtracting x from both sides)",
+        "Step 5: x = 5",
+        "ANSWER: x = 5",
+        "EXAMPLE 2.2: Solve 5x + 7/2 = (3/2)x - 14",
+        "PROBLEM: Solve 5x + 7/2 = (3/2)x - 14",
+        "SOLUTION:",
+        "Step 1: Multiply both sides by 2",
+        "2(5x + 7/2) = 2((3/2)x - 14)",
+        "Step 2: 10x + 7 = 3x - 28",
+        "Step 3: 10x - 3x + 7 = -28    (transposing 3x to LHS)",
+        "Step 4: 7x + 7 = -28",
+        "Step 5: 7x = -28 - 7",
+        "Step 6: 7x = -35",
+        "Step 7: x = -35/7",
+        "ANSWER: x = -5",
+        "EXAMPLE 2.3: Solve (6x+1)/3 + 1 = (x-3)/6",
+        "PROBLEM: Solve (6x+1)/3 + 1 = (x-3)/6",
+        "SOLUTION:",
+        "Step 1: Multiply both sides by 6 (LCM of 3 and 6)",
+        "6(6x+1)/3 + 6 × 1 = 6(x-3)/6",
+        "Step 2: 2(6x+1) + 6 = (x-3)",
+        "Step 3: 12x + 2 + 6 = x - 3   (opening the brackets)",
+        "Step 4: 12x + 8 = x - 3",
+        "Step 5: 12x - x + 8 = -3",
+        "Step 6: 11x + 8 = -3",
+        "Step 7: 11x = -3 - 8",
+        "Step 8: 11x = -11",
+        "ANSWER: x = -1",
+        "CHECK: LHS = (6(-1)+1)/3 + 1 = -5/3 + 3/3 = -2/3",
+        "RHS = (-1-3)/6 = -4/6 = -2/3",
+        "LHS = RHS (as required)",
+        "EXAMPLE 2.4: Solve 5x - 2(2x-7) = 2(3x-1) + 7/2",
+        "PROBLEM: Solve 5x - 2(2x-7) = 2(3x-1) + 7/2",
+        "SOLUTION:",
+        "Step 1: Open the brackets",
+        "LHS = 5x - 4x + 14 = x + 14",
+        "RHS = 6x - 2 + 7/2 = 6x - 4/2 + 7/2 = 6x + 3/2",
+        "Step 2: Equation becomes: x + 14 = 6x + 3/2",
+        "Step 3: 14 = 6x - x + 3/2",
+        "Step 4: 14 = 5x + 3/2",
+        "Step 5: 14 - 3/2 = 5x         (transposing 3/2)",
+        "Step 6: 28/2 - 3/2 = 5x",
+        "Step 7: 25/2 = 5x",
+        "Step 8: x = 25/2 x 1/5 = 5/2",
+        "ANSWER: x = 5/2",
+        "CHECK: LHS = 5(5/2) - 2(5/2 x 2 - 7) = 25/2 - 2(-2) = 25/2 + 4 = 33/2",
+        "RHS = 2(5/2 x 3 - 1) + 7/2 = 2(13/2) + 7/2 = 26/2 + 7/2 = 33/2",
+        "LHS = RHS (as required)"
+      ]
+    },
+    {
+      "type": "textbook_exercises",
+      "label": "EXERCISE 2.1: (Textbook Exercise)",
+      "items": []
+    },
+    {
+      "type": "textbook_exercises",
+      "label": "EXERCISE 2.2: (Textbook Exercise)",
+      "items": []
+    }
+  ],
+  "topics": [
+    {
+      "topic_num": "2.1",
+      "topic_name": "INTRODUCTION",
+      "mode": "B",
+      "sections": [
+        {
+          "type": "definition",
+          "label": "Definition:",
+          "text": "An ALGEBRAIC EQUATION is an equality involving variables. It has an\nequality sign (=). The expression on the left of the equality sign is\nthe Left Hand Side (LHS). The expression on the right is the Right\nHand Side (RHS)."
+        },
+        {
+          "type": "key_points",
+          "label": "Key Points:",
+          "points": [
+            "Equations use the equality (=) sign; expressions do not have this sign.",
+            "A LINEAR EXPRESSION has the highest power of the variable as 1.",
+            "LINEAR EQUATIONS IN ONE VARIABLE use linear expressions in one variable.",
+            "The SOLUTIONS of an equation are the values of the variable for which",
+            "LHS = RHS.",
+            "To solve an equation, perform the same operations on both sides to keep",
+            "the balance undisturbed.",
+            "Linear expressions: 2x, 2x+1, 3y-7, 12-5z, (5/4)(x-4)+10",
+            "NOT linear: x^2+1, y+y^2, 1+z+z^2+z^3 (highest power > 1)"
+          ]
+        },
+        {
+          "type": "list_of_topics",
+          "label": "LIST OF SUB TOPICS IN THIS TOPIC:",
+          "items": [
+            "- No sub-topics (textbook has no X.Y.Z numbering under Topic 2.1)",
+            "EXAMPLES: (textbook examples)",
+            "EXAMPLE 2.1.1: Solution check for 2x - 3 = 7",
+            "PROBLEM: Is x = 5 a solution of 2x - 3 = 7? Is x = 10 a solution?",
+            "SOLUTION:",
+            "Step 1: For x = 5: LHS = 2(5) - 3 = 10 - 3 = 7 = RHS → x = 5 IS a solution",
+            "Step 2: For x = 10: LHS = 2(10) - 3 = 20 - 3 = 17 ≠ 7 (RHS) → x = 10 is NOT",
+            "ANSWER: x = 5 is the solution of 2x - 3 = 7"
+          ]
+        },
+        {
+          "type": "qa",
+          "label": "TOPIC 2.1: Q&A:",
+          "items": []
+        },
+        {
+          "type": "qa",
+          "label": "Q&A",
+          "items": [
+            {
+              "q_num": 1,
+              "marks": 2,
+              "question": "What is a linear equation in one variable?",
+              "answer": "A linear equation in one variable is an equation formed using a linear\nexpression in one variable only, where the highest power of the variable\nis 1. Examples: 2x - 3 = 7, 5x = 25, 6z + 10 = -2."
+            },
+            {
+              "q_num": 2,
+              "marks": 2,
+              "question": "What is the difference between an algebraic expression and",
+              "answer": "An algebraic expression does not have an equality sign (=). An equation\nhas an equality sign. For example, 2x - 3 is an expression, while 2x - 3 = 7\nis an equation. Equations have LHS and RHS; expressions do not."
+            },
+            {
+              "q_num": 3,
+              "marks": 2,
+              "question": "What are LHS and RHS of an equation?",
+              "answer": "LHS (Left Hand Side) is the expression on the left of the equality sign.\nRHS (Right Hand Side) is the expression on the right. In 2x - 3 = 7,\nLHS = 2x - 3 and RHS = 7.\n\n---\n\n3 ಮಾರ್ಕ್ಸ್ × 2 questions:"
+            },
+            {
+              "q_num": 4,
+              "marks": 3,
+              "question": "Give two examples each of linear and non-linear expressions.",
+              "answer": "Step 1: A LINEAR EXPRESSION has the highest power of the variable as 1.\nExamples: 3y - 7, 12 - 5z, 2x + 1\nStep 2: A NON-LINEAR EXPRESSION has the highest power of the variable\ngreater than 1.\nExamples: x^2 + 1, y + y^2, 1 + z + z^2 + z^3\nStep 3: In linear equations in one variable, only linear expressions are\nused. The variable must appear with power 1 only."
+            },
+            {
+              "q_num": 5,
+              "marks": 3,
+              "question": "How do we find the solution of an equation?",
+              "answer": "Step 1: We assume that the two sides of the equation are balanced, like a\nweighing scale with equal weights on both sides.\nStep 2: We perform the same mathematical operation (add, subtract, multiply,\nor divide) on both sides of the equation, so that the balance is\nnot disturbed.\nStep 3: A few such steps isolate the variable and give the solution. For\nexample, in x + 5 = 9, subtracting 5 from both sides gives x = 4.\n\n---\n\n4 ಮಾರ್ಕ್ಸ್ × 2 questions:"
+            },
+            {
+              "q_num": 6,
+              "marks": 4,
+              "question": "Is x = 5 a solution of 2x - 3 = 7? Is x = 10 a solution?",
+              "answer": "Step 1: For x = 5: Substitute in LHS = 2(5) - 3 = 10 - 3 = 7.\nRHS = 7. Since LHS = RHS, x = 5 IS a solution.\nStep 2: For x = 10: Substitute in LHS = 2(10) - 3 = 20 - 3 = 17.\nRHS = 7. Since LHS ≠ RHS (17 ≠ 7), x = 10 is NOT a solution.\nStep 3: Only the value x = 5 satisfies the equation 2x - 3 = 7.\nStep 4: This shows that a linear equation in one variable has exactly one\nsolution — the unique value that makes LHS = RHS."
+            },
+            {
+              "q_num": 7,
+              "marks": 4,
+              "question": "Classify the following as linear or non-linear expressions",
+              "answer": "Step 1: 2x → LINEAR. Highest power of x is 1.\nStep 2: x^2 + 1 → NON-LINEAR. Highest power of x is 2.\nStep 3: 3y - 7 → LINEAR. Highest power of y is 1.\nStep 4: 2xy + 5 → NOT a one-variable expression. Has two variables x and y.\nCannot form a linear equation in one variable.\nStep 5: (5/4)(x-4) + 10 → LINEAR. Expands to (5/4)x - 5 + 10 = (5/4)x + 5.\nHighest power of x is 1.\nStep 6: y + y^2 → NON-LINEAR. Highest power of y is 2."
+            }
+          ]
+        },
+        {
+          "type": "mcq",
+          "label": "MCQ",
+          "items": [
+            {
+              "mcq_num": 1,
+              "difficulty": "Easy",
+              "question": "Which of the following is NOT a linear expression?",
+              "options": {
+                "A": "2x + 1    (B) 3y - 7    (C) x^2 + 1    (D) 12 - 5z"
+              },
+              "answer": "C",
+              "explanation": "Highest power of variable is 2, not 1"
+            },
+            {
+              "mcq_num": 2,
+              "difficulty": "Easy",
+              "question": "Which of the following is an equation (not an expression)?",
+              "options": {
+                "A": "2x - 3    (B) 3y + 7    (C) 5z    (D) 2x - 3 = 7"
+              },
+              "answer": "D",
+              "explanation": "Only equations have an equality sign ="
+            },
+            {
+              "mcq_num": 3,
+              "difficulty": "Easy",
+              "question": "In the equation 6z + 10 = -2, what is the RHS?",
+              "options": {
+                "A": "6z + 10    (B) 6z    (C) -2    (D) 10"
+              },
+              "answer": "C",
+              "explanation": "Expression on the right of the equality sign is RHS"
+            },
+            {
+              "mcq_num": 4,
+              "difficulty": "Medium",
+              "question": "x = 5 is a solution of which equation?",
+              "options": {
+                "A": "2x - 3 = 10    (B) x + 5 = 10    (C) 3x = 20    (D) x - 2 = 8"
+              },
+              "answer": "B",
+              "explanation": "5 + 5 = 10, LHS = RHS"
+            },
+            {
+              "mcq_num": 5,
+              "difficulty": "Medium",
+              "question": "Which of the following expressions is linear in one variable?",
+              "options": {
+                "A": "2xy + 5    (B) x^2 + y^2    (C) (5/4)(x - 4) + 10    (D) 1 + z + z^2"
+              },
+              "answer": "C",
+              "explanation": "Expands to (5/4)x + 5, highest power of x is 1"
+            },
+            {
+              "mcq_num": 6,
+              "difficulty": "Hard",
+              "question": "How many solutions does a linear equation in one variable have?",
+              "options": {
+                "A": "0    (B) 1    (C) 2    (D) Infinitely many"
+              },
+              "answer": "B",
+              "explanation": "A linear equation in one variable has exactly one solution"
+            },
+            {
+              "mcq_num": 7,
+              "difficulty": "Hard",
+              "question": "For the equation 2x - 3 = 7, which value is NOT a solution?",
+              "options": {
+                "A": "x = 5    (B) x = 10    (C) Both x=5 and x=10    (D) Neither"
+              },
+              "answer": "B",
+              "explanation": "For x=10: LHS = 2(10)-3 = 17 ≠ 7 = RHS, so x=10 is not a solution"
+            }
+          ]
+        }
+      ],
+      "subtopics": []
+    },
+    {
+      "topic_num": "2.2",
+      "topic_name": "SOLVING EQUATIONS HAVING THE VARIABLE ON BOTH SIDES",
+      "mode": "B",
+      "sections": [
+        {
+          "type": "definition",
+          "label": "Definition:",
+          "text": "When both the LHS and RHS of an equation contain expressions with\nthe variable, the equation is said to have the variable on both sides.\nWe solve such equations by collecting all variable terms on one side\nand all constants on the other side."
+        },
+        {
+          "type": "key_points",
+          "label": "Key Points:",
+          "points": [
+            "Earlier, most equations had a number on one side (RHS was just a number).",
+            "Now, both sides can have expressions with variables.",
+            "Example: 2x - 3 = x + 2 (variable x appears on both sides).",
+            "We can subtract a variable term from both sides, just as we subtract numbers.",
+            "Subtracting x from both sides is the same as transposing x to LHS.",
+            "METHOD:",
+            "Step 1: Collect all variable terms on one side (usually LHS).",
+            "Step 2: Collect all constants on the other side (RHS).",
+            "Step 3: Simplify and find the value of the variable."
+          ]
+        },
+        {
+          "type": "list_of_topics",
+          "label": "LIST OF SUB TOPICS IN THIS TOPIC:",
+          "items": [
+            "- No sub-topics (textbook has no X.Y.Z numbering under Topic 2.2)",
+            "EXAMPLES: (textbook examples)",
+            "EXAMPLE 2.2.1: Solve 2x - 3 = x + 2",
+            "PROBLEM: Solve 2x - 3 = x + 2",
+            "SOLUTION:",
+            "Step 1: 2x - 3 = x + 2",
+            "Step 2: 2x = x + 2 + 3        (transposing -3 to RHS)",
+            "Step 3: 2x = x + 5",
+            "Step 4: 2x - x = x + 5 - x    (subtracting x from both sides)",
+            "Step 5: x = 5",
+            "ANSWER: x = 5",
+            "EXAMPLE 2.2.2: Solve 5x + 7/2 = (3/2)x - 14",
+            "PROBLEM: Solve 5x + 7/2 = (3/2)x - 14",
+            "SOLUTION:",
+            "Step 1: Multiply both sides by 2",
+            "2(5x + 7/2) = 2((3/2)x - 14)",
+            "Step 2: 10x + 7 = 3x - 28",
+            "Step 3: 10x - 3x + 7 = -28    (transposing 3x to LHS)",
+            "Step 4: 7x + 7 = -28",
+            "Step 5: 7x = -28 - 7",
+            "Step 6: 7x = -35",
+            "ANSWER: x = -5",
+            "CHECK: LHS = 5(-5) + 7/2 = -25 + 7/2 = -50/2 + 7/2 = -43/2",
+            "RHS = (3/2)(-5) - 14 = -15/2 - 28/2 = -43/2",
+            "LHS = RHS ✓"
+          ]
+        },
+        {
+          "type": "textbook_exercises",
+          "label": "EXERCISE 2.1: (Textbook Exercise — belongs to Topic 2.2)",
+          "items": []
+        },
+        {
+          "type": "qa",
+          "label": "TOPIC 2.2: Q&A:",
+          "items": []
+        },
+        {
+          "type": "qa",
+          "label": "Q&A",
+          "items": [
+            {
+              "q_num": 1,
+              "marks": 2,
+              "question": "What is meant by a variable on both sides of an equation?",
+              "answer": "When both LHS and RHS contain expressions with the variable, the\nequation is said to have the variable on both sides. For example, in\n2x - 3 = x + 2, the variable x appears on both sides of the equation."
+            },
+            {
+              "q_num": 2,
+              "marks": 2,
+              "question": "Solve 3x = 2x + 18.",
+              "answer": "3x - 2x = 18   (transposing 2x to LHS)\nx = 18\nTherefore x = 18 is the solution."
+            },
+            {
+              "q_num": 3,
+              "marks": 2,
+              "question": "What is transposition?",
+              "answer": "Moving a term from one side of the equation to the other side by\nchanging its sign is called transposition. It is equivalent to performing\nthe same operation on both sides. Example: transposing +3 from LHS to RHS\nchanges it to -3.\n\n---\n\n3 ಮಾರ್ಕ್ಸ್ × 2 questions:"
+            },
+            {
+              "q_num": 4,
+              "marks": 3,
+              "question": "Why can we subtract a variable term from both sides of an",
+              "answer": "Step 1: Variables are also numbers. So just as we can subtract a number\nfrom both sides, we can subtract a variable term from both sides\nwithout disturbing the balance of the equation.\nStep 2: Solve 5t - 3 = 3t - 5:\n5t - 3t = -5 + 3   (transposing 3t to LHS and -3 to RHS)\n2t = -2\nStep 3: t = -1   (solution)"
+            },
+            {
+              "q_num": 5,
+              "marks": 3,
+              "question": "Solve 5x + 9 = 5 + 3x. Verify the solution.",
+              "answer": "Step 1: 5x - 3x = 5 - 9   (transposing 3x to LHS and 9 to RHS)\n2x = -4\nx = -2\nStep 2: Verify: LHS = 5(-2) + 9 = -10 + 9 = -1\nRHS = 5 + 3(-2) = 5 - 6 = -1\nStep 3: LHS = RHS = -1 ✓   Solution x = -2 is correct.\n\n---\n\n4 ಮಾರ್ಕ್ಸ್ × 2 questions:"
+            },
+            {
+              "q_num": 6,
+              "marks": 4,
+              "question": "Solve 5x + 7/2 = (3/2)x - 14 and verify the solution.",
+              "answer": "Step 1: Multiply both sides by 2 to clear fractions:\n2(5x + 7/2) = 2((3/2)x - 14)\n10x + 7 = 3x - 28\nStep 2: Transpose: 10x - 3x = -28 - 7\n7x = -35\nStep 3: x = -35/7 = -5\nStep 4: Verify: LHS = 5(-5) + 7/2 = -25 + 3.5 = -43/2\nRHS = (3/2)(-5) - 14 = -7.5 - 14 = -43/2\nLHS = RHS ✓"
+            },
+            {
+              "q_num": 7,
+              "marks": 4,
+              "question": "Solve the equations 2x - 1 = 14 - x and 8x + 4 = 3(x-1) + 7.",
+              "answer": "PART A — Solve 2x - 1 = 14 - x:\nStep 1: 2x + x = 14 + 1   (transposing -x to LHS and -1 to RHS)\n3x = 15\nStep 2: x = 5\n\nPART B — Solve 8x + 4 = 3(x-1) + 7:\nStep 1: Open bracket on RHS: 8x + 4 = 3x - 3 + 7 = 3x + 4\nStep 2: 8x - 3x = 4 - 4\n5x = 0\nStep 3: x = 0"
+            }
+          ]
+        },
+        {
+          "type": "mcq",
+          "label": "MCQ",
+          "items": [
+            {
+              "mcq_num": 1,
+              "difficulty": "Easy",
+              "question": "Solve 3x = 2x + 18.",
+              "options": {
+                "A": "x = 6    (B) x = 18    (C) x = 9    (D) x = 36"
+              },
+              "answer": "B",
+              "explanation": "3x - 2x = 18 → x = 18"
+            },
+            {
+              "mcq_num": 2,
+              "difficulty": "Easy",
+              "question": "In 2x - 3 = x + 2, what is the first step to solve?",
+              "options": {
+                "A": "Multiply both sides by 2",
+                "B": "Subtract x from both sides",
+                "C": "Add 3 to both sides",
+                "D": "Divide both sides by 2"
+              },
+              "answer": "B",
+              "explanation": "This collects variable on LHS: 2x - x = 2 + 3"
+            },
+            {
+              "mcq_num": 3,
+              "difficulty": "Easy",
+              "question": "Solve 4z + 3 = 6 + 2z.",
+              "options": {
+                "A": "z = 3    (B) z = 3/2    (C) z = 9/2    (D) z = 1"
+              },
+              "answer": "B",
+              "explanation": "4z - 2z = 6 - 3 → 2z = 3 → z = 3/2"
+            },
+            {
+              "mcq_num": 4,
+              "difficulty": "Medium",
+              "question": "Solve 5t - 3 = 3t - 5.",
+              "options": {
+                "A": "t = -1    (B) t = 1    (C) t = 4    (D) t = -4"
+              },
+              "answer": "A",
+              "explanation": "5t - 3t = -5 + 3 → 2t = -2 → t = -1"
+            },
+            {
+              "mcq_num": 5,
+              "difficulty": "Medium",
+              "question": "Solve 8x + 4 = 3(x - 1) + 7.",
+              "options": {
+                "A": "x = 0    (B) x = 1    (C) x = -1    (D) x = 2"
+              },
+              "answer": "A",
+              "explanation": "8x + 4 = 3x + 4 → 5x = 0 → x = 0"
+            },
+            {
+              "mcq_num": 6,
+              "difficulty": "Hard",
+              "question": "Solve 2y + 5/3 = 26/3 - y.",
+              "options": {
+                "A": "y = 7/3    (B) y = 3    (C) y = 7    (D) y = 1"
+              },
+              "answer": "A",
+              "explanation": "3y = 26/3 - 5/3 = 21/3 = 7 → y = 7/3"
+            },
+            {
+              "mcq_num": 7,
+              "difficulty": "Hard",
+              "question": "Solve 2x/3 + 1 = 7x/15 + 3.",
+              "options": {
+                "A": "x = 6    (B) x = 10    (C) x = 15    (D) x = 3"
+              },
+              "answer": "B",
+              "explanation": "LCM=15: 10x + 15 = 7x + 45 → 3x = 30 → x = 10"
+            }
+          ]
+        }
+      ],
+      "subtopics": []
+    },
+    {
+      "topic_num": "2.3",
+      "topic_name": "REDUCING EQUATIONS TO SIMPLER FORM",
+      "mode": "B",
+      "sections": [
+        {
+          "type": "definition",
+          "label": "Definition:",
+          "text": "When equations have fractions or brackets, the expressions forming the\nequations have to be SIMPLIFIED (reduced) before we can solve them by\nusual methods. We bring such equations to a simpler linear form by\nmultiplying both sides by the LCM of all denominators."
+        },
+        {
+          "type": "key_points",
+          "label": "Key Points:",
+          "points": [
+            "Some equations have fractions and are not in simple form.",
+            "Multiply both sides by the LCM of all denominators to clear fractions.",
+            "The LCM is the smallest multiple common to all denominators.",
+            "Sometimes we need to open brackets first, then collect like terms.",
+            "After reducing to simpler form, solve as a normal linear equation.",
+            "Always check the solution by substituting back into the original equation.",
+            "METHOD:",
+            "Step 1: Find LCM of all denominators.",
+            "Step 2: Multiply both sides by the LCM.",
+            "Step 3: Open brackets, collect like terms on each side.",
+            "Step 4: Solve the resulting simple linear equation.",
+            "Step 5: Check the solution."
+          ]
+        },
+        {
+          "type": "list_of_topics",
+          "label": "LIST OF SUB TOPICS IN THIS TOPIC:",
+          "items": [
+            "- No sub-topics (textbook has no X.Y.Z numbering under Topic 2.3)",
+            "EXAMPLES: (textbook examples)",
+            "EXAMPLE 2.3.1: Solve (6x+1)/3 + 1 = (x-3)/6",
+            "PROBLEM: Solve (6x+1)/3 + 1 = (x-3)/6",
+            "SOLUTION:",
+            "Step 1: LCM of 3 and 6 = 6. Multiply both sides by 6.",
+            "6(6x+1)/3 + 6 × 1 = 6(x-3)/6",
+            "Step 2: 2(6x+1) + 6 = (x-3)",
+            "Step 3: 12x + 2 + 6 = x - 3    (opening brackets)",
+            "Step 4: 12x + 8 = x - 3",
+            "Step 5: 12x - x = -3 - 8",
+            "Step 6: 11x = -11",
+            "ANSWER: x = -1",
+            "CHECK: LHS = (6(-1)+1)/3 + 1 = -5/3 + 1 = -5/3 + 3/3 = -2/3",
+            "RHS = (-1-3)/6 = -4/6 = -2/3",
+            "LHS = RHS (as required) ✓",
+            "EXAMPLE 2.3.2: Solve 5x - 2(2x-7) = 2(3x-1) + 7/2",
+            "PROBLEM: Solve 5x - 2(2x-7) = 2(3x-1) + 7/2",
+            "SOLUTION:",
+            "Step 1: Open the brackets",
+            "LHS = 5x - 4x + 14 = x + 14",
+            "RHS = 6x - 2 + 7/2 = 6x - 4/2 + 7/2 = 6x + 3/2",
+            "Step 2: Equation: x + 14 = 6x + 3/2",
+            "Step 3: 14 - 3/2 = 6x - x      (transposing)",
+            "Step 4: 28/2 - 3/2 = 5x",
+            "Step 5: 25/2 = 5x",
+            "Step 6: x = 25/2 x 1/5 = 5/2",
+            "ANSWER: x = 5/2",
+            "CHECK: LHS = 5(5/2) - 2(5-7) = 25/2 + 4 = 33/2",
+            "RHS = 2(15/2 - 1) + 7/2 = 13 + 7/2 = 26/2 + 7/2 = 33/2",
+            "LHS = RHS ✓"
+          ]
+        },
+        {
+          "type": "textbook_exercises",
+          "label": "EXERCISE 2.2: (Textbook Exercise — belongs to Topic 2.3)",
+          "items": []
+        },
+        {
+          "type": "qa",
+          "label": "TOPIC 2.3: Q&A:",
+          "items": []
+        },
+        {
+          "type": "qa",
+          "label": "Q&A",
+          "items": [
+            {
+              "q_num": 1,
+              "marks": 2,
+              "question": "Why do we multiply both sides of an equation by the LCM of",
+              "answer": "When an equation has fractions, multiplying both sides by the LCM of\nall denominators clears all fractions at once. This brings the equation to\na simpler linear form that can be solved easily by usual methods."
+            },
+            {
+              "q_num": 2,
+              "marks": 2,
+              "question": "What does \"reducing an equation to simpler form\" mean?",
+              "answer": "When equations have fractions or brackets, they are simplified before\nsolving. This involves clearing fractions using LCM, opening brackets, and\ncollecting like terms, so the equation becomes a simple linear equation."
+            },
+            {
+              "q_num": 3,
+              "marks": 2,
+              "question": "Solve (6x+1)/3 + 1 = (x-3)/6.",
+              "answer": "Multiply both sides by 6 (LCM of 3 and 6):\n2(6x+1) + 6 = x - 3\n12x + 8 = x - 3\n11x = -11\nx = -1\n\n---\n\n3 ಮಾರ್ಕ್ಸ್ × 2 questions:"
+            },
+            {
+              "q_num": 4,
+              "marks": 3,
+              "question": "Solve (x-5)/3 = (x-3)/5 and verify the solution.",
+              "answer": "Step 1: LCM of 3 and 5 = 15. Multiply both sides by 15:\n5(x-5) = 3(x-3)\nStep 2: 5x - 25 = 3x - 9\n5x - 3x = -9 + 25\n2x = 16 → x = 8\nStep 3: Verify: LHS = (8-5)/3 = 3/3 = 1\nRHS = (8-3)/5 = 5/5 = 1\nLHS = RHS ✓"
+            },
+            {
+              "q_num": 5,
+              "marks": 3,
+              "question": "Solve n/2 - 3n/4 + 5n/6 = 21.",
+              "answer": "Step 1: LCM of 2, 4, 6 = 12. Multiply both sides by 12:\n12(n/2) - 12(3n/4) + 12(5n/6) = 12 x 21\nStep 2: 6n - 9n + 10n = 252\n7n = 252\nStep 3: n = 252/7 = 36\n\n---\n\n4 ಮಾರ್ಕ್ಸ್ × 2 questions:"
+            },
+            {
+              "q_num": 6,
+              "marks": 4,
+              "question": "Solve 5x - 2(2x-7) = 2(3x-1) + 7/2 and verify.",
+              "answer": "Step 1: Open brackets:\nLHS = 5x - 4x + 14 = x + 14\nRHS = 6x - 2 + 7/2 = 6x - 4/2 + 7/2 = 6x + 3/2\nStep 2: Equation: x + 14 = 6x + 3/2\n14 - 3/2 = 6x - x\n25/2 = 5x\nStep 3: x = 25/2 x 1/5 = 5/2\nStep 4: Verify: LHS = 5(5/2) - 2(5-7) = 25/2 + 4 = 33/2\nRHS = 2(15/2 - 1) + 7/2 = 26/2 + 7/2 = 33/2 ✓"
+            },
+            {
+              "q_num": 7,
+              "marks": 4,
+              "question": "Solve the equations 3(t-3) = 5(2t+1) and 0.25(4f-3) = 0.05(10f-9).",
+              "answer": "PART A — Solve 3(t-3) = 5(2t+1):\nStep 1: Open brackets: 3t - 9 = 10t + 5\nStep 2: 3t - 10t = 5 + 9\n-7t = 14\nStep 3: t = -2\n\nPART B — Solve 0.25(4f-3) = 0.05(10f-9):\nStep 1: Open brackets: f - 0.75 = 0.5f - 0.45\nStep 2: f - 0.5f = -0.45 + 0.75\n0.5f = 0.3\nStep 3: f = 0.3/0.5 = 0.6"
+            }
+          ]
+        },
+        {
+          "type": "mcq",
+          "label": "MCQ",
+          "items": [
+            {
+              "mcq_num": 1,
+              "difficulty": "Easy",
+              "question": "While solving (6x+1)/3 + 1 = (x-3)/6, why do we multiply both sides by 6?",
+              "options": {
+                "A": "6 is the LCM of 3 and 6",
+                "B": "6 is the product of 3 and 6",
+                "C": "6 is greater than 3",
+                "D": "x = 6"
+              },
+              "answer": "A",
+              "explanation": "LCM clears all fractions in one step"
+            },
+            {
+              "mcq_num": 2,
+              "difficulty": "Easy",
+              "question": "Solve (6x+1)/3 + 1 = (x-3)/6.",
+              "options": {
+                "A": "x = 1    (B) x = -1    (C) x = 2    (D) x = -2"
+              },
+              "answer": "B",
+              "explanation": "11x = -11 → x = -1"
+            },
+            {
+              "mcq_num": 3,
+              "difficulty": "Easy",
+              "question": "What is the LCM of 2, 3, and 6?",
+              "options": {
+                "A": "12    (B) 36    (C) 6    (D) 18"
+              },
+              "answer": "C",
+              "explanation": "6 is the smallest number divisible by 2, 3, and 6"
+            },
+            {
+              "mcq_num": 4,
+              "difficulty": "Medium",
+              "question": "To solve x/2 - 1/5 = x/3 + 1/4, we multiply both sides by:",
+              "options": {
+                "A": "30    (B) 15    (C) 60    (D) 20"
+              },
+              "answer": "C",
+              "explanation": "LCM of 2, 5, 3, 4 = 60"
+            },
+            {
+              "mcq_num": 5,
+              "difficulty": "Medium",
+              "question": "Solve 3(t - 3) = 5(2t + 1).",
+              "options": {
+                "A": "t = 2    (B) t = -2    (C) t = 7    (D) t = -7"
+              },
+              "answer": "B",
+              "explanation": "3t - 9 = 10t + 5 → -7t = 14 → t = -2"
+            },
+            {
+              "mcq_num": 6,
+              "difficulty": "Hard",
+              "question": "Solve (x - 5)/3 = (x - 3)/5.",
+              "options": {
+                "A": "x = 6    (B) x = -8    (C) x = 8    (D) x = -6"
+              },
+              "answer": "C",
+              "explanation": "5x - 25 = 3x - 9 → 2x = 16 → x = 8"
+            },
+            {
+              "mcq_num": 7,
+              "difficulty": "Hard",
+              "question": "Solve n/2 - 3n/4 + 5n/6 = 21.",
+              "options": {
+                "A": "n = 12    (B) n = 24    (C) n = 36    (D) n = 48"
+              },
+              "answer": "C",
+              "explanation": "LCM=12: 6n - 9n + 10n = 252 → 7n = 252 → n = 36"
+            }
+          ]
+        }
+      ],
+      "subtopics": []
+    }
+  ]
+}

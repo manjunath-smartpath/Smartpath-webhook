@@ -1,0 +1,958 @@
+{
+  "metadata": {
+    "class": "9th STANDARD",
+    "subject": "Science",
+    "part": "1",
+    "chapter_num": "8",
+    "chapter_name": "FORCE AND LAWS OF MOTION",
+    "source": "KSEEB Textbook 2025-26",
+    "mode": "B"
+  },
+  "chapter_sections": [
+    {
+      "type": "definition",
+      "label": "DEFINITION:",
+      "text": "Force is a push or a pull. It is an interaction that, when applied to an object,\ncan change its state of rest or motion, change its speed or direction, or change\nits shape and size."
+    },
+    {
+      "type": "key_points",
+      "label": "KEY POINTS:",
+      "points": [
+        "Force can bring a stationary object into motion.",
+        "Force can stop a moving object or change its direction.",
+        "Force can change the speed (magnitude of velocity) of a moving object.",
+        "Force can change the shape and size of an object.",
+        "The effect of a force can only be described by observing what happens when it",
+        "is applied to an object.",
+        "Pushing, hitting and pulling objects are all ways of bringing objects in motion.",
+        "Newton's three laws of motion govern the motion of all objects.",
+        "The SI unit of force is newton (N), where 1 N = 1 kg m s^-2."
+      ]
+    },
+    {
+      "type": "list_of_topics",
+      "label": "LIST OF TOPICS:",
+      "items": [
+        "8.1 Balanced and Unbalanced Forces",
+        "8.2 First Law of Motion",
+        "8.3 Inertia and Mass",
+        "8.4 Second Law of Motion",
+        "8.5 Third Law of Motion"
+      ]
+    }
+  ],
+  "topics": [
+    {
+      "topic_num": "8.1",
+      "topic_name": "BALANCED AND UNBALANCED FORCES",
+      "mode": "B",
+      "sections": [
+        {
+          "type": "definition",
+          "label": "DEFINITION:",
+          "text": "Balanced forces are equal forces acting on an object in opposite directions such\nthat the net force is zero and the object does not change its state of rest or\nmotion. Unbalanced forces are forces where the net force acting on an object is\nnot zero, causing a change in the state of motion."
+        },
+        {
+          "type": "key_points",
+          "label": "KEY POINTS:",
+          "points": [
+            "When two equal and opposite forces act on a block, the forces are balanced and",
+            "the block does not move.",
+            "When forces of different magnitudes act in opposite directions, the net",
+            "unbalanced force acts in the direction of the greater force.",
+            "Balanced forces do NOT change the state of rest or uniform motion of an object.",
+            "An unbalanced force is required to accelerate an object (change its speed or",
+            "direction).",
+            "Friction is a force that acts opposite to the direction of motion; it is an",
+            "unbalanced force that decelerates objects.",
+            "When friction balances the applied pushing force, the object moves at uniform",
+            "velocity (no acceleration).",
+            "A bicycle slows when pedalling stops because friction (unbalanced force) acts",
+            "opposite to motion.",
+            "If an unbalanced force is removed completely, the object continues moving with",
+            "the velocity acquired at that instant."
+          ]
+        },
+        {
+          "type": "activity",
+          "label": "ACTIVITY 8.1:",
+          "aim": "To demonstrate that a stationary body remains at rest unless acted upon by\nan unbalanced force.",
+          "materials": "Carom coins (similar), a striker or another carom coin.",
+          "procedure": [
+            "Make a pile of similar carom coins on a table. Attempt a sharp",
+            "horizontal hit at the bottom of the pile using another carom coin or the striker."
+          ],
+          "observation": "If the hit is strong enough, the bottom coin moves out quickly.\nOnce the lowest coin is removed, the other coins fall vertically downward on the\ntable due to gravity.",
+          "conclusion": "The inertia of the upper coins makes them fall vertically - they\ntend to remain at rest while the bottom coin is removed. An unbalanced force\n(the striker) changes only the state of the bottom coin.",
+          "caution": ""
+        },
+        {
+          "type": "activity",
+          "label": "ACTIVITY 8.2:",
+          "aim": "To demonstrate inertia of rest using a coin and a card.",
+          "materials": "A five-rupee coin, a stiff card, an empty glass tumbler.",
+          "procedure": [
+            "Set the coin on the stiff card covering an empty glass tumbler",
+            "standing on a table. Give the card a sharp horizontal flick with a finger. Do",
+            "it fast."
+          ],
+          "observation": "The card shoots away, allowing the coin to fall vertically into\nthe glass tumbler due to its inertia.",
+          "conclusion": "The inertia of the coin tries to maintain its state of rest even\nwhen the card flows off. The coin falls into the tumbler because it resists the\nsudden lateral motion.",
+          "caution": ""
+        },
+        {
+          "type": "activity",
+          "label": "ACTIVITY 8.3:",
+          "aim": "To demonstrate inertia of motion.",
+          "materials": "A water-filled tumbler, a tray.",
+          "procedure": [
+            "Place a water-filled tumbler on a tray. Hold the tray and turn around",
+            "as fast as you can."
+          ],
+          "observation": "The water spills from the tumbler.",
+          "conclusion": "Due to inertia, the water tends to continue in its original direction\nof motion even when the tray is turned, causing it to spill.\n\n--------------------------------------------------------------------------------",
+          "caution": ""
+        },
+        {
+          "type": "qa",
+          "label": "TOPIC 8.1 Q&A",
+          "items": [
+            {
+              "q_num": 1,
+              "marks": 2,
+              "question": "What are balanced forces? Give one example.",
+              "answer": "Balanced forces are two equal forces acting on an object in opposite\ndirections such that their net effect is zero and the object does not change its\nstate of rest or motion.\nExample: When a wooden block is pulled equally from both sides by two strings of\nequal force, the block does not move - the forces are balanced."
+            },
+            {
+              "q_num": 2,
+              "marks": 2,
+              "question": "Why does a bicycle slow down when we stop pedalling?",
+              "answer": "When we stop pedalling, the applied force on the bicycle becomes zero. The\nfriction force between the tyres and the road still acts opposite to the direction\nof motion. This unbalanced friction force causes deceleration, slowing the\nbicycle down until it stops."
+            },
+            {
+              "q_num": 3,
+              "marks": 3,
+              "question": "Distinguish between balanced and unbalanced forces with examples.",
+              "answer": "Balanced Forces:\n- Net force is zero.\n- Do not change the state of rest or motion.\n- Example: A book lying on a table - weight (downward) and normal reaction\n(upward) are equal and opposite; the book remains at rest.\n\nUnbalanced Forces:\n- Net force is not zero.\n- Change the state of rest or motion (cause acceleration or deceleration).\n- Example: Pushing a box with greater force than friction makes the box move in\nthe direction of the net unbalanced force."
+            },
+            {
+              "q_num": 4,
+              "marks": 4,
+              "question": "Explain with the help of an activity how an unbalanced force",
+              "answer": "Activity - Carom Coin Experiment:\nSetup: Stack similar carom coins on a table in a pile.\nAction: Strike the bottom coin sharply with a striker.\nObservation: The bottom coin shoots out from under the pile while the remaining\ncoins fall vertically downward onto the table.\nExplanation:\n- The striker applies an unbalanced horizontal force on the bottom coin, changing\nits state of rest to motion - it moves horizontally.\n- The upper coins experience no horizontal force. Their inertia keeps them at\nrest horizontally; gravity (another unbalanced force) pulls them vertically\ndownward.\n- This demonstrates: an unbalanced force changes an object's state of motion,\nwhile the absence of horizontal unbalanced force on the upper coins keeps them\nstationary horizontally."
+            },
+            {
+              "q_num": 5,
+              "marks": 4,
+              "question": "A wooden block is placed on a rough floor. Two children try to push",
+              "answer": "(a) Equal forces from opposite sides:\nThe two forces are equal in magnitude but opposite in direction. They form\nbalanced forces. The net force is zero. The wooden block does not move - it\nremains in its state of rest. The forces cancel each other out.\n\n(b) One child pushes harder:\nThe forces are now unequal. The net unbalanced force acts in the direction of\nthe greater force. The block begins to move in the direction of the larger force.\nThe greater the difference in forces, the greater the acceleration of the block\nin that direction."
+            },
+            {
+              "q_num": 6,
+              "marks": 6,
+              "question": "A box is pushed on a rough floor. (a) Why does it not move when",
+              "answer": "(a) Does not move with small force:\nThe friction force from the rough floor acts opposite to the direction of push.\nWhen the pushing force is small, the friction force is equal to the push - forces\nare balanced. Net force = zero. The box does not move (remains at rest).\n\n(b) Starts moving when pushed harder:\nWhen the pushing force becomes greater than the friction force, the net force is\nno longer zero. An unbalanced force acts in the direction of push. This\nunbalanced force changes the state of rest to state of motion - the box starts\nmoving.\n\n(c) At uniform velocity:\nWhen moving at uniform velocity, acceleration = 0. By Newton's second law\n(F = ma), net force = 0. This means the applied pushing force exactly equals the\nfriction force. Forces are balanced. The object moves at constant velocity without\nacceleration.\n\n(d) When pushing force is removed:\nThe friction force now acts alone as an unbalanced force opposing the motion.\nThis decelerates the box. The box slows down and eventually comes to rest. If\nthere were no friction (ideal condition), the box would continue moving at the\nsame velocity indefinitely (Newton's First Law).\n\n--------------------------------------------------------------------------------"
+            }
+          ]
+        },
+        {
+          "type": "mcq",
+          "label": "TOPIC 8.1 MCQ",
+          "items": [
+            {
+              "mcq_num": 1,
+              "difficulty": "Easy",
+              "question": "A wooden block does not move when pushed with a small force on a rough surface. This is because:",
+              "options": {
+                "A": "The block has no inertia",
+                "B": "Friction force balances the applied force",
+                "C": "The applied force has no direction",
+                "D": "Gravity pulls the block downward more than the applied force"
+              },
+              "answer": "B",
+              "explanation": "On a rough surface, friction equals the small push, making net force zero (balanced forces). Only when push exceeds friction does the block move."
+            },
+            {
+              "mcq_num": 2,
+              "difficulty": "Easy",
+              "question": "Which of the following is an example of an unbalanced force?",
+              "options": {
+                "A": "A book lying at rest on a table",
+                "B": "A car moving at constant speed on a straight road",
+                "C": "A striker hitting a carom coin",
+                "D": "A rope in a tug-of-war with equal teams"
+              },
+              "answer": "C",
+              "explanation": "The striker exerts a net unbalanced force on the coin, changing its state from rest to motion. The other options involve balanced forces with no change in motion."
+            },
+            {
+              "mcq_num": 3,
+              "difficulty": "Medium",
+              "question": "A bicycle moving at uniform velocity suddenly has its brakes applied. Which statement is correct?",
+              "options": {
+                "A": "The forces on the bicycle become balanced",
+                "B": "An unbalanced force (braking/friction) decelerates the bicycle",
+                "C": "Inertia stops the bicycle instantly",
+                "D": "The force of gravity causes the bicycle to stop"
+              },
+              "answer": "B",
+              "explanation": "Brakes create a friction force opposing motion. This is an unbalanced force (net force not zero) acting opposite to velocity, causing deceleration. Gravity acts downward and is balanced by the normal reaction."
+            },
+            {
+              "mcq_num": 4,
+              "difficulty": "Medium",
+              "question": "In Activity 8.2, when a card under a coin is flicked away, the coin falls into the glass. This proves that:",
+              "options": {
+                "A": "The coin has greater weight than the card",
+                "B": "The coin tends to remain at rest due to inertia when the card is removed",
+                "C": "Friction between card and coin is very high",
+                "D": "The coin experiences an upward force from the glass"
+              },
+              "answer": "B",
+              "explanation": "The coin's inertia resists the sudden lateral motion. When the card is quickly removed, the coin stays momentarily at rest, then falls vertically into the glass due to gravity. The other options do not explain the phenomenon."
+            },
+            {
+              "mcq_num": 5,
+              "difficulty": "Hard",
+              "question": "A box is being pushed across a floor at uniform velocity. If the applied force suddenly doubles, which of the following correctly describes what happens?",
+              "options": {
+                "A": "The box moves at uniform velocity since forces are still balanced",
+                "B": "The box decelerates because doubling force increases friction equally",
+                "C": "An unbalanced net force acts on the box, causing it to accelerate",
+                "D": "The box stops because the increased force exceeds the box's inertia"
+              },
+              "answer": "C",
+              "explanation": "At uniform velocity, applied force = friction. Doubling the applied force makes it greater than friction. Net force (applied minus friction) is now unbalanced and acts in the direction of motion, causing acceleration (F = ma)."
+            }
+          ]
+        }
+      ],
+      "subtopics": []
+    },
+    {
+      "topic_num": "8.2",
+      "topic_name": "FIRST LAW OF MOTION",
+      "mode": "B",
+      "sections": [
+        {
+          "type": "definition",
+          "label": "DEFINITION:",
+          "text": "Newton's First Law of Motion (Law of Inertia): An object remains in a state of\nrest or of uniform motion in a straight line unless compelled to change that\nstate by an applied unbalanced force."
+        },
+        {
+          "type": "key_points",
+          "label": "KEY POINTS:",
+          "points": [
+            "Galileo observed that objects on an inclined plane move with constant speed",
+            "when no force acts on them.",
+            "A marble rolling down an inclined plane gains velocity; going up, it loses",
+            "velocity. On a horizontal plane with no friction, it would continue indefinitely.",
+            "Galileo deduced: no net force is needed to maintain uniform motion.",
+            "Newton formalised Galileo's observation into the First Law of Motion.",
+            "The tendency of undisturbed objects to stay at rest or keep moving with same",
+            "velocity is called INERTIA.",
+            "The First Law is also called the LAW OF INERTIA.",
+            "In a motorcar: sudden braking causes passengers to lurch forward (body tends",
+            "to continue in motion); sudden acceleration causes passengers to fall backward",
+            "(body tends to remain at rest).",
+            "Safety belts exert force on the body to slow it down along with the car.",
+            "When a bus starts suddenly, passengers tend to fall backward - their feet move",
+            "with the bus but the upper body, due to inertia, tends to remain at rest.",
+            "When turning at high speed in a motorcar, we tend to get thrown to one side",
+            "due to inertia (body tends to continue in straight-line motion).",
+            "ACTIVITY 8.1 (as described in 8.2 context): Already described under 8.1."
+          ]
+        },
+        {
+          "type": "additional_facts",
+          "label": "Do You Know?:",
+          "text": "Galileo Galilei (1564-1642) - born in Pisa, Italy. He studied at University of\nPisa. In 1586 he wrote 'The Little Balance' (La Balancitta). In 1592 he became\nprofessor at University of Padua. He developed improved telescopes and made\nastronomical discoveries. He argued all planets orbit the Sun. He formulated\nthe correct law for uniformly accelerated objects: distance is proportional to\nthe square of time taken.\n\n--------------------------------------------------------------------------------"
+        },
+        {
+          "type": "qa",
+          "label": "TOPIC 8.2 Q&A",
+          "items": [
+            {
+              "q_num": 1,
+              "marks": 2,
+              "question": "State Newton's First Law of Motion.",
+              "answer": "Newton's First Law of Motion states: An object remains in a state of rest or\nof uniform motion in a straight line unless compelled to change that state by an\napplied unbalanced force. This law is also known as the Law of Inertia."
+            },
+            {
+              "q_num": 2,
+              "marks": 2,
+              "question": "Why do passengers in a bus lurch forward when brakes are applied",
+              "answer": "When brakes are applied suddenly, an unbalanced braking force decelerates\nthe bus. However, the passengers' bodies tend to continue moving forward at the\nsame speed due to inertia (First Law of Motion). Since the lower body (feet)\ndecelerates with the bus but the upper body tends to continue forward, passengers\nlurch forward. Safety belts prevent injury by exerting a restraining force."
+            },
+            {
+              "q_num": 3,
+              "marks": 3,
+              "question": "How did Galileo's experiment with inclined planes lead to Newton's",
+              "answer": "Galileo's Experiment:\n- A marble rolled down one inclined plane gains velocity due to gravity.\n- When it rolls up the opposite inclined plane, it rises to approximately the\nsame height from which it started.\n- Galileo reasoned: if the angle of the second inclined plane is gradually\ndecreased, the marble would travel farther horizontally to reach the same\nheight.\n- If the plane were made horizontal (zero inclination), the marble would travel\nindefinitely to reach the same height - but never reaching it.\n- Conclusion: on a perfectly frictionless horizontal surface, a marble would\ncontinue moving at constant velocity indefinitely with no force required.\n- Newton formalised this as: no net force is needed to maintain uniform motion\nin a straight line - the First Law of Motion."
+            },
+            {
+              "q_num": 4,
+              "marks": 4,
+              "question": "Explain the concept of inertia using everyday examples.",
+              "answer": "INERTIA is the natural tendency of an object to resist any change in its\nstate of rest or of uniform motion.\n\nExamples of Inertia of Rest (tendency to remain at rest):\n1. When a bus starts suddenly, passengers tend to fall backward because their\nbodies (at rest) tend to remain at rest while the bus moves forward.\n2. Dust falls off a carpet when beaten with a stick - the carpet moves but the\ndust particles, due to inertia, tend to remain at rest and separate from\nthe carpet.\n\nExamples of Inertia of Motion (tendency to continue moving):\n1. When brakes are applied suddenly in a moving car, passengers lurch forward\nbecause their bodies tend to continue moving forward at the same velocity.\n2. An athlete jumps with a run-up (running approach) to cover greater distance -\nthe inertia of motion helps carry the body forward.\n\nExamples of Inertia of Direction (tendency to continue in same direction):\n1. When a car takes a sharp turn, passengers tend to get thrown outward - their\nbodies tend to continue in a straight line while the car turns.\n2. Mud on a spinning cycle wheel flies off tangentially due to inertia of\ndirection."
+            },
+            {
+              "q_num": 5,
+              "marks": 4,
+              "question": "A ball is gently dropped onto a moving conveyor belt. Describe",
+              "answer": "Ball dropped on moving conveyor belt:\nWhen the ball is dropped, it has zero horizontal velocity. The moving belt\nexerts a friction force on the ball in the direction of belt motion. This\nunbalanced force accelerates the ball until it reaches the belt's speed. Once\nthe ball moves at the same speed as the belt, friction becomes zero (balanced\nor absent), and the ball moves at uniform velocity with the belt. This shows\nthe First Law: once the ball matches belt speed, no net force is needed to\nmaintain motion.\n\nWhen belt stops suddenly:\nThe ball, now moving at belt speed, tends to continue moving due to inertia.\nThe stopped belt exerts friction backward on the ball (opposite to ball's\nmotion). This unbalanced friction decelerates the ball until it stops.\nThroughout, Newton's First Law governs: every change in velocity requires an\nunbalanced force."
+            },
+            {
+              "q_num": 6,
+              "marks": 6,
+              "question": "(a) Why is it difficult to achieve truly uniform motion in practice?",
+              "answer": "(a) Difficulty of achieving uniform motion in practice:\nIn practice, friction and air resistance always act on moving objects. These are\nunbalanced forces opposing motion. To maintain uniform velocity, one must\ncontinuously apply a force equal and opposite to friction/air resistance. In\nideal conditions (no friction, no air resistance), uniform motion would require\nzero applied force. But ideal conditions do not exist in everyday life, making\ntruly uniform motion very difficult without continuous effort.\n\n(b) Three situations illustrating First Law / Inertia:\n\nSituation 1 - Bus starting suddenly:\nA passenger is at rest in a bus. When the bus starts suddenly, the seat and feet\nof the passenger move with the bus. The upper body, due to inertia of rest,\ntends to remain at rest. Result: passenger falls backward. The First Law\nexplains this - the body resists change from rest to motion.\n\nSituation 2 - Braking suddenly:\nIn a moving car, when brakes are applied suddenly, the car decelerates. The\npassenger's body, due to inertia of motion, tends to continue moving at the\nsame speed. Result: passenger lurches forward. Safety belts apply a retarding\nforce to reduce injury.\n\nSituation 3 - Shaking a wet umbrella:\nWhen we shake a wet umbrella, the fabric of the umbrella moves rapidly. The\nwater droplets on the fabric, due to inertia of motion, tend to continue moving\nin the direction they were moving before being stopped by the fabric. They fly\noff tangentially. The fabric is stopped (by our hand) but the water continues\nmoving.\n\n(c) Athlete's running start for long jump:\nA running athlete has inertia of motion in the forward direction. When the\nathlete jumps, this inertia carries the body forward in addition to the upward\njump force. Without a running start, the athlete only has the upward jump\nforce with no horizontal velocity. With the running start, the horizontal\ncomponent of velocity (from inertia) adds to the jump, enabling greater\nhorizontal distance. This is a direct application of Newton's First Law - the\nbody tends to continue in the direction of motion (forward) even during the jump.\n\n--------------------------------------------------------------------------------"
+            }
+          ]
+        },
+        {
+          "type": "mcq",
+          "label": "TOPIC 8.2 MCQ",
+          "items": [
+            {
+              "mcq_num": 1,
+              "difficulty": "Easy",
+              "question": "Newton's First Law of Motion is also known as:",
+              "options": {
+                "A": "Law of Acceleration",
+                "B": "Law of Action and Reaction",
+                "C": "Law of Inertia",
+                "D": "Law of Momentum"
+              },
+              "answer": "C",
+              "explanation": "The First Law states objects resist changes in their state of rest or motion. This tendency to resist change is called inertia, hence the name Law of Inertia. The other options refer to the Second and Third Laws."
+            },
+            {
+              "mcq_num": 2,
+              "difficulty": "Easy",
+              "question": "When a bus starts suddenly, passengers tend to fall backward. This is due to:",
+              "options": {
+                "A": "Force of gravity",
+                "B": "Inertia of rest - the body tends to remain at rest",
+                "C": "Inertia of motion - the body tends to continue moving backward",
+                "D": "The push force from the bus seat"
+              },
+              "answer": "B",
+              "explanation": "When the bus starts, passengers are at rest. Due to inertia of rest, the upper body tends to stay at rest while the bus moves forward, causing the passenger to appear to fall backward."
+            },
+            {
+              "mcq_num": 3,
+              "difficulty": "Medium",
+              "question": "Galileo concluded from his inclined plane experiment that on a perfectly frictionless horizontal surface, a marble would:",
+              "options": {
+                "A": "Come to rest after some distance",
+                "B": "Accelerate continuously",
+                "C": "Move at constant velocity indefinitely",
+                "D": "Move in a circular path"
+              },
+              "answer": "C",
+              "explanation": "With no friction and no inclination, no net force acts on the marble. By the First Law, it would maintain constant velocity indefinitely. Galileo's reasoning led Newton to formulate the First Law."
+            },
+            {
+              "mcq_num": 4,
+              "difficulty": "Medium",
+              "question": "A passenger is wearing a safety belt in a car. The car suddenly stops. The safety belt:",
+              "options": {
+                "A": "Pushes the passenger backward",
+                "B": "Exerts a forward force on the passenger to keep them with the car",
+                "C": "Exerts a backward (retarding) force on the passenger to slow them with the car",
+                "D": "Prevents the passenger from feeling inertia"
+              },
+              "answer": "C",
+              "explanation": "When the car stops, the passenger tends to continue moving forward (inertia of motion). The safety belt exerts a backward retarding force on the body, decelerating it along with the car, preventing injury from collision with the dashboard."
+            },
+            {
+              "mcq_num": 5,
+              "difficulty": "Hard",
+              "question": "An astronaut in outer space (no gravity, no friction) throws a ball forward. What happens to the ball?",
+              "options": {
+                "A": "It slows down gradually and stops",
+                "B": "It curves in the direction of gravity",
+                "C": "It continues moving forward at the same speed indefinitely",
+                "D": "It returns to the astronaut due to reaction force"
+              },
+              "answer": "C",
+              "explanation": "In outer space, no friction or gravity (for purposes of this question) acts on the ball after it is thrown. With zero net force, Newton's First Law states the ball maintains its velocity (same speed, same direction) indefinitely. This is the ideal condition Galileo conceptualised."
+            }
+          ]
+        }
+      ],
+      "subtopics": []
+    },
+    {
+      "topic_num": "8.3",
+      "topic_name": "INERTIA AND MASS",
+      "mode": "B",
+      "sections": [
+        {
+          "type": "definition",
+          "label": "DEFINITION:",
+          "text": "Inertia is the natural tendency of an object to resist a change in its state of\nmotion or of rest. The mass of an object is a measure of its inertia - greater\nmass means greater inertia."
+        },
+        {
+          "type": "key_points",
+          "label": "KEY POINTS:",
+          "points": [
+            "All activities in 8.1-8.2 showed that objects resist changes in their state",
+            "of motion.",
+            "If an object is at rest, it tends to remain at rest; if moving, it tends to",
+            "keep moving at the same velocity.",
+            "This property of an object is called its inertia.",
+            "Heavier or more massive objects have MORE inertia - they are harder to set in",
+            "motion or to stop.",
+            "A loaded truck has more inertia than an empty cart for the same applied force.",
+            "A football (less mass) kicked with equal force moves faster than a stone of",
+            "same size.",
+            "Quantitatively, inertia is measured by MASS.",
+            "The SI unit of mass is kilogram (kg).",
+            "MASS and INERTIA are directly proportional: more mass = more inertia.",
+            "Inertia is the natural tendency of objects to resist change in their state of",
+            "motion or of rest.",
+            "The mass of an object is a measure of its inertia. It does NOT depend on the",
+            "presence or absence of other objects or on the position of the object.",
+            "IMPORTANT RELATION:",
+            "Inertia is the natural tendency of an object to resist a change in its state",
+            "of motion or of rest. The mass of an object is a measure of its inertia.",
+            "-------------------------------------------------------------------------------"
+          ]
+        },
+        {
+          "type": "qa",
+          "label": "TOPIC 8.3 Q&A",
+          "items": [
+            {
+              "q_num": 1,
+              "marks": 2,
+              "question": "What is inertia? How is mass related to inertia?",
+              "answer": "Inertia is the natural tendency of an object to resist any change in its\nstate of rest or of uniform motion. Mass is the measure of inertia of an object.\nGreater the mass of an object, greater is its inertia - it is harder to change\nthe object's state of motion. The SI unit of mass is kilogram (kg)."
+            },
+            {
+              "q_num": 2,
+              "marks": 2,
+              "question": "Why is it easier to push an empty box than a box full of books?",
+              "answer": "A box full of books has greater mass than an empty box. Since mass is the\nmeasure of inertia, the heavier box has greater inertia - it resists change in\nits state of rest more strongly. Therefore, a greater force is needed to push\nit. The empty box, having less mass and thus less inertia, requires less force\nto set it in motion."
+            },
+            {
+              "q_num": 3,
+              "marks": 3,
+              "question": "Which of the following has more inertia: (a) a rubber ball and a",
+              "answer": "(a) Stone has more inertia than the rubber ball:\nA stone is denser and has greater mass than a rubber ball of the same size.\nSince mass measures inertia, the stone resists changes in motion more - it has\ngreater inertia.\n\n(b) Train has more inertia than a bicycle:\nA train has enormously greater mass than a bicycle. Quantitatively, inertia\nequals mass. The train requires a much larger force to start or stop - much\ngreater inertia.\n\n(c) Five-rupee coin has more inertia than a one-rupee coin:\nA five-rupee coin is heavier (greater mass) than a one-rupee coin. Greater mass\nmeans greater inertia. Activity 8.2 shows that using a five-rupee coin requires\nless force (a lesser card-flicking force compared to using a one-rupee coin)\nbecause the heavier coin's greater inertia keeps it more firmly at rest."
+            },
+            {
+              "q_num": 4,
+              "marks": 4,
+              "question": "In Activity 8.2, why does replacing the five-rupee coin with a",
+              "answer": "In Activity 8.2:\n- A stiff card is placed on a glass tumbler.\n- A coin is placed on the card.\n- The card is flicked away quickly.\n- The coin should fall into the glass.\n\nWith a five-rupee coin (greater mass, greater inertia):\nThe coin's large inertia strongly resists any change in its state of rest. When\nthe card is flicked, the brief contact time between card and coin is too short\nfor the card to transfer significant horizontal force to the coin. The coin\nstays virtually stationary and falls vertically into the glass. The experiment\nworks well.\n\nWith a one-rupee coin (lesser mass, lesser inertia):\nThe coin's smaller inertia means it resists motion changes less. Even the small\nfriction force from the quickly moving card is enough to give the lighter coin\nsome horizontal displacement. The coin may not fall cleanly into the glass - it\ngets displaced sideways. The experiment is harder to perform.\n\nConclusion: Greater mass = greater inertia = object better resists being\ndisturbed = easier to demonstrate the First Law clearly."
+            },
+            {
+              "q_num": 5,
+              "marks": 4,
+              "question": "A loaded truck and an empty cycle are both moving at the same",
+              "answer": "The empty cycle stops first.\n\nReason - Inertia and Mass:\n- Both the truck and cycle are moving at the same speed and the same braking\nforce is applied.\n- The loaded truck has very large mass; the empty cycle has very small mass.\n- Mass is the measure of inertia. Greater mass = greater inertia = greater\nresistance to change in motion.\n- By Newton's Second Law: a = F/m. For the same force F, the cycle (small m)\nhas large deceleration; the truck (large m) has small deceleration.\n- Therefore, the cycle decelerates much faster and stops in a shorter distance/\ntime.\n- The truck, due to its enormous inertia, continues to move much longer before\nstopping.\n\nConclusion: This demonstrates that greater mass = greater inertia. Heavier\nobjects are harder to stop with the same force. This is why trucks need stronger\nbrakes and longer stopping distances."
+            },
+            {
+              "q_num": 6,
+              "marks": 6,
+              "question": "(a) Define inertia. (b) State the relationship between mass and",
+              "answer": "(a) Definition of Inertia:\nInertia is the natural tendency of an object to resist any change in its state\nof motion or of rest. Objects with inertia resist being accelerated, decelerated,\nor deflected. This tendency arises from the mass of the object.\n\n(b) Relationship between mass and inertia:\nMass is the quantitative measure of inertia. The greater the mass of an object,\nthe greater its inertia - the more it resists changes in its state of motion.\nMathematical relationship: Inertia is directly proportional to mass.\nGreater mass --> Greater inertia --> Greater resistance to change in motion.\n\n(c) Three examples:\n\nExample 1 - Pushing a loaded vs. empty cart:\nAn empty shopping cart is easy to push (small mass, small inertia). A fully\nloaded cart is hard to push (large mass, large inertia). The loaded cart resists\nthe applied force more strongly. Even after releasing both, the loaded cart\ncontinues moving longer (greater inertia of motion).\n\nExample 2 - Stopping a cricket ball vs. a cannon ball:\nA cricket ball can be stopped by a fielder's hands. A cannon ball moving at the\nsame speed cannot - it would injure the fielder. The cannon ball has much greater\nmass and hence much greater inertia of motion, requiring a much larger force to\nstop in the same time.\n\nExample 3 - Starting a train vs. starting a bicycle:\nA bicycle can be set in motion with a small muscular push. A train requires\nenormous engine force to start moving. This is because the train has\nincomparably greater mass and thus incomparably greater inertia of rest.\n\n(d) SI unit of mass and its use to measure inertia:\nThe SI unit of mass is kilogram (kg).\nSince inertia = mass (quantitatively), the unit of inertia is also kilogram.\nMass is used to measure inertia because:\n- Mass is a scalar quantity that can be measured precisely on a balance.\n- It does not depend on location (unlike weight, which varies with gravity).\n- Mass directly reflects how much an object resists changes in motion.\n- F = ma shows that for the same force F, larger mass m means smaller\nacceleration a - directly quantifying the resistance to motion change.\n\n--------------------------------------------------------------------------------"
+            }
+          ]
+        },
+        {
+          "type": "mcq",
+          "label": "TOPIC 8.3 MCQ",
+          "items": [
+            {
+              "mcq_num": 1,
+              "difficulty": "Easy",
+              "question": "The mass of an object is a measure of its:",
+              "options": {
+                "A": "Weight",
+                "B": "Velocity",
+                "C": "Inertia",
+                "D": "Momentum"
+              },
+              "answer": "C",
+              "explanation": "Inertia is the tendency to resist changes in state of motion. Mass quantitatively measures this tendency - more mass means more inertia. Weight is a force (mass x gravity), not a measure of inertia."
+            },
+            {
+              "mcq_num": 2,
+              "difficulty": "Easy",
+              "question": "Which of the following has the greatest inertia?",
+              "options": {
+                "A": "A tennis ball",
+                "B": "A cricket ball",
+                "C": "A football",
+                "D": "A shot put ball"
+              },
+              "answer": "D",
+              "explanation": "Inertia is measured by mass. A shot put ball has the greatest mass among these options, so it has the greatest inertia and is hardest to set in motion or stop."
+            },
+            {
+              "mcq_num": 3,
+              "difficulty": "Medium",
+              "question": "In Activity 8.2, replacing a five-rupee coin with a one-rupee coin makes the experiment harder because:",
+              "options": {
+                "A": "The one-rupee coin is smaller and falls faster",
+                "B": "The one-rupee coin has less mass and less inertia, so it gets displaced by",
+                "C": "The one-rupee coin has more friction with the card",
+                "D": "The one-rupee coin is lighter so gravity pulls it before the card moves"
+              },
+              "answer": "B",
+              "explanation": "Less mass = less inertia = less resistance to the card's motion. The light coin can be dragged sideways by the moving card instead of staying put. Greater inertia (heavier coin) means the coin better resists the card's horizontal motion."
+            },
+            {
+              "mcq_num": 4,
+              "difficulty": "Medium",
+              "question": "A 2 kg iron ball and a 200 kg stone are both at rest. Comparing their inertia:",
+              "options": {
+                "A": "The iron ball has more inertia because iron is denser",
+                "B": "The stone has more inertia because it has greater mass",
+                "C": "Both have equal inertia since they are both at rest",
+                "D": "Inertia depends on shape, not mass"
+              },
+              "answer": "B",
+              "explanation": "Inertia is measured by mass. The stone (200 kg) has 100 times the mass of the iron ball (2 kg), so it has 100 times more inertia. Being at rest is the same state for both, but the stone requires 100 times more force to produce the same acceleration."
+            },
+            {
+              "mcq_num": 5,
+              "difficulty": "Hard",
+              "question": "A 1000 kg car and a 5 kg scooter are both moving at 60 km/h. The same braking force is applied to both. The car takes longer to stop because:",
+              "options": {
+                "A": "The car has higher speed",
+                "B": "The car has more kinetic energy, which is directly related to inertia",
+                "C": "The car has greater mass and thus greater inertia, resulting in less",
+                "D": "The car's brakes are weaker"
+              },
+              "answer": "C",
+              "explanation": "From F = ma, a = F/m. The same braking force F applied to the car (m=1000 kg) gives a = F/1000; applied to the scooter (m=5 kg) gives a = F/5. The scooter decelerates 200 times faster. Greater mass = greater inertia = greater resistance to deceleration."
+            }
+          ]
+        }
+      ],
+      "subtopics": []
+    },
+    {
+      "topic_num": "8.4",
+      "topic_name": "SECOND LAW OF MOTION",
+      "mode": "B",
+      "sections": [
+        {
+          "type": "definition",
+          "label": "DEFINITION:",
+          "text": "Newton's Second Law of Motion states: The rate of change of momentum of an\nobject is proportional to the applied unbalanced force in the direction of the\nforce.\nMathematically: F = ma\nwhere F = applied force (N), m = mass of object (kg), a = acceleration (m s^-2)."
+        },
+        {
+          "type": "key_points",
+          "label": "KEY POINTS:",
+          "points": [
+            "MOMENTUM (p) of an object is the product of its mass and velocity.",
+            "p = mv",
+            "SI unit of momentum: kg m s^-1",
+            "Momentum has both magnitude and direction (same direction as velocity).",
+            "The impact of a moving object depends on both its mass and velocity.",
+            "Examples: a slow moving truck can cause serious damage; a fast-moving cricket",
+            "ball hurts; a bullet fired from a gun is lethal.",
+            "The change in momentum of an object depends on the force applied AND the time",
+            "during which the force is exerted.",
+            "MATHEMATICAL DERIVATION:",
+            "Initial momentum: p1 = mu",
+            "Final momentum: p2 = mv",
+            "Change in momentum: p2 - p1 = m(v-u)",
+            "Rate of change of momentum: m(v-u)/t = ma",
+            "Force proportional to rate of change of momentum: F proportional to ma",
+            "Taking proportionality constant k=1: F = ma",
+            "The SI unit of force is newton (N). One newton = 1 kg m s^-2.",
+            "One newton: the force that produces an acceleration of 1 m s^-2 in an",
+            "object of mass 1 kg.",
+            "The first law of motion can be derived from the second law:",
+            "When F = 0, a = 0 (from F = ma), meaning v = u (velocity remains constant) -",
+            "confirming the First Law.",
+            "KEY FORMULA:",
+            "F = ma",
+            "p = mv",
+            "a = (v-u)/t",
+            "F = m(v-u)/t",
+            "EXAMPLES FROM TEXTBOOK:",
+            "Example 8.1:",
+            "Given: mass m = 5 kg, u = 3 m/s, v = 7 m/s, t = 2 s",
+            "F = m(v-u)/t = 5 x (7-3)/2 = 5 x 4/2 = 10 N",
+            "If force applied for t = 5 s:",
+            "v = u + Ft/m = 3 + (10 x 5)/5 = 3 + 10 = 13 m/s",
+            "Example 8.2:",
+            "Mass m1 = 2 kg, a1 = 5 m/s^2 --> F1 = 2 x 5 = 10 N",
+            "Mass m2 = 4 kg, a2 = 2 m/s^2 --> F2 = 4 x 2 = 8 N",
+            "Therefore F1 > F2; accelerating 2 kg mass at 5 m/s^2 requires greater force.",
+            "Example 8.3:",
+            "Motorcar: m = 1000 kg, u = 108 km/h = 30 m/s, v = 0, t = 4 s",
+            "F = m(v-u)/t = 1000 x (0-30)/4 = -7500 N",
+            "Negative sign indicates force is opposite to direction of motion.",
+            "Example 8.4:",
+            "Force F = 5 N on mass m1 gives a1 = 10 m/s^2 --> m1 = 5/10 = 0.5 kg",
+            "Force F = 5 N on mass m2 gives a2 = 20 m/s^2 --> m2 = 5/20 = 0.25 kg",
+            "If tied together: m = 0.75 kg, a = 5/0.75 = 6.67 m/s^2",
+            "Example 8.5:",
+            "Ball mass = 20 g = 0.02 kg, u = 20 cm/s, v = 0, t = 10 s",
+            "a = (0 - 20)/10 = -2 cm/s^2 = -0.02 m/s^2",
+            "F = ma = 0.02 x (-0.02) = -0.0004 N = -4 x 10^-4 N",
+            "(Negative: frictional force is opposite to direction of motion)",
+            "SECOND LAW APPLICATION - Catching a fast cricket ball:",
+            "A fielder pulls hands backward while catching to increase time of contact.",
+            "Longer time --> smaller rate of change of momentum --> smaller force on hands.",
+            "Reduces chance of injury.",
+            "SECOND LAW APPLICATION - High jump landing:",
+            "Athletes land on cushioned/sand beds to increase time of contact.",
+            "Longer time --> less force for same change in momentum.",
+            "Reduces injury.",
+            "-------------------------------------------------------------------------------"
+          ]
+        },
+        {
+          "type": "qa",
+          "label": "TOPIC 8.4 Q&A",
+          "items": [
+            {
+              "q_num": 1,
+              "marks": 2,
+              "question": "Define momentum. Write its SI unit and give one example showing",
+              "answer": "Momentum (p) is the product of the mass of an object and its velocity.\np = mv\nSI unit: kg m s^-1\nMomentum has the same direction as velocity.\nExample: A cricket ball bowled at 140 km/h has more momentum than the same ball\nthrown gently. The high-momentum ball can hurt the batsman more severely - the\ngreater momentum means a greater force is needed to stop it in the same time."
+            },
+            {
+              "q_num": 2,
+              "marks": 2,
+              "question": "State Newton's Second Law of Motion and write its mathematical",
+              "answer": "Newton's Second Law of Motion: The rate of change of momentum of an object\nis proportional to the applied unbalanced force in the direction of the force.\nMathematical expression: F = ma\nWhere:\nF = net unbalanced force applied (in newtons, N)\nm = mass of the object (in kg)\na = acceleration produced (in m s^-2)\n1 newton = the force that produces 1 m s^-2 acceleration in a 1 kg object."
+            },
+            {
+              "q_num": 3,
+              "marks": 3,
+              "question": "A constant force acts on an object of mass 5 kg for 2 s and",
+              "answer": "Given: m = 5 kg, u = 3 m s^-1, v = 7 m s^-1, t = 2 s\nStep 1: Find acceleration\na = (v - u)/t = (7 - 3)/2 = 4/2 = 2 m s^-2\n\nStep 2: Find force\nF = ma = 5 x 2 = 10 N\n\nStep 3: If F = 10 N applied for t = 5 s (starting from u = 3 m/s):\nv = u + at = 3 + 2 x 5 = 3 + 10 = 13 m s^-1\n\nThe applied force is 10 N and the final velocity after 5 s is 13 m s^-1."
+            },
+            {
+              "q_num": 4,
+              "marks": 4,
+              "question": "Derive the mathematical formula F = ma from Newton's Second Law",
+              "answer": "DERIVATION of F = ma:\n\nStep 1: Define initial and final momentum.\nLet an object of mass m move with initial velocity u.\nInitial momentum: p1 = mu\nAfter applying force F for time t, velocity becomes v.\nFinal momentum: p2 = mv\n\nStep 2: Change in momentum.\nChange in momentum = p2 - p1 = mv - mu = m(v - u)\n\nStep 3: Rate of change of momentum.\nRate of change of momentum = Change in momentum / Time taken\n= m(v - u) / t\n\nBut (v - u)/t = a (acceleration)\nTherefore, rate of change of momentum = ma\n\nStep 4: Apply Newton's Second Law.\nBy Newton's Second Law: F proportional to rate of change of momentum\nF proportional to ma\nF = k x ma\n\nStep 5: Define the unit of force to make k = 1.\nOne unit of force (1 newton) is defined as the force that produces 1 m s^-2\nacceleration in a 1 kg object.\nSo: 1 = k x 1 x 1 --> k = 1\n\nStep 6: Final result.\nF = ma\nThis is the mathematical form of Newton's Second Law."
+            },
+            {
+              "q_num": 5,
+              "marks": 4,
+              "question": "A motorcar of mass 1000 kg is moving along a straight line with a",
+              "answer": "Given:\nm = 1200 kg (as per textbook A4 problem - using standard problem values)\nu = 90 km/h = 90 x 1000/3600 = 25 m s^-1\nv = 18 km/h = 18 x 1000/3600 = 5 m s^-1\nt = 4 s\n\nStep 1: Acceleration\na = (v - u)/t = (5 - 25)/4 = -20/4 = -5 m s^-2\n(Negative sign: deceleration, opposite to direction of motion)\n\nStep 2: Change in momentum\nChange in momentum = m(v - u) = 1200 x (5 - 25) = 1200 x (-20)\n= -24000 kg m s^-1\n(Magnitude: 24000 kg m s^-1; direction: opposite to motion)\n\nStep 3: Force required\nF = ma = 1200 x (-5) = -6000 N\n(Magnitude: 6000 N; negative sign: force acts opposite to motion - braking force)\n\nThe deceleration is 5 m s^-2, change in momentum is 24000 kg m s^-1, and\nbraking force required is 6000 N."
+            },
+            {
+              "q_num": 6,
+              "marks": 6,
+              "question": "(a) Define newton (unit of force). (b) A truck starts from rest",
+              "answer": "(a) Definition of Newton (unit of force):\nOne newton is defined as the amount of force that produces an acceleration of\n1 m s^-2 in an object of mass 1 kg.\n1 N = 1 kg m s^-2\nFrom F = ma: when F = 1 N, m = 1 kg, a = 1 m s^-2.\n\n(b) Truck problem:\nGiven: u = 0 (starts from rest), s = 400 m, t = 20 s\nm = 7 tonnes = 7 x 1000 = 7000 kg\n\nStep 1: Find acceleration using s = ut + (1/2)at^2\n400 = 0 x 20 + (1/2) x a x 20^2\n400 = (1/2) x a x 400\n400 = 200a\na = 400/200 = 2 m s^-2\n\nStep 2: Find force\nF = ma = 7000 x 2 = 14000 N = 14 kN\n\nThe acceleration is 2 m s^-2 and the net force is 14000 N (14 kN).\n\n(c) Fielder pulling hands backward - Second Law explanation:\nWhen a fast-moving cricket ball is caught, its momentum must be reduced to zero.\nThe change in momentum = m x (final velocity - initial velocity) = fixed value\n(depends on ball's speed and mass).\n\nBy Newton's Second Law: F = change in momentum / time = m(v-u)/t\n\nCase 1 - Hands NOT pulled back (short time t):\nF = m(v-u) / (small t) = LARGE force on hands.\nThe large force can cause pain or injury to the fielder.\n\nCase 2 - Hands pulled backward (longer time t):\nF = m(v-u) / (larger t) = SMALLER force on hands.\nThe same change in momentum is achieved over a longer time, reducing the force.\n\nConclusion: By increasing the time of contact (pulling hands back), the fielder\nreduces the rate of change of momentum and thus the force exerted on the hands\n- preventing injury. This is a direct application of F = m(v-u)/t.\n\n--------------------------------------------------------------------------------"
+            }
+          ]
+        },
+        {
+          "type": "mcq",
+          "label": "TOPIC 8.4 MCQ",
+          "items": [
+            {
+              "mcq_num": 1,
+              "difficulty": "Easy",
+              "question": "The SI unit of momentum is:",
+              "options": {
+                "A": "N m",
+                "B": "kg m s^-2",
+                "C": "kg m s^-1",
+                "D": "N s^-1"
+              },
+              "answer": "C",
+              "explanation": "Momentum p = mv. Units = kg x m/s = kg m s^-1. Newton (N) is the unit of force. kg m s^-2 is equivalent to newton. kg m s^-1 is correct for momentum."
+            },
+            {
+              "mcq_num": 2,
+              "difficulty": "Easy",
+              "question": "A force of 10 N acts on an object of mass 2 kg. The acceleration produced is:",
+              "options": {
+                "A": "20 m s^-2",
+                "B": "0.2 m s^-2",
+                "C": "5 m s^-2",
+                "D": "10 m s^-2"
+              },
+              "answer": "C",
+              "explanation": "From F = ma: a = F/m = 10/2 = 5 m s^-2. Direct application of Newton's Second Law."
+            },
+            {
+              "mcq_num": 3,
+              "difficulty": "Medium",
+              "question": "A fielder pulls his hands backward while catching a fast cricket ball. This is because:",
+              "options": {
+                "A": "It increases the change in momentum of the ball",
+                "B": "It increases the time of force application, thereby reducing the force on",
+                "C": "It increases the force on the ball to stop it faster",
+                "D": "It reduces the velocity of the ball before it reaches the hands"
+              },
+              "answer": "B",
+              "explanation": "F = m(v-u)/t. Pulling hands back increases time t. For the same change in momentum m(v-u), larger t means smaller F. This reduces the force on the fielder's hands, preventing injury."
+            },
+            {
+              "mcq_num": 4,
+              "difficulty": "Medium",
+              "question": "The momentum of an object of mass 10 kg moving at 5 m s^-1 is:",
+              "options": {
+                "A": "2 kg m s^-1",
+                "B": "0.5 kg m s^-1",
+                "C": "15 kg m s^-1",
+                "D": "50 kg m s^-1"
+              },
+              "answer": "D",
+              "explanation": "p = mv = 10 x 5 = 50 kg m s^-1. Momentum is the product of mass and velocity. Units: kg x m s^-1 = kg m s^-1."
+            },
+            {
+              "mcq_num": 5,
+              "difficulty": "Medium",
+              "question": "Two objects A (mass 2 kg) and B (mass 4 kg) experience the same net force. The ratio of their accelerations (a_A : a_B) is:",
+              "options": {
+                "A": "1 : 2",
+                "B": "2 : 1",
+                "C": "1 : 4",
+                "D": "4 : 1"
+              },
+              "answer": "B",
+              "explanation": "From F = ma: a = F/m. Same force F: a_A = F/2, a_B = F/4. Ratio a_A : a_B = (F/2):(F/4) = 4:2 = 2:1. Lighter object accelerates more."
+            },
+            {
+              "mcq_num": 6,
+              "difficulty": "Hard",
+              "question": "A braking force of 7500 N is applied to a motorcar of mass 1000 kg. The car was moving at 30 m s^-1. In how much time does the car stop?",
+              "options": {
+                "A": "2 s",
+                "B": "4 s",
+                "C": "6 s",
+                "D": "8 s"
+              },
+              "answer": "B",
+              "explanation": "F = ma --> a = F/m = 7500/1000 = 7.5 m s^-2 (deceleration). Using v = u + at: 0 = 30 - 7.5t --> t = 30/7.5 = 4 s. Correct answer is 4 s."
+            }
+          ]
+        }
+      ],
+      "subtopics": []
+    },
+    {
+      "topic_num": "8.5",
+      "topic_name": "THIRD LAW OF MOTION",
+      "mode": "B",
+      "sections": [
+        {
+          "type": "definition",
+          "label": "DEFINITION:",
+          "text": "Newton's Third Law of Motion: To every action, there is an equal and opposite\nreaction. Whenever one object exerts a force on another, the second object\nexerts an equal and opposite force on the first. These two forces always act on\ntwo different objects simultaneously."
+        },
+        {
+          "type": "key_points",
+          "label": "KEY POINTS:",
+          "points": [
+            "When object A exerts a force on object B (action), object B exerts an equal",
+            "and opposite force on object A (reaction).",
+            "Action and reaction forces:",
+            "(a) Are always equal in magnitude.",
+            "(b) Are always opposite in direction.",
+            "(c) Always act on TWO DIFFERENT objects (not on the same object).",
+            "(d) Act simultaneously.",
+            "Because action and reaction act on different objects, they do NOT cancel each",
+            "other out.",
+            "Even though action and reaction are equal, they may produce different",
+            "accelerations in different objects (due to different masses).",
+            "Two spring balances connected together show the same reading regardless of",
+            "which end is pulled - demonstrating equal action and reaction.",
+            "Action and reaction forces are also called pairs of forces.",
+            "EXAMPLES OF THIRD LAW:",
+            "1. Walking: When we walk, we push the road backward (action). The road pushes",
+            "us forward (reaction). This forward reaction moves us.",
+            "2. Swimming: A swimmer pushes water backward (action). Water pushes the swimmer",
+            "forward (reaction).",
+            "3. Firing a gun: The gun exerts a forward force on the bullet (action). The",
+            "bullet exerts an equal backward force on the gun (reaction) - gun recoils.",
+            "Gun has much greater mass than bullet, so gun's recoil acceleration is much",
+            "smaller than bullet's forward acceleration.",
+            "4. Rocket propulsion: Rocket expels gases backward at high speed (action). Gases",
+            "push the rocket forward (reaction).",
+            "5. A sailor jumping from a boat: Sailor jumps forward (action force on boat",
+            "backward). Boat moves backward (reaction). Fig. 8.12.",
+            "6. Football game: When you kick a football (action), the ball exerts an equal",
+            "force on your foot in the opposite direction (reaction) - hence your foot may",
+            "hurt if you kick very hard."
+          ]
+        },
+        {
+          "type": "activity",
+          "label": "ACTIVITY 8.4:",
+          "aim": "To demonstrate Newton's Third Law using carts and a sandbag.",
+          "materials": "Two carts, two children, a sandbag or heavy object.",
+          "procedure": [
+            "- Two children stand on separate carts.",
+            "- Give them a sandbag and ask them to play catch.",
+            "- Observe whether each experiences an instantaneous force when throwing or",
+            "catching the bag.",
+            "- Paint white lines on cart wheels to observe motion of the two carts."
+          ],
+          "observation": "When one child throws the bag toward the other, both carts move -\nthe thrower's cart moves backward (reaction to throw), the catcher's cart moves\nforward (force of catching). Both experience instantaneous force.",
+          "conclusion": "To every action (throwing/catching), there is an equal and opposite\nreaction (backward/forward cart motion), demonstrating the Third Law.\n\nIMPORTANT NOTE - Action and Reaction produce different accelerations:\nWhen a gun fires a bullet:\n- Gun and bullet exert equal and opposite forces.\n- The bullet (small mass) gets very large acceleration --> moves forward very fast.\n- The gun (large mass) gets very small acceleration --> slight backward recoil.\nThis is consistent with F = ma: same F, different m, different a.",
+          "caution": ""
+        },
+        {
+          "type": "additional_facts",
+          "label": "Do You Know? - Two spring balances:",
+          "text": "When two spring balances A and B are connected together and pulled from the free\nend of A, both balances show the same reading. Force exerted by balance A on B\n= force exerted by balance B on A. This is Newton's Third Law in action.\n\n--------------------------------------------------------------------------------"
+        },
+        {
+          "type": "qa",
+          "label": "TOPIC 8.5 Q&A",
+          "items": [
+            {
+              "q_num": 1,
+              "marks": 2,
+              "question": "State Newton's Third Law of Motion with one example.",
+              "answer": "Newton's Third Law of Motion: To every action, there is an equal and\nopposite reaction. The action and reaction forces always act on two different\nobjects simultaneously.\nExample: When a gun is fired, the gun exerts a forward force on the bullet\n(action). The bullet exerts an equal backward force on the gun (reaction),\ncausing the gun to recoil. The bullet moves forward at high speed (small mass,\nlarge acceleration) while the gun recoils slightly backward (large mass, small\nacceleration)."
+            },
+            {
+              "q_num": 2,
+              "marks": 2,
+              "question": "Why don't action and reaction forces cancel each other out?",
+              "answer": "Although action and reaction forces are equal in magnitude and opposite in\ndirection, they act on two different objects:\n- Action force acts on Object B (from Object A).\n- Reaction force acts on Object A (from Object B).\nSince forces must act on the SAME object to cancel each other, and action and\nreaction act on different objects, they cannot cancel. Each force independently\naffects the motion of its respective object."
+            },
+            {
+              "q_num": 3,
+              "marks": 3,
+              "question": "Explain how walking is possible using Newton's Third Law.",
+              "answer": "Walking and Newton's Third Law:\nStep 1 - Action:\nWhen we walk, our foot pushes backward and downward on the ground. This is the\naction force (exerted by foot on ground), directed backward.\nStep 2 - Reaction:\nBy Newton's Third Law, the ground exerts an equal and opposite force on our foot\n- directed forward and upward. This is the reaction force (exerted by ground on\nfoot).\nStep 3 - Motion:\nThe forward component of the reaction force from the ground pushes us forward.\nThis forward reaction is what propels us in the direction of walking.\nIf the surface has no friction (like ice), the foot cannot exert a backward force\neffectively, so the reaction forward force is also minimal - we cannot walk on\nfrictionless ice.\nConclusion: Every step forward we take is powered by the reaction force from the\nground, demonstrating Newton's Third Law."
+            },
+            {
+              "q_num": 4,
+              "marks": 4,
+              "question": "A gun of mass 3 kg fires a bullet of mass 30 g with a muzzle",
+              "answer": "This problem uses Conservation of Momentum (derived from Newton's Third Law).\n\nGiven:\nMass of gun M = 3 kg\nMass of bullet m = 30 g = 0.03 kg\nInitial velocity of both gun and bullet = 0 (system at rest)\nMuzzle velocity of bullet (v) = 300 m s^-1 (forward, take as positive)\nRecoil velocity of gun (V) = ? (backward, negative direction)\n\nStep 1: Initial momentum of system = 0 (both at rest)\n\nStep 2: Apply conservation of momentum (Newton's Third Law - action and\nreaction are equal and opposite for equal times):\nInitial momentum = Final momentum\n0 = MV + mv\n0 = 3 x V + 0.03 x 300\n0 = 3V + 9\n3V = -9\nV = -3 m s^-1\n\nThe gun recoils at 3 m s^-1 in the direction opposite to the bullet.\n\nExplanation: The bullet moves forward at 300 m s^-1 (large acceleration due to\nsmall mass). The gun recoils at only 3 m s^-1 backward (small acceleration due\nto large mass). Same force (action = reaction), different masses, different\naccelerations."
+            },
+            {
+              "q_num": 5,
+              "marks": 4,
+              "question": "In Activity 8.4, two children on separate carts play catch with",
+              "answer": "Activity 8.4 - Carts and Sandbag:\n\nSetup:\nChild A stands on Cart 1; Child B stands on Cart 2. Both carts are initially at\nrest. White lines are painted on cart wheels to observe motion.\n\nWhat happens when Child A throws the bag to Child B:\n- Child A exerts a forward force on the sandbag (action: bag moves toward B).\n- By Newton's Third Law, the sandbag exerts an equal and opposite force on\nChild A (reaction: A and Cart 1 move backward, away from B).\n- Child B catches the bag. The bag exerts a forward force on Child B (action:\nbag pushes B forward). By Newton's Third Law, B exerts an equal backward\nforce on the bag (reaction: bag decelerates). Cart 2 moves forward.\n\nWhat happens when Child B throws the bag back:\n- Same process in reverse direction.\n- Cart 2 moves backward; Cart 1 moves forward.\n\nConclusion:\nEach throw and catch involves action and reaction forces. The motion of the carts\ndemonstrates that every action (throwing/catching the bag) produces an equal\nand opposite reaction on the thrower/catcher. This directly illustrates\nNewton's Third Law."
+            },
+            {
+              "q_num": 6,
+              "marks": 6,
+              "question": "(a) State Newton's Third Law with a formal definition. (b) Explain",
+              "answer": "(a) Newton's Third Law (formal statement):\nNewton's Third Law of Motion: Whenever one body exerts a force on a second body,\nthe second body simultaneously exerts a force equal in magnitude but opposite in\ndirection on the first body.\nThese two forces are called action and reaction forces. They always:\n- Act on two different objects.\n- Are equal in magnitude.\n- Are opposite in direction.\n- Act simultaneously.\n\n(b) Rocket propulsion and the Third Law:\nA rocket carries fuel. When the fuel burns, it produces hot gases.\nAction: The rocket engine expels these gases backward at very high speed with\ngreat force. The rocket exerts a large force on the gases in the backward\ndirection.\nReaction: By Newton's Third Law, the gases exert an equal and opposite force\non the rocket in the forward direction.\nThis forward reaction force (thrust) propels the rocket forward.\nIn space (vacuum), there is no air. A rocket does not need air to push against -\nit uses the reaction force from expelled gases. This is why rockets work in\nouter space where there is no atmosphere. This principle (action-reaction) is\nthe fundamental basis of space travel.\n\n(c) Gun-bullet system - equal forces, different accelerations:\nWhen a gun fires a bullet:\n- The gun exerts a force F on the bullet (action) - bullet moves forward.\n- The bullet exerts the same force F on the gun (reaction) - gun recoils.\n- The forces are equal (F same for both).\n\nBut accelerations differ because masses differ:\nFor bullet (mass m = 0.03 kg): a_bullet = F/m_bullet (very large acceleration)\nFor gun (mass M = 3 kg): a_gun = F/M_gun (very small acceleration)\n\nSince M_gun >> m_bullet, a_gun << a_bullet.\nThe bullet shoots forward at hundreds of m/s; the gun recoils at just a few m/s.\nThis is consistent with F = ma: same force, different masses, different\naccelerations. Newton's Third Law gives equal forces; Newton's Second Law\nexplains why the resulting accelerations are different.\n\nConclusion: Equal and opposite forces do not mean equal and opposite\naccelerations. Acceleration depends on both force AND mass (F = ma).\n\n--------------------------------------------------------------------------------"
+            }
+          ]
+        },
+        {
+          "type": "mcq",
+          "label": "TOPIC 8.5 MCQ",
+          "items": [
+            {
+              "mcq_num": 1,
+              "difficulty": "Easy",
+              "question": "Newton's Third Law states that action and reaction forces are:",
+              "options": {
+                "A": "Equal in magnitude, same direction, acting on the same object",
+                "B": "Equal in magnitude, opposite in direction, acting on two different objects",
+                "C": "Unequal in magnitude, opposite in direction, acting on two different objects",
+                "D": "Equal in magnitude, same direction, acting on two different objects"
+              },
+              "answer": "B",
+              "explanation": "Newton's Third Law: action and reaction are equal in magnitude, opposite in direction, and act on two different objects simultaneously. They cannot be on the same object."
+            },
+            {
+              "mcq_num": 2,
+              "difficulty": "Easy",
+              "question": "When a sailor jumps forward from a boat, the boat moves:",
+              "options": {
+                "A": "Forward with the sailor",
+                "B": "Backward",
+                "C": "Remains stationary",
+                "D": "Rotates"
+              },
+              "answer": "B",
+              "explanation": "The sailor pushes the boat backward (action). By Newton's Third Law, the boat pushes the sailor forward (reaction). The sailor moves forward; the boat moves backward. They act on different objects."
+            },
+            {
+              "mcq_num": 3,
+              "difficulty": "Medium",
+              "question": "A gun fires a bullet. The gun recoils with much smaller velocity than the bullet because:",
+              "options": {
+                "A": "The force on the gun is less than the force on the bullet",
+                "B": "The gun has greater mass, so for the same force, it has smaller acceleration",
+                "C": "The bullet is lighter so Newton's Third Law does not apply",
+                "D": "The reaction force on the gun acts for a shorter time"
+              },
+              "answer": "B",
+              "explanation": "By Newton's Third Law, force on gun = force on bullet (equal and opposite). From F = ma: a = F/m. Gun has much greater mass M, so a_gun = F/M is much smaller than a_bullet = F/m. Different accelerations from equal forces due to different masses."
+            },
+            {
+              "mcq_num": 4,
+              "difficulty": "Medium",
+              "question": "Which of the following is the action-reaction pair when walking?",
+              "options": {
+                "A": "Gravity pulls us down; the ground pushes us up",
+                "B": "Our foot pushes ground backward; ground pushes our foot forward",
+                "C": "Our muscles contract; our bones extend",
+                "D": "Air resistance pushes us backward; we push air forward"
+              },
+              "answer": "B",
+              "explanation": "The action-reaction pair for walking is: foot pushes road backward (action on road) and road pushes foot forward (reaction on foot). This forward reaction propels us forward. Option A is a different pair (weight and normal reaction from the surface)."
+            },
+            {
+              "mcq_num": 5,
+              "difficulty": "Hard",
+              "question": "Two spring balances A and B are connected end to end. When pulled from one end with force F, both balances show:",
+              "options": {
+                "A": "Balance A shows F, Balance B shows zero",
+                "B": "Both show F/2 each",
+                "C": "Both show F",
+                "D": "Only Balance B shows F"
+              },
+              "answer": "C",
+              "explanation": "By Newton's Third Law, force exerted by A on B = force exerted by B on A = F. Both spring balances measure the force at their junction; both read F. This demonstrates that action and reaction forces are equal in magnitude."
+            }
+          ]
+        },
+        {
+          "type": "exercise",
+          "label": "EXERCISE 8.1:",
+          "items": [],
+          "raw": "Q: An object experiences a net zero external unbalanced force. Is it possible\nfor the object to be travelling with a non-zero velocity?\nA: Yes. If an object is already in uniform motion (constant velocity), the net\nforce on it is zero (balanced forces). By Newton's First Law, it will continue\nmoving at the same velocity. Net zero force does not mean the object is at rest;\nit means velocity is constant (could be zero or non-zero)."
+        },
+        {
+          "type": "exercise",
+          "label": "EXERCISE 8.2:",
+          "items": [],
+          "raw": "Q: When a carpet is beaten with a stick, dust comes out. Explain.\nA: When the carpet is beaten with a stick, the carpet moves suddenly. The dust\nparticles on the carpet, due to their inertia, tend to remain at rest (inertia\nof rest). The carpet moves away from under the dust, and the dust falls off.\nThis is a direct application of Newton's First Law (Law of Inertia)."
+        },
+        {
+          "type": "exercise",
+          "label": "EXERCISE 8.3:",
+          "items": [],
+          "raw": "Q: Why is it advised to tie any luggage kept on the roof of a bus with a rope?\nA: When the bus is moving, the luggage also moves with the bus. When the bus\nbrakes suddenly, the bus decelerates. The luggage, due to its inertia of motion,\ntends to continue moving forward at the same velocity. Without a rope, the\nluggage would slide forward or fall off the roof. The rope applies a retarding\nforce on the luggage, decelerating it along with the bus - preventing it from\nfalling."
+        },
+        {
+          "type": "exercise",
+          "label": "EXERCISE 8.5:",
+          "items": [],
+          "raw": "Q: A truck starts from rest and rolls down a hill, travelling 400 m in 20 s.\nFind acceleration. Force if mass = 7 tonnes.\nA: u = 0, s = 400 m, t = 20 s\nUsing s = ut + (1/2)at^2:\n400 = 0 + (1/2) x a x 400\na = 2 m s^-2\nMass = 7 tonnes = 7000 kg\nF = ma = 7000 x 2 = 14000 N"
+        },
+        {
+          "type": "exercise",
+          "label": "EXERCISE 8.6:",
+          "items": [],
+          "raw": "Q: A stone of 1 kg thrown at 20 m/s across ice comes to rest after 50 m.\nFind force of friction.\nA: u = 20 m/s, v = 0, s = 50 m\nUsing v^2 = u^2 + 2as:\n0 = 400 + 2 x a x 50\na = -400/100 = -4 m s^-2\nF = ma = 1 x (-4) = -4 N\nForce of friction = 4 N (opposing motion).\n\nADDITIONAL EXERCISE A3:\nQ: Hammer of mass 500 g moving at 50 m/s strikes a nail; stops in 0.01 s.\nFind force on nail.\nA: m = 0.5 kg, u = 50 m/s, v = 0, t = 0.01 s\na = (v-u)/t = (0-50)/0.01 = -5000 m s^-2\nF = ma = 0.5 x (-5000) = -2500 N\nForce of nail on hammer = 2500 N (opposing motion).\nBy Newton's Third Law, force of hammer on nail = 2500 N (in direction of motion)."
+        }
+      ],
+      "subtopics": []
+    }
+  ]
+}

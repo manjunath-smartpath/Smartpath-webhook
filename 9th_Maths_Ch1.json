@@ -1,0 +1,2009 @@
+{
+  "metadata": {
+    "class": "9th STANDARD",
+    "subject": "Mathematics",
+    "part": "1",
+    "chapter_num": "1",
+    "chapter_name": "NUMBER SYSTEMS",
+    "source": "KSEEB Textbook 2025-26",
+    "mode": "B"
+  },
+  "chapter_sections": [
+    {
+      "type": "definition",
+      "label": "Definition:",
+      "text": "A NUMBER SYSTEM is the collection of numbers and the rules for operations on\nthem. In this chapter we study natural numbers, whole numbers, integers, rational\nnumbers, irrational numbers and real numbers — together called the real number\nsystem."
+    },
+    {
+      "type": "key_points",
+      "label": "Key Points:",
+      "points": [
+        "Number line: A line on which all real numbers can be represented.",
+        "Number sets and symbols:",
+        "N = Natural numbers: 1, 2, 3, ...",
+        "W = Whole numbers: 0, 1, 2, 3, ...",
+        "Z = Integers: ..., -2, -1, 0, 1, 2, ... (Z from German \"zahlen\" = \"to count\")",
+        "Q = Rational numbers: all p/q where p, q are integers, q ≠ 0",
+        "(Q from \"quotient\"; Rational from \"ratio\")",
+        "R = Real numbers: all rational + irrational numbers",
+        "Relationship: N ⊂ W ⊂ Z ⊂ Q ⊂ R"
+      ]
+    },
+    {
+      "type": "list_of_topics",
+      "label": "LIST OF TOPICS IN THIS CHAPTER:",
+      "items": [
+        "- Topic 1.1: Introduction (Rational Numbers)",
+        "- Topic 1.2: Irrational Numbers",
+        "- Topic 1.3: Real Numbers and their Decimal Expansions",
+        "- Topic 1.4: Operations on Real Numbers",
+        "- Topic 1.5: Laws of Exponents for Real Numbers",
+        "- Topic 1.6: Summary",
+        "EXAMPLES: (Chapter-level overview — see topic-level for full examples)",
+        "All 20 textbook examples are covered topic-wise below.",
+        "(Examples 1–2 under Topic 1.1, Examples 3–4 under Topic 1.2,",
+        "Examples 5–10 under Topic 1.3, Examples 11–19 under Topic 1.4,",
+        "Example 20 under Topic 1.5)"
+      ]
+    },
+    {
+      "type": "qa",
+      "label": "CHAPTER 1: Q&A:",
+      "items": [
+        {
+          "q_num": 1,
+          "marks": 2,
+          "question": "Define a rational number. Give two examples.",
+          "answer": "A number 'r' is called a RATIONAL NUMBER if it can be written in the form p/q,\nwhere p and q are integers and q ≠ 0. Symbol: Q (from \"quotient\").\nExamples: 3/4 (p=3,q=4) and -5/2 (p=-5,q=2) are rational numbers.\nNote: Every integer m = m/1, so all natural numbers, whole numbers, and integers\nare also rational numbers."
+        },
+        {
+          "q_num": 2,
+          "marks": 2,
+          "question": "Define an irrational number. Give two examples.",
+          "answer": "A number 's' is called an IRRATIONAL NUMBER if it CANNOT be written as p/q,\nwhere p and q are integers and q ≠ 0.\nExamples:\n- sqrt(2) = 1.41421356... (non-terminating non-recurring) — irrational.\n- pi = 3.14159265... (non-terminating non-recurring) — irrational.\nDiscovery: Pythagoreans in Greece first discovered irrationals around 400 BC."
+        },
+        {
+          "q_num": 3,
+          "marks": 2,
+          "question": "What are the two types of decimal expansions of a rational number?",
+          "answer": "1. TERMINATING: Division ends (remainder = 0) after finite steps.\nExample: 7/8 = 0.875.\n2. NON-TERMINATING RECURRING: Division never ends; a block of digits repeats.\nExample: 1/3 = 0.3bar.\nConverse: Any number with terminating or non-terminating recurring decimal\nexpansion is RATIONAL."
+        },
+        {
+          "q_num": 4,
+          "marks": 2,
+          "question": "State four laws of exponents for a > 0 and rational p, q.",
+          "answer": "(i)   a^p × a^q = a^(p+q)      Example: 2^(1/2) × 2^(1/3) = 2^(5/6).\n(ii)  (a^p)^q  = a^(pq)         Example: (3^(1/2))^4 = 3^2 = 9.\n(iii) a^p / a^q = a^(p-q)       Example: 5^(3/4) / 5^(1/4) = 5^(1/2).\n(iv)  a^p × b^p = (ab)^p        Example: 2^(1/3) × 3^(1/3) = 6^(1/3).\n\n---\n\n3 ಮಾರ್ಕ್ಸ್ × 2 questions:"
+        },
+        {
+          "q_num": 5,
+          "marks": 3,
+          "question": "Find five rational numbers between 3/5 and 4/5.",
+          "answer": "Step 1: Need 5 numbers → use denominator = (5+1)×5 = 30.\nStep 2: 3/5 = 18/30 and 4/5 = 24/30.\nStep 3: Five rationals between 18/30 and 24/30:\n19/30, 20/30, 21/30, 22/30, 23/30.\nStep 4: Simplified: 19/30, 2/3, 7/10, 11/15, 23/30.\nAnswer: 19/30, 2/3, 7/10, 11/15, 23/30.\n(Infinitely many rational numbers lie between any two rational numbers.)"
+        },
+        {
+          "q_num": 6,
+          "marks": 3,
+          "question": "Express 0.2353535... as p/q form.",
+          "answer": "Let x = 0.2353535... = 0.2bar35 (only 35 repeats, not 2).\nStep 1: Two digits repeat → multiply by 100:\n100x = 23.53535...\nStep 2: 100x = 23.3 + 0.23535... = 23.3 + x.\nStep 3: 99x = 23.3 = 233/10.\nStep 4: x = 233/990.\nAnswer: 0.2353535... = 233/990.\nVerification: 233 ÷ 990 = 0.23535... ✓\n\n---\n\n4 ಮಾರ್ಕ್ಸ್ × 3 questions:"
+        },
+        {
+          "q_num": 7,
+          "marks": 4,
+          "question": "Rationalise 1/(7+3sqrt(2)) and verify.",
+          "answer": "Step 1: Conjugate of (7+3sqrt(2)) = (7-3sqrt(2)).\nStep 2: Multiply num. and denom. by conjugate:\n= (7-3sqrt(2)) / [(7+3sqrt(2))(7-3sqrt(2))].\nStep 3: Denominator = 7^2-(3sqrt(2))^2 = 49-9×2 = 49-18 = 31.\nStep 4: Result = (7-3sqrt(2))/31.\nVerification: (7-3sqrt(2))/31 × (7+3sqrt(2)) = (49-18)/31 = 31/31 = 1. ✓\nAnswer: 1/(7+3sqrt(2)) = (7-3sqrt(2))/31."
+        },
+        {
+          "q_num": 8,
+          "marks": 4,
+          "question": "Simplify using identities (state each identity):",
+          "answer": "(i) Identity: (a+sqrt(b))(a-sqrt(b))=a^2-b. Here a=5, b=5.\n= 25-5 = 20.\n\n(ii) Identity: (sqrt(a)+sqrt(b))^2=a+2sqrt(ab)+b. Here a=3, b=7.\n= 3+2sqrt(21)+7 = 10+2sqrt(21).\n\n(iii) Identity: (sqrt(a)+sqrt(b))(sqrt(a)-sqrt(b))=a-b. Here a=11, b=7.\n= 11-7 = 4.\n\n(iv) 8sqrt(15)÷2sqrt(3) = (8/2)×sqrt(15/3) = 4×sqrt(5) = 4sqrt(5).\n\nAnswer: (i) 20  (ii) 10+2sqrt(21)  (iii) 4  (iv) 4sqrt(5)."
+        },
+        {
+          "q_num": 9,
+          "marks": 4,
+          "question": "Find: (i) 9^(3/2)  (ii) 32^(2/5)  (iii) 16^(3/4)  (iv) 125^(-1/3).",
+          "answer": "(i) 9^(3/2): 9^(1/2)=3 (3^2=9). Then 3^3=27. Answer: 27.\n\n(ii) 32^(2/5): 32^(1/5)=2 (2^5=32). Then 2^2=4. Answer: 4.\n\n(iii) 16^(3/4): 16^(1/4)=2 (2^4=16). Then 2^3=8. Answer: 8.\n\n(iv) 125^(-1/3): 125^(1/3)=5 (5^3=125). So 1/5. Answer: 1/5.\n\n---\n\n5 ಮಾರ್ಕ್ಸ್ × 1 question:"
+        },
+        {
+          "q_num": 10,
+          "marks": 5,
+          "question": "",
+          "answer": "PART A:\n\n(i) Long division of 1/7:\n0.142857...\n7  | 1.0000000\n7\n30, 28 → 2; 20, 14 → 6; 60, 56 → 4; 40, 35 → 5; 50, 49 → 1 (repeats)\nRemainders: 3,2,6,4,5,1 → cycle repeats.\n1/7 = 0.142857bar — NON-TERMINATING RECURRING.\nWhy block < 7: Non-zero remainders when dividing by 7 can only be 1 to 6\n(max 6 distinct values). Once a remainder repeats, decimal repeats.\nSo block length ≤ 6 < divisor 7. ✓\n\n(ii) 1.27bar to p/q:\nLet x = 1.272727... Two digits (27) repeat → ×100:\n100x = 127.2727... = 126 + 1.2727... = 126 + x.\n99x = 126 → x = 126/99 = 14/11.\nVerification: 14÷11 = 1.272727... = 1.27bar ✓\n\nPART B:\n\n(iii) Locating sqrt(2) on number line:\nStep 1: Draw unit square OABC (each side = 1 unit).\nStep 2: By Pythagoras: OB = sqrt(1^2+1^2) = sqrt(2).\nStep 3: Place O at origin on number line.\nStep 4: Compass radius = OB. Centre O. Arc meets number line at P.\nResult: P represents sqrt(2). ✓\n\n(iv) 0.10110111011110...:\nPattern: 1,0; 11,0; 111,0; 1111,0 — number of 1s keeps increasing.\nNo fixed repeating block ever forms.\nNon-terminating and NON-RECURRING → IRRATIONAL."
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "label": "CHAPTER 1: MCQs:",
+      "items": [
+        {
+          "mcq_num": 1,
+          "difficulty": "Easy",
+          "question": "Which of the following is the correct order of number sets (smallest to largest)?",
+          "options": {
+            "A": "N ⊂ Z ⊂ W ⊂ Q   (B) N ⊂ W ⊂ Z ⊂ Q",
+            "C": "W ⊂ N ⊂ Z ⊂ Q   (D) Z ⊂ W ⊂ N ⊂ Q"
+          },
+          "answer": "B",
+          "explanation": "Natural ⊂ Whole ⊂ Integer ⊂ Rational."
+        },
+        {
+          "mcq_num": 2,
+          "difficulty": "Easy",
+          "question": "The symbol R represents:",
+          "options": {
+            "A": "Rational numbers   (B) Real numbers   (C) Remainders   (D) Roots"
+          },
+          "answer": "B",
+          "explanation": "R = rational + irrational = all real numbers."
+        },
+        {
+          "mcq_num": 3,
+          "difficulty": "Easy",
+          "question": "Zero belongs to which of the following sets?",
+          "options": {
+            "A": "N only   (B) W and N   (C) W, Z, Q, R   (D) N, W, Z, Q, R"
+          },
+          "answer": "C",
+          "explanation": "0 is NOT a natural number. It is a whole number, integer, rational, and real."
+        },
+        {
+          "mcq_num": 4,
+          "difficulty": "Medium",
+          "question": "Which set does NOT contain negative numbers?",
+          "options": {
+            "A": "Z   (B) Q   (C) W   (D) R"
+          },
+          "answer": "C",
+          "explanation": "W = {0, 1, 2, 3, ...} — no negatives. Z, Q, R all include negatives."
+        },
+        {
+          "mcq_num": 5,
+          "difficulty": "Medium",
+          "question": "The letter Z for integers comes from which language?",
+          "options": {
+            "A": "Latin   (B) Greek   (C) German   (D) French"
+          },
+          "answer": "C",
+          "explanation": "Z comes from \"zahlen\" (German) meaning \"to count.\""
+        },
+        {
+          "mcq_num": 6,
+          "difficulty": "Medium",
+          "question": "Which of the following is TRUE?",
+          "options": {
+            "A": "Every real number is rational.",
+            "B": "Every irrational number is real.",
+            "C": "Every real number is irrational.",
+            "D": "No rational number is real."
+          },
+          "answer": "B",
+          "explanation": "R = Q ∪ (irrationals). So every irrational IS a real number."
+        },
+        {
+          "mcq_num": 7,
+          "difficulty": "Medium",
+          "question": "How many types of numbers make up the real number system?",
+          "options": {
+            "A": "2   (B) 3   (C) 5   (D) 6"
+          },
+          "answer": "A",
+          "explanation": "Real numbers = Rational numbers + Irrational numbers (2 broad types)."
+        },
+        {
+          "mcq_num": 8,
+          "difficulty": "Hard",
+          "question": "If a number belongs to N, then it also belongs to:",
+          "options": {
+            "A": "W only   (B) W and Z only   (C) W, Z, and Q only   (D) W, Z, Q, and R"
+          },
+          "answer": "D",
+          "explanation": "Since N ⊂ W ⊂ Z ⊂ Q ⊂ R, any natural number is in all these sets."
+        },
+        {
+          "mcq_num": 9,
+          "difficulty": "Hard",
+          "question": "Which of the following number does NOT belong to Q?",
+          "options": {
+            "A": "-7   (B) 0   (C) sqrt(2)   (D) 22/7"
+          },
+          "answer": "C",
+          "explanation": "sqrt(2) is irrational — it cannot be written as p/q. -7 = -7/1, 0 = 0/1, 22/7 are all rational."
+        },
+        {
+          "mcq_num": 10,
+          "difficulty": "Hard",
+          "question": "A number that is in Z but NOT in W must be:",
+          "options": {
+            "A": "A fraction   (B) A negative integer   (C) An irrational   (D) Zero"
+          },
+          "answer": "B",
+          "explanation": "W = {0,1,2,...}, Z includes negatives. So Z - W = negative integers."
+        },
+        {
+          "mcq_num": 11,
+          "difficulty": "Easy",
+          "question": "Q comes from which word?",
+          "options": {
+            "A": "Question   (B) Quadrant   (C) Quotient   (D) Quantum"
+          },
+          "answer": "C",
+          "explanation": "Q stands for rational numbers; it comes from \"quotient.\""
+        },
+        {
+          "mcq_num": 12,
+          "difficulty": "Medium",
+          "question": "The number line is called the \"real number line\" because:",
+          "options": {
+            "A": "Only real-looking numbers are on it.",
+            "B": "Every real number has a unique point and every point represents a unique real number.",
+            "C": "Only integers are on it.",
+            "D": "It is made of real material."
+          },
+          "answer": "B",
+          "explanation": "There is a one-to-one correspondence between real numbers and points on the line."
+        }
+      ]
+    }
+  ],
+  "topics": [
+    {
+      "topic_num": "1.1",
+      "topic_name": "INTRODUCTION (Rational Numbers)",
+      "mode": "B",
+      "sections": [
+        {
+          "type": "definition",
+          "label": "Definition:",
+          "text": "A number 'r' is called a RATIONAL NUMBER if it can be written in the form p/q,\nwhere p and q are integers and q ≠ 0."
+        },
+        {
+          "type": "key_points",
+          "label": "Key Points:",
+          "points": [
+            "Collection of rational numbers is denoted by Q (from \"quotient\").",
+            "All natural numbers, whole numbers, and integers are rational numbers.",
+            "(e.g., -25 = -25/1; p = -25, q = 1)",
+            "Rational numbers do NOT have a unique p/q representation.",
+            "e.g., 1/2 = 2/4 = 10/20 = 25/50 = 47/94 — these are EQUIVALENT RATIONAL NUMBERS.",
+            "Standard (co-prime) form: p and q have no common factor other than 1.",
+            "e.g., 2/4 → co-prime form = 1/2.",
+            "There are INFINITELY MANY rational numbers between any two rational numbers.",
+            "To find a rational between r and s: use (r + s)/2 (the mean method).",
+            "To find n rational numbers between r and s:",
+            "write r = r(n+1)/n+1 and s = s(n+1)/n+1, then pick intermediate fractions."
+          ]
+        },
+        {
+          "type": "list_of_topics",
+          "label": "LIST OF SUB TOPICS IN THIS TOPIC:",
+          "items": [
+            "(No sub-topics in textbook for Topic 1.1 — all content is at topic level)"
+          ]
+        },
+        {
+          "type": "formulas",
+          "label": "FORMULA:",
+          "items": [
+            "Mean method: Rational number between r and s = (r + s) / 2",
+            "WHERE:",
+            "r = first rational number (r < s)",
+            "s = second rational number",
+            "EXAMPLES: (textbook examples)",
+            "EXAMPLE 1: True or False — Types of Numbers",
+            "PROBLEM:",
+            "Are the following statements true or false? Give reasons.",
+            "(i)   Every whole number is a natural number.",
+            "(ii)  Every integer is a rational number.",
+            "(iii) Every rational number is an integer.",
+            "SOLUTION:",
+            "Step 1: Check (i): Natural numbers = {1,2,3,...}, Whole numbers = {0,1,2,...}.",
+            "Zero is a whole number but NOT a natural number.",
+            "Step 2: Check (ii): Every integer m = m/1, which is of the form p/q (q=1≠0).",
+            "Step 3: Check (iii): 3/5 is rational but NOT an integer (integers have q=1).",
+            "ANSWER:",
+            "(i) FALSE — 0 is a whole number but not a natural number.",
+            "(ii) TRUE — every integer m = m/1 is rational.",
+            "(iii) FALSE — 3/5 is rational but not an integer.",
+            "EXAMPLE 2: Finding Five Rational Numbers Between 1 and 2",
+            "PROBLEM: Find five rational numbers between 1 and 2.",
+            "SOLUTION:",
+            "Method 1 (Mean method — one by one):",
+            "Step 1: Between 1 and 2: (1+2)/2 = 3/2.",
+            "Step 2: Between 1 and 3/2: (1 + 3/2)/2 = (5/2)/2 = 5/4.",
+            "Step 3: Between 3/2 and 2: (3/2 + 2)/2 = (7/2)/2 = 7/4.",
+            "Step 4: Between 5/4 and 3/2: (5/4 + 3/2)/2 = (11/4)/2 = 11/8.",
+            "Step 5: Between 3/2 and 7/4: (3/2 + 7/4)/2 = (13/4)/2 = 13/8.",
+            "So five numbers: 5/4, 11/8, 3/2, 13/8, 7/4.",
+            "Method 2 (One-step — denominator method):",
+            "Step 1: We want 5 numbers, so use denominator = 5+1 = 6.",
+            "Write: 1 = 6/6 and 2 = 12/6.",
+            "Step 2: Numbers between 6/6 and 12/6 with denominator 6:",
+            "7/6, 8/6, 9/6, 10/6, 11/6.",
+            "ANSWER: 7/6, 4/3, 3/2, 5/3, 11/6",
+            "(Note: Infinitely many rational numbers lie between any two rational numbers.)"
+          ]
+        },
+        {
+          "type": "exercise",
+          "label": "EXERCISE 1.1:",
+          "items": [],
+          "raw": "1. Is zero a rational number? Can it be written as p/q where p, q are integers\nand q ≠ 0?\n[Ans: Yes. 0 = 0/1 = 0/2 = 0/(-3) etc. — all valid p/q forms with q≠0.]\n2. Find six rational numbers between 3 and 4.\n[Ans: Write 3 = 21/7 and 4 = 28/7. Six rationals: 22/7, 23/7, 24/7, 25/7,\n26/7, 27/7.]\n3. Find five rational numbers between 3/5 and 4/5.\n[Ans: Write with denominator 6×5=30: 18/30 and 24/30.\nFive rationals: 19/30, 20/30, 21/30, 22/30, 23/30\ni.e., 19/30, 2/3, 7/10, 11/15, 23/30.]\n4. State whether the following are true or false. Give reasons:\n(i)  Every natural number is a whole number. [TRUE — N ⊂ W]\n(ii) Every integer is a whole number. [FALSE — negative integers not in W]\n(iii) Every rational number is a whole number. [FALSE — e.g., 1/2 is not]"
+        },
+        {
+          "type": "qa",
+          "label": "TOPIC 1.1: Q&A:",
+          "items": [
+            {
+              "q_num": 1,
+              "marks": 2,
+              "question": "What is a rational number? State the set relationships N, W, Z, Q.",
+              "answer": "A number 'r' is RATIONAL if it can be written as p/q (p,q integers, q≠0). Symbol: Q.\nSet relationships: N ⊂ W ⊂ Z ⊂ Q.\nEvery natural number, whole number, and integer is also rational.\n(e.g., -3 = -3/1; 0 = 0/1; 5 = 5/1 — all rational.)"
+            },
+            {
+              "q_num": 2,
+              "marks": 2,
+              "question": "Is zero a rational number? Justify with three representations.",
+              "answer": "Yes. Zero can be written as p/q with q≠0 in multiple ways:\n0 = 0/1 (p=0, q=1 ≠ 0) ✓\n0 = 0/2 (p=0, q=2 ≠ 0) ✓\n0 = 0/(-3) (p=0, q=-3 ≠ 0) ✓\nSince zero satisfies the definition, 0 ∈ Q.\nZero belongs to W, Z, Q, and R."
+            },
+            {
+              "q_num": 3,
+              "marks": 2,
+              "question": "What is the co-prime form of a rational number?",
+              "answer": "Co-prime form: p/q where HCF(p, q) = 1 (no common factor other than 1).\nExpress 15/35:\nStep 1: HCF(15, 35) = 5. (15=3×5, 35=5×7)\nStep 2: 15/35 = (15÷5)/(35÷5) = 3/7.\nCheck: HCF(3,7) = 1. ✓\nAnswer: 3/7 is the co-prime form of 15/35."
+            },
+            {
+              "q_num": 4,
+              "marks": 2,
+              "question": "How many rational numbers exist between any two rational numbers?",
+              "answer": "There are INFINITELY MANY rational numbers between any two rational numbers.\nExample: Between 1 and 2:\nMean method: (1+2)/2 = 3/2. → between 1 and 3/2: (1+3/2)/2 = 5/4.\nWe can always apply the mean method again to find another — endlessly.\nSo infinitely many rationals exist between any two.\n\n---\n\n3 ಮಾರ್ಕ್ಸ್ × 2 questions:"
+            },
+            {
+              "q_num": 5,
+              "marks": 3,
+              "question": "Find six rational numbers between 3 and 4.",
+              "answer": "Step 1: Need 6 → denominator = 6+1 = 7.\nStep 2: 3 = 21/7 and 4 = 28/7.\nStep 3: Rationals between 21/7 and 28/7:\n22/7, 23/7, 24/7, 25/7, 26/7, 27/7.\nAnswer: 22/7, 23/7, 24/7, 25/7, 26/7, 27/7.\nCheck: 3 = 21/7 < 22/7 < ... < 27/7 < 28/7 = 4. ✓"
+            },
+            {
+              "q_num": 6,
+              "marks": 3,
+              "question": "Are the following true or false? Give reasons:",
+              "answer": "(i) TRUE. N = {1,2,3,...} ⊂ W = {0,1,2,...}. Every element of N is in W.\n\n(ii) FALSE. Z includes negatives: {...,-2,-1,0,1,2,...}. W = {0,1,2,...}.\nCounter-example: -3 ∈ Z but -3 ∉ W.\n\n(iii) FALSE. Rationals include fractions not in W.\nCounter-example: 3/5 ∈ Q but 3/5 ∉ W.\n\n---\n\n4 ಮಾರ್ಕ್ಸ್ × 3 questions:"
+            },
+            {
+              "q_num": 7,
+              "marks": 4,
+              "question": "Find five rational numbers between 1/4 and 1/2 using both",
+              "answer": "MEAN METHOD (one by one):\nStep 1: (1/4+1/2)/2 = (3/4)/2 = 3/8.\nStep 2: (1/4+3/8)/2 = (5/8)/2 = 5/16.\nStep 3: (3/8+1/2)/2 = (7/8)/2 = 7/16.\nStep 4: (5/16+3/8)/2 = (11/16)/2 = 11/32.\nStep 5: (3/8+7/16)/2 = (13/16)/2 = 13/32.\nFive: 5/16, 11/32, 3/8, 13/32, 7/16.\n\nDENOMINATOR METHOD:\nLCM(4,2)=4. New denom = 6×4=24.\n1/4=6/24, 1/2=12/24.\nNumbers: 7/24, 8/24, 9/24, 10/24, 11/24.\nSimplified: 7/24, 1/3, 3/8, 5/12, 11/24."
+            },
+            {
+              "q_num": 8,
+              "marks": 4,
+              "question": "Using mean property find 4 rationals between 1/5 and 2/5.",
+              "answer": "Step 1: Mean of 1/5 and 2/5 = (1/5+2/5)/2 = (3/5)/2 = 3/10.\nStep 2: Mean of 1/5 and 3/10 = (2/10+3/10)/2 = 5/20 = 1/4.\nStep 3: Mean of 3/10 and 2/5 = (3/10+4/10)/2 = 7/20.\nStep 4: Mean of 1/4 and 3/10 = (5/20+6/20)/2 = 11/40.\nAnswer: 1/4, 11/40, 3/10, 7/20.\nOrder: 1/5 < 1/4 < 11/40 < 3/10 < 7/20 < 2/5. ✓\nCount: INFINITELY MANY rational numbers exist between any two rationals."
+            },
+            {
+              "q_num": 9,
+              "marks": 4,
+              "question": "(i) Show 1/2 = 2/4 = 10/20 = 25/50. What are these called?",
+              "answer": "(i) Equivalent forms:\n1/2 = (1×2)/(2×2) = 2/4 ✓\n1/2 = (1×10)/(2×10) = 10/20 ✓\n1/2 = (1×25)/(2×25) = 25/50 ✓\nThese are called EQUIVALENT RATIONAL NUMBERS (equivalent fractions).\n\n(ii) Co-prime form:\n1/2: HCF(1,2)=1 → co-prime form. ✓\n2/4: HCF=2 → not co-prime.\n10/20: HCF=10 → not co-prime.\n25/50: HCF=25 → not co-prime.\nAnswer: 1/2 is the co-prime (standard) form.\n\n(iii) -2005/2006:\np=-2005 (integer ✓), q=2006 (integer ✓), q≠0 ✓.\nYes, -2005/2006 is RATIONAL. It lies between -1 and 0 on number line.\n\n---\n\n5 ಮಾರ್ಕ್ಸ್ × 1 question:"
+            },
+            {
+              "q_num": 10,
+              "marks": 5,
+              "question": "",
+              "answer": "PART A:\n\n(i) Five rationals between 3/4 and 1 (denominator method):\nDenom = (5+1)×4 = 24.\n3/4 = 18/24, 1 = 24/24.\nRationals: 19/24, 20/24, 21/24, 22/24, 23/24.\nSimplified: 19/24, 5/6, 7/8, 11/12, 23/24.\n\n(ii) Student's claim: only 9 rationals between 0.5 and 0.6 — WRONG.\nBetween 0.5 and 0.6 there are also: 0.501, 0.5001, 0.50001, ...\nAlso fractions: 51/100, 101/200, 201/400, ... — infinitely many.\nBetween ANY two rationals, INFINITELY MANY rationals exist.\n\nPART B:\n\n(iii) Three rational weights between 3/4 kg and 1 kg:\nFrom (i): 19/24 ≈ 0.792 kg, 5/6 ≈ 0.833 kg, 7/8 = 0.875 kg.\nAre they unique? NO — there are infinitely many choices.\nAny rational between 3/4 and 1 is valid; we chose only 3 of infinitely many.\n\n(iv) Relationship N ⊂ W ⊂ Z ⊂ Q ⊂ R:\n- Every natural number is a whole number (0 is added in W).\n- Every whole number is an integer (negatives added in Z).\n- Every integer is rational (m = m/1, q=1≠0).\n- Every rational is real (Q ⊂ R).\nExample in ALL five: 5 ∈ N, 5 ∈ W, 5 ∈ Z, 5 ∈ Q, 5 ∈ R.\nExample in Q only (not in Z): 3/5 ∈ Q but 3/5 ∉ Z, ∉ W, ∉ N."
+            }
+          ]
+        },
+        {
+          "type": "mcq",
+          "label": "TOPIC 1.1: MCQs:",
+          "items": [
+            {
+              "mcq_num": 1,
+              "difficulty": "Easy",
+              "question": "Which symbol represents rational numbers?",
+              "options": {
+                "A": "N   (B) Z   (C) Q   (D) W"
+              },
+              "answer": "C",
+              "explanation": "Q comes from \"quotient.\" Rational comes from \"ratio.\""
+            },
+            {
+              "mcq_num": 2,
+              "difficulty": "Easy",
+              "question": "Which of the following is NOT a natural number?",
+              "options": {
+                "A": "5   (B) 100   (C) 0   (D) 1"
+              },
+              "answer": "C",
+              "explanation": "Natural numbers start from 1. Zero is a whole number only."
+            },
+            {
+              "mcq_num": 3,
+              "difficulty": "Easy",
+              "question": "-7 written as p/q in standard form is:",
+              "options": {
+                "A": "7/1   (B) -7/1   (C) 1/(-7)   (D) -1/7"
+              },
+              "answer": "B",
+              "explanation": "Every integer m = m/1. So -7 = -7/1 (p=-7, q=1)."
+            },
+            {
+              "mcq_num": 4,
+              "difficulty": "Medium",
+              "question": "A rational number between 1/3 and 1/2 is:",
+              "options": {
+                "A": "1/6   (B) 5/12   (C) 2/3   (D) 3/4"
+              },
+              "answer": "B",
+              "explanation": "(1/3 + 1/2)/2 = (2/6+3/6)/2 = (5/6)/2 = 5/12."
+            },
+            {
+              "mcq_num": 5,
+              "difficulty": "Medium",
+              "question": "Which statement is TRUE?",
+              "options": {
+                "A": "Every rational number is a natural number.",
+                "B": "Every integer is a rational number.",
+                "C": "Every whole number is an integer but not a rational number.",
+                "D": "Every natural number is irrational."
+              },
+              "answer": "B",
+              "explanation": "Every integer m = m/1 is rational."
+            },
+            {
+              "mcq_num": 6,
+              "difficulty": "Medium",
+              "question": "How many rational numbers exist between 2 and 3?",
+              "options": {
+                "A": "1   (B) 10   (C) 100   (D) Infinitely many"
+              },
+              "answer": "D",
+              "explanation": "Between any two rationals, infinitely many rationals exist."
+            },
+            {
+              "mcq_num": 7,
+              "difficulty": "Medium",
+              "question": "The co-prime form of 15/25 is:",
+              "options": {
+                "A": "3/5   (B) 15/25   (C) 5/3   (D) 1/2"
+              },
+              "answer": "A",
+              "explanation": "HCF(15,25)=5. So 15/25 = 3/5 (co-prime form)."
+            },
+            {
+              "mcq_num": 8,
+              "difficulty": "Hard",
+              "question": "A rational number between r and s (r < s) is given by:",
+              "options": {
+                "A": "r - s   (B) r × s   (C) (r + s)/2   (D) r/s"
+              },
+              "answer": "C",
+              "explanation": "The mean of r and s always lies strictly between r and s."
+            },
+            {
+              "mcq_num": 9,
+              "difficulty": "Hard",
+              "question": "Which set relationship is correct?",
+              "options": {
+                "A": "Q ⊂ Z ⊂ W ⊂ N   (B) N ⊂ W ⊂ Z ⊂ Q",
+                "C": "Z ⊂ Q ⊂ W ⊂ N   (D) W ⊂ N ⊂ Z ⊂ Q"
+              },
+              "answer": "B",
+              "explanation": "Natural ⊂ Whole ⊂ Integer ⊂ Rational."
+            },
+            {
+              "mcq_num": 10,
+              "difficulty": "Hard",
+              "question": "Find five rationals between 3 and 4 using denominator 6. Which list is correct?",
+              "options": {
+                "A": "4/6, 5/6, 6/6, 7/6, 8/6",
+                "B": "19/6, 20/6, 21/6, 22/6, 23/6",
+                "C": "4/3, 5/3, 2, 7/3, 8/3",
+                "D": "1/2, 3/2, 5/2, 7/2, 9/2"
+              },
+              "answer": "B",
+              "explanation": "3=18/6, 4=24/6. Five rationals between: 19/6, 20/6, 21/6, 22/6, 23/6."
+            },
+            {
+              "mcq_num": 11,
+              "difficulty": "Easy",
+              "question": "The letter Z for integers comes from which language?",
+              "options": {
+                "A": "Latin   (B) Greek   (C) German   (D) French"
+              },
+              "answer": "C",
+              "explanation": "Z from \"zahlen\" (German) meaning \"to count.\""
+            },
+            {
+              "mcq_num": 12,
+              "difficulty": "Medium",
+              "question": "Which of the following is FALSE?",
+              "options": {
+                "A": "0 is a whole number.",
+                "B": "Every natural number is a whole number.",
+                "C": "0 is a natural number.",
+                "D": "-3 is an integer."
+              },
+              "answer": "C",
+              "explanation": "Natural numbers start from 1. Zero is whole, not natural."
+            }
+          ]
+        }
+      ],
+      "subtopics": []
+    },
+    {
+      "topic_num": "1.2",
+      "topic_name": "IRRATIONAL NUMBERS",
+      "mode": "B",
+      "sections": [
+        {
+          "type": "definition",
+          "label": "Definition:",
+          "text": "A number 's' is called an IRRATIONAL NUMBER if it cannot be written in the form\np/q, where p and q are integers and q ≠ 0."
+        },
+        {
+          "type": "key_points",
+          "label": "Key Points:",
+          "points": [
+            "First discovered by Pythagoreans (followers of Pythagoras) in Greece, ~400 BC.",
+            "The symbol sqrt( ) always refers to the POSITIVE square root.",
+            "e.g., sqrt(4) = 2 (not -2), though both 2 and -2 are square roots of 4.",
+            "Examples of irrationals: sqrt(2), sqrt(3), sqrt(5), sqrt(6), sqrt(7),",
+            "sqrt(10), sqrt(11), sqrt(12), sqrt(13), sqrt(14), sqrt(15), sqrt(17), pi,",
+            "0.10110111011110... (non-terminating non-recurring).",
+            "pi is irrational. 22/7 is only an approximation: pi ≠ 22/7.",
+            "pi = 3.14159265358979323846264338327950...",
+            "REAL NUMBERS (R) = Rational numbers (Q) + Irrational numbers.",
+            "Every real number → unique point on the number line.",
+            "Every point on number line → unique real number.",
+            "Hence the number line is called the REAL NUMBER LINE.",
+            "Cantor (1845–1918) and Dedekind (1831–1916) proved this correspondence."
+          ]
+        },
+        {
+          "type": "list_of_topics",
+          "label": "LIST OF SUB TOPICS IN THIS TOPIC:",
+          "items": [
+            "(No sub-topics in textbook for Topic 1.2 — all content is at topic level)",
+            "EXAMPLES: (textbook examples)",
+            "EXAMPLE 3: Locating sqrt(2) on the Number Line",
+            "PROBLEM: Locate sqrt(2) on the number line.",
+            "SOLUTION:",
+            "Step 1: Draw a unit square OABC with each side = 1 unit on paper.",
+            "Step 2: By Pythagoras theorem: OB = sqrt(OA^2 + AB^2) = sqrt(1^2 + 1^2) = sqrt(2).",
+            "Step 3: Transfer the figure to the number line with vertex O at zero (origin).",
+            "Step 4: Using a compass with centre O and radius OB = sqrt(2),",
+            "draw an arc intersecting the number line at point P.",
+            "ANSWER: The point P corresponds to sqrt(2) on the number line.",
+            "EXAMPLE 4: Locating sqrt(3) on the Number Line",
+            "PROBLEM: Locate sqrt(3) on the number line.",
+            "SOLUTION:",
+            "Step 1: Use the position of sqrt(2) already found (OB = sqrt(2) from Example 1.2.1).",
+            "Step 2: Construct BD perpendicular to OB with BD = 1 unit.",
+            "Step 3: By Pythagoras theorem:",
+            "OD = sqrt(OB^2 + BD^2) = sqrt((sqrt(2))^2 + 1^2) = sqrt(2 + 1) = sqrt(3).",
+            "Step 4: Using compass with centre O and radius OD, draw arc intersecting",
+            "number line at point Q.",
+            "ANSWER: The point Q corresponds to sqrt(3) on the number line.",
+            "Note: In general, sqrt(n) can be located after sqrt(n-1) has been located,",
+            "by constructing a perpendicular of unit length."
+          ]
+        },
+        {
+          "type": "exercise",
+          "label": "EXERCISE 1.2:",
+          "items": [],
+          "raw": "1. State whether the following are true or false. Justify your answers.\n(i)  Every irrational number is a real number.\n[TRUE — R = Q + irrationals, so every irrational is real.]\n(ii) Every point on the number line is of the form sqrt(m), where m is natural.\n[FALSE — e.g., 2 is on the number line but not of the form sqrt(m) for\nnatural m. Also negative numbers are on it.]\n(iii) Every real number is an irrational number.\n[FALSE — rational numbers are also real, e.g., 1/2 is real but rational.]\n2. Are the square roots of all positive integers irrational? If not, give an example\nof a square root of a number that is a rational number.\n[Ans: No. sqrt(4) = 2 (rational), sqrt(9) = 3 (rational).]\n3. Show how sqrt(5) can be represented on the number line.\n[Hint: sqrt(5) = sqrt((sqrt(4))^2 + 1^2) = sqrt(4+1). First locate sqrt(4)=2,\nthen construct perpendicular of 1 unit, giving OD = sqrt(5).]\n4. Classroom Activity: Construct the 'square root spiral' showing sqrt(2), sqrt(3),\nsqrt(4), ... using successive perpendiculars of unit length from the previous\nhypotenuse."
+        },
+        {
+          "type": "qa",
+          "label": "TOPIC 1.2: Q&A:",
+          "items": [
+            {
+              "q_num": 1,
+              "marks": 2,
+              "question": "Define irrational number. Who first discovered them?",
+              "answer": "IRRATIONAL: A number 's' that CANNOT be written as p/q (p,q integers, q≠0).\nDiscovery: PYTHAGOREANS in Greece (followers of Pythagoras) around 400 BC.\nHippacus of Croton proved sqrt(2) irrational. Theodorus showed sqrt(3), sqrt(5),\n..., sqrt(17) also irrational."
+            },
+            {
+              "q_num": 2,
+              "marks": 2,
+              "question": "What are real numbers? Write R = Q ∪ {irrationals}.",
+              "answer": "REAL NUMBERS (R) = All rational numbers + All irrational numbers.\nR = Q ∪ {Irrational numbers}.\nKey property: Every real number ↔ unique point on number line.\nEvery point on number line ↔ unique real number.\nThis correspondence is why the number line is called the REAL NUMBER LINE."
+            },
+            {
+              "q_num": 3,
+              "marks": 2,
+              "question": "Is sqrt(4) irrational? Is sqrt(5) irrational? Give reasons.",
+              "answer": "sqrt(4): 4 = 2^2. sqrt(4) = 2 = 2/1 → RATIONAL. (Perfect square.)\nsqrt(5): Not a perfect square. sqrt(5)=2.2360679...\nNon-terminating non-recurring → IRRATIONAL.\nRule: sqrt(n) is irrational if n is a positive integer NOT a perfect square."
+            },
+            {
+              "q_num": 4,
+              "marks": 2,
+              "question": "State approximate decimal values of sqrt(2) and pi.",
+              "answer": "sqrt(2) = 1.41421356237309504880...\npi = 3.14159265358979323846...\nIs 22/7 = pi? NO.\n22/7 = 3.142857bar (non-terminating RECURRING → rational).\npi = 3.14159265... (non-terminating NON-RECURRING → irrational).\n22/7 ≠ pi. 22/7 is only an APPROXIMATION of pi.\n\n---\n\n3 ಮಾರ್ಕ್ಸ್ × 2 questions:"
+            },
+            {
+              "q_num": 5,
+              "marks": 3,
+              "question": "Describe step-by-step how to locate sqrt(2) on the number line.",
+              "answer": "Step 1: Draw unit square OABC (each side = 1 unit) on paper.\nStep 2: By Pythagoras: OB = sqrt(OA^2+AB^2) = sqrt(1+1) = sqrt(2).\nStep 3: Transfer figure to number line with O at origin. OA along positive side.\nStep 4: Compass radius OB = sqrt(2). Centre O. Draw arc cutting number line at P.\nResult: P represents sqrt(2) on the number line. ✓\nNote: sqrt(3), sqrt(5), etc. can be located by successive right triangles —\nthe \"square root spiral.\""
+            },
+            {
+              "q_num": 6,
+              "marks": 3,
+              "question": "Classify each as rational or irrational with justification:",
+              "answer": "(i) sqrt(9) = 3 = 3/1. RATIONAL (perfect square).\n\n(ii) sqrt(12) = sqrt(4×3) = 2sqrt(3) = 2×1.73205... = 3.46410...\nNon-terminating non-recurring. IRRATIONAL.\n(Non-zero rational × irrational = irrational.)\n\n(iii) pi = 3.14159265... Non-terminating non-recurring.\nProved irrational by Lambert & Legendre (late 1700s). IRRATIONAL.\nNote: 22/7 ≈ 3.14286 ≠ pi. It's only an approximation.\n\n---\n\n4 ಮಾರ್ಕ್ಸ್ × 3 questions:"
+            },
+            {
+              "q_num": 7,
+              "marks": 4,
+              "question": "Locate sqrt(3) on the number line. Apply Pythagoras theorem",
+              "answer": "Stage 1 — Locate sqrt(2) first:\nStep 1: Right triangle OAB: OA=AB=1. OB = sqrt(1+1) = sqrt(2).\nStep 2: Arc from O, radius sqrt(2) → Point P1 = sqrt(2) on number line.\n\nStage 2 — Locate sqrt(3) using sqrt(2):\nStep 3: At B, draw BD ⊥ OB with BD=1 unit.\nStep 4: OD = sqrt(OB^2+BD^2) = sqrt((sqrt(2))^2+1) = sqrt(2+1) = sqrt(3).\nStep 5: Arc from O, radius OD → Point P2 = sqrt(3) on number line. ✓\nGeneral: After locating sqrt(n-1), draw perpendicular of 1 unit → sqrt(n)."
+            },
+            {
+              "q_num": 8,
+              "marks": 4,
+              "question": "Classify the following with full justification:",
+              "answer": "(i) sqrt(23): 23 not a perfect square. sqrt(23)=4.7958... non-terminating non-recurring.\nIRRATIONAL.\n\n(ii) sqrt(225): 225=15^2. sqrt(225)=15=15/1. RATIONAL.\n\n(iii) 0.3796: Terminating after 4 places. =3796/10000. RATIONAL.\n\n(iv) 7.478478...: Block 478 repeats = 7.478bar. NON-TERMINATING RECURRING. RATIONAL.\n(999x = 7471 → x = 7471/999.)\n\n(v) 1.101001000100001...: Zeros between 1s: 1,2,3,4,... (increasing).\nNo fixed repeating block. NON-TERMINATING NON-RECURRING. IRRATIONAL."
+            },
+            {
+              "q_num": 9,
+              "marks": 4,
+              "question": "Find an irrational number between 1/7 and 2/7. Justify.",
+              "answer": "Step 1: 1/7=0.142857bar, 2/7=0.285714bar.\nStep 2: Construct non-terminating non-recurring decimal between them:\ns = 0.1501500015000015...\n(After each 1: zeros increase — 1,2,3,4,... No block repeats.)\nStep 3: 0.142857... < 0.1501500... < 0.285714... ✓\nWhy irrational: Decimal is non-terminating non-recurring → IRRATIONAL.\nCount: INFINITELY MANY irrational numbers exist between any two rationals.\n\n---\n\n5 ಮಾರ್ಕ್ಸ್ × 1 question:"
+            },
+            {
+              "q_num": 10,
+              "marks": 5,
+              "question": "",
+              "answer": "PART A:\n\n(i) NO. R = Q ∪ {irrationals}. Real numbers include BOTH types.\nRational reals: 1/2=0.5 (terminating), 1/3=0.3bar (recurring).\nIrrational reals: sqrt(2)=1.41421... (non-recurring), pi=3.14159...\nNot every real is irrational — all rationals are also real.\n\n(ii) s = 0.1234567891011121314151617... (natural numbers written in sequence)\nHas a visible pattern — but the \"pattern\" grows endlessly; no fixed block repeats.\nNon-terminating NON-RECURRING → IRRATIONAL.\nKey: Having a pattern ≠ having a REPEATING BLOCK.\n\nPART B:\n\n(iii) Square root spiral:\nO → OP1=1. At P1: P1P2 ⊥ OP1, length 1 → OP2=sqrt(2).\nAt P2: P2P3 ⊥ OP2, length 1 → OP3=sqrt(3).\nAt P3: P3P4 ⊥ OP3, length 1 → OP4=sqrt(4)=2.\nLengths: OP1=1, OP2=sqrt(2), OP3=sqrt(3), OP4=2.\nContinuing gives sqrt(5), sqrt(6), sqrt(7), ... — beautiful spiral.\n\n(iv) Locate sqrt(5) from sqrt(4)=2:\nStep 1: OP4=sqrt(4)=2 (already located).\nStep 2: At P4 draw P4P5 ⊥ OP4, length 1 unit.\nStep 3: OP5=sqrt(OP4^2+P4P5^2)=sqrt(4+1)=sqrt(5).\nStep 4: Arc from O, radius OP5, cuts number line at Q.\nQ = sqrt(5) ≈ 2.236 on the number line. ✓"
+            }
+          ]
+        },
+        {
+          "type": "mcq",
+          "label": "TOPIC 1.2: MCQs:",
+          "items": [
+            {
+              "mcq_num": 1,
+              "difficulty": "Easy",
+              "question": "Which of the following is an irrational number?",
+              "options": {
+                "A": "3/4   (B) -7   (C) sqrt(2)   (D) 0"
+              },
+              "answer": "C",
+              "explanation": "sqrt(2) = 1.41421... is non-terminating non-recurring."
+            },
+            {
+              "mcq_num": 2,
+              "difficulty": "Easy",
+              "question": "The symbol for real numbers is:",
+              "options": {
+                "A": "Q   (B) Z   (C) R   (D) N"
+              },
+              "answer": "C",
+              "explanation": "R = rational + irrational = all real numbers."
+            },
+            {
+              "mcq_num": 3,
+              "difficulty": "Easy",
+              "question": "Which of the following is NOT irrational?",
+              "options": {
+                "A": "sqrt(3)   (B) sqrt(5)   (C) sqrt(9)   (D) sqrt(7)"
+              },
+              "answer": "C",
+              "explanation": "sqrt(9) = 3 (natural number, hence rational)."
+            },
+            {
+              "mcq_num": 4,
+              "difficulty": "Medium",
+              "question": "Every real number is:",
+              "options": {
+                "A": "Rational   (B) Irrational   (C) Rational or irrational   (D) An integer"
+              },
+              "answer": "C",
+              "explanation": "R = Q ∪ {irrationals}."
+            },
+            {
+              "mcq_num": 5,
+              "difficulty": "Medium",
+              "question": "To locate sqrt(2) on the number line, we construct a right triangle with legs:",
+              "options": {
+                "A": "2 and 2   (B) 1 and 1   (C) 1 and 2   (D) 2 and 3"
+              },
+              "answer": "B",
+              "explanation": "sqrt(1^2 + 1^2) = sqrt(2) by Pythagoras theorem."
+            },
+            {
+              "mcq_num": 6,
+              "difficulty": "Medium",
+              "question": "To locate sqrt(3) after sqrt(2) is located, the perpendicular drawn has length:",
+              "options": {
+                "A": "sqrt(2)   (B) sqrt(3)   (C) 1   (D) 2"
+              },
+              "answer": "C",
+              "explanation": "OD = sqrt((sqrt(2))^2 + 1^2) = sqrt(3). Perpendicular = 1 unit."
+            },
+            {
+              "mcq_num": 7,
+              "difficulty": "Medium",
+              "question": "The value of pi correct to 5 decimal places is:",
+              "options": {
+                "A": "3.14159   (B) 3.14269   (C) 3.14286   (D) 3.14128"
+              },
+              "answer": "A",
+              "explanation": "pi = 3.14159265358979..."
+            },
+            {
+              "mcq_num": 8,
+              "difficulty": "Hard",
+              "question": "0.101001000100001... is:",
+              "options": {
+                "A": "Rational   (B) Irrational   (C) An integer   (D) A natural number"
+              },
+              "answer": "B",
+              "explanation": "Non-terminating and non-recurring → irrational."
+            },
+            {
+              "mcq_num": 9,
+              "difficulty": "Hard",
+              "question": "Which statement is FALSE?",
+              "options": {
+                "A": "Every irrational number is a real number.",
+                "B": "Every rational number is a real number.",
+                "C": "Every real number is an irrational number.",
+                "D": "The number line is called the real number line."
+              },
+              "answer": "C",
+              "explanation": "Real numbers include BOTH rationals and irrationals."
+            },
+            {
+              "mcq_num": 10,
+              "difficulty": "Hard",
+              "question": "Which is TRUE?",
+              "options": {
+                "A": "pi = 22/7 exactly.",
+                "B": "sqrt(4) is irrational.",
+                "C": "R = Q ∪ {irrational numbers}.",
+                "D": "Every point on number line is rational."
+              },
+              "answer": "C",
+              "explanation": "pi ≠ 22/7 (approximation), sqrt(4)=2 (rational), not every point is rational."
+            },
+            {
+              "mcq_num": 11,
+              "difficulty": "Easy",
+              "question": "Who proved sqrt(2) is irrational?",
+              "options": {
+                "A": "Aryabhatta   (B) Euclid   (C) Pythagoreans   (D) Archimedes"
+              },
+              "answer": "C",
+              "explanation": "Pythagoreans proved sqrt(2) is irrational around 400 BC."
+            },
+            {
+              "mcq_num": 12,
+              "difficulty": "Medium",
+              "question": "sqrt(2) up to a few decimal places is:",
+              "options": {
+                "A": "1.41421...   (B) 1.73205...   (C) 3.14159...   (D) 2.23606..."
+              },
+              "answer": "A",
+              "explanation": "sqrt(2)=1.41421..., sqrt(3)=1.73205..., pi=3.14159..., sqrt(5)=2.23606..."
+            }
+          ]
+        }
+      ],
+      "subtopics": []
+    },
+    {
+      "topic_num": "1.3",
+      "topic_name": "REAL NUMBERS AND THEIR DECIMAL EXPANSIONS",
+      "mode": "B",
+      "sections": [
+        {
+          "type": "definition",
+          "label": "Definition:",
+          "text": "The DECIMAL EXPANSION of a real number is the representation of the number in\ndecimal (base-10) form. It reveals whether the number is rational or irrational."
+        },
+        {
+          "type": "key_points",
+          "label": "Key Points:",
+          "points": [
+            "TERMINATING decimal: remainder becomes 0 after finite steps.",
+            "Examples: 7/8 = 0.875, 1/2 = 0.5, 639/250 = 2.556.",
+            "NON-TERMINATING RECURRING (repeating) decimal: remainder never 0, a block repeats.",
+            "Examples: 10/3 = 3.3bar, 1/7 = 0.142857bar, 3.5727272... = 3.5bar72.",
+            "(Bar notation: digits under bar repeat indefinitely.)",
+            "NON-TERMINATING NON-RECURRING: no block repeats — characteristic of irrationals.",
+            "Examples: sqrt(2) = 1.41421356..., pi = 3.14159265...",
+            "Key theorem:",
+            "Rational → decimal expansion is terminating OR non-terminating recurring.",
+            "CONVERSE: terminating or non-terminating recurring → number is rational.",
+            "Irrational → decimal expansion is non-terminating non-recurring.",
+            "CONVERSE: non-terminating non-recurring → number is irrational.",
+            "For p/q rational, number of entries in repeating string < divisor q.",
+            "(e.g., for 1/7: divisor=7, repeating block has 6 digits: 142857)",
+            "Method to convert non-terminating recurring decimal to p/q:",
+            "Multiply by 10^(number of repeating digits) to shift and subtract."
+          ]
+        },
+        {
+          "type": "list_of_topics",
+          "label": "LIST OF SUB TOPICS IN THIS TOPIC:",
+          "items": [
+            "(No sub-topics in textbook for Topic 1.3 — all content is at topic level)",
+            "EXAMPLES: (textbook examples)",
+            "EXAMPLE 5: Decimal Expansions of 10/3, 7/8, and 1/7",
+            "PROBLEM: Find the decimal expansions of 10/3, 7/8, and 1/7.",
+            "SOLUTION:",
+            "Step 1: Long division for 10/3:",
+            "3.333...",
+            "3 | 10.000",
+            "9",
+            "10",
+            "9",
+            "10",
+            "9",
+            "1 (remainder repeats)",
+            "Remainders: 1,1,1,1,... Divisor: 3.",
+            "So 10/3 = 3.333... = 3.3bar — Non-terminating recurring.",
+            "Step 2: Long division for 7/8:",
+            "0.875",
+            "8 | 7.000",
+            "64",
+            "60",
+            "56",
+            "40",
+            "40",
+            "0 (remainder = 0)",
+            "Remainders: 6,4,0. Divisor: 8.",
+            "So 7/8 = 0.875 — Terminating.",
+            "Step 3: Long division for 1/7:",
+            "0.142857...",
+            "7 | 1.0000000",
+            "7",
+            "30",
+            "28",
+            "20",
+            "14",
+            "60",
+            "56",
+            "40",
+            "35",
+            "50",
+            "49",
+            "1 (remainder repeats from start)",
+            "Remainders: 3,2,6,4,5,1 then repeats. Divisor: 7.",
+            "So 1/7 = 0.142857bar — Non-terminating recurring (6-digit repeat block).",
+            "ANSWER:",
+            "10/3 = 3.3bar (non-terminating recurring)",
+            "7/8 = 0.875 (terminating)",
+            "1/7 = 0.142857bar (non-terminating recurring)",
+            "EXAMPLE 6: 3.142678 is Rational",
+            "PROBLEM: Show that 3.142678 is a rational number. Express as p/q.",
+            "SOLUTION:",
+            "Step 1: Count decimal places = 6.",
+            "Step 2: 3.142678 = 3142678/1000000.",
+            "p = 3142678, q = 1000000 ≠ 0. Both integers.",
+            "ANSWER: 3.142678 = 3142678/1000000, which is rational.",
+            "EXAMPLE 7: Convert 0.3bar to p/q",
+            "PROBLEM: Show that 0.3333... = 0.3bar can be expressed in p/q form.",
+            "SOLUTION:",
+            "Step 1: Let x = 0.3333...",
+            "Step 2: 1 digit repeats → multiply by 10:",
+            "10x = 3.3333...",
+            "Step 3: 10x = 3 + 0.3333... = 3 + x",
+            "Step 4: 10x - x = 3",
+            "9x = 3",
+            "x = 3/9 = 1/3.",
+            "ANSWER: 0.3bar = 1/3",
+            "EXAMPLE 8: Convert 1.27bar to p/q",
+            "PROBLEM: Show that 1.272727... = 1.27bar can be expressed in p/q form.",
+            "SOLUTION:",
+            "Step 1: Let x = 1.272727...",
+            "Step 2: 2 digits (27) repeat → multiply by 100:",
+            "100x = 127.2727...",
+            "Step 3: 100x = 126 + 1.2727... = 126 + x",
+            "Step 4: 100x - x = 126",
+            "99x = 126",
+            "x = 126/99 = 14/11.",
+            "Check: 14/11 = 1.272727... = 1.27bar ✓",
+            "ANSWER: 1.27bar = 14/11",
+            "EXAMPLE 9: Convert 0.2bar35 to p/q",
+            "PROBLEM: Show that 0.2353535... = 0.2bar35 can be expressed in p/q form.",
+            "SOLUTION:",
+            "Step 1: Let x = 0.2353535...",
+            "Note: 2 does NOT repeat; only 35 repeats (2 digits).",
+            "Step 2: 2 repeating digits → multiply by 100:",
+            "100x = 23.53535...",
+            "Step 3: 100x = 23.3 + 0.23535... = 23.3 + x",
+            "Step 4: 100x - x = 23.3",
+            "99x = 23.3 = 233/10",
+            "x = 233/990.",
+            "Check: 233/990 = 0.23535... = 0.2bar35 ✓",
+            "ANSWER: 0.2bar35 = 233/990",
+            "EXAMPLE 10: Find an Irrational Number Between 1/7 and 2/7",
+            "PROBLEM: Find an irrational number between 1/7 and 2/7.",
+            "SOLUTION:",
+            "Step 1: 1/7 = 0.142857bar and 2/7 = 0.285714bar.",
+            "Step 2: We need a non-terminating non-recurring decimal between 0.142857...",
+            "and 0.285714...",
+            "Step 3: An example: 0.1501500015000015... (each group has one more zero —",
+            "pattern never repeats exactly).",
+            "ANSWER: 0.1501500015000015... is one irrational number between 1/7 and 2/7.",
+            "(Infinitely many such irrationals exist.)"
+          ]
+        },
+        {
+          "type": "exercise",
+          "label": "EXERCISE 1.3:",
+          "items": [],
+          "raw": "1. Write in decimal form and state type of decimal expansion:\n(i)   36/100 = 0.36 [Terminating]\n(ii)  1/11 = 0.09bar [Non-terminating recurring]\n(iii) 4(1/8) = 33/8 = 4.125 [Terminating]\n(iv)  3/13 = 0.230769bar [Non-terminating recurring]\n(v)   2/11 = 0.18bar [Non-terminating recurring]\n(vi)  329/400 = 0.8225 [Terminating]\n2. Given 1/7 = 0.142857bar, predict expansions of 2/7, 3/7, 4/7, 5/7, 6/7:\n2/7 = 0.285714bar, 3/7 = 0.428571bar, 4/7 = 0.571428bar,\n5/7 = 0.714285bar, 6/7 = 0.857142bar.\n[Hint: Remainders in 1/7 division cycle as 3,2,6,4,5,1. For 2/7 start from\nremainder 2: 285714bar. And so on — just rotate the 6-digit block.]\n3. Express in p/q form:\n(i)  0.6bar: x=0.6bar → 10x=6+x → 9x=6 → x=2/3.\n(ii) 0.47bar: x=0.47bar → 100x=47+x → 99x=47 → x=47/99.\n(iii) 0.001bar: x=0.001bar → 1000x=1+x → 999x=1 → x=1/999.\n4. Express 0.99999... in p/q form.\nx=0.9bar → 10x=9+x → 9x=9 → x=1. So 0.99999... = 1.\n5. Maximum digits in repeating block of 1/17?\n[Ans: Fewer than divisor 17. So maximum = 16 digits.]\n6. Look at rational numbers p/q (co-prime, terminating decimal). What property\nmust q satisfy?\n[Ans: q must be of the form 2^m × 5^n (m, n are non-negative integers).]\n7. Write three numbers with non-terminating non-recurring decimal expansions.\n[Ans: 0.1011011101111..., sqrt(3) = 1.73205..., pi = 3.14159...]\n8. Find three irrational numbers between 5/7 and 9/11.\n[5/7 ≈ 0.714285..., 9/11 ≈ 0.818181...\nThree irrationals: 0.730730073000730..., 0.75075007500075..., 0.808008000800008...]\n9. Classify as rational or irrational:\n(i)  sqrt(23): sqrt(23) = 4.795... non-terminating non-recurring → irrational.\n(ii) sqrt(225): sqrt(225) = 15 → rational (integer).\n(iii) 0.3796: terminating → rational.\n(iv) 7.478478...: non-terminating recurring (478 repeats) → rational.\n(v)  1.101001000100001...: non-terminating non-recurring → irrational."
+        },
+        {
+          "type": "qa",
+          "label": "TOPIC 1.3: Q&A:",
+          "items": [
+            {
+              "q_num": 1,
+              "marks": 2,
+              "question": "Define terminating decimal. Give two examples.",
+              "answer": "TERMINATING decimal: the long division ends (remainder=0) after finite steps.\nExamples:\n1. 7/8 = 0.875 (ends in 3 steps). Terminating.\n2. 1/2 = 0.5 (ends in 1 step). Terminating.\nKey: Terminating decimals are always RATIONAL (= integer/10^n)."
+            },
+            {
+              "q_num": 2,
+              "marks": 2,
+              "question": "Define non-terminating recurring decimal. Give two examples with",
+              "answer": "NON-TERMINATING RECURRING: division never ends; a block of digits repeats.\nBar is placed over the repeating block.\nExamples:\n1. 10/3 = 3.3333... = 3.3bar (digit 3 repeats — 1-digit block).\n2. 1/7 = 0.142857142857... = 0.142857bar (block 142857 — 6-digit block).\nKey: Non-terminating recurring → always RATIONAL."
+            },
+            {
+              "q_num": 3,
+              "marks": 2,
+              "question": "Convert 0.6bar to p/q form. Show steps.",
+              "answer": "Let x = 0.6666... (1 digit repeats).\nStep 1: ×10: 10x = 6.6666...\nStep 2: 10x - x = 6 → 9x = 6 → x = 2/3.\nAnswer: 0.6bar = 2/3.\nCheck: 2÷3 = 0.6666... ✓"
+            },
+            {
+              "q_num": 4,
+              "marks": 2,
+              "question": "What kind of decimal expansion does an irrational number have?",
+              "answer": "Irrational: NON-TERMINATING NON-RECURRING.\nsqrt(2) = 1.41421356237309504880168...\nNever terminates; computed to trillions of digits — no repeating block found.\nConverse also true: non-terminating non-recurring → irrational.\n\n---\n\n3 ಮಾರ್ಕ್ಸ್ × 2 questions:"
+            },
+            {
+              "q_num": 5,
+              "marks": 3,
+              "question": "Find decimal expansions of 10/3 and 7/8 by long division.",
+              "answer": "10/3:\n3.333...\n3 | 10.000\n9\n10...  (remainder 1 repeats)\n10/3 = 3.3bar — NON-TERMINATING RECURRING.\n\n7/8:\n0.875\n8 | 7.000\n64; 60; 56; 40; 40; 0  (remainder=0)\n7/8 = 0.875 — TERMINATING."
+            },
+            {
+              "q_num": 6,
+              "marks": 3,
+              "question": "Express 0.47bar as p/q. Also show 0.99999... = 1.",
+              "answer": "Part 1 — 0.47bar:\nx=0.47474747... (2 digits repeat).\n100x = 47 + x. 99x = 47. x = 47/99.\nAnswer: 0.47bar = 47/99.\n\nPart 2 — 0.99999... = 1:\nx = 0.9bar. 10x = 9+x. 9x=9. x=1.\nTherefore 0.99999... = 1. ✓ (Mathematically valid.)\n\n---\n\n4 ಮಾರ್ಕ್ಸ್ × 3 questions:"
+            },
+            {
+              "q_num": 7,
+              "marks": 4,
+              "question": "Write decimal form and state type for each:",
+              "answer": "(i) 36/100 = 0.36. TERMINATING.\n\n(ii) 1/11 = 0.090909... = 0.09bar.\nRemainders: 10,1,10,1,... NON-TERMINATING RECURRING.\n\n(iii) 4(1/8) = 33/8 = 4.125. TERMINATING.\n\n(iv) 3/13 = 0.230769bar (6-digit block).\nNON-TERMINATING RECURRING."
+            },
+            {
+              "q_num": 8,
+              "marks": 4,
+              "question": "Given 1/7=0.142857bar, predict 2/7, 3/7, 4/7, 5/7, 6/7",
+              "answer": "Remainders in 1/7 division cycle: 1→3→2→6→4→5→1.\nn/7 starts from where remainder n appears in cycle.\n\nRotate same 6-digit block (142857):\n2/7: Start from remainder 2 (position 3): 0.285714bar.\n3/7: Start from remainder 3 (position 1): 0.428571bar.\n4/7: Start from remainder 4 (position 4): 0.571428bar.\n5/7: Start from remainder 5 (position 5): 0.714285bar.\n6/7: Start from remainder 6 (position 3): 0.857142bar.\n\nPattern: All use same 6 digits {1,2,4,5,7,8} in cyclic order.\nCheck: 1/7 + 6/7 = 0.142857bar + 0.857142bar = 0.999999bar = 1. ✓"
+            },
+            {
+              "q_num": 9,
+              "marks": 4,
+              "question": "Classify as rational or irrational with full justification:",
+              "answer": "(i) sqrt(23): Not a perfect square. sqrt(23)=4.7958... non-terminating non-recurring.\nIRRATIONAL.\n\n(ii) 0.3796: Terminates after 4 places. = 3796/10000. RATIONAL.\n\n(iii) 0.001bar = 0.001001001...: 3-digit block repeats.\n1000x=1+x. 999x=1. x=1/999. RATIONAL.\n\n(iv) 1.101001000100001...: Zeros between 1s: 1,2,3,4,...\nNo fixed repeating block. NON-TERMINATING NON-RECURRING. IRRATIONAL.\n\n---\n\n5 ಮಾರ್ಕ್ಸ್ × 1 question:"
+            },
+            {
+              "q_num": 10,
+              "marks": 5,
+              "question": "",
+              "answer": "PART A:\n\n(i) 1/7 long division:\n0.142857...\n7  | 1.0000000 → remainders: 3,2,6,4,5,1 → cycle.\n1/7 = 0.142857bar — NON-TERMINATING RECURRING.\nWhy < 7: Non-zero remainders when dividing by 7 can only be 1–6\n(at most 6 distinct values). Once any repeats, decimal repeats.\nMax block = 6 digits (< divisor 7). ✓\n\n(ii) 1.27bar to p/q:\nx = 1.272727...; 100x = 127.2727... = 126+x.\n99x=126. x=14/11.\nCheck: 14÷11=1.272727... ✓\n\nPART B:\n\n(iii) 0.2bar35 = 0.2353535...:\nx=0.2353535...; 100x=23.3+x; 99x=233/10; x=233/990.\nRATIONAL (non-terminating recurring → rational). ✓\n\n(iv) sqrt(2) = 1.41421356237...\nNon-terminating: never ends (computed beyond 1 trillion digits).\nNon-recurring: no repeating block found in entire known expansion.\n→ Non-terminating non-recurring → IRRATIONAL.\nTheorem: Irrational → non-terminating non-recurring decimal.\nCONVERSE: Non-terminating non-recurring decimal → number is IRRATIONAL."
+            }
+          ]
+        },
+        {
+          "type": "mcq",
+          "label": "TOPIC 1.3: MCQs:",
+          "items": [
+            {
+              "mcq_num": 1,
+              "difficulty": "Easy",
+              "question": "The decimal expansion of 7/8 is:",
+              "options": {
+                "A": "0.785   (B) 0.875   (C) 0.857   (D) 0.758"
+              },
+              "answer": "B",
+              "explanation": "7÷8 = 0.875 exactly (terminating)."
+            },
+            {
+              "mcq_num": 2,
+              "difficulty": "Easy",
+              "question": "0.3bar = ?",
+              "options": {
+                "A": "1/3   (B) 3/10   (C) 1/9   (D) 3/100"
+              },
+              "answer": "A",
+              "explanation": "x=0.3bar → 10x=3+x → 9x=3 → x=1/3."
+            },
+            {
+              "mcq_num": 3,
+              "difficulty": "Easy",
+              "question": "Which represents an irrational number?",
+              "options": {
+                "A": "3.1416   (B) 0.333...   (C) 1.41421356...   (D) 0.875"
+              },
+              "answer": "C",
+              "explanation": "1.41421356... = sqrt(2), non-terminating non-recurring."
+            },
+            {
+              "mcq_num": 4,
+              "difficulty": "Medium",
+              "question": "The repeating block of 1/7 has how many digits?",
+              "options": {
+                "A": "3   (B) 5   (C) 6   (D) 7"
+              },
+              "answer": "C",
+              "explanation": "1/7 = 0.142857bar — block 142857 has 6 digits."
+            },
+            {
+              "mcq_num": 5,
+              "difficulty": "Medium",
+              "question": "0.47bar = ?",
+              "options": {
+                "A": "47/99   (B) 47/100   (C) 47/990   (D) 4/9"
+              },
+              "answer": "A",
+              "explanation": "100x=47+x → 99x=47 → x=47/99."
+            },
+            {
+              "mcq_num": 6,
+              "difficulty": "Medium",
+              "question": "3.5bar72 means:",
+              "options": {
+                "A": "3.5727272...   (B) 3.572572572...   (C) 3.5777...   (D) 3.572000..."
+              },
+              "answer": "A",
+              "explanation": "Bar over 72 only → 72 repeats: 3.5727272..."
+            },
+            {
+              "mcq_num": 7,
+              "difficulty": "Medium",
+              "question": "3/13 has what type of decimal expansion?",
+              "options": {
+                "A": "Terminating   (B) Non-terminating recurring",
+                "C": "Non-terminating non-recurring   (D) Cannot be determined"
+              },
+              "answer": "B",
+              "explanation": "3/13 is rational → expansion is terminating or non-terminating recurring. 13 ≠ 2^m × 5^n, so non-terminating recurring."
+            },
+            {
+              "mcq_num": 8,
+              "difficulty": "Hard",
+              "question": "0.2bar35 expressed as p/q is:",
+              "options": {
+                "A": "235/999   (B) 233/990   (C) 235/990   (D) 23/99"
+              },
+              "answer": "B",
+              "explanation": "100x=23.3+x → 99x=233/10 → x=233/990."
+            },
+            {
+              "mcq_num": 9,
+              "difficulty": "Hard",
+              "question": "Which of the following is rational?",
+              "options": {
+                "A": "7.478478...   (B) 1.101001000100001...",
+                "C": "sqrt(2)+sqrt(3)   (D) 0.10110111..."
+              },
+              "answer": "A",
+              "explanation": "7.478478... = 7.478bar — non-terminating recurring → rational."
+            },
+            {
+              "mcq_num": 10,
+              "difficulty": "Hard",
+              "question": "Maximum digits in repeating block of 1/17:",
+              "options": {
+                "A": "16   (B) 17   (C) 8   (D) 18"
+              },
+              "answer": "A",
+              "explanation": "Repeating block digits < divisor. For 1/17: maximum = 16."
+            },
+            {
+              "mcq_num": 11,
+              "difficulty": "Easy",
+              "question": "Terminating decimals are always:",
+              "options": {
+                "A": "Irrational   (B) Rational   (C) Integers   (D) Natural numbers"
+              },
+              "answer": "B",
+              "explanation": "Terminating decimal = p/q form (denominator = power of 10) → rational."
+            },
+            {
+              "mcq_num": 12,
+              "difficulty": "Medium",
+              "question": "Which has a TERMINATING decimal expansion?",
+              "options": {
+                "A": "1/3   (B) 3/7   (C) 1/11   (D) 7/8"
+              },
+              "answer": "D",
+              "explanation": "7/8 = 0.875 (terminates). Others are non-terminating recurring."
+            }
+          ]
+        }
+      ],
+      "subtopics": []
+    },
+    {
+      "topic_num": "1.4",
+      "topic_name": "OPERATIONS ON REAL NUMBERS",
+      "mode": "B",
+      "sections": [
+        {
+          "type": "definition",
+          "label": "Definition:",
+          "text": "RATIONALISING THE DENOMINATOR means converting an expression with an irrational\ndenominator to an equivalent expression with a rational denominator, by\nmultiplying numerator and denominator by a suitable irrational expression."
+        },
+        {
+          "type": "key_points",
+          "label": "Key Points:",
+          "points": [
+            "Rational numbers satisfy commutative, associative, distributive laws for + and ×.",
+            "Irrational numbers also satisfy these laws.",
+            "Closure properties:",
+            "(i)  Rational ± irrational = irrational (always).",
+            "(ii) Non-zero rational × irrational = irrational (always).",
+            "(iii) Irrational ± irrational = rational OR irrational.",
+            "e.g., sqrt(6)+(-sqrt(6))=0 (rational); sqrt(2)+sqrt(3) (irrational).",
+            "(iv) Irrational × irrational = rational OR irrational.",
+            "e.g., sqrt(2)×sqrt(2)=2 (rational); sqrt(2)×sqrt(3)=sqrt(6) (irrational).",
+            "Identities for positive real numbers a and b:",
+            "(i)   sqrt(ab) = sqrt(a) × sqrt(b)",
+            "(ii)  sqrt(a/b) = sqrt(a)/sqrt(b)",
+            "(iii) (sqrt(a)+sqrt(b))(sqrt(a)-sqrt(b)) = a - b",
+            "(iv)  (a+sqrt(b))(a-sqrt(b)) = a^2 - b",
+            "(v)   (sqrt(a)+sqrt(b))(sqrt(c)+sqrt(d)) = sqrt(ac)+sqrt(ad)+sqrt(bc)+sqrt(bd)",
+            "(vi)  (sqrt(a)+sqrt(b))^2 = a + 2sqrt(ab) + b",
+            "Conjugates used for rationalisation:",
+            "Conjugate of (sqrt(a)+sqrt(b)) is (sqrt(a)-sqrt(b)).",
+            "Conjugate of (a+sqrt(b)) is (a-sqrt(b)).",
+            "Geometric construction of sqrt(x) for any positive real x:",
+            "Mark AB=x, BC=1 on line. Find midpoint O of AC. Draw semicircle centre O,",
+            "radius OC. Draw perpendicular at B to meet semicircle at D. Then BD=sqrt(x).",
+            "Proof: BD^2 = OD^2 - OB^2 = ((x+1)/2)^2 - ((x-1)/2)^2 = x.",
+            "nth roots: n-th root of a = a^(1/n) = b where b^n=a and b>0.",
+            "The symbol n√ is called the RADICAL SIGN."
+          ]
+        },
+        {
+          "type": "list_of_topics",
+          "label": "LIST OF SUB TOPICS IN THIS TOPIC:",
+          "items": [
+            "(No sub-topics in textbook for Topic 1.4 — all content is at topic level)"
+          ]
+        },
+        {
+          "type": "formulas",
+          "label": "FORMULA:",
+          "items": [
+            "Rationalisation of 1/sqrt(a):",
+            "1/sqrt(a) = sqrt(a)/a",
+            "Rationalisation of 1/(a+sqrt(b)):",
+            "1/(a+sqrt(b)) = (a-sqrt(b))/(a^2-b)",
+            "WHERE:",
+            "a = rational part of denominator",
+            "b = number under radical",
+            "(a-sqrt(b)) = conjugate of (a+sqrt(b))",
+            "EXAMPLES: (textbook examples)",
+            "EXAMPLE 11: Check Irrationality of Expressions",
+            "PROBLEM: Check whether 7sqrt(5), 7/sqrt(5), sqrt(2)+21, pi-2 are irrational.",
+            "SOLUTION:",
+            "Step 1: sqrt(5) = 2.236..., sqrt(2) = 1.4142..., pi = 3.1415...",
+            "Step 2: 7sqrt(5) = 7 × 2.236... = 15.652... (non-terminating non-recurring) → irrational.",
+            "Step 3: 7/sqrt(5) = 7sqrt(5)/(sqrt(5)×sqrt(5)) = 7sqrt(5)/5 = 3.1304... → irrational.",
+            "Step 4: sqrt(2)+21 = 1.4142...+21 = 22.4142... → irrational.",
+            "Step 5: pi-2 = 3.1415...-2 = 1.1415... → irrational.",
+            "ANSWER: All four — 7sqrt(5), 7/sqrt(5), sqrt(2)+21, pi-2 — are irrational numbers.",
+            "EXAMPLE 12: Add Surds",
+            "PROBLEM: Add 2sqrt(2)+5sqrt(3) and sqrt(2)-3sqrt(3).",
+            "SOLUTION:",
+            "Step 1: (2sqrt(2)+5sqrt(3)) + (sqrt(2)-3sqrt(3))",
+            "Step 2: Group like surds: (2sqrt(2)+sqrt(2)) + (5sqrt(3)-3sqrt(3))",
+            "Step 3: = (2+1)sqrt(2) + (5-3)sqrt(3) = 3sqrt(2) + 2sqrt(3).",
+            "ANSWER: 3sqrt(2) + 2sqrt(3)",
+            "EXAMPLE 13: Multiply Surds",
+            "PROBLEM: Multiply 6sqrt(5) by 2sqrt(5).",
+            "SOLUTION:",
+            "Step 1: 6sqrt(5) × 2sqrt(5) = 6×2 × sqrt(5)×sqrt(5) = 12 × 5 = 60.",
+            "ANSWER: 60",
+            "EXAMPLE 14: Divide Surds",
+            "PROBLEM: Divide 8sqrt(15) by 2sqrt(3).",
+            "SOLUTION:",
+            "Step 1: 8sqrt(15) ÷ 2sqrt(3) = (8/2) × sqrt(15/3) = 4 × sqrt(5) = 4sqrt(5).",
+            "ANSWER: 4sqrt(5)",
+            "EXAMPLE 15: Simplify Expressions using Identities",
+            "PROBLEM: Simplify:",
+            "(i) (5+sqrt(7))(2+sqrt(5))   (ii) (5+sqrt(5))(5-sqrt(5))",
+            "(iii) (sqrt(3)+sqrt(7))^2    (iv) (sqrt(11)-sqrt(7))(sqrt(11)+sqrt(7))",
+            "SOLUTION:",
+            "(i) Using (sqrt(a)+sqrt(b))(sqrt(c)+sqrt(d)) = sqrt(ac)+sqrt(ad)+sqrt(bc)+sqrt(bd):",
+            "(5+sqrt(7))(2+sqrt(5)) = 5×2 + 5sqrt(5) + 2sqrt(7) + sqrt(7×5)",
+            "= 10 + 5sqrt(5) + 2sqrt(7) + sqrt(35).",
+            "(ii) Using (a+sqrt(b))(a-sqrt(b)) = a^2-b:",
+            "(5+sqrt(5))(5-sqrt(5)) = 5^2 - (sqrt(5))^2 = 25 - 5 = 20.",
+            "(iii) Using (sqrt(a)+sqrt(b))^2 = a+2sqrt(ab)+b:",
+            "(sqrt(3)+sqrt(7))^2 = (sqrt(3))^2 + 2×sqrt(3)×sqrt(7) + (sqrt(7))^2",
+            "= 3 + 2sqrt(21) + 7 = 10 + 2sqrt(21).",
+            "(iv) Using (sqrt(a)+sqrt(b))(sqrt(a)-sqrt(b)) = a-b:",
+            "(sqrt(11)-sqrt(7))(sqrt(11)+sqrt(7)) = 11 - 7 = 4.",
+            "ANSWER:",
+            "(i) 10+5sqrt(5)+2sqrt(7)+sqrt(35)  (ii) 20",
+            "(iii) 10+2sqrt(21)                 (iv) 4",
+            "EXAMPLE 16: Rationalise 1/sqrt(2)",
+            "PROBLEM: Rationalise the denominator of 1/sqrt(2).",
+            "SOLUTION:",
+            "Step 1: Rationalising factor of sqrt(2) is sqrt(2).",
+            "Step 2: 1/sqrt(2) = (1×sqrt(2))/(sqrt(2)×sqrt(2)) = sqrt(2)/2.",
+            "ANSWER: 1/sqrt(2) = sqrt(2)/2.",
+            "EXAMPLE 17: Rationalise 1/(2+sqrt(3))",
+            "PROBLEM: Rationalise the denominator of 1/(2+sqrt(3)).",
+            "SOLUTION:",
+            "Step 1: Conjugate of (2+sqrt(3)) is (2-sqrt(3)).",
+            "Step 2: Using identity (iv): (a+sqrt(b))(a-sqrt(b)) = a^2-b.",
+            "1/(2+sqrt(3)) × (2-sqrt(3))/(2-sqrt(3))",
+            "= (2-sqrt(3))/((2)^2-(sqrt(3))^2)",
+            "= (2-sqrt(3))/(4-3)",
+            "= (2-sqrt(3))/1 = 2-sqrt(3).",
+            "ANSWER: 1/(2+sqrt(3)) = 2-sqrt(3).",
+            "EXAMPLE 18: Rationalise 5/(sqrt(3)-sqrt(5))",
+            "PROBLEM: Rationalise the denominator of 5/(sqrt(3)-sqrt(5)).",
+            "SOLUTION:",
+            "Step 1: Conjugate of (sqrt(3)-sqrt(5)) is (sqrt(3)+sqrt(5)).",
+            "Step 2: Using identity (iii): (sqrt(a)+sqrt(b))(sqrt(a)-sqrt(b)) = a-b.",
+            "5/(sqrt(3)-sqrt(5)) × (sqrt(3)+sqrt(5))/(sqrt(3)+sqrt(5))",
+            "= 5(sqrt(3)+sqrt(5))/((sqrt(3))^2-(sqrt(5))^2)",
+            "= 5(sqrt(3)+sqrt(5))/(3-5)",
+            "= 5(sqrt(3)+sqrt(5))/(-2)",
+            "= (-5/2)(sqrt(3)+sqrt(5)).",
+            "ANSWER: 5/(sqrt(3)-sqrt(5)) = (-5/2)(sqrt(3)+sqrt(5)).",
+            "EXAMPLE 19: Rationalise 1/(7+3sqrt(2))",
+            "PROBLEM: Rationalise the denominator of 1/(7+3sqrt(2)).",
+            "SOLUTION:",
+            "Step 1: Conjugate of (7+3sqrt(2)) is (7-3sqrt(2)).",
+            "Step 2: 1/(7+3sqrt(2)) × (7-3sqrt(2))/(7-3sqrt(2))",
+            "= (7-3sqrt(2))/((7)^2-(3sqrt(2))^2)",
+            "= (7-3sqrt(2))/(49-9×2)",
+            "= (7-3sqrt(2))/(49-18)",
+            "= (7-3sqrt(2))/31.",
+            "ANSWER: 1/(7+3sqrt(2)) = (7-3sqrt(2))/31."
+          ]
+        },
+        {
+          "type": "exercise",
+          "label": "EXERCISE 1.4:",
+          "items": [],
+          "raw": "1. Classify as rational or irrational:\n(i)   2-sqrt(5): rational-irrational = irrational.\n(ii)  (3+sqrt(23))-sqrt(23) = 3 = rational.\n(iii) 2sqrt(7)/(7sqrt(7)) = 2/7 = rational.\n(iv)  1/sqrt(2): irrational (non-zero rational/irrational = irrational).\n(v)   2pi: irrational (non-zero rational × irrational = irrational).\n2. Simplify:\n(i)   (3+sqrt(3))(2+sqrt(2)) = 6+3sqrt(2)+2sqrt(3)+sqrt(6).\n(ii)  (3+sqrt(3))(3-sqrt(3)) = 9-3 = 6.\n(iii) (sqrt(5)+sqrt(2))^2 = 5+2sqrt(10)+2 = 7+2sqrt(10).\n(iv)  (sqrt(5)-sqrt(2))(sqrt(5)+sqrt(2)) = 5-2 = 3.\n3. pi=c/d (circumference/diameter). This seems like p/q, contradicting pi being\nirrational. Resolution: c and d are not INTEGERS — they are real numbers.\nThe definition p/q requires p, q to be INTEGERS. Here c, d are real lengths.\n4. Represent sqrt(9.3) on the number line:\nMark AB=9.3 units, BC=1 unit. Midpoint O of AC. Semicircle centre O, radius OC.\nPerpendicular at B meets semicircle at D. Then BD = sqrt(9.3).\n5. Rationalise denominators:\n(i)   1/sqrt(7) = sqrt(7)/7.\n(ii)  1/(sqrt(7)-sqrt(6)) = (sqrt(7)+sqrt(6))/(7-6) = sqrt(7)+sqrt(6).\n(iii) 1/(sqrt(5)+sqrt(2)) = (sqrt(5)-sqrt(2))/(5-2) = (sqrt(5)-sqrt(2))/3.\n(iv)  1/(sqrt(7)-2) = (sqrt(7)+2)/(7-4) = (sqrt(7)+2)/3."
+        },
+        {
+          "type": "qa",
+          "label": "TOPIC 1.4: Q&A:",
+          "items": [
+            {
+              "q_num": 1,
+              "marks": 2,
+              "question": "State: (i) rational±irrational, (ii) non-zero rational×irrational.",
+              "answer": "(i) Rational ± irrational = IRRATIONAL (always).\nExample: 2+sqrt(3) = 3.7320... non-recurring → irrational.\n\n(ii) Non-zero rational × irrational = IRRATIONAL (always).\nExample: 3×sqrt(2) = 4.2426... → irrational.\n\nNote: 0×irrational = 0 (rational) — hence \"non-zero\" condition needed in (ii)."
+            },
+            {
+              "q_num": 2,
+              "marks": 2,
+              "question": "State the six identities for positive real numbers a and b.",
+              "answer": "(i)   sqrt(ab) = sqrt(a)×sqrt(b)\n(ii)  sqrt(a/b) = sqrt(a)/sqrt(b)\n(iii) (sqrt(a)+sqrt(b))(sqrt(a)-sqrt(b)) = a-b\n(iv)  (a+sqrt(b))(a-sqrt(b)) = a^2-b\n(v)   (sqrt(a)+sqrt(b))(sqrt(c)+sqrt(d)) = sqrt(ac)+sqrt(ad)+sqrt(bc)+sqrt(bd)\n(vi)  (sqrt(a)+sqrt(b))^2 = a+2sqrt(ab)+b"
+            },
+            {
+              "q_num": 3,
+              "marks": 2,
+              "question": "What is rationalising the denominator? Rationalise 1/sqrt(7).",
+              "answer": "RATIONALISING: converting an irrational denominator to a rational one by multiplying\nnumerator and denominator by a suitable irrational factor (rationalising factor).\nRationalise 1/sqrt(7):\n1/sqrt(7) = (1×sqrt(7))/(sqrt(7)×sqrt(7)) = sqrt(7)/7.\nDenominator is now 7 (rational). ✓"
+            },
+            {
+              "q_num": 4,
+              "marks": 2,
+              "question": "Find (sqrt(5)+sqrt(2))^2. State the identity used.",
+              "answer": "Identity: (sqrt(a)+sqrt(b))^2 = a+2sqrt(ab)+b. Here a=5, b=2.\n= (sqrt(5))^2 + 2×sqrt(5)×sqrt(2) + (sqrt(2))^2\n= 5 + 2sqrt(10) + 2 = 7+2sqrt(10).\nAnswer: (sqrt(5)+sqrt(2))^2 = 7+2sqrt(10).\n\n---\n\n3 ಮಾರ್ಕ್ಸ್ × 2 questions:"
+            },
+            {
+              "q_num": 5,
+              "marks": 3,
+              "question": "Simplify (5+sqrt(7))(2+sqrt(5)). Show full expansion.",
+              "answer": "FOIL (First-Outer-Inner-Last):\nStep 1: First: 5×2 = 10.\nStep 2: Outer: 5×sqrt(5) = 5sqrt(5).\nStep 3: Inner: sqrt(7)×2 = 2sqrt(7).\nStep 4: Last: sqrt(7)×sqrt(5) = sqrt(35).\nCombine: 10 + 5sqrt(5) + 2sqrt(7) + sqrt(35).\nAnswer: (5+sqrt(7))(2+sqrt(5)) = 10+5sqrt(5)+2sqrt(7)+sqrt(35)."
+            },
+            {
+              "q_num": 6,
+              "marks": 3,
+              "question": "Rationalise 1/(2+sqrt(3)). Show all steps.",
+              "answer": "Step 1: Conjugate of (2+sqrt(3)) = (2-sqrt(3)).\nStep 2: Multiply: 1/(2+sqrt(3)) × (2-sqrt(3))/(2-sqrt(3)).\nStep 3: Denominator: identity (iv): (2+sqrt(3))(2-sqrt(3)) = 4-3 = 1.\nStep 4: = (2-sqrt(3))/1 = 2-sqrt(3).\nAnswer: 1/(2+sqrt(3)) = 2-sqrt(3).\nCheck: (2-sqrt(3))×(2+sqrt(3)) = 4-3 = 1. ✓\n\n---\n\n4 ಮಾರ್ಕ್ಸ್ × 3 questions:"
+            },
+            {
+              "q_num": 7,
+              "marks": 4,
+              "question": "Check whether irrational: (i) 7sqrt(5)  (ii) 7/sqrt(5)",
+              "answer": "sqrt(5)=2.2360..., sqrt(2)=1.4142..., pi=3.1415...\n\n(i) 7sqrt(5) = 7×2.2360... = 15.6524... Non-recurring. IRRATIONAL.\n(ii) 7/sqrt(5) = (7/5)×sqrt(5) = 3.1304... Non-recurring. IRRATIONAL.\n(iii) sqrt(2)+21 = 22.4142... Non-recurring. IRRATIONAL.\n(iv) pi-2 = 1.1415... Non-recurring. IRRATIONAL."
+            },
+            {
+              "q_num": 8,
+              "marks": 4,
+              "question": "Rationalise 5/(sqrt(3)-sqrt(5)). Show every step. State identity.",
+              "answer": "Step 1: Conjugate of (sqrt(3)-sqrt(5)) = (sqrt(3)+sqrt(5)).\nStep 2: Multiply: 5/(sqrt(3)-sqrt(5)) × (sqrt(3)+sqrt(5))/(sqrt(3)+sqrt(5)).\nStep 3: Denominator using identity (iii): (sqrt(3))^2-(sqrt(5))^2 = 3-5 = -2.\nStep 4: = 5(sqrt(3)+sqrt(5))/(-2) = (-5/2)(sqrt(3)+sqrt(5)).\nAnswer: 5/(sqrt(3)-sqrt(5)) = (-5/2)(sqrt(3)+sqrt(5)).\nIdentity: (sqrt(a)+sqrt(b))(sqrt(a)-sqrt(b)) = a-b."
+            },
+            {
+              "q_num": 9,
+              "marks": 4,
+              "question": "Describe geometric construction to find sqrt(3.5).",
+              "answer": "Construction:\nStep 1: On a line, mark A. From A, mark B so AB=3.5. From B, mark C so BC=1.\nAC = 3.5+1 = 4.5.\nStep 2: Midpoint O of AC. OC = 4.5/2 = 2.25.\nStep 3: Semicircle centre O, radius OC=2.25.\nStep 4: At B, perpendicular to AC meets semicircle at D.\nStep 5: Transfer BD to number line → represents sqrt(3.5).\n\nProof:\nOD = 2.25 (radius). OB = OC-BC = 2.25-1 = 1.25.\nBD^2 = OD^2-OB^2 = 2.25^2-1.25^2 = 5.0625-1.5625 = 3.5.\nBD = sqrt(3.5). ✓\n\n---\n\n5 ಮಾರ್ಕ್ಸ್ × 1 question:"
+            },
+            {
+              "q_num": 10,
+              "marks": 5,
+              "question": "",
+              "answer": "PART A:\n\n(i) 1/(7+3sqrt(2)):\nConjugate = (7-3sqrt(2)).\nDenom = 7^2-(3sqrt(2))^2 = 49-18 = 31.\n= (7-3sqrt(2))/31.\nVerify: (7-3sqrt(2))/31 × (7+3sqrt(2)) = 31/31 = 1. ✓\n\n(ii) (sqrt(11)-sqrt(7))(sqrt(11)+sqrt(7)):\nIdentity (iii): a-b. = 11-7 = 4. RATIONAL.\n\n(sqrt(3)+sqrt(7))^2:\nIdentity (vi): a+2sqrt(ab)+b. = 3+2sqrt(21)+7 = 10+2sqrt(21). IRRATIONAL.\n\nPART B:\n\n(iii) (2sqrt(2)+5sqrt(3))+(sqrt(2)-3sqrt(3)):\n= (2+1)sqrt(2)+(5-3)sqrt(3) = 3sqrt(2)+2sqrt(3).\n= 4.2426...+3.4641... = 7.7067... Non-recurring → IRRATIONAL. ✓\n\n(iv) 6sqrt(5)×2sqrt(5) = 12×(sqrt(5))^2 = 12×5 = 60.\n60 = 60/1 → RATIONAL.\nBoth 6sqrt(5) and 2sqrt(5) are irrational, yet product = 60 (rational).\nLesson: Irrational×irrational is NOT always irrational.\n- Can be rational: sqrt(2)×sqrt(2) = 2.\n- Can be irrational: sqrt(2)×sqrt(3) = sqrt(6)."
+            }
+          ]
+        },
+        {
+          "type": "mcq",
+          "label": "TOPIC 1.4: MCQs:",
+          "items": [
+            {
+              "mcq_num": 1,
+              "difficulty": "Easy",
+              "question": "(sqrt(3)+sqrt(7))(sqrt(3)-sqrt(7)) = ?",
+              "options": {
+                "A": "4   (B) -4   (C) 10   (D) -10"
+              },
+              "answer": "B",
+              "explanation": "(sqrt(a)+sqrt(b))(sqrt(a)-sqrt(b)) = a-b = 3-7 = -4."
+            },
+            {
+              "mcq_num": 2,
+              "difficulty": "Easy",
+              "question": "The rationalising factor of 1/sqrt(5) is:",
+              "options": {
+                "A": "5   (B) sqrt(5)   (C) 1/5   (D) 5sqrt(5)"
+              },
+              "answer": "B",
+              "explanation": "Multiply by sqrt(5)/sqrt(5) to get sqrt(5)/5."
+            },
+            {
+              "mcq_num": 3,
+              "difficulty": "Easy",
+              "question": "6sqrt(5) × 2sqrt(5) = ?",
+              "options": {
+                "A": "12sqrt(5)   (B) 60   (C) 12   (D) 60sqrt(5)"
+              },
+              "answer": "B",
+              "explanation": "6×2×sqrt(5)×sqrt(5) = 12×5 = 60."
+            },
+            {
+              "mcq_num": 4,
+              "difficulty": "Medium",
+              "question": "Rationalise 1/(2+sqrt(3)):",
+              "options": {
+                "A": "2+sqrt(3)   (B) 2-sqrt(3)   (C) 1/(2-sqrt(3))   (D) sqrt(3)/2"
+              },
+              "answer": "B",
+              "explanation": "×(2-sqrt(3))/(2-sqrt(3)) → (2-sqrt(3))/(4-3) = 2-sqrt(3)."
+            },
+            {
+              "mcq_num": 5,
+              "difficulty": "Medium",
+              "question": "(sqrt(5)+sqrt(2))^2 = ?",
+              "options": {
+                "A": "7   (B) 7+2sqrt(10)   (C) 7+sqrt(10)   (D) 3+2sqrt(10)"
+              },
+              "answer": "B",
+              "explanation": "5 + 2sqrt(10) + 2 = 7+2sqrt(10)."
+            },
+            {
+              "mcq_num": 6,
+              "difficulty": "Medium",
+              "question": "Which is RATIONAL?",
+              "options": {
+                "A": "7sqrt(5)   (B) sqrt(2)+sqrt(3)   (C) sqrt(7)/sqrt(7)   (D) pi-2"
+              },
+              "answer": "C",
+              "explanation": "sqrt(7)/sqrt(7) = 1 (rational)."
+            },
+            {
+              "mcq_num": 7,
+              "difficulty": "Medium",
+              "question": "sqrt(a/b) = ?",
+              "options": {
+                "A": "a/sqrt(b)   (B) sqrt(a)/sqrt(b)   (C) sqrt(a)/b   (D) a/b"
+              },
+              "answer": "B",
+              "explanation": "Identity (ii) for positive real numbers."
+            },
+            {
+              "mcq_num": 8,
+              "difficulty": "Hard",
+              "question": "1/(7+3sqrt(2)) rationalised = ?",
+              "options": {
+                "A": "(7-3sqrt(2))/31   (B) (7+3sqrt(2))/31",
+                "C": "(7-3sqrt(2))/67   (D) 7-3sqrt(2)"
+              },
+              "answer": "A",
+              "explanation": "Denominator = 49 - 9×2 = 49-18 = 31."
+            },
+            {
+              "mcq_num": 9,
+              "difficulty": "Hard",
+              "question": "5/(sqrt(3)-sqrt(5)) rationalised = ?",
+              "options": {
+                "A": "(-5/2)(sqrt(3)+sqrt(5))   (B) (5/2)(sqrt(3)+sqrt(5))",
+                "C": "(-5/2)(sqrt(3)-sqrt(5))   (D) 5(sqrt(3)-sqrt(5))/2"
+              },
+              "answer": "A",
+              "explanation": "Denominator = 3-5 = -2. So 5(sqrt(3)+sqrt(5))/(-2)."
+            },
+            {
+              "mcq_num": 10,
+              "difficulty": "Hard",
+              "question": "In the geometric construction of sqrt(x), if AB=x and BC=1, the radius of the semicircle is:",
+              "options": {
+                "A": "x/2   (B) (x-1)/2   (C) (x+1)/2   (D) x+1"
+              },
+              "answer": "C",
+              "explanation": "O = midpoint of AC; AC = x+1; OC = (x+1)/2."
+            },
+            {
+              "mcq_num": 11,
+              "difficulty": "Easy",
+              "question": "Add 2sqrt(2)+5sqrt(3) and sqrt(2)-3sqrt(3):",
+              "options": {
+                "A": "2sqrt(2)+2sqrt(3)   (B) 3sqrt(2)+2sqrt(3)",
+                "C": "3sqrt(5)            (D) 2sqrt(3)+3sqrt(2)"
+              },
+              "answer": "B",
+              "explanation": "(2+1)sqrt(2)+(5-3)sqrt(3) = 3sqrt(2)+2sqrt(3)."
+            },
+            {
+              "mcq_num": 12,
+              "difficulty": "Medium",
+              "question": "8sqrt(15) ÷ 2sqrt(3) = ?",
+              "options": {
+                "A": "4sqrt(5)   (B) 4sqrt(15)   (C) 4sqrt(3)   (D) 8sqrt(5)"
+              },
+              "answer": "A",
+              "explanation": "(8/2) × sqrt(15/3) = 4×sqrt(5) = 4sqrt(5)."
+            }
+          ]
+        }
+      ],
+      "subtopics": []
+    },
+    {
+      "topic_num": "1.5",
+      "topic_name": "LAWS OF EXPONENTS FOR REAL NUMBERS",
+      "mode": "B",
+      "sections": [
+        {
+          "type": "definition",
+          "label": "Definition:",
+          "text": "The LAWS OF EXPONENTS (laws of indices) are rules for simplifying expressions\ninvolving powers. For a positive real number base with rational exponents,\nthese laws hold consistently."
+        },
+        {
+          "type": "key_points",
+          "label": "Key Points:",
+          "points": [
+            "Laws for natural number exponents (a>0; m,n are natural numbers):",
+            "(i)   a^m × a^n = a^(m+n)       [Same base, multiply → add exponents]",
+            "(ii)  (a^m)^n = a^(mn)           [Power of power → multiply exponents]",
+            "(iii) a^m / a^n = a^(m-n), m>n   [Same base, divide → subtract exponents]",
+            "(iv)  a^m × b^m = (ab)^m         [Same exponent → multiply bases]",
+            "Also: a^0 = 1 (for a≠0); 1/a^n = a^(-n).",
+            "Fractional (rational) exponents:",
+            "a^(1/n) = n√a (nth root of a), where (a^(1/n))^n = a, a>0, n positive integer.",
+            "a^(m/n) = (n√a)^m = n√(a^m), where gcd(m,n)=1, n>0, a>0.",
+            "e.g., 4^(3/2) = (4^(1/2))^3 = 2^3 = 8.",
+            "Also 4^(3/2) = (4^3)^(1/2) = 64^(1/2) = 8. [Both methods give same answer.]",
+            "The symbol n√ (nth root sign) is called the RADICAL SIGN.",
+            "Extended laws for rational exponents (a>0; p,q are rational numbers):",
+            "(i)   a^p × a^q = a^(p+q)",
+            "(ii)  (a^p)^q = a^(pq)",
+            "(iii) a^p / a^q = a^(p-q)",
+            "(iv)  a^p × b^p = (ab)^p"
+          ]
+        },
+        {
+          "type": "list_of_topics",
+          "label": "LIST OF SUB TOPICS IN THIS TOPIC:",
+          "items": [
+            "(No sub-topics in textbook for Topic 1.5 — all content is at topic level)"
+          ]
+        },
+        {
+          "type": "formulas",
+          "label": "FORMULA:",
+          "items": [
+            "a^(m/n) = (n√a)^m = n√(a^m)",
+            "WHERE:",
+            "a = base (positive real number)",
+            "m = numerator of exponent (integer)",
+            "n = denominator of exponent (positive integer, gcd(m,n)=1)",
+            "n√ = nth root (radical sign)",
+            "EXAMPLES: (textbook examples)",
+            "EXAMPLE 20: Simplify Expressions with Rational Exponents",
+            "PROBLEM: Simplify:",
+            "(i)  2^(2/3) × 2^(1/3)",
+            "(ii) (3^(1/5))^4",
+            "(iii) 7^(1/5) / 7^(1/3)",
+            "(iv) 13^(1/5) × 17^(1/5)",
+            "SOLUTION:",
+            "(i) Using law (i): a^p × a^q = a^(p+q):",
+            "2^(2/3) × 2^(1/3) = 2^(2/3 + 1/3) = 2^(3/3) = 2^1 = 2.",
+            "(ii) Using law (ii): (a^p)^q = a^(pq):",
+            "(3^(1/5))^4 = 3^((1/5)×4) = 3^(4/5).",
+            "(iii) Using law (iii): a^p / a^q = a^(p-q):",
+            "7^(1/5) / 7^(1/3) = 7^(1/5 - 1/3).",
+            "LCM of 5 and 3 = 15.",
+            "1/5 - 1/3 = 3/15 - 5/15 = -2/15.",
+            "So 7^(1/5) / 7^(1/3) = 7^(-2/15).",
+            "(iv) Using law (iv): a^p × b^p = (ab)^p:",
+            "13^(1/5) × 17^(1/5) = (13×17)^(1/5) = 221^(1/5).",
+            "ANSWER:",
+            "(i) 2   (ii) 3^(4/5)   (iii) 7^(-2/15)   (iv) 221^(1/5)"
+          ]
+        },
+        {
+          "type": "exercise",
+          "label": "EXERCISE 1.5:",
+          "items": [],
+          "raw": "1. Find:\n(i)   64^(1/2) = sqrt(64) = 8.   [Since 8^2=64]\n(ii)  32^(1/5) = 5th root of 32 = 2.   [Since 2^5=32]\n(iii) 125^(1/3) = cube root of 125 = 5.   [Since 5^3=125]\n2. Find:\n(i)  9^(3/2) = (9^(1/2))^3 = 3^3 = 27.\n(ii) 32^(2/5) = (32^(1/5))^2 = 2^2 = 4.\n(iii) 16^(3/4) = (16^(1/4))^3 = 2^3 = 8.   [16^(1/4)=2 since 2^4=16]\n(iv)  125^(-1/3) = 1/125^(1/3) = 1/5.\n3. Simplify:\n(i)   2^(2/3) × 2^(1/5) = 2^(2/3+1/5) = 2^(10/15+3/15) = 2^(13/15).\n(ii)  (1/3^3)^7 = (3^(-3))^7 = 3^(-21) = 1/3^21.\n(iii) 11^(1/2) / 11^(1/4) = 11^(1/2-1/4) = 11^(2/4-1/4) = 11^(1/4).\n(iv)  7^(1/2) × 8^(1/2) = (7×8)^(1/2) = 56^(1/2) = sqrt(56) = 2sqrt(14)."
+        },
+        {
+          "type": "qa",
+          "label": "TOPIC 1.5: Q&A:",
+          "items": [
+            {
+              "q_num": 1,
+              "marks": 2,
+              "question": "What is a^(1/n)? Give an example with n=3.",
+              "answer": "For a>0 and positive integer n: a^(1/n) = nth ROOT of a.\nFormally: a^(1/n)=b where b^n=a and b>0.\nn√ = RADICAL SIGN.\nExample (n=3): 8^(1/3) = cube root of 8 = 2, since 2^3=8.\nAlso: 27^(1/3)=3, 125^(1/3)=5."
+            },
+            {
+              "q_num": 2,
+              "marks": 2,
+              "question": "Explain a^(m/n). Compute 4^(3/2) by both methods.",
+              "answer": "a^(m/n) = (n√a)^m = n√(a^m).\nMethod 1 (root then power): 4^(3/2) = (4^(1/2))^3 = 2^3 = 8.\nMethod 2 (power then root): 4^(3/2) = (4^3)^(1/2) = 64^(1/2) = 8.\nBoth give 8. ✓"
+            },
+            {
+              "q_num": 3,
+              "marks": 2,
+              "question": "Find: (i) 64^(1/2)   (ii) 32^(1/5)   (iii) 125^(1/3)",
+              "answer": "(i) 64^(1/2) = sqrt(64) = 8. [8^2=64]\n(ii) 32^(1/5) = 2. [2^5=32]\n(iii) 125^(1/3) = 5. [5^3=125]"
+            },
+            {
+              "q_num": 4,
+              "marks": 2,
+              "question": "Simplify: (i) 2^(2/3)×2^(1/3)   (ii) (3^(1/5))^4",
+              "answer": "(i) a^p×a^q=a^(p+q): 2^(2/3+1/3) = 2^(3/3) = 2^1 = 2.\n(ii) (a^p)^q=a^(pq): (3^(1/5))^4 = 3^(4/5).\n\n---\n\n3 ಮಾರ್ಕ್ಸ್ × 2 questions:"
+            },
+            {
+              "q_num": 5,
+              "marks": 3,
+              "question": "Find: (i) 9^(3/2)   (ii) 32^(2/5)   (iii) 16^(3/4). Show steps.",
+              "answer": "(i) 9^(1/2)=3 (3^2=9). 3^3=27. Answer: 27.\n(ii) 32^(1/5)=2 (2^5=32). 2^2=4. Answer: 4.\n(iii) 16^(1/4)=2 (2^4=16). 2^3=8. Answer: 8."
+            },
+            {
+              "q_num": 6,
+              "marks": 3,
+              "question": "Simplify: (i) 2^(2/3)×2^(1/5)   (ii) 11^(1/2)/11^(1/4)",
+              "answer": "(i) 2^(2/3+1/5). LCM(3,5)=15: 2/3=10/15, 1/5=3/15.\n= 2^(13/15).\n\n(ii) 11^(1/2-1/4). LCM(2,4)=4: 1/2=2/4.\n= 11^(1/4).\n\n(iii) (7×8)^(1/2) = 56^(1/2) = sqrt(4×14) = 2sqrt(14).\n\n---\n\n4 ಮಾರ್ಕ್ಸ್ × 3 questions:"
+            },
+            {
+              "q_num": 7,
+              "marks": 4,
+              "question": "Simplify (state law used for each):",
+              "answer": "(i) Law a^p×a^q=a^(p+q): 2^(2/3+1/3)=2^1=2.\n\n(ii) Law (a^p)^q=a^(pq): 3^((1/5)×4)=3^(4/5).\n\n(iii) Law a^p/a^q=a^(p-q): 7^(1/5-1/3).\nLCM(5,3)=15: 1/5=3/15, 1/3=5/15. = 7^(-2/15).\n\n(iv) Law a^p×b^p=(ab)^p: (13×17)^(1/5) = 221^(1/5)."
+            },
+            {
+              "q_num": 8,
+              "marks": 4,
+              "question": "Find 125^(-1/3). Verify law (a^p)^q=a^(pq) for a=4, p=1/2, q=3.",
+              "answer": "125^(-1/3):\na^(-n)=1/a^n → 125^(-1/3)=1/125^(1/3)=1/5. [5^3=125]\n\nVerify (4^(1/2))^3 = 4^(3/2):\nLHS: 4^(1/2)=2. 2^3=8.\nRHS: 4^(3/2)=(4^(1/2))^3=8. OR 4^3=64, 64^(1/2)=8.\nLHS=RHS=8. ✓  Law verified."
+            },
+            {
+              "q_num": 9,
+              "marks": 4,
+              "question": "Simplify (10^5)^3/(10^4×10^9). Also show 9.1×10^(-31)=9.1/10^(31).",
+              "answer": "(10^5)^3/(10^4×10^9):\nNum: (10^5)^3 = 10^15. [Law (a^m)^n=a^(mn)]\nDen: 10^4×10^9 = 10^13. [Law a^m×a^n=a^(m+n)]\n= 10^(15-13) = 10^2 = 100. [Law a^m/a^n=a^(m-n)]\nAnswer: 100.\n\n9.1×10^(-31):\n10^(-31) = 1/10^(31). [a^(-n)=1/a^n]\nSo 9.1×10^(-31) = 9.1/10^(31). ✓\n\n---\n\n5 ಮಾರ್ಕ್ಸ್ × 1 question:"
+            },
+            {
+              "q_num": 10,
+              "marks": 5,
+              "question": "",
+              "answer": "PART A:\n\n(i) 9^(3/2): 9^(1/2)=3. 3^3=27. ✓\n16^(3/4): 16^(1/4)=2. 2^3=8. ✓\n125^(-1/3): 125^(1/3)=5. 1/5=0.2. ✓\n32^(2/5): 32^(1/5)=2. 2^2=4. ✓\n\nPART B:\n\n(ii) Proof:\na^(m/n) = (a^(1/n))^m [using (a^p)^q=a^(pq)] = (n√a)^m.\nAlso: a^(m/n) = (a^m)^(1/n) = n√(a^m). Both equal a^(m/n).\nVerify 8^(2/3):\nMethod 1: (8^(1/3))^2 = 2^2 = 4.\nMethod 2: (8^2)^(1/3) = 64^(1/3) = 4.\nBoth = 4. ✓\n\n(iii) 2^(2/3)×2^(1/5):\nLaw a^p×a^q=a^(p+q): 2^(2/3+1/5) = 2^(10/15+3/15) = 2^(13/15).\n\n13^(1/5)×17^(1/5):\nLaw a^p×b^p=(ab)^p: (13×17)^(1/5) = 221^(1/5)."
+            }
+          ]
+        },
+        {
+          "type": "mcq",
+          "label": "TOPIC 1.5: MCQs:",
+          "items": [
+            {
+              "mcq_num": 1,
+              "difficulty": "Easy",
+              "question": "64^(1/2) = ?",
+              "options": {
+                "A": "32   (B) 8   (C) 4   (D) 16"
+              },
+              "answer": "B",
+              "explanation": "sqrt(64) = 8, since 8^2 = 64."
+            },
+            {
+              "mcq_num": 2,
+              "difficulty": "Easy",
+              "question": "32^(1/5) = ?",
+              "options": {
+                "A": "2   (B) 4   (C) 8   (D) 16"
+              },
+              "answer": "A",
+              "explanation": "2^5 = 32, so 32^(1/5) = 2."
+            },
+            {
+              "mcq_num": 3,
+              "difficulty": "Easy",
+              "question": "a^p × a^q = ?",
+              "options": {
+                "A": "a^(p×q)   (B) a^(p+q)   (C) (2a)^(p+q)   (D) a^(p-q)"
+              },
+              "answer": "B",
+              "explanation": "Same base, multiply → add exponents."
+            },
+            {
+              "mcq_num": 4,
+              "difficulty": "Medium",
+              "question": "9^(3/2) = ?",
+              "options": {
+                "A": "27   (B) 18   (C) 81   (D) 3"
+              },
+              "answer": "A",
+              "explanation": "9^(1/2)=3, then 3^3=27."
+            },
+            {
+              "mcq_num": 5,
+              "difficulty": "Medium",
+              "question": "(3^(1/5))^4 = ?",
+              "options": {
+                "A": "3^(1/9)   (B) 3^(4/5)   (C) 3^5   (D) 3^(5/4)"
+              },
+              "answer": "B",
+              "explanation": "(a^p)^q = a^(pq). So (3^(1/5))^4 = 3^(4/5)."
+            },
+            {
+              "mcq_num": 6,
+              "difficulty": "Medium",
+              "question": "2^(2/3) × 2^(1/3) = ?",
+              "options": {
+                "A": "4   (B) 2^3   (C) 2   (D) 2^(2/9)"
+              },
+              "answer": "C",
+              "explanation": "2^(2/3+1/3) = 2^1 = 2."
+            },
+            {
+              "mcq_num": 7,
+              "difficulty": "Medium",
+              "question": "7^(1/5) / 7^(1/3) = ?",
+              "options": {
+                "A": "7^(2/15)   (B) 7^(-2/15)   (C) 7^(2/8)   (D) 1"
+              },
+              "answer": "B",
+              "explanation": "7^(1/5-1/3) = 7^(3/15-5/15) = 7^(-2/15)."
+            },
+            {
+              "mcq_num": 8,
+              "difficulty": "Hard",
+              "question": "16^(3/4) = ?",
+              "options": {
+                "A": "4   (B) 8   (C) 12   (D) 64"
+              },
+              "answer": "B",
+              "explanation": "16^(1/4)=2, then 2^3=8."
+            },
+            {
+              "mcq_num": 9,
+              "difficulty": "Hard",
+              "question": "13^(1/5) × 17^(1/5) = ?",
+              "options": {
+                "A": "30^(1/5)   (B) 221^5   (C) 221^(1/5)   (D) (13×17)^5"
+              },
+              "answer": "C",
+              "explanation": "a^p × b^p = (ab)^p. 13^(1/5)×17^(1/5) = (13×17)^(1/5) = 221^(1/5)."
+            },
+            {
+              "mcq_num": 10,
+              "difficulty": "Hard",
+              "question": "125^(-1/3) = ?",
+              "options": {
+                "A": "-5   (B) 1/5   (C) 5   (D) -1/5"
+              },
+              "answer": "B",
+              "explanation": "125^(1/3)=5, so 125^(-1/3)=1/5."
+            },
+            {
+              "mcq_num": 11,
+              "difficulty": "Easy",
+              "question": "a^0 for any a≠0 equals:",
+              "options": {
+                "A": "0   (B) a   (C) 1   (D) 1/a"
+              },
+              "answer": "C",
+              "explanation": "Any non-zero number raised to power 0 = 1."
+            },
+            {
+              "mcq_num": 12,
+              "difficulty": "Medium",
+              "question": "32^(2/5) = ?",
+              "options": {
+                "A": "2   (B) 4   (C) 8   (D) 16"
+              },
+              "answer": "B",
+              "explanation": "32^(1/5)=2, then 2^2=4."
+            }
+          ]
+        },
+        {
+          "type": "definition",
+          "label": "Definition:",
+          "text": "A consolidated list of all key results studied in Chapter 1 on Number Systems."
+        },
+        {
+          "type": "key_points",
+          "label": "Key Points — Summary of Chapter 1:",
+          "points": [
+            "1. A number r is RATIONAL if it can be written as p/q (p,q integers, q≠0).",
+            "2. A number s is IRRATIONAL if it cannot be written as p/q (p,q integers, q≠0).",
+            "3. Decimal expansion of a rational number: TERMINATING or NON-TERMINATING RECURRING.",
+            "A number with terminating or non-terminating recurring decimal → RATIONAL.",
+            "4. Decimal expansion of an irrational: NON-TERMINATING NON-RECURRING.",
+            "A number with non-terminating non-recurring decimal → IRRATIONAL.",
+            "5. All rational + irrational numbers = REAL NUMBERS (R).",
+            "6. If r is rational and s is irrational (r≠0):",
+            "r+s and r-s are irrational; rs and r/s are irrational.",
+            "7. For positive real numbers a and b:",
+            "(i)   sqrt(ab) = sqrt(a)×sqrt(b)",
+            "(ii)  sqrt(a/b) = sqrt(a)/sqrt(b)",
+            "(iii) (sqrt(a)+sqrt(b))(sqrt(a)-sqrt(b)) = a-b",
+            "(iv)  (a+sqrt(b))(a-sqrt(b)) = a^2-b",
+            "(v)   (sqrt(a)+sqrt(b))^2 = a+2sqrt(ab)+b",
+            "8. To rationalise 1/(sqrt(a)+b), multiply by (sqrt(a)-b)/(sqrt(a)-b).",
+            "9. Extended laws of exponents (a>0; p,q rational):",
+            "(i)  a^p × a^q = a^(p+q)    (ii) (a^p)^q = a^(pq)",
+            "(iii) a^p / a^q = a^(p-q)   (iv) a^p×b^p = (ab)^p"
+          ]
+        },
+        {
+          "type": "list_of_topics",
+          "label": "LIST OF SUB TOPICS IN THIS TOPIC:",
+          "items": [
+            "(No sub-topics — Summary is at topic level only)"
+          ]
+        },
+        {
+          "type": "qa",
+          "label": "TOPIC 1.6: Q&A:",
+          "items": [
+            {
+              "q_num": 1,
+              "marks": 2,
+              "question": "Distinguish rational and irrational using decimal expansions.",
+              "answer": "RATIONAL: TERMINATING or NON-TERMINATING RECURRING decimal.\ne.g., 7/8=0.875 (terminating); 1/3=0.3bar (non-terminating recurring).\nIRRATIONAL: NON-TERMINATING NON-RECURRING decimal.\ne.g., sqrt(2)=1.41421..., pi=3.14159...\nConverse: Terminating/recurring → rational. Non-recurring → irrational."
+            },
+            {
+              "q_num": 2,
+              "marks": 2,
+              "question": "Write the five identities for positive real numbers a and b",
+              "answer": "(i)   sqrt(ab) = sqrt(a)×sqrt(b)\n(ii)  sqrt(a/b) = sqrt(a)/sqrt(b)\n(iii) (sqrt(a)+sqrt(b))(sqrt(a)-sqrt(b)) = a-b\n(iv)  (a+sqrt(b))(a-sqrt(b)) = a^2-b\n(v)   (sqrt(a)+sqrt(b))^2 = a+2sqrt(ab)+b"
+            },
+            {
+              "q_num": 3,
+              "marks": 2,
+              "question": "If r is rational (r≠0) and s is irrational, state r+s, r-s, rs, r/s.",
+              "answer": "All four are IRRATIONAL when r≠0:\nr+s = irrational.  r-s = irrational.\nrs = irrational.   r/s = irrational.\nException: r=0 → r×s=0 (rational). Hence r≠0 condition is essential.\nExample: r=2, s=sqrt(3). 2+sqrt(3), 2-sqrt(3), 2sqrt(3), 2/sqrt(3) — all irrational."
+            },
+            {
+              "q_num": 4,
+              "marks": 2,
+              "question": "Write the four extended laws of exponents (a>0, p,q rational).",
+              "answer": "(i)   a^p × a^q = a^(p+q)\n(ii)  (a^p)^q = a^(pq)\n(iii) a^p / a^q = a^(p-q)\n(iv)  a^p × b^p = (ab)^p\n\n---\n\n3 ಮಾರ್ಕ್ಸ್ × 2 questions:"
+            },
+            {
+              "q_num": 5,
+              "marks": 3,
+              "question": "Verify: (i) (sqrt(5)+sqrt(3))(sqrt(5)-sqrt(3))=2.",
+              "answer": "(i) Identity (iii): a-b = 5-3 = 2. ✓\nNumerical: sqrt(5)≈2.236, sqrt(3)≈1.732.\n(2.236+1.732)(2.236-1.732) = (3.968)(0.504) ≈ 2.000. ✓\n\n(ii) LHS: (sqrt(2)+sqrt(3))^2 = 2+2sqrt(6)+3 = 5+2sqrt(6).\nRHS: 2+2sqrt(6)+3 = 5+2sqrt(6).\nLHS=RHS. ✓"
+            },
+            {
+              "q_num": 6,
+              "marks": 3,
+              "question": "R = Q ∪ {irrationals}. Explain:",
+              "answer": "(i) sqrt(2) ∈ R: R includes all real numbers (rational+irrational). ✓\nsqrt(2) ∉ Q: 1.41421... non-terminating non-recurring → cannot write as p/q.\n\n(ii) 1/3 ∈ Q: 1/3 = p/q (p=1, q=3, q≠0). ✓\n1/3 ∈ R: Since Q ⊂ R, every rational is also real. ✓\n\n(iii) NO. Q and {irrationals} are DISJOINT: Q ∩ {irrationals} = ∅.\nEvery real number is EITHER rational OR irrational — never both.\n\n---\n\n4 ಮಾರ್ಕ್ಸ್ × 3 questions:"
+            },
+            {
+              "q_num": 7,
+              "marks": 4,
+              "question": "Prove or disprove:",
+              "answer": "(i) 1.41421...+1.73205... = 3.14626... non-recurring. TRUE — IRRATIONAL. ✓\n\n(ii) sqrt(2)×sqrt(8) = sqrt(16) = 4 = 4/1. TRUE — RATIONAL.\n(Irrational×irrational CAN be rational.) ✓\n\n(iii) pi=3.14159..., 22/7=3.14285... Difference = -0.00126... non-recurring.\nIrrational - rational = irrational. TRUE — IRRATIONAL. ✓\n\n(iv) 3/sqrt(3) = 3^(1-1/2) = 3^(1/2) = sqrt(3) = 1.73205...\nsqrt(3) is IRRATIONAL, not rational.\nFALSE. 3/sqrt(3) = sqrt(3) — IRRATIONAL. ✗"
+            },
+            {
+              "q_num": 8,
+              "marks": 4,
+              "question": "Rationalise 1/(sqrt(7)-sqrt(6)) and verify.",
+              "answer": "1/(sqrt(7)-sqrt(6)):\nConjugate = (sqrt(7)+sqrt(6)).\nDenom = (sqrt(7))^2-(sqrt(6))^2 = 7-6 = 1.\n= sqrt(7)+sqrt(6).\nVerify: (sqrt(7)+sqrt(6))(sqrt(7)-sqrt(6)) = 7-6 = 1. ✓\n\n1/(sqrt(7)-2):\nConjugate = (sqrt(7)+2).\nDenom = (sqrt(7))^2-2^2 = 7-4 = 3.\n= (sqrt(7)+2)/3."
+            },
+            {
+              "q_num": 9,
+              "marks": 4,
+              "question": "A student simplifies (sqrt(3)+sqrt(7))^2=10. Find the error and",
+              "answer": "Error in (sqrt(3)+sqrt(7))^2=10:\nStudent computed: (sqrt(3))^2+(sqrt(7))^2 = 3+7 = 10. WRONG.\nError: Missing middle term 2×sqrt(3)×sqrt(7) = 2sqrt(21).\nCorrect: 3+2sqrt(21)+7 = 10+2sqrt(21).\n[2sqrt(21)≈9.165, so correct answer≈19.165, not 10.]\n\n(sqrt(11)-sqrt(7))(sqrt(11)+sqrt(7)):\nIdentity (iii): a-b = 11-7 = 4.\n4 = 4/1 → RATIONAL.\n(Product of two irrationals can be rational.) ✓\n\n---\n\n5 ಮಾರ್ಕ್ಸ್ × 1 question:"
+            },
+            {
+              "q_num": 10,
+              "marks": 5,
+              "question": "",
+              "answer": "PART A:\n\n(i) 0.47bar: x=0.4747...; 99x=47; x=47/99. RATIONAL. ✓\n1.414213562... = sqrt(2) — non-terminating non-recurring → IRRATIONAL.\nBoth 47/99 ≈ 0.474 and sqrt(2) ≈ 1.414 are distinct points on the real number line.\nR = Q ∪ {irrationals}; number line has ALL real numbers — no gaps.\n\n(ii) 27^(2/3): 27^(1/3)=3 (3^3=27). 3^2=9. Answer: 9.\n243^(3/5): 243^(1/5)=3 (3^5=243). 3^3=27. Answer: 27.\n\nPART B:\n\n(iii) Side = sqrt(50) = sqrt(25×2) = 5sqrt(2).\n5sqrt(2)=5×1.41421...=7.07107... Non-recurring → IRRATIONAL.\nOn number line: Construct right triangle with legs 5 and 5.\nHypotenuse = sqrt(50) = 5sqrt(2). Transfer to number line.\n\n(iv) Circumference = pi×1 = pi m.\npi = 3.14159265... Non-terminating non-recurring → IRRATIONAL.\n22/7≈3.14286 ≠ pi (22/7 only an approximation).\nCircumference = pi m — IRRATIONAL.\nNote: pi = c/d but c and d are real lengths (not integers) — the rational\ndefinition p/q requires INTEGER numerator and denominator."
+            }
+          ]
+        },
+        {
+          "type": "mcq",
+          "label": "TOPIC 1.6: MCQs:",
+          "items": [
+            {
+              "mcq_num": 1,
+              "difficulty": "Easy",
+              "question": "The decimal expansion of an irrational number is:",
+              "options": {
+                "A": "Terminating",
+                "B": "Non-terminating recurring",
+                "C": "Non-terminating non-recurring",
+                "D": "Always 2 decimal places"
+              },
+              "answer": "C",
+              "explanation": "Irrationals have non-terminating non-recurring decimal expansion."
+            },
+            {
+              "mcq_num": 2,
+              "difficulty": "Easy",
+              "question": "R = ?",
+              "options": {
+                "A": "Only rational numbers",
+                "B": "Only irrational numbers",
+                "C": "Rational + irrational numbers",
+                "D": "Only integers"
+              },
+              "answer": "C",
+              "explanation": "Real numbers = all rational + all irrational numbers."
+            },
+            {
+              "mcq_num": 3,
+              "difficulty": "Easy",
+              "question": "(sqrt(5)+sqrt(3))(sqrt(5)-sqrt(3)) = ?",
+              "options": {
+                "A": "2   (B) 8   (C) sqrt(15)   (D) 15"
+              },
+              "answer": "A",
+              "explanation": "(sqrt(a)+sqrt(b))(sqrt(a)-sqrt(b)) = a-b = 5-3 = 2."
+            },
+            {
+              "mcq_num": 4,
+              "difficulty": "Medium",
+              "question": "Which decimal expansion represents a rational number?",
+              "options": {
+                "A": "1.41421356...   (B) 3.14159265...",
+                "C": "0.3333...       (D) 0.10110111..."
+              },
+              "answer": "C",
+              "explanation": "0.3333... = 0.3bar — non-terminating RECURRING → rational."
+            },
+            {
+              "mcq_num": 5,
+              "difficulty": "Medium",
+              "question": "(sqrt(a)+sqrt(b))^2 = ?",
+              "options": {
+                "A": "a+b   (B) a-b   (C) a+2sqrt(ab)+b   (D) a-2sqrt(ab)+b"
+              },
+              "answer": "C",
+              "explanation": "Standard algebraic identity for sum squared."
+            },
+            {
+              "mcq_num": 6,
+              "difficulty": "Medium",
+              "question": "If r is rational (r≠0) and s is irrational, then rs is:",
+              "options": {
+                "A": "Rational   (B) Irrational   (C) May be either   (D) Zero"
+              },
+              "answer": "B",
+              "explanation": "Non-zero rational × irrational = always irrational."
+            },
+            {
+              "mcq_num": 7,
+              "difficulty": "Medium",
+              "question": "a^(m/n) in radical form is:",
+              "options": {
+                "A": "n√(a^m)   (B) m√(a^n)   (C) a^(mn)   (D) (a^m)^n"
+              },
+              "answer": "A",
+              "explanation": "a^(m/n) = (n√a)^m = n√(a^m)."
+            },
+            {
+              "mcq_num": 8,
+              "difficulty": "Hard",
+              "question": "Product of sqrt(3) × sqrt(3) is:",
+              "options": {
+                "A": "sqrt(6)   (B) sqrt(9)   (C) 3   (D) 9"
+              },
+              "answer": "C",
+              "explanation": "sqrt(3) × sqrt(3) = 3 — product of two irrationals can be rational."
+            },
+            {
+              "mcq_num": 9,
+              "difficulty": "Hard",
+              "question": "To rationalise 1/(sqrt(7)+sqrt(6)), we multiply by:",
+              "options": {
+                "A": "(sqrt(7)+sqrt(6))/(sqrt(7)+sqrt(6))",
+                "B": "(sqrt(7)-sqrt(6))/(sqrt(7)-sqrt(6))",
+                "C": "sqrt(7)/sqrt(6)",
+                "D": "1/(sqrt(7)-sqrt(6))"
+              },
+              "answer": "B",
+              "explanation": "Conjugate of (sqrt(7)+sqrt(6)) is (sqrt(7)-sqrt(6))."
+            },
+            {
+              "mcq_num": 10,
+              "difficulty": "Hard",
+              "question": "(a^p)^q = ?",
+              "options": {
+                "A": "a^(p+q)   (B) a^(pq)   (C) a^(p-q)   (D) (a+b)^p"
+              },
+              "answer": "B",
+              "explanation": "Power of a power → multiply exponents."
+            },
+            {
+              "mcq_num": 11,
+              "difficulty": "Easy",
+              "question": "sqrt(ab) = ?",
+              "options": {
+                "A": "sqrt(a)+sqrt(b)   (B) sqrt(a)-sqrt(b)",
+                "C": "sqrt(a)×sqrt(b)   (D) sqrt(a)/sqrt(b)"
+              },
+              "answer": "C",
+              "explanation": "Identity (i): sqrt(ab) = sqrt(a)×sqrt(b) for positive a, b."
+            },
+            {
+              "mcq_num": 12,
+              "difficulty": "Medium",
+              "question": "The rationalising factor of (sqrt(5)-sqrt(3)) is:",
+              "options": {
+                "A": "(sqrt(5)+sqrt(3))   (B) (sqrt(5)-sqrt(3))",
+                "C": "sqrt(15)            (D) (5-3)"
+              },
+              "answer": "A",
+              "explanation": "Conjugate of (sqrt(5)-sqrt(3)) is (sqrt(5)+sqrt(3)). Product = 5-3 = 2 (rational)."
+            }
+          ]
+        }
+      ],
+      "subtopics": []
+    }
+  ]
+}

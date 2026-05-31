@@ -1,0 +1,1871 @@
+{
+  "metadata": {
+    "class": "9th STANDARD",
+    "subject": "Science",
+    "part": "2",
+    "chapter_num": "4",
+    "chapter_name": "STRUCTURE OF THE ATOM",
+    "source": "KSEEB Textbook 2025-26",
+    "mode": "A"
+  },
+  "chapter_sections": [
+    {
+      "type": "definition",
+      "label": "DEFINITION:",
+      "text": "An atom is a divisible particle made up of three sub-atomic particles -- electrons,\nprotons and neutrons -- arranged in a specific structure. Different atomic models\nproposed by Thomson, Rutherford and Bohr explain how these particles are arranged\ninside the atom."
+    },
+    {
+      "type": "key_points",
+      "label": "KEY POINTS:",
+      "points": [
+        "Atoms are made up of charged particles (electrons and protons) and neutral",
+        "particles (neutrons).",
+        "The existence of charged particles in atoms was first indicated by static",
+        "electricity experiments (combing hair, rubbing glass rod with silk).",
+        "J.J. Thomson discovered the electron; E. Goldstein discovered the proton",
+        "(canal rays); J. Chadwick discovered the neutron.",
+        "Three atomic models were proposed: Thomson's model, Rutherford's model,",
+        "and Bohr's model -- each improving upon the limitations of the previous.",
+        "Electrons occupy shells (energy levels) designated K, L, M, N or n=1,2,3,4.",
+        "The maximum electrons in a shell = 2n^2 (K=2, L=8, M=18, N=32).",
+        "Valency is the combining capacity of an atom determined by outermost shell electrons.",
+        "Atomic number (Z) = number of protons; Mass number (A) = protons + neutrons.",
+        "Isotopes are atoms of same element with same atomic number but different mass numbers.",
+        "Isobars are atoms of different elements with same mass number but different atomic numbers."
+      ]
+    },
+    {
+      "type": "list_of_topics",
+      "label": "LIST OF TOPICS:",
+      "items": [
+        "4.1 Charged Particles in Matter",
+        "4.2 The Structure of an Atom",
+        "4.2.1 Thomson's Model of an Atom",
+        "4.2.2 Rutherford's Model of an Atom",
+        "4.2.3 Bohr's Model of Atom",
+        "4.2.4 Neutrons",
+        "4.3 How are Electrons Distributed in Different Orbits (Shells)?",
+        "4.4 Valency",
+        "4.5 Atomic Number and Mass Number",
+        "4.5.1 Atomic Number",
+        "4.5.2 Mass Number",
+        "4.6 Isotopes",
+        "4.6.1 Isobars"
+      ]
+    }
+  ],
+  "topics": [
+    {
+      "topic_num": "4.1",
+      "topic_name": "CHARGED PARTICLES IN MATTER",
+      "mode": "B",
+      "sections": [
+        {
+          "type": "list_of_topics",
+          "label": "LIST OF SUB-TOPICS:",
+          "items": [
+            "(No sub-topics; this topic is a single unit introducing charged particles)"
+          ]
+        },
+        {
+          "type": "definition",
+          "label": "DEFINITION:",
+          "text": "Charged particles are sub-atomic particles that carry electric charge. The\ndiscovery that atoms contain charged particles came from studying static\nelectricity and canal rays. An electron (e-) carries negative charge and a\nproton (p+) carries positive charge equal in magnitude but opposite in sign."
+        },
+        {
+          "type": "key_points",
+          "label": "KEY POINTS:",
+          "points": [
+            "Rubbing objects (comb through hair, glass rod with silk) makes them",
+            "electrically charged, proving atoms are divisible and contain charged particles.",
+            "E. Goldstein (1886) discovered positively charged radiations called CANAL RAYS",
+            "in a gas discharge tube; this led to the discovery of the proton.",
+            "J.J. Thomson (1900) identified the electron as a negatively charged sub-atomic",
+            "particle inside the atom.",
+            "An electron is represented as e- ; charge = -1 (negative one unit).",
+            "A proton is represented as p+ ; charge = +1 (positive one unit).",
+            "The mass of an electron is negligible (about 1/2000 of a proton's mass).",
+            "The mass of a proton is taken as one unit (1 u).",
+            "Atoms are electrically neutral overall: number of electrons = number of protons."
+          ]
+        },
+        {
+          "type": "activity",
+          "label": "ACTIVITY 4.1:",
+          "aim": "To demonstrate that rubbing objects produces electric charge, suggesting\natoms contain charged particles.",
+          "materials": "Dry hair and comb; glass rod; silk cloth; inflated balloon.",
+          "procedure": [
+            "A. Comb dry hair. Bring the comb near small pieces of paper.",
+            "B. Rub a glass rod with silk cloth. Bring the rod near an inflated balloon.",
+            "Observe what happens in each case."
+          ],
+          "observation": "A. The comb attracts small pieces of paper after combing hair.\nB. The glass rod attracts the balloon after rubbing with silk cloth.",
+          "conclusion": "Rubbing transfers charge between objects. This shows atoms contain charged\nparticles. An atom is divisible -- it consists of sub-atomic particles.\n\n--------------------------------------------------------------------------------",
+          "caution": ""
+        },
+        {
+          "type": "qa",
+          "label": "TOPIC 4.1 Q&A",
+          "items": [
+            {
+              "q_num": 1,
+              "marks": 2,
+              "question": "What are canal rays?",
+              "answer": "Canal rays are positively charged radiations discovered by E. Goldstein in\n1886 in a gas discharge tube. They travel in a direction opposite to cathode rays.\nThese radiations ultimately led to the discovery of the proton."
+            },
+            {
+              "q_num": 2,
+              "marks": 2,
+              "question": "If an atom contains one electron and one proton, will it carry",
+              "answer": "No, it will carry no charge. The single negative charge of the electron is\nexactly balanced by the single positive charge of the proton. Since the charges\nare equal and opposite, the atom is electrically neutral overall."
+            },
+            {
+              "q_num": 3,
+              "marks": 3,
+              "question": "What evidence suggests that atoms contain charged particles?",
+              "answer": "When a comb is run through dry hair, the comb becomes charged and attracts\nsmall paper pieces. Similarly, rubbing a glass rod with silk makes it attract a\nballoon. These observations show that rubbing transfers charge between objects.\nSince matter is made of atoms, this charge transfer proves that atoms must contain\ncharged particles (electrons and protons). Additionally, E. Goldstein's canal ray\nexperiment directly demonstrated the presence of positively charged particles\n(protons) inside atoms."
+            },
+            {
+              "q_num": 4,
+              "marks": 4,
+              "question": "Compare the properties of electrons and protons.",
+              "answer": "Property          | Electron (e-)          | Proton (p+)\n------------------+------------------------+-------------------------\nCharge            | -1 (negative one unit) | +1 (positive one unit)\nMass              | Negligible (~1/2000 u) | 1 u (one atomic mass unit)\nLocation in atom  | Outside nucleus        | Inside nucleus\nSymbol            | e-                     | p+\nDiscovery         | J.J. Thomson (1900)    | E. Goldstein (1886)"
+            },
+            {
+              "q_num": 5,
+              "marks": 4,
+              "question": "How was the discovery of the proton made? Explain the role of",
+              "answer": "E. Goldstein in 1886 conducted experiments with a gas discharge tube. He\nobserved that when cathode rays were produced, new radiations also appeared\ntravelling in the opposite direction through perforations (canals) in the cathode.\nHe called these CANAL RAYS. Further investigation showed these canal rays were\npositively charged radiations. Since they came from inside the gas atoms, they\nindicated the presence of a positively charged sub-atomic particle in atoms. This\nparticle was later named the proton. Its charge is equal in magnitude but opposite\nin sign to that of the electron, and its mass is approximately 2000 times that of\nthe electron."
+            },
+            {
+              "q_num": 6,
+              "marks": 6,
+              "question": "Describe the experiments that led to the discovery of sub-atomic",
+              "answer": "Two major types of experiments revealed sub-atomic particles inside atoms:\n\n1. STATIC ELECTRICITY EXPERIMENTS:\nWhen objects are rubbed together (comb through hair; glass rod with silk),\nthey acquire electric charge and attract light objects. This shows that atoms\ncan lose or gain charged particles during friction -- proving atoms are not\nindivisible as Dalton proposed, but contain charged particles.\n\n2. GAS DISCHARGE TUBE EXPERIMENTS:\na) CATHODE RAYS: When high voltage is applied across a gas discharge tube,\nrays travel from cathode to anode. These were found to be negatively charged\nparticles, later identified as electrons by J.J. Thomson (1900). This was\nthe discovery of the electron.\nb) CANAL RAYS: E. Goldstein (1886) observed positively charged radiations\npassing in opposite direction through holes in the cathode. These were\neventually linked to the discovery of the proton -- a positively charged\nparticle with mass ~2000 times that of the electron.\n\nCONCLUSION: These experiments together proved that:\n- Atoms are divisible (contrary to Dalton's theory).\n- Atoms contain sub-atomic particles with both positive and negative charges.\n- In a neutral atom, number of protons = number of electrons.\n\n--------------------------------------------------------------------------------"
+            }
+          ]
+        },
+        {
+          "type": "mcq",
+          "label": "TOPIC 4.1 MCQ",
+          "items": [
+            {
+              "mcq_num": 1,
+              "difficulty": "Easy",
+              "question": "Who discovered the electron?",
+              "options": {
+                "A": "E. Goldstein",
+                "B": "J.J. Thomson",
+                "C": "Ernest Rutherford",
+                "D": "Neils Bohr"
+              },
+              "answer": "B",
+              "explanation": "J.J. Thomson discovered the electron in 1900 by studying cathode rays. Goldstein discovered canal rays leading to the proton."
+            },
+            {
+              "mcq_num": 2,
+              "difficulty": "Easy",
+              "question": "Canal rays are:",
+              "options": {
+                "A": "Negatively charged particles",
+                "B": "Neutral particles",
+                "C": "Positively charged particles",
+                "D": "Electromagnetic radiation"
+              },
+              "answer": "C",
+              "explanation": "Canal rays discovered by Goldstein travel opposite to cathode rays and are positively charged -- they led to the discovery of the proton."
+            },
+            {
+              "mcq_num": 3,
+              "difficulty": "Medium",
+              "question": "The mass of an electron compared to that of a proton is:",
+              "options": {
+                "A": "Equal",
+                "B": "Twice",
+                "C": "About 1/2000 times",
+                "D": "About 2000 times"
+              },
+              "answer": "C",
+              "explanation": "The mass of an electron is negligible -- about 1/2000 of the mass of a proton. The mass of a proton is taken as one unit (1 u)."
+            },
+            {
+              "mcq_num": 4,
+              "difficulty": "Medium",
+              "question": "When a glass rod is rubbed with silk, the glass rod becomes positively charged because:",
+              "options": {
+                "A": "Protons are transferred from silk to glass",
+                "B": "Electrons are transferred from glass to silk",
+                "C": "Neutrons are transferred from glass to silk",
+                "D": "Protons are transferred from glass to silk"
+              },
+              "answer": "B",
+              "explanation": "In static charging, protons do not move -- only electrons move. Electrons transfer from glass to silk, leaving glass with more protons than electrons, hence positively charged."
+            },
+            {
+              "mcq_num": 5,
+              "difficulty": "Hard",
+              "question": "An atom has 11 protons. What is the charge on the atom if it loses one electron?",
+              "options": {
+                "A": "Zero",
+                "B": "+1",
+                "C": "-1",
+                "D": "+11"
+              },
+              "answer": "B",
+              "explanation": "Originally the atom has 11 protons and 11 electrons (neutral). After losing one electron it has 11 protons and 10 electrons, giving a net charge of +1."
+            }
+          ]
+        }
+      ],
+      "subtopics": []
+    },
+    {
+      "topic_num": "4.2",
+      "topic_name": "THE STRUCTURE OF AN ATOM",
+      "mode": "A",
+      "sections": [
+        {
+          "type": "list_of_topics",
+          "label": "LIST OF SUB-TOPICS:",
+          "items": [
+            "4.2.1 Thomson's Model of an Atom",
+            "4.2.2 Rutherford's Model of an Atom",
+            "4.2.3 Bohr's Model of Atom",
+            "4.2.4 Neutrons"
+          ]
+        },
+        {
+          "type": "definition",
+          "label": "DEFINITION:",
+          "text": "The structure of an atom refers to the arrangement of electrons, protons and\nneutrons within the atom. Three major atomic models describe this structure:\nThomson's plum-pudding model, Rutherford's nuclear model and Bohr's planetary\nmodel with discrete energy shells."
+        },
+        {
+          "type": "key_points",
+          "label": "KEY POINTS:",
+          "points": [
+            "Three atomic models were developed historically, each overcoming drawbacks",
+            "of the previous one.",
+            "Thomson proposed electrons embedded in a positive sphere (plum pudding).",
+            "Rutherford proposed a tiny dense nucleus at the centre with electrons revolving",
+            "around it, based on the alpha-particle scattering experiment.",
+            "Rutherford's model could not explain why revolving electrons do not lose energy",
+            "and fall into the nucleus (stability problem).",
+            "Bohr proposed discrete orbits (shells) where electrons revolve without radiating",
+            "energy -- this resolved the stability problem.",
+            "Neutrons (discovered by Chadwick, 1932) are neutral particles in the nucleus",
+            "with mass approximately equal to that of a proton.",
+            "-------------------------------------------------------------------------------"
+          ]
+        }
+      ],
+      "subtopics": [
+        {
+          "subtopic_num": "4.2.1",
+          "subtopic_name": "THOMSON'S MODEL OF AN ATOM",
+          "sections": [
+            {
+              "type": "definition",
+              "label": "DEFINITION:",
+              "text": "Thomson's model (also called the PLUM PUDDING MODEL or WATERMELON MODEL)\nproposes that an atom consists of a positively charged sphere with electrons\nembedded in it like currants in a Christmas pudding (or seeds in a watermelon)."
+            },
+            {
+              "type": "key_points",
+              "label": "KEY POINTS:",
+              "points": [
+                "Proposed by J.J. Thomson after he discovered the electron.",
+                "The atom is visualised as a positively charged sphere.",
+                "Electrons (negatively charged) are embedded throughout the sphere.",
+                "The positive and negative charges are equal in magnitude, making the atom",
+                "electrically neutral as a whole.",
+                "LIMITATION: The results of Rutherford's alpha-particle scattering experiment",
+                "could not be explained by Thomson's model.",
+                "The model is also called the \"plum pudding model\" or \"watermelon model\"",
+                "(positive charge = red part of watermelon; electrons = seeds).",
+                "-------------------------------------------------------------------------------"
+              ]
+            },
+            {
+              "type": "qa",
+              "label": "SUB-TOPIC 4.2.1 Q&A",
+              "items": [
+                {
+                  "q_num": 1,
+                  "marks": 2,
+                  "question": "How does Thomson's model of the atom explain the electrical",
+                  "answer": "According to Thomson's model, an atom consists of a positively charged\nsphere in which electrons (negatively charged) are embedded. The magnitude of\nthe positive charge of the sphere is equal to the total negative charge of all\nthe embedded electrons. Since positive and negative charges are equal, the atom\nas a whole is electrically neutral."
+                },
+                {
+                  "q_num": 2,
+                  "marks": 3,
+                  "question": "Describe Thomson's model of the atom and explain why it is",
+                  "answer": "Thomson proposed that an atom is a sphere of positive charge with electrons\nembedded inside it, like currants embedded in a Christmas pudding. He also\ncompared it to a watermelon -- the red edible part representing the positively\ncharged sphere, and the seeds representing the negatively charged electrons. The\nmodel is called the \"plum pudding model\" because plums (electrons) are distributed\nthroughout a positively charged pudding (sphere). The positive and negative charges\nbalance each other, making the atom electrically neutral."
+                },
+                {
+                  "q_num": 3,
+                  "marks": 4,
+                  "question": "What are the postulates and limitations of Thomson's model of",
+                  "answer": "POSTULATES:\n1. An atom consists of a positively charged sphere.\n2. Electrons (negatively charged) are embedded throughout this positive sphere.\n3. The negative charges of electrons and the positive charge of the sphere are\nequal, making the atom electrically neutral.\n\nLIMITATIONS:\n1. Thomson's model could not explain the results of Rutherford's gold foil\n(alpha-particle scattering) experiment.\n2. It could not explain why most alpha particles passed straight through the\natom -- which implies most of the atom's interior must be empty space.\n3. It could not explain the deflection of some alpha particles at very large\nangles, which requires a very dense, concentrated positive charge at the\ncentre -- not a diffuse positive sphere as Thomson proposed.\n\n--------------------------------------------------------------------------------"
+                }
+              ]
+            },
+            {
+              "type": "mcq",
+              "label": "SUB-TOPIC 4.2.1 MCQ",
+              "items": [
+                {
+                  "mcq_num": 1,
+                  "difficulty": "Easy",
+                  "question": "In Thomson's model, the positive charge in an atom is:",
+                  "options": {
+                    "A": "Concentrated at the centre in a nucleus",
+                    "B": "Spread uniformly throughout the atom as a sphere",
+                    "C": "Located in discrete orbits",
+                    "D": "Absent -- only electrons are present"
+                  },
+                  "answer": "B",
+                  "explanation": "Thomson proposed the atom is a uniformly positively charged sphere with electrons embedded in it. Rutherford later proposed the concentrated nucleus."
+                },
+                {
+                  "mcq_num": 2,
+                  "difficulty": "Easy",
+                  "question": "Thomson's model of the atom is also called:",
+                  "options": {
+                    "A": "Nuclear model",
+                    "B": "Planetary model",
+                    "C": "Plum pudding model",
+                    "D": "Shell model"
+                  },
+                  "answer": "C",
+                  "explanation": "Thomson's model is called the plum pudding model because electrons (plums) are embedded in a positive sphere (pudding). It is also called the watermelon model."
+                },
+                {
+                  "mcq_num": 3,
+                  "difficulty": "Medium",
+                  "question": "Which experiment disproved Thomson's model of the atom?",
+                  "options": {
+                    "A": "Canal ray experiment",
+                    "B": "Cathode ray experiment",
+                    "C": "Rutherford's alpha-particle scattering experiment",
+                    "D": "Millikan's oil drop experiment"
+                  },
+                  "answer": "C",
+                  "explanation": "Rutherford's gold foil experiment showed that most mass is concentrated in a tiny nucleus -- contradicting Thomson's model of a diffuse positive sphere."
+                },
+                {
+                  "mcq_num": 4,
+                  "difficulty": "Medium",
+                  "question": "According to Thomson's model, an atom is electrically neutral because:",
+                  "options": {
+                    "A": "It contains no charged particles",
+                    "B": "The positive sphere and embedded electrons have equal and opposite charges",
+                    "C": "Protons and neutrons balance each other",
+                    "D": "Electrons revolve outside the positive nucleus"
+                  },
+                  "answer": "B",
+                  "explanation": "Thomson stated that the positive charge of the sphere equals the total negative charge of the embedded electrons, resulting in a neutral atom."
+                },
+                {
+                  "mcq_num": 5,
+                  "difficulty": "Hard",
+                  "question": "Thomson's model could NOT explain which of the following observations from Rutherford's experiment?",
+                  "options": {
+                    "A": "Most alpha particles passed straight through the gold foil",
+                    "B": "Alpha particles travel in straight lines",
+                    "C": "Very few alpha particles bounced back at large angles",
+                    "D": "Alpha particles carry positive charge"
+                  },
+                  "answer": "C",
+                  "explanation": "Thomson's diffuse positive sphere would not cause large-angle deflections. The bouncing back of a few particles at 180 degrees required a very small, dense, positively charged nucleus -- not predicted by Thomson. --------------------------------------------------------------------------------"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "subtopic_num": "4.2.2",
+          "subtopic_name": "RUTHERFORD'S MODEL OF AN ATOM",
+          "sections": [
+            {
+              "type": "definition",
+              "label": "DEFINITION:",
+              "text": "Rutherford's nuclear model proposes that an atom has a very small, dense,\npositively charged centre called the NUCLEUS, and electrons revolve around\nthe nucleus in circular paths. The nucleus contains nearly all the mass of\nthe atom while most of the atom is empty space."
+            },
+            {
+              "type": "key_points",
+              "label": "KEY POINTS:",
+              "points": [
+                "Based on the ALPHA-PARTICLE SCATTERING EXPERIMENT (gold foil experiment).",
+                "Alpha (alpha) particles are doubly charged helium ions with mass 4 u; they",
+                "move at very high speed and carry considerable energy.",
+                "Gold foil used was about 1000 atoms thick.",
+                "OBSERVATIONS of the experiment:",
+                "(i) Most alpha particles passed straight through -- atom is mostly empty space.",
+                "(ii) Some were deflected by small angles -- nucleus occupies very little space.",
+                "(iii) Very few (1 in 12000) bounced back at nearly 180 degrees -- nucleus is",
+                "very small and extremely dense with concentrated positive charge.",
+                "CONCLUSIONS (Rutherford's nuclear model):",
+                "(i) There is a positively charged centre called the NUCLEUS in an atom.",
+                "(ii) Nearly all the mass of an atom resides in the nucleus.",
+                "(iii) The size of the nucleus is very small compared to the size of the atom.",
+                "(iv) Electrons revolve around the nucleus in circular paths.",
+                "The radius of the nucleus is about 10^5 times smaller than the radius of the atom.",
+                "DRAWBACKS of Rutherford's model:",
+                "(i) A charged particle revolving in a circular orbit undergoes acceleration.",
+                "An accelerating charged particle should radiate energy and slow down,",
+                "spiralling into the nucleus -- but atoms are stable.",
+                "(ii) The model could not explain the stability of the atom."
+              ]
+            },
+            {
+              "type": "activity",
+              "label": "ACTIVITY 4.2 (Alpha-Particle Scattering Experiment):",
+              "aim": "To understand the structure of an atom using alpha-particle scattering.",
+              "materials": "Alpha particle source, thin gold foil, circular zinc sulphide screen\nwith a circular detector (conceptual/demonstration).",
+              "procedure": [
+                "A beam of fast-moving alpha particles is directed at a thin gold foil. A",
+                "circular zinc sulphide screen surrounds the foil to detect alpha particles",
+                "at various angles of scattering."
+              ],
+              "observation": "(i) Most alpha particles pass straight through the gold foil without deflection.\n(ii) Some are deflected by small angles.\n(iii) Surprisingly, one out of every 12000 particles bounced back at nearly 180\ndegrees (as if fired at a solid wall).",
+              "conclusion": "The atom is mostly empty space. A tiny, dense, positively charged nucleus\nexists at the centre of the atom. Electrons revolve around this nucleus.\nRutherford compared this result to firing a 15-inch shell at tissue paper\nand having it come back and hit you.\n\n--------------------------------------------------------------------------------",
+              "caution": ""
+            },
+            {
+              "type": "qa",
+              "label": "SUB-TOPIC 4.2.2 Q&A",
+              "items": [
+                {
+                  "q_num": 1,
+                  "marks": 2,
+                  "question": "What is a nucleus?",
+                  "answer": "The nucleus is the very small, dense, positively charged centre of an atom.\nIt contains nearly all the mass of the atom (protons and neutrons). The radius\nof the nucleus is about 10^5 times smaller than the radius of the atom."
+                },
+                {
+                  "q_num": 2,
+                  "marks": 3,
+                  "question": "State the observations made in Rutherford's alpha-particle",
+                  "answer": "The following observations were made:\n(i) Most of the fast-moving alpha particles passed straight through the gold foil\nwithout any deflection -- indicating that most of the atom is empty space.\n(ii) Some alpha particles were deflected from their path by small angles --\nindicating that a small region of positive charge exists inside the atom.\n(iii) Surprisingly, one out of every 12000 alpha particles bounced back at nearly\n180 degrees -- indicating the presence of a very small, extremely dense,\npositively charged region (nucleus) at the centre of the atom."
+                },
+                {
+                  "q_num": 3,
+                  "marks": 4,
+                  "question": "What are the drawbacks of Rutherford's model of the atom?",
+                  "answer": "Rutherford's model has the following drawbacks:\n1. STABILITY PROBLEM: According to classical physics, any charged particle moving\nin a circular path undergoes acceleration. An accelerating charged particle\nradiates energy. Therefore, electrons revolving around the nucleus should\ncontinuously lose energy, slow down and ultimately spiral into the nucleus.\nThis would make atoms unstable. But we know atoms are quite stable --\nRutherford's model could not explain this stability.\n2. ENERGY RADIATION: The model predicts that atoms should continuously emit\nradiation as electrons spiral inward. In reality, atoms emit radiation only\nat specific discrete frequencies -- this could not be explained by Rutherford's\nmodel."
+                },
+                {
+                  "q_num": 4,
+                  "marks": 4,
+                  "question": "Describe Rutherford's alpha-particle scattering experiment and",
+                  "answer": "EXPERIMENT: Rutherford directed a beam of fast-moving alpha particles (doubly\ncharged helium ions, mass 4 u) at a thin gold foil about 1000 atoms thick. A\ncircular zinc sulphide screen surrounded the foil to detect particles at all angles.\n\nCONCLUSIONS DRAWN:\n(i) Most particles passed straight through -- the atom is mostly empty space.\n(ii) Very few were deflected by large angles -- a very small, positively charged,\ndense region (nucleus) exists at the centre of the atom.\n(iii) Nearly all the mass is concentrated in this tiny nucleus.\n(iv) Electrons revolve around the nucleus in circular orbits.\n(v) The size of the nucleus is very small compared to the overall size of the atom\n(nuclear radius is about 10^5 times smaller than the atomic radius).\n\n--------------------------------------------------------------------------------"
+                }
+              ]
+            },
+            {
+              "type": "mcq",
+              "label": "SUB-TOPIC 4.2.2 MCQ",
+              "items": [
+                {
+                  "mcq_num": 1,
+                  "difficulty": "Easy",
+                  "question": "In Rutherford's experiment, alpha particles were made to fall on:",
+                  "options": {
+                    "A": "A thin copper foil",
+                    "B": "A thin gold foil",
+                    "C": "A thin silver foil",
+                    "D": "A glass plate"
+                  },
+                  "answer": "B",
+                  "explanation": "Rutherford used a thin gold foil about 1000 atoms thick because gold can be made into an extremely thin layer."
+                },
+                {
+                  "mcq_num": 2,
+                  "difficulty": "Easy",
+                  "question": "Rutherford's alpha-particle scattering experiment led to the discovery of:",
+                  "options": {
+                    "A": "Electron",
+                    "B": "Proton",
+                    "C": "Neutron",
+                    "D": "Atomic nucleus"
+                  },
+                  "answer": "D",
+                  "explanation": "The bouncing back of alpha particles at large angles proved the existence of a small dense positively charged nucleus at the centre of the atom."
+                },
+                {
+                  "mcq_num": 3,
+                  "difficulty": "Medium",
+                  "question": "In Rutherford's experiment, most alpha particles passed straight through the gold foil because:",
+                  "options": {
+                    "A": "Gold atoms are very heavy",
+                    "B": "Alpha particles are positively charged",
+                    "C": "Most of the space inside an atom is empty",
+                    "D": "Gold foil is very thin"
+                  },
+                  "answer": "C",
+                  "explanation": "The straight passage of most alpha particles means the atom is mostly empty space -- the nucleus is tiny and most particles miss it entirely."
+                },
+                {
+                  "mcq_num": 4,
+                  "difficulty": "Medium",
+                  "question": "The drawback of Rutherford's model of the atom is that it could not explain:",
+                  "options": {
+                    "A": "The presence of the nucleus",
+                    "B": "The circular path of electrons",
+                    "C": "The stability of the atom",
+                    "D": "The positive charge of the nucleus"
+                  },
+                  "answer": "C",
+                  "explanation": "Rutherford's model predicts electrons would spiral into the nucleus due to energy loss from acceleration -- but atoms are stable. This stability could not be explained."
+                },
+                {
+                  "mcq_num": 5,
+                  "difficulty": "Hard",
+                  "question": "In Rutherford's experiment, one in every 12000 alpha particles bounced back at nearly 180 degrees. What does this indicate?",
+                  "options": {
+                    "A": "Gold atoms are very large",
+                    "B": "The nucleus is large and spread out",
+                    "C": "Most of the atom is filled with electrons",
+                    "D": "The nucleus is very small and extremely dense with concentrated positive charge"
+                  },
+                  "answer": "D",
+                  "explanation": "Only a very small, dense, positively charged region can deflect alpha particles back at 180 degrees. If positive charge were spread out (as in Thomson's model), no such large-angle deflections would occur. --------------------------------------------------------------------------------"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "subtopic_num": "4.2.3",
+          "subtopic_name": "BOHR'S MODEL OF ATOM",
+          "sections": [
+            {
+              "type": "definition",
+              "label": "DEFINITION:",
+              "text": "Bohr's model proposes that electrons revolve around the nucleus only in certain\nspecific orbits (DISCRETE ORBITS or SHELLS) with fixed energy levels, and while\nrevolving in these orbits they do NOT radiate energy. These allowed orbits are\nalso called ENERGY LEVELS."
+            },
+            {
+              "type": "key_points",
+              "label": "KEY POINTS:",
+              "points": [
+                "Proposed by Neils Bohr to overcome the drawbacks of Rutherford's model.",
+                "POSTULATES of Bohr's model:",
+                "(i) Only certain special orbits (discrete orbits) are allowed inside the atom.",
+                "(ii) While revolving in these discrete orbits, electrons do NOT radiate energy.",
+                "The orbits (shells) are designated by letters K, L, M, N or by numbers n=1,2,3,4.",
+                "Energy levels in an atom are shown in Fig 4.3 (four shells: K, L, M, N from",
+                "inside outward).",
+                "Bohr's model successfully explained the stability of the atom (electrons do not",
+                "spiral in because only discrete orbits are allowed).",
+                "Neils Bohr (1885-1962) was born in Copenhagen; he received the Nobel Prize in",
+                "1922 for his work on atomic structure.",
+                "-------------------------------------------------------------------------------"
+              ]
+            },
+            {
+              "type": "qa",
+              "label": "SUB-TOPIC 4.2.3 Q&A",
+              "items": [
+                {
+                  "q_num": 1,
+                  "marks": 2,
+                  "question": "What are the postulates of Bohr's model of the atom?",
+                  "answer": "Bohr proposed two postulates:\n(i) Only certain special orbits, known as discrete orbits, are allowed for\nelectrons inside the atom.\n(ii) While revolving in these discrete orbits, the electrons do not radiate\nenergy. Energy is only emitted or absorbed when an electron jumps between\norbits."
+                },
+                {
+                  "q_num": 2,
+                  "marks": 3,
+                  "question": "How did Bohr's model overcome the drawback of Rutherford's model?",
+                  "answer": "Rutherford's model said electrons revolve around the nucleus in circular orbits.\nAccording to classical physics, a revolving charged particle accelerates and must\nradiate energy, causing the electron to spiral into the nucleus -- making atoms\nunstable.\n\nBohr resolved this by proposing that electrons can only revolve in certain specific\ndiscrete orbits (energy levels). While in these orbits, electrons do NOT radiate\nenergy. Energy is only exchanged when an electron moves from one orbit to another.\nThis explains why atoms are stable -- electrons in allowed orbits simply do not\nlose energy."
+                },
+                {
+                  "q_num": 3,
+                  "marks": 4,
+                  "question": "Draw and describe Bohr's model of an atom with three shells.",
+                  "answer": "DESCRIPTION OF BOHR'S MODEL:\n\nN shell (n=4) ............. outermost\nM shell (n=3)\nL shell (n=2)\nK shell (n=1) .............. innermost\nNUCLEUS (centre)\n\nIn Bohr's model:\n- The nucleus is at the centre of the atom, containing protons (and neutrons).\n- Electrons revolve around the nucleus in fixed circular paths called shells\nor energy levels.\n- For an atom with three shells: K shell (n=1) is innermost, L shell (n=2) is\nmiddle, M shell (n=3) is outermost.\n- Each shell can hold a maximum number of electrons: K=2, L=8, M=18.\n- Electrons do not radiate energy as long as they remain in their allowed shells.\n- This model explains atomic stability.\n\n--------------------------------------------------------------------------------"
+                }
+              ]
+            },
+            {
+              "type": "mcq",
+              "label": "SUB-TOPIC 4.2.3 MCQ",
+              "items": [
+                {
+                  "mcq_num": 1,
+                  "difficulty": "Easy",
+                  "question": "In Bohr's model, the electron revolves in specific orbits and:",
+                  "options": {
+                    "A": "Continuously radiates energy",
+                    "B": "Does not radiate energy",
+                    "C": "Gains energy from the nucleus",
+                    "D": "Loses energy at fixed intervals"
+                  },
+                  "answer": "B",
+                  "explanation": "Bohr's key postulate is that electrons do NOT radiate energy while revolving in discrete orbits. This explains atomic stability."
+                },
+                {
+                  "mcq_num": 2,
+                  "difficulty": "Easy",
+                  "question": "The shells in Bohr's model are designated as:",
+                  "options": {
+                    "A": "A, B, C, D",
+                    "B": "K, L, M, N",
+                    "C": "X, Y, Z",
+                    "D": "1s, 2s, 2p, 3s"
+                  },
+                  "answer": "B",
+                  "explanation": "Bohr's shells are designated by letters K, L, M, N (corresponding to n=1, 2, 3, 4) from the innermost to the outermost shell."
+                },
+                {
+                  "mcq_num": 3,
+                  "difficulty": "Medium",
+                  "question": "Bohr's model of atom was proposed to overcome which drawback?",
+                  "options": {
+                    "A": "Thomson's failure to explain canal rays",
+                    "B": "Rutherford's failure to explain atomic stability",
+                    "C": "Dalton's failure to explain chemical reactions",
+                    "D": "Goldstein's failure to explain proton mass"
+                  },
+                  "answer": "B",
+                  "explanation": "Rutherford's model predicted electrons would spiral into the nucleus due to energy loss. Bohr's discrete orbit postulate resolved this by stating electrons do not radiate energy in allowed orbits."
+                },
+                {
+                  "mcq_num": 4,
+                  "difficulty": "Medium",
+                  "question": "Which scientist received the Nobel Prize for work on atomic structure?",
+                  "options": {
+                    "A": "J.J. Thomson",
+                    "B": "Ernest Rutherford",
+                    "C": "Neils Bohr",
+                    "D": "J. Chadwick"
+                  },
+                  "answer": "C",
+                  "explanation": "Neils Bohr (1885-1962) received the Nobel Prize in 1922 for his work on the structure of the atom. (Note: Thomson also won a Nobel Prize in 1906 for discovering the electron.)"
+                },
+                {
+                  "mcq_num": 5,
+                  "difficulty": "Hard",
+                  "question": "According to Bohr's model, an electron can ONLY occupy:",
+                  "options": {
+                    "A": "Any position between the nucleus and the outer boundary",
+                    "B": "The nucleus itself",
+                    "C": "Only discrete, specific orbits with fixed energy",
+                    "D": "Continuous positions at varying distances from nucleus"
+                  },
+                  "answer": "C",
+                  "explanation": "Bohr's fundamental postulate is that only certain discrete orbits (energy levels) are allowed. Electrons can ONLY exist in these specific orbits -- not between them. --------------------------------------------------------------------------------"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "subtopic_num": "4.2.4",
+          "subtopic_name": "NEUTRONS",
+          "sections": [
+            {
+              "type": "definition",
+              "label": "DEFINITION:",
+              "text": "A neutron is an electrically neutral (uncharged) sub-atomic particle found in\nthe nucleus of all atoms except hydrogen. It has a mass approximately equal to\nthat of a proton (1 u) and is represented as 'n'. Neutrons were discovered by\nJ. Chadwick in 1932."
+            },
+            {
+              "type": "key_points",
+              "label": "KEY POINTS:",
+              "points": [
+                "Discovered by J. Chadwick in 1932.",
+                "Symbol: n; Charge: zero (neutral); Mass: 1 u (approximately equal to proton).",
+                "Neutrons are present in the nucleus of all atoms EXCEPT ordinary hydrogen.",
+                "The mass of an atom is approximately the sum of masses of protons and neutrons",
+                "(since electron mass is negligible).",
+                "Protons and neutrons together are called NUCLEONS.",
+                "The three sub-atomic particles are: (i) electrons, (ii) protons, (iii) neutrons.",
+                "Electron: charge = -1, mass negligible.",
+                "Proton: charge = +1, mass = 1 u.",
+                "Neutron: charge = 0, mass = 1 u.",
+                "-------------------------------------------------------------------------------"
+              ]
+            },
+            {
+              "type": "qa",
+              "label": "SUB-TOPIC 4.2.4 Q&A",
+              "items": [
+                {
+                  "q_num": 1,
+                  "marks": 2,
+                  "question": "Who discovered the neutron and what are its properties?",
+                  "answer": "J. Chadwick discovered the neutron in 1932. Properties of neutron:\n- Symbol: n\n- Charge: zero (electrically neutral)\n- Mass: approximately 1 u (equal to that of a proton)\n- Location: inside the nucleus (except in ordinary hydrogen)"
+                },
+                {
+                  "q_num": 2,
+                  "marks": 3,
+                  "question": "Name the three sub-atomic particles of an atom and compare their",
+                  "answer": "Sub-atomic    | Charge | Mass      | Location     | Discoverer\nParticle      |        |           |              |\n--------------+--------+-----------+--------------+-----------\nElectron (e-) | -1     | Negligible| Outside       | J.J. Thomson\n|        | (~1/2000u)| nucleus       | (1900)\nProton (p+)   | +1     | 1 u       | Inside nucleus| E. Goldstein\n|        |           |               | (1886)\nNeutron (n)   | 0      | 1 u       | Inside nucleus| J. Chadwick\n|        |           | (except H)    | (1932)"
+                },
+                {
+                  "q_num": 3,
+                  "marks": 4,
+                  "question": "A helium atom has an atomic mass of 4 u and two protons in its",
+                  "answer": "Given:\n- Atomic mass of helium = 4 u\n- Number of protons = 2\n- Since mass of electron is negligible, mass of atom = mass of protons + mass\nof neutrons.\n- Mass of 2 protons = 2 x 1 u = 2 u\n- Mass due to neutrons = 4 u - 2 u = 2 u\n- Since each neutron has mass 1 u:\nNumber of neutrons = 2 u / 1 u = 2\n\nTherefore, helium has 2 neutrons in its nucleus.\n\n--------------------------------------------------------------------------------"
+                }
+              ]
+            },
+            {
+              "type": "mcq",
+              "label": "SUB-TOPIC 4.2.4 MCQ",
+              "items": [
+                {
+                  "mcq_num": 1,
+                  "difficulty": "Easy",
+                  "question": "Who discovered the neutron?",
+                  "options": {
+                    "A": "J.J. Thomson",
+                    "B": "E. Goldstein",
+                    "C": "J. Chadwick",
+                    "D": "Ernest Rutherford"
+                  },
+                  "answer": "C",
+                  "explanation": "J. Chadwick discovered the neutron in 1932. Neutrons are present in the nucleus of all atoms except ordinary hydrogen."
+                },
+                {
+                  "mcq_num": 2,
+                  "difficulty": "Easy",
+                  "question": "The charge on a neutron is:",
+                  "options": {
+                    "A": "+1",
+                    "B": "-1",
+                    "C": "+2",
+                    "D": "Zero"
+                  },
+                  "answer": "D",
+                  "explanation": "A neutron carries no electric charge -- it is electrically neutral. This is why it is called a neutron (neutral + on)."
+                },
+                {
+                  "mcq_num": 3,
+                  "difficulty": "Medium",
+                  "question": "Protons and neutrons together are called:",
+                  "options": {
+                    "A": "Electrons",
+                    "B": "Isotopes",
+                    "C": "Nucleons",
+                    "D": "Ions"
+                  },
+                  "answer": "C",
+                  "explanation": "Since both protons and neutrons reside in the nucleus, they are collectively called nucleons. The mass number of an atom equals the total number of nucleons."
+                },
+                {
+                  "mcq_num": 4,
+                  "difficulty": "Medium",
+                  "question": "Which atom does NOT contain neutrons in its nucleus?",
+                  "options": {
+                    "A": "Helium",
+                    "B": "Ordinary hydrogen (protium)",
+                    "C": "Carbon",
+                    "D": "Oxygen"
+                  },
+                  "answer": "B",
+                  "explanation": "Ordinary hydrogen (protium) has atomic number 1 and mass number 1, meaning it has 1 proton and 0 neutrons. All other elements have neutrons in their nuclei."
+                },
+                {
+                  "mcq_num": 5,
+                  "difficulty": "Hard",
+                  "question": "An atom has a mass number of 23 and atomic number of 11. How many neutrons does it contain?",
+                  "options": {
+                    "A": "11",
+                    "B": "23",
+                    "C": "12",
+                    "D": "34"
+                  },
+                  "answer": "C",
+                  "explanation": "Number of neutrons = Mass number - Atomic number = 23 - 11 = 12. This atom is sodium (Na)."
+                }
+              ]
+            },
+            {
+              "type": "qa",
+              "label": "TOPIC 4.2 Q&A",
+              "items": []
+            },
+            {
+              "type": "qa",
+              "label": "Q&A",
+              "items": [
+                {
+                  "q_num": 1,
+                  "marks": 2,
+                  "question": "On the basis of Thomson's model of an atom, explain how the atom",
+                  "answer": "According to Thomson's model, an atom consists of a positively charged sphere\nwith electrons embedded in it. The magnitude of the positive charge of the sphere\nequals the total negative charge of all the embedded electrons. Since positive\nand negative charges balance each other, the atom is electrically neutral."
+                },
+                {
+                  "q_num": 2,
+                  "marks": 2,
+                  "question": "On the basis of Rutherford's model of an atom, which sub-atomic",
+                  "answer": "According to Rutherford's nuclear model, the PROTON (positively charged\nparticle) is present in the nucleus of an atom. Nearly all the mass and all the\npositive charge of the atom are concentrated in this tiny nucleus."
+                },
+                {
+                  "q_num": 3,
+                  "marks": 3,
+                  "question": "Draw a sketch of Bohr's model of an atom with three shells.",
+                  "answer": "(Diagram description since this is a text file)\n\nShell N (n=4)\nShell M (n=3)\nShell L (n=2)\nShell K (n=1)\n[NUCLEUS] -- contains protons (+) and neutrons (n)\n\nThe diagram shows:\n- A central nucleus containing protons and neutrons.\n- Three concentric circular shells K (innermost), L, M (outermost for 3 shells).\n- Electrons (shown as dots) revolving around the nucleus in these shells.\n- Shells are also called energy levels, designated K, L, M (n=1,2,3).\n- Electrons do not radiate energy while revolving in these discrete orbits."
+                },
+                {
+                  "q_num": 4,
+                  "marks": 4,
+                  "question": "What do you think would be the observation if the alpha-particle",
+                  "answer": "The general observations would be similar to those with gold foil:\n- Most alpha particles would still pass straight through -- because most of the\natom of any element is empty space.\n- Some would be deflected -- because all atoms have a positively charged nucleus.\n- Very few would bounce back -- because all atoms have a tiny, dense nucleus.\n\nHowever, the DEGREE of deflection would differ depending on the element used:\n- Heavier elements (larger atomic number) have more protons and a larger positive\ncharge in the nucleus, so they would cause greater deflection of alpha particles.\n- Lighter elements would cause smaller deflections.\n- The exact fraction of particles bouncing back would vary with the nuclear charge.\n\nGold was specifically chosen because it can be beaten into extremely thin foils\n(allowing observation of single-layer effects) and has a high atomic number (79),\nmaking deflections more pronounced and easier to detect."
+                },
+                {
+                  "q_num": 5,
+                  "marks": 4,
+                  "question": "Compare all three atomic models (Thomson's, Rutherford's, Bohr's)",
+                  "answer": "Feature          | Thomson's Model     | Rutherford's Model   | Bohr's Model\n-----------------+---------------------+----------------------+------------------\nPositive charge  | Spread throughout   | Concentrated in      | Concentrated in\n| the atom as sphere  | tiny nucleus         | tiny nucleus\nElectrons        | Embedded in         | Revolve in circular  | Revolve in\n| positive sphere     | orbits around nucleus| discrete shells\nStability        | Does not address    | Cannot explain --    | Explained --\n|                     | electrons should     | discrete orbits\n|                     | spiral in            | prevent energy loss\nNucleus          | No nucleus          | Nucleus discovered   | Nucleus confirmed\nImprovement      | First model showing | Discovered nucleus   | Resolved stability\n| electrons in atom   | and nuclear structure| and energy problem"
+                },
+                {
+                  "q_num": 6,
+                  "marks": 6,
+                  "question": "Describe the evolution of atomic models from Dalton to Bohr.",
+                  "answer": "1. DALTON'S ATOMIC THEORY (1808):\n- Atoms are indivisible, indestructible particles.\n- All atoms of an element are identical.\n- PROBLEM SOLVED: Explained law of conservation of mass and definite proportions.\n- PROBLEM LEFT: Could not explain charged particles, canal rays, or atomic structure.\n\n2. THOMSON'S MODEL (1900) - Plum Pudding Model:\n- Atom is a positively charged sphere with electrons embedded in it.\n- PROBLEM SOLVED: Explained why atoms are electrically neutral; incorporated\nthe electron into the model.\n- PROBLEM LEFT: Could not explain Rutherford's alpha-particle scattering results\n(large-angle deflections, bouncing back).\n\n3. RUTHERFORD'S NUCLEAR MODEL (after gold foil experiment):\n- Tiny, dense nucleus at centre with electrons revolving in circular orbits.\n- PROBLEM SOLVED: Explained all observations of the scattering experiment;\nintroduced the concept of the nucleus.\n- PROBLEM LEFT: Could not explain atomic stability (revolving electrons should\nradiate energy and spiral in); could not explain discrete emission spectra.\n\n4. BOHR'S MODEL (1913):\n- Electrons revolve only in specific discrete orbits (energy levels) without\nradiating energy.\n- PROBLEM SOLVED: Explained atomic stability; explained discrete energy levels.\n- PROBLEM LEFT: Could not explain the behaviour of atoms with more than one\nelectron or fine details of spectral lines (needed quantum mechanics)."
+                }
+              ]
+            },
+            {
+              "type": "mcq",
+              "label": "TOPIC 4.2 MCQ",
+              "items": []
+            },
+            {
+              "type": "mcq",
+              "label": "MCQ",
+              "items": [
+                {
+                  "mcq_num": 1,
+                  "difficulty": "Easy",
+                  "question": "Which model describes the atom as a positively charged sphere with electrons embedded in it?",
+                  "options": {
+                    "A": "Rutherford's model",
+                    "B": "Bohr's model",
+                    "C": "Thomson's model",
+                    "D": "Dalton's model"
+                  },
+                  "answer": "C",
+                  "explanation": "Thomson's plum pudding model describes the atom as a positively charged sphere with electrons embedded inside -- like currants in a pudding."
+                },
+                {
+                  "mcq_num": 2,
+                  "difficulty": "Easy",
+                  "question": "In which model did the concept of the nucleus first appear?",
+                  "options": {
+                    "A": "Thomson's model",
+                    "B": "Dalton's model",
+                    "C": "Rutherford's model",
+                    "D": "Bohr's model"
+                  },
+                  "answer": "C",
+                  "explanation": "Rutherford first proposed the existence of a small, dense positively charged nucleus based on his alpha-particle scattering experiment."
+                },
+                {
+                  "mcq_num": 3,
+                  "difficulty": "Medium",
+                  "question": "Rutherford's model failed because:",
+                  "options": {
+                    "A": "It did not include the nucleus",
+                    "B": "It could not explain the stability of the atom",
+                    "C": "It did not account for protons",
+                    "D": "It placed electrons inside the nucleus"
+                  },
+                  "answer": "B",
+                  "explanation": "Rutherford's electrons revolving in circular orbits should lose energy and spiral into the nucleus. This would make atoms unstable -- but atoms are stable."
+                },
+                {
+                  "mcq_num": 4,
+                  "difficulty": "Medium",
+                  "question": "What is the correct order of discovery of sub-atomic particles?",
+                  "options": {
+                    "A": "Proton - Electron - Neutron",
+                    "B": "Electron - Neutron - Proton",
+                    "C": "Neutron - Proton - Electron",
+                    "D": "Electron - Proton - Neutron (canal ray discovery in 1886 precedes naming as"
+                  },
+                  "answer": "D",
+                  "explanation": "Canal rays (leading to proton) were discovered in 1886, electron formally identified by Thomson in 1900, neutron discovered by Chadwick in 1932."
+                },
+                {
+                  "mcq_num": 5,
+                  "difficulty": "Hard",
+                  "question": "Which of the following correctly matches the atomic model with its key feature?",
+                  "options": {
+                    "A": "Thomson - Nucleus at centre",
+                    "B": "Rutherford - Electrons in discrete shells",
+                    "C": "Bohr - Electrons do not radiate energy in discrete orbits",
+                    "D": "Thomson - Alpha-particle scattering"
+                  },
+                  "answer": "C",
+                  "explanation": "Bohr's unique contribution was proposing that electrons occupy only discrete orbits and do NOT radiate energy in those orbits, explaining atomic stability."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic_num": "4.3",
+      "topic_name": "HOW ARE ELECTRONS DISTRIBUTED IN DIFFERENT ORBITS (SHELLS)?",
+      "mode": "B",
+      "sections": [
+        {
+          "type": "list_of_topics",
+          "label": "LIST OF SUB-TOPICS:",
+          "items": [
+            "(No sub-topics; this is a single topic on electron distribution rules)"
+          ]
+        },
+        {
+          "type": "definition",
+          "label": "DEFINITION:",
+          "text": "The distribution of electrons into different orbits (shells) of an atom is governed\nby specific rules proposed by Bohr and Bury. This distribution is called the\nELECTRONIC CONFIGURATION of the atom."
+        },
+        {
+          "type": "key_points",
+          "label": "KEY POINTS:",
+          "points": [
+            "Electrons are distributed into shells following specific rules:",
+            "RULE 1: MAXIMUM ELECTRONS IN A SHELL:",
+            "The maximum number of electrons a shell can hold = 2n^2",
+            "where n = shell number (1, 2, 3, 4 for K, L, M, N)",
+            "K shell (n=1): max = 2 x 1^2 = 2 electrons",
+            "L shell (n=2): max = 2 x 2^2 = 8 electrons",
+            "M shell (n=3): max = 2 x 3^2 = 18 electrons",
+            "N shell (n=4): max = 2 x 4^2 = 32 electrons",
+            "RULE 2: OUTERMOST SHELL MAXIMUM:",
+            "The outermost shell of an atom can hold a MAXIMUM of 8 electrons only,",
+            "regardless of its theoretical capacity from the formula 2n^2.",
+            "RULE 3: FILLING ORDER:",
+            "Electrons are not accommodated in a given shell unless the inner shells",
+            "are completely filled. Shells are filled in a stepwise manner (K first,",
+            "then L, then M, etc.).",
+            "The electronic configuration of the first 18 elements is given in Table 4.1",
+            "(textbook page 18).",
+            "IMPORTANT ELECTRONIC CONFIGURATIONS:",
+            "Hydrogen (H):  Z=1  -- K:1",
+            "Helium (He):   Z=2  -- K:2",
+            "Lithium (Li):  Z=3  -- K:2, L:1",
+            "Carbon (C):    Z=6  -- K:2, L:4",
+            "Nitrogen (N):  Z=7  -- K:2, L:5",
+            "Oxygen (O):    Z=8  -- K:2, L:6",
+            "Neon (Ne):     Z=10 -- K:2, L:8",
+            "Sodium (Na):   Z=11 -- K:2, L:8, M:1",
+            "Magnesium (Mg):Z=12 -- K:2, L:8, M:2",
+            "Aluminium (Al):Z=13 -- K:2, L:8, M:3",
+            "Chlorine (Cl): Z=17 -- K:2, L:8, M:7",
+            "Argon (Ar):    Z=18 -- K:2, L:8, M:8"
+          ]
+        },
+        {
+          "type": "activity",
+          "label": "ACTIVITY 4.2:",
+          "aim": "To make a static atomic model displaying electronic configuration of the\nfirst eighteen elements.",
+          "materials": "Chart paper, coloured markers, pins or buttons to represent electrons.",
+          "procedure": [
+            "Draw atomic structure diagrams for each of the first 18 elements, showing",
+            "nucleus at centre and electrons in shells K, L, M as per Table 4.1 and",
+            "the 2n^2 rule. Fill inner shells before outer shells."
+          ],
+          "observation": "Models show how electrons fill shells sequentially. The outermost shell of\nnoble gases (He, Ne, Ar) is always completely filled with 2, 8, 8 electrons\nrespectively, making them chemically inert.",
+          "conclusion": "Electrons fill shells from inside outward. Noble gases have completely filled\noutermost shells and are chemically stable/inert.\n\n--------------------------------------------------------------------------------",
+          "caution": ""
+        },
+        {
+          "type": "qa",
+          "label": "TOPIC 4.3 Q&A",
+          "items": [
+            {
+              "q_num": 1,
+              "marks": 2,
+              "question": "Write the distribution of electrons in carbon and sodium atoms.",
+              "answer": "Carbon (C): Atomic number = 6\nK shell: 2 electrons; L shell: 4 electrons\nElectronic configuration: 2, 4\n\nSodium (Na): Atomic number = 11\nK shell: 2 electrons; L shell: 8 electrons; M shell: 1 electron\nElectronic configuration: 2, 8, 1"
+            },
+            {
+              "q_num": 2,
+              "marks": 2,
+              "question": "If K and L shells of an atom are fully filled, what is the total",
+              "answer": "Maximum electrons in K shell = 2 x 1^2 = 2\nMaximum electrons in L shell = 2 x 2^2 = 8\nTotal = 2 + 8 = 10 electrons.\nThis is the electronic configuration of neon (Ne): 2, 8."
+            },
+            {
+              "q_num": 3,
+              "marks": 3,
+              "question": "State the rules for writing the distribution of electrons in",
+              "answer": "The following rules (Bohr-Bury rules) are used:\n(i) SHELL CAPACITY: The maximum number of electrons in a shell is given by 2n^2,\nwhere n is the shell number. K=2, L=8, M=18, N=32.\n(ii) OUTERMOST SHELL LIMIT: The outermost (valence) shell of any atom can hold\na maximum of only 8 electrons, regardless of the 2n^2 formula.\n(iii) FILLING ORDER: Electrons are filled in a stepwise fashion -- inner shells\nmust be completely filled before electrons enter the next outer shell."
+            },
+            {
+              "q_num": 4,
+              "marks": 4,
+              "question": "Write the electronic configurations and draw the atomic structure",
+              "answer": "(a) OXYGEN (O): Atomic number = 8\nConfiguration: K=2, L=6 (written as 2, 6)\nDiagram description:\n- Nucleus at centre (8 protons, 8 neutrons)\n- K shell: 2 electrons\n- L shell: 6 electrons\nTotal electrons = 2 + 6 = 8 (correct for Z=8)\n\n(b) CHLORINE (Cl): Atomic number = 17\nConfiguration: K=2, L=8, M=7 (written as 2, 8, 7)\nDiagram description:\n- Nucleus at centre (17 protons, 18 neutrons in Cl-35)\n- K shell: 2 electrons\n- L shell: 8 electrons (full)\n- M shell: 7 electrons\nTotal electrons = 2 + 8 + 7 = 17 (correct for Z=17)"
+            },
+            {
+              "q_num": 5,
+              "marks": 4,
+              "question": "Why are noble gases (He, Ne, Ar) chemically unreactive?",
+              "answer": "Noble gases have completely filled outermost shells:\n- Helium (He): Z=2; Configuration: K=2 (K shell full with 2 electrons)\n- Neon (Ne): Z=10; Configuration: K=2, L=8 (outermost L shell full with 8 electrons)\n- Argon (Ar): Z=18; Configuration: K=2, L=8, M=8 (outermost M shell full with\n8 electrons -- maximum for outermost shell)\n\nAccording to the Bohr-Bury scheme, when the outermost shell is completely filled\n(maximum 8 electrons), the atom has zero valency -- no tendency to gain, lose or\nshare electrons. Since chemical reactions involve exchange or sharing of electrons\nfrom the outermost shell, noble gases with filled outer shells show little or no\nchemical activity."
+            },
+            {
+              "q_num": 6,
+              "marks": 6,
+              "question": "Write the electronic configuration of the first 18 elements and",
+              "answer": "Element | Z  | K | L | M | Valency\n--------+----+---+---+---+--------\nH       | 1  | 1 | - | - | 1\nHe      | 2  | 2 | - | - | 0\nLi      | 3  | 2 | 1 | - | 1\nBe      | 4  | 2 | 2 | - | 2\nB       | 5  | 2 | 3 | - | 3\nC       | 6  | 2 | 4 | - | 4\nN       | 7  | 2 | 5 | - | 3\nO       | 8  | 2 | 6 | - | 2\nF       | 9  | 2 | 7 | - | 1\nNe      | 10 | 2 | 8 | - | 0\nNa      | 11 | 2 | 8 | 1 | 1\nMg      | 12 | 2 | 8 | 2 | 2\nAl      | 13 | 2 | 8 | 3 | 3\nSi      | 14 | 2 | 8 | 4 | 4\nP       | 15 | 2 | 8 | 5 | 3,5\nS       | 16 | 2 | 8 | 6 | 2\nCl      | 17 | 2 | 8 | 7 | 1\nAr      | 18 | 2 | 8 | 8 | 0\n\nPATTERN OBSERVED:\n- Elements with 1, 2, 3 outermost electrons tend to have valency equal to\nthe number of outermost electrons (they lose electrons).\n- Elements with 5, 6, 7 outermost electrons have valency = 8 minus outermost\nelectrons (they gain electrons to complete the octet).\n- Elements with 4 outermost electrons (C, Si) have valency 4 (they share).\n- Noble gases (He, Ne, Ar) with full outer shells have valency 0.\n\n--------------------------------------------------------------------------------"
+            }
+          ]
+        },
+        {
+          "type": "mcq",
+          "label": "TOPIC 4.3 MCQ",
+          "items": [
+            {
+              "mcq_num": 1,
+              "difficulty": "Easy",
+              "question": "The maximum number of electrons that can be accommodated in the L shell is:",
+              "options": {
+                "A": "2",
+                "B": "8",
+                "C": "18",
+                "D": "32"
+              },
+              "answer": "B",
+              "explanation": "L shell: n=2, maximum = 2 x 2^2 = 8 electrons."
+            },
+            {
+              "mcq_num": 2,
+              "difficulty": "Easy",
+              "question": "The electronic configuration of sodium (Z=11) is:",
+              "options": {
+                "A": "2, 9",
+                "B": "2, 8, 1",
+                "C": "2, 1, 8",
+                "D": "3, 8"
+              },
+              "answer": "B",
+              "explanation": "Na has 11 electrons. K=2, L=8 (full), M=1. Configuration: 2, 8, 1."
+            },
+            {
+              "mcq_num": 3,
+              "difficulty": "Medium",
+              "question": "If K and L shells of an atom are fully filled, the total number of electrons in the atom is:",
+              "options": {
+                "A": "8",
+                "B": "10",
+                "C": "18",
+                "D": "2"
+              },
+              "answer": "B",
+              "explanation": "K (full) = 2, L (full) = 8. Total = 10. This is neon."
+            },
+            {
+              "mcq_num": 4,
+              "difficulty": "Medium",
+              "question": "Which of the following elements has an electronic configuration of 2, 8, 7?",
+              "options": {
+                "A": "Sodium",
+                "B": "Argon",
+                "C": "Chlorine",
+                "D": "Fluorine"
+              },
+              "answer": "C",
+              "explanation": "Chlorine has Z=17. Configuration: K=2, L=8, M=7 --> written as 2, 8, 7."
+            },
+            {
+              "mcq_num": 5,
+              "difficulty": "Hard",
+              "question": "An element has electronic configuration 2, 8, 4. It would show a valency of:",
+              "options": {
+                "A": "2",
+                "B": "8",
+                "C": "4",
+                "D": "6"
+              },
+              "answer": "C",
+              "explanation": "The element has 4 electrons in its outermost shell. Since 4 electrons are present (halfway to an octet), the element tends to share all 4 electrons, giving valency 4. This element is silicon (Si)."
+            }
+          ]
+        }
+      ],
+      "subtopics": []
+    },
+    {
+      "topic_num": "4.4",
+      "topic_name": "VALENCY",
+      "mode": "B",
+      "sections": [
+        {
+          "type": "list_of_topics",
+          "label": "LIST OF SUB-TOPICS:",
+          "items": [
+            "(No sub-topics; single unified topic on valency)"
+          ]
+        },
+        {
+          "type": "definition",
+          "label": "DEFINITION:",
+          "text": "VALENCY is the combining capacity or combining power of an atom of an element.\nIt is determined by the number of electrons in the outermost shell (valence\nelectrons) and represents how many bonds an atom can form."
+        },
+        {
+          "type": "key_points",
+          "label": "KEY POINTS:",
+          "points": [
+            "Electrons present in the outermost shell of an atom are called VALENCE ELECTRONS.",
+            "The outermost shell of an atom can hold a maximum of 8 electrons (OCTET).",
+            "Atoms tend to react to achieve a fully-filled outermost shell (octet rule).",
+            "HOW TO FIND VALENCY:",
+            "(i) If outermost shell electrons <= 4: valency = number of outermost electrons.",
+            "(ii) If outermost shell electrons > 4: valency = 8 - number of outermost electrons.",
+            "(iii) If outermost shell is completely filled: valency = 0 (noble gases).",
+            "Atoms GAIN, LOSE or SHARE electrons to achieve stability.",
+            "The valency can be thought of as the number of \"hands\" or \"arms\" an atom uses",
+            "to bond with other atoms.",
+            "From Table 4.1 (textbook): Valency of first 18 elements is given.",
+            "EXAMPLES:",
+            "Hydrogen: 1 outermost electron -- valency = 1",
+            "Carbon: 4 outermost electrons -- valency = 4",
+            "Nitrogen: 5 outermost electrons -- valency = 8-5 = 3",
+            "Oxygen: 6 outermost electrons -- valency = 8-6 = 2",
+            "Fluorine: 7 outermost electrons -- valency = 8-7 = 1",
+            "Neon: 8 outermost electrons -- valency = 0",
+            "Sodium: 1 outermost electron -- valency = 1",
+            "Magnesium: 2 outermost electrons -- valency = 2",
+            "Aluminium: 3 outermost electrons -- valency = 3",
+            "-------------------------------------------------------------------------------"
+          ]
+        },
+        {
+          "type": "qa",
+          "label": "TOPIC 4.4 Q&A",
+          "items": [
+            {
+              "q_num": 1,
+              "marks": 2,
+              "question": "What is valency? How is it determined for an atom?",
+              "answer": "Valency is the combining capacity of an atom of an element. It is determined\nby the number of electrons in the outermost shell:\n- If outermost electrons are 1, 2, 3 or 4: valency = number of outermost electrons.\n- If outermost electrons are 5, 6 or 7: valency = 8 minus outermost electrons.\n- If outermost shell is completely filled (8 or 2 for He): valency = 0."
+            },
+            {
+              "q_num": 2,
+              "marks": 2,
+              "question": "How will you find the valency of chlorine, sulphur and magnesium?",
+              "answer": "Chlorine (Cl): Z=17, configuration 2,8,7. Outermost = 7 electrons.\nValency = 8 - 7 = 1.\n\nSulphur (S): Z=16, configuration 2,8,6. Outermost = 6 electrons.\nValency = 8 - 6 = 2.\n\nMagnesium (Mg): Z=12, configuration 2,8,2. Outermost = 2 electrons.\nValency = 2."
+            },
+            {
+              "q_num": 3,
+              "marks": 3,
+              "question": "Explain with examples how atoms achieve stability by gaining,",
+              "answer": "Atoms achieve stability by filling their outermost shell with 8 electrons\n(octet) or 2 electrons (for the first shell):\n\nLOSING ELECTRONS (metals): Sodium (Na) has configuration 2,8,1. It has 1 electron\nin its outermost shell. It LOSES this 1 electron to achieve the noble gas\nconfiguration of neon (2,8). Valency = 1.\n\nGAINING ELECTRONS (non-metals): Chlorine (Cl) has configuration 2,8,7. It needs\n1 more electron to complete its outermost shell. It GAINS 1 electron to achieve\nargon configuration (2,8,8). Valency = 1.\n\nSHARING ELECTRONS (carbon): Carbon (C) has configuration 2,4. It neither easily\nloses 4 nor easily gains 4 electrons. Instead it SHARES its 4 outermost electrons\nwith other atoms. Valency = 4."
+            },
+            {
+              "q_num": 4,
+              "marks": 4,
+              "question": "Give the electronic configuration and valency of: (a) Lithium,",
+              "answer": "(a) LITHIUM (Li): Z=3\nConfiguration: K=2, L=1 (written as 2,1)\nOutermost shell electrons = 1\nValency = 1 (loses 1 electron)\n\n(b) OXYGEN (O): Z=8\nConfiguration: K=2, L=6 (written as 2,6)\nOutermost shell electrons = 6\nValency = 8-6 = 2 (gains 2 electrons)\n\n(c) NITROGEN (N): Z=7\nConfiguration: K=2, L=5 (written as 2,5)\nOutermost shell electrons = 5\nValency = 8-5 = 3 (gains 3 electrons)\n\n(d) ARGON (Ar): Z=18\nConfiguration: K=2, L=8, M=8 (written as 2,8,8)\nOutermost shell electrons = 8 (full)\nValency = 0 (noble gas, chemically inert)"
+            },
+            {
+              "q_num": 5,
+              "marks": 4,
+              "question": "Why is the valency of fluorine 1 even though it has 7 electrons",
+              "answer": "Fluorine has atomic number 9 and electronic configuration 2,7. Its outermost\nL shell contains 7 electrons. To complete the octet (reach 8 electrons in the\noutermost shell), fluorine needs only 1 more electron. It is easier for fluorine\nto GAIN 1 electron rather than to lose 7 electrons (which would require enormous\nenergy).\n\nValency = 8 - 7 = 1.\n\nThis rule applies generally: when outermost electrons > 4, the valency is\ncalculated as (8 - outermost electrons), because gaining a few electrons is\nenergetically easier than losing many. Hence fluorine has valency 1."
+            },
+            {
+              "q_num": 6,
+              "marks": 6,
+              "question": "Using Table 4.1 from the textbook, explain the concept of valency",
+              "answer": "The concept of valency is based on the Bohr-Bury scheme. An atom's valency\ndetermines how it combines with other atoms to form compounds.\n\nPATTERN IN VALENCY (across periods):\n- Period 1 (H, He): Valency goes 1, 0\n- Period 2 (Li to Ne): Valency goes 1, 2, 3, 4, 3, 2, 1, 0\n- Period 3 (Na to Ar): Same pattern repeats: 1, 2, 3, 4, 3, 2, 1, 0\n\nSIGNIFICANCE OF THE PATTERN:\n1. Elements in the same GROUP (same number of outermost electrons) have the\nSAME VALENCY and similar chemical properties.\n2. Noble gases (He, Ne, Ar) always have valency 0 -- they do not form compounds\nunder normal conditions.\n3. Metals (Na, Mg, Al) on the left have low valencies (1, 2, 3) because they\nlose electrons.\n4. Non-metals (N, O, F, Cl) on the right have valencies determined by 8 minus\ntheir outermost electrons.\n5. Carbon (Si) with 4 outermost electrons has valency 4 -- can form 4 bonds,\nmaking carbon the backbone of organic chemistry.\n6. Valency predicts the formula of compounds: Na (valency 1) + Cl (valency 1) =\nNaCl; Mg (valency 2) + O (valency 2) = MgO; Al (valency 3) + O (valency 2)\n= Al2O3.\n\n--------------------------------------------------------------------------------"
+            }
+          ]
+        },
+        {
+          "type": "mcq",
+          "label": "TOPIC 4.4 MCQ",
+          "items": [
+            {
+              "mcq_num": 1,
+              "difficulty": "Easy",
+              "question": "The valency of magnesium (Z=12, configuration 2,8,2) is:",
+              "options": {
+                "A": "8",
+                "B": "12",
+                "C": "2",
+                "D": "6"
+              },
+              "answer": "C",
+              "explanation": "Magnesium has 2 electrons in its outermost shell (M shell). Since this is less than or equal to 4, valency = number of outermost electrons = 2."
+            },
+            {
+              "mcq_num": 2,
+              "difficulty": "Easy",
+              "question": "What is the valency of a noble gas like neon (Z=10)?",
+              "options": {
+                "A": "1",
+                "B": "2",
+                "C": "8",
+                "D": "0"
+              },
+              "answer": "D",
+              "explanation": "Neon has a fully-filled outermost shell (L shell with 8 electrons). Complete outer shells give valency 0 -- noble gases are chemically inert."
+            },
+            {
+              "mcq_num": 3,
+              "difficulty": "Medium",
+              "question": "An element has electronic configuration 2, 8, 6. Its valency is:",
+              "options": {
+                "A": "6",
+                "B": "2",
+                "C": "8",
+                "D": "4"
+              },
+              "answer": "B",
+              "explanation": "Outermost electrons = 6 (greater than 4). Valency = 8 - 6 = 2. This element is sulphur."
+            },
+            {
+              "mcq_num": 4,
+              "difficulty": "Medium",
+              "question": "The valency of nitrogen (Z=7, configuration 2,5) is:",
+              "options": {
+                "A": "5",
+                "B": "7",
+                "C": "3",
+                "D": "2"
+              },
+              "answer": "C",
+              "explanation": "Nitrogen has 5 outermost electrons. Valency = 8 - 5 = 3. Nitrogen gains 3 electrons to complete its octet."
+            },
+            {
+              "mcq_num": 5,
+              "difficulty": "Hard",
+              "question": "Which of the following pairs has the same valency?",
+              "options": {
+                "A": "C and N",
+                "B": "Li and Na",
+                "C": "F and O",
+                "D": "Mg and Al"
+              },
+              "answer": "B",
+              "explanation": "Lithium (Z=3, config 2,1) has valency 1. Sodium (Z=11, config 2,8,1) has valency 1. Both have 1 outermost electron, so both have valency 1. Elements in the same group always have the same valency."
+            }
+          ]
+        }
+      ],
+      "subtopics": []
+    },
+    {
+      "topic_num": "4.5",
+      "topic_name": "ATOMIC NUMBER AND MASS NUMBER",
+      "mode": "A",
+      "sections": [
+        {
+          "type": "list_of_topics",
+          "label": "LIST OF SUB-TOPICS:",
+          "items": [
+            "4.5.1 Atomic Number",
+            "4.5.2 Mass Number"
+          ]
+        },
+        {
+          "type": "definition",
+          "label": "DEFINITION:",
+          "text": "ATOMIC NUMBER (Z) is the number of protons present in the nucleus of an atom.\nMASS NUMBER (A) is the total number of protons and neutrons (nucleons) present\nin the nucleus of an atom."
+        },
+        {
+          "type": "key_points",
+          "label": "KEY POINTS:",
+          "points": [
+            "In a neutral atom: number of electrons = number of protons = atomic number Z.",
+            "Mass number A = number of protons + number of neutrons.",
+            "Number of neutrons = A - Z.",
+            "Notation: An atom X with mass number A and atomic number Z is written as:",
+            "A",
+            "X",
+            "Z",
+            "(A written as superscript top-right, Z written as subscript bottom-right)",
+            "Example: Nitrogen is written as 14 N 7 (A=14, Z=7).",
+            "Elements are defined by the number of protons (atomic number) -- all atoms",
+            "of a given element have the same Z.",
+            "-------------------------------------------------------------------------------"
+          ]
+        }
+      ],
+      "subtopics": [
+        {
+          "subtopic_num": "4.5.1",
+          "subtopic_name": "ATOMIC NUMBER",
+          "sections": [
+            {
+              "type": "definition",
+              "label": "DEFINITION:",
+              "text": "The ATOMIC NUMBER (Z) of an element is the total number of protons present in\nthe nucleus of its atom. It is also equal to the number of electrons in a neutral\natom."
+            },
+            {
+              "type": "key_points",
+              "label": "KEY POINTS:",
+              "points": [
+                "Symbol: Z",
+                "In a neutral atom: Z = number of protons = number of electrons.",
+                "Each element has a unique atomic number -- the atomic number defines the element.",
+                "Examples:",
+                "Hydrogen: Z=1 (1 proton)",
+                "Carbon: Z=6 (6 protons)",
+                "Sodium: Z=11 (11 protons)",
+                "Chlorine: Z=17 (17 protons)",
+                "-------------------------------------------------------------------------------"
+              ]
+            },
+            {
+              "type": "qa",
+              "label": "SUB-TOPIC 4.5.1 Q&A",
+              "items": [
+                {
+                  "q_num": 1,
+                  "marks": 2,
+                  "question": "What is atomic number? Give two examples.",
+                  "answer": "The atomic number (Z) is the total number of protons in the nucleus of an\natom of an element. In a neutral atom it also equals the number of electrons.\nExamples:\n- Hydrogen: Z=1 (1 proton, 1 electron)\n- Carbon: Z=6 (6 protons, 6 electrons)"
+                },
+                {
+                  "q_num": 2,
+                  "marks": 3,
+                  "question": "If the number of electrons in an atom is 8, what are (i) the",
+                  "answer": "(i) In a neutral atom, number of electrons = number of protons = atomic number.\nTherefore, atomic number Z = 8.\nThis element is OXYGEN.\n\n(ii) Since the atom has equal number of protons (+8) and electrons (-8):\nNet charge = +8 + (-8) = 0.\nThe atom is electrically neutral.\nCharge on the atom = 0."
+                },
+                {
+                  "q_num": 3,
+                  "marks": 4,
+                  "question": "With the help of Table 4.1, find the mass numbers of oxygen and",
+                  "answer": "From Table 4.1 (textbook):\n\nOXYGEN (O):\n- Atomic number Z = 8 (8 protons, 8 electrons)\n- Number of neutrons = 8 (from Table 4.1: K=2, L=6 gives 8 electrons; neutrons=8)\n- Mass number A = protons + neutrons = 8 + 8 = 16\n\nSULPHUR (S):\n- Atomic number Z = 16 (16 protons, 16 electrons)\n- Number of neutrons = 16 (from Table 4.1)\n- Mass number A = protons + neutrons = 16 + 16 = 32\n\n--------------------------------------------------------------------------------"
+                }
+              ]
+            },
+            {
+              "type": "mcq",
+              "label": "SUB-TOPIC 4.5.1 MCQ",
+              "items": [
+                {
+                  "mcq_num": 1,
+                  "difficulty": "Easy",
+                  "question": "The atomic number of an element is equal to the number of:",
+                  "options": {
+                    "A": "Neutrons in the nucleus",
+                    "B": "Protons in the nucleus",
+                    "C": "Electrons outside the nucleus only",
+                    "D": "Nucleons in the nucleus"
+                  },
+                  "answer": "B",
+                  "explanation": "Atomic number Z = number of protons in the nucleus. In neutral atoms it also equals the number of electrons, but the defining property is proton number."
+                },
+                {
+                  "mcq_num": 2,
+                  "difficulty": "Easy",
+                  "question": "Which element has atomic number 17?",
+                  "options": {
+                    "A": "Sulphur",
+                    "B": "Phosphorus",
+                    "C": "Chlorine",
+                    "D": "Argon"
+                  },
+                  "answer": "C",
+                  "explanation": "Chlorine (Cl) has atomic number 17 (17 protons). Its configuration is 2,8,7."
+                },
+                {
+                  "mcq_num": 3,
+                  "difficulty": "Medium",
+                  "question": "An atom has 6 protons and 6 neutrons. What is its atomic number?",
+                  "options": {
+                    "A": "12",
+                    "B": "6",
+                    "C": "0",
+                    "D": "3"
+                  },
+                  "answer": "B",
+                  "explanation": "Atomic number = number of protons = 6. (The mass number would be 6+6=12, which is carbon-12.)"
+                },
+                {
+                  "mcq_num": 4,
+                  "difficulty": "Hard",
+                  "question": "Na+ ion is formed when sodium loses one electron. If Na has Z=11, how many electrons does Na+ have? Is K shell filled?",
+                  "options": {
+                    "A": "10 electrons; Yes, K shell has 2 electrons (filled)",
+                    "B": "11 electrons; No",
+                    "C": "12 electrons; Yes",
+                    "D": "9 electrons; No"
+                  },
+                  "answer": "A",
+                  "explanation": "Na has 11 electrons (2,8,1). Losing 1 electron gives Na+ with 10 electrons -- configuration 2,8. K shell (2) and L shell (8) are completely filled. The question about Na+ completing K and L shells is yes."
+                },
+                {
+                  "mcq_num": 5,
+                  "difficulty": "Hard",
+                  "question": "Two different elements can NEVER have the same:",
+                  "options": {
+                    "A": "Mass number",
+                    "B": "Number of neutrons",
+                    "C": "Atomic number",
+                    "D": "Number of nucleons"
+                  },
+                  "answer": "C",
+                  "explanation": "Atomic number is unique to each element -- it defines the element. Different elements can have the same mass number (isobars) or same neutron count, but never the same atomic number. --------------------------------------------------------------------------------"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "subtopic_num": "4.5.2",
+          "subtopic_name": "MASS NUMBER",
+          "sections": [
+            {
+              "type": "definition",
+              "label": "DEFINITION:",
+              "text": "The MASS NUMBER (A) of an atom is the sum of the total number of protons and\nneutrons present in the nucleus of that atom.\nMass number A = Number of protons + Number of neutrons\nNumber of neutrons = A - Z"
+            },
+            {
+              "type": "key_points",
+              "label": "KEY POINTS:",
+              "points": [
+                "Symbol: A",
+                "Also called the NUCLEON NUMBER since protons + neutrons = total nucleons.",
+                "The mass of electrons is negligible; hence mass of atom is approximately",
+                "equal to the mass of the nucleus (protons + neutrons).",
+                "Standard notation: Atom X is written with mass number A as superscript and",
+                "atomic number Z as subscript.",
+                "Example: Carbon-12 is written as 12C6 (A=12, Z=6).",
+                "Nitrogen is written as 14N7 (A=14, Z=7).",
+                "EXAMPLES:",
+                "Carbon (C): Z=6, A=12 -> neutrons = 12-6 = 6",
+                "Aluminium (Al): Z=13, A=27 -> neutrons = 27-13 = 14",
+                "Hydrogen (H/protium): Z=1, A=1 -> neutrons = 0",
+                "Chlorine (Cl-35): Z=17, A=35 -> neutrons = 35-17 = 18",
+                "-------------------------------------------------------------------------------"
+              ]
+            },
+            {
+              "type": "qa",
+              "label": "SUB-TOPIC 4.5.2 Q&A",
+              "items": [
+                {
+                  "q_num": 1,
+                  "marks": 2,
+                  "question": "What is mass number? How is it calculated?",
+                  "answer": "Mass number (A) is the total number of protons and neutrons in the nucleus\nof an atom.\nMass number A = Number of protons + Number of neutrons\nNumber of neutrons = A - Z (where Z = atomic number)"
+                },
+                {
+                  "q_num": 2,
+                  "marks": 3,
+                  "question": "Find the number of electrons, protons and neutrons in an atom",
+                  "answer": "Given: Atomic number Z=9, Mass number A=19.\n\nNumber of protons = Z = 9.\nNumber of electrons (neutral atom) = Z = 9.\nNumber of neutrons = A - Z = 19 - 9 = 10.\n\nThis atom is Fluorine (F): 9 protons, 9 electrons, 10 neutrons."
+                },
+                {
+                  "q_num": 3,
+                  "marks": 4,
+                  "question": "Compare atomic number and mass number with examples.",
+                  "answer": "Feature        | Atomic Number (Z)         | Mass Number (A)\n---------------+---------------------------+---------------------------\nDefinition     | Number of protons in      | Total number of protons\n| nucleus                   | + neutrons in nucleus\nSymbol         | Z                         | A\nDetermines     | Identity of the element   | Approximate atomic mass\nIn neutral atom| Also = number of electrons| Does not determine electrons\nRelationship   | Z = protons = electrons   | A = Z + neutrons\nExample (Na)   | Z = 11                    | A = 23\n| Neutrons = 23-11 = 12\nExample (O)    | Z = 8                     | A = 16\n| Neutrons = 16-8 = 8\n\n--------------------------------------------------------------------------------"
+                }
+              ]
+            },
+            {
+              "type": "mcq",
+              "label": "SUB-TOPIC 4.5.2 MCQ",
+              "items": [
+                {
+                  "mcq_num": 1,
+                  "difficulty": "Easy",
+                  "question": "Mass number of an atom is equal to:",
+                  "options": {
+                    "A": "Number of protons only",
+                    "B": "Number of neutrons only",
+                    "C": "Number of protons + neutrons",
+                    "D": "Number of electrons + protons"
+                  },
+                  "answer": "C",
+                  "explanation": "Mass number A = protons + neutrons. Electron mass is negligible and not counted."
+                },
+                {
+                  "mcq_num": 2,
+                  "difficulty": "Easy",
+                  "question": "An atom has 7 protons and 7 neutrons. Its mass number is:",
+                  "options": {
+                    "A": "7",
+                    "B": "14",
+                    "C": "0",
+                    "D": "49"
+                  },
+                  "answer": "B",
+                  "explanation": "Mass number = protons + neutrons = 7 + 7 = 14. This is nitrogen-14."
+                },
+                {
+                  "mcq_num": 3,
+                  "difficulty": "Medium",
+                  "question": "If an atom has atomic number 13 and mass number 27, the number of neutrons is:",
+                  "options": {
+                    "A": "27",
+                    "B": "13",
+                    "C": "40",
+                    "D": "14"
+                  },
+                  "answer": "D",
+                  "explanation": "Neutrons = A - Z = 27 - 13 = 14. This is aluminium (Al)."
+                },
+                {
+                  "mcq_num": 4,
+                  "difficulty": "Medium",
+                  "question": "The number of neutrons in 23Na11 is:",
+                  "options": {
+                    "A": "23",
+                    "B": "11",
+                    "C": "12",
+                    "D": "34"
+                  },
+                  "answer": "C",
+                  "explanation": "Neutrons = Mass number - Atomic number = 23 - 11 = 12. This is sodium-23, the most abundant form of sodium."
+                },
+                {
+                  "mcq_num": 5,
+                  "difficulty": "Hard",
+                  "question": "An element X has A=24, Z=12. Another element Y has A=24, Z=11. What is the relationship between X and Y?",
+                  "options": {
+                    "A": "Isotopes",
+                    "B": "Isobars",
+                    "C": "Isotones",
+                    "D": "They are the same element"
+                  },
+                  "answer": "B",
+                  "explanation": "X and Y have the same mass number (A=24) but different atomic numbers (Z=12 and Z=11). Atoms with same mass number but different atomic numbers are called ISOBARS. X is magnesium (Mg), Y is sodium (Na)."
+                }
+              ]
+            },
+            {
+              "type": "qa",
+              "label": "TOPIC 4.5 Q&A",
+              "items": []
+            },
+            {
+              "type": "qa",
+              "label": "Q&A",
+              "items": [
+                {
+                  "q_num": 1,
+                  "marks": 2,
+                  "question": "If number of electrons in an atom is 8 and number of protons is",
+                  "answer": "(i) Atomic number = number of protons = 8.\n(ii) Since protons = 8 (+8 charge) and electrons = 8 (-8 charge):\nNet charge = 0. The atom is electrically neutral."
+                },
+                {
+                  "q_num": 2,
+                  "marks": 2,
+                  "question": "With the help of Table 4.1, find the mass numbers of oxygen and",
+                  "answer": "Oxygen: Z=8, neutrons=8 (from Table 4.1), Mass number = 8+8 = 16.\nSulphur: Z=16, neutrons=16 (from Table 4.1), Mass number = 16+16 = 32."
+                },
+                {
+                  "q_num": 3,
+                  "marks": 3,
+                  "question": "Explain the notation used to represent an atom. What does each",
+                  "answer": "An atom is represented as: (A on top, X in middle, Z at bottom-right)\ne.g., 14N7 for nitrogen.\n- X = chemical symbol of the element (e.g., N for nitrogen)\n- A (superscript) = mass number = total protons + neutrons in nucleus.\n- Z (subscript) = atomic number = number of protons in nucleus.\n(In neutral atom, also = number of electrons)\n\nFrom this notation we can find:\n- Number of protons = Z\n- Number of electrons = Z (for neutral atom)\n- Number of neutrons = A - Z\n\nExample: 14N7 -- Nitrogen, 7 protons, 7 electrons, 14-7 = 7 neutrons."
+                },
+                {
+                  "q_num": 4,
+                  "marks": 4,
+                  "question": "For the symbol H, D and T (protium, deuterium, tritium) tabulate",
+                  "answer": "Species     | Symbol | Protons | Neutrons | Electrons | A | Z\n------------+--------+---------+----------+-----------+---+--\nProtium     | 1H1    | 1       | 0        | 1         | 1 | 1\nDeuterium   | 2H1(D) | 1       | 1        | 1         | 2 | 1\nTritium     | 3H1(T) | 1       | 2        | 1         | 3 | 1\n\nAll three are isotopes of hydrogen: same atomic number (Z=1) but different\nmass numbers (1, 2, 3) due to different numbers of neutrons."
+                },
+                {
+                  "q_num": 5,
+                  "marks": 4,
+                  "question": "Write the electronic configuration of any one pair of isotopes",
+                  "answer": "ISOTOPES -- Same element, different mass number:\nCarbon-12 (12C6): Z=6, config 2,4; Neutrons=6\nCarbon-14 (14C6): Z=6, config 2,4; Neutrons=8\nBoth have same electronic configuration (2,4) and same chemical properties.\nOnly the number of neutrons differs.\n\nISOBARS -- Different elements, same mass number:\nCalcium (40Ca20): Z=20, A=40; config 2,8,8,2; neutrons=20\nArgon   (40Ar18): Z=18, A=40; config 2,8,8;   neutrons=22\nBoth have mass number 40 but different atomic numbers (20 and 18).\nTheir electronic configurations are different, so their chemical properties differ."
+                },
+                {
+                  "q_num": 6,
+                  "marks": 6,
+                  "question": "Complete the following table:",
+                  "answer": "Atomic No. | Mass No. | Protons | Neutrons | Electrons | Name\n-----------+----------+---------+----------+-----------+---------\n9          | 19       | 9       | 10       | 9         | Fluorine\n16         | 32       | 16      | 16       | 16        | Sulphur\n12         | 24       | 12      | 12       | 12        | Magnesium\n1          | 2        | 1       | 1        | 1         | Deuterium\n1          | 1        | 1       | 0        | 1         | Protium (H)"
+                }
+              ]
+            },
+            {
+              "type": "mcq",
+              "label": "TOPIC 4.5 MCQ",
+              "items": []
+            },
+            {
+              "type": "mcq",
+              "label": "MCQ",
+              "items": [
+                {
+                  "mcq_num": 1,
+                  "difficulty": "Easy",
+                  "question": "Atomic number is defined as:",
+                  "options": {
+                    "A": "Mass of the atom",
+                    "B": "Number of neutrons in the nucleus",
+                    "C": "Number of protons in the nucleus",
+                    "D": "Total nucleons in the nucleus"
+                  },
+                  "answer": "C",
+                  "explanation": "Atomic number Z = number of protons in the nucleus. It uniquely identifies the element."
+                },
+                {
+                  "mcq_num": 2,
+                  "difficulty": "Easy",
+                  "question": "Mass number of an element is 23 and atomic number is 11. The number of neutrons is:",
+                  "options": {
+                    "A": "11",
+                    "B": "23",
+                    "C": "34",
+                    "D": "12"
+                  },
+                  "answer": "D",
+                  "explanation": "Neutrons = A - Z = 23 - 11 = 12. This is sodium-23."
+                },
+                {
+                  "mcq_num": 3,
+                  "difficulty": "Medium",
+                  "question": "Which of the following correctly represents nitrogen in standard notation?",
+                  "options": {
+                    "A": "7N14",
+                    "B": "14N7",
+                    "C": "N7,14",
+                    "D": "7,14N"
+                  },
+                  "answer": "B",
+                  "explanation": "Standard notation places mass number (14) as superscript and atomic number (7) as subscript before or after the symbol: 14N7."
+                },
+                {
+                  "mcq_num": 4,
+                  "difficulty": "Medium",
+                  "question": "An element has Z=9 and A=19. Its number of neutrons is:",
+                  "options": {
+                    "A": "9",
+                    "B": "19",
+                    "C": "10",
+                    "D": "28"
+                  },
+                  "answer": "C",
+                  "explanation": "Neutrons = A - Z = 19 - 9 = 10. This is fluorine-19."
+                },
+                {
+                  "mcq_num": 5,
+                  "difficulty": "Hard",
+                  "question": "Two atoms have the same number of neutrons but different atomic numbers. They are called:",
+                  "options": {
+                    "A": "Isotopes",
+                    "B": "Isobars",
+                    "C": "Isotones",
+                    "D": "Allotropes"
+                  },
+                  "answer": "C",
+                  "explanation": "Atoms with the same number of neutrons but different atomic numbers are called isotones (the textbook covers isotopes and isobars; isotones is the term for equal neutrons -- not in 9th syllabus but correct scientifically). Note: If the question asks from the textbook context only, isobars (same mass number) is also tested. Check context carefully."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic_num": "4.6",
+      "topic_name": "ISOTOPES",
+      "mode": "A",
+      "sections": [
+        {
+          "type": "list_of_topics",
+          "label": "LIST OF SUB-TOPICS:",
+          "items": [
+            "4.6.1 Isobars"
+          ]
+        },
+        {
+          "type": "definition",
+          "label": "DEFINITION:",
+          "text": "ISOTOPES are atoms of the same element that have the same atomic number (Z)\nbut different mass numbers (A), due to different numbers of neutrons in their\nnuclei."
+        },
+        {
+          "type": "key_points",
+          "label": "KEY POINTS:",
+          "points": [
+            "Isotopes have the SAME number of protons (same element, same Z).",
+            "Isotopes have DIFFERENT numbers of neutrons (different mass numbers A).",
+            "Since atomic number is the same, isotopes have the SAME electronic configuration",
+            "and the SAME chemical properties.",
+            "The physical properties of isotopes differ (e.g., density, radioactivity).",
+            "Each element consists of a mixture of isotopes in nature.",
+            "The AVERAGE ATOMIC MASS of an element is calculated using the percentage",
+            "abundance of each isotope.",
+            "EXAMPLES OF ISOTOPES:",
+            "Hydrogen isotopes:",
+            "Protium   (1H1):  Z=1, A=1, neutrons=0",
+            "Deuterium (2H1/D): Z=1, A=2, neutrons=1",
+            "Tritium   (3H1/T): Z=1, A=3, neutrons=2",
+            "Carbon isotopes: 12C6 (Z=6, A=12) and 14C6 (Z=6, A=14)",
+            "Chlorine isotopes: 35Cl17 (Z=17, A=35) and 37Cl17 (Z=17, A=37) in ratio 3:1",
+            "AVERAGE ATOMIC MASS CALCULATION (Chlorine example):",
+            "Cl-35 occurs with 75% abundance; Cl-37 with 25% abundance.",
+            "Average atomic mass = (35 x 75/100) + (37 x 25/100)",
+            "= (35 x 3/4) + (37 x 1/4)",
+            "= 105/4 + 37/4",
+            "= 142/4",
+            "= 35.5 u",
+            "APPLICATIONS OF ISOTOPES:",
+            "(i) An isotope of URANIUM is used as fuel in nuclear reactors.",
+            "(ii) An isotope of COBALT is used in the treatment of CANCER.",
+            "(iii) An isotope of IODINE is used in the treatment of GOITRE.",
+            "-------------------------------------------------------------------------------"
+          ]
+        }
+      ],
+      "subtopics": [
+        {
+          "subtopic_num": "4.6.1",
+          "subtopic_name": "ISOBARS",
+          "sections": [
+            {
+              "type": "definition",
+              "label": "DEFINITION:",
+              "text": "ISOBARS are atoms of DIFFERENT elements that have the same MASS NUMBER (A)\nbut different atomic numbers (Z)."
+            },
+            {
+              "type": "key_points",
+              "label": "KEY POINTS:",
+              "points": [
+                "Isobars have the SAME mass number (same total nucleons).",
+                "Isobars have DIFFERENT atomic numbers (different elements).",
+                "Isobars have DIFFERENT electronic configurations and DIFFERENT chemical properties.",
+                "The number of neutrons in isobars is also different.",
+                "EXAMPLE:",
+                "Calcium (Ca): Z=20, A=40 (protons=20, neutrons=20)",
+                "Argon (Ar):   Z=18, A=40 (protons=18, neutrons=22)",
+                "Both have mass number 40 but different atomic numbers -- they are ISOBARS.",
+                "COMPARISON: Isotopes vs Isobars:",
+                "Feature         | Isotopes                  | Isobars",
+                "---------------+---------------------------+---------------------------",
+                "Definition      | Same element, different   | Different elements, same",
+                "| mass numbers              | mass number",
+                "Atomic number   | Same (same Z)             | Different (different Z)",
+                "Mass number     | Different                 | Same",
+                "Neutrons        | Different                 | Different",
+                "Chemical prop.  | Same (same config)        | Different (diff config)",
+                "Example         | 12C6 and 14C6             | 40Ca20 and 40Ar18",
+                "-------------------------------------------------------------------------------"
+              ]
+            },
+            {
+              "type": "qa",
+              "label": "TOPIC 4.6 Q&A",
+              "items": []
+            },
+            {
+              "type": "qa",
+              "label": "Q&A",
+              "items": [
+                {
+                  "q_num": 1,
+                  "marks": 2,
+                  "question": "Define isotopes and give one example.",
+                  "answer": "Isotopes are atoms of the same element that have the same atomic number but\ndifferent mass numbers, due to different numbers of neutrons.\nExample: Hydrogen has three isotopes:\n- Protium (1H): A=1, Z=1, 0 neutrons\n- Deuterium (2H): A=2, Z=1, 1 neutron\n- Tritium (3H): A=3, Z=1, 2 neutrons\nAll three have Z=1 (same element) but different mass numbers."
+                },
+                {
+                  "q_num": 2,
+                  "marks": 2,
+                  "question": "Write the electronic configuration of any one pair of isobars.",
+                  "answer": "Isobars -- Calcium (40Ca20) and Argon (40Ar18):\nCalcium (Ca): Z=20, A=40\nConfig: K=2, L=8, M=8, N=2 (written as 2,8,8,2)\nArgon (Ar): Z=18, A=40\nConfig: K=2, L=8, M=8 (written as 2,8,8)\nBoth have mass number 40 but different atomic numbers and electronic configurations."
+                },
+                {
+                  "q_num": 3,
+                  "marks": 3,
+                  "question": "Give three applications of isotopes in daily life and medicine.",
+                  "answer": "Isotopes have many practical applications:\n(i) NUCLEAR ENERGY: An isotope of uranium (U-235) is used as fuel in nuclear\nreactors to generate electricity. The fission of U-235 releases enormous energy.\n(ii) CANCER TREATMENT: An isotope of cobalt (Co-60) emits gamma radiation that\nis used to treat cancer by destroying cancer cells (radiation therapy).\n(iii) TREATMENT OF GOITRE: An isotope of iodine (I-131) is used in the diagnosis\nand treatment of goitre (thyroid gland enlargement) since the thyroid gland\nabsorbs iodine selectively."
+                },
+                {
+                  "q_num": 4,
+                  "marks": 4,
+                  "question": "Chlorine occurs in two isotopic forms -- 35Cl (75%) and 37Cl (25%).",
+                  "answer": "Given:\n- Isotope 1: 35Cl17, abundance = 75% = 75/100\n- Isotope 2: 37Cl17, abundance = 25% = 25/100\n\nAverage atomic mass = (mass of isotope 1 x % abundance) + (mass of isotope 2 x % abundance)\n= (35 x 75/100) + (37 x 25/100)\n= (35 x 3/4) + (37 x 1/4)\n= 105/4 + 37/4\n= 142/4\n= 35.5 u\n\nTherefore, the average atomic mass of chlorine = 35.5 u.\nThis means that any sample of chlorine contains both isotopes in 3:1 ratio,\nand the average mass of one chlorine atom is 35.5 u."
+                },
+                {
+                  "q_num": 5,
+                  "marks": 4,
+                  "question": "Distinguish between isotopes and isobars with two examples each.",
+                  "answer": "ISOTOPES:\n- Definition: Atoms of the SAME element with SAME atomic number but DIFFERENT\nmass numbers.\n- Have same number of protons but different neutrons.\n- Same chemical properties (same electron configuration).\nExamples:\n(i) Carbon: 12C6 (6 protons, 6 neutrons) and 14C6 (6 protons, 8 neutrons)\n(ii) Hydrogen: 1H1 (protium, 0 neutrons) and 2H1 (deuterium, 1 neutron)\n\nISOBARS:\n- Definition: Atoms of DIFFERENT elements with DIFFERENT atomic numbers but\nSAME mass number.\n- Have different numbers of protons (different elements).\n- Different chemical properties (different electron configurations).\nExamples:\n(i) Ca (40Ca20, Z=20) and Ar (40Ar18, Z=18) -- both have A=40.\n(ii) Na (23Na11) and Mg (24Mg12) -- wait, these differ in A too. Correct\nexample: 14C6 and 14N7 -- both have A=14, but Z differs (6 vs 7)."
+                },
+                {
+                  "q_num": 6,
+                  "marks": 6,
+                  "question": "The average atomic mass of a sample of element X is 16.2 u. If",
+                  "answer": "Given:\n- Average atomic mass = 16.2 u\n- Isotope 1: mass = 16 u, let percentage = p%\n- Isotope 2: mass = 18 u, percentage = (100 - p)%\n\nUsing average atomic mass formula:\n(16 x p/100) + (18 x (100-p)/100) = 16.2\n\n(16p + 1800 - 18p) / 100 = 16.2\n\n1800 - 2p = 1620\n\n2p = 1800 - 1620 = 180\n\np = 90\n\nTherefore:\nPercentage of 16X = 90%\nPercentage of 18X = 100 - 90 = 10%\n\nVerification: (16 x 90/100) + (18 x 10/100) = 14.4 + 1.8 = 16.2 u (correct).\n\n--------------------------------------------------------------------------------"
+                }
+              ]
+            },
+            {
+              "type": "mcq",
+              "label": "MCQ",
+              "items": [
+                {
+                  "mcq_num": 1,
+                  "difficulty": "Easy",
+                  "question": "Isotopes of an element have the same:",
+                  "options": {
+                    "A": "Mass number",
+                    "B": "Number of neutrons",
+                    "C": "Atomic number",
+                    "D": "Mass"
+                  },
+                  "answer": "C",
+                  "explanation": "Isotopes have the same atomic number (same element, same protons) but different mass numbers due to different neutron counts."
+                },
+                {
+                  "mcq_num": 2,
+                  "difficulty": "Easy",
+                  "question": "An isotope of iodine is used in the treatment of:",
+                  "options": {
+                    "A": "Cancer",
+                    "B": "Goitre",
+                    "C": "Diabetes",
+                    "D": "Anaemia"
+                  },
+                  "answer": "B",
+                  "explanation": "An isotope of iodine (I-131) is used in the treatment of goitre (thyroid gland disease), because the thyroid gland absorbs iodine selectively."
+                },
+                {
+                  "mcq_num": 3,
+                  "difficulty": "Medium",
+                  "question": "Isotopes of an element have:",
+                  "options": {
+                    "A": "Same physical properties",
+                    "B": "Different chemical properties",
+                    "C": "Different chemical properties but same physical properties",
+                    "D": "Same chemical properties but different physical properties"
+                  },
+                  "answer": "D",
+                  "explanation": "Isotopes have the same atomic number and same electronic configuration, so they have SAME CHEMICAL properties. But different mass numbers give them DIFFERENT PHYSICAL properties (like density, radioactivity, boiling point)."
+                },
+                {
+                  "mcq_num": 4,
+                  "difficulty": "Medium",
+                  "question": "Isobars are atoms that have:",
+                  "options": {
+                    "A": "Same atomic number and same mass number",
+                    "B": "Same atomic number but different mass numbers",
+                    "C": "Different atomic numbers but same mass number",
+                    "D": "Same number of neutrons"
+                  },
+                  "answer": "C",
+                  "explanation": "Isobars = same mass number, different atomic numbers. Example: 40Ca20 and 40Ar18 both have mass number 40."
+                },
+                {
+                  "mcq_num": 5,
+                  "difficulty": "Hard",
+                  "question": "Chlorine exists as 35Cl (75%) and 37Cl (25%). What is the average atomic mass of chlorine?",
+                  "options": {
+                    "A": "36 u",
+                    "B": "35 u",
+                    "C": "35.5 u",
+                    "D": "37 u"
+                  },
+                  "answer": "C",
+                  "explanation": "Average = (35 x 75/100) + (37 x 25/100) = 26.25 + 9.25 = 35.5 u. This is why the standard atomic mass of chlorine is listed as 35.5 u."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

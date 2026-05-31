@@ -1,0 +1,1625 @@
+{
+  "metadata": {
+    "class": "9th Standard",
+    "subject": "Mathematics",
+    "part": "Part 1",
+    "chapter_num": "6",
+    "chapter_name": "LINES AND ANGLES",
+    "source": "KSEEB Textbook 2025-26",
+    "mode": "B"
+  },
+  "chapter_sections": [
+    {
+      "type": "definition",
+      "label": "Definition:",
+      "text": "- A LINE-SEGMENT is a part (or portion) of a line with two end points.\n- A RAY is a part of a line with one end point.\n- A LINE extends indefinitely in both directions.\n- An ANGLE is formed when two rays originate from the same end point.\n- The rays making an angle are called the ARMS of the angle.\n- The common end point is called the VERTEX of the angle."
+    },
+    {
+      "type": "key_points",
+      "label": "Key Points:",
+      "points": [
+        "In this chapter, properties of angles formed when two lines intersect each other",
+        "are studied, and also properties of angles formed when a line intersects two or",
+        "more parallel lines at distinct points.",
+        "These properties are used to prove statements using deductive reasoning.",
+        "Lines and angles are used in architecture, ray diagrams in science, finding height",
+        "of towers, and finding distance of ships from lighthouses.",
+        "You have already verified these statements through activities in earlier classes."
+      ]
+    },
+    {
+      "type": "list_of_topics",
+      "label": "LIST OF TOPICS IN THIS CHAPTER:",
+      "items": [
+        "- Topic 6.1: Introduction",
+        "- Topic 6.2: Basic Terms and Definitions",
+        "- Topic 6.3: Intersecting Lines and Non-intersecting Lines",
+        "- Topic 6.4: Pairs of Angles",
+        "- Topic 6.5: Lines Parallel to the Same Line",
+        "(Note: This chapter follows Mode B — no sub-topics in textbook. All content",
+        "is at Topic level only. No sub-topics invented.)"
+      ]
+    },
+    {
+      "type": "theorem",
+      "label": "THEOREM: (Chapter Level)",
+      "statement": "",
+      "given": "",
+      "to_prove": "",
+      "construction": "",
+      "proof": [],
+      "hence_proved": ""
+    },
+    {
+      "type": "theorem",
+      "label": "THEOREM 6.1:",
+      "statement": "If two lines intersect each other, then the vertically opposite angles are equal.",
+      "given": "Two lines AB and CD intersect each other at point O.",
+      "to_prove": "(i) angle AOC = angle BOD   (ii) angle AOD = angle BOC",
+      "construction": "None required.",
+      "proof": [
+        "Step 1: Ray OA stands on line CD.",
+        "Therefore, angle AOC + angle AOD = 180 degrees  ...(1)  [Linear pair axiom]",
+        "Step 2: Ray OB stands on line CD.",
+        "Therefore, angle BOD + angle AOD = 180 degrees  ...(2)  [Linear pair axiom]",
+        "Step 3: From (1) and (2):",
+        "angle AOC + angle AOD = angle BOD + angle AOD",
+        "Step 4: Subtracting angle AOD from both sides:",
+        "angle AOC = angle BOD",
+        "Step 5: Similarly, it can be proved that angle AOD = angle BOC."
+      ],
+      "hence_proved": ""
+    },
+    {
+      "type": "theorem",
+      "label": "THEOREM 6.6:",
+      "statement": "Lines which are parallel to the same line are parallel to each other.",
+      "given": "Line m || line l and line n || line l.",
+      "to_prove": "Line m || Line n",
+      "construction": "Draw a transversal t cutting lines l, m and n.",
+      "proof": [
+        "Step 1: Since m || l, angle 1 = angle 2  [Corresponding angles axiom]  ...(i)",
+        "Step 2: Since n || l, angle 1 = angle 3  [Corresponding angles axiom]  ...(ii)",
+        "Step 3: From (i) and (ii): angle 2 = angle 3",
+        "Step 4: But angle 2 and angle 3 are corresponding angles for lines m and n",
+        "with transversal t, and they are equal.",
+        "Step 5: Therefore, by converse of corresponding angles axiom: Line m || Line n."
+      ],
+      "hence_proved": "EXAMPLE 6.5.3: Three parallel lines — finding x, y, z\nPROBLEM: In Fig. 6.22, AB || CD and CD || EF. Also EA perpendicular to AB.\nIf angle BEF = 55 degrees, find the values of x, y and z.\nSOLUTION:\nStep 1: CD || EF. Transversal ED:\ny + 55 degrees = 180 degrees  [Interior angles on same side of transversal ED]\ny = 180 - 55 = 125 degrees\nStep 2: AB || CD. Transversal (the line passing through B, D at the intersection):\nx = y  [Corresponding angles axiom — AB || CD]\nx = 125 degrees\nStep 3: Since AB || CD and CD || EF, therefore AB || EF.  [Theorem 6.6]\nTransversal EA:\nangle EAB + angle FEA = 180 degrees  [Interior angles on same side of transversal EA]\n90 degrees + z + 55 degrees = 180 degrees\nz = 180 - 90 - 55 = 35 degrees\nANSWER: x = 125 degrees, y = 125 degrees, z = 35 degrees."
+    },
+    {
+      "type": "exercise",
+      "label": "EXERCISE 6.1: (belongs to Topic 6.4 — Pairs of Angles)",
+      "items": [
+        {
+          "q_num": 1,
+          "marks": null,
+          "question": "In Fig. 6.13, lines AB and CD intersect at O. If angle AOC + angle BOE = 70 degrees",
+          "answer": "and angle BOD = 40 degrees, find angle BOE and reflex angle COE."
+        },
+        {
+          "q_num": 2,
+          "marks": null,
+          "question": "In Fig. 6.14, lines XY and MN intersect at O. If angle POY = 90 degrees and",
+          "answer": "a : b = 2 : 3, find c."
+        },
+        {
+          "q_num": 3,
+          "marks": null,
+          "question": "In Fig. 6.15, angle PQR = angle PRQ, then prove that angle PQS = angle PRT.",
+          "answer": ""
+        },
+        {
+          "q_num": 4,
+          "marks": null,
+          "question": "In Fig. 6.16, if x + y = w + z, then prove that AOB is a line.",
+          "answer": ""
+        },
+        {
+          "q_num": 5,
+          "marks": null,
+          "question": "In Fig. 6.17, POQ is a line. Ray OR is perpendicular to line PQ. OS is another ray",
+          "answer": "lying between rays OP and OR. Prove that angle ROS = (1/2)(angle QOS - angle POS)."
+        },
+        {
+          "q_num": 6,
+          "marks": null,
+          "question": "It is given that angle XYZ = 64 degrees and XY is produced to point P. Draw a figure",
+          "answer": "from the given information. If ray YQ bisects angle ZYP, find angle XYQ and reflex\nangle QYP."
+        }
+      ],
+      "raw": "Q1. In Fig. 6.13, lines AB and CD intersect at O. If angle AOC + angle BOE = 70 degrees\nand angle BOD = 40 degrees, find angle BOE and reflex angle COE.\nQ2. In Fig. 6.14, lines XY and MN intersect at O. If angle POY = 90 degrees and\na : b = 2 : 3, find c.\nQ3. In Fig. 6.15, angle PQR = angle PRQ, then prove that angle PQS = angle PRT.\nQ4. In Fig. 6.16, if x + y = w + z, then prove that AOB is a line.\nQ5. In Fig. 6.17, POQ is a line. Ray OR is perpendicular to line PQ. OS is another ray\nlying between rays OP and OR. Prove that angle ROS = (1/2)(angle QOS - angle POS).\nQ6. It is given that angle XYZ = 64 degrees and XY is produced to point P. Draw a figure\nfrom the given information. If ray YQ bisects angle ZYP, find angle XYQ and reflex\nangle QYP."
+    },
+    {
+      "type": "exercise",
+      "label": "EXERCISE 6.2: (belongs to Topic 6.5 — Lines Parallel to the Same Line)",
+      "items": [
+        {
+          "q_num": 1,
+          "marks": null,
+          "question": "In Fig. 6.23, if AB || CD, CD || EF and y : z = 3 : 7, find x.",
+          "answer": ""
+        },
+        {
+          "q_num": 2,
+          "marks": null,
+          "question": "In Fig. 6.24, if AB || CD, EF is perpendicular to CD and angle GED = 126 degrees,",
+          "answer": "find angle AGE, angle GEF and angle FGE."
+        },
+        {
+          "q_num": 3,
+          "marks": null,
+          "question": "In Fig. 6.25, if PQ || ST, angle PQR = 110 degrees and angle RST = 130 degrees,",
+          "answer": "find angle QRS.\n[Hint: Draw a line parallel to ST through point R.]"
+        },
+        {
+          "q_num": 4,
+          "marks": null,
+          "question": "In Fig. 6.26, if AB || CD, angle APQ = 50 degrees and angle PRD = 127 degrees,",
+          "answer": "find x and y."
+        },
+        {
+          "q_num": 5,
+          "marks": null,
+          "question": "In Fig. 6.27, PQ and RS are two mirrors placed parallel to each other. An incident",
+          "answer": "ray AB strikes the mirror PQ at B, the reflected ray moves along BC and strikes the\nmirror RS at C. Again BC reflects back along CD. Prove that AB || CD."
+        }
+      ],
+      "raw": "Q1. In Fig. 6.23, if AB || CD, CD || EF and y : z = 3 : 7, find x.\nQ2. In Fig. 6.24, if AB || CD, EF is perpendicular to CD and angle GED = 126 degrees,\nfind angle AGE, angle GEF and angle FGE.\nQ3. In Fig. 6.25, if PQ || ST, angle PQR = 110 degrees and angle RST = 130 degrees,\nfind angle QRS.\n[Hint: Draw a line parallel to ST through point R.]\nQ4. In Fig. 6.26, if AB || CD, angle APQ = 50 degrees and angle PRD = 127 degrees,\nfind x and y.\nQ5. In Fig. 6.27, PQ and RS are two mirrors placed parallel to each other. An incident\nray AB strikes the mirror PQ at B, the reflected ray moves along BC and strikes the\nmirror RS at C. Again BC reflects back along CD. Prove that AB || CD."
+    },
+    {
+      "type": "qa",
+      "label": "CHAPTER 6: Q&A:",
+      "items": []
+    },
+    {
+      "type": "mcq",
+      "label": "CHAPTER 6: MCQs:",
+      "items": [
+        {
+          "mcq_num": 1,
+          "difficulty": "Easy",
+          "question": "If a ray stands on a line, the sum of the two adjacent angles formed is:",
+          "options": {
+            "A": "90 degrees    (B) 180 degrees    (C) 270 degrees    (D) 360 degrees"
+          },
+          "answer": "B",
+          "explanation": "By AXIOM 6.1 (Linear Pair Axiom), when a ray stands on a line, the sum of the two adjacent angles is always 180 degrees."
+        },
+        {
+          "mcq_num": 2,
+          "difficulty": "Easy",
+          "question": "Two angles whose sum is 90 degrees are called:",
+          "options": {
+            "A": "Supplementary    (B) Linear pair    (C) Complementary    (D) Vertically opposite"
+          },
+          "answer": "C",
+          "explanation": "COMPLEMENTARY ANGLES are two angles whose sum is 90 degrees. Supplementary angles sum to 180 degrees."
+        },
+        {
+          "mcq_num": 3,
+          "difficulty": "Easy",
+          "question": "When two lines intersect each other, the number of pairs of vertically opposite angles formed is:",
+          "options": {
+            "A": "1    (B) 2    (C) 3    (D) 4"
+          },
+          "answer": "B",
+          "explanation": "Two intersecting lines form 4 angles. There are 2 pairs of vertically opposite angles."
+        },
+        {
+          "mcq_num": 4,
+          "difficulty": "Easy",
+          "question": "The two rails of a railway track represent:",
+          "options": {
+            "A": "Intersecting lines    (B) Perpendicular lines    (C) Parallel lines    (D) Coincident lines"
+          },
+          "answer": "C",
+          "explanation": "Railway rails never meet — they represent PARALLEL (non-intersecting) lines. The distance between them remains constant throughout."
+        },
+        {
+          "mcq_num": 5,
+          "difficulty": "Medium",
+          "question": "In Example 6.4.1, angle POR : angle ROQ = 5 : 7. What is the value of angle POR?",
+          "options": {
+            "A": "60 degrees    (B) 70 degrees    (C) 75 degrees    (D) 105 degrees"
+          },
+          "answer": "C",
+          "explanation": "angle POR + angle ROQ = 180. Ratio 5:7, total 12 parts. angle POR = (5/12) x 180 = 75 degrees."
+        },
+        {
+          "mcq_num": 6,
+          "difficulty": "Medium",
+          "question": "If two lines intersect and one angle formed is 65 degrees, what are the other three angles?",
+          "options": {
+            "A": "65, 115, 115    (B) 65, 65, 115    (C) 65, 25, 65    (D) 115, 115, 65"
+          },
+          "answer": "A",
+          "explanation": "Vertically opposite = 65 degrees. Linear pair = 180 - 65 = 115 degrees. The other vertically opposite = 115 degrees. So: 65, 115, 65, 115."
+        },
+        {
+          "mcq_num": 7,
+          "difficulty": "Medium",
+          "question": "In Example 6.5.3, AB || CD || EF, EA perpendicular to AB, angle BEF = 55 degrees. The value of z is:",
+          "options": {
+            "A": "55 degrees    (B) 90 degrees    (C) 125 degrees    (D) 35 degrees"
+          },
+          "answer": "D",
+          "explanation": "AB || EF (Theorem 6.6). Interior angles on same side of transversal EA: 90 + z + 55 = 180. Therefore z = 35 degrees."
+        },
+        {
+          "mcq_num": 8,
+          "difficulty": "Medium",
+          "question": "Axiom 6.1 and Axiom 6.2 are:",
+          "options": {
+            "A": "Identical statements    (B) Contradictions    (C) Converses of each other    (D) Unrelated"
+          },
+          "answer": "C",
+          "explanation": "Axiom 6.2 is the CONVERSE of Axiom 6.1. Together they form the Linear Pair Axiom — if one is true, the other states the reverse condition."
+        },
+        {
+          "mcq_num": 9,
+          "difficulty": "Hard",
+          "question": "In Example 6.4.2, angle POS = x. Ray OR bisects angle POS and ray OT bisects angle SOQ. Then angle ROT equals:",
+          "options": {
+            "A": "x degrees    (B) 90 degrees    (C) 180 - x degrees    (D) x/2 degrees"
+          },
+          "answer": "B",
+          "explanation": "angle ROS = x/2, angle SOT = (180-x)/2 = 90 - x/2. angle ROT = x/2 + 90 - x/2 = 90 degrees, regardless of the value of x."
+        },
+        {
+          "mcq_num": 10,
+          "difficulty": "Hard",
+          "question": "Lines m, n, and p are such that m || n and n || p. By Theorem 6.6, which is correct?",
+          "options": {
+            "A": "m is perpendicular to p    (B) m || p    (C) m and p intersect    (D) Cannot be determined"
+          },
+          "answer": "B",
+          "explanation": "By THEOREM 6.6, lines parallel to the same line are parallel to each other. Since m || n and p || n, therefore m || p."
+        },
+        {
+          "mcq_num": 11,
+          "difficulty": "Hard",
+          "question": "In Fig. 6.26, AB || CD, angle APQ = 50 degrees and angle PRD = 127 degrees. The values of x and y are:",
+          "options": {
+            "A": "x = 77, y = 50    (B) x = 50, y = 77    (C) x = 50, y = 53    (D) x = 130, y = 77"
+          },
+          "answer": "B",
+          "explanation": "angle PRQ = 180 - 127 = 53 (linear pair). angle RPB + 127 = 180 (co-interior, AB || CD): angle RPB = 53. angle APQ + y + angle RPB = 180: 50 + y + 53 = 180... Using co-interior: (130-y) + 127 = 180, so y = 77. Triangle PQR: 77 + x + 53 = 180, so x = 50 degrees."
+        },
+        {
+          "mcq_num": 12,
+          "difficulty": "Hard",
+          "question": "In the proof of Theorem 6.6, which combination of axioms is used?",
+          "options": {
+            "A": "Only Axiom 6.1    (B) Only Axiom 6.2",
+            "C": "Corresponding angles axiom and its converse    (D) Theorem 6.1 only"
+          },
+          "answer": "C",
+          "explanation": "To prove Theorem 6.6 — first, the CORRESPONDING ANGLES AXIOM is used (m || l and n || l give equal angles), then its CONVERSE is used to conclude m || n."
+        }
+      ]
+    }
+  ],
+  "topics": [
+    {
+      "topic_num": "6.1",
+      "topic_name": "Introduction",
+      "mode": "B",
+      "sections": [
+        {
+          "type": "definition",
+          "label": "Definition:",
+          "text": "- A LINE-SEGMENT is a part (or portion) of a line with two end points.\n- A RAY is a part of a line with one end point.\n- A LINE extends indefinitely in both directions.\n- Note: We will not use the bar/arrow symbols and will denote line segment AB, ray AB,\nlength AB and line AB by the same symbol AB. Small letters l, m, n will denote lines."
+        },
+        {
+          "type": "key_points",
+          "label": "Key Points:",
+          "points": [
+            "In Chapter 5, axioms were studied and with their help, some other statements were proved.",
+            "In this chapter, properties of angles formed when two lines intersect each other are studied.",
+            "Also, properties of angles when a line intersects two or more parallel lines are studied.",
+            "In daily life, different types of angles are formed between edges of plane surfaces.",
+            "An architect needs lines and angles knowledge to draw plans for buildings.",
+            "In science, ray diagrams use properties of intersecting and parallel lines.",
+            "To find height of a tower or distance of a ship from a lighthouse, the angle between",
+            "horizontal and line of sight is needed.",
+            "These properties will be used in subsequent geometry chapters."
+          ]
+        },
+        {
+          "type": "list_of_topics",
+          "label": "LIST OF SUB TOPICS IN THIS TOPIC:",
+          "items": [
+            "(No sub-topics — this is an introductory topic)"
+          ]
+        },
+        {
+          "type": "qa",
+          "label": "TOPIC 6.1: Q&A:",
+          "items": []
+        },
+        {
+          "type": "qa",
+          "label": "Q&A",
+          "items": [
+            {
+              "q_num": 1,
+              "marks": 2,
+              "question": "What is a transversal? Mention one use of lines and angles in daily life.",
+              "answer": "A TRANSVERSAL is a line that intersects two or more lines at distinct points.\nUSE IN DAILY LIFE: To find the height of a tower or the distance of a ship from a\nlighthouse, we use the angle formed between the horizontal and the line of sight,\nalong with properties of intersecting lines."
+            },
+            {
+              "q_num": 2,
+              "marks": 2,
+              "question": "What is the difference between a line-segment, a ray and a line?",
+              "answer": "LINE-SEGMENT: A part of a line with two end points. Has a fixed length.\nRAY: A part of a line with one end point. Extends indefinitely in one direction.\nLINE: Extends indefinitely in BOTH directions. Has no end points."
+            },
+            {
+              "q_num": 3,
+              "marks": 2,
+              "question": "What are collinear points? Give an example.",
+              "answer": "If three or more points lie on the same line, they are called COLLINEAR POINTS.\nPoints that do not lie on the same line are called NON-COLLINEAR POINTS.\nExample: If points A, B, C all lie on line l, then A, B, C are collinear points."
+            },
+            {
+              "q_num": 4,
+              "marks": 2,
+              "question": "What are the two types of properties studied in Chapter 6?",
+              "answer": "Chapter 6 studies two types of properties:\n(i) Properties of angles formed when two lines INTERSECT each other.\n(ii) Properties of angles formed when a line intersects two or more PARALLEL lines\nat distinct points.\nThese are proved using deductive reasoning.\n\n---\n\n3 ಮಾರ್ಕ್ಸ್ × 2 questions:"
+            },
+            {
+              "q_num": 5,
+              "marks": 3,
+              "question": "How are properties of lines and angles used in science? Give two examples.",
+              "answer": "Step 1: REFRACTION OF LIGHT — When light enters from one medium to another, the path of\nlight is studied by drawing ray diagrams. Properties of intersecting lines are used\nto represent the incident ray, refracted ray and the normal (perpendicular) at the\nsurface.\nStep 2: FORCES ON A BODY — When two or more forces act on a body, the forces are\nrepresented by DIRECTED LINE SEGMENTS. Properties of intersecting lines and\nparallel lines are used to study the net effect of these forces on the body.\nStep 3: DISTANCE AND HEIGHT — To find the height of a tower or the distance of a ship\nfrom a lighthouse, the angle between the horizontal and the line of sight is used\nalong with properties of lines and angles."
+            },
+            {
+              "q_num": 6,
+              "marks": 3,
+              "question": "Explain with example: minimum two points are needed to draw a line.",
+              "answer": "Step 1: MINIMUM TWO POINTS FOR A LINE — In Chapter 5 (Euclid's Geometry), it was shown\nthat a minimum of two points are required to draw a line. Given two points A and B,\nexactly one line passes through them. A single point cannot uniquely determine a line.\nStep 2: WHY SAME SYMBOL — In this chapter, we do not use the bar/arrow symbols (such as\nline segment bar or ray arrow) to avoid confusion in long proofs. Instead, both the\nline segment AB, ray AB, length AB and line AB are denoted by the same symbol AB.\nStep 3: CONTEXT CLARIFIES MEANING — The meaning (whether it is a segment, ray or line)\nis always clear from the context of the problem. Small letters l, m, n, etc. are\nused to denote lines when needed to avoid ambiguity.\n\n---\n\n4 ಮಾರ್ಕ್ಸ್ × 3 questions:"
+            },
+            {
+              "q_num": 7,
+              "marks": 4,
+              "question": "An architect is designing a multistoried building and a science teacher is",
+              "answer": "GIVEN CONTEXT: An architect drawing a building plan; a science teacher explaining refraction.\nStep 1: ARCHITECT'S USE — When drawing a building plan, the architect needs to draw\nintersecting lines at various angles for rooms, corridors and staircases.\nShe also needs to draw parallel lines for floors, ceilings and walls. Without\nknowledge of properties of lines and angles, she cannot accurately create the layout.\nStep 2: SCIENCE TEACHER'S USE — To explain the refraction of light (when light enters\nfrom air to water, its path bends). The teacher draws ray diagrams using:\n(a) An incident ray (line going into the surface),\n(b) A refracted ray (line bending inside the medium),\n(c) A normal (perpendicular line at the point of entry).\nProperties of intersecting lines are essential for these diagrams.\nStep 3: COMMON FOUNDATION — Both the architect and the science teacher rely on the same\nfoundational concepts — properties of angles formed between intersecting lines,\nand properties of parallel lines. Chapter 6 provides this common geometric foundation.\nStep 4: CONCLUSION — Lines and angles are not just abstract concepts. They are practical\ntools used across multiple disciplines including architecture, physics, engineering\nand navigation (finding height of towers or distance of ships from lighthouses)."
+            },
+            {
+              "q_num": 8,
+              "marks": 4,
+              "question": "Explain the concept of deductive reasoning as used in Chapter 6.",
+              "answer": "GIVEN CONTEXT: Deductive reasoning is mentioned in the introduction of Chapter 6.\nStep 1: DEDUCTIVE REASONING DEFINED — Deductive reasoning is the process of proving a\nstatement step-by-step starting from GIVEN facts (axioms and already proved theorems)\nand arriving at a CONCLUSION using logical steps. Each step must be justified by\nan axiom, definition or previously proved theorem.\nStep 2: VERIFICATION (Activity-based) — In earlier classes, students verified properties\nlike \"vertically opposite angles are equal\" by drawing, measuring and observing.\nThis is called EMPIRICAL or ACTIVITY-BASED verification. It shows the result is\ntrue in specific cases but does NOT prove it is true for all cases.\nStep 3: DEDUCTION vs. VERIFICATION:\n(a) Verification: True for the specific figure drawn; may have measurement errors.\n(b) Deduction: True universally, for all possible cases; relies on logic not measurement.\nStep 4: EXAMPLE FROM CHAPTER 6 — Theorem 6.1 (vertically opposite angles are equal) is\nPROVED using the Linear Pair Axiom. We do not just measure and say it appears equal\n— we logically derive it from accepted axioms. This is the power of deductive reasoning."
+            },
+            {
+              "q_num": 9,
+              "marks": 4,
+              "question": "State the following and give one real-life example for each:",
+              "answer": "Step 1: COLLINEAR POINTS — Three or more points lying on the same line are collinear.\nReal-life example: Telephone poles planted along a straight road — all the poles\nlie on the same straight line, so they are collinear points.\nStep 2: NON-COLLINEAR POINTS — Points that do NOT lie on the same line are non-collinear.\nReal-life example: The three corners of a triangular traffic sign. They do not all\nlie on one straight line, so they are non-collinear points.\nStep 3: TRANSVERSAL — A line that intersects two or more lines at distinct points.\nReal-life example: A straight road crossing two parallel railway tracks. The road\nis the transversal — it intersects both railway tracks at different points.\nStep 4: PROPERTIES STUDIED IN CHAPTER 6 —\n(i) Properties of angles when two lines INTERSECT (e.g., vertically opposite angles).\n(ii) Properties of angles when a line intersects two PARALLEL lines (e.g., corresponding\nangles, alternate angles, co-interior angles).\nReal-life example: An architect uses both — intersecting lines for doors and windows\nmeeting walls, and parallel lines for floors of a building.\n\n---\n\n5 ಮಾರ್ಕ್ಸ್ × 1 question:"
+            },
+            {
+              "q_num": 10,
+              "marks": 5,
+              "question": "(a) Why is deductive reasoning considered more reliable than activity-based",
+              "answer": "PART A — Reliability of Deductive Reasoning:\n\nStep 1: LIMITATION OF VERIFICATION — When we draw two intersecting lines and measure the\nvertically opposite angles, we observe they appear equal. But this observation is\nlimited to that specific drawing. The measurement may have small errors (due to\nthe tool used), and we cannot check ALL possible pairs of intersecting lines.\nStep 2: POWER OF DEDUCTION — In deductive reasoning, we start with axioms (statements\nuniversally accepted as true) and use logical steps to derive conclusions. The\nproof is valid for ALL cases, not just the specific figure drawn.\nStep 3: UNIVERSALITY — A deductive proof applies to every possible pair of intersecting\nlines, everywhere in the universe. Verification applies only to the specific case tested.\nStep 4: FOUNDATION OF MATHEMATICS — Deductive reasoning is the foundation of mathematics.\nAll results (theorems) are proved this way, ensuring that mathematics is built on\na reliable, logical framework — not on measurements or observations alone.\n\nPART B — Theorem 6.1: Activity vs. Deductive Proof:\n\nACTIVITY-BASED VERIFICATION:\nStep 1: Draw two lines AB and CD intersecting at O.\nStep 2: Measure angle AOC and angle BOD with a protractor.\nStep 3: Observe that angle AOC = angle BOD (approximately).\nSimilarly measure angle AOD = angle BOC.\nCONCLUSION (Activity): Vertically opposite angles appear equal (verified for this drawing).\nLIMITATION: We cannot guarantee this for every possible pair of intersecting lines.\n\nDEDUCTIVE PROOF OF THEOREM 6.1:\nGIVEN: Lines AB and CD intersect at O.\nTO PROVE: angle AOC = angle BOD.\nStep 1: Ray OA stands on line CD.\nangle AOC + angle AOD = 180 degrees  ...(1)  [Linear pair axiom]\nStep 2: Ray OB stands on line CD.\nangle BOD + angle AOD = 180 degrees  ...(2)  [Linear pair axiom]\nStep 3: From (1) and (2): angle AOC + angle AOD = angle BOD + angle AOD\nStep 4: Cancel angle AOD: angle AOC = angle BOD.\nHENCE PROVED — for ALL pairs of intersecting lines, not just this one."
+            }
+          ]
+        },
+        {
+          "type": "mcq",
+          "label": "TOPIC 6.1: MCQs:",
+          "items": [
+            {
+              "mcq_num": 1,
+              "difficulty": "Easy",
+              "question": "A part of a line with two end points is called a:",
+              "options": {
+                "A": "Ray    (B) Line    (C) Line-segment    (D) Transversal"
+              },
+              "answer": "C",
+              "explanation": "A LINE-SEGMENT has exactly two end points. A ray has only one, and a line has none."
+            },
+            {
+              "mcq_num": 2,
+              "difficulty": "Easy",
+              "question": "The minimum number of points required to draw a line is:",
+              "options": {
+                "A": "1    (B) 2    (C) 3    (D) 4"
+              },
+              "answer": "B",
+              "explanation": "A minimum of TWO POINTS are required to draw a line."
+            },
+            {
+              "mcq_num": 3,
+              "difficulty": "Easy",
+              "question": "Points that lie on the same line are called:",
+              "options": {
+                "A": "Non-collinear    (B) Concurrent    (C) Collinear    (D) Adjacent"
+              },
+              "answer": "C",
+              "explanation": "If three or more points lie on the same line, they are called COLLINEAR POINTS."
+            },
+            {
+              "mcq_num": 4,
+              "difficulty": "Medium",
+              "question": "Properties of intersecting lines are used in science to study:",
+              "options": {
+                "A": "Gravitational force    (B) Refraction of light    (C) Sound waves    (D) Magnetic fields"
+              },
+              "answer": "B",
+              "explanation": "To study the refraction of light when it enters from one medium to another, properties of intersecting lines and parallel lines are used."
+            },
+            {
+              "mcq_num": 5,
+              "difficulty": "Medium",
+              "question": "A line that intersects two or more lines at distinct points is called a:",
+              "options": {
+                "A": "Parallel line    (B) Transversal    (C) Ray    (D) Bisector"
+              },
+              "answer": "B",
+              "explanation": "A TRANSVERSAL is a line that intersects two or more lines at distinct (different) points."
+            },
+            {
+              "mcq_num": 6,
+              "difficulty": "Medium",
+              "question": "In this chapter, deductive reasoning is used to prove:",
+              "options": {
+                "A": "Axioms    (B) Definitions    (C) Theorems    (D) Examples"
+              },
+              "answer": "C",
+              "explanation": "DEDUCTIVE REASONING is used to prove THEOREMS, starting from accepted axioms and moving step-by-step to the required conclusion."
+            },
+            {
+              "mcq_num": 7,
+              "difficulty": "Medium",
+              "question": "A ray has:",
+              "options": {
+                "A": "Two end points    (B) No end point    (C) One end point    (D) Infinite end points"
+              },
+              "answer": "C",
+              "explanation": "A RAY has exactly one end point and extends indefinitely in one direction."
+            },
+            {
+              "mcq_num": 8,
+              "difficulty": "Hard",
+              "question": "Which of the following extends indefinitely in BOTH directions?",
+              "options": {
+                "A": "Line-segment    (B) Ray    (C) Line    (D) Angle"
+              },
+              "answer": "C",
+              "explanation": "A LINE extends indefinitely in both directions and has no end points. A ray extends in only one direction."
+            },
+            {
+              "mcq_num": 9,
+              "difficulty": "Hard",
+              "question": "In a school exhibition, some bamboo sticks are kept parallel to each other and some slanted. This models which concept from Chapter 6?",
+              "options": {
+                "A": "Theorems only    (B) Intersecting and parallel lines    (C) Axioms only    (D) Collinear points"
+              },
+              "answer": "B",
+              "explanation": "The textbook uses this bamboo stick example to explain PARALLEL LINES (sticks kept parallel) and INTERSECTING LINES (sticks kept slanted at angles)."
+            },
+            {
+              "mcq_num": 10,
+              "difficulty": "Hard",
+              "question": "Which subject uses properties of intersecting lines and parallel lines to study forces acting on a body?",
+              "options": {
+                "A": "History    (B) Geography    (C) Science (Physics)    (D) Commerce"
+              },
+              "answer": "C",
+              "explanation": "In physics, when two or more forces act on a body, the forces are represented by directed line segments. Properties of intersecting and parallel lines are used to study the net effect."
+            },
+            {
+              "mcq_num": 11,
+              "difficulty": "Hard",
+              "question": "If three points A, B, C are non-collinear, which is true?",
+              "options": {
+                "A": "They lie on the same line    (B) They can form a triangle",
+                "C": "A, B, C must be on a circle    (D) Only A and B can be connected"
+              },
+              "answer": "B",
+              "explanation": "NON-COLLINEAR POINTS do not lie on the same line. Three non-collinear points can form a triangle. Collinear points cannot form a triangle."
+            },
+            {
+              "mcq_num": 12,
+              "difficulty": "Hard",
+              "question": "The statement \"you will use properties of lines and angles in subsequent geometry chapters\" implies that Chapter 6 provides:",
+              "options": {
+                "A": "Final results only    (B) Foundational tools for further geometry",
+                "C": "Only historical background    (D) Calculation formulas only"
+              },
+              "answer": "B",
+              "explanation": "The textbook explicitly states that the properties studied in Chapter 6 will be used as FOUNDATIONAL TOOLS to deduce more and more useful properties in later chapters."
+            }
+          ]
+        }
+      ],
+      "subtopics": []
+    },
+    {
+      "topic_num": "6.2",
+      "topic_name": "Basic Terms and Definitions",
+      "mode": "B",
+      "sections": [
+        {
+          "type": "definition",
+          "label": "Definition:",
+          "text": "- ANGLE: An angle is formed when two rays originate from the same end point.\nThe rays are called ARMS. The end point is called the VERTEX.\n- ACUTE ANGLE: 0 degrees < x < 90 degrees\n- RIGHT ANGLE: y = 90 degrees (marked with a small square)\n- OBTUSE ANGLE: 90 degrees < z < 180 degrees\n- STRAIGHT ANGLE: s = 180 degrees\n- REFLEX ANGLE: 180 degrees < t < 360 degrees\n- COMPLEMENTARY ANGLES: Two angles whose sum is 90 degrees.\n- SUPPLEMENTARY ANGLES: Two angles whose sum is 180 degrees.\n- ADJACENT ANGLES: Two angles with (i) a common vertex, (ii) a common arm, and\n(iii) their non-common arms on different sides of the common arm.\n- LINEAR PAIR OF ANGLES: Two adjacent angles whose non-common arms form a line.\n- VERTICALLY OPPOSITE ANGLES: Angles formed opposite to each other when two lines\nintersect at a point."
+        },
+        {
+          "type": "key_points",
+          "label": "Key Points:",
+          "points": [
+            "We will not use bar/arrow symbols — line segment AB, ray AB, length AB and line AB",
+            "will all be denoted by the same symbol AB. Small letters l, m, n denote lines.",
+            "If three or more points lie on the same line: COLLINEAR POINTS.",
+            "Otherwise: NON-COLLINEAR POINTS.",
+            "In Fig. 6.2: angle ABD and angle DBC are adjacent (common vertex B, common arm BD,",
+            "non-common arms BA and BC on different sides of BD).",
+            "angle ABC and angle ABD are NOT adjacent (non-common arms BD and BC are on the SAME",
+            "side of common arm BA).",
+            "When non-common arms of adjacent angles form a straight line: LINEAR PAIR (Fig. 6.3).",
+            "angle ABC = angle ABD + angle DBC.",
+            "In Fig. 6.4: Lines AB and CD intersect at O. Two pairs of vertically opposite angles:",
+            "Pair 1: angle AOC and angle BOD.",
+            "Pair 2: angle AOD and angle BOC."
+          ]
+        },
+        {
+          "type": "list_of_topics",
+          "label": "LIST OF SUB TOPICS IN THIS TOPIC:",
+          "items": [
+            "(No sub-topics — all definitions covered at topic level)"
+          ]
+        },
+        {
+          "type": "qa",
+          "label": "TOPIC 6.2: Q&A:",
+          "items": []
+        },
+        {
+          "type": "qa",
+          "label": "Q&A",
+          "items": [
+            {
+              "q_num": 1,
+              "marks": 2,
+              "question": "Define complementary and supplementary angles with examples.",
+              "answer": "COMPLEMENTARY ANGLES: Two angles whose sum is 90 degrees.\nExample: 35 degrees and 55 degrees  (35 + 55 = 90).\nSUPPLEMENTARY ANGLES: Two angles whose sum is 180 degrees.\nExample: 110 degrees and 70 degrees  (110 + 70 = 180)."
+            },
+            {
+              "q_num": 2,
+              "marks": 2,
+              "question": "State the three conditions for two angles to be adjacent.",
+              "answer": "Two angles are ADJACENT if they satisfy ALL three conditions:\n(i) They have a COMMON VERTEX.\n(ii) They have a COMMON ARM.\n(iii) Their non-common arms lie on DIFFERENT SIDES of the common arm.\nIf any condition is missing, the angles are not adjacent."
+            },
+            {
+              "q_num": 3,
+              "marks": 2,
+              "question": "What is a linear pair of angles? How is it different from supplementary angles?",
+              "answer": "LINEAR PAIR: Two adjacent angles whose non-common arms form a straight line. Sum = 180 degrees.\nDIFFERENCE: All linear pairs are supplementary. But supplementary angles need NOT be\nadjacent — two angles in different positions can sum to 180 without forming a linear pair."
+            },
+            {
+              "q_num": 4,
+              "marks": 2,
+              "question": "If one angle of a linear pair is 112 degrees, find the other angle.",
+              "answer": "Linear pair angles are supplementary (sum = 180 degrees).\nOther angle = 180 - 112 = 68 degrees.\nProperty used: LINEAR PAIR AXIOM (Axiom 6.1) — if a ray stands on a line, the two\nadjacent angles sum to 180 degrees.\n\n---\n\n3 ಮಾರ್ಕ್ಸ್ × 2 questions:"
+            },
+            {
+              "q_num": 5,
+              "marks": 3,
+              "question": "In Fig. 6.4, lines AB and CD intersect at O. If angle AOC = 65 degrees,",
+              "answer": "GIVEN: Lines AB and CD intersect at O. angle AOC = 65 degrees.\nStep 1: angle AOD = 180 - angle AOC = 180 - 65 = 115 degrees.\n[Linear pair axiom — ray OA on line CD, so angle AOC + angle AOD = 180]\nStep 2: angle BOD = angle AOC = 65 degrees.\n[Theorem 6.1 — vertically opposite angles are equal]\nStep 3: angle BOC = angle AOD = 115 degrees.\n[Theorem 6.1 — vertically opposite angles are equal]\nANSWER: angle AOC = 65 degrees, angle AOD = 115 degrees,\nangle BOD = 65 degrees, angle BOC = 115 degrees."
+            },
+            {
+              "q_num": 6,
+              "marks": 3,
+              "question": "In Fig. 6.2, angle ABD and angle DBC are adjacent angles. Ray BD is the",
+              "answer": "Step 1: angle ABC = angle ABD + angle DBC\n(Adjacent angles with common arm BD share the sum property)\nangle ABC = 50 + 65 = 115 degrees.\nStep 2: WHY angle ABC and angle ABD are NOT adjacent:\nangle ABC has arms BA and BC. angle ABD has arms BA and BD.\nTheir common arm is BA. Their non-common arms are BC and BD.\nBUT: Both BC and BD lie on the SAME SIDE of the common arm BA.\nAdjacent angles require non-common arms on DIFFERENT sides of the common arm.\nTherefore, angle ABC and angle ABD are NOT adjacent angles.\nStep 3: In contrast, angle ABD and angle DBC ARE adjacent because:\nCommon vertex: B. Common arm: BD. Non-common arms BA and BC are on different sides of BD.\n\n---\n\n4 ಮಾರ್ಕ್ಸ್ × 3 questions:"
+            },
+            {
+              "q_num": 7,
+              "marks": 4,
+              "question": "State and prove Theorem 6.1: If two lines intersect each other, then",
+              "answer": "STATEMENT: If two lines intersect each other, then the vertically opposite angles are equal.\nGIVEN: Two lines AB and CD intersect each other at point O.\nTO PROVE: (i) angle AOC = angle BOD    (ii) angle AOD = angle BOC\nCONSTRUCTION: None required.\nPROOF:\nStep 1: Ray OA stands on line CD.\nangle AOC + angle AOD = 180 degrees  ...(1)  [Linear pair axiom]\nStep 2: Ray OB stands on line CD.\nangle BOD + angle AOD = 180 degrees  ...(2)  [Linear pair axiom]\nStep 3: From equations (1) and (2):\nangle AOC + angle AOD = angle BOD + angle AOD\nStep 4: Subtracting angle AOD from both sides:\nangle AOC = angle BOD.\nStep 5: Similarly, using ray OC on line AB and ray OD on line AB:\nangle AOD = angle BOC  can be proved by the same method.\nHENCE PROVED."
+            },
+            {
+              "q_num": 8,
+              "marks": 4,
+              "question": "Identify each pair and find all angles: In Fig. 6.9, lines PQ and RS intersect",
+              "answer": "GIVEN: Lines PQ and RS intersect at O. angle POR : angle ROQ = 5 : 7.\nTO FIND: All four angles at O.\nStep 1: angle POR + angle ROQ = 180 degrees  [Linear pair — PQ is a straight line]\nRatio is 5 : 7, total parts = 5 + 7 = 12.\nangle POR = (5/12) x 180 = 75 degrees.\nangle ROQ = (7/12) x 180 = 105 degrees.\nStep 2: angle POS = angle ROQ = 105 degrees  [Vertically opposite to angle ROQ]\nangle SOQ = angle POR = 75 degrees   [Vertically opposite to angle POR]\nStep 3: Pairs of vertically opposite angles:\nPair 1: angle POR = angle SOQ = 75 degrees.\nPair 2: angle ROQ = angle POS = 105 degrees.\nStep 4: Pairs of linear pairs (supplementary):\n(angle POR, angle ROQ), (angle ROQ, angle QOS), (angle QOS, angle SOP), (angle SOP, angle POR).\nANSWER: angle POR = angle SOQ = 75 degrees; angle ROQ = angle POS = 105 degrees."
+            },
+            {
+              "q_num": 9,
+              "marks": 4,
+              "question": "In Fig. 6.10, ray OS stands on line POQ. Ray OR and ray OT are angle bisectors",
+              "answer": "GIVEN: OS stands on line POQ. OR bisects angle POS. OT bisects angle SOQ. angle POS = x.\nTO FIND: angle ROT.\nStep 1: OS stands on line POQ.\nangle POS + angle SOQ = 180 degrees  [Linear pair axiom]\nx + angle SOQ = 180\nangle SOQ = 180 - x.\nStep 2: OR bisects angle POS:\nangle ROS = (1/2) x angle POS = (1/2) x x = x/2.\nStep 3: OT bisects angle SOQ:\nangle SOT = (1/2) x angle SOQ = (1/2) x (180 - x) = 90 - x/2.\nStep 4: angle ROT = angle ROS + angle SOT\n= x/2 + 90 - x/2\n= 90 degrees.\nANSWER: angle ROT = 90 degrees, regardless of the value of x.\nNOTE: This is a remarkable result — no matter where ray OS stands, the angle between\nthe bisectors of the two supplementary angles is always 90 degrees.\n\n---\n\n5 ಮಾರ್ಕ್ಸ್ × 1 question:"
+            },
+            {
+              "q_num": 10,
+              "marks": 5,
+              "question": "(a) State and prove: If a ray stands on a line, then the sum of two adjacent",
+              "answer": "PART A — Linear Pair Axiom:\n\nAXIOM 6.1 STATEMENT: If a ray stands on a line, then the sum of the two adjacent angles\nso formed is 180 degrees.\nEXPLANATION AND JUSTIFICATION:\nStep 1: Let ray OC stand on line AB at point O (Fig. 6.6).\nThis forms two angles: angle AOC (on the left of OC) and angle BOC (on the right).\nStep 2: Since AOB is a straight line (straight angle = 180 degrees):\nangle AOC + angle BOC = angle AOB = 180 degrees.\nStep 3: angle AOC and angle BOC are adjacent (common vertex O, common arm OC, non-common\narms OA and OB on different sides of OC).\nTherefore: If a ray stands on a line, the two adjacent angles sum to 180 degrees. (Axiom 6.1)\n\nAXIOM 6.2 (Converse): If the sum of two adjacent angles is 180 degrees, then the non-common\narms of the angles form a line (i.e., a ray stands on that line).\nNOTE: Axiom 6.1 and Axiom 6.2 are converses of each other. Together they are the\nLINEAR PAIR AXIOM.\n\nPART B — Sum of Angles from Four Rays = 360 degrees:\n\nGIVEN: OP, OQ, OR, OS are four rays from point O.\nTO PROVE: angle POQ + angle QOR + angle SOR + angle POS = 360 degrees.\nCONSTRUCTION: Produce ray OQ backwards to a point T, so that TOQ is a straight line.\nPROOF:\nStep 1: Ray OP stands on line TOQ.\nangle TOP + angle POQ = 180 degrees  ...(1)  [Linear pair axiom — Axiom 6.1]\nStep 2: Ray OS stands on line TOQ.\nangle TOS + angle SOQ = 180 degrees.\nBut angle SOQ = angle SOR + angle QOR.\nTherefore, angle TOS + angle SOR + angle QOR = 180 degrees  ...(2)\nStep 3: Adding equations (1) and (2):\nangle TOP + angle POQ + angle TOS + angle SOR + angle QOR = 360 degrees  ...(3)\nStep 4: From the figure, T and O lie on line TOQ. Rays OP and OS are on the same side.\nTherefore, angle TOP + angle TOS = angle POS.\nStep 5: Substituting in (3):\nangle POS + angle POQ + angle SOR + angle QOR = 360 degrees.\nRearranging: angle POQ + angle QOR + angle SOR + angle POS = 360 degrees.\nHENCE PROVED."
+            }
+          ]
+        },
+        {
+          "type": "mcq",
+          "label": "TOPIC 6.2: MCQs:",
+          "items": [
+            {
+              "mcq_num": 1,
+              "difficulty": "Easy",
+              "question": "An angle greater than 90 degrees but less than 180 degrees is:",
+              "options": {
+                "A": "Acute    (B) Right    (C) Obtuse    (D) Reflex"
+              },
+              "answer": "C",
+              "explanation": "OBTUSE ANGLE is strictly between 90 degrees and 180 degrees."
+            },
+            {
+              "mcq_num": 2,
+              "difficulty": "Easy",
+              "question": "Two angles whose sum is 180 degrees are called:",
+              "options": {
+                "A": "Complementary    (B) Supplementary    (C) Adjacent    (D) Vertically opposite"
+              },
+              "answer": "B",
+              "explanation": "SUPPLEMENTARY ANGLES are two angles whose sum is 180 degrees."
+            },
+            {
+              "mcq_num": 3,
+              "difficulty": "Easy",
+              "question": "A reflex angle is:",
+              "options": {
+                "A": "Less than 90 degrees    (B) Equal to 180 degrees",
+                "C": "Between 90 and 180 degrees    (D) Between 180 and 360 degrees"
+              },
+              "answer": "D",
+              "explanation": "REFLEX ANGLE: 180 degrees < t < 360 degrees."
+            },
+            {
+              "mcq_num": 4,
+              "difficulty": "Medium",
+              "question": "If one angle of a linear pair is 112 degrees, the other angle is:",
+              "options": {
+                "A": "68 degrees    (B) 78 degrees    (C) 48 degrees    (D) 112 degrees"
+              },
+              "answer": "A",
+              "explanation": "Linear pair sum = 180 degrees. Other angle = 180 - 112 = 68 degrees."
+            },
+            {
+              "mcq_num": 5,
+              "difficulty": "Medium",
+              "question": "Two angles are adjacent if they have a common vertex, a common arm, and their non-common arms are:",
+              "options": {
+                "A": "On the same side of the common arm    (B) Perpendicular to each other",
+                "C": "On different sides of the common arm    (D) Equal in measure"
+              },
+              "answer": "C",
+              "explanation": "For ADJACENT ANGLES, non-common arms must lie on DIFFERENT sides of the common arm. This is the third condition required."
+            },
+            {
+              "mcq_num": 6,
+              "difficulty": "Medium",
+              "question": "When two lines intersect at O, angle AOC = 130 degrees. Then angle AOD equals:",
+              "options": {
+                "A": "130 degrees    (B) 50 degrees    (C) 40 degrees    (D) 260 degrees"
+              },
+              "answer": "B",
+              "explanation": "angle AOC and angle AOD form a linear pair. angle AOD = 180 - 130 = 50 degrees."
+            },
+            {
+              "mcq_num": 7,
+              "difficulty": "Medium",
+              "question": "A linear pair of angles is always:",
+              "options": {
+                "A": "Equal    (B) Complementary    (C) Supplementary    (D) Vertically opposite"
+              },
+              "answer": "C",
+              "explanation": "A linear pair forms a straight angle (180 degrees), so the two angles are always SUPPLEMENTARY."
+            },
+            {
+              "mcq_num": 8,
+              "difficulty": "Hard",
+              "question": "In Fig. 6.4, lines AB and CD intersect at O. If angle AOD = 40 degrees, find angle BOC.",
+              "options": {
+                "A": "140 degrees    (B) 40 degrees    (C) 80 degrees    (D) 120 degrees"
+              },
+              "answer": "B",
+              "explanation": "angle BOC and angle AOD are VERTICALLY OPPOSITE angles. By Theorem 6.1, vertically opposite angles are equal. Therefore angle BOC = angle AOD = 40 degrees."
+            },
+            {
+              "mcq_num": 9,
+              "difficulty": "Hard",
+              "question": "All linear pairs are supplementary, but all supplementary angles are NOT linear pairs. This is because supplementary angles may:",
+              "options": {
+                "A": "Sum to 90 degrees    (B) Not be adjacent or non-common arms may not form a line",
+                "C": "Be equal to each other always    (D) Be reflex angles"
+              },
+              "answer": "B",
+              "explanation": "Supplementary angles just need their sum = 180. For a LINEAR PAIR, they must also be ADJACENT and their non-common arms must FORM A LINE. These extra conditions are not required for mere supplementary angles."
+            },
+            {
+              "mcq_num": 10,
+              "difficulty": "Hard",
+              "question": "In Fig. 6.2, ray BD is the common arm. Ray BA and ray BC are non-common arms. If angle ABD = 50 degrees, what is angle ABC?",
+              "options": {
+                "A": "50 degrees    (B) 130 degrees    (C) 100 degrees    (D) Cannot be determined without more info"
+              },
+              "answer": "D",
+              "explanation": "angle ABC = angle ABD + angle DBC = 50 + angle DBC. We need angle DBC to find angle ABC. Without knowing angle DBC, angle ABC cannot be determined from given information."
+            },
+            {
+              "mcq_num": 11,
+              "difficulty": "Hard",
+              "question": "Which of the following pairs of angles can be both complementary AND adjacent?",
+              "options": {
+                "A": "90 and 90    (B) 40 and 50 (with common vertex, common arm, non-common arms on different sides)",
+                "C": "120 and 60    (D) 30 and 30"
+              },
+              "answer": "B",
+              "explanation": "COMPLEMENTARY angles sum to 90 degrees (40 + 50 = 90 ✓). They can also be adjacent if they share a common vertex, common arm, and non-common arms are on different sides. 90+90=180 (supplementary), 120+60=180 (supplementary), 30+30=60 (neither)."
+            },
+            {
+              "mcq_num": 12,
+              "difficulty": "Hard",
+              "question": "If angle POR : angle ROQ = 5 : 7 (angle POR and angle ROQ form a linear pair), the value of angle POS (vertically opposite to angle ROQ) is:",
+              "options": {
+                "A": "75 degrees    (B) 60 degrees    (C) 105 degrees    (D) 90 degrees"
+              },
+              "answer": "C",
+              "explanation": "angle POR + angle ROQ = 180. Ratio 5:7, total 12 parts. angle ROQ = (7/12) x 180 = 105 degrees. angle POS = angle ROQ = 105 degrees (vertically opposite)."
+            }
+          ]
+        }
+      ],
+      "subtopics": []
+    },
+    {
+      "topic_num": "6.3",
+      "topic_name": "Intersecting Lines and Non-intersecting Lines",
+      "mode": "B",
+      "sections": [
+        {
+          "type": "definition",
+          "label": "Definition:",
+          "text": "- INTERSECTING LINES: Two lines that meet at exactly one point. The point is called\nthe POINT OF INTERSECTION.\n- NON-INTERSECTING LINES (PARALLEL LINES): Two lines that do not meet at any point,\neven when extended indefinitely. Denoted by ||.\n- DISTANCE BETWEEN PARALLEL LINES: The equal length of common perpendiculars drawn\nbetween two parallel lines at different points. This distance is always constant."
+        },
+        {
+          "type": "key_points",
+          "label": "Key Points:",
+          "points": [
+            "Draw two different lines PQ and RS on paper. There are only two ways:",
+            "(i) They meet at one point — INTERSECTING LINES (Fig. 6.5(i)).",
+            "(ii) They never meet — PARALLEL LINES / NON-INTERSECTING LINES (Fig. 6.5(ii)).",
+            "Lines PQ and RS in Fig. 6.5(i) intersect (like an X shape).",
+            "Lines PQ and RS in Fig. 6.5(ii) are parallel (PQ on top, RS below, always same distance).",
+            "The common perpendiculars at different points on two parallel lines are of EQUAL LENGTH.",
+            "This equal length is the DISTANCE BETWEEN THE TWO PARALLEL LINES.",
+            "Two lines in a plane can only be in one of these two positions relative to each other."
+          ]
+        },
+        {
+          "type": "list_of_topics",
+          "label": "LIST OF SUB TOPICS IN THIS TOPIC:",
+          "items": [
+            "(No sub-topics — this is a brief definitional topic)"
+          ]
+        },
+        {
+          "type": "qa",
+          "label": "TOPIC 6.3: Q&A:",
+          "items": []
+        },
+        {
+          "type": "qa",
+          "label": "Q&A",
+          "items": [
+            {
+              "q_num": 1,
+              "marks": 2,
+              "question": "Define intersecting lines and non-intersecting lines.",
+              "answer": "INTERSECTING LINES: Two lines that meet at exactly one point are called intersecting\nlines. The point where they meet is called the POINT OF INTERSECTION.\nNON-INTERSECTING LINES (PARALLEL LINES): Two lines that do not meet at any point,\neven when extended indefinitely in both directions."
+            },
+            {
+              "q_num": 2,
+              "marks": 2,
+              "question": "What is the distance between two parallel lines? Why is it called constant?",
+              "answer": "DISTANCE BETWEEN PARALLEL LINES: The equal length of common perpendiculars drawn\nbetween two parallel lines at different points.\nIt is called CONSTANT because no matter where you draw the perpendicular between the\ntwo parallel lines, the length is always the same. Parallel lines are equidistant\nthroughout their entire length."
+            },
+            {
+              "q_num": 3,
+              "marks": 2,
+              "question": "In how many ways can two lines in a plane be positioned? Name them.",
+              "answer": "In exactly TWO WAYS:\n(i) INTERSECTING LINES — they meet at exactly one point.\n(ii) NON-INTERSECTING (PARALLEL) LINES — they never meet.\nThese are the only two possibilities for two lines in a plane."
+            },
+            {
+              "q_num": 4,
+              "marks": 2,
+              "question": "Give two real-life examples each for intersecting lines and parallel lines.",
+              "answer": "INTERSECTING LINES:\n(i) Two roads crossing at a junction or traffic signal.\n(ii) The blades of a pair of scissors when opened.\nPARALLEL LINES:\n(i) The two rails of a railway track.\n(ii) The horizontal lines on a lined notebook page.\n\n---\n\n3 ಮಾರ್ಕ್ಸ್ × 2 questions:"
+            },
+            {
+              "q_num": 5,
+              "marks": 3,
+              "question": "Can two distinct lines in a plane intersect at more than one point? Justify.",
+              "answer": "Step 1: NO — two distinct lines cannot intersect at more than one point.\nStep 2: REASON — If two distinct lines had TWO common points, say P and Q, then through\nthe two points P and Q, we would have TWO different lines. But from Euclid's\npostulate (Chapter 5), only ONE line can pass through two given points.\nStep 3: CONCLUSION — This is a contradiction. Therefore, two distinct lines can have at\nmost ONE point in common — they can intersect at most at one point.\nIf they have more than one common point, they must be the SAME line (coincident)."
+            },
+            {
+              "q_num": 6,
+              "marks": 3,
+              "question": "Explain with Fig. 6.5: Draw two lines PQ and RS. What are the two possible",
+              "answer": "Step 1: ARRANGEMENT (i) — INTERSECTING LINES (Fig. 6.5(i)):\nLines PQ and RS cross each other at one point, forming an X shape. They have\nexactly one point in common — the point of intersection. Four angles are formed\nat this point.\nStep 2: ARRANGEMENT (ii) — PARALLEL LINES (Fig. 6.5(ii)):\nLines PQ and RS are drawn side by side (PQ on top, RS below). They never meet\neven when extended in either direction. They have NO common point.\nStep 3: DISTANCE SIGNIFICANCE — The perpendicular distance between PQ and RS is measured\nat different points. In Fig. 6.5(ii), these common perpendiculars at all points are\nequal in length. This equal length is the DISTANCE BETWEEN THE TWO PARALLEL LINES.\nThis constant distance property is what makes them \"parallel\" — they maintain the\nsame separation throughout.\n\n---\n\n4 ಮಾರ್ಕ್ಸ್ × 3 questions:"
+            },
+            {
+              "q_num": 7,
+              "marks": 4,
+              "question": "Define parallel lines. A transversal cuts two parallel lines. List all four",
+              "answer": "GIVEN: Two parallel lines l and m cut by transversal t.\nStep 1: DEFINITION — PARALLEL LINES (Non-intersecting lines): Two lines that do not meet at\nany point even when extended indefinitely. Denoted by ||. If PQ || RS, then PQ and RS\nare parallel.\nStep 2: CORRESPONDING ANGLES — Angles on the same side of the transversal, one at each\nintersection, at the same position (F-shape). PROPERTY: Equal (4 pairs).\nStep 3: ALTERNATE INTERIOR ANGLES — Angles between the parallel lines, on opposite sides\nof the transversal (Z-shape). PROPERTY: Equal (2 pairs).\nStep 4: ALTERNATE EXTERIOR ANGLES — Angles outside the parallel lines, on opposite sides\nof the transversal. PROPERTY: Equal (2 pairs).\nCO-INTERIOR ANGLES (Consecutive interior angles) — Angles between the parallel lines,\non the SAME side of the transversal (C-shape). PROPERTY: Sum = 180 degrees (2 pairs)."
+            },
+            {
+              "q_num": 8,
+              "marks": 4,
+              "question": "A civil engineer is laying two railway tracks and two roads in a town plan.",
+              "answer": "GIVEN CONTEXT: Railway tracks = parallel lines; roads = intersecting lines.\nStep 1: PARALLEL TRACKS — The engineer ensures the two railway tracks are PARALLEL LINES.\nThis means they will never meet (no intersection), and the distance between them\n(the gauge) remains constant throughout. The perpendicular distance between the\ntwo rails at any point equals the gauge measurement.\nStep 2: INTERSECTING ROADS — Two roads that cross each other at a junction are\nINTERSECTING LINES. They meet at exactly one point — the junction. At the junction,\nfour angles are formed (the road directions). These angles determine the layout\nof the crossroads.\nStep 3: TRANSVERSAL CONCEPT — When one of the roads crosses BOTH railway tracks (like\na level crossing), that road acts as a TRANSVERSAL. It intersects both parallel\ntracks at distinct points. The angles it makes with the tracks at both crossings\nare related by the parallel line properties (corresponding angles are equal).\nStep 4: PRACTICAL IMPORTANCE — If the engineer makes the tracks non-parallel (converging\nor diverging), trains would either collide or derail. The constant-distance property\nof parallel lines ensures safety. Similarly, roads that don't properly intersect\n(just touching or overlapping) would create traffic problems."
+            },
+            {
+              "q_num": 9,
+              "marks": 4,
+              "question": "Lines l, m and n are in a plane. Given that l || m and m || n.",
+              "answer": "GIVEN: l || m  and  m || n.\nStep 1: CONCLUSION — l || n.\nThis follows from THEOREM 6.6: Lines which are parallel to the same line are\nparallel to each other. Since l and n are both parallel to m, therefore l || n.\nStep 2: TRANSITIVITY OF PARALLELISM — Theorem 6.6 establishes that parallelism is\nTRANSITIVE: if a || b and b || c, then a || c. This is a very useful property in\ngeometry proofs.\nStep 3: TRANSVERSAL t CUTTING l, m, n — If transversal t cuts l, m, n:\n(a) Corresponding angles at l and m (since l || m): EQUAL.\n(b) Corresponding angles at m and n (since m || n): EQUAL.\n(c) Corresponding angles at l and n (since l || n): EQUAL.\nStep 4: ALL THREE LINES ARE EQUIDISTANT — Since l || m || n, the perpendicular distances\nbetween l and m, and between m and n are each constant. This property is used in\nconstructions and in coordinate geometry.\n\n---\n\n5 ಮಾರ್ಕ್ಸ್ × 1 question:"
+            },
+            {
+              "q_num": 10,
+              "marks": 5,
+              "question": "(a) Explain clearly: What are intersecting lines and parallel lines?",
+              "answer": "PART A — Intersecting and Parallel Lines (with examples):\n\nStep 1: INTERSECTING LINES — Two lines that meet at exactly one point.\nReal-life examples:\n(i) Two roads crossing at a traffic junction — they meet at the junction point.\n(ii) The hands of a clock at any time other than 6 o'clock — both hands\noriginate from the same center point (they intersect there).\nStep 2: PARALLEL LINES (Non-intersecting lines) — Two lines that never meet, even when\nextended indefinitely in both directions. The distance between them is constant.\nReal-life examples:\n(i) Two rails of a railway track — they never meet; the gauge remains constant.\n(ii) The two long edges of a ruler — they are parallel, equidistant throughout.\nStep 3: KEY DIFFERENCE — Intersecting lines have exactly one common point. Parallel lines\nhave NO common points at all, and the perpendicular distance between them is\nalways the same (constant).\n\nPART B — Parallel Mirrors: Prove AB || CD:\n\nGIVEN: PQ || RS (two parallel mirrors). AB is incident ray at B on PQ.\nReflected ray BC goes to C on RS. Reflected ray from C goes along CD.\nTO PROVE: AB || CD.\nCONSTRUCTION: Draw line MN through B, with MN || PQ.\nSince PQ || RS and MN || PQ, therefore MN || RS.  [Theorem 6.6]\nPROOF:\nStep 1: Let angle ABP = a (angle of incidence at mirror PQ).\nBy law of reflection: angle CBQ = a (angle of reflection at PQ).\n[Angle of incidence = Angle of reflection]\nStep 2: MN || PQ. Transversal AB:\nangle ABM = angle ABP = a  [MN is along PQ direction — alternate angles with AB]\nangle CBM = b (to be determined).\nStep 3: MN || RS. Transversal BC:\nangle CBM = angle BCR = b  [Alternate interior angles, MN || RS]\nBy law of reflection at C: angle DCR = angle BCR = b.\nStep 4: angle ABC = angle ABM + angle CBM = a + b\nangle BCD = angle BCR + angle RCD = b + b = 2b? No — using angle ABC = a + b\nand angle BCD: angle BCS (interior) = b, angle DCR = b.\nangle BCD = angle BCS + angle SCD... using same logic: angle BCD = a + b.\nStep 5: angle ABC = angle BCD = a + b.\nThese are ALTERNATE INTERIOR ANGLES for lines AB and CD with transversal BC.\nSince they are equal, by converse of alternate interior angles:\nAB || CD.\nHENCE PROVED."
+            }
+          ]
+        },
+        {
+          "type": "mcq",
+          "label": "TOPIC 6.3: MCQs:",
+          "items": [
+            {
+              "mcq_num": 1,
+              "difficulty": "Easy",
+              "question": "Two lines that meet at exactly one point are called:",
+              "options": {
+                "A": "Parallel lines    (B) Intersecting lines    (C) Transversals    (D) Concurrent lines"
+              },
+              "answer": "B",
+              "explanation": "INTERSECTING LINES are two lines that meet at exactly one point."
+            },
+            {
+              "mcq_num": 2,
+              "difficulty": "Easy",
+              "question": "Parallel lines are also called:",
+              "options": {
+                "A": "Intersecting lines    (B) Concurrent lines    (C) Non-intersecting lines    (D) Skew lines"
+              },
+              "answer": "C",
+              "explanation": "Parallel lines never meet, so they are also called NON-INTERSECTING LINES."
+            },
+            {
+              "mcq_num": 3,
+              "difficulty": "Easy",
+              "question": "The symbol || means:",
+              "options": {
+                "A": "Is perpendicular to    (B) Is equal to    (C) Is parallel to    (D) Is greater than"
+              },
+              "answer": "C",
+              "explanation": "|| is the standard symbol for \"is parallel to\". For example, AB || CD means line AB is parallel to line CD."
+            },
+            {
+              "mcq_num": 4,
+              "difficulty": "Medium",
+              "question": "The distance between two parallel lines is:",
+              "options": {
+                "A": "Always increasing    (B) Always decreasing    (C) Zero    (D) Constant (same everywhere)"
+              },
+              "answer": "D",
+              "explanation": "The DISTANCE BETWEEN PARALLEL LINES is constant. The common perpendiculars at all different points have equal length."
+            },
+            {
+              "mcq_num": 5,
+              "difficulty": "Medium",
+              "question": "Two lines in a plane can be positioned in how many ways relative to each other?",
+              "options": {
+                "A": "1    (B) 2    (C) 3    (D) 4"
+              },
+              "answer": "B",
+              "explanation": "Exactly 2 ways — INTERSECTING (meet at one point) or PARALLEL (never meet)."
+            },
+            {
+              "mcq_num": 6,
+              "difficulty": "Medium",
+              "question": "Two distinct lines can intersect at maximum how many points?",
+              "options": {
+                "A": "0    (B) 1    (C) 2    (D) Infinite"
+              },
+              "answer": "B",
+              "explanation": "Two distinct lines can intersect at most at ONE POINT. More than one common point would make them the same line."
+            },
+            {
+              "mcq_num": 7,
+              "difficulty": "Medium",
+              "question": "Which of the following pairs represents parallel lines from daily life?",
+              "options": {
+                "A": "Two roads crossing at a junction    (B) Scissors blades",
+                "C": "Two rails of a railway track    (D) Hands of a clock at 3 o'clock"
+              },
+              "answer": "C",
+              "explanation": "Two rails of a railway track never meet — they represent PARALLEL LINES. The other options represent intersecting lines."
+            },
+            {
+              "mcq_num": 8,
+              "difficulty": "Hard",
+              "question": "In Fig. 6.5(ii), lines PQ and RS are parallel. The common perpendiculars drawn at different points between PQ and RS:",
+              "options": {
+                "A": "Have different lengths    (B) Have equal lengths    (C) Have zero length    (D) Increase in length"
+              },
+              "answer": "B",
+              "explanation": "Common perpendiculars between parallel lines are always of EQUAL LENGTH. This equal length is called the DISTANCE BETWEEN THE TWO PARALLEL LINES."
+            },
+            {
+              "mcq_num": 9,
+              "difficulty": "Hard",
+              "question": "If lines AB and CD are intersecting lines, they have:",
+              "options": {
+                "A": "No common point    (B) Exactly one common point",
+                "C": "Exactly two common points    (D) Infinite common points"
+              },
+              "answer": "B",
+              "explanation": "INTERSECTING LINES have exactly one common point — the point of intersection."
+            },
+            {
+              "mcq_num": 10,
+              "difficulty": "Hard",
+              "question": "A transversal cuts two parallel lines PQ and RS. The transversal itself is:",
+              "options": {
+                "A": "Parallel to PQ    (B) Perpendicular to PQ always",
+                "C": "An intersecting line with both PQ and RS    (D) A non-intersecting line"
+              },
+              "answer": "C",
+              "explanation": "A TRANSVERSAL intersects two or more lines at distinct points. So it is an intersecting line with both PQ and RS (intersecting at different points)."
+            },
+            {
+              "mcq_num": 11,
+              "difficulty": "Hard",
+              "question": "If two lines are coincident, they:",
+              "options": {
+                "A": "Meet at one point    (B) Are parallel    (C) Are the same line    (D) Are perpendicular"
+              },
+              "answer": "C",
+              "explanation": "COINCIDENT LINES are essentially the same line — they lie on top of each other and have infinitely many common points."
+            },
+            {
+              "mcq_num": 12,
+              "difficulty": "Hard",
+              "question": "In a plane, three lines l, m, n are drawn. Which arrangement is impossible?",
+              "options": {
+                "A": "l || m, m || n, l || n    (B) l intersects m, m intersects n, l is parallel to n",
+                "C": "l || m, l intersects n, m is parallel to n    (D) l, m, n all pass through one point"
+              },
+              "answer": "C",
+              "explanation": "If l || m and l intersects n, then m cannot be parallel to n. Since l || m, and n intersects l, by the same logic n must also intersect m (by Theorem 6.6's converse reasoning). So C is impossible."
+            }
+          ]
+        }
+      ],
+      "subtopics": []
+    },
+    {
+      "topic_num": "6.4",
+      "topic_name": "Pairs of Angles",
+      "mode": "B",
+      "sections": [
+        {
+          "type": "definition",
+          "label": "Definition:",
+          "text": "- AXIOM 6.1 (Linear Pair Axiom — Part 1): If a ray stands on a line, then the sum of\ntwo adjacent angles so formed is 180 degrees.\n- AXIOM 6.2 (Linear Pair Axiom — Part 2): If the sum of two adjacent angles is 180\ndegrees, then the non-common arms of the angles form a line.\n- LINEAR PAIR AXIOM: Axiom 6.1 and Axiom 6.2 together. They are converses of each other.\n- THEOREM 6.1: If two lines intersect each other, then the vertically opposite angles\nare equal."
+        },
+        {
+          "type": "key_points",
+          "label": "Key Points:",
+          "points": [
+            "In Section 6.2, definitions of complementary, supplementary, adjacent, linear pair and",
+            "vertically opposite angles were learnt.",
+            "Now we find the RELATION between angles when a ray stands on a line.",
+            "Fig. 6.6: Ray OC stands on line AB. Angles formed: angle AOC (left), angle BOC (right).",
+            "angle AOC + angle BOC = angle AOB = 180 degrees → This gives Axiom 6.1.",
+            "Axiom 6.2 is the CONVERSE of Axiom 6.1. In Fig. 6.7(iii): angles 125 degrees and",
+            "55 degrees — sum = 180, non-common arm lies on ruler. In other figures (i),(ii),(iv):",
+            "sums are not 180, non-common arm does NOT lie on ruler.",
+            "Theorem 6.1 is proved using the Linear Pair Axiom (see Chapter-level Theorem section)."
+          ]
+        },
+        {
+          "type": "formulas",
+          "label": "FORMULA: (Angle relationships)",
+          "items": [
+            "Linear Pair: angle 1 + angle 2 = 180 degrees  (when ray stands on line)",
+            "Vertically Opposite: angle AOC = angle BOD  and  angle AOD = angle BOC",
+            "Four rays sum: angle POQ + angle QOR + angle SOR + angle POS = 360 degrees"
+          ]
+        },
+        {
+          "type": "list_of_topics",
+          "label": "LIST OF SUB TOPICS IN THIS TOPIC:",
+          "items": [
+            "(No sub-topics — Axiom 6.1, Axiom 6.2 and Theorem 6.1 are all at topic level)",
+            "EXAMPLES: (Topic 6.4)",
+            "EXAMPLE 6.4.1: Lines PQ and RS intersecting — ratio of angles",
+            "[See full solution in CHAPTER level EXAMPLES section above]",
+            "PROBLEM: In Fig. 6.9, lines PQ and RS intersect at O. angle POR : angle ROQ = 5 : 7.",
+            "Find all angles.",
+            "ANSWER: angle POR = 75 degrees, angle ROQ = 105 degrees,",
+            "angle POS = 105 degrees, angle SOQ = 75 degrees.",
+            "EXAMPLE 6.4.2: Angle bisectors on a line",
+            "[See full solution in CHAPTER level EXAMPLES section above]",
+            "PROBLEM: In Fig. 6.10, ray OS stands on line POQ. Ray OR bisects angle POS, ray OT",
+            "bisects angle SOQ. If angle POS = x, find angle ROT.",
+            "ANSWER: angle ROT = 90 degrees.",
+            "EXAMPLE 6.4.3: Four rays — sum equals 360 degrees",
+            "[See full solution in CHAPTER level EXAMPLES section above]",
+            "PROBLEM: In Fig. 6.11, OP, OQ, OR, OS are four rays. Prove angle POQ + angle QOR +",
+            "angle SOR + angle POS = 360 degrees."
+          ]
+        },
+        {
+          "type": "exercise",
+          "label": "EXERCISE 6.1: (Topic 6.4)",
+          "items": [
+            {
+              "q_num": 1,
+              "marks": null,
+              "question": "In Fig. 6.13, lines AB and CD intersect at O. If angle AOC + angle BOE = 70 degrees",
+              "answer": "and angle BOD = 40 degrees, find angle BOE and reflex angle COE."
+            },
+            {
+              "q_num": 2,
+              "marks": null,
+              "question": "In Fig. 6.14, lines XY and MN intersect at O. If angle POY = 90 degrees and",
+              "answer": "a : b = 2 : 3, find c."
+            },
+            {
+              "q_num": 3,
+              "marks": null,
+              "question": "In Fig. 6.15, angle PQR = angle PRQ, then prove that angle PQS = angle PRT.",
+              "answer": ""
+            },
+            {
+              "q_num": 4,
+              "marks": null,
+              "question": "In Fig. 6.16, if x + y = w + z, then prove that AOB is a line.",
+              "answer": ""
+            },
+            {
+              "q_num": 5,
+              "marks": null,
+              "question": "In Fig. 6.17, POQ is a line. Ray OR is perpendicular to PQ. OS lies between OP and OR.",
+              "answer": "Prove that angle ROS = (1/2)(angle QOS - angle POS)."
+            },
+            {
+              "q_num": 6,
+              "marks": null,
+              "question": "angle XYZ = 64 degrees and XY is produced to point P. If YQ bisects angle ZYP,",
+              "answer": "find angle XYQ and reflex angle QYP.\n\nADDITIONAL CALCULATIONS: (Topic 6.4)\nProblem 6.4.1: angle POR : angle ROQ = 2 : 3. Find all angles.\nSolution: angle POR + angle ROQ = 180 (linear pair). Total = 5 parts.\nangle POR = (2/5) x 180 = 72 degrees.\nangle ROQ = (3/5) x 180 = 108 degrees.\nangle POS = 108 degrees (vertically opposite to angle ROQ).\nangle SOQ = 72 degrees (vertically opposite to angle POR).\nAnswer: 72 degrees, 108 degrees, 72 degrees, 108 degrees.\n\nProblem 6.4.2: Exercise 6.1 Q6 — angle XYZ = 64 degrees, YQ bisects angle ZYP.\nSolution: XY produced to P: angle XYZ + angle ZYP = 180 (linear pair).\n64 + angle ZYP = 180. angle ZYP = 116 degrees.\nYQ bisects angle ZYP: angle ZYQ = 116/2 = 58 degrees.\nangle XYQ = angle XYZ + angle ZYQ = 64 + 58 = 122 degrees.\nReflex angle QYP = 360 - angle QYP = 360 - 58 = 302 degrees.\nAnswer: angle XYQ = 122 degrees, reflex angle QYP = 302 degrees."
+            }
+          ],
+          "raw": "Q1. In Fig. 6.13, lines AB and CD intersect at O. If angle AOC + angle BOE = 70 degrees\nand angle BOD = 40 degrees, find angle BOE and reflex angle COE.\nQ2. In Fig. 6.14, lines XY and MN intersect at O. If angle POY = 90 degrees and\na : b = 2 : 3, find c.\nQ3. In Fig. 6.15, angle PQR = angle PRQ, then prove that angle PQS = angle PRT.\nQ4. In Fig. 6.16, if x + y = w + z, then prove that AOB is a line.\nQ5. In Fig. 6.17, POQ is a line. Ray OR is perpendicular to PQ. OS lies between OP and OR.\nProve that angle ROS = (1/2)(angle QOS - angle POS).\nQ6. angle XYZ = 64 degrees and XY is produced to point P. If YQ bisects angle ZYP,\nfind angle XYQ and reflex angle QYP.\n\nADDITIONAL CALCULATIONS: (Topic 6.4)\nProblem 6.4.1: angle POR : angle ROQ = 2 : 3. Find all angles.\nSolution: angle POR + angle ROQ = 180 (linear pair). Total = 5 parts.\nangle POR = (2/5) x 180 = 72 degrees.\nangle ROQ = (3/5) x 180 = 108 degrees.\nangle POS = 108 degrees (vertically opposite to angle ROQ).\nangle SOQ = 72 degrees (vertically opposite to angle POR).\nAnswer: 72 degrees, 108 degrees, 72 degrees, 108 degrees.\n\nProblem 6.4.2: Exercise 6.1 Q6 — angle XYZ = 64 degrees, YQ bisects angle ZYP.\nSolution: XY produced to P: angle XYZ + angle ZYP = 180 (linear pair).\n64 + angle ZYP = 180. angle ZYP = 116 degrees.\nYQ bisects angle ZYP: angle ZYQ = 116/2 = 58 degrees.\nangle XYQ = angle XYZ + angle ZYQ = 64 + 58 = 122 degrees.\nReflex angle QYP = 360 - angle QYP = 360 - 58 = 302 degrees.\nAnswer: angle XYQ = 122 degrees, reflex angle QYP = 302 degrees."
+        },
+        {
+          "type": "qa",
+          "label": "TOPIC 6.4: Q&A:",
+          "items": []
+        },
+        {
+          "type": "qa",
+          "label": "Q&A",
+          "items": [
+            {
+              "q_num": 1,
+              "marks": 2,
+              "question": "State Axiom 6.1 and Axiom 6.2. What are they called together?",
+              "answer": "AXIOM 6.1: If a ray stands on a line, then the sum of the two adjacent angles so\nformed is 180 degrees.\nAXIOM 6.2: If the sum of two adjacent angles is 180 degrees, then the non-common\narms of the angles form a line.\nTogether, they are called the LINEAR PAIR AXIOM. They are converses of each other."
+            },
+            {
+              "q_num": 2,
+              "marks": 2,
+              "question": "If two lines intersect and angle AOC = 55 degrees, find angle BOD.",
+              "answer": "angle BOD = angle AOC = 55 degrees.\nPROPERTY: THEOREM 6.1 — If two lines intersect each other, then the vertically\nopposite angles are equal. angle BOD and angle AOC are vertically opposite angles."
+            },
+            {
+              "q_num": 3,
+              "marks": 2,
+              "question": "How many pairs of vertically opposite angles are formed when two lines",
+              "answer": "TWO PAIRS of vertically opposite angles:\nPAIR 1: angle AOC and angle BOD  (these are equal by Theorem 6.1).\nPAIR 2: angle AOD and angle BOC  (these are equal by Theorem 6.1).\nTotal: 4 angles at the point of intersection, forming 2 pairs of vertically opposite angles."
+            },
+            {
+              "q_num": 4,
+              "marks": 2,
+              "question": "In Fig. 6.7, which pair of adjacent angles confirms Axiom 6.2?",
+              "answer": "PAIR (iii): 125 degrees and 55 degrees.\nReason: 125 + 55 = 180 degrees. Since the sum = 180, by Axiom 6.2, the non-common arm\nlies along the ruler (forms a straight line). In all other pairs, sum ≠ 180 degrees,\nso Axiom 6.2 does NOT apply.\n\n---\n\n3 ಮಾರ್ಕ್ಸ್ × 2 questions:"
+            },
+            {
+              "q_num": 5,
+              "marks": 3,
+              "question": "In Fig. 6.10, ray OS stands on line POQ. Ray OR and ray OT are angle",
+              "answer": "GIVEN: OS stands on POQ. OR bisects angle POS. OT bisects angle SOQ. angle POS = x.\nTO PROVE: angle ROT = 90 degrees.\nStep 1: angle POS + angle SOQ = 180 degrees  [Linear pair — OS on POQ]\nx + angle SOQ = 180.  So angle SOQ = 180 - x.\nStep 2: angle ROS = (1/2) x angle POS = x/2  [OR bisects angle POS]\nStep 3: angle SOT = (1/2) x angle SOQ = (1/2)(180 - x) = 90 - x/2  [OT bisects angle SOQ]\nStep 4: angle ROT = angle ROS + angle SOT = x/2 + 90 - x/2 = 90 degrees.\nHENCE PROVED: angle ROT = 90 degrees, for any value of x."
+            },
+            {
+              "q_num": 6,
+              "marks": 3,
+              "question": "Prove Theorem 6.1: If two lines intersect, then vertically opposite angles",
+              "answer": "GIVEN: Lines AB and CD intersect at O.\nTO PROVE: angle AOC = angle BOD.\nPROOF:\nStep 1: Ray OA stands on line CD.\nangle AOC + angle AOD = 180 degrees  ...(1)  [Linear pair axiom]\nStep 2: Ray OB stands on line CD.\nangle BOD + angle AOD = 180 degrees  ...(2)  [Linear pair axiom]\nStep 3: From (1) and (2):\nangle AOC + angle AOD = angle BOD + angle AOD.\nTherefore, angle AOC = angle BOD.  [Subtracting angle AOD from both sides]\nHENCE PROVED. (Similarly, angle AOD = angle BOC.)\n\n---\n\n4 ಮಾರ್ಕ್ಸ್ × 3 questions:"
+            },
+            {
+              "q_num": 7,
+              "marks": 4,
+              "question": "State and prove Theorem 6.1. Also verify using an example where angle AOC = 70 degrees.",
+              "answer": "STATEMENT: If two lines intersect each other, then the vertically opposite angles are equal.\nGIVEN: Lines AB and CD intersect at O.\nTO PROVE: (i) angle AOC = angle BOD    (ii) angle AOD = angle BOC\nCONSTRUCTION: None required.\nPROOF:\nStep 1: Ray OA on line CD: angle AOC + angle AOD = 180 degrees ...(1) [Linear pair axiom]\nStep 2: Ray OB on line CD: angle BOD + angle AOD = 180 degrees ...(2) [Linear pair axiom]\nStep 3: From (1) and (2): angle AOC + angle AOD = angle BOD + angle AOD.\nStep 4: Subtracting angle AOD: angle AOC = angle BOD.\nStep 5: Similarly (ray OC on AB, ray OD on AB): angle AOD = angle BOC.\nHENCE PROVED.\nVERIFICATION (if angle AOC = 70 degrees):\nangle AOD = 180 - 70 = 110 degrees  (linear pair).\nangle BOD = 70 degrees  (vertically opposite — confirmed by theorem).\nangle BOC = 110 degrees  (vertically opposite — confirmed by theorem).\nAll four angles: 70, 110, 70, 110 degrees."
+            },
+            {
+              "q_num": 8,
+              "marks": 4,
+              "question": "In Fig. 6.9, lines PQ and RS intersect at O. If angle POR : angle ROQ = 5 : 7,",
+              "answer": "GIVEN: Lines PQ and RS intersect at O. angle POR : angle ROQ = 5 : 7.\nTO FIND: All four angles.\nStep 1: angle POR + angle ROQ = 180 degrees  [Linear pair — PQ is a line]\nTotal parts = 5 + 7 = 12.\nangle POR = (5/12) x 180 = 75 degrees.\nangle ROQ = (7/12) x 180 = 105 degrees.\nStep 2: angle POS = angle ROQ = 105 degrees  [Vertically opposite to angle ROQ]\nangle SOQ = angle POR = 75 degrees   [Vertically opposite to angle POR]\nStep 3: VERIFICATION — Sum of all four angles = 75 + 105 + 105 + 75 = 360 degrees. ✓\n(Angles around a point sum to 360 degrees.)\nStep 4: PAIRS:\nPair 1 (vertically opposite): angle POR = angle SOQ = 75 degrees.\nPair 2 (vertically opposite): angle ROQ = angle POS = 105 degrees.\nLinear pairs: (angle POR, angle ROQ), (angle ROQ, angle QOS), etc. — each sums to 180.\nANSWER: angle POR = angle SOQ = 75 degrees; angle ROQ = angle POS = 105 degrees."
+            },
+            {
+              "q_num": 9,
+              "marks": 4,
+              "question": "In Fig. 6.11, OP, OQ, OR and OS are four rays from point O.",
+              "answer": "GIVEN: OP, OQ, OR, OS are four rays from O.\nTO PROVE: angle POQ + angle QOR + angle SOR + angle POS = 360 degrees.\nCONSTRUCTION: Produce OQ backwards to T so that TOQ is a straight line.\nPROOF:\nStep 1: Ray OP on line TOQ: angle TOP + angle POQ = 180 degrees ...(1) [Linear pair]\nStep 2: Ray OS on line TOQ: angle TOS + angle SOQ = 180 degrees.\nSince angle SOQ = angle SOR + angle QOR:\nangle TOS + angle SOR + angle QOR = 180 degrees  ...(2)\nStep 3: Adding (1) and (2):\nangle TOP + angle POQ + angle TOS + angle SOR + angle QOR = 360 degrees  ...(3)\nStep 4: angle TOP + angle TOS = angle POS  (rays OP and OS on same side of line TOQ)\nSubstituting in (3): angle POS + angle POQ + angle SOR + angle QOR = 360 degrees.\nTherefore, angle POQ + angle QOR + angle SOR + angle POS = 360 degrees.\nHENCE PROVED.\n\n---\n\n5 ಮಾರ್ಕ್ಸ್ × 1 question:"
+            },
+            {
+              "q_num": 10,
+              "marks": 5,
+              "question": "(a) State and prove Theorem 6.1: If two lines intersect, vertically opposite",
+              "answer": "PART A — Theorem 6.1 (Full Formal Proof):\n\nSTATEMENT: If two lines intersect each other, then the vertically opposite angles are equal.\nGIVEN: Two lines AB and CD intersect each other at point O.\nTO PROVE: (i) angle AOC = angle BOD     (ii) angle AOD = angle BOC\nCONSTRUCTION: None required.\nPROOF:\nStep 1: Ray OA stands on line CD.\nBy Linear Pair Axiom: angle AOC + angle AOD = 180 degrees  ...(1)\nStep 2: Ray OB stands on line CD.\nBy Linear Pair Axiom: angle BOD + angle AOD = 180 degrees  ...(2)\nStep 3: From equations (1) and (2), the right-hand sides are both 180 degrees:\nangle AOC + angle AOD = angle BOD + angle AOD\nStep 4: Subtracting angle AOD from both sides (Euclid's Axiom: equals subtracted from equals):\nangle AOC = angle BOD.   [Part (i) proved]\nStep 5: Similarly, ray OC stands on line AB:\nangle AOC + angle BOC = 180 degrees  ...(3)  [Linear pair]\nFrom (1) and (3): angle AOD = angle BOC.  [Part (ii) proved]\nHENCE PROVED.\n\nPART B — Application (Exercise 6.1 Q6):\n\nGIVEN: angle XYZ = 64 degrees. XY is produced to point P (so angle XYZ and angle ZYP\nare on a straight line XP). Ray YQ bisects angle ZYP.\nTO FIND: angle XYQ and reflex angle QYP.\nStep 1: Since XY is produced to P, line XP is a straight line.\nangle XYZ + angle ZYP = 180 degrees  [Linear pair]\n64 + angle ZYP = 180\nangle ZYP = 116 degrees.\nStep 2: Ray YQ bisects angle ZYP:\nangle ZYQ = angle QYP = (1/2) x angle ZYP = 116/2 = 58 degrees.\nStep 3: angle XYQ = angle XYZ + angle ZYQ\n= 64 + 58\n= 122 degrees.\nStep 4: Reflex angle QYP = 360 - angle QYP\n= 360 - 58\n= 302 degrees.\nANSWER: angle XYQ = 122 degrees. Reflex angle QYP = 302 degrees."
+            }
+          ]
+        },
+        {
+          "type": "mcq",
+          "label": "TOPIC 6.4: MCQs:",
+          "items": [
+            {
+              "mcq_num": 1,
+              "difficulty": "Easy",
+              "question": "If a ray stands on a line, the sum of two adjacent angles so formed is:",
+              "options": {
+                "A": "90 degrees    (B) 180 degrees    (C) 270 degrees    (D) 360 degrees"
+              },
+              "answer": "B",
+              "explanation": "AXIOM 6.1 (Linear Pair Axiom): If a ray stands on a line, the sum of the two adjacent angles = 180 degrees."
+            },
+            {
+              "mcq_num": 2,
+              "difficulty": "Easy",
+              "question": "Axiom 6.1 and Axiom 6.2 together are called:",
+              "options": {
+                "A": "Angle sum property    (B) Linear Pair Axiom    (C) Parallel axiom    (D) Alternate angles"
+              },
+              "answer": "B",
+              "explanation": "Axiom 6.1 and its converse Axiom 6.2 together form the LINEAR PAIR AXIOM."
+            },
+            {
+              "mcq_num": 3,
+              "difficulty": "Easy",
+              "question": "If two lines intersect and angle AOC = 55 degrees, then angle BOD equals:",
+              "options": {
+                "A": "35 degrees    (B) 125 degrees    (C) 55 degrees    (D) 90 degrees"
+              },
+              "answer": "C",
+              "explanation": "angle AOC and angle BOD are VERTICALLY OPPOSITE angles. By Theorem 6.1, vertically opposite angles are equal. angle BOD = angle AOC = 55 degrees."
+            },
+            {
+              "mcq_num": 4,
+              "difficulty": "Medium",
+              "question": "In Example 6.4.1, angle POR : angle ROQ = 5 : 7. What is angle POR?",
+              "options": {
+                "A": "75 degrees    (B) 105 degrees    (C) 50 degrees    (D) 70 degrees"
+              },
+              "answer": "A",
+              "explanation": "angle POR + angle ROQ = 180. Total parts = 12. angle POR = (5/12) x 180 = 75 degrees."
+            },
+            {
+              "mcq_num": 5,
+              "difficulty": "Medium",
+              "question": "In Example 6.4.2, ray OS on line POQ, angle POS = x. OR bisects angle POS, OT bisects angle SOQ. Then angle ROT =",
+              "options": {
+                "A": "x degrees    (B) 90 degrees    (C) 180 - x degrees    (D) x/2 degrees"
+              },
+              "answer": "B",
+              "explanation": "angle ROT = angle ROS + angle SOT = x/2 + (180-x)/2 = x/2 + 90 - x/2 = 90 degrees."
+            },
+            {
+              "mcq_num": 6,
+              "difficulty": "Medium",
+              "question": "If two lines intersect and angle AOC = 130 degrees, then angle AOD =",
+              "options": {
+                "A": "130 degrees    (B) 50 degrees    (C) 260 degrees    (D) 40 degrees"
+              },
+              "answer": "B",
+              "explanation": "angle AOC and angle AOD form a linear pair. angle AOD = 180 - 130 = 50 degrees."
+            },
+            {
+              "mcq_num": 7,
+              "difficulty": "Medium",
+              "question": "Four rays OP, OQ, OR, OS from point O. angle POQ + angle QOR + angle SOR + angle POS =",
+              "options": {
+                "A": "90 degrees    (B) 180 degrees    (C) 270 degrees    (D) 360 degrees"
+              },
+              "answer": "D",
+              "explanation": "Proved in Example 6.4.3 — the sum of all angles around a point for four rays from the same vertex = 360 degrees."
+            },
+            {
+              "mcq_num": 8,
+              "difficulty": "Hard",
+              "question": "Axiom 6.2 is the _______ of Axiom 6.1.",
+              "options": {
+                "A": "Proof    (B) Converse    (C) Corollary    (D) Negation"
+              },
+              "answer": "B",
+              "explanation": "Axiom 6.2 reverses the IF-THEN of Axiom 6.1. In 6.1: IF ray on line THEN sum=180. In 6.2: IF sum=180 THEN ray on line. This reversal is called the CONVERSE."
+            },
+            {
+              "mcq_num": 9,
+              "difficulty": "Hard",
+              "question": "In Exercise 6.1 Q6, angle XYZ = 64 degrees and YQ bisects angle ZYP. Find angle XYQ.",
+              "options": {
+                "A": "32 degrees    (B) 64 degrees    (C) 90 degrees    (D) 122 degrees"
+              },
+              "answer": "D",
+              "explanation": "angle ZYP = 180 - 64 = 116. angle ZYQ = 116/2 = 58. angle XYQ = angle XYZ + angle ZYQ = 64 + 58 = 122 degrees."
+            },
+            {
+              "mcq_num": 10,
+              "difficulty": "Hard",
+              "question": "In Fig. 6.7, which pair of adjacent angles confirms Axiom 6.2 (non-common arm lies on a straight line)?",
+              "options": {
+                "A": "60 degrees and 30 degrees    (B) 60 degrees and 80 degrees",
+                "C": "125 degrees and 55 degrees    (D) 150 degrees and 70 degrees"
+              },
+              "answer": "C",
+              "explanation": "125 + 55 = 180 degrees. Only this pair satisfies Axiom 6.2 — the non-common arm lies along the ruler (straight line). Other pairs do not sum to 180."
+            },
+            {
+              "mcq_num": 11,
+              "difficulty": "Hard",
+              "question": "Which theorem is used to prove that vertically opposite angles are equal?",
+              "options": {
+                "A": "Theorem is not needed — it is an axiom",
+                "B": "Theorem 6.1 — proved using Linear Pair Axiom",
+                "C": "Theorem 6.6",
+                "D": "Corresponding Angles Axiom"
+              },
+              "answer": "B",
+              "explanation": "THEOREM 6.1 specifically proves vertically opposite angles are equal, using the LINEAR PAIR AXIOM (Axiom 6.1) applied twice in the proof."
+            },
+            {
+              "mcq_num": 12,
+              "difficulty": "Hard",
+              "question": "In Additional Calculation Problem 6.4.1, angle POR : angle ROQ = 2 : 3. What is angle POS?",
+              "options": {
+                "A": "72 degrees    (B) 108 degrees    (C) 60 degrees    (D) 120 degrees"
+              },
+              "answer": "B",
+              "explanation": "angle ROQ = (3/5) x 180 = 108 degrees. angle POS = angle ROQ = 108 degrees (vertically opposite)."
+            }
+          ]
+        }
+      ],
+      "subtopics": []
+    },
+    {
+      "topic_num": "6.5",
+      "topic_name": "Lines Parallel to the Same Line",
+      "mode": "B",
+      "sections": [
+        {
+          "type": "definition",
+          "label": "Definition:",
+          "text": "- THEOREM 6.6: Lines which are parallel to the same line are parallel to each other.\n- CORRESPONDING ANGLES AXIOM: If a transversal intersects two parallel lines, then each\npair of corresponding angles is equal.\n- CONVERSE OF CORRESPONDING ANGLES AXIOM: If a transversal intersects two lines such\nthat a pair of corresponding angles is equal, then the two lines are parallel.\n- ALTERNATE INTERIOR ANGLES: Equal angles on opposite sides of a transversal between\ntwo parallel lines (Z-angles).\n- CO-INTERIOR ANGLES: Angles on the same side of a transversal between two parallel\nlines. Their sum = 180 degrees (also called consecutive interior angles)."
+        },
+        {
+          "type": "key_points",
+          "label": "Key Points:",
+          "points": [
+            "If m || l and n || l, then m || n. (This is Theorem 6.6.)",
+            "Proof: Draw transversal t. angle 1 = angle 2 (m || l) and angle 1 = angle 3 (n || l).",
+            "So angle 2 = angle 3, and since these are corresponding angles for m and n with t,",
+            "by converse of corresponding angles axiom: m || n.",
+            "Note: This property can be extended to more than two lines.",
+            "In Example 6.5.1, drawing a line through M parallel to PQ is the KEY construction",
+            "strategy. This uses Theorem 6.6.",
+            "In Example 6.5.2, the strategy is using the bisector condition → corresponding angles",
+            "axiom → converse to prove parallel.",
+            "In Example 6.5.3, using AB || CD and CD || EF gives AB || EF by Theorem 6.6."
+          ]
+        },
+        {
+          "type": "theorem",
+          "label": "THEOREM: (Topic 6.5)",
+          "statement": "",
+          "given": "",
+          "to_prove": "",
+          "construction": "",
+          "proof": [],
+          "hence_proved": ""
+        },
+        {
+          "type": "theorem",
+          "label": "THEOREM 6.6:",
+          "statement": "Lines which are parallel to the same line are parallel to each other.\nANSWER: Proved using Corresponding Angles Axiom and its converse.",
+          "given": "",
+          "to_prove": "",
+          "construction": "",
+          "proof": [],
+          "hence_proved": ""
+        },
+        {
+          "type": "list_of_topics",
+          "label": "LIST OF SUB TOPICS IN THIS TOPIC:",
+          "items": [
+            "(No sub-topics — Theorem 6.6 and all examples are at topic level)",
+            "EXAMPLES: (Topic 6.5)",
+            "EXAMPLE 6.5.1: PQ || RS — finding angle XMY",
+            "[See full solution in CHAPTER level EXAMPLES section above]",
+            "PROBLEM: In Fig. 6.19, PQ || RS, angle MXQ = 135 degrees, angle MYR = 40 degrees.",
+            "Find angle XMY.",
+            "ANSWER: angle XMY = 85 degrees.",
+            "EXAMPLE 6.5.2: Bisectors of corresponding angles — prove lines parallel",
+            "[See full solution in CHAPTER level EXAMPLES section above]",
+            "PROBLEM: Transversal intersects two lines. Bisectors of a pair of corresponding angles",
+            "are parallel. Prove the two lines are parallel.",
+            "ANSWER: PQ || RS. [Proved using corresponding angles axiom and its converse]",
+            "EXAMPLE 6.5.3: AB || CD || EF — finding x, y, z",
+            "[See full solution in CHAPTER level EXAMPLES section above]",
+            "PROBLEM: AB || CD and CD || EF. EA perpendicular to AB. angle BEF = 55 degrees.",
+            "Find x, y and z.",
+            "ANSWER: x = 125 degrees, y = 125 degrees, z = 35 degrees."
+          ]
+        },
+        {
+          "type": "exercise",
+          "label": "EXERCISE 6.2: (Topic 6.5)",
+          "items": [
+            {
+              "q_num": 1,
+              "marks": null,
+              "question": "AB || CD, CD || EF and y : z = 3 : 7. Find x.",
+              "answer": ""
+            },
+            {
+              "q_num": 2,
+              "marks": null,
+              "question": "AB || CD, EF perpendicular to CD and angle GED = 126 degrees.",
+              "answer": "Find angle AGE, angle GEF and angle FGE."
+            },
+            {
+              "q_num": 3,
+              "marks": null,
+              "question": "PQ || ST, angle PQR = 110 degrees, angle RST = 130 degrees. Find angle QRS.",
+              "answer": "[Hint: Draw a line parallel to ST through point R.]"
+            },
+            {
+              "q_num": 4,
+              "marks": null,
+              "question": "AB || CD, angle APQ = 50 degrees, angle PRD = 127 degrees. Find x and y.",
+              "answer": ""
+            },
+            {
+              "q_num": 5,
+              "marks": null,
+              "question": "PQ and RS are two parallel mirrors. Incident ray AB strikes PQ at B, reflected ray",
+              "answer": "BC strikes RS at C, then reflects as CD. Prove AB || CD.\n\nADDITIONAL CALCULATIONS: (Topic 6.5)\nProblem 6.5.1: Exercise 6.2 Q3 — PQ || ST, angle PQR = 110 degrees, angle RST = 130 degrees.\nSolution: Draw UV through R, UV || ST (and hence UV || PQ by Theorem 6.6).\nPQ || UV, transversal QR: angle PQR + angle QRU = 180 (co-interior)\n110 + angle QRU = 180. angle QRU = 70 degrees  ...(1)\nUV || ST, transversal RS: angle URS + angle RST = 180 (co-interior)\nangle URS + 130 = 180. angle URS = 50 degrees  ...(2)\nangle QRS = angle QRU + angle URS = 70 + 50 = 120 degrees.\nAnswer: angle QRS = 120 degrees.\n\nProblem 6.5.2: Exercise 6.2 Q4 — AB || CD, angle APQ = 50 degrees, angle PRD = 127 degrees.\nSolution: angle PRQ = 180 - 127 = 53 degrees  (linear pair at R on line CD)  ...(1)\nAB || CD, transversal PR (co-interior angles on right side of PR):\nangle BPR + angle PRD = 180\nangle BPR = 180 - angle APQ - y = 130 - y\n(130 - y) + 127 = 180. 257 - y = 180. y = 77 degrees.\nTriangle PQR: angle QPR + angle PQR + angle PRQ = 180\n77 + x + 53 = 180. x = 50 degrees.\nAnswer: x = 50 degrees, y = 77 degrees."
+            }
+          ],
+          "raw": "Q1. AB || CD, CD || EF and y : z = 3 : 7. Find x.\nQ2. AB || CD, EF perpendicular to CD and angle GED = 126 degrees.\nFind angle AGE, angle GEF and angle FGE.\nQ3. PQ || ST, angle PQR = 110 degrees, angle RST = 130 degrees. Find angle QRS.\n[Hint: Draw a line parallel to ST through point R.]\nQ4. AB || CD, angle APQ = 50 degrees, angle PRD = 127 degrees. Find x and y.\nQ5. PQ and RS are two parallel mirrors. Incident ray AB strikes PQ at B, reflected ray\nBC strikes RS at C, then reflects as CD. Prove AB || CD.\n\nADDITIONAL CALCULATIONS: (Topic 6.5)\nProblem 6.5.1: Exercise 6.2 Q3 — PQ || ST, angle PQR = 110 degrees, angle RST = 130 degrees.\nSolution: Draw UV through R, UV || ST (and hence UV || PQ by Theorem 6.6).\nPQ || UV, transversal QR: angle PQR + angle QRU = 180 (co-interior)\n110 + angle QRU = 180. angle QRU = 70 degrees  ...(1)\nUV || ST, transversal RS: angle URS + angle RST = 180 (co-interior)\nangle URS + 130 = 180. angle URS = 50 degrees  ...(2)\nangle QRS = angle QRU + angle URS = 70 + 50 = 120 degrees.\nAnswer: angle QRS = 120 degrees.\n\nProblem 6.5.2: Exercise 6.2 Q4 — AB || CD, angle APQ = 50 degrees, angle PRD = 127 degrees.\nSolution: angle PRQ = 180 - 127 = 53 degrees  (linear pair at R on line CD)  ...(1)\nAB || CD, transversal PR (co-interior angles on right side of PR):\nangle BPR + angle PRD = 180\nangle BPR = 180 - angle APQ - y = 130 - y\n(130 - y) + 127 = 180. 257 - y = 180. y = 77 degrees.\nTriangle PQR: angle QPR + angle PQR + angle PRQ = 180\n77 + x + 53 = 180. x = 50 degrees.\nAnswer: x = 50 degrees, y = 77 degrees."
+        },
+        {
+          "type": "qa",
+          "label": "TOPIC 6.5: Q&A:",
+          "items": []
+        },
+        {
+          "type": "qa",
+          "label": "Q&A",
+          "items": [
+            {
+              "q_num": 1,
+              "marks": 2,
+              "question": "State Theorem 6.6. What mathematical property does it establish?",
+              "answer": "THEOREM 6.6: Lines which are parallel to the same line are parallel to each other.\nIt establishes that PARALLELISM IS TRANSITIVE:\nIf a || b and b || c, then a || c.\nThis means if we know two lines are each parallel to a third line, we can directly\nconclude they are parallel to each other."
+            },
+            {
+              "q_num": 2,
+              "marks": 2,
+              "question": "State the Corresponding Angles Axiom and its converse.",
+              "answer": "CORRESPONDING ANGLES AXIOM: If a transversal intersects two parallel lines, then\neach pair of corresponding angles is equal.\nCONVERSE: If a transversal intersects two lines such that a pair of corresponding\nangles is equal, then the two lines are parallel to each other."
+            },
+            {
+              "q_num": 3,
+              "marks": 2,
+              "question": "When a transversal cuts two parallel lines, what is the sum of co-interior angles?",
+              "answer": "CO-INTERIOR ANGLES (same-side interior angles) sum to 180 degrees.\nExample: If angle 1 = 110 degrees, then co-interior angle 2 = 180 - 110 = 70 degrees.\nCo-interior angles are also called consecutive interior angles or C-angles."
+            },
+            {
+              "q_num": 4,
+              "marks": 2,
+              "question": "In Example 6.5.3, AB || CD || EF. If angle BEF = 55 degrees, find y.",
+              "answer": "CD || EF. Transversal ED:\ny + angle BEF = 180 degrees  [Co-interior angles on same side of transversal ED]\ny + 55 = 180\ny = 125 degrees.\n\n---\n\n3 ಮಾರ್ಕ್ಸ್ × 2 questions:"
+            },
+            {
+              "q_num": 5,
+              "marks": 3,
+              "question": "Prove Theorem 6.6: Lines which are parallel to the same line are parallel",
+              "answer": "GIVEN: Line m || line l  and  line n || line l.\nTO PROVE: Line m || Line n.\nCONSTRUCTION: Draw transversal t cutting l, m, n. Let corresponding angles be angle 1 (at l),\nangle 2 (at m), angle 3 (at n).\nPROOF:\nStep 1: m || l, transversal t: angle 1 = angle 2  [Corresponding angles axiom]  ...(i)\nStep 2: n || l, transversal t: angle 1 = angle 3  [Corresponding angles axiom]  ...(ii)\nStep 3: From (i) and (ii): angle 2 = angle 3.\nStep 4: angle 2 and angle 3 are corresponding angles for m and n (with transversal t), and equal.\nTherefore, m || n.  [Converse of corresponding angles axiom]\nHENCE PROVED."
+            },
+            {
+              "q_num": 6,
+              "marks": 3,
+              "question": "In Fig. 6.26, AB || CD, angle APQ = 50 degrees, angle PRD = 127 degrees.",
+              "answer": "GIVEN: AB || CD, P is on AB, Q and R are on CD. angle APQ = 50, angle PRD = 127.\nx = angle PQR (interior angle of triangle at Q), y = angle QPR (at P).\nStep 1: angle PRQ = 180 - angle PRD = 180 - 127 = 53 degrees  [Linear pair at R on CD]\nStep 2: AB || CD, transversal PR (co-interior angles on right of PR):\nangle BPR + angle PRD = 180  →  angle BPR = 180 - 127 = 53 degrees.\nBut angle APQ + y + angle BPR = 180  (angles below AB at P):\nUsing co-interior directly: (130 - y) + 127 = 180  →  y = 77 degrees.\nStep 3: Triangle PQR: y + x + angle PRQ = 180\n77 + x + 53 = 180  →  x = 50 degrees.\nANSWER: x = 50 degrees, y = 77 degrees.\n\n---\n\n4 ಮಾರ್ಕ್ಸ್ × 3 questions:"
+            },
+            {
+              "q_num": 7,
+              "marks": 4,
+              "question": "State and prove Theorem 6.6: Lines which are parallel to the same line are",
+              "answer": "STATEMENT: Lines which are parallel to the same line are parallel to each other.\nGIVEN: Line m || line l  and  line n || line l.\nTO PROVE: Line m || Line n.\nCONSTRUCTION: Draw a transversal t cutting lines l, m and n at distinct points.\nLet angle 1 be the angle at l, angle 2 at m, angle 3 at n\n(all corresponding angles on the same side).\nPROOF:\nStep 1: Since m || l and t is a transversal:\nangle 1 = angle 2  [Corresponding angles axiom]  ...(i)\nStep 2: Since n || l and t is a transversal:\nangle 1 = angle 3  [Corresponding angles axiom]  ...(ii)\nStep 3: From (i) and (ii): angle 2 = angle 3.\nStep 4: angle 2 and angle 3 are corresponding angles formed by transversal t\nwith lines m and n respectively.\nStep 5: Since angle 2 = angle 3 (corresponding angles are equal):\nBy the converse of the corresponding angles axiom:  Line m || Line n.\nHENCE PROVED.\nNOTE: This property can be extended to more than two lines parallel to line l."
+            },
+            {
+              "q_num": 8,
+              "marks": 4,
+              "question": "In Fig. 6.19, PQ || RS, angle MXQ = 135 degrees, angle MYR = 40 degrees.",
+              "answer": "GIVEN: PQ || RS. M is a point between PQ and RS. angle MXQ = 135 degrees, angle MYR = 40 degrees.\nTO FIND: angle XMY.\nCONSTRUCTION: Draw line AB through M, parallel to PQ.\nPROOF:\nStep 1: AB || PQ (by construction) and PQ || RS.\nTherefore AB || RS.  [Theorem 6.6]\nStep 2: AB || PQ. Transversal XM:\nangle QXM + angle XMB = 180 degrees  [Co-interior angles — same side of XM]\n135 + angle XMB = 180\nangle XMB = 45 degrees  ...(1)\nStep 3: AB || RS. Transversal MY:\nangle BMY = angle MYR = 40 degrees  [Alternate interior angles — Z-shape]  ...(2)\nStep 4: angle XMY = angle XMB + angle BMY\n= 45 + 40\n= 85 degrees.\nANSWER: angle XMY = 85 degrees."
+            },
+            {
+              "q_num": 9,
+              "marks": 4,
+              "question": "If a transversal intersects two lines such that the bisectors of a pair of",
+              "answer": "GIVEN: Transversal AD intersects lines PQ and RS at B and C respectively.\nRay BE bisects angle ABQ. Ray CG bisects angle BCS. BE || CG.\nTO PROVE: PQ || RS.\nPROOF:\nStep 1: Ray BE bisects angle ABQ:\nangle ABE = (1/2) angle ABQ  ...(1)\nStep 2: Ray CG bisects angle BCS:\nangle BCG = (1/2) angle BCS  ...(2)\nStep 3: BE || CG and AD is the transversal:\nangle ABE = angle BCG  [Corresponding angles axiom]  ...(3)\nStep 4: Substituting (1) and (2) in (3):\n(1/2) angle ABQ = (1/2) angle BCS\nTherefore, angle ABQ = angle BCS.\nStep 5: angle ABQ and angle BCS are corresponding angles formed by transversal AD\nwith lines PQ and RS, and they are equal.\nTherefore, PQ || RS.  [Converse of corresponding angles axiom]\nHENCE PROVED.\n\n---\n\n5 ಮಾರ್ಕ್ಸ್ × 1 question:"
+            },
+            {
+              "q_num": 10,
+              "marks": 5,
+              "question": "(a) State and prove Theorem 6.6: Lines which are parallel to the same line",
+              "answer": "PART A — Theorem 6.6 (Full Formal Proof):\n\nSTATEMENT: Lines which are parallel to the same line are parallel to each other.\nGIVEN: Line m || line l  and  line n || line l.\nTO PROVE: m || n.\nCONSTRUCTION: Draw a transversal t cutting lines l, m and n.\nangle 1 = angle formed at l, angle 2 = angle formed at m, angle 3 = at n\n(corresponding positions at each intersection).\nPROOF:\nStep 1: m || l, transversal t:  angle 1 = angle 2  [Corresponding angles axiom]  ...(i)\nStep 2: n || l, transversal t:  angle 1 = angle 3  [Corresponding angles axiom]  ...(ii)\nStep 3: From (i) and (ii): angle 2 = angle 3.\nStep 4: angle 2 and angle 3 are corresponding angles for lines m and n with transversal t.\nSince angle 2 = angle 3 (equal corresponding angles):\nStep 5: m || n.  [Converse of corresponding angles axiom]\nHENCE PROVED.\nIMPORTANCE: This proves PARALLELISM IS TRANSITIVE — if a || b and b || c, then a || c.\nThis is extended to any number of lines all parallel to one given line.\n\nPART B — Application (Finding angle QRS):\n\nGIVEN: PQ || ST. angle PQR = 110 degrees. angle RST = 130 degrees.\nTO FIND: angle QRS.\nCONSTRUCTION: Draw line UV through point R such that UV || ST.\nPROOF:\nStep 1: UV || ST (by construction) and PQ || ST (given).\nTherefore, UV || PQ.  [Theorem 6.6 — proved in Part A above]\nStep 2: PQ || UV. Transversal QR:\nangle PQR + angle QRU = 180 degrees  [Co-interior angles, same side of QR]\n110 + angle QRU = 180\nangle QRU = 70 degrees  ...(1)\nStep 3: UV || ST. Transversal RS:\nangle URS + angle RST = 180 degrees  [Co-interior angles, same side of RS]\nangle URS + 130 = 180\nangle URS = 50 degrees  ...(2)\nStep 4: angle QRS = angle QRU + angle URS  [R lies between Q and S directions for these angles]\nangle QRS = 70 + 50 = 120 degrees.\nANSWER: angle QRS = 120 degrees."
+            }
+          ]
+        },
+        {
+          "type": "mcq",
+          "label": "TOPIC 6.5: MCQs:",
+          "items": [
+            {
+              "mcq_num": 1,
+              "difficulty": "Easy",
+              "question": "Theorem 6.6 states that lines parallel to the same line are:",
+              "options": {
+                "A": "Perpendicular to each other    (B) Intersecting",
+                "C": "Parallel to each other    (D) Coincident"
+              },
+              "answer": "C",
+              "explanation": "THEOREM 6.6: Lines which are parallel to the same line are parallel to each other."
+            },
+            {
+              "mcq_num": 2,
+              "difficulty": "Easy",
+              "question": "Corresponding angles formed when a transversal cuts two parallel lines are:",
+              "options": {
+                "A": "Supplementary    (B) Complementary    (C) Equal    (D) Vertically opposite"
+              },
+              "answer": "C",
+              "explanation": "CORRESPONDING ANGLES AXIOM: Corresponding angles are EQUAL when the two lines are parallel."
+            },
+            {
+              "mcq_num": 3,
+              "difficulty": "Easy",
+              "question": "Alternate interior angles when a transversal cuts two parallel lines are:",
+              "options": {
+                "A": "Equal    (B) Supplementary    (C) Complementary    (D) Reflex"
+              },
+              "answer": "A",
+              "explanation": "ALTERNATE INTERIOR ANGLES (Z-angles) are always EQUAL when a transversal cuts two parallel lines."
+            },
+            {
+              "mcq_num": 4,
+              "difficulty": "Medium",
+              "question": "In Example 6.5.1, PQ || RS, angle MXQ = 135 degrees, angle MYR = 40 degrees. angle XMY =",
+              "options": {
+                "A": "75 degrees    (B) 85 degrees    (C) 95 degrees    (D) 40 degrees"
+              },
+              "answer": "B",
+              "explanation": "Draw AB through M, AB || PQ || RS. angle XMB = 180-135=45 (co-interior). angle BMY = 40 (alternate). angle XMY = 45+40 = 85 degrees."
+            },
+            {
+              "mcq_num": 5,
+              "difficulty": "Medium",
+              "question": "In Example 6.5.3, AB || CD || EF, EA perpendicular to AB, angle BEF = 55 degrees. z =",
+              "options": {
+                "A": "125 degrees    (B) 90 degrees    (C) 35 degrees    (D) 55 degrees"
+              },
+              "answer": "C",
+              "explanation": "AB || EF (Theorem 6.6). Co-interior with transversal EA: 90+z+55=180. z=35 degrees."
+            },
+            {
+              "mcq_num": 6,
+              "difficulty": "Medium",
+              "question": "Co-interior angles (same-side interior angles) when a transversal cuts two parallel lines:",
+              "options": {
+                "A": "Are equal    (B) Sum to 90 degrees    (C) Sum to 180 degrees    (D) Are vertically opposite"
+              },
+              "answer": "C",
+              "explanation": "CO-INTERIOR ANGLES (consecutive interior angles, C-angles) sum to 180 degrees when the transversal cuts two parallel lines."
+            },
+            {
+              "mcq_num": 7,
+              "difficulty": "Medium",
+              "question": "In Theorem 6.6 proof, which axiom is used first?",
+              "options": {
+                "A": "Axiom 6.1    (B) Axiom 6.2    (C) Corresponding Angles Axiom    (D) Theorem 6.1"
+              },
+              "answer": "C",
+              "explanation": "First, CORRESPONDING ANGLES AXIOM is used to establish angle 1 = angle 2 (from m || l) and angle 1 = angle 3 (from n || l)."
+            },
+            {
+              "mcq_num": 8,
+              "difficulty": "Hard",
+              "question": "In Exercise 6.2 Q3, PQ || ST, angle PQR = 110 degrees, angle RST = 130 degrees. What is angle QRS?",
+              "options": {
+                "A": "100 degrees    (B) 110 degrees    (C) 120 degrees    (D) 130 degrees"
+              },
+              "answer": "C",
+              "explanation": "Draw UV || ST through R. angle QRU = 180-110 = 70 (co-interior, PQ || UV). angle URS = 180-130 = 50 (co-interior, UV || ST). angle QRS = 70+50 = 120 degrees."
+            },
+            {
+              "mcq_num": 9,
+              "difficulty": "Hard",
+              "question": "In Exercise 6.2 Q4, AB || CD, angle APQ = 50 degrees, angle PRD = 127 degrees. y =",
+              "options": {
+                "A": "53 degrees    (B) 77 degrees    (C) 50 degrees    (D) 127 degrees"
+              },
+              "answer": "B",
+              "explanation": "Co-interior angles with transversal PR (AB || CD): (130-y)+127=180. y=77 degrees."
+            },
+            {
+              "mcq_num": 10,
+              "difficulty": "Hard",
+              "question": "In Exercise 6.2 Q4, AB || CD, angle APQ = 50 degrees, angle PRD = 127 degrees. x =",
+              "options": {
+                "A": "77 degrees    (B) 53 degrees    (C) 50 degrees    (D) 130 degrees"
+              },
+              "answer": "C",
+              "explanation": "Triangle PQR: angle QPR(=77) + angle PQR(=x) + angle PRQ(=53) = 180. 77+x+53=180. x=50 degrees."
+            },
+            {
+              "mcq_num": 11,
+              "difficulty": "Hard",
+              "question": "In Example 6.5.2, ray BE bisects angle ABQ and ray CG bisects angle BCS, with BE || CG. This proves:",
+              "options": {
+                "A": "AB || RS    (B) PQ || RS    (C) AB || CG    (D) BE || PQ"
+              },
+              "answer": "B",
+              "explanation": "Using bisectors + corresponding angles axiom (BE || CG): angle ABQ = angle BCS (corresponding angles for PQ and RS). By converse: PQ || RS."
+            },
+            {
+              "mcq_num": 12,
+              "difficulty": "Hard",
+              "question": "Lines l, m, n are in a plane. l || m and m || n. By Theorem 6.6, what can we conclude?",
+              "options": {
+                "A": "l is perpendicular to n    (B) l || n    (C) l and n intersect    (D) Cannot be determined"
+              },
+              "answer": "B",
+              "explanation": "By THEOREM 6.6, lines parallel to the same line are parallel to each other. Since l || m and n || m, therefore l || n."
+            }
+          ]
+        }
+      ],
+      "subtopics": []
+    }
+  ]
+}

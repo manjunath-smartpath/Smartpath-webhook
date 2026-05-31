@@ -1,0 +1,1621 @@
+{
+  "metadata": {
+    "class": "10th STANDARD",
+    "subject": "Mathematics",
+    "part": "1",
+    "chapter_num": "5",
+    "chapter_name": "ARITHMETIC PROGRESSIONS",
+    "source": "KSEEB Textbook 2025-26",
+    "mode": "B"
+  },
+  "chapter_sections": [
+    {
+      "type": "definition",
+      "label": "Definition:",
+      "text": "An ARITHMETIC PROGRESSION (AP) is a list of numbers in which each term is obtained by adding a fixed number to the preceding term, except the first term. This fixed number is called the COMMON DIFFERENCE (d). The general form is: a, a+d, a+2d, a+3d, ..."
+    },
+    {
+      "type": "key_points",
+      "label": "Key Points:",
+      "points": [
+        "Each number in the list is called a TERM.",
+        "The common difference d can be positive, negative, or zero.",
+        "To find d: subtract any term from its immediately following term (d = a_(k+1) - a_k).",
+        "A FINITE AP has a last term; an INFINITE ARITHMETIC PROGRESSION has no last term.",
+        "To fully describe an AP, we need to know the first term (a) and the common difference (d).",
+        "If there are m terms, the last term is denoted by l = a_m = a + (m-1)d.",
+        "The nth term: a_n = a + (n-1)d.",
+        "Sum of first n terms: S_n = (n/2)[2a + (n-1)d] = (n/2)(a + l).",
+        "Arithmetic Mean: If a, b, c are in AP, then b = (a+c)/2."
+      ]
+    },
+    {
+      "type": "list_of_topics",
+      "label": "LIST OF TOPICS IN THIS CHAPTER:",
+      "items": [
+        "- Topic 5.1: Introduction",
+        "- Topic 5.2: Arithmetic Progressions",
+        "- Topic 5.3: nth Term of an AP",
+        "- Topic 5.4: Sum of First n Terms of an AP"
+      ]
+    },
+    {
+      "type": "qa",
+      "label": "CHAPTER 5: Q&A:",
+      "items": []
+    },
+    {
+      "type": "formulas",
+      "label": "FORMULA 1 (when a and d are known):",
+      "items": [
+        "S_n = (n/2) [2a + (n - 1)d]"
+      ]
+    },
+    {
+      "type": "formulas",
+      "label": "FORMULA 2 (when first term a and last term l are known):",
+      "items": [
+        "S_n = (n/2) (a + l)",
+        "WHERE:",
+        "S_n = sum of first n terms,  a = first term,  d = common difference,",
+        "l = last term,  n = number of terms.",
+        "Special case: Sum of first n positive integers = n(n + 1)/2.",
+        "---",
+        "Q4 [2 Marks]: What is the difference between a FINITE AP and an INFINITE ARITHMETIC PROGRESSION? Give one example of each.",
+        "A4:",
+        "FINITE AP: Has a last term.",
+        "Example: 147, 148, 149, ..., 157. (Ends at 157.)",
+        "INFINITE ARITHMETIC PROGRESSION: Has no last term; goes on forever.",
+        "Example: 1, 2, 3, 4, ... (Continues indefinitely.)",
+        "Also: If a, b, c are in AP, then b = (a+c)/2 and b is called the ARITHMETIC MEAN of a and c.",
+        "---",
+        "3 ಮಾರ್ಕ್ಸ್ × 3 questions:",
+        "---",
+        "Q5 [3 Marks]: Which term of the AP: 21, 18, 15, ... is -81? Also check whether any term of this AP is 0.",
+        "A5:",
+        "Given: AP = 21, 18, 15, ...",
+        "Step 1: a = 21, d = 18 - 21 = -3.",
+        "Step 2: Set a_n = -81.",
+        "-81 = 21 + (n - 1)(-3)",
+        "-81 - 21 = -3(n - 1)",
+        "-102 = -3(n - 1)",
+        "n - 1 = 34  →  n = 35.",
+        "The 35th term is -81.",
+        "Step 3: Check if any term = 0.",
+        "0 = 21 + (n - 1)(-3)  →  3(n - 1) = 21  →  n = 8.",
+        "The 8th term is 0. (Terms before 8th are positive; terms after 8th are negative.)",
+        "---",
+        "Q6 [3 Marks]: Check whether -150 is a term of the AP: 11, 8, 5, 2, ...",
+        "A6:",
+        "Given: a = 11, d = 8 - 11 = -3.",
+        "Step 1: Set a_n = -150.",
+        "-150 = 11 + (n - 1)(-3)",
+        "-161 = -3(n - 1)",
+        "n - 1 = 161/3",
+        "Step 2: 161/3 is NOT a whole number.",
+        "Since n must be a positive integer, -150 is NOT a term of the given AP.",
+        "---",
+        "Q7 [3 Marks]: The 3rd term of an AP is 5 and its 7th term is 9. Find the AP.",
+        "A7:",
+        "Step 1: a + 2d = 5  ...(1)",
+        "a + 6d = 9  ...(2)",
+        "Step 2: Subtract (1) from (2):",
+        "4d = 4  →  d = 1.",
+        "Step 3: From (1): a + 2 = 5  →  a = 3.",
+        "The AP is: 3, 4, 5, 6, 7, ...",
+        "---",
+        "4 ಮಾರ್ಕ್ಸ್ × 4 questions:",
+        "---",
+        "Q8 [4 Marks]: A sum of Rs. 1000 is invested at 8% simple interest per year. Do the interests at the end of each year form an AP? If so, find the interest at the end of 30 years.",
+        "A8:",
+        "Given: P = Rs. 1000, R = 8%.  Simple Interest = PRT/100.",
+        "Step 1: Interest each year.",
+        "Year 1: (1000 × 8 × 1)/100 = Rs. 80",
+        "Year 2: (1000 × 8 × 2)/100 = Rs. 160",
+        "Year 3: (1000 × 8 × 3)/100 = Rs. 240",
+        "Step 2: Check AP.",
+        "160 - 80 = 80;  240 - 160 = 80. Common difference d = 80. YES — AP with a = 80, d = 80.",
+        "Step 3: Interest at end of 30 years.",
+        "a_30 = 80 + (30 - 1) × 80",
+        "= 80 + 29 × 80",
+        "= 80 + 2320",
+        "= Rs. 2400.",
+        "The interest at the end of 30 years is Rs. 2400.",
+        "---",
+        "Q9 [4 Marks]: In a flower bed, there are 23 rose plants in the first row, 21 in the second, 19 in the third, and so on. There are 5 rose plants in the last row. Find the number of rows and the total number of rose plants.",
+        "A9:",
+        "Row counts form AP: 23, 21, 19, ..., 5.",
+        "Step 1: a = 23, d = -2, l = 5.",
+        "Step 2: Find number of rows n.",
+        "5 = 23 + (n - 1)(-2)",
+        "-18 = -2(n - 1)",
+        "n - 1 = 9  →  n = 10.",
+        "There are 10 rows.",
+        "Step 3: Total rose plants = S_10 = (10/2)(23 + 5) = 5 × 28 = 140.",
+        "Step 4: Verify.",
+        "S_10 = (10/2)[2×23 + 9×(-2)] = 5[46 - 18] = 5 × 28 = 140 ✓.",
+        "Total rose plants = 140.",
+        "---",
+        "Q10 [4 Marks]: A manufacturer of TV sets produced 600 sets in the 3rd year and 700 sets in the 7th year. Find: (i) production in year 1, (ii) production in year 10, (iii) total production in first 7 years.",
+        "A10:",
+        "Step 1: a + 2d = 600  ...(1);   a + 6d = 700  ...(2).",
+        "Step 2: (2) - (1): 4d = 100  →  d = 25.",
+        "From (1): a = 600 - 50 = 550.",
+        "(i) Production in year 1 = 550 TV sets.",
+        "Step 3: a_10 = 550 + 9 × 25 = 550 + 225 = 775 TV sets.",
+        "(ii) Production in year 10 = 775 TV sets.",
+        "Step 4: S_7 = (7/2)[2×550 + 6×25] = (7/2)[1100 + 150] = (7/2) × 1250 = 4375 TV sets.",
+        "(iii) Total production in first 7 years = 4375 TV sets.",
+        "---",
+        "Q11 [4 Marks]: Ramkali saved Rs. 5 in the first week of a year and increased her weekly savings by Rs. 1.75. In which week did her savings become Rs. 20.75? Also find her total savings up to that week.",
+        "A11:",
+        "AP: a = 5, d = 1.75, a_n = 20.75.",
+        "Step 1: Find n.",
+        "20.75 = 5 + (n - 1) × 1.75",
+        "15.75 = 1.75(n - 1)",
+        "n - 1 = 9  →  n = 10.",
+        "Her savings became Rs. 20.75 in the 10th week.",
+        "Step 2: Total savings up to week 10.",
+        "S_10 = (10/2)(5 + 20.75) = 5 × 25.75 = Rs. 128.75.",
+        "Total savings up to the 10th week = Rs. 128.75.",
+        "---",
+        "5 ಮಾರ್ಕ್ಸ್ × 1 question:",
+        "---",
+        "Q12 [5 Marks]:",
+        "PART A: How many terms of the AP: 24, 21, 18, ... must be taken so that their sum is 78?",
+        "Explain why there are two answers.",
+        "PART B: The sum of the first n terms of an AP is S_n = 4n - n^2. Find the first term, second term, common difference, and the nth term. Verify using the AP formula.",
+        "A12:",
+        "PART A — Number of terms whose sum is 78:",
+        "Given: a = 24, d = -3, S_n = 78.",
+        "Step 1: S_n = (n/2)[2a + (n - 1)d].",
+        "78 = (n/2)[48 + (n - 1)(-3)]",
+        "78 = (n/2)[51 - 3n]",
+        "156 = n(51 - 3n) = 51n - 3n^2.",
+        "Step 2: Rearrange.",
+        "3n^2 - 51n + 156 = 0  →  n^2 - 17n + 52 = 0.",
+        "Step 3: Factorise.",
+        "(n - 4)(n - 13) = 0  →  n = 4 or n = 13.",
+        "Both are valid positive integers.",
+        "Step 4: Reason for two answers.",
+        "AP terms: 24, 21, 18, 15, 12, 9, 6, 3, 0, -3, -6, -9, -12, ...",
+        "From the 10th term onwards, terms are negative. These negative terms cancel earlier",
+        "positive terms, so S_4 = S_13 = 78.",
+        "Verification:",
+        "S_4  = (4/2)[48 + 3(-3)] = 2 × 39 = 78 ✓",
+        "S_13 = (13/2)[48 + 12(-3)] = (13/2) × 12 = 78 ✓",
+        "---",
+        "PART B — Finding terms from S_n = 4n - n^2:",
+        "Step 1: First term = S_1 = 4(1) - 1^2 = 3.",
+        "Step 2: S_2 = 4(2) - 4 = 4.  Second term = S_2 - S_1 = 4 - 3 = 1.",
+        "Step 3: Common difference d = 1 - 3 = -2.",
+        "Step 4: nth term using a_n = S_n - S_(n-1).",
+        "S_(n-1) = 4(n-1) - (n-1)^2 = 4n - 4 - n^2 + 2n - 1 = -n^2 + 6n - 5.",
+        "a_n = (4n - n^2) - (-n^2 + 6n - 5) = 5 - 2n.",
+        "Check n=1: a_1 = 5 - 2 = 3 ✓.",
+        "Step 5: Verify using a_n = a + (n-1)d.",
+        "a_n = 3 + (n-1)(-2) = 3 - 2n + 2 = 5 - 2n ✓.",
+        "Summary:",
+        "First term = 3,  Second term = 1,  d = -2,  nth term = 5 - 2n.",
+        "AP: 3, 1, -1, -3, ..."
+      ]
+    },
+    {
+      "type": "mcq",
+      "label": "CHAPTER 5: MCQs:",
+      "items": [
+        {
+          "mcq_num": 1,
+          "difficulty": "Easy",
+          "question": "The formula for the nth term of an AP with first term a and common difference d is:",
+          "options": {
+            "A": "a_n = a - (n-1)d   (B) a_n = a + nd   (C) a_n = a + (n-1)d   (D) a_n = na + d"
+          },
+          "answer": "C",
+          "explanation": "a_n = a + (n-1)d is derived by adding d repeatedly: a, a+d, a+2d, ..., a+(n-1)d."
+        },
+        {
+          "mcq_num": 2,
+          "difficulty": "Easy",
+          "question": "The sum of first n positive integers is:",
+          "options": {
+            "A": "n(n-1)/2   (B) n(n+1)/2   (C) (n+1)(n+2)/2   (D) n^2"
+          },
+          "answer": "B",
+          "explanation": "Sum of first n positive integers = n(n+1)/2. For n=10: 10×11/2 = 55."
+        },
+        {
+          "mcq_num": 3,
+          "difficulty": "Medium",
+          "question": "For the AP 8, 3, -2, ..., the sum of the first 22 terms is:",
+          "options": {
+            "A": "979   (B) -979   (C) -770   (D) 770"
+          },
+          "answer": "B",
+          "explanation": "S_22 = (22/2)[16 + 21×(-5)] = 11[16-105] = 11×(-89) = -979"
+        },
+        {
+          "mcq_num": 4,
+          "difficulty": "Medium",
+          "question": "A manufacturer produced 600 TV sets in year 3 and 700 in year 7. The production in year 1 is:",
+          "options": {
+            "A": "500   (B) 525   (C) 550   (D) 575"
+          },
+          "answer": "C",
+          "explanation": "a+2d=600, a+6d=700 → 4d=100 → d=25 → a=550"
+        },
+        {
+          "mcq_num": 5,
+          "difficulty": "Hard",
+          "question": "If the sum of first 7 terms of an AP is 49 and that of 17 terms is 289, then S_n =",
+          "options": {
+            "A": "n^2+n   (B) 2n^2   (C) n^2   (D) n(n+1)"
+          },
+          "answer": "C",
+          "explanation": "a+3d=7, a+8d=17 → d=2, a=1 → S_n = n^2"
+        },
+        {
+          "mcq_num": 6,
+          "difficulty": "Hard",
+          "question": "In the AP 21, 18, 15, ..., which term is the first negative term?",
+          "options": {
+            "A": "7th   (B) 8th   (C) 9th   (D) 10th"
+          },
+          "answer": "C",
+          "explanation": "a_n < 0: 21+(n-1)(-3) < 0 → 24-3n < 0 → n > 8 → first negative at n = 9; a_9 = 21+8×(-3) = -3"
+        }
+      ]
+    }
+  ],
+  "topics": [
+    {
+      "topic_num": "5.1",
+      "topic_name": "INTRODUCTION",
+      "mode": "B",
+      "sections": [
+        {
+          "type": "definition",
+          "label": "Definition:",
+          "text": "The introduction presents real-life situations that generate lists of numbers following a pattern. This chapter focuses on the pattern where each succeeding term is obtained by adding a fixed number to the preceding term."
+        },
+        {
+          "type": "key_points",
+          "label": "Key Points:",
+          "points": [
+            "Many things in nature and daily life follow patterns.",
+            "In this chapter, we study patterns where a fixed number is added each time.",
+            "Examples of such sequences from daily life:",
+            "(i) Reena's salary: 8000, 8500, 9000, ... (fixed addition: +500 each year)",
+            "(ii) Ladder rungs: 45, 43, 41, ..., 31 (fixed addition: -2 each rung)",
+            "(iii) Investment: 10000, 12500, 15625, ... (NOT fixed addition — multiplied by 5/4)",
+            "(iv) Unit squares: 1^2, 2^2, 3^2, ... (NOT fixed addition — squares of consecutive numbers)",
+            "(v) Shakila's savings: 100, 150, 200, 250, ... (fixed addition: +50 each year)",
+            "(vi) Rabbit pairs: 1, 1, 2, 3, 5, 8 (NOT fixed addition — Fibonacci: each term = sum of two preceding)",
+            "This chapter will also teach: (1) how to find nth term, (2) how to find sum of n terms."
+          ]
+        },
+        {
+          "type": "list_of_topics",
+          "label": "LIST OF SUB TOPICS IN THIS TOPIC:",
+          "items": [
+            "(No sub-topics — Mode B: Introduction topic only)"
+          ]
+        },
+        {
+          "type": "qa",
+          "label": "TOPIC 5.1: Q&A:",
+          "items": []
+        },
+        {
+          "type": "qa",
+          "label": "Q&A",
+          "items": [
+            {
+              "q_num": 1,
+              "marks": 2,
+              "question": "In the introduction examples, which sequences follow the fixed-addition pattern and which do not?",
+              "answer": "Fixed-addition pattern (AP type):\n(i)  Reena's salary: 8000, 8500, 9000, ... (add Rs. 500 each year)\n(ii) Ladder rungs: 45, 43, 41, ... (add -2 each rung)\n(v)  Shakila's savings: 100, 150, 200, ... (add Rs. 50 each year)\n\nNOT fixed-addition:\n(iii) Investment: 10000, 12500, 15625, ... (multiplied by 5/4 — geometric)\n(vi)  Rabbit pairs: 1, 1, 2, 3, 5, 8 (each term = sum of previous two — Fibonacci)\n\n---"
+            },
+            {
+              "q_num": 2,
+              "marks": 2,
+              "question": "Reena's starting salary is Rs. 8000 with an annual increment of Rs. 500. What is her salary in the 5th year?",
+              "answer": "AP: a = 8000, d = 500.\n\nSalary in 5th year = a + (5 - 1) × d\n= 8000 + 4 × 500\n= Rs. 10,000.\n\n---"
+            },
+            {
+              "q_num": 3,
+              "marks": 2,
+              "question": "What are the two main things studied about patterns in this chapter?",
+              "answer": "This chapter studies Arithmetic Progressions — sequences where each term is obtained by\nadding a fixed number to the preceding term.\n\nTwo main things:\n1. How to find the nth term of such a sequence.\n2. How to find the sum of n consecutive terms.\n\nThese are used to solve daily life problems.\n\n---"
+            },
+            {
+              "q_num": 4,
+              "marks": 2,
+              "question": "The sequence of unit squares is 1, 4, 9, 16, ... Does this follow the fixed-addition pattern? Give reason.",
+              "answer": "No. Differences: 4-1 = 3; 9-4 = 5; 16-9 = 7.\nThe differences are NOT equal (3 ≠ 5 ≠ 7).\n\nEach term is the square of the side length (1^2, 2^2, 3^2, ...).\nThis is NOT an AP — it does not follow the fixed-addition pattern.\n\n---\n\n3 ಮಾರ್ಕ್ಸ್ × 3 questions:\n\n---"
+            },
+            {
+              "q_num": 5,
+              "marks": 3,
+              "question": "The lengths of rungs of a ladder decrease from 45 cm at the bottom to 31 cm at the top, each decreasing by 2 cm. Find the number of rungs and the total length of all rungs.",
+              "answer": "Rung lengths: 45, 43, 41, ..., 31. AP with a = 45, d = -2, l = 31.\n\nStep 1: Find n.\n31 = 45 + (n - 1)(-2)  →  -14 = -2(n-1)  →  n = 8.\n\nThere are 8 rungs.\n\nStep 2: Total length = S_8 = (8/2)(45 + 31) = 4 × 76 = 304 cm.\n\n---"
+            },
+            {
+              "q_num": 6,
+              "marks": 3,
+              "question": "Shakila puts Rs. 100 into her daughter's money box on the 1st birthday and increases by Rs. 50 every year. How much total money is in the box by the 21st birthday?",
+              "answer": "AP: a = 100, d = 50, n = 21.\n\nStep 1: Last term (21st year) = 100 + 20 × 50 = Rs. 1100.\n\nStep 2: S_21 = (21/2)(100 + 1100) = (21/2) × 1200 = 21 × 600 = Rs. 12,600.\n\nTotal amount collected by 21st birthday = Rs. 12,600.\n\n---"
+            },
+            {
+              "q_num": 7,
+              "marks": 3,
+              "question": "In the savings scheme, the investment of Rs. 8000 becomes Rs. 10000 after 3 years, Rs. 12500 after 6 years, Rs. 15625 after 9 years. Does this form an AP? Compare with Shakila's savings.",
+              "answer": "Investment sequence: 10000, 12500, 15625, ...\nDifferences: 12500 - 10000 = 2500;  15625 - 12500 = 3125. NOT equal.\n\nThis is NOT an AP. Each term is multiplied by 5/4 (geometric pattern).\n\nComparison with Shakila's savings (100, 150, 200, ...):\nDifferences: 150-100 = 50; 200-150 = 50. Equal. This IS an AP with d = 50.\n\nBoth start with real-life money contexts, but Shakila's follows a fixed-addition (AP) pattern\nwhereas the investment follows a fixed-multiplication (geometric) pattern.\n\n---\n\n4 ಮಾರ್ಕ್ಸ್ × 4 questions:\n\n---"
+            },
+            {
+              "q_num": 8,
+              "marks": 4,
+              "question": "A person's monthly salary is Rs. 12000 in year 1 and increases by Rs. 800 every year. (i) Write first four terms. (ii) Does this follow the AP pattern? (iii) In which year does salary reach Rs. 20000? (iv) What is total salary in first 10 years?",
+              "answer": "AP: a = 12000, d = 800.\n\n(i) First four terms: 12000, 12800, 13600, 14400.\n\n(ii) Yes — each term obtained by adding Rs. 800. This IS an AP with d = 800.\n\n(iii) Find n when a_n = 20000.\n20000 = 12000 + (n-1) × 800\n8000 = 800(n-1)  →  n-1 = 10  →  n = 11.\nSalary reaches Rs. 20000 in the 11th year.\n\n(iv) S_10 = (10/2)[2×12000 + 9×800] = 5[24000 + 7200] = 5 × 31200 = Rs. 1,56,000.\n\n---"
+            },
+            {
+              "q_num": 9,
+              "marks": 4,
+              "question": "The lengths of poles in a fence are 50, 47, 44, 41, ... cm. (i) Find a and d. (ii) Is this an AP? (iii) Find the 15th pole length. (iv) Which pole has length 2 cm?",
+              "answer": "(i) a = 50, d = 47 - 50 = -3.\n\n(ii) Differences: 47-50=-3; 44-47=-3; 41-44=-3. Constant → YES, AP with d = -3.\n\n(iii) a_15 = 50 + (15-1)(-3) = 50 - 42 = 8 cm.\n\n(iv) a_n = 2:\n2 = 50 + (n-1)(-3)  →  -48 = -3(n-1)  →  n-1 = 16  →  n = 17.\nThe 17th pole has length 2 cm.\n\n---"
+            },
+            {
+              "q_num": 10,
+              "marks": 4,
+              "question": "A rabbit population starts as: 1, 1, 2, 3, 5, 8 (pairs at start of months 1-6). Compare this with the AP 1, 2, 3, 4, 5, 6, ... Show which is an AP and which is not. For the AP, find the 20th term and sum of first 20 terms.",
+              "answer": "Rabbit sequence: 1, 1, 2, 3, 5, 8:\nDifferences: 0, 1, 1, 2, 3 — NOT constant. NOT an AP.\n\nSequence 1, 2, 3, 4, ...:\nDifferences: 1, 1, 1, ... — constant with d = 1. IS an AP with a = 1.\n\nFor AP 1, 2, 3, ...:\n\nStep 1: 20th term.\na_20 = 1 + 19 × 1 = 20.\n\nStep 2: S_20 = (20/2)(1 + 20) = 10 × 21 = 210.\n\nThe 20th term = 20 and sum of first 20 terms = 210.\n\n---"
+            },
+            {
+              "q_num": 11,
+              "marks": 4,
+              "question": "Reena's salary is Rs. 8000 with annual increment Rs. 500. Subba Rao's salary is Rs. 5000 with annual increment Rs. 200 (starting 1995). Find: (i) Reena's salary in 15th year. (ii) Subba Rao's salary when it reaches Rs. 7000. (iii) Who earns more in the 10th year?",
+              "answer": "Reena: a = 8000, d = 500.\nSubba Rao: a = 5000, d = 200.\n\n(i) Reena's 15th year salary.\na_15 = 8000 + 14 × 500 = 8000 + 7000 = Rs. 15,000.\n\n(ii) Subba Rao reaches Rs. 7000.\n7000 = 5000 + (n-1) × 200  →  2000 = 200(n-1)  →  n = 11.\nYear = 1995 + 10 = 2005.\n\n(iii) 10th year comparison.\nReena: a_10 = 8000 + 9×500 = Rs. 12,500.\nSubba Rao: a_10 = 5000 + 9×200 = Rs. 6,800.\nReena earns more in the 10th year.\n\n---\n\n5 ಮಾರ್ಕ್ಸ್ × 1 question:\n\n---"
+            },
+            {
+              "q_num": 12,
+              "marks": 5,
+              "question": "",
+              "answer": "PART A:\n\nStep 1: Show 10000, 12500, 15625, ... is NOT an AP.\nDifferences: 12500 - 10000 = 2500;  15625 - 12500 = 3125.\n2500 ≠ 3125. Differences are NOT equal. NOT an AP.\n(Each term is multiplied by 5/4 — this is a geometric progression.)\n\nStep 2: Show 8000, 8500, 9000, ... IS an AP.\nDifferences: 8500-8000=500; 9000-8500=500. Constant d = 500. IS an AP.\n\nStep 3: Find when Reena's salary = Rs. 15000.\nAP: a = 8000, d = 500, a_n = 15000.\n15000 = 8000 + (n-1) × 500\n7000 = 500(n-1)\nn - 1 = 14  →  n = 15.\nReena's salary reaches Rs. 15000 in the 15th year.\n\n---\n\nPART B:\n\nStep 1: Total in Shakila's money box by 21st birthday.\nAP: 100, 150, 200, ..., a = 100, d = 50, n = 21.\nLast term = 100 + 20×50 = Rs. 1100.\nS_21 = (21/2)(100 + 1100) = (21/2) × 1200 = Rs. 12,600.\n\nStep 2: Student's savings — find week when saving first exceeds Rs. 21.\nAP: a = 5, d = 2.\na_n > 21:\n5 + (n-1) × 2 > 21  →  2(n-1) > 16  →  n-1 > 8  →  n > 9  →  n = 10.\nWeek 10: a_10 = 5 + 9×2 = Rs. 23 (first time exceeding Rs. 21).\n\nStep 3: Total savings up to week 10.\nS_10 = (10/2)(5 + 23) = 5 × 28 = Rs. 140.\n\nSummary:\nShakila's total by 21st birthday = Rs. 12,600.\nStudent's savings first exceed Rs. 21 in week 10 (Rs. 23).\nTotal savings up to week 10 = Rs. 140."
+            }
+          ]
+        },
+        {
+          "type": "mcq",
+          "label": "MCQ",
+          "items": [
+            {
+              "mcq_num": 1,
+              "difficulty": "Easy",
+              "question": "In the sequence 8000, 8500, 9000, ..., what fixed number is added each time?",
+              "options": {
+                "A": "400   (B) 500   (C) 600   (D) 1000"
+              },
+              "answer": "B",
+              "explanation": "8000, 8500, 9000 — each term increases by 500. The fixed number added each time = 500."
+            },
+            {
+              "mcq_num": 2,
+              "difficulty": "Easy",
+              "question": "The lengths of rungs of a ladder from bottom to top are 45, 43, 41, ... The fixed number added each time is:",
+              "options": {
+                "A": "2   (B) -2   (C) 3   (D) -3"
+              },
+              "answer": "B",
+              "explanation": "45, 43, 41, 39, ... — each rung is 2 cm shorter. Common difference = -2 (fixed subtraction)."
+            },
+            {
+              "mcq_num": 3,
+              "difficulty": "Easy",
+              "question": "Shakila puts Rs. 100 in her daughter's box in year 1, then increases by Rs. 50 every year. The amount on the 3rd birthday is:",
+              "options": {
+                "A": "Rs. 150   (B) Rs. 200   (C) Rs. 250   (D) Rs. 300"
+              },
+              "answer": "B",
+              "explanation": "Rs.100, Rs.150, Rs.200, ... — each year Rs.50 is added. Fixed addition = Rs.50 makes it an AP."
+            },
+            {
+              "mcq_num": 4,
+              "difficulty": "Easy",
+              "question": "Which of the following sequences has each term obtained by adding a fixed number to the preceding term?",
+              "options": {
+                "A": "1, 4, 9, 16, ...   (B) 2, 4, 8, 16, ...   (C) 3, 6, 9, 12, ...   (D) 1, 1, 2, 3, 5, ..."
+              },
+              "answer": "C",
+              "explanation": "An AP requires a FIXED number to be added each time. Option (C) has a non-constant difference."
+            },
+            {
+              "mcq_num": 5,
+              "difficulty": "Easy",
+              "question": "In the rabbit problem, the number of pairs at the start of the 6th month is:",
+              "options": {
+                "A": "5   (B) 6   (C) 7   (D) 8"
+              },
+              "answer": "D",
+              "explanation": "In the rabbit problem, the sequence 1, 1, 2, 3, 5, 8 — the difference between consecutive terms changes each time, so it is NOT an AP."
+            },
+            {
+              "mcq_num": 6,
+              "difficulty": "Medium",
+              "question": "A savings scheme where an amount becomes 5/4 times itself after every 3 years. Starting with Rs. 8000, the amount after 6 years is:",
+              "options": {
+                "A": "Rs. 10000   (B) Rs. 12500   (C) Rs. 15625   (D) Rs. 11000"
+              },
+              "answer": "B",
+              "explanation": "If an amount becomes 5/4 times each year, it is being multiplied by 5/4 — not having a fixed amount ADDED. This is a geometric progression, not an AP."
+            },
+            {
+              "mcq_num": 7,
+              "difficulty": "Medium",
+              "question": "The sequence 45, 43, 41, 39, 37, 35, 33, 31 represents lengths of rungs. How many rungs are there?",
+              "options": {
+                "A": "7   (B) 8   (C) 9   (D) 10"
+              },
+              "answer": "B",
+              "explanation": "Rungs: 45, 43, 41, ..., 31 — difference = -2. This is the AP representing rung lengths from bottom to top."
+            },
+            {
+              "mcq_num": 8,
+              "difficulty": "Medium",
+              "question": "Which sequence does NOT follow the pattern of adding a fixed number?",
+              "options": {
+                "A": "8000, 8500, 9000, ...   (B) 45, 43, 41, ...   (C) 10000, 12500, 15625, ...   (D) 100, 150, 200, ..."
+              },
+              "answer": "C",
+              "explanation": "A sequence where a fixed number is added each time forms an AP. The sequence that multiplies or adds varying amounts does NOT follow an AP pattern."
+            },
+            {
+              "mcq_num": 9,
+              "difficulty": "Medium",
+              "question": "In Shakila's sequence 100, 150, 200, 250, ..., the amount on the 5th birthday will be:",
+              "options": {
+                "A": "Rs. 300   (B) Rs. 350   (C) Rs. 400   (D) Rs. 450"
+              },
+              "answer": "A",
+              "explanation": "Shakila's sequence: 100, 150, 200, 250 — adding Rs.50 each year. In year n, amount = 100 + (n-1)×50. Year 5: 100 + 4×50 = Rs.300."
+            },
+            {
+              "mcq_num": 10,
+              "difficulty": "Medium",
+              "question": "Which sequence from the introduction involves subtracting a fixed number to get the next term?",
+              "options": {
+                "A": "Salary 8000, 8500, ...   (B) Investment 10000, 12500, ...   (C) Ladder rungs 45, 43, ...   (D) Savings 100, 150, ..."
+              },
+              "answer": "C",
+              "explanation": "Rung lengths 45, 43, 41, ... decrease by 2 each time — a fixed number is SUBTRACTED, making this the sequence from the introduction with a negative common difference."
+            },
+            {
+              "mcq_num": 11,
+              "difficulty": "Medium",
+              "question": "The number of unit squares in a square of side 4 units is:",
+              "options": {
+                "A": "8   (B) 12   (C) 16   (D) 20"
+              },
+              "answer": "C",
+              "explanation": "A square of side 4 units contains 4² = 16 unit squares. The sequence 1, 4, 9, 16, ... represents n² — differences are not fixed, so NOT an AP."
+            },
+            {
+              "mcq_num": 12,
+              "difficulty": "Hard",
+              "question": "In Reena's salary example (a = Rs. 8000, d = Rs. 500), her salary in the 10th year is:",
+              "options": {
+                "A": "Rs. 12000   (B) Rs. 12500   (C) Rs. 13000   (D) Rs. 11500"
+              },
+              "answer": "B",
+              "explanation": "a_10 = 8000 + 9×500 = 8000 + 4500 = 12500"
+            },
+            {
+              "mcq_num": 13,
+              "difficulty": "Hard",
+              "question": "The rabbit sequence 1, 1, 2, 3, 5, 8 is different from the other sequences because:",
+              "options": {
+                "A": "It has only 6 terms",
+                "B": "Each term is the product of the two preceding terms",
+                "C": "Each term is the sum of the two preceding terms, not a fixed addition",
+                "D": "The first two terms are equal"
+              },
+              "answer": "C",
+              "explanation": "The rabbit sequence 1,1,2,3,5,8 (Fibonacci) adds two PREVIOUS terms each time — this is NOT the same as adding a fixed number. It is not an AP."
+            },
+            {
+              "mcq_num": 14,
+              "difficulty": "Hard",
+              "question": "A person's salary starts at Rs. 15000 with an increment of Rs. 1200 per year. In which year will it first exceed Rs. 20000?",
+              "options": {
+                "A": "4th year   (B) 5th year   (C) 6th year   (D) 7th year"
+              },
+              "answer": "C",
+              "explanation": "15000 + (n-1)×1200 > 20000 → (n-1) > 5000/1200 = 4.17 → n > 5.17 → n = 6"
+            },
+            {
+              "mcq_num": 15,
+              "difficulty": "Hard",
+              "question": "The sequence 1, 4, 9, 16, 25 (unit squares) has differences 3, 5, 7, 9. Which statements are true?",
+              "options": {
+                "A": "1, 4, 9, 16, 25 is an AP   (B) 1, 4, 9, 16, 25 is NOT an AP; but 3, 5, 7, 9 IS an AP",
+                "C": "Both sequences are APs   (D) Neither sequence is an AP"
+              },
+              "answer": "B",
+              "explanation": "Sequence 1, 4, 9, 16, 25: differences are 3, 5, 7, 9 — these differences themselves form an AP, but the original sequence is NOT an AP."
+            }
+          ]
+        }
+      ],
+      "subtopics": []
+    },
+    {
+      "topic_num": "5.2",
+      "topic_name": "ARITHMETIC PROGRESSIONS",
+      "mode": "B",
+      "sections": [
+        {
+          "type": "definition",
+          "label": "Definition:",
+          "text": "An ARITHMETIC PROGRESSION (AP) is a list of numbers in which each term is obtained by adding a fixed number to the preceding term, except the first term. This fixed number is called the COMMON DIFFERENCE (d). It can be positive, negative, or zero."
+        },
+        {
+          "type": "key_points",
+          "label": "Key Points:",
+          "points": [
+            "Each number in the list is called a TERM.",
+            "General form of AP: a, a+d, a+2d, a+3d, ..., where a = first term, d = common difference.",
+            "Common difference: d = a_(k+1) - a_k for any k (always subtract kth from (k+1)th).",
+            "Note: even if the (k+1)th term is smaller, we still subtract kth from (k+1)th.",
+            "To check if a list is AP: check whether all consecutive differences are equal.",
+            "It is enough to find just one value of a_(k+1) - a_k; if all must be same, check a few.",
+            "A FINITE AP has a last term (e.g., 147, 148, ..., 157).",
+            "An INFINITE ARITHMETIC PROGRESSION has no last term (e.g., 1, 2, 3, ...).",
+            "To describe an AP: need both the first term (a) AND common difference (d).",
+            "Some APs:",
+            "a = -7, d = -2 → -7, -9, -11, -13, ...",
+            "a = 1.0, d = 0.1 → 1.0, 1.1, 1.2, 1.3, ...",
+            "a = 0, d = 1/2 → 0, 1/2, 3, 4½, 6, ...",
+            "a = 2, d = 0 → 2, 2, 2, 2, ... (constant AP)"
+          ]
+        },
+        {
+          "type": "list_of_topics",
+          "label": "LIST OF SUB TOPICS IN THIS TOPIC:",
+          "items": [
+            "(No sub-topics — Mode B: textbook has no X.Y.Z numbering here)",
+            "EXAMPLES: (textbook examples for Topic 5.2)",
+            "EXAMPLE 5.2.1: Finding first term and common difference",
+            "PROBLEM: For the AP: 3/2, 1/2, -1/2, -3/2, ..., write the first term a and common difference d.",
+            "SOLUTION:",
+            "Step 1: First term a = 3/2.",
+            "Step 2: d = 1/2 - 3/2 = -1.",
+            "ANSWER: a = 3/2, d = -1.",
+            "EXAMPLE 5.2.2: Checking if a list forms an AP; finding next two terms",
+            "PROBLEM: Which of the following lists form an AP? If they form an AP, write the next two terms:",
+            "(i) 4, 10, 16, 22, ...    (ii) 1, -1, -3, -5, ...",
+            "(iii) -2, 2, -2, 2, -2, ...    (iv) 1, 1, 1, 2, 2, 2, 3, 3, 3, ...",
+            "SOLUTION:",
+            "(i) a2 - a1 = 10-4 = 6; a3 - a2 = 16-10 = 6; a4 - a3 = 22-16 = 6. Same every time.",
+            "Forms AP with d = 6. Next two terms: 22+6 = 28 and 28+6 = 34.",
+            "(ii) a2 - a1 = -1-1 = -2; a3 - a2 = -3-(-1) = -2; a4 - a3 = -5-(-3) = -2. Same.",
+            "Forms AP with d = -2. Next two terms: -5+(-2) = -7 and -7+(-2) = -9.",
+            "(iii) a2 - a1 = 2-(-2) = 4; a3 - a2 = -2-2 = -4. Not the same.",
+            "Does NOT form an AP.",
+            "(iv) a2 - a1 = 1-1 = 0; a3 - a2 = 1-1 = 0; a4 - a3 = 2-1 = 1. Not the same.",
+            "Does NOT form an AP.",
+            "ANSWER: (i) and (ii) form APs. (iii) and (iv) do not.",
+            "EXERCISES: Exercise 5.1 (Topic 5.2)",
+            "Exercise 5.1 Q1: In which of the following situations, does the list of numbers involved make an arithmetic progression, and why?",
+            "(i) The taxi fare after each km when the fare is Rs. 15 for the first km and Rs. 8 for each additional km.",
+            "(ii) The amount of air present in a cylinder when a vacuum pump removes 1/4 of the air remaining in the cylinder at a time.",
+            "(iii) The cost of digging a well after every metre of digging, when it costs Rs. 150 for the first metre and rises by Rs. 50 for each subsequent metre.",
+            "(iv) The amount of money in the account every year, when Rs. 10000 is deposited at compound interest at 8% per annum."
+          ]
+        },
+        {
+          "type": "exercise",
+          "label": "Exercise 5.1 Q2: Write first four terms of the AP, when a and d are given:",
+          "items": [],
+          "raw": "(i) a=10, d=10   (ii) a=-2, d=0   (iii) a=4, d=-3   (iv) a=-1, d=1/2   (v) a=-1.25, d=-0.25"
+        },
+        {
+          "type": "exercise",
+          "label": "Exercise 5.1 Q3: For the following APs, write the first term and the common difference:",
+          "items": [],
+          "raw": "(i) 3, 1, -1, -3, ...   (ii) -5, -1, 3, 7, ...   (iii) 1/3, 5/3, 9/3, 13/3, ...   (iv) 0.6, 1.7, 2.8, 3.9, ..."
+        },
+        {
+          "type": "exercise",
+          "label": "Exercise 5.1 Q4: Which of the following are APs? If they form an AP, find d and write three more terms:",
+          "items": [],
+          "raw": "(i) 2, 4, 8, 16, ...   (ii) 2, 5/2, 3, 7/2, ...   (iii) -1.2, -3.2, -5.2, -7.2, ...\n(iv) -10, -6, -2, 2, ...   (v) 3, 3+√2, 3+2√2, 3+3√2, ...   (vi) 0.2, 0.22, 0.222, ...\n(vii) 0, -4, -8, -12, ...   (viii) -1/2, -1/2, -1/2, ...   (ix) 1, 3, 9, 27, ...\n(x) a, 2a, 3a, 4a, ...   (xi) a, a^2, a^3, a^4, ...   (xii) √2, √8, √18, √32, ...\n(xiii) √3, √6, √9, √12, ...   (xiv) 1^2, 3^2, 5^2, 7^2, ...   (xv) 1^2, 5^2, 7^2, 73, ...\n\n\nADDITIONAL CALCULATIONS: (Topic 5.2)\n\nProblem 1: Is the list 0.2, 0.22, 0.222, 0.2222, ... an AP?\nSolution:\nStep 1: a2 - a1 = 0.22 - 0.2 = 0.02\nStep 2: a3 - a2 = 0.222 - 0.22 = 0.002\nStep 3: 0.02 ≠ 0.002, so differences are not equal.\nAnswer: This is NOT an AP.\n\nProblem 2: Show that √2, √8, √18, √32, ... is an AP and find d.\nSolution:\nStep 1: Write terms: √2, 2√2, 3√2, 4√2, ...\nStep 2: a2 - a1 = 2√2 - √2 = √2; a3 - a2 = 3√2 - 2√2 = √2; a4 - a3 = 4√2 - 3√2 = √2.\nStep 3: All differences equal √2.\nAnswer: Yes, it is an AP with d = √2."
+        },
+        {
+          "type": "qa",
+          "label": "TOPIC 5.2: Q&A:",
+          "items": []
+        },
+        {
+          "type": "qa",
+          "label": "Q&A",
+          "items": [
+            {
+              "q_num": 1,
+              "marks": 2,
+              "question": "Define common difference. For the AP -5, -1, 3, 7, ..., find a and d.",
+              "answer": "COMMON DIFFERENCE (d) is the fixed number added to each term to get the next term.\nd = a_(k+1) - a_k  for any k.\n\nFor AP -5, -1, 3, 7, ...:\na = -5,  d = -1 - (-5) = 4.\n\n---"
+            },
+            {
+              "q_num": 2,
+              "marks": 2,
+              "question": "Is 3, 3, 3, 3, ... an AP? What is its common difference? What is the general term?",
+              "answer": "Yes. Each term is obtained by adding 0 to the preceding term.\nd = a2 - a1 = 3 - 3 = 0.\n\nThis is a CONSTANT AP with d = 0.\nGeneral term: a_n = 3 + (n-1)(0) = 3 for all n.\n\n---"
+            },
+            {
+              "q_num": 3,
+              "marks": 2,
+              "question": "Which is an AP: (i) 4, 10, 16, 22, ... or (ii) -2, 2, -2, 2, ...? Give reason.",
+              "answer": "(i) 4, 10, 16, 22, ...:\na2-a1=6; a3-a2=6; a4-a3=6. Constant → IS an AP with d = 6.\n\n(ii) -2, 2, -2, 2, ...:\na2-a1 = 4; a3-a2 = -4. Not constant → NOT an AP.\n\nAnswer: (i) is an AP; (ii) is not.\n\n---"
+            },
+            {
+              "q_num": 4,
+              "marks": 2,
+              "question": "What minimum information is needed to describe an AP completely? Give an example with two different values of d for the same a.",
+              "answer": "Need: (1) First term a, and (2) Common difference d.\n\nExample with a = 6:\nd = 3: AP is 6, 9, 12, 15, ...\nd = -3: AP is 6, 3, 0, -3, ...\n\nSame first term, different d → completely different APs.\n\n---\n\n3 ಮಾರ್ಕ್ಸ್ × 3 questions:\n\n---"
+            },
+            {
+              "q_num": 5,
+              "marks": 3,
+              "question": "For AP: 3/2, 1/2, -1/2, -3/2, ..., find a and d. Write next two terms and find the 10th term.",
+              "answer": "Step 1: a = 3/2;  d = 1/2 - 3/2 = -1.\n\nNext two terms:\n5th = -3/2 + (-1) = -5/2;   6th = -5/2 + (-1) = -7/2.\n\nStep 2: 10th term.\na_10 = 3/2 + 9(-1) = 3/2 - 9 = 3/2 - 18/2 = -15/2.\n\n---"
+            },
+            {
+              "q_num": 6,
+              "marks": 3,
+              "question": "Which are APs? For those that are, find d and write next three terms: (i) 0, -4, -8, -12, ... (ii) 1, 3, 9, 27, ...",
+              "answer": "(i) 0, -4, -8, -12, ...:\nDifferences: -4, -4, -4. Constant. IS AP with a = 0, d = -4.\nNext 3 terms: -16, -20, -24.\n\n(ii) 1, 3, 9, 27, ...:\nDifferences: 2, 6, 18. NOT constant. NOT AP.\n(Geometric progression with ratio 3.)\n\n---"
+            },
+            {
+              "q_num": 7,
+              "marks": 3,
+              "question": "Show that √2, √8, √18, √32, ... is an AP. Find d and the next two terms.",
+              "answer": "Step 1: Rewrite: √2, 2√2, 3√2, 4√2, ...\n\nStep 2: Differences.\na2-a1 = 2√2-√2 = √2;  a3-a2 = √2;  a4-a3 = √2. Constant.\nIS AP with a = √2, d = √2.\n\nNext two terms:\n5th = 4√2 + √2 = 5√2 = √50.\n6th = 5√2 + √2 = 6√2 = √72.\n\n---\n\n4 ಮಾರ್ಕ್ಸ್ × 4 questions:\n\n---"
+            },
+            {
+              "q_num": 8,
+              "marks": 4,
+              "question": "The taxi fare is Rs. 15 for the first km and Rs. 8 for each additional km. Write fares for 1, 2, 3, 4, 5 km. Is this an AP? Find the fare for the 20th km and total fare for a 10 km journey.",
+              "answer": "Fares: 15, 23, 31, 39, 47. Differences: 8, 8, 8, 8. IS AP with a = 15, d = 8.\n\nStep 1: Fare for 20th km.\na_20 = 15 + 19 × 8 = 15 + 152 = Rs. 167.\n\nStep 2: Total fare for 10 km = S_10.\nS_10 = (10/2)[2×15 + 9×8] = 5[30 + 72] = 5 × 102 = Rs. 510.\n\n---"
+            },
+            {
+              "q_num": 9,
+              "marks": 4,
+              "question": "The cash prizes (in Rs.) given by a school to Class I to Class XII toppers are 200, 250, 300, ..., 750. Find: (i) a and d, (ii) prize for Class XII, (iii) total prize money.",
+              "answer": "(i) a = 200, d = 250 - 200 = 50.\n\n(ii) Class XII = 12th term.\na_12 = 200 + 11 × 50 = 200 + 550 = Rs. 750 ✓.\n\n(iii) Total prize money = S_12 = (12/2)(200 + 750) = 6 × 950 = Rs. 5,700.\n\n---"
+            },
+            {
+              "q_num": 10,
+              "marks": 4,
+              "question": "The balance (in Rs.) after paying 5% of a Rs. 1000 loan each month is 950, 900, 850, ..., 50. Verify AP, find number of months to repay, and total amount paid.",
+              "answer": "a = 950, d = 900-950 = -50, l = 50. Differences constant → YES, AP.\n\nStep 1: Number of months.\n50 = 950 + (n-1)(-50)  →  -900 = -50(n-1)  →  n-1 = 18  →  n = 19.\n\nStep 2: Total paid = 19 × 50 = Rs. 950.\n(5% of Rs. 1000 = Rs. 50 paid per month. In 19 months = Rs. 950 paid.)\n\nNote: S_19 (sum of balances) = (19/2)(950+50) = Rs. 9500 (this is sum of balances, not payments).\n\n19 monthly payments of Rs. 50 each. Total paid = Rs. 950.\n\n---"
+            },
+            {
+              "q_num": 11,
+              "marks": 4,
+              "question": "Compare the two lists: (i) 1, 1, 2, 3, 5, 8, 13, ... and (ii) 2, 4, 6, 8, 10, ... For the AP, find the 15th term and sum of first 15 terms.",
+              "answer": "(i) 1, 1, 2, 3, 5, 8, 13, ... (Fibonacci):\nDifferences: 0, 1, 1, 2, 3. NOT constant. NOT AP.\n\n(ii) 2, 4, 6, 8, 10, ... (even numbers):\nDifferences: 2, 2, 2, 2. Constant → IS AP with a = 2, d = 2.\n\nStep 1: 15th term.\na_15 = 2 + 14 × 2 = 30.\n\nStep 2: S_15 = (15/2)(2 + 30) = (15/2) × 32 = 240.\n\n---\n\n5 ಮಾರ್ಕ್ಸ್ × 1 question:\n\n---"
+            },
+            {
+              "q_num": 12,
+              "marks": 5,
+              "question": "",
+              "answer": "PART A:\n\nIn AP: a_k = a+(k-1)d;  a_(k+1) = a+kd.\na_(k+1) - a_k = [a+kd] - [a+(k-1)d] = kd - kd + d = d. (Proved)\n\n(i) -10, -6, -2, 2, ...:\nDifferences: -6-(-10)=4; -2-(-6)=4; 2-(-2)=4. Constant.\nIS AP with a = -10, d = 4.\nNext 3 terms: 6, 10, 14.\n\n(ii) 0.2, 0.22, 0.222, ...:\n0.22-0.20 = 0.02;  0.222-0.22 = 0.002.\n0.02 ≠ 0.002. NOT AP.\n\n---\n\nPART B:\n\n(i) 2, 5/2, 3, 7/2, ...:\nDifferences: 5/2-2=1/2; 3-5/2=1/2; 7/2-3=1/2. Constant.\nIS AP with a = 2, d = 1/2.\nNext 3 terms: 7/2+1/2=4;  4+1/2=9/2;  9/2+1/2=5.\n\n(ii) a, 2a, 3a, 4a, ...:\nDifferences: 2a-a=a; 3a-2a=a; 4a-3a=a. Constant.\nIS AP with first term a, d = a.\nNext 3 terms: 5a, 6a, 7a.\n\n(iii) a, a^2, a^3, a^4, ...:\nDifferences: a^2-a = a(a-1);  a^3-a^2 = a^2(a-1).\na(a-1) ≠ a^2(a-1) in general (unless a=0 or a=1).\nNOT AP (except special cases)."
+            }
+          ]
+        },
+        {
+          "type": "mcq",
+          "label": "MCQ",
+          "items": [
+            {
+              "mcq_num": 1,
+              "difficulty": "Easy",
+              "question": "In an AP, the fixed number added to each term to get the next term is called:",
+              "options": {
+                "A": "First term   (B) Common ratio   (C) Common difference   (D) nth term"
+              },
+              "answer": "C",
+              "explanation": "The fixed number added to each term to get the next term in an AP is called the COMMON DIFFERENCE, denoted d."
+            },
+            {
+              "mcq_num": 2,
+              "difficulty": "Easy",
+              "question": "For the AP -5, -1, 3, 7, ..., the common difference is:",
+              "options": {
+                "A": "-4   (B) 4   (C) 5   (D) -5"
+              },
+              "answer": "B",
+              "explanation": "d = a2 - a1 = -1 - (-5) = 4. Verify: -1+4=3 ✓, 3+4=7 ✓."
+            },
+            {
+              "mcq_num": 3,
+              "difficulty": "Easy",
+              "question": "Which of the following is an AP?",
+              "options": {
+                "A": "1, 2, 4, 8, ...   (B) 1, 3, 5, 7, ...   (C) 1, 4, 9, 16, ...   (D) 1, 1, 2, 3, 5, ..."
+              },
+              "answer": "B",
+              "explanation": "Check differences: subtract consecutive terms. Only the AP option has a CONSTANT difference throughout."
+            },
+            {
+              "mcq_num": 4,
+              "difficulty": "Easy",
+              "question": "For the AP 3, 3, 3, 3, ..., the common difference is:",
+              "options": {
+                "A": "3   (B) 1   (C) 0   (D) -3"
+              },
+              "answer": "C",
+              "explanation": "3, 3, 3, 3 — every term is the same, so d = 3 - 3 = 0. A constant sequence is an AP with d = 0."
+            },
+            {
+              "mcq_num": 5,
+              "difficulty": "Easy",
+              "question": "General form of an AP is:",
+              "options": {
+                "A": "a, ar, ar^2, ...   (B) a, a+d, a+2d, ...   (C) a, a-d, a-2d, ...   (D) a1, a1+a2, ..."
+              },
+              "answer": "B",
+              "explanation": "The general form of an AP is a, a+d, a+2d, ... — starting from first term a with fixed common difference d."
+            },
+            {
+              "mcq_num": 6,
+              "difficulty": "Medium",
+              "question": "For AP 3/2, 1/2, -1/2, -3/2, ..., the first term a and common difference d are:",
+              "options": {
+                "A": "a=3/2, d=1   (B) a=3/2, d=-1   (C) a=1/2, d=-1   (D) a=3/2, d=2"
+              },
+              "answer": "B",
+              "explanation": "a = 3/2, d = 1/2 - 3/2 = -1. Verify: 3/2 + (-1) = 1/2 ✓, 1/2 + (-1) = -1/2 ✓."
+            },
+            {
+              "mcq_num": 7,
+              "difficulty": "Medium",
+              "question": "Which does NOT form an AP?",
+              "options": {
+                "A": "-2, 2, -2, 2, -2, ...   (B) 0, -4, -8, -12, ...   (C) 1, 3, 5, 7, ...   (D) a, 2a, 3a, 4a, ..."
+              },
+              "answer": "A",
+              "explanation": "Check each sequence for a constant difference. The one where consecutive differences VARY does not form an AP."
+            },
+            {
+              "mcq_num": 8,
+              "difficulty": "Medium",
+              "question": "For AP -1.2, -3.2, -5.2, -7.2, ..., the next two terms are:",
+              "options": {
+                "A": "-9.2 and -11.2   (B) -8.2 and -10.2   (C) -9.2 and -12.2   (D) -8.2 and -9.2"
+              },
+              "answer": "A",
+              "explanation": "d = -3.2 - (-1.2) = -2. Next terms: -7.2 + (-2) = -9.2 and -9.2 + (-2) = -11.2."
+            },
+            {
+              "mcq_num": 9,
+              "difficulty": "Medium",
+              "question": "The list √2, √8, √18, √32, ... written as √2, 2√2, 3√2, 4√2, ... is:",
+              "options": {
+                "A": "An AP with d = √2   (B) Not an AP   (C) An AP with d = 2   (D) An AP with d = 2√2"
+              },
+              "answer": "A",
+              "explanation": "√2, √8, √18, √32 = √2, 2√2, 3√2, 4√2 — each term = n√2. Common difference = √2 (constant irrational number). This IS an AP."
+            },
+            {
+              "mcq_num": 10,
+              "difficulty": "Medium",
+              "question": "In an AP, if a2-a1 = 3 and a1 = 5, then a3 is:",
+              "options": {
+                "A": "8   (B) 11   (C) 14   (D) 9"
+              },
+              "answer": "B",
+              "explanation": "a1 = 5, d = 3. a3 = a1 + 2d = 5 + 6 = 11."
+            },
+            {
+              "mcq_num": 11,
+              "difficulty": "Medium",
+              "question": "Taxi fare: Rs. 15 for 1st km, Rs. 8 for each additional km. The fares for 1, 2, 3, 4 km are:",
+              "options": {
+                "A": "15, 23, 31, 39 — AP with d=8   (B) 15, 16, 17, 18 — AP",
+                "C": "15, 24, 33, 42 — AP   (D) 15, 23, 31, 39 — NOT an AP"
+              },
+              "answer": "A",
+              "explanation": "AP: 15, 23, 31, ... (d=8). Taxi fare for n km = 15 + (n-1)×8 = 8n + 7. For n=7: 8(7)+7 = Rs.63."
+            },
+            {
+              "mcq_num": 12,
+              "difficulty": "Hard",
+              "question": "Which sequence has an irrational common difference?",
+              "options": {
+                "A": "2, 4, 6, 8, ...   (B) 3, 3+√2, 3+2√2, 3+3√2, ...   (C) 1, -1, -3, -5, ...   (D) 0.1, 0.2, 0.3, ..."
+              },
+              "answer": "B",
+              "explanation": "√2, 2√2, 3√2 has d = √2, which is IRRATIONAL. This is the sequence from Exercise 5.1 Q8(ii)."
+            },
+            {
+              "mcq_num": 13,
+              "difficulty": "Hard",
+              "question": "For a1, a2, ..., a_n to form an AP, which condition must hold?",
+              "options": {
+                "A": "a_(k+1) - a_k = k for all k   (B) a_(k+1)/a_k = d for all k",
+                "C": "a_(k+1) - a_k = d (constant) for all k   (D) a_(k+1) + a_k = d for all k"
+              },
+              "answer": "C",
+              "explanation": "For a1, a2, ..., a_n to be an AP, each consecutive difference must be the SAME: a_{k+1} - a_k = d for all k."
+            },
+            {
+              "mcq_num": 14,
+              "difficulty": "Hard",
+              "question": "The list 1^2, 3^2, 5^2, 7^2 = 1, 9, 25, 49. Is this an AP?",
+              "options": {
+                "A": "Yes, d = 8   (B) Yes, d = 16   (C) No — differences are 8, 16, 24 (not constant)   (D) Yes, d = 24"
+              },
+              "answer": "C",
+              "explanation": "1, 9, 25, 49 — differences: 8, 16, 24 — NOT constant. So 1², 3², 5², 7² does NOT form an AP."
+            },
+            {
+              "mcq_num": 15,
+              "difficulty": "Hard",
+              "question": "Vacuum pump removes 1/4 of remaining air each time, starting with 100 units: 100, 75, 56.25, ... Is this an AP?",
+              "options": {
+                "A": "Yes, d = -25   (B) No — differences -25, -18.75, ... are not constant",
+                "C": "Yes, d = -18.75   (D) Yes, d = 3/4"
+              },
+              "answer": "B",
+              "explanation": "Vacuum pump: each step multiplies by (3/4). This is a GEOMETRIC progression (multiply by fixed ratio), not an AP (add fixed number)."
+            }
+          ]
+        }
+      ],
+      "subtopics": []
+    },
+    {
+      "topic_num": "5.3",
+      "topic_name": "nth TERM OF AN AP",
+      "mode": "B",
+      "sections": [
+        {
+          "type": "definition",
+          "label": "Definition:",
+          "text": "The nth term (also called the GENERAL TERM) of an AP with first term a and common difference d is given by:\na_n = a + (n - 1)d\nIf there are m terms in the AP, the last term l = a_m = a + (m-1)d."
+        },
+        {
+          "type": "key_points",
+          "label": "Key Points:",
+          "points": [
+            "a_n is also called the GENERAL TERM of the AP.",
+            "If there are m terms, a_m is the last term, sometimes denoted by l.",
+            "From the pattern: a2 = a+(2-1)d, a3 = a+(3-1)d, a4 = a+(4-1)d, ... so a_n = a+(n-1)d.",
+            "To check if a number x is a term: set a_n = x, solve for n; if n is a positive integer, x is a term.",
+            "To find a term from the last: find total terms n, then count from the last.",
+            "Alternative: reverse the AP (new a = l, new d = -d), then find the term normally.",
+            "Remark: a_n = S_n - S_(n-1) (nth term = difference of sums).",
+            "Derivation: salary for 5th year = 8000 + (5-1)×500 = 10000 → pattern gives a_n = a + (n-1)d."
+          ]
+        },
+        {
+          "type": "list_of_topics",
+          "label": "LIST OF SUB TOPICS IN THIS TOPIC:",
+          "items": [
+            "(No sub-topics — Mode B: textbook has no X.Y.Z numbering here)"
+          ]
+        },
+        {
+          "type": "formulas",
+          "label": "FORMULA:",
+          "items": [
+            "a_n = a + (n - 1)d",
+            "WHERE:",
+            "a_n = nth term (general term)",
+            "a   = first term",
+            "n   = position of the term",
+            "d   = common difference",
+            "EXAMPLES: (textbook examples for Topic 5.3)",
+            "EXAMPLE 5.3.1: Finding the 10th term",
+            "PROBLEM: Find the 10th term of the AP: 2, 7, 12, ...",
+            "SOLUTION:",
+            "Step 1: a = 2, d = 7-2 = 5, n = 10.",
+            "Step 2: a_n = a + (n-1)d",
+            "Step 3: a_10 = 2 + (10-1)×5 = 2 + 45 = 47.",
+            "ANSWER: The 10th term is 47.",
+            "EXAMPLE 5.3.2: Finding which term has a given value; checking if zero is a term",
+            "PROBLEM: Which term of the AP: 21, 18, 15, ... is -81? Also, is any term 0?",
+            "SOLUTION:",
+            "Step 1: a = 21, d = 18-21 = -3, a_n = -81.",
+            "Step 2: -81 = 21 + (n-1)(-3) → -81 = 24 - 3n → -105 = -3n → n = 35.",
+            "Step 3: For a_n = 0: 21 + (n-1)(-3) = 0 → 3(n-1) = 21 → n = 8.",
+            "ANSWER: The 35th term is -81. The 8th term is 0.",
+            "EXAMPLE 5.3.3: Finding the AP when two terms are given",
+            "PROBLEM: Determine the AP whose 3rd term is 5 and the 7th term is 9.",
+            "SOLUTION:",
+            "Step 1: a3 = a + 2d = 5 ...(1)",
+            "Step 2: a7 = a + 6d = 9 ...(2)",
+            "Step 3: (2)-(1): 4d = 4 → d = 1.",
+            "Step 4: From (1): a + 2 = 5 → a = 3.",
+            "ANSWER: The AP is 3, 4, 5, 6, 7, ...",
+            "EXAMPLE 5.3.4: Checking whether a number is a term",
+            "PROBLEM: Check whether 301 is a term of 5, 11, 17, 23, ...",
+            "SOLUTION:",
+            "Step 1: Check AP: a2-a1=6, a3-a2=6, a4-a3=6. Yes, AP with a=5, d=6.",
+            "Step 2: 301 = 5 + (n-1)×6 → 296 = 6(n-1) → n-1 = 302/6 = 151/3.",
+            "Step 3: n = 151/3 + 1 — NOT a positive integer.",
+            "ANSWER: 301 is NOT a term of the given AP (n must be a positive integer).",
+            "EXAMPLE 5.3.5: Counting two-digit numbers divisible by 3",
+            "PROBLEM: How many two-digit numbers are divisible by 3?",
+            "SOLUTION:",
+            "Step 1: AP: 12, 15, 18, ..., 99. Here a=12, d=3, a_n=99.",
+            "Step 2: 99 = 12 + (n-1)×3 → 87 = 3(n-1) → n-1 = 29 → n = 30.",
+            "ANSWER: There are 30 two-digit numbers divisible by 3.",
+            "EXAMPLE 5.3.6: Finding term from last term",
+            "PROBLEM: Find the 11th term from the last term of the AP: 10, 7, 4, ..., -62.",
+            "SOLUTION:",
+            "Step 1: a=10, d=-3, l=-62. Find total terms n.",
+            "Step 2: -62 = 10 + (n-1)(-3) → -72 = -3(n-1) → n-1 = 24 → n = 25.",
+            "Step 3: 11th from last = (25-11+1)th = 15th term from beginning.",
+            "Step 4: a_15 = 10 + (15-1)(-3) = 10 - 42 = -32.",
+            "ALTERNATIVE: Reverse AP: a=-62, d=3. a_11 = -62 + 10×3 = -62+30 = -32.",
+            "ANSWER: The 11th term from the last is -32.",
+            "EXAMPLE 5.3.7: Simple interest forms an AP",
+            "PROBLEM: Rs. 1000 invested at 8% simple interest per year. Do the interests at end of each year form an AP? Find interest at end of 30 years.",
+            "SOLUTION:",
+            "Step 1: Interest at end of year 1 = (1000×8×1)/100 = Rs. 80.",
+            "Step 2: Year 2 = Rs. 160, Year 3 = Rs. 240. Difference = 80 (constant). Yes, AP with a=80, d=80.",
+            "Step 3: a_30 = 80 + (30-1)×80 = 80 + 2320 = Rs. 2400.",
+            "ANSWER: Yes, interests form AP. Interest at end of 30 years = Rs. 2400.",
+            "EXAMPLE 5.3.8: Flower bed rows",
+            "PROBLEM: In a flower bed, rose plants per row: 23, 21, 19, ..., 5. How many rows?",
+            "SOLUTION:",
+            "Step 1: a=23, d=21-23=-2, a_n=5.",
+            "Step 2: 5 = 23 + (n-1)(-2) → -18 = -2(n-1) → n-1 = 9 → n = 10.",
+            "ANSWER: There are 10 rows in the flower bed.",
+            "EXERCISES: Exercise 5.2 (Topic 5.3)"
+          ]
+        },
+        {
+          "type": "exercise",
+          "label": "Exercise 5.2 Q1: Fill in the blanks (a = first term, d = common difference, a_n = nth term):",
+          "items": [],
+          "raw": "| a     |  d   |  n  |  a_n |\n|-------|------|-----|------|\n| 7     |  3   |  8  |  ... |\n| -18   |  ... | 10  |  0   |\n| ...   |  -3  | 18  | -5   |\n| -18.9 |  2.5 | ... |  3.6 |\n| 3.5   |  0   |105  |  ... |"
+        },
+        {
+          "type": "exercise",
+          "label": "Exercise 5.2 Q2: Choose the correct choice and justify:",
+          "items": [],
+          "raw": "(i) 30th term of AP: 10, 7, 4, ..., is: (A)97 (B)77 (C)-77 (D)-87\n(ii) 11th term of AP: -3, -1/2, 2, ..., is: (A)28 (B)22 (C)-38 (D)-48½"
+        },
+        {
+          "type": "exercise",
+          "label": "Exercise 5.2 Q3: Find the missing terms in the boxes:",
+          "items": [],
+          "raw": "(i) 2, □, 26   (ii) □, 13, □, 3   (iii) 5, □, □, 9½\n(iv) -4, □, □, □, □, 6   (v) □, 38, □, □, □, -22\n\nExercise 5.2 Q4: Which term of AP: 3, 8, 13, 18, ..., is 78?\nExercise 5.2 Q5: Find the number of terms: (i) 7, 13, 19, ..., 205   (ii) 18, 15½, 13, ..., -47\nExercise 5.2 Q6: Check whether -150 is a term of AP: 11, 8, 5, 2, ...\nExercise 5.2 Q7: Find 31st term of AP whose 11th term is 38 and 16th term is 73.\nExercise 5.2 Q8: AP of 50 terms: 3rd term = 12, last term = 106. Find 29th term.\nExercise 5.2 Q9: 3rd and 9th terms are 4 and -8. Which term is zero?\nExercise 5.2 Q10: 17th term exceeds 10th term by 7. Find common difference.\nExercise 5.2 Q11: Which term of AP: 3, 15, 27, 39, ... will be 132 more than its 54th term?\nExercise 5.2 Q12: Two APs with same d; difference between 100th terms is 100. Find difference between 1000th terms.\nExercise 5.2 Q13: How many three-digit numbers are divisible by 7?\nExercise 5.2 Q14: How many multiples of 4 lie between 10 and 250?\nExercise 5.2 Q15: For what value of n are the nth terms of APs 63,65,67,... and 3,10,17,... equal?\nExercise 5.2 Q16: Determine AP whose 3rd term is 16 and 7th term exceeds 5th term by 12.\nExercise 5.2 Q17: Find 20th term from last term of AP: 3, 8, 13, ..., 253.\nExercise 5.2 Q18: Sum of 4th and 8th terms is 24; sum of 6th and 10th is 44. Find first 3 terms.\nExercise 5.2 Q19: Subba Rao started work in 1995 at salary Rs. 5000, increment Rs. 200/year. When did income reach Rs. 7000?\nExercise 5.2 Q20: Ramkali saved Rs. 5 in week 1, increased by Rs. 1.75/week. In nth week savings = Rs. 20.75. Find n.\n\n\nADDITIONAL CALCULATIONS: (Topic 5.3)\n\nProblem 1: Find 31st term of AP whose 11th term is 38 and 16th term is 73.\nSolution:\nStep 1: a + 10d = 38 ...(1); a + 15d = 73 ...(2).\nStep 2: (2)-(1): 5d = 35 → d = 7.\nStep 3: From (1): a + 70 = 38 → a = -32.\nStep 4: a_31 = -32 + 30×7 = -32 + 210 = 178.\nAnswer: 31st term = 178.\n\nProblem 2: The 3rd and 9th terms of an AP are 4 and -8. Which term is zero?\nSolution:\nStep 1: a + 2d = 4 ...(1); a + 8d = -8 ...(2).\nStep 2: (2)-(1): 6d = -12 → d = -2.\nStep 3: From (1): a + (-4) = 4 → a = 6.\nStep 4: a_n = 0: 6 + (n-1)(-2) = 0 → 6 - 2n + 2 = 0 → 2n = 8 → n = 4.\nAnswer: The 4th term is zero.\n\nProblem 3: How many multiples of 4 lie between 10 and 250?\nSolution:\nStep 1: First multiple of 4 after 10: 12. Last before 250: 248.\nStep 2: AP: 12, 16, 20, ..., 248. a=12, d=4, a_n=248.\nStep 3: 248 = 12 + (n-1)×4 → 236 = 4(n-1) → n-1 = 59 → n = 60.\nAnswer: There are 60 multiples of 4 between 10 and 250."
+        },
+        {
+          "type": "qa",
+          "label": "TOPIC 5.3: Q&A:",
+          "items": []
+        },
+        {
+          "type": "qa",
+          "label": "Q&A",
+          "items": [
+            {
+              "q_num": 1,
+              "marks": 2,
+              "question": "Write the formula for the nth term of an AP. Find the 10th term of AP: 2, 7, 12, ...",
+              "answer": "Formula: a_n = a + (n - 1)d.\n\nFor AP 2, 7, 12, ...:  a = 2, d = 5.\na_10 = 2 + 9 × 5 = 47.\n\n---"
+            },
+            {
+              "q_num": 2,
+              "marks": 2,
+              "question": "In an AP, a = 10, d = -3, n = 25. Find the last term l.",
+              "answer": "l = a + (n - 1)d = 10 + (25 - 1)(-3) = 10 - 72 = -62.\n\nLast term l = -62. (This is the AP: 10, 7, 4, ..., -62.)\n\n---"
+            },
+            {
+              "q_num": 3,
+              "marks": 2,
+              "question": "State the Remark: how is the nth term related to S_n? Give an example.",
+              "answer": "a_n = S_n - S_(n-1).\n\nExample: If S_n = n^2:\na_n = n^2 - (n-1)^2 = n^2 - n^2 + 2n - 1 = 2n - 1.\nAP is 1, 3, 5, 7, ... (odd numbers).\n\n---"
+            },
+            {
+              "q_num": 4,
+              "marks": 2,
+              "question": "Is 301 a term of the AP: 5, 11, 17, 23, ...? Give reason.",
+              "answer": "a = 5, d = 6. Set a_n = 301:\n301 = 5 + (n-1) × 6\n296 = 6(n-1)\nn - 1 = 296/6 = 148/3 — NOT a whole number.\n\n301 is NOT a term of this AP (n must be a positive integer).\n\n---\n\n3 ಮಾರ್ಕ್ಸ್ × 3 questions:\n\n---"
+            },
+            {
+              "q_num": 5,
+              "marks": 3,
+              "question": "The 3rd term of an AP is 5 and the 7th term is 9. Find the AP.",
+              "answer": "Step 1: a + 2d = 5  ...(1);   a + 6d = 9  ...(2).\nStep 2: (2)-(1): 4d = 4  →  d = 1.\nStep 3: From (1): a + 2 = 5  →  a = 3.\n\nThe AP is: 3, 4, 5, 6, 7, ...\n\n---"
+            },
+            {
+              "q_num": 6,
+              "marks": 3,
+              "question": "How many two-digit numbers are divisible by 3? Also find their sum.",
+              "answer": "AP: 12, 15, ..., 99. a = 12, d = 3, l = 99.\n\nStep 1: Find n.\n99 = 12 + (n-1) × 3  →  87 = 3(n-1)  →  n = 30.\n\nThere are 30 two-digit numbers divisible by 3.\n\nStep 2: Sum = S_30 = (30/2)(12 + 99) = 15 × 111 = 1665.\n\n---"
+            },
+            {
+              "q_num": 7,
+              "marks": 3,
+              "question": "The sum of the 4th and 8th terms of an AP is 24 and the sum of the 6th and 10th terms is 44. Find the first three terms.",
+              "answer": "Step 1: (a+3d)+(a+7d) = 24  →  a + 5d = 12  ...(1).\nStep 2: (a+5d)+(a+9d) = 44  →  a + 7d = 22  ...(2).\nStep 3: (2)-(1): 2d = 10  →  d = 5.  a = 12-25 = -13.\n\nFirst three terms: -13, -8, -3.\n\n---\n\n4 ಮಾರ್ಕ್ಸ್ × 4 questions:\n\n---"
+            },
+            {
+              "q_num": 8,
+              "marks": 4,
+              "question": "Find the 11th term from the last term of the AP: 10, 7, 4, ..., -62. Use both direct and alternative (reverse) methods.",
+              "answer": "Given: a = 10, d = -3, l = -62.\n\nDIRECT METHOD:\nStep 1: Find n.\n-62 = 10 + (n-1)(-3)  →  -72 = -3(n-1)  →  n = 25.\n\nStep 2: 11th from last = (25-11+1)th = 15th term.\na_15 = 10 + 14(-3) = 10 - 42 = -32.\n\nALTERNATIVE (Reverse) METHOD:\nNew a = -62, new d = +3.\na_11 = -62 + 10 × 3 = -62 + 30 = -32.\n\n11th term from last = -32.\n\n---"
+            },
+            {
+              "q_num": 9,
+              "marks": 4,
+              "question": "Find the 31st term of an AP whose 11th term is 38 and 16th term is 73. Also find the AP.",
+              "answer": "Step 1: a + 10d = 38  ...(1);   a + 15d = 73  ...(2).\nStep 2: (2)-(1): 5d = 35  →  d = 7.\nStep 3: From (1): a + 70 = 38  →  a = -32.\n\nAP: -32, -25, -18, -11, ...\n\nStep 4: a_31 = -32 + 30 × 7 = -32 + 210 = 178.\n\n---"
+            },
+            {
+              "q_num": 10,
+              "marks": 4,
+              "question": "An AP consists of 50 terms, 3rd term = 12, last term = 106. Find the 29th term and sum of last 10 terms.",
+              "answer": "Step 1: a + 2d = 12  ...(1);   a + 49d = 106  ...(2).\nStep 2: (2)-(1): 47d = 94  →  d = 2.  a = 8.\n\nStep 3: a_29 = 8 + 28 × 2 = 64.\n\nStep 4: Sum of last 10 terms (41st to 50th).\na_41 = 8 + 40×2 = 88;  l = 106.\nSum = (10/2)(88 + 106) = 5 × 194 = 970.\n\n29th term = 64. Sum of last 10 terms = 970.\n\n---"
+            },
+            {
+              "q_num": 11,
+              "marks": 4,
+              "question": "How many multiples of 4 lie between 10 and 250? Find their sum.",
+              "answer": "AP: 12, 16, ..., 248. a = 12, d = 4, l = 248.\n\nStep 1: Find n.\n248 = 12 + (n-1) × 4  →  236 = 4(n-1)  →  n = 60.\n\n60 multiples of 4 lie between 10 and 250.\n\nStep 2: Sum = S_60 = (60/2)(12 + 248) = 30 × 260 = 7,800.\n\n---\n\n5 ಮಾರ್ಕ್ಸ್ × 1 question:\n\n---"
+            },
+            {
+              "q_num": 12,
+              "marks": 5,
+              "question": "",
+              "answer": "PART A:\n\nStep 1: a_17 - a_10 = 7.\n[a+16d] - [a+9d] = 7  →  7d = 7  →  d = 1.\n\nStep 2: AP 3, 15, 27, 39, ...: a = 3, d = 12.\na_54 = 3 + 53×12 = 3 + 636 = 639.\na_n = 639 + 132 = 771.\n771 = 3 + (n-1)×12  →  768 = 12(n-1)  →  n = 65.\n\nThe 65th term is 132 more than the 54th term.\n\n---\n\nPART B:\n\nStep 1: a7 - a5 = (a+6d) - (a+4d) = 2d = 12  →  d = 6.\na3 = a + 2d = 16  →  a + 12 = 16  →  a = 4.\n\nAP: 4, 10, 16, 22, ...\n\nStep 2: For AP 3, 8, 13, ..., 253: a = 3, d = 5, l = 253.\nn: 253 = 3 + (n-1)×5  →  250 = 5(n-1)  →  n = 51.\n\n20th from last = (51-20+1)th = 32nd term.\na_32 = 3 + 31×5 = 3 + 155 = 158.\n\n20th term from last = 158."
+            }
+          ]
+        },
+        {
+          "type": "mcq",
+          "label": "MCQ",
+          "items": [
+            {
+              "mcq_num": 1,
+              "difficulty": "Easy",
+              "question": "The formula for the nth term of an AP is:",
+              "options": {
+                "A": "a_n = a-(n-1)d   (B) a_n = a+nd   (C) a_n = a+(n-1)d   (D) a_n = na+d"
+              },
+              "answer": "C",
+              "explanation": "a_n = a + (n-1)d — the nth term formula derived by adding d exactly (n-1) times to the first term a."
+            },
+            {
+              "mcq_num": 2,
+              "difficulty": "Easy",
+              "question": "For AP 2, 7, 12, ..., the 10th term is:",
+              "options": {
+                "A": "42   (B) 47   (C) 52   (D) 57"
+              },
+              "answer": "B",
+              "explanation": "a=2, d=5, n=10. a_10 = 2 + 9×5 = 2 + 45 = 47."
+            },
+            {
+              "mcq_num": 3,
+              "difficulty": "Easy",
+              "question": "The last term of a finite AP is denoted by:",
+              "options": {
+                "A": "a   (B) d   (C) n   (D) l"
+              },
+              "answer": "D",
+              "explanation": "The last term of a finite AP is denoted by 'l' (or a_n). It equals a + (n-1)d."
+            },
+            {
+              "mcq_num": 4,
+              "difficulty": "Easy",
+              "question": "For AP 10, 7, 4, ..., d is:",
+              "options": {
+                "A": "3   (B) -3   (C) 7   (D) -7"
+              },
+              "answer": "B",
+              "explanation": "d = a2 - a1 = 7 - 10 = -3."
+            },
+            {
+              "mcq_num": 5,
+              "difficulty": "Easy",
+              "question": "Which term of AP: 3, 8, 13, 18, ..., is 78?",
+              "options": {
+                "A": "13th   (B) 14th   (C) 15th   (D) 16th"
+              },
+              "answer": "D",
+              "explanation": "78 = 3+(n-1)5 → 75 = 5(n-1) → n = 16"
+            },
+            {
+              "mcq_num": 6,
+              "difficulty": "Medium",
+              "question": "Which term of AP: 21, 18, 15, ..., is -81?",
+              "options": {
+                "A": "33rd   (B) 34th   (C) 35th   (D) 36th"
+              },
+              "answer": "C",
+              "explanation": "a=21, d=-3. a_n = 21 + (n-1)(-3) = -81 → 21 - 3n + 3 = -81 → 3n = 105 → n = 35. 35th term."
+            },
+            {
+              "mcq_num": 7,
+              "difficulty": "Medium",
+              "question": "AP: 10, 7, 4, ..., -62 has how many terms?",
+              "options": {
+                "A": "23   (B) 24   (C) 25   (D) 26"
+              },
+              "answer": "C",
+              "explanation": "a=10, d=-3, a_n=-62. n = (a_n - a)/d + 1 = (-62-10)/(-3) + 1 = 72/3 + 1 = 24 + 1 = 25 terms."
+            },
+            {
+              "mcq_num": 8,
+              "difficulty": "Medium",
+              "question": "Is -150 a term of AP: 11, 8, 5, 2, ...?",
+              "options": {
+                "A": "Yes, 54th term   (B) Yes, 55th term",
+                "C": "No — n is not an integer   (D) No — -150 < 2"
+              },
+              "answer": "C",
+              "explanation": "-150 = 11+(n-1)(-3) → -161 = -3(n-1) → n-1 = 53.67 — non-integer"
+            },
+            {
+              "mcq_num": 9,
+              "difficulty": "Medium",
+              "question": "AP has 50 terms; 3rd term = 12, last term = 106. Find the 29th term.",
+              "options": {
+                "A": "57   (B) 60   (C) 64   (D) 68"
+              },
+              "answer": "C",
+              "explanation": "a+2d=12; a+49d=106 → 47d=94 → d=2; a=8; a_29=8+28×2=64"
+            },
+            {
+              "mcq_num": 10,
+              "difficulty": "Medium",
+              "question": "How many multiples of 4 lie between 10 and 250?",
+              "options": {
+                "A": "58   (B) 59   (C) 60   (D) 61"
+              },
+              "answer": "C",
+              "explanation": "AP: 12, 16, ..., 248. 248=12+(n-1)4 → n=60"
+            },
+            {
+              "mcq_num": 11,
+              "difficulty": "Medium",
+              "question": "The 17th term exceeds 10th term by 7. The common difference is:",
+              "options": {
+                "A": "0   (B) 1   (C) 2   (D) 7"
+              },
+              "answer": "B",
+              "explanation": "a_17-a_10 = 7d = 7 → d=1"
+            },
+            {
+              "mcq_num": 12,
+              "difficulty": "Hard",
+              "question": "Two APs have same d; difference between 100th terms is 100. Difference between 1000th terms is:",
+              "options": {
+                "A": "1   (B) 10   (C) 100   (D) 1000"
+              },
+              "answer": "C",
+              "explanation": "If APs are a,a+d,... and b,b+d,... then a_100-b_100 = a-b = 100. a_1000-b_1000 = a-b = 100"
+            },
+            {
+              "mcq_num": 13,
+              "difficulty": "Hard",
+              "question": "Ramkali saved Rs. 5 in week 1, increased by Rs. 1.75/week. In which week did she save Rs. 20.75?",
+              "options": {
+                "A": "8th   (B) 9th   (C) 10th   (D) 11th"
+              },
+              "answer": "C",
+              "explanation": "20.75 = 5+(n-1)×1.75 → n=10"
+            },
+            {
+              "mcq_num": 14,
+              "difficulty": "Hard",
+              "question": "For what value of n are the nth terms of APs 63, 65, 67, ... and 3, 10, 17, ... equal?",
+              "options": {
+                "A": "11   (B) 12   (C) 13   (D) 14"
+              },
+              "answer": "C",
+              "explanation": "63+(n-1)2 = 3+(n-1)7 → 61+2n = -4+7n → 5n=65 → n=13"
+            },
+            {
+              "mcq_num": 15,
+              "difficulty": "Hard",
+              "question": "Subba Rao started in 1995 at Rs. 5000, increment Rs. 200/year. Income reached Rs. 7000 in:",
+              "options": {
+                "A": "2003   (B) 2004   (C) 2005   (D) 2006"
+              },
+              "answer": "C",
+              "explanation": "7000=5000+(n-1)200 → n=11; 1995+10 = 2005"
+            }
+          ]
+        }
+      ],
+      "subtopics": []
+    },
+    {
+      "topic_num": "5.4",
+      "topic_name": "SUM OF FIRST n TERMS OF AN AP",
+      "mode": "B",
+      "sections": [
+        {
+          "type": "definition",
+          "label": "Definition:",
+          "text": "The SUM OF THE FIRST n TERMS of an AP with first term a and common difference d is given by:\nS_n = (n/2)[2a + (n-1)d]\nThis can also be written as S_n = (n/2)(a + a_n) = (n/2)(a + l), where l is the last term."
+        },
+        {
+          "type": "key_points",
+          "label": "Key Points:",
+          "points": [
+            "Gauss's method: write S forwards and backwards, add term by term. Each pair gives [2a+(n-1)d]. With n pairs: 2S = n[2a+(n-1)d], so S = (n/2)[2a+(n-1)d].",
+            "Alternative form: S_n = (n/2)(a + l) — use when first and last terms are given (d not given).",
+            "We use S_n to denote sum of first n terms; S_20 means sum of first 20 terms.",
+            "Remark: a_n = S_n - S_(n-1).",
+            "Sum of first n positive integers: S_n = n(n+1)/2.",
+            "The formula involves 4 quantities: S, a, d, n. If any 3 are known, the 4th can be found.",
+            "ARITHMETIC MEAN: If a, b, c are in AP, then b = (a+c)/2."
+          ]
+        },
+        {
+          "type": "list_of_topics",
+          "label": "LIST OF SUB TOPICS IN THIS TOPIC:",
+          "items": [
+            "(No sub-topics — Mode B: textbook has no X.Y.Z numbering here)"
+          ]
+        },
+        {
+          "type": "formulas",
+          "label": "FORMULA:",
+          "items": [
+            "S_n = (n/2)[2a + (n-1)d]",
+            "WHERE:",
+            "S_n = sum of first n terms",
+            "n   = number of terms",
+            "a   = first term",
+            "d   = common difference",
+            "Also:",
+            "S_n = (n/2)(a + l)",
+            "WHERE:",
+            "l = last term (a_n = a + (n-1)d)",
+            "Sum of first n positive integers:",
+            "S_n = n(n+1)/2",
+            "EXAMPLES: (textbook examples for Topic 5.4)",
+            "EXAMPLE 5.4.1: Sum of first 22 terms",
+            "PROBLEM: Find the sum of the first 22 terms of the AP: 8, 3, -2, ...",
+            "SOLUTION:",
+            "Step 1: a = 8, d = 3-8 = -5, n = 22.",
+            "Step 2: S_n = (n/2)[2a + (n-1)d]",
+            "Step 3: S_22 = (22/2)[2×8 + 21×(-5)] = 11[16-105] = 11×(-89) = -979.",
+            "ANSWER: Sum of first 22 terms = -979.",
+            "EXAMPLE 5.4.2: Finding 20th term given S_14",
+            "PROBLEM: If S_14 = 1050 and first term is 10, find the 20th term.",
+            "SOLUTION:",
+            "Step 1: S_14 = 1050, a = 10, n = 14.",
+            "Step 2: 1050 = (14/2)[2×10 + 13d] = 7[20+13d].",
+            "Step 3: 150 = 20 + 13d → 130 = 13d → d = 10.",
+            "Step 4: a_20 = 10 + 19×10 = 10 + 190 = 200.",
+            "ANSWER: The 20th term is 200.",
+            "EXAMPLE 5.4.3: Finding number of terms given sum (two answers)",
+            "PROBLEM: How many terms of AP: 24, 21, 18, ... must be taken so that sum is 78?",
+            "SOLUTION:",
+            "Step 1: a = 24, d = -3, S_n = 78.",
+            "Step 2: 78 = (n/2)[48 + (n-1)(-3)] = (n/2)[51-3n].",
+            "Step 3: 156 = 51n - 3n^2 → 3n^2 - 51n + 156 = 0 → n^2 - 17n + 52 = 0.",
+            "Step 4: (n-4)(n-13) = 0 → n = 4 or n = 13.",
+            "Remark: Both are valid. Sum of first 4 = sum of first 13 = 78 (because d is negative, later terms are negative and cancel earlier positive terms).",
+            "ANSWER: The number of terms is either 4 or 13.",
+            "EXAMPLE 5.4.4: Sum of first 1000 positive integers and first n positive integers",
+            "PROBLEM: Find (i) sum of first 1000 positive integers (ii) sum of first n positive integers.",
+            "SOLUTION:",
+            "(i) S = 1+2+3+...+1000. Using S = (n/2)(a+l): S_1000 = (1000/2)(1+1000) = 500×1001 = 500500.",
+            "(ii) S_n = 1+2+...+n. S_n = (n/2)(1+n) = n(n+1)/2.",
+            "ANSWER: (i) 500500   (ii) S_n = n(n+1)/2",
+            "EXAMPLE 5.4.5: Finding sum when nth term is given",
+            "PROBLEM: Find the sum of first 24 terms of the list whose nth term is a_n = 3 + 2n.",
+            "SOLUTION:",
+            "Step 1: a1 = 3+2 = 5; a2 = 3+4 = 7; a3 = 3+6 = 9. List: 5, 7, 9, ...",
+            "Step 2: d = 7-5 = 2. So it is an AP.",
+            "Step 3: S_24 = (24/2)[2×5 + 23×2] = 12[10+46] = 12×56 = 672.",
+            "ANSWER: Sum of first 24 terms = 672.",
+            "EXAMPLE 5.4.6: TV set manufacturing problem",
+            "PROBLEM: A manufacturer produced 600 TV sets in year 3 and 700 in year 7. Find: (i) production in year 1, (ii) production in year 10, (iii) total production in first 7 years.",
+            "SOLUTION:",
+            "Step 1: a + 2d = 600 ...(1); a + 6d = 700 ...(2). Solving: 4d = 100 → d = 25; a = 550.",
+            "(i) Production in year 1 = a = 550 sets.",
+            "(ii) a_10 = 550 + 9×25 = 550 + 225 = 775 sets.",
+            "(iii) S_7 = (7/2)[2×550 + 6×25] = (7/2)[1100+150] = (7/2)×1250 = 4375 sets.",
+            "ANSWER: (i) 550 sets  (ii) 775 sets  (iii) 4375 sets total in 7 years.",
+            "EXERCISES: Exercise 5.3 (Topic 5.4)"
+          ]
+        },
+        {
+          "type": "exercise",
+          "label": "Exercise 5.3 Q1: Find the sum of the following APs:",
+          "items": [],
+          "raw": "(i) 2, 7, 12, ..., to 10 terms   (ii) -37, -33, -29, ..., to 12 terms\n(iii) 0.6, 1.7, 2.8, ..., to 100 terms   (iv) 1/15, 1/12, 1/10, ..., to 11 terms"
+        },
+        {
+          "type": "exercise",
+          "label": "Exercise 5.3 Q2: Find the sums:",
+          "items": [],
+          "raw": "(i) 7 + 10½ + 14 + ... + 84   (ii) 34 + 32 + 30 + ... + 10   (iii) -5+(-8)+(-11)+...+(-230)"
+        },
+        {
+          "type": "exercise",
+          "label": "Exercise 5.3 Q3: In an AP:",
+          "items": [],
+          "raw": "(i) a=5, d=3, a_n=50; find n and S_n.   (ii) a=7, a_13=35; find d and S_13.\n(iii) a_12=37, d=3; find a and S_12.   (iv) a_3=15, S_10=125; find d and a_10.\n(v) d=5, S_9=75; find a and a_9.   (vi) a=2, d=8, S_n=90; find n and a_n.\n(vii) a=8, a_n=62, S_n=210; find n and d.   (viii) a_n=4, d=2, S_n=-14; find n and a.\n(ix) a=3, n=8, S=192; find d.   (x) l=28, S=144, total 9 terms; find a.\n\nExercise 5.3 Q4: How many terms of AP: 9, 17, 25, ... give sum of 636?\nExercise 5.3 Q5: AP first term = 5, last term = 45, sum = 400. Find number of terms and d.\nExercise 5.3 Q6: First and last terms are 17 and 350; d = 9. How many terms and what is their sum?\nExercise 5.3 Q7: Find sum of first 22 terms of AP where d=7 and 22nd term is 149.\nExercise 5.3 Q8: Find sum of first 51 terms of AP whose 2nd and 3rd terms are 14 and 18.\nExercise 5.3 Q9: Sum of first 7 terms is 49 and that of 17 terms is 289. Find sum of first n terms.\nExercise 5.3 Q10: Show a1, a2, ..., a_n form AP where (i) a_n=3+4n (ii) a_n=9-5n. Find sum of first 15 terms.\nExercise 5.3 Q11: If S_n = 4n-n^2, find first term, sum of 2 terms, 2nd term, 3rd, 10th, nth terms.\nExercise 5.3 Q12: Find sum of first 40 positive integers divisible by 6.\nExercise 5.3 Q13: Find sum of first 15 multiples of 8.\nExercise 5.3 Q14: Find sum of odd numbers between 0 and 50.\nExercise 5.3 Q15: Penalty for delay: Rs.200 first day, Rs.250 second, ..., increases by Rs.50/day. Total penalty for 30 days' delay?\nExercise 5.3 Q16: Rs.700 given as 7 prizes; each prize Rs.20 less than preceding. Find each prize.\nExercise 5.3 Q17: Students plant trees equal to class number; 3 sections per class, Class I-XII. Total trees?\nExercise 5.3 Q18: Spiral of 13 semicircles with radii 0.5, 1.0, 1.5, ..., 6.5 cm. Total length? (π = 22/7)\nExercise 5.3 Q19: 200 logs stacked: 20 in bottom row, 19 in next, etc. How many rows? How many in top row?\nExercise 5.3 Q20: Potato race: bucket 5m from first potato, others 3m apart. 10 potatoes total. Total distance run?"
+        },
+        {
+          "type": "exercise",
+          "label": "EXERCISE 5.4 (Optional — not from examination point of view):",
+          "items": [],
+          "raw": "Exercise 5.4 Q1: Which term of AP: 121, 117, 113, ..., is its first negative term?\nExercise 5.4 Q2: Sum of 3rd and 7th terms is 6; product is 8. Find sum of first 16 terms.\nExercise 5.4 Q3: Ladder rungs 25 cm apart; lengths decrease from 45 cm (bottom) to 25 cm (top); top and bottom 2½ m apart. Find length of wood for rungs. [Hint: Number of rungs = 250/25+1]\nExercise 5.4 Q4: Houses numbered 1 to 49. Find x such that sum of numbers before house x = sum of numbers after it. [Hint: S_(x-1) = S_49 - S_x]\nExercise 5.4 Q5: Terrace of 15 steps each 50 m long; rise = 1/4 m, tread = 1/2 m. Total concrete volume? [Hint: Volume of 1st step = 1/4 × 1/2 × 50 m^3]\n\n\nADDITIONAL CALCULATIONS: (Topic 5.4)\n\nProblem 1: Penalty for 30 days' delay (Exercise 5.3 Q15 — full solution)\nSolution:\nStep 1: AP: 200, 250, 300, ...; a=200, d=50, n=30.\nStep 2: S_30 = (30/2)[2×200 + 29×50] = 15[400+1450] = 15×1850 = 27750.\nAnswer: Total penalty = Rs. 27,750.\n\nProblem 2: 7 cash prizes summing to Rs.700, each Rs.20 less than preceding (Exercise 5.3 Q16)\nSolution:\nStep 1: Let first (largest) prize = a; d = -20; n = 7; S_7 = 700.\nStep 2: 700 = (7/2)[2a + 6×(-20)] = (7/2)[2a-120] → 200 = 2a-120 → a = 160.\nStep 3: Prizes: 160, 140, 120, 100, 80, 60, 40.\nAnswer: Prizes are Rs. 160, 140, 120, 100, 80, 60, 40.\n\nProblem 3: Students' tree planting (Exercise 5.3 Q17)\nSolution:\nStep 1: Each class has 3 sections. Class k plants k trees per section → 3k trees per class.\nStep 2: Total = 3×1 + 3×2 + ... + 3×12 = 3(1+2+...+12) = 3×(12×13/2) = 3×78 = 234.\nAnswer: Total trees planted = 234.\n\nProblem 4: Spiral of 13 semicircles (Exercise 5.3 Q18)\nSolution:\nStep 1: Lengths of semicircles: π×0.5, π×1.0, ..., π×6.5.\nStep 2: Sum of radii: AP with a=0.5, d=0.5, n=13. S_13 = (13/2)(0.5+6.5) = (13/2)×7 = 45.5.\nStep 3: Total length = π×45.5 = (22/7)×45.5 = 22×6.5 = 143 cm.\nAnswer: Total length = 143 cm."
+        },
+        {
+          "type": "qa",
+          "label": "TOPIC 5.4: Q&A:",
+          "items": []
+        },
+        {
+          "type": "qa",
+          "label": "Q&A",
+          "items": [
+            {
+              "q_num": 1,
+              "marks": 2,
+              "question": "Write the sum formula for an AP and state when each form is used.",
+              "answer": "FORMULA 1:  S_n = (n/2)[2a + (n-1)d]  — used when a and d are known.\nFORMULA 2:  S_n = (n/2)(a + l)  — used when first term a and last term l are given.\n\nSpecial: Sum of first n positive integers = n(n+1)/2.\n\n---"
+            },
+            {
+              "q_num": 2,
+              "marks": 2,
+              "question": "Find the sum of the first 1000 positive integers.",
+              "answer": "AP: 1, 2, 3, ..., 1000.  a = 1, l = 1000, n = 1000.\n\nS_1000 = (1000/2)(1 + 1000) = 500 × 1001 = 5,00,500.\n\n---"
+            },
+            {
+              "q_num": 3,
+              "marks": 2,
+              "question": "State the Remark about a_n and S_n. If S_n = 4n - n^2, find the 10th term.",
+              "answer": "Remark: a_n = S_n - S_(n-1).\n\na_10 = S_10 - S_9\n= (40 - 100) - (36 - 81)\n= -60 - (-45)\n= -15.\n\n10th term = -15.\n\n---"
+            },
+            {
+              "q_num": 4,
+              "marks": 2,
+              "question": "Find the sum of first 22 terms of AP: 8, 3, -2, ...",
+              "answer": "a = 8, d = -5, n = 22.\n\nS_22 = (22/2)[2×8 + 21×(-5)]\n= 11[16 - 105]\n= 11 × (-89)\n= -979.\n\n---\n\n3 ಮಾರ್ಕ್ಸ್ × 3 questions:\n\n---"
+            },
+            {
+              "q_num": 5,
+              "marks": 3,
+              "question": "If S_14 = 1050 and first term is 10, find the 20th term.",
+              "answer": "Step 1: 1050 = (14/2)[2×10 + 13d] = 7[20 + 13d].\n150 = 20 + 13d  →  13d = 130  →  d = 10.\n\nStep 2: a_20 = 10 + 19 × 10 = 200.\n\n20th term = 200.\n\n---"
+            },
+            {
+              "q_num": 6,
+              "marks": 3,
+              "question": "Find the sum of first 24 terms of the list whose nth term is a_n = 3 + 2n.",
+              "answer": "Step 1: a1 = 5, a2 = 7. d = 2. This is AP with a = 5, d = 2.\n\nStep 2: S_24 = (24/2)[2×5 + 23×2] = 12[10 + 46] = 12 × 56 = 672.\n\n---"
+            },
+            {
+              "q_num": 7,
+              "marks": 3,
+              "question": "If S_n = 4n - n^2, find first term, second term, and common difference.",
+              "answer": "Step 1: First term = S_1 = 4 - 1 = 3.\nStep 2: S_2 = 8 - 4 = 4. Second term = 4 - 3 = 1.\nStep 3: d = 1 - 3 = -2.\n\nAP: 3, 1, -1, -3, ...\n\n---\n\n4 ಮಾರ್ಕ್ಸ್ × 4 questions:\n\n---"
+            },
+            {
+              "q_num": 8,
+              "marks": 4,
+              "question": "How many terms of AP: 9, 17, 25, ... must be taken to give a sum of 636?",
+              "answer": "a = 9, d = 8, S_n = 636.\n\nStep 1: 636 = (n/2)[18 + (n-1)8] = (n/2)[8n + 10] = n(4n + 5).\n4n^2 + 5n - 636 = 0.\n\nStep 2: n = [-5 ± √(25 + 4×4×636)] / 8 = [-5 ± √10201] / 8 = [-5 ± 101] / 8.\nn = 96/8 = 12.\n\nStep 3: Verify: S_12 = 12(4×12+5) = 12×53 = 636 ✓.\n\n12 terms must be taken.\n\n---"
+            },
+            {
+              "q_num": 9,
+              "marks": 4,
+              "question": "A sum of Rs. 700 is given as 7 cash prizes where each prize is Rs. 20 less than its preceding prize. Find all prizes.",
+              "answer": "Let largest prize = a, d = -20, n = 7, S_7 = 700.\n\nStep 1: 700 = (7/2)[2a + 6(-20)] = (7/2)(2a - 120).\n200 = 2a - 120  →  a = 160.\n\nStep 2: Prizes: 160, 140, 120, 100, 80, 60, 40.\n\nVerify: 160+140+120+100+80+60+40 = 700 ✓.\n\n---"
+            },
+            {
+              "q_num": 10,
+              "marks": 4,
+              "question": "Show that a_n = 3 + 4n forms an AP. Find sum of first 15 terms. Also show a_n = 9 - 5n forms an AP and find its sum of first 15 terms.",
+              "answer": "(i) a_n = 3 + 4n:\na_k = 3+4k;  a_(k+1) = 3+4(k+1).\na_(k+1) - a_k = 4 (constant). IS AP with a=7, d=4.\nS_15 = (15/2)[2×7 + 14×4] = (15/2)[14+56] = (15/2)×70 = 525.\n\n(ii) a_n = 9 - 5n:\na_(k+1) - a_k = [9-5(k+1)] - [9-5k] = -5 (constant). IS AP with a=4, d=-5.\nS_15 = (15/2)[2×4 + 14×(-5)] = (15/2)[8-70] = (15/2)×(-62) = -465.\n\n---"
+            },
+            {
+              "q_num": 11,
+              "marks": 4,
+              "question": "Find: (i) sum of odd numbers between 0 and 50. (ii) sum of first 40 positive integers divisible by 6.",
+              "answer": "(i) Odd numbers: 1, 3, 5, ..., 49. a=1, l=49, n=25.\nS_25 = (25/2)(1+49) = 25×25 = 625.\n\n(ii) Multiples of 6: 6, 12, ..., 240. a=6, d=6, n=40.\nl = 6×40 = 240.\nS_40 = (40/2)(6+240) = 20×246 = 4,920.\n\n---\n\n5 ಮಾರ್ಕ್ಸ್ × 1 question:\n\n---"
+            },
+            {
+              "q_num": 12,
+              "marks": 5,
+              "question": "",
+              "answer": "PART A:\n\nStep 1: S_7 = 49:  (7/2)(2a+6d) = 49  →  a + 3d = 7  ...(1).\nStep 2: S_17 = 289:  (17/2)(2a+16d) = 289  →  a + 8d = 17  ...(2).\nStep 3: (2)-(1): 5d = 10  →  d = 2;  a = 1.\n\nStep 4: S_n = (n/2)[2 + (n-1)×2] = (n/2)(2n) = n^2.\n\nS_n = n^2.  Verify: S_7=49 ✓, S_17=289 ✓.\n\n---\n\nPART B:\n\nTree planting:\nClass k has 3 sections, each plants k trees → 3k trees per class.\nTotal = 3(1+2+...+12) = 3 × (12×13/2) = 3 × 78 = 234 trees.\n\nTV manufacturing:\na + 2d = 600 ...(1);  a + 6d = 700 ...(2).\n4d = 100 → d = 25; a = 550.\n\nTotal in 7 years = S_7 = (7/2)[2×550 + 6×25] = (7/2)[1100+150] = (7/2)×1250 = 4375 sets.\n\nTotal trees = 234. Total TV sets in 7 years = 4375."
+            }
+          ]
+        },
+        {
+          "type": "mcq",
+          "label": "MCQ",
+          "items": [
+            {
+              "mcq_num": 1,
+              "difficulty": "Easy",
+              "question": "The formula for sum of first n terms of an AP is:",
+              "options": {
+                "A": "S_n = n[a+(n-1)d]   (B) S_n = (n/2)[2a+(n-1)d]",
+                "C": "S_n = (n/2)[a+(n-1)d]   (D) S_n = n[2a+(n-1)d]"
+              },
+              "answer": "B",
+              "explanation": "S_n = n/2 × [2a + (n-1)d] — derived by adding the AP forward and backward and halving."
+            },
+            {
+              "mcq_num": 2,
+              "difficulty": "Easy",
+              "question": "Sum of first n positive integers is:",
+              "options": {
+                "A": "n(n-1)/2   (B) n(n+1)/2   (C) (n+1)(n+2)/2   (D) n^2/2"
+              },
+              "answer": "B",
+              "explanation": "S_n = n(n+1)/2. For AP 1,2,3,...,n: a=1, d=1. S_n = n/2 × [2 + (n-1)] = n(n+1)/2."
+            },
+            {
+              "mcq_num": 3,
+              "difficulty": "Easy",
+              "question": "Sum of first 1000 positive integers is:",
+              "options": {
+                "A": "500500   (B) 505000   (C) 50050   (D) 100100"
+              },
+              "answer": "A",
+              "explanation": "S_1000 = 1000×1001/2 = 500500."
+            },
+            {
+              "mcq_num": 4,
+              "difficulty": "Easy",
+              "question": "If a=5, d=3, n=10, then S_10 is:",
+              "options": {
+                "A": "185   (B) 175   (C) 165   (D) 195"
+              },
+              "answer": "A",
+              "explanation": "S_10 = (10/2)[10+9×3] = 5[10+27] = 5×37 = 185"
+            },
+            {
+              "mcq_num": 5,
+              "difficulty": "Easy",
+              "question": "Sum of first 22 terms of AP 8, 3, -2, ... is:",
+              "options": {
+                "A": "979   (B) -979   (C) -770   (D) 770"
+              },
+              "answer": "B",
+              "explanation": "a=8, d=-5, n=22. S_22 = 22/2 × [16 + 21×(-5)] = 11 × [16-105] = 11 × (-89) = -979."
+            },
+            {
+              "mcq_num": 6,
+              "difficulty": "Medium",
+              "question": "S_n = (n/2)(a+l) is used when:",
+              "options": {
+                "A": "Only first term known   (B) First term and d are known",
+                "C": "First and last terms are known but d is not given   (D) Only n is known"
+              },
+              "answer": "C",
+              "explanation": "S_n = n/2 × (a+l) is used when the LAST TERM l is known. Otherwise use S_n = n/2 × [2a + (n-1)d]."
+            },
+            {
+              "mcq_num": 7,
+              "difficulty": "Medium",
+              "question": "How many terms of AP: 9, 17, 25, ... give sum of 636?",
+              "options": {
+                "A": "10   (B) 11   (C) 12   (D) 13"
+              },
+              "answer": "C",
+              "explanation": "636=(n/2)[18+(n-1)8]; 1272=8n^2+10n; 4n^2+5n-636=0; n=12"
+            },
+            {
+              "mcq_num": 8,
+              "difficulty": "Medium",
+              "question": "If S_n = 4n-n^2, the 10th term is:",
+              "options": {
+                "A": "-14   (B) -15   (C) -13   (D) -16"
+              },
+              "answer": "B",
+              "explanation": "a_10 = S_10-S_9 = (40-100)-(36-81) = -60-(-45) = -15"
+            },
+            {
+              "mcq_num": 9,
+              "difficulty": "Medium",
+              "question": "TV manufacturer: 600 sets in year 3, 700 in year 7. Total production in first 7 years:",
+              "options": {
+                "A": "4200   (B) 4375   (C) 4550   (D) 4000"
+              },
+              "answer": "B",
+              "explanation": "a+2d=600, a+6d=700 → 4d=100 → d=25 → a=550. S_7 = 7/2 × [2(550) + 6(25)] = 7/2 × 1250 = 4375."
+            },
+            {
+              "mcq_num": 10,
+              "difficulty": "Medium",
+              "question": "Sum of first 15 multiples of 8 is:",
+              "options": {
+                "A": "900   (B) 960   (C) 980   (D) 1000"
+              },
+              "answer": "B",
+              "explanation": "AP: 8, 16, ..., 120. S_15 = (15/2)(8+120) = (15/2)(128) = 960"
+            },
+            {
+              "mcq_num": 11,
+              "difficulty": "Medium",
+              "question": "Sum of odd numbers between 0 and 50:",
+              "options": {
+                "A": "576   (B) 600   (C) 625   (D) 650"
+              },
+              "answer": "C",
+              "explanation": "AP: 1, 3, ..., 49. n=25. S_25=(25/2)(1+49)=625"
+            },
+            {
+              "mcq_num": 12,
+              "difficulty": "Hard",
+              "question": "Sum of first 7 terms = 49 and first 17 terms = 289. Then S_n =",
+              "options": {
+                "A": "n^2   (B) n^2+n   (C) 2n^2   (D) n(n+1)"
+              },
+              "answer": "A",
+              "explanation": "a+3d=7; a+8d=17 → d=2, a=1. S_n=n^2"
+            },
+            {
+              "mcq_num": 13,
+              "difficulty": "Hard",
+              "question": "7 cash prizes sum to Rs.700; each prize Rs.20 less than preceding. First prize is:",
+              "options": {
+                "A": "Rs.100   (B) Rs.120   (C) Rs.140   (D) Rs.160"
+              },
+              "answer": "D",
+              "explanation": "S_7=(7/2)(2a+6×(-20))=700 → 2a-120=200 → a=160"
+            },
+            {
+              "mcq_num": 14,
+              "difficulty": "Hard",
+              "question": "Spiral of 13 semicircles with radii 0.5, 1.0, ..., 6.5 cm. Total length (π=22/7):",
+              "options": {
+                "A": "143 cm   (B) 143.5 cm   (C) 144 cm   (D) 145 cm"
+              },
+              "answer": "A",
+              "explanation": "Sum of radii = S_13 = (13/2)(0.5+6.5) = 45.5. Length = (22/7)×45.5 = 143 cm"
+            },
+            {
+              "mcq_num": 15,
+              "difficulty": "Hard",
+              "question": "200 logs stacked: 20 in bottom, 19 in next, etc. Number of rows:",
+              "options": {
+                "A": "15   (B) 16   (C) 17   (D) 18"
+              },
+              "answer": "B",
+              "explanation": "S_n=200: n(41-n)=400 → n^2-41n+400=0 → (n-16)(n-25)=0 → n=16"
+            }
+          ]
+        },
+        {
+          "type": "definition",
+          "label": "Definition:",
+          "text": "An ARITHMETIC PROGRESSION (AP) is a list of numbers in which each term is obtained by adding a fixed number d to the preceding term, except the first term. The fixed number d is called the COMMON DIFFERENCE."
+        },
+        {
+          "type": "key_points",
+          "label": "Key Points (Summary of all chapter points):",
+          "points": [
+            "1. An arithmetic progression (AP): a, a+d, a+2d, a+3d, ...",
+            "2. A list a1, a2, a3, ... is an AP if a_(k+1) - a_k is the same for all values of k.",
+            "3. nth term (general term): a_n = a + (n-1)d.",
+            "4. Sum of first n terms: S_n = (n/2)[2a + (n-1)d].",
+            "5. If l is the last term: S_n = (n/2)(a + l).",
+            "6. NOTE TO THE READER: If a, b, c are in AP, then b = (a+c)/2. b is called the ARITHMETIC MEAN of a and c."
+          ]
+        }
+      ],
+      "subtopics": []
+    }
+  ]
+}

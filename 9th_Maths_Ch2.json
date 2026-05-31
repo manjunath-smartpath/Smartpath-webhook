@@ -1,0 +1,1733 @@
+{
+  "metadata": {
+    "class": "9th STANDARD",
+    "subject": "Mathematics",
+    "part": "1",
+    "chapter_num": "2",
+    "chapter_name": "POLYNOMIALS",
+    "source": "KSEEB Textbook 2025-26",
+    "mode": "B"
+  },
+  "chapter_sections": [
+    {
+      "type": "definition",
+      "label": "Definition:",
+      "text": "A POLYNOMIAL in one variable is an algebraic expression of the form\np(x) = a_n*x^n + a_(n-1)*x^(n-1) + ... + a_1*x + a_0\nwhere a_0, a_1, ..., a_n are constants (a_n ≠ 0) and all exponents of\nthe variable are WHOLE NUMBERS (0, 1, 2, 3, ...)."
+    },
+    {
+      "type": "key_points",
+      "label": "Key Points:",
+      "points": [
+        "Polynomials are a special type of algebraic expression.",
+        "All exponents of the variable must be whole numbers.",
+        "We study polynomials in one variable in this chapter.",
+        "Topics covered: terminology, zeroes of polynomial, Remainder Theorem,",
+        "Factor Theorem, and algebraic identities."
+      ]
+    },
+    {
+      "type": "list_of_topics",
+      "label": "LIST OF TOPICS IN THIS CHAPTER:",
+      "items": [
+        "- Topic 2.1: Introduction",
+        "- Topic 2.2: Polynomials in One Variable",
+        "- Topic 2.3: Zeroes of a Polynomial",
+        "- Topic 2.4: Factorisation of Polynomials",
+        "- Topic 2.5: Algebraic Identities"
+      ]
+    },
+    {
+      "type": "qa",
+      "label": "CHAPTER 2: Q&A",
+      "items": []
+    },
+    {
+      "type": "mcq",
+      "label": "CHAPTER 2: MCQs:",
+      "items": []
+    }
+  ],
+  "topics": [
+    {
+      "topic_num": "2.1",
+      "topic_name": "INTRODUCTION",
+      "mode": "B",
+      "sections": [
+        {
+          "type": "definition",
+          "label": "Definition:",
+          "text": "POLYNOMIAL is a special type of algebraic expression in one variable in\nwhich all exponents of the variable are WHOLE NUMBERS. Polynomials include\nthe study of Remainder Theorem, Factor Theorem, and algebraic identities."
+        },
+        {
+          "type": "key_points",
+          "label": "Key Points:",
+          "points": [
+            "In earlier classes, we studied algebraic expressions and their operations.",
+            "We also studied factorisation using three identities:",
+            "(x + y)^2 = x^2 + 2xy + y^2",
+            "(x - y)^2 = x^2 - 2xy + y^2",
+            "x^2 - y^2 = (x + y)(x - y)",
+            "This chapter introduces polynomials, Remainder Theorem, Factor Theorem,",
+            "and new algebraic identities."
+          ]
+        },
+        {
+          "type": "list_of_topics",
+          "label": "LIST OF SUB TOPICS IN THIS TOPIC:",
+          "items": [
+            "- None (no sub-topic numbering in textbook for Topic 2.1)"
+          ]
+        },
+        {
+          "type": "qa",
+          "label": "TOPIC 2.1: Q&A",
+          "items": []
+        },
+        {
+          "type": "qa",
+          "label": "Q&A",
+          "items": [
+            {
+              "q_num": 1,
+              "marks": 2,
+              "question": "What is a polynomial? How is it different from a general",
+              "answer": "A polynomial is a special algebraic expression in one variable where\nall exponents are WHOLE NUMBERS (0, 1, 2, 3, ...).\nDifference: Every polynomial is an algebraic expression, but not every\nalgebraic expression is a polynomial. For example, x^2 + 2x + 1 is a\npolynomial (exponents 2, 1, 0 are whole), but x^2 + sqrt(x) + 1 is not\n(sqrt(x) = x^{1/2}, exponent 1/2 is not a whole number)."
+            },
+            {
+              "q_num": 2,
+              "marks": 2,
+              "question": "State any three algebraic identities studied in earlier",
+              "answer": "The three identities from earlier classes are:\nIdentity I  : (x + y)^2 = x^2 + 2xy + y^2\nIdentity II : (x - y)^2 = x^2 - 2xy + y^2\nIdentity III: x^2 - y^2 = (x + y)(x - y)\nThese are used for expanding expressions and factorising algebraic\nexpressions quickly."
+            },
+            {
+              "q_num": 3,
+              "marks": 2,
+              "question": "Which of the following are polynomials? Give reasons.",
+              "answer": "(i) x + 1/x = x + x^{-1}. Exponent -1 is not a whole number.\nNOT a polynomial.\n(ii) 3*sqrt(t) + t*sqrt(2) = 3t^{1/2} + sqrt(2)*t. Exponent 1/2 is\nnot a whole number. NOT a polynomial.\n(iii) y^2 + sqrt(2). sqrt(2) is a constant. Exponents 2 and 0 are\nwhole numbers. IS a polynomial in y."
+            },
+            {
+              "q_num": 4,
+              "marks": 2,
+              "question": "Name the two theorems introduced in Chapter 2 for factorisation",
+              "answer": "(i) REMAINDER THEOREM: When p(x) is divided by (x - a), the remainder\nis p(a). It is used to FIND THE REMAINDER without performing long\ndivision.\n(ii) FACTOR THEOREM: (x - a) is a factor of p(x) if and only if\np(a) = 0. It is a SPECIAL CASE of the Remainder Theorem (when the\nremainder is zero), used for FACTORISATION.\nKey difference: Remainder Theorem gives the remainder; Factor Theorem\nuses zero remainder to confirm a factor.\n\n---\n\n3 ಮಾರ್ಕ್ಸ್ × 2 questions:"
+            },
+            {
+              "q_num": 5,
+              "marks": 3,
+              "question": "What are the main topics studied in Chapter 2 - Polynomials?",
+              "answer": "Step 1: Chapter 2 covers five main topics:\n(i) Polynomials in one variable — terminology (terms, degree,\ncoefficients, types: linear, quadratic, cubic).\n(ii) Zeroes of a polynomial — finding values where p(x) = 0.\n(iii) Remainder Theorem — finding remainder when a polynomial is\ndivided by a linear factor without actually dividing.\n(iv) Factor Theorem — checking whether a linear polynomial is a\nfactor of a given polynomial.\n(v) Algebraic Identities — new identities V to VIII for expansion\nand factorisation.\n\nStep 2: Remainder Theorem use:\nIf p(x) is divided by (x - a), the remainder equals p(a).\nThis avoids long division — just substitute x = a.\n\nStep 3: Factor Theorem use:\n(x - a) is a factor of p(x) iff p(a) = 0.\nIt is used to factorise polynomials by identifying zero points."
+            },
+            {
+              "q_num": 6,
+              "marks": 3,
+              "question": "Explain why x + 1/x, sqrt(x) + 3, and 3*sqrt(y) + y^2 are",
+              "answer": "Step 1: x + 1/x = x + x^{-1}.\nExponent -1 is NOT a whole number. NOT a polynomial.\n\nStep 2: sqrt(x) + 3 = x^{1/2} + 3.\nExponent 1/2 is NOT a whole number. NOT a polynomial.\n\nStep 3: 3*sqrt(y) + y^2 = 3y^{1/2} + y^2.\nFirst term has exponent 1/2, NOT a whole number. NOT a polynomial.\nRule: ALL exponents must be whole numbers.\nExamples of polynomials:\n- p(x) = 2x^3 - 5x + 7 (exponents 3, 1, 0 — all whole) ✓\n- q(y) = y^2 + sqrt(2)*y - 3 (exponents 2, 1, 0 — all whole) ✓\n\n---\n\n4 ಮಾರ್ಕ್ಸ್ × 3 questions:"
+            },
+            {
+              "q_num": 7,
+              "marks": 4,
+              "question": "Describe the five new algebraic identities (V to VIII)",
+              "answer": "Step 1: The five new identities:\nIdentity V  : (x+y+z)^2 = x^2+y^2+z^2+2xy+2yz+2zx\nIdentity VI : (x+y)^3 = x^3+y^3+3xy(x+y)\nIdentity VII: (x-y)^3 = x^3-y^3-3xy(x-y)\nIdentity VIII: x^3+y^3+z^3-3xyz = (x+y+z)(x^2+y^2+z^2-xy-yz-zx)\nSpecial: If x+y+z=0, then x^3+y^3+z^3 = 3xyz.\nAlso: x^3+y^3 = (x+y)(x^2-xy+y^2)\nx^3-y^3 = (x-y)(x^2+xy+y^2)\n\nStep 2: Derivation of Identity V from Identity I:\nLet t = x + y. Then: (x+y+z)^2 = (t+z)^2.\n\nStep 3: Using Identity I: (a+b)^2 = a^2+2ab+b^2:\n= t^2 + 2tz + z^2 = (x+y)^2 + 2(x+y)z + z^2\n= x^2+2xy+y^2 + 2xz+2yz + z^2\n\nStep 4: Rearranging: = x^2+y^2+z^2+2xy+2yz+2zx. PROVED."
+            },
+            {
+              "q_num": 8,
+              "marks": 4,
+              "question": "Use algebraic identities to factorise:",
+              "answer": "Step 1: (i) 49a^2+70ab+25b^2 = (7a)^2+2(7a)(5b)+(5b)^2 = (7a+5b)^2.\n[Identity I: (x+y)^2=x^2+2xy+y^2, x=7a, y=5b]\n\nStep 2: (ii) (25/4)x^2 - y^2/9 = (5x/2)^2 - (y/3)^2\n= (5x/2+y/3)(5x/2-y/3).   [Identity III: x^2-y^2=(x+y)(x-y)]\n\nStep 3: (iii) 8a^3+b^3+12a^2b+6ab^2 = (2a)^3+b^3+3(2a)^2(b)+3(2a)(b)^2\n= (2a+b)^3.   [Identity VI: (x+y)^3=x^3+y^3+3x^2y+3xy^2, x=2a, y=b]\n\nStep 4: (iv) x=-12, y=7, z=5. Sum: -12+7+5=0.\nSince x+y+z=0: x^3+y^3+z^3 = 3xyz = 3(-12)(7)(5) = -1260."
+            },
+            {
+              "q_num": 9,
+              "marks": 4,
+              "question": "Chapter 2 introduces polynomials in one variable. Answer:",
+              "answer": "Step 1: (i) x^10 + y^3 + t^50 has THREE variables: x, y, t.\nAll exponents are whole numbers so it is a polynomial, but NOT in\none variable. It is a polynomial in three variables.\n\nStep 2: (ii) Identity IV: (x+a)(x+b) = x^2 + (a+b)x + ab.\n103 x 107 = (100+3)(100+7), x=100, a=3, b=7.\n= 100^2 + (3+7)(100) + 3*7 = 10000 + 1000 + 21 = 11021.\n\nStep 3: (iii) p(x) = 2x^3 + x - 5:\nDegree = 3 (highest power = 3) → CUBIC polynomial.\nNumber of terms = 3 (2x^3, x, -5) → TRINOMIAL.\n\nStep 4: (iv) Zero of p(x) = cx + d: set cx + d = 0 -> x = -d/c.\nMeaning: x = -d/c is the value of x where p(x) = 0, i.e., the graph\nof y = cx + d crosses the x-axis at x = -d/c. Every linear polynomial\nhas exactly one zero.\n\n---\n\n5 ಮಾರ್ಕ್ಸ್ × 1 question:"
+            },
+            {
+              "q_num": 10,
+              "marks": 5,
+              "question": "Topic 2.1 introduces the concept of polynomials and the",
+              "answer": "PART A — Derivation of Identity VI and expansion:\nStep 1: (x+y)^3 = (x+y) * (x+y)^2.\nUsing Identity I: (x+y)^2 = x^2 + 2xy + y^2. So:\n(x+y)^3 = (x+y)(x^2+2xy+y^2)\n\nStep 2: Expand:\n= x(x^2+2xy+y^2) + y(x^2+2xy+y^2)\n= x^3+2x^2y+xy^2 + x^2y+2xy^2+y^3\n= x^3 + 3x^2y + 3xy^2 + y^3 = x^3+y^3+3xy(x+y).   PROVED.\n\nStep 3: Expand (3a+4b)^3. Identity VI, x=3a, y=4b:\n= (3a)^3+(4b)^3+3(3a)(4b)(3a+4b)\n= 27a^3+64b^3+36ab(3a+4b)\n= 27a^3 + 64b^3 + 108a^2b + 144ab^2.\n\nStep 4: Expand (5p-3q)^3. Identity VII, x=5p, y=3q:\n= (5p)^3-(3q)^3-3(5p)(3q)(5p-3q)\n= 125p^3-27q^3-45pq(5p-3q)\n= 125p^3 - 27q^3 - 225p^2q + 135pq^2.\n\nPART B — All identities and applications:\nStep 5: The eight identities:\nI  : (x+y)^2 = x^2+2xy+y^2\nII : (x-y)^2 = x^2-2xy+y^2\nIII: x^2-y^2 = (x+y)(x-y)\nIV : (x+a)(x+b) = x^2+(a+b)x+ab\nV  : (x+y+z)^2 = x^2+y^2+z^2+2xy+2yz+2zx\nVI : (x+y)^3 = x^3+y^3+3xy(x+y)\nVII: (x-y)^3 = x^3-y^3-3xy(x-y)\nVIII: x^3+y^3+z^3-3xyz = (x+y+z)(x^2+y^2+z^2-xy-yz-zx)\n\nStep 6: Expand (3a+4b+5c)^2. Identity V, x=3a, y=4b, z=5c:\n= 9a^2+16b^2+25c^2+2(3a)(4b)+2(4b)(5c)+2(5c)(3a)\n= 9a^2+16b^2+25c^2 + 24ab + 40bc + 30ca.\n\nStep 7: Factorise 4x^2+y^2+z^2-4xy-2yz+4xz.\n= (2x)^2+(-y)^2+z^2+2(2x)(-y)+2(-y)(z)+2(z)(2x)\nMatches Identity V with a=2x, b=-y, c=z:\n= (2x-y+z)^2."
+            }
+          ]
+        },
+        {
+          "type": "mcq",
+          "label": "MCQ",
+          "items": [
+            {
+              "mcq_num": 1,
+              "difficulty": "Easy",
+              "question": "The algebraic identity (x - y)^2 is equal to:",
+              "options": {
+                "A": "x^2 + 2xy + y^2    (B) x^2 - 2xy + y^2    (C) x^2 - y^2    (D) x^2 + y^2"
+              },
+              "answer": "B",
+              "explanation": "Identity II: (x - y)^2 = x^2 - 2xy + y^2."
+            },
+            {
+              "mcq_num": 2,
+              "difficulty": "Easy",
+              "question": "Which of the following is a polynomial?",
+              "options": {
+                "A": "x + 1/x    (B) sqrt(x) + 3    (C) x^2 + 2x + 1    (D) x^(3/2) + 1"
+              },
+              "answer": "C",
+              "explanation": "All exponents in x^2 + 2x + 1 are whole numbers."
+            },
+            {
+              "mcq_num": 3,
+              "difficulty": "Medium",
+              "question": "The expression 3*sqrt(y) + y^2 is NOT a polynomial because:",
+              "options": {
+                "A": "It has two terms              (B) The coefficient 3 is irrational",
+                "C": "sqrt(y) = y^(1/2), exponent 1/2 is not a whole number",
+                "D": "y^2 has exponent 2 which is too large"
+              },
+              "answer": "C",
+              "explanation": "3*sqrt(y) = 3y^(1/2). Exponent 1/2 ≠ whole number."
+            },
+            {
+              "mcq_num": 4,
+              "difficulty": "Medium",
+              "question": "The identity x^2 - y^2 = (x + y)(x - y) is called:",
+              "options": {
+                "A": "Identity I    (B) Identity II    (C) Identity III    (D) Identity IV"
+              },
+              "answer": "C",
+              "explanation": "This difference-of-squares identity is Identity III."
+            },
+            {
+              "mcq_num": 5,
+              "difficulty": "Medium",
+              "question": "Which of the following can be studied using polynomials in Chapter 2?",
+              "options": {
+                "A": "Factorisation using Remainder Theorem",
+                "B": "Factorisation using Factor Theorem",
+                "C": "New algebraic identities",
+                "D": "All of the above"
+              },
+              "answer": "D",
+              "explanation": "Chapter 2 covers all three."
+            },
+            {
+              "mcq_num": 6,
+              "difficulty": "Hard",
+              "question": "Which of the following pairs are both polynomials in one variable?",
+              "options": {
+                "A": "x^2 + 1/x  and  y^2 + sqrt(y)",
+                "B": "t^3 - 2t + 1  and  4 - y^2",
+                "C": "sqrt(x) + x^2  and  z^3 - z",
+                "D": "p + 1/p  and  q^2 - q"
+              },
+              "answer": "B",
+              "explanation": "t^3 - 2t + 1 (exponents 3,1,0 ✓) and 4 - y^2 (exponents 0,2 ✓)."
+            },
+            {
+              "mcq_num": 7,
+              "difficulty": "Hard",
+              "question": "What is the exponent condition for an expression to be a polynomial?",
+              "options": {
+                "A": "Exponents must be positive integers",
+                "B": "Exponents must be natural numbers",
+                "C": "Exponents must be whole numbers (including 0)",
+                "D": "Exponents can be any real number"
+              },
+              "answer": "C",
+              "explanation": "0 is a whole number but NOT a natural number. Constant terms (degree 0) are valid in polynomials."
+            },
+            {
+              "mcq_num": 8,
+              "difficulty": "Hard",
+              "question": "Identity VIII: x^3+y^3+z^3-3xyz = (x+y+z)(x^2+y^2+z^2-xy-yz-zx). If x+y+z = 0, then x^3+y^3+z^3 = ?",
+              "options": {
+                "A": "0    (B) xyz    (C) 3xyz    (D) -3xyz"
+              },
+              "answer": "C",
+              "explanation": "Substituting x+y+z=0 in Identity VIII gives x^3+y^3+z^3 = 3xyz."
+            },
+            {
+              "mcq_num": 9,
+              "difficulty": "Easy",
+              "question": "Which of the following is NOT an algebraic identity?",
+              "options": {
+                "A": "(x+y)^2 = x^2+2xy+y^2    (B) x^2-y^2 = (x+y)(x-y)",
+                "C": "(x+y)^2 = x^2+y^2        (D) (x+a)(x+(B) = x^2+(a+b)x+ab"
+              },
+              "answer": "C",
+              "explanation": "(x+y)^2 = x^2+y^2 is WRONG; the correct form has +2xy term."
+            },
+            {
+              "mcq_num": 10,
+              "difficulty": "Medium",
+              "question": "The expression x^2 + y^2 + xyz (variables x, y, z) is:",
+              "options": {
+                "A": "A polynomial in one variable    (B) Not a polynomial",
+                "C": "A polynomial in three variables    (D) A monomial"
+              },
+              "answer": "C",
+              "explanation": "All exponents are whole numbers; it has three variables."
+            },
+            {
+              "mcq_num": 11,
+              "difficulty": "Hard",
+              "question": "Which theorem states that when p(x) is divided by (x-a), remainder = p(a)?",
+              "options": {
+                "A": "Factor Theorem    (B) Remainder Theorem",
+                "C": "Pythagoras Theorem    (D) Both A and B"
+              },
+              "answer": "B",
+              "explanation": "This is the Remainder Theorem. Factor Theorem uses this result as a special case (when remainder = 0)."
+            },
+            {
+              "mcq_num": 12,
+              "difficulty": "Hard",
+              "question": "The value of (-12)^3 + (7)^3 + (5)^3 is:",
+              "options": {
+                "A": "1260    (B) -1260    (C) 0    (D) 420"
+              },
+              "answer": "B",
+              "explanation": "-12+7+5=0, so by special case of Identity VIII: 3×(-12)×7×5 = -1260."
+            }
+          ]
+        }
+      ],
+      "subtopics": []
+    },
+    {
+      "topic_num": "2.2",
+      "topic_name": "POLYNOMIALS IN ONE VARIABLE",
+      "mode": "B",
+      "sections": [
+        {
+          "type": "definition",
+          "label": "Definition:",
+          "text": "A POLYNOMIAL IN ONE VARIABLE x of degree n is an expression:\np(x) = a_n*x^n + a_(n-1)*x^(n-1) + ... + a_1*x + a_0\nwhere a_0, a_1, ..., a_n are constants, a_n ≠ 0, and all exponents are\nwhole numbers. Here n is the DEGREE of the polynomial."
+        },
+        {
+          "type": "key_points",
+          "label": "Key Points:",
+          "points": [
+            "TERM: Each addend in a polynomial. E.g., in -x^3+4x^2+7x-2: four terms.",
+            "COEFFICIENT: The constant multiplied with x^n in each term.",
+            "In -x^3 + 4x^2 + 7x - 2: coefficients are -1, 4, 7, -2 (for x^0).",
+            "DEGREE: Highest power of the variable.",
+            "E.g., degree of 3x^7 - 4x^6 + x + 9 is 7.",
+            "ZERO POLYNOMIAL: The constant polynomial 0. Its degree is NOT DEFINED.",
+            "CONSTANT POLYNOMIAL: Non-zero constant like 2, -5. Degree = 0.",
+            "Types by number of terms:",
+            "MONOMIAL  : 1 term.   E.g., 5x^3, 2x, y, -5x^2.",
+            "BINOMIAL  : 2 terms.  E.g., x+1, x^2-x, y^9+1.",
+            "TRINOMIAL : 3 terms.  E.g., x+x^2+pi, 2+x-x^2.",
+            "Types by degree:",
+            "LINEAR    : Degree 1. Form: ax+b (a≠0). E.g., 2x-1, 2y+1.",
+            "QUADRATIC : Degree 2. Form: ax^2+bx+c (a≠0). E.g., 5-y^2, 4y+5y^2.",
+            "CUBIC     : Degree 3. Form: ax^3+bx^2+cx+d (a≠0). E.g., 4x^3, 2x^3+1."
+          ]
+        },
+        {
+          "type": "list_of_topics",
+          "label": "LIST OF SUB TOPICS IN THIS TOPIC:",
+          "items": [
+            "- None (no sub-topic numbering in textbook for Topic 2.2)"
+          ]
+        },
+        {
+          "type": "formulas",
+          "label": "FORMULA:",
+          "items": [
+            "General polynomial in x of degree n:",
+            "p(x) = a_n*x^n + a_(n-1)*x^(n-1) + ... + a_1*x + a_0",
+            "WHERE:",
+            "a_n, a_(n-1), ..., a_0 = constants (coefficients), a_n ≠ 0",
+            "n = degree of the polynomial (highest exponent)",
+            "x = variable",
+            "EXAMPLES:",
+            "EXAMPLE 2.2.1: Find the Degree of Polynomials",
+            "PROBLEM: Find the degree of each polynomial:",
+            "(i) x^5 - x^4 + 3    (ii) 2 - y^2 - y^3 + 2y^8    (iii) 2",
+            "SOLUTION:",
+            "Step 1: Identify the term with highest power in each.",
+            "(i)  Highest power of x is 5.",
+            "ANSWER: Degree = 5",
+            "(ii) Highest power of y is 8.",
+            "ANSWER: Degree = 8",
+            "(iii) 2 = 2*x^0. Exponent of x is 0.",
+            "ANSWER: Degree = 0",
+            "EXERCISES:"
+          ]
+        },
+        {
+          "type": "exercise",
+          "label": "EXERCISE 2.1:",
+          "items": [
+            {
+              "q_num": 1,
+              "marks": null,
+              "question": "Which of the following expressions are polynomials in one variable",
+              "answer": "and which are not? State reasons.\n(i) 4x^2 - 3x + 7    (ii) y^2 + sqrt(2)\n(iii) 3*sqrt(t) + t*sqrt(2)    (iv) y + 2/y\n(v) x^10 + y^3 + t^50\n\nSolution:\n(i)  4x^2 - 3x + 7: Exponents 2,1,0 are whole numbers.\nANSWER: IS a polynomial in one variable x.\n\n(ii) y^2 + sqrt(2): sqrt(2) is a constant. Exponents 2,0 are whole numbers.\nANSWER: IS a polynomial in one variable y.\n\n(iii) 3*sqrt(t) + t*sqrt(2) = 3*t^(1/2) + sqrt(2)*t: Exponent 1/2 is not\na whole number.\nANSWER: NOT a polynomial.\n\n(iv) y + 2/y = y + 2*y^(-1): Exponent -1 is not a whole number.\nANSWER: NOT a polynomial.\n\n(v)  x^10 + y^3 + t^50: Has THREE variables (x, y, t).\nANSWER: NOT a polynomial in one variable (it is a polynomial in\nthree variables)."
+            },
+            {
+              "q_num": 2,
+              "marks": null,
+              "question": "Write the coefficients of x^2 in each of the following:",
+              "answer": "(i) 2 + x^2 + x    (ii) 2 - x^2 + x^3    (iii) (pi/2)*x^2 + x\n(iv) sqrt(2)*x - 1\n\nSolution:\n(i)  Coefficient of x^2 in 2 + x^2 + x = 1\n(ii) Coefficient of x^2 in 2 - x^2 + x^3 = -1\n(iii) Coefficient of x^2 in (pi/2)*x^2 + x = pi/2\n(iv) Coefficient of x^2 in sqrt(2)*x - 1 = 0 (no x^2 term)"
+            },
+            {
+              "q_num": 3,
+              "marks": null,
+              "question": "Give one example each of a binomial of degree 35, and of a monomial",
+              "answer": "of degree 100.\n\nSolution:\nBinomial of degree 35: x^35 + 1\nMonomial of degree 100: x^100"
+            },
+            {
+              "q_num": 4,
+              "marks": null,
+              "question": "Write the degree of each of the following polynomials:",
+              "answer": "(i) 5x^3 + 4x^2 + 7x    (ii) 4 - y^2\n(iii) 5t - sqrt(7)    (iv) 3\n\nSolution:\n(i)  Highest power of x is 3. ANSWER: Degree = 3\n(ii) Highest power of y is 2. ANSWER: Degree = 2\n(iii) Highest power of t is 1. ANSWER: Degree = 1\n(iv) 3 = 3*x^0. ANSWER: Degree = 0"
+            },
+            {
+              "q_num": 5,
+              "marks": null,
+              "question": "Classify the following as linear, quadratic and cubic polynomials:",
+              "answer": "(i) x^2 + x    (ii) x - x^3    (iii) y + y^2 + 4    (iv) 1 + x\n(v) 3t    (vi) r^2    (vii) 7x^3\n\nSolution:\n(i)  x^2 + x: Degree 2 → QUADRATIC\n(ii) x - x^3: Degree 3 → CUBIC\n(iii) y + y^2 + 4: Degree 2 → QUADRATIC\n(iv) 1 + x: Degree 1 → LINEAR\n(v)  3t: Degree 1 → LINEAR\n(vi) r^2: Degree 2 → QUADRATIC\n(vii) 7x^3: Degree 3 → CUBIC"
+            }
+          ],
+          "raw": "Q1. Which of the following expressions are polynomials in one variable\nand which are not? State reasons.\n(i) 4x^2 - 3x + 7    (ii) y^2 + sqrt(2)\n(iii) 3*sqrt(t) + t*sqrt(2)    (iv) y + 2/y\n(v) x^10 + y^3 + t^50\n\nSolution:\n(i)  4x^2 - 3x + 7: Exponents 2,1,0 are whole numbers.\nANSWER: IS a polynomial in one variable x.\n\n(ii) y^2 + sqrt(2): sqrt(2) is a constant. Exponents 2,0 are whole numbers.\nANSWER: IS a polynomial in one variable y.\n\n(iii) 3*sqrt(t) + t*sqrt(2) = 3*t^(1/2) + sqrt(2)*t: Exponent 1/2 is not\na whole number.\nANSWER: NOT a polynomial.\n\n(iv) y + 2/y = y + 2*y^(-1): Exponent -1 is not a whole number.\nANSWER: NOT a polynomial.\n\n(v)  x^10 + y^3 + t^50: Has THREE variables (x, y, t).\nANSWER: NOT a polynomial in one variable (it is a polynomial in\nthree variables).\n\nQ2. Write the coefficients of x^2 in each of the following:\n(i) 2 + x^2 + x    (ii) 2 - x^2 + x^3    (iii) (pi/2)*x^2 + x\n(iv) sqrt(2)*x - 1\n\nSolution:\n(i)  Coefficient of x^2 in 2 + x^2 + x = 1\n(ii) Coefficient of x^2 in 2 - x^2 + x^3 = -1\n(iii) Coefficient of x^2 in (pi/2)*x^2 + x = pi/2\n(iv) Coefficient of x^2 in sqrt(2)*x - 1 = 0 (no x^2 term)\n\nQ3. Give one example each of a binomial of degree 35, and of a monomial\nof degree 100.\n\nSolution:\nBinomial of degree 35: x^35 + 1\nMonomial of degree 100: x^100\n\nQ4. Write the degree of each of the following polynomials:\n(i) 5x^3 + 4x^2 + 7x    (ii) 4 - y^2\n(iii) 5t - sqrt(7)    (iv) 3\n\nSolution:\n(i)  Highest power of x is 3. ANSWER: Degree = 3\n(ii) Highest power of y is 2. ANSWER: Degree = 2\n(iii) Highest power of t is 1. ANSWER: Degree = 1\n(iv) 3 = 3*x^0. ANSWER: Degree = 0\n\nQ5. Classify the following as linear, quadratic and cubic polynomials:\n(i) x^2 + x    (ii) x - x^3    (iii) y + y^2 + 4    (iv) 1 + x\n(v) 3t    (vi) r^2    (vii) 7x^3\n\nSolution:\n(i)  x^2 + x: Degree 2 → QUADRATIC\n(ii) x - x^3: Degree 3 → CUBIC\n(iii) y + y^2 + 4: Degree 2 → QUADRATIC\n(iv) 1 + x: Degree 1 → LINEAR\n(v)  3t: Degree 1 → LINEAR\n(vi) r^2: Degree 2 → QUADRATIC\n(vii) 7x^3: Degree 3 → CUBIC"
+        },
+        {
+          "type": "qa",
+          "label": "TOPIC 2.2: Q&A",
+          "items": []
+        },
+        {
+          "type": "qa",
+          "label": "Q&A",
+          "items": [
+            {
+              "q_num": 1,
+              "marks": 2,
+              "question": "Define degree of a polynomial and the zero polynomial.",
+              "answer": "DEGREE: The highest power of the variable in a polynomial is its\ndegree. E.g., degree of 3x^7 - 4x^6 + x + 9 is 7.\nZERO POLYNOMIAL: The polynomial where all coefficients are zero,\ndenoted by 0. Its degree is NOT DEFINED. Every real number is a zero\nof the zero polynomial."
+            },
+            {
+              "q_num": 2,
+              "marks": 2,
+              "question": "What is the coefficient of x^3 in -x^3 + 4x^2 + 7x - 2?",
+              "answer": "Coefficient of x^3 = -1 (since -x^3 = -1 * x^3).\nAll coefficients: x^3 -> -1, x^2 -> 4, x -> 7, x^0 -> -2.\nDegree = 3 (highest power of x is 3)."
+            },
+            {
+              "q_num": 3,
+              "marks": 2,
+              "question": "Classify: (i) x^2+x  (ii) x-x^3  (iii) y+y^2+4",
+              "answer": "(i)  x^2+x: degree 2 -> QUADRATIC\n(ii) x-x^3: degree 3 -> CUBIC\n(iii) y+y^2+4: degree 2 -> QUADRATIC\n(iv) 1+x: degree 1 -> LINEAR\n(v)  3t: degree 1 -> LINEAR\n(vi) r^2: degree 2 -> QUADRATIC\n(vii) 7x^3: degree 3 -> CUBIC"
+            },
+            {
+              "q_num": 4,
+              "marks": 2,
+              "question": "State the general form of a polynomial of degree n. Give the",
+              "answer": "General form: p(x) = a_n*x^n + a_(n-1)*x^(n-1) + ... + a_1*x + a_0\n(a_n ≠ 0).\nLINEAR (degree 1): ax + b, a ≠ 0. Example: 2x - 1.\nQUADRATIC (degree 2): ax^2 + bx + c, a ≠ 0. Example: x^2 - 3x + 2.\nCUBIC (degree 3): ax^3 + bx^2 + cx + d, a ≠ 0. Example: x^3 - x.\n\n---\n\n3 ಮಾರ್ಕ್ಸ್ × 2 questions:"
+            },
+            {
+              "q_num": 5,
+              "marks": 3,
+              "question": "Define monomial, binomial, trinomial with one example each.",
+              "answer": "Step 1: Types by number of terms:\nMONOMIAL : 1 term. Example: 5x^3.\nBINOMIAL : 2 terms. Example: x^2 - x.\nTRINOMIAL: 3 terms. Example: x + x^2 + pi.\n\nStep 2: General forms:\nLINEAR    : ax + b, a ≠ 0. At most 2 terms. Example: 2x - 1.\nQUADRATIC : ax^2 + bx + c, a ≠ 0. At most 3 terms. Example: 5-y^2.\nCUBIC     : ax^3+bx^2+cx+d, a ≠ 0. At most 4 terms. Example: 2x^3+1.\n\nStep 3: Note: non-zero constant polynomial has degree 0 (e.g., 7 = 7*x^0).\nThe zero polynomial has degree NOT DEFINED."
+            },
+            {
+              "q_num": 6,
+              "marks": 3,
+              "question": "Write the degrees and identify which are polynomials in",
+              "answer": "Step 1: (i) 5x^3+4x^2+7x: degree = 3. Polynomial in x. ✓\n(ii) 4-y^2: degree = 2. Polynomial in y. ✓\n\nStep 2: (iii) 5t-sqrt(7): degree = 1 (sqrt(7) is constant).\nPolynomial in t. ✓\n(iv) 3 = 3*x^0: degree = 0 (constant polynomial). ✓\n\nStep 3: (v) y+2/y = y+2y^{-1}: exponent -1 not whole. NOT polynomial. ✗\n(vi) x^10+y^3+t^50: has THREE variables. NOT in one variable. ✗\n\n---\n\n4 ಮಾರ್ಕ್ಸ್ × 3 questions:"
+            },
+            {
+              "q_num": 7,
+              "marks": 4,
+              "question": "The polynomial p(x) = -x^3 + 4x^2 + 7x - 2 has four terms.",
+              "answer": "Step 1: (i) Coefficients of p(x) = -x^3 + 4x^2 + 7x - 2:\nx^3 -> -1, x^2 -> 4, x -> 7, x^0 -> -2.\n\nStep 2: (ii) Highest power of x = 3. Degree = 3.\n\nStep 3: (iii) p(x) has 4 terms. Not monomial (1), binomial (2), or\ntrinomial (3). It is a polynomial with four terms.\n\nStep 4: (iv) Using a = 4 (coeff of x^2) and b = 7 (coeff of x):\nq(x) = 4x^2 + 7x. Degree = 2 -> QUADRATIC polynomial."
+            },
+            {
+              "q_num": 8,
+              "marks": 4,
+              "question": "Give one example each of: monomial of degree 100, binomial",
+              "answer": "Step 1: Monomial of degree 100: x^100.\nTerms = 1. Degree = 100.\n\nStep 2: Binomial of degree 35: x^35 + 1.\nTerms = 2. Degree = 35.\n\nStep 3: Linear polynomial: 2x - 1. Terms = 2. Degree = 1.\nQuadratic polynomial: x^2 - 3x + 2. Terms = 3. Degree = 2.\n\nStep 4: Cubic polynomial: x^3 - x. Terms = 2. Degree = 3.\nConstant polynomial: 7 = 7*x^0. Terms = 1. Degree = 0."
+            },
+            {
+              "q_num": 9,
+              "marks": 4,
+              "question": "(i) For p(x) = (pi/2)*x^2 + x, write the coefficient of x^2",
+              "answer": "Step 1: (i) p(x) = (pi/2)*x^2 + x.\nCoefficient of x^2 = pi/2. Degree = 2 (QUADRATIC).\n\nStep 2: (ii) Coefficients of x^2:\n(a) 2 + x^2 + x: coefficient = 1.\n(b) 2 - x^2 + x^3: coefficient = -1.\n(c) (pi/2)*x^2 + x: coefficient = pi/2.\n(d) sqrt(2)*x - 1: coefficient = 0 (no x^2 term).\n\nStep 3: (iii) Polynomial in one variable check:\n(a) 4x^2-3x+7: exponents 2,1,0 are whole. YES, in x. ✓\n(b) y^2+sqrt(2): exponents 2,0 are whole; sqrt(2) is constant. YES, in y. ✓\n(c) 3*sqrt(t)+t*sqrt(2): 3t^{1/2} has fractional exponent. NO. ✗\n\nStep 4: (d) y+2/y = y+2y^{-1}: negative exponent -1. NO. ✗\n(e) x^10+y^3+t^50: three variables. NOT in one variable. ✗\n\n---\n\n5 ಮಾರ್ಕ್ಸ್ × 1 question:"
+            },
+            {
+              "q_num": 10,
+              "marks": 5,
+              "question": "Topic 2.2 deals with the language and classification of",
+              "answer": "PART A — Analysis of p(x) = x^150 + x^100 + x^50 + x + 1:\nStep 1: (i) Degree = 150 (highest power of x is 150).\n(ii) Coefficient of x^100 = 1.\n\nStep 2: (iii) Constant term (coefficient of x^0) = 1.\n(iv) p(x) has 5 terms (x^150, x^100, x^50, x, 1). Not monomial (1),\nbinomial (2), or trinomial (3). It is a polynomial with 5 terms.\n\nStep 3: (v) Degree = 150, which is not 1, 2, or 3. So it is not linear,\nquadratic, or cubic. It is just a polynomial of degree 150.\n\nStep 4: (vi) p(1) = 1 + 1 + 1 + 1 + 1 = 5.\np(0) = 0 + 0 + 0 + 0 + 1 = 1.\n\nPART B — Counter-examples (NOT polynomials):\nStep 5: (i) x + 1/x = x + x^{-1}.\nExponent -1 is NOT a whole number. NOT a polynomial.\n(ii) sqrt(x) + 3 = x^{1/2} + 3.\nExponent 1/2 is NOT a whole number. NOT a polynomial.\n\nStep 6: (iii) x^2 + x^{2/3} + 1.\nThe term x^{2/3} has exponent 2/3, a fraction — NOT a whole number.\nNOT a polynomial.\nCONCLUSION: Any expression with a variable having non-whole exponents\nis NOT a polynomial, even if it contains x.\n\nStep 7: Three examples that ARE polynomials:\n(i) p(x) = 3x^4 - 2x^2 + 7. Degree 4, polynomial (exponents 4,2,0). ✓\n(ii) q(y) = y^2 + sqrt(5)*y - 3. Degree 2 (QUADRATIC). Exponents 2,1,0. ✓\n(iii) r(t) = 5t^3 - t + 1. Degree 3 (CUBIC). Exponents 3,1,0. ✓"
+            }
+          ]
+        },
+        {
+          "type": "mcq",
+          "label": "MCQ",
+          "items": [
+            {
+              "mcq_num": 1,
+              "difficulty": "Easy",
+              "question": "The degree of the polynomial 5x^3 + 4x^2 + 7x is:",
+              "options": {
+                "A": "1    (B) 2    (C) 3    (D) 4"
+              },
+              "answer": "C",
+              "explanation": "Highest power of x is 3."
+            },
+            {
+              "mcq_num": 2,
+              "difficulty": "Easy",
+              "question": "The degree of the zero polynomial is:",
+              "options": {
+                "A": "0    (B) 1    (C) -1    (D) Not defined"
+              },
+              "answer": "D",
+              "explanation": "The degree of the zero polynomial is not defined."
+            },
+            {
+              "mcq_num": 3,
+              "difficulty": "Easy",
+              "question": "The coefficient of x^2 in 2 - x^2 + x^3 is:",
+              "options": {
+                "A": "2    (B) 1    (C) -1    (D) 0"
+              },
+              "answer": "C",
+              "explanation": "The x^2 term is -x^2, so coefficient = -1."
+            },
+            {
+              "mcq_num": 4,
+              "difficulty": "Easy",
+              "question": "A polynomial of degree 1 is called:",
+              "options": {
+                "A": "Monomial    (B) Linear polynomial    (C) Quadratic polynomial    (D) Cubic"
+              },
+              "answer": "B",
+              "explanation": "Degree 1 = linear polynomial."
+            },
+            {
+              "mcq_num": 5,
+              "difficulty": "Medium",
+              "question": "How many terms can a quadratic polynomial in one variable have at most?",
+              "options": {
+                "A": "1    (B) 2    (C) 3    (D) 4"
+              },
+              "answer": "C",
+              "explanation": "General form ax^2 + bx + c has at most 3 terms."
+            },
+            {
+              "mcq_num": 6,
+              "difficulty": "Medium",
+              "question": "Which of the following is a monomial?",
+              "options": {
+                "A": "x + 1    (B) x^2 - x    (C) x + x^2 + pi    (D) 5x^3"
+              },
+              "answer": "D",
+              "explanation": "5x^3 has only one term — it is a monomial."
+            },
+            {
+              "mcq_num": 7,
+              "difficulty": "Medium",
+              "question": "The general form of a cubic polynomial in one variable is:",
+              "options": {
+                "A": "ax + b    (B) ax^2 + bx + c    (C) ax^3 + bx^2 + cx + d    (D) ax^4 + bx^3 + c"
+              },
+              "answer": "C",
+              "explanation": "Cubic = degree 3; general form has 4 terms at most."
+            },
+            {
+              "mcq_num": 8,
+              "difficulty": "Medium",
+              "question": "The coefficient of x^2 in (pi/2)*x^2 + x is:",
+              "options": {
+                "A": "pi    (B) pi/2    (C) 1    (D) 2/pi"
+              },
+              "answer": "B",
+              "explanation": "The x^2 term is (pi/2)*x^2, so coefficient = pi/2."
+            },
+            {
+              "mcq_num": 9,
+              "difficulty": "Medium",
+              "question": "Which polynomial is a binomial of degree 35?",
+              "options": {
+                "A": "x^35    (B) x^35 + 1    (C) x^35 + x + 1    (D) x^35 - x^2 + 1"
+              },
+              "answer": "B",
+              "explanation": "x^35 + 1 has TWO terms and highest degree 35."
+            },
+            {
+              "mcq_num": 10,
+              "difficulty": "Medium",
+              "question": "A non-zero constant polynomial has degree:",
+              "options": {
+                "A": "1    (B) 0    (C) -1    (D) Not defined"
+              },
+              "answer": "B",
+              "explanation": "A constant like 5 = 5*x^0, so degree = 0."
+            },
+            {
+              "mcq_num": 11,
+              "difficulty": "Hard",
+              "question": "The polynomial x - x^3 is classified as:",
+              "options": {
+                "A": "Linear    (B) Quadratic    (C) Cubic    (D) Constant"
+              },
+              "answer": "C",
+              "explanation": "Highest power is 3 → cubic polynomial."
+            },
+            {
+              "mcq_num": 12,
+              "difficulty": "Hard",
+              "question": "The coefficient of x^0 (constant term) in -x^3 + 4x^2 + 7x - 2 is:",
+              "options": {
+                "A": "-1    (B) 4    (C) 7    (D) -2"
+              },
+              "answer": "D",
+              "explanation": "Constant term = -2 = -2*x^0, so coefficient = -2."
+            }
+          ]
+        }
+      ],
+      "subtopics": []
+    },
+    {
+      "topic_num": "2.3",
+      "topic_name": "ZEROES OF A POLYNOMIAL",
+      "mode": "B",
+      "sections": [
+        {
+          "type": "definition",
+          "label": "Definition:",
+          "text": "A real number 'a' is called a ZERO OF A POLYNOMIAL p(x) if p(a) = 0.\nIn this case 'a' is also called a ROOT of the equation p(x) = 0."
+        },
+        {
+          "type": "key_points",
+          "label": "Key Points:",
+          "points": [
+            "VALUE of p(x) at x = a: Replace x by a in p(x) to get p(a).",
+            "p(x) = 0 is called a POLYNOMIAL EQUATION.",
+            "A non-zero constant polynomial has NO ZERO.",
+            "Every real number is a zero of the ZERO POLYNOMIAL.",
+            "A zero of a polynomial need not be 0.",
+            "0 may be a zero of a polynomial.",
+            "Every LINEAR polynomial has ONE AND ONLY ONE ZERO.",
+            "A polynomial can have MORE THAN ONE ZERO."
+          ]
+        },
+        {
+          "type": "list_of_topics",
+          "label": "LIST OF SUB TOPICS IN THIS TOPIC:",
+          "items": [
+            "- None (no sub-topic numbering in textbook for Topic 2.3)"
+          ]
+        },
+        {
+          "type": "formulas",
+          "label": "FORMULA:",
+          "items": [
+            "For a linear polynomial p(x) = ax + b (a ≠ 0):",
+            "Zero = x = -b/a",
+            "WHERE:",
+            "a = coefficient of x (a ≠ 0)",
+            "b = constant term",
+            "(Found by solving ax + b = 0)",
+            "EXAMPLES:",
+            "EXAMPLE 2.3.1: Find the Value of Polynomial at Given Points",
+            "PROBLEM: Find the value of each polynomial at the indicated variable value:",
+            "(i) p(x) = 5x^2 - 3x + 7 at x = 1",
+            "(ii) q(y) = 3y^3 - 4y + sqrt(11) at y = 2",
+            "(iii) p(t) = 4t^4 + 5t^3 - t^2 + 6 at t = a",
+            "SOLUTION:",
+            "(i) p(1) = 5*(1)^2 - 3*(1) + 7",
+            "= 5 - 3 + 7",
+            "ANSWER: p(1) = 9",
+            "(ii) q(2) = 3*(2)^3 - 4*(2) + sqrt(11)",
+            "= 24 - 8 + sqrt(11)",
+            "ANSWER: q(2) = 16 + sqrt(11)",
+            "(iii) p(a) = 4a^4 + 5a^3 - a^2 + 6",
+            "ANSWER: p(a) = 4a^4 + 5a^3 - a^2 + 6",
+            "EXAMPLE 2.3.2: Check Whether Given Values Are Zeroes",
+            "PROBLEM: Check whether -2 and 2 are zeroes of the polynomial x + 2.",
+            "SOLUTION:",
+            "Step 1: Let p(x) = x + 2.",
+            "Step 2: p(2) = 2 + 2 = 4 ≠ 0 → 2 is NOT a zero.",
+            "Step 3: p(-2) = -2 + 2 = 0 → -2 IS a zero.",
+            "ANSWER: -2 is a zero of x + 2; 2 is not.",
+            "EXAMPLE 2.3.3: Find a Zero of a Linear Polynomial",
+            "PROBLEM: Find a zero of the polynomial p(x) = 2x + 1.",
+            "SOLUTION:",
+            "Step 1: Set p(x) = 0.",
+            "2x + 1 = 0",
+            "Step 2: Solve for x.",
+            "2x = -1",
+            "x = -1/2",
+            "ANSWER: -1/2 is a zero of 2x + 1.",
+            "EXAMPLE 2.3.4: Verify Zeroes of a Quadratic Polynomial",
+            "PROBLEM: Verify whether 2 and 0 are zeroes of the polynomial x^2 - 2x.",
+            "SOLUTION:",
+            "Step 1: Let p(x) = x^2 - 2x.",
+            "Step 2: p(2) = (2)^2 - 2*(2) = 4 - 4 = 0 → 2 IS a zero.",
+            "Step 3: p(0) = (0)^2 - 2*(0) = 0 - 0 = 0 → 0 IS a zero.",
+            "ANSWER: Both 2 and 0 are zeroes of x^2 - 2x.",
+            "EXERCISES:"
+          ]
+        },
+        {
+          "type": "exercise",
+          "label": "EXERCISE 2.2:",
+          "items": [
+            {
+              "q_num": 1,
+              "marks": null,
+              "question": "Find the value of the polynomial 5x - 4x^2 + 3 at:",
+              "answer": "(i) x = 0    (ii) x = -1    (iii) x = 2\n\nSolution:\nLet p(x) = 5x - 4x^2 + 3.\n(i)  p(0) = 0 - 0 + 3 = 3.            ANSWER: 3\n(ii) p(-1) = 5(-1) - 4(-1)^2 + 3 = -5 - 4 + 3 = -6.    ANSWER: -6\n(iii)p(2) = 5(2) - 4(2)^2 + 3 = 10 - 16 + 3 = -3.      ANSWER: -3"
+            },
+            {
+              "q_num": 2,
+              "marks": null,
+              "question": "Find p(0), p(1) and p(2) for each of the following polynomials:",
+              "answer": "(i) p(y) = y^2 - y + 1       (ii) p(t) = 2 + t + 2t^2 - t^3\n(iii) p(x) = x^3             (iv) p(x) = (x-1)(x+1)\n\nSolution:\n(i)  p(y) = y^2 - y + 1\np(0) = 0 - 0 + 1 = 1\np(1) = 1 - 1 + 1 = 1\np(2) = 4 - 2 + 1 = 3\n\n(ii) p(t) = 2 + t + 2t^2 - t^3\np(0) = 2 + 0 + 0 - 0 = 2\np(1) = 2 + 1 + 2 - 1 = 4\np(2) = 2 + 2 + 8 - 8 = 4\n\n(iii) p(x) = x^3\np(0) = 0,  p(1) = 1,  p(2) = 8\n\n(iv) p(x) = (x-1)(x+1) = x^2 - 1\np(0) = -1,  p(1) = 0,  p(2) = 3"
+            },
+            {
+              "q_num": 3,
+              "marks": null,
+              "question": "Verify whether the following are zeroes of the polynomial:",
+              "answer": "(i)   p(x) = 3x+1,          x = -1/3\n(ii)  p(x) = 5x-pi,         x = 4/5\n(iii) p(x) = x^2-1,         x = 1, -1\n(iv)  p(x) = (x+1)(x-2),    x = -1, 2\n(v)   p(x) = x^2,           x = 0\n(vi)  p(x) = lx+m,          x = -m/l\n(vii) p(x) = 3x^2-1,        x = -1/sqrt(3), 2/sqrt(3)\n(viii)p(x) = 2x+1,          x = 1/2\n\nSolution:\n(i)   p(-1/3) = 3(-1/3)+1 = -1+1 = 0. YES, zero.\n(ii)  p(4/5) = 5(4/5)-pi = 4-pi ≠ 0. NOT a zero.\n(iii) p(1) = 1-1 = 0. YES. p(-1) = 1-1 = 0. YES.\n(iv)  p(-1) = 0*(-3) = 0. YES. p(2) = 3*0 = 0. YES.\n(v)   p(0) = 0. YES, 0 is a zero.\n(vi)  p(-m/l) = l(-m/l)+m = -m+m = 0. YES, zero.\n(vii) p(-1/sqrt(3)) = 3*(1/3)-1 = 1-1 = 0. YES.\np(2/sqrt(3)) = 3*(4/3)-1 = 4-1 = 3 ≠ 0. NOT a zero.\n(viii)p(1/2) = 2(1/2)+1 = 1+1 = 2 ≠ 0. NOT a zero."
+            },
+            {
+              "q_num": 4,
+              "marks": null,
+              "question": "Find the zero of the polynomial in each of the following cases:",
+              "answer": "(i) p(x) = x+5      (ii) p(x) = x-5      (iii) p(x) = 2x+5\n(iv) p(x) = 3x-2    (v) p(x) = 3x        (vi) p(x) = ax, a≠0\n(vii) p(x) = cx+d, c≠0\n\nSolution:\n(i)   x+5 = 0 → x = -5\n(ii)  x-5 = 0 → x = 5\n(iii) 2x+5 = 0 → x = -5/2\n(iv)  3x-2 = 0 → x = 2/3\n(v)   3x = 0 → x = 0\n(vi)  ax = 0, a≠0 → x = 0\n(vii) cx+d = 0, c≠0 → x = -d/c"
+            }
+          ],
+          "raw": "Q1. Find the value of the polynomial 5x - 4x^2 + 3 at:\n(i) x = 0    (ii) x = -1    (iii) x = 2\n\nSolution:\nLet p(x) = 5x - 4x^2 + 3.\n(i)  p(0) = 0 - 0 + 3 = 3.            ANSWER: 3\n(ii) p(-1) = 5(-1) - 4(-1)^2 + 3 = -5 - 4 + 3 = -6.    ANSWER: -6\n(iii)p(2) = 5(2) - 4(2)^2 + 3 = 10 - 16 + 3 = -3.      ANSWER: -3\n\nQ2. Find p(0), p(1) and p(2) for each of the following polynomials:\n(i) p(y) = y^2 - y + 1       (ii) p(t) = 2 + t + 2t^2 - t^3\n(iii) p(x) = x^3             (iv) p(x) = (x-1)(x+1)\n\nSolution:\n(i)  p(y) = y^2 - y + 1\np(0) = 0 - 0 + 1 = 1\np(1) = 1 - 1 + 1 = 1\np(2) = 4 - 2 + 1 = 3\n\n(ii) p(t) = 2 + t + 2t^2 - t^3\np(0) = 2 + 0 + 0 - 0 = 2\np(1) = 2 + 1 + 2 - 1 = 4\np(2) = 2 + 2 + 8 - 8 = 4\n\n(iii) p(x) = x^3\np(0) = 0,  p(1) = 1,  p(2) = 8\n\n(iv) p(x) = (x-1)(x+1) = x^2 - 1\np(0) = -1,  p(1) = 0,  p(2) = 3\n\nQ3. Verify whether the following are zeroes of the polynomial:\n(i)   p(x) = 3x+1,          x = -1/3\n(ii)  p(x) = 5x-pi,         x = 4/5\n(iii) p(x) = x^2-1,         x = 1, -1\n(iv)  p(x) = (x+1)(x-2),    x = -1, 2\n(v)   p(x) = x^2,           x = 0\n(vi)  p(x) = lx+m,          x = -m/l\n(vii) p(x) = 3x^2-1,        x = -1/sqrt(3), 2/sqrt(3)\n(viii)p(x) = 2x+1,          x = 1/2\n\nSolution:\n(i)   p(-1/3) = 3(-1/3)+1 = -1+1 = 0. YES, zero.\n(ii)  p(4/5) = 5(4/5)-pi = 4-pi ≠ 0. NOT a zero.\n(iii) p(1) = 1-1 = 0. YES. p(-1) = 1-1 = 0. YES.\n(iv)  p(-1) = 0*(-3) = 0. YES. p(2) = 3*0 = 0. YES.\n(v)   p(0) = 0. YES, 0 is a zero.\n(vi)  p(-m/l) = l(-m/l)+m = -m+m = 0. YES, zero.\n(vii) p(-1/sqrt(3)) = 3*(1/3)-1 = 1-1 = 0. YES.\np(2/sqrt(3)) = 3*(4/3)-1 = 4-1 = 3 ≠ 0. NOT a zero.\n(viii)p(1/2) = 2(1/2)+1 = 1+1 = 2 ≠ 0. NOT a zero.\n\nQ4. Find the zero of the polynomial in each of the following cases:\n(i) p(x) = x+5      (ii) p(x) = x-5      (iii) p(x) = 2x+5\n(iv) p(x) = 3x-2    (v) p(x) = 3x        (vi) p(x) = ax, a≠0\n(vii) p(x) = cx+d, c≠0\n\nSolution:\n(i)   x+5 = 0 → x = -5\n(ii)  x-5 = 0 → x = 5\n(iii) 2x+5 = 0 → x = -5/2\n(iv)  3x-2 = 0 → x = 2/3\n(v)   3x = 0 → x = 0\n(vi)  ax = 0, a≠0 → x = 0\n(vii) cx+d = 0, c≠0 → x = -d/c"
+        },
+        {
+          "type": "qa",
+          "label": "TOPIC 2.3: Q&A",
+          "items": []
+        },
+        {
+          "type": "qa",
+          "label": "Q&A",
+          "items": [
+            {
+              "q_num": 1,
+              "marks": 2,
+              "question": "Define zero of a polynomial. Find the zero of",
+              "answer": "A zero of a polynomial p(x) is a real number 'a' such that p(a) = 0.\nIt is also called a root of the equation p(x) = 0.\nFind zero: 3x - 2 = 0 -> x = 2/3.\nVerify: p(2/3) = 3(2/3) - 2 = 2 - 2 = 0. ✓\nZero of p(x) = 3x - 2 is 2/3."
+            },
+            {
+              "q_num": 2,
+              "marks": 2,
+              "question": "Find p(0), p(1), p(2) for p(y) = y^2 - y + 1.",
+              "answer": "p(0) = 0 - 0 + 1 = 1.\np(1) = 1 - 1 + 1 = 1.\np(2) = 4 - 2 + 1 = 3."
+            },
+            {
+              "q_num": 3,
+              "marks": 2,
+              "question": "List the four key observations about zeroes of polynomials",
+              "answer": "(i) A zero of a polynomial need not be 0.\n(ii) 0 may be a zero of a polynomial.\n(iii) Every linear polynomial has one and only one zero.\n(iv) A polynomial can have more than one zero.\nExample (iii): Zero of 2x+1 is -1/2 (unique).\nExample (iv): Zeroes of x^2-2x are 0 and 2 (two zeroes)."
+            },
+            {
+              "q_num": 4,
+              "marks": 2,
+              "question": "A non-zero constant polynomial has no zero. Every real number",
+              "answer": "(i) Non-zero constant polynomial (e.g., p(x) = 5):\np(a) = 5 for any real number a. Since 5 ≠ 0, there is no value of a\nthat makes p(a) = 0. Hence it has NO ZERO.\n(ii) Zero polynomial (p(x) = 0):\nFor any real number a, p(a) = 0. So the zero polynomial is zero at\nevery real value — every real number is its zero.\n\n---\n\n3 ಮಾರ್ಕ್ಸ್ × 2 questions:"
+            },
+            {
+              "q_num": 5,
+              "marks": 3,
+              "question": "Verify whether the following are zeroes of the polynomials:",
+              "answer": "Step 1: (i) p(-1/3) = 3(-1/3) + 1 = -1 + 1 = 0.\nx = -1/3 IS a zero. ✓\n\nStep 2: (ii) p(4/5) = 5(4/5) - pi = 4 - pi ≠ 0 (pi ≈ 3.14).\nx = 4/5 is NOT a zero. ✗\n\nStep 3: (iii) p(1) = 1 - 1 = 0. YES, x=1 is a zero. ✓\np(-1) = 1 - 1 = 0. YES, x=-1 is a zero. ✓"
+            },
+            {
+              "q_num": 6,
+              "marks": 3,
+              "question": "Find p(0), p(1), p(2) for each:",
+              "answer": "Step 1: (i) p(t) = 2+t+2t^2-t^3:\np(0) = 2, p(1) = 2+1+2-1 = 4, p(2) = 2+2+8-8 = 4.\n\nStep 2: (ii) p(x) = (x-1)(x+1) = x^2-1:\np(0) = -1, p(1) = 0, p(2) = 3.\n\nStep 3: Zeroes of x^2-1: set x^2-1=0 -> x^2=1 -> x=1 or x=-1.\nVerified: p(1)=0 ✓, p(-1)=0 ✓. Zeroes are 1 and -1.\n\n---\n\n4 ಮಾರ್ಕ್ಸ್ × 3 questions:"
+            },
+            {
+              "q_num": 7,
+              "marks": 4,
+              "question": "Find the value of the polynomial 5x-4x^2+3 at",
+              "answer": "Step 1: Let f(x) = 5x - 4x^2 + 3.\nf(0) = 0 - 0 + 3 = 3.\nf(-1) = -5 - 4 + 3 = -6.\nf(2) = 10 - 16 + 3 = -3.\n\nStep 2: Find zeroes of p(x) = x^2 - 2x.\nx^2-2x = 0 -> x(x-2) = 0 -> x=0 or x=2.\n\nStep 3: Verify x=0: p(0) = 0 - 0 = 0. ✓\nStep 4: Verify x=2: p(2) = 4 - 4 = 0. ✓\nZeroes are 0 and 2."
+            },
+            {
+              "q_num": 8,
+              "marks": 4,
+              "question": "Find the zeroes of the following polynomials:",
+              "answer": "Step 1: (i) x+5=0 -> x=-5. Zero = -5.\n(ii) 2x+5=0 -> x=-5/2. Zero = -5/2.\n\nStep 2: (iii) 3x-2=0 -> x=2/3. Zero = 2/3.\n(iv) cx+d=0 -> x=-d/c. Zero = -d/c.\n\nStep 3: (v) p(-1) = (-1+1)(-1-2) = 0 x (-3) = 0. ✓ Zero.\np(2) = (2+1)(2-2) = 3 x 0 = 0. ✓ Zero.\n\nStep 4: Constant polynomial (e.g., p(x)=5): p(a) = 5 ≠ 0 for any real a.\nSo a non-zero constant polynomial has NO ZERO."
+            },
+            {
+              "q_num": 9,
+              "marks": 4,
+              "question": "(i) Find p(0), p(1) and p(2) for p(x) = x^3.",
+              "answer": "Step 1: (i) p(x) = x^3:\np(0) = 0, p(1) = 1, p(2) = 8.\n\nStep 2: (a) p(0) = 0^2 = 0. YES, x=0 is a zero. ✓\n(b) p(-m/l) = l(-m/l)+m = -m+m = 0. YES, x=-m/l is a zero. ✓\n\nStep 3: (c) p(-1/sqrt(3)) = 3(1/3) - 1 = 1 - 1 = 0. YES. ✓\np(2/sqrt(3)) = 3(4/3) - 1 = 4 - 1 = 3 ≠ 0. NOT a zero. ✗\n\nStep 4: (d) p(1/2) = 2(1/2) + 1 = 1 + 1 = 2 ≠ 0. NOT a zero. ✗\n\n---\n\n5 ಮಾರ್ಕ್ಸ್ × 1 question:"
+            },
+            {
+              "q_num": 10,
+              "marks": 5,
+              "question": "Topic 2.3 connects the concept of zeroes with evaluation",
+              "answer": "PART A — Evaluation and zeroes:\nStep 1: p(x) = 5x^3 - 2x^2 + 3x - 7.\np(0) = 0 - 0 + 0 - 7 = -7.\np(1) = 5 - 2 + 3 - 7 = -1.\np(-1) = -5 - 2 - 3 - 7 = -17.\n\nStep 2: Since p(0) = -7 ≠ 0, p(1) = -1 ≠ 0, p(-1) = -17 ≠ 0,\nNONE of 0, 1, -1 is a zero of p(x) = 5x^3-2x^2+3x-7.\n\nStep 3: Let q(x) = x^2 - 5x + 6.\nq(2) = 4 - 10 + 6 = 0. ✓ x=2 IS a zero.\nq(3) = 9 - 15 + 6 = 0. ✓ x=3 IS a zero.\n\nStep 4: Factorised form: x^2-5x+6 = (x-2)(x-3).\nAt x=2: (2-2)(2-3) = 0 x (-1) = 0. ✓\nAt x=3: (3-2)(3-3) = 1 x 0 = 0. ✓ Verified.\n\nPART B — Quadratic vs linear polynomial zeroes:\nStep 5: p(x) = 3x^2 - 1.\nAt x = -1/sqrt(3): p = 3*(1/3) - 1 = 1 - 1 = 0. ✓ IS a zero.\nAt x = 2/sqrt(3): p = 3*(4/3) - 1 = 4 - 1 = 3 ≠ 0. ✗ NOT a zero.\n\nStep 6: Why quadratic can have two zeroes:\nA quadratic ax^2+bx+c = 0 is a degree-2 equation. By the fundamental\ntheorem of algebra, it can have at most 2 roots (zeroes).\nExample: x^2-5x+6 = (x-2)(x-3) has zeroes 2 and 3.\n\nStep 7: Why linear always has exactly one zero:\nFor p(x) = ax+b (a ≠ 0), setting ax+b=0 gives x = -b/a.\nThere is exactly one solution. The graph y=ax+b is a straight line\ncrossing the x-axis at exactly one point x = -b/a.\nConclusion: linear -> 1 zero, quadratic -> at most 2 zeroes."
+            }
+          ]
+        },
+        {
+          "type": "mcq",
+          "label": "MCQ",
+          "items": [
+            {
+              "mcq_num": 1,
+              "difficulty": "Easy",
+              "question": "The zero of the polynomial p(x) = x + 2 is:",
+              "options": {
+                "A": "2    (B) -2    (C) 0    (D) 1/2"
+              },
+              "answer": "B",
+              "explanation": "x+2 = 0 → x = -2. Also p(-2) = 0."
+            },
+            {
+              "mcq_num": 2,
+              "difficulty": "Easy",
+              "question": "A real number 'a' is a zero of p(x) if:",
+              "options": {
+                "A": "p(a) = 1    (B) p(a) = a    (C) p(a) = 0    (D) p(a) ≠ 0"
+              },
+              "answer": "C",
+              "explanation": "By definition, zero of p(x) means p(a) = 0."
+            },
+            {
+              "mcq_num": 3,
+              "difficulty": "Easy",
+              "question": "The zero of a linear polynomial p(x) = ax + b is:",
+              "options": {
+                "A": "a/b    (B) -b/a    (C) b/a    (D) -a/b"
+              },
+              "answer": "B",
+              "explanation": "ax + b = 0 → x = -b/a."
+            },
+            {
+              "mcq_num": 4,
+              "difficulty": "Easy",
+              "question": "How many zeroes does a linear polynomial have?",
+              "options": {
+                "A": "None    (B) One and only one    (C) Two    (D) Infinite"
+              },
+              "answer": "B",
+              "explanation": "Every linear polynomial has one and only one zero."
+            },
+            {
+              "mcq_num": 5,
+              "difficulty": "Medium",
+              "question": "The value of p(x) = 5x - 4x^2 + 3 at x = 0 is:",
+              "options": {
+                "A": "5    (B) 4    (C) 3    (D) -4"
+              },
+              "answer": "C",
+              "explanation": "p(0) = 0 - 0 + 3 = 3."
+            },
+            {
+              "mcq_num": 6,
+              "difficulty": "Medium",
+              "question": "Which of the following is a zero of x^2 - 1?",
+              "options": {
+                "A": "0    (B) -2    (C) 1    (D) 3"
+              },
+              "answer": "C",
+              "explanation": "p(1) = 1-1 = 0. (Note: x = -1 is also a zero.)"
+            },
+            {
+              "mcq_num": 7,
+              "difficulty": "Medium",
+              "question": "The zero of p(x) = 3x - 2 is:",
+              "options": {
+                "A": "3/2    (B) 2/3    (C) -2/3    (D) -3/2"
+              },
+              "answer": "B",
+              "explanation": "3x-2 = 0 → x = 2/3."
+            },
+            {
+              "mcq_num": 8,
+              "difficulty": "Medium",
+              "question": "The value of p(t) = 2 + t + 2t^2 - t^3 at t = 1 is:",
+              "options": {
+                "A": "2    (B) 3    (C) 4    (D) 5"
+              },
+              "answer": "C",
+              "explanation": "p(1) = 2+1+2-1 = 4."
+            },
+            {
+              "mcq_num": 9,
+              "difficulty": "Medium",
+              "question": "Every real number is a zero of:",
+              "options": {
+                "A": "Any constant polynomial    (B) A linear polynomial",
+                "C": "The zero polynomial        (D) A quadratic polynomial"
+              },
+              "answer": "C",
+              "explanation": "By convention, every real number is a zero of zero polynomial."
+            },
+            {
+              "mcq_num": 10,
+              "difficulty": "Medium",
+              "question": "p(-1/3) for p(x) = 3x + 1 is:",
+              "options": {
+                "A": "0    (B) 1    (C) -1    (D) 2"
+              },
+              "answer": "A",
+              "explanation": "p(-1/3) = 3(-1/3)+1 = -1+1 = 0."
+            },
+            {
+              "mcq_num": 11,
+              "difficulty": "Hard",
+              "question": "For p(x) = x^3, the value p(2) is:",
+              "options": {
+                "A": "2    (B) 4    (C) 6    (D) 8"
+              },
+              "answer": "D",
+              "explanation": "p(2) = 2^3 = 8."
+            },
+            {
+              "mcq_num": 12,
+              "difficulty": "Hard",
+              "question": "Is x = 1/2 a zero of p(x) = 2x + 1?",
+              "options": {
+                "A": "Yes, p(1/2) = 0",
+                "B": "No, p(1/2) = 2",
+                "C": "Yes, p(1/2) = 1",
+                "D": "No, p(1/2) = -1"
+              },
+              "answer": "B",
+              "explanation": "p(1/2) = 2*(1/2)+1 = 1+1 = 2 ≠ 0."
+            }
+          ]
+        }
+      ],
+      "subtopics": []
+    },
+    {
+      "topic_num": "2.4",
+      "topic_name": "FACTORISATION OF POLYNOMIALS",
+      "mode": "B",
+      "sections": [
+        {
+          "type": "definition",
+          "label": "Definition:",
+          "text": "FACTORISATION means expressing a polynomial as a product of two or more\npolynomials. Two key theorems are used:\n- REMAINDER THEOREM: When p(x) is divided by (x-a), remainder = p(a).\n- FACTOR THEOREM: (x-a) is a factor of p(x) if and only if p(a) = 0."
+        },
+        {
+          "type": "key_points",
+          "label": "Key Points:",
+          "points": [
+            "By Remainder Theorem: p(x) = (x-a)*q(x) + p(a).",
+            "If p(a) = 0 → p(x) = (x-a)*q(x) → (x-a) is a FACTOR.",
+            "Factor Theorem is a special case of Remainder Theorem (remainder = 0).",
+            "To factorise ax^2+bx+c: split b into two numbers whose product = a*c",
+            "(SPLITTING THE MIDDLE TERM method).",
+            "For cubic polynomials: find one factor by trial (Factor Theorem), then",
+            "factorise the remaining quadratic."
+          ]
+        },
+        {
+          "type": "list_of_topics",
+          "label": "LIST OF SUB TOPICS IN THIS TOPIC:",
+          "items": [
+            "- None (no sub-topic numbering in textbook for Topic 2.4)",
+            "THEOREM: REMAINDER THEOREM",
+            "STATEMENT: If p(x) is any polynomial of degree ≥ 1, and p(x) is divided",
+            "by the linear polynomial (x-a), then the remainder is p(a).",
+            "PROOF:",
+            "Step 1: When p(x) is divided by (x-a), let q(x) be the quotient and r",
+            "be the remainder. Then: p(x) = (x-a)*q(x) + r.",
+            "Step 2: Since remainder r is a constant (degree of (x-a) = 1),",
+            "putting x = a: p(a) = (a-a)*q(a) + r = 0 + r = r.",
+            "HENCE PROVED: The remainder = p(a).",
+            "THEOREM: FACTOR THEOREM",
+            "STATEMENT: If p(x) is a polynomial of degree n ≥ 1 and a is any real",
+            "number, then (i) x-a is a factor of p(x) if p(a) = 0, and",
+            "(ii) p(a) = 0 if x-a is a factor of p(x).",
+            "PROOF:",
+            "Step 1: By Remainder Theorem: p(x) = (x-a)*q(x) + p(a).",
+            "Step 2: (i) If p(a) = 0, then p(x) = (x-a)*q(x), so (x-a) IS a factor.",
+            "Step 3: (ii) Since x-a is a factor: p(x) = (x-a)*g(x) for some g(x).",
+            "So p(a) = (a-a)*g(a) = 0.",
+            "HENCE PROVED.",
+            "FORMULA: Splitting the Middle Term (for ax^2 + bx + c)",
+            "Step 1: Find two numbers p, q such that p + q = b and p*q = a*c.",
+            "Step 2: Rewrite bx as px + qx.",
+            "Step 3: Factorise by grouping.",
+            "WHERE: a = coefficient of x^2, b = coefficient of x, c = constant term.",
+            "EXAMPLES:",
+            "EXAMPLE 2.4.1: Check if a Linear Polynomial is a Factor",
+            "PROBLEM: Examine whether x+2 is a factor of x^3+3x^2+5x+6 and of 2x+4.",
+            "SOLUTION:",
+            "Step 1: Zero of x+2 is -2.",
+            "Step 2: Let p(x) = x^3 + 3x^2 + 5x + 6.",
+            "p(-2) = (-2)^3 + 3(-2)^2 + 5(-2) + 6",
+            "= -8 + 12 - 10 + 6 = 0",
+            "Since p(-2) = 0, x+2 IS a factor of x^3+3x^2+5x+6.",
+            "Step 3: Let s(x) = 2x + 4.",
+            "s(-2) = 2(-2) + 4 = 0.",
+            "Since s(-2) = 0, x+2 IS a factor of 2x+4.",
+            "(Also: 2x+4 = 2(x+2) directly confirms this.)",
+            "ANSWER: x+2 is a factor of both polynomials.",
+            "EXAMPLE 2.4.2: Find the Value of k Using Factor Theorem",
+            "PROBLEM: Find k if x-1 is a factor of 4x^3 + 3x^2 - 4x + k.",
+            "SOLUTION:",
+            "Step 1: Since x-1 is a factor, p(1) = 0.",
+            "Step 2: p(1) = 4(1)^3 + 3(1)^2 - 4(1) + k",
+            "= 4 + 3 - 4 + k = 3 + k",
+            "Step 3: 3 + k = 0 → k = -3.",
+            "ANSWER: k = -3",
+            "EXAMPLE 2.4.3: Factorise a Quadratic by Splitting the Middle Term and",
+            "Factor Theorem",
+            "PROBLEM: Factorise 6x^2 + 17x + 5.",
+            "SOLUTION 1 (Splitting Method):",
+            "Step 1: Find p, q: p+q = 17, p*q = 6*5 = 30.",
+            "Step 2: Factors of 30: (1,30),(2,15),(3,10),(5,6). Choose 2+15=17. ✓",
+            "Step 3: 6x^2 + 17x + 5 = 6x^2 + 2x + 15x + 5",
+            "= 2x(3x+1) + 5(3x+1)",
+            "= (3x+1)(2x+5)",
+            "ANSWER: (3x+1)(2x+5)",
+            "SOLUTION 2 (Factor Theorem):",
+            "Step 1: Try x = -1/3: p(-1/3) = 6(1/9) + 17(-1/3) + 5 = 2/3 - 17/3 + 5 = 0 ✓",
+            "So (x + 1/3) is a factor → (3x+1) is a factor.",
+            "Step 2: Try x = -5/2: p(-5/2) = 0 ✓. So (2x+5) is a factor.",
+            "Step 3: 6x^2 + 17x + 5 = (3x+1)(2x+5)",
+            "ANSWER: (3x+1)(2x+5)",
+            "EXAMPLE 2.4.4: Factorise a Quadratic Using Factor Theorem",
+            "PROBLEM: Factorise y^2 - 5y + 6 using Factor Theorem.",
+            "SOLUTION:",
+            "Step 1: Let p(y) = y^2 - 5y + 6. Factors of 6: 1, 2, 3.",
+            "Step 2: p(2) = 4 - 10 + 6 = 0 → (y-2) is a factor.",
+            "Step 3: p(3) = 9 - 15 + 6 = 0 → (y-3) is a factor.",
+            "Step 4: y^2 - 5y + 6 = (y-2)(y-3).",
+            "ANSWER: (y-2)(y-3)",
+            "EXAMPLE 2.4.5: Factorise a Cubic Polynomial",
+            "PROBLEM: Factorise x^3 - 23x^2 + 142x - 120.",
+            "SOLUTION:",
+            "Step 1: Factors of -120: ±1, ±2, ±3, ±4, ±5, ±6, ±8, ±10, ±12, ±15,",
+            "±20, ±24, ±30, ±60.",
+            "Step 2: p(1) = 1 - 23 + 142 - 120 = 0. So (x-1) is a factor.",
+            "Step 3: x^3 - 23x^2 + 142x - 120",
+            "= x^3 - x^2 - 22x^2 + 22x + 120x - 120",
+            "= x^2(x-1) - 22x(x-1) + 120(x-1)",
+            "= (x-1)(x^2 - 22x + 120)",
+            "Step 4: Factorise x^2 - 22x + 120:",
+            "p+q = -22, p*q = 120 → -12+(-10)=-22, (-12)(-10)=120. ✓",
+            "= x^2 - 12x - 10x + 120 = x(x-12) - 10(x-12) = (x-12)(x-10)",
+            "Step 5: x^3 - 23x^2 + 142x - 120 = (x-1)(x-10)(x-12).",
+            "ANSWER: (x-1)(x-10)(x-12)",
+            "EXERCISES:"
+          ]
+        },
+        {
+          "type": "exercise",
+          "label": "EXERCISE 2.3:",
+          "items": [
+            {
+              "q_num": 1,
+              "marks": null,
+              "question": "Determine which of the following polynomials has (x+1) as a factor:",
+              "answer": "(i) x^3+x^2+x+1    (ii) x^4+x^3+x^2+x+1\n(iii) x^4+3x^3+3x^2+x+1    (iv) x^3-x^2-(2+sqrt(2))x+sqrt(2)\n\nSolution: Check p(-1) for each.\n(i)   p(-1) = -1+1-1+1 = 0. YES, (x+1) is a factor.\n(ii)  p(-1) = 1-1+1-1+1 = 1 ≠ 0. NO.\n(iii) p(-1) = 1-3+3-1+1 = 1 ≠ 0. NO.\n(iv)  p(-1) = -1-1+(2+sqrt(2))+sqrt(2) = 0+2*sqrt(2) = 2*sqrt(2) ≠ 0. NO."
+            },
+            {
+              "q_num": 2,
+              "marks": null,
+              "question": "Use Factor Theorem to determine whether g(x) is a factor of p(x):",
+              "answer": "(i)  p(x) = 2x^3+x^2-2x-1, g(x) = x+1\n(ii) p(x) = x^3+3x^2+3x+1, g(x) = x+2\n(iii)p(x) = x^3-4x^2+x+6,  g(x) = x-3\n\nSolution:\n(i)  p(-1) = 2(-1)^3+(-1)^2-2(-1)-1 = -2+1+2-1 = 0. YES, g(x) is a factor.\n(ii) p(-2) = (-2)^3+3(-2)^2+3(-2)+1 = -8+12-6+1 = -1 ≠ 0. NO.\n(iii)p(3) = 27-36+3+6 = 0. YES, g(x) is a factor."
+            },
+            {
+              "q_num": 3,
+              "marks": null,
+              "question": "Find the value of k, if x-1 is a factor of p(x):",
+              "answer": "(i)  p(x) = x^2+x+k\n(ii) p(x) = 2x^2+kx+sqrt(2)\n(iii)p(x) = kx^2-sqrt(2)*x+1\n(iv) p(x) = kx^2-3x+k\n\nSolution: p(1) = 0.\n(i)   1+1+k = 0 → k = -2\n(ii)  2+k+sqrt(2) = 0 → k = -2-sqrt(2)\n(iii) k-sqrt(2)+1 = 0 → k = sqrt(2)-1\n(iv)  k-3+k = 0 → 2k = 3 → k = 3/2"
+            },
+            {
+              "q_num": 4,
+              "marks": null,
+              "question": "Factorise (splitting the middle term):",
+              "answer": "(i) 12x^2-7x+1    (ii) 2x^2+7x+3\n(iii) 6x^2+5x-6   (iv) 3x^2-x-4\n\nSolution:\n(i)  p+q=-7, p*q=12: Try -3+(-4)=-7, (-3)(-4)=12. ✓\n12x^2-3x-4x+1 = 3x(4x-1)-1(4x-1) = (4x-1)(3x-1)\n\n(ii) p+q=7, p*q=6: Try 1+6=7, 1*6=6. ✓\n2x^2+x+6x+3 = x(2x+1)+3(2x+1) = (2x+1)(x+3)\n\n(iii)p+q=5, p*q=-36: Try 9+(-4)=5, 9*(-4)=-36. ✓\n6x^2+9x-4x-6 = 3x(2x+3)-2(2x+3) = (2x+3)(3x-2)\n\n(iv) p+q=-1, p*q=-12: Try -4+3=-1, (-4)*3=-12. ✓\n3x^2-4x+3x-4 = x(3x-4)+1(3x-4) = (3x-4)(x+1)"
+            },
+            {
+              "q_num": 5,
+              "marks": null,
+              "question": "Factorise (cubic polynomials):",
+              "answer": "(i)  x^3-2x^2-x+2         (ii) x^3-3x^2-9x-5\n(iii)x^3+13x^2+32x+20    (iv) 2y^3+y^2-2y-1\n\nSolution:\n(i)  p(1) = 1-2-1+2 = 0. (x-1) is a factor.\n= (x-1)(x^2-x-2) = (x-1)(x-2)(x+1)\n\n(ii) p(5) = 125-75-45-5 = 0. (x-5) is a factor.\n= (x-5)(x^2+2x+1) = (x-5)(x+1)^2\n\n(iii)p(-1) = -1+13-32+20 = 0. (x+1) is a factor.\n= (x+1)(x^2+12x+20) = (x+1)(x+2)(x+10)\n\n(iv) p(1) = 2+1-2-1 = 0. (y-1) is a factor.\n= (y-1)(2y^2+3y+1) = (y-1)(2y+1)(y+1)"
+            }
+          ],
+          "raw": "Q1. Determine which of the following polynomials has (x+1) as a factor:\n(i) x^3+x^2+x+1    (ii) x^4+x^3+x^2+x+1\n(iii) x^4+3x^3+3x^2+x+1    (iv) x^3-x^2-(2+sqrt(2))x+sqrt(2)\n\nSolution: Check p(-1) for each.\n(i)   p(-1) = -1+1-1+1 = 0. YES, (x+1) is a factor.\n(ii)  p(-1) = 1-1+1-1+1 = 1 ≠ 0. NO.\n(iii) p(-1) = 1-3+3-1+1 = 1 ≠ 0. NO.\n(iv)  p(-1) = -1-1+(2+sqrt(2))+sqrt(2) = 0+2*sqrt(2) = 2*sqrt(2) ≠ 0. NO.\n\nQ2. Use Factor Theorem to determine whether g(x) is a factor of p(x):\n(i)  p(x) = 2x^3+x^2-2x-1, g(x) = x+1\n(ii) p(x) = x^3+3x^2+3x+1, g(x) = x+2\n(iii)p(x) = x^3-4x^2+x+6,  g(x) = x-3\n\nSolution:\n(i)  p(-1) = 2(-1)^3+(-1)^2-2(-1)-1 = -2+1+2-1 = 0. YES, g(x) is a factor.\n(ii) p(-2) = (-2)^3+3(-2)^2+3(-2)+1 = -8+12-6+1 = -1 ≠ 0. NO.\n(iii)p(3) = 27-36+3+6 = 0. YES, g(x) is a factor.\n\nQ3. Find the value of k, if x-1 is a factor of p(x):\n(i)  p(x) = x^2+x+k\n(ii) p(x) = 2x^2+kx+sqrt(2)\n(iii)p(x) = kx^2-sqrt(2)*x+1\n(iv) p(x) = kx^2-3x+k\n\nSolution: p(1) = 0.\n(i)   1+1+k = 0 → k = -2\n(ii)  2+k+sqrt(2) = 0 → k = -2-sqrt(2)\n(iii) k-sqrt(2)+1 = 0 → k = sqrt(2)-1\n(iv)  k-3+k = 0 → 2k = 3 → k = 3/2\n\nQ4. Factorise (splitting the middle term):\n(i) 12x^2-7x+1    (ii) 2x^2+7x+3\n(iii) 6x^2+5x-6   (iv) 3x^2-x-4\n\nSolution:\n(i)  p+q=-7, p*q=12: Try -3+(-4)=-7, (-3)(-4)=12. ✓\n12x^2-3x-4x+1 = 3x(4x-1)-1(4x-1) = (4x-1)(3x-1)\n\n(ii) p+q=7, p*q=6: Try 1+6=7, 1*6=6. ✓\n2x^2+x+6x+3 = x(2x+1)+3(2x+1) = (2x+1)(x+3)\n\n(iii)p+q=5, p*q=-36: Try 9+(-4)=5, 9*(-4)=-36. ✓\n6x^2+9x-4x-6 = 3x(2x+3)-2(2x+3) = (2x+3)(3x-2)\n\n(iv) p+q=-1, p*q=-12: Try -4+3=-1, (-4)*3=-12. ✓\n3x^2-4x+3x-4 = x(3x-4)+1(3x-4) = (3x-4)(x+1)\n\nQ5. Factorise (cubic polynomials):\n(i)  x^3-2x^2-x+2         (ii) x^3-3x^2-9x-5\n(iii)x^3+13x^2+32x+20    (iv) 2y^3+y^2-2y-1\n\nSolution:\n(i)  p(1) = 1-2-1+2 = 0. (x-1) is a factor.\n= (x-1)(x^2-x-2) = (x-1)(x-2)(x+1)\n\n(ii) p(5) = 125-75-45-5 = 0. (x-5) is a factor.\n= (x-5)(x^2+2x+1) = (x-5)(x+1)^2\n\n(iii)p(-1) = -1+13-32+20 = 0. (x+1) is a factor.\n= (x+1)(x^2+12x+20) = (x+1)(x+2)(x+10)\n\n(iv) p(1) = 2+1-2-1 = 0. (y-1) is a factor.\n= (y-1)(2y^2+3y+1) = (y-1)(2y+1)(y+1)"
+        },
+        {
+          "type": "qa",
+          "label": "TOPIC 2.4: Q&A",
+          "items": []
+        },
+        {
+          "type": "qa",
+          "label": "Q&A",
+          "items": [
+            {
+              "q_num": 1,
+              "marks": 2,
+              "question": "State the Remainder Theorem. What is the remainder when",
+              "answer": "Remainder Theorem: If p(x) is divided by (x - a), the remainder = p(a).\nHere divisor is (x + 2), so a = -2.\nRemainder = p(-2) = (-2)^3 + 3(-2)^2 + 5(-2) + 6\n= -8 + 12 - 10 + 6 = 0.\nRemainder = 0. (This also confirms x+2 is a factor.)"
+            },
+            {
+              "q_num": 2,
+              "marks": 2,
+              "question": "Find the value of k if x - 1 is a factor of:",
+              "answer": "Since x - 1 is a factor, p(1) = 0.\n(i)  p(1) = 1 + 1 + k = 0 -> k = -2.\n(ii) p(1) = k - 3 + k = 2k - 3 = 0 -> k = 3/2."
+            },
+            {
+              "q_num": 3,
+              "marks": 2,
+              "question": "Check whether (x + 1) is a factor of:",
+              "answer": "Zero of (x + 1) is -1.\n(i)  p(-1) = -1+1-1+1 = 0. YES, (x+1) is a factor. ✓\n(ii) p(-1) = 1-1+1-1+1 = 1 ≠ 0. NO, (x+1) is NOT a factor."
+            },
+            {
+              "q_num": 4,
+              "marks": 2,
+              "question": "What is the connection between the Remainder Theorem and the",
+              "answer": "Remainder Theorem: When p(x) is divided by (x-a), remainder = p(a).\nFactor Theorem: (x-a) is a factor of p(x) if and only if p(a) = 0.\nConnection: By Remainder Theorem, p(x) = (x-a)*q(x) + p(a).\nWhen the remainder p(a) = 0 (special case), p(x) = (x-a)*q(x),\nmeaning (x-a) is an exact factor. So Factor Theorem IS the Remainder\nTheorem applied to the special case where remainder = 0.\n\n---\n\n3 ಮಾರ್ಕ್ಸ್ × 2 questions:"
+            },
+            {
+              "q_num": 5,
+              "marks": 3,
+              "question": "Factorise the following by splitting the middle term:",
+              "answer": "Step 1: (i) 6x^2+5x-6: p+q=5, p*q=-36. Try 9+(-4)=5, 9*(-4)=-36. ✓\n= 6x^2+9x-4x-6 = 3x(2x+3)-2(2x+3) = (2x+3)(3x-2)\n\nStep 2: (ii) 12x^2-7x+1: p+q=-7, p*q=12. Try -3+(-4)=-7, (-3)(-4)=12. ✓\n= 12x^2-3x-4x+1 = 3x(4x-1)-1(4x-1) = (4x-1)(3x-1)\n\nStep 3: (iii) 2x^2+7x+3: p+q=7, p*q=6. Try 1+6=7, 1*6=6. ✓\n= 2x^2+x+6x+3 = x(2x+1)+3(2x+1) = (2x+1)(x+3)"
+            },
+            {
+              "q_num": 6,
+              "marks": 3,
+              "question": "Use Factor Theorem to determine whether g(x) is a factor",
+              "answer": "Step 1: (i) Zero of g(x) = x+1 is -1.\np(-1) = 2(-1)^3+(-1)^2-2(-1)-1 = -2+1+2-1 = 0. YES, g(x) IS a factor. ✓\n\nStep 2: (ii) Zero of g(x) = x-3 is 3.\np(3) = 27-36+3+6 = 0. YES, g(x) IS a factor. ✓\n\nStep 3: (iii) Since x-1 is a factor, p(1) = 0.\np(1) = 4+3-4+k = 3+k = 0 -> k = -3.\n\n---\n\n4 ಮಾರ್ಕ್ಸ್ × 3 questions:"
+            },
+            {
+              "q_num": 7,
+              "marks": 4,
+              "question": "Factorise the following cubic polynomials completely:",
+              "answer": "Step 1: (i) p(x) = x^3-3x^2-9x-5. Factors of -5: +-1, +-5.\np(-1) = -1-3+9-5 = 0. So (x+1) is a factor.\n\nStep 2: x^3-3x^2-9x-5 = (x+1)(x^2-4x-5).\nFactorise x^2-4x-5: -5+1=-4, (-5)(1)=-5. ✓\n= (x-5)(x+1).\n\nStep 3: ANSWER (i): (x+1)(x-5)(x+1) = (x+1)^2(x-5).\n\nStep 4: (ii) p(y) = 2y^3+y^2-2y-1. Try p(1) = 2+1-2-1 = 0.\n(y-1) is a factor. Divide: = (y-1)(2y^2+3y+1).\nFactorise 2y^2+3y+1: (2y+1)(y+1).\nANSWER (ii): (y-1)(y+1)(2y+1)."
+            },
+            {
+              "q_num": 8,
+              "marks": 4,
+              "question": "Factorise completely using Factor Theorem:",
+              "answer": "Step 1: (i) p(x) = x^3-2x^2-x+2. Try p(1)=1-2-1+2=0. (x-1) is a factor.\n\nStep 2: = (x-1)(x^2-x-2). Factorise x^2-x-2: -2+1=-1, (-2)(1)=-2. ✓\n= (x-2)(x+1).\nANSWER (i): (x-1)(x-2)(x+1).\n\nStep 3: (ii) p(x) = x^3+13x^2+32x+20. Try p(-1)=-1+13-32+20=0.\n(x+1) is a factor.\n\nStep 4: = (x+1)(x^2+12x+20). Factorise: 2+10=12, 2*10=20. ✓\n= (x+2)(x+10).\nANSWER (ii): (x+1)(x+2)(x+10)."
+            },
+            {
+              "q_num": 9,
+              "marks": 4,
+              "question": "Determine which polynomials have (x+1) as a factor. For those",
+              "answer": "Step 1: Test p(-1) for each. Zero of (x+1) is -1.\n(i) p(-1) = -1+1-1+1 = 0. YES, (x+1) is a factor. ✓\n(ii) p(-1) = 1-1+1-1+1 = 1 ≠ 0. NO. ✗\n\nStep 2: (iii) p(-1) = 1-3+3-1+1 = 1 ≠ 0. NO. ✗\n(iv) p(-1) = -1-1+(2+sqrt(2))-sqrt(2) = 0+0 = 0. Wait:\np(-1) = -1-1+(2+sqrt(2))+sqrt(2) = -2+2+2*sqrt(2) = 2*sqrt(2) ≠ 0. ✗\n\nStep 3: Factorise (i): x^3+x^2+x+1 with factor (x+1).\n= x^2(x+1)+1(x+1) = (x+1)(x^2+1).\n\nStep 4: x^2+1 has no real factors (x^2+1 > 0 for all real x).\nANSWER (i): (x+1)(x^2+1). Only (i) has (x+1) as a factor.\n\n---\n\n5 ಮಾರ್ಕ್ಸ್ × 1 question:"
+            },
+            {
+              "q_num": 10,
+              "marks": 5,
+              "question": "The Factor Theorem and Remainder Theorem are the core tools",
+              "answer": "PART A — Factor Theorem Proof and applications:\nStep 1: STATEMENT: If p(x) is a polynomial of degree n >= 1 and a is any\nreal number, then (x-a) is a factor of p(x) iff p(a) = 0.\nPROOF: By Remainder Theorem: p(x) = (x-a)*q(x) + p(a).\n(i) If p(a) = 0, then p(x) = (x-a)*q(x), so (x-a) IS a factor.\n(ii) If (x-a) is a factor, then p(x) = (x-a)*g(x) for some g(x),\nso p(a) = (a-a)*g(a) = 0. PROVED.\n\nStep 2: (i) Factorise x^3-23x^2+142x-120.\nLet p(x) = x^3-23x^2+142x-120.\nTry p(1) = 1-23+142-120 = 0. (x-1) is a factor.\np(x) = (x-1)(x^2-22x+120).\n\nStep 3: Factorise x^2-22x+120: need -12+(-10)=-22, (-12)(-10)=120. ✓\n= (x-12)(x-10).\nANSWER: (x-1)(x-10)(x-12).\n\nStep 4: (ii) Since x-1 is a factor, p(1) = 0.\nk(1)^2 - 3(1) + k = 2k - 3 = 0 -> k = 3/2.\n\nPART B — Factorise 6x^2+17x+5 by two methods:\nStep 5: METHOD 1 — Splitting the middle term:\nNeed p+q=17, p*q=6*5=30. Try 2+15=17, 2*15=30. ✓\n6x^2+17x+5 = 6x^2+2x+15x+5 = 2x(3x+1)+5(3x+1) = (3x+1)(2x+5).\n\nStep 6: METHOD 2 — Factor Theorem:\n6x^2+17x+5 = 6*(x^2 + 17x/6 + 5/6) = 6*p(x).\nTry x = -1/3: p(-1/3) = 6(1/9)+17(-1/3)+5 = 2/3-17/3+5 = 0. ✓\nSo (x+1/3) -> (3x+1) is a factor.\nTry x = -5/2: p(-5/2) = 6(25/4)-85/2+5 = 75/2-85/2+5 = 0. ✓\nSo (x+5/2) -> (2x+5) is a factor.\n\nStep 7: ANSWER (both methods): 6x^2+17x+5 = (3x+1)(2x+5). ✓ Same result."
+            }
+          ]
+        },
+        {
+          "type": "mcq",
+          "label": "MCQ",
+          "items": [
+            {
+              "mcq_num": 1,
+              "difficulty": "Easy",
+              "question": "(x-a) is a factor of p(x) according to Factor Theorem if:",
+              "options": {
+                "A": "p(a)=1    (B) p(a)=a    (C) p(a)=0    (D) p(0)=a"
+              },
+              "answer": "C",
+              "explanation": "By Factor Theorem, (x-a) is a factor iff p(a) = 0."
+            },
+            {
+              "mcq_num": 2,
+              "difficulty": "Easy",
+              "question": "To factorise 6x^2+17x+5 by splitting, product of the two numbers is:",
+              "options": {
+                "A": "17    (B) 6    (C) 5    (D) 30"
+              },
+              "answer": "D",
+              "explanation": "Product = a*c = 6*5 = 30."
+            },
+            {
+              "mcq_num": 3,
+              "difficulty": "Easy",
+              "question": "Is x+2 a factor of 2x + 4?",
+              "options": {
+                "A": "Yes    (B) No    (C) Only if x = 0    (D) Cannot determine"
+              },
+              "answer": "A",
+              "explanation": "2x+4 = 2(x+2). Also s(-2) = 2(-2)+4 = 0."
+            },
+            {
+              "mcq_num": 4,
+              "difficulty": "Medium",
+              "question": "Factorised form of y^2 - 5y + 6 is:",
+              "options": {
+                "A": "(y+2)(y+3)    (B) (y-2)(y-3)    (C) (y+2)(y-3)    (D) (y-2)(y+3)"
+              },
+              "answer": "B",
+              "explanation": "p(2)=0 and p(3)=0 → factors are (y-2)(y-3)."
+            },
+            {
+              "mcq_num": 5,
+              "difficulty": "Medium",
+              "question": "The value of k if x-1 is a factor of x^2 + x + k is:",
+              "options": {
+                "A": "-2    (B) 2    (C) -1    (D) 1"
+              },
+              "answer": "A",
+              "explanation": "p(1) = 1+1+k = 0 → k = -2."
+            },
+            {
+              "mcq_num": 6,
+              "difficulty": "Medium",
+              "question": "Factorised form of 2x^2 + 7x + 3 is:",
+              "options": {
+                "A": "(2x+1)(x+3)    (B) (x+1)(2x+3)    (C) (2x+3)(x+1)    (D) (x+3)(2x-1)"
+              },
+              "answer": "A",
+              "explanation": "2x^2+x+6x+3 = x(2x+1)+3(2x+1) = (2x+1)(x+3)."
+            },
+            {
+              "mcq_num": 7,
+              "difficulty": "Medium",
+              "question": "Factorisation of x^3 - 23x^2 + 142x - 120 is:",
+              "options": {
+                "A": "(x-1)(x-10)(x-12)    (B) (x+1)(x-10)(x-12)",
+                "C": "(x-1)(x+10)(x+12)    (D) (x-2)(x-10)(x-12)"
+              },
+              "answer": "A",
+              "explanation": "p(1)=p(10)=p(12)=0."
+            },
+            {
+              "mcq_num": 8,
+              "difficulty": "Medium",
+              "question": "In the splitting method for ax^2+bx+c, p*q = :",
+              "options": {
+                "A": "b*c    (B) a+c    (C) a*c    (D) a*b"
+              },
+              "answer": "C",
+              "explanation": "p*q = a*c."
+            },
+            {
+              "mcq_num": 9,
+              "difficulty": "Hard",
+              "question": "Factorised form of 3x^2 - x - 4 is:",
+              "options": {
+                "A": "(3x-4)(x+1)    (B) (3x+4)(x-1)    (C) (3x-1)(x+4)    (D) (x-1)(3x+4)"
+              },
+              "answer": "A",
+              "explanation": "-4+3=-1 and (-4)(3)=-12. So (3x-4)(x+1)."
+            },
+            {
+              "mcq_num": 10,
+              "difficulty": "Hard",
+              "question": "Using Factor Theorem, (x+1) is a factor of x^3+x^2+x+1 because:",
+              "options": {
+                "A": "p(-1)=0    (B) p(-1)≠0    (C) p(1)=0    (D) p(1)≠0"
+              },
+              "answer": "A",
+              "explanation": "p(-1) = -1+1-1+1 = 0. So (x+1) is a factor."
+            },
+            {
+              "mcq_num": 11,
+              "difficulty": "Hard",
+              "question": "Factorised form of x^3 - 2x^2 - x + 2 is:",
+              "options": {
+                "A": "(x-1)(x-2)(x+1)    (B) (x+1)(x+2)(x-1)",
+                "C": "(x-1)(x+2)(x-1)    (D) (x+1)(x-2)(x+1)"
+              },
+              "answer": "A",
+              "explanation": "p(1)=0 → (x-1); then (x^2-x-2) = (x-2)(x+1)."
+            },
+            {
+              "mcq_num": 12,
+              "difficulty": "Hard",
+              "question": "Factorised form of x^3 - 3x^2 - 9x - 5 is:",
+              "options": {
+                "A": "(x+1)^2(x-5)    (B) (x-1)^2(x+5)    (C) (x-5)(x+1)^2    (D) (x+5)(x-1)^2"
+              },
+              "answer": "C",
+              "explanation": "p(5)=0 → (x-5); p(-1)=0 → (x+1)^2. (Note: A and C are the same — answer is (x-5)(x+1)^2.)"
+            }
+          ]
+        }
+      ],
+      "subtopics": []
+    },
+    {
+      "topic_num": "2.5",
+      "topic_name": "ALGEBRAIC IDENTITIES",
+      "mode": "B",
+      "sections": [
+        {
+          "type": "definition",
+          "label": "Definition:",
+          "text": "An ALGEBRAIC IDENTITY is an algebraic equation that is true for ALL values\nof the variables occurring in it."
+        },
+        {
+          "type": "key_points",
+          "label": "Key Points:",
+          "points": [
+            "Identities are used for: (i) finding products quickly,",
+            "(ii) evaluating numerical expressions, and (iii) factorisation.",
+            "Four identities from earlier classes (I to IV) + four new ones (V to VIII).",
+            "ALL IDENTITIES:",
+            "Identity I   : (x+y)^2 = x^2 + 2xy + y^2",
+            "Identity II  : (x-y)^2 = x^2 - 2xy + y^2",
+            "Identity III : x^2 - y^2 = (x+y)(x-y)",
+            "Identity IV  : (x+a)(x+b) = x^2 + (a+b)x + ab",
+            "Identity V   : (x+y+z)^2 = x^2+y^2+z^2+2xy+2yz+2zx",
+            "Identity VI  : (x+y)^3 = x^3+y^3+3xy(x+y)",
+            "Identity VII : (x-y)^3 = x^3-y^3-3xy(x-y)",
+            "Identity VIII: x^3+y^3+z^3-3xyz = (x+y+z)(x^2+y^2+z^2-xy-yz-zx)",
+            "From Identity VIII: x^3+y^3 = (x+y)(x^2-xy+y^2)",
+            "x^3-y^3 = (x-y)(x^2+xy+y^2)",
+            "Special case: If x+y+z = 0, then x^3+y^3+z^3 = 3xyz."
+          ]
+        },
+        {
+          "type": "list_of_topics",
+          "label": "LIST OF SUB TOPICS IN THIS TOPIC:",
+          "items": [
+            "- None (no sub-topic numbering in textbook for Topic 2.5)"
+          ]
+        },
+        {
+          "type": "formulas",
+          "label": "FORMULA:",
+          "items": [
+            "Identity V   : (x+y+z)^2 = x^2+y^2+z^2+2xy+2yz+2zx",
+            "Identity VI  : (x+y)^3 = x^3+y^3+3xy(x+y) = x^3+3x^2y+3xy^2+y^3",
+            "Identity VII : (x-y)^3 = x^3-y^3-3xy(x-y) = x^3-3x^2y+3xy^2-y^3",
+            "Identity VIII: x^3+y^3+z^3-3xyz = (x+y+z)(x^2+y^2+z^2-xy-yz-zx)",
+            "Special:       If x+y+z=0, then x^3+y^3+z^3 = 3xyz",
+            "DERIVATION OF IDENTITY V:",
+            "(x+y+z)^2 = (t+z)^2,  where t = x+y",
+            "= t^2 + 2tz + z^2              [Identity I]",
+            "= (x+y)^2 + 2(x+y)z + z^2     [substituting t]",
+            "= x^2+2xy+y^2 + 2xz+2yz + z^2 [Identity I]",
+            "= x^2+y^2+z^2 + 2xy+2yz+2zx   [rearranged]",
+            "DERIVATION OF IDENTITY VI:",
+            "(x+y)^3 = (x+y)(x+y)^2",
+            "= (x+y)(x^2+2xy+y^2)",
+            "= x^3+2x^2y+xy^2 + x^2y+2xy^2+y^3",
+            "= x^3+3x^2y+3xy^2+y^3",
+            "= x^3+y^3+3xy(x+y)",
+            "EXAMPLES:",
+            "EXAMPLE 2.5.1: Find Products Using Identities",
+            "PROBLEM: Find the following products using appropriate identities:",
+            "(i) (x+3)(x+3)    (ii) (x-3)(x+5)",
+            "SOLUTION:",
+            "(i) (x+3)^2 = x^2 + 2(x)(3) + 3^2 = x^2 + 6x + 9     [Identity I, y=3]",
+            "ANSWER: x^2 + 6x + 9",
+            "(ii) (x-3)(x+5) = x^2 + (-3+5)x + (-3)(5)              [Identity IV, a=-3, b=5]",
+            "= x^2 + 2x - 15",
+            "ANSWER: x^2 + 2x - 15",
+            "EXAMPLE 2.5.2: Evaluate Without Multiplying Directly",
+            "PROBLEM: Evaluate 105 × 106 without multiplying directly.",
+            "SOLUTION:",
+            "Step 1: 105 × 106 = (100+5)(100+6)",
+            "Step 2: Using Identity IV: x=100, a=5, b=6.",
+            "= (100)^2 + (5+6)(100) + (5*6)",
+            "= 10000 + 1100 + 30",
+            "ANSWER: 11130",
+            "EXAMPLE 2.5.3: Factorise Using Identities",
+            "PROBLEM: Factorise: (i) 49a^2 + 70ab + 25b^2    (ii) (25/4)x^2 - y^2/9",
+            "SOLUTION:",
+            "(i) 49a^2 = (7a)^2, 25b^2 = (5b)^2, 70ab = 2(7a)(5b).",
+            "Comparing with x^2+2xy+y^2: x=7a, y=5b.",
+            "49a^2 + 70ab + 25b^2 = (7a+5b)^2                   [Identity I]",
+            "ANSWER: (7a+5b)^2",
+            "(ii) (25/4)x^2 - y^2/9 = (5x/2)^2 - (y/3)^2",
+            "Comparing with x^2-y^2 = (x+y)(x-y):",
+            "= (5x/2 + y/3)(5x/2 - y/3)                        [Identity III]",
+            "ANSWER: (5x/2 + y/3)(5x/2 - y/3)",
+            "EXAMPLE 2.5.4: Expand Using Identity V",
+            "PROBLEM: Write (3a + 4b + 5c)^2 in expanded form.",
+            "SOLUTION:",
+            "Step 1: x=3a, y=4b, z=5c. Using Identity V:",
+            "= (3a)^2+(4b)^2+(5c)^2 + 2(3a)(4b) + 2(4b)(5c) + 2(5c)(3a)",
+            "= 9a^2 + 16b^2 + 25c^2 + 24ab + 40bc + 30ac",
+            "ANSWER: 9a^2 + 16b^2 + 25c^2 + 24ab + 40bc + 30ac",
+            "EXAMPLE 2.5.5: Expand With Negative Terms",
+            "PROBLEM: Expand (4a - 2b - 3c)^2.",
+            "SOLUTION:",
+            "Step 1: Write as [4a + (-2b) + (-3c)]^2. Using Identity V:",
+            "= (4a)^2+(-2b)^2+(-3c)^2 + 2(4a)(-2b) + 2(-2b)(-3c) + 2(-3c)(4a)",
+            "= 16a^2 + 4b^2 + 9c^2 - 16ab + 12bc - 24ac",
+            "ANSWER: 16a^2 + 4b^2 + 9c^2 - 16ab + 12bc - 24ac",
+            "EXAMPLE 2.5.6: Factorise Using Identity V",
+            "PROBLEM: Factorise 4x^2 + y^2 + z^2 - 4xy - 2yz + 4xz.",
+            "SOLUTION:",
+            "Step 1: Rewrite: (2x)^2+(-y)^2+(z)^2 + 2(2x)(-y) + 2(-y)(z) + 2(2x)(z)",
+            "This matches Identity V with x→2x, y→-y, z→z.",
+            "Step 2: = [2x + (-y) + z]^2 = (2x - y + z)^2",
+            "ANSWER: (2x - y + z)^2",
+            "EXAMPLE 2.5.7: Expand Cubes Using Identities VI and VII",
+            "PROBLEM: Write in expanded form: (i) (3a+4b)^3    (ii) (5p-3q)^3",
+            "SOLUTION:",
+            "(i) x=3a, y=4b. Using Identity VI:",
+            "(3a+4b)^3 = (3a)^3+(4b)^3+3(3a)(4b)(3a+4b)",
+            "= 27a^3+64b^3+36ab(3a+4b)",
+            "= 27a^3+64b^3+108a^2b+144ab^2",
+            "ANSWER: 27a^3 + 64b^3 + 108a^2b + 144ab^2",
+            "(ii) x=5p, y=3q. Using Identity VII:",
+            "(5p-3q)^3 = (5p)^3-(3q)^3-3(5p)(3q)(5p-3q)",
+            "= 125p^3-27q^3-45pq(5p-3q)",
+            "= 125p^3-27q^3-225p^2q+135pq^2",
+            "ANSWER: 125p^3 - 27q^3 - 225p^2q + 135pq^2",
+            "EXAMPLE 2.5.8: Evaluate Cubes Using Identities",
+            "PROBLEM: Evaluate: (i) (104)^3    (ii) (999)^3",
+            "SOLUTION:",
+            "(i) (104)^3 = (100+4)^3",
+            "= (100)^3 + (4)^3 + 3(100)(4)(100+4)      [Identity VI]",
+            "= 1000000 + 64 + 1200*104",
+            "= 1000000 + 64 + 124800",
+            "ANSWER: 1124864",
+            "(ii) (999)^3 = (1000-1)^3",
+            "= (1000)^3 - (1)^3 - 3(1000)(1)(1000-1)   [Identity VII]",
+            "= 1000000000 - 1 - 3000*999",
+            "= 1000000000 - 1 - 2997000",
+            "ANSWER: 997002999",
+            "EXAMPLE 2.5.9: Factorise Using Identity VI",
+            "PROBLEM: Factorise 8x^3 + 27y^3 + 36x^2y + 54xy^2.",
+            "SOLUTION:",
+            "Step 1: Rewrite: (2x)^3+(3y)^3+3(2x)^2(3y)+3(2x)(3y)^2",
+            "This matches Identity VI with x→2x, y→3y.",
+            "Step 2: = (2x+3y)^3",
+            "ANSWER: (2x+3y)^3 = (2x+3y)(2x+3y)(2x+3y)",
+            "EXAMPLE 2.5.10: Factorise Using Identity VIII",
+            "PROBLEM: Factorise 8x^3 + y^3 + 27z^3 - 18xyz.",
+            "SOLUTION:",
+            "Step 1: Rewrite: (2x)^3+y^3+(3z)^3 - 3(2x)(y)(3z).",
+            "Using Identity VIII with a=2x, b=y, c=3z:",
+            "Step 2: = (2x+y+3z)[(2x)^2+y^2+(3z)^2-(2x)(y)-(y)(3z)-(2x)(3z)]",
+            "= (2x+y+3z)(4x^2+y^2+9z^2-2xy-3yz-6xz)",
+            "ANSWER: (2x+y+3z)(4x^2+y^2+9z^2-2xy-3yz-6xz)",
+            "EXERCISES:"
+          ]
+        },
+        {
+          "type": "exercise",
+          "label": "EXERCISE 2.4:",
+          "items": [
+            {
+              "q_num": 1,
+              "marks": null,
+              "question": "Use suitable identities to find the following products:",
+              "answer": "(i) (x+4)(x+10)    (ii) (x+8)(x-10)    (iii) (3x+4)(3x-5)\n(iv) (y^2+3/2)(y^2-3/2)    (v) (3-2x)(3+2x)\n\nSolution:\n(i)  (x+4)(x+10) = x^2+(4+10)x+4*10 = x^2+14x+40           [Identity IV]\n(ii) (x+8)(x-10) = x^2+(8-10)x+8*(-10) = x^2-2x-80         [Identity IV]\n(iii)(3x+4)(3x-5): t=3x: t^2+(4-5)t+(4)(-5) = 9x^2-3x-20  [Identity IV]\n(iv) (y^2+3/2)(y^2-3/2) = (y^2)^2-(3/2)^2 = y^4-9/4       [Identity III]\n(v)  (3-2x)(3+2x) = 3^2-(2x)^2 = 9-4x^2                   [Identity III]"
+            },
+            {
+              "q_num": 2,
+              "marks": null,
+              "question": "Evaluate without multiplying directly:",
+              "answer": "(i) 103×107    (ii) 95×96    (iii) 104×96\n\nSolution:\n(i)  103×107 = (100+3)(100+7) = 10000+(3+7)*100+3*7\n= 10000+1000+21 = 11021\n\n(ii) 95×96 = (100-5)(100-4) = 10000+(-5-4)*100+(-5)(-4)\n= 10000-900+20 = 9120\n\n(iii)104×96 = (100+4)(100-4) = 100^2-4^2 = 10000-16 = 9984  [Identity III]"
+            },
+            {
+              "q_num": 3,
+              "marks": null,
+              "question": "Factorise using appropriate identities:",
+              "answer": "(i) 9x^2+6xy+y^2    (ii) 4y^2-4y+1    (iii) x^2-y^2/100\n\nSolution:\n(i)  (3x)^2+2(3x)(y)+y^2 = (3x+y)^2                        [Identity I]\n(ii) (2y)^2-2(2y)(1)+1^2 = (2y-1)^2                        [Identity II]\n(iii)x^2-(y/10)^2 = (x+y/10)(x-y/10)                       [Identity III]"
+            },
+            {
+              "q_num": 4,
+              "marks": null,
+              "question": "Expand using suitable identities:",
+              "answer": "(i) (x+2y+4z)^2      (ii) (2x-y+z)^2      (iii) (-2x+3y+2z)^2\n(iv) (3a-7b-c)^2     (v) (-2x+5y-3z)^2    (vi) (a/4-b/2+1)^2\n\nSolution [Identity V: (x+y+z)^2 = x^2+y^2+z^2+2xy+2yz+2zx]:\n(i)  x^2+4y^2+16z^2+4xy+16yz+8zx\n(ii) 4x^2+y^2+z^2-4xy-2yz+4zx\n(iii)4x^2+9y^2+4z^2-12xy+12yz-8zx\n(iv) 9a^2+49b^2+c^2-42ab+14bc-6ca\n(v)  4x^2+25y^2+9z^2-20xy-30yz+12zx\n(vi) a^2/16+b^2/4+1-ab/4-b+a/2"
+            },
+            {
+              "q_num": 5,
+              "marks": null,
+              "question": "Factorise:",
+              "answer": "(i) 4x^2+9y^2+16z^2+12xy-24yz-16xz\n(ii) 2x^2+y^2+8z^2-2*sqrt(2)*xy+4*sqrt(2)*yz-8xz\n\nSolution:\n(i)  (2x)^2+(3y)^2+(-4z)^2+2(2x)(3y)+2(3y)(-4z)+2(-4z)(2x)\n= (2x+3y-4z)^2\n\n(ii) (-sqrt(2)*x)^2+y^2+(2*sqrt(2)*z)^2\n+2(-sqrt(2)*x)(y)+2(y)(2*sqrt(2)*z)+2(2*sqrt(2)*z)(-sqrt(2)*x)\n= (-sqrt(2)*x + y + 2*sqrt(2)*z)^2"
+            },
+            {
+              "q_num": 6,
+              "marks": null,
+              "question": "Write the following cubes in expanded form:",
+              "answer": "(i) (2x+1)^3    (ii) (2a-3b)^3    (iii) (3x/2+1)^3    (iv) (x-2y/3)^3\n\nSolution:\n(i)  (2x)^3+1+3(2x)(1)(2x+1) = 8x^3+1+6x(2x+1)\n= 8x^3+12x^2+6x+1\n\n(ii) (2a)^3-(3b)^3-3(2a)(3b)(2a-3b) = 8a^3-27b^3-18ab(2a-3b)\n= 8a^3-27b^3-36a^2b+54ab^2\n\n(iii)(3x/2)^3+1+3(3x/2)(1)(3x/2+1) = 27x^3/8+1+(9x/2)(3x/2+1)\n= 27x^3/8+27x^2/4+9x/2+1\n\n(iv) x^3-(2y/3)^3-3(x)(2y/3)(x-2y/3) = x^3-8y^3/27-2xy(x-2y/3)\n= x^3-8y^3/27-2x^2y+4xy^2/3"
+            },
+            {
+              "q_num": 7,
+              "marks": null,
+              "question": "Evaluate using suitable identities:",
+              "answer": "(i) (99)^3    (ii) (102)^3    (iii) (998)^3\n\nSolution:\n(i)  (100-1)^3 = 100^3-1-3(100)(1)(99) = 1000000-1-29700 = 970299\n(ii) (100+2)^3 = 100^3+8+3(100)(2)(102) = 1000000+8+61200 = 1061208\n(iii)(1000-2)^3 = 1000^3-8-3(1000)(2)(998) = 1000000000-8-5988000 = 994011992"
+            },
+            {
+              "q_num": 8,
+              "marks": null,
+              "question": "Factorise each of the following:",
+              "answer": "(i)   8a^3+b^3+12a^2b+6ab^2\n(ii)  8a^3-b^3-12a^2b+6ab^2\n(iii) 27-125a^3-135a+225a^2\n(iv)  64a^3-27b^3-144a^2b+108ab^2\n(v)   27p^3-1/216-(9/2)p^2+(1/4)p\n\nSolution:\n(i)  (2a)^3+b^3+3(2a)^2(b)+3(2a)(b)^2 = (2a+b)^3\n(ii) (2a)^3-b^3-3(2a)^2(b)+3(2a)(b)^2 = (2a-b)^3\n(iii)3^3-(5a)^3-3(3)^2(5a)+3(3)(5a)^2 = (3-5a)^3\n(iv) (4a)^3-(3b)^3-3(4a)^2(3b)+3(4a)(3b)^2 = (4a-3b)^3\n(v)  (3p)^3-(1/6)^3-3(3p)^2(1/6)+3(3p)(1/6)^2 = (3p-1/6)^3"
+            },
+            {
+              "q_num": 9,
+              "marks": null,
+              "question": "Verify:",
+              "answer": "(i) x^3+y^3 = (x+y)(x^2-xy+y^2)\n(ii) x^3-y^3 = (x-y)(x^2+xy+y^2)\n\nSolution:\n(i)  RHS = (x+y)(x^2-xy+y^2)\n= x^3-x^2y+xy^2+x^2y-xy^2+y^3 = x^3+y^3 = LHS ✓\n\n(ii) RHS = (x-y)(x^2+xy+y^2)\n= x^3+x^2y+xy^2-x^2y-xy^2-y^3 = x^3-y^3 = LHS ✓"
+            },
+            {
+              "q_num": 10,
+              "marks": null,
+              "question": "Factorise:",
+              "answer": "(i) 27y^3+125z^3    (ii) 64m^3-343n^3\n\nSolution:\n(i)  (3y)^3+(5z)^3 = (3y+5z)[(3y)^2-(3y)(5z)+(5z)^2]\n= (3y+5z)(9y^2-15yz+25z^2)\n\n(ii) (4m)^3-(7n)^3 = (4m-7n)[(4m)^2+(4m)(7n)+(7n)^2]\n= (4m-7n)(16m^2+28mn+49n^2)"
+            },
+            {
+              "q_num": 11,
+              "marks": null,
+              "question": "Factorise: 27x^3 + y^3 + z^3 - 9xyz",
+              "answer": "Solution:\n= (3x)^3+y^3+z^3-3(3x)(y)(z)\nUsing Identity VIII:\n= (3x+y+z)(9x^2+y^2+z^2-3xy-yz-3xz)"
+            },
+            {
+              "q_num": 12,
+              "marks": null,
+              "question": "Verify: x^3+y^3+z^3-3xyz = (1/2)(x+y+z)[(x-y)^2+(y-z)^2+(z-x)^2]",
+              "answer": "Solution:\nRHS = (1/2)(x+y+z)[x^2-2xy+y^2 + y^2-2yz+z^2 + z^2-2zx+x^2]\n= (1/2)(x+y+z)[2x^2+2y^2+2z^2-2xy-2yz-2zx]\n= (x+y+z)(x^2+y^2+z^2-xy-yz-zx)\n= x^3+y^3+z^3-3xyz = LHS ✓"
+            },
+            {
+              "q_num": 13,
+              "marks": null,
+              "question": "If x+y+z = 0, show that x^3+y^3+z^3 = 3xyz.",
+              "answer": "Solution:\nBy Identity VIII:\nx^3+y^3+z^3-3xyz = (x+y+z)(x^2+y^2+z^2-xy-yz-zx) = 0*(...)= 0\nTherefore: x^3+y^3+z^3 = 3xyz. PROVED."
+            },
+            {
+              "q_num": 14,
+              "marks": null,
+              "question": "Find the value without calculating the cubes:",
+              "answer": "(i) (-12)^3 + (7)^3 + (5)^3\n(ii) (28)^3 + (-15)^3 + (-13)^3\n\nSolution:\n(i)  -12+7+5=0. So result = 3*(-12)*(7)*(5) = 3*(-420) = -1260\n(ii) 28-15-13=0. So result = 3*(28)*(-15)*(-13) = 3*5460 = 16380"
+            },
+            {
+              "q_num": 15,
+              "marks": null,
+              "question": "Give possible expressions for length and breadth of rectangles:",
+              "answer": "(i) Area = 25a^2-35a+12    (ii) Area = 35y^2+13y-12\n\nSolution:\n(i)  25a^2-35a+12: p+q=-35, p*q=300: -15+(-20)=-35, 300. ✓\n= 25a^2-15a-20a+12 = 5a(5a-3)-4(5a-3) = (5a-3)(5a-4)\nLength = (5a-3), Breadth = (5a-4)\n\n(ii) 35y^2+13y-12: p+q=13, p*q=-420: 28+(-15)=13. ✓\n= 35y^2+28y-15y-12 = 7y(5y+4)-3(5y+4) = (5y+4)(7y-3)\nLength = (5y+4), Breadth = (7y-3)"
+            },
+            {
+              "q_num": 16,
+              "marks": null,
+              "question": "What are the possible dimensions of cuboids with these volumes?",
+              "answer": "(i) Volume = 3x^2-12x    (ii) Volume = 12ky^2+8ky-20k\n\nSolution:\n(i)  3x^2-12x = 3x(x-4).  Dimensions: 3, x, (x-4)\n\n(ii) 12ky^2+8ky-20k = 4k(3y^2+2y-5)\n3y^2+2y-5: p+q=2, p*q=-15: 5+(-3)=2. ✓\n= 4k(3y+5)(y-1).  Dimensions: 4k, (3y+5), (y-1)"
+            }
+          ],
+          "raw": "Q1. Use suitable identities to find the following products:\n(i) (x+4)(x+10)    (ii) (x+8)(x-10)    (iii) (3x+4)(3x-5)\n(iv) (y^2+3/2)(y^2-3/2)    (v) (3-2x)(3+2x)\n\nSolution:\n(i)  (x+4)(x+10) = x^2+(4+10)x+4*10 = x^2+14x+40           [Identity IV]\n(ii) (x+8)(x-10) = x^2+(8-10)x+8*(-10) = x^2-2x-80         [Identity IV]\n(iii)(3x+4)(3x-5): t=3x: t^2+(4-5)t+(4)(-5) = 9x^2-3x-20  [Identity IV]\n(iv) (y^2+3/2)(y^2-3/2) = (y^2)^2-(3/2)^2 = y^4-9/4       [Identity III]\n(v)  (3-2x)(3+2x) = 3^2-(2x)^2 = 9-4x^2                   [Identity III]\n\nQ2. Evaluate without multiplying directly:\n(i) 103×107    (ii) 95×96    (iii) 104×96\n\nSolution:\n(i)  103×107 = (100+3)(100+7) = 10000+(3+7)*100+3*7\n= 10000+1000+21 = 11021\n\n(ii) 95×96 = (100-5)(100-4) = 10000+(-5-4)*100+(-5)(-4)\n= 10000-900+20 = 9120\n\n(iii)104×96 = (100+4)(100-4) = 100^2-4^2 = 10000-16 = 9984  [Identity III]\n\nQ3. Factorise using appropriate identities:\n(i) 9x^2+6xy+y^2    (ii) 4y^2-4y+1    (iii) x^2-y^2/100\n\nSolution:\n(i)  (3x)^2+2(3x)(y)+y^2 = (3x+y)^2                        [Identity I]\n(ii) (2y)^2-2(2y)(1)+1^2 = (2y-1)^2                        [Identity II]\n(iii)x^2-(y/10)^2 = (x+y/10)(x-y/10)                       [Identity III]\n\nQ4. Expand using suitable identities:\n(i) (x+2y+4z)^2      (ii) (2x-y+z)^2      (iii) (-2x+3y+2z)^2\n(iv) (3a-7b-c)^2     (v) (-2x+5y-3z)^2    (vi) (a/4-b/2+1)^2\n\nSolution [Identity V: (x+y+z)^2 = x^2+y^2+z^2+2xy+2yz+2zx]:\n(i)  x^2+4y^2+16z^2+4xy+16yz+8zx\n(ii) 4x^2+y^2+z^2-4xy-2yz+4zx\n(iii)4x^2+9y^2+4z^2-12xy+12yz-8zx\n(iv) 9a^2+49b^2+c^2-42ab+14bc-6ca\n(v)  4x^2+25y^2+9z^2-20xy-30yz+12zx\n(vi) a^2/16+b^2/4+1-ab/4-b+a/2\n\nQ5. Factorise:\n(i) 4x^2+9y^2+16z^2+12xy-24yz-16xz\n(ii) 2x^2+y^2+8z^2-2*sqrt(2)*xy+4*sqrt(2)*yz-8xz\n\nSolution:\n(i)  (2x)^2+(3y)^2+(-4z)^2+2(2x)(3y)+2(3y)(-4z)+2(-4z)(2x)\n= (2x+3y-4z)^2\n\n(ii) (-sqrt(2)*x)^2+y^2+(2*sqrt(2)*z)^2\n+2(-sqrt(2)*x)(y)+2(y)(2*sqrt(2)*z)+2(2*sqrt(2)*z)(-sqrt(2)*x)\n= (-sqrt(2)*x + y + 2*sqrt(2)*z)^2\n\nQ6. Write the following cubes in expanded form:\n(i) (2x+1)^3    (ii) (2a-3b)^3    (iii) (3x/2+1)^3    (iv) (x-2y/3)^3\n\nSolution:\n(i)  (2x)^3+1+3(2x)(1)(2x+1) = 8x^3+1+6x(2x+1)\n= 8x^3+12x^2+6x+1\n\n(ii) (2a)^3-(3b)^3-3(2a)(3b)(2a-3b) = 8a^3-27b^3-18ab(2a-3b)\n= 8a^3-27b^3-36a^2b+54ab^2\n\n(iii)(3x/2)^3+1+3(3x/2)(1)(3x/2+1) = 27x^3/8+1+(9x/2)(3x/2+1)\n= 27x^3/8+27x^2/4+9x/2+1\n\n(iv) x^3-(2y/3)^3-3(x)(2y/3)(x-2y/3) = x^3-8y^3/27-2xy(x-2y/3)\n= x^3-8y^3/27-2x^2y+4xy^2/3\n\nQ7. Evaluate using suitable identities:\n(i) (99)^3    (ii) (102)^3    (iii) (998)^3\n\nSolution:\n(i)  (100-1)^3 = 100^3-1-3(100)(1)(99) = 1000000-1-29700 = 970299\n(ii) (100+2)^3 = 100^3+8+3(100)(2)(102) = 1000000+8+61200 = 1061208\n(iii)(1000-2)^3 = 1000^3-8-3(1000)(2)(998) = 1000000000-8-5988000 = 994011992\n\nQ8. Factorise each of the following:\n(i)   8a^3+b^3+12a^2b+6ab^2\n(ii)  8a^3-b^3-12a^2b+6ab^2\n(iii) 27-125a^3-135a+225a^2\n(iv)  64a^3-27b^3-144a^2b+108ab^2\n(v)   27p^3-1/216-(9/2)p^2+(1/4)p\n\nSolution:\n(i)  (2a)^3+b^3+3(2a)^2(b)+3(2a)(b)^2 = (2a+b)^3\n(ii) (2a)^3-b^3-3(2a)^2(b)+3(2a)(b)^2 = (2a-b)^3\n(iii)3^3-(5a)^3-3(3)^2(5a)+3(3)(5a)^2 = (3-5a)^3\n(iv) (4a)^3-(3b)^3-3(4a)^2(3b)+3(4a)(3b)^2 = (4a-3b)^3\n(v)  (3p)^3-(1/6)^3-3(3p)^2(1/6)+3(3p)(1/6)^2 = (3p-1/6)^3\n\nQ9. Verify:\n(i) x^3+y^3 = (x+y)(x^2-xy+y^2)\n(ii) x^3-y^3 = (x-y)(x^2+xy+y^2)\n\nSolution:\n(i)  RHS = (x+y)(x^2-xy+y^2)\n= x^3-x^2y+xy^2+x^2y-xy^2+y^3 = x^3+y^3 = LHS ✓\n\n(ii) RHS = (x-y)(x^2+xy+y^2)\n= x^3+x^2y+xy^2-x^2y-xy^2-y^3 = x^3-y^3 = LHS ✓\n\nQ10. Factorise:\n(i) 27y^3+125z^3    (ii) 64m^3-343n^3\n\nSolution:\n(i)  (3y)^3+(5z)^3 = (3y+5z)[(3y)^2-(3y)(5z)+(5z)^2]\n= (3y+5z)(9y^2-15yz+25z^2)\n\n(ii) (4m)^3-(7n)^3 = (4m-7n)[(4m)^2+(4m)(7n)+(7n)^2]\n= (4m-7n)(16m^2+28mn+49n^2)\n\nQ11. Factorise: 27x^3 + y^3 + z^3 - 9xyz\n\nSolution:\n= (3x)^3+y^3+z^3-3(3x)(y)(z)\nUsing Identity VIII:\n= (3x+y+z)(9x^2+y^2+z^2-3xy-yz-3xz)\n\nQ12. Verify: x^3+y^3+z^3-3xyz = (1/2)(x+y+z)[(x-y)^2+(y-z)^2+(z-x)^2]\n\nSolution:\nRHS = (1/2)(x+y+z)[x^2-2xy+y^2 + y^2-2yz+z^2 + z^2-2zx+x^2]\n= (1/2)(x+y+z)[2x^2+2y^2+2z^2-2xy-2yz-2zx]\n= (x+y+z)(x^2+y^2+z^2-xy-yz-zx)\n= x^3+y^3+z^3-3xyz = LHS ✓\n\nQ13. If x+y+z = 0, show that x^3+y^3+z^3 = 3xyz.\n\nSolution:\nBy Identity VIII:\nx^3+y^3+z^3-3xyz = (x+y+z)(x^2+y^2+z^2-xy-yz-zx) = 0*(...)= 0\nTherefore: x^3+y^3+z^3 = 3xyz. PROVED.\n\nQ14. Find the value without calculating the cubes:\n(i) (-12)^3 + (7)^3 + (5)^3\n(ii) (28)^3 + (-15)^3 + (-13)^3\n\nSolution:\n(i)  -12+7+5=0. So result = 3*(-12)*(7)*(5) = 3*(-420) = -1260\n(ii) 28-15-13=0. So result = 3*(28)*(-15)*(-13) = 3*5460 = 16380\n\nQ15. Give possible expressions for length and breadth of rectangles:\n(i) Area = 25a^2-35a+12    (ii) Area = 35y^2+13y-12\n\nSolution:\n(i)  25a^2-35a+12: p+q=-35, p*q=300: -15+(-20)=-35, 300. ✓\n= 25a^2-15a-20a+12 = 5a(5a-3)-4(5a-3) = (5a-3)(5a-4)\nLength = (5a-3), Breadth = (5a-4)\n\n(ii) 35y^2+13y-12: p+q=13, p*q=-420: 28+(-15)=13. ✓\n= 35y^2+28y-15y-12 = 7y(5y+4)-3(5y+4) = (5y+4)(7y-3)\nLength = (5y+4), Breadth = (7y-3)\n\nQ16. What are the possible dimensions of cuboids with these volumes?\n(i) Volume = 3x^2-12x    (ii) Volume = 12ky^2+8ky-20k\n\nSolution:\n(i)  3x^2-12x = 3x(x-4).  Dimensions: 3, x, (x-4)\n\n(ii) 12ky^2+8ky-20k = 4k(3y^2+2y-5)\n3y^2+2y-5: p+q=2, p*q=-15: 5+(-3)=2. ✓\n= 4k(3y+5)(y-1).  Dimensions: 4k, (3y+5), (y-1)"
+        },
+        {
+          "type": "qa",
+          "label": "TOPIC 2.5: Q&A",
+          "items": []
+        },
+        {
+          "type": "qa",
+          "label": "Q&A",
+          "items": [
+            {
+              "q_num": 1,
+              "marks": 2,
+              "question": "What is an algebraic identity? State Identity V and",
+              "answer": "An algebraic identity is an algebraic equation that is true for ALL\nvalues of the variables in it. Example: (x+y)^2 = x^2+2xy+y^2 is\ntrue for all real x and y.\nIdentity V: (x+y+z)^2 = x^2+y^2+z^2+2xy+2yz+2zx.\nDerived from Identity I by substituting t=x+y into (t+z)^2."
+            },
+            {
+              "q_num": 2,
+              "marks": 2,
+              "question": "Evaluate 103 x 107 and 104 x 96 without multiplying directly.",
+              "answer": "103 x 107 = (100+3)(100+7).\nIdentity IV: (x+a)(x+b) = x^2+(a+b)x+ab, x=100, a=3, b=7:\n= 10000 + 10*100 + 21 = 11021.\n\n104 x 96 = (100+4)(100-4).\nIdentity III: x^2-y^2 = (x+y)(x-y), x=100, y=4:\n= 10000 - 16 = 9984."
+            },
+            {
+              "q_num": 3,
+              "marks": 2,
+              "question": "Factorise: (i) 9x^2 + 6xy + y^2    (ii) 4y^2 - 4y + 1",
+              "answer": "(i) 9x^2+6xy+y^2 = (3x)^2+2(3x)(y)+y^2 = (3x+y)^2.\n[Identity I, x=3x, y=y]\n(ii) 4y^2-4y+1 = (2y)^2-2(2y)(1)+1^2 = (2y-1)^2.\n[Identity II, x=2y, y=1]"
+            },
+            {
+              "q_num": 4,
+              "marks": 2,
+              "question": "State Identity VIII. Use it to factorise x^3 + y^3 + z^3 - 3xyz",
+              "answer": "Identity VIII: x^3+y^3+z^3-3xyz = (x+y+z)(x^2+y^2+z^2-xy-yz-zx).\nWhen x + y + z = 0:\nx^3+y^3+z^3-3xyz = 0 x (x^2+y^2+z^2-xy-yz-zx) = 0.\nTherefore: x^3 + y^3 + z^3 = 3xyz.\nSpecial result: If the sum of three numbers is 0, then the sum of\ntheir cubes equals three times their product.\n\n---\n\n3 ಮಾರ್ಕ್ಸ್ × 2 questions:"
+            },
+            {
+              "q_num": 5,
+              "marks": 3,
+              "question": "Expand using Identity V:",
+              "answer": "Step 1: Identity V: (x+y+z)^2 = x^2+y^2+z^2+2xy+2yz+2zx.\n(i) x=3a, y=4b, z=5c:\n= 9a^2+16b^2+25c^2+24ab+40bc+30ca.\n\nStep 2: (ii) x=2x, y=-y, z=z:\n= 4x^2+y^2+z^2-4xy-2yz+4zx.\n\nStep 3: (iii) x=-2x, y=3y, z=2z:\n= 4x^2+9y^2+4z^2-12xy+12yz-8zx."
+            },
+            {
+              "q_num": 6,
+              "marks": 3,
+              "question": "Write the following cubes in expanded form:",
+              "answer": "Step 1: (i) (2x+1)^3 [Identity VI, x=2x, y=1]:\n= 8x^3+1+3(2x)(1)(2x+1) = 8x^3+1+6x(2x+1)\n= 8x^3+12x^2+6x+1.\n\nStep 2: (ii) (2a-3b)^3 [Identity VII, x=2a, y=3b]:\n= 8a^3-27b^3-3(2a)(3b)(2a-3b) = 8a^3-27b^3-18ab(2a-3b)\n= 8a^3-27b^3-36a^2b+54ab^2.\n\nStep 3: (iii) (102)^3 = (100+2)^3 [Identity VI]:\n= 100^3+8+3(100)(2)(102)\n= 1000000+8+61200 = 1061208.\n\n---\n\n4 ಮಾರ್ಕ್ಸ್ × 3 questions:"
+            },
+            {
+              "q_num": 7,
+              "marks": 4,
+              "question": "Factorise the following using appropriate identities:",
+              "answer": "Step 1: (i) 8a^3+b^3+12a^2b+6ab^2 = (2a)^3+b^3+3(2a)^2(b)+3(2a)(b)^2.\n[Identity VI: (x+y)^3, x=2a, y=b] = (2a+b)^3.\n\nStep 2: (ii) 27-125a^3-135a+225a^2 = 3^3-(5a)^3-3(3)^2(5a)+3(3)(5a)^2.\n[Identity VII: (x-y)^3, x=3, y=5a] = (3-5a)^3.\n\nStep 3: (iii) 27y^3+125z^3 = (3y)^3+(5z)^3.\nx^3+y^3 = (x+y)(x^2-xy+y^2), x=3y, y=5z:\n= (3y+5z)(9y^2-15yz+25z^2).\n\nStep 4: (iv) 8x^3+y^3+27z^3-18xyz = (2x)^3+y^3+(3z)^3-3(2x)(y)(3z).\nIdentity VIII, a=2x, b=y, c=3z:\n= (2x+y+3z)(4x^2+y^2+9z^2-2xy-3yz-6xz)."
+            },
+            {
+              "q_num": 8,
+              "marks": 4,
+              "question": "(i) Prove: x^3+y^3+z^3-3xyz = (1/2)(x+y+z)[(x-y)^2+(y-z)^2+(z-x)^2].",
+              "answer": "Step 1: Proof. RHS = (1/2)(x+y+z)[(x-y)^2+(y-z)^2+(z-x)^2].\nExpand inside brackets:\n= x^2-2xy+y^2 + y^2-2yz+z^2 + z^2-2zx+x^2\n= 2x^2+2y^2+2z^2-2xy-2yz-2zx.\n\nStep 2: So RHS = (1/2)(x+y+z)(2x^2+2y^2+2z^2-2xy-2yz-2zx)\n= (x+y+z)(x^2+y^2+z^2-xy-yz-zx)\n= x^3+y^3+z^3-3xyz = LHS. [Identity VIII] PROVED. ✓\n\nStep 3: (a) x=-12, y=7, z=5: -12+7+5 = 0. Since x+y+z=0:\nx^3+y^3+z^3 = 3xyz = 3(-12)(7)(5) = -1260.\n\nStep 4: (b) x=28, y=-15, z=-13: 28-15-13 = 0. Since x+y+z=0:\nx^3+y^3+z^3 = 3xyz = 3(28)(-15)(-13) = 3*5460 = 16380."
+            },
+            {
+              "q_num": 9,
+              "marks": 4,
+              "question": "Use suitable identities to find products and evaluate:",
+              "answer": "Step 1: (i) (x+4)(x+10) [Identity IV, a=4, b=10]:\n= x^2+(4+10)x+4*10 = x^2+14x+40.\n\nStep 2: (ii) (y^2+3/2)(y^2-3/2) [Identity III]:\n= (y^2)^2-(3/2)^2 = y^4 - 9/4.\n\nStep 3: (iii) 95 x 96 = (100-5)(100-4) [Identity IV, x=100, a=-5, b=-4]:\n= 10000 + (-5-4)(100) + (-5)(-4) = 10000-900+20 = 9120.\n\nStep 4: (iv) (3x/2+1)^3 [Identity VI, x=3x/2, y=1]:\n= (3x/2)^3+1+3(3x/2)(1)(3x/2+1)\n= 27x^3/8+1+(9x/2)(3x/2+1)\n= 27x^3/8+27x^2/4+9x/2+1.\n\nStep 5: (v) 64a^3-27b^3-144a^2b+108ab^2\n= (4a)^3-(3b)^3-3(4a)^2(3b)+3(4a)(3b)^2\n[Identity VII, x=4a, y=3b] = (4a-3b)^3.\n\n---\n\n5 ಮಾರ್ಕ್ಸ್ × 1 question:"
+            },
+            {
+              "q_num": 10,
+              "marks": 5,
+              "question": "Topic 2.5 introduces Identities V through VIII as tools for",
+              "answer": "PART A — Derivation and evaluation:\nStep 1: DERIVE Identity VI from Identity I.\n(x+y)^3 = (x+y)*(x+y)^2 = (x+y)(x^2+2xy+y^2) [Identity I]\n= x^3+2x^2y+xy^2+x^2y+2xy^2+y^3\n= x^3+3x^2y+3xy^2+y^3 = x^3+y^3+3xy(x+y). PROVED.\n\nStep 2: (104)^3 = (100+4)^3 [Identity VI, x=100, y=4]:\n= 100^3+4^3+3(100)(4)(104)\n= 1000000+64+1200*104\n= 1000000+64+124800 = 1124864.\n\nStep 3: (998)^3 = (1000-2)^3 [Identity VII, x=1000, y=2]:\n= 1000^3-2^3-3(1000)(2)(998)\n= 1000000000-8-6000*998\n= 1000000000-8-5988000 = 994011992.\n\nPART B — Factorisation with identities:\nStep 4: (i) 8a^3+b^3+12a^2b+6ab^2 = (2a)^3+b^3+3(2a)^2b+3(2a)b^2\n[Identity VI, x=2a, y=b] = (2a+b)^3.\n(ii) 8a^3-b^3-12a^2b+6ab^2 = (2a)^3-b^3-3(2a)^2b+3(2a)b^2\n[Identity VII, x=2a, y=b] = (2a-b)^3.\n\nStep 5: (iii) 27p^3-1/216-(9/2)p^2+(1/4)p\n= (3p)^3-(1/6)^3-3(3p)^2(1/6)+3(3p)(1/6)^2\n[Identity VII, x=3p, y=1/6] = (3p-1/6)^3.\n\nStep 6: Verify x^3+y^3 = (x+y)(x^2-xy+y^2):\nRHS = x^3-x^2y+xy^2+x^2y-xy^2+y^3 = x^3+y^3 = LHS. PROVED. ✓\n\nStep 7: 64m^3-343n^3 = (4m)^3-(7n)^3.\nUsing x^3-y^3 = (x-y)(x^2+xy+y^2), x=4m, y=7n:\n= (4m-7n)[(4m)^2+(4m)(7n)+(7n)^2]\n= (4m-7n)(16m^2+28mn+49n^2)."
+            }
+          ]
+        },
+        {
+          "type": "mcq",
+          "label": "MCQ",
+          "items": [
+            {
+              "mcq_num": 1,
+              "difficulty": "Easy",
+              "question": "The expansion of (x+y+z)^2 is:",
+              "options": {
+                "A": "x^2+y^2+z^2+xy+yz+zx",
+                "B": "x^2+y^2+z^2+2xy+2yz+2zx",
+                "C": "(x+y)^2+z^2",
+                "D": "x^2+y^2+z^2"
+              },
+              "answer": "B",
+              "explanation": "Identity V: (x+y+z)^2 = x^2+y^2+z^2+2xy+2yz+2zx."
+            },
+            {
+              "mcq_num": 2,
+              "difficulty": "Easy",
+              "question": "Identity used to evaluate 103×107 is:",
+              "options": {
+                "A": "Identity I    (B) Identity II    (C) Identity III    (D) Identity IV"
+              },
+              "answer": "D",
+              "explanation": "103×107=(100+3)(100+7). Identity IV: (x+a)(x+b)=x^2+(a+b)x+ab."
+            },
+            {
+              "mcq_num": 3,
+              "difficulty": "Easy",
+              "question": "Identity VI states that (x+y)^3 = :",
+              "options": {
+                "A": "x^3+y^3    (B) x^3+y^3+3xy    (C) x^3+y^3+3xy(x+y)    (D) x^3+y^3-3xy"
+              },
+              "answer": "C",
+              "explanation": "(x+y)^3 = x^3+y^3+3xy(x+y)."
+            },
+            {
+              "mcq_num": 4,
+              "difficulty": "Medium",
+              "question": "The value of (99)^3 is:",
+              "options": {
+                "A": "970200    (B) 970299    (C) 970301    (D) 971000"
+              },
+              "answer": "B",
+              "explanation": "(100-1)^3 = 1000000-1-3*100*1*99 = 970299."
+            },
+            {
+              "mcq_num": 5,
+              "difficulty": "Medium",
+              "question": "If x+y+z = 0, then x^3+y^3+z^3 = :",
+              "options": {
+                "A": "0    (B) 3xyz    (C) x^2y+y^2z+z^2x    (D) (x+y+z)^3"
+              },
+              "answer": "B",
+              "explanation": "Identity VIII with x+y+z=0 gives x^3+y^3+z^3 = 3xyz."
+            },
+            {
+              "mcq_num": 6,
+              "difficulty": "Medium",
+              "question": "Factorised form of 8a^3+b^3+12a^2b+6ab^2 is:",
+              "options": {
+                "A": "(2a-b)^3    (B) (2a+b)^3    (C) (a+2b)^3    (D) (a-2b)^3"
+              },
+              "answer": "B",
+              "explanation": "= (2a)^3+b^3+3(2a)^2(b)+3(2a)(b)^2 = (2a+b)^3."
+            },
+            {
+              "mcq_num": 7,
+              "difficulty": "Medium",
+              "question": "The value of 103×107 using Identity IV is:",
+              "options": {
+                "A": "11021    (B) 11121    (C) 10921    (D) 11020"
+              },
+              "answer": "A",
+              "explanation": "(100+3)(100+7) = 10000+1000+21 = 11021."
+            },
+            {
+              "mcq_num": 8,
+              "difficulty": "Medium",
+              "question": "Factorised form of 27y^3+125z^3 is:",
+              "options": {
+                "A": "(3y+5z)(9y^2+15yz+25z^2)",
+                "B": "(3y+5z)(9y^2-15yz+25z^2)",
+                "C": "(3y-5z)(9y^2+15yz+25z^2)",
+                "D": "(3y-5z)(9y^2-15yz+25z^2)"
+              },
+              "answer": "B",
+              "explanation": "a^3+b^3 = (a+b)(a^2-ab+b^2), a=3y, b=5z."
+            },
+            {
+              "mcq_num": 9,
+              "difficulty": "Medium",
+              "question": "The expansion of (4a-2b-3c)^2 is:",
+              "options": {
+                "A": "16a^2+4b^2+9c^2-16ab+12bc-24ac",
+                "B": "16a^2+4b^2+9c^2+16ab+12bc+24ac",
+                "C": "16a^2+4b^2+9c^2-16ab-12bc+24ac",
+                "D": "16a^2-4b^2-9c^2-16ab+12bc-24ac"
+              },
+              "answer": "A",
+              "explanation": "Identity V with x=4a, y=-2b, z=-3c."
+            },
+            {
+              "mcq_num": 10,
+              "difficulty": "Hard",
+              "question": "The value of (-12)^3+(7)^3+(5)^3 is:",
+              "options": {
+                "A": "1260    (B) -1260    (C) 420    (D) -420"
+              },
+              "answer": "B",
+              "explanation": "-12+7+5=0, so result = 3*(-12)*7*5 = -1260."
+            },
+            {
+              "mcq_num": 11,
+              "difficulty": "Hard",
+              "question": "Factorised form of 9x^2+6xy+y^2 is:",
+              "options": {
+                "A": "(9x+y)^2    (B) (3x+y)^2    (C) (3x-y)^2    (D) (x+3y)^2"
+              },
+              "answer": "B",
+              "explanation": "(3x)^2+2(3x)(y)+y^2 = (3x+y)^2. Identity I."
+            },
+            {
+              "mcq_num": 12,
+              "difficulty": "Hard",
+              "question": "Identity used to factorise x^3+y^3+z^3-3xyz is:",
+              "options": {
+                "A": "Identity V    (B) Identity VI    (C) Identity VII    (D) Identity VIII"
+              },
+              "answer": "D",
+              "explanation": "Identity VIII: x^3+y^3+z^3-3xyz = (x+y+z)(x^2+y^2+z^2-xy-yz-zx)."
+            }
+          ]
+        }
+      ],
+      "subtopics": []
+    }
+  ]
+}

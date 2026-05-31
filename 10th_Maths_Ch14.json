@@ -1,0 +1,607 @@
+{
+  "metadata": {
+    "class": "10TH STANDARD",
+    "subject": "MATHEMATICS",
+    "part": "2",
+    "chapter_num": "14",
+    "chapter_name": "PROBABILITY",
+    "source": "KSEEB Textbook 2025-26",
+    "mode": "B"
+  },
+  "chapter_sections": [
+    {
+      "type": "definition",
+      "label": "Definition:",
+      "text": "- PROBABILITY is a measure of the likelihood that an event will occur.\n- It is a number between 0 and 1 (inclusive): 0 ≤ P(E) ≤ 1\n- Probability 0 means the event is impossible; probability 1 means the event is certain."
+    },
+    {
+      "type": "key_points",
+      "label": "Key Points:",
+      "points": [
+        "In Class IX, we studied EXPERIMENTAL (EMPIRICAL) PROBABILITY based on actual trials.",
+        "In this chapter, we study THEORETICAL (CLASSICAL) PROBABILITY based on logical analysis of equally likely outcomes.",
+        "This chapter assumes all experiments have equally likely outcomes.",
+        "Definition given by PIERRE SIMON LAPLACE in 1795.",
+        "Probability theory originated in the 16th century with J. CARDAN's \"The Book on Games of Chance.\""
+      ]
+    },
+    {
+      "type": "list_of_topics",
+      "label": "LIST OF TOPICS IN THIS CHAPTER:",
+      "items": [
+        "- Topic 14.1: Probability — A Theoretical Approach"
+      ]
+    },
+    {
+      "type": "formulas",
+      "label": "FORMULA:",
+      "items": [
+        "P(E) = Number of outcomes favourable to E / Number of all possible outcomes of the experiment",
+        "WHERE:",
+        "P(E) = Theoretical probability of event E",
+        "Numerator = Number of outcomes favourable to event E",
+        "Denominator = Total number of equally likely outcomes of the experiment"
+      ]
+    },
+    {
+      "type": "qa",
+      "label": "CHAPTER 14: Q&A",
+      "items": []
+    },
+    {
+      "type": "mcq",
+      "label": "CHAPTER 14: MCQs:",
+      "items": [
+        {
+          "mcq_num": 1,
+          "difficulty": "Easy",
+          "question": "The probability of a sure event is:",
+          "options": {
+            "A": "0    (B) 1/2    (C) 1    (D) cannot be determined"
+          },
+          "answer": "C",
+          "explanation": "A sure (certain) event always occurs. All outcomes are favourable. P = n/n = 1."
+        },
+        {
+          "mcq_num": 2,
+          "difficulty": "Easy",
+          "question": "If P(E) = 0.35, then P(not E) = ?",
+          "options": {
+            "A": "0.35    (B) 0.65    (C) 0.035    (D) 1.35"
+          },
+          "answer": "B",
+          "explanation": "P(E) + P(not E) = 1 → P(not E) = 1 − 0.35 = 0.65"
+        },
+        {
+          "mcq_num": 3,
+          "difficulty": "Easy",
+          "question": "Which of the following can be the probability of an event?",
+          "options": {
+            "A": "−0.5    (B) 1.2    (C) 0.75    (D) 5/4"
+          },
+          "answer": "C",
+          "explanation": "Probability must satisfy 0 ≤ P(E) ≤ 1. Only 0.75 satisfies this condition."
+        },
+        {
+          "mcq_num": 4,
+          "difficulty": "Medium",
+          "question": "One card is drawn from a deck of 52 cards. P(getting a face card) = ?",
+          "options": {
+            "A": "1/13    (B) 3/13    (C) 4/13    (D) 1/4"
+          },
+          "answer": "B",
+          "explanation": "Face cards = Kings + Queens + Jacks = 12. P = 12/52 = 3/13."
+        },
+        {
+          "mcq_num": 5,
+          "difficulty": "Medium",
+          "question": "Two dice are thrown simultaneously. P(sum = 7) = ?",
+          "options": {
+            "A": "1/6    (B) 5/36    (C) 7/36    (D) 1/4"
+          },
+          "answer": "A",
+          "explanation": "Favourable pairs: (1,6),(2,5),(3,4),(4,3),(5,2),(6,1) = 6. P = 6/36 = 1/6."
+        },
+        {
+          "mcq_num": 6,
+          "difficulty": "Medium",
+          "question": "A bag contains 3 red, 4 blue, 5 green balls. P(not green) = ?",
+          "options": {
+            "A": "5/12    (B) 7/12    (C) 1/3    (D) 2/3"
+          },
+          "answer": "B",
+          "explanation": "Total = 12. Not green = 3 + 4 = 7. P = 7/12."
+        },
+        {
+          "mcq_num": 7,
+          "difficulty": "Medium",
+          "question": "A box has 90 discs numbered 1–90. P(two-digit number) = ?",
+          "options": {
+            "A": "8/9    (B) 9/10    (C) 81/100    (D) 1/10"
+          },
+          "answer": "B",
+          "explanation": "Two-digit numbers: 10 to 90 → 81 numbers. P = 81/90 = 9/10."
+        },
+        {
+          "mcq_num": 8,
+          "difficulty": "Hard",
+          "question": "A card is drawn from 52 cards. P(red card OR king) = ?",
+          "options": {
+            "A": "6/13    (B) 7/13    (C) 4/13    (D) 3/13"
+          },
+          "answer": "B",
+          "explanation": "Red cards = 26, Kings = 4, Red kings = 2 (overlap). P = (26 + 4 − 2)/52 = 28/52 = 7/13."
+        },
+        {
+          "mcq_num": 9,
+          "difficulty": "Hard",
+          "question": "A die is thrown twice. P(5 appears at least once) = ?",
+          "options": {
+            "A": "5/36    (B) 1/6    (C) 11/36    (D) 25/36"
+          },
+          "answer": "C",
+          "explanation": "P(5 not in either throw) = 5/6 × 5/6 = 25/36. P(at least one 5) = 1 − 25/36 = 11/36."
+        },
+        {
+          "mcq_num": 10,
+          "difficulty": "Hard",
+          "question": "Three coins are tossed. P(exactly two tails) = ?",
+          "options": {
+            "A": "1/8    (B) 1/4    (C) 3/8    (D) 1/2"
+          },
+          "answer": "C",
+          "explanation": "Sample space has 8 outcomes. Exactly two tails: {HTT, THT, TTH} = 3. P = 3/8."
+        }
+      ]
+    }
+  ],
+  "topics": [
+    {
+      "topic_num": "14.1",
+      "topic_name": "PROBABILITY — A THEORETICAL APPROACH",
+      "mode": "B",
+      "sections": [
+        {
+          "type": "definition",
+          "label": "Definition:",
+          "text": "- THEORETICAL PROBABILITY (also called CLASSICAL PROBABILITY) of an event E is defined as:\nP(E) = Number of outcomes favourable to E / Number of all possible outcomes of the experiment\nwhere outcomes of the experiment are assumed to be equally likely.\n- This definition was given by PIERRE SIMON LAPLACE in 1795."
+        },
+        {
+          "type": "key_points",
+          "label": "Key Points / Introduction:",
+          "points": [
+            "EQUALLY LIKELY OUTCOMES: Outcomes are equally likely when each has the same chance of occurring.",
+            "Example: Tossing a fair coin → Head and Tail are equally likely.",
+            "Example: Throwing a fair die → 1, 2, 3, 4, 5, 6 are equally likely.",
+            "Not all experiments have equally likely outcomes (e.g., bag with 4 red + 1 blue ball).",
+            "ELEMENTARY EVENT: An event with only one outcome. Sum of all elementary event probabilities = 1.",
+            "COMPLEMENTARY EVENTS: For event E, its complement Ē (\"not E\") satisfies P(E) + P(Ē) = 1.",
+            "IMPOSSIBLE EVENT: P = 0 (e.g., getting 8 on a die).",
+            "SURE (CERTAIN) EVENT: P = 1 (e.g., getting a number < 7 on a die).",
+            "RANGE: 0 ≤ P(E) ≤ 1 for any event E.",
+            "History: J. CARDAN (16th century) — first book on probability. Contributions by James Bernoulli",
+            "(1654–1705), A. de Moivre (1667–1754), Pierre Simon Laplace (1749–1827)."
+          ]
+        },
+        {
+          "type": "list_of_topics",
+          "label": "LIST OF SUB TOPICS IN THIS TOPIC:",
+          "items": [
+            "- (No textbook sub-topics under 14.1 — Mode B, only X.Y numbering used)"
+          ]
+        },
+        {
+          "type": "formulas",
+          "label": "FORMULA:",
+          "items": [
+            "P(E) = Number of outcomes favourable to E / Number of all possible outcomes",
+            "WHERE:",
+            "P(E) = Probability of event E (a number between 0 and 1)",
+            "Favourable outcomes = Outcomes in which event E occurs",
+            "Total outcomes = All possible equally likely outcomes of the experiment",
+            "Complementary Events Formula:",
+            "P(Ē) = 1 − P(E)",
+            "WHERE:",
+            "Ē = complement of event E (\"not E\")",
+            "P(E) + P(Ē) = 1",
+            "EXAMPLES: (Textbook Examples)",
+            "EXAMPLE 14.1.1: Probability from coin toss",
+            "PROBLEM: Find the probability of getting a head when a coin is tossed once. Also find P(tail).",
+            "SOLUTION:",
+            "Step 1: List all possible outcomes: {Head (H), Tail (T)} → Total outcomes = 2",
+            "Step 2: Favourable outcomes for Head = 1",
+            "Step 3: P(Head) = 1/2",
+            "Step 4: Favourable outcomes for Tail = 1",
+            "Step 5: P(Tail) = 1/2",
+            "ANSWER: P(Head) = 1/2,  P(Tail) = 1/2",
+            "Note: P(Head) + P(Tail) = 1 ✓ [Both are elementary events]",
+            "EXAMPLE 14.1.2: Probability from coloured balls",
+            "PROBLEM: A bag contains a red ball, a blue ball and a yellow ball (all same size). Kritika takes out a ball without looking. What is the probability of getting (i) yellow ball? (ii) red ball? (iii) blue ball?",
+            "SOLUTION:",
+            "Step 1: Total possible outcomes = 3 (equally likely — all balls same size)",
+            "Step 2: Each colour has exactly 1 ball.",
+            "P(Yellow) = 1/3",
+            "P(Red)    = 1/3",
+            "P(Blue)   = 1/3",
+            "ANSWER: (i) P(Y) = 1/3   (ii) P(R) = 1/3   (iii) P(B) = 1/3",
+            "Note: P(Y) + P(R) + P(B) = 1 ✓ [All three are elementary events]",
+            "EXAMPLE 14.1.3: Probability from die throw (complement)",
+            "PROBLEM: A die is thrown once. (i) P(number > 4)? (ii) P(number ≤ 4)?",
+            "SOLUTION:",
+            "Step 1: Possible outcomes = {1, 2, 3, 4, 5, 6} → Total = 6",
+            "Step 2: (i) Numbers > 4: {5, 6} → Favourable = 2",
+            "P(E) = 2/6 = 1/3",
+            "(ii) Numbers ≤ 4: {1, 2, 3, 4} → Favourable = 4",
+            "P(F) = 4/6 = 2/3",
+            "ANSWER: (i) P(number > 4) = 1/3    (ii) P(number ≤ 4) = 2/3",
+            "Note: These are complementary events: 1/3 + 2/3 = 1 ✓",
+            "EXAMPLE 14.1.4: Probability from playing cards (complement method)",
+            "PROBLEM: One card is drawn from a well-shuffled deck of 52 cards. P(i) ace? (ii) not ace?",
+            "SOLUTION:",
+            "Step 1: Total outcomes = 52",
+            "Step 2: (i) Number of aces = 4 (one per suit)",
+            "P(ace) = 4/52 = 1/13",
+            "(ii) Not ace: Using complement,",
+            "P(not ace) = 1 − 1/13 = 12/13",
+            "OR: Not ace = 52 − 4 = 48 cards → P = 48/52 = 12/13 ✓",
+            "ANSWER: (i) P(ace) = 1/13    (ii) P(not ace) = 12/13",
+            "EXAMPLE 14.1.5: Probability using complement (tennis match)",
+            "PROBLEM: Probability of Sangeeta winning a tennis match = 0.62. Find P(Reshma wins).",
+            "SOLUTION:",
+            "Step 1: Events \"Sangeeta wins\" and \"Reshma wins\" are complementary (exactly one must win).",
+            "Step 2: P(Reshma wins) = 1 − P(Sangeeta wins) = 1 − 0.62 = 0.38",
+            "ANSWER: P(Reshma wins) = 0.38",
+            "EXAMPLE 14.1.6: Probability of birthdays",
+            "PROBLEM: Savita and Hamida are friends. P(i) different birthdays? (ii) same birthday? (Ignoring leap year)",
+            "SOLUTION:",
+            "Step 1: Hamida's birthday can be any of 365 days → Total outcomes = 365 (equally likely)",
+            "Step 2: (i) Different birthday from Savita's: 365 − 1 = 364 favourable days",
+            "P(different) = 364/365",
+            "(ii) P(same birthday) = 1 − 364/365 = 1/365  [using complement]",
+            "ANSWER: (i) P(different birthdays) = 364/365    (ii) P(same birthday) = 1/365",
+            "EXAMPLE 14.1.7: Probability from class students",
+            "PROBLEM: Class X has 40 students — 25 girls, 15 boys. One name card drawn at random.",
+            "P(i) girl's name? (ii) boy's name?",
+            "SOLUTION:",
+            "Step 1: Total outcomes = 40 (one card per student)",
+            "Step 2: (i) P(Girl) = 25/40 = 5/8",
+            "(ii) P(Boy) = 15/40 = 3/8",
+            "OR using complement: P(Boy) = 1 − 5/8 = 3/8 ✓",
+            "ANSWER: (i) P(Girl) = 5/8    (ii) P(Boy) = 3/8",
+            "EXAMPLE 14.1.8: Probability from marbles",
+            "PROBLEM: A box contains 3 blue, 2 white, 4 red marbles. A marble drawn at random.",
+            "P(i) white? (ii) blue? (iii) red?",
+            "SOLUTION:",
+            "Step 1: Total outcomes = 3 + 2 + 4 = 9 (equally likely)",
+            "Step 2: (i) P(White) = 2/9",
+            "(ii) P(Blue)  = 3/9 = 1/3",
+            "(iii) P(Red)  = 4/9",
+            "ANSWER: (i) P(W) = 2/9   (ii) P(B) = 1/3   (iii) P(R) = 4/9",
+            "Note: 2/9 + 3/9 + 4/9 = 9/9 = 1 ✓",
+            "EXAMPLE 14.1.9: Probability from two coins (at least one head)",
+            "PROBLEM: Harpreet tosses two different coins (₹1 and ₹2) simultaneously. P(at least one head)?",
+            "SOLUTION:",
+            "Step 1: Sample space = {(H,H), (H,T), (T,H), (T,T)} → Total = 4 (equally likely)",
+            "Step 2: Favourable outcomes (at least one head): {(H,H), (H,T), (T,H)} → Count = 3",
+            "Step 3: P(at least one head) = 3/4",
+            "Using complement: P(no head) = P(T,T) = 1/4 → P(at least one head) = 1 − 1/4 = 3/4 ✓",
+            "ANSWER: P(at least one head) = 3/4",
+            "EXAMPLE 14.1.10: Musical chair game [NOT FROM EXAMINATION POINT OF VIEW]",
+            "PROBLEM: Music stops at any time within 2 minutes. P(music stops within first half-minute)?",
+            "SOLUTION:",
+            "Step 1: Outcomes are all points from 0 to 2 on the number line. Total distance = 2.",
+            "Step 2: Favourable distance (0 to 1/2) = 1/2",
+            "Step 3: P(E) = Favourable distance / Total distance = (1/2) / 2 = 1/4",
+            "ANSWER: P(music stops within first half-minute) = 1/4",
+            "EXAMPLE 14.1.11: Helicopter crash problem [NOT FROM EXAMINATION POINT OF VIEW]",
+            "PROBLEM: A helicopter crashed somewhere in a rectangular region of 4.5 km × 9 km.",
+            "A lake of 2.5 km × 3 km lies inside. P(crashed inside the lake)?",
+            "SOLUTION:",
+            "Step 1: Total area = 4.5 × 9 = 40.5 km²",
+            "Step 2: Area of lake = 2.5 × 3 = 7.5 km²",
+            "Step 3: P(crashed in lake) = 7.5 / 40.5 = 75/405 = 5/27",
+            "ANSWER: P(helicopter crashed in the lake) = 5/27",
+            "EXAMPLE 14.1.12: Probability from carton of shirts",
+            "PROBLEM: A carton has 100 shirts — 88 good, 8 minor defects, 4 major defects. One shirt drawn at random.",
+            "(i) P(acceptable to Jimmy — only accepts good shirts)?",
+            "(ii) P(acceptable to Sujatha — rejects only major defects)?",
+            "SOLUTION:",
+            "Step 1: Total outcomes = 100",
+            "Step 2: (i) Acceptable to Jimmy = 88 (good shirts only)",
+            "P = 88/100 = 0.88",
+            "(ii) Acceptable to Sujatha = 88 + 8 = 96 (good + minor defect)",
+            "P = 96/100 = 0.96",
+            "ANSWER: (i) P(acceptable to Jimmy) = 0.88    (ii) P(acceptable to Sujatha) = 0.96",
+            "EXAMPLE 14.1.13: Probability from two dice (sample space table)",
+            "PROBLEM: Two dice (one blue, one grey) are thrown. Total possible outcomes = 6 × 6 = 36.",
+            "Find: (i) P(sum = 8)? (ii) P(sum = 13)? (iii) P(sum ≤ 12)?",
+            "SOLUTION:",
+            "Step 1: Sample space — 36 ordered pairs (a, b) where a = blue die, b = grey die.",
+            "[Listed in a 6×6 table]",
+            "Step 2: (i) Sum = 8: {(2,6),(3,5),(4,4),(5,3),(6,2)} → 5 favourable outcomes",
+            "P(E) = 5/36",
+            "(ii) Sum = 13: Maximum sum of two dice = 6 + 6 = 12. No pair gives sum 13.",
+            "P(F) = 0/36 = 0 [Impossible event]",
+            "(iii) Sum ≤ 12: All 36 outcomes satisfy this (max sum = 12).",
+            "P(G) = 36/36 = 1 [Sure event]",
+            "ANSWER: (i) P(sum=8) = 5/36   (ii) P(sum=13) = 0   (iii) P(sum≤12) = 1"
+          ]
+        },
+        {
+          "type": "exercise",
+          "label": "EXERCISE 14.1: (All 25 Questions with Solutions)",
+          "items": [
+            {
+              "q_num": 14,
+              "marks": null,
+              "question": "1.1. Complete the following statements:",
+              "answer": "(i) Probability of event E + Probability of 'not E' = ____\n(ii) Probability of an event that cannot happen = ____. Such an event is called ____.\n(iii) Probability of an event that is certain to happen = ____. Such an event is called ____.\n(iv) Sum of probabilities of all elementary events of an experiment is ____.\n(v) Probability of an event is greater than or equal to ____ and less than or equal to ____.\n\nSOLUTION:\n(i) 1\n(ii) 0; impossible event\n(iii) 1; sure event or certain event\n(iv) 1\n(v) 0; 1"
+            }
+          ],
+          "raw": "Q14.1.1. Complete the following statements:\n(i) Probability of event E + Probability of 'not E' = ____\n(ii) Probability of an event that cannot happen = ____. Such an event is called ____.\n(iii) Probability of an event that is certain to happen = ____. Such an event is called ____.\n(iv) Sum of probabilities of all elementary events of an experiment is ____.\n(v) Probability of an event is greater than or equal to ____ and less than or equal to ____.\n\nSOLUTION:\n(i) 1\n(ii) 0; impossible event\n(iii) 1; sure event or certain event\n(iv) 1\n(v) 0; 1\n\nQ14.1.2. Which of the following experiments have equally likely outcomes? Explain.\n(i) A driver attempts to start a car — it starts or does not start.\n(ii) A player shoots a basketball — she/he shoots or misses.\n(iii) A true-false question is answered — the answer is right or wrong.\n(iv) A baby is born — it is a boy or a girl.\n\nSOLUTION:\n(i) NOT equally likely — depends on car condition (battery, engine, fuel, etc.)\n(ii) NOT equally likely — depends on the player's skill\n(iii) EQUALLY LIKELY — right or wrong are equally likely (random guess)\n(iv) EQUALLY LIKELY — boy or girl are equally likely at birth\nAnswer: Experiments (iii) and (iv) have equally likely outcomes.\n\nQ14.1.3. Why is tossing a coin a fair way of deciding who gets the ball at the beginning of a football game?\nSOLUTION:\nWhen a coin is tossed, the outcomes Head and Tail are equally likely (P = 1/2 each). The result is completely unpredictable and unbiased for both teams. Neither team has an advantage — so it is a fair method.\n\nQ14.1.4. Which of the following CANNOT be the probability of an event?\n(A) 2/3    (B) −1.5    (C) 15%    (D) 0.7\nSOLUTION:\nProbability must satisfy 0 ≤ P(E) ≤ 1.\n- (A) 2/3 ≈ 0.667 ✓\n- (B) −1.5 → Negative → INVALID ✗\n- (C) 15% = 0.15 ✓\n- (D) 0.7 ✓\nANSWER: (B) −1.5\n\nQ14.1.5. If P(E) = 0.05, what is P(not E)?\nSOLUTION: P(not E) = 1 − P(E) = 1 − 0.05 = 0.95\nANSWER: P(not E) = 0.95\n\nQ14.1.6. A bag contains lemon flavoured candies only. Malini takes out one candy without looking. P(i) orange flavoured? (ii) lemon flavoured?\nSOLUTION:\nTotal outcomes = all lemon candies.\n(i) No orange candies in the bag → Impossible event → P = 0\n(ii) All candies are lemon → Sure event → P = 1\nANSWER: (i) P(orange) = 0    (ii) P(lemon) = 1\n\nQ14.1.7. In a group of 3 students, P(2 students NOT having same birthday) = 0.992.\nWhat is P(2 students HAVE same birthday)?\nSOLUTION: P(same birthday) = 1 − P(different birthdays) = 1 − 0.992 = 0.008\nANSWER: P(same birthday) = 0.008\n\nQ14.1.8. A bag contains 3 red balls and 5 black balls. One ball drawn at random.\nP(i) red? (ii) not red?\nSOLUTION:\nTotal = 3 + 5 = 8\n(i) P(red) = 3/8\n(ii) P(not red) = 5/8  OR  P(not red) = 1 − 3/8 = 5/8 ✓\nANSWER: (i) 3/8    (ii) 5/8\n\nQ14.1.9. A box contains 5 red, 8 white, 4 green marbles. One marble taken out at random.\nP(i) red? (ii) white? (iii) not green?\nSOLUTION:\nTotal = 5 + 8 + 4 = 17\n(i) P(red) = 5/17\n(ii) P(white) = 8/17\n(iii) P(not green) = (5 + 8)/17 = 13/17  OR  1 − 4/17 = 13/17 ✓\nANSWER: (i) 5/17    (ii) 8/17    (iii) 13/17\n\nQ14.1.10. A piggy bank has: 100 fifty-paise coins, 50 one-rupee coins, 20 two-rupee coins, 10 five-rupee coins. One coin falls out.\nP(i) 50p coin? (ii) not a ₹5 coin?\nSOLUTION:\nTotal = 100 + 50 + 20 + 10 = 180\n(i) P(50p) = 100/180 = 5/9\n(ii) P(not ₹5) = (180 − 10)/180 = 170/180 = 17/18\nANSWER: (i) 5/9    (ii) 17/18\n\nQ14.1.11. A tank has 5 male fish and 8 female fish. One fish taken out at random.\nP(male fish)?\nSOLUTION:\nTotal = 5 + 8 = 13\nP(male) = 5/13\nANSWER: P(male fish) = 5/13\n\nQ14.1.12. An arrow spins and points at one of the numbers 1, 2, 3, 4, 5, 6, 7, 8 (equally likely).\nP(i) 8? (ii) odd number? (iii) number > 2? (iv) number < 9?\nSOLUTION:\nTotal = 8\n(i) P(8) = 1/8\n(ii) Odd numbers: {1, 3, 5, 7} → P = 4/8 = 1/2\n(iii) Numbers > 2: {3, 4, 5, 6, 7, 8} → P = 6/8 = 3/4\n(iv) Numbers < 9: all 8 numbers → P = 8/8 = 1 [Sure event]\nANSWER: (i) 1/8   (ii) 1/2   (iii) 3/4   (iv) 1\n\nQ14.1.13. A die is thrown once. Find P(i) prime number? (ii) number between 2 and 6? (iii) odd number?\nSOLUTION:\nTotal outcomes = 6\n(i) Primes: {2, 3, 5} → P = 3/6 = 1/2\n(ii) Between 2 and 6 (i.e., 3, 4, 5): → P = 3/6 = 1/2\n(iii) Odd: {1, 3, 5} → P = 3/6 = 1/2\nANSWER: (i) 1/2    (ii) 1/2    (iii) 1/2\n\nQ14.1.14. One card is drawn from a well-shuffled deck of 52 cards. Find P:\n(i) king of red colour   (ii) face card   (iii) red face card\n(iv) jack of hearts   (v) spade   (vi) queen of diamonds\nSOLUTION:\nTotal = 52\n(i) Red kings = 2 (king of hearts + king of diamonds) → P = 2/52 = 1/26\n(ii) Face cards = 12 → P = 12/52 = 3/13\n(iii) Red face cards = 6 (3 hearts + 3 diamonds) → P = 6/52 = 3/26\n(iv) Jack of hearts = 1 → P = 1/52\n(v) Spades = 13 → P = 13/52 = 1/4\n(vi) Queen of diamonds = 1 → P = 1/52\nANSWER: (i) 1/26   (ii) 3/13   (iii) 3/26   (iv) 1/52   (v) 1/4   (vi) 1/52\n\nQ14.1.15. Five cards (10, J, Q, K, A of diamonds) shuffled face down. One card picked at random.\n(i) P(card is queen)?\n(ii) Queen drawn and put aside. From remaining 4 cards: (a) P(ace)? (b) P(queen)?\nSOLUTION:\nTotal (initially) = 5\n(i) P(queen) = 1/5\n(ii) After queen removed, remaining = {10, J, K, A of diamonds} → 4 cards\n(a) P(ace) = 1/4\n(b) P(queen) = 0/4 = 0 [Queen already removed]\nANSWER: (i) 1/5   (ii)(a) 1/4   (ii)(b) 0\n\nQ14.1.16. 12 defective pens mixed with 132 good ones (total 144). One pen taken at random.\nP(good pen)?\nSOLUTION:\nTotal = 144\nP(good) = 132/144 = 11/12\nANSWER: P(good pen) = 11/12\n\nQ14.1.17.\n(i) A lot of 20 bulbs contains 4 defective. One drawn at random. P(defective)?\n(ii) The bulb from (i) is NOT defective and NOT replaced. Now one drawn from remaining 19.\nP(not defective)?\nSOLUTION:\n(i) Total = 20, Defective = 4\nP(defective) = 4/20 = 1/5\n\n(ii) After removing 1 non-defective bulb: Remaining = 19 (3 defective, 16 good)\nP(not defective) = 15/19\nANSWER: (i) 1/5    (ii) 15/19\n\nQ14.1.18. A box has 90 discs numbered 1 to 90. One disc drawn at random. Find P:\n(i) two-digit number   (ii) perfect square number   (iii) number divisible by 5\nSOLUTION:\nTotal = 90\n(i) Two-digit numbers (10 to 90) = 81 numbers → P = 81/90 = 9/10\n(ii) Perfect squares ≤ 90: {1,4,9,16,25,36,49,64,81} = 9 → P = 9/90 = 1/10\n(iii) Divisible by 5: {5,10,15,...,90} = 18 numbers → P = 18/90 = 1/5\nANSWER: (i) 9/10    (ii) 1/10    (iii) 1/5\n\nQ14.1.19. A die has six faces showing: A, B, C, D, E, A. Die thrown once.\nP(i) A?   (ii) D?\nSOLUTION:\nTotal faces = 6\n(i) Faces showing A = 2 → P(A) = 2/6 = 1/3\n(ii) Faces showing D = 1 → P(D) = 1/6\nANSWER: (i) 1/3    (ii) 1/6\n\nQ14.1.20. [NOT FROM EXAMINATION POINT OF VIEW]\nA die dropped on a rectangular region 3m × 2m. P(lands inside circle of diameter 1m)?\nSOLUTION:\nArea of rectangle = 3 × 2 = 6 m²\nRadius of circle = 1/2 m → Area = π × (1/2)² = π/4 m²\nP = (π/4) / 6 = π/24\nANSWER: P = π/24\n\nQ14.1.21. Lot of 144 ball pens: 20 defective, 124 good. One pen drawn at random.\nP(i) Nuri will buy it (only buys good)?   (ii) Nuri will not buy it?\nSOLUTION:\nTotal = 144\n(i) Good pens = 124 → P = 124/144 = 31/36\n(ii) Defective pens = 20 → P = 20/144 = 5/36\nOR using complement: P = 1 − 31/36 = 5/36 ✓\nANSWER: (i) 31/36    (ii) 5/36\n\nQ14.1.22. Complete the probability table for sum on 2 dice:\nSOLUTION:\nSum:         2    3    4    5    6    7    8    9   10   11   12\nFavourable:  1    2    3    4    5    6    5    4    3    2    1\nProbability: 1/36 2/36 3/36 4/36 5/36 6/36 5/36 4/36 3/36 2/36 1/36\n\n(ii) A student argues: 11 outcomes (sums 2–12), each with P = 1/11. Correct?\nAnswer: NO. The 11 sums are NOT equally likely — each has a different number of favourable pairs (as shown in the table above). So probabilities are not equal.\n\nQ14.1.23. Coin tossed 3 times. Hanif wins if all tosses same (HHH or TTT), loses otherwise.\nP(Hanif loses)?\nSOLUTION:\nSample space = {HHH, HHT, HTH, HTT, THH, THT, TTH, TTT} → Total = 8\nWinning outcomes = {HHH, TTT} = 2\nLosing outcomes = 8 − 2 = 6\nP(Hanif loses) = 6/8 = 3/4\nANSWER: P(Hanif loses) = 3/4\n\nQ14.1.24. A die thrown twice. P(i) 5 will not come up either time? (ii) 5 will come up at least once?\nSOLUTION:\nTotal outcomes = 36\n(i) Outcomes where 5 does NOT appear in either throw:\nEach throw has 5 non-5 outcomes → 5 × 5 = 25 favourable outcomes\nP(5 does not appear either time) = 25/36\n\n(ii) P(5 comes up at least once) = 1 − P(5 does not appear)\n= 1 − 25/36 = 11/36\nANSWER: (i) 25/36    (ii) 11/36\n\nQ14.1.25. Which arguments are correct and which are not?\n(i) Two coins tossed → 3 outcomes (HH, TT, one of each) → P(each) = 1/3\n(ii) Die thrown → 2 outcomes (odd or even) → P(odd) = 1/2\n\nSOLUTION:\n(i) INCORRECT.\nThe three outcomes are NOT equally likely.\n\"One of each\" can occur in 2 ways: (H,T) and (T,H).\nCorrect sample space: {HH, HT, TH, TT} → 4 equally likely outcomes.\nP(one of each) = 2/4 = 1/2, NOT 1/3.\n\n(ii) CORRECT.\n{1,3,5} are odd → 3 outcomes; {2,4,6} are even → 3 outcomes.\nBoth are equally likely. P(odd) = 3/6 = 1/2 ✓"
+        },
+        {
+          "type": "qa",
+          "label": "TOPIC 14.1: Q&A",
+          "items": []
+        },
+        {
+          "type": "qa",
+          "label": "Q&A",
+          "items": [
+            {
+              "q_num": 1,
+              "marks": 2,
+              "question": "What are equally likely outcomes? Give two examples and one counter-example.",
+              "answer": "Outcomes are EQUALLY LIKELY when each outcome has the same chance of occurring.\n\nExample 1: Tossing a fair coin → {Head, Tail} — each has P = 1/2. Equally likely. ✓\nExample 2: Throwing a fair die → {1,2,3,4,5,6} — each has P = 1/6. Equally likely. ✓\nCounter-example: Bag with 4 red + 1 blue ball → Red is more likely than blue. NOT equally likely. ✗\n\n---"
+            },
+            {
+              "q_num": 2,
+              "marks": 2,
+              "question": "If P(E) = 0.05, find P(not E). Also state what event E could be if P(E) = 0.",
+              "answer": "P(not E) = 1 − P(E) = 1 − 0.05 = 0.95\n\nIf P(E) = 0, then E is an IMPOSSIBLE EVENT — an event that can never occur.\nExample: Getting 8 on a single throw of a die. P = 0/6 = 0.\n\n---"
+            },
+            {
+              "q_num": 3,
+              "marks": 2,
+              "question": "A bag contains 3 red balls and 5 black balls. A ball is drawn at random.",
+              "answer": "Total balls = 3 + 5 = 8 (equally likely)\n\nP(red) = 3/8\n\nP(not red) = 1 − P(red) = 1 − 3/8 = 5/8\n[OR directly: P(black) = 5/8 ✓]\n\nVerify: 3/8 + 5/8 = 1 ✓\n\n---"
+            },
+            {
+              "q_num": 4,
+              "marks": 2,
+              "question": "What is an elementary event? If a die is thrown, list all elementary events and verify their sum.",
+              "answer": "An ELEMENTARY EVENT is an event that has only ONE outcome of the experiment.\n\nWhen a die is thrown, elementary events are:\n{1}, {2}, {3}, {4}, {5}, {6} — each with P = 1/6.\n\nSum = P(1)+P(2)+P(3)+P(4)+P(5)+P(6) = 1/6 + 1/6 + 1/6 + 1/6 + 1/6 + 1/6 = 6/6 = 1 ✓\n\nKey Rule: Sum of probabilities of all elementary events of an experiment = 1.\n\n---\n\n3 ಮಾರ್ಕ್ಸ್ × 3 questions:"
+            },
+            {
+              "q_num": 5,
+              "marks": 3,
+              "question": "A die is thrown once. Find the probability of getting:",
+              "answer": "Step 1: Total outcomes = {1, 2, 3, 4, 5, 6} → Total = 6 (equally likely)\n\nStep 2:\n(i) Prime numbers on a die: {2, 3, 5} → Favourable = 3\nP(prime) = 3/6 = 1/2\n\n(ii) Numbers between 2 and 6 (strictly between, i.e., 3, 4, 5): → Favourable = 3\nP(between 2 and 6) = 3/6 = 1/2\n\n(iii) Odd numbers: {1, 3, 5} → Favourable = 3\nP(odd) = 3/6 = 1/2\n\nStep 3: Note — all three give 1/2 here, but for different reasons. ✓\n\nANSWER: (i) 1/2   (ii) 1/2   (iii) 1/2\n\n---"
+            },
+            {
+              "q_num": 6,
+              "marks": 3,
+              "question": "A box contains 90 discs numbered 1 to 90. One disc drawn at random. Find:",
+              "answer": "Step 1: Total outcomes = 90 (equally likely)\n\nStep 2:\n(i) Perfect squares from 1–90: {1, 4, 9, 16, 25, 36, 49, 64, 81} → Count = 9\nP(perfect square) = 9/90 = 1/10\n\n(ii) Multiples of 5: {5, 10, 15, ..., 90} → Count = 90 ÷ 5 = 18\nP(divisible by 5) = 18/90 = 1/5\n\n(iii) Two-digit numbers: {10, 11, ..., 90} → Count = 81\nP(two-digit) = 81/90 = 9/10\n\nStep 3: All values are between 0 and 1. ✓\n\nANSWER: (i) 1/10   (ii) 1/5   (iii) 9/10\n\n---"
+            },
+            {
+              "q_num": 7,
+              "marks": 3,
+              "question": "One card is drawn from a well-shuffled deck of 52 cards. Find:",
+              "answer": "Step 1: Total outcomes = 52 (well-shuffled — equally likely)\nRecall: 4 suits × 13 cards each. Face cards = Kings(4) + Queens(4) + Jacks(4) = 12. Aces = 4.\n\nStep 2:\n(i) P(ace) = 4/52 = 1/13\n\n(ii) P(face card) = 12/52 = 3/13\n\n(iii) P(not a face card) = 1 − P(face card) = 1 − 3/13 = 10/13\n[OR: Non-face cards = 52 − 12 = 40 → P = 40/52 = 10/13 ✓]\n\nStep 3: Verify (ii) and (iii): 3/13 + 10/13 = 13/13 = 1 ✓\n\nANSWER: (i) 1/13   (ii) 3/13   (iii) 10/13\n\n---\n\n4 ಮಾರ್ಕ್ಸ್ × 4 questions:"
+            },
+            {
+              "q_num": 8,
+              "marks": 4,
+              "question": "A box contains 3 blue, 2 white, and 4 red marbles. If a marble is drawn at random, find the probability that it is:",
+              "answer": "Step 1: Total marbles = 3 + 2 + 4 = 9\nAll marbles are equally likely to be drawn (\"drawn at random\").\n\nStep 2:\n(i) White marbles = 2\nP(white) = 2/9\n\n(ii) Blue marbles = 3\nP(blue) = 3/9 = 1/3\n\n(iii) Red marbles = 4\nP(red) = 4/9\n\n(iv) P(not blue) = 1 − P(blue) = 1 − 1/3 = 2/3\n[OR: Not blue = 2 + 4 = 6 → P = 6/9 = 2/3 ✓]\n\nStep 3: Verify: P(W) + P(B) + P(R) = 2/9 + 3/9 + 4/9 = 9/9 = 1 ✓\n\nANSWER: (i) 2/9   (ii) 1/3   (iii) 4/9   (iv) 2/3\n\n---"
+            },
+            {
+              "q_num": 9,
+              "marks": 4,
+              "question": "A carton consists of 100 shirts of which 88 are good, 8 have minor defects and 4 have major defects. One shirt is drawn at random. Find the probability that it is:",
+              "answer": "Step 1: Total shirts = 100. All outcomes equally likely.\n\nStep 2:\n(i) Good shirts = 88\nP(acceptable to Jimmy) = 88/100 = 0.88\n\n(ii) Acceptable to Sujatha = good + minor defects = 88 + 8 = 96\nP(acceptable to Sujatha) = 96/100 = 0.96\n\n(iii) P(not acceptable to Jimmy) = 1 − 0.88 = 0.12\n[OR: Shirts with any defect = 8 + 4 = 12 → P = 12/100 = 0.12 ✓]\n\n(iv) P(not acceptable to Sujatha) = 1 − 0.96 = 0.04\n[Only major defects = 4 → P = 4/100 = 0.04 ✓]\n\nStep 3: Verify (i)+(iii) = 0.88 + 0.12 = 1 ✓   Verify (ii)+(iv) = 0.96 + 0.04 = 1 ✓\n\nANSWER: (i) 0.88   (ii) 0.96   (iii) 0.12   (iv) 0.04\n\n---"
+            },
+            {
+              "q_num": 10,
+              "marks": 4,
+              "question": "Harpreet tosses two different coins (₹1 and ₹2) simultaneously.",
+              "answer": "Step 1: Sample space = {(H,H), (H,T), (T,H), (T,T)} → Total = 4 (equally likely)\nNote: H = Head, T = Tail. First coin = ₹1, second = ₹2.\n\nStep 2:\n(i) Sample space: {(H,H), (H,T), (T,H), (T,T)} ← 4 outcomes\n\n(ii) At least one head: {(H,H), (H,T), (T,H)} → 3 outcomes\nP(at least one head) = 3/4\n[Using complement: P(no head) = 1/4 → P(at least one head) = 1 − 1/4 = 3/4 ✓]\n\n(iii) Exactly one tail: {(H,T), (T,H)} → 2 outcomes\nP(exactly one tail) = 2/4 = 1/2\n\n(iv) No head = (T,T) → 1 outcome\nP(no head) = 1/4\n\nStep 3: Verify: P(≥1 head) + P(no head) = 3/4 + 1/4 = 1 ✓\n\nANSWER: (ii) 3/4   (iii) 1/2   (iv) 1/4\n\n---"
+            },
+            {
+              "q_num": 11,
+              "marks": 4,
+              "question": "Two dice are thrown simultaneously. Find the probability that the sum of numbers on top is:",
+              "answer": "Step 1: When two dice are thrown, outcomes are ordered pairs (a, b).\nTotal outcomes = 6 × 6 = 36 (all equally likely).\n[Note: (2,6) and (6,2) are different outcomes.]\n\nStep 2:\n(i) Sum = 8:\nFavourable: (2,6),(3,5),(4,4),(5,3),(6,2) → 5 pairs\nP(sum = 8) = 5/36\n\n(ii) Sum = 13:\nMaximum sum possible = 6 + 6 = 12. Sum 13 is impossible.\nP(sum = 13) = 0  [Impossible event]\n\n(iii) Sum ≤ 12:\nAll 36 outcomes have sum ≤ 12.\nP(sum ≤ 12) = 36/36 = 1  [Sure event]\n\n(iv) Sum = 7:\nFavourable: (1,6),(2,5),(3,4),(4,3),(5,2),(6,1) → 6 pairs\nP(sum = 7) = 6/36 = 1/6\n\nStep 3: Verify (ii) and (iii): impossible event has P = 0, sure event has P = 1. ✓\n\nANSWER: (i) 5/36   (ii) 0   (iii) 1   (iv) 1/6\n\n---\n\n5 ಮಾರ್ಕ್ಸ್ × 1 question:"
+            },
+            {
+              "q_num": 12,
+              "marks": 5,
+              "question": "",
+              "answer": "PART A — Cards:\n\nStep 1: Total cards = 52 (well-shuffled → equally likely)\nSuits: Spades(♠), Clubs(♣) = Black; Hearts(♥), Diamonds(♦) = Red\nEach suit has 13 cards: A, K, Q, J, 10, 9, 8, 7, 6, 5, 4, 3, 2\nFace cards = Kings + Queens + Jacks = 4 + 4 + 4 = 12\n\nStep 2:\n(i) Red kings = King of Hearts + King of Diamonds = 2\nP(king of red colour) = 2/52 = 1/26\n\n(ii) Total face cards = 12\nP(face card) = 12/52 = 3/13\n\n(iii) Red face cards = 3 from Hearts + 3 from Diamonds = 6\nP(red face card) = 6/52 = 3/26\n\n(iv) Jack of hearts = exactly 1 card\nP(jack of hearts) = 1/52\n\n(v) Spades = 13 cards (one full suit)\nP(spade) = 13/52 = 1/4\n\nStep 3: All values are between 0 and 1. ✓\n\n---\n\nPART B — Three Coins:\n\nStep 1: Sample space when three coins are tossed:\n{HHH, HHT, HTH, HTT, THH, THT, TTH, TTT} → Total = 8 outcomes (equally likely)\n[H = Head, T = Tail]\n\nStep 2:\n(i) All three heads: Only {HHH} → 1 favourable outcome\nP(all heads) = 1/8\n\n(ii) Exactly two heads: {HHT, HTH, THH} → 3 favourable outcomes\nP(exactly two heads) = 3/8\n\n(iii) Hanif wins if all results are same: {HHH, TTT} → 2 favourable outcomes\nP(Hanif wins) = 2/8 = 1/4\nTherefore P(Hanif loses) = 1 − 1/4 = 3/4\n\nStep 3: Verify all 4 possible outcomes of head count:\nP(0 heads)+P(1 head)+P(2 heads)+P(3 heads) = 1/8 + 3/8 + 3/8 + 1/8 = 8/8 = 1 ✓\n\nANSWER:\nPart A: (i) 1/26   (ii) 3/13   (iii) 3/26   (iv) 1/52   (v) 1/4\nPart B: (i) 1/8   (ii) 3/8   (iii) P(wins) = 1/4,  P(loses) = 3/4"
+            }
+          ]
+        },
+        {
+          "type": "mcq",
+          "label": "TOPIC 14.1: MCQs:",
+          "items": [
+            {
+              "mcq_num": 1,
+              "difficulty": "Easy",
+              "question": "The probability of an impossible event is:",
+              "options": {
+                "A": "1    (B) 1/2    (C) 0    (D) greater than 1"
+              },
+              "answer": "C",
+              "explanation": "An impossible event has 0 favourable outcomes. P = 0/total = 0."
+            },
+            {
+              "mcq_num": 2,
+              "difficulty": "Easy",
+              "question": "If P(E) = 0.4, then P(not E) = ?",
+              "options": {
+                "A": "0.4    (B) 0.6    (C) 0.04    (D) 1.4"
+              },
+              "answer": "B",
+              "explanation": "P(E) + P(not E) = 1 → P(not E) = 1 − 0.4 = 0.6"
+            },
+            {
+              "mcq_num": 3,
+              "difficulty": "Easy",
+              "question": "A coin is tossed once. The probability of getting a tail is:",
+              "options": {
+                "A": "0    (B) 1/4    (C) 1/2    (D) 1"
+              },
+              "answer": "C",
+              "explanation": "Total outcomes = 2. Favourable = 1 (Tail). P = 1/2."
+            },
+            {
+              "mcq_num": 4,
+              "difficulty": "Easy",
+              "question": "A bag contains only green balls. One ball is drawn. P(green ball) = ?",
+              "options": {
+                "A": "0    (B) 1/2    (C) 1    (D) Cannot be determined"
+              },
+              "answer": "C",
+              "explanation": "All balls are green → Sure event → P = 1."
+            },
+            {
+              "mcq_num": 5,
+              "difficulty": "Easy",
+              "question": "Which cannot be the probability of an event?",
+              "options": {
+                "A": "0    (B) 0.5    (C) 1    (D) 1.5"
+              },
+              "answer": "D",
+              "explanation": "Probability must be in [0, 1]. 1.5 > 1 is invalid."
+            },
+            {
+              "mcq_num": 6,
+              "difficulty": "Medium",
+              "question": "One card drawn from 52 cards. P(face card) = ?",
+              "options": {
+                "A": "1/13    (B) 3/13    (C) 4/13    (D) 1/4"
+              },
+              "answer": "B",
+              "explanation": "Face cards = 12. P = 12/52 = 3/13."
+            },
+            {
+              "mcq_num": 7,
+              "difficulty": "Medium",
+              "question": "Two dice thrown. P(sum = 7) = ?",
+              "options": {
+                "A": "1/6    (B) 5/36    (C) 7/36    (D) 1/4"
+              },
+              "answer": "A",
+              "explanation": "Pairs with sum 7: (1,6),(2,5),(3,4),(4,3),(5,2),(6,1) = 6. P = 6/36 = 1/6."
+            },
+            {
+              "mcq_num": 8,
+              "difficulty": "Medium",
+              "question": "Bag has 3 red, 4 blue, 5 green balls. P(not green) = ?",
+              "options": {
+                "A": "5/12    (B) 7/12    (C) 1/3    (D) 2/3"
+              },
+              "answer": "B",
+              "explanation": "Total = 12. Not green = 3 + 4 = 7. P = 7/12."
+            },
+            {
+              "mcq_num": 9,
+              "difficulty": "Medium",
+              "question": "A die thrown once. P(prime number) = ?",
+              "options": {
+                "A": "1/6    (B) 1/3    (C) 1/2    (D) 2/3"
+              },
+              "answer": "C",
+              "explanation": "Primes on die: {2, 3, 5} = 3 outcomes. P = 3/6 = 1/2."
+            },
+            {
+              "mcq_num": 10,
+              "difficulty": "Medium",
+              "question": "P(5 does not appear in either throw when a die is thrown twice) = ?",
+              "options": {
+                "A": "25/36    (B) 11/36    (C) 1/6    (D) 5/36"
+              },
+              "answer": "A",
+              "explanation": "Each throw: 5 non-5 outcomes. Favourable = 5 × 5 = 25. P = 25/36."
+            },
+            {
+              "mcq_num": 11,
+              "difficulty": "Medium",
+              "question": "A box has 90 discs numbered 1–90. P(two-digit number) = ?",
+              "options": {
+                "A": "8/9    (B) 9/10    (C) 81/100    (D) 1/10"
+              },
+              "answer": "B",
+              "explanation": "Two-digit numbers: 10–90 = 81 numbers. P = 81/90 = 9/10."
+            },
+            {
+              "mcq_num": 12,
+              "difficulty": "Hard",
+              "question": "A card drawn from 52. P(red card OR king) = ?",
+              "options": {
+                "A": "6/13    (B) 7/13    (C) 4/13    (D) 3/13"
+              },
+              "answer": "B",
+              "explanation": "Red = 26, Kings = 4, Red kings = 2. P = (26 + 4 − 2)/52 = 28/52 = 7/13."
+            },
+            {
+              "mcq_num": 13,
+              "difficulty": "Hard",
+              "question": "Two coins tossed. P(at most one head) = ?",
+              "options": {
+                "A": "1/4    (B) 1/2    (C) 3/4    (D) 1"
+              },
+              "answer": "C",
+              "explanation": "Sample space = {HH, HT, TH, TT}. At most 1 head: {HT, TH, TT} = 3. P = 3/4."
+            },
+            {
+              "mcq_num": 14,
+              "difficulty": "Hard",
+              "question": "Three coins tossed. P(exactly two heads) = ?",
+              "options": {
+                "A": "1/8    (B) 1/4    (C) 3/8    (D) 1/2"
+              },
+              "answer": "C",
+              "explanation": "Sample space = 8 outcomes. Exactly 2 heads: {HHT, HTH, THH} = 3. P = 3/8."
+            },
+            {
+              "mcq_num": 15,
+              "difficulty": "Hard",
+              "question": "A number chosen from 1–50 at random. P(divisible by both 3 and 4) = ?",
+              "options": {
+                "A": "1/25    (B) 2/25    (C) 3/50    (D) 4/25"
+              },
+              "answer": "B",
+              "explanation": "LCM(3,4) = 12. Multiples of 12 up to 50: {12,24,36,48} = 4. P = 4/50 = 2/25."
+            }
+          ]
+        },
+        {
+          "type": "definition",
+          "label": "Definition:",
+          "text": "- Summary of key probability concepts studied in Chapter 14."
+        },
+        {
+          "type": "key_points",
+          "label": "Key Points:",
+          "points": [
+            "1. THEORETICAL PROBABILITY of event E:",
+            "P(E) = Number of outcomes favourable to E / Number of all possible outcomes",
+            "(assuming equally likely outcomes)",
+            "2. P(sure event) = 1",
+            "3. P(impossible event) = 0",
+            "4. For any event E:  0 ≤ P(E) ≤ 1",
+            "5. An event with only one outcome is called an ELEMENTARY EVENT.",
+            "Sum of probabilities of all elementary events = 1.",
+            "6. COMPLEMENTARY EVENTS E and Ē:",
+            "P(E) + P(Ē) = 1   →   P(Ē) = 1 − P(E)"
+          ]
+        }
+      ],
+      "subtopics": []
+    }
+  ]
+}

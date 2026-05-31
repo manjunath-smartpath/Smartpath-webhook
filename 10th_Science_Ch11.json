@@ -1,0 +1,1908 @@
+{
+  "metadata": {
+    "class": "Xth STANDARD",
+    "subject": "Science",
+    "part": "1",
+    "chapter_num": "11",
+    "chapter_name": "ELECTRICITY",
+    "source": "KSEEB Textbook 2025-26",
+    "mode": "A"
+  },
+  "chapter_sections": [
+    {
+      "type": "definition",
+      "label": "DEFINITION:",
+      "text": "Electricity is a controllable and convenient form of energy used for a variety of\npurposes in homes, schools, hospitals, industries, and more. Electric current is the\nrate of flow of electric charges through a conductor."
+    },
+    {
+      "type": "key_points",
+      "label": "KEY POINTS:",
+      "points": [
+        "Electricity has an important place in modern society.",
+        "Electric current flows in an electric circuit only when the circuit is closed (switch ON).",
+        "A continuous and closed path of electric current is called an electric circuit.",
+        "A switch makes a conducting link between the cell and the bulb in a circuit.",
+        "If the circuit is broken anywhere, or the switch is turned OFF, the current stops flowing.",
+        "This chapter covers electric current, circuit, Ohm's law, resistance, series/parallel",
+        "circuits, heating effect, and electric power."
+      ]
+    },
+    {
+      "type": "list_of_topics",
+      "label": "LIST OF TOPICS:",
+      "items": [
+        "11.1 Electric Current and Circuit",
+        "11.2 Electric Potential and Potential Difference",
+        "11.3 Circuit Diagram",
+        "11.4 Ohm's Law",
+        "11.5 Factors on Which the Resistance of a Conductor Depends",
+        "11.6 Resistance of a System of Resistors",
+        "11.6.1 Resistors in Series",
+        "11.6.2 Resistors in Parallel",
+        "11.7 Heating Effect of Electric Current",
+        "11.7.1 Practical Applications of Heating Effect of Electric Current",
+        "11.8 Electric Power"
+      ]
+    }
+  ],
+  "topics": [
+    {
+      "topic_num": "11.1",
+      "topic_name": "ELECTRIC CURRENT AND CIRCUIT",
+      "mode": "B",
+      "sections": [
+        {
+          "type": "definition",
+          "label": "DEFINITION:",
+          "text": "Electric current is defined as the amount of charge flowing through a particular area\nin unit time. It is the rate of flow of electric charges through a conductor.\nAn electric circuit is a continuous and closed path through which electric current flows."
+        },
+        {
+          "type": "key_points",
+          "label": "KEY POINTS:",
+          "points": [
+            "If a net charge Q flows across any cross-section of a conductor in time t, then the",
+            "current I through the cross-section is:",
+            "I = Q / t   ... (11.1)",
+            "The SI unit of electric charge is coulomb (C).",
+            "One coulomb is equivalent to the charge contained in nearly 6 x 10^18 electrons.",
+            "An electron possesses a negative charge of 1.6 x 10^-19 C.",
+            "The SI unit of electric current is ampere (A), named after French scientist",
+            "Andre-Marie Ampere (1775-1836).",
+            "One ampere is constituted by the flow of one coulomb of charge per second:",
+            "1 A = 1 C/1 s",
+            "Small quantities of current are expressed in milliampere (1 mA = 10^-3 A)",
+            "or microampere (1 uA = 10^-6 A).",
+            "An instrument called ammeter measures electric current in a circuit.",
+            "Ammeter is always connected in SERIES in a circuit through which the current is to",
+            "be measured.",
+            "Conventionally, in an electric circuit the direction of electric current is taken as",
+            "OPPOSITE to the direction of flow of electrons (negative charges).",
+            "Electric current flows from the positive terminal of the cell to the negative terminal",
+            "through the bulb and ammeter (conventional direction).",
+            "EXAMPLE 11.1:",
+            "A current of 0.5 A is drawn by a filament of an electric bulb for 10 minutes.",
+            "Find the amount of electric charge that flows through the circuit.",
+            "SOLUTION:",
+            "Given: I = 0.5 A; t = 10 min = 600 s",
+            "From Eq. (11.1): Q = It",
+            "Q = 0.5 A x 600 s",
+            "Q = 300 C",
+            "IN-TEXT QUESTIONS (after 11.1):",
+            "1. What does an electric circuit mean?",
+            "2. Define the unit of current.",
+            "3. Calculate the number of electrons constituting one coulomb of charge.",
+            "ANSWERS:",
+            "1. An electric circuit is a continuous and closed path of an electric current. It",
+            "consists of a cell (or battery), a plug key, electrical components, and connecting",
+            "wires. Current flows only when the circuit is closed (switch ON).",
+            "2. The unit of current is ampere (A). One ampere is the current that flows when one",
+            "coulomb of charge passes through a cross-section of a conductor in one second.",
+            "1 A = 1 C/1 s",
+            "3. Charge of one electron = 1.6 x 10^-19 C",
+            "Number of electrons = 1 C / (1.6 x 10^-19 C)",
+            "= 6.25 x 10^18 electrons",
+            "Approximately 6 x 10^18 electrons constitute one coulomb of charge.",
+            "-------------------------------------------------------------------------------"
+          ]
+        },
+        {
+          "type": "qa",
+          "label": "TOPIC 11.1 Q&A",
+          "items": [
+            {
+              "q_num": 1,
+              "marks": 2,
+              "question": "What is electric current? Write its SI unit.",
+              "answer": "Electric current is the rate of flow of electric charges through a conductor.\nIf a net charge Q flows through a cross-section in time t, then current I = Q/t.\nThe SI unit of electric current is ampere (A)."
+            },
+            {
+              "q_num": 2,
+              "marks": 2,
+              "question": "What is an electric circuit? When does current flow in it?",
+              "answer": "An electric circuit is a continuous and closed path through which electric current\nflows. It consists of a cell (or battery), a plug key, electrical components,\nand connecting wires. Current flows only when the circuit is closed (switch ON).\nIf the circuit is broken anywhere, the current stops flowing."
+            },
+            {
+              "q_num": 3,
+              "marks": 3,
+              "question": "A current of 2 A flows through a conductor for 5 minutes. Calculate the",
+              "answer": "Given: I = 2 A, t = 5 min = 5 x 60 = 300 s\nFormula: Q = I x t\nQ = 2 A x 300 s\nQ = 600 C\nThe amount of electric charge that flows through the conductor is 600 C."
+            },
+            {
+              "q_num": 4,
+              "marks": 4,
+              "question": "Explain with the help of an example how a torch works as an electric",
+              "answer": "A torch works as a simple electric circuit:\n- The cells (or battery) placed in proper order provide electric current through the\ntorch bulb.\n- The switch makes a conducting link between the cell and the bulb.\n- When the switch is ON (closed), the circuit is complete and current flows through\nthe bulb, making it glow.\n- The electric current flows from the positive terminal of the cell through the bulb\nto the negative terminal.\nWhen the switch is turned OFF:\n- The circuit is broken (open circuit).\n- The current stops flowing.\n- The bulb does not glow.\nThis shows that a closed and continuous path is essential for electric current to flow."
+            },
+            {
+              "q_num": 5,
+              "marks": 4,
+              "question": "What is the direction of conventional electric current? How many electrons",
+              "answer": "Direction of conventional electric current:\n- In an electric circuit, the direction of conventional electric current is taken as\nOPPOSITE to the direction of flow of electrons.\n- Electrons are negatively charged and flow from the negative terminal of the cell\nto the positive terminal (through the external circuit).\n- Conventionally, current flows from the positive terminal to the negative terminal.\n- This convention was established before electrons were discovered; at that time,\npositive charges were considered to flow.\nNumber of electrons in one coulomb:\n- Charge of one electron = 1.6 x 10^-19 C\n- Number of electrons = 1 / (1.6 x 10^-19) = 6.25 x 10^18 electrons\n- Approximately 6 x 10^18 electrons constitute one coulomb of charge."
+            },
+            {
+              "q_num": 6,
+              "marks": 6,
+              "question": "Define electric current, explain how it is measured, give its unit, and",
+              "answer": ""
+            }
+          ]
+        },
+        {
+          "type": "definition",
+          "label": "DEFINITION:",
+          "text": "Electric current is defined as the amount of charge flowing through a particular area\nin unit time. It is the rate of flow of electric charges.\nFormula: I = Q / t\nWHERE:\n- I = electric current (in ampere)\n- Q = charge flowing (in coulomb)\n- t = time taken (in second)\n\nHOW IT IS MEASURED:\n- Electric current in a circuit is measured using an instrument called ammeter.\n- Ammeter is always connected in SERIES in the circuit.\n- The reading of the ammeter gives the value of current flowing in amperes.\n\nUNIT:\n- SI unit of electric current is ampere (A).\n- One ampere = one coulomb per second (1 A = 1 C/s).\n- Smaller units: milliampere (1 mA = 10^-3 A), microampere (1 uA = 10^-6 A).\n\nNUMERICAL:\nGiven: Q = 150 C, t = 5 min = 300 s\nI = Q / t = 150 / 300 = 0.5 A\nThe current flowing in the circuit is 0.5 A.\n\n--------------------------------------------------------------------------------"
+        },
+        {
+          "type": "mcq",
+          "label": "TOPIC 11.1 MCQ",
+          "items": [
+            {
+              "mcq_num": 1,
+              "difficulty": "Easy",
+              "question": "What is the SI unit of electric current?",
+              "options": {
+                "A": "Volt",
+                "B": "Coulomb",
+                "C": "Ampere",
+                "D": "Ohm"
+              },
+              "answer": "C",
+              "explanation": "The SI unit of electric current is ampere (A), named after Andre-Marie Ampere. Volt is the unit of potential difference, coulomb is the unit of charge, and ohm is the unit of resistance."
+            },
+            {
+              "mcq_num": 2,
+              "difficulty": "Easy",
+              "question": "In which way is an ammeter connected in a circuit?",
+              "options": {
+                "A": "Parallel",
+                "B": "Series",
+                "C": "Both series and parallel",
+                "D": "It is not connected in the circuit"
+              },
+              "answer": "B",
+              "explanation": "An ammeter is always connected in series in the circuit so that the same current flows through it as through the circuit. Connecting it in parallel would give wrong readings."
+            },
+            {
+              "mcq_num": 3,
+              "difficulty": "Medium",
+              "question": "A charge of 60 C flows through a circuit in 2 minutes. What is the current flowing in the circuit?",
+              "options": {
+                "A": "30 A",
+                "B": "120 A",
+                "C": "0.5 A",
+                "D": "2 A"
+              },
+              "answer": "C",
+              "explanation": "I = Q/t = 60 C / (2 x 60 s) = 60/120 = 0.5 A. Time must be converted to seconds before applying the formula I = Q/t."
+            },
+            {
+              "mcq_num": 4,
+              "difficulty": "Medium",
+              "question": "The conventional direction of electric current in an external circuit is:",
+              "options": {
+                "A": "From negative terminal to positive terminal",
+                "B": "From positive terminal to negative terminal",
+                "C": "In the same direction as electron flow",
+                "D": "In a random direction"
+              },
+              "answer": "B",
+              "explanation": "Conventionally, electric current flows from the positive terminal to the negative terminal of the cell through the external circuit. This is opposite to the direction of electron flow (electrons flow from negative to positive terminal)."
+            },
+            {
+              "mcq_num": 5,
+              "difficulty": "Hard",
+              "question": "How many electrons flow through a conductor per second when a current of 3.2 A flows through it? (Charge of one electron = 1.6 x 10^-19 C)",
+              "options": {
+                "A": "2 x 10^18",
+                "B": "2 x 10^19",
+                "C": "5 x 10^18",
+                "D": "5 x 10^19"
+              },
+              "answer": "B",
+              "explanation": "Q in 1 s = I x t = 3.2 x 1 = 3.2 C. Number of electrons = 3.2 / (1.6 x 10^-19) = 2 x 10^19. Options A and C are incorrect values; option D is too large."
+            }
+          ]
+        }
+      ],
+      "subtopics": []
+    },
+    {
+      "topic_num": "11.2",
+      "topic_name": "ELECTRIC POTENTIAL AND POTENTIAL DIFFERENCE",
+      "mode": "B",
+      "sections": [
+        {
+          "type": "definition",
+          "label": "DEFINITION:",
+          "text": "Electric potential difference (V) between two points in an electric circuit is defined\nas the work done to move a unit charge from one point to the other.\nV = W / Q   ... (11.2)\nThe SI unit of electric potential difference is volt (V), named after Alessandro Volta\n(1745-1827), an Italian physicist."
+        },
+        {
+          "type": "key_points",
+          "label": "KEY POINTS:",
+          "points": [
+            "What makes electric charge flow? A difference of electric pressure called",
+            "POTENTIAL DIFFERENCE along the conductor causes charge to flow.",
+            "Charges do not flow in a copper wire by themselves, just as water in a perfectly",
+            "horizontal tube does not flow.",
+            "If one end of the tube is connected to a water tank kept at a higher level, water",
+            "flows due to the pressure difference. Similarly, potential difference drives",
+            "electric charges.",
+            "The chemical action within a cell generates potential difference across its terminals,",
+            "even when no current is drawn from it.",
+            "When a cell is connected to a conducting circuit element, the potential difference",
+            "sets the charges in motion, producing electric current.",
+            "One volt: The potential difference between two points is 1 V when 1 joule of work",
+            "is done in moving 1 coulomb of charge from one point to the other.",
+            "1 V = 1 J / 1 C    i.e., 1 V = 1 J C^-1   ... (11.3)",
+            "Potential difference is measured using an instrument called VOLTMETER.",
+            "Voltmeter is always connected in PARALLEL across the points between which the",
+            "potential difference is to be measured.",
+            "EXAMPLE 11.2:",
+            "How much work is done in moving a charge of 2 C across two points having a potential",
+            "difference 12 V?",
+            "SOLUTION:",
+            "Given: Q = 2 C, V = 12 V",
+            "From V = W/Q => W = VQ = 12 V x 2 C = 24 J",
+            "IN-TEXT QUESTIONS (after 11.2):",
+            "1. Name a device that helps to maintain a potential difference across a conductor.",
+            "2. What is meant by saying that the potential difference between two points is 1 V?",
+            "3. How much energy is given to each coulomb of charge passing through a 6 V battery?",
+            "ANSWERS:",
+            "1. A cell or a battery maintains a potential difference across a conductor. The chemical",
+            "action within the cell generates the potential difference.",
+            "2. The potential difference between two points is 1 V means that 1 joule of work is",
+            "done in moving 1 coulomb of electric charge from one point to the other.",
+            "3. V = W/Q => W = V x Q = 6 V x 1 C = 6 J",
+            "Each coulomb of charge passing through a 6 V battery is given 6 joules of energy.",
+            "-------------------------------------------------------------------------------"
+          ]
+        },
+        {
+          "type": "qa",
+          "label": "TOPIC 11.2 Q&A",
+          "items": [
+            {
+              "q_num": 1,
+              "marks": 2,
+              "question": "Define potential difference. Write its SI unit.",
+              "answer": "The electric potential difference between two points in an electric circuit is defined\nas the work done to move a unit positive charge from one point to the other.\nV = W / Q\nThe SI unit of potential difference is volt (V).\nOne volt = one joule per coulomb (1 V = 1 J/C)."
+            },
+            {
+              "q_num": 2,
+              "marks": 2,
+              "question": "How is a voltmeter connected in a circuit and why?",
+              "answer": "A voltmeter is always connected in PARALLEL across the two points between which the\npotential difference is to be measured. It is connected in parallel so that it measures\nthe potential difference between those two specific points without disturbing the current\nflow in the main circuit."
+            },
+            {
+              "q_num": 3,
+              "marks": 3,
+              "question": "How much work is done in moving a charge of 4 C across two points having",
+              "answer": "Given: Q = 4 C, V = 15 V\nWork done: W = V x Q = 15 x 4 = 60 J\nEnergy given to each coulomb: V = W/Q = 60/4 = 15 J per coulomb\nOR: Energy per coulomb = Potential difference = 15 J/C = 15 V"
+            },
+            {
+              "q_num": 4,
+              "marks": 4,
+              "question": "Explain why electric charges do not flow on their own in a conductor. What",
+              "answer": "WHY CHARGES DO NOT FLOW ON THEIR OWN:\n- Charges do not flow in a copper wire by themselves, similar to water in a perfectly\nhorizontal tube that does not flow on its own.\n- Gravity has no role to play in the flow of electrons; the electrons move only if there\nis a difference of electric pressure (potential difference) along the conductor.\nWHAT CAUSES THEM TO FLOW:\n- The chemical action within a cell generates a potential difference across its terminals.\n- This potential difference sets the charges in motion, producing electric current.\n- To maintain the current, the cell has to keep expending its chemical energy stored in it.\nDERIVATION:\n- Potential difference (V) between two points = Work done (W) / Charge (Q)\n- V = W / Q\n- If V is in volt, W is in joule, and Q is in coulomb:\n1 V = 1 J / 1 C, i.e., 1 V = 1 J C^-1"
+            },
+            {
+              "q_num": 5,
+              "marks": 4,
+              "question": "What is one volt? A battery of 9 V is connected to a circuit. How much",
+              "answer": ""
+            }
+          ]
+        },
+        {
+          "type": "definition",
+          "label": "DEFINITION OF ONE VOLT:",
+          "text": "One volt is the potential difference between two points in a current-carrying conductor\nwhen 1 joule of work is done in moving 1 coulomb of charge from one point to the other.\n1 V = 1 J / 1 C\n\nNUMERICAL:\nGiven: V = 9 V (battery), Q = 3 C\nWork done: W = V x Q = 9 V x 3 C = 27 J\nThe work done in moving 3 C of charge from one terminal to the other is 27 J.\n\nQ6 [6 Marks]: Explain the concept of electric potential difference. How is it measured?\nName the instrument and explain how it is connected. A bulb is connected to a 12 V\nbattery and 2 C of charge flows through it every second. Find (a) the work done per\nsecond, and (b) the current through the bulb.\nA6:\nELECTRIC POTENTIAL DIFFERENCE:\n- What makes electric charge flow? The flow of charges requires a difference of electric\npressure called potential difference along the conductor.\n- The electric potential difference between two points in a circuit is defined as the\nwork done to move a unit charge from one point to the other.\n- Formula: V = W / Q\n- Unit: volt (V); 1 V = 1 J C^-1\n- The chemical action within a cell generates potential difference across its terminals,\nwhich drives the current in the circuit.\n\nHOW POTENTIAL DIFFERENCE IS MEASURED:\n- Potential difference is measured using an instrument called VOLTMETER.\n- The voltmeter is always connected in PARALLEL across the two points between which the\npotential difference is to be measured.\n- The parallel connection ensures that the voltmeter does not change the current in the\nmain circuit.\n\nNUMERICAL:\nGiven: V = 12 V, Q = 2 C flows per second (so t = 1 s)\n(a) Work done per second:\nW = V x Q = 12 x 2 = 24 J\nWork done per second = 24 J (i.e., power = 24 W)\n(b) Current through the bulb:\nI = Q / t = 2 C / 1 s = 2 A\n\n--------------------------------------------------------------------------------"
+        },
+        {
+          "type": "mcq",
+          "label": "TOPIC 11.2 MCQ",
+          "items": [
+            {
+              "mcq_num": 1,
+              "difficulty": "Easy",
+              "question": "What is the SI unit of electric potential difference?",
+              "options": {
+                "A": "Ampere",
+                "B": "Ohm",
+                "C": "Volt",
+                "D": "Joule"
+              },
+              "answer": "C",
+              "explanation": "The SI unit of electric potential difference is volt (V), named after Alessandro Volta. Ampere is for current, ohm is for resistance, and joule is for energy."
+            },
+            {
+              "mcq_num": 2,
+              "difficulty": "Easy",
+              "question": "A voltmeter is always connected ________ in a circuit.",
+              "options": {
+                "A": "In series",
+                "B": "In parallel",
+                "C": "Neither series nor parallel",
+                "D": "Depends on the circuit"
+              },
+              "answer": "B",
+              "explanation": "A voltmeter is always connected in parallel across the two points between which the potential difference is to be measured. An ammeter (not voltmeter) is connected in series."
+            },
+            {
+              "mcq_num": 3,
+              "difficulty": "Medium",
+              "question": "How much work is done in moving a charge of 5 C between two points having a potential difference of 20 V?",
+              "options": {
+                "A": "4 J",
+                "B": "25 J",
+                "C": "100 J",
+                "D": "0.25 J"
+              },
+              "answer": "C",
+              "explanation": "W = V x Q = 20 V x 5 C = 100 J. Dividing instead of multiplying gives option A (wrong). Option B and D are also incorrect calculations."
+            },
+            {
+              "mcq_num": 4,
+              "difficulty": "Medium",
+              "question": "What is the energy given to each coulomb of charge passing through a battery of 9 V?",
+              "options": {
+                "A": "9 J",
+                "B": "9 W",
+                "C": "9 C",
+                "D": "9 A"
+              },
+              "answer": "A",
+              "explanation": "V = W/Q => W per coulomb = V x 1 C = 9 V x 1 = 9 J. The energy given per coulomb equals the potential difference in joules. Options B, C, D have wrong units."
+            },
+            {
+              "mcq_num": 5,
+              "difficulty": "Hard",
+              "question": "The potential difference between two points is 1 V. This means:",
+              "options": {
+                "A": "1 joule of work is done to move 1 coulomb from one end of the conductor to the other",
+                "B": "1 ampere of current flows when 1 coulomb passes in 1 second",
+                "C": "The resistance of the conductor is 1 ohm",
+                "D": "1 watt of power is consumed per coulomb"
+              },
+              "answer": "A",
+              "explanation": "By definition, V = W/Q. If V = 1 V and Q = 1 C, then W = 1 J. Options B describes current, C describes Ohm's law, and D is a wrong interpretation."
+            }
+          ]
+        }
+      ],
+      "subtopics": []
+    },
+    {
+      "topic_num": "11.3",
+      "topic_name": "CIRCUIT DIAGRAM",
+      "mode": "B",
+      "sections": [
+        {
+          "type": "definition",
+          "label": "DEFINITION:",
+          "text": "A circuit diagram is a schematic representation of an electric circuit in which\ndifferent components of the circuit are represented by their conventional symbols."
+        },
+        {
+          "type": "key_points",
+          "label": "KEY POINTS:",
+          "points": [
+            "An electric circuit comprises a cell (or battery), a plug key, electrical component(s),",
+            "and connecting wires.",
+            "It is convenient to draw a circuit diagram using conventional symbols for components.",
+            "Table 11.1 lists symbols of commonly used components in circuit diagrams:",
+            "TABLE 11.1: Symbols of some commonly used components in circuit diagrams",
+            "Sl. No. | Component                          | Symbol",
+            "-------|------------------------------------|---------",
+            "1       | An electric cell                   | --+|-- (single cell symbol)",
+            "2       | A battery or combination of cells  | --+|--|+|-- (multiple cells)",
+            "3       | Plug key or switch (open)          | --(  )--",
+            "4       | Plug key or switch (closed)        | --(.)--",
+            "5       | A wire joint                       | dot at junction",
+            "6       | Wires crossing without joining     | crossing lines (no dot)",
+            "7       | Electric bulb                      | circle with cross or filament symbol",
+            "8       | A resistor of resistance R         | --/\\/\\/\\--",
+            "9       | Variable resistance or rheostat    | --/\\/\\/\\-- with arrow",
+            "10      | Ammeter                            | --(A)--",
+            "11      | Voltmeter                          | --(V)--",
+            "Figure 11.1 shows a schematic diagram of a typical electric circuit comprising a cell,",
+            "an electric bulb, an ammeter, and a plug key.",
+            "Electric current flows in the circuit from the positive terminal of the cell to the",
+            "negative terminal through the bulb and ammeter.",
+            "-------------------------------------------------------------------------------"
+          ]
+        },
+        {
+          "type": "qa",
+          "label": "TOPIC 11.3 Q&A",
+          "items": [
+            {
+              "q_num": 1,
+              "marks": 2,
+              "question": "What is a circuit diagram? Why is it used?",
+              "answer": "A circuit diagram is a schematic representation of an electric circuit in which\ndifferent components are represented by their conventional symbols. It is used because\nit is convenient and standardized, allowing different people to understand the circuit\neasily without drawing actual components."
+            },
+            {
+              "q_num": 2,
+              "marks": 2,
+              "question": "Name the instrument used to measure (a) electric current, and",
+              "answer": "(a) Electric current is measured by an AMMETER. It is connected in SERIES in the circuit.\n(b) Potential difference is measured by a VOLTMETER. It is connected in PARALLEL across\nthe two points between which the potential difference is to be measured."
+            },
+            {
+              "q_num": 3,
+              "marks": 3,
+              "question": "Draw a circuit diagram of an electric circuit containing a cell, a plug key,",
+              "answer": "[DIAGRAM DESCRIPTION - Circuit with: Battery (+- terminals) --> Plug key --> Electric\nbulb --> Ammeter (A) --> back to battery (-) terminal]\nThe components connected in series: Cell -> Switch (Key) -> Bulb -> Ammeter -> back to\ncell (negative terminal).\nDirection of conventional current: Flows from positive terminal of cell through the\nexternal circuit (key, bulb, ammeter) to the negative terminal of the cell.\nNote: Ammeter is in series; if a voltmeter is included, it would be in parallel across\nthe bulb."
+            },
+            {
+              "q_num": 4,
+              "marks": 4,
+              "question": "Describe five important conventional symbols used in circuit diagrams with",
+              "answer": "Five important conventional symbols used in circuit diagrams:\n1. ELECTRIC CELL: Represented by two lines - a long thin line (positive terminal) and\na short thick line (negative terminal). Symbol: --+|--\n2. BATTERY (combination of cells): Multiple cell symbols in series.\nSymbol: --+|--|+|--\n3. PLUG KEY (switch - open): Represented by a gap in the circuit.\nSymbol: --(  )--  [gap shows open switch]\n4. PLUG KEY (switch - closed): Represented by a filled dot closing the gap.\nSymbol: --(.)--  [dot shows closed switch]\n5. AMMETER: Represented by a circle with the letter A inside.\nSymbol: --(A)--  [connected in series]\n6. RESISTOR: Represented by a zigzag line.\nSymbol: --/\\/\\/\\--\nThese symbols help in drawing standard circuit diagrams easily."
+            },
+            {
+              "q_num": 5,
+              "marks": 4,
+              "question": "What is the difference between a rheostat and a fixed resistor? What is",
+              "answer": "FIXED RESISTOR:\n- A fixed resistor has a constant, unchangeable resistance.\n- It is used to limit the current in a circuit to a fixed value.\n- Circuit symbol: --/\\/\\/\\-- (zigzag line)\nRHEOSTAT (Variable Resistance):\n- A rheostat (or variable resistance) can have its resistance changed as per requirement.\n- It is used to regulate the current without changing the voltage source.\n- In many practical cases, it is necessary to increase or decrease the current in an\nelectric circuit. A rheostat is often used for this purpose.\n- Circuit symbol: --/\\/\\/\\-- with an arrow indicating the sliding contact.\nPURPOSE:\n- Fixed resistor: Provides constant opposition to current flow.\n- Rheostat: Allows adjustment of current by changing the resistance continuously."
+            },
+            {
+              "q_num": 6,
+              "marks": 6,
+              "question": "Draw and explain a circuit diagram of a typical electric circuit consisting",
+              "answer": "CIRCUIT DIAGRAM DESCRIPTION:\n[Cell (+) ---> Plug Key ---> Electric Bulb ---> Ammeter (A) ---> Cell (-)]\nAll components are connected in series in the circuit.\n\nPARTS AND THEIR ROLES:\n1. CELL: Provides electrical energy (potential difference) to drive the current in the\ncircuit. The chemical action within the cell generates potential difference across its\nterminals. Current flows from its positive terminal through the external circuit.\n2. PLUG KEY (Switch): Makes or breaks the circuit. When plugged in (closed), it makes a\nconducting link and the circuit is complete. When removed (open), the circuit breaks\nand current stops.\n3. ELECTRIC BULB: Acts as a load in the circuit. When current flows through its filament,\nit heats up and produces light. It converts electrical energy to heat and light.\n4. AMMETER: Measures the electric current flowing in the circuit. It is connected in\nseries so that the same current flows through it.\n5. CONNECTING WIRES: Provide a conducting path for the flow of electric current.\n\nHOW CURRENT FLOWS:\n- When the plug key is closed, the circuit is complete.\n- Conventional current flows from the POSITIVE terminal of the cell.\n- It passes through the key, bulb, and ammeter in series.\n- It returns to the NEGATIVE terminal of the cell.\n- Note: Electrons (actual charge carriers) flow in the opposite direction.\n\n--------------------------------------------------------------------------------"
+            }
+          ]
+        },
+        {
+          "type": "mcq",
+          "label": "TOPIC 11.3 MCQ",
+          "items": [
+            {
+              "mcq_num": 1,
+              "difficulty": "Easy",
+              "question": "Which symbol is used to represent an electric cell in a circuit diagram?",
+              "options": {
+                "A": "A circle with letter C",
+                "B": "A long thin line (positive) and a short thick line (negative)",
+                "C": "A zigzag line",
+                "D": "A circle with letter A"
+              },
+              "answer": "B",
+              "explanation": "An electric cell is represented by a long thin line for the positive terminal and a short thick line for the negative terminal. Zigzag line is for resistor; circle with A is for ammeter."
+            },
+            {
+              "mcq_num": 2,
+              "difficulty": "Easy",
+              "question": "Which instrument is represented by a circle with the letter A inside?",
+              "options": {
+                "A": "Voltmeter",
+                "B": "Ammeter",
+                "C": "Rheostat",
+                "D": "Cell"
+              },
+              "answer": "B",
+              "explanation": "An ammeter (measuring current) is represented by a circle with letter A. A voltmeter has letter V. Rheostat is a zigzag line with an arrow. Cell has long and short lines."
+            },
+            {
+              "mcq_num": 3,
+              "difficulty": "Medium",
+              "question": "In a circuit diagram, wires crossing without joining are shown by:",
+              "options": {
+                "A": "A dot at the crossing point",
+                "B": "The wires do not cross in a circuit diagram",
+                "C": "Crossing lines with no dot at the junction",
+                "D": "A circle at the crossing point"
+              },
+              "answer": "C",
+              "explanation": "Wires crossing without joining are shown as crossing lines WITHOUT a dot at the junction. A dot at a crossing indicates a wire joint (connection). This distinction is important in reading circuit diagrams correctly."
+            },
+            {
+              "mcq_num": 4,
+              "difficulty": "Medium",
+              "question": "A variable resistance used to change current in a circuit without changing the voltage source is called:",
+              "options": {
+                "A": "Fixed resistor",
+                "B": "Rheostat",
+                "C": "Ammeter",
+                "D": "Voltmeter"
+              },
+              "answer": "B",
+              "explanation": "A rheostat (variable resistance) is used to regulate current without changing the voltage source. A fixed resistor has constant resistance. Ammeter and voltmeter are measuring instruments, not resistance components."
+            },
+            {
+              "mcq_num": 5,
+              "difficulty": "Hard",
+              "question": "In a circuit diagram, a student uses a dot at the junction of two wires but forgets to put a dot where another pair of wires cross without joining. What confusion could this cause?",
+              "options": {
+                "A": "The diagram would show a short circuit instead of proper connections",
+                "B": "The current direction would appear reversed",
+                "C": "The diagram would appear to have connections where there are none",
+                "D": "The ammeter reading would be incorrect"
+              },
+              "answer": "C",
+              "explanation": "Without the distinguishing dot/no-dot convention, wires that merely cross (without joining) could be misread as connected, making the diagram appear to have extra connections where there are none. This is why the convention is strictly followed."
+            }
+          ]
+        }
+      ],
+      "subtopics": []
+    },
+    {
+      "topic_num": "11.4",
+      "topic_name": "OHM'S LAW",
+      "mode": "B",
+      "sections": [
+        {
+          "type": "definition",
+          "label": "DEFINITION:",
+          "text": "Ohm's Law states that the potential difference (V) across the ends of a given metallic\nwire in an electric circuit is directly proportional to the current (I) flowing through\nit, provided its temperature remains the same.\nV proportional to I\nor V/I = constant = R   ... (11.4, 11.5)\nor V = IR   ... (11.5)\n\nResistance (R) is the constant of proportionality and is called the resistance of the\nconductor. It is the property of a conductor to resist the flow of electrons through it.\nIts SI unit is ohm (Omega), represented by the Greek letter Omega."
+        },
+        {
+          "type": "key_points",
+          "label": "KEY POINTS:",
+          "points": [
+            "German physicist Georg Simon Ohm (1787-1854) discovered this relationship in 1827.",
+            "In the V-I graph, a straight line passing through the origin shows that V/I is a",
+            "constant ratio (Ohm's law).",
+            "V = IR => R = V / I   ... (11.6)",
+            "If V = 1 V and I = 1 A, then R = 1 Omega.",
+            "Definition: 1 ohm = 1 volt / 1 ampere (1 Omega = 1 V A^-1)",
+            "From V = IR: I = V / R   ... (11.7)",
+            "Current is inversely proportional to resistance. If resistance is doubled, current",
+            "is halved.",
+            "A component with low resistance is a good conductor; with high resistance is a poor",
+            "conductor.",
+            "An insulator of the same size offers even higher resistance.",
+            "A rheostat (variable resistance) is used to change the resistance in the circuit,",
+            "thereby regulating the current without changing the voltage."
+          ]
+        },
+        {
+          "type": "activity",
+          "label": "ACTIVITY 11.1 (Verifying Ohm's Law):",
+          "aim": "To study the relationship between potential difference (V) and current (I) in a\nnichrome wire.",
+          "materials": "Nichrome wire XY (length 0.5 m), an ammeter, a voltmeter, four cells of\n1.5 V each, plug key, connecting wires.",
+          "procedure": [
+            "- Set up the circuit with nichrome wire XY in the gap, an ammeter in series, and a",
+            "voltmeter connected in parallel across XY (as in Fig. 11.2).",
+            "- First use only one cell as the source. Note the ammeter reading (I) and voltmeter",
+            "reading (V). Tabulate the data.",
+            "- Connect two cells in the circuit. Note the ammeter and voltmeter readings.",
+            "- Repeat with three cells and then four cells.",
+            "- Calculate the ratio V/I for each case.",
+            "- Plot a graph between V and I, and observe the nature of the graph."
+          ],
+          "observation": "The ratio V/I is approximately the same (constant) in each case.",
+          "conclusion": "The V-I graph is a straight line passing through the origin, showing that\nV/I = constant = R. This confirms Ohm's law.",
+          "caution": ""
+        },
+        {
+          "type": "activity",
+          "label": "ACTIVITY 11.2 (Effect of Resistance on Current):",
+          "aim": "To observe the effect of different components (resistors) on current.",
+          "materials": "Silver is the best conductor.\n\n--------------------------------------------------------------------------------",
+          "procedure": [
+            "- Connect a circuit with four dry cells in series with ammeter, leaving a gap XY.",
+            "- Complete the circuit by connecting the nichrome wire in the gap XY.",
+            "- Plug the key. Note the ammeter reading. Take out the key.",
+            "- Replace the nichrome wire with the torch bulb. Find the current.",
+            "- Repeat with the 10 W bulb in the gap XY.",
+            "- Note the difference in ammeter readings for different components."
+          ],
+          "observation": "The ammeter reading is different for different components. The current is\ndifferent, showing that different components have different resistance.",
+          "conclusion": "Certain components offer more resistance and less current flows, while\nothers offer less resistance and more current flows. This property is called resistance\nof the conductor.\n\nEXAMPLE 11.3:\n(a) How much current will an electric bulb draw from a 220 V source if the resistance\nof the bulb filament is 1200 Omega?\n(b) How much current will an electric heater coil draw from a 220 V source if the\nresistance of the heater coil is 100 Omega?\nSOLUTION:\n(a) V = 220 V, R = 1200 Omega\nI = V/R = 220/1200 = 0.18 A\n(b) V = 220 V, R = 100 Omega\nI = V/R = 220/100 = 2.2 A",
+          "caution": ""
+        },
+        {
+          "type": "qa",
+          "label": "TOPIC 11.4 Q&A",
+          "items": [
+            {
+              "q_num": 1,
+              "marks": 2,
+              "question": "State Ohm's law.",
+              "answer": "Ohm's law states that the potential difference (V) across the ends of a given metallic\nwire in an electric circuit is directly proportional to the current (I) flowing through\nit, provided its temperature remains the same.\nV proportional to I, or V/I = constant = R, i.e., V = IR."
+            },
+            {
+              "q_num": 2,
+              "marks": 2,
+              "question": "Define resistance. Write its SI unit.",
+              "answer": "Resistance (R) is the property of a conductor to resist the flow of electrons (electric\ncurrent) through it. It is the ratio of potential difference (V) across the conductor\nto the current (I) flowing through it: R = V/I.\nThe SI unit of resistance is ohm (Omega).\n1 ohm = 1 volt / 1 ampere."
+            },
+            {
+              "q_num": 3,
+              "marks": 3,
+              "question": "An electric lamp of resistance 20 Omega is connected to a 220 V power",
+              "answer": "Given: R = 20 Omega, V = 220 V\n(a) Current through the lamp:\nI = V/R = 220/20 = 11 A\n(b) Power consumed:\nP = VI = 220 x 11 = 2420 W = 2.42 kW\nEnergy in 2 hours = P x t = 2420 x 2 x 3600 = 17,424,000 J\n[Or in practical units: 2.42 kW x 2 h = 4.84 kWh]"
+            },
+            {
+              "q_num": 4,
+              "marks": 4,
+              "question": "Draw the V-I graph for Ohm's law and explain its significance.",
+              "answer": "V-I GRAPH FOR OHM'S LAW:\n- X-axis: Current (I) in ampere\n- Y-axis: Potential difference (V) in volt\n- The graph is a straight line passing through the ORIGIN.\n[Graph description: A straight line from origin with positive slope, V on Y-axis, I on X-axis]\n\nSIGNIFICANCE:\n1. The straight line through the origin confirms that V is directly proportional to I\n(Ohm's law is verified).\n2. The slope of the V-I graph = V/I = R (resistance of the conductor).\n3. A steeper slope means higher resistance; a less steep slope means lower resistance.\n4. Since the graph is a straight line, the ratio V/I is constant at all points,\nmeaning the resistance does not change with voltage or current (at constant temperature).\n5. This graph is used to find the resistance of a conductor experimentally."
+            },
+            {
+              "q_num": 5,
+              "marks": 4,
+              "question": "The resistance of a metallic wire is 10 Omega at 20 degrees C. Find the",
+              "answer": "Given: R = 10 Omega, V1 = 5 V\n(a) Current when V = 5 V:\nI1 = V1/R = 5/10 = 0.5 A\n(b) When potential difference is doubled: V2 = 2 x 5 = 10 V\nI2 = V2/R = 10/10 = 1 A\nThe current also doubles (from 0.5 A to 1 A).\nThis confirms Ohm's law: Current is directly proportional to potential difference,\nprovided resistance remains constant."
+            },
+            {
+              "q_num": 6,
+              "marks": 6,
+              "question": "State and explain Ohm's law. Derive an expression for resistance. How can",
+              "answer": "OHM'S LAW:\nThe potential difference (V) across the ends of a given metallic wire in an electric\ncircuit is directly proportional to the current (I) flowing through it, provided its\ntemperature remains the same.\nMathematically: V proportional to I\n=> V/I = constant = R\n=> V = IR\nDiscovered by Georg Simon Ohm (German physicist) in 1827.\n\nDERIVATION OF RESISTANCE:\nFrom Ohm's law: V = IR\n=> R = V/I\nResistance R is the constant of proportionality.\nIt is the property of a conductor to resist the flow of current.\nSI Unit: ohm (Omega), where 1 Omega = 1 V/A.\n\nFROM V-I GRAPH:\n- Plot V on Y-axis and I on X-axis.\n- The graph is a straight line through the origin.\n- Resistance R = slope of the V-I graph = V/I (any point on the line).\n- Greater slope = greater resistance.\n\nNUMERICAL:\nGiven: V = 20 V, I = 4 A\nResistance: R = V/I = 20/4 = 5 Omega\nWhen V = 30 V:\nI = V/R = 30/5 = 6 A\nThe current flowing when potential difference is 30 V is 6 A.\n\n--------------------------------------------------------------------------------"
+            }
+          ]
+        },
+        {
+          "type": "mcq",
+          "label": "TOPIC 11.4 MCQ",
+          "items": [
+            {
+              "mcq_num": 1,
+              "difficulty": "Easy",
+              "question": "According to Ohm's law, V = IR. What does R represent?",
+              "options": {
+                "A": "Rate of current flow",
+                "B": "Resistance of the conductor",
+                "C": "Rate of charge flow",
+                "D": "Repulsion force"
+              },
+              "answer": "B",
+              "explanation": "In V = IR, R is the resistance of the conductor. It is the constant of proportionality in Ohm's law. Rate of current flow would be the definition of current I itself."
+            },
+            {
+              "mcq_num": 2,
+              "difficulty": "Easy",
+              "question": "The SI unit of resistance is:",
+              "options": {
+                "A": "Volt",
+                "B": "Ampere",
+                "C": "Ohm",
+                "D": "Watt"
+              },
+              "answer": "C",
+              "explanation": "The SI unit of resistance is ohm (Omega), defined as 1 ohm = 1 volt/ampere. Volt is the unit of potential difference, ampere is the unit of current, and watt is the unit of power."
+            },
+            {
+              "mcq_num": 3,
+              "difficulty": "Medium",
+              "question": "A conductor has a resistance of 5 Omega. What current flows through it when connected to a 15 V battery?",
+              "options": {
+                "A": "75 A",
+                "B": "0.33 A",
+                "C": "3 A",
+                "D": "10 A"
+              },
+              "answer": "C",
+              "explanation": "I = V/R = 15/5 = 3 A. Option A results from multiplying V and R (wrong). Option B is 1/3 (wrong operation). Ohm's law gives I = V/R."
+            },
+            {
+              "mcq_num": 4,
+              "difficulty": "Medium",
+              "question": "If the resistance of an electrical component remains constant while the potential difference across it is halved, the current through it will:",
+              "options": {
+                "A": "Double",
+                "B": "Remain the same",
+                "C": "Be halved",
+                "D": "Become zero"
+              },
+              "answer": "C",
+              "explanation": "From I = V/R, if V is halved (V/2) and R is constant, I = (V/2)/R = I/2. The current is also halved. This directly follows from Ohm's law."
+            },
+            {
+              "mcq_num": 5,
+              "difficulty": "Hard",
+              "question": "The V-I graph of a resistor is a straight line passing through the origin with a steep slope. What does a steeper slope indicate?",
+              "options": {
+                "A": "Lower resistance",
+                "B": "Higher resistance",
+                "C": "Higher current for the same voltage",
+                "D": "Lower potential difference"
+              },
+              "answer": "B",
+              "explanation": "The slope of the V-I graph = V/I = R. A steeper slope means a larger value of V/I, which means higher resistance. Higher resistance means less current for the same voltage, making option C incorrect."
+            }
+          ]
+        }
+      ],
+      "subtopics": []
+    },
+    {
+      "topic_num": "11.5",
+      "topic_name": "FACTORS ON WHICH THE RESISTANCE OF A CONDUCTOR DEPENDS",
+      "mode": "B",
+      "sections": [
+        {
+          "type": "definition",
+          "label": "DEFINITION:",
+          "text": "The resistance of a uniform metallic conductor is directly proportional to its length,\ninversely proportional to its area of cross-section, and depends on the nature of its\nmaterial (resistivity).\nR = rho x (l / A)   ... (11.10)\nwhere rho (rho) is the electrical resistivity of the material."
+        },
+        {
+          "type": "key_points",
+          "label": "KEY POINTS:",
+          "points": [
+            "Three factors affect resistance of a conductor:",
+            "(i) Length (l): R is directly proportional to l (R proportional to l)   ... (11.8)",
+            "(ii) Area of cross-section (A): R is inversely proportional to A (R proportional to 1/A)   ... (11.9)",
+            "(iii) Nature of material: Different materials have different resistivity.",
+            "Combining (i) and (ii): R proportional to l/A => R = rho x l/A",
+            "rho (rho) = electrical resistivity of the material of the conductor.",
+            "SI unit of resistivity: Omega m.",
+            "Resistivity is a characteristic property of the material. It does not change with size",
+            "or shape of the conductor, but varies with temperature.",
+            "Metals and alloys have very low resistivity (10^-8 to 10^-6 Omega m) - good conductors.",
+            "Insulators like rubber and glass have very high resistivity (10^12 to 10^17 Omega m).",
+            "Alloys have generally higher resistivity than their constituent metals.",
+            "Alloys do not oxidise (burn) readily at high temperatures - used in heating devices.",
+            "Tungsten is used almost exclusively for filaments of electric bulbs (very high melting",
+            "point: 3380 degrees C).",
+            "Copper and aluminium are generally used for electrical transmission lines (low",
+            "resistivity)."
+          ]
+        },
+        {
+          "type": "activity",
+          "label": "ACTIVITY 11.3 (Factors Affecting Resistance):",
+          "aim": "To study the factors on which the resistance of a conductor depends.",
+          "materials": "A cell, an ammeter, plug key, connecting wires, and conducting wires of\ndifferent lengths, thicknesses, and materials.",
+          "procedure": [
+            "- Complete an electric circuit with a cell, ammeter, plug key, and a nichrome wire",
+            "of length l (marked 1), as shown in Fig. 11.5.",
+            "- Plug the key and note the ammeter reading.",
+            "- Replace the nichrome wire with another of same thickness but twice the length (marked 2)."
+          ],
+          "observation": "- Ammeter reading decreases to one-half when the length of wire is doubled (R doubles).\n- Ammeter reading increases when a thicker wire (larger area) of same material and length\nis used in the circuit (R decreases with larger A).\n- A change in ammeter reading is observed when a wire of different material (same length\nand area) is used (different resistivity).",
+          "conclusion": "The resistance of a conductor depends on:\n(i) Its length - directly proportional (doubling length doubles R).\n(ii) Its area of cross-section - inversely proportional (doubling A halves R).\n(iii) The nature of its material (resistivity).\n\nTABLE 11.2: Electrical resistivity of some substances at 20 degrees C\n\nCONDUCTORS:\nSilver        - 1.60 x 10^-8 Omega m\nCopper        - 1.62 x 10^-8 Omega m\nAluminium     - 2.63 x 10^-8 Omega m\nTungsten      - 5.20 x 10^-8 Omega m\nNickel        - 6.84 x 10^-8 Omega m\nIron          - 10.0 x 10^-8 Omega m\nChromium      - 12.9 x 10^-8 Omega m\nMercury       - 94.0 x 10^-8 Omega m\nManganese     - 1.84 x 10^-6 Omega m\n\nALLOYS:\nConstantan (Cu and Ni)            - 49 x 10^-6 Omega m\nManganin (Cu, Mn and Ni)          - 44 x 10^-6 Omega m\nNichrome (Ni, Cr, Mn and Fe)      - 100 x 10^-6 Omega m\n\nINSULATORS:\nGlass        - 10^10 to 10^14 Omega m\nHard rubber  - 10^13 to 10^16 Omega m\nEbonite      - 10^15 to 10^17 Omega m\nDiamond      - 10^12 to 10^13 Omega m\nPaper (dry)  - 10^12 Omega m\n\n[Note: You need not memorise these values. Use them for solving numerical problems.]\n\n--------------------------------------------------------------------------------",
+          "caution": ""
+        },
+        {
+          "type": "qa",
+          "label": "TOPIC 11.5 Q&A",
+          "items": [
+            {
+              "q_num": 1,
+              "marks": 2,
+              "question": "Name the three factors on which the resistance of a conductor depends.",
+              "answer": "The resistance of a conductor depends on:\n1. Length (l) of the conductor - R is directly proportional to l.\n2. Area of cross-section (A) of the conductor - R is inversely proportional to A.\n3. Nature of the material of the conductor (resistivity rho)."
+            },
+            {
+              "q_num": 2,
+              "marks": 2,
+              "question": "What is electrical resistivity? Write its SI unit.",
+              "answer": "Electrical resistivity (rho) is a characteristic property of the material of a conductor.\nIt is the resistance of a conductor of unit length and unit area of cross-section.\nFrom R = rho x l/A, we get rho = R x A/l.\nThe SI unit of resistivity is ohm metre (Omega m).\nThe resistivity does not change with size or shape but varies with temperature and is\ndifferent for different materials."
+            },
+            {
+              "q_num": 3,
+              "marks": 3,
+              "question": "Why are alloys used in electrical heating devices? Name two examples of",
+              "answer": "Alloys are used in electrical heating devices because:\n1. Alloys have HIGHER RESISTIVITY than pure metals, which means they produce more heat\nfor the same current (H = I^2 x R x t).\n2. Alloys do NOT OXIDISE (burn) readily at high temperatures, making them durable.\n3. Alloys can withstand high temperatures without melting easily.\nExamples of electrical heating devices:\n1. Electric toasters\n2. Electric irons\nOther examples: Electric heaters, electric ovens.\nThe alloy commonly used is Nichrome (Ni, Cr, Mn and Fe)."
+            },
+            {
+              "q_num": 4,
+              "marks": 4,
+              "question": "The resistance of a uniform metallic wire is 8 Omega. Find its resistance",
+              "answer": "Given: Initial resistance R1 = 8 Omega, initial length = l, initial area = A\nFormula: R = rho x l/A\nSo: R1 = rho x l/A = 8 Omega   ...(1)\nNew length = 3l, New area = 2A\nNew resistance R2 = rho x (3l)/(2A) = (3/2) x (rho x l/A) = (3/2) x 8 = 12 Omega\nThe resistance of the wire when its length is tripled and area doubled is 12 Omega."
+            },
+            {
+              "q_num": 5,
+              "marks": 4,
+              "question": "Two wires A and B are made of copper. Wire A has length 2 m and diameter",
+              "answer": "For Wire A: l_A = 2 m, d_A = 1 mm, A_A = pi x (0.5 x 10^-3)^2 = pi x 0.25 x 10^-6 m^2\nR_A = rho x l_A / A_A = rho x 2 / (pi x 0.25 x 10^-6)   ...(1)\nFor Wire B: l_B = 1 m, d_B = 2 mm, A_B = pi x (1 x 10^-3)^2 = pi x 1 x 10^-6 m^2\nR_B = rho x l_B / A_B = rho x 1 / (pi x 1 x 10^-6)   ...(2)\nRatio R_A/R_B = [2 / (0.25 x 10^-6)] / [1 / (1 x 10^-6)]\n= [2 / 0.25] x [1/1]\n= 8\nTherefore R_A : R_B = 8 : 1.\nWire A has 8 times the resistance of Wire B (longer and thinner wire has more resistance)."
+            },
+            {
+              "q_num": 6,
+              "marks": 6,
+              "question": "Explain the factors affecting resistance of a conductor and derive the",
+              "answer": "FACTORS AFFECTING RESISTANCE:\nA. LENGTH (l):\n- R is directly proportional to l: R proportional to l\n- Doubling the length doubles the resistance (more atoms for electrons to collide with).\nB. AREA OF CROSS-SECTION (A):\n- R is inversely proportional to A: R proportional to 1/A\n- Doubling the area halves the resistance (more paths available for electron flow).\nC. NATURE OF MATERIAL:\n- Different materials have different abilities to resist current flow.\n- This is characterised by electrical resistivity (rho).\n\nDERIVATION:\nFrom (A): R proportional to l   ...(11.8)\nFrom (B): R proportional to 1/A   ...(11.9)\nCombining: R proportional to l/A\nIntroducing the constant of proportionality rho (resistivity):\nR = rho x (l/A)   ...(11.10)\nThis is the required formula.\n\nFROM TABLE 11.2:\n(a) Copper vs. Iron for electrical transmission lines:\n- Resistivity of copper = 1.62 x 10^-8 Omega m (very low).\n- Resistivity of iron = 10.0 x 10^-8 Omega m (higher than copper by about 6 times).\n- Lower resistivity of copper means less resistance, less heat loss during transmission.\n- Therefore, copper is preferred over iron for electrical transmission lines.\n(b) Nichrome in heating devices:\n- Resistivity of Nichrome = 100 x 10^-6 Omega m (very high).\n- High resistivity means high resistance, and more heat is produced (H = I^2 x R x t).\n- Nichrome does not oxidise at high temperatures.\n- Therefore, nichrome (an alloy of Ni, Cr, Mn and Fe) is used in heating devices.\n\n--------------------------------------------------------------------------------"
+            }
+          ]
+        },
+        {
+          "type": "mcq",
+          "label": "TOPIC 11.5 MCQ",
+          "items": [
+            {
+              "mcq_num": 1,
+              "difficulty": "Easy",
+              "question": "The resistance of a conductor is inversely proportional to its:",
+              "options": {
+                "A": "Length",
+                "B": "Resistivity",
+                "C": "Area of cross-section",
+                "D": "Temperature"
+              },
+              "answer": "C",
+              "explanation": "R = rho x l/A. From this formula, resistance R is inversely proportional to area of cross-section (A). Greater area = lower resistance. R is directly proportional to length l, not inversely."
+            },
+            {
+              "mcq_num": 2,
+              "difficulty": "Easy",
+              "question": "Which material has the lowest electrical resistivity among the following?",
+              "options": {
+                "A": "Iron",
+                "B": "Silver",
+                "C": "Nichrome",
+                "D": "Mercury"
+              },
+              "answer": "B",
+              "explanation": "From Table 11.2, Silver has a resistivity of 1.60 x 10^-8 Omega m, which is the lowest among the options (Iron = 10.0 x 10^-8, Nichrome = 100 x 10^-6, Mercury = 94.0 x 10^-8 Omega m). Hence Silver is the best conductor."
+            },
+            {
+              "mcq_num": 3,
+              "difficulty": "Medium",
+              "question": "If the length of a wire is doubled and its area of cross-section is also doubled, what happens to its resistance?",
+              "options": {
+                "A": "Doubled",
+                "B": "Halved",
+                "C": "Remains the same",
+                "D": "Becomes four times"
+              },
+              "answer": "C",
+              "explanation": "R = rho x l/A. New R = rho x (2l)/(2A) = rho x l/A = original R. Doubling both length and area keeps the ratio l/A unchanged, so resistance stays the same."
+            },
+            {
+              "mcq_num": 4,
+              "difficulty": "Medium",
+              "question": "Why are alloys preferred over pure metals for making heating elements?",
+              "options": {
+                "A": "Alloys have lower resistivity than pure metals",
+                "B": "Alloys have higher resistivity and do not oxidise at high temperatures",
+                "C": "Alloys are cheaper than pure metals",
+                "D": "Alloys have lower melting points"
+              },
+              "answer": "B",
+              "explanation": "Alloys have higher resistivity (produce more heat) and do not oxidise (burn) readily at high temperatures. Pure metals have lower resistivity and would burn out quickly. Option A is incorrect (alloys have higher, not lower, resistivity)."
+            },
+            {
+              "mcq_num": 5,
+              "difficulty": "Hard",
+              "question": "A wire has resistance R. It is bent in the form of a circle. What is the resistance between the two ends of a diameter?",
+              "options": {
+                "A": "R/4",
+                "B": "R/2",
+                "C": "R",
+                "D": "2R"
+              },
+              "answer": "A",
+              "explanation": "Bending into a circle and taking resistance across a diameter creates two semicircular wires in parallel. Each semicircle has resistance R/2 (half the length, same area). Two R/2 resistors in parallel: 1/R_total = 1/(R/2) + 1/(R/2) = 4/R. So R_total = R/4. This is a direct application of both series/parallel and resistance proportional to length concepts."
+            }
+          ]
+        }
+      ],
+      "subtopics": []
+    },
+    {
+      "topic_num": "11.6",
+      "topic_name": "RESISTANCE OF A SYSTEM OF RESISTORS",
+      "mode": "A",
+      "sections": [
+        {
+          "type": "list_of_topics",
+          "label": "LIST OF SUB-TOPICS:",
+          "items": [
+            "11.6.1 Resistors in Series",
+            "11.6.2 Resistors in Parallel"
+          ]
+        },
+        {
+          "type": "definition",
+          "label": "DEFINITION:",
+          "text": "In an electric circuit, resistors can be combined in two ways:\n(a) Series combination: Resistors are joined end to end.\n(b) Parallel combination: Resistors are joined between the same two points X and Y.\nThe equivalent resistance of the combination determines how the circuit behaves."
+        },
+        {
+          "type": "key_points",
+          "label": "KEY POINTS:",
+          "points": [
+            "Ohm's law can be applied to combinations of resistors.",
+            "Series circuits: Same current through all resistors; voltages add up.",
+            "Parallel circuits: Same voltage across all resistors; currents add up.",
+            "In electrical gadgets, resistors are often used in various combinations."
+          ]
+        },
+        {
+          "type": "exercise",
+          "label": "EXERCISE 11.6.1 (In-text Questions after 11.6.1):",
+          "items": [],
+          "raw": "1. Draw a schematic diagram of a circuit consisting of a battery of three cells of 2 V\neach, a 5 Omega resistor, an 8 Omega resistor, and a 12 Omega resistor, and a plug\nkey, all connected in series.\n2. Redraw the circuit of Question 1, putting in an ammeter to measure the current through\nthe resistors and a voltmeter to measure the potential difference across the 12 Omega\nresistor. What would be the readings in the ammeter and the voltmeter?\n\nANSWERS to EXERCISE 11.6.1:\n1. [Circuit diagram: Three 2V cells (6V total) in series with a 5 Omega, 8 Omega,\n12 Omega resistors and a plug key - all in series.]\n2. Total V = 6 V; Total R = 5 + 8 + 12 = 25 Omega\nAmmeter reading: I = V/R = 6/25 = 0.24 A\nVoltmeter reading across 12 Omega: V12 = I x R = 0.24 x 12 = 2.88 V"
+        },
+        {
+          "type": "exercise",
+          "label": "EXERCISE 11.6.2 (In-text Questions after 11.6.2):",
+          "items": [],
+          "raw": "1. Judge the equivalent resistance when the following are connected in parallel:\n(a) 1 Omega and 10^6 Omega\n(b) 1 Omega and 10^3 Omega, and 10^6 Omega\n2. An electric lamp of 100 Omega, a toaster of 50 Omega, and a water filter of 500 Omega\nare connected in parallel to a 220 V source. What is the resistance of an electric\niron connected to the same source that takes as much current as all three appliances,\nand what is the current through it?\n3. What are the advantages of connecting electrical devices in parallel with the battery\ninstead of connecting them in series?\n4. How can three resistors of resistances 2 Omega, 3 Omega, and 6 Omega be connected to\ngive a total resistance of (a) 4 Omega, (b) 1 Omega?\n5. What is (a) the highest, (b) the lowest total resistance that can be secured by\ncombinations of four coils of resistance 4 Omega, 8 Omega, 12 Omega, 24 Omega?\n\nANSWERS to EXERCISE 11.6.2:\n1. (a) 1/R_p = 1/1 + 1/10^6 = approx 1. So R_p is slightly less than 1 Omega (approx 1 Omega).\nEquivalent resistance is approximately 1 Omega (very nearly 1 Omega).\n(b) 1/R_p = 1/1 + 1/1000 + 1/10^6 = approx 1. R_p is slightly less than 1 Omega.\n2. R_parallel = 1/(1/100 + 1/50 + 1/500) = 1/(5/500 + 10/500 + 1/500) = 1/(16/500) = 500/16 = 31.25 Omega\nTotal current = 220/31.25 = 7.04 A\nResistance of electric iron = V/I = 220/7.04 = 31.25 Omega\n3. Advantages of parallel connection:\n(a) Each electrical device gets the full voltage of the supply (not shared).\n(b) Each device can be switched ON or OFF independently without affecting others.\n(c) Even if one device stops working, others continue to function.\n(d) Equivalent resistance is less than the smallest individual resistance, so more\ncurrent can be drawn as needed.\n4. (a) To get 4 Omega: Connect 6 Omega and 3 Omega in parallel (R = 2 Omega), then in\nseries with 2 Omega: Total = 2 + 2 = 4 Omega.\n(b) To get 1 Omega: Connect all three in parallel: 1/R = 1/2 + 1/3 + 1/6 = 3/6 + 2/6 + 1/6 = 6/6 = 1. R = 1 Omega.\n5. (a) Highest resistance: All in series = 4 + 8 + 12 + 24 = 48 Omega.\n(b) Lowest resistance: All in parallel:\n1/R = 1/4 + 1/8 + 1/12 + 1/24 = 6/24 + 3/24 + 2/24 + 1/24 = 12/24 = 1/2\nR = 2 Omega.\n\n--------------------------------------------------------------------------------"
+        },
+        {
+          "type": "qa",
+          "label": "TOPIC 11.6 Q&A",
+          "items": [
+            {
+              "q_num": 1,
+              "marks": 2,
+              "question": "What are the two ways in which resistors can be connected in a circuit?",
+              "answer": "Resistors can be connected in two ways:\n1. SERIES CONNECTION: Resistors are joined end to end (in a single path). The same\ncurrent flows through all resistors.\n2. PARALLEL CONNECTION: Resistors are connected between the same two points X and Y\n(multiple paths). The same potential difference acts across all resistors."
+            },
+            {
+              "q_num": 2,
+              "marks": 2,
+              "question": "Why do we need to use resistors in combination?",
+              "answer": "In various electrical gadgets, we often need to use resistors in combinations (series\nor parallel) because:\n- A single resistor may not provide the required resistance.\n- We can obtain a specific equivalent resistance by combining resistors of different\nvalues in series or parallel.\n- Combinations also allow better control of current and voltage in different parts of\nthe circuit."
+            },
+            {
+              "q_num": 3,
+              "marks": 3,
+              "question": "Three resistors of 4 Omega, 6 Omega, and 12 Omega are connected in",
+              "answer": "Given: R1 = 4 Omega, R2 = 6 Omega, R3 = 12 Omega (connected in parallel)\nFormula: 1/R_p = 1/R1 + 1/R2 + 1/R3\n1/R_p = 1/4 + 1/6 + 1/12 = 3/12 + 2/12 + 1/12 = 6/12 = 1/2\nR_p = 2 Omega\nThe equivalent resistance of the parallel combination is 2 Omega."
+            },
+            {
+              "q_num": 4,
+              "marks": 4,
+              "question": "Three resistors of 5 Omega, 10 Omega, and 15 Omega are connected in series",
+              "answer": "Given: R1 = 5 Omega, R2 = 10 Omega, R3 = 15 Omega, V = 30 V (series connection)\n(a) Equivalent resistance:\nR_s = R1 + R2 + R3 = 5 + 10 + 15 = 30 Omega\n(b) Current through the circuit:\nI = V/R_s = 30/30 = 1 A\n(In series, the same current flows through all resistors)\n(c) Potential difference across each resistor:\nV1 = I x R1 = 1 x 5 = 5 V\nV2 = I x R2 = 1 x 10 = 10 V\nV3 = I x R3 = 1 x 15 = 15 V\nCheck: V1 + V2 + V3 = 5 + 10 + 15 = 30 V = Total voltage (Correct)"
+            },
+            {
+              "q_num": 5,
+              "marks": 4,
+              "question": "Compare series and parallel connections. State two advantages of parallel",
+              "answer": "COMPARISON:\n\nSERIES CONNECTION:\n- Resistors connected end to end (one path for current).\n- Same current flows through all resistors.\n- Voltages add up: V = V1 + V2 + V3.\n- Equivalent resistance increases: R_s = R1 + R2 + R3.\n- If one component fails, the entire circuit breaks.\n\nPARALLEL CONNECTION:\n- Resistors connected between the same two points (multiple paths).\n- Same voltage across all resistors.\n- Currents add up: I = I1 + I2 + I3.\n- Equivalent resistance decreases (less than smallest): 1/R_p = 1/R1 + 1/R2 + 1/R3.\n- If one component fails, others continue to work.\n\nADVANTAGES OF PARALLEL CONNECTION FOR HOUSEHOLD DEVICES:\n1. Each device gets the FULL SUPPLY VOLTAGE (220 V in India), so each operates at its\ndesigned voltage and gives optimal performance.\n2. Each device can be switched ON or OFF INDEPENDENTLY without affecting other devices\nin the circuit.\n(Additional advantages: failure of one does not affect others; total resistance is less,\nallowing more current to flow as needed.)"
+            },
+            {
+              "q_num": 6,
+              "marks": 6,
+              "question": "Define equivalent resistance. Derive the formula for equivalent resistance",
+              "answer": "EQUIVALENT RESISTANCE:\nThe equivalent (or resultant) resistance of a combination of resistors is the value of\na single resistor that can replace the combination and produce the same current for the\nsame applied voltage.\n\n(a) SERIES COMBINATION:\nLet three resistors R1, R2, R3 be connected in series.\n- Current I is the same through all resistors.\n- Total potential difference: V = V1 + V2 + V3   ...(11.11)\n- By Ohm's law: V = IR, V1 = IR1, V2 = IR2, V3 = IR3\n- Substituting: I x R_s = I x R1 + I x R2 + I x R3\n- Dividing by I: R_s = R1 + R2 + R3   ...(11.14)\nThe equivalent resistance in series is the SUM of individual resistances.\n\n(b) PARALLEL COMBINATION:\nLet three resistors R1, R2, R3 be connected in parallel.\n- Same potential difference V acts across all.\n- Total current: I = I1 + I2 + I3   ...(11.15)\n- By Ohm's law: I1 = V/R1, I2 = V/R2, I3 = V/R3, I = V/R_p\n- Substituting: V/R_p = V/R1 + V/R2 + V/R3\n- Dividing by V: 1/R_p = 1/R1 + 1/R2 + 1/R3   ...(11.18)\nThe reciprocal of equivalent resistance in parallel = SUM of reciprocals of individual\nresistances.\n\nNUMERICAL:\nGiven: R1 = 2 Omega, R2 = 4 Omega, R3 = 6 Omega, V = 12 V\nSeries equivalent:\nR_s = 2 + 4 + 6 = 12 Omega\n\nParallel equivalent:\n1/R_p = 1/2 + 1/4 + 1/6 = 6/12 + 3/12 + 2/12 = 11/12\nR_p = 12/11 = 1.09 Omega (approx)\n\n--------------------------------------------------------------------------------"
+            }
+          ]
+        },
+        {
+          "type": "mcq",
+          "label": "TOPIC 11.6 MCQ",
+          "items": [
+            {
+              "mcq_num": 1,
+              "difficulty": "Easy",
+              "question": "When resistors are connected in series, which of the following is the same through all resistors?",
+              "options": {
+                "A": "Voltage",
+                "B": "Current",
+                "C": "Resistance",
+                "D": "Power"
+              },
+              "answer": "B",
+              "explanation": "In a series circuit, the same current flows through every part of the circuit (through each resistor). The voltage is divided across each resistor proportional to their resistances. Power consumed differs for different resistors."
+            },
+            {
+              "mcq_num": 2,
+              "difficulty": "Easy",
+              "question": "When resistors are connected in parallel, which of the following is the same across all resistors?",
+              "options": {
+                "A": "Current",
+                "B": "Resistance",
+                "C": "Voltage",
+                "D": "Power"
+              },
+              "answer": "C",
+              "explanation": "In a parallel circuit, the same voltage (potential difference) acts across all resistors. The current through each resistor depends on its resistance (I = V/R for each branch). Total current is divided among the parallel branches."
+            },
+            {
+              "mcq_num": 3,
+              "difficulty": "Medium",
+              "question": "Three resistors of 3 Omega, 6 Omega, and 9 Omega are connected in series. What is the equivalent resistance?",
+              "options": {
+                "A": "6 Omega",
+                "B": "18 Omega",
+                "C": "1.5 Omega",
+                "D": "54 Omega"
+              },
+              "answer": "B",
+              "explanation": "In series, R_s = R1 + R2 + R3 = 3 + 6 + 9 = 18 Omega. Option C (1.5 Omega) would be the result if connected in parallel (approx). Series always gives the sum."
+            },
+            {
+              "mcq_num": 4,
+              "difficulty": "Medium",
+              "question": "If three identical resistors, each of value R, are connected in parallel, the equivalent resistance is:",
+              "options": {
+                "A": "3R",
+                "B": "R/3",
+                "C": "R",
+                "D": "R^2/3"
+              },
+              "answer": "B",
+              "explanation": "1/R_p = 1/R + 1/R + 1/R = 3/R. So R_p = R/3. For n identical resistors in parallel, the equivalent resistance = R/n. In series it would be 3R (option A)."
+            },
+            {
+              "mcq_num": 5,
+              "difficulty": "Hard",
+              "question": "What is the advantage of parallel connection over series connection for domestic circuits?",
+              "options": {
+                "A": "It increases the total resistance of the circuit",
+                "B": "Each appliance gets the same (full) supply voltage and can be operated independently",
+                "C": "The current through each appliance is the same",
+                "D": "The total power consumed is less in parallel than in series"
+              },
+              "answer": "B",
+              "explanation": "In parallel, each appliance gets the full supply voltage (220 V in India) and each can be switched ON/OFF independently. This is the main advantage. In series, voltage is shared (not full voltage to each), and failure of one stops all others."
+            }
+          ]
+        }
+      ],
+      "subtopics": [
+        {
+          "subtopic_num": "11.6.1",
+          "subtopic_name": "RESISTORS IN SERIES",
+          "sections": [
+            {
+              "type": "definition",
+              "label": "DEFINITION:",
+              "text": "Resistors in series are those that are joined end to end, forming a single path for the\nelectric current. The equivalent resistance of resistors connected in series is equal to\nthe sum of their individual resistances.\nR_s = R1 + R2 + R3   ... (11.14)"
+            },
+            {
+              "type": "key_points",
+              "label": "KEY POINTS:",
+              "points": [
+                "In series connection, there is ONLY ONE PATH for the flow of current.",
+                "The SAME CURRENT (I) flows through every part of the circuit (through each resistor).",
+                "The total potential difference V across the combination = sum of potential differences",
+                "across individual resistors: V = V1 + V2 + V3   ...(11.11)",
+                "Applying Ohm's law to the entire circuit: V = I x R_s   ...(11.12)",
+                "Applying to each resistor: V1 = I x R1, V2 = I x R2, V3 = I x R3   ...(11.13)",
+                "Therefore: I x R_s = I x R1 + I x R2 + I x R3",
+                "R_s = R1 + R2 + R3   ...(11.14)",
+                "The equivalent resistance R_s is GREATER than any individual resistance.",
+                "DISADVANTAGE: If one component fails, the entire circuit is broken and no current",
+                "flows through any other component."
+              ]
+            },
+            {
+              "type": "activity",
+              "label": "ACTIVITY 11.4 (Verification of Series Circuit):",
+              "aim": "To show that in a series circuit, the current is the same through all resistors.",
+              "materials": "Three resistors of different values (e.g., 1 Omega, 2 Omega, 3 Omega),\na battery of 6 V, an ammeter, a plug key, connecting wires.",
+              "procedure": [
+                "- Join three resistors in series. Connect them with a battery, an ammeter, and a plug key",
+                "(as in Fig. 11.6).",
+                "- Plug the key. Note the ammeter reading.",
+                "- Change the position of the ammeter to anywhere in between the resistors.",
+                "- Note the ammeter reading each time.",
+                "- Do you find any change in the value of current through the ammeter?"
+              ],
+              "observation": "The value of current in the ammeter is the SAME, independent of its\nposition in the electric circuit.",
+              "conclusion": "In a series combination of resistors, the current is the same in every part\nof the circuit, i.e., through each resistor.",
+              "caution": ""
+            },
+            {
+              "type": "activity",
+              "label": "ACTIVITY 11.5 (Potential Difference in Series Circuit):",
+              "aim": "To show that in a series circuit, the total potential difference equals the sum of\nindividual potential differences.",
+              "materials": "Three resistors, a battery, an ammeter, a voltmeter, a plug key.",
+              "procedure": [
+                "- In Activity 11.4, insert a voltmeter across the ends X and Y of the series combination",
+                "of three resistors (Fig. 11.6). Plug the key and note the voltmeter reading (= V).",
+                "Measure the potential difference across the battery terminals. Compare both values.",
+                "- Now insert the voltmeter across the ends X and P of the first resistor. Let the reading",
+                "be V1.",
+                "- Similarly measure V2 (across second resistor) and V3 (across third resistor).",
+                "- Deduce the relationship between V, V1, V2, and V3."
+              ],
+              "observation": "The potential difference V equals the sum of V1, V2, and V3:\nV = V1 + V2 + V3   ...(11.11)",
+              "conclusion": "The total potential difference across a combination of resistors in series\nequals the sum of potential differences across the individual resistors.\n\nEXAMPLE 11.7:\nAn electric lamp of resistance 20 Omega and a conductor of 4 Omega resistance are\nconnected to a 6 V battery (Fig. 11.9). Calculate (a) the total resistance of the circuit,\n(b) the current through the circuit, (c) the potential difference across the electric lamp\nand the conductor.\nSOLUTION:\nR1 (lamp) = 20 Omega, R2 (conductor) = 4 Omega, V = 6 V\n(a) Total resistance: R_s = R1 + R2 = 20 + 4 = 24 Omega\n(b) Current: I = V/R_s = 6/24 = 0.25 A\n(c) Potential difference across lamp: V1 = I x R1 = 0.25 x 20 = 5 V\nPotential difference across conductor: V2 = I x R2 = 0.25 x 4 = 1 V\nCheck: V1 + V2 = 5 + 1 = 6 V = battery voltage (Correct)\n\n--------------------------------------------------------------------------------",
+              "caution": ""
+            },
+            {
+              "type": "qa",
+              "label": "SUB-TOPIC 11.6.1 Q&A",
+              "items": [
+                {
+                  "q_num": 1,
+                  "marks": 2,
+                  "question": "State the rule for equivalent resistance of resistors in series.",
+                  "answer": "When resistors are connected in series, the equivalent resistance (R_s) is equal to the\nsum of their individual resistances.\nR_s = R1 + R2 + R3 (for three resistors)\nThe equivalent resistance in series is always GREATER than any individual resistance."
+                },
+                {
+                  "q_num": 2,
+                  "marks": 2,
+                  "question": "In a series circuit, a resistor of 5 Omega, 10 Omega are connected to a",
+                  "answer": "R_s = R1 + R2 = 5 + 10 = 15 Omega\nCurrent: I = V / R_s = 15 / 15 = 1 A\nThe current through the circuit is 1 A."
+                },
+                {
+                  "q_num": 3,
+                  "marks": 3,
+                  "question": "Three resistors of 3 Omega, 6 Omega, and 9 Omega are connected in series",
+                  "answer": "(a) R_s = 3 + 6 + 9 = 18 Omega\n(b) I = V/R_s = 18/18 = 1 A\n(c) V1 = 1 x 3 = 3 V; V2 = 1 x 6 = 6 V; V3 = 1 x 9 = 9 V\nCheck: 3 + 6 + 9 = 18 V (Correct)"
+                },
+                {
+                  "q_num": 4,
+                  "marks": 4,
+                  "question": "Derive the formula for equivalent resistance of three resistors connected in",
+                  "answer": "DERIVATION:\nLet three resistors R1, R2, R3 be connected in series to a battery of voltage V.\n- The SAME CURRENT I flows through each resistor (property of series circuit).\n- By Ohm's law applied to the whole circuit: V = I x R_s   ...(11.12)\nwhere R_s is the equivalent resistance.\n- By Ohm's law for each resistor:\nV1 = I x R1   ...(11.13a)\nV2 = I x R2   ...(11.13b)\nV3 = I x R3   ...(11.13c)\n- The total voltage: V = V1 + V2 + V3   ...(11.11)\n- Substituting: I x R_s = I x R1 + I x R2 + I x R3\n- Dividing throughout by I:\nR_s = R1 + R2 + R3   ...(11.14) [PROVED]\n\nPROPERTY OF CURRENT:\nIn a series circuit, the current I is the same through every resistor and every part of\nthe circuit (independent of the position of ammeter in the circuit)."
+                },
+                {
+                  "q_num": 5,
+                  "marks": 4,
+                  "question": "An electric lamp of 100 Omega and a resistor of 50 Omega are connected in",
+                  "answer": "Given: R1 (lamp) = 100 Omega, R2 = 50 Omega, V = 9 V\n(a) Equivalent resistance: R_s = 100 + 50 = 150 Omega\n(b) Current: I = V/R_s = 9/150 = 0.06 A\n(c) Voltage across lamp: V1 = I x R1 = 0.06 x 100 = 6 V\nVoltage across 50 Omega resistor: V2 = I x R2 = 0.06 x 50 = 3 V\nCheck: V1 + V2 = 6 + 3 = 9 V (Correct)"
+                },
+                {
+                  "q_num": 6,
+                  "marks": 6,
+                  "question": "Why is the series arrangement not used for domestic circuits? Explain with",
+                  "answer": "SERIES ARRANGEMENT IN DOMESTIC CIRCUITS:\nIn a series arrangement, all appliances are connected end to end in a single path.\n\nWHY IT IS NOT USED - EXPLANATION:\nConsider three appliances: A lamp (R1 = 100 Omega), a fan (R2 = 50 Omega), and an\niron (R3 = 20 Omega) connected in series.\nTotal resistance: R_s = R1 + R2 + R3 = 100 + 50 + 20 = 170 Omega\nWith a 220 V supply:\nTotal current: I = 220/170 = 1.29 A (same through all appliances)\nVoltage across lamp: V1 = 1.29 x 100 = 129 V (more than required)\nVoltage across iron: V3 = 1.29 x 20 = 25.8 V (much less than required 220 V)\nIn a series circuit: R_s = R1 + R2 + R3 (the total resistance is higher than any\nindividual resistance, so overall current is less).\n\nDISADVANTAGE 1 - UNEQUAL VOLTAGE:\nIn series, the total voltage (220 V) is divided among all appliances proportional to\ntheir resistances. Each appliance does NOT get the full supply voltage (220 V) needed\nfor its proper operation. Appliances are designed to work at a specified voltage.\n\nDISADVANTAGE 2 - FAILURE OF ONE STOPS ALL:\nIn a series circuit, there is only ONE PATH for the current. If any one appliance\ndevelops a fault (fuse blows or component fails), the circuit breaks and ALL other\nappliances also stop working. In homes, each appliance must work independently.\n\nFor these reasons, domestic circuits use PARALLEL connections where each appliance gets\nfull supply voltage and each can be switched ON/OFF independently.\n\n--------------------------------------------------------------------------------"
+                }
+              ]
+            },
+            {
+              "type": "mcq",
+              "label": "SUB-TOPIC 11.6.1 MCQ",
+              "items": [
+                {
+                  "mcq_num": 1,
+                  "difficulty": "Easy",
+                  "question": "In a series circuit, the same ________ flows through all resistors.",
+                  "options": {
+                    "A": "Voltage",
+                    "B": "Power",
+                    "C": "Current",
+                    "D": "Resistance"
+                  },
+                  "answer": "C",
+                  "explanation": "In a series circuit, there is only one path for current flow. Therefore, the same current flows through every element of the series circuit, regardless of the position of the ammeter or the values of the individual resistors."
+                },
+                {
+                  "mcq_num": 2,
+                  "difficulty": "Easy",
+                  "question": "If two resistors of 4 Omega and 6 Omega are connected in series, the equivalent resistance is:",
+                  "options": {
+                    "A": "2.4 Omega",
+                    "B": "10 Omega",
+                    "C": "24 Omega",
+                    "D": "1.5 Omega"
+                  },
+                  "answer": "B",
+                  "explanation": "R_s = R1 + R2 = 4 + 6 = 10 Omega. In series, resistances add up. Option A (2.4 Omega) is the parallel combination; option C is the product (incorrect method)."
+                },
+                {
+                  "mcq_num": 3,
+                  "difficulty": "Medium",
+                  "question": "An electric lamp of 20 Omega and a conductor of 4 Omega are connected in series to a 6 V battery. What is the current through the circuit?",
+                  "options": {
+                    "A": "1.5 A",
+                    "B": "0.25 A",
+                    "C": "0.5 A",
+                    "D": "0.3 A"
+                  },
+                  "answer": "B",
+                  "explanation": "R_s = 20 + 4 = 24 Omega. I = V/R_s = 6/24 = 0.25 A. This is Example 11.7 from the textbook. Dividing 6 by 4 alone (ignoring lamp) gives the wrong answer C."
+                },
+                {
+                  "mcq_num": 4,
+                  "difficulty": "Medium",
+                  "question": "In a series combination, if one bulb fuses (burns out):",
+                  "options": {
+                    "A": "Only that bulb stops glowing; others continue",
+                    "B": "All bulbs stop glowing",
+                    "C": "The remaining bulbs glow brighter",
+                    "D": "The current through others doubles"
+                  },
+                  "answer": "B",
+                  "explanation": "In series, there is only one current path. If one bulb fuses (breaks the circuit), the current path is broken and all other bulbs also stop glowing. This is one major disadvantage of series connection."
+                },
+                {
+                  "mcq_num": 5,
+                  "difficulty": "Hard",
+                  "question": "Three resistors R1, R2, R3 are in series. If V1, V2, V3 are the potential differences across them and V is the total voltage, which relation is correct?",
+                  "options": {
+                    "A": "I = I1 + I2 + I3",
+                    "B": "V = V1 = V2 = V3",
+                    "C": "V = V1 + V2 + V3",
+                    "D": "1/R = 1/R1 + 1/R2 + 1/R3"
+                  },
+                  "answer": "C",
+                  "explanation": "In series, voltages add up: V = V1 + V2 + V3. Option A (currents add) is for parallel circuits. Option B (equal voltages) is for parallel circuits. Option D (reciprocal of resistances add) is the formula for parallel resistance."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "subtopic_num": "11.6.2",
+          "subtopic_name": "RESISTORS IN PARALLEL",
+          "sections": [
+            {
+              "type": "definition",
+              "label": "DEFINITION:",
+              "text": "Resistors in parallel are those that are connected between the same two points X and Y,\ncreating multiple paths for the electric current. The reciprocal of the equivalent\nresistance of resistors in parallel is equal to the sum of the reciprocals of their\nindividual resistances.\n1/R_p = 1/R1 + 1/R2 + 1/R3   ...(11.18)"
+            },
+            {
+              "type": "key_points",
+              "label": "KEY POINTS:",
+              "points": [
+                "In parallel connection, there are MULTIPLE PATHS for the flow of current.",
+                "The SAME POTENTIAL DIFFERENCE (V) acts across each resistor.",
+                "The total current I = sum of currents through individual resistors:",
+                "I = I1 + I2 + I3   ...(11.15)",
+                "Let R_p be the equivalent resistance. By Ohm's law: I = V/R_p   ...(11.16)",
+                "For each resistor: I1 = V/R1, I2 = V/R2, I3 = V/R3   ...(11.17)",
+                "Substituting into (11.15): V/R_p = V/R1 + V/R2 + V/R3",
+                "Dividing by V: 1/R_p = 1/R1 + 1/R2 + 1/R3   ...(11.18)",
+                "The equivalent resistance R_p is LESS than the smallest individual resistance.",
+                "ADVANTAGE: Each device gets the full supply voltage; devices work independently.",
+                "Series circuits (impractical for homes): cannot have different currents; failure of one",
+                "stops all.",
+                "Parallel circuits (used in homes): each appliance operates at its rated voltage and",
+                "can be switched ON/OFF independently."
+              ]
+            },
+            {
+              "type": "activity",
+              "label": "ACTIVITY 11.6 (Verification of Parallel Circuit):",
+              "aim": "To study the behaviour of resistors connected in parallel.",
+              "materials": "Three resistors R1, R2, R3, a battery, an ammeter, a voltmeter, a plug key,\nconnecting wires.",
+              "procedure": [
+                "- Make a parallel combination XY of three resistors R1, R2, R3 as in Fig. 11.10.",
+                "Connect a battery, a plug key, and an ammeter in series with the parallel combination.",
+                "Connect a voltmeter in parallel with the combination.",
+                "- Plug the key and note the ammeter reading (I) and voltmeter reading (V).",
+                "- Remove ammeter and voltmeter. Insert ammeter in series with R1 (Fig. 11.11). Note I1.",
+                "- Similarly, measure the currents through R2 (I2) and R3 (I3).",
+                "- Find the relationship between I, I1, I2, and I3."
+              ],
+              "observation": "Total current I = I1 + I2 + I3 (currents in parallel branches add up).\nThe potential difference V across each resistor is the same.",
+              "conclusion": "In a parallel circuit, the total current is the sum of the currents through\nthe individual branches. The voltage across each resistor is the same.\n\nEXAMPLE 11.8:\nIn Fig. 11.10, R1 = 5 Omega, R2 = 10 Omega, R3 = 30 Omega, connected to a 12 V battery.\nCalculate (a) current through each resistor, (b) total current, (c) total resistance.\nSOLUTION:\nV = 12 V (same across each in parallel)\nI1 = V/R1 = 12/5 = 2.4 A\nI2 = V/R2 = 12/10 = 1.2 A\nI3 = V/R3 = 12/30 = 0.4 A\n(b) Total current: I = I1 + I2 + I3 = 2.4 + 1.2 + 0.4 = 4 A\n(c) Total resistance:\n1/R_p = 1/5 + 1/10 + 1/30 = 6/30 + 3/30 + 1/30 = 10/30 = 1/3\nR_p = 3 Omega\n\nEXAMPLE 11.9:\nIn Fig. 11.12, R1 = 10 Omega, R2 = 40 Omega, R3 = 30 Omega, R4 = 20 Omega, R5 = 60 Omega,\n12 V battery. Calculate (a) total resistance, (b) total current.\nSOLUTION:\nR1 and R2 are in parallel: 1/R' = 1/10 + 1/40 = 4/40 + 1/40 = 5/40. R' = 8 Omega.\nR3, R4, R5 are in parallel: 1/R'' = 1/30 + 1/20 + 1/60 = 2/60 + 3/60 + 1/60 = 6/60 = 1/10. R'' = 10 Omega.\nTotal R = R' + R'' = 8 + 10 = 18 Omega (R' and R'' are in series).\nTotal current: I = V/R = 12/18 = 0.67 A.\n\n--------------------------------------------------------------------------------",
+              "caution": ""
+            },
+            {
+              "type": "qa",
+              "label": "SUB-TOPIC 11.6.2 Q&A",
+              "items": [
+                {
+                  "q_num": 1,
+                  "marks": 2,
+                  "question": "State the rule for equivalent resistance of resistors in parallel.",
+                  "answer": "When resistors are connected in parallel, the reciprocal of the equivalent resistance\n(R_p) is equal to the sum of the reciprocals of the individual resistances.\n1/R_p = 1/R1 + 1/R2 + 1/R3 (for three resistors)\nThe equivalent resistance in parallel is always LESS than the smallest individual\nresistance."
+                },
+                {
+                  "q_num": 2,
+                  "marks": 2,
+                  "question": "Two resistors of 6 Omega and 12 Omega are connected in parallel. What is",
+                  "answer": "1/R_p = 1/6 + 1/12 = 2/12 + 1/12 = 3/12 = 1/4\nR_p = 4 Omega\nThe equivalent resistance is 4 Omega (less than 6 Omega, the smaller resistor)."
+                },
+                {
+                  "q_num": 3,
+                  "marks": 3,
+                  "question": "Three resistors of 2 Omega, 3 Omega, and 6 Omega are connected in parallel",
+                  "answer": "(a) 1/R_p = 1/2 + 1/3 + 1/6 = 3/6 + 2/6 + 1/6 = 6/6 = 1. So R_p = 1 Omega.\n(b) Total current: I = V/R_p = 6/1 = 6 A\n(c) I1 = V/R1 = 6/2 = 3 A\nI2 = V/R2 = 6/3 = 2 A\nI3 = V/R3 = 6/6 = 1 A\nCheck: I1 + I2 + I3 = 3 + 2 + 1 = 6 A = Total current (Correct)"
+                },
+                {
+                  "q_num": 4,
+                  "marks": 4,
+                  "question": "Derive the formula for equivalent resistance of three resistors connected",
+                  "answer": "DERIVATION:\nLet three resistors R1, R2, R3 be connected in parallel between two points X and Y.\n- The SAME POTENTIAL DIFFERENCE V acts across each resistor.\n- Total current: I = I1 + I2 + I3   ...(11.15)\nwhere I1, I2, I3 are currents through R1, R2, R3 respectively.\n- Let R_p be the equivalent resistance. By Ohm's law:\nI = V / R_p   ...(11.16)\n- Applying Ohm's law to each resistor:\nI1 = V/R1, I2 = V/R2, I3 = V/R3   ...(11.17)\n- Substituting in equation (11.15):\nV/R_p = V/R1 + V/R2 + V/R3\n- Dividing throughout by V:\n1/R_p = 1/R1 + 1/R2 + 1/R3   ...(11.18) [PROVED]\nNOTE: R_p < R1, R_p < R2, R_p < R3. The equivalent resistance is LESS than the smallest\nindividual resistance."
+                },
+                {
+                  "q_num": 5,
+                  "marks": 4,
+                  "question": "Two resistors of 5 Omega and 10 Omega are connected in parallel to a 20 V",
+                  "answer": "Given: R1 = 5 Omega, R2 = 10 Omega, V = 20 V\n(a) Equivalent resistance:\n1/R_p = 1/5 + 1/10 = 2/10 + 1/10 = 3/10\nR_p = 10/3 = 3.33 Omega\n(b) Total current:\nI = V/R_p = 20 / (10/3) = 20 x 3/10 = 6 A\n(c) Current through each:\nI1 = V/R1 = 20/5 = 4 A\nI2 = V/R2 = 20/10 = 2 A\nVerification: I1 + I2 = 4 + 2 = 6 A = Total current I (Correct)\nThis confirms: In parallel, I = I1 + I2."
+                },
+                {
+                  "q_num": 6,
+                  "marks": 6,
+                  "question": "Explain why household appliances are connected in parallel. Derive the",
+                  "answer": "WHY PARALLEL CONNECTION IN HOUSEHOLD CIRCUITS:\n1. FULL VOLTAGE: In parallel, each appliance is connected across the same supply voltage\n(e.g., 220 V). Each appliance gets the rated voltage needed for its proper operation.\n2. INDEPENDENT OPERATION: Each appliance has its own switch. It can be switched ON or\nOFF independently without affecting other appliances.\n3. FAULT ISOLATION: If one appliance fails or is switched OFF, others continue to work\nnormally (the circuit is not broken for others).\n4. LOWER EQUIVALENT RESISTANCE: 1/R_p = 1/R1 + 1/R2 + ... The total resistance is low,\nso more total current can be drawn as needed by more appliances.\n\nDERIVATION OF 1/R_p = 1/R1 + 1/R2 + 1/R3:\n(Same derivation as in Q4 above - using I = I1 + I2 + I3 and V = constant across all,\nthen dividing by V to get the formula.)\n\nNUMERICAL:\nGiven: R1 = 100 Omega (lamp), R2 = 50 Omega (toaster), R3 = 25 Omega (iron), V = 200 V\nCurrent through each:\nI1 = V/R1 = 200/100 = 2 A\nI2 = V/R2 = 200/50 = 4 A\nI3 = V/R3 = 200/25 = 8 A\nTotal current drawn from supply:\nI = I1 + I2 + I3 = 2 + 4 + 8 = 14 A\n\n--------------------------------------------------------------------------------"
+                }
+              ]
+            },
+            {
+              "type": "mcq",
+              "label": "SUB-TOPIC 11.6.2 MCQ",
+              "items": [
+                {
+                  "mcq_num": 1,
+                  "difficulty": "Easy",
+                  "question": "In a parallel circuit, the voltage across each resistor is:",
+                  "options": {
+                    "A": "Different for each resistor",
+                    "B": "The same for all resistors",
+                    "C": "Zero for all",
+                    "D": "Equal to the current"
+                  },
+                  "answer": "B",
+                  "explanation": "In a parallel circuit, all resistors are connected between the same two points. Therefore, the same potential difference (voltage) acts across each resistor. The current differs in each branch according to its resistance."
+                },
+                {
+                  "mcq_num": 2,
+                  "difficulty": "Easy",
+                  "question": "Two resistors of 4 Omega and 12 Omega are connected in parallel. Their equivalent resistance is:",
+                  "options": {
+                    "A": "16 Omega",
+                    "B": "48 Omega",
+                    "C": "3 Omega",
+                    "D": "8 Omega"
+                  },
+                  "answer": "C",
+                  "explanation": "1/R_p = 1/4 + 1/12 = 3/12 + 1/12 = 4/12 = 1/3. So R_p = 3 Omega. Option A is the series combination (4+12). Parallel equivalent is always less than the smallest resistor (4 Omega here), so options A, B, D are all incorrect."
+                },
+                {
+                  "mcq_num": 3,
+                  "difficulty": "Medium",
+                  "question": "In a parallel circuit, the total current is:",
+                  "options": {
+                    "A": "Less than the current through the smallest resistor",
+                    "B": "Equal to the current through the largest resistor",
+                    "C": "Equal to the sum of currents through individual resistors",
+                    "D": "Equal to the current through the smallest resistor"
+                  },
+                  "answer": "C",
+                  "explanation": "In parallel, I = I1 + I2 + I3. The total current equals the sum of currents in all branches. This is because the total charge entering the junction per second equals the total charge leaving through all branches."
+                },
+                {
+                  "mcq_num": 4,
+                  "difficulty": "Medium",
+                  "question": "What happens to the equivalent resistance of a parallel combination when more resistors are added in parallel?",
+                  "options": {
+                    "A": "Increases",
+                    "B": "Decreases",
+                    "C": "Remains the same",
+                    "D": "Doubles"
+                  },
+                  "answer": "B",
+                  "explanation": "Adding more resistors in parallel adds more terms to 1/R_p = 1/R1 + 1/R2 +..., making 1/R_p larger, and therefore R_p smaller. Each additional parallel branch provides an extra path for current, reducing the total resistance."
+                },
+                {
+                  "mcq_num": 5,
+                  "difficulty": "Hard",
+                  "question": "Three resistors of 3 Omega, 4 Omega, and 6 Omega are connected in parallel. What is the equivalent resistance?",
+                  "options": {
+                    "A": "13 Omega",
+                    "B": "4.3 Omega",
+                    "C": "1.33 Omega",
+                    "D": "2 Omega"
+                  },
+                  "answer": "C",
+                  "explanation": "1/R_p = 1/3 + 1/4 + 1/6 = 4/12 + 3/12 + 2/12 = 9/12 = 3/4. So R_p = 4/3 = 1.33 Omega. Option A is the series sum. The parallel equivalent must be less than 3 Omega (the smallest), confirming only option C is valid."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic_num": "11.7",
+      "topic_name": "HEATING EFFECT OF ELECTRIC CURRENT",
+      "mode": "A",
+      "sections": [
+        {
+          "type": "list_of_topics",
+          "label": "LIST OF SUB-TOPICS:",
+          "items": [
+            "11.7.1 Practical Applications of Heating Effect of Electric Current"
+          ]
+        },
+        {
+          "type": "definition",
+          "label": "DEFINITION:",
+          "text": "The heating effect of electric current (also called Joule's Law of Heating) states that\nthe amount of heat produced in a resistor is directly proportional to the square of\ncurrent (I^2), to the resistance (R) of the given resistor, and to the time (t) for\nwhich the current flows through it.\nH = I^2 x R x t   ...(11.21)   [Joule's Law of Heating]"
+        },
+        {
+          "type": "key_points",
+          "label": "KEY POINTS:",
+          "points": [
+            "A battery or cell is a source of electrical energy.",
+            "The chemical reaction within the cell generates potential difference, which sets",
+            "electrons in motion, producing current.",
+            "The source (battery) has to keep expending its energy to maintain the current.",
+            "Part of this source energy may be consumed in doing useful work (rotating fan blades).",
+            "In a purely resistive circuit, all source energy is dissipated in the form of heat.",
+            "This is known as the HEATING EFFECT OF ELECTRIC CURRENT.",
+            "It is used in devices such as electric heater, electric iron, etc.",
+            "DERIVATION:",
+            "Let current I flow through a resistor R for time t. Let potential difference = V.",
+            "A charge Q flows across. Work done in moving the charge Q: W = V x Q   ...(11.19)",
+            "Since Q = I x t: W = V x I x t = VIt",
+            "This work done appears as heat in the resistor: H = VIt   ...(11.20)",
+            "Using Ohm's law (V = IR): H = (IR) x I x t = I^2 x R x t   ...(11.21)",
+            "This is Joule's Law of Heating.",
+            "Heat H is: (i) directly proportional to I^2 (doubling I quadruples H),",
+            "(ii) directly proportional to R (more resistance, more heat),",
+            "(iii) directly proportional to t (longer time, more heat).",
+            "When an electric appliance is connected to a known voltage source,",
+            "Eq. (11.21) is used after finding I using I = V/R.",
+            "Power P = H/t = I^2 x R (or P = VI or P = V^2/R).",
+            "IN-TEXT QUESTIONS (after 11.7):",
+            "1. Why does the cord of an electric heater not glow while the heating element does?",
+            "2. Compute the heat generated while transferring 96000 coulomb of charge in one hour",
+            "through a potential difference of 50 V.",
+            "3. An electric iron of resistance 20 Omega takes a current of 5 A. Calculate the heat",
+            "developed in 30 s.",
+            "ANSWERS:",
+            "1. The cord (connecting wire) has very LOW RESISTANCE (nearly zero), while the heating",
+            "element has HIGH RESISTANCE. Since H = I^2 x R x t, and both carry the same current,",
+            "very little heat is produced in the cord (low R) but a large amount in the heating",
+            "element (high R). The heating element gets hot enough to glow.",
+            "2. Given: Q = 96000 C, t = 1 h = 3600 s, V = 50 V",
+            "I = Q/t = 96000/3600 = 26.67 A",
+            "H = VIt = 50 x 26.67 x 3600 = 4,800,000 J = 4.8 x 10^6 J",
+            "OR using H = VQ: H = 50 x 96000 = 4,800,000 J = 4.8 MJ.",
+            "3. Given: R = 20 Omega, I = 5 A, t = 30 s",
+            "H = I^2 x R x t = 5^2 x 20 x 30 = 25 x 20 x 30 = 15,000 J = 15 kJ",
+            "EXAMPLE 11.10:",
+            "An electric iron consumes energy at a rate of 840 W when heating is at the maximum rate",
+            "and 360 W when heating is at the minimum rate. The voltage is 220 V. Find the current",
+            "and resistance in each case.",
+            "SOLUTION:",
+            "(a) At maximum rate (P = 840 W): I = P/V = 840/220 = 3.82 A; R = V/I = 220/3.82 = 57.60 Omega.",
+            "(b) At minimum rate (P = 360 W): I = P/V = 360/220 = 1.64 A; R = V/I = 220/1.64 = 134.15 Omega.",
+            "EXAMPLE 11.11:",
+            "100 J of heat is produced each second in a 4 Omega resistance. Find the potential difference",
+            "across the resistor.",
+            "SOLUTION:",
+            "H = 100 J, t = 1 s, R = 4 Omega",
+            "From H = I^2 x R x t: I^2 = H/(R x t) = 100/(4 x 1) = 25. So I = 5 A.",
+            "V = IR = 5 x 4 = 20 V.",
+            "-------------------------------------------------------------------------------"
+          ]
+        },
+        {
+          "type": "qa",
+          "label": "TOPIC 11.7 Q&A",
+          "items": [
+            {
+              "q_num": 1,
+              "marks": 2,
+              "question": "State Joule's law of heating.",
+              "answer": "Joule's Law of Heating states that the heat produced in a resistor is:\n(i) Directly proportional to the square of the current (I^2).\n(ii) Directly proportional to the resistance (R) of the resistor.\n(iii) Directly proportional to the time (t) for which the current flows.\nMathematically: H = I^2 x R x t"
+            },
+            {
+              "q_num": 2,
+              "marks": 2,
+              "question": "Why does the cord of an electric heater not glow while the heating element",
+              "answer": "The cord has very low resistance while the heating element has very high resistance.\nSince H = I^2 x R x t and both carry the same current I for the same time t, very little\nheat is produced in the cord (low R), while a large amount of heat is produced in the\nheating element (high R). The heating element gets hot enough to glow, but the cord\ndoes not."
+            },
+            {
+              "q_num": 3,
+              "marks": 3,
+              "question": "An electric iron of resistance 40 Omega takes a current of 5 A. Calculate",
+              "answer": "Given: R = 40 Omega, I = 5 A, t = 2 min = 120 s\nH = I^2 x R x t = (5)^2 x 40 x 120\nH = 25 x 40 x 120\nH = 120,000 J = 120 kJ\nThe heat developed in the electric iron in 2 minutes is 120,000 J."
+            },
+            {
+              "q_num": 4,
+              "marks": 4,
+              "question": "Derive the expression for heat produced in a conductor by the passage of",
+              "answer": "DERIVATION OF JOULE'S LAW OF HEATING:\nConsider a current I flowing through a resistor of resistance R for time t. Let the\npotential difference across the resistor be V (as in Fig. 11.13).\nStep 1: A charge Q flows across the resistor in time t:\nQ = I x t\nStep 2: Work done by the source in moving charge Q through potential difference V:\nW = V x Q = V x I x t = VIt   ...(11.20)\nThis work done appears as heat in the resistor (in a purely resistive circuit):\nH = VIt   ...(11.20)\nStep 3: Using Ohm's law (V = IR):\nH = (IR) x I x t = I^2 x R x t   ...(11.21)\nThis is Joule's Law of Heating.\n\nKEY RESULT:\nH is proportional to I^2 (doubling current -> 4 times heat)\nH is proportional to R (higher resistance -> more heat)\nH is proportional to t (longer time -> more heat)"
+            },
+            {
+              "q_num": 5,
+              "marks": 4,
+              "question": "An electric heater is rated at 1000 W and 220 V. Find (a) the current",
+              "answer": "Given: P = 1000 W, V = 220 V, t = 5 min = 300 s\n(a) Current drawn: I = P/V = 1000/220 = 4.55 A\n(b) Resistance: R = V/I = 220/4.55 = 48.35 Omega\n(OR using P = V^2/R: R = V^2/P = 220^2/1000 = 48400/1000 = 48.4 Omega)\n(c) Heat produced in 5 minutes:\nH = I^2 x R x t = (4.55)^2 x 48.35 x 300\nOR: H = P x t = 1000 x 300 = 300,000 J = 300 kJ"
+            },
+            {
+              "q_num": 6,
+              "marks": 6,
+              "question": "Explain the heating effect of electric current. Derive H = I^2 x R x t.",
+              "answer": "HEATING EFFECT OF ELECTRIC CURRENT:\nWhen an electric current flows through a conductor, the conductor's temperature\nincreases. This is called the heating effect of electric current. It occurs because:\n- Electrons moving through the conductor collide with atoms.\n- These collisions transfer kinetic energy from electrons to atoms.\n- The atomic vibrations increase, causing the temperature to rise.\n- In a purely resistive circuit, all the electrical energy is converted into heat energy.\n\nDERIVATION OF H = I^2 x R x t:\n(As derived in Q4 above: H = VIt, then V = IR so H = I^2 x R x t.)\n\nAPPLICATIONS:\n1. ELECTRIC HEATER: Nichrome wire with high resistance produces large amounts of heat.\n2. ELECTRIC IRON: Heating effect is used to iron clothes.\n3. ELECTRIC BULB: Tungsten filament is heated to a high temperature so it emits light.\n4. ELECTRIC KETTLE: Heats water using the heating effect.\n5. ELECTRIC FUSE: Protects circuits; fuse wire melts when excess current flows.\n6. TOASTER: Heats bread using nichrome heating elements.\n\nNUMERICAL:\nGiven: I = 0.5 A, V = 220 V, t = 10 min = 600 s\n(a) Resistance of bulb: R = V/I = 220/0.5 = 440 Omega\n(b) Heat produced in 10 minutes:\nH = I^2 x R x t = (0.5)^2 x 440 x 600 = 0.25 x 440 x 600 = 66,000 J = 66 kJ\n\n--------------------------------------------------------------------------------"
+            }
+          ]
+        },
+        {
+          "type": "mcq",
+          "label": "TOPIC 11.7 MCQ",
+          "items": [
+            {
+              "mcq_num": 1,
+              "difficulty": "Easy",
+              "question": "The heating effect of electric current is used in which of the following?",
+              "options": {
+                "A": "Electric motor",
+                "B": "Electric heater",
+                "C": "Electric generator",
+                "D": "Transformer"
+              },
+              "answer": "B",
+              "explanation": "The heating effect (H = I^2 x R x t) is used in electric heater, electric iron, electric bulb (filament heating), toaster etc. Electric motors use magnetic effect of current, not the heating effect."
+            },
+            {
+              "mcq_num": 2,
+              "difficulty": "Easy",
+              "question": "According to Joule's law of heating, if the current through a resistor is doubled, the heat produced becomes:",
+              "options": {
+                "A": "Double",
+                "B": "Half",
+                "C": "Four times",
+                "D": "Eight times"
+              },
+              "answer": "C",
+              "explanation": "H = I^2 x R x t. If current is doubled (2I), heat = (2I)^2 x R x t = 4 x I^2 x R x t = 4H. Heat becomes four times because H is proportional to I^2 (square of current)."
+            },
+            {
+              "mcq_num": 3,
+              "difficulty": "Medium",
+              "question": "An electric iron of resistance 20 Omega takes a current of 5 A for 1 minute. The heat developed is:",
+              "options": {
+                "A": "100 J",
+                "B": "6000 J",
+                "C": "300 J",
+                "D": "30,000 J"
+              },
+              "answer": "D",
+              "explanation": "H = I^2 x R x t = (5)^2 x 20 x 60 = 25 x 20 x 60 = 30,000 J. Note: t must be in seconds (1 min = 60 s). Options B and C forget to convert minutes to seconds."
+            },
+            {
+              "mcq_num": 4,
+              "difficulty": "Medium",
+              "question": "Why is tungsten used for making filaments of electric bulbs?",
+              "options": {
+                "A": "It has low melting point",
+                "B": "It has high resistivity and very high melting point",
+                "C": "It is a good conductor of electricity",
+                "D": "It does not produce heat"
+              },
+              "answer": "B",
+              "explanation": "Tungsten has a very high melting point (3380 degrees C) so it does not melt even at the high temperatures needed to emit light. It also has appreciable resistivity (5.20 x 10^-8 Omega m) to produce sufficient heat. Option A (low melting point) is wrong - tungsten has very high melting point."
+            },
+            {
+              "mcq_num": 5,
+              "difficulty": "Hard",
+              "question": "The heat produced in a conductor of resistance R when current I flows for time t is H = I^2 x R x t. If the same power is dissipated in two resistors R and 2R connected in series, what is the ratio of heat produced in R to heat produced in 2R?",
+              "options": {
+                "A": "1:1",
+                "B": "1:2",
+                "C": "2:1",
+                "D": "4:1"
+              },
+              "answer": "B",
+              "explanation": "In series, same current I flows through both. H_R = I^2 x R x t; H_2R = I^2 x 2R x t. Ratio = H_R/H_2R = R/(2R) = 1/2, i.e., 1:2. More heat in 2R than in R for same current. Options C and D are reversed or incorrect."
+            }
+          ]
+        }
+      ],
+      "subtopics": [
+        {
+          "subtopic_num": "11.7.1",
+          "subtopic_name": "PRACTICAL APPLICATIONS OF HEATING EFFECT OF ELECTRIC CURRENT",
+          "sections": [
+            {
+              "type": "definition",
+              "label": "DEFINITION:",
+              "text": "The practical applications of heating effect of electric current are devices and systems\nthat use Joule's heating (H = I^2 x R x t) for performing useful functions such as\nheating, lighting, and circuit protection."
+            },
+            {
+              "type": "key_points",
+              "label": "KEY POINTS:",
+              "points": [
+                "Generation of heat in a conductor is an inevitable consequence of electric current.",
+                "In many practical situations, this heat is useful (heaters, irons, bulbs).",
+                "In some situations, the heat is undesirable (power transmission losses).",
+                "KEY APPLICATIONS:",
+                "1. ELECTRIC HEATING DEVICES:",
+                "Electric laundry iron, electric toaster, electric oven, electric kettle, electric heater.",
+                "These use alloys (like Nichrome) with high resistivity.",
+                "Nichrome does not oxidise at high temperatures, making it durable.",
+                "2. ELECTRIC BULB:",
+                "Uses heating effect to produce light.",
+                "Filament must get very hot and emit light, but must not melt at such temperature.",
+                "Tungsten (melting point: 3380 degrees C) is used for making bulb filaments.",
+                "The filament is thermally isolated using insulating support.",
+                "Bulbs are filled with chemically inactive nitrogen and argon gases to prolong filament life.",
+                "Most power consumed by the bulb appears as heat; only a small part is radiated as light.",
+                "3. ELECTRIC FUSE:",
+                "One of the most important applications of Joule's heating.",
+                "Purpose: Protects circuits and appliances by stopping the flow of excessive current.",
+                "HOW IT WORKS: The fuse is placed in series with the device. It consists of a piece of",
+                "wire made of a metal or alloy (like aluminium, copper, iron, lead) with appropriate",
+                "melting point. If the current exceeds the specified value, the fuse wire heats up and",
+                "melts, breaking the circuit and stopping the flow of current.",
+                "The fuse wire is usually encased in a cartridge of porcelain or similar material with",
+                "metal ends.",
+                "Fuses for domestic purposes are rated: 1 A, 2 A, 3 A, 5 A, 10 A, etc.",
+                "Example: For an electric iron consuming 1 kW at 220 V, current = 1000/220 = 4.54 A.",
+                "A 5 A fuse must be used.",
+                "DO YOU KNOW: Many people think that electrons are consumed in an electric circuit. This",
+                "is wrong! We pay the electricity board or electric company to provide energy to move",
+                "electrons through the electric gadgets. We pay for the ENERGY consumed, not the",
+                "electrons.",
+                "-------------------------------------------------------------------------------"
+              ]
+            },
+            {
+              "type": "qa",
+              "label": "SUB-TOPIC 11.7.1 Q&A",
+              "items": [
+                {
+                  "q_num": 1,
+                  "marks": 2,
+                  "question": "Name three electrical devices based on the heating effect of electric",
+                  "answer": "Three electrical devices based on the heating effect of electric current:\n1. ELECTRIC HEATER - uses nichrome heating element to produce heat.\n2. ELECTRIC BULB - tungsten filament heats up and emits light.\n3. ELECTRIC FUSE - fuse wire melts to protect circuits from excess current.\nOther examples: Electric iron, electric toaster, electric oven, electric kettle."
+                },
+                {
+                  "q_num": 2,
+                  "marks": 3,
+                  "question": "Why is tungsten used for making filaments of electric bulbs? What gases",
+                  "answer": "WHY TUNGSTEN:\n- The filament of an electric bulb must get very hot (to emit light), but must not melt.\n- Tungsten has an extremely high melting point of 3380 degrees C, so it can withstand the\nhigh temperature without melting.\n- Tungsten also has a high resistivity, allowing it to heat up sufficiently with the\ncurrent flowing through it.\n- It can be drawn into thin wires (high tensile strength).\nGASES FILLED INSIDE:\n- Bulbs are filled with chemically inactive (inert) gases: NITROGEN and ARGON.\n- These gases prolong the life of the filament by preventing it from burning (oxidising).\n- Without these gases, the filament would burn out quickly in the presence of air (oxygen)."
+                },
+                {
+                  "q_num": 3,
+                  "marks": 4,
+                  "question": "What is an electric fuse? How does it work? Why is it placed in series in",
+                  "answer": "ELECTRIC FUSE:\nAn electric fuse is a safety device used to protect electrical circuits and appliances\nfrom damage caused by excessive current (short circuit or overload).\n\nHOW IT WORKS:\n- The fuse consists of a short piece of wire made of a metal or alloy (like aluminium,\ncopper, iron, lead, or an alloy) with an appropriate low melting point.\n- It is placed in series with the device or circuit to be protected.\n- Under normal conditions, the current through the fuse is within the rated limit.\n- If an excessive current flows (due to a short circuit or overload), the fuse wire\nheats up rapidly (H = I^2 x R x t).\n- The temperature exceeds the melting point of the fuse wire.\n- The fuse wire MELTS and BREAKS the circuit, stopping the flow of current.\n- This protects the appliances and wiring from damage.\n\nWHY IN SERIES:\nThe fuse must carry the same current as the circuit it protects. This is only possible\nwhen it is connected in series. If connected in parallel, most current would bypass the\nfuse (fuse has low resistance) and it would not protect the circuit.\n\nRATINGS OF FUSES:\n- Domestic fuses are rated: 1 A, 2 A, 3 A, 5 A, 10 A, etc.\n- For a 1 kW electric iron at 220 V: I = P/V = 1000/220 = 4.54 A. Use a 5 A fuse.\n\n--------------------------------------------------------------------------------"
+                }
+              ]
+            },
+            {
+              "type": "mcq",
+              "label": "SUB-TOPIC 11.7.1 MCQ",
+              "items": [
+                {
+                  "mcq_num": 1,
+                  "difficulty": "Easy",
+                  "question": "Which of the following is NOT an application of the heating effect of electric current?",
+                  "options": {
+                    "A": "Electric heater",
+                    "B": "Electric fuse",
+                    "C": "Electric motor",
+                    "D": "Electric bulb"
+                  },
+                  "answer": "C",
+                  "explanation": "An electric motor converts electrical energy into mechanical energy using the magnetic effect of current, not the heating effect. Electric heater, fuse, and bulb all use the heating effect (H = I^2 x R x t)."
+                },
+                {
+                  "mcq_num": 2,
+                  "difficulty": "Easy",
+                  "question": "Why is the fuse wire made of a material with a low melting point?",
+                  "options": {
+                    "A": "So that it can carry high current",
+                    "B": "So that it melts quickly when excessive current flows, breaking the circuit",
+                    "C": "To reduce the resistance of the circuit",
+                    "D": "To increase the current in the circuit"
+                  },
+                  "answer": "B",
+                  "explanation": "The fuse wire must melt and break the circuit when excessive current flows. A low melting point ensures that the fuse wire melts quickly when the current exceeds the rated value, thus protecting the circuit. High melting point material would not melt and would fail to protect."
+                },
+                {
+                  "mcq_num": 3,
+                  "difficulty": "Medium",
+                  "question": "Why are electric bulbs filled with nitrogen and argon gases?",
+                  "options": {
+                    "A": "To increase the brightness of the bulb",
+                    "B": "To reduce the temperature of the filament",
+                    "C": "To prevent the filament from burning (oxidising) and to prolong its life",
+                    "D": "To reduce the resistance of the filament"
+                  },
+                  "answer": "C",
+                  "explanation": "Nitrogen and argon are chemically inactive (inert) gases. They prevent the tungsten filament from oxidising (burning out) at high temperatures, thereby prolonging the life of the filament. They do not affect brightness or temperature of the filament."
+                },
+                {
+                  "mcq_num": 4,
+                  "difficulty": "Medium",
+                  "question": "An electric iron consumes 1 kW power at 220 V. What should be the rating of the fuse to be used?",
+                  "options": {
+                    "A": "2 A",
+                    "B": "3 A",
+                    "C": "5 A",
+                    "D": "10 A"
+                  },
+                  "answer": "C",
+                  "explanation": "Current = P/V = 1000/220 = 4.54 A. The fuse rating must be just above the operating current but below the damage threshold. A 5 A fuse is appropriate. A 3 A fuse would blow during normal operation; a 10 A fuse would not protect adequately."
+                },
+                {
+                  "mcq_num": 5,
+                  "difficulty": "Hard",
+                  "question": "The filament of an electric bulb is made of tungsten. What would happen if the filament were made of copper instead?",
+                  "options": {
+                    "A": "The bulb would glow brighter",
+                    "B": "The bulb would not glow at all as copper would melt before reaching the required temperature",
+                    "C": "The bulb would work exactly the same way",
+                    "D": "The bulb would glow cooler but longer"
+                  },
+                  "answer": "B",
+                  "explanation": "Copper has a melting point of only about 1085 degrees C, much lower than the temperature needed to emit light (about 2000-3000 degrees C). Copper also oxidises readily at high temperatures. So a copper filament would melt before reaching the temperature needed to emit visible light. Tungsten's melting point (3380 degrees C) makes it uniquely suitable."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic_num": "11.8",
+      "topic_name": "ELECTRIC POWER",
+      "mode": "B",
+      "sections": [
+        {
+          "type": "definition",
+          "label": "DEFINITION:",
+          "text": "Electric power is the rate at which energy is consumed or dissipated in an electric\ncircuit. It is also the rate at which electrical work is done.\nP = VI = I^2 x R = V^2/R   ...(11.22)\nThe SI unit of electric power is watt (W)."
+        },
+        {
+          "type": "key_points",
+          "label": "KEY POINTS:",
+          "points": [
+            "Power P = rate of doing work = rate of consumption of energy.",
+            "From H = VIt (11.20): P = H/t = VI   ...(11.19)",
+            "Using V = IR: P = VI = (IR) x I = I^2 x R",
+            "Using I = V/R: P = VI = V x (V/R) = V^2/R",
+            "Combined: P = VI = I^2 x R = V^2/R   ...(11.22)",
+            "SI unit of power: watt (W).",
+            "1 W = 1 volt x 1 ampere = 1 V A   ...(11.23)",
+            "The unit 'watt' is very small for practical use.",
+            "Larger unit: kilowatt (kW). 1 kW = 1000 W.",
+            "Electrical energy is the product of power and time.",
+            "Unit of electrical energy: watt hour (W h) or kilowatt hour (kW h).",
+            "Commercial unit of electrical energy: kilowatt hour (kW h), commonly known as 'unit'.",
+            "1 kW h = 1000 W x 3600 s = 3.6 x 10^6 W s = 3.6 x 10^6 J   ...(conversion)",
+            "MORE TO KNOW (box in textbook):",
+            "Many people think that electrons are consumed in an electric circuit. This is WRONG!",
+            "We pay the electricity board or electric company to provide ENERGY to move electrons",
+            "through the electric gadgets like bulbs, fans, engines. We pay for the ENERGY (not",
+            "electrons) that we use.",
+            "EXAMPLE 11.12:",
+            "An electric bulb is connected to a 220 V generator. The current is 0.50 A. What is",
+            "the power of the bulb?",
+            "SOLUTION: P = VI = 220 x 0.50 = 110 J/s = 110 W.",
+            "EXAMPLE 11.13:",
+            "An electric refrigerator rated 400 W operates 8 hours/day. What is the cost of energy",
+            "to operate it for 30 days at Rs 3.00 per kW h?",
+            "SOLUTION:",
+            "Total energy = 400 W x 8 h/day x 30 days = 96000 W h = 96 kW h.",
+            "Cost = 96 kW h x Rs 3.00 per kW h = Rs 288.00.",
+            "IN-TEXT QUESTIONS (after 11.8):",
+            "1. What determines the rate at which energy is delivered by a current?",
+            "2. An electric motor takes 5 A from a 220 V line. Determine the power of the motor and",
+            "the energy consumed in 2 h.",
+            "ANSWERS:",
+            "1. The rate at which energy is delivered by a current (electric power) is determined by:",
+            "The potential difference (V) across the conductor.",
+            "The current (I) flowing through the conductor.",
+            "Power P = VI. Also P = I^2 x R (depends on current and resistance) or P = V^2/R.",
+            "2. Given: I = 5 A, V = 220 V, t = 2 h = 2 x 3600 = 7200 s",
+            "Power of motor: P = VI = 220 x 5 = 1100 W = 1.1 kW",
+            "Energy consumed in 2 h: E = P x t = 1100 x 7200 = 7,920,000 J = 7.92 x 10^6 J",
+            "Or in commercial units: E = 1.1 kW x 2 h = 2.2 kW h.",
+            "-------------------------------------------------------------------------------"
+          ]
+        },
+        {
+          "type": "qa",
+          "label": "TOPIC 11.8 Q&A",
+          "items": [
+            {
+              "q_num": 1,
+              "marks": 2,
+              "question": "Define electric power. Write its SI unit.",
+              "answer": "Electric power is defined as the rate at which electrical energy is consumed or\ndissipated in an electric circuit.\nP = VI (or P = I^2 x R or P = V^2/R)\nThe SI unit of electric power is watt (W).\n1 W = 1 V x 1 A = 1 J/s."
+            },
+            {
+              "q_num": 2,
+              "marks": 2,
+              "question": "What is 1 kilowatt hour (kWh)? How many joules is it equal to?",
+              "answer": "One kilowatt hour (kWh) is the commercial unit of electric energy. It is the energy\nconsumed when an electrical appliance of power 1 kilowatt (1000 W) operates for 1 hour.\n1 kWh = 1000 W x 3600 s = 3.6 x 10^6 J = 3,600,000 J.\nThis unit is also called 'unit' of electricity (used in electricity billing)."
+            },
+            {
+              "q_num": 3,
+              "marks": 3,
+              "question": "An electric bulb is connected to a 220 V supply and takes a current of",
+              "answer": "Given: V = 220 V, I = 0.5 A, t = 2 h = 7200 s\n(a) Power: P = VI = 220 x 0.5 = 110 W\n(b) Resistance: R = V/I = 220/0.5 = 440 Omega\nOR: P = V^2/R => R = V^2/P = 220^2/110 = 48400/110 = 440 Omega\n(c) Energy consumed in 2 hours:\nE = P x t = 110 W x 7200 s = 792,000 J = 7.92 x 10^5 J\nOR in kWh: E = 0.11 kW x 2 h = 0.22 kWh"
+            },
+            {
+              "q_num": 4,
+              "marks": 4,
+              "question": "Derive the expression for electric power in terms of (a) V and I,",
+              "answer": "DERIVATION:\nPower is defined as the rate of doing work (or rate of energy consumption):\nP = W/t = H/t\n\nFrom Joule's law: H = VIt   ...(11.20)\nDividing by t: P = VI   ...(Form 1)\n\n(a) P = VI [in terms of V and I]\n\n(b) Substituting V = IR (Ohm's law) in P = VI:\nP = (IR) x I = I^2 x R   ...(Form 2)\n\n(c) Substituting I = V/R (Ohm's law) in P = VI:\nP = V x (V/R) = V^2/R   ...(Form 3)\n\nAll three forms: P = VI = I^2 x R = V^2/R   ...(11.22)\n\nUNIT OF POWER:\n1 W = 1 V x 1 A (one watt = one volt-ampere)\nLarger units: 1 kW = 1000 W; 1 MW = 10^6 W."
+            },
+            {
+              "q_num": 5,
+              "marks": 4,
+              "question": "An electric refrigerator rated at 250 W operates for 8 hours a day. If",
+              "answer": "Given: P = 250 W = 0.25 kW, time per day = 8 h, number of days = 30, cost = Rs 4 per kWh\nStep 1: Energy consumed per day = P x t = 0.25 kW x 8 h = 2 kWh\nStep 2: Energy consumed in 30 days = 2 kWh x 30 = 60 kWh\nStep 3: Cost of electricity = 60 kWh x Rs 4 per kWh = Rs 240\nThe cost of electricity for 30 days is Rs 240."
+            },
+            {
+              "q_num": 6,
+              "marks": 6,
+              "question": "Define electric power and commercial unit of energy. Derive P = I^2 x R.",
+              "answer": "ELECTRIC POWER:\nElectric power is the rate at which electrical energy is consumed or dissipated in an\nelectric circuit.\nP = VI = I^2 x R = V^2/R\nUnit: watt (W). 1 W = 1 V x 1 A.\n\nCOMMERCIAL UNIT OF ENERGY:\nThe commercial unit of electric energy is kilowatt hour (kWh), also known as 'unit'.\n1 kWh = 1000 W x 3600 s = 3.6 x 10^6 J.\nThis is the unit used by electricity companies for billing.\n\nDERIVATION OF P = I^2 x R:\nFrom Joule's law: H = VIt.\nPower P = H/t = VI.\nSubstituting V = IR (Ohm's law): P = (IR) x I = I^2 x R.\nTherefore, P = I^2 x R.\n\nNUMERICAL:\nGiven: P = 2 kW = 2000 W, V = 220 V\n(a) Current drawn:\nP = VI => I = P/V = 2000/220 = 9.09 A\n(b) Resistance:\nR = V/I = 220/9.09 = 24.2 Omega\n(OR: R = V^2/P = 220^2/2000 = 48400/2000 = 24.2 Omega)\n(c) Energy consumed in 30 days:\nEnergy per day = P x t = 2 kW x 3 h = 6 kWh\nEnergy in 30 days = 6 x 30 = 180 kWh\nCost = 180 kWh x Rs 5 per kWh = Rs 900\n\n--------------------------------------------------------------------------------"
+            }
+          ]
+        },
+        {
+          "type": "mcq",
+          "label": "TOPIC 11.8 MCQ",
+          "items": [
+            {
+              "mcq_num": 1,
+              "difficulty": "Easy",
+              "question": "What is the commercial unit of electrical energy?",
+              "options": {
+                "A": "Watt",
+                "B": "Joule",
+                "C": "Kilowatt hour (kWh)",
+                "D": "Volt-ampere"
+              },
+              "answer": "C",
+              "explanation": "The commercial unit of electrical energy is kilowatt hour (kWh), also known as 'unit'. 1 kWh = 3.6 x 10^6 J. Watt is the unit of power (not energy). Joule is the SI unit of energy (not the commercial unit)."
+            },
+            {
+              "mcq_num": 2,
+              "difficulty": "Easy",
+              "question": "Power P in terms of V and I is:",
+              "options": {
+                "A": "P = V/I",
+                "B": "P = I/V",
+                "C": "P = VI",
+                "D": "P = V + I"
+              },
+              "answer": "C",
+              "explanation": "Electric power P = VI (voltage x current). This follows from P = W/t = VQ/t = V x I (since Q/t = I). Options A and B are incorrect formulas; option D has wrong units."
+            },
+            {
+              "mcq_num": 3,
+              "difficulty": "Medium",
+              "question": "An electric bulb is rated 220 V and 100 W. What is the resistance of the bulb?",
+              "options": {
+                "A": "220 Omega",
+                "B": "484 Omega",
+                "C": "100 Omega",
+                "D": "22 Omega"
+              },
+              "answer": "B",
+              "explanation": "R = V^2/P = 220^2/100 = 48400/100 = 484 Omega. Alternatively, I = P/V = 100/220 = 0.455 A; R = V/I = 220/0.455 = 484 Omega. Options A, C, D result from incorrect formulas."
+            },
+            {
+              "mcq_num": 4,
+              "difficulty": "Medium",
+              "question": "An electric motor takes 5 A from a 220 V supply. The energy consumed in 2 hours is:",
+              "options": {
+                "A": "1100 J",
+                "B": "7920 J",
+                "C": "7.92 x 10^6 J",
+                "D": "2200 J"
+              },
+              "answer": "C",
+              "explanation": "P = VI = 220 x 5 = 1100 W. E = P x t = 1100 x (2 x 3600) = 1100 x 7200 = 7,920,000 J = 7.92 x 10^6 J. Option A forgets to multiply by time; option B uses time in hours without converting to seconds."
+            },
+            {
+              "mcq_num": 5,
+              "difficulty": "Hard",
+              "question": "Two electric bulbs, rated 40 W and 60 W respectively, are connected in series to a 220 V supply. Which bulb will glow brighter and why?",
+              "options": {
+                "A": "60 W bulb, as it has lower resistance",
+                "B": "40 W bulb, as it has higher resistance and more power is dissipated in series",
+                "C": "Both glow with equal brightness",
+                "D": "Neither glows as they are in series"
+              },
+              "answer": "B",
+              "explanation": "Rated at same voltage (220 V), R = V^2/P. R_40W = 220^2/40 = 1210 Omega; R_60W = 220^2/60 = 807 Omega. In series, same current flows. P = I^2 x R. More power is dissipated in the 40 W bulb (higher R), so it glows BRIGHTER in series, contrary to what the watt rating might suggest."
+            }
+          ]
+        },
+        {
+          "type": "qa",
+          "label": "CHAPTER 11 EXERCISE QUESTIONS AND ANSWERS",
+          "items": []
+        }
+      ],
+      "subtopics": []
+    }
+  ]
+}

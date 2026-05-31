@@ -1,0 +1,866 @@
+{
+  "metadata": {
+    "class": "8TH STANDARD",
+    "subject": "Mathematics",
+    "part": "2",
+    "chapter_num": "11",
+    "chapter_name": "DIRECT AND INVERSE PROPORTIONS",
+    "source": "KSEEB Textbook 2025-26",
+    "mode": "B"
+  },
+  "chapter_sections": [
+    {
+      "type": "definition",
+      "label": "Definition:",
+      "text": "When one quantity changes (increases or decreases), it brings about a change in\nanother quantity. This relationship between two quantities is called VARIATION.\nThere are two types of variation: Direct Proportion and Inverse Proportion."
+    },
+    {
+      "type": "key_points",
+      "label": "Key Points:",
+      "points": [
+        "Change in one quantity leads to change in another quantity.",
+        "Two types: DIRECT PROPORTION (both change in the same direction) and",
+        "INVERSE PROPORTION (they change in opposite directions).",
+        "Examples of increase with increase:",
+        "(i) More articles purchased → more total cost.",
+        "(ii) More money deposited in bank → more interest earned.",
+        "Examples of increase with decrease:",
+        "(iii) More speed → less time to cover the same distance.",
+        "(iv) More workers → less time to complete a job."
+      ]
+    },
+    {
+      "type": "list_of_topics",
+      "label": "LIST OF TOPICS IN THIS CHAPTER:",
+      "items": [
+        "- Topic 11.1: Introduction",
+        "- Topic 11.2: Direct Proportion",
+        "- Topic 11.3: Inverse Proportion"
+      ]
+    },
+    {
+      "type": "qa",
+      "label": "CHAPTER 11: Q&A",
+      "items": []
+    },
+    {
+      "type": "mcq",
+      "label": "CHAPTER 11: MCQs:",
+      "items": [
+        {
+          "mcq_num": 1,
+          "difficulty": "Easy",
+          "question": "Which of the following is an example of direct proportion?",
+          "options": {
+            "A": "Number of workers and time to finish a job",
+            "B": "Speed of a vehicle and time to cover a fixed distance",
+            "C": "Number of articles and their total cost",
+            "D": "Number of pipes and time to fill a tank"
+          },
+          "answer": "C",
+          "explanation": "More articles means more total cost — both increase together in the same ratio."
+        },
+        {
+          "mcq_num": 2,
+          "difficulty": "Medium",
+          "question": "Mohan uses 300 mL water for 2 persons of tea. How much water is needed for 7 persons?",
+          "options": {
+            "A": "600 mL   (B) 900 mL   (C) 1050 mL   (D) 750 mL"
+          },
+          "answer": "C",
+          "explanation": "The correct answer is (C) 1050 mL. Solution: 300/2 = x/7 → x = (300 x 7)/2 = 1050 mL."
+        },
+        {
+          "mcq_num": 3,
+          "difficulty": "Hard",
+          "question": "Which of the following pairs are NEITHER in direct NOR inverse proportion?",
+          "options": {
+            "A": "Length of cloth and its cost",
+            "B": "Age of a person and height of a tree",
+            "C": "Number of workers and time to complete a job",
+            "D": "Petrol consumed and distance travelled"
+          },
+          "answer": "B",
+          "explanation": "Age of a person and height of a tree are completely unrelated quantities. There is no fixed ratio or product between them."
+        },
+        {
+          "mcq_num": 4,
+          "difficulty": "Easy",
+          "question": "If x and y are in direct proportion and x = 4 when y = 12, find y when x = 7.",
+          "options": {
+            "A": "21   (B) 18   (C) 24   (D) 28"
+          },
+          "answer": "A",
+          "explanation": "The correct answer is (A) 21. Solution: x/y = constant = 4/12 = 1/3. So y = 3x = 3×7 = 21."
+        },
+        {
+          "mcq_num": 5,
+          "difficulty": "Medium",
+          "question": "A car travels 150 km in 3 hours. How long will it take to travel 250 km at the same speed?",
+          "options": {
+            "A": "4 hours   (B) 4.5 hours   (C) 5 hours   (D) 6 hours"
+          },
+          "answer": "C",
+          "explanation": "The correct answer is (C) 5 hours. Solution: 150/3 = 250/t → t = (250×3)/150 = 5 hours. (Direct proportion)"
+        },
+        {
+          "mcq_num": 6,
+          "difficulty": "Medium",
+          "question": "8 workers can finish a task in 15 days. In how many days will 12 workers finish it?",
+          "options": {
+            "A": "8 days   (B) 10 days   (C) 12 days   (D) 15 days"
+          },
+          "answer": "B",
+          "explanation": "The correct answer is (B) 10 days. Solution: 8×15 = 12×d → d = 120/12 = 10 days. (Inverse proportion)"
+        }
+      ]
+    }
+  ],
+  "topics": [
+    {
+      "topic_num": "11.1",
+      "topic_name": "INTRODUCTION",
+      "mode": "B",
+      "sections": [
+        {
+          "type": "definition",
+          "label": "Definition:",
+          "text": "When we need to see variation in one quantity bringing variation in the other,\nwe study proportions. VARIATION means a change in one quantity that causes a\nchange in another quantity. We study two concepts of variation: direct proportion\nand inverse proportion."
+        },
+        {
+          "type": "key_points",
+          "label": "Key Points:",
+          "points": [
+            "Change in one quantity leads to change in another quantity.",
+            "Examples where both quantities increase together:",
+            "(i) If the number of articles purchased increases, the total cost also increases.",
+            "(ii) More the money deposited in a bank, more is the interest earned.",
+            "Examples where one quantity increases and the other decreases:",
+            "(iii) As the speed of a vehicle increases, time taken to cover the same distance decreases.",
+            "(iv) For a given job, more the number of workers, less the time taken.",
+            "The chapter deals with two situations: both change in same direction (direct),",
+            "or they change in opposite directions (inverse).",
+            "Note: Variables increasing (or decreasing) together do NOT always mean direct proportion.",
+            "For example:",
+            "(i) Physical changes in humans occur with time but not in a predetermined ratio.",
+            "(ii) Changes in weight and height are not in any known proportion.",
+            "(iii) No direct relationship between height of a tree and number of its leaves.",
+            "(No sub-topics under 11.1 in textbook.)",
+            "EXAMPLES: (textbook examples)",
+            "EXAMPLE 11.1.1: Tea ingredients for different persons",
+            "PROBLEM:",
+            "Mohan prepares tea for himself and his sister. He uses 300 mL of water,",
+            "2 spoons of sugar, 1 spoon of tea leaves and 50 mL of milk for 2 persons.",
+            "How much of each item will he need for 5 persons?",
+            "SOLUTION:",
+            "Step 1: Ratio of persons = 5/2",
+            "Step 2: Multiply each ingredient by 5/2:",
+            "Water = 300 x (5/2) = 750 mL",
+            "Sugar = 2 x (5/2) = 5 spoons",
+            "Tea leaves = 1 x (5/2) = 2(1/2) spoons",
+            "Milk = 50 x (5/2) = 125 mL",
+            "ANSWER: 750 mL water, 5 spoons sugar, 2(1/2) spoons tea leaves, 125 mL milk.",
+            "EXAMPLE 11.1.2: Students arranging chairs",
+            "PROBLEM:",
+            "Two students take 20 minutes to arrange chairs for an assembly. How much time",
+            "would five students take?",
+            "SOLUTION:",
+            "Step 1: More students → less time (inverse proportion).",
+            "Step 2: 2 x 20 = 5 x t",
+            "Step 3: t = 40/5 = 8 minutes.",
+            "ANSWER: 5 students will take 8 minutes."
+          ]
+        },
+        {
+          "type": "qa",
+          "label": "TOPIC 11.1: Q&A:",
+          "items": []
+        },
+        {
+          "type": "qa",
+          "label": "Q&A",
+          "items": [
+            {
+              "q_num": 1,
+              "marks": 2,
+              "question": "What is variation? Give one example each of direct and inverse",
+              "answer": "When a change in one quantity brings about a change in another quantity,\nit is called VARIATION.\nDirect variation: More articles purchased → more total cost.\nInverse variation: More workers on a job → less time to finish."
+            },
+            {
+              "q_num": 2,
+              "marks": 2,
+              "question": "Do two quantities that both increase always form a direct",
+              "answer": "No. Two quantities that both increase need not be in direct proportion.\nExample: Age and weight of a person both increase over time, but not in a\nfixed ratio — so they are NOT in direct proportion."
+            },
+            {
+              "q_num": 3,
+              "marks": 2,
+              "question": "Mohan uses 300 mL of water for 2 persons of tea. How much",
+              "answer": "More persons → more water — direct proportion.\n300/2 = x/5 → x = (300 × 5)/2 = 750 mL.\nMohan needs 750 mL of water for 5 persons.\n\n---\n\n3 ಮಾರ್ಕ್ಸ್ × 2 questions:"
+            },
+            {
+              "q_num": 4,
+              "marks": 3,
+              "question": "If 2 students take 20 minutes to arrange chairs, how long will",
+              "answer": "Step 1: More students → less time — inverse proportion.\nStep 2: x1 × y1 = x2 × y2\n2 × 20 = 5 × t\nStep 3: t = 40/5 = 8 minutes.\nAnswer: 5 students will take 8 minutes to arrange the chairs."
+            },
+            {
+              "q_num": 5,
+              "marks": 3,
+              "question": "Mohan needs 300 mL water, 2 spoons sugar, 1 spoon tea leaves",
+              "answer": "Step 1: More persons → more ingredients — direct proportion.\nMultiplying factor = 5/2.\nStep 2:\nWater = 300 × (5/2) = 750 mL.\nSugar = 2 × (5/2) = 5 spoons.\nTea leaves = 1 × (5/2) = 2½ spoons.\nMilk = 50 × (5/2) = 125 mL.\nStep 3: All quantities increase in ratio 5:2.\nAnswer: 750 mL water, 5 spoons sugar, 2½ spoons tea leaves, 125 mL milk.\n\n---\n\n4 ಮಾರ್ಕ್ಸ್ × 2 questions:"
+            },
+            {
+              "q_num": 6,
+              "marks": 4,
+              "question": "Give two examples each of (i) direct proportion and (ii) inverse",
+              "answer": "Step 1: Direct proportion examples (ratio x/y = constant):\n(i) Number of articles purchased and total cost.\nMore articles → more cost. Ratio = price per item = constant.\n(ii) Litres of petrol consumed and distance travelled.\nMore petrol → more distance. Ratio = km per litre = constant.\nStep 2: Inverse proportion examples (product xy = constant):\n(i) Number of workers and days to finish a job.\nMore workers → fewer days. Product = total work = constant.\n(ii) Speed of a vehicle and time to cover a fixed distance.\nMore speed → less time. Product = distance = constant.\nStep 3: Key difference — direct proportion has constant ratio;\ninverse proportion has constant product.\nStep 4: Some pairs (like age of person and height of unrelated tree) have\nno mathematical relationship — neither direct nor inverse proportion."
+            },
+            {
+              "q_num": 7,
+              "marks": 4,
+              "question": "In a school assembly, 2 students take 20 minutes to arrange",
+              "answer": "Step 1: More students → less time — inverse proportion.\nConstant = 2 × 20 = 40.\nStep 2: (i) Time = 8 minutes:\n2 × 20 = x × 8 → x = 40/8 = 5 students.\nStep 3: (ii) Students = 10:\n2 × 20 = 10 × t → t = 40/10 = 4 minutes.\nStep 4: Verification:\n5 × 8 = 40 ✓   10 × 4 = 40 ✓   2 × 20 = 40 ✓\nAnswer: (i) 5 students needed for 8 minutes.\n(ii) 10 students will take 4 minutes.\n\n---\n\n5 ಮಾರ್ಕ್ಸ್ × 1 question:"
+            },
+            {
+              "q_num": 8,
+              "marks": 5,
+              "question": "",
+              "answer": "PART A — Identifying proportion type:\nTable 1: Ratio x/y: 20/40=1/2, 17/34=1/2, 14/28=1/2, 11/22=1/2.\nRatio is constant = 1/2 → DIRECT PROPORTION.\n\nTable 2: Product xy: 100×60=6000, 200×30=6000, 300×20=6000, 400×15=6000.\nProduct is constant = 6000 → INVERSE PROPORTION.\n\nTable 3: Ratio: 6/4=1.5, 10/8=1.25. NOT equal.\nProduct: 6×4=24, 10×8=80. NOT equal.\n→ NEITHER direct nor inverse proportion.\n\nPART B — Finding missing values:\nTable 1 (direct proportion, ratio = 1/2):\nx/y = 1/2 → y = 2x. When x = 3: y = 6.\n\nTable 2 (inverse proportion, product = 6000):\nxy = 6000. When x = 500: y = 6000/500 = 12."
+            }
+          ]
+        },
+        {
+          "type": "mcq",
+          "label": "MCQ",
+          "items": [
+            {
+              "mcq_num": 1,
+              "difficulty": "Easy",
+              "question": "As the speed of a vehicle increases, the time taken to cover the same distance:",
+              "options": {
+                "A": "Increases   (B) Stays the same   (C) Decreases   (D) Doubles"
+              },
+              "answer": "C",
+              "explanation": "More speed → less time. They are in inverse proportion."
+            },
+            {
+              "mcq_num": 2,
+              "difficulty": "Medium",
+              "question": "Which of the following is NOT an example of direct variation?",
+              "options": {
+                "A": "Number of articles and total cost",
+                "B": "Money deposited and interest earned",
+                "C": "Number of workers and time to finish a job",
+                "D": "Speed of vehicle and distance covered (at constant time)"
+              },
+              "answer": "C",
+              "explanation": "More workers means less time (inverse proportion), not more time."
+            },
+            {
+              "mcq_num": 3,
+              "difficulty": "Hard",
+              "question": "Which of the following pairs is an example where two quantities increase but are NOT in direct proportion?",
+              "options": {
+                "A": "Length of cloth and cost of cloth",
+                "B": "Number of litres of petrol and distance travelled",
+                "C": "Physical height and age of a person over lifetime",
+                "D": "Number of items and their total cost"
+              },
+              "answer": "C",
+              "explanation": "Height and age do not increase in a fixed predetermined ratio — a person grows quickly in childhood and slowly later. So they are not in direct proportion despite both increasing."
+            },
+            {
+              "mcq_num": 4,
+              "difficulty": "Easy",
+              "question": "Which of these shows that increase in one quantity DECREASES the other?",
+              "options": {
+                "A": "Number of pens bought and total cost",
+                "B": "Number of workers and days to finish a job",
+                "C": "Distance on map and actual distance",
+                "D": "Principal and simple interest"
+              },
+              "answer": "B",
+              "explanation": "More workers → fewer days — inverse proportion."
+            },
+            {
+              "mcq_num": 5,
+              "difficulty": "Medium",
+              "question": "Mohan uses 2 spoons of sugar for 2 persons of tea. How many spoons are needed for 7 persons?",
+              "options": {
+                "A": "5 spoons   (B) 6 spoons   (C) 7 spoons   (D) 3.5 spoons"
+              },
+              "answer": "C",
+              "explanation": "The correct answer is (C) 7 spoons. Solution: 2/2 = x/7 → x = 7 spoons. (Direct proportion)"
+            },
+            {
+              "mcq_num": 6,
+              "difficulty": "Hard",
+              "question": "Two quantities P and Q are such that when P doubles, Q halves. This means:",
+              "options": {
+                "A": "P and Q are in direct proportion",
+                "B": "P and Q are in inverse proportion",
+                "C": "P × 2 = Q ÷ 2, so they are equal",
+                "D": "P and Q are unrelated"
+              },
+              "answer": "B",
+              "explanation": "When P doubles and Q halves, their product PQ remains constant — inverse proportion."
+            }
+          ]
+        }
+      ],
+      "subtopics": []
+    },
+    {
+      "topic_num": "11.2",
+      "topic_name": "DIRECT PROPORTION",
+      "mode": "B",
+      "sections": [
+        {
+          "type": "definition",
+          "label": "Definition:",
+          "text": "Two quantities x and y are said to be in DIRECT PROPORTION if they increase (or\ndecrease) together in such a manner that the ratio of their corresponding values\nremains constant. That is, x/y = k (k is a positive number). In this case x and y\nare said to vary directly. If y1 and y2 are the values of y corresponding to the\nvalues x1 and x2 of x respectively, then x1/y1 = x2/y2."
+        },
+        {
+          "type": "key_points",
+          "label": "Key Points:",
+          "points": [
+            "Notation: x ∝ y means x is directly proportional to y.",
+            "The ratio x/y remains the same (constant k) for all corresponding values.",
+            "If x doubles, y also doubles. If x becomes three times, y also becomes three times.",
+            "Key formula: x1/y1 = x2/y2.",
+            "Alternate form: x1 : x2 = y1 : y2.",
+            "Cross-multiplication gives: x1 x y2 = x2 x y1.",
+            "Map scale is based on direct proportion.",
+            "Consumption of petrol and distance travelled is direct proportion.",
+            "Total cost and number of articles purchased is direct proportion.",
+            "(No sub-topics under 11.2 in textbook.)"
+          ]
+        },
+        {
+          "type": "formulas",
+          "label": "FORMULA:",
+          "items": [
+            "x1/y1 = x2/y2",
+            "WHERE:",
+            "x1, x2 = two values of quantity x",
+            "y1, y2 = corresponding values of quantity y",
+            "k = x/y = constant of proportion (positive number)",
+            "Also written as: x = ky (where k = x/y)",
+            "EXAMPLES: (textbook examples)",
+            "EXAMPLE 11.2.1: Cost of cloth",
+            "PROBLEM:",
+            "The cost of 5 metres of a particular quality of cloth is Rs 210. Tabulate the",
+            "cost of 2, 4, 10 and 13 metres of cloth of the same type.",
+            "SOLUTION:",
+            "Step 1: Let length of cloth = x metres and cost = y rupees.",
+            "Step 2: As length increases, cost also increases — direct proportion.",
+            "Step 3: Use x1/y1 = x2/y2 where x1 = 5, y1 = 210.",
+            "(i) x2 = 2: 5/210 = 2/y2 → y2 = (2 x 210)/5 = 84",
+            "(ii) x3 = 4: 5/210 = 4/y3 → y3 = (4 x 210)/5 = 168",
+            "(iii) x4 = 10: 5/210 = 10/y4 → y4 = (10 x 210)/5 = 420",
+            "(iv) x5 = 13: 5/210 = 13/y5 → y5 = (13 x 210)/5 = 546",
+            "ANSWER: 2m = Rs 84, 4m = Rs 168, 10m = Rs 420, 13m = Rs 546.",
+            "EXAMPLE 11.2.2: Shadow and height of objects",
+            "PROBLEM:",
+            "An electric pole 14 metres high casts a shadow of 10 metres. Find the height",
+            "of a tree that casts a shadow of 15 metres under similar conditions.",
+            "SOLUTION:",
+            "Step 1: Let height of tree = x metres.",
+            "Step 2: More the height → more the length of shadow (direct proportion).",
+            "Step 3: 14/10 = x/15",
+            "Step 4: x = (14 x 15)/10 = 210/10 = 21 metres.",
+            "ANSWER: The height of the tree is 21 metres.",
+            "EXAMPLE 11.2.3: Number of sheets and weight",
+            "PROBLEM:",
+            "If the weight of 12 sheets of thick paper is 40 grams, how many sheets of the",
+            "same paper would weigh 2(1/2) kilograms?",
+            "SOLUTION:",
+            "Step 1: 2(1/2) kg = 2500 grams.",
+            "Step 2: Number of sheets x, weight in grams y — direct proportion.",
+            "Step 3: 12/40 = x/2500",
+            "Step 4: x = (12 x 2500)/40 = 30000/40 = 750 sheets.",
+            "Alternate method:",
+            "k = number of sheets / weight = 12/40 = 3/10",
+            "x = k x y = (3/10) x 2500 = 750 sheets.",
+            "ANSWER: 750 sheets of paper would weigh 2(1/2) kg.",
+            "EXAMPLE 11.2.4: Train speed and distance/time",
+            "PROBLEM:",
+            "A train is moving at a uniform speed of 75 km/hour.",
+            "(i) How far will it travel in 20 minutes?",
+            "(ii) Find the time required to cover a distance of 250 km.",
+            "SOLUTION:",
+            "Step 1: Speed is uniform → distance and time are in direct proportion.",
+            "Step 2: 75 km in 60 minutes (1 hour = 60 min).",
+            "(i) 75/60 = x/20 → x = (75 x 20)/60 = 1500/60 = 25 km.",
+            "(ii) 75/60 = 250/y → y = (250 x 60)/75 = 15000/75 = 200 minutes = 3 hours 20 minutes.",
+            "ANSWER: (i) 25 km in 20 minutes. (ii) 3 hours 20 minutes to cover 250 km.",
+            "EXAMPLE 11.2.5: Map scale",
+            "PROBLEM:",
+            "The scale of a map is given as 1:30000000. Two cities are 4 cm apart on the",
+            "map. Find the actual distance between them.",
+            "SOLUTION:",
+            "Step 1: Scale 1:30000000 means 1 cm on map = 30000000 cm actual = 3 x 10^7 cm.",
+            "Step 2: Let map distance = x cm, actual distance = y cm.",
+            "Direct proportion: 1/(3 x 10^7) = 4/y",
+            "Step 3: y = 4 x 3 x 10^7 = 12 x 10^7 cm = 1200 km.",
+            "ANSWER: The two cities are 1200 km apart.",
+            "TRY THESE / FIGURE IT OUT: (textbook practice boxes)",
+            "Q1: Observe the following tables and find if x and y are directly proportional:",
+            "(i) x: 20, 17, 14, 11, 8, 5, 2    y: 40, 34, 28, 22, 16, 10, 4",
+            "A1: Check ratio x/y: 20/40=1/2, 17/34=1/2, 14/28=1/2. Ratio is constant = 1/2.",
+            "Yes, x and y are in direct proportion.",
+            "(ii) x: 6, 10, 14, 18, 22, 26, 30    y: 4, 8, 12, 16, 20, 24, 28",
+            "A2: Check ratio: 6/4=1.5, 10/8=1.25. Ratios are NOT equal. Not direct proportion.",
+            "(iii) x: 5, 8, 12, 15, 18, 20    y: 15, 24, 36, 60, 72, 100",
+            "A3: 5/15=1/3, 8/24=1/3, 12/36=1/3, 15/60=1/4. Ratios NOT equal. Not direct proportion.",
+            "Q2: Principal = Rs 1000, Rate = 8% per annum.",
+            "Which type of interest (simple or compound) changes in direct proportion with time?",
+            "A2: Simple Interest (SI) = (P x r x t)/100 = (1000 x 8 x t)/100 = 80t.",
+            "SI is directly proportional to time t (SI/t = 80 = constant).",
+            "Compound Interest does NOT change in direct proportion with time.",
+            "ADDITIONAL CALCULATIONS:",
+            "Problem 1: Rashmi has a road map with scale 1 cm = 18 km. She drives on a road",
+            "for 72 km. What would be her distance covered in the map?",
+            "Solution:",
+            "1 cm = 18 km → 72 km = 72/18 = 4 cm on map.",
+            "Answer: 4 cm on map.",
+            "Problem 2: A machine in a soft drink factory fills 840 bottles in 6 hours.",
+            "How many bottles will it fill in 5 hours?",
+            "Solution:",
+            "840/6 = x/5 → x = (840 x 5)/6 = 700 bottles.",
+            "Answer: 700 bottles in 5 hours.",
+            "Problem 3: If 2 kg of sugar contains 9 x 10^6 crystals, how many crystals are",
+            "there in (i) 5 kg of sugar, (ii) 1.2 kg of sugar?",
+            "Solution:",
+            "(i) 2/(9x10^6) = 5/x → x = (5 x 9x10^6)/2 = 22.5 x 10^6 crystals.",
+            "(ii) 2/(9x10^6) = 1.2/x → x = (1.2 x 9x10^6)/2 = 5.4 x 10^6 crystals.",
+            "Answer: (i) 22.5 x 10^6 crystals. (ii) 5.4 x 10^6 crystals."
+          ]
+        },
+        {
+          "type": "qa",
+          "label": "TOPIC 11.2: Q&A:",
+          "items": []
+        },
+        {
+          "type": "qa",
+          "label": "Q&A",
+          "items": [
+            {
+              "q_num": 1,
+              "marks": 2,
+              "question": "Define direct proportion and write its formula.",
+              "answer": "Two quantities x and y are in DIRECT PROPORTION if their ratio x/y = k\n(constant) for all corresponding values.\nFormula: x1/y1 = x2/y2.\nWhen x increases, y also increases in the same ratio."
+            },
+            {
+              "q_num": 2,
+              "marks": 2,
+              "question": "If cost of 5 m cloth is Rs 210, what is the cost of 10 m?",
+              "answer": "Direct proportion. x1/y1 = x2/y2:\n5/210 = 10/y → y = (10 × 210)/5 = Rs 420.\nCost of 10 m cloth = Rs 420."
+            },
+            {
+              "q_num": 3,
+              "marks": 2,
+              "question": "If 12 sheets of paper weigh 40 g, how many sheets weigh 2500 g?",
+              "answer": "More weight → more sheets — direct proportion.\n12/40 = x/2500 → x = (12 × 2500)/40 = 750 sheets.\n\n---\n\n3 ಮಾರ್ಕ್ಸ್ × 2 questions:"
+            },
+            {
+              "q_num": 4,
+              "marks": 3,
+              "question": "An electric pole 14 m high casts a shadow of 10 m. Find the",
+              "answer": "Step 1: More height → more shadow — direct proportion.\nStep 2: 14/10 = x/15\nStep 3: x = (14 × 15)/10 = 210/10 = 21 metres.\nAnswer: Height of the tree is 21 metres."
+            },
+            {
+              "q_num": 5,
+              "marks": 3,
+              "question": "The scale of a map is 1:30000000. Two cities are 4 cm apart on",
+              "answer": "Step 1: Scale 1:30000000 → 1 cm on map = 3 × 10^7 cm actual.\nStep 2: 1/(3×10^7) = 4/y\nStep 3: y = 4 × 3 × 10^7 = 12 × 10^7 cm = 1200 km.\nAnswer: The two cities are 1200 km apart.\n\n---\n\n4 ಮಾರ್ಕ್ಸ್ × 2 questions:"
+            },
+            {
+              "q_num": 6,
+              "marks": 4,
+              "question": "The cost of 5 metres of cloth is Rs 210. Find the cost of 2 m,",
+              "answer": "Step 1: Direct proportion — x1=5, y1=210. Formula: 5/210 = x/y.\nStep 2:\n(i) 2 m: y = (2 × 210)/5 = Rs 84.\n(ii) 4 m: y = (4 × 210)/5 = Rs 168.\n(iii) 10 m: y = (10 × 210)/5 = Rs 420.\n(iv) 13 m: y = (13 × 210)/5 = Rs 546.\nStep 3: Check: all ratios = 5/210 = 1/42 (constant) ✓\nStep 4: As length increases, cost increases proportionally.\nAnswer: Rs 84, Rs 168, Rs 420, Rs 546 for 2m, 4m, 10m, 13m respectively."
+            },
+            {
+              "q_num": 7,
+              "marks": 4,
+              "question": "A train moves at a uniform speed of 75 km/h.",
+              "answer": "Step 1: Uniform speed → distance ∝ time (direct proportion).\nStep 2: (i) 75/60 = x/20 → x = (75 × 20)/60 = 25 km.\nStep 3: (ii) 75/60 = 250/y → y = (250 × 60)/75 = 200 minutes\n= 3 hours 20 minutes.\nStep 4: Verification: 75/60 = 25/20 = 250/200 = 1.25 (constant) ✓\nAnswer: (i) 25 km in 20 minutes. (ii) 3 hours 20 minutes to cover 250 km.\n\n---\n\n5 ಮಾರ್ಕ್ಸ್ × 1 question:"
+            },
+            {
+              "q_num": 8,
+              "marks": 5,
+              "question": "",
+              "answer": "PART A — Two methods:\nRatio method:\n2½ kg = 2500 g. Direct proportion: 12/40 = x/2500.\nx = (12 × 2500)/40 = 30000/40 = 750 sheets.\n\nConstant k method:\nk = sheets/weight = 12/40 = 3/10.\nx = k × 2500 = (3/10) × 2500 = 750 sheets. ✓\n\nPART B — Map scale:\nScale: 1 cm = 18 km.\n(i) 72 km on map: distance = 72/18 = 4 cm.\n(ii) 6.5 cm on map → actual: 6.5 × 18 = 117 km.\nAnswer: (i) 750 sheets weigh 2½ kg.\n(ii) 72 km = 4 cm on map; 6.5 cm = 117 km actual distance."
+            }
+          ]
+        },
+        {
+          "type": "mcq",
+          "label": "MCQ",
+          "items": [
+            {
+              "mcq_num": 1,
+              "difficulty": "Easy",
+              "question": "Two quantities x and y are in direct proportion if:",
+              "options": {
+                "A": "x + y = constant   (B) x - y = constant",
+                "C": "x/y = constant     (D) x x y = constant"
+              },
+              "answer": "C",
+              "explanation": "In direct proportion, the ratio x/y remains constant for all corresponding values."
+            },
+            {
+              "mcq_num": 2,
+              "difficulty": "Easy",
+              "question": "The cost of 5 metres of cloth is Rs 210. The cost of 13 metres is:",
+              "options": {
+                "A": "Rs 420   (B) Rs 168   (C) Rs 546   (D) Rs 630"
+              },
+              "answer": "C",
+              "explanation": "The correct answer is (C) Rs 546. Solution: 5/210 = 13/y → y = (13 x 210)/5 = Rs 546."
+            },
+            {
+              "mcq_num": 3,
+              "difficulty": "Medium",
+              "question": "A train travels 75 km in 60 minutes at uniform speed. Time to cover 250 km:",
+              "options": {
+                "A": "150 minutes   (B) 180 minutes   (C) 200 minutes   (D) 225 minutes"
+              },
+              "answer": "C",
+              "explanation": "The correct answer is (C) 200 minutes. Solution: 75/60 = 250/y → y = (250 x 60)/75 = 200 minutes."
+            },
+            {
+              "mcq_num": 4,
+              "difficulty": "Medium",
+              "question": "Map scale is 1 cm = 18 km. Rashmi drives 72 km. Her distance on map is:",
+              "options": {
+                "A": "2 cm   (B) 3 cm   (C) 4 cm   (D) 6 cm"
+              },
+              "answer": "C",
+              "explanation": "The correct answer is (C) 4 cm. Solution: 72/18 = 4 cm."
+            },
+            {
+              "mcq_num": 5,
+              "difficulty": "Medium",
+              "question": "If x1/y1 = x2/y2, then which of the following is also correct?",
+              "options": {
+                "A": "x1 x x2 = y1 x y2   (B) x1 : x2 = y1 : y2",
+                "C": "x1 + y1 = x2 + y2   (D) x1/x2 = y2/y1"
+              },
+              "answer": "B",
+              "explanation": "x1/y1 = x2/y2 can be rewritten as x1 : y1 = x2 : y2, which means x1 : x2 = y1 : y2."
+            },
+            {
+              "mcq_num": 6,
+              "difficulty": "Hard",
+              "question": "Which of the following is NOT a case of direct proportion?",
+              "options": {
+                "A": "Length of cloth and its cost",
+                "B": "Height of object and length of its shadow",
+                "C": "Age of a person and their weight",
+                "D": "Number of items purchased and their total cost"
+              },
+              "answer": "C",
+              "explanation": "Weight does not increase in a fixed ratio with age — a person's weight can change independently."
+            },
+            {
+              "mcq_num": 7,
+              "difficulty": "Hard",
+              "question": "If 2 kg of sugar contains 9 x 10^6 crystals, how many crystals are in 5 kg?",
+              "options": {
+                "A": "18 x 10^6   (B) 22.5 x 10^6   (C) 36 x 10^6   (D) 45 x 10^6"
+              },
+              "answer": "B",
+              "explanation": "The correct answer is (B) 22.5 x 10^6. Solution: 2/5 = (9 x 10^6)/y → y = (5 x 9 x 10^6)/2 = 22.5 x 10^6."
+            }
+          ]
+        }
+      ],
+      "subtopics": []
+    },
+    {
+      "topic_num": "11.3",
+      "topic_name": "INVERSE PROPORTION",
+      "mode": "B",
+      "sections": [
+        {
+          "type": "definition",
+          "label": "Definition:",
+          "text": "Two quantities x and y are said to vary in INVERSE PROPORTION if an increase in x\ncauses a proportional decrease in y (and vice-versa), such that the product of\ntheir corresponding values remains constant. That is, xy = k. If y1 and y2 are\nthe values of y corresponding to x1 and x2 of x respectively, then\nx1 x y1 = x2 x y2 (= k), or x1/x2 = y2/y1."
+        },
+        {
+          "type": "key_points",
+          "label": "Key Points:",
+          "points": [
+            "Notation: x ∝ 1/y means x varies inversely as y.",
+            "The PRODUCT x x y remains the same (constant k) for all corresponding pairs.",
+            "If x doubles, y becomes half. If x becomes 3 times, y becomes 1/3 of its value.",
+            "Key formula: x1 y1 = x2 y2, or x1/x2 = y2/y1.",
+            "MULTIPLICATIVE INVERSE: The multiplicative inverse (reciprocal) of a number n",
+            "is 1/n. Thus multiplicative inverse of 2 is 1/2 and vice versa.",
+            "Note: 2 x (1/2) = 1. The ratio by which one quantity decreases is the inverse",
+            "of the ratio by which the other increases.",
+            "Examples of inverse proportion:",
+            "(i) Speed and time to cover a fixed distance.",
+            "(ii) Price per book and number of books bought with a fixed amount.",
+            "(iii) Number of workers and number of days to finish a job.",
+            "(iv) Number of pipes and time to fill a tank.",
+            "(No sub-topics under 11.3 in textbook.)"
+          ]
+        },
+        {
+          "type": "formulas",
+          "label": "FORMULA:",
+          "items": [
+            "x1 x y1 = x2 x y2 = k (constant)",
+            "WHERE:",
+            "x1, x2 = two values of quantity x",
+            "y1, y2 = corresponding values of quantity y",
+            "k = constant product",
+            "Also written as: x = k/y or xy = k",
+            "EXAMPLES: (textbook examples)",
+            "EXAMPLE 11.3.1: Speed and time (Zaheeda going to school)",
+            "PROBLEM:",
+            "Zaheeda can go to her school in four ways — by walking (3 km/h, 30 min),",
+            "running (6 km/h), cycling (9 km/h), or by car (45 km/h).",
+            "Verify that speed and time are in inverse proportion and find times for each.",
+            "SOLUTION:",
+            "Step 1: As speed increases, time decreases — inverse proportion.",
+            "Step 2: Speed x Time = constant.",
+            "Walking: 3 x 30 = 90.",
+            "Running: 6 x 15 = 90. (Time = 90/6 = 15 min)",
+            "Cycling: 9 x 10 = 90. (Time = 90/9 = 10 min)",
+            "Car: 45 x 2 = 90. (Time = 90/45 = 2 min)",
+            "Step 3: Product is constant = 90. Confirmed inverse proportion.",
+            "ANSWER: Running = 15 min, Cycling = 10 min, Car = 2 min.",
+            "EXAMPLE 11.3.2: Books and price (fixed budget)",
+            "PROBLEM:",
+            "A school wants to spend Rs 6000 on Mathematics textbooks. If price per book",
+            "is Rs 40, how many books can be bought? If price is Rs 50, Rs 60, Rs 75,",
+            "Rs 80, Rs 100, how many books?",
+            "SOLUTION:",
+            "Step 1: More price → fewer books (inverse proportion).",
+            "Step 2: Price x Number = constant = 6000.",
+            "Rs 40: 6000/40 = 150 books.",
+            "Rs 50: 6000/50 = 120 books.",
+            "Rs 60: 6000/60 = 100 books.",
+            "Rs 75: 6000/75 = 80 books.",
+            "Rs 80: 6000/80 = 75 books.",
+            "Rs 100: 6000/100 = 60 books.",
+            "Step 3: Check: 40 x 150 = 50 x 120 = 60 x 100 = 6000. Constant product ✓.",
+            "ANSWER: Number of books: 150, 120, 100, 80, 75, 60 for prices Rs 40 to Rs 100.",
+            "EXAMPLE 11.3.3: Pipes filling a tank",
+            "PROBLEM:",
+            "6 pipes are required to fill a tank in 1 hour 20 minutes. How long will it",
+            "take if only 5 pipes of the same type are used?",
+            "SOLUTION:",
+            "Step 1: 1 hour 20 minutes = 80 minutes.",
+            "Step 2: Fewer pipes → more time (inverse proportion).",
+            "Step 3: x1 y1 = x2 y2 → 6 x 80 = 5 x t",
+            "Step 4: t = (6 x 80)/5 = 480/5 = 96 minutes = 1 hour 36 minutes.",
+            "ANSWER: 5 pipes will take 96 minutes (1 hour 36 minutes).",
+            "EXAMPLE 11.3.4: Students and food provision in hostel",
+            "PROBLEM:",
+            "There are 100 students in a hostel. Food provision for them is for 20 days.",
+            "How long will these provisions last if 25 more students join the group?",
+            "SOLUTION:",
+            "Step 1: Total students = 100 + 25 = 125.",
+            "Step 2: More students → provisions last fewer days (inverse proportion).",
+            "Step 3: 100 x 20 = 125 x y → y = (100 x 20)/125 = 2000/125 = 16 days.",
+            "ANSWER: The provisions will last for 16 days.",
+            "EXAMPLE 11.3.5: Workers and wall",
+            "PROBLEM:",
+            "If 15 workers can build a wall in 48 hours, how many workers will be required",
+            "to do the same work in 30 hours?",
+            "SOLUTION:",
+            "Step 1: More workers → less time (inverse proportion).",
+            "Step 2: We need to find workers for 30 hours.",
+            "Number of hours x, number of workers y — inverse proportion.",
+            "48 x 15 = 30 x y",
+            "y = (48 x 15)/30 = 720/30 = 24 workers.",
+            "ANSWER: 24 workers are required to build the wall in 30 hours.",
+            "TRY THESE / FIGURE IT OUT: (textbook practice boxes)",
+            "Q1: Observe the following tables and find which pair of variables are in",
+            "inverse proportion:",
+            "(i) x: 50, 40, 30, 20    y: 5, 6, 7, 8",
+            "A1: Check product: 50x5=250, 40x6=240. Products NOT equal. NOT inverse proportion.",
+            "(ii) x: 100, 200, 300, 400    y: 60, 30, 20, 15",
+            "A2: 100x60=6000, 200x30=6000, 300x20=6000, 400x15=6000. Products equal. YES,",
+            "inverse proportion.",
+            "(iii) x: 90, 60, 45, 30, 20, 5    y: 10, 15, 20, 25, 30, 35",
+            "A3: 90x10=900, 60x15=900, 45x20=900, 30x25=750. Products NOT all equal. NOT",
+            "inverse proportion.",
+            "ADDITIONAL CALCULATIONS:",
+            "Problem 1: A factory requires 42 machines to produce a given number of articles",
+            "in 63 days. How many machines would be required to produce the same number of",
+            "articles in 54 days?",
+            "Solution:",
+            "More machines → fewer days (inverse proportion).",
+            "42 x 63 = x x 54",
+            "x = (42 x 63)/54 = 2646/54 = 49 machines.",
+            "Answer: 49 machines.",
+            "Problem 2: A batch of bottles was packed in 25 boxes with 12 bottles in each box.",
+            "If the same batch is packed using 20 bottles in each box, how many boxes would",
+            "be filled?",
+            "Solution:",
+            "More bottles per box → fewer boxes (inverse proportion).",
+            "25 x 12 = x x 20",
+            "x = (25 x 12)/20 = 300/20 = 15 boxes.",
+            "Answer: 15 boxes.",
+            "Problem 3: A car takes 2 hours to reach a destination by travelling at 60 km/h.",
+            "How long will it take when the car travels at 80 km/h?",
+            "Solution:",
+            "More speed → less time (inverse proportion).",
+            "2 x 60 = t x 80",
+            "t = (2 x 60)/80 = 120/80 = 1.5 hours = 1 hour 30 minutes.",
+            "Answer: 1 hour 30 minutes."
+          ]
+        },
+        {
+          "type": "qa",
+          "label": "TOPIC 11.3: Q&A:",
+          "items": []
+        },
+        {
+          "type": "qa",
+          "label": "Q&A",
+          "items": [
+            {
+              "q_num": 1,
+              "marks": 2,
+              "question": "Define inverse proportion and write its formula.",
+              "answer": "Two quantities x and y are in INVERSE PROPORTION if their product xy = k\n(constant) for all corresponding values.\nFormula: x1 × y1 = x2 × y2.\nWhen x increases, y decreases proportionally."
+            },
+            {
+              "q_num": 2,
+              "marks": 2,
+              "question": "What is the multiplicative inverse of 5? How is it related to",
+              "answer": "Multiplicative inverse of 5 is 1/5 (product = 5 × 1/5 = 1).\nIn inverse proportion, the ratio by which one quantity decreases is the inverse\n(reciprocal) of the ratio by which the other increases."
+            },
+            {
+              "q_num": 3,
+              "marks": 2,
+              "question": "A box has 120 sweets to be divided equally. If 24 children share",
+              "answer": "More children → fewer sweets each — inverse proportion.\n24 × 5 = 20 × y → y = 120/20 = 6 sweets per child.\n\n---\n\n3 ಮಾರ್ಕ್ಸ್ × 2 questions:"
+            },
+            {
+              "q_num": 4,
+              "marks": 3,
+              "question": "6 pipes are required to fill a tank in 80 minutes. How long will",
+              "answer": "Step 1: Fewer pipes → more time — inverse proportion.\nStep 2: 6 × 80 = 5 × t\nStep 3: t = 480/5 = 96 minutes = 1 hour 36 minutes.\nAnswer: 5 pipes will fill the tank in 96 minutes (1 hour 36 minutes)."
+            },
+            {
+              "q_num": 5,
+              "marks": 3,
+              "question": "If 15 workers can build a wall in 48 hours, how many workers",
+              "answer": "Step 1: More workers → less time — inverse proportion.\nStep 2: 15 × 48 = y × 30\nStep 3: y = (15 × 48)/30 = 720/30 = 24 workers.\nAnswer: 24 workers are required to build the wall in 30 hours.\n\n---\n\n4 ಮಾರ್ಕ್ಸ್ × 2 questions:"
+            },
+            {
+              "q_num": 6,
+              "marks": 4,
+              "question": "A school has food provision for 100 students for 20 days.",
+              "answer": "Step 1: More students → fewer days — inverse proportion.\nConstant = 100 × 20 = 2000.\nStep 2: (i) Students = 125:\n100 × 20 = 125 × y → y = 2000/125 = 16 days.\nStep 3: (ii) Days = 25:\n100 × 20 = x × 25 → x = 2000/25 = 80 students.\nStep 4: Verify: 125 × 16 = 2000 ✓   80 × 25 = 2000 ✓\nAnswer: (i) 16 days for 125 students. (ii) 80 students for 25 days."
+            },
+            {
+              "q_num": 7,
+              "marks": 4,
+              "question": "Zaheeda goes to school by different means. She walks at 3 km/h",
+              "answer": "Step 1: Fixed distance → speed × time = constant.\nConstant = 3 × 30 = 90.\nStep 2:\nRunning (6 km/h): t = 90/6 = 15 minutes.\nCycling (9 km/h): t = 90/9 = 10 minutes.\nCar (45 km/h): t = 90/45 = 2 minutes.\nStep 3: Verify products: 3×30 = 6×15 = 9×10 = 45×2 = 90 (constant) ✓\nStep 4: As speed increases, time decreases proportionally → inverse proportion confirmed.\nAnswer: Running = 15 min, Cycling = 10 min, By car = 2 min.\n\n---\n\n5 ಮಾರ್ಕ್ಸ್ × 1 question:"
+            },
+            {
+              "q_num": 8,
+              "marks": 5,
+              "question": "",
+              "answer": "PART A — Prize money:\nStep 1: More winners → less prize each — inverse proportion.\nConstant = 1 × 1,00,000 = 1,00,000.\nStep 2: Prize per winner:\n1 winner: Rs 1,00,000.\n2 winners: Rs 50,000.\n4 winners: Rs 25,000.\n5 winners: Rs 20,000.\n8 winners: Rs 12,500.\n10 winners: Rs 10,000.\n20 winners: Rs 5,000.\nStep 3: Product check: 8 × 12,500 = 1,00,000 ✓ — inverse proportion confirmed.\n\nPART B — Factory machines:\n(i) 63 days → 54 days (fewer days → more machines):\n42 × 63 = x × 54 → x = 2646/54 = 49 machines.\n(ii) 49 machines, find days:\n42 × 63 = 49 × d → d = 2646/49 = 54 days.\nAnswer: (i) 49 machines. (ii) 49 machines take 54 days ✓"
+            }
+          ]
+        },
+        {
+          "type": "mcq",
+          "label": "MCQ",
+          "items": [
+            {
+              "mcq_num": 1,
+              "difficulty": "Easy",
+              "question": "Two quantities x and y are in inverse proportion if:",
+              "options": {
+                "A": "x/y = constant       (B) x + y = constant",
+                "C": "x x y = constant     (D) x - y = constant"
+              },
+              "answer": "C",
+              "explanation": "In inverse proportion, the product xy remains constant."
+            },
+            {
+              "mcq_num": 2,
+              "difficulty": "Easy",
+              "question": "If 6 pipes fill a tank in 80 minutes, time taken by 5 pipes is:",
+              "options": {
+                "A": "66 minutes   (B) 80 minutes   (C) 96 minutes   (D) 120 minutes"
+              },
+              "answer": "C",
+              "explanation": "The correct answer is (C) 96 minutes. Solution: 6 x 80 = 5 x t → t = 480/5 = 96 minutes."
+            },
+            {
+              "mcq_num": 3,
+              "difficulty": "Easy",
+              "question": "If 100 students have food for 20 days, how long will the food last for 125 students?",
+              "options": {
+                "A": "25 days   (B) 20 days   (C) 18 days   (D) 16 days"
+              },
+              "answer": "D",
+              "explanation": "The correct answer is (D) 16 days. Solution: 100 x 20 = 125 x y → y = 2000/125 = 16 days."
+            },
+            {
+              "mcq_num": 4,
+              "difficulty": "Medium",
+              "question": "Which of the following is in inverse proportion?",
+              "options": {
+                "A": "Number of workers on a job and time to complete the job",
+                "B": "Length of cloth and its cost",
+                "C": "Speed of vehicle and distance travelled at constant time",
+                "D": "Principal amount and simple interest earned"
+              },
+              "answer": "A",
+              "explanation": "More workers → less time to finish a job. Product = constant work."
+            },
+            {
+              "mcq_num": 5,
+              "difficulty": "Medium",
+              "question": "15 workers can build a wall in 48 hours. Workers needed to build it in 30 hours:",
+              "options": {
+                "A": "18   (B) 20   (C) 24   (D) 30"
+              },
+              "answer": "C",
+              "explanation": "The correct answer is (C) 24. Solution: 15 x 48 = y x 30 → y = 720/30 = 24."
+            },
+            {
+              "mcq_num": 6,
+              "difficulty": "Medium",
+              "question": "A TV game show has prize money of Rs 1,00,000 divided equally among winners. If 8 winners get Rs 12,500 each, how many winners would get Rs 20,000 each?",
+              "options": {
+                "A": "4   (B) 5   (C) 6   (D) 10"
+              },
+              "answer": "B",
+              "explanation": "The correct answer is (B) 5. Solution: 8 x 12500 = y x 20000 → y = 1,00,000/20000 = 5 winners."
+            },
+            {
+              "mcq_num": 7,
+              "difficulty": "Hard",
+              "question": "If x1/x2 = y2/y1, then x and y are in:",
+              "options": {
+                "A": "Direct proportion     (B) Inverse proportion",
+                "C": "No fixed relation     (D) Equal proportion"
+              },
+              "answer": "B",
+              "explanation": "x1/x2 = y2/y1 means x1 y1 = x2 y2 → product is constant → inverse proportion."
+            }
+          ]
+        }
+      ],
+      "subtopics": []
+    }
+  ]
+}

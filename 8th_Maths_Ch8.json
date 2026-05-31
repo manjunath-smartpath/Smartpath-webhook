@@ -1,0 +1,1803 @@
+{
+  "metadata": {
+    "class": "8th STANDARD",
+    "subject": "Mathematics",
+    "part": "2",
+    "chapter_num": "8",
+    "chapter_name": "ALGEBRAIC EXPRESSIONS AND IDENTITIES",
+    "source": "KSEEB Textbook 2025-26",
+    "mode": "A"
+  },
+  "chapter_sections": [
+    {
+      "type": "definition",
+      "label": "Definition:",
+      "text": "An ALGEBRAIC EXPRESSION is formed from variables and constants using operations\nof addition, subtraction, multiplication, and division.\nExamples: x + 3, 2y - 5, 3x^2, 4xy + 7"
+    },
+    {
+      "type": "key_points",
+      "label": "Key Points:",
+      "points": [
+        "VARIABLES are letters that stand for unknown values (x, y, a, b, ...)",
+        "CONSTANTS are fixed numbers (3, -5, 7, ...)",
+        "TERMS are separated by + or - signs",
+        "LIKE TERMS have same variable with same power",
+        "COEFFICIENT is the number part of a term"
+      ]
+    },
+    {
+      "type": "list_of_topics",
+      "label": "LIST OF TOPICS IN THIS CHAPTER:",
+      "items": [
+        "- Topic 8.1: Addition and Subtraction of Algebraic Expressions",
+        "- Topic 8.2: Multiplication of Algebraic Expressions: Introduction",
+        "- Topic 8.3: Multiplying a Monomial by a Monomial"
+      ]
+    },
+    {
+      "type": "qa",
+      "label": "CHAPTER 8: Q&A:",
+      "items": [
+        {
+          "q_num": 1,
+          "marks": 2,
+          "question": "What are like terms and unlike terms? Give one example each.",
+          "answer": "LIKE TERMS: Same variables with same powers. Coefficients may differ.\nExample: 3x^2 and -7x^2 (both have x^2).\nUNLIKE TERMS: Different variables or different powers. Cannot be combined.\nExample: 3x and 5y (different variables). 4x^2 and 4x (different powers).\nRule: Only like terms can be added or subtracted."
+        },
+        {
+          "q_num": 2,
+          "marks": 2,
+          "question": "What is a monomial? Find product of 5x and (-4xyz).",
+          "answer": "MONOMIAL: Expression with only one term. Example: 5xy, -3x^2, 7.\nProduct of 5x and (-4xyz):\nCoefficients: 5 x (-4) = -20.\nVariables: x x xyz = x^2yz (using x^a x x^b = x^(a+b)).\nAnswer: 5x x (-4xyz) = -20x^2yz."
+        },
+        {
+          "q_num": 3,
+          "marks": 2,
+          "question": "What is the distributive law? Give one example.",
+          "answer": "DISTRIBUTIVE LAW: a(b + c) = ab + ac.\nMonomial multiplies each term of polynomial separately.\nExample: 3x x (5y + 2) = (3x x 5y) + (3x x 2) = 15xy + 6x.\n\n---\n\n3 ಮಾರ್ಕ್ಸ್ × 2 questions:"
+        },
+        {
+          "q_num": 4,
+          "marks": 3,
+          "question": "Multiply (3a + 4b) and (2a + 3b). Also multiply (x-y) and (3x+5y).",
+          "answer": "Step 1: (3a+4b)(2a+3b).\n= 3a(2a+3b) + 4b(2a+3b)\n= 6a^2 + 9ab + 8ab + 12b^2\n= 6a^2 + 17ab + 12b^2.\n\nStep 2: (x-y)(3x+5y).\n= x(3x+5y) - y(3x+5y)\n= 3x^2 + 5xy - 3xy - 5y^2\n= 3x^2 + 2xy - 5y^2.\n\nAnswer: 6a^2+17ab+12b^2 and 3x^2+2xy-5y^2."
+        },
+        {
+          "q_num": 5,
+          "marks": 3,
+          "question": "Find product of (a+7)(a^2+3a+5). Also simplify 3p(4p^2+5p+7).",
+          "answer": "Step 1: (a+7)(a^2+3a+5).\n= a(a^2+3a+5) + 7(a^2+3a+5)\n= a^3+3a^2+5a + 7a^2+21a+35\n= a^3 + 10a^2 + 26a + 35.\n\nStep 2: 3p(4p^2+5p+7).\n= 12p^3 + 15p^2 + 21p.\n\nAnswer: a^3+10a^2+26a+35 and 12p^3+15p^2+21p.\n\n---\n\n4 ಮಾರ್ಕ್ಸ್ × 2 questions:"
+        },
+        {
+          "q_num": 6,
+          "marks": 4,
+          "question": "(i) Add: 7xy+5yz-3zx, 4yz+9zx-4y, -3zx+5x-2xy.",
+          "answer": "Step 1: Add three expressions.\n7xy+5yz-3zx + 4yz+9zx-4y + (-2xy-3zx+5x)\n= (7-2)xy + (5+4)yz + (-3+9-3)zx - 4y + 5x\n= 5xy + 9yz + 3zx + 5x - 4y.\n\nStep 2: Subtract (ii).\n(12a-9ab+5b-3) - (4a-7ab+3b+12)\n= 12a-9ab+5b-3 -4a+7ab-3b-12 = 8a-2ab+2b-15.\n\nStep 3: Subtract (iii).\n(5xy-2yz-2zx+10xyz) - (3xy+5yz-7zx)\n= 2xy-7yz+5zx+10xyz.\n\nStep 4: Add (iv).\n(2-3)p^2q^2 + (-3+7)pq + (4+5) = -p^2q^2+4pq+9.\n\nAnswer: (i) 5xy+9yz+3zx+5x-4y  (ii) 8a-2ab+2b-15\n(iii) 2xy-7yz+5zx+10xyz  (iv) -p^2q^2+4pq+9"
+        },
+        {
+          "q_num": 7,
+          "marks": 4,
+          "question": "(i) Find product: 4xy x 5x^2y^2 x 6x^3y^3.",
+          "answer": "Step 1: Product of three monomials.\nCoefficients: 4x5x6=120. x: x^(1+2+3)=x^6. y: y^(1+2+3)=y^6.\n= 120x^6y^6.\n\nStep 2: Volumes.\nBox1: 2x3x5=30, abc, xyz → 30abcxyz.\nBox2: m^(2+1)=m^3, n^(1+2)=n^3, p^(1+2)=p^3 → m^3n^3p^3.\n\nStep 3: x(x-3)+2 = x^2-3x+2. At x=1: 1-3+2=0.\n\nStep 4: 3y(2y-7)-3(y-4)-63 = 6y^2-21y-3y+12-63 = 6y^2-24y-51.\nAt y=-2: 6(4)+48-51=24+48-51=21.\n\nAnswer: (i) 120x^6y^6  (ii) 30abcxyz, m^3n^3p^3\n(iii) 0  (iv) 21\n\n---\n\n5 ಮಾರ್ಕ್ಸ್ × 1 question:"
+        },
+        {
+          "q_num": 8,
+          "marks": 5,
+          "question": "Multiply and simplify:",
+          "answer": "PART A — Binomial x Binomial:\n\n(i) (x-4)(2x+3) = x(2x+3)-4(2x+3)\n= 2x^2+3x-8x-12 = 2x^2-5x-12.\n\n(ii) (a+7)(b-5) = a(b-5)+7(b-5)\n= ab-5a+7b-35. (No like terms, 4 separate terms.)\n\nPART B — Larger binomials:\n\n(iii) (a^2+2b^2)(5a-3b)\n= a^2(5a-3b)+2b^2(5a-3b)\n= 5a^3-3a^2b+10ab^2-6b^3.\n\nPART C — Binomial x Trinomial:\n\n(iv) (a+7)(a^2+3a+5)\n= a(a^2+3a+5)+7(a^2+3a+5)\n= a^3+3a^2+5a+7a^2+21a+35\n= a^3+10a^2+26a+35. (6 products → 4 terms after combining.)\n\nPART D — Complex simplification:\n\n(v) (a+b)(2a-3b+c):\n= a(2a-3b+c)+b(2a-3b+c)\n= 2a^2-3ab+ac+2ab-3b^2+bc\n= 2a^2-ab-3b^2+ac+bc ... (I)\n(2a-3b)c = 2ac-3bc ... (II)\n(I)-(II) = 2a^2-ab-3b^2+ac+bc-2ac+3bc\n= 2a^2-3b^2-ab-ac+4bc.\n\nAnswer: (i) 2x^2-5x-12  (ii) ab-5a+7b-35\n(iii) 5a^3-3a^2b+10ab^2-6b^3  (iv) a^3+10a^2+26a+35\n(v) 2a^2-3b^2-ab-ac+4bc"
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "label": "CHAPTER 8: MCQs:",
+      "items": [
+        {
+          "mcq_num": 1,
+          "difficulty": "Easy",
+          "question": "An expression with exactly two terms is called:",
+          "options": {
+            "A": "Monomial   (B) Binomial   (C) Trinomial   (D) Polynomial"
+          },
+          "answer": "B",
+          "explanation": "Binomial has exactly two terms."
+        },
+        {
+          "mcq_num": 2,
+          "difficulty": "Medium",
+          "question": "x^3 x x^2 = ?",
+          "options": {
+            "A": "x^5   (B) x^6   (C) x^1   (D) 2x^5"
+          },
+          "answer": "A",
+          "explanation": "x^3 x x^2 = x^(3+2) = x^5."
+        },
+        {
+          "mcq_num": 3,
+          "difficulty": "Hard",
+          "question": "(a + b)(2a - 3b + c) contains how many initial product terms?",
+          "options": {
+            "A": "4   (B) 5   (C) 6   (D) 3"
+          },
+          "answer": "C",
+          "explanation": "Binomial (2 terms) x Trinomial (3 terms) = 2 x 3 = 6 terms."
+        },
+        {
+          "mcq_num": 4,
+          "difficulty": "Easy",
+          "question": "An expression with exactly one term is called:",
+          "options": {
+            "A": "Monomial   (B) Binomial   (C) Trinomial   (D) Polynomial"
+          },
+          "answer": "A",
+          "explanation": "Monomial has exactly one term. Example: 5xy, 3x^2."
+        },
+        {
+          "mcq_num": 5,
+          "difficulty": "Medium",
+          "question": "Which of the following are like terms?",
+          "options": {
+            "A": "3x and 3y   (B) 5x^2 and 5x   (C) 4xy and -7xy   (D) 2ab and 2a"
+          },
+          "answer": "C",
+          "explanation": "4xy and -7xy have same variables (x and y) with same powers. So they are like terms."
+        },
+        {
+          "mcq_num": 6,
+          "difficulty": "Hard",
+          "question": "Product of (a + 7) and (a^2 + 3a + 5) gives how many final terms?",
+          "options": {
+            "A": "6   (B) 5   (C) 4   (D) 3"
+          },
+          "answer": "C",
+          "explanation": "6 initial products. Two pairs combine: (3a^2+7a^2) and (5a+21a). Final = 4 terms."
+        }
+      ]
+    }
+  ],
+  "topics": [
+    {
+      "topic_num": "8.1",
+      "topic_name": "ADDITION AND SUBTRACTION OF ALGEBRAIC EXPRESSIONS",
+      "mode": "B",
+      "sections": [
+        {
+          "type": "definition",
+          "label": "Definition:",
+          "text": "To ADD or SUBTRACT algebraic expressions, we collect LIKE TERMS and\nadd or subtract their coefficients. UNLIKE TERMS cannot be combined."
+        },
+        {
+          "type": "key_points",
+          "label": "Key Points:",
+          "points": [
+            "LIKE TERMS: same variable, same power. Example: 3x^2 and -7x^2.",
+            "UNLIKE TERMS: different variable or power. Example: 3x and 5y.",
+            "To add: write like terms one below the other, add coefficients.",
+            "To subtract: change all signs of expression to be subtracted, then add.",
+            "Subtracting -3 is same as adding +3 (additive inverse rule).",
+            "Unlike terms are carried forward unchanged in the answer."
+          ]
+        },
+        {
+          "type": "list_of_topics",
+          "label": "LIST OF SUB TOPICS IN THIS TOPIC:",
+          "items": [
+            "- (No sub-topics in textbook for 8.1)",
+            "EXAMPLES: (Textbook examples)",
+            "EXAMPLE 8.1.1: Adding Three Expressions",
+            "PROBLEM: Add: 7xy + 5yz - 3zx, 4yz + 9zx - 4y, -3zx + 5x - 2xy",
+            "SOLUTION:",
+            "Step 1: Write expressions in rows, like terms in same column:",
+            "7xy + 5yz - 3zx",
+            "+       4yz + 9zx - 4y",
+            "+ -2xy       - 3zx + 5x",
+            "Step 2: Add each column:",
+            "xy terms: 7xy + (-2xy) = 5xy",
+            "yz terms: 5yz + 4yz = 9yz",
+            "zx terms: -3zx + 9zx + (-3zx) = 3zx",
+            "y terms: -4y",
+            "x terms: 5x",
+            "ANSWER: 5xy + 9yz + 3zx + 5x - 4y",
+            "EXAMPLE 8.1.2: Subtracting One Expression from Another",
+            "PROBLEM: Subtract 5x^2 - 4y^2 + 6y - 3 from 7x^2 - 4xy + 8y^2 + 5x - 3y",
+            "SOLUTION:",
+            "Step 1: Change signs of expression to be subtracted:",
+            "-(5x^2 - 4y^2 + 6y - 3) = -5x^2 + 4y^2 - 6y + 3",
+            "Step 2: Add:",
+            "7x^2 - 4xy + 8y^2 + 5x - 3y",
+            "+ (-5x^2      + 4y^2      - 6y + 3)",
+            "= 2x^2 - 4xy + 12y^2 + 5x - 9y + 3",
+            "ANSWER: 2x^2 - 4xy + 12y^2 + 5x - 9y + 3"
+          ]
+        },
+        {
+          "type": "exercise",
+          "label": "EXERCISE 8.1:",
+          "items": [],
+          "raw": "1. Add the following.\n(i) ab - bc, bc - ca, ca - ab\nSolution: (ab-bc)+(bc-ca)+(ca-ab) = ab-bc+bc-ca+ca-ab = 0\n\n(ii) a - b + ab, b - c + bc, c - a + ac\nSolution: a-b+ab+b-c+bc+c-a+ac = ab+bc+ac\n\n(iii) 2p^2q^2 - 3pq + 4, 5 + 7pq - 3p^2q^2\nSolution: (2p^2q^2 - 3pq + 4) + (5 + 7pq - 3p^2q^2)\n= (2-3)p^2q^2 + (-3+7)pq + (4+5)\n= -p^2q^2 + 4pq + 9\n\n(iv) l^2 + m^2, m^2 + n^2, n^2 + l^2, 2lm + 2mn + 2nl\nSolution: l^2+m^2+m^2+n^2+n^2+l^2+2lm+2mn+2nl\n= 2l^2 + 2m^2 + 2n^2 + 2lm + 2mn + 2nl\n\n2. (a) Subtract 4a - 7ab + 3b + 12 from 12a - 9ab + 5b - 3\nSolution: (12a-9ab+5b-3) - (4a-7ab+3b+12)\n= 12a-9ab+5b-3-4a+7ab-3b-12\n= 8a - 2ab + 2b - 15\n\n(b) Subtract 3xy + 5yz - 7zx from 5xy - 2yz - 2zx + 10xyz\nSolution: (5xy-2yz-2zx+10xyz) - (3xy+5yz-7zx)\n= 5xy-2yz-2zx+10xyz-3xy-5yz+7zx\n= 2xy - 7yz + 5zx + 10xyz\n\n(c) Subtract 4p^2q - 3pq + 5pq^2 - 8p + 7q - 10\nfrom 18 - 3p - 11q + 5pq - 2pq^2 + 5p^2q\nSolution:\n(18-3p-11q+5pq-2pq^2+5p^2q) - (4p^2q-3pq+5pq^2-8p+7q-10)\n= 18-3p-11q+5pq-2pq^2+5p^2q - 4p^2q+3pq-5pq^2+8p-7q+10\n= (5-4)p^2q + (-2-5)pq^2 + (5+3)pq + (-3+8)p + (-11-7)q + (18+10)\n= p^2q - 7pq^2 + 8pq + 5p - 18q + 28"
+        },
+        {
+          "type": "qa",
+          "label": "TOPIC 8.1: Q&A:",
+          "items": [
+            {
+              "q_num": 1,
+              "marks": 2,
+              "question": "What are like terms? Give two examples.",
+              "answer": "LIKE TERMS have the same variables with the same powers.\nExample 1: 3x^2 and -7x^2 (same variable x, same power 2).\nExample 2: 5xy and -2xy (same variables x and y, both power 1).\nWhen adding, only coefficients change: 3x^2 + (-7x^2) = -4x^2."
+            },
+            {
+              "q_num": 2,
+              "marks": 2,
+              "question": "Add: 7xy + 5yz - 3zx, 4yz + 9zx - 4y, -3zx + 5x - 2xy.",
+              "answer": "xy: 7xy - 2xy = 5xy.\nyz: 5yz + 4yz = 9yz.\nzx: -3zx + 9zx - 3zx = 3zx.\ny: -4y. x: 5x.\nSum = 5xy + 9yz + 3zx + 5x - 4y."
+            },
+            {
+              "q_num": 3,
+              "marks": 2,
+              "question": "Subtract 3xy + 5yz - 7zx from 5xy - 2yz - 2zx + 10xyz.",
+              "answer": "(5xy-2yz-2zx+10xyz) - (3xy+5yz-7zx)\n= 5xy-2yz-2zx+10xyz - 3xy-5yz+7zx\n= 2xy - 7yz + 5zx + 10xyz.\n\n---\n\n3 ಮಾರ್ಕ್ಸ್ × 2 questions:"
+            },
+            {
+              "q_num": 4,
+              "marks": 3,
+              "question": "Subtract 4a-7ab+3b+12 from 12a-9ab+5b-3. Also add: l^2+m^2,",
+              "answer": "Step 1: Subtraction.\n(12a-9ab+5b-3) - (4a-7ab+3b+12)\n= 12a-9ab+5b-3 -4a+7ab-3b-12 = 8a-2ab+2b-15.\n\nStep 2: Add four expressions.\nl^2 terms: l^2+l^2 = 2l^2. m^2: m^2+m^2=2m^2. n^2: 2n^2.\nlm: 2lm. mn: 2mn. nl: 2nl.\nSum = 2l^2+2m^2+2n^2+2lm+2mn+2nl.\n\nAnswer: 8a-2ab+2b-15 and 2l^2+2m^2+2n^2+2lm+2mn+2nl."
+            },
+            {
+              "q_num": 5,
+              "marks": 3,
+              "question": "Add ab-bc, bc-ca, ca-ab. Also subtract 3xy+5yz-7zx from",
+              "answer": "Step 1: Add ab-bc, bc-ca, ca-ab.\n= ab-bc+bc-ca+ca-ab = 0. (All terms cancel!)\n\nStep 2: (5xy-2yz-2zx+10xyz)-(3xy+5yz-7zx)\n= 2xy-7yz+5zx+10xyz.\n\nStep 3: (2p^2q^2-3pq+4)+(-3p^2q^2+7pq+5)\n= (2-3)p^2q^2+(-3+7)pq+(4+5) = -p^2q^2+4pq+9.\n\nAnswer: 0; 2xy-7yz+5zx+10xyz; -p^2q^2+4pq+9.\n\n---\n\n4 ಮಾರ್ಕ್ಸ್ × 2 questions:"
+            },
+            {
+              "q_num": 6,
+              "marks": 4,
+              "question": "From textbook Exercise 8.1:",
+              "answer": "(i) ab-bc+bc-ca+ca-ab = 0.\n\n(ii) (a-b+ab)+(b-c+bc)+(c-a+ac)\n= a-b+ab+b-c+bc+c-a+ac\n= (a-a)+(-b+b)+(-c+c)+ab+bc+ac\n= ab+bc+ac.\n\n(iii) (2p^2q^2-3pq+4)+(-3p^2q^2+7pq+5)\n= -p^2q^2+4pq+9.\n\n(iv) (12a-9ab+5b-3)-(4a-7ab+3b+12)\n= 8a-2ab+2b-15.\n\nAnswer: (i) 0  (ii) ab+bc+ac  (iii) -p^2q^2+4pq+9  (iv) 8a-2ab+2b-15"
+            },
+            {
+              "q_num": 7,
+              "marks": 4,
+              "question": "Subtract the following:",
+              "answer": "(a) (5xy-2yz-2zx+10xyz)-(3xy+5yz-7zx)\n= 5xy-2yz-2zx+10xyz-3xy-5yz+7zx\n= 2xy-7yz+5zx+10xyz.\n\n(b) (18-3p-11q+5pq-2pq^2+5p^2q)-(4p^2q-3pq+5pq^2-8p+7q-10)\n= 18-3p-11q+5pq-2pq^2+5p^2q -4p^2q+3pq-5pq^2+8p-7q+10\n= (5-4)p^2q+(-2-5)pq^2+(5+3)pq+(-3+8)p+(-11-7)q+(18+10)\n= p^2q-7pq^2+8pq+5p-18q+28.\n\n(c) l^2+l^2=2l^2. m^2+m^2=2m^2. n^2+n^2=2n^2.\nSum = 2l^2+2m^2+2n^2+2lm+2mn+2nl.\n\nAnswer: (a) 2xy-7yz+5zx+10xyz\n(b) p^2q-7pq^2+8pq+5p-18q+28\n(c) 2l^2+2m^2+2n^2+2lm+2mn+2nl\n\n---\n\n5 ಮಾರ್ಕ್ಸ್ × 1 question:"
+            },
+            {
+              "q_num": 8,
+              "marks": 5,
+              "question": "Complete all of Exercise 8.1:",
+              "answer": "PART A — Additions:\n\n(i) ab-bc+bc-ca+ca-ab = 0.\n\n(ii) a-b+ab+b-c+bc+c-a+ac = ab+bc+ac.\n\n(iii) (2-3)p^2q^2+(-3+7)pq+(4+5) = -p^2q^2+4pq+9.\n\n(iv) 2l^2+2m^2+2n^2+2lm+2mn+2nl.\n\nPART B — Subtractions:\n\n(v) (12a-9ab+5b-3)-(4a-7ab+3b+12)\n= 12a-9ab+5b-3-4a+7ab-3b-12 = 8a-2ab+2b-15.\n\n(vi) (5xy-2yz-2zx+10xyz)-(3xy+5yz-7zx)\n= 5xy-2yz-2zx+10xyz-3xy-5yz+7zx = 2xy-7yz+5zx+10xyz.\n\nAnswer Summary:\n(i) 0  (ii) ab+bc+ac  (iii) -p^2q^2+4pq+9\n(iv) 2l^2+2m^2+2n^2+2lm+2mn+2nl\n(v) 8a-2ab+2b-15  (vi) 2xy-7yz+5zx+10xyz"
+            }
+          ]
+        },
+        {
+          "type": "mcq",
+          "label": "TOPIC 8.1: MCQs:",
+          "items": [
+            {
+              "mcq_num": 1,
+              "difficulty": "Easy",
+              "question": "Which are like terms among: 3x, 5y, -2x, 4xy?",
+              "options": {
+                "A": "3x and 5y   (B) 3x and -2x   (C) 5y and 4xy   (D) 3x and 4xy"
+              },
+              "answer": "B",
+              "explanation": "3x and -2x both have variable x with power 1."
+            },
+            {
+              "mcq_num": 2,
+              "difficulty": "Easy",
+              "question": "Sum of ab - bc and bc - ca is:",
+              "options": {
+                "A": "ab - ca   (B) 2bc - ca   (C) ab + ca   (D) ab - 2bc"
+              },
+              "answer": "A",
+              "explanation": "ab - bc + bc - ca = ab - ca (bc terms cancel)."
+            },
+            {
+              "mcq_num": 3,
+              "difficulty": "Medium",
+              "question": "Subtract 3xy + 5yz - 7zx from 5xy - 2yz - 2zx + 10xyz.",
+              "options": {
+                "A": "2xy - 7yz + 5zx + 10xyz",
+                "B": "2xy + 7yz - 5zx + 10xyz",
+                "C": "8xy + 3yz - 9zx + 10xyz",
+                "D": "2xy - 7yz + 5zx"
+              },
+              "answer": "A",
+              "explanation": "5xy-2yz-2zx+10xyz - 3xy-5yz+7zx = 2xy-7yz+5zx+10xyz."
+            },
+            {
+              "mcq_num": 4,
+              "difficulty": "Easy",
+              "question": "Sum of l^2 + m^2, m^2 + n^2, n^2 + l^2 is:",
+              "options": {
+                "A": "l^2 + m^2 + n^2   (B) 2l^2 + 2m^2 + 2n^2   (C) 3l^2 + 3m^2 + 3n^2   (D) 0"
+              },
+              "answer": "B",
+              "explanation": "l^2+l^2=2l^2, m^2+m^2=2m^2, n^2+n^2=2n^2. Total = 2l^2+2m^2+2n^2."
+            },
+            {
+              "mcq_num": 5,
+              "difficulty": "Medium",
+              "question": "Subtract 4a - 7ab + 3b + 12 from 12a - 9ab + 5b - 3. The result is:",
+              "options": {
+                "A": "8a - 2ab + 2b - 15   (B) 8a + 2ab - 2b + 15",
+                "C": "16a - 16ab + 8b + 9  (D) 8a - 2ab + 2b + 15"
+              },
+              "answer": "A",
+              "explanation": "12a-9ab+5b-3-4a+7ab-3b-12 = 8a-2ab+2b-15."
+            },
+            {
+              "mcq_num": 6,
+              "difficulty": "Hard",
+              "question": "Add 2p^2q^2 - 3pq + 4 and -3p^2q^2 + 7pq + 5. Result is:",
+              "options": {
+                "A": "-p^2q^2 + 4pq + 9   (B) p^2q^2 - 4pq + 9",
+                "C": "-p^2q^2 - 4pq + 9   (D) 5p^2q^2 + 10pq + 9"
+              },
+              "answer": "A",
+              "explanation": "(2-3)p^2q^2 + (-3+7)pq + (4+5) = -p^2q^2 + 4pq + 9."
+            }
+          ]
+        }
+      ],
+      "subtopics": []
+    },
+    {
+      "topic_num": "8.2",
+      "topic_name": "MULTIPLICATION OF ALGEBRAIC EXPRESSIONS: INTRODUCTION",
+      "mode": "B",
+      "sections": [
+        {
+          "type": "definition",
+          "label": "Definition:",
+          "text": "MULTIPLICATION OF ALGEBRAIC EXPRESSIONS means finding the product of two or\nmore algebraic expressions. Real-life situations need this when quantities\nare given as algebraic expressions."
+        },
+        {
+          "type": "key_points",
+          "label": "Key Points:",
+          "points": [
+            "Area of rectangle = length x breadth (both may be expressions)",
+            "Volume of box = length x breadth x height",
+            "Price x Quantity = Total Cost (when given as expressions)",
+            "Coefficient of product = product of coefficients",
+            "Variable factor of product = product of variable factors",
+            "Laws of exponents: x^m x x^n = x^(m+n)"
+          ]
+        },
+        {
+          "type": "list_of_topics",
+          "label": "LIST OF SUB TOPICS IN THIS TOPIC:",
+          "items": [
+            "- (No sub-topics in textbook for 8.2; sub-topics start from 8.3)",
+            "EXAMPLES: (Textbook context examples)",
+            "EXAMPLE 8.2.1: Real-life Situations",
+            "PROBLEM: (i) Area of rectangle: length = l+5, breadth = b-3. Write area expression.",
+            "(ii) Price per dozen = Rs p, bananas needed = z dozens. Find total.",
+            "(iii) Price per dozen was less by Rs 2, bananas less by 4 dozens.",
+            "Write the expression for new cost.",
+            "SOLUTION:",
+            "(i) Area = (l+5) x (b-3)",
+            "(ii) Total = Rs p x z = Rs pz",
+            "(iii) New price/dozen = Rs (p-2), new quantity = (z-4) dozens",
+            "New total = Rs (p-2)(z-4)",
+            "ANSWER: Expressions: (l+5)(b-3), pz, (p-2)(z-4)",
+            "TRY THESE / FIGURE IT OUT:",
+            "Q1: Can you think of two more situations where we need to multiply algebraic",
+            "expressions?",
+            "A1: (i) Speed x Time = Distance. If speed = (x+2) km/h and time = (t-1) hours,",
+            "distance = (x+2)(t-1) km.",
+            "(ii) Simple Interest: P x R x T / 100. If P = Rs 100p, R = r%, T = t years,",
+            "SI = 100p x r x t / 100 = prt."
+          ]
+        },
+        {
+          "type": "qa",
+          "label": "TOPIC 8.2: Q&A:",
+          "items": [
+            {
+              "q_num": 1,
+              "marks": 2,
+              "question": "Why do we need to multiply algebraic expressions? Give 2 situations.",
+              "answer": "1. Area of rectangle = length x breadth. If l=(l+5), b=(b-3), Area=(l+5)(b-3).\n2. Volume of box = l x b x h. If each is an expression, we multiply them.\n3. Cost = Price x Quantity. If price=Rs p, quantity=z dozens, cost = pz."
+            },
+            {
+              "q_num": 2,
+              "marks": 2,
+              "question": "A rectangle has length (l+5) and breadth (b-3). Write area expression.",
+              "answer": "Area = length x breadth = (l+5)(b-3).\nWe need to multiply two binomials to find the actual area expression."
+            },
+            {
+              "q_num": 3,
+              "marks": 2,
+              "question": "Price of bananas per dozen = Rs (p-2). Quantity needed = (z-4) dozens.",
+              "answer": "Total cost = price x quantity = Rs (p-2) x (z-4) = Rs (p-2)(z-4).\n\n---\n\n3 ಮಾರ್ಕ್ಸ್ × 2 questions:"
+            },
+            {
+              "q_num": 4,
+              "marks": 3,
+              "question": "A rectangular box has length 2ax, breadth 3by, height 5cz. Find volume.",
+              "answer": "Step 1: Box 1 volume.\n= 2ax x 3by x 5cz = (2x3x5)(abc)(xyz) = 30abcxyz.\n\nStep 2: Box 2 volume.\n= m^2n x n^2p x p^2m.\nm: m^2 x m = m^3. n: n x n^2 = n^3. p: p x p^2 = p^3.\n= m^3n^3p^3.\n\nAnswer: Box1 = 30abcxyz. Box2 = m^3n^3p^3."
+            },
+            {
+              "q_num": 5,
+              "marks": 3,
+              "question": "Explain with examples:",
+              "answer": "(i) Order does not matter (commutative): 4x x 5y = 5y x 4x = 20xy.\nAlso associative: (4x x 5y) x 7z = 4x x (5y x 7z) = 140xyz.\n\n(ii) Coefficient of product = product of coefficients.\nExample: 4x x 5y → coefficient = 4 x 5 = 20.\n\n(iii) Variable rule: x^a x x^b = x^(a+b).\nExample: x^2 x x^3 = x^(2+3) = x^5.\nFor different variables: x x y = xy (no exponent change).\n\nAnswer: All three rules explained with examples above.\n\n---\n\n4 ಮಾರ್ಕ್ಸ್ × 2 questions:"
+            },
+            {
+              "q_num": 6,
+              "marks": 4,
+              "question": "Complete the table for area of rectangles with given length and breadth:",
+              "answer": "Step 1: Area = length x breadth.\n(i) 3x x 5y = 15xy.\n(ii) 9y x 4y^2 = (9x4)(y x y^2) = 36y^3.\n(iii) 4ab x 5bc = (4x5)(ab x bc) = 20ab^2c.\n(iv) 2l^2m x 3lm^2 = (2x3)(l^2 x l)(m x m^2) = 6l^3m^3.\n\nAnswer: (i) 15xy  (ii) 36y^3  (iii) 20ab^2c  (iv) 6l^3m^3."
+            },
+            {
+              "q_num": 7,
+              "marks": 4,
+              "question": "Find volume of each rectangular box:",
+              "answer": "(i) 2ax x 3by x 5cz = 30abcxyz.\n\n(ii) m^2n x n^2p x p^2m = m^(2+1) x n^(1+2) x p^(1+2) = m^3n^3p^3.\n\n(iii) 2q x 4q^2 x 8q^3 = (2x4x8) x q^(1+2+3) = 64q^6.\n\n(iv) xy x yz x zx = x^(1+1) x y^(1+1) x z^(1+1) = x^2y^2z^2.\n\nAnswer: (i) 30abcxyz  (ii) m^3n^3p^3  (iii) 64q^6  (iv) x^2y^2z^2\n\n---\n\n5 ಮಾರ್ಕ್ಸ್ × 1 question:"
+            },
+            {
+              "q_num": 8,
+              "marks": 5,
+              "question": "A school needs to calculate areas and volumes for its construction project.",
+              "answer": "PART A — Areas:\n\n(i) Area of wall = 2ax x 3by = 6abxy.\n\n(ii) Area of floor = 5cz x 4dm = 20cdmz.\n\nPART B — Volumes:\n\n(iii) Volume of pillar = m^2n x n^2p x p^2m = m^3n^3p^3.\n\n(iv) Volume of storage = 2q x 4q^2 x 8q^3 = 64q^6.\n\nPART C — Cost:\n\n(v) Total wall cost = Area x price per unit = 6abxy x xy = 6abx^2y^2.\n\nAnswer: (i) 6abxy  (ii) 20cdmz  (iii) m^3n^3p^3\n(iv) 64q^6  (v) 6abx^2y^2"
+            }
+          ]
+        },
+        {
+          "type": "mcq",
+          "label": "TOPIC 8.2: MCQs:",
+          "items": [
+            {
+              "mcq_num": 1,
+              "difficulty": "Easy",
+              "question": "Area of a rectangle with length 3x and breadth 5y is:",
+              "options": {
+                "A": "8xy   (B) 15xy   (C) 15x^2y^2   (D) 8x + y"
+              },
+              "answer": "B",
+              "explanation": "Area = 3x x 5y = 15xy."
+            },
+            {
+              "mcq_num": 2,
+              "difficulty": "Medium",
+              "question": "Volume of a box with length 2ax, breadth 3by, height 5cz is:",
+              "options": {
+                "A": "10abcxyz   (B) 30abcxyz   (C) 15abcxyz   (D) 6abcxyz"
+              },
+              "answer": "B",
+              "explanation": "2x3x5 = 30. Variables: abcxyz. Total = 30abcxyz."
+            },
+            {
+              "mcq_num": 3,
+              "difficulty": "Easy",
+              "question": "Price of bananas per dozen = Rs p, quantity needed = z dozens. Total cost is:",
+              "options": {
+                "A": "p + z   (B) pz   (C) p/z   (D) 2pz"
+              },
+              "answer": "B",
+              "explanation": "Total cost = price x quantity = Rs p x z = Rs pz."
+            },
+            {
+              "mcq_num": 4,
+              "difficulty": "Medium",
+              "question": "Area of rectangle with length (l+5) and breadth (b-3) is written as:",
+              "options": {
+                "A": "l + b + 2   (B) (l+5)(b-3)   (C) lb - 3l + 5b   (D) lb + 15"
+              },
+              "answer": "B",
+              "explanation": "Area = length x breadth = (l+5)(b-3). We write the expression first."
+            },
+            {
+              "mcq_num": 5,
+              "difficulty": "Medium",
+              "question": "x^a x x^b = ?",
+              "options": {
+                "A": "x^(a-(B)   (B) x^(a+(B)   (C) x^(axb)   (D) x^(a/b)"
+              },
+              "answer": "B",
+              "explanation": "When multiplying same base, add the exponents: x^a x x^b = x^(a+b)."
+            },
+            {
+              "mcq_num": 6,
+              "difficulty": "Hard",
+              "question": "Volume of rectangular box with length m^2n, breadth n^2p, height p^2m is:",
+              "options": {
+                "A": "m^2n^2p^2   (B) m^3n^3p^3   (C) m^5n^5p^5   (D) 6m^2n^2p^2"
+              },
+              "answer": "B",
+              "explanation": "m^2 x m = m^3. n x n^2 = n^3. p x p^2 = p^3. Volume = m^3n^3p^3."
+            }
+          ]
+        }
+      ],
+      "subtopics": []
+    },
+    {
+      "topic_num": "8.3",
+      "topic_name": "MULTIPLYING A MONOMIAL BY A MONOMIAL",
+      "mode": "A",
+      "sections": [
+        {
+          "type": "definition",
+          "label": "Definition:",
+          "text": "A MONOMIAL is an expression that contains only one term.\nExamples: 3, 2x, 4xy, -7x^2y, 5x^3\nThe product of two monomials is always a monomial."
+        },
+        {
+          "type": "key_points",
+          "label": "Key Points:",
+          "points": [
+            "Multiply coefficients together",
+            "Multiply algebraic (variable) parts using exponent rules",
+            "x^a x x^b = x^(a+b)",
+            "Product is always a monomial"
+          ]
+        },
+        {
+          "type": "list_of_topics",
+          "label": "LIST OF SUB TOPICS IN THIS TOPIC:",
+          "items": [
+            "- Sub Topic 8.3.1: Multiplying Two Monomials",
+            "- Sub Topic 8.3.2: Multiplying Three or More Monomials"
+          ]
+        },
+        {
+          "type": "qa",
+          "label": "TOPIC 8.3: Q&A:",
+          "items": [
+            {
+              "q_num": 1,
+              "marks": 2,
+              "question": "What is a monomial? State the rule for multiplying two monomials.",
+              "answer": "MONOMIAL: Expression with only one term. Examples: 5, 3x, -4xy, 7x^2y.\nRule for multiplying two monomials:\nStep 1: Multiply coefficients together.\nStep 2: Multiply variable parts using x^a x x^b = x^(a+b).\nProduct of two monomials is always a monomial."
+            },
+            {
+              "q_num": 2,
+              "marks": 2,
+              "question": "Find: (i) 5x x 3y   (ii) 5x x (-3y)   (iii) 5x x 4x^2.",
+              "answer": "(i) 5x x 3y = 15xy.\n(ii) 5x x (-3y) = -15xy.\n(iii) 5x x 4x^2 = (5x4)(x x x^2) = 20x^3."
+            },
+            {
+              "q_num": 3,
+              "marks": 2,
+              "question": "Find: (i) 2x x 5y x 7z   (ii) 4xy x 5x^2y^2 x 6x^3y^3.",
+              "answer": "(i) (2x5x7)(xyz) = 70xyz.\n(ii) Coefficients: 4x5x6=120. x^(1+2+3)=x^6. y^(1+2+3)=y^6. = 120x^6y^6.\n\n---\n\n3 ಮಾರ್ಕ್ಸ್ × 2 questions:"
+            },
+            {
+              "q_num": 4,
+              "marks": 3,
+              "question": "Complete the area table: length and breadth given.",
+              "answer": "(i) 3x x 5y = 15xy.\n(ii) 9y x 4y^2 = 36y^3.\n(iii) 4ab x 5bc = 20ab^2c.\n(iv) 2l^2m x 3lm^2 = 6l^3m^3.\n\nAnswer: 15xy, 36y^3, 20ab^2c, 6l^3m^3."
+            },
+            {
+              "q_num": 5,
+              "marks": 3,
+              "question": "Find volumes of rectangular boxes:",
+              "answer": "(i) 30abcxyz.\n(ii) m^3n^3p^3.\n(iii) 64q^6.\n\n---\n\n4 ಮಾರ್ಕ್ಸ್ × 2 questions:"
+            },
+            {
+              "q_num": 6,
+              "marks": 4,
+              "question": "Find the following products:",
+              "answer": "(i) (4x7)(p x p) = 28p^2.\n(ii) (-4x7)(p x p) = -28p^2.\n(iii) (-4x7)(p x pq) = -28p^2q.\n(iv) (4x-3)(p^3 x p) = -12p^4.\n(v) (4x5x6)(x^6)(y^6) = 120x^6y^6.\n\nAnswer: (i) 28p^2  (ii) -28p^2  (iii) -28p^2q  (iv) -12p^4  (v) 120x^6y^6"
+            },
+            {
+              "q_num": 7,
+              "marks": 4,
+              "question": "(i) Find 5a x (-4a^2bc).",
+              "answer": "(i) (5x-4)(a x a^2 x b x c) = -20a^3bc.\n(ii) xy x yz x zx = x^2y^2z^2.\n(iii) a x (-a^2) x a^3 = (1x-1x1)(a^(1+2+3)) = -a^6.\n(iv) (-5x3)(x^2 x x)(y x y^2) = -15x^3y^3.\n\nAnswer: (i) -20a^3bc  (ii) x^2y^2z^2  (iii) -a^6  (iv) -15x^3y^3\n\n---\n\n5 ಮಾರ್ಕ್ಸ್ × 1 question:"
+            },
+            {
+              "q_num": 8,
+              "marks": 5,
+              "question": "Solve completely:",
+              "answer": "PART A — Two monomials:\n\n(i) x x 3y = 3xy.\n(ii) 5x x 3y = 15xy.\n(iii) 5x x (-3y) = -15xy.\n(iv) 5x x 4x^2 = 20x^3.\n(v) 5x x (-4xyz) = -20x^2yz.\n\nPART B — Three monomials:\n\n(vi) 2x x 5y x 7z = 70xyz.\n\n(vii) 4xy x 5x^2y^2 x 6x^3y^3:\nCoefficients = 4x5x6 = 120.\nx-variables = x^(1+2+3) = x^6.\ny-variables = y^(1+2+3) = y^6.\n= 120x^6y^6.\n\nAnswer: (i) 3xy  (ii) 15xy  (iii) -15xy  (iv) 20x^3  (v) -20x^2yz\n(vi) 70xyz  (vii) 120x^6y^6"
+            }
+          ]
+        },
+        {
+          "type": "mcq",
+          "label": "TOPIC 8.3: MCQs:",
+          "items": [
+            {
+              "mcq_num": 1,
+              "difficulty": "Easy",
+              "question": "Product of two monomials is always a:",
+              "options": {
+                "A": "Binomial   (B) Trinomial   (C) Monomial   (D) Polynomial"
+              },
+              "answer": "C",
+              "explanation": "Monomial x Monomial = Monomial always."
+            },
+            {
+              "mcq_num": 2,
+              "difficulty": "Medium",
+              "question": "5x x (-4xyz) = ?",
+              "options": {
+                "A": "-20x^2yz   (B) 20x^2yz   (C) -20xyz   (D) 20xyz"
+              },
+              "answer": "A",
+              "explanation": "(5 x -4)(x x xyz) = -20x^2yz."
+            },
+            {
+              "mcq_num": 3,
+              "difficulty": "Easy",
+              "question": "Product of 4p and (-3p) is:",
+              "options": {
+                "A": "12p   (B) -12p   (C) 12p^2   (D) -12p^2"
+              },
+              "answer": "D",
+              "explanation": "(4 x -3)(p x p) = -12p^2."
+            },
+            {
+              "mcq_num": 4,
+              "difficulty": "Medium",
+              "question": "Find: 3x^2 x 4x^3.",
+              "options": {
+                "A": "7x^5   (B) 12x^5   (C) 12x^6   (D) 7x^6"
+              },
+              "answer": "B",
+              "explanation": "(3x4)(x^2 x x^3) = 12 x x^(2+3) = 12x^5."
+            },
+            {
+              "mcq_num": 5,
+              "difficulty": "Medium",
+              "question": "Find: 2x x 5y x 7z.",
+              "options": {
+                "A": "14xyz   (B) 35xyz   (C) 70xyz   (D) 70x^3"
+              },
+              "answer": "C",
+              "explanation": "2x5x7 = 70. Variables = xyz. So 70xyz."
+            },
+            {
+              "mcq_num": 6,
+              "difficulty": "Hard",
+              "question": "4xy x 5x^2y^2 x 6x^3y^3 = ?",
+              "options": {
+                "A": "15x^6y^6   (B) 120x^5y^5   (C) 120x^6y^6   (D) 20x^6y^6"
+              },
+              "answer": "C",
+              "explanation": "4x5x6=120. x^(1+2+3)=x^6. y^(1+2+3)=y^6. = 120x^6y^6. ----"
+            }
+          ]
+        }
+      ],
+      "subtopics": [
+        {
+          "subtopic_num": "8.3.1",
+          "subtopic_name": "Multiplying Two Monomials",
+          "sections": [
+            {
+              "type": "definition",
+              "label": "Definition:",
+              "text": "To multiply two monomials, multiply their COEFFICIENTS together and multiply\ntheir VARIABLE PARTS together using laws of exponents (x^a x x^b = x^(a+b))."
+            },
+            {
+              "type": "key_points",
+              "label": "Key Points:",
+              "points": [
+                "4 x x = 4x (repeated addition)",
+                "x x 3y = 3xy (coefficient x coefficient, variable x variable)",
+                "Note: coefficient of product = coefficient1 x coefficient2",
+                "Note: variable part of product = variable1 x variable2"
+              ]
+            },
+            {
+              "type": "formulas",
+              "label": "FORMULA:",
+              "items": [
+                "(a x^m) x (b y^n) = (a x b)(x^m x y^n)",
+                "For same variable: x^a x x^b = x^(a+b)",
+                "EXAMPLES: (Textbook examples)",
+                "EXAMPLE 8.3.1.1: Products of Two Monomials",
+                "PROBLEM: Find the products.",
+                "(i) x x 3y    (ii) 5x x 3y    (iii) 5x x (-3y)",
+                "(iv) 5x x 4x^2    (v) 5x x (-4xyz)",
+                "SOLUTION:",
+                "(i) x x 3y = 1 x 3 x x x y = 3xy",
+                "(ii) 5x x 3y = 5 x 3 x x x y = 15xy",
+                "(iii) 5x x (-3y) = 5 x (-3) x x x y = -15xy",
+                "(iv) 5x x 4x^2 = (5 x 4)(x x x^2) = 20 x x^(1+2) = 20x^3",
+                "(v) 5x x (-4xyz) = (5 x (-4))(x x xyz) = -20 x x^(1+1) x yz = -20x^2yz",
+                "ANSWER: (i)3xy (ii)15xy (iii)-15xy (iv)20x^3 (v)-20x^2yz",
+                "EXAMPLE 8.3.1.2: Area of Rectangles (Table)",
+                "PROBLEM: Complete the table for area of rectangles.",
+                "| length | breadth | area  |",
+                "| 3x     | 5y      | 15xy  |",
+                "| 9y     | 4y^2    | ?     |",
+                "| 4ab    | 5bc     | ?     |",
+                "| 2l^2m  | 3lm^2   | ?     |",
+                "SOLUTION:",
+                "9y x 4y^2 = 36y^3",
+                "4ab x 5bc = 20ab^2c",
+                "2l^2m x 3lm^2 = 6l^3m^3",
+                "ANSWER: 36y^3, 20ab^2c, 6l^3m^3",
+                "TRY THESE / FIGURE IT OUT:",
+                "Q1: Find 4x x 5y x 7z. First find 4x x 5y, then multiply by 7z.",
+                "OR first find 5y x 7z, then multiply by 4x. Is the result same?",
+                "A1: Method 1: (4x x 5y) x 7z = 20xy x 7z = 140xyz",
+                "Method 2: 4x x (5y x 7z) = 4x x 35yz = 140xyz",
+                "Yes, same result. Order does not matter (commutative)."
+              ]
+            },
+            {
+              "type": "qa",
+              "label": "SUB-TOPIC 8.3.1: Q&A:",
+              "items": [
+                {
+                  "q_num": 1,
+                  "marks": 2,
+                  "question": "State the rule for multiplying two monomials. Give one example.",
+                  "answer": "Rule: Multiply coefficients together. Multiply variable parts using x^a x x^b = x^(a+b).\nExample: 5x x 4x^2 = (5x4)(x x x^2) = 20x^3."
+                },
+                {
+                  "q_num": 2,
+                  "marks": 2,
+                  "question": "Find: (i) 4p x 7p   (ii) -4p x 7p   (iii) -4p x 7pq.",
+                  "answer": "(i) 28p^2.  (ii) -28p^2.  (iii) -28p^2q."
+                },
+                {
+                  "q_num": 3,
+                  "marks": 2,
+                  "question": "Find: (i) 4p^3 x (-3p)   (ii) 5x x (-4xyz).",
+                  "answer": "(i) (4 x -3)(p^3 x p) = -12p^4.\n(ii) (5 x -4)(x x xyz) = -20x^2yz.\n\n---\n\n3 ಮಾರ್ಕ್ಸ್ × 2 questions:"
+                },
+                {
+                  "q_num": 4,
+                  "marks": 3,
+                  "question": "Complete table: find area of rectangles.",
+                  "answer": "(i) 3x x 5y = 15xy.\n(ii) 9y x 4y^2 = 36y^3.\n(iii) 4ab x 5bc = 20ab^2c."
+                },
+                {
+                  "q_num": 5,
+                  "marks": 3,
+                  "question": "Find products: (i) 5a x (-4a^2bc)   (ii) (-5x^2y)(3xy^2)   (iii) 3mn x 4n^2.",
+                  "answer": "(i) (5 x -4)(a x a^2)(bc) = -20a^3bc.\n(ii) (-5x3)(x^2 x x)(y x y^2) = -15x^3y^3.\n(iii) (3x4)(m x n x n^2) = 12mn^3.\n\n---\n\n4 ಮಾರ್ಕ್ಸ್ × 2 questions:"
+                },
+                {
+                  "q_num": 6,
+                  "marks": 4,
+                  "question": "Find: (i) x x 3y   (ii) 5x x 3y   (iii) 5x x (-3y)   (iv) 5x x 4x^2   (v) 5x x (-4xyz).",
+                  "answer": "(i) 3xy.  (ii) 15xy.  (iii) -15xy.  (iv) 20x^3.  (v) -20x^2yz."
+                },
+                {
+                  "q_num": 7,
+                  "marks": 4,
+                  "question": "Find: (i) -4p x 7p   (ii) -4p x 7pq   (iii) 4p^3 x (-3p)   (iv) 4p^3 x (-3p^2q).",
+                  "answer": "(i) -28p^2.  (ii) -28p^2q.  (iii) -12p^4.  (iv) (4x-3)(p^3 x p^2)(q) = -12p^5q.\n\n---\n\n5 ಮಾರ್ಕ್ಸ್ × 1 question:"
+                },
+                {
+                  "q_num": 8,
+                  "marks": 5,
+                  "question": "Complete all textbook problems for multiplying two monomials.",
+                  "answer": "(i) 3xy.  (ii) 15xy.  (iii) -15xy.  (iv) 20x^3.  (v) -20x^2yz.\n(vi) 15xy.  (vii) 36y^3.\n\n----"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "subtopic_num": "8.3.2",
+          "subtopic_name": "Multiplying Three or More Monomials",
+          "sections": [
+            {
+              "type": "definition",
+              "label": "Definition:",
+              "text": "When multiplying three or more monomials, multiply the first two, then multiply\nthe result by the third, and so on. The order of multiplication does not matter."
+            },
+            {
+              "type": "key_points",
+              "label": "Key Points:",
+              "points": [
+                "Multiply ALL coefficients together first",
+                "Multiply ALL variables using x^a x x^b = x^(a+b)",
+                "Can multiply in any order (commutative and associative property)",
+                "EXAMPLES: (Textbook examples)",
+                "EXAMPLE 8.3.2.1: Products of Three Monomials",
+                "PROBLEM: Find: (i) 2x x 5y x 7z  (ii) 4xy x 5x^2y^2 x 6x^3y^3",
+                "SOLUTION:",
+                "(i) (2x5x7)(xyz) = 70xyz",
+                "(ii) Coefficients: 4x5x6=120. x^(1+2+3)=x^6. y^(1+2+3)=y^6. = 120x^6y^6",
+                "ANSWER: (i) 70xyz  (ii) 120x^6y^6",
+                "EXAMPLE 8.3.2.2: Volume of Rectangular Boxes",
+                "PROBLEM: (i) l=2ax, b=3by, h=5cz  (ii) l=m^2n, b=n^2p, h=p^2m  (iii) l=2q, b=4q^2, h=8q^3",
+                "SOLUTION:",
+                "(i) 30abcxyz  (ii) m^3n^3p^3  (iii) 64q^6",
+                "TRY THESE / FIGURE IT OUT:",
+                "Q1: Find 4x x 5y x 7z. Try two different orders. Is result same?",
+                "A1: (4x x 5y) x 7z = 20xy x 7z = 140xyz.",
+                "4x x (5y x 7z) = 4x x 35yz = 140xyz. Yes, same. ✓"
+              ]
+            },
+            {
+              "type": "qa",
+              "label": "SUB-TOPIC 8.3.2: Q&A:",
+              "items": [
+                {
+                  "q_num": 1,
+                  "marks": 2,
+                  "question": "State the rule for multiplying three monomials. Does order matter?",
+                  "answer": "Multiply all coefficients together. Multiply all variables using x^a x x^b = x^(a+b).\nOrder does NOT matter (commutative and associative property).\nExample: 2x x 5y x 7z = (2x5x7)(xyz) = 70xyz."
+                },
+                {
+                  "q_num": 2,
+                  "marks": 2,
+                  "question": "Find: (i) 2x x 5y x 7z   (ii) 4xy x 5x^2y^2 x 6x^3y^3.",
+                  "answer": "(i) 70xyz.  (ii) 120x^6y^6."
+                },
+                {
+                  "q_num": 3,
+                  "marks": 2,
+                  "question": "Find volume of box: l=2ax, b=3by, h=5cz.",
+                  "answer": "2ax x 3by x 5cz = (2x3x5)(abc)(xyz) = 30abcxyz.\n\n---\n\n3 ಮಾರ್ಕ್ಸ್ × 2 questions:"
+                },
+                {
+                  "q_num": 4,
+                  "marks": 3,
+                  "question": "Find volumes: (i) 2ax,3by,5cz  (ii) m^2n,n^2p,p^2m  (iii) 2q,4q^2,8q^3.",
+                  "answer": "(i) 30abcxyz.  (ii) m^3n^3p^3.  (iii) 64q^6."
+                },
+                {
+                  "q_num": 5,
+                  "marks": 3,
+                  "question": "Find: (i) 4x x 5y x 7z  (ii) xy x yz x zx  (iii) a x (-a^2) x a^3.",
+                  "answer": "(i) 140xyz.  (ii) x^2y^2z^2.  (iii) -a^6.\n\n---\n\n4 ಮಾರ್ಕ್ಸ್ × 2 questions:"
+                },
+                {
+                  "q_num": 6,
+                  "marks": 4,
+                  "question": "Verify order does not matter for 4x x 5y x 7z. Show both orders.",
+                  "answer": "Order 1: (4x x 5y) x 7z = 20xy x 7z = 140xyz.\nOrder 2: 4x x (5y x 7z) = 4x x 35yz = 140xyz. ✓ Same.\n4xy x 5x^2y^2 x 6x^3y^3 = 120x^6y^6."
+                },
+                {
+                  "q_num": 7,
+                  "marks": 4,
+                  "question": "Find: (i) 5a x 3a^2 x 7a^4  (ii) 2p x 4q x 8r  (iii) xy x yz x zx.",
+                  "answer": "(i) 105a^7.  (ii) 64pqr.  (iii) x^2y^2z^2.\n\n---\n\n5 ಮಾರ್ಕ್ಸ್ × 1 question:"
+                },
+                {
+                  "q_num": 8,
+                  "marks": 5,
+                  "question": "Find all volumes and products:",
+                  "answer": "(i) 30abcxyz.  (ii) m^3n^3p^3.  (iii) 64q^6.\n(iv) 120x^6y^6.  (v) x^2y^2z^2."
+                }
+              ]
+            },
+            {
+              "type": "mcq",
+              "label": "SUB-TOPIC 8.3.2: MCQs:",
+              "items": [
+                {
+                  "mcq_num": 1,
+                  "difficulty": "Easy",
+                  "question": "Product of 2x, 5y, 7z is:",
+                  "options": {
+                    "A": "14xyz   (B) 35xyz   (C) 70xyz   (D) 70x^3"
+                  },
+                  "answer": "C",
+                  "explanation": "2x5x7=70. Variables=xyz. So 70xyz."
+                },
+                {
+                  "mcq_num": 2,
+                  "difficulty": "Medium",
+                  "question": "Find volume: length=2ax, breadth=3by, height=5cz.",
+                  "options": {
+                    "A": "10abcxyz   (B) 30abcxyz   (C) 15abcxyz   (D) 6abcxyz"
+                  },
+                  "answer": "B",
+                  "explanation": "2x3x5=30. Variables=abcxyz. Total=30abcxyz."
+                },
+                {
+                  "mcq_num": 3,
+                  "difficulty": "Medium",
+                  "question": "Find: 4xy x 5x^2y^2 x 6x^3y^3.",
+                  "options": {
+                    "A": "15x^6y^6   (B) 120x^5y^5   (C) 120x^6y^6   (D) 20x^6y^6"
+                  },
+                  "answer": "C",
+                  "explanation": "4x5x6=120. x^6. y^6. =120x^6y^6."
+                },
+                {
+                  "mcq_num": 4,
+                  "difficulty": "Easy",
+                  "question": "Find: 2x x 3y x 4z.",
+                  "options": {
+                    "A": "9xyz   (B) 24xyz   (C) 24x^3   (D) 9x^3"
+                  },
+                  "answer": "B",
+                  "explanation": "2x3x4=24. Variables=xyz. =24xyz."
+                },
+                {
+                  "mcq_num": 5,
+                  "difficulty": "Medium",
+                  "question": "Volume of box: l=2q, b=4q^2, h=8q^3.",
+                  "options": {
+                    "A": "14q^6   (B) 64q^5   (C) 64q^6   (D) 14q^5"
+                  },
+                  "answer": "C",
+                  "explanation": "2x4x8=64. q^(1+2+3)=q^6. =64q^6."
+                },
+                {
+                  "mcq_num": 6,
+                  "difficulty": "Hard",
+                  "question": "Find: xy x yz x zx.",
+                  "options": {
+                    "A": "xyz   (B) x^2y^2z   (C) x^2y^2z^2   (D) xyz^2"
+                  },
+                  "answer": "C",
+                  "explanation": "x^2, y^2, z^2. Product=x^2y^2z^2."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic_num": "8.4",
+      "topic_name": "MULTIPLYING A MONOMIAL BY A POLYNOMIAL",
+      "mode": "A",
+      "sections": [
+        {
+          "type": "definition",
+          "label": "Definition:",
+          "text": "A BINOMIAL has two terms. A TRINOMIAL has three terms.\nA POLYNOMIAL has one or more terms with non-negative integer exponents.\nTo multiply a monomial by a polynomial, use the DISTRIBUTIVE LAW:\nmultiply the monomial by EACH term of the polynomial separately."
+        },
+        {
+          "type": "key_points",
+          "label": "Key Points:",
+          "points": [
+            "Distributive law: a(b + c) = ab + ac",
+            "Every term of the polynomial gets multiplied by the monomial",
+            "Like terms in the result should be combined",
+            "Binomial: 2 terms. Trinomial: 3 terms. Polynomial: 1 or more terms."
+          ]
+        },
+        {
+          "type": "list_of_topics",
+          "label": "LIST OF SUB TOPICS IN THIS TOPIC:",
+          "items": [
+            "- Sub Topic 8.4.1: Multiplying a Monomial by a Binomial",
+            "- Sub Topic 8.4.2: Multiplying a Monomial by a Trinomial"
+          ]
+        },
+        {
+          "type": "qa",
+          "label": "TOPIC 8.4: Q&A:",
+          "items": [
+            {
+              "q_num": 1,
+              "marks": 2,
+              "question": "What is the distributive law? How is it used in multiplication?",
+              "answer": "DISTRIBUTIVE LAW: a(b + c) = ab + ac.\nEvery term of the polynomial is multiplied by the monomial separately.\nExample: 3x(5y + 2) = (3x)(5y) + (3x)(2) = 15xy + 6x."
+            },
+            {
+              "q_num": 2,
+              "marks": 2,
+              "question": "Find: (i) 3x(5y+2)   (ii) 5xy(y^2+3).",
+              "answer": "(i) 3x(5y+2) = 15xy + 6x.\n(ii) 5xy(y^2+3) = 5xy^3 + 15xy."
+            },
+            {
+              "q_num": 3,
+              "marks": 2,
+              "question": "Find: 3p(4p^2 + 5p + 7).",
+              "answer": "3p x 4p^2 = 12p^3.\n3p x 5p = 15p^2.\n3p x 7 = 21p.\n= 12p^3 + 15p^2 + 21p.\n\n---\n\n3 ಮಾರ್ಕ್ಸ್ × 2 questions:"
+            },
+            {
+              "q_num": 4,
+              "marks": 3,
+              "question": "Find: (i) 2x(3x+5xy)   (ii) a^2(2ab-5c)   (iii) (-3x)(-5y+2).",
+              "answer": "(i) 2x(3x+5xy) = 6x^2 + 10x^2y.\n(ii) a^2(2ab-5c) = 2a^3b - 5a^2c.\n(iii) (-3x)(-5y+2) = 15xy - 6x.\n\nAnswer: (i) 6x^2+10x^2y  (ii) 2a^3b-5a^2c  (iii) 15xy-6x."
+            },
+            {
+              "q_num": 5,
+              "marks": 3,
+              "question": "Simplify and evaluate:",
+              "answer": "(i) x(x-3)+2 = x^2-3x+2. At x=1: 1-3+2 = 0.\n\n(ii) 3y(2y-7)-3(y-4)-63\n= 6y^2-21y-3y+12-63 = 6y^2-24y-51.\nAt y=-2: 6(4)-24(-2)-51 = 24+48-51 = 21.\n\nAnswer: (i) 0   (ii) 21.\n\n---\n\n4 ಮಾರ್ಕ್ಸ್ × 2 questions:"
+            },
+            {
+              "q_num": 6,
+              "marks": 4,
+              "question": "Add and subtract combined:",
+              "answer": "(i) 5m(3-m) = 15m-5m^2. Add to 6m^2-13m.\n= -5m^2+6m^2+15m-13m = m^2+2m.\n\n(ii) 2pq(p+q) = 2p^2q+2pq^2.\n3pq(p-q) = 3p^2q-3pq^2.\nSubtract: 2p^2q+2pq^2 - 3p^2q+3pq^2 = -p^2q+5pq^2.\n\n(iii) 4y(3y^2+5y-7) = 12y^3+20y^2-28y.\n2(y^3-4y^2+5) = 2y^3-8y^2+10.\nSum = 14y^3+12y^2-28y+10.\n\nAnswer: (i) m^2+2m  (ii) -p^2q+5pq^2  (iii) 14y^3+12y^2-28y+10"
+            },
+            {
+              "q_num": 7,
+              "marks": 4,
+              "question": "From textbook Exercise 8.3:",
+              "answer": "(i) ab x (a-b) = a^2b - ab^2.\n\n(ii) (a+b) x 7a^2b^2 = 7a^3b^2 + 7a^2b^3.\n\n(iii) 4p x (q+r) = 4pq + 4pr.\n\n(iv) 3x(4x-5)+3 = 12x^2-15x+3.\nAt x=3: 12(9)-15(3)+3 = 108-45+3 = 66.\n\nAnswer: (i) a^2b-ab^2  (ii) 7a^3b^2+7a^2b^3\n(iii) 4pq+4pr  (iv) simplified=12x^2-15x+3, value=66\n\n---\n\n5 ಮಾರ್ಕ್ಸ್ × 1 question:"
+            },
+            {
+              "q_num": 8,
+              "marks": 5,
+              "question": "Solve completely from Exercise 8.3:",
+              "answer": "PART A:\n\n(i) 3x(4x-5)+3 = 12x^2-15x+3. At x=3: 108-45+3 = 66.\n\n(ii) a(a^2+a+1)+5 = a^3+a^2+a+5. At a=0: 0+0+0+5 = 5.\n\nPART B:\n\n(iii) p(p-q) = p^2-pq.\nq(q-r) = q^2-qr.\nr(r-p) = r^2-rp.\nSum = p^2+q^2+r^2-pq-qr-rp.\n\n(iv) 2pq(p+q)=2p^2q+2pq^2.\n3pq(p-q)=3p^2q-3pq^2.\nSubtract: 2p^2q+2pq^2-3p^2q+3pq^2 = -p^2q+5pq^2.\n\nPART C:\n\n(v) 6y^2-24y-51. At y=-2: 24+48-51 = 21.\n\nAnswer: (i) 66  (ii) 5  (iii) p^2+q^2+r^2-pq-qr-rp\n(iv) -p^2q+5pq^2  (v) 21"
+            }
+          ]
+        },
+        {
+          "type": "mcq",
+          "label": "TOPIC 8.4: MCQs:",
+          "items": [
+            {
+              "mcq_num": 1,
+              "difficulty": "Easy",
+              "question": "2x x (3x + 5xy) = ?",
+              "options": {
+                "A": "6x^2 + 5xy   (B) 6x^2 + 10x^2y   (C) 6x + 10xy   (D) 6x^2 + 10xy"
+              },
+              "answer": "B",
+              "explanation": "2x x 3x = 6x^2. 2x x 5xy = 10x^2y."
+            },
+            {
+              "mcq_num": 2,
+              "difficulty": "Medium",
+              "question": "3p x (4p^2 + 5p + 7) = ?",
+              "options": {
+                "A": "12p^3 + 15p + 21",
+                "B": "12p^3 + 15p^2 + 21p",
+                "C": "12p^2 + 15p + 21",
+                "D": "7p^3 + 8p^2 + 10p"
+              },
+              "answer": "B",
+              "explanation": "3p x 4p^2 = 12p^3. 3p x 5p = 15p^2. 3p x 7 = 21p."
+            },
+            {
+              "mcq_num": 3,
+              "difficulty": "Easy",
+              "question": "The distributive law states: a(b + c) = ?",
+              "options": {
+                "A": "ab + c   (B) a + bc   (C) ab + ac   (D) a + b + c"
+              },
+              "answer": "C",
+              "explanation": "a(b + c) = ab + ac. Monomial multiplies each term of the polynomial."
+            },
+            {
+              "mcq_num": 4,
+              "difficulty": "Easy",
+              "question": "5xy x (y^2 + 3) = ?",
+              "options": {
+                "A": "5xy^3 + 15xy   (B) 5xy^2 + 15xy   (C) 5xy^3 + 3   (D) 5y^3 + 15y"
+              },
+              "answer": "A",
+              "explanation": "5xy x y^2 = 5xy^3. 5xy x 3 = 15xy. Total = 5xy^3 + 15xy."
+            },
+            {
+              "mcq_num": 5,
+              "difficulty": "Medium",
+              "question": "a^2 x (2ab - 5c) = ?",
+              "options": {
+                "A": "2a^2b - 5ac   (B) 2a^3b - 5a^2c   (C) 2a^3b + 5a^2c   (D) 7a^3b"
+              },
+              "answer": "B",
+              "explanation": "a^2 x 2ab = 2a^3b. a^2 x (-5c) = -5a^2c."
+            },
+            {
+              "mcq_num": 6,
+              "difficulty": "Hard",
+              "question": "Simplify x(x-3) + 2 for x = 1.",
+              "options": {
+                "A": "0   (B) 1   (C) 2   (D) -1"
+              },
+              "answer": "A",
+              "explanation": "x^2 - 3x + 2. At x=1: 1 - 3 + 2 = 0. ----"
+            }
+          ]
+        }
+      ],
+      "subtopics": [
+        {
+          "subtopic_num": "8.4.1",
+          "subtopic_name": "Multiplying a Monomial by a Binomial",
+          "sections": [
+            {
+              "type": "definition",
+              "label": "Definition:",
+              "text": "To multiply a monomial by a binomial, use the distributive law:\nmultiply the monomial by each of the TWO terms of the binomial."
+            },
+            {
+              "type": "key_points",
+              "label": "Key Points:",
+              "points": [
+                "a x (b + c) = (a x b) + (a x c)",
+                "Two products are obtained",
+                "Combine like terms if any"
+              ]
+            },
+            {
+              "type": "formulas",
+              "label": "FORMULA:",
+              "items": [
+                "a x (b + c) = ab + ac",
+                "WHERE: a = monomial, (b + c) = binomial",
+                "EXAMPLES: (Textbook examples)",
+                "EXAMPLE 8.4.1.1: Monomial x Binomial",
+                "PROBLEM: Find:",
+                "(i) 3x x (5y + 2)",
+                "(ii) (-3x) x (-5y + 2)",
+                "(iii) 5xy x (y^2 + 3)",
+                "SOLUTION:",
+                "(i) 3x x (5y + 2) = (3x x 5y) + (3x x 2) = 15xy + 6x",
+                "(ii) (-3x) x (-5y + 2) = ((-3x) x (-5y)) + ((-3x) x 2) = 15xy - 6x",
+                "(iii) 5xy x (y^2 + 3) = (5xy x y^2) + (5xy x 3) = 5xy^3 + 15xy",
+                "ANSWER: (i) 15xy + 6x  (ii) 15xy - 6x  (iii) 5xy^3 + 15xy",
+                "TRY THESE / FIGURE IT OUT:",
+                "Q1: Find the product: 2x(3x + 5xy)",
+                "A1: 2x x 3x + 2x x 5xy = 6x^2 + 10x^2y",
+                "Q2: Find: a^2(2ab - 5c)",
+                "A2: a^2 x 2ab + a^2 x (-5c) = 2a^3b - 5a^2c"
+              ]
+            },
+            {
+              "type": "qa",
+              "label": "SUB-TOPIC 8.4.1: Q&A:",
+              "items": [
+                {
+                  "q_num": 1,
+                  "marks": 2,
+                  "question": "How do you multiply a monomial by a binomial? State the rule.",
+                  "answer": "Use distributive law: a(b + c) = ab + ac.\nMultiply the monomial by each term of the binomial separately, then add.\nExample: 3x(5y + 2) = (3x)(5y) + (3x)(2) = 15xy + 6x."
+                },
+                {
+                  "q_num": 2,
+                  "marks": 2,
+                  "question": "Find: (i) 3x(5y+2)   (ii) (-3x)(-5y+2)   (iii) 5xy(y^2+3).",
+                  "answer": "(i) 15xy + 6x.  (ii) 15xy - 6x.  (iii) 5xy^3 + 15xy."
+                },
+                {
+                  "q_num": 3,
+                  "marks": 2,
+                  "question": "Find: (i) 2x(3x+5xy)   (ii) a^2(2ab-5c).",
+                  "answer": "(i) 6x^2 + 10x^2y.  (ii) 2a^3b - 5a^2c.\n\n---\n\n3 ಮಾರ್ಕ್ಸ್ × 2 questions:"
+                },
+                {
+                  "q_num": 4,
+                  "marks": 3,
+                  "question": "Find: (i) ab(a-b)   (ii) (a+b)(7a^2b^2)   (iii) 4p(q+r).",
+                  "answer": "(i) ab x a - ab x b = a^2b - ab^2.\n(ii) 7a^3b^2 + 7a^2b^3.\n(iii) 4pq + 4pr."
+                },
+                {
+                  "q_num": 5,
+                  "marks": 3,
+                  "question": "Multiply: (i) (-2x^2)(3x-5y+7)   (ii) 5mn(m^2+n^2-2mn).",
+                  "answer": "(i) (-2x^2)(3x) + (-2x^2)(-5y) + (-2x^2)(7)\n= -6x^3 + 10x^2y - 14x^2.\n\n(ii) 5mn x m^2 + 5mn x n^2 + 5mn x (-2mn)\n= 5m^3n + 5mn^3 - 10m^2n^2.\n\n---\n\n4 ಮಾರ್ಕ್ಸ್ × 2 questions:"
+                },
+                {
+                  "q_num": 6,
+                  "marks": 4,
+                  "question": "Find all products:",
+                  "answer": "(i) 15xy+6x.  (ii) 15xy-6x.  (iii) 5xy^3+15xy.  (iv) 6x^2+10x^2y."
+                },
+                {
+                  "q_num": 7,
+                  "marks": 4,
+                  "question": "Simplify 3x(4x-5)+3 and find value for x=3.",
+                  "answer": "3x(4x-5)+3 = 12x^2-15x+3. At x=3: 108-45+3=66.\na(a^2+a+1)+5 = a^3+a^2+a+5. At a=0: 5.\n\n---\n\n5 ಮಾರ್ಕ್ಸ್ × 1 question:"
+                },
+                {
+                  "q_num": 8,
+                  "marks": 5,
+                  "question": "Solve:",
+                  "answer": "(i) 15xy+6x.  (ii) 15xy-6x.  (iii) 5xy^3+15xy.\n(iv) 6x^2+10x^2y.  (v) 2a^3b-5a^2c.\n(vi) 12x^2-15x+3. At x=3: 66.\n\n----"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "subtopic_num": "8.4.2",
+          "subtopic_name": "Multiplying a Monomial by a Trinomial",
+          "sections": [
+            {
+              "type": "definition",
+              "label": "Definition:",
+              "text": "To multiply a monomial by a trinomial, multiply the monomial by EACH of the\nTHREE terms of the trinomial separately using distributive law."
+            },
+            {
+              "type": "key_points",
+              "label": "Key Points:",
+              "points": [
+                "a x (b + c + d) = ab + ac + ad",
+                "Three products are obtained",
+                "Combine like terms in result"
+              ]
+            },
+            {
+              "type": "formulas",
+              "label": "FORMULA:",
+              "items": [
+                "a x (b + c + d) = ab + ac + ad",
+                "WHERE: a = monomial, (b + c + d) = trinomial",
+                "EXAMPLES: (Textbook examples)",
+                "EXAMPLE 8.4.2.1: 3p x (4p^2 + 5p + 7)",
+                "SOLUTION:",
+                "3p x 4p^2 = 12p^3. 3p x 5p = 15p^2. 3p x 7 = 21p.",
+                "ANSWER: 12p^3 + 15p^2 + 21p",
+                "EXAMPLE 8.4.2.2: Simplify and Evaluate",
+                "(i) x(x-3)+2 for x=1: x^2-3x+2. At x=1: 0.",
+                "(ii) 3y(2y-7)-3(y-4)-63 for y=-2: 6y^2-24y-51. At y=-2: 21.",
+                "EXAMPLE 8.4.2.3: Add 5m(3-m) and 6m^2-13m.",
+                "5m(3-m)=15m-5m^2. Sum = m^2+2m.",
+                "EXAMPLE 8.4.2.4: Subtract 3pq(p-q) from 2pq(p+q).",
+                "= -p^2q + 5pq^2.",
+                "TRY THESE / FIGURE IT OUT:",
+                "Q1: Find: (4p^2 + 5p + 7) x 3p.",
+                "A1: Same as 3p(4p^2+5p+7) = 12p^3+15p^2+21p."
+              ]
+            },
+            {
+              "type": "exercise",
+              "label": "EXERCISE 8.3 (selected):",
+              "items": [],
+              "raw": "1. Carry out multiplication.\n(i) 4p and q+r: 4pq+4pr.\n(ii) ab and (a-b): a^2b-ab^2.\n(iii) a+b and 7a^2b^2: 7a^3b^2+7a^2b^3.\n\n2. Simplify and evaluate.\n(a) 3x(4x-5)+3 for x=3: 12x^2-15x+3 → 66.\n(b) a(a^2+a+1)+5 for a=0: a^3+a^2+a+5 → 5."
+            },
+            {
+              "type": "qa",
+              "label": "SUB-TOPIC 8.4.2: Q&A:",
+              "items": [
+                {
+                  "q_num": 1,
+                  "marks": 2,
+                  "question": "How do you multiply a monomial by a trinomial? How many products?",
+                  "answer": "Use distributive law: a(b+c+d) = ab+ac+ad.\nMultiply monomial by each of the 3 terms separately.\nResult: 3 initial products. Combine like terms if any."
+                },
+                {
+                  "q_num": 2,
+                  "marks": 2,
+                  "question": "Find: 3p(4p^2 + 5p + 7).",
+                  "answer": "3p x 4p^2=12p^3. 3p x 5p=15p^2. 3p x 7=21p.\n= 12p^3 + 15p^2 + 21p."
+                },
+                {
+                  "q_num": 3,
+                  "marks": 2,
+                  "question": "Simplify x(x-3)+2 for x=1.",
+                  "answer": "x^2-3x+2. At x=1: 1-3+2=0.\n\n---\n\n3 ಮಾರ್ಕ್ಸ್ × 2 questions:"
+                },
+                {
+                  "q_num": 4,
+                  "marks": 3,
+                  "question": "Simplify 3y(2y-7)-3(y-4)-63. Find for y=-2.",
+                  "answer": "=6y^2-21y-3y+12-63=6y^2-24y-51. At y=-2: 24+48-51=21."
+                },
+                {
+                  "q_num": 5,
+                  "marks": 3,
+                  "question": "Add 5m(3-m) and 6m^2-13m. Subtract 3pq(p-q) from 2pq(p+q).",
+                  "answer": "5m(3-m)=15m-5m^2. Sum=m^2+2m.\n2pq(p+q)=2p^2q+2pq^2. Subtract 3pq(p-q)=3p^2q-3pq^2. Result=-p^2q+5pq^2.\n\n---\n\n4 ಮಾರ್ಕ್ಸ್ × 2 questions:"
+                },
+                {
+                  "q_num": 6,
+                  "marks": 4,
+                  "question": "Simplify and evaluate:",
+                  "answer": "(i) 0.  (ii) 21.  (iii) 5.  (iv) 66."
+                },
+                {
+                  "q_num": 7,
+                  "marks": 4,
+                  "question": "Multiply and find result:",
+                  "answer": "(i) 12p^3+15p^2+21p.\n(ii) 12y^3+20y^2-28y.\n(iii) 14y^3+12y^2-28y+10.\n\n---\n\n5 ಮಾರ್ಕ್ಸ್ × 1 question:"
+                },
+                {
+                  "q_num": 8,
+                  "marks": 5,
+                  "question": "Solve all:",
+                  "answer": "(i) 12p^3+15p^2+21p.  (ii) 0.  (iii) 21.  (iv) m^2+2m.  (v) -p^2q+5pq^2."
+                }
+              ]
+            },
+            {
+              "type": "mcq",
+              "label": "SUB-TOPIC 8.4.2: MCQs:",
+              "items": [
+                {
+                  "mcq_num": 1,
+                  "difficulty": "Easy",
+                  "question": "3p x (4p^2 + 5p + 7) = ?",
+                  "options": {
+                    "A": "12p^3 + 15p^2 + 21p   (B) 12p^3 + 15p + 21",
+                    "C": "12p^2 + 15p + 21      (D) 7p^3 + 8p^2 + 10p"
+                  },
+                  "answer": "A",
+                  "explanation": "3p x 4p^2=12p^3. 3p x 5p=15p^2. 3p x 7=21p."
+                },
+                {
+                  "mcq_num": 2,
+                  "difficulty": "Medium",
+                  "question": "x(x - 3) + 2 for x = 1 gives:",
+                  "options": {
+                    "A": "0   (B) 1   (C) -1   (D) 2"
+                  },
+                  "answer": "A",
+                  "explanation": "x^2-3x+2. At x=1: 1-3+2=0."
+                },
+                {
+                  "mcq_num": 3,
+                  "difficulty": "Hard",
+                  "question": "3y(2y-7) - 3(y-4) - 63 for y = -2 gives:",
+                  "options": {
+                    "A": "0   (B) 21   (C) -21   (D) 14"
+                  },
+                  "answer": "B",
+                  "explanation": "6y^2-24y-51. At y=-2: 24+48-51=21."
+                },
+                {
+                  "mcq_num": 4,
+                  "difficulty": "Easy",
+                  "question": "3p x (4p^2 + 5p + 7) gives how many product terms?",
+                  "options": {
+                    "A": "1   (B) 2   (C) 3   (D) 4"
+                  },
+                  "answer": "C",
+                  "explanation": "Monomial x Trinomial = 3 products."
+                },
+                {
+                  "mcq_num": 5,
+                  "difficulty": "Medium",
+                  "question": "Add 5m(3-m) and 6m^2-13m. Result is:",
+                  "options": {
+                    "A": "m^2+2m   (B) m^2-2m   (C) 11m^2+2m   (D) -4m^2+2m"
+                  },
+                  "answer": "A",
+                  "explanation": "15m-5m^2+6m^2-13m = m^2+2m."
+                },
+                {
+                  "mcq_num": 6,
+                  "difficulty": "Hard",
+                  "question": "Subtract 3pq(p-q) from 2pq(p+q). Result is:",
+                  "options": {
+                    "A": "-p^2q+5pq^2   (B) p^2q-5pq^2   (C) 5p^2q+pq^2   (D) -p^2q-5pq^2"
+                  },
+                  "answer": "A",
+                  "explanation": "2p^2q+2pq^2-3p^2q+3pq^2 = -p^2q+5pq^2."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic_num": "8.5",
+      "topic_name": "MULTIPLYING A POLYNOMIAL BY A POLYNOMIAL",
+      "mode": "A",
+      "sections": [
+        {
+          "type": "definition",
+          "label": "Definition:",
+          "text": "To multiply two polynomials, EVERY TERM in one polynomial is multiplied by\nEVERY TERM in the other polynomial. Then like terms in the result are combined."
+        },
+        {
+          "type": "key_points",
+          "label": "Key Points:",
+          "points": [
+            "Every term in first polynomial x every term in second polynomial",
+            "Number of initial products = (terms in poly1) x (terms in poly2)",
+            "Always combine like terms in the final answer",
+            "Rule: \"always look for like terms, if any, and combine them\""
+          ]
+        },
+        {
+          "type": "list_of_topics",
+          "label": "LIST OF SUB TOPICS IN THIS TOPIC:",
+          "items": [
+            "- Sub Topic 8.5.1: Multiplying a Binomial by a Binomial",
+            "- Sub Topic 8.5.2: Multiplying a Binomial by a Trinomial"
+          ]
+        },
+        {
+          "type": "qa",
+          "label": "TOPIC 8.5: Q&A:",
+          "items": [
+            {
+              "q_num": 1,
+              "marks": 2,
+              "question": "In polynomial x polynomial, what is the rule? How many initial products",
+              "answer": "Rule: Every term of first polynomial multiplies every term of second polynomial.\nAlways look for like terms and combine them.\nBinomial x Binomial: 2 x 2 = 4 initial products.\nBinomial x Trinomial: 2 x 3 = 6 initial products."
+            },
+            {
+              "q_num": 2,
+              "marks": 2,
+              "question": "Multiply (x-4)(2x+3).",
+              "answer": "= x(2x+3) - 4(2x+3)\n= 2x^2+3x-8x-12\n= 2x^2-5x-12."
+            },
+            {
+              "q_num": 3,
+              "marks": 2,
+              "question": "Multiply (a+7)(b-5).",
+              "answer": "= a(b-5)+7(b-5)\n= ab-5a+7b-35.\n(No like terms. Final answer has 4 separate terms.)\n\n---\n\n3 ಮಾರ್ಕ್ಸ್ × 2 questions:"
+            },
+            {
+              "q_num": 4,
+              "marks": 3,
+              "question": "Multiply: (i) (3a+4b)(2a+3b)   (ii) (x-y)(3x+5y).",
+              "answer": "(i) 3a(2a+3b)+4b(2a+3b)\n= 6a^2+9ab+8ab+12b^2 = 6a^2+17ab+12b^2.\n\n(ii) x(3x+5y)-y(3x+5y)\n= 3x^2+5xy-3xy-5y^2 = 3x^2+2xy-5y^2.\n\nAnswer: 6a^2+17ab+12b^2 and 3x^2+2xy-5y^2."
+            },
+            {
+              "q_num": 5,
+              "marks": 3,
+              "question": "Multiply (a+7)(a^2+3a+5). How many initial products? How many final terms?",
+              "answer": "= a(a^2+3a+5)+7(a^2+3a+5)\n= a^3+3a^2+5a+7a^2+21a+35.\nInitial products = 6.\nCombine: 3a^2+7a^2=10a^2. 5a+21a=26a.\n= a^3+10a^2+26a+35.\nFinal terms = 4 (2 pairs combined, 6-2=4).\n\n---\n\n4 ಮಾರ್ಕ್ಸ್ × 2 questions:"
+            },
+            {
+              "q_num": 6,
+              "marks": 4,
+              "question": "Multiply all pairs from textbook:",
+              "answer": "(i) 2x(4x-3)+5(4x-3) = 8x^2-6x+20x-15 = 8x^2+14x-15.\n\n(ii) y(3y-4)-8(3y-4) = 3y^2-4y-24y+32 = 3y^2-28y+32.\n\n(iii) a(x+5)+3b(x+5) = ax+5a+3bx+15b.\n(No like terms — 4 separate terms.)\n\n(iv) 2pq(3pq-2q^2)+3q^2(3pq-2q^2)\n= 6p^2q^2-4pq^3+9pq^3-6q^4 = 6p^2q^2+5pq^3-6q^4.\n\nAnswer: (i) 8x^2+14x-15  (ii) 3y^2-28y+32\n(iii) ax+5a+3bx+15b  (iv) 6p^2q^2+5pq^3-6q^4"
+            },
+            {
+              "q_num": 7,
+              "marks": 4,
+              "question": "(i) Multiply (2x+5) and (4x-3). Find value at x=2.",
+              "answer": "(i) (2x+5)(4x-3) = 8x^2+14x-15. At x=2: 32+28-15=45.\n\n(ii) (x+y)(2x+y) = 2x^2+xy+2xy+y^2 = 2x^2+3xy+y^2.\n(x+2y)(x-y) = x^2-xy+2xy-2y^2 = x^2+xy-2y^2.\nSum = 3x^2+4xy-y^2.\n\n(iii) (a+b)(c-d) = ac-ad+bc-bd.\n(a-b)(c+d) = ac+ad-bc-bd.\nSum of both = 2ac-2bd.\nAdd 2(ac+bd) = 2ac+2bd.\nTotal = 4ac.\n\nAnswer: (i) 8x^2+14x-15; at x=2: 45\n(ii) 3x^2+4xy-y^2  (iii) 4ac\n\n---\n\n5 ಮಾರ್ಕ್ಸ್ × 1 question:"
+            },
+            {
+              "q_num": 8,
+              "marks": 5,
+              "question": "Solve all Exercise 8.4 parts:",
+              "answer": "PART A — Binomial x Binomial:\n\n(i) (x-4)(2x+3) = 2x^2+3x-8x-12 = 2x^2-5x-12.\n\n(ii) (a+7)(b-5) = ab-5a+7b-35. (4 unlike terms.)\n\n(iii) (a^2+2b^2)(5a-3b)\n= 5a^3-3a^2b+10ab^2-6b^3. (All unlike, 4 terms.)\n\nPART B — Binomial x Trinomial:\n\n(iv) (a+7)(a^2+3a+5):\na(a^2+3a+5) = a^3+3a^2+5a.\n7(a^2+3a+5) = 7a^2+21a+35.\nSum = a^3+10a^2+26a+35.\n\nPART C — Complex:\n\n(v) (a+b)(2a-3b+c):\na(2a-3b+c) = 2a^2-3ab+ac.\nb(2a-3b+c) = 2ab-3b^2+bc.\nCombined = 2a^2-ab-3b^2+ac+bc ...(I)\n(2a-3b)c = 2ac-3bc ...(II)\n(I)-(II) = 2a^2-ab-3b^2+ac+bc-2ac+3bc = 2a^2-3b^2-ab-ac+4bc.\n\nAnswer: (i) 2x^2-5x-12  (ii) ab-5a+7b-35\n(iii) 5a^3-3a^2b+10ab^2-6b^3  (iv) a^3+10a^2+26a+35\n(v) 2a^2-3b^2-ab-ac+4bc"
+            }
+          ]
+        },
+        {
+          "type": "mcq",
+          "label": "TOPIC 8.5: MCQs:",
+          "items": [
+            {
+              "mcq_num": 1,
+              "difficulty": "Easy",
+              "question": "(x - 4)(2x + 3) = ?",
+              "options": {
+                "A": "2x^2 - 5x - 12   (B) 2x^2 + 5x - 12",
+                "C": "2x^2 - 5x + 12   (D) 2x^2 + 5x + 12"
+              },
+              "answer": "A",
+              "explanation": "2x^2 + 3x - 8x - 12 = 2x^2 - 5x - 12."
+            },
+            {
+              "mcq_num": 2,
+              "difficulty": "Medium",
+              "question": "(a + 7)(a^2 + 3a + 5) = ?",
+              "options": {
+                "A": "a^3 + 10a^2 + 26a + 35   (B) a^3 + 3a^2 + 26a + 35",
+                "C": "a^3 + 10a^2 + 5a + 35    (D) a^3 + 4a^2 + 8a + 35"
+              },
+              "answer": "A",
+              "explanation": "a^3+3a^2+5a+7a^2+21a+35 = a^3+10a^2+26a+35."
+            },
+            {
+              "mcq_num": 3,
+              "difficulty": "Easy",
+              "question": "Binomial x Binomial gives how many initial product terms?",
+              "options": {
+                "A": "2   (B) 3   (C) 4   (D) 6"
+              },
+              "answer": "C",
+              "explanation": "2 terms x 2 terms = 4 initial products."
+            },
+            {
+              "mcq_num": 4,
+              "difficulty": "Medium",
+              "question": "(3a + 4b)(2a + 3b) = ?",
+              "options": {
+                "A": "6a^2 + 17ab + 12b^2   (B) 6a^2 + 9ab + 12b^2",
+                "C": "5a^2 + 17ab + 7b^2    (D) 6a^2 + 8ab + 12b^2"
+              },
+              "answer": "A",
+              "explanation": "6a^2+9ab+8ab+12b^2 = 6a^2+17ab+12b^2."
+            },
+            {
+              "mcq_num": 5,
+              "difficulty": "Medium",
+              "question": "(x - y)(3x + 5y) = ?",
+              "options": {
+                "A": "3x^2 + 2xy - 5y^2   (B) 3x^2 - 2xy - 5y^2",
+                "C": "3x^2 + 8xy + 5y^2   (D) 3x^2 - 8xy + 5y^2"
+              },
+              "answer": "A",
+              "explanation": "3x^2+5xy-3xy-5y^2 = 3x^2+2xy-5y^2."
+            },
+            {
+              "mcq_num": 6,
+              "difficulty": "Hard",
+              "question": "(a^2 + 2b^2)(5a - 3b) = ?",
+              "options": {
+                "A": "5a^3 - 3a^2b + 10ab^2 - 6b^3",
+                "B": "5a^3 + 3a^2b + 10ab^2 + 6b^3",
+                "C": "5a^3 - 10ab^2 + 6b^3",
+                "D": "5a^3 + 10ab^2 - 6b^3"
+              },
+              "answer": "A",
+              "explanation": "a^2(5a-3b)+2b^2(5a-3b) = 5a^3-3a^2b+10ab^2-6b^3. ----"
+            }
+          ]
+        }
+      ],
+      "subtopics": [
+        {
+          "subtopic_num": "8.5.1",
+          "subtopic_name": "Multiplying a Binomial by a Binomial",
+          "sections": [
+            {
+              "type": "definition",
+              "label": "Definition:",
+              "text": "To multiply two binomials, use distributive law twice: each term of the first\nbinomial multiplies every term of the second binomial."
+            },
+            {
+              "type": "key_points",
+              "label": "Key Points:",
+              "points": [
+                "(a + b)(c + d) = a(c + d) + b(c + d) = ac + ad + bc + bd",
+                "2 x 2 = 4 initial products",
+                "Like terms (if any) are combined",
+                "ba = ab (commutative)"
+              ]
+            },
+            {
+              "type": "formulas",
+              "label": "FORMULA:",
+              "items": [
+                "(a + b)(c + d) = ac + ad + bc + bd",
+                "EXAMPLES: (Textbook examples)",
+                "EXAMPLE 8.5.1.1: Binomial x Binomial",
+                "PROBLEM: Find: (3a + 4b)(2a + 3b)",
+                "SOLUTION:",
+                "Step 1: 3a(2a + 3b) + 4b(2a + 3b)",
+                "Step 2: = 6a^2 + 9ab + 8ba + 12b^2",
+                "Step 3: = 6a^2 + 17ab + 12b^2 (since ba = ab)",
+                "ANSWER: 6a^2 + 17ab + 12b^2",
+                "EXAMPLE 8.5.1.2: More Products",
+                "PROBLEM: Multiply:",
+                "(i) (x - 4) and (2x + 3)",
+                "(ii) (x - y) and (3x + 5y)",
+                "SOLUTION:",
+                "(i) (x-4)(2x+3) = x(2x+3) - 4(2x+3)",
+                "= 2x^2 + 3x - 8x - 12",
+                "= 2x^2 - 5x - 12",
+                "(ii) (x-y)(3x+5y) = x(3x+5y) - y(3x+5y)",
+                "= 3x^2 + 5xy - 3yx - 5y^2",
+                "= 3x^2 + 2xy - 5y^2",
+                "ANSWER: (i) 2x^2 - 5x - 12   (ii) 3x^2 + 2xy - 5y^2",
+                "EXAMPLE 8.5.1.3: Products without Like Terms",
+                "PROBLEM: Multiply:",
+                "(i) (a + 7) and (b - 5)",
+                "(ii) (a^2 + 2b^2) and (5a - 3b)",
+                "SOLUTION:",
+                "(i) a(b-5) + 7(b-5) = ab - 5a + 7b - 35",
+                "(No like terms, 4 separate terms remain)",
+                "(ii) a^2(5a-3b) + 2b^2(5a-3b)",
+                "= 5a^3 - 3a^2b + 10ab^2 - 6b^3",
+                "ANSWER: (i) ab - 5a + 7b - 35   (ii) 5a^3 - 3a^2b + 10ab^2 - 6b^3"
+              ]
+            },
+            {
+              "type": "exercise",
+              "label": "EXERCISE 8.4 (partial - binomial x binomial part):",
+              "items": [],
+              "raw": "1. Multiply the binomials.\n(i) (2x + 5) and (4x - 3)\nSolution: 2x(4x-3) + 5(4x-3) = 8x^2 - 6x + 20x - 15 = 8x^2 + 14x - 15\n\n(ii) (y - 8) and (3y - 4)\nSolution: y(3y-4) - 8(3y-4) = 3y^2 - 4y - 24y + 32 = 3y^2 - 28y + 32\n\n(iii) (2.5l - 0.5m) and (2.5l + 0.5m)\nSolution: 2.5l(2.5l+0.5m) - 0.5m(2.5l+0.5m)\n= 6.25l^2 + 1.25lm - 1.25lm - 0.25m^2\n= 6.25l^2 - 0.25m^2\n\n(iv) (a + 3b) and (x + 5)\nSolution: a(x+5) + 3b(x+5) = ax + 5a + 3bx + 15b\n\n(v) (2pq + 3q^2) and (3pq - 2q^2)\nSolution: 2pq(3pq-2q^2) + 3q^2(3pq-2q^2)\n= 6p^2q^2 - 4pq^3 + 9pq^3 - 6q^4\n= 6p^2q^2 + 5pq^3 - 6q^4"
+            },
+            {
+              "type": "qa",
+              "label": "SUB-TOPIC 8.5.1: Q&A:",
+              "items": [
+                {
+                  "q_num": 1,
+                  "marks": 2,
+                  "question": "State the rule for binomial x binomial. How many initial products?",
+                  "answer": "(a+b)(c+d) = ac+ad+bc+bd.\nEvery term of first binomial multiplies every term of second binomial.\n2 x 2 = 4 initial products. Like terms are combined."
+                },
+                {
+                  "q_num": 2,
+                  "marks": 2,
+                  "question": "Multiply (x-4)(2x+3).",
+                  "answer": "= 2x^2+3x-8x-12 = 2x^2-5x-12."
+                },
+                {
+                  "q_num": 3,
+                  "marks": 2,
+                  "question": "Multiply (3a+4b)(2a+3b).",
+                  "answer": "= 6a^2+9ab+8ab+12b^2 = 6a^2+17ab+12b^2.\n\n---\n\n3 ಮಾರ್ಕ್ಸ್ × 2 questions:"
+                },
+                {
+                  "q_num": 4,
+                  "marks": 3,
+                  "question": "Multiply: (i) (a+7)(b-5)   (ii) (a^2+2b^2)(5a-3b).",
+                  "answer": "(i) ab-5a+7b-35. (4 unlike terms.)\n(ii) 5a^3-3a^2b+10ab^2-6b^3."
+                },
+                {
+                  "q_num": 5,
+                  "marks": 3,
+                  "question": "Multiply: (i) (x-y)(3x+5y)   (ii) (2pq+3q^2)(3pq-2q^2).",
+                  "answer": "(i) 3x^2+5xy-3xy-5y^2 = 3x^2+2xy-5y^2.\n(ii) 6p^2q^2-4pq^3+9pq^3-6q^4 = 6p^2q^2+5pq^3-6q^4.\n\n---\n\n4 ಮಾರ್ಕ್ಸ್ × 2 questions:"
+                },
+                {
+                  "q_num": 6,
+                  "marks": 4,
+                  "question": "Multiply and simplify:",
+                  "answer": "(i) 8x^2-6x+20x-15 = 8x^2+14x-15.\n(ii) 3y^2-4y-24y+32 = 3y^2-28y+32.\n(iii) 6.25l^2+1.25lm-1.25lm-0.25m^2 = 6.25l^2-0.25m^2.\n(iv) ax+5a+3bx+15b. (4 unlike terms.)"
+                },
+                {
+                  "q_num": 7,
+                  "marks": 4,
+                  "question": "Simplify:",
+                  "answer": "(i) (2x^2+xy+2xy+y^2)+(x^2-xy+2xy-2y^2)\n= 2x^2+3xy+y^2+x^2+xy-2y^2 = 3x^2+4xy-y^2.\n\n(ii) (ac-ad+bc-bd)+(ac+ad-bc-bd)+2ac+2bd\n= 2ac-2bd+2ac+2bd = 4ac.\n\n---\n\n5 ಮಾರ್ಕ್ಸ್ × 1 question:"
+                },
+                {
+                  "q_num": 8,
+                  "marks": 5,
+                  "question": "Solve all multiplication pairs from Exercise 8.4:",
+                  "answer": "(i) 8x^2+14x-15.\n(ii) 3y^2-28y+32.\n(iii) ax+5a+3bx+15b.\n(iv) 6p^2q^2+5pq^3-6q^4.\n(v) 2x^2-5x-12. At x=2: 8-10-12=-14.\n\n----"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "subtopic_num": "8.5.2",
+          "subtopic_name": "Multiplying a Binomial by a Trinomial",
+          "sections": [
+            {
+              "type": "definition",
+              "label": "Definition:",
+              "text": "To multiply a binomial by a trinomial, multiply each of the TWO terms in the\nbinomial by each of the THREE terms in the trinomial.\n2 x 3 = 6 initial products, which may reduce after combining like terms."
+            },
+            {
+              "type": "key_points",
+              "label": "Key Points:",
+              "points": [
+                "(a+b)(x+y+z) = ax+ay+az+bx+by+bz",
+                "6 initial products; combine like terms",
+                "Final answer may have fewer than 6 terms"
+              ]
+            },
+            {
+              "type": "formulas",
+              "label": "FORMULA:",
+              "items": [
+                "(a + b)(x + y + z) = ax + ay + az + bx + by + bz",
+                "EXAMPLES: (Textbook examples)",
+                "EXAMPLE 8.5.2.1: (a+7)(a^2+3a+5)",
+                "= a^3+3a^2+5a+7a^2+21a+35 = a^3+10a^2+26a+35.",
+                "(6 products → 4 final terms after combining 2 pairs.)",
+                "EXAMPLE 8.5.2.2: Simplify (a+b)(2a-3b+c)-(2a-3b)c.",
+                "Step 1: (a+b)(2a-3b+c) = 2a^2-ab-3b^2+ac+bc.",
+                "Step 2: (2a-3b)c = 2ac-3bc.",
+                "Result: 2a^2-3b^2-ab-ac+4bc."
+              ]
+            },
+            {
+              "type": "exercise",
+              "label": "EXERCISE 8.4 (polynomial x polynomial):",
+              "items": [],
+              "raw": "2. Find product.\n(i) (5-2x)(3+x) = -2x^2-x+15.\n(ii) (x+7y)(7x-y) = 7x^2+48xy-7y^2.\n(iii) (a^2+b)(a+b^2) = a^3+a^2b^2+ab+b^3.\n(iv) (p^2-q^2)(2p+q) = 2p^3+p^2q-2pq^2-q^3.\n\n3. Simplify.\n(i) (x^2-5)(x+5)+25 = x^3+5x^2-5x.\n(ii) (a^2+5)(b^3+3)+5 = a^2b^3+3a^2+5b^3+20.\n(iii) (t+s^2)(t^2-s) = t^3-ts+s^2t^2-s^3.\n(viii) (a+b+c)(a+b-c) = a^2+2ab+b^2-c^2."
+            },
+            {
+              "type": "qa",
+              "label": "SUB-TOPIC 8.5.2: Q&A:",
+              "items": [
+                {
+                  "q_num": 1,
+                  "marks": 2,
+                  "question": "State rule for binomial x trinomial. How many initial products?",
+                  "answer": "(a+b)(x+y+z) = ax+ay+az+bx+by+bz.\n2 x 3 = 6 initial products. Like terms are combined."
+                },
+                {
+                  "q_num": 2,
+                  "marks": 2,
+                  "question": "Multiply (a+7)(a^2+3a+5).",
+                  "answer": "= a^3+3a^2+5a+7a^2+21a+35 = a^3+10a^2+26a+35."
+                },
+                {
+                  "q_num": 3,
+                  "marks": 2,
+                  "question": "Multiply (x+y)(2x-3y+z).",
+                  "answer": "= 2x^2-3xy+xz+2xy-3y^2+yz = 2x^2-xy-3y^2+xz+yz.\n\n---\n\n3 ಮಾರ್ಕ್ಸ್ × 2 questions:"
+                },
+                {
+                  "q_num": 4,
+                  "marks": 3,
+                  "question": "Simplify (a+b)(2a-3b+c)-(2a-3b)c.",
+                  "answer": "(a+b)(2a-3b+c) = 2a^2-ab-3b^2+ac+bc.\n(2a-3b)c = 2ac-3bc.\nSubtract: 2a^2-3b^2-ab-ac+4bc."
+                },
+                {
+                  "q_num": 5,
+                  "marks": 3,
+                  "question": "Simplify (x^2-5)(x+5)+25. Also (a^2+5)(b^3+3)+5.",
+                  "answer": "(x^2-5)(x+5)+25 = x^3+5x^2-5x-25+25 = x^3+5x^2-5x.\n(a^2+5)(b^3+3)+5 = a^2b^3+3a^2+5b^3+15+5 = a^2b^3+3a^2+5b^3+20.\n\n---\n\n4 ಮಾರ್ಕ್ಸ್ × 2 questions:"
+                },
+                {
+                  "q_num": 6,
+                  "marks": 4,
+                  "question": "Simplify:",
+                  "answer": "(i) 2a^2-3b^2-ab-ac+4bc.\n(ii) 3x^2+4xy-y^2.\n(iii) a^2+2ab+b^2-c^2."
+                },
+                {
+                  "q_num": 7,
+                  "marks": 4,
+                  "question": "From Exercise 8.4:",
+                  "answer": "(i) 15+5x-6x-2x^2 = -2x^2-x+15.\n(ii) 7x^2-xy+49xy-7y^2 = 7x^2+48xy-7y^2.\n(iii) 2p^3+p^2q-2pq^2-q^3.\n\n---\n\n5 ಮಾರ್ಕ್ಸ್ × 1 question:"
+                },
+                {
+                  "q_num": 8,
+                  "marks": 5,
+                  "question": "Solve all:",
+                  "answer": "(i) a^3+10a^2+26a+35.\n(ii) 2a^2-3b^2-ab-ac+4bc.\n(iii) 2x^2-xy-3y^2+xz+yz.\n(iv) x^3+5x^2-5x.\n(v) a^2+2ab+b^2-c^2."
+                }
+              ]
+            },
+            {
+              "type": "mcq",
+              "label": "SUB-TOPIC 8.5.2: MCQs:",
+              "items": [
+                {
+                  "mcq_num": 1,
+                  "difficulty": "Easy",
+                  "question": "(a + 7)(a^2 + 3a + 5) = ?",
+                  "options": {
+                    "A": "a^3+10a^2+26a+35   (B) a^3+3a^2+26a+35",
+                    "C": "a^3+10a^2+5a+35    (D) a^3+4a^2+8a+35"
+                  },
+                  "answer": "A",
+                  "explanation": "a^3+3a^2+5a+7a^2+21a+35=a^3+10a^2+26a+35."
+                },
+                {
+                  "mcq_num": 2,
+                  "difficulty": "Easy",
+                  "question": "Initial product terms when multiplying a binomial by a trinomial:",
+                  "options": {
+                    "A": "3   (B) 4   (C) 5   (D) 6"
+                  },
+                  "answer": "D",
+                  "explanation": "2 x 3 = 6 initial products."
+                },
+                {
+                  "mcq_num": 3,
+                  "difficulty": "Medium",
+                  "question": "(x + y)(2x - 3y + z) = ?",
+                  "options": {
+                    "A": "2x^2-xy-3y^2+xz+yz   (B) 2x^2+xy+3y^2+xz-yz",
+                    "C": "2x^2-xy+3y^2-xz+yz   (D) 2x^2-5xy-3y^2+xz"
+                  },
+                  "answer": "A",
+                  "explanation": "2x^2-3xy+xz+2xy-3y^2+yz=2x^2-xy-3y^2+xz+yz."
+                },
+                {
+                  "mcq_num": 4,
+                  "difficulty": "Medium",
+                  "question": "(a+7)(a^2+3a+5) gives how many final terms?",
+                  "options": {
+                    "A": "6   (B) 5   (C) 4   (D) 3"
+                  },
+                  "answer": "C",
+                  "explanation": "a^3+10a^2+26a+35 = 4 terms."
+                },
+                {
+                  "mcq_num": 5,
+                  "difficulty": "Hard",
+                  "question": "Simplify (x^2-5)(x+5)+25 = ?",
+                  "options": {
+                    "A": "x^3+5x^2-5x   (B) x^3-5x   (C) x^3+5x   (D) x^3-5x^2+5x"
+                  },
+                  "answer": "A",
+                  "explanation": "x^3+5x^2-5x-25+25=x^3+5x^2-5x."
+                },
+                {
+                  "mcq_num": 6,
+                  "difficulty": "Hard",
+                  "question": "Simplify (a+b)(2a-3b+c)-(2a-3b)c = ?",
+                  "options": {
+                    "A": "2a^2-3b^2-ab-ac+4bc   (B) 2a^2+3b^2+ab+ac-4bc",
+                    "C": "2a^2-3b^2+ab-ac+4bc   (D) 2a^2-3b^2-ab+ac-4bc"
+                  },
+                  "answer": "A",
+                  "explanation": "2a^2-ab-3b^2+ac+bc-2ac+3bc=2a^2-3b^2-ab-ac+4bc."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

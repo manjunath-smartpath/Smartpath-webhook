@@ -1,0 +1,2063 @@
+{
+  "metadata": {
+    "class": "10TH STANDARD",
+    "subject": "Mathematics",
+    "part": "2",
+    "chapter_num": "13",
+    "chapter_name": "STATISTICS",
+    "source": "KSEEB Textbook 2025-26",
+    "mode": "B"
+  },
+  "chapter_sections": [
+    {
+      "type": "definition",
+      "label": "Definition:",
+      "text": "- STATISTICS is the branch of mathematics that deals with the collection, organisation, presentation, analysis, and interpretation of data.\n- In this chapter, we study MEASURES OF CENTRAL TENDENCY — mean, median, and mode — for GROUPED DATA."
+    },
+    {
+      "type": "key_points",
+      "label": "Key Points:",
+      "points": [
+        "In Class IX, we studied mean, median, mode for UNGROUPED DATA.",
+        "We also studied frequency distributions, bar graphs, histograms (varying widths), and frequency polygons.",
+        "This chapter EXTENDS all three measures from ungrouped data to GROUPED DATA.",
+        "Three measures of central tendency: MEAN (average), MEDIAN (middle value), MODE (most frequent value).",
+        "For grouped data, the CLASS MARK (midpoint of each class interval) is used as the representative value.",
+        "CLASS MARK = (Upper class limit + Lower class limit) / 2",
+        "The CUMULATIVE FREQUENCY of a class = sum of all frequencies up to and including that class."
+      ]
+    },
+    {
+      "type": "list_of_topics",
+      "label": "LIST OF TOPICS IN THIS CHAPTER:",
+      "items": [
+        "- Topic 13.1: Introduction",
+        "- Topic 13.2: Mean of Grouped Data",
+        "- Topic 13.3: Mode of Grouped Data",
+        "- Topic 13.4: Median of Grouped Data",
+        "- Topic 13.5: Summary",
+        "Note: This chapter follows Mode B (X.Y topics only — no sub-topics exist in textbook)."
+      ]
+    },
+    {
+      "type": "qa",
+      "label": "CHAPTER 13: Q&A:",
+      "items": []
+    },
+    {
+      "type": "formulas",
+      "label": "Formula for Median of Grouped Data:",
+      "items": [
+        "Median = l + [(n/2 - cf) / f] × h",
+        "Where:",
+        "l = lower limit of median class, n = total observations,",
+        "cf = cumulative frequency of class preceding median class,",
+        "f = frequency of median class, h = class size.",
+        "---",
+        "Q4 [2 Marks]: Write the formula for mode of grouped data. What is the modal class?",
+        "A4:"
+      ]
+    },
+    {
+      "type": "formulas",
+      "label": "Formula for Mode of Grouped Data:",
+      "items": [
+        "Mode = l + [(f1 - f0) / (2f1 - f0 - f2)] × h",
+        "Where:",
+        "l = lower limit of modal class, h = class size,",
+        "f1 = frequency of modal class, f0 = frequency of preceding class,",
+        "f2 = frequency of succeeding class.",
+        "MODAL CLASS: The class interval with the highest (maximum) frequency in a grouped frequency distribution is called the modal class. The mode lies within this class.",
+        "---",
+        "3 ಮಾರ್ಕ್ಸ್ × 3 questions:",
+        "Q5 [3 Marks]: Find the mean of the following distribution using the Assumed Mean Method.",
+        "Literacy rate (%) | 45-55 | 55-65 | 65-75 | 75-85 | 85-95",
+        "No. of cities     |   3   |  10   |  11   |   8   |   3",
+        "A5:",
+        "Step 1: Find class marks xi: 50, 60, 70, 80, 90. Choose a = 70.",
+        "Step 2: Calculate di = xi - 70 and fi × di:",
+        "Class   | fi | xi | di    | fi×di",
+        "45-55   |  3 | 50 | -20   | -60",
+        "55-65   | 10 | 60 | -10   | -100",
+        "65-75   | 11 | 70 |   0   |   0",
+        "75-85   |  8 | 80 |  10   |  80",
+        "85-95   |  3 | 90 |  20   |  60",
+        "TOTAL   | 35 |    |       | -20",
+        "Step 3: x̄ = a + (Σfidi / Σfi) = 70 + (-20/35) = 70 - 0.571 = 69.43",
+        "ANSWER: Mean literacy rate = 69.43%",
+        "---",
+        "Q6 [3 Marks]: Find the mode of the following data. Also state the empirical relationship between mean, mode and median.",
+        "Family size       | 1-3 | 3-5 | 5-7 | 7-9 | 9-11",
+        "No. of families   |  7  |  8  |  2  |  2  |  1",
+        "A6:",
+        "Step 1: Modal class = 3-5 (maximum frequency = 8)",
+        "Step 2: l = 3, h = 2, f1 = 8, f0 = 7 (class 1-3), f2 = 2 (class 5-7)",
+        "Step 3: Mode = 3 + [(8-7) / (2×8 - 7 - 2)] × 2",
+        "= 3 + [1 / 7] × 2",
+        "= 3 + 0.286 = 3.286",
+        "ANSWER: Mode = 3.286",
+        "Empirical relationship: 3 Median = Mode + 2 Mean",
+        "(This approximate relationship holds for moderately skewed distributions.)",
+        "---",
+        "Q7 [3 Marks]: Find the mean of the following distribution using the Direct Method.",
+        "Daily wages (Rs) | 500-520 | 520-540 | 540-560 | 560-580 | 580-600",
+        "No. of workers   |   12    |   14    |    8    |    6    |   10",
+        "A7:",
+        "Step 1: Class marks xi: 510, 530, 550, 570, 590",
+        "Step 2: Calculate fi × xi:",
+        "Class      | fi | xi  | fi×xi",
+        "500-520    | 12 | 510 | 6120",
+        "520-540    | 14 | 530 | 7420",
+        "540-560    |  8 | 550 | 4400",
+        "560-580    |  6 | 570 | 3420",
+        "580-600    | 10 | 590 | 5900",
+        "TOTAL      | 50 |     | 27260",
+        "Step 3: x̄ = Σfixi / Σfi = 27260 / 50 = 545.20",
+        "ANSWER: Mean daily wages = Rs 545.20",
+        "---",
+        "4 ಮಾರ್ಕ್ಸ್ × 4 questions:",
+        "Q8 [4 Marks]: Find the mean percentage of female teachers from the distribution below using all three methods. Verify all give the same result.",
+        "% of female teachers | 15-25 | 25-35 | 35-45 | 45-55 | 55-65 | 65-75 | 75-85",
+        "No. of States/U.T.   |   6   |  11   |   7   |   4   |   4   |   2   |   1",
+        "A8:",
+        "Step 1: Class marks xi: 20, 30, 40, 50, 60, 70, 80. a = 50, h = 10. Σfi = 35.",
+        "Direct Method:",
+        "fixi: 120, 330, 280, 200, 240, 140, 80 → Σfixi = 1390",
+        "x̄ = 1390/35 = 39.71%",
+        "Assumed Mean Method (a = 50):",
+        "di: -30, -20, -10, 0, 10, 20, 30",
+        "fidi: -180, -220, -70, 0, 40, 40, 30 → Σfidi = -360",
+        "x̄ = 50 + (-360/35) = 39.71%",
+        "Step-Deviation Method (a = 50, h = 10):",
+        "ui: -3, -2, -1, 0, 1, 2, 3",
+        "fiui: -18, -22, -7, 0, 4, 4, 3 → Σfiui = -36",
+        "x̄ = 50 + 10 × (-36/35) = 39.71%",
+        "ANSWER: Mean = 39.71% by all three methods. All give the same result.",
+        "---",
+        "Q9 [4 Marks]: The following data gives monthly consumption of electricity of 68 consumers. Find the median and mode.",
+        "Monthly consumption (units) | 65-85 | 85-105 | 105-125 | 125-145 | 145-165 | 165-185 | 185-205",
+        "Number of consumers         |   4   |   5    |   13    |   20    |   14    |    8    |    4",
+        "A9:",
+        "Cumulative frequencies: 4, 9, 22, 42, 56, 64, 68. n = 68.",
+        "MEDIAN:",
+        "n/2 = 34. Median class = 125-145 (cf = 42 is first to exceed 34).",
+        "l = 125, cf = 22, f = 20, h = 20",
+        "Median = 125 + [(34 - 22)/20] × 20 = 125 + 12 = 137 units",
+        "MODE:",
+        "Maximum frequency = 20 → Modal class = 125-145",
+        "l = 125, f1 = 20, f0 = 13, f2 = 14, h = 20",
+        "Mode = 125 + [(20-13)/(40-13-14)] × 20 = 125 + (7/13) × 20 = 125 + 10.77 = 135.77 units",
+        "ANSWER: Median = 137 units; Mode = 135.77 units",
+        "(Both values are close — distribution is nearly symmetric.)",
+        "---",
+        "Q10 [4 Marks]: A survey on heights (cm) of 51 girls of Class X gave the following data. Find the median height.",
+        "Height (cm)     | <140 | <145 | <150 | <155 | <160 | <165",
+        "Number of girls |   4  |  11  |  29  |  40  |  46  |  51",
+        "A10:",
+        "Step 1: Convert to class intervals with frequencies:",
+        "Class      | fi | cf",
+        "Below 140  |  4 |  4",
+        "140-145    |  7 | 11",
+        "145-150    | 18 | 29",
+        "150-155    | 11 | 40",
+        "155-160    |  6 | 46",
+        "160-165    |  5 | 51    n = 51",
+        "Step 2: n/2 = 25.5. Median class = 145-150 (cf = 29, first to exceed 25.5).",
+        "Step 3: l = 145, cf = 11, f = 18, h = 5",
+        "Step 4: Median = 145 + [(25.5 - 11)/18] × 5",
+        "= 145 + [14.5/18] × 5",
+        "= 145 + 4.03 = 149.03 cm",
+        "ANSWER: Median height = 149.03 cm",
+        "(About 50% of girls are shorter than 149.03 cm and 50% are taller.)",
+        "---",
+        "Q11 [4 Marks]: Find the mean number of wickets from the distribution below using the Step-Deviation Method.",
+        "Number of wickets | 20-60 | 60-100 | 100-150 | 150-250 | 250-350 | 350-450",
+        "Number of bowlers |   7   |   5    |   16    |   12    |    2    |    3",
+        "A11:",
+        "Step 1: Class marks xi: 40, 80, 125, 200, 300, 400. a = 200, h = 20.",
+        "Step 2: ui = (xi - 200)/20 and fi × ui:",
+        "Class     | fi | xi  | ui    | fi×ui",
+        "20-60     |  7 |  40 |  -8   |  -56",
+        "60-100    |  5 |  80 |  -6   |  -30",
+        "100-150   | 16 | 125 | -3.75 |  -60",
+        "150-250   | 12 | 200 |   0   |    0",
+        "250-350   |  2 | 300 |   5   |   10",
+        "350-450   |  3 | 400 |  10   |   30",
+        "TOTAL     | 45 |     |       | -106",
+        "Step 3: x̄ = 200 + 20 × (-106/45) = 200 - 47.11 = 152.89",
+        "ANSWER: Mean wickets = 152.89",
+        "(On average, each of the 45 bowlers took about 153 wickets in one-day cricket.)",
+        "---",
+        "5 ಮಾರ್ಕ್ಸ್ × 1 question:",
+        "Q12 [5 Marks]: The median of the following distribution is 525 and total frequency is 100. Find x and y. Also verify using the empirical relationship 3 Median = Mode + 2 Mean.",
+        "Class    | 0-100 | 100-200 | 200-300 | 300-400 | 400-500 | 500-600 | 600-700 | 700-800 | 800-900 | 900-1000",
+        "Freq (f) |   2   |    5    |    x    |   12    |   17    |   20    |    y    |    9    |    7    |    4",
+        "A12:",
+        "PART A — Finding x and y:",
+        "Step 1: Total frequency: 76 + x + y = 100 → x + y = 24 ...(1)",
+        "Step 2: Build cf table: ..., 36+x (for 400-500), 56+x (for 500-600), ...",
+        "Step 3: Median = 525 lies in class 500-600.",
+        "l = 500, f = 20, cf = 36+x, h = 100, n/2 = 50",
+        "Step 4: 525 = 500 + [(50 - (36+x))/20] × 100",
+        "25 = (14 - x) × 5 → x = 9",
+        "Step 5: From (1): y = 24 - 9 = 15",
+        "ANSWER: x = 9, y = 15",
+        "PART B — Verification using 3 Median = Mode + 2 Mean:",
+        "Step 6: Mode: Maximum f = 20 → Modal class = 500-600",
+        "Mode = 500 + [(20-17)/(40-17-15)] × 100 = 500 + (3/8) × 100 = 537.5",
+        "Step 7: Mean (Step-Deviation, a = 550, h = 100):",
+        "fi: 2,5,9,12,17,20,15,9,7,4",
+        "ui: -5,-4,-3,-2,-1,0,1,2,3,4",
+        "Σfiui = -10-20-27-24-17+0+15+18+21+16 = -28",
+        "x̄ = 550 + 100 × (-28/100) = 522",
+        "Step 8: Verify: 3 Median = 3 × 525 = 1575",
+        "Mode + 2 Mean = 537.5 + 2 × 522 = 537.5 + 1044 = 1581.5",
+        "1575 ≈ 1581.5 ✓ (small difference is expected — empirical formula is approximate)",
+        "FINAL ANSWER: x = 9, y = 15. Empirical verification confirms the result is consistent."
+      ]
+    },
+    {
+      "type": "mcq",
+      "label": "CHAPTER 13: MCQs:",
+      "items": [
+        {
+          "mcq_num": 1,
+          "difficulty": "Easy",
+          "question": "The branch of mathematics dealing with collection and interpretation of numerical data is:",
+          "options": {
+            "A": "Algebra   (B) Statistics   (C) Geometry   (D) Trigonometry"
+          },
+          "answer": "B",
+          "explanation": "The correct answer is (B) Statistics."
+        },
+        {
+          "mcq_num": 2,
+          "difficulty": "Easy",
+          "question": "The class mark of the class interval 40-60 is:",
+          "options": {
+            "A": "40   (B) 60   (C) 50   (D) 20"
+          },
+          "answer": "C",
+          "explanation": "The correct answer is (C) 50."
+        },
+        {
+          "mcq_num": 3,
+          "difficulty": "Easy",
+          "question": "The three measures of central tendency are:",
+          "options": {
+            "A": "Mean, Median, Range   (B) Mean, Mode, Range   (C) Mean, Median, Mode   (D) Median, Mode, Variance"
+          },
+          "answer": "C",
+          "explanation": "The correct answer is (C) Mean, Median, Mode."
+        },
+        {
+          "mcq_num": 4,
+          "difficulty": "Medium",
+          "question": "The empirical relationship between mean, mode, and median is:",
+          "options": {
+            "A": "Mode = 3 Median - 2 Mean   (B) 3 Mean = Mode + 2 Median   (C) 3 Median = Mode + 2 Mean   (D) Mean = Mode + Median"
+          },
+          "answer": "C",
+          "explanation": "The correct answer is (C) 3 Median = Mode + 2 Mean."
+        },
+        {
+          "mcq_num": 5,
+          "difficulty": "Medium",
+          "question": "If mode = 52 and mean = 62, then approximate median is:",
+          "options": {
+            "A": "57   (B) 58.67   (C) 60   (D) 55"
+          },
+          "answer": "B",
+          "explanation": "The correct answer is (B) 58.67. [3 Median = 52 + 124 = 176; Median = 58.67]"
+        },
+        {
+          "mcq_num": 6,
+          "difficulty": "Medium",
+          "question": "The ogive can be used to find:",
+          "options": {
+            "A": "Mean   (B) Mode   (C) Median   (D) Class mark"
+          },
+          "answer": "C",
+          "explanation": "The correct answer is (C) Median."
+        },
+        {
+          "mcq_num": 7,
+          "difficulty": "Hard",
+          "question": "The class mark of the class interval 150-250 is:",
+          "options": {
+            "A": "150   (B) 250   (C) 200   (D) 100"
+          },
+          "answer": "C",
+          "explanation": "The correct answer is (C) 200."
+        },
+        {
+          "mcq_num": 8,
+          "difficulty": "Hard",
+          "question": "Which of the following is NOT a measure of central tendency?",
+          "options": {
+            "A": "Mean   (B) Mode   (C) Median   (D) Standard deviation"
+          },
+          "answer": "D",
+          "explanation": "The correct answer is (D) Standard deviation."
+        },
+        {
+          "mcq_num": 9,
+          "difficulty": "Hard",
+          "question": "Before applying the median formula, the class intervals must be:",
+          "options": {
+            "A": "Equal in size   (B) Continuous   (C) Starting from zero   (D) Arranged in descending order"
+          },
+          "answer": "B",
+          "explanation": "The correct answer is (B) Continuous."
+        },
+        {
+          "mcq_num": 10,
+          "difficulty": "Medium",
+          "question": "Which measure is most affected by extreme values in data?",
+          "options": {
+            "A": "Median   (B) Mode   (C) Mean   (D) All equally"
+          },
+          "answer": "C",
+          "explanation": "The correct answer is (C) Mean."
+        }
+      ]
+    }
+  ],
+  "topics": [
+    {
+      "topic_num": "13.1",
+      "topic_name": "INTRODUCTION",
+      "mode": "B",
+      "sections": [
+        {
+          "type": "definition",
+          "label": "Definition:",
+          "text": "- This topic introduces the background and purpose of Chapter 13.\n- In Class IX, we studied UNGROUPED DATA measures — mean, median, mode.\n- This chapter extends these three measures to GROUPED DATA."
+        },
+        {
+          "type": "key_points",
+          "label": "Key Points:",
+          "points": [
+            "Ungrouped data: individual values are listed separately.",
+            "Grouped data: values arranged in class intervals with frequencies (used for large datasets).",
+            "We studied bar graphs, histograms (including varying widths), and frequency polygons in Class IX.",
+            "FREQUENCY POLYGON: graph formed by joining midpoints of tops of histogram bars.",
+            "This chapter: mean, median, mode calculated from GROUPED FREQUENCY DISTRIBUTIONS.",
+            "The representative value for each class = CLASS MARK (midpoint).",
+            "Three methods to find mean of grouped data: Direct Method, Assumed Mean Method, Step-Deviation Method.",
+            "Note: No sub-topics under 13.1 (Introduction topic — textbook has no X.Y.Z numbering here)."
+          ]
+        },
+        {
+          "type": "qa",
+          "label": "TOPIC 13.1: Q&A:",
+          "items": []
+        },
+        {
+          "type": "qa",
+          "label": "Q&A",
+          "items": [
+            {
+              "q_num": 1,
+              "marks": 2,
+              "question": "What is grouped data? How does it differ from ungrouped data?",
+              "answer": "In UNGROUPED DATA, individual values are listed separately (e.g., 10, 20, 36, 40...).\nIn GROUPED DATA, values are arranged in class intervals with frequencies (e.g., 10-25: 2 students, 25-40: 3 students).\n\nGrouped data is used when data is very large — it is easier to manage, analyse, and interpret class intervals rather than hundreds of individual values.\n\n---"
+            },
+            {
+              "q_num": 2,
+              "marks": 2,
+              "question": "What is a class mark? Calculate the class mark of 65-75.",
+              "answer": "The CLASS MARK is the midpoint of a class interval. It is used as the representative value for all observations in that class.\n\nClass mark = (Upper class limit + Lower class limit) / 2\n\nFor 65-75:\nClass mark = (65 + 75) / 2 = 140 / 2 = 70\n\n---"
+            },
+            {
+              "q_num": 3,
+              "marks": 2,
+              "question": "What is a frequency polygon? How is it drawn?",
+              "answer": "A FREQUENCY POLYGON is a graph used to represent grouped frequency distributions.\n\nIt is drawn by:\nStep 1: Draw a histogram for the given data.\nStep 2: Mark the midpoints (class marks) at the top of each bar.\nStep 3: Join these midpoints with straight lines.\n\nThe result is a polygon-shaped graph. It is useful for comparing two distributions on the same graph.\n\n---"
+            },
+            {
+              "q_num": 4,
+              "marks": 2,
+              "question": "Name the three methods to find mean of grouped data and state when each is preferred.",
+              "answer": "The three methods are:\n\n(i) DIRECT METHOD: x̄ = Σfixi / Σfi\n→ Use when class marks and frequencies are small numbers.\n\n(ii) ASSUMED MEAN METHOD: x̄ = a + (Σfidi / Σfi)\n→ Use when class marks are large; deviations di = xi - a are smaller.\n\n(iii) STEP-DEVIATION METHOD: x̄ = a + h × (Σfiui / Σfi)\n→ Use when class size is equal and all deviations have a common factor h.\n\nAll three methods always give the SAME result.\n\n---\n\n3 ಮಾರ್ಕ್ಸ್ × 3 questions:"
+            },
+            {
+              "q_num": 5,
+              "marks": 3,
+              "question": "The class mark of a class interval is 32.5 and its class size is 15. Find the class interval. Also find the class mark of the next class interval.",
+              "answer": "Step 1: Let lower limit = l, upper limit = u.\nClass mark = (l + u)/2 = 32.5 → l + u = 65 ...(1)\nClass size = u - l = 15 ...(2)\n\nStep 2: Solve (1) and (2):\nAdding: 2u = 80 → u = 40\nl = 65 - 40 = 25\n\nStep 3: Class interval = 25-40.\n\nStep 4: Next class interval = 40-55\nClass mark = (40 + 55)/2 = 47.5\n\nANSWER: Class interval = 25-40; Class mark of next interval = 47.5\n\n---"
+            },
+            {
+              "q_num": 6,
+              "marks": 3,
+              "question": "A grouped frequency distribution has 5 classes each of size 10. The first class starts at 10. Write all class intervals, their class marks, and identify the class containing the value 45.",
+              "answer": "Step 1: Class intervals (starting at 10, size 10 each):\n10-20, 20-30, 30-40, 40-50, 50-60\n\nStep 2: Class marks:\n10-20 → 15\n20-30 → 25\n30-40 → 35\n40-50 → 45\n50-60 → 55\n\nStep 3: Value 45 belongs to 40-50\n(Upper class limit convention: value = upper limit goes into NEXT class. 45 < 50, so it stays in 40-50.)\n\nANSWER: All class marks: 15, 25, 35, 45, 55. The value 45 lies in class 40-50.\n\n---"
+            },
+            {
+              "q_num": 7,
+              "marks": 3,
+              "question": "State the upper class limit convention in grouped frequency distributions. A student scores exactly 40 marks. If class intervals are 25-40 and 40-55, in which class is the student placed? Justify.",
+              "answer": "UPPER CLASS LIMIT CONVENTION: In a grouped frequency distribution, a value equal to the upper class limit of one class is placed in the NEXT (higher) class.\n\nThis is because each class interval is of the form [lower limit, upper limit), meaning:\n- Lower limit is INCLUDED\n- Upper limit is EXCLUDED\n\nFor the student scoring 40:\n- Class 25-40: includes values from 25 (inclusive) to 40 (exclusive) → 40 is NOT included here.\n- Class 40-55: includes values from 40 (inclusive) → 40 IS included here.\n\nANSWER: The student scoring 40 is placed in the class 40-55.\n\n---\n\n4 ಮಾರ್ಕ್ಸ್ × 4 questions:"
+            },
+            {
+              "q_num": 8,
+              "marks": 4,
+              "question": "The marks of 30 students in Mathematics (out of 100) are given below. Find the mean using the Direct Method for ungrouped data. Then group the data into class intervals of size 15 starting from 10, and find the mean again. Compare the two results and explain the difference.",
+              "answer": "Step 1 — Ungrouped mean:\nΣfixi = 10+20+108+160+150+112+240+280+72+80+176+276+95 = 1779\nΣfi = 30\nx̄ = 1779/30 = 59.3\n\nStep 2 — Group into class intervals (size 15):\nClass:   10-25, 25-40, 40-55, 55-70, 70-85, 85-100\nfi:         2,    3,    7,    6,    6,    6\nxi:      17.5, 32.5, 47.5, 62.5, 77.5, 92.5\nfixi:    35.0, 97.5, 332.5, 375.0, 465.0, 555.0\n\nStep 3 — Grouped mean:\nΣfixi = 35+97.5+332.5+375+465+555 = 1860\nx̄ = 1860/30 = 62\n\nStep 4 — Comparison:\nUngrouped mean = 59.3 (exact)\nGrouped mean = 62 (approximate)\nDifference = 2.7\n\nANSWER: The difference arises because in grouped data, all values within a class are replaced by the class mark (midpoint). This is an approximation — 59.3 is the exact mean, while 62 is an estimate.\n\n---"
+            },
+            {
+              "q_num": 9,
+              "marks": 4,
+              "question": "Explain the concept of class mark with an example. Why is it used in grouped data calculations? If Σfixi = 3500 and Σfi = 50, find the mean. Also, if the assumed mean method gives x̄ = a + Σfidi/Σfi, and a = 65, Σfidi = 250, Σfi = 50, find x̄ and verify that both methods give the same result.",
+              "answer": "CLASS MARK — Explanation:\nIn grouped data, individual values are not known. The class mark (midpoint) is used as the best estimate for all values in that class.\n\nClass mark = (Upper limit + Lower limit) / 2\nExample: For class 50-60, class mark = (50+60)/2 = 55\n\nWhy used: All observations in a class are treated as if they equal the class mark. This allows us to multiply fi × xi and find Σfixi for the mean formula.\n\nStep 1 — Direct Method:\nx̄ = Σfixi / Σfi = 3500 / 50 = 70\n\nStep 2 — Assumed Mean Method:\nx̄ = a + Σfidi/Σfi = 65 + 250/50 = 65 + 5 = 70\n\nStep 3 — Verification:\nBoth methods give x̄ = 70 ✓\n\nANSWER: x̄ = 70. Both Direct Method and Assumed Mean Method give the same result, confirming that the choice of method does not affect the final mean.\n\n---"
+            },
+            {
+              "q_num": 10,
+              "marks": 4,
+              "question": "The following data gives the distribution of daily wages of 50 workers of a factory. Find the mean daily wages using the Step-Deviation Method.",
+              "answer": "Step 1: Class marks xi: 110, 130, 150, 170, 190. a = 150, h = 20.\nStep 2: ui = (xi - 150)/20:\nClass     | fi | xi  | ui | fi×ui\n100-120   | 12 | 110 | -2 |  -24\n120-140   | 14 | 130 | -1 |  -14\n140-160   |  8 | 150 |  0 |    0\n160-180   |  6 | 170 |  1 |    6\n180-200   | 10 | 190 |  2 |   20\nTOTAL     | 50 |     |    |  -12\n\nStep 3: x̄ = 150 + 20 × (-12/50) = 150 + 20 × (-0.24) = 150 - 4.8 = 145.2\n\nANSWER: Mean daily wages = Rs 145.20\n\n---"
+            },
+            {
+              "q_num": 11,
+              "marks": 4,
+              "question": "The mean of the following distribution is 18. Find the missing frequency f.",
+              "answer": "Step 1: Class marks xi: 12, 14, 16, 18, 20, 22, 24\nStep 2: Calculate fi × xi:\n12×7=84, 14×6=84, 16×9=144, 18×13=234, 20×f=20f, 22×5=110, 24×4=96\nΣfixi = 84+84+144+234+20f+110+96 = 752 + 20f\nStep 3: Σfi = 7+6+9+13+f+5+4 = 44+f\n\nStep 4: Mean = 18:\n18 = (752 + 20f) / (44 + f)\n18(44 + f) = 752 + 20f\n792 + 18f = 752 + 20f\n792 - 752 = 20f - 18f\n40 = 2f\nf = 20\n\nANSWER: Missing frequency f = 20\n\n---\n\n5 ಮಾರ್ಕ್ಸ್ × 1 question:"
+            },
+            {
+              "q_num": 12,
+              "marks": 5,
+              "question": "The following table gives the percentage distribution of female teachers in the primary schools of rural areas of various states and UTs of India. Find the mean percentage of female teachers by all three methods. What does the mean signify? Also, if the mode of this distribution is 36 and median is 38, verify the empirical relationship.",
+              "answer": "PART A — Finding mean by all three methods:\n\nStep 1: xi: 20,30,40,50,60,70,80. Σfi = 35. a = 50, h = 10.\n\nDirect Method:\nfixi: 120,330,280,200,240,140,80 → Σfixi = 1390\nx̄ = 1390/35 = 39.71%\n\nAssumed Mean Method (a = 50):\ndi: -30,-20,-10,0,10,20,30\nfidi: -180,-220,-70,0,40,40,30 → Σfidi = -360\nx̄ = 50 + (-360/35) = 39.71%\n\nStep-Deviation Method (a = 50, h = 10):\nui: -3,-2,-1,0,1,2,3\nfiui: -18,-22,-7,0,4,4,3 → Σfiui = -36\nx̄ = 50 + 10×(-36/35) = 39.71%\n\nAll three methods give Mean = 39.71%\n\nPART B — Significance and empirical verification:\n\nThe mean = 39.71% means that on average, about 39.71% of primary school teachers in rural areas are female. This shows female teachers are a significant but minority group in most states.\n\nEmpirical verification:\n3 Median = Mode + 2 Mean\n3 × 38 = 36 + 2 × 39.71\n114 = 36 + 79.42\n114 ≈ 115.42 ✓ (approximately equal — empirical formula holds)\n\nFINAL ANSWER: Mean = 39.71% by all three methods. Empirical relationship is approximately satisfied."
+            }
+          ]
+        },
+        {
+          "type": "mcq",
+          "label": "MCQ",
+          "items": [
+            {
+              "mcq_num": 1,
+              "difficulty": "Easy",
+              "question": "The chapter extends the study of mean, median, and mode to:",
+              "options": {
+                "A": "Ungrouped data   (B) Raw data   (C) Grouped data   (D) Primary data"
+              },
+              "answer": "C",
+              "explanation": "The correct answer is (C) Grouped data."
+            },
+            {
+              "mcq_num": 2,
+              "difficulty": "Easy",
+              "question": "In Class IX, which of the following was NOT studied?",
+              "options": {
+                "A": "Bar graphs   (B) Histograms   (C) Frequency polygons   (D) Ogives"
+              },
+              "answer": "D",
+              "explanation": "The correct answer is (D) Ogives."
+            },
+            {
+              "mcq_num": 3,
+              "difficulty": "Easy",
+              "question": "The midpoint of a class interval is called:",
+              "options": {
+                "A": "Class limit   (B) Class mark   (C) Class size   (D) Class boundary"
+              },
+              "answer": "B",
+              "explanation": "The correct answer is (B) Class mark."
+            },
+            {
+              "mcq_num": 4,
+              "difficulty": "Medium",
+              "question": "The class mark of the class interval 40-60 is:",
+              "options": {
+                "A": "40   (B) 60   (C) 50   (D) 20"
+              },
+              "answer": "C",
+              "explanation": "The correct answer is (C) 50."
+            },
+            {
+              "mcq_num": 5,
+              "difficulty": "Medium",
+              "question": "If the class intervals are 0-10, 10-20, 20-30, where does a student scoring exactly 10 marks go?",
+              "options": {
+                "A": "0-10   (B) 10-20   (C) Either class   (D) Not included"
+              },
+              "answer": "B",
+              "explanation": "The correct answer is (B) 10-20."
+            },
+            {
+              "mcq_num": 6,
+              "difficulty": "Medium",
+              "question": "The class size of the interval 25-35 is:",
+              "options": {
+                "A": "25   (B) 35   (C) 30   (D) 10"
+              },
+              "answer": "D",
+              "explanation": "The correct answer is (D) 10."
+            },
+            {
+              "mcq_num": 7,
+              "difficulty": "Medium",
+              "question": "Which type of graph is formed by joining midpoints of tops of histogram bars?",
+              "options": {
+                "A": "Bar graph   (B) Pie chart   (C) Frequency polygon   (D) Ogive"
+              },
+              "answer": "C",
+              "explanation": "The correct answer is (C) Frequency polygon."
+            },
+            {
+              "mcq_num": 8,
+              "difficulty": "Hard",
+              "question": "A frequency distribution has class intervals 0-5, 5-10, 10-15. A student scores 5. In which class is he placed?",
+              "options": {
+                "A": "0-5   (B) 5-10   (C) Both   (D) Cannot be determined"
+              },
+              "answer": "B",
+              "explanation": "The correct answer is (B) 5-10."
+            },
+            {
+              "mcq_num": 9,
+              "difficulty": "Hard",
+              "question": "In a frequency distribution with class intervals of size 15, the class mark of 40-55 is:",
+              "options": {
+                "A": "40   (B) 55   (C) 47.5   (D) 45"
+              },
+              "answer": "C",
+              "explanation": "The correct answer is (C) 47.5."
+            },
+            {
+              "mcq_num": 10,
+              "difficulty": "Medium",
+              "question": "How many measures of central tendency are studied in this chapter?",
+              "options": {
+                "A": "1   (B) 2   (C) 3   (D) 4"
+              },
+              "answer": "C",
+              "explanation": "The correct answer is (C) 3."
+            },
+            {
+              "mcq_num": 11,
+              "difficulty": "Hard",
+              "question": "If a histogram has bars of varying widths, what does the height of each bar represent?",
+              "options": {
+                "A": "Frequency   (B) Frequency density   (C) Class mark   (D) Cumulative frequency"
+              },
+              "answer": "B",
+              "explanation": "The correct answer is (B) Frequency density."
+            },
+            {
+              "mcq_num": 12,
+              "difficulty": "Easy",
+              "question": "Frequency distribution is useful when:",
+              "options": {
+                "A": "Data is very small   (B) All values are equal   (C) Data is large and needs grouping   (D) Data has no class intervals"
+              },
+              "answer": "C",
+              "explanation": "The correct answer is (C) Data is large and needs grouping."
+            },
+            {
+              "mcq_num": 13,
+              "difficulty": "Medium",
+              "question": "The class mark of the class interval 100-150 is:",
+              "options": {
+                "A": "100   (B) 150   (C) 125   (D) 50"
+              },
+              "answer": "C",
+              "explanation": "The correct answer is (C) 125."
+            },
+            {
+              "mcq_num": 14,
+              "difficulty": "Hard",
+              "question": "The class mark of the class 15-25 is x. Then x equals:",
+              "options": {
+                "A": "15   (B) 25   (C) 20   (D) 10"
+              },
+              "answer": "C",
+              "explanation": "The correct answer is (C) 20."
+            },
+            {
+              "mcq_num": 15,
+              "difficulty": "Hard",
+              "question": "Which of the following is NOT a measure of central tendency?",
+              "options": {
+                "A": "Mean   (B) Mode   (C) Median   (D) Standard deviation"
+              },
+              "answer": "D",
+              "explanation": "The correct answer is (D) Standard deviation."
+            }
+          ]
+        }
+      ],
+      "subtopics": []
+    },
+    {
+      "topic_num": "13.2",
+      "topic_name": "MEAN OF GROUPED DATA",
+      "mode": "B",
+      "sections": [
+        {
+          "type": "definition",
+          "label": "Definition:",
+          "text": "- The MEAN (arithmetic average) of grouped data is calculated using the class marks (midpoints) as representative values for each class interval.\n- Formula: x̄ = Σfixi / Σfi  (Direct Method)"
+        },
+        {
+          "type": "key_points",
+          "label": "Key Points:",
+          "points": [
+            "For UNGROUPED data: Mean x̄ = Σfixi / Σfi (where xi = individual observation, fi = frequency)",
+            "For GROUPED data: xi = CLASS MARK of each class interval",
+            "CLASS MARK = (Upper class limit + Lower class limit) / 2",
+            "THREE METHODS:",
+            "(i)  DIRECT METHOD: x̄ = Σfixi / Σfi",
+            "(ii) ASSUMED MEAN METHOD: x̄ = a + (Σfidi / Σfi), where di = xi - a",
+            "(iii) STEP-DEVIATION METHOD: x̄ = a + h × (Σfiui / Σfi), where ui = (xi - a)/h",
+            "All three methods give the SAME result.",
+            "Choose method based on size of numbers: Direct for small values, Assumed Mean or Step-Deviation for large values.",
+            "REMARK: The step-deviation method is most convenient when all di values have a common factor (class sizes equal).",
+            "ACTIVITY 1: Taking different xi values as 'a' always gives the same mean (62) — mean does not depend on choice of 'a'.",
+            "ACTIVITY 2: Students collect real data (marks, temperatures, heights) and find mean by suitable method.",
+            "Note: No sub-topics under 13.2 (textbook has no X.Y.Z numbering here)."
+          ]
+        },
+        {
+          "type": "formulas",
+          "label": "FORMULA:",
+          "items": [
+            "(i) DIRECT METHOD:",
+            "x̄ = Σfixi / Σfi",
+            "WHERE:",
+            "x̄ = mean of the data",
+            "fi = frequency of the ith class",
+            "xi = class mark (midpoint) of the ith class",
+            "Σ = summation over all classes",
+            "(ii) ASSUMED MEAN METHOD:",
+            "x̄ = a + (Σfidi / Σfi)",
+            "WHERE:",
+            "a = assumed mean (chosen class mark near centre)",
+            "di = xi - a = deviation of ith class mark from assumed mean",
+            "(iii) STEP-DEVIATION METHOD:",
+            "x̄ = a + h × (Σfiui / Σfi)",
+            "WHERE:",
+            "a = assumed mean",
+            "h = class size (width of class interval)",
+            "ui = (xi - a) / h = step-deviation of ith class",
+            "EXAMPLES: (textbook examples)",
+            "EXAMPLE 13.2.1: Mean of marks of 30 students (Direct Method — ungrouped then grouped)",
+            "PROBLEM: The marks obtained by 30 students in a Mathematics paper (100 marks):",
+            "x: 10,20,36,40,50,56,60,70,72,80,88,92,95",
+            "f:  1, 1, 3, 4, 3, 2, 4, 4, 1, 1, 2, 3, 1",
+            "Find the mean. Also convert to grouped data (class size 15) and find mean.",
+            "SOLUTION:",
+            "Step 1 (Ungrouped): Σfixi = 10+20+108+160+150+112+240+280+72+80+176+276+95 = 1779",
+            "Step 2: Σfi = 30",
+            "Step 3: x̄ = 1779/30 = 59.3",
+            "Step 4 (Grouped — class size 15):",
+            "Class intervals: 10-25, 25-40, 40-55, 55-70, 70-85, 85-100",
+            "Frequency fi:      2,    3,    7,    6,    6,    6",
+            "Class mark xi:  17.5, 32.5, 47.5, 62.5, 77.5, 92.5",
+            "fixi:           35.0, 97.5,332.5,375.0,465.0,555.0",
+            "Step 5: Σfixi = 35+97.5+332.5+375+465+555 = 1860",
+            "Step 6: Σfi = 30",
+            "Step 7: x̄ = 1860/30 = 62 (Direct Method — grouped)",
+            "ANSWER: Ungrouped mean = 59.3; Grouped mean = 62",
+            "(Difference due to midpoint approximation — 62 is approximate, 59.3 is exact)",
+            "EXAMPLE 13.2.2: Mean percentage of female teachers — all three methods",
+            "PROBLEM: Percentage distribution of female teachers in primary schools of rural areas:",
+            "Class:          15-25, 25-35, 35-45, 45-55, 55-65, 65-75, 75-85",
+            "No. of States:    6,    11,    7,    4,    4,    2,    1",
+            "Find mean by all three methods.",
+            "SOLUTION:",
+            "Step 1: Find class marks xi: 20, 30, 40, 50, 60, 70, 80",
+            "Step 2: Σfi = 35, a = 50, h = 10",
+            "Direct Method:",
+            "fixi: 120, 330, 280, 200, 240, 140, 80  → Σfixi = 1390",
+            "x̄ = 1390/35 = 39.71",
+            "Assumed Mean Method (a = 50):",
+            "di = xi - 50: -30, -20, -10, 0, 10, 20, 30",
+            "fidi: -180, -220, -70, 0, 40, 40, 30 → Σfidi = -360",
+            "x̄ = 50 + (-360)/35 = 50 - 10.29 = 39.71",
+            "Step-Deviation Method (a = 50, h = 10):",
+            "ui = (xi - 50)/10: -3, -2, -1, 0, 1, 2, 3",
+            "fiui: -18, -22, -7, 0, 4, 4, 3 → Σfiui = -36",
+            "x̄ = 50 + 10 × (-36/35) = 50 - 10.29 = 39.71",
+            "ANSWER: Mean percentage of female teachers = 39.71%",
+            "(All three methods give the same answer.)",
+            "EXAMPLE 13.2.3: Mean wickets — Step-Deviation Method (unequal class sizes)",
+            "PROBLEM: Distribution of wickets taken by bowlers in one-day cricket:",
+            "Number of wickets:   20-60, 60-100, 100-150, 150-250, 250-350, 350-450",
+            "Number of bowlers:     7,     5,      16,      12,       2,       3",
+            "Find the mean number of wickets.",
+            "SOLUTION:",
+            "Step 1: Class marks xi: 40, 80, 125, 200, 300, 400",
+            "Step 2: a = 200, h = 20",
+            "Step 3: ui = (xi - 200)/20: -8, -6, -3.75, 0, 5, 10",
+            "Step 4: fiui: -56, -30, -60, 0, 10, 30 → Σfiui = -106",
+            "Step 5: Σfi = 45",
+            "Step 6: x̄ = 200 + 20 × (-106/45) = 200 - 47.11 = 152.89",
+            "ANSWER: Mean number of wickets = 152.89",
+            "(This means on average, each of the 45 bowlers took about 153 wickets in one-day cricket.)"
+          ]
+        },
+        {
+          "type": "activity",
+          "label": "ACTIVITY 13.2.1:",
+          "aim": "",
+          "materials": "",
+          "procedure": [],
+          "observation": "No matter which xi we choose as 'a', the final mean x̄ is always 62.",
+          "conclusion": "The value of mean does not depend on the choice of assumed mean 'a'.",
+          "caution": ""
+        },
+        {
+          "type": "activity",
+          "label": "ACTIVITY 13.2.2:",
+          "aim": "",
+          "materials": "",
+          "procedure": [],
+          "observation": "",
+          "conclusion": "",
+          "caution": ""
+        },
+        {
+          "type": "exercise",
+          "label": "EXERCISE 13.1:",
+          "items": [
+            {
+              "q_num": 1,
+              "marks": null,
+              "question": "A survey — number of plants in 20 houses:",
+              "answer": "Number of plants: 0-2, 2-4, 4-6, 6-8, 8-10, 10-12, 12-14\nNumber of houses:  1,   2,   1,   5,   6,    2,    3\nFind mean number of plants per house. Which method did you use?\n(Answer: x̄ = 8.1 plants; Direct/Step-deviation method)"
+            },
+            {
+              "q_num": 2,
+              "marks": null,
+              "question": "Consider the following distribution of daily wages of 50 workers of a factory:",
+              "answer": "Daily wages (Rs): 500-520, 520-540, 540-560, 560-580, 580-600\nNumber of workers:   12,     14,      8,       6,      10\nFind the mean daily wages of the workers using an appropriate method.\n(Answer: x̄ = Rs 545.20)"
+            },
+            {
+              "q_num": 3,
+              "marks": null,
+              "question": "The following distribution shows daily pocket allowance of children of a locality.",
+              "answer": "The mean pocket allowance is Rs 18. Find missing frequency f:\nDaily pocket allowance (Rs): 11-13, 13-15, 15-17, 17-19, 19-21, 21-23, 23-25\nNumber of children:            7,     6,     9,    13,    f,     5,    4\n(Answer: f = 20; Set up equation: 18 = Σfixi/Σfi, solve for f)"
+            },
+            {
+              "q_num": 4,
+              "marks": null,
+              "question": "Thirty women were examined in a hospital. Heartbeats per minute recorded:",
+              "answer": "Number of heartbeats/min: 65-68, 68-71, 71-74, 74-77, 77-80, 80-83, 83-86\nNumber of women:            2,     4,     3,     8,     7,     4,     2\nFind the mean heartbeats per minute. Choose a suitable method.\n(Answer: x̄ = 75.9 beats/min; Step-deviation method with a = 75.5, h = 3)"
+            },
+            {
+              "q_num": 5,
+              "marks": null,
+              "question": "In a retail market, fruit vendors were selling mangoes kept in packing boxes:",
+              "answer": "Number of mangoes: 50-52, 53-55, 56-58, 59-61, 62-64\nNumber of boxes:    15,   110,   135,   115,    25\nFind mean number of mangoes kept in a packing box. Which method?\n(Answer: x̄ = 57.19 mangoes; Step-deviation method)"
+            },
+            {
+              "q_num": 6,
+              "marks": null,
+              "question": "The table below shows daily expenditure on food of 25 households:",
+              "answer": "Daily expenditure (Rs): 100-150, 150-200, 200-250, 250-300, 300-350\nNumber of households:     4,       5,      12,       2,       2\nFind mean daily expenditure on food by a suitable method.\n(Answer: x̄ = Rs 211; Assumed mean method)"
+            },
+            {
+              "q_num": 7,
+              "marks": null,
+              "question": "To find concentration of SO₂ in air (ppm), data collected for 30 localities:",
+              "answer": "Concentration (ppm): 0.00-0.04, 0.04-0.08, 0.08-0.12, 0.12-0.16, 0.16-0.20, 0.20-0.24\nFrequency:                4,        9,          9,          2,          4,          2\nFind the mean concentration of SO₂ in the air.\n(Answer: x̄ = 0.099 ppm; Direct method)"
+            },
+            {
+              "q_num": 8,
+              "marks": null,
+              "question": "A class teacher has absentee record of 40 students for the whole term:",
+              "answer": "Number of days:      0-6,  6-10, 10-14, 14-20, 20-28, 28-38, 38-40\nNumber of students:  11,   10,    7,     4,      4,     3,     1\nFind mean number of days a student was absent.\n(Answer: x̄ = 12.475 days; Step-deviation method)"
+            },
+            {
+              "q_num": 9,
+              "marks": null,
+              "question": "The following table gives literacy rate (%) of 35 cities. Find mean literacy rate:",
+              "answer": "Literacy rate (%):  45-55, 55-65, 65-75, 75-85, 85-95\nNumber of cities:     3,    10,    11,     8,     3\n(Answer: x̄ = 69.43%; Assumed mean method with a = 70)"
+            }
+          ],
+          "raw": "(All questions: find mean of given grouped frequency distribution using appropriate method)\n\nQ1: A survey — number of plants in 20 houses:\nNumber of plants: 0-2, 2-4, 4-6, 6-8, 8-10, 10-12, 12-14\nNumber of houses:  1,   2,   1,   5,   6,    2,    3\nFind mean number of plants per house. Which method did you use?\n(Answer: x̄ = 8.1 plants; Direct/Step-deviation method)\n\nQ2: Consider the following distribution of daily wages of 50 workers of a factory:\nDaily wages (Rs): 500-520, 520-540, 540-560, 560-580, 580-600\nNumber of workers:   12,     14,      8,       6,      10\nFind the mean daily wages of the workers using an appropriate method.\n(Answer: x̄ = Rs 545.20)\n\nQ3: The following distribution shows daily pocket allowance of children of a locality.\nThe mean pocket allowance is Rs 18. Find missing frequency f:\nDaily pocket allowance (Rs): 11-13, 13-15, 15-17, 17-19, 19-21, 21-23, 23-25\nNumber of children:            7,     6,     9,    13,    f,     5,    4\n(Answer: f = 20; Set up equation: 18 = Σfixi/Σfi, solve for f)\n\nQ4: Thirty women were examined in a hospital. Heartbeats per minute recorded:\nNumber of heartbeats/min: 65-68, 68-71, 71-74, 74-77, 77-80, 80-83, 83-86\nNumber of women:            2,     4,     3,     8,     7,     4,     2\nFind the mean heartbeats per minute. Choose a suitable method.\n(Answer: x̄ = 75.9 beats/min; Step-deviation method with a = 75.5, h = 3)\n\nQ5: In a retail market, fruit vendors were selling mangoes kept in packing boxes:\nNumber of mangoes: 50-52, 53-55, 56-58, 59-61, 62-64\nNumber of boxes:    15,   110,   135,   115,    25\nFind mean number of mangoes kept in a packing box. Which method?\n(Answer: x̄ = 57.19 mangoes; Step-deviation method)\n\nQ6: The table below shows daily expenditure on food of 25 households:\nDaily expenditure (Rs): 100-150, 150-200, 200-250, 250-300, 300-350\nNumber of households:     4,       5,      12,       2,       2\nFind mean daily expenditure on food by a suitable method.\n(Answer: x̄ = Rs 211; Assumed mean method)\n\nQ7: To find concentration of SO₂ in air (ppm), data collected for 30 localities:\nConcentration (ppm): 0.00-0.04, 0.04-0.08, 0.08-0.12, 0.12-0.16, 0.16-0.20, 0.20-0.24\nFrequency:                4,        9,          9,          2,          4,          2\nFind the mean concentration of SO₂ in the air.\n(Answer: x̄ = 0.099 ppm; Direct method)\n\nQ8: A class teacher has absentee record of 40 students for the whole term:\nNumber of days:      0-6,  6-10, 10-14, 14-20, 20-28, 28-38, 38-40\nNumber of students:  11,   10,    7,     4,      4,     3,     1\nFind mean number of days a student was absent.\n(Answer: x̄ = 12.475 days; Step-deviation method)\n\nQ9: The following table gives literacy rate (%) of 35 cities. Find mean literacy rate:\nLiteracy rate (%):  45-55, 55-65, 65-75, 75-85, 85-95\nNumber of cities:     3,    10,    11,     8,     3\n(Answer: x̄ = 69.43%; Assumed mean method with a = 70)"
+        },
+        {
+          "type": "qa",
+          "label": "TOPIC 13.2: Q&A:",
+          "items": []
+        },
+        {
+          "type": "qa",
+          "label": "Q&A",
+          "items": [
+            {
+              "q_num": 1,
+              "marks": 2,
+              "question": "Write the Direct Method formula for mean of grouped data. Explain each symbol.",
+              "answer": "DIRECT METHOD:\nx̄ = Σfixi / Σfi\nWhere:\nx̄ = mean of the distribution\nfi = frequency of the ith class\nxi = class mark (midpoint) of the ith class\nΣ = summation over all classes\n\nThe class mark xi = (Upper class limit + Lower class limit) / 2\n\n---"
+            },
+            {
+              "q_num": 2,
+              "marks": 2,
+              "question": "What is the Assumed Mean Method? Write its formula and state the advantage.",
+              "answer": "In the ASSUMED MEAN METHOD, we choose any value 'a' near the centre as the assumed mean and compute deviations.\n\ndi = xi - a  (deviation of each class mark from assumed mean)\nFormula: x̄ = a + (Σfidi / Σfi)\n\nADVANTAGE: Since deviations di are much smaller than the original class marks xi, the calculations become simpler and faster, especially when xi values are large.\n\n---"
+            },
+            {
+              "q_num": 3,
+              "marks": 2,
+              "question": "Write the Step-Deviation Method formula. When is it most convenient?",
+              "answer": "STEP-DEVIATION METHOD:\nx̄ = a + h × (Σfiui / Σfi)\nWhere:\na = assumed mean, h = class size\nui = (xi - a) / h = step-deviation\n\nMOST CONVENIENT WHEN:\n(i) All class sizes are equal (same h throughout).\n(ii) All deviations di = xi - a are multiples of h.\nUnder these conditions, ui values are small integers, making calculations very easy.\n\n---"
+            },
+            {
+              "q_num": 4,
+              "marks": 2,
+              "question": "Activity 1 states: \"No matter which xi is chosen as 'a', the mean is always the same (62).\" Explain why this is true.",
+              "answer": "In the Assumed Mean Method: x̄ = a + (Σfidi / Σfi)\n\nWhen we change 'a' to a different class mark, every di = xi - a changes too. The sum Σfidi adjusts exactly to compensate, so the final x̄ remains constant.\n\nThis proves that MEAN DOES NOT DEPEND ON THE CHOICE OF ASSUMED MEAN 'a'. The assumed mean is only a computational tool — it does not affect the final answer.\n\n---\n\n3 ಮಾರ್ಕ್ಸ್ × 3 questions:"
+            },
+            {
+              "q_num": 5,
+              "marks": 3,
+              "question": "Find the mean of the following distribution using the Step-Deviation Method.",
+              "answer": "Step 1: xi: 40, 80, 125, 200, 300, 400. a = 200, h = 20.\nStep 2:\nClass     | fi | ui=(xi-200)/20 | fi×ui\n20-60     |  7 |     -8         |  -56\n60-100    |  5 |     -6         |  -30\n100-150   | 16 |  -3.75         |  -60\n150-250   | 12 |      0         |    0\n250-350   |  2 |      5         |   10\n350-450   |  3 |     10         |   30\nTOTAL     | 45 |                | -106\n\nStep 3: x̄ = 200 + 20 × (-106/45) = 200 - 47.11 = 152.89\n\nANSWER: Mean wickets = 152.89 (average bowler took about 153 wickets in one-day cricket)\n\n---"
+            },
+            {
+              "q_num": 6,
+              "marks": 3,
+              "question": "The mean daily wages of 50 workers is Rs 545.20. If the class intervals are 500-520, 520-540, 540-560, 560-580, 580-600 with frequencies 12, 14, 8, 6, 10 respectively, verify using Direct Method.",
+              "answer": "Step 1: xi: 510, 530, 550, 570, 590\nStep 2:\nfi×xi: 12×510=6120, 14×530=7420, 8×550=4400, 6×570=3420, 10×590=5900\nΣfixi = 6120+7420+4400+3420+5900 = 27260\nStep 3: Σfi = 50\nStep 4: x̄ = 27260/50 = 545.20\n\nANSWER: x̄ = Rs 545.20 ✓ Verified.\n\n---"
+            },
+            {
+              "q_num": 7,
+              "marks": 3,
+              "question": "The following distribution shows heartbeats per minute of 30 women. Find the mean using Assumed Mean Method.",
+              "answer": "Step 1: xi: 66.5, 69.5, 72.5, 75.5, 78.5, 81.5, 84.5. a = 75.5, h = 3.\nStep 2:\ndi = xi - 75.5: -9, -6, -3, 0, 3, 6, 9\nfidi: -18, -24, -9, 0, 21, 24, 18 → Σfidi = 12\nΣfi = 30\nStep 3: x̄ = 75.5 + 12/30 = 75.5 + 0.4 = 75.9\n\nANSWER: Mean heartbeats per minute = 75.9\n\n---\n\n4 ಮಾರ್ಕ್ಸ್ × 4 questions:"
+            },
+            {
+              "q_num": 8,
+              "marks": 4,
+              "question": "Find the mean concentration of SO₂ in air using an appropriate method.",
+              "answer": "Step 1: xi: 0.02, 0.06, 0.10, 0.14, 0.18, 0.22\nStep 2: Direct Method:\nfi×xi: 4×0.02=0.08, 9×0.06=0.54, 9×0.10=0.90, 2×0.14=0.28, 4×0.18=0.72, 2×0.22=0.44\nΣfixi = 0.08+0.54+0.90+0.28+0.72+0.44 = 2.96\nΣfi = 4+9+9+2+4+2 = 30\nStep 3: x̄ = 2.96/30 = 0.0987 ≈ 0.099 ppm\n\nANSWER: Mean concentration of SO₂ = 0.099 ppm\n\n---"
+            },
+            {
+              "q_num": 9,
+              "marks": 4,
+              "question": "Prove that all three methods (Direct, Assumed Mean, Step-Deviation) give the same mean for the literacy rate distribution below. Use a = 70, h = 10.",
+              "answer": "xi: 50,60,70,80,90. Σfi = 35.\n\nDirect Method:\nfixi: 150,600,770,640,270 → Σfixi = 2430\nx̄ = 2430/35 = 69.43%\n\nAssumed Mean (a = 70):\ndi: -20,-10,0,10,20\nfidi: -60,-100,0,80,60 → Σfidi = -20\nx̄ = 70 + (-20/35) = 70 - 0.571 = 69.43%\n\nStep-Deviation (a = 70, h = 10):\nui: -2,-1,0,1,2\nfiui: -6,-10,0,8,6 → Σfiui = -2\nx̄ = 70 + 10 × (-2/35) = 70 - 0.571 = 69.43%\n\nANSWER: All three methods give x̄ = 69.43%. ✓ All methods are equivalent.\n\n---"
+            },
+            {
+              "q_num": 10,
+              "marks": 4,
+              "question": "Find the mean number of days students were absent using an appropriate method.",
+              "answer": "Step 1: xi: 3, 8, 12, 17, 24, 33, 39. a = 17, h = not equal → use Assumed Mean.\nStep 2:\ndi = xi - 17: -14, -9, -5, 0, 7, 16, 22\nfidi: -154, -90, -35, 0, 28, 48, 22 → Σfidi = -181\nΣfi = 40\nStep 3: x̄ = 17 + (-181/40) = 17 - 4.525 = 12.475\n\nANSWER: Mean number of absent days = 12.475 days\n\n---"
+            },
+            {
+              "q_num": 11,
+              "marks": 4,
+              "question": "The mean of the following frequency distribution is 62. Find Σfi and the missing class frequency for class 55-70, given that the distribution has classes 10-25(f=2), 25-40(f=3), 40-55(f=7), 55-70(f=?), 70-85(f=6), 85-100(f=6). Also verify by Direct Method.",
+              "answer": "Step 1: Σfi = 2+3+7+f+6+6 = 24+f\nStep 2: xi: 17.5, 32.5, 47.5, 62.5, 77.5, 92.5\nΣfixi = 35+97.5+332.5+62.5f+465+555 = 1485 + 62.5f\nStep 3: Mean = 62:\n62 = (1485 + 62.5f)/(24+f)\n62(24+f) = 1485 + 62.5f\n1488 + 62f = 1485 + 62.5f\n3 = 0.5f\nf = 6\n\nStep 4: Verify: Σfi = 24+6 = 30. Σfixi = 1485+62.5×6 = 1485+375 = 1860\nx̄ = 1860/30 = 62 ✓\n\nANSWER: Missing frequency = 6, Σfi = 30.\n\n---\n\n5 ಮಾರ್ಕ್ಸ್ × 1 question:"
+            },
+            {
+              "q_num": 12,
+              "marks": 5,
+              "question": "The following distribution shows daily pocket allowance of children. The mean pocket allowance is Rs 18. Find the missing frequency f. Also find the mean using Step-Deviation Method with a = 18 and verify.",
+              "answer": "PART A — Finding f:\n\nStep 1: xi: 12, 14, 16, 18, 20, 22, 24\nΣfixi = 84+84+144+234+20f+110+96 = 752+20f\nΣfi = 44+f\n\nStep 2: Mean = 18:\n18(44+f) = 752+20f\n792+18f = 752+20f\n40 = 2f → f = 20\n\nANSWER: f = 20\n\nPART B — Verification using Step-Deviation Method (a = 18, h = 2):\n\nStep 3:\ndi = xi - 18: -6,-4,-2,0,2,4,6\nui = di/2: -3,-2,-1,0,1,2,3\nΣfi = 44+20 = 64\nfiui: 7×(-3)=-21, 6×(-2)=-12, 9×(-1)=-9, 13×0=0, 20×1=20, 5×2=10, 4×3=12\nΣfiui = -21-12-9+0+20+10+12 = 0\n\nStep 4: x̄ = 18 + 2 × (0/64) = 18 + 0 = 18\n\nANSWER: Mean = Rs 18 ✓ (Σfiui = 0 confirms a = 18 was exactly the mean)"
+            }
+          ]
+        },
+        {
+          "type": "mcq",
+          "label": "MCQ",
+          "items": [
+            {
+              "mcq_num": 1,
+              "difficulty": "Easy",
+              "question": "The class mark of class interval 40-55 is:",
+              "options": {
+                "A": "40   (B) 55   (C) 47.5   (D) 15"
+              },
+              "answer": "C",
+              "explanation": "The correct answer is (C) 47.5."
+            },
+            {
+              "mcq_num": 2,
+              "difficulty": "Easy",
+              "question": "In the Direct Method, mean x̄ =:",
+              "options": {
+                "A": "Σfi / Σfixi   (B) Σfixi / Σfi   (C) Σfi + Σxi   (D) Σdi / Σfi"
+              },
+              "answer": "B",
+              "explanation": "The correct answer is (B) Σfixi / Σfi."
+            },
+            {
+              "mcq_num": 3,
+              "difficulty": "Easy",
+              "question": "In Assumed Mean Method, di =:",
+              "options": {
+                "A": "xi + a   (B) xi - x̄   (C) xi - a   (D) a - xi"
+              },
+              "answer": "C",
+              "explanation": "The correct answer is (C) xi - a."
+            },
+            {
+              "mcq_num": 4,
+              "difficulty": "Medium",
+              "question": "If a = 47.5, h = 15, Σfiui = 29, Σfi = 30, then x̄ =:",
+              "options": {
+                "A": "62   (B) 47.5   (C) 60   (D) 14.5"
+              },
+              "answer": "A",
+              "explanation": "The correct answer is (A) 62. [x̄ = 47.5 + 15 × (29/30) = 47.5 + 14.5 = 62]"
+            },
+            {
+              "mcq_num": 5,
+              "difficulty": "Medium",
+              "question": "In Step-Deviation Method, ui =:",
+              "options": {
+                "A": "(xi - h) / a   (B) xi / h   (C) (xi - (A) / h   (D) (a - xi) / h"
+              },
+              "answer": "C",
+              "explanation": "Option (C) is correct based on the definition/theorem."
+            },
+            {
+              "mcq_num": 6,
+              "difficulty": "Medium",
+              "question": "For grouped data with Σfixi = 1860 and Σfi = 30, the mean is:",
+              "options": {
+                "A": "59.3   (B) 62   (C) 64   (D) 1860"
+              },
+              "answer": "B",
+              "explanation": "The correct answer is (B) 62."
+            },
+            {
+              "mcq_num": 7,
+              "difficulty": "Medium",
+              "question": "The formula x̄ = a + (Σfidi / Σfi) is used in:",
+              "options": {
+                "A": "Direct Method   (B) Step-Deviation Method   (C) Assumed Mean Method   (D) Median formula"
+              },
+              "answer": "C",
+              "explanation": "The correct answer is (C) Assumed Mean Method."
+            },
+            {
+              "mcq_num": 8,
+              "difficulty": "Hard",
+              "question": "In Example 13.2.2, a = 50, h = 10, Σfiui = -36, Σfi = 35. Mean x̄ =:",
+              "options": {
+                "A": "39.71   (B) 50   (C) 39   (D) 40.29"
+              },
+              "answer": "A",
+              "explanation": "The correct answer is (A) 39.71. [x̄ = 50 + 10 × (-36/35) = 50 - 10.29 = 39.71]"
+            },
+            {
+              "mcq_num": 9,
+              "difficulty": "Hard",
+              "question": "If class intervals are equal and all di have a common factor, which method is MOST convenient?",
+              "options": {
+                "A": "Direct Method   (B) Assumed Mean Method   (C) Step-Deviation Method   (D) All equally convenient"
+              },
+              "answer": "C",
+              "explanation": "The correct answer is (C) Step-Deviation Method."
+            },
+            {
+              "mcq_num": 10,
+              "difficulty": "Easy",
+              "question": "All three methods of finding mean give:",
+              "options": {
+                "A": "Different results   (B) The same result   (C) Results that differ by h   (D) Results that differ by 'a'"
+              },
+              "answer": "B",
+              "explanation": "The correct answer is (B) The same result."
+            },
+            {
+              "mcq_num": 11,
+              "difficulty": "Medium",
+              "question": "The Assumed Mean Method reduces calculation by using:",
+              "options": {
+                "A": "Larger numbers   (B) Deviations (smaller numbers) instead of large class marks   (C) Dividing all values by h   (D) Cumulative frequency"
+              },
+              "answer": "B",
+              "explanation": "Option (B) is correct based on the definition/theorem."
+            },
+            {
+              "mcq_num": 12,
+              "difficulty": "Hard",
+              "question": "If a = 200, h = 20, Σfiui = -106, Σfi = 45, then x̄ =:",
+              "options": {
+                "A": "200   (B) 152.89   (C) 247.11   (D) 153"
+              },
+              "answer": "B",
+              "explanation": "The correct answer is (B) 152.89. [x̄ = 200 + 20 × (-106/45) = 200 - 47.11 = 152.89]"
+            },
+            {
+              "mcq_num": 13,
+              "difficulty": "Medium",
+              "question": "In Assumed Mean Method, if Σfidi = 0, then x̄ equals:",
+              "options": {
+                "A": "0   (B) a   (C) h   (D) Σfi"
+              },
+              "answer": "B",
+              "explanation": "The correct answer is (B) a."
+            },
+            {
+              "mcq_num": 14,
+              "difficulty": "Hard",
+              "question": "The step-deviation method formula is x̄ = a + h × (Σfiui / Σfi). Here 'h' is:",
+              "options": {
+                "A": "Assumed mean   (B) Deviation   (C) Class size   (D) Class mark"
+              },
+              "answer": "C",
+              "explanation": "The correct answer is (C) Class size."
+            },
+            {
+              "mcq_num": 15,
+              "difficulty": "Hard",
+              "question": "For grouped data, the ungrouped mean (59.3) differs from grouped mean (62) because:",
+              "options": {
+                "A": "Different formulas are used   (B) Class mark approximation introduces error   (C) Frequencies are different   (D) Class sizes are different"
+              },
+              "answer": "B",
+              "explanation": "The correct answer is (B) Class mark approximation introduces error."
+            }
+          ]
+        }
+      ],
+      "subtopics": []
+    },
+    {
+      "topic_num": "13.3",
+      "topic_name": "MODE OF GROUPED DATA",
+      "mode": "B",
+      "sections": [
+        {
+          "type": "definition",
+          "label": "Definition:",
+          "text": "- MODE is the value among the observations that occurs most often (maximum frequency).\n- For GROUPED DATA, mode is found using the MODAL CLASS (class with maximum frequency) and a formula."
+        },
+        {
+          "type": "key_points",
+          "label": "Key Points:",
+          "points": [
+            "For UNGROUPED data: value with the highest frequency is the mode.",
+            "For GROUPED data: cannot directly find mode from frequencies — must use the formula.",
+            "MODAL CLASS: the class interval with the highest (maximum) frequency.",
+            "Formula: Mode = l + [(f1 - f0) / (2f1 - f0 - f2)] × h",
+            "MULTIMODAL data: when two or more classes have same maximum frequency — formula does not apply (only for unimodal data).",
+            "REMARK: Mode can be calculated for grouped data with unequal class sizes, but not discussed here.",
+            "ACTIVITY 3: Students find mode of the same data collected in Activity 2, then compare with mean and interpret.",
+            "Empirical relationship: 3 Median = Mode + 2 Mean.",
+            "Note: No sub-topics under 13.3 (textbook has no X.Y.Z numbering here)."
+          ]
+        },
+        {
+          "type": "formulas",
+          "label": "FORMULA:",
+          "items": [
+            "Mode = l + [(f1 - f0) / (2f1 - f0 - f2)] × h",
+            "WHERE:",
+            "l  = lower limit of the modal class",
+            "h  = size of the class interval (assuming equal class sizes)",
+            "f1 = frequency of the modal class",
+            "f0 = frequency of the class preceding the modal class",
+            "f2 = frequency of the class succeeding the modal class",
+            "EXAMPLES: (textbook examples)",
+            "EXAMPLE 13.3.4: Mode of wickets — ungrouped data",
+            "PROBLEM: Wickets taken by a bowler in 10 cricket matches:",
+            "Data: 2, 6, 4, 5, 0, 2, 1, 3, 2, 3",
+            "Find the mode.",
+            "SOLUTION:",
+            "Step 1: Form frequency table:",
+            "Wickets:   0, 1, 2, 3, 4, 5, 6",
+            "Frequency: 1, 1, 3, 2, 1, 1, 1",
+            "Step 2: Maximum frequency = 3 (for 2 wickets)",
+            "ANSWER: Mode = 2 wickets",
+            "EXAMPLE 13.3.5: Mode of family size — grouped data",
+            "PROBLEM: Survey of 20 households for family size:",
+            "Family size:      1-3, 3-5, 5-7, 7-9, 9-11",
+            "Number of families: 7,   8,   2,   2,   1",
+            "Find the mode.",
+            "SOLUTION:",
+            "Step 1: Modal class = 3-5 (maximum frequency = 8)",
+            "Step 2: l = 3, h = 2, f1 = 8, f0 = 7, f2 = 2",
+            "Step 3: Mode = 3 + [(8-7) / (2×8 - 7 - 2)] × 2",
+            "= 3 + [1 / (16 - 9)] × 2",
+            "= 3 + (1/7) × 2",
+            "= 3 + 2/7",
+            "= 3.286",
+            "ANSWER: Mode of family size = 3.286",
+            "EXAMPLE 13.3.6: Mode and mean of students' marks — comparison",
+            "PROBLEM: Marks distribution of 30 students (from Example 13.2.1 grouped data):",
+            "Class:   10-25, 25-40, 40-55, 55-70, 70-85, 85-100",
+            "fi:        2,    3,    7,    6,    6,    6",
+            "Find the mode. Also compare with mean and interpret.",
+            "SOLUTION:",
+            "Step 1: Modal class = 40-55 (maximum frequency = 7)",
+            "Step 2: l = 40, h = 15, f1 = 7, f0 = 3, f2 = 6",
+            "Step 3: Mode = 40 + [(7-3) / (2×7 - 3 - 6)] × 15",
+            "= 40 + [4 / (14 - 9)] × 15",
+            "= 40 + (4/5) × 15",
+            "= 40 + 12",
+            "= 52",
+            "Step 4: Mean (from Example 13.2.1) = 62",
+            "REMARKS:",
+            "1. Mode (52) < Mean (62) — mode can be less than, equal to, or greater than mean.",
+            "2. Mean = 62 tells us the AVERAGE marks obtained.",
+            "Mode = 52 tells us the marks obtained by the MAXIMUM number of students.",
+            "3. The maximum number of students (7) obtained marks in the class 40-55, so mode (52) is the most common marks.",
+            "ANSWER: Mode = 52, Mean = 62"
+          ]
+        },
+        {
+          "type": "activity",
+          "label": "ACTIVITY 13.3.3:",
+          "aim": "",
+          "materials": "",
+          "procedure": [],
+          "observation": "",
+          "conclusion": "",
+          "caution": ""
+        },
+        {
+          "type": "exercise",
+          "label": "EXERCISE 13.2:",
+          "items": [
+            {
+              "q_num": 1,
+              "marks": null,
+              "question": "The following table shows ages of patients admitted in a hospital during a year:",
+              "answer": "Age (in years): 5-15, 15-25, 25-35, 35-45, 45-55, 55-65\nNo. of patients:  6,    11,   21,    23,    14,    5\nFind the mode and the mean of the data. Compare and interpret the two measures of central tendency.\n(Modal class = 35-45; Mode = 36.8 years; Mean = 35.38 years)"
+            },
+            {
+              "q_num": 2,
+              "marks": null,
+              "question": "The following data gives the information on the observed lifetimes (in hours) of 225 electrical components:",
+              "answer": "Lifetimes (hours): 0-20, 20-40, 40-60, 60-80, 80-100, 100-120\nFrequency:          10,   35,   52,   61,    38,     29\nDetermine the modal lifetimes of the components.\n(Modal class = 60-80; Mode = 65.63 hours)"
+            },
+            {
+              "q_num": 3,
+              "marks": null,
+              "question": "The following data gives the distribution of total monthly household expenditure of 200 families of a village. Find the modal monthly expenditure of the families. Also find the mean monthly expenditure:",
+              "answer": "Expenditure (Rs): 1000-1500, 1500-2000, 2000-2500, 2500-3000, 3000-3500, 3500-4000, 4000-4500, 4500-5000\nNo. of families:     24,       40,        33,        28,        30,        22,        16,         7\n(Mode = Rs 1847.83; Mean = Rs 2662.50)"
+            },
+            {
+              "q_num": 4,
+              "marks": null,
+              "question": "The following distribution gives the state-wise teacher-student ratio in higher secondary schools of India. Find the mode and mean of this data. Interpret the two measures:",
+              "answer": "Number of students per teacher: 15-20, 20-25, 25-30, 30-35, 35-40, 40-45, 45-50, 50-55\nNumber of states/U.T.:             3,     8,     9,    10,    3,     0,     0,     2\n(Mode = 30.6; Mean = 29.2 students per teacher)"
+            },
+            {
+              "q_num": 5,
+              "marks": null,
+              "question": "The given distribution shows the number of runs scored by some top batsmen of the world in one-day international cricket matches:",
+              "answer": "Runs scored:     3000-4000, 4000-5000, 5000-6000, 6000-7000, 7000-8000, 8000-9000, 9000-10000, 10000-11000\nNumber of batsmen:   4,       18,        9,         7,         6,         3,          1,           1\nFind the mode of the data.\n(Modal class = 4000-5000; Mode = 4608.70 runs)"
+            },
+            {
+              "q_num": 6,
+              "marks": null,
+              "question": "A student noted the number of cars passing through a spot on a road for 100 periods each of 3 minutes and summarised it in the table given below. Find the mode of the data:",
+              "answer": "Number of cars: 0-10, 10-20, 20-30, 30-40, 40-50, 50-60, 60-70, 70-80\nFrequency:        7,    14,   13,    12,    20,    11,    15,     8\n(Modal class = 40-50; Mode = 44.7 cars)"
+            }
+          ],
+          "raw": "(All questions: find mode of given grouped frequency distribution)\n\nQ1: The following table shows ages of patients admitted in a hospital during a year:\nAge (in years): 5-15, 15-25, 25-35, 35-45, 45-55, 55-65\nNo. of patients:  6,    11,   21,    23,    14,    5\nFind the mode and the mean of the data. Compare and interpret the two measures of central tendency.\n(Modal class = 35-45; Mode = 36.8 years; Mean = 35.38 years)\n\nQ2: The following data gives the information on the observed lifetimes (in hours) of 225 electrical components:\nLifetimes (hours): 0-20, 20-40, 40-60, 60-80, 80-100, 100-120\nFrequency:          10,   35,   52,   61,    38,     29\nDetermine the modal lifetimes of the components.\n(Modal class = 60-80; Mode = 65.63 hours)\n\nQ3: The following data gives the distribution of total monthly household expenditure of 200 families of a village. Find the modal monthly expenditure of the families. Also find the mean monthly expenditure:\nExpenditure (Rs): 1000-1500, 1500-2000, 2000-2500, 2500-3000, 3000-3500, 3500-4000, 4000-4500, 4500-5000\nNo. of families:     24,       40,        33,        28,        30,        22,        16,         7\n(Mode = Rs 1847.83; Mean = Rs 2662.50)\n\nQ4: The following distribution gives the state-wise teacher-student ratio in higher secondary schools of India. Find the mode and mean of this data. Interpret the two measures:\nNumber of students per teacher: 15-20, 20-25, 25-30, 30-35, 35-40, 40-45, 45-50, 50-55\nNumber of states/U.T.:             3,     8,     9,    10,    3,     0,     0,     2\n(Mode = 30.6; Mean = 29.2 students per teacher)\n\nQ5: The given distribution shows the number of runs scored by some top batsmen of the world in one-day international cricket matches:\nRuns scored:     3000-4000, 4000-5000, 5000-6000, 6000-7000, 7000-8000, 8000-9000, 9000-10000, 10000-11000\nNumber of batsmen:   4,       18,        9,         7,         6,         3,          1,           1\nFind the mode of the data.\n(Modal class = 4000-5000; Mode = 4608.70 runs)\n\nQ6: A student noted the number of cars passing through a spot on a road for 100 periods each of 3 minutes and summarised it in the table given below. Find the mode of the data:\nNumber of cars: 0-10, 10-20, 20-30, 30-40, 40-50, 50-60, 60-70, 70-80\nFrequency:        7,    14,   13,    12,    20,    11,    15,     8\n(Modal class = 40-50; Mode = 44.7 cars)"
+        },
+        {
+          "type": "qa",
+          "label": "TOPIC 13.3: Q&A:",
+          "items": []
+        },
+        {
+          "type": "qa",
+          "label": "Q&A",
+          "items": [
+            {
+              "q_num": 1,
+              "marks": 2,
+              "question": "Define mode. How is mode found for ungrouped data?",
+              "answer": "MODE is the value that occurs MOST OFTEN (has the highest frequency) in a set of observations.\n\nFor UNGROUPED DATA:\n- List all values and their frequencies.\n- The value with the MAXIMUM frequency is the mode.\n\nExample: Data = 2, 6, 4, 5, 0, 2, 1, 3, 2, 3\n2 appears 3 times (maximum) → Mode = 2\n\n---"
+            },
+            {
+              "q_num": 2,
+              "marks": 2,
+              "question": "Write the formula for mode of grouped data. What is the modal class?",
+              "answer": "Mode = l + [(f1 - f0) / (2f1 - f0 - f2)] × h\nWhere:\nl = lower limit of modal class\nh = class size\nf1 = frequency of modal class\nf0 = frequency of class preceding modal class\nf2 = frequency of class succeeding modal class\n\nMODAL CLASS: The class interval with the HIGHEST (maximum) frequency in a grouped frequency distribution. The mode lies within this class.\n\n---"
+            },
+            {
+              "q_num": 3,
+              "marks": 2,
+              "question": "In Example 13.3.6, mode = 52 and mean = 62. What does each measure tell us about the marks of 30 students?",
+              "answer": "MEAN = 62: The average marks obtained by all 30 students is 62. This is the overall average performance level.\n\nMODE = 52: The marks obtained by the MAXIMUM number of students (7 students) is in the class 40-55, with mode = 52. This is the most \"popular\" score.\n\nSince Mode < Mean, more students scored below the average (62), and only some high scorers pushed the mean upward. The mean is affected by those high scores, while mode is not.\n\n---"
+            },
+            {
+              "q_num": 4,
+              "marks": 2,
+              "question": "State the empirical relationship between mean, mode and median. Use it to find mode when mean = 35.38 and median = 35.85.",
+              "answer": "EMPIRICAL RELATIONSHIP: 3 Median = Mode + 2 Mean\n\nThis approximate relationship holds for moderately skewed distributions.\n\nFinding Mode:\nMode = 3 Median - 2 Mean\n= 3 × 35.85 - 2 × 35.38\n= 107.55 - 70.76\n= 36.79 ≈ 36.8\n\nANSWER: Mode ≈ 36.8\n\n---\n\n3 ಮಾರ್ಕ್ಸ್ × 3 questions:"
+            },
+            {
+              "q_num": 5,
+              "marks": 3,
+              "question": "Find the mode from the following distribution.",
+              "answer": "Step 1: Modal class = 40-55 (maximum frequency = 7)\nStep 2: l = 40, h = 15, f1 = 7, f0 = 3 (class 25-40), f2 = 6 (class 55-70)\nStep 3: Mode = 40 + [(7-3) / (2×7 - 3 - 6)] × 15\n= 40 + [4 / (14 - 9)] × 15\n= 40 + (4/5) × 15\n= 40 + 12 = 52\n\nANSWER: Mode = 52 marks\n\n---"
+            },
+            {
+              "q_num": 6,
+              "marks": 3,
+              "question": "Determine the modal lifetimes of electrical components.",
+              "answer": "Step 1: Modal class = 60-80 (maximum frequency = 61)\nStep 2: l = 60, h = 20, f1 = 61, f0 = 52 (class 40-60), f2 = 38 (class 80-100)\nStep 3: Mode = 60 + [(61-52) / (2×61 - 52 - 38)] × 20\n= 60 + [9 / (122 - 90)] × 20\n= 60 + (9/32) × 20\n= 60 + 5.625 = 65.625\n\nANSWER: Modal lifetime = 65.625 hours ≈ 65.63 hours\n\n---"
+            },
+            {
+              "q_num": 7,
+              "marks": 3,
+              "question": "Find the mode of the number of cars passing through a spot.",
+              "answer": "Step 1: Modal class = 40-50 (maximum frequency = 20)\nStep 2: l = 40, h = 10, f1 = 20, f0 = 12, f2 = 11\nStep 3: Mode = 40 + [(20-12) / (2×20 - 12 - 11)] × 10\n= 40 + [8 / (40 - 23)] × 10\n= 40 + (8/17) × 10\n= 40 + 4.7 = 44.7\n\nANSWER: Mode = 44.7 cars\n\n---\n\n4 ಮಾರ್ಕ್ಸ್ × 4 questions:"
+            },
+            {
+              "q_num": 8,
+              "marks": 4,
+              "question": "Find the mode and mean of the following data. Compare and interpret.",
+              "answer": "MODE:\nModal class = 35-45 (max f = 23)\nl = 35, h = 10, f1 = 23, f0 = 21, f2 = 14\nMode = 35 + [(23-21)/(46-21-14)] × 10 = 35 + (2/11) × 10 = 35 + 1.818 = 36.82 years\n\nMEAN (Assumed Mean, a = 30):\nxi: 10, 20, 30, 40, 50, 60\ndi: -20,-10, 0, 10, 20, 30\nfidi: -120,-110, 0, 230, 280, 150 → Σfidi = 430\nΣfi = 80\nx̄ = 30 + 430/80 = 30 + 5.375 = 35.375 ≈ 35.38 years\n\nANSWER: Mode = 36.82 years; Mean = 35.38 years\n\nInterpretation:\n- Mean = 35.38 years: Average age of patients admitted is about 35 years.\n- Mode = 36.82 years: The age group 35-45 has the most patients — most people admitted are in their late 30s. The hospital should be especially prepared for this age group.\n\n---"
+            },
+            {
+              "q_num": 9,
+              "marks": 4,
+              "question": "Find the modal monthly expenditure and mean monthly expenditure of 200 families.",
+              "answer": "MODE:\nModal class = 1500-2000 (max f = 40)\nl = 1500, h = 500, f1 = 40, f0 = 24, f2 = 33\nMode = 1500 + [(40-24)/(80-24-33)] × 500\n= 1500 + [16/23] × 500\n= 1500 + 347.83 = 1847.83\n\nMEAN (a = 2750, h = 500):\nxi: 1250,1750,2250,2750,3250,3750,4250,4750\nui: -3,-2,-1,0,1,2,3,4\nfiui: -72,-80,-33,0,30,44,48,28 → Σfiui = -35\nΣfi = 200\nx̄ = 2750 + 500 × (-35/200) = 2750 - 87.5 = 2662.5\n\nANSWER: Modal expenditure = Rs 1847.83; Mean expenditure = Rs 2662.50\n\n---"
+            },
+            {
+              "q_num": 10,
+              "marks": 4,
+              "question": "Find the mode and mean for the teacher-student ratio data below. Interpret both.",
+              "answer": "MODE:\nModal class = 30-35 (max f = 10)\nl = 30, h = 5, f1 = 10, f0 = 9, f2 = 3\nMode = 30 + [(10-9)/(20-9-3)] × 5 = 30 + (1/8) × 5 = 30 + 0.625 = 30.625 ≈ 30.6\n\nMEAN (a = 32.5, h = 5):\nxi: 17.5,22.5,27.5,32.5,37.5,42.5,47.5,52.5\nui: -3,-2,-1,0,1,2,3,4\nfiui: -9,-16,-9,0,3,0,0,8 → Σfiui = -23\nΣfi = 35\nx̄ = 32.5 + 5 × (-23/35) = 32.5 - 3.286 = 29.214 ≈ 29.2\n\nANSWER: Mode = 30.6; Mean = 29.2 students per teacher\n\nInterpretation:\n- Mean = 29.2: On average each teacher handles about 29 students nationally.\n- Mode = 30.6: The most common teacher-student ratio across states is about 30-31 students per teacher.\n\n---"
+            },
+            {
+              "q_num": 11,
+              "marks": 4,
+              "question": "Find the mode of runs scored by top batsmen. What does it signify?",
+              "answer": "Step 1: Modal class = 4000-5000 (max f = 18)\nStep 2: l = 4000, h = 1000, f1 = 18, f0 = 4 (class 3000-4000), f2 = 9 (class 5000-6000)\nStep 3: Mode = 4000 + [(18-4)/(2×18-4-9)] × 1000\n= 4000 + [14/(36-13)] × 1000\n= 4000 + (14/23) × 1000\n= 4000 + 608.7 = 4608.7\n\nANSWER: Mode = 4608.7 runs\nThis means the most common career run-score among these top batsmen is about 4609 runs — most top players scored between 4000-5000 runs in their ODI careers.\n\n---\n\n5 ಮಾರ್ಕ್ಸ್ × 1 question:"
+            },
+            {
+              "q_num": 12,
+              "marks": 5,
+              "question": "The following distribution gives information on the distribution of total monthly household expenditure of 200 families of a village. Find modal and mean monthly expenditure. Also verify the empirical relationship 3 Median = Mode + 2 Mean, given that median = 2207.",
+              "answer": "PART A — Mode:\nModal class = 1500-2000 (max f = 40)\nl = 1500, h = 500, f1 = 40, f0 = 24, f2 = 33\nMode = 1500 + [(40-24)/(80-24-33)] × 500\n= 1500 + (16/23) × 500 = 1500 + 347.83 = Rs 1847.83\n\nPART B — Mean:\nxi: 1250,1750,2250,2750,3250,3750,4250,4750; a = 2750, h = 500\nui: -3,-2,-1,0,1,2,3,4\nfiui: -72,-80,-33,0,30,44,48,28 → Σfiui = -35; Σfi = 200\nx̄ = 2750 + 500 × (-35/200) = 2750 - 87.5 = Rs 2662.50\n\nPART C — Empirical verification:\n3 Median = Mode + 2 Mean\n3 × 2207 = 1847.83 + 2 × 2662.50\n6621 = 1847.83 + 5325\n6621 ≈ 7172.83\n\nNote: The large difference here shows the empirical formula is only approximate and works best for nearly symmetric distributions. This data is skewed (Mode < Mean significantly), so the approximation has more error.\n\nFINAL ANSWER: Mode = Rs 1847.83; Mean = Rs 2662.50. Empirical relationship holds approximately."
+            }
+          ]
+        },
+        {
+          "type": "mcq",
+          "label": "MCQ",
+          "items": [
+            {
+              "mcq_num": 1,
+              "difficulty": "Easy",
+              "question": "The class with the maximum frequency in a grouped distribution is called:",
+              "options": {
+                "A": "Mean class   (B) Median class   (C) Modal class   (D) Highest class"
+              },
+              "answer": "C",
+              "explanation": "The correct answer is (C) Modal class."
+            },
+            {
+              "mcq_num": 2,
+              "difficulty": "Easy",
+              "question": "In the mode formula, f1 represents:",
+              "options": {
+                "A": "Frequency of preceding class   (B) Frequency of modal class   (C) Frequency of succeeding class   (D) Total frequency"
+              },
+              "answer": "B",
+              "explanation": "The correct answer is (B) Frequency of modal class."
+            },
+            {
+              "mcq_num": 3,
+              "difficulty": "Easy",
+              "question": "In the mode formula, 'l' represents:",
+              "options": {
+                "A": "Class size   (B) Upper limit of modal class   (C) Lower limit of modal class   (D) Assumed mean"
+              },
+              "answer": "C",
+              "explanation": "The correct answer is (C) Lower limit of modal class."
+            },
+            {
+              "mcq_num": 4,
+              "difficulty": "Medium",
+              "question": "In Example 13.3.5: l = 3, h = 2, f1 = 8, f0 = 7, f2 = 2. Mode =:",
+              "options": {
+                "A": "3   (B) 3.5   (C) 3.286   (D) 4"
+              },
+              "answer": "C",
+              "explanation": "The correct answer is (C) 3.286. [Mode = 3 + [(8-7)/(16-7-2)] × 2 = 3 + (1/7) × 2 = 3.286]"
+            },
+            {
+              "mcq_num": 5,
+              "difficulty": "Medium",
+              "question": "The mode formula is applicable when:",
+              "options": {
+                "A": "Data has two modes   (B) Data is multimodal   (C) Data is unimodal (one modal class)   (D) All class sizes are different"
+              },
+              "answer": "C",
+              "explanation": "Option (C) is correct based on the definition/theorem."
+            },
+            {
+              "mcq_num": 6,
+              "difficulty": "Medium",
+              "question": "In Example 13.3.6: l = 40, h = 15, f1 = 7, f0 = 3, f2 = 6. Mode =:",
+              "options": {
+                "A": "40   (B) 50   (C) 52   (D) 55"
+              },
+              "answer": "C",
+              "explanation": "The correct answer is (C) 52. [Mode = 40 + [(7-3)/(14-3-6)] × 15 = 40 + (4/5) × 15 = 40 + 12 = 52]"
+            },
+            {
+              "mcq_num": 7,
+              "difficulty": "Medium",
+              "question": "The empirical relationship between mean, mode, and median is:",
+              "options": {
+                "A": "Mode = Mean + 2 Median   (B) 3 Median = Mode + 2 Mean   (C) Mean = 3 Mode - 2 Median   (D) Median = Mode + Mean"
+              },
+              "answer": "B",
+              "explanation": "The correct answer is (B) 3 Median = Mode + 2 Mean."
+            },
+            {
+              "mcq_num": 8,
+              "difficulty": "Hard",
+              "question": "A frequency distribution: 0-10(f=5), 10-20(f=12), 20-30(f=8), 30-40(f=3). The modal class is:",
+              "options": {
+                "A": "0-10   (B) 10-20   (C) 20-30   (D) 30-40"
+              },
+              "answer": "B",
+              "explanation": "The correct answer is (B) 10-20."
+            },
+            {
+              "mcq_num": 9,
+              "difficulty": "Hard",
+              "question": "For mode: l = 25, h = 10, f1 = 15, f0 = 10, f2 = 8. Mode =:",
+              "options": {
+                "A": "25   (B) 29.17   (C) 30   (D) 27.5"
+              },
+              "answer": "B",
+              "explanation": "The correct answer is (B) 29.17. [Mode = 25 + [(15-10)/(30-10-8)] × 10 = 25 + (5/12) × 10 = 25 + 4.17 = 29.17]"
+            },
+            {
+              "mcq_num": 10,
+              "difficulty": "Easy",
+              "question": "Mode is best used to find:",
+              "options": {
+                "A": "Average performance   (B) Most popular or most common value   (C) Middle value of data   (D) Sum of all values"
+              },
+              "answer": "B",
+              "explanation": "The correct answer is (B) Most popular or most common value."
+            },
+            {
+              "mcq_num": 11,
+              "difficulty": "Medium",
+              "question": "In which situation is median preferred over mode?",
+              "options": {
+                "A": "Finding most popular TV show   (B) Finding most common shoe size   (C) Finding typical income when extreme values exist   (D) Finding most demanded product"
+              },
+              "answer": "C",
+              "explanation": "The correct answer is (C) Finding typical income when extreme values exist."
+            },
+            {
+              "mcq_num": 12,
+              "difficulty": "Hard",
+              "question": "If mode = 52 and mean = 62, find the approximate median using the empirical formula:",
+              "options": {
+                "A": "57   (B) 58.67   (C) 60   (D) 55.33"
+              },
+              "answer": "B",
+              "explanation": "The correct answer is (B) 58.67. [3 Median = 52 + 124 = 176; Median = 176/3 ≈ 58.67]"
+            },
+            {
+              "mcq_num": 13,
+              "difficulty": "Medium",
+              "question": "In the mode formula, 'h' stands for:",
+              "options": {
+                "A": "Height of the bar   (B) Class size   (C) Assumed mean   (D) Deviation"
+              },
+              "answer": "B",
+              "explanation": "The correct answer is (B) Class size."
+            },
+            {
+              "mcq_num": 14,
+              "difficulty": "Hard",
+              "question": "For the distribution: 1-3(f=7), 3-5(f=8), 5-7(f=2), 7-9(f=2), 9-11(f=1). Mode = ?",
+              "options": {
+                "A": "3   (B) 3.286   (C) 5   (D) 4"
+              },
+              "answer": "B",
+              "explanation": "The correct answer is (B) 3.286. [Modal class = 3-5; Mode = 3 + [(8-7)/(16-7-2)] × 2 = 3 + 2/7 = 3.286]"
+            },
+            {
+              "mcq_num": 15,
+              "difficulty": "Hard",
+              "question": "The mode formula l + [(f1-f0)/(2f1-f0-f2)] × h is NOT valid when:",
+              "options": {
+                "A": "Class size is 10   (B) Modal class is first class   (C) Two classes have equal maximum frequency   (D) f0 is zero"
+              },
+              "answer": "C",
+              "explanation": "The correct answer is (C) Two classes have equal maximum frequency."
+            }
+          ]
+        }
+      ],
+      "subtopics": []
+    },
+    {
+      "topic_num": "13.4",
+      "topic_name": "MEDIAN OF GROUPED DATA",
+      "mode": "B",
+      "sections": [
+        {
+          "type": "definition",
+          "label": "Definition:",
+          "text": "- MEDIAN is the value that divides the data into two equal halves — 50% of observations lie below the median and 50% above it.\n- For GROUPED DATA: Median = l + [(n/2 - cf) / f] × h"
+        },
+        {
+          "type": "key_points",
+          "label": "Key Points:",
+          "points": [
+            "For UNGROUPED data: arrange in ascending order; if n is ODD: Median = ((n+1)/2)th observation; if n is EVEN: Median = average of (n/2)th and (n/2+1)th observations.",
+            "For GROUPED data: use CUMULATIVE FREQUENCY to find the median class.",
+            "CUMULATIVE FREQUENCY: sum of all frequencies up to and including that class.",
+            "LESS THAN TYPE: cumulative frequency plotted against UPPER class limits (curve rises left to right).",
+            "MORE THAN TYPE: cumulative frequency plotted against LOWER class limits (curve falls left to right).",
+            "MEDIAN CLASS: class whose cumulative frequency is greater than (and nearest to) n/2.",
+            "OGIVE: smooth curve drawn through plotted cumulative frequency points. Median = x-coordinate of intersection of less-than and more-than ogives.",
+            "NOTE TO THE READER: For calculating mode and median for grouped data, it should be ensured that the class intervals are CONTINUOUS before applying the formulae.",
+            "Note: No sub-topics under 13.4 (textbook has no X.Y.Z numbering here)."
+          ]
+        },
+        {
+          "type": "formulas",
+          "label": "FORMULA:",
+          "items": [
+            "Median = l + [(n/2 - cf) / f] × h",
+            "WHERE:",
+            "l  = lower limit of the median class",
+            "n  = total number of observations (= Σfi)",
+            "cf = cumulative frequency of the class preceding the median class",
+            "f  = frequency of the median class",
+            "h  = class size (assuming all class sizes are equal)",
+            "EXAMPLES: (textbook examples)",
+            "EXAMPLE 13.4.7: Median height of 51 girls — less-than type data",
+            "PROBLEM: Survey on heights (cm) of 51 girls of Class X:",
+            "Height (cm):       Less than 140, Less than 145, Less than 150, Less than 155, Less than 160, Less than 165",
+            "Number of girls:        4,             11,            29,            40,            46,            51",
+            "Find the median height.",
+            "SOLUTION:",
+            "Step 1: Convert to class intervals and frequencies:",
+            "Class:  Below 140, 140-145, 145-150, 150-155, 155-160, 160-165",
+            "fi:          4,       7,      18,      11,       6,       5",
+            "cf:          4,      11,      29,      40,      46,      51",
+            "Step 2: n = 51, so n/2 = 25.5",
+            "Step 3: Find median class — cumulative frequency just > 25.5 is 29 (class 145-150)",
+            "Step 4: Median class = 145-150",
+            "l = 145, cf = 11, f = 18, h = 5",
+            "Step 5: Median = 145 + [(25.5 - 11) / 18] × 5",
+            "= 145 + [14.5 / 18] × 5",
+            "= 145 + 72.5/18",
+            "= 145 + 4.03",
+            "= 149.03 cm",
+            "ANSWER: Median height of girls = 149.03 cm",
+            "This means about 50% of the girls are shorter than 149.03 cm and 50% are taller.",
+            "EXAMPLE 13.4.8: Find missing frequencies x and y using given median",
+            "PROBLEM: The median of the following data is 525. Total frequency = 100. Find x and y:",
+            "Class intervals:  0-100, 100-200, 200-300, 300-400, 400-500, 500-600, 600-700, 700-800, 800-900, 900-1000",
+            "Frequency:          2,     5,      x,      12,     17,     20,      y,      9,      7,      4",
+            "SOLUTION:",
+            "Step 1: Find cumulative frequencies (in terms of x):",
+            "cf: 2, 7, 7+x, 19+x, 36+x, 56+x, 56+x+y, 65+x+y, 72+x+y, 76+x+y",
+            "Step 2: Total frequency: 76 + x + y = 100 → x + y = 24 ...(1)",
+            "Step 3: Median = 525, which lies in class 500-600",
+            "l = 500, f = 20, cf = 36 + x, h = 100",
+            "Step 4: 525 = 500 + [(50 - (36+x)) / 20] × 100",
+            "525 - 500 = [(14 - x) / 20] × 100",
+            "25 = (14 - x) × 5",
+            "5 = 14 - x",
+            "x = 9",
+            "Step 5: From (1): y = 24 - 9 = 15",
+            "ANSWER: x = 9, y = 15"
+          ]
+        },
+        {
+          "type": "activity",
+          "label": "ACTIVITY 13.4.3 (mentioned as Activity 3 in 13.3 but connects here for ogive):",
+          "aim": "",
+          "materials": "",
+          "procedure": [],
+          "observation": "",
+          "conclusion": "",
+          "caution": ""
+        },
+        {
+          "type": "exercise",
+          "label": "EXERCISE 13.3:",
+          "items": [
+            {
+              "q_num": 1,
+              "marks": null,
+              "question": "The following frequency distribution gives the monthly consumption of electricity of 68 consumers of a locality. Find the median, mean, and mode of the data and compare them:",
+              "answer": "Monthly consumption (units): 65-85, 85-105, 105-125, 125-145, 145-165, 165-185, 185-205\nNumber of consumers:            4,     5,      13,      20,      14,       8,       4\n(Median = 137 units; Mean = 137.05 units; Mode = 135.76 units — all approximately equal → symmetric distribution)"
+            },
+            {
+              "q_num": 2,
+              "marks": null,
+              "question": "If the median of the distribution given below is 28.5, find the values of x and y:",
+              "answer": "Class interval:  0-10, 10-20, 20-30, 30-40, 40-50, 50-60    Total = 60\nFrequency:         5,    x,    20,    15,     y,     5\n(x = 8, y = 7)\n[Hint: n = 60, n/2 = 30. Median class = 20-30. Set up equation using median formula, also use total frequency condition.]"
+            },
+            {
+              "q_num": 3,
+              "marks": null,
+              "question": "A life insurance agent found the following data for distribution of ages of 100 policy holders. Calculate the median age, if policies are given only to persons having age 18 years onwards but less than 60 year:",
+              "answer": "Age (in years): Below 20, Below 25, Below 30, Below 35, Below 40, Below 45, Below 50, Below 55, Below 60\nNo. of policy holders: 2, 6, 24, 45, 78, 89, 92, 98, 100\n(Median = 35.76 years)\n[Hint: Convert to class intervals: 18-20, 20-25, 25-30, ... and find cumulative frequencies.]"
+            },
+            {
+              "q_num": 4,
+              "marks": null,
+              "question": "The lengths of 40 leaves of a plant are measured correct to the nearest millimetre, and the data obtained is represented in the following table:",
+              "answer": "Length (in mm): 118-126, 127-135, 136-144, 145-153, 154-162, 163-171, 172-180\nNumber of leaves:  3,      5,       9,       12,       5,       4,       2\nFind the median length of the leaves.\n(Hint: Convert discontinuous to continuous: 117.5-126.5, 126.5-135.5, ...; Median ≈ 146.75 mm)"
+            },
+            {
+              "q_num": 5,
+              "marks": null,
+              "question": "The following table gives the distribution of the life time of 400 neon lamps:",
+              "answer": "Life time (in hours): 1500-2000, 2000-2500, 2500-3000, 3000-3500, 3500-4000, 4000-4500, 4500-5000\nNumber of lamps:          14,       56,        60,        86,        74,        62,        48\nFind the median life time of a lamp.\n(Median = 3406.98 hours)"
+            },
+            {
+              "q_num": 6,
+              "marks": null,
+              "question": "100 surnames were randomly picked up from a local telephone directory and the frequency distribution of the number of letters in the English alphabets in the surnames was obtained as follows:",
+              "answer": "Number of letters: 1-4, 4-7, 7-10, 10-13, 13-16, 16-19\nNumber of surnames:  6,  30,   40,    16,     4,     4\nDetermine the median number of letters in the surnames. Find the mean number of letters in the surnames? Also, find the modal size of the surnames.\n(Median = 8.05; Mean = 8.32; Mode = 7.88)"
+            },
+            {
+              "q_num": 7,
+              "marks": null,
+              "question": "The distribution below gives the weights of 30 students of a class. Find the median weight of the students:",
+              "answer": "Weight (in kg): 40-45, 45-50, 50-55, 55-60, 60-65, 65-70, 70-75\nNumber of students: 2, 3, 8, 6, 6, 3, 2\n(Median = 56.67 kg)"
+            }
+          ],
+          "raw": "(All questions: find median of given grouped frequency distribution)\n\nQ1: The following frequency distribution gives the monthly consumption of electricity of 68 consumers of a locality. Find the median, mean, and mode of the data and compare them:\nMonthly consumption (units): 65-85, 85-105, 105-125, 125-145, 145-165, 165-185, 185-205\nNumber of consumers:            4,     5,      13,      20,      14,       8,       4\n(Median = 137 units; Mean = 137.05 units; Mode = 135.76 units — all approximately equal → symmetric distribution)\n\nQ2: If the median of the distribution given below is 28.5, find the values of x and y:\nClass interval:  0-10, 10-20, 20-30, 30-40, 40-50, 50-60    Total = 60\nFrequency:         5,    x,    20,    15,     y,     5\n(x = 8, y = 7)\n[Hint: n = 60, n/2 = 30. Median class = 20-30. Set up equation using median formula, also use total frequency condition.]\n\nQ3: A life insurance agent found the following data for distribution of ages of 100 policy holders. Calculate the median age, if policies are given only to persons having age 18 years onwards but less than 60 year:\nAge (in years): Below 20, Below 25, Below 30, Below 35, Below 40, Below 45, Below 50, Below 55, Below 60\nNo. of policy holders: 2, 6, 24, 45, 78, 89, 92, 98, 100\n(Median = 35.76 years)\n[Hint: Convert to class intervals: 18-20, 20-25, 25-30, ... and find cumulative frequencies.]\n\nQ4: The lengths of 40 leaves of a plant are measured correct to the nearest millimetre, and the data obtained is represented in the following table:\nLength (in mm): 118-126, 127-135, 136-144, 145-153, 154-162, 163-171, 172-180\nNumber of leaves:  3,      5,       9,       12,       5,       4,       2\nFind the median length of the leaves.\n(Hint: Convert discontinuous to continuous: 117.5-126.5, 126.5-135.5, ...; Median ≈ 146.75 mm)\n\nQ5: The following table gives the distribution of the life time of 400 neon lamps:\nLife time (in hours): 1500-2000, 2000-2500, 2500-3000, 3000-3500, 3500-4000, 4000-4500, 4500-5000\nNumber of lamps:          14,       56,        60,        86,        74,        62,        48\nFind the median life time of a lamp.\n(Median = 3406.98 hours)\n\nQ6: 100 surnames were randomly picked up from a local telephone directory and the frequency distribution of the number of letters in the English alphabets in the surnames was obtained as follows:\nNumber of letters: 1-4, 4-7, 7-10, 10-13, 13-16, 16-19\nNumber of surnames:  6,  30,   40,    16,     4,     4\nDetermine the median number of letters in the surnames. Find the mean number of letters in the surnames? Also, find the modal size of the surnames.\n(Median = 8.05; Mean = 8.32; Mode = 7.88)\n\nQ7: The distribution below gives the weights of 30 students of a class. Find the median weight of the students:\nWeight (in kg): 40-45, 45-50, 50-55, 55-60, 60-65, 65-70, 70-75\nNumber of students: 2, 3, 8, 6, 6, 3, 2\n(Median = 56.67 kg)"
+        },
+        {
+          "type": "qa",
+          "label": "TOPIC 13.4: Q&A:",
+          "items": []
+        },
+        {
+          "type": "qa",
+          "label": "Q&A",
+          "items": [
+            {
+              "q_num": 1,
+              "marks": 2,
+              "question": "Define median. How is it found for ungrouped data when n is even?",
+              "answer": "MEDIAN is the value that divides the distribution into TWO EQUAL HALVES — 50% of observations lie below it and 50% above it.\n\nFor UNGROUPED data arranged in ascending order:\n- If n is ODD: Median = ((n+1)/2)th observation\n- If n is EVEN: Median = average of (n/2)th and (n/2 + 1)th observations\n\nExample: For n = 100 (even):\nMedian = average of 50th and 51st observations.\n\n---"
+            },
+            {
+              "q_num": 2,
+              "marks": 2,
+              "question": "What is the median class? Write the formula for median of grouped data.",
+              "answer": "MEDIAN CLASS: The class interval whose cumulative frequency is greater than (and nearest to) n/2."
+            }
+          ]
+        },
+        {
+          "type": "qa",
+          "label": "Q&A",
+          "items": [
+            {
+              "q_num": 3,
+              "marks": 2,
+              "question": "What is an ogive? State the two types.",
+              "answer": "An OGIVE is a smooth cumulative frequency curve drawn by plotting cumulative frequencies against class limits.\n\nTWO TYPES:\n(i) LESS-THAN OGIVE: Plot (upper class limit, cumulative frequency). Curve rises from left to right.\n\n(ii) MORE-THAN OGIVE: Plot (lower class limit, cumulative frequency). Curve falls from left to right.\n\nThe x-coordinate of the INTERSECTION of both ogives gives the MEDIAN of the distribution.\n\n---"
+            },
+            {
+              "q_num": 4,
+              "marks": 2,
+              "question": "State the note to the reader in the textbook regarding mode and median. Give an example of converting discontinuous class intervals.",
+              "answer": "NOTE TO THE READER:\n\"For calculating mode and median for grouped data, it should be ensured that the class intervals are CONTINUOUS before applying the formulae.\"\n\nExample of conversion:\nDiscontinuous: 118-126, 127-135, 136-144, ...\nContinuous:    117.5-126.5, 126.5-135.5, 135.5-144.5, ...\n(Subtract 0.5 from lower limit and add 0.5 to upper limit of each class)\n\n---\n\n3 ಮಾರ್ಕ್ಸ್ × 3 questions:"
+            },
+            {
+              "q_num": 5,
+              "marks": 3,
+              "question": "Find the median weight of 30 students from the following data.",
+              "answer": "Step 1: Cumulative frequencies: 2, 5, 13, 19, 25, 28, 30. n = 30.\nStep 2: n/2 = 15. Median class = 55-60 (cf = 19 is first to exceed 15).\nStep 3: l = 55, cf = 13, f = 6, h = 5\nMedian = 55 + [(15 - 13)/6] × 5 = 55 + (2/6) × 5 = 55 + 1.67 = 56.67\n\nANSWER: Median weight = 56.67 kg\n\n---"
+            },
+            {
+              "q_num": 6,
+              "marks": 3,
+              "question": "Find the median length of leaves from the following data. (Convert to continuous class intervals first.)",
+              "answer": "Step 1: Convert to continuous: 117.5-126.5, 126.5-135.5, 135.5-144.5, 144.5-153.5, 153.5-162.5, 162.5-171.5, 171.5-180.5\nStep 2: cf: 3, 8, 17, 29, 34, 38, 40. n = 40.\nStep 3: n/2 = 20. Median class = 144.5-153.5 (cf = 29 is first to exceed 20).\nStep 4: l = 144.5, cf = 17, f = 12, h = 9\nMedian = 144.5 + [(20-17)/12] × 9 = 144.5 + (3/12) × 9 = 144.5 + 2.25 = 146.75\n\nANSWER: Median length = 146.75 mm\n\n---"
+            },
+            {
+              "q_num": 7,
+              "marks": 3,
+              "question": "Find the median life time of 400 neon lamps.",
+              "answer": "Step 1: cf: 14, 70, 130, 216, 290, 352, 400. n = 400.\nStep 2: n/2 = 200. Median class = 3000-3500 (cf = 216, first to exceed 200).\nStep 3: l = 3000, cf = 130, f = 86, h = 500\nMedian = 3000 + [(200-130)/86] × 500\n= 3000 + (70/86) × 500\n= 3000 + 406.98 = 3406.98\n\nANSWER: Median life time = 3406.98 hours\n\n---\n\n4 ಮಾರ್ಕ್ಸ್ × 4 questions:"
+            },
+            {
+              "q_num": 8,
+              "marks": 4,
+              "question": "The following frequency distribution gives monthly consumption of electricity of 68 consumers. Find median, mean, and mode. Compare all three values.",
+              "answer": "cf: 4, 9, 22, 42, 56, 64, 68. n = 68.\n\nMEDIAN: n/2 = 34. Median class = 125-145 (cf = 42).\nMedian = 125 + [(34-22)/20] × 20 = 125 + 12 = 137 units\n\nMODE: Modal class = 125-145 (max f = 20).\nMode = 125 + [(20-13)/(40-13-14)] × 20 = 125 + (7/13) × 20 = 135.77 units\n\nMEAN (a = 135, h = 20):\nxi: 75,95,115,135,155,175,195; ui: -3,-2,-1,0,1,2,3\nfiui: -12,-10,-13,0,14,16,12 → Σfiui = 7\nx̄ = 135 + 20 × (7/68) = 135 + 2.06 = 137.06 units\n\nANSWER: Median ≈ 137; Mode ≈ 135.77; Mean ≈ 137.06\n\nComparison: All three values are approximately equal (~137), indicating the distribution is nearly SYMMETRIC.\n\n---"
+            },
+            {
+              "q_num": 9,
+              "marks": 4,
+              "question": "Calculate the median age of 100 policy holders, if policies are given only to persons aged 18-60 years.",
+              "answer": "Step 1: Convert to class intervals (18-20, 20-25, ..., 55-60) and frequencies:\n18-20:2, 20-25:4, 25-30:18, 30-35:21, 35-40:33, 40-45:11, 45-50:3, 50-55:6, 55-60:2\n\nStep 2: cf: 2, 6, 24, 45, 78, 89, 92, 98, 100. n = 100.\nStep 3: n/2 = 50. Median class = 35-40 (cf = 78, first to exceed 50).\nStep 4: l = 35, cf = 45, f = 33, h = 5\nMedian = 35 + [(50-45)/33] × 5 = 35 + (5/33) × 5 = 35 + 0.758 = 35.76 years\n\nANSWER: Median age = 35.76 years\n(Half the policy holders are below 35.76 years, half above.)\n\n---"
+            },
+            {
+              "q_num": 10,
+              "marks": 4,
+              "question": "A survey on heights (cm) of 51 girls of Class X gave the following less-than type data. Find the median height.",
+              "answer": "Step 1: Class intervals and frequencies:\nBelow140(f=4), 140-145(f=7), 145-150(f=18), 150-155(f=11), 155-160(f=6), 160-165(f=5)\ncf: 4, 11, 29, 40, 46, 51. n = 51.\n\nStep 2: n/2 = 25.5. Median class = 145-150 (cf = 29 > 25.5).\nStep 3: l = 145, cf = 11, f = 18, h = 5\nStep 4: Median = 145 + [(25.5-11)/18] × 5 = 145 + [14.5/18] × 5 = 145 + 4.03 = 149.03 cm\n\nANSWER: Median height = 149.03 cm\n(About 50% of girls are shorter than 149.03 cm and 50% are taller.)\n\n---"
+            },
+            {
+              "q_num": 11,
+              "marks": 4,
+              "question": "100 surnames were picked from a telephone directory. Find median, mean, and modal number of letters.",
+              "answer": "cf: 6, 36, 76, 92, 96, 100. n = 100.\n\nMEDIAN: n/2 = 50. Median class = 4-7 (cf = 36... wait: cf = 36 < 50; cf of 7-10 = 76 > 50)\nMedian class = 7-10. l = 7, cf = 36, f = 40, h = 3\nMedian = 7 + [(50-36)/40] × 3 = 7 + (14/40) × 3 = 7 + 1.05 = 8.05\n\nMEAN (a = 8.5, h = 3):\nxi: 2.5, 5.5, 8.5, 11.5, 14.5, 17.5; ui: -2,-1,0,1,2,3\nfiui: -12,-30,0,16,8,12 → Σfiui = -6\nx̄ = 8.5 + 3×(-6/100) = 8.5 - 0.18 = 8.32\n\nMODE: Modal class = 7-10 (max f = 40)\nl = 7, h = 3, f1 = 40, f0 = 30, f2 = 16\nMode = 7 + [(40-30)/(80-30-16)] × 3 = 7 + (10/34) × 3 = 7 + 0.882 = 7.88\n\nANSWER: Median = 8.05; Mean = 8.32; Mode = 7.88 letters\n\n---\n\n5 ಮಾರ್ಕ್ಸ್ × 1 question:"
+            },
+            {
+              "q_num": 12,
+              "marks": 5,
+              "question": "The median of the following frequency distribution is 28.5 and total frequency is 60. Find x and y. Also verify using the empirical relationship if mean = 28 and mode = 29.5.",
+              "answer": "PART A — Finding x and y:\n\nStep 1: Σfi = 5+x+20+15+y+5 = 45+x+y = 60 → x+y = 15 ...(1)\nStep 2: cf: 5, 5+x, 25+x, 40+x, 40+x+y, 45+x+y=60\nStep 3: Median = 28.5 → lies in class 20-30.\nl = 20, f = 20, cf = 5+x, h = 10, n/2 = 30\nStep 4: 28.5 = 20 + [(30-(5+x))/20] × 10\n8.5 = [(25-x)/20] × 10\n8.5 = (25-x)/2\n17 = 25-x → x = 8\nStep 5: From (1): y = 15-8 = 7\n\nANSWER: x = 8, y = 7\n\nPART B — Empirical verification:\n\n3 Median = Mode + 2 Mean\n3 × 28.5 = 29.5 + 2 × 28\n85.5 = 29.5 + 56\n85.5 = 85.5 ✓\n\nFINAL ANSWER: x = 8, y = 7. Empirical relationship is exactly satisfied."
+            }
+          ]
+        },
+        {
+          "type": "mcq",
+          "label": "MCQ",
+          "items": [
+            {
+              "mcq_num": 1,
+              "difficulty": "Easy",
+              "question": "Median divides the distribution into:",
+              "options": {
+                "A": "Three equal parts   (B) Four equal parts   (C) Two equal parts   (D) Unequal parts"
+              },
+              "answer": "C",
+              "explanation": "The correct answer is (C) Two equal parts."
+            },
+            {
+              "mcq_num": 2,
+              "difficulty": "Easy",
+              "question": "The class whose cumulative frequency is greater than and nearest to n/2 is called:",
+              "options": {
+                "A": "Modal class   (B) Median class   (C) Mean class   (D) Frequency class"
+              },
+              "answer": "B",
+              "explanation": "The correct answer is (B) Median class."
+            },
+            {
+              "mcq_num": 3,
+              "difficulty": "Easy",
+              "question": "In the median formula, 'cf' stands for:",
+              "options": {
+                "A": "Cumulative frequency of median class   (B) Central frequency   (C) Cumulative frequency of class preceding the median class   (D) Class frequency"
+              },
+              "answer": "C",
+              "explanation": "The correct answer is (C) Cumulative frequency of class preceding the median class."
+            },
+            {
+              "mcq_num": 4,
+              "difficulty": "Medium",
+              "question": "For n = 51, the position of the median observation is:",
+              "options": {
+                "A": "25   (B) 26   (C) 25.5   (D) 51"
+              },
+              "answer": "C",
+              "explanation": "The correct answer is (C) 25.5."
+            },
+            {
+              "mcq_num": 5,
+              "difficulty": "Medium",
+              "question": "In Example 13.4.7: l = 145, n/2 = 25.5, cf = 11, f = 18, h = 5. Median =:",
+              "options": {
+                "A": "145   (B) 149.03   (C) 150   (D) 148"
+              },
+              "answer": "B",
+              "explanation": "The correct answer is (B) 149.03. [Median = 145 + [(25.5-11)/18] × 5 = 145 + 4.03 = 149.03]"
+            },
+            {
+              "mcq_num": 6,
+              "difficulty": "Medium",
+              "question": "The Less-than ogive is drawn by plotting:",
+              "options": {
+                "A": "(Lower class limit, cf)   (B) (Class mark, frequency)   (C) (Upper class limit, cf)   (D) (Class size, cf)"
+              },
+              "answer": "C",
+              "explanation": "Option (C) is correct based on the definition/theorem."
+            },
+            {
+              "mcq_num": 7,
+              "difficulty": "Medium",
+              "question": "The More-than ogive is drawn by plotting:",
+              "options": {
+                "A": "(Upper class limit, cf)   (B) (Lower class limit, cf)   (C) (Class mark, frequency)   (D) (Class size, frequency)"
+              },
+              "answer": "B",
+              "explanation": "Option (B) is correct based on the definition/theorem."
+            },
+            {
+              "mcq_num": 8,
+              "difficulty": "Hard",
+              "question": "Median is found graphically as the x-coordinate of:",
+              "options": {
+                "A": "Topmost point of less-than ogive   (B) Intersection of less-than and more-than ogives   (C) Highest point of more-than ogive   (D) Midpoint of histogram"
+              },
+              "answer": "B",
+              "explanation": "The correct answer is (B) Intersection of less-than and more-than ogives."
+            },
+            {
+              "mcq_num": 9,
+              "difficulty": "Hard",
+              "question": "For distribution n = 68, median class cf = 22, f = 20, l = 125, h = 20. Median =:",
+              "options": {
+                "A": "137   (B) 125   (C) 145   (D) 130"
+              },
+              "answer": "A",
+              "explanation": "The correct answer is (A) 137. [Median = 125 + [(34-22)/20] × 20 = 125 + 12 = 137]"
+            },
+            {
+              "mcq_num": 10,
+              "difficulty": "Easy",
+              "question": "Cumulative frequency of a class is:",
+              "options": {
+                "A": "Frequency of that class only   (B) Sum of frequencies of all classes above it   (C) Sum of all frequencies up to that class   (D) Frequency divided by class size"
+              },
+              "answer": "C",
+              "explanation": "The correct answer is (C) Sum of all frequencies up to that class."
+            },
+            {
+              "mcq_num": 11,
+              "difficulty": "Medium",
+              "question": "If mean ≈ median ≈ mode for a distribution, the data is:",
+              "options": {
+                "A": "Highly skewed right   (B) Highly skewed left   (C) Approximately symmetric   (D) Uniform"
+              },
+              "answer": "C",
+              "explanation": "The correct answer is (C) Approximately symmetric."
+            },
+            {
+              "mcq_num": 12,
+              "difficulty": "Hard",
+              "question": "In Example 13.4.8, x + y = 24 and x = 9. What is y?",
+              "options": {
+                "A": "9   (B) 24   (C) 15   (D) 13"
+              },
+              "answer": "C",
+              "explanation": "The correct answer is (C) 15."
+            },
+            {
+              "mcq_num": 13,
+              "difficulty": "Medium",
+              "question": "When median is preferred over mean:",
+              "options": {
+                "A": "When data has no extreme values   (B) When all values are equal   (C) When extreme values (very high/low) are present   (D) When class sizes are equal"
+              },
+              "answer": "C",
+              "explanation": "Option (C) is correct based on the definition/theorem."
+            },
+            {
+              "mcq_num": 14,
+              "difficulty": "Hard",
+              "question": "For n = 100, the median class is identified when cumulative frequency just exceeds:",
+              "options": {
+                "A": "100   (B) 25   (C) 50   (D) 75"
+              },
+              "answer": "C",
+              "explanation": "The correct answer is (C) 50."
+            },
+            {
+              "mcq_num": 15,
+              "difficulty": "Hard",
+              "question": "A note in the textbook states that before applying the median formula, ensure class intervals are:",
+              "options": {
+                "A": "Equal in size   (B) Continuous   (C) Discontinuous   (D) Starting from zero"
+              },
+              "answer": "B",
+              "explanation": "The correct answer is (B) Continuous."
+            }
+          ]
+        },
+        {
+          "type": "definition",
+          "label": "Definition:",
+          "text": "- This topic summarises all the key formulas and concepts learned in Chapter 13 — Statistics."
+        },
+        {
+          "type": "key_points",
+          "label": "Key Points:",
+          "points": [
+            "Three measures of central tendency for GROUPED DATA: Mean, Mode, Median.",
+            "MEAN (3 methods): Direct, Assumed Mean, Step-Deviation — all give the same result.",
+            "MODE: uses modal class (class with maximum frequency).",
+            "MEDIAN: uses cumulative frequency and median class.",
+            "EMPIRICAL RELATIONSHIP: 3 Median = Mode + 2 Mean.",
+            "CLASS INTERVALS MUST BE CONTINUOUS before applying mode and median formulas.",
+            "OGIVE: graphical method to find median (intersection of less-than and more-than ogives).",
+            "Note: No sub-topics under 13.5 (Summary section)."
+          ]
+        },
+        {
+          "type": "formulas",
+          "label": "FORMULA:",
+          "items": [
+            "(i) DIRECT METHOD: x̄ = Σfixi / Σfi",
+            "(ii) ASSUMED MEAN METHOD: x̄ = a + (Σfidi / Σfi)",
+            "WHERE: di = xi - a",
+            "(iii) STEP-DEVIATION METHOD: x̄ = a + h × (Σfiui / Σfi)",
+            "WHERE: ui = (xi - a) / h",
+            "(iv) MODE: l + [(f1 - f0) / (2f1 - f0 - f2)] × h",
+            "WHERE: l = lower limit of modal class, f1 = frequency of modal class,",
+            "f0 = preceding class frequency, f2 = succeeding class frequency, h = class size",
+            "(v) MEDIAN: l + [(n/2 - cf) / f] × h",
+            "WHERE: l = lower limit of median class, n = total frequency,",
+            "cf = cumulative frequency of preceding class, f = frequency of median class, h = class size",
+            "(vi) EMPIRICAL RELATIONSHIP: 3 Median = Mode + 2 Mean"
+          ]
+        },
+        {
+          "type": "qa",
+          "label": "TOPIC 13.5: Q&A:",
+          "items": []
+        },
+        {
+          "type": "qa",
+          "label": "Q&A",
+          "items": [
+            {
+              "q_num": 1,
+              "marks": 2,
+              "question": "Write the three formulas for mean of grouped data.",
+              "answer": "(i) DIRECT METHOD:\nx̄ = Σfixi / Σfi\n(xi = class mark, fi = frequency)\n\n(ii) ASSUMED MEAN METHOD:\nx̄ = a + (Σfidi / Σfi)\nwhere di = xi - a, a = assumed mean\n\n(iii) STEP-DEVIATION METHOD:\nx̄ = a + h × (Σfiui / Σfi)\nwhere ui = (xi - a)/h, h = class size\n\nAll three methods give the SAME result.\n\n---"
+            },
+            {
+              "q_num": 2,
+              "marks": 2,
+              "question": "Write the formula for mode of grouped data with meaning of all symbols.",
+              "answer": "Mode = l + [(f1 - f0) / (2f1 - f0 - f2)] × h\nWhere:\nl  = lower limit of the modal class\nh  = class size (assuming equal class intervals)\nf1 = frequency of the modal class\nf0 = frequency of the class preceding the modal class\nf2 = frequency of the class succeeding the modal class\n\n---"
+            },
+            {
+              "q_num": 3,
+              "marks": 2,
+              "question": "Write the formula for median of grouped data with meaning of all symbols.",
+              "answer": "Median = l + [(n/2 - cf) / f] × h\nWhere:\nl  = lower limit of the median class\nn  = total number of observations (= Σfi)\ncf = cumulative frequency of the class preceding the median class\nf  = frequency of the median class\nh  = class size\n\n---"
+            },
+            {
+              "q_num": 4,
+              "marks": 2,
+              "question": "What is the empirical relationship between mean, mode, and median? When does it hold?",
+              "answer": "EMPIRICAL RELATIONSHIP:  3 Median = Mode + 2 Mean\n\nThis relationship:\n- Is APPROXIMATE, not exact.\n- Holds for MODERATELY SKEWED distributions.\n- Can be used to find one measure when the other two are known.\n\nExample: If Mode = 52 and Mean = 62:\n3 Median = 52 + 2×62 = 52 + 124 = 176\nMedian = 176/3 = 58.67\n\n---\n\n3 ಮಾರ್ಕ್ಸ್ × 3 questions:"
+            },
+            {
+              "q_num": 5,
+              "marks": 3,
+              "question": "For a distribution, mean = 54.6 and mode = 54. Find the median using the empirical formula. Also verify: if median were 52, what would be the mode?",
+              "answer": "Step 1 — Find median:\n3 Median = Mode + 2 Mean = 54 + 2×54.6 = 54 + 109.2 = 163.2\nMedian = 163.2/3 = 54.4\n\nStep 2 — Find mode when median = 52:\nMode = 3 Median - 2 Mean = 3×52 - 2×54.6 = 156 - 109.2 = 46.8\n\nANSWER: Median = 54.4; If Median = 52, then Mode = 46.8\n\n---"
+            },
+            {
+              "q_num": 6,
+              "marks": 3,
+              "question": "Compare mean, median, and mode as measures of central tendency. State when each is most appropriate with a real-life example for each.",
+              "answer": "MEAN:\n- Considers ALL observations.\n- Affected by extreme values.\n- Best for: Overall academic performance (average marks), average temperature.\n\nMEDIAN:\n- Middle value; not affected by extreme values.\n- Best for: Average income of a city (a few millionaires distort the mean), typical productivity.\n\nMODE:\n- Most frequently occurring value.\n- Best for: Most popular shoe size in a shop, most demanded product colour, most common number of family members.\n\nEmpirical relationship: 3 Median = Mode + 2 Mean (for skewed distributions)\n\n---"
+            },
+            {
+              "q_num": 7,
+              "marks": 3,
+              "question": "For grouped data, why must class intervals be continuous before applying mode and median formulas? Convert 1-10, 11-20, 21-30 to continuous form.",
+              "answer": "WHY CONTINUOUS: The median and mode formulas assume that observations are spread continuously throughout each class interval. If there are gaps between classes, the formulas give incorrect results because:\n- There is no observation between the gap.\n- Cumulative frequencies would be inaccurate at the boundaries.\n\nCONVERSION:\nGap between classes = 11 - 10 = 1. Adjustment = 1/2 = 0.5\n\nOriginal:    1-10,    11-20,    21-30\nContinuous:  0.5-10.5, 10.5-20.5, 20.5-30.5\n\nANSWER: Subtract 0.5 from lower limit and add 0.5 to upper limit of each class.\n\n---\n\n4 ಮಾರ್ಕ್ಸ್ × 4 questions:"
+            },
+            {
+              "q_num": 8,
+              "marks": 4,
+              "question": "For the following distribution, find mean, mode, and median. Verify the empirical relationship.",
+              "answer": "MEAN (a = 62.5, h = 15):\nxi: 17.5,32.5,47.5,62.5,77.5,92.5; ui: -3,-2,-1,0,1,2\nfiui: -6,-6,-7,0,6,12 → Σfiui = -1\nx̄ = 62.5 + 15×(-1/30) = 62.5 - 0.5 = 62\n\nMODE: Modal class = 40-55 (max f = 7)\nMode = 40 + [(7-3)/(14-3-6)] × 15 = 40 + (4/5)×15 = 52\n\nMEDIAN: cf: 2,5,12,18,24,30. n = 30; n/2 = 15.\nMedian class = 55-70 (cf = 18 > 15)\nMedian = 55 + [(15-12)/6] × 15 = 55 + (3/6)×15 = 55 + 7.5 = 62.5\n\nVERIFY: 3 Median = Mode + 2 Mean\n3 × 62.5 = 52 + 2 × 62\n187.5 ≈ 176 (approximate ✓)\n\nANSWER: Mean = 62; Mode = 52; Median = 62.5\n\n---"
+            },
+            {
+              "q_num": 9,
+              "marks": 4,
+              "question": "In a distribution, a = 47.5, h = 15, Σfiui = 29, Σfi = 30. Find mean. Also, if mode = 52 for this distribution, find approximate median using empirical formula.",
+              "answer": "Step 1 — Find mean using Step-Deviation:\nx̄ = a + h × (Σfiui / Σfi)\n= 47.5 + 15 × (29/30)\n= 47.5 + 14.5\n= 62\n\nStep 2 — Find median using empirical formula:\n3 Median = Mode + 2 Mean = 52 + 2×62 = 52 + 124 = 176\nMedian = 176/3 = 58.67\n\nANSWER: Mean = 62; Approximate Median = 58.67\n\n---"
+            },
+            {
+              "q_num": 10,
+              "marks": 4,
+              "question": "Find the median from the following less-than cumulative frequency distribution. Also draw a rough sketch of how the less-than and more-than ogives intersect.",
+              "answer": "Step 1: Class intervals and fi:\nBelow140(4), 140-145(7), 145-150(18), 150-155(11), 155-160(6), 160-165(5)\ncf: 4,11,29,40,46,51. n = 51; n/2 = 25.5.\n\nStep 2: Median class = 145-150 (cf = 29 > 25.5)\nl = 145, cf = 11, f = 18, h = 5\nMedian = 145 + [(25.5-11)/18] × 5 = 145 + 4.03 = 149.03 cm\n\nStep 3 — Ogive sketch (description):\nLess-than ogive: Plot (140,4), (145,11), (150,29), (155,40), (160,46), (165,51) — rising curve.\nMore-than ogive: Plot (140,47), (145,40), (150,22), (155,11), (160,5), (165,0) — falling curve.\nTheir intersection point has x-coordinate = 149.03 cm = Median.\n\nANSWER: Median = 149.03 cm. The intersection of both ogives gives this value graphically.\n\n---"
+            },
+            {
+              "q_num": 11,
+              "marks": 4,
+              "question": "For a distribution: mean = 522, mode = 537.5. Find median using the empirical formula. Also, if a student says \"median is always between mode and mean,\" verify this with this example.",
+              "answer": "Step 1 — Find median:\n3 Median = Mode + 2 Mean = 537.5 + 2×522 = 537.5 + 1044 = 1581.5\nMedian = 1581.5/3 = 527.17\n\nStep 2 — Verify \"median is between mode and mean\":\nMean = 522; Median = 527.17; Mode = 537.5\n522 < 527.17 < 537.5 → Mean < Median < Mode ✓\n\nANSWER: Median ≈ 527. Yes, in this case median (527) lies between mean (522) and mode (537.5). For moderately skewed distributions, median generally lies between mean and mode.\n\n---\n\n5 ಮಾರ್ಕ್ಸ್ × 1 question:"
+            },
+            {
+              "q_num": 12,
+              "marks": 5,
+              "question": "The following frequency distribution gives the monthly consumption of electricity of 68 consumers. Find all three measures of central tendency. Compare them and state which measure best describes this data. Also verify the empirical relationship.",
+              "answer": "PART A — Finding all three measures:\n\nMEAN (a = 135, h = 20):\nxi: 75,95,115,135,155,175,195; ui: -3,-2,-1,0,1,2,3\nfiui: -12,-10,-13,0,14,16,12 → Σfiui = 7; Σfi = 68\nx̄ = 135 + 20×(7/68) = 135 + 2.06 = 137.06 units\n\nMODE: Modal class = 125-145 (max f = 20)\nl = 125, h = 20, f1 = 20, f0 = 13, f2 = 14\nMode = 125 + [(20-13)/(40-13-14)] × 20 = 125 + (7/13)×20 = 125 + 10.77 = 135.77 units\n\nMEDIAN: cf: 4,9,22,42,56,64,68. n/2 = 34.\nMedian class = 125-145 (cf = 42 > 34)\nMedian = 125 + [(34-22)/20] × 20 = 125 + 12 = 137 units\n\nPART B — Comparison and best measure:\n\nMean = 137.06 units\nMedian = 137 units\nMode = 135.77 units\n\nAll three values are approximately equal (~137 units), indicating the distribution is NEARLY SYMMETRIC.\n\nFor this data, all three measures are equally good. However, MEDIAN (137) is the most reliable since it is not affected by the lower-frequency extreme classes (65-85 and 185-205).\n\nPART C — Empirical verification:\n3 Median = Mode + 2 Mean\n3 × 137 = 135.77 + 2 × 137.06\n411 = 135.77 + 274.12\n411 ≈ 409.89 ✓ (approximately equal)\n\nFINAL ANSWER: Mean ≈ 137.06; Median = 137; Mode ≈ 135.77. Distribution is nearly symmetric. Empirical relationship holds approximately."
+            }
+          ]
+        },
+        {
+          "type": "mcq",
+          "label": "MCQ",
+          "items": [
+            {
+              "mcq_num": 1,
+              "difficulty": "Easy",
+              "question": "The formula x̄ = a + h × (Σfiui / Σfi) is used in:",
+              "options": {
+                "A": "Direct Method   (B) Median   (C) Step-Deviation Method   (D) Mode"
+              },
+              "answer": "C",
+              "explanation": "The correct answer is (C) Step-Deviation Method."
+            },
+            {
+              "mcq_num": 2,
+              "difficulty": "Easy",
+              "question": "Median formula for grouped data is:",
+              "options": {
+                "A": "l + [(n/2 - cf)/f] × h   (B) l + [(f1-f0)/(2f1-f0-f2)] × h   (C) Σfixi/Σfi   (D) a + Σfidi/Σfi"
+              },
+              "answer": "A",
+              "explanation": "Option (A) is correct based on the definition/theorem."
+            },
+            {
+              "mcq_num": 3,
+              "difficulty": "Easy",
+              "question": "Mode formula for grouped data is:",
+              "options": {
+                "A": "l + [(n/2 - cf)/f] × h   (B) Σfixi / Σfi   (C) a + Σfidi / Σfi   (D) l + [(f1-f0)/(2f1-f0-f2)] × h"
+              },
+              "answer": "D",
+              "explanation": "Option (D) is correct based on the definition/theorem."
+            },
+            {
+              "mcq_num": 4,
+              "difficulty": "Medium",
+              "question": "If mode = 36.8 and mean = 35.38, then approximate median is:",
+              "options": {
+                "A": "36.09   (B) 35.85   (C) 36.5   (D) 35"
+              },
+              "answer": "B",
+              "explanation": "The correct answer is (B) 35.85. [3 Median = 36.8 + 70.76 = 107.56; Median = 35.85]"
+            },
+            {
+              "mcq_num": 5,
+              "difficulty": "Medium",
+              "question": "The empirical relationship is:",
+              "options": {
+                "A": "Mode = 3 Median - 2 Mean   (B) 3 Mean = Mode + 2 Median   (C) 3 Median = Mode + 2 Mean   (D) Mean = Mode + Median"
+              },
+              "answer": "C",
+              "explanation": "The correct answer is (C) 3 Median = Mode + 2 Mean."
+            },
+            {
+              "mcq_num": 6,
+              "difficulty": "Medium",
+              "question": "The ogive (cumulative frequency curve) can be used to find:",
+              "options": {
+                "A": "Mean   (B) Mode   (C) Median   (D) Class mark"
+              },
+              "answer": "C",
+              "explanation": "The correct answer is (C) Median."
+            },
+            {
+              "mcq_num": 7,
+              "difficulty": "Hard",
+              "question": "For a distribution: mode = 52, mean = 62. Using empirical formula, median ≈:",
+              "options": {
+                "A": "57   (B) 58.67   (C) 60   (D) 55"
+              },
+              "answer": "B",
+              "explanation": "The correct answer is (B) 58.67. [3 Median = 52 + 124 = 176; Median = 176/3 ≈ 58.67]"
+            },
+            {
+              "mcq_num": 8,
+              "difficulty": "Medium",
+              "question": "Which measure is most affected by extreme values?",
+              "options": {
+                "A": "Median   (B) Mode   (C) Mean   (D) All equally affected"
+              },
+              "answer": "C",
+              "explanation": "The correct answer is (C) Mean."
+            },
+            {
+              "mcq_num": 9,
+              "difficulty": "Hard",
+              "question": "For grouped data: l = 65, n/2 = 34, cf = 22, f = 20, h = 20. Median =:",
+              "options": {
+                "A": "65   (B) 77   (C) 75   (D) 85"
+              },
+              "answer": "B",
+              "explanation": "The correct answer is (B) 77. [Median = 65 + [(34-22)/20] × 20 = 65 + 12 = 77]"
+            },
+            {
+              "mcq_num": 10,
+              "difficulty": "Easy",
+              "question": "Before applying mode and median formulas, class intervals must be:",
+              "options": {
+                "A": "Equal in size   (B) Continuous   (C) In ascending order only   (D) Starting from 0"
+              },
+              "answer": "B",
+              "explanation": "The correct answer is (B) Continuous."
+            },
+            {
+              "mcq_num": 11,
+              "difficulty": "Medium",
+              "question": "Which measure is best to find the most popular shoe size in a shop?",
+              "options": {
+                "A": "Mean   (B) Median   (C) Mode   (D) Cumulative frequency"
+              },
+              "answer": "C",
+              "explanation": "The correct answer is (C) Mode."
+            },
+            {
+              "mcq_num": 12,
+              "difficulty": "Hard",
+              "question": "In Step-Deviation method, a = 50, h = 10, Σfiui = -20, Σfi = 40. Then x̄ =:",
+              "options": {
+                "A": "55   (B) 45   (C) 50   (D) 40"
+              },
+              "answer": "B",
+              "explanation": "The correct answer is (B) 45. [x̄ = 50 + 10 × (-20/40) = 50 - 5 = 45]"
+            },
+            {
+              "mcq_num": 13,
+              "difficulty": "Medium",
+              "question": "The point where less-than and more-than ogives intersect gives:",
+              "options": {
+                "A": "Mean   (B) Mode   (C) Median on y-axis   (D) Median on x-axis"
+              },
+              "answer": "D",
+              "explanation": "The correct answer is (D) Median on x-axis."
+            },
+            {
+              "mcq_num": 14,
+              "difficulty": "Hard",
+              "question": "If x̄ = 39.71 for Σfi = 35, find Σfixi:",
+              "options": {
+                "A": "35   (B) 1389.85   (C) 39.71   (D) 1390"
+              },
+              "answer": "D",
+              "explanation": "The correct answer is (D) 1390. [Σfixi = 39.71 × 35 = 1389.85 ≈ 1390]"
+            },
+            {
+              "mcq_num": 15,
+              "difficulty": "Easy",
+              "question": "The class mark assumption in grouped data means:",
+              "options": {
+                "A": "Frequency is at the lower limit   (B) Frequency is at the upper limit   (C) Frequency of each class is centred at its midpoint   (D) All classes have equal frequency"
+              },
+              "answer": "C",
+              "explanation": "The correct answer is (C) Frequency of each class is centred at its midpoint."
+            }
+          ]
+        }
+      ],
+      "subtopics": []
+    }
+  ]
+}

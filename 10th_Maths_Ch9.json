@@ -1,0 +1,702 @@
+{
+  "metadata": {
+    "class": "10th STANDARD",
+    "subject": "Mathematics",
+    "part": "2",
+    "chapter_num": "9",
+    "chapter_name": "SOME APPLICATIONS OF TRIGONOMETRY",
+    "source": "KSEEB Textbook 2025-26",
+    "mode": "B"
+  },
+  "chapter_sections": [
+    {
+      "type": "definition",
+      "label": "Definition:",
+      "text": "- SOME APPLICATIONS OF TRIGONOMETRY deals with the use of trigonometric ratios to find heights of objects and distances between objects without actually measuring them."
+    },
+    {
+      "type": "key_points",
+      "label": "Key Points:",
+      "points": [
+        "In real life, trigonometry is used to find heights of towers, buildings, trees, poles, etc.",
+        "It is also used to find distances across rivers, width of roads, and other inaccessible measurements.",
+        "We use a RIGHT TRIANGLE formed by the observer, the object, and a reference line (horizontal or vertical).",
+        "The main tool is: tan(angle) = opposite side / adjacent side."
+      ]
+    },
+    {
+      "type": "list_of_topics",
+      "label": "LIST OF TOPICS IN THIS CHAPTER:",
+      "items": [
+        "- Topic 9.1: Heights and Distances",
+        "- Topic 9.2: Summary"
+      ]
+    },
+    {
+      "type": "qa",
+      "label": "CHAPTER 9: Q&A",
+      "items": []
+    },
+    {
+      "type": "mcq",
+      "label": "CHAPTER 9: MCQs:",
+      "items": [
+        {
+          "mcq_num": 1,
+          "difficulty": "Easy",
+          "question": "The LINE OF SIGHT is the line drawn from ______ to the point in the object viewed.",
+          "options": {
+            "A": "The foot of the tower",
+            "B": "The eye of the observer",
+            "C": "The top of the object",
+            "D": "The horizontal level"
+          },
+          "answer": "B",
+          "explanation": "By definition, LINE OF SIGHT is drawn from the eye of the observer to the object being viewed."
+        },
+        {
+          "mcq_num": 2,
+          "difficulty": "Easy",
+          "question": "The ANGLE OF ELEVATION is formed when the object is ______ the horizontal level.",
+          "options": {
+            "A": "Below",
+            "B": "At the same level as",
+            "C": "Above",
+            "D": "Behind"
+          },
+          "answer": "C",
+          "explanation": "When the object is above the horizontal level, we raise our head — angle formed is ANGLE OF ELEVATION."
+        },
+        {
+          "mcq_num": 3,
+          "difficulty": "Easy",
+          "question": "When we lower our head to look at an object below us, the angle formed by the line of sight with the horizontal is called:",
+          "options": {
+            "A": "Angle of elevation",
+            "B": "Angle of inclination",
+            "C": "Angle of depression",
+            "D": "Angle of declination"
+          },
+          "answer": "C",
+          "explanation": "ANGLE OF DEPRESSION is formed when the point viewed is below the horizontal level."
+        },
+        {
+          "mcq_num": 4,
+          "difficulty": "Medium",
+          "question": "A tower stands vertically. From a point 15 m from its foot, angle of elevation is 60 degrees. Height is:",
+          "options": {
+            "A": "15 m",
+            "B": "15/sqrt(3) m",
+            "C": "15*sqrt(3) m",
+            "D": "30 m"
+          },
+          "answer": "C",
+          "explanation": "tan 60 degrees = h/15. sqrt(3) = h/15. h = 15*sqrt(3) m."
+        },
+        {
+          "mcq_num": 5,
+          "difficulty": "Medium",
+          "question": "A kite flying at 60 m height, string inclined at 60 degrees to ground. Length of string is:",
+          "options": {
+            "A": "60 m",
+            "B": "60*sqrt(3) m",
+            "C": "40*sqrt(3) m",
+            "D": "80/sqrt(3) m"
+          },
+          "answer": "C",
+          "explanation": "sin 60 degrees = 60/L. sqrt(3)/2 = 60/L. L = 120/sqrt(3) = 40*sqrt(3) m."
+        },
+        {
+          "mcq_num": 6,
+          "difficulty": "Medium",
+          "question": "Shadow of tower is 40 m longer when Sun's altitude is 30 degrees than at 60 degrees. Height of tower:",
+          "options": {
+            "A": "20 m",
+            "B": "20*sqrt(3) m",
+            "C": "40*sqrt(3) m",
+            "D": "40/sqrt(3) m"
+          },
+          "answer": "B",
+          "explanation": "Solving two tan equations: h = 20*sqrt(3) m."
+        },
+        {
+          "mcq_num": 7,
+          "difficulty": "Medium",
+          "question": "A circus artist climbs a 20 m rope making 30 degrees with the ground. Height of the pole is:",
+          "options": {
+            "A": "20 m",
+            "B": "10*sqrt(3) m",
+            "C": "10 m",
+            "D": "20*sqrt(3) m"
+          },
+          "answer": "C",
+          "explanation": "sin 30 degrees = height/20. 1/2 = height/20. Height = 10 m."
+        },
+        {
+          "mcq_num": 8,
+          "difficulty": "Medium",
+          "question": "Two equal poles on either side of 80 m road. Angles of elevation from a point between them are 60 degrees and 30 degrees. Height of each pole:",
+          "options": {
+            "A": "20*sqrt(3) m",
+            "B": "30*sqrt(3) m",
+            "C": "10*sqrt(3) m",
+            "D": "40*sqrt(3) m"
+          },
+          "answer": "A",
+          "explanation": "tan 60 = h/x, tan 30 = h/(80-x). Solving: h = 20*sqrt(3) m."
+        },
+        {
+          "mcq_num": 9,
+          "difficulty": "Hard",
+          "question": "From a point P, angle of elevation of 10 m building top is 30 degrees and of flagstaff top is 45 degrees. Flagstaff length is: (sqrt(3) = 1.732)",
+          "options": {
+            "A": "10*(sqrt(3) + 1) m",
+            "B": "10*(sqrt(3) - 1) m",
+            "C": "10*(1 - 1/sqrt(3)) m",
+            "D": "10*(sqrt(3)/2) m"
+          },
+          "answer": "B",
+          "explanation": "AP = 10*sqrt(3). tan 45 = (10+x)/AP => x = 10*(sqrt(3)-1) = 7.32 m."
+        },
+        {
+          "mcq_num": 10,
+          "difficulty": "Hard",
+          "question": "Angles of depression of top and bottom of 8 m building from multi-storeyed building are 30 degrees and 45 degrees. Height of multi-storeyed building:",
+          "options": {
+            "A": "4*(3 + sqrt(3)) m",
+            "B": "8*(sqrt(3) + 1) m",
+            "C": "12 + 4*sqrt(3) m",
+            "D": "Both A and C"
+          },
+          "answer": "D",
+          "explanation": "PD = 4*(sqrt(3)+1). Height = PD+8 = 4*(3+sqrt(3)) m = 12+4*sqrt(3) m."
+        },
+        {
+          "mcq_num": 11,
+          "difficulty": "Hard",
+          "question": "From a bridge 3 m above banks, angles of depression of two banks are 30 degrees and 45 degrees. Width of river:",
+          "options": {
+            "A": "3*(sqrt(3) + 1) m",
+            "B": "3*sqrt(3) m",
+            "C": "6 m",
+            "D": "3*(sqrt(3) - 1) m"
+          },
+          "answer": "A",
+          "explanation": "AD = 3*sqrt(3), BD = 3. Width = 3*sqrt(3) + 3 = 3*(sqrt(3)+1) m."
+        },
+        {
+          "mcq_num": 12,
+          "difficulty": "Hard",
+          "question": "TV tower on canal bank. Angle of elevation from opposite bank = 60 degrees. From a point 20 m further = 30 degrees. Width of canal:",
+          "options": {
+            "A": "10 m",
+            "B": "20 m",
+            "C": "10*sqrt(3) m",
+            "D": "20/sqrt(3) m"
+          },
+          "answer": "A",
+          "explanation": "h = d*sqrt(3) and h = (d+20)/sqrt(3). Solving: 3d = d+20 => d = 10 m."
+        }
+      ]
+    }
+  ],
+  "topics": [
+    {
+      "topic_num": "9.1",
+      "topic_name": "HEIGHTS AND DISTANCES",
+      "mode": "B",
+      "sections": [
+        {
+          "type": "definition",
+          "label": "Definition:",
+          "text": "- HEIGHTS AND DISTANCES is the application of trigonometric ratios to find the height of objects or the distance between objects that cannot be measured directly."
+        },
+        {
+          "type": "key_points",
+          "label": "Key Points:",
+          "points": [
+            "LINE OF SIGHT: The line drawn from the eye of an observer to the point in the object viewed by the observer.",
+            "ANGLE OF ELEVATION: The angle formed by the line of sight with the horizontal when the point being viewed is ABOVE the horizontal level (we raise our head to look at the object).",
+            "ANGLE OF DEPRESSION: The angle formed by the line of sight with the horizontal when the point being viewed is BELOW the horizontal level (we lower our head to look at the point).",
+            "To find the height of a minar without measuring, we need: (i) distance from foot of minar, (ii) angle of elevation of the top, (iii) height of the observer.",
+            "In triangle ABC: CD = CB + BD, where BD = AE (height of student/observer).",
+            "tan A = BC/AB or cot A = AB/BC are used to find BC.",
+            "The height or length of an object or the distance between two distant objects can be determined with the help of trigonometric ratios."
+          ]
+        },
+        {
+          "type": "list_of_topics",
+          "label": "LIST OF SUB TOPICS IN THIS TOPIC:",
+          "items": [
+            "- (This topic has no sub-topics in the textbook. All content is at topic level.)",
+            "EXAMPLES: (Textbook Examples)",
+            "EXAMPLE 9.1.1:",
+            "PROBLEM: A tower stands vertically on the ground. From a point on the ground, which is 15 m away from the foot of the tower, the angle of elevation of the top of the tower is found to be 60 degrees. Find the height of the tower.",
+            "SOLUTION:",
+            "Step 1: Let AB = height of tower, CB = 15 m (distance from foot), angle ACB = 60 degrees.",
+            "Step 2: Triangle ABC is right-angled at B.",
+            "Step 3: tan 60 degrees = AB/BC",
+            "Step 4: sqrt(3) = AB/15",
+            "Step 5: AB = 15 * sqrt(3)",
+            "ANSWER: The height of the tower is 15*sqrt(3) m.",
+            "EXAMPLE 9.1.2:",
+            "PROBLEM: An electrician has to repair an electric fault on a pole of height 5 m. She needs to reach a point 1.3 m below the top of the pole. What should be the length of the ladder inclined at 60 degrees to the horizontal? Also, how far from the foot of the pole should she place the foot of the ladder? (sqrt(3) = 1.73)",
+            "SOLUTION:",
+            "Step 1: Required height BD = AD - AB = 5 - 1.3 = 3.7 m.",
+            "Step 2: BC = ladder = hypotenuse of right triangle BDC.",
+            "Step 3: sin 60 degrees = BD/BC => sqrt(3)/2 = 3.7/BC",
+            "Step 4: BC = (3.7 * 2)/sqrt(3) = 7.4/1.73 = 4.28 m (approx.)",
+            "Step 5: DC/BD = cot 60 degrees = 1/sqrt(3) => DC = 3.7/sqrt(3) = 2.14 m (approx.)",
+            "ANSWER: Length of ladder = 4.28 m. Foot of ladder placed 2.14 m from the pole.",
+            "EXAMPLE 9.1.3:",
+            "PROBLEM: An observer 1.5 m tall is 28.5 m away from a chimney. The angle of elevation of the top of the chimney from her eyes is 45 degrees. What is the height of the chimney?",
+            "SOLUTION:",
+            "Step 1: AB = chimney, CD = observer (1.5 m), angle ADE = 45 degrees.",
+            "Step 2: ADE is right-angled at E. DE = CB = 28.5 m.",
+            "Step 3: AB = AE + BE = AE + 1.5",
+            "Step 4: tan 45 degrees = AE/DE => 1 = AE/28.5 => AE = 28.5 m",
+            "Step 5: AB = 28.5 + 1.5 = 30 m",
+            "ANSWER: Height of chimney = 30 m.",
+            "EXAMPLE 9.1.4:",
+            "PROBLEM: From a point P on the ground the angle of elevation of the top of a 10 m tall building is 30 degrees. A flag is hoisted at the top of the building and the angle of elevation of the top of the flagstaff from P is 45 degrees. Find the length of the flagstaff and the distance of the building from P. (sqrt(3) = 1.732)",
+            "SOLUTION:",
+            "Step 1: AB = 10 m (building), BD = x m (flagstaff), AD = (10 + x) m.",
+            "Step 2: In right triangle PAB: tan 30 degrees = AB/AP => 1/sqrt(3) = 10/AP => AP = 10*sqrt(3) = 17.32 m",
+            "Step 3: In right triangle PAD: tan 45 degrees = AD/AP => 1 = (10+x)/(10*sqrt(3))",
+            "Step 4: 10 + x = 10*sqrt(3) => x = 10*(sqrt(3) - 1) = 10*(1.732 - 1) = 7.32 m",
+            "ANSWER: Flagstaff length = 7.32 m. Distance of building from P = 10*sqrt(3) = 17.32 m.",
+            "EXAMPLE 9.1.5:",
+            "PROBLEM: The shadow of a tower standing on a level ground is found to be 40 m longer when the Sun's altitude is 30 degrees than when it is 60 degrees. Find the height of the tower.",
+            "SOLUTION:",
+            "Step 1: Let AB = h m (tower), BC = x m (shadow at 60 degrees), DB = (40 + x) m (shadow at 30 degrees).",
+            "Step 2: In triangle ABC: tan 60 degrees = AB/BC => sqrt(3) = h/x => h = x*sqrt(3) ... (1)",
+            "Step 3: In triangle ABD: tan 30 degrees = AB/BD => 1/sqrt(3) = h/(x + 40) ... (2)",
+            "Step 4: Putting (1) in (2): x*sqrt(3) * sqrt(3) = x + 40 => 3x = x + 40 => 2x = 40 => x = 20",
+            "Step 5: h = 20*sqrt(3) m [from (1)]",
+            "ANSWER: Height of the tower = 20*sqrt(3) m.",
+            "EXAMPLE 9.1.6:",
+            "PROBLEM: The angles of depression of the top and the bottom of an 8 m tall building from the top of a multi-storeyed building are 30 degrees and 45 degrees, respectively. Find the height of the multi-storeyed building and the distance between the two buildings.",
+            "SOLUTION:",
+            "Step 1: PC = multi-storeyed building, AB = 8 m (shorter building), AC = distance between buildings.",
+            "Step 2: Angle QPB = 30 degrees (depression to top of AB), angle PAC = 45 degrees (depression to bottom of AB).",
+            "Step 3: PQ is parallel to BD. So angle QPB = angle PBD = 30 degrees (alternate angles). angle PAC = 45 degrees.",
+            "Step 4: In right triangle PBD: PD/BD = tan 30 degrees = 1/sqrt(3) => BD = PD*sqrt(3)",
+            "Step 5: In right triangle PAC: PC/AC = tan 45 degrees = 1 => PC = AC. Also AC = BD.",
+            "Step 6: PC = PD + DC = PD + 8. And PC = AC = BD = PD*sqrt(3).",
+            "Step 7: PD + 8 = PD*sqrt(3) => PD*(sqrt(3) - 1) = 8 => PD = 8/(sqrt(3)-1)",
+            "Step 8: Rationalizing: PD = 8*(sqrt(3)+1)/((sqrt(3)-1)*(sqrt(3)+1)) = 8*(sqrt(3)+1)/(3-1) = 4*(sqrt(3)+1) m",
+            "Step 9: Height of multi-storeyed building = PD + 8 = 4*(sqrt(3)+1) + 8 = 4*sqrt(3) + 4 + 8 = 4*(3+sqrt(3)) m",
+            "Step 10: Distance between buildings = AC = BD = PD*sqrt(3) = 4*(sqrt(3)+1)*sqrt(3) = 4*(3+sqrt(3)) m",
+            "ANSWER: Height = 4*(3+sqrt(3)) m. Distance between buildings = 4*(3+sqrt(3)) m.",
+            "EXAMPLE 9.1.7:",
+            "PROBLEM: From a point on a bridge across a river, the angles of depression of the banks on opposite sides of the river are 30 degrees and 45 degrees, respectively. If the bridge is at a height of 3 m from the banks, find the width of the river.",
+            "SOLUTION:",
+            "Step 1: P = point on bridge, A and B = points on opposite banks, DP = 3 m (height of bridge).",
+            "Step 2: In right triangle APD, angle A = 30 degrees: tan 30 degrees = PD/AD => 1/sqrt(3) = 3/AD => AD = 3*sqrt(3) m",
+            "Step 3: In right triangle PBD, angle B = 45 degrees: tan 45 degrees = PD/BD => 1 = 3/BD => BD = 3 m",
+            "Step 4: Width of river AB = AD + DB = 3*sqrt(3) + 3 = 3*(sqrt(3) + 1) m",
+            "ANSWER: Width of the river = 3*(sqrt(3) + 1) m.",
+            "ADDITIONAL CALCULATIONS: (Exercise 9.1 - All 15 Questions)",
+            "Problem 9.1.1: A circus artist is climbing a 20 m long rope, which is tightly stretched and tied from the top of a vertical pole to the ground. Find the height of the pole, if the angle made by the rope with the ground level is 30 degrees.",
+            "Solution:",
+            "Step 1: Let AB = height of pole, BC = 20 m (rope = hypotenuse), angle ACB = 30 degrees.",
+            "Step 2: sin 30 degrees = AB/BC => 1/2 = AB/20 => AB = 10 m",
+            "Answer: Height of the pole = 10 m.",
+            "Problem 9.1.2: A tree breaks due to storm and the broken part bends so that the top of the tree touches the ground making an angle of 30 degrees with it. The distance between the foot of the tree to the point where the top touches the ground is 8 m. Find the height of the tree.",
+            "Solution:",
+            "Step 1: Let BC = unbroken part of tree (vertical), AC = broken part (hypotenuse), AB = 8 m (distance on ground).",
+            "Step 2: tan 30 degrees = BC/AB => 1/sqrt(3) = BC/8 => BC = 8/sqrt(3) = 8*sqrt(3)/3 m",
+            "Step 3: cos 30 degrees = AB/AC => sqrt(3)/2 = 8/AC => AC = 16/sqrt(3) = 16*sqrt(3)/3 m",
+            "Step 4: Total height of tree = BC + AC = 8*sqrt(3)/3 + 16*sqrt(3)/3 = 24*sqrt(3)/3 = 8*sqrt(3) m",
+            "Answer: Height of the tree = 8*sqrt(3) m.",
+            "Problem 9.1.3: A contractor plans to install two slides for children in a park. For children below 5 years: slide top at 1.5 m height, inclined at 30 degrees. For elder children: slide top at 3 m height, inclined at 60 degrees. Find the length of the slide in each case.",
+            "Solution:",
+            "Step 1: For younger children: sin 30 degrees = 1.5/L1 => 1/2 = 1.5/L1 => L1 = 3 m",
+            "Step 2: For elder children: sin 60 degrees = 3/L2 => sqrt(3)/2 = 3/L2 => L2 = 6/sqrt(3) = 2*sqrt(3) m",
+            "Answer: Slide for younger children = 3 m. Slide for elder children = 2*sqrt(3) m.",
+            "Problem 9.1.4: The angle of elevation of the top of a tower from a point on the ground, which is 30 m away from the foot of the tower, is 30 degrees. Find the height of the tower.",
+            "Solution:",
+            "Step 1: tan 30 degrees = height/30 => 1/sqrt(3) = height/30 => height = 30/sqrt(3) = 10*sqrt(3) m",
+            "Answer: Height of the tower = 10*sqrt(3) m.",
+            "Problem 9.1.5: A kite is flying at a height of 60 m above the ground. The string attached to the kite is tied to a point on the ground. The inclination of the string with the ground is 60 degrees. Find the length of the string (no slack).",
+            "Solution:",
+            "Step 1: sin 60 degrees = 60/L => sqrt(3)/2 = 60/L => L = 120/sqrt(3) = 40*sqrt(3) m",
+            "Answer: Length of string = 40*sqrt(3) m.",
+            "Problem 9.1.6: A 1.5 m tall boy is standing some distance from a 30 m tall building. The angle of elevation from his eyes to the top of the building increases from 30 degrees to 60 degrees as he walks towards the building. Find the distance he walked.",
+            "Solution:",
+            "Step 1: Effective height = 30 - 1.5 = 28.5 m.",
+            "Step 2: At 30 degrees: tan 30 degrees = 28.5/d1 => d1 = 28.5*sqrt(3) m",
+            "Step 3: At 60 degrees: tan 60 degrees = 28.5/d2 => d2 = 28.5/sqrt(3) m",
+            "Step 4: Distance walked = d1 - d2 = 28.5*sqrt(3) - 28.5/sqrt(3) = 28.5*(2/sqrt(3)) = 57/sqrt(3) = 19*sqrt(3) m",
+            "Answer: Distance walked = 19*sqrt(3) m.",
+            "Problem 9.1.7: From a point on the ground, the angles of elevation of the bottom and top of a transmission tower fixed at the top of a 20 m high building are 45 degrees and 60 degrees. Find the height of the tower.",
+            "Solution:",
+            "Step 1: Let AB = 20 m (building), BC = h m (tower), PB = distance from point to building.",
+            "Step 2: tan 45 degrees = AB/PB => 1 = 20/PB => PB = 20 m",
+            "Step 3: tan 60 degrees = (AB+BC)/PB => sqrt(3) = (20+h)/20 => 20 + h = 20*sqrt(3) => h = 20*(sqrt(3)-1) m",
+            "Answer: Height of tower = 20*(sqrt(3) - 1) m.",
+            "Problem 9.1.8: A statue, 1.6 m tall, stands on the top of a pedestal. From a point on the ground, the angle of elevation of the top of the statue is 60 degrees and the angle of elevation of the top of the pedestal is 45 degrees. Find the height of the pedestal.",
+            "Solution:",
+            "Step 1: Let AB = h (pedestal), BC = 1.6 m (statue), P = point on ground, AP = distance.",
+            "Step 2: tan 45 degrees = AB/AP => 1 = h/AP => AP = h",
+            "Step 3: tan 60 degrees = (h+1.6)/AP => sqrt(3) = (h+1.6)/h => sqrt(3)*h = h + 1.6 => h*(sqrt(3)-1) = 1.6",
+            "Step 4: h = 1.6/(sqrt(3)-1) = 1.6*(sqrt(3)+1)/2 = 0.8*(sqrt(3)+1) m",
+            "Answer: Height of pedestal = 0.8*(sqrt(3)+1) m.",
+            "Problem 9.1.9: The angle of elevation of the top of a building from the foot of a tower is 30 degrees and the angle of elevation of the top of the tower from the foot of the building is 60 degrees. If the tower is 50 m high, find the height of the building.",
+            "Solution:",
+            "Step 1: Let AB = 50 m (tower), CD = h (building), BC = distance between them.",
+            "Step 2: tan 60 degrees = AB/BC => sqrt(3) = 50/BC => BC = 50/sqrt(3) m",
+            "Step 3: tan 30 degrees = CD/BC => 1/sqrt(3) = h/(50/sqrt(3)) => h = 50/3 m",
+            "Answer: Height of building = 50/3 m (approximately 16.67 m).",
+            "Problem 9.1.10: Two poles of equal heights are standing opposite each other on either side of a road, which is 80 m wide. From a point between them on the road, the angles of elevation of the top of the poles are 60 degrees and 30 degrees. Find the height of the poles and the distances of the point from the poles.",
+            "Solution:",
+            "Step 1: Let height of each pole = h. Distance from first pole = x => distance from second pole = (80 - x).",
+            "Step 2: tan 60 degrees = h/x => h = x*sqrt(3) ... (1)",
+            "Step 3: tan 30 degrees = h/(80-x) => h = (80-x)/sqrt(3) ... (2)",
+            "Step 4: From (1) and (2): x*sqrt(3) = (80-x)/sqrt(3) => 3x = 80 - x => 4x = 80 => x = 20 m",
+            "Step 5: h = 20*sqrt(3) m. Distance from second pole = 60 m.",
+            "Answer: Height of poles = 20*sqrt(3) m. Distance from pole 1 = 20 m. Distance from pole 2 = 60 m.",
+            "Problem 9.1.11: A TV tower stands vertically on a bank of a canal. From a point on the other bank directly opposite, the angle of elevation of the top is 60 degrees. From another point 20 m away from this point on the line joining to the foot of the tower, the angle of elevation is 30 degrees. Find the height of the tower and the width of the canal.",
+            "Solution:",
+            "Step 1: Let AB = h (tower height), BC = d (width of canal), C = first point, D = second point (20 m from C).",
+            "Step 2: tan 60 degrees = h/d => h = d*sqrt(3) ... (1)",
+            "Step 3: tan 30 degrees = h/(d+20) => h = (d+20)/sqrt(3) ... (2)",
+            "Step 4: From (1) and (2): d*sqrt(3) = (d+20)/sqrt(3) => 3d = d + 20 => d = 10 m",
+            "Step 5: h = 10*sqrt(3) m",
+            "Answer: Width of canal = 10 m. Height of tower = 10*sqrt(3) m.",
+            "Problem 9.1.12: From the top of a 7 m high building, the angle of elevation of the top of a cable tower is 60 degrees and the angle of depression of its foot is 45 degrees. Determine the height of the tower.",
+            "Solution:",
+            "Step 1: Let AB = 7 m (building), CE = cable tower. Horizontal distance BC.",
+            "Step 2: Angle of depression to foot: tan 45 degrees = AB/BC => 1 = 7/BC => BC = 7 m.",
+            "Step 3: Let DE = height of tower above building level. tan 60 degrees = DE/BC => sqrt(3) = DE/7 => DE = 7*sqrt(3) m",
+            "Step 4: Total height of tower = DE + DC = 7*sqrt(3) + 7 = 7*(sqrt(3) + 1) m",
+            "Answer: Height of cable tower = 7*(sqrt(3) + 1) m.",
+            "Problem 9.1.13: As observed from the top of a 75 m high lighthouse, the angles of depression of two ships are 30 degrees and 45 degrees. If one ship is exactly behind the other on the same side, find the distance between the two ships.",
+            "Solution:",
+            "Step 1: AB = 75 m (lighthouse), C and D = ships (D is farther).",
+            "Step 2: Angle of depression to C = 45 degrees: tan 45 degrees = 75/BC => BC = 75 m",
+            "Step 3: Angle of depression to D = 30 degrees: tan 30 degrees = 75/BD => BD = 75*sqrt(3) m",
+            "Step 4: CD = BD - BC = 75*sqrt(3) - 75 = 75*(sqrt(3) - 1) m",
+            "Answer: Distance between the two ships = 75*(sqrt(3) - 1) m.",
+            "Problem 9.1.14: A 1.2 m tall girl spots a balloon moving horizontally at a height of 88.2 m from the ground. Angle of elevation from her eyes is 60 degrees at first, reduces to 30 degrees later. Find the distance travelled by the balloon.",
+            "Solution:",
+            "Step 1: Effective height = 88.2 - 1.2 = 87 m (above girl's eye level).",
+            "Step 2: At 60 degrees: tan 60 degrees = 87/d1 => d1 = 87/sqrt(3) = 29*sqrt(3) m",
+            "Step 3: At 30 degrees: tan 30 degrees = 87/d2 => d2 = 87*sqrt(3) m",
+            "Step 4: Distance travelled = d2 - d1 = 87*sqrt(3) - 29*sqrt(3) = 58*sqrt(3) m",
+            "Answer: Distance travelled by balloon = 58*sqrt(3) m.",
+            "Problem 9.1.15: A straight highway leads to the foot of a tower. A man at the top of the tower observes a car at an angle of depression of 30 degrees. Six seconds later, the angle of depression is 60 degrees. Find the time taken by the car to reach the foot of the tower from the second point.",
+            "Solution:",
+            "Step 1: Let AB = h (tower), C = first position (30 degrees), D = second position (60 degrees).",
+            "Step 2: tan 30 degrees = h/BC => BC = h*sqrt(3).",
+            "Step 3: tan 60 degrees = h/BD => BD = h/sqrt(3).",
+            "Step 4: CD = BC - BD = h*sqrt(3) - h/sqrt(3) = 2h/sqrt(3) (covered in 6 sec).",
+            "Step 5: Speed = (2h/sqrt(3))/6 = h/(3*sqrt(3)).",
+            "Step 6: Time = BD/speed = (h/sqrt(3))/(h/(3*sqrt(3))) = 3 seconds.",
+            "Answer: Time taken = 3 seconds."
+          ]
+        },
+        {
+          "type": "qa",
+          "label": "TOPIC 9.1: Q&A",
+          "items": []
+        },
+        {
+          "type": "qa",
+          "label": "Q&A",
+          "items": [
+            {
+              "q_num": 1,
+              "marks": 2,
+              "question": "Define LINE OF SIGHT and ANGLE OF ELEVATION.",
+              "answer": "LINE OF SIGHT is the line drawn from the eye of an observer to the point in the object viewed by the observer.\n\nANGLE OF ELEVATION is the angle formed by the line of sight with the horizontal when the point being viewed is above the horizontal level — i.e., the case when we raise our head to look at the object."
+            },
+            {
+              "q_num": 2,
+              "marks": 2,
+              "question": "Define ANGLE OF DEPRESSION. Give one real-life example.",
+              "answer": "ANGLE OF DEPRESSION is the angle formed by the line of sight with the horizontal when the point being viewed is below the horizontal level — i.e., the case when we lower our head to look at the point being viewed.\n\nReal-life example: A person standing on a cliff looking down at a boat in the sea — the angle their line of sight makes with the horizontal is the angle of depression."
+            },
+            {
+              "q_num": 3,
+              "marks": 2,
+              "question": "A circus artist climbs a 20 m rope tied from the top of a vertical pole, making 30 degrees with the ground. Find the height of the pole.",
+              "answer": "In right triangle ABC, rope AC = 20 m is the hypotenuse.\nsin 30 degrees = AB (height) / AC (rope)\n1/2 = AB/20\nAB = 10 m\n\nHeight of the pole = 10 m."
+            },
+            {
+              "q_num": 4,
+              "marks": 2,
+              "question": "The angle of elevation of the top of a tower from a point 30 m away from its foot is 30 degrees. Find the height of the tower.",
+              "answer": "In right triangle ABC:\ntan 30 degrees = AB (height) / BC (distance)\n1/sqrt(3) = AB/30\nAB = 30/sqrt(3) = 10*sqrt(3) m\n\nHeight of the tower = 10*sqrt(3) m (approximately 17.32 m).\n\n---\n\n3 ಮಾರ್ಕ್ಸ್ × 3 questions:"
+            },
+            {
+              "q_num": 5,
+              "marks": 3,
+              "question": "An observer 1.5 m tall is 28.5 m away from a chimney. The angle of elevation of the top of the chimney from her eyes is 45 degrees. Find the height of the chimney.",
+              "answer": "Step 1: Let AE = height of chimney above the observer's eye level. DE = 28.5 m.\nFinal chimney height AB = AE + observer height.\n\nStep 2: In right triangle ADE:\ntan 45 degrees = AE/DE\n1 = AE/28.5\nAE = 28.5 m\n\nStep 3: Height of chimney = AE + 1.5 = 28.5 + 1.5 = 30 m\n\nAnswer: Height of the chimney = 30 m."
+            },
+            {
+              "q_num": 6,
+              "marks": 3,
+              "question": "A kite is flying at a height of 60 m. The string makes 60 degrees with the ground. Find the length of the string (no slack).",
+              "answer": "Step 1: Let AB = 60 m (height), AC = string (hypotenuse), angle ACB = 60 degrees.\n\nStep 2: sin 60 degrees = AB/AC\nsqrt(3)/2 = 60/AC\nAC = 120/sqrt(3)\n\nStep 3: AC = 120/sqrt(3) * sqrt(3)/sqrt(3) = 120*sqrt(3)/3 = 40*sqrt(3) m\n\nAnswer: Length of the string = 40*sqrt(3) m (approximately 69.28 m)."
+            },
+            {
+              "q_num": 7,
+              "marks": 3,
+              "question": "A tree breaks due to a storm and its top touches the ground at 30 degrees to it. The distance from the foot of the tree to where the top touches the ground is 8 m. Find the height of the tree.",
+              "answer": "Step 1: Let BC = standing part (vertical), AB = 8 m (ground distance), AC = broken part (hypotenuse).\nAngle CAB = 30 degrees.\n\nStep 2: tan 30 degrees = BC/AB => 1/sqrt(3) = BC/8 => BC = 8/sqrt(3) = 8*sqrt(3)/3 m\n\nStep 3: cos 30 degrees = AB/AC => sqrt(3)/2 = 8/AC => AC = 16/sqrt(3) = 16*sqrt(3)/3 m\n\nStep 4: Total height = BC + AC = 8*sqrt(3)/3 + 16*sqrt(3)/3 = 24*sqrt(3)/3 = 8*sqrt(3) m\n\nAnswer: Height of the tree = 8*sqrt(3) m (approximately 13.86 m).\n\n---\n\n4 ಮಾರ್ಕ್ಸ್ × 4 questions:"
+            },
+            {
+              "q_num": 8,
+              "marks": 4,
+              "question": "The shadow of a tower is found to be 40 m longer when the Sun's altitude is 30 degrees than when it is 60 degrees. Find the height of the tower.",
+              "answer": "Step 1: Let AB = h m (tower height).\nBC = x m (shadow length at 60 degrees).\nDB = (x + 40) m (shadow length at 30 degrees).\n\nStep 2: In right triangle ABC:\ntan 60 degrees = h/x => sqrt(3) = h/x => h = x*sqrt(3) ... (1)\n\nStep 3: In right triangle ABD:\ntan 30 degrees = h/(x+40) => 1/sqrt(3) = h/(x+40) ... (2)\n\nStep 4: Substituting (1) in (2):\nx*sqrt(3) * sqrt(3) = x + 40 => 3x = x + 40 => 2x = 40 => x = 20\n\nStep 5: h = 20*sqrt(3) m\n\nAnswer: Height of the tower = 20*sqrt(3) m (approximately 34.64 m)."
+            },
+            {
+              "q_num": 9,
+              "marks": 4,
+              "question": "From a point P on the ground, the angle of elevation of the top of a 10 m tall building is 30 degrees. A flag is hoisted at the top of the building and the angle of elevation of the top of the flagstaff from P is 45 degrees. Find the length of the flagstaff and the distance of the building from P. (sqrt(3) = 1.732)",
+              "answer": "Step 1: AB = 10 m (building), BD = x m (flagstaff), AD = (10+x) m, AP = distance.\n\nStep 2: In right triangle PAB:\ntan 30 degrees = 10/AP => AP = 10*sqrt(3) = 17.32 m\n\nStep 3: In right triangle PAD:\ntan 45 degrees = (10+x)/AP\n1 = (10+x)/(10*sqrt(3))\n10 + x = 10*sqrt(3)\nx = 10*(sqrt(3) - 1) = 10*(1.732 - 1) = 7.32 m\n\nStep 4: Verification: AD = 10 + 7.32 = 17.32 = AP => tan 45 = 1 ✓\n\nAnswer: Flagstaff length = 7.32 m. Distance from P to building = 17.32 m."
+            },
+            {
+              "q_num": 10,
+              "marks": 4,
+              "question": "A TV tower stands vertically on a bank of a canal. From a point directly opposite on the other bank, the angle of elevation is 60 degrees. From a point 20 m away from the first point (on the line joining to the foot of tower), the angle of elevation is 30 degrees. Find the height of the tower and the width of the canal.",
+              "answer": "Step 1: AB = h (tower), BC = d (canal width), C = first point (60 degrees), D = second point (30 degrees), CD = 20 m.\n\nStep 2: In triangle ABC:\ntan 60 degrees = h/d => h = d*sqrt(3) ... (1)\n\nStep 3: In triangle ABD:\ntan 30 degrees = h/(d+20) => h = (d+20)/sqrt(3) ... (2)\n\nStep 4: From (1) and (2):\nd*sqrt(3) = (d+20)/sqrt(3)\n3d = d + 20\n2d = 20 => d = 10 m\n\nStep 5: h = 10*sqrt(3) m\n\nAnswer: Width of canal = 10 m. Height of tower = 10*sqrt(3) m."
+            },
+            {
+              "q_num": 11,
+              "marks": 4,
+              "question": "Two poles of equal height stand on either side of a road 80 m wide. From a point between them on the road, angles of elevation of the tops are 60 degrees and 30 degrees. Find the height of the poles and distances of the point from each pole.",
+              "answer": "Step 1: Each pole height = h m.\nDistance from first pole = x m => distance from second pole = (80 - x) m.\n\nStep 2: For first pole (60 degrees):\ntan 60 degrees = h/x => h = x*sqrt(3) ... (1)\n\nStep 3: For second pole (30 degrees):\ntan 30 degrees = h/(80-x) => h = (80-x)/sqrt(3) ... (2)\n\nStep 4: Equating (1) and (2):\nx*sqrt(3) = (80-x)/sqrt(3) => 3x = 80 - x => 4x = 80 => x = 20 m\n\nStep 5: h = 20*sqrt(3) m. Distance from second pole = 80 - 20 = 60 m.\n\nAnswer: Height of poles = 20*sqrt(3) m. Distance from first pole = 20 m. Distance from second pole = 60 m.\n\n---\n\n5 ಮಾರ್ಕ್ಸ್ × 1 question:"
+            },
+            {
+              "q_num": 12,
+              "marks": 5,
+              "question": "From the top of a 7 m high building, the angle of elevation of the top of a cable tower is 60 degrees and the angle of depression of its foot is 45 degrees.",
+              "answer": "PART A — Height of cable tower:\n\nStep 1: Let AB = 7 m (building), CE = cable tower, BC = horizontal distance.\nLet DE = height of cable tower above the roof of the building (AE = CE - CD = CE - 7).\nD is the point on the cable tower at the same level as A (top of building).\n\nStep 2: Angle of depression of foot of cable tower from A = 45 degrees.\nFoot of tower C is at ground level. Angle DAC = 45 degrees (alternate to angle of depression).\nIn right triangle ACD (right-angled at C... here AC = horizontal = BC):\nWait — applying correctly:\nIn right triangle with base BC and height AB = 7 m:\ntan 45 degrees = AB/BC => 1 = 7/BC => BC = 7 m\n\nStep 3: Now, angle of elevation of top E from A = 60 degrees.\nDE = height of tower above A's level. BC = AD = 7 m.\ntan 60 degrees = DE/AD => sqrt(3) = DE/7 => DE = 7*sqrt(3) m\n\nStep 4: Total height of cable tower CE = CD + DE = 7 + 7*sqrt(3) = 7*(1 + sqrt(3)) m\n\nAnswer (Part A): Height of cable tower = 7*(1 + sqrt(3)) m (approximately 19.12 m).\n\nPART B — Horizontal distance between building and cable tower:\n\nStep 5: The horizontal distance = BC = AD = 7 m (found in Step 2 using angle of depression 45 degrees).\n\nAnswer (Part B): Horizontal distance = 7 m."
+            }
+          ]
+        },
+        {
+          "type": "mcq",
+          "label": "MCQ",
+          "items": [
+            {
+              "mcq_num": 1,
+              "difficulty": "Easy",
+              "question": "The LINE OF SIGHT is the line drawn from ______ to the point in the object viewed.",
+              "options": {
+                "A": "The foot of the tower",
+                "B": "The eye of the observer",
+                "C": "The top of the object",
+                "D": "The horizontal level"
+              },
+              "answer": "B",
+              "explanation": "By definition, LINE OF SIGHT is drawn from the eye of the observer to the object being viewed."
+            },
+            {
+              "mcq_num": 2,
+              "difficulty": "Easy",
+              "question": "The ANGLE OF ELEVATION is formed when the point viewed is ______ the horizontal level.",
+              "options": {
+                "A": "Below",
+                "B": "At same level",
+                "C": "Above",
+                "D": "Behind"
+              },
+              "answer": "C",
+              "explanation": "When the object is above horizontal level, we raise our head — the angle formed is ANGLE OF ELEVATION."
+            },
+            {
+              "mcq_num": 3,
+              "difficulty": "Easy",
+              "question": "When we lower our head to look at a point below us, the angle formed by the line of sight with the horizontal is:",
+              "options": {
+                "A": "Angle of elevation",
+                "B": "Angle of inclination",
+                "C": "Angle of depression",
+                "D": "Angle of declination"
+              },
+              "answer": "C",
+              "explanation": "ANGLE OF DEPRESSION is formed when the point viewed is below the horizontal level."
+            },
+            {
+              "mcq_num": 4,
+              "difficulty": "Easy",
+              "question": "The value of tan 45 degrees is:",
+              "options": {
+                "A": "0",
+                "B": "1/sqrt(3)",
+                "C": "sqrt(3)",
+                "D": "1"
+              },
+              "answer": "D",
+              "explanation": "tan 45 degrees = 1. This standard value is used frequently in heights and distances problems."
+            },
+            {
+              "mcq_num": 5,
+              "difficulty": "Easy",
+              "question": "A circus artist climbs a 20 m rope making 30 degrees with the ground. Height of the pole is:",
+              "options": {
+                "A": "20 m",
+                "B": "10*sqrt(3) m",
+                "C": "10 m",
+                "D": "20*sqrt(3) m"
+              },
+              "answer": "C",
+              "explanation": "sin 30 degrees = height/20. 1/2 = height/20. Height = 10 m."
+            },
+            {
+              "mcq_num": 6,
+              "difficulty": "Medium",
+              "question": "A tower stands vertically. From a point 15 m from its foot, angle of elevation is 60 degrees. Height is:",
+              "options": {
+                "A": "15 m",
+                "B": "15/sqrt(3) m",
+                "C": "15*sqrt(3) m",
+                "D": "30 m"
+              },
+              "answer": "C",
+              "explanation": "tan 60 degrees = h/15. sqrt(3) = h/15. h = 15*sqrt(3) m."
+            },
+            {
+              "mcq_num": 7,
+              "difficulty": "Medium",
+              "question": "A kite flying at 60 m height, string inclined at 60 degrees to ground. Length of string is:",
+              "options": {
+                "A": "60 m",
+                "B": "60*sqrt(3) m",
+                "C": "40*sqrt(3) m",
+                "D": "80/sqrt(3) m"
+              },
+              "answer": "C",
+              "explanation": "sin 60 degrees = 60/L. sqrt(3)/2 = 60/L. L = 120/sqrt(3) = 40*sqrt(3) m."
+            },
+            {
+              "mcq_num": 8,
+              "difficulty": "Medium",
+              "question": "Shadow of tower is 40 m longer when Sun's altitude is 30 degrees than at 60 degrees. Height of tower:",
+              "options": {
+                "A": "20 m",
+                "B": "20*sqrt(3) m",
+                "C": "40*sqrt(3) m",
+                "D": "40/sqrt(3) m"
+              },
+              "answer": "B",
+              "explanation": "Solving two tan equations: h = 20*sqrt(3) m."
+            },
+            {
+              "mcq_num": 9,
+              "difficulty": "Medium",
+              "question": "Two equal poles on either side of 80 m road. Angles of elevation from a point between them are 60 degrees and 30 degrees. Height of each pole:",
+              "options": {
+                "A": "20*sqrt(3) m",
+                "B": "30*sqrt(3) m",
+                "C": "10*sqrt(3) m",
+                "D": "40*sqrt(3) m"
+              },
+              "answer": "A",
+              "explanation": "tan 60 = h/x, tan 30 = h/(80-x). Solving: h = 20*sqrt(3) m."
+            },
+            {
+              "mcq_num": 10,
+              "difficulty": "Medium",
+              "question": "An observer 1.5 m tall is 28.5 m from a chimney. Angle of elevation of chimney top is 45 degrees. Height of chimney:",
+              "options": {
+                "A": "28.5 m",
+                "B": "30 m",
+                "C": "27 m",
+                "D": "31.5 m"
+              },
+              "answer": "B",
+              "explanation": "tan 45 = AE/28.5 => AE = 28.5 m. Total height = 28.5 + 1.5 = 30 m."
+            },
+            {
+              "mcq_num": 11,
+              "difficulty": "Hard",
+              "question": "From a point P, angle of elevation of 10 m building top is 30 degrees and of flagstaff top is 45 degrees. Flagstaff length is: (sqrt(3) = 1.732)",
+              "options": {
+                "A": "10*(sqrt(3) + 1) m",
+                "B": "10*(sqrt(3) - 1) m",
+                "C": "10*(1 - 1/sqrt(3)) m",
+                "D": "10*(sqrt(3)/2) m"
+              },
+              "answer": "B",
+              "explanation": "AP = 10*sqrt(3). tan 45 = (10+x)/AP => x = 10*(sqrt(3)-1) = 7.32 m."
+            },
+            {
+              "mcq_num": 12,
+              "difficulty": "Hard",
+              "question": "Angles of depression of top and bottom of 8 m building from multi-storeyed building are 30 degrees and 45 degrees. Height of multi-storeyed building:",
+              "options": {
+                "A": "4*(3 + sqrt(3)) m",
+                "B": "8*(sqrt(3) + 1) m",
+                "C": "12 + 4*sqrt(3) m",
+                "D": "Both A and C"
+              },
+              "answer": "D",
+              "explanation": "PD = 4*(sqrt(3)+1). Height = PD+8 = 4*(3+sqrt(3)) m = 12+4*sqrt(3) m."
+            },
+            {
+              "mcq_num": 13,
+              "difficulty": "Hard",
+              "question": "From a bridge 3 m above banks, angles of depression of two banks are 30 degrees and 45 degrees. Width of river:",
+              "options": {
+                "A": "3*(sqrt(3) + 1) m",
+                "B": "3*sqrt(3) m",
+                "C": "6 m",
+                "D": "3*(sqrt(3) - 1) m"
+              },
+              "answer": "A",
+              "explanation": "AD = 3*sqrt(3), BD = 3. Width = 3*sqrt(3) + 3 = 3*(sqrt(3)+1) m."
+            },
+            {
+              "mcq_num": 14,
+              "difficulty": "Hard",
+              "question": "TV tower on canal bank. Angle of elevation from opposite bank = 60 degrees. From a point 20 m further = 30 degrees. Width of canal:",
+              "options": {
+                "A": "10 m",
+                "B": "20 m",
+                "C": "10*sqrt(3) m",
+                "D": "20/sqrt(3) m"
+              },
+              "answer": "A",
+              "explanation": "h = d*sqrt(3) and h = (d+20)/sqrt(3). Solving: 3d = d+20 => d = 10 m."
+            },
+            {
+              "mcq_num": 15,
+              "difficulty": "Hard",
+              "question": "A man at top of tower observes car at 30 degrees depression. Six seconds later depression is 60 degrees. Time taken to reach tower from second point:",
+              "options": {
+                "A": "2 seconds",
+                "B": "3 seconds",
+                "C": "6 seconds",
+                "D": "9 seconds"
+              },
+              "answer": "B",
+              "explanation": "CD (distance in 6 sec) = 2h/sqrt(3). BD (remaining) = h/sqrt(3). Time = 6 * (1/2) = 3 seconds."
+            }
+          ]
+        },
+        {
+          "type": "definition",
+          "label": "Definition:",
+          "text": "- Summary of key concepts learned in Chapter 9 on Some Applications of Trigonometry."
+        },
+        {
+          "type": "key_points",
+          "label": "Key Points:",
+          "points": [
+            "1. (i) The LINE OF SIGHT is the line drawn from the eye of an observer to the point in the object viewed by the observer.",
+            "(ii) The ANGLE OF ELEVATION of an object viewed is the angle formed by the line of sight with the horizontal when it is above the horizontal level, i.e., the case when we raise our head to look at the object.",
+            "(iii) The ANGLE OF DEPRESSION of an object viewed is the angle formed by the line of sight with the horizontal when it is below the horizontal level, i.e., the case when we lower our head to look at the point being viewed.",
+            "2. The height or length of an object or the distance between two distant objects can be determined with the help of trigonometric ratios."
+          ]
+        }
+      ],
+      "subtopics": []
+    }
+  ]
+}

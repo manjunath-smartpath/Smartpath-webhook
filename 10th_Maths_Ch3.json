@@ -1,0 +1,1738 @@
+{
+  "metadata": {
+    "class": "10TH STANDARD",
+    "subject": "Mathematics",
+    "part": "1",
+    "chapter_num": "3",
+    "chapter_name": "PAIR OF LINEAR EQUATIONS IN TWO VARIABLES",
+    "source": "KSEEB Textbook 2025-26",
+    "mode": "A"
+  },
+  "chapter_sections": [
+    {
+      "type": "definition",
+      "label": "Definition:",
+      "text": "A PAIR OF LINEAR EQUATIONS in two variables x and y consists of two equations of the form:\na1x + b1y + c1 = 0\na2x + b2y + c2 = 0\nwhere a1, b1, c1, a2, b2, c2 are real numbers, and a1, b1 are not both zero, and a2, b2 are not both zero."
+    },
+    {
+      "type": "key_points",
+      "label": "Key Points:",
+      "points": [
+        "A linear equation in two variables represents a straight line on a graph.",
+        "A pair of such equations represents two straight lines. Their solution is the point(s) common to both lines.",
+        "The chapter studies three methods to find the solution: Graphical, Substitution, and Elimination.",
+        "Solution types: Unique solution (lines intersect), Infinitely many solutions (lines coincide), No solution (lines are parallel)."
+      ]
+    },
+    {
+      "type": "list_of_topics",
+      "label": "LIST OF TOPICS IN THIS CHAPTER:",
+      "items": [
+        "- Topic 3.1: Introduction",
+        "- Topic 3.2: Graphical Method of Solution of a Pair of Linear Equations",
+        "- Topic 3.3: Algebraic Methods of Solving a Pair of Linear Equations"
+      ]
+    },
+    {
+      "type": "qa",
+      "label": "CHAPTER 3: Q&A",
+      "items": []
+    },
+    {
+      "type": "mcq",
+      "label": "CHAPTER 3: MCQs",
+      "items": [
+        {
+          "mcq_num": 1,
+          "difficulty": "Easy",
+          "question": "A pair of linear equations has a unique solution when the two lines are:",
+          "options": {
+            "A": "Parallel  (B) Coincident  (C) Intersecting at one point  (D) Perpendicular only"
+          },
+          "answer": "C",
+          "explanation": "Intersecting lines share exactly one common point — that is the unique solution."
+        },
+        {
+          "mcq_num": 2,
+          "difficulty": "Easy",
+          "question": "The general form of a linear equation in two variables is:",
+          "options": {
+            "A": "ax + b = 0  (B) ax^2 + by + c = 0  (C) ax + by + c = 0  (D) ax + by = 1"
+          },
+          "answer": "C",
+          "explanation": "ax + by + c = 0 with a and b not both zero is the standard form."
+        },
+        {
+          "mcq_num": 3,
+          "difficulty": "Easy",
+          "question": "How many equations are there in a pair of linear equations?",
+          "options": {
+            "A": "1  (B) 2  (C) 3  (D) 4"
+          },
+          "answer": "B",
+          "explanation": "A \"pair\" means exactly two equations with the same two variables."
+        },
+        {
+          "mcq_num": 4,
+          "difficulty": "Medium",
+          "question": "If a1/a2 = b1/b2 = c1/c2, the pair of linear equations is:",
+          "options": {
+            "A": "Inconsistent  (B) Consistent with unique solution",
+            "C": "Dependent (consistent) with infinitely many solutions  (D) None"
+          },
+          "answer": "C",
+          "explanation": "All three ratios equal means the lines coincide — infinitely many solutions."
+        },
+        {
+          "mcq_num": 5,
+          "difficulty": "Medium",
+          "question": "If a1/a2 = b1/b2 ≠ c1/c2, the pair is:",
+          "options": {
+            "A": "Consistent  (B) Dependent  (C) Inconsistent  (D) Unique solution"
+          },
+          "answer": "C",
+          "explanation": "a1/a2 = b1/b2 ≠ c1/c2 means the lines are parallel — no solution — inconsistent."
+        },
+        {
+          "mcq_num": 6,
+          "difficulty": "Medium",
+          "question": "In Akhila's problem, if rides = x and Hoopla = y, the pair of equations is:",
+          "options": {
+            "A": "y = 2x; 3x + 4y = 20  (B) y = x/2; 4x + 3y = 20",
+            "C": "y = x/2; 3x + 4y = 20  (D) x = y/2; 3x + 4y = 20"
+          },
+          "answer": "C",
+          "explanation": "Hoopla = half rides → y = x/2. Money: 3x + 4y = 20."
+        },
+        {
+          "mcq_num": 7,
+          "difficulty": "Hard",
+          "question": "Which of the following is NOT a valid linear equation in two variables?",
+          "options": {
+            "A": "2x + 3y = 7  (B) x^2 + y = 5  (C) 3x + 0.5y - 1 = 0  (D) sqrt(2)x + sqrt(3)y = 0"
+          },
+          "answer": "B",
+          "explanation": "x^2 + y = 5 has x to the second power — not linear."
+        },
+        {
+          "mcq_num": 8,
+          "difficulty": "Hard",
+          "question": "For 4x + 6y = 18 and 2x + 3y = 9: a1/a2 = 2, b1/b2 = 2, c1/c2 = 2. The pair is:",
+          "options": {
+            "A": "Inconsistent  (B) Consistent unique  (C) Dependent consistent  (D) None"
+          },
+          "answer": "C",
+          "explanation": "All ratios equal (2) → lines coincide → infinitely many solutions → dependent consistent."
+        }
+      ]
+    }
+  ],
+  "topics": [
+    {
+      "topic_num": "3.1",
+      "topic_name": "INTRODUCTION",
+      "mode": "B",
+      "sections": [
+        {
+          "type": "definition",
+          "label": "Definition:",
+          "text": "A PAIR OF LINEAR EQUATIONS in two variables is formed when a real-life situation involves two unknown quantities related by two conditions, each expressible as a linear equation in the same two variables x and y."
+        },
+        {
+          "type": "key_points",
+          "label": "Key Points:",
+          "points": [
+            "General form: a1x + b1y + c1 = 0 and a2x + b2y + c2 = 0.",
+            "Conditions: a1, b1 not both zero; a2, b2 not both zero.",
+            "Real-life problems with two unknowns and two conditions naturally produce a pair of linear equations.",
+            "Methods to solve: Graphical, Substitution, Elimination."
+          ]
+        },
+        {
+          "type": "list_of_topics",
+          "label": "LIST OF SUB-TOPICS IN THIS TOPIC:",
+          "items": [
+            "(No sub-topics — 3.1 is an introductory topic only.)",
+            "EXAMPLES: (textbook examples)",
+            "EXAMPLE 3.1.1: Akhila's Fair Problem",
+            "PROBLEM:",
+            "Akhila went to a fair. She enjoyed rides on a Giant Wheel and played Hoopla. The number of times she played Hoopla is half the number of rides she had on the Giant Wheel. If each ride costs Rs.3 and each Hoopla game costs Rs.4, and she spent Rs.20 in total, form the pair of linear equations.",
+            "SOLUTION:",
+            "Step 1: Let x = number of rides on the Giant Wheel, y = number of Hoopla games.",
+            "Step 2: Condition 1 — Hoopla is half the rides: y = (1/2)x ...(1)",
+            "Step 3: Condition 2 — Total money: 3x + 4y = 20 ...(2)",
+            "ANSWER: The pair of equations is y = (1/2)x and 3x + 4y = 20."
+          ]
+        },
+        {
+          "type": "qa",
+          "label": "TOPIC 3.1: Q&A",
+          "items": []
+        },
+        {
+          "type": "qa",
+          "label": "Q&A",
+          "items": [
+            {
+              "q_num": 1,
+              "marks": 2,
+              "question": "What is a pair of linear equations in two variables?",
+              "answer": "x + b1y + c1 = 0 and a2x + b2y + c2 = 0,\nwhere a1, b1, c1, a2, b2, c2 are real numbers, and in each equation, the coefficients of x and y are not both zero."
+            },
+            {
+              "q_num": 2,
+              "marks": 2,
+              "question": "Write the general form of a pair of linear equations in two variables and state the condition on the coefficients.",
+              "answer": "General form: a1x + b1y + c1 = 0 and a2x + b2y + c2 = 0.\nCondition: a1, b1 are not both zero; a2, b2 are not both zero.\nThis ensures each equation contains at least one variable."
+            },
+            {
+              "q_num": 3,
+              "marks": 2,
+              "question": "What are the methods used to solve a pair of linear equations?",
+              "answer": "(i) Graphical method — plot both lines and find the intersection point.\n(ii) Algebraic method — includes Substitution Method and Elimination Method."
+            },
+            {
+              "q_num": 4,
+              "marks": 2,
+              "question": "What does the condition \"a1 and b1 not both zero\" mean in the equation a1x + b1y + c1 = 0?",
+              "answer": "It means at least one of a1 or b1 must be non-zero. If both were zero, the equation would have no variable and would not be a valid linear equation in two variables.\n\n---\n\n3 ಮಾರ್ಕ್ಸ್ × 3 questions:"
+            },
+            {
+              "q_num": 5,
+              "marks": 3,
+              "question": "Explain with an example how a real-life situation is converted into a pair of linear equations.",
+              "answer": "Step 1: Identify the two unknowns. Name them x and y.\nExample: Akhila had x rides and y Hoopla games at a fair.\n\nStep 2: Write equations from each given condition.\nCondition 1 — Hoopla is half the rides: y = x/2.\nCondition 2 — Total money (Rs.3/ride, Rs.4/Hoopla, total Rs.20): 3x + 4y = 20.\n\nStep 3: The pair of equations y = x/2 and 3x + 4y = 20 represents the situation.\nSolve to find x = 4 (rides) and y = 2 (Hoopla games)."
+            },
+            {
+              "q_num": 6,
+              "marks": 3,
+              "question": "Why does a single linear equation in two variables have infinitely many solutions? Give two examples of solutions for 2x + y = 6.",
+              "answer": "Step 1: A linear equation ax + by + c = 0 represents a straight line on the coordinate plane.\n\nStep 2: Every point on this line satisfies the equation. Since a line contains infinitely many points, there are infinitely many solutions.\n\nStep 3: For 2x + y = 6 (y = 6 - 2x):\nx = 0 → y = 6: Solution (0, 6).\nx = 1 → y = 4: Solution (1, 4).\nx = 3 → y = 0: Solution (3, 0). (infinitely many such points exist)"
+            },
+            {
+              "q_num": 7,
+              "marks": 3,
+              "question": "From Akhila's fair problem, form the pair of equations and solve to find the number of rides and Hoopla games.",
+              "answer": "Step 1: Let x = rides, y = Hoopla games.\ny = x/2 ...(1) and 3x + 4y = 20 ...(2).\n\nStep 2: Substitute (1) in (2): 3x + 4(x/2) = 20 → 3x + 2x = 20 → 5x = 20 → x = 4.\n\nStep 3: y = 4/2 = 2.\nAkhila had 4 rides and played Hoopla 2 times.\nVerification: 3(4) + 4(2) = 12 + 8 = 20 ✓.\n\n---\n\n4 ಮಾರ್ಕ್ಸ್ × 4 questions:"
+            },
+            {
+              "q_num": 8,
+              "marks": 4,
+              "question": "The sum of two numbers is 25 and their difference is 7. Form a pair of linear equations and solve them. Verify your answer.",
+              "answer": "Step 1: Let the two numbers be x and y (x > y).\nx + y = 25 ...(1) and x - y = 7 ...(2).\n\nStep 2: Add (1) and (2): 2x = 32 → x = 16.\n\nStep 3: From (1): 16 + y = 25 → y = 9.\n\nStep 4: Verification: 16 + 9 = 25 ✓. 16 - 9 = 7 ✓.\nThe two numbers are 16 and 9."
+            },
+            {
+              "q_num": 9,
+              "marks": 4,
+              "question": "The coach of a cricket team buys 7 bats and 6 balls for Rs.3800. Later, she buys 3 bats and 5 balls for Rs.1750. Form a pair of linear equations and find the cost of each bat and each ball using the substitution method.",
+              "answer": "Step 1: Let cost of 1 bat = Rs.x, cost of 1 ball = Rs.y.\n7x + 6y = 3800 ...(1) and 3x + 5y = 1750 ...(2).\n\nStep 2: From (2): x = (1750 - 5y)/3 ...(3).\n\nStep 3: Substitute (3) in (1):\n7(1750 - 5y)/3 + 6y = 3800\n(12250 - 35y)/3 + 6y = 3800\n12250 - 35y + 18y = 11400\n-17y = -850 → y = 50.\n\nStep 4: x = (1750 - 5×50)/3 = (1750 - 250)/3 = 1500/3 = 500.\nCost of 1 bat = Rs.500; cost of 1 ball = Rs.50.\nVerification: 7(500) + 6(50) = 3500 + 300 = 3800 ✓. 3(500) + 5(50) = 1500 + 250 = 1750 ✓."
+            },
+            {
+              "q_num": 10,
+              "marks": 4,
+              "question": "The difference between two numbers is 26 and one number is three times the other. Form a pair of equations and find the numbers using the elimination method.",
+              "answer": "Step 1: Let the two numbers be x and y (x > y).\nx - y = 26 ...(1) and x = 3y → x - 3y = 0 ...(2).\n\nStep 2: Subtract (2) from (1):\n(x - y) - (x - 3y) = 26 - 0 → 2y = 26 → y = 13.\n\nStep 3: x = 3y = 3 × 13 = 39.\n\nStep 4: Verification: 39 - 13 = 26 ✓. 39 = 3 × 13 ✓.\nThe two numbers are 39 and 13."
+            },
+            {
+              "q_num": 11,
+              "marks": 4,
+              "question": "The taxi charges in a city consist of a fixed charge together with a per-km charge. For 10 km, the charge is Rs.105; for 15 km, Rs.155. Find the fixed charge and charge per km. What will a person pay for 25 km?",
+              "answer": "Step 1: Let fixed charge = Rs.x, charge per km = Rs.y.\nx + 10y = 105 ...(1) and x + 15y = 155 ...(2).\n\nStep 2: Subtract (1) from (2): 5y = 50 → y = 10.\n\nStep 3: From (1): x + 10(10) = 105 → x = 5.\n\nStep 4: Fixed charge = Rs.5; charge per km = Rs.10.\nFor 25 km: 5 + 25 × 10 = 5 + 250 = Rs.255.\nVerification: 5 + 10(10) = 105 ✓. 5 + 15(10) = 155 ✓.\n\n---\n\n5 ಮಾರ್ಕ್ಸ್ × 1 question:"
+            },
+            {
+              "q_num": 12,
+              "marks": 5,
+              "question": "(PART A) The larger of two supplementary angles exceeds the smaller by 18 degrees. Find the two angles by forming a pair of equations.",
+              "answer": "PART A — Supplementary angles:\n\nStep 1: Let the larger angle = x degrees, smaller angle = y degrees.\nSupplementary: x + y = 180 ...(1).\nLarger exceeds smaller by 18: x - y = 18 ...(2).\n\nStep 2: Add (1) and (2): 2x = 198 → x = 99.\n\nStep 3: From (1): y = 180 - 99 = 81.\n\nStep 4: Verification: 99 + 81 = 180 ✓. 99 - 81 = 18 ✓.\nThe two supplementary angles are 99° and 81°.\n\nPART B — Jacob and son age problem:\n\nStep 1: Let Jacob's present age = x years, son's present age = y years.\nFive years hence: x + 5 = 3(y + 5) → x - 3y = 10 ...(1).\nFive years ago: x - 5 = 7(y - 5) → x - 7y = -30 ...(2).\n\nStep 2: Subtract (2) from (1):\n(x - 3y) - (x - 7y) = 10 - (-30) → 4y = 40 → y = 10.\n\nStep 3: From (1): x - 3(10) = 10 → x = 40.\n\nStep 4: Jacob's present age = 40 years; son's present age = 10 years.\nVerification:\nFive years hence: Jacob = 45, son = 15. 45 = 3 × 15 ✓.\nFive years ago: Jacob = 35, son = 5. 35 = 7 × 5 ✓."
+            }
+          ]
+        },
+        {
+          "type": "mcq",
+          "label": "TOPIC 3.1: MCQs",
+          "items": [
+            {
+              "mcq_num": 1,
+              "difficulty": "Easy",
+              "question": "In a1x + b1y + c1 = 0, which values must NOT both be zero?",
+              "options": {
+                "A": "c1 and a1  (B) a1 and b1  (C) b1 and c1  (D) a1 and c1"
+              },
+              "answer": "B",
+              "explanation": "a1 and b1 are the coefficients of the variables. If both are zero, no variable exists — not a valid linear equation."
+            },
+            {
+              "mcq_num": 2,
+              "difficulty": "Easy",
+              "question": "In Akhila's problem, Hoopla games are half the rides. If rides = x and Hoopla = y:",
+              "options": {
+                "A": "y = 2x  (B) x = 2y  (C) y = x/2  (D) x + y = 0"
+              },
+              "answer": "C",
+              "explanation": "Hoopla = half rides → y = x/2."
+            },
+            {
+              "mcq_num": 3,
+              "difficulty": "Easy",
+              "question": "The total money spent by Akhila (rides Rs.3 each, Hoopla Rs.4 each, total Rs.20):",
+              "options": {
+                "A": "3x + 4y = 20  (B) 4x + 3y = 20  (C) 3x - 4y = 20  (D) x + y = 20"
+              },
+              "answer": "A",
+              "explanation": "3 × rides + 4 × Hoopla = 20 → 3x + 4y = 20."
+            },
+            {
+              "mcq_num": 4,
+              "difficulty": "Easy",
+              "question": "A linear equation ax + by + c = 0 (with a, b not both zero) represents:",
+              "options": {
+                "A": "A curve  (B) A straight line  (C) A circle  (D) A parabola"
+              },
+              "answer": "B",
+              "explanation": "Every linear equation in two variables represents a straight line."
+            },
+            {
+              "mcq_num": 5,
+              "difficulty": "Easy",
+              "question": "How many solutions does a single linear equation in two variables have?",
+              "options": {
+                "A": "Exactly one  (B) No solution  (C) Exactly two  (D) Infinitely many"
+              },
+              "answer": "D",
+              "explanation": "Every point on the line satisfying the equation is a solution — infinitely many points."
+            },
+            {
+              "mcq_num": 6,
+              "difficulty": "Medium",
+              "question": "Which is NOT a linear equation in two variables?",
+              "options": {
+                "A": "2x + 3y = 7  (B) x - y = 0  (C) x^2 + y = 5  (D) 3x + 0y - 6 = 0"
+              },
+              "answer": "C",
+              "explanation": "x^2 + y = 5 has x squared — degree 2 — not linear."
+            },
+            {
+              "mcq_num": 7,
+              "difficulty": "Medium",
+              "question": "In Akhila's problem, with x = 4 rides and y = 2 Hoopla, total money = ?",
+              "options": {
+                "A": "Rs.18  (B) Rs.20  (C) Rs.22  (D) Rs.16"
+              },
+              "answer": "B",
+              "explanation": "3(4) + 4(2) = 12 + 8 = Rs.20 ✓."
+            },
+            {
+              "mcq_num": 8,
+              "difficulty": "Medium",
+              "question": "Which pair represents a valid pair of linear equations?",
+              "options": {
+                "A": "x + y = 5 and x^2 - y = 1  (B) 2x + 3y = 7 and x - 2y = 4",
+                "C": "xy = 6 and x + y = 5  (D) x/y = 2 and x + y = 8"
+              },
+              "answer": "B",
+              "explanation": "2x + 3y = 7 and x - 2y = 4 — both degree 1 in x and y."
+            },
+            {
+              "mcq_num": 9,
+              "difficulty": "Medium",
+              "question": "If a1 = 0 and b1 = 0 in a1x + b1y + c1 = 0, then:",
+              "options": {
+                "A": "Valid linear equation  (B) NOT a valid linear equation",
+                "C": "Becomes quadratic  (D) Represents the x-axis"
+              },
+              "answer": "B",
+              "explanation": "Both coefficients zero → no variable present → not a valid linear equation."
+            },
+            {
+              "mcq_num": 10,
+              "difficulty": "Medium",
+              "question": "To represent a situation as a pair of linear equations, we need:",
+              "options": {
+                "A": "One condition  (B) Two linear conditions on two unknowns",
+                "C": "Three conditions  (D) The unknowns must be positive"
+              },
+              "answer": "B",
+              "explanation": "Two unknowns need two independent linear conditions to form a solvable pair."
+            },
+            {
+              "mcq_num": 11,
+              "difficulty": "Medium",
+              "question": "Two numbers: sum = 25, difference = 7. The equations formed are:",
+              "options": {
+                "A": "x + y = 7 and x - y = 25  (B) x + y = 25 and x - y = 7",
+                "C": "x × y = 25 and x + y = 7  (D) x + y = 25 and x + y = 7"
+              },
+              "answer": "B",
+              "explanation": "Sum = 25 → x + y = 25; difference = 7 → x - y = 7."
+            },
+            {
+              "mcq_num": 12,
+              "difficulty": "Hard",
+              "question": "In Akhila's problem (y = x/2 and 3x + 4y = 20), verify: x = 4, y = 2.",
+              "options": {
+                "A": "y = 4/2 = 2 ✓ and 12 + 8 = 20 ✓  (B) y = 4 (incorrect)",
+                "C": "3(4) + 4(4) = 28 ≠ 20  (D) Cannot verify"
+              },
+              "answer": "A",
+              "explanation": "y = 4/2 = 2 ✓ and 3(4) + 4(2) = 12 + 8 = 20 ✓."
+            },
+            {
+              "mcq_num": 13,
+              "difficulty": "Hard",
+              "question": "Two conditions: x + y = 10 and x - y = 4. Values satisfying BOTH:",
+              "options": {
+                "A": "x=6, y=5  (B) x=7, y=3  (C) x=8, y=2  (D) x=5, y=5"
+              },
+              "answer": "B",
+              "explanation": "Add: 2x = 14 → x = 7. y = 10 - 7 = 3. 7+3=10 ✓; 7-3=4 ✓."
+            },
+            {
+              "mcq_num": 14,
+              "difficulty": "Hard",
+              "question": "For 0x + 3y + 6 = 0 (a=0, b=3, c=6):",
+              "options": {
+                "A": "Not valid  (B) Valid — linear equation in one variable y",
+                "C": "Valid — a pair  (D) Quadratic"
+              },
+              "answer": "B",
+              "explanation": "a=0 but b=3 ≠ 0 → valid. Simplifies to y = -2 (a horizontal line)."
+            },
+            {
+              "mcq_num": 15,
+              "difficulty": "Hard",
+              "question": "In ax + by + c = 0, the constant term is:",
+              "options": {
+                "A": "a  (B) b  (C) c  (D) x"
+              },
+              "answer": "C",
+              "explanation": "c has no variable — it is the constant term. a and b are coefficients of x and y."
+            }
+          ]
+        }
+      ],
+      "subtopics": []
+    },
+    {
+      "topic_num": "3.2",
+      "topic_name": "GRAPHICAL METHOD OF SOLUTION OF A PAIR OF LINEAR EQUATIONS",
+      "mode": "B",
+      "sections": [
+        {
+          "type": "definition",
+          "label": "Definition:",
+          "text": "The GRAPHICAL METHOD involves plotting both linear equations as straight lines on the same coordinate axes. The point(s) where the two lines meet give the solution(s) of the pair."
+        },
+        {
+          "type": "key_points",
+          "label": "Key Points:",
+          "points": [
+            "Each linear equation is graphed by finding at least two points that satisfy it and drawing the line through them.",
+            "INCONSISTENT PAIR: A pair with NO solution (parallel lines — never intersect).",
+            "CONSISTENT PAIR: A pair with at least one solution (lines intersect or coincide).",
+            "DEPENDENT PAIR: A pair where both equations represent the same line — infinitely many solutions. Always consistent.",
+            "Three geometric cases:",
+            "(i) Intersecting lines → Unique solution → Consistent.",
+            "(ii) Coincident lines → Infinitely many solutions → Dependent (consistent).",
+            "(iii) Parallel lines → No solution → Inconsistent.",
+            "Ratio conditions (Table 3.1) for a1x + b1y + c1 = 0 and a2x + b2y + c2 = 0:",
+            "a1/a2 ≠ b1/b2 → Intersecting → Unique solution → Consistent.",
+            "a1/a2 = b1/b2 = c1/c2 → Coincident → Infinitely many → Dependent (Consistent).",
+            "a1/a2 = b1/b2 ≠ c1/c2 → Parallel → No solution → Inconsistent."
+          ]
+        },
+        {
+          "type": "list_of_topics",
+          "label": "LIST OF SUB-TOPICS IN THIS TOPIC:",
+          "items": [
+            "(No sub-topics — 3.2 covers graphical method as one complete topic.)",
+            "EXAMPLES: (textbook examples)",
+            "EXAMPLE 3.2.1: (Textbook Example 1) — Consistent Pair, Unique Solution",
+            "PROBLEM:",
+            "Check graphically whether the pair x + 3y = 6 ...(1) and 2x - 3y = 12 ...(2) is consistent. If so, solve them graphically.",
+            "SOLUTION:",
+            "Step 1: For x + 3y = 6: x=0→y=2 (A); x=6→y=0 (B).",
+            "Step 2: For 2x - 3y = 12: x=0→y=-4 (P); x=3→y=-2 (Q).",
+            "Step 3: Plot A, B → draw line AB. Plot P, Q → draw line PQ.",
+            "Step 4: Lines intersect at B(6, 0).",
+            "ANSWER: CONSISTENT. Solution: x = 6, y = 0.",
+            "Verification: 6 + 3(0) = 6 ✓; 2(6) - 3(0) = 12 ✓.",
+            "EXAMPLE 3.2.2: (Textbook Example 2) — Dependent Pair, Infinitely Many Solutions",
+            "PROBLEM:",
+            "Find graphically whether 5x - 8y + 1 = 0 and 3x - (24/5)y + 3/5 = 0 has no, unique, or infinitely many solutions.",
+            "SOLUTION:",
+            "Step 1: Multiply equation (2) by 5/3: 5x - 8y + 1 = 0 — same as (1).",
+            "Step 2: Both equations represent the same line.",
+            "ANSWER: COINCIDENT lines → INFINITELY MANY SOLUTIONS.",
+            "EXAMPLE 3.2.3: (Textbook Example 3) — Real-life Problem, Unique Solution",
+            "PROBLEM:",
+            "Champa bought pants (x) and skirts (y). Skirts = 2(pants) - 2 and skirts = 4(pants) - 4. Find how many she bought.",
+            "SOLUTION:",
+            "Step 1: y = 2x-2 ...(1); y = 4x-4 ...(2).",
+            "Step 2: For y=2x-2: A(2,2), B(0,-2). For y=4x-4: P(0,-4), Q(1,0).",
+            "Step 3: Lines intersect at (1, 0).",
+            "ANSWER: x = 1 pant, y = 0 skirts.",
+            "Verification: y=2(1)-2=0 ✓; y=4(1)-4=0 ✓."
+          ]
+        },
+        {
+          "type": "exercise",
+          "label": "EXERCISE 3.1 (7 Questions):",
+          "items": [
+            {
+              "q_num": 3,
+              "marks": null,
+              "question": "1.1: Form the pair of linear equations and find solutions graphically.",
+              "answer": "(i) 10 students took a quiz; number of girls is 4 more than boys.\n(ii) 5 pencils + 7 pens = Rs.50; 7 pencils + 5 pens = Rs.46."
+            }
+          ],
+          "raw": "Q3.1.1: Form the pair of linear equations and find solutions graphically.\n(i) 10 students took a quiz; number of girls is 4 more than boys.\n(ii) 5 pencils + 7 pens = Rs.50; 7 pencils + 5 pens = Rs.46.\n\nQ3.1.2: Compare ratios a1/a2, b1/b2, c1/c2 — intersect, parallel, or coincident:\n(i) 5x - 4y + 8 = 0; 7x + 6y - 9 = 0\n(ii) 9x + 3y + 12 = 0; 18x + 6y + 24 = 0\n(iii) 6x - 3y + 10 = 0; 2x - y + 9 = 0\n\nQ3.1.3: Find if pairs are consistent or inconsistent:\n(i) 3x+2y=5; 2x-3y=7 (ii) 2x-3y=8; 4x-6y=9\n(iii) (3/2)x+(5/3)y=7; 9x-10y=14 (iv) 5x-3y=11; -10x+6y=-22\n(v) (4/3)x+2y=8; 2x+3y=12\n\nQ3.1.4: Consistent or inconsistent? If consistent, solve graphically:\n(i) x+y=5; 2x+2y=10 (ii) x-y=8; 3x-3y=16\n(iii) 2x+y-6=0; 4x-2y-4=0 (iv) 2x-2y-2=0; 4x-4y-5=0\n\nQ3.1.5: Half the perimeter of a rectangular garden (length 4m more than width) = 36m. Find dimensions.\n\nQ3.1.6: Given 2x+3y-8=0, write another equation so the pair represents:\n(i) Intersecting lines  (ii) Parallel lines  (iii) Coincident lines\n\nQ3.1.7: Draw graphs of x-y+1=0 and 3x+2y-12=0. Find vertices of triangle formed with x-axis. Shade the region."
+        },
+        {
+          "type": "qa",
+          "label": "TOPIC 3.2: Q&A",
+          "items": []
+        },
+        {
+          "type": "qa",
+          "label": "Q&A",
+          "items": [
+            {
+              "q_num": 1,
+              "marks": 2,
+              "question": "What is called a consistent pair of linear equations? What is an inconsistent pair?",
+              "answer": "Consistent pair: A pair which has at least one solution (lines intersect or coincide).\nInconsistent pair: A pair which has no solution (lines are parallel and never meet)."
+            },
+            {
+              "q_num": 2,
+              "marks": 2,
+              "question": "What is a dependent pair of linear equations?",
+              "answer": "A pair of linear equations where both equations represent the same line. It has infinitely many common solutions. A dependent pair is always consistent."
+            },
+            {
+              "q_num": 3,
+              "marks": 2,
+              "question": "State the ratio condition for two lines to be parallel (no solution).",
+              "answer": "For a1x + b1y + c1 = 0 and a2x + b2y + c2 = 0:\nLines are parallel when a1/a2 = b1/b2 ≠ c1/c2.\nThe pair has no solution and is called inconsistent."
+            },
+            {
+              "q_num": 4,
+              "marks": 2,
+              "question": "Why is the graphical method not always convenient?",
+              "answer": "When the solution has non-integral coordinates like (-1.75, 3.3) or (4/13, 1/19), reading exact values from a graph is very difficult and error-prone. Algebraic methods give exact answers in such cases.\n\n---\n\n3 ಮಾರ್ಕ್ಸ್ × 3 questions:"
+            },
+            {
+              "q_num": 5,
+              "marks": 3,
+              "question": "Write all three ratio conditions for a pair of linear equations and the corresponding type of lines and solution.",
+              "answer": "Step 1: a1/a2 ≠ b1/b2 → Lines INTERSECT → Unique solution → Consistent.\n\nStep 2: a1/a2 = b1/b2 = c1/c2 → Lines COINCIDE → Infinitely many solutions → Dependent (Consistent).\n\nStep 3: a1/a2 = b1/b2 ≠ c1/c2 → Lines PARALLEL → No solution → Inconsistent."
+            },
+            {
+              "q_num": 6,
+              "marks": 3,
+              "question": "For 3x + 2y = 5 and 2x - 3y = 7, determine using ratios whether the pair is consistent or inconsistent.",
+              "answer": "Step 1: a1=3, b1=2, c1=-5; a2=2, b2=-3, c2=-7.\n\nStep 2: a1/a2 = 3/2; b1/b2 = 2/(-3) = -2/3.\n\nStep 3: 3/2 ≠ -2/3 → a1/a2 ≠ b1/b2 → Lines INTERSECT → CONSISTENT pair → UNIQUE SOLUTION."
+            },
+            {
+              "q_num": 7,
+              "marks": 3,
+              "question": "For x + 2y - 4 = 0 and 2x + 4y - 12 = 0, find the type of lines and solution using ratio method.",
+              "answer": "Step 1: a1=1, b1=2, c1=-4; a2=2, b2=4, c2=-12.\n\nStep 2: a1/a2=1/2; b1/b2=2/4=1/2; c1/c2=(-4)/(-12)=1/3.\n\nStep 3: a1/a2=b1/b2=1/2 but c1/c2=1/3 ≠ 1/2.\nCondition: a1/a2=b1/b2 ≠ c1/c2 → PARALLEL lines → NO SOLUTION → INCONSISTENT.\n\n---\n\n4 ಮಾರ್ಕ್ಸ್ × 4 questions:"
+            },
+            {
+              "q_num": 8,
+              "marks": 4,
+              "question": "Check graphically whether x + 3y = 6 and 2x - 3y = 12 is consistent. Solve graphically and verify.",
+              "answer": "Step 1: Ratio check — a1/a2=1/2, b1/b2=3/(-3)=-1. Since 1/2 ≠ -1 → consistent.\n\nStep 2: Points for x + 3y = 6:\nx=0 → y=2: Point A(0,2). x=6 → y=0: Point B(6,0).\n\nStep 3: Points for 2x - 3y = 12:\nx=0 → y=-4: Point P(0,-4). x=3 → y=-2: Point Q(3,-2).\n\nStep 4: Plot, draw both lines. They meet at B(6, 0).\nSolution: x=6, y=0.\nVerification: 6+3(0)=6 ✓; 2(6)-3(0)=12 ✓."
+            },
+            {
+              "q_num": 9,
+              "marks": 4,
+              "question": "5 pencils and 7 pens cost Rs.50; 7 pencils and 5 pens cost Rs.46. Form equations, check consistency using ratios, and solve graphically.",
+              "answer": "Step 1: Let pencil = Rs.x, pen = Rs.y.\n5x + 7y = 50 ...(1) and 7x + 5y = 46 ...(2).\n\nStep 2: a1/a2=5/7, b1/b2=7/5. Since 5/7 ≠ 7/5 → lines INTERSECT → CONSISTENT.\n\nStep 3: Points for 5x+7y=50: x=3→y=5 (A); x=10→y=0 (B).\nPoints for 7x+5y=46: x=3→y=5 (A same!); x=8→y=-2 (Q).\n\nStep 4: Lines intersect at A(3, 5).\nCost of pencil = Rs.3, cost of pen = Rs.5.\nVerification: 5(3)+7(5)=15+35=50 ✓. 7(3)+5(5)=21+25=46 ✓."
+            },
+            {
+              "q_num": 10,
+              "marks": 4,
+              "question": "Half the perimeter of a rectangular garden is 36 m and its length is 4 m more than its width. Form a pair of equations and find the dimensions graphically.",
+              "answer": "Step 1: Let length = l metres, width = b metres.\nHalf perimeter: l + b = 36 ...(1). Length 4m more than width: l - b = 4 ...(2).\n\nStep 2: Points for l+b=36: (0,36), (36,0), (20,16).\nPoints for l-b=4: (4,0), (20,16), (36,32).\n\nStep 3: Lines intersect at (20, 16).\n\nStep 4: Length = 20 m, Width = 16 m.\nVerification: 20+16=36 ✓. 20-16=4 ✓."
+            },
+            {
+              "q_num": 11,
+              "marks": 4,
+              "question": "Draw the graphs of x - y + 1 = 0 and 3x + 2y - 12 = 0. Find the vertices of the triangle formed by these lines and the x-axis.",
+              "answer": "Step 1: Points for x-y+1=0 (y=x+1):\nx=0→y=1: A(0,1). x=2→y=3. x=-1→y=0: B(-1,0) (x-axis).\n\nStep 2: Points for 3x+2y-12=0 (y=(12-3x)/2):\nx=0→y=6: C(0,6). x=4→y=0: D(4,0) (x-axis).\n\nStep 3: Find intersection of the two lines.\nFrom x-y+1=0: y=x+1. Substitute in 3x+2(x+1)-12=0 → 5x=10 → x=2, y=3: E(2,3).\n\nStep 4: Triangle vertices:\nB(-1, 0), D(4, 0) — on x-axis. E(2, 3) — intersection point.\nThree vertices: (-1, 0), (4, 0), and (2, 3).\n\n---\n\n5 ಮಾರ್ಕ್ಸ್ × 1 question:"
+            },
+            {
+              "q_num": 12,
+              "marks": 5,
+              "question": "",
+              "answer": "PART A — Ratio method and verification:\n\nStep 1: a1=4/3, b1=2, c1=-8; a2=2, b2=3, c2=-12.\na1/a2=(4/3)/2=2/3. b1/b2=2/3. c1/c2=(-8)/(-12)=2/3.\n\nStep 2: a1/a2 = b1/b2 = c1/c2 = 2/3. All three ratios are equal.\n\nStep 3: Condition: a1/a2=b1/b2=c1/c2 → Lines COINCIDE → DEPENDENT (CONSISTENT) → INFINITELY MANY SOLUTIONS.\n\nStep 4: Verification — multiply equation (2) by 2/3:\n(2/3)(2x) + (2/3)(3y) = (2/3)(12) → (4/3)x + 2y = 8. This is exactly equation (1). ✓\nBoth equations are the same line — confirming infinitely many solutions.\n\nPART B — Writing equations for each geometric case:\n\nStep 1: (i) INTERSECTING lines (unique solution) — need a1/a2 ≠ b1/b2.\nWrite: x + y - 4 = 0.\nCheck: a1/a2=2/1=2, b1/b2=3/1=3. 2 ≠ 3 → INTERSECTING ✓.\n\nStep 2: (ii) PARALLEL lines (no solution) — need a1/a2=b1/b2 ≠ c1/c2.\nWrite: 2x + 3y - 12 = 0.\nCheck: a1/a2=2/2=1, b1/b2=3/3=1, c1/c2=(-8)/(-12)=2/3. 1 ≠ 2/3 → PARALLEL ✓.\n\nStep 3: (iii) COINCIDENT lines (infinitely many solutions) — need a1/a2=b1/b2=c1/c2.\nWrite: 4x + 6y - 16 = 0 (multiply 2x+3y-8=0 by 2).\nCheck: a1/a2=2/4=1/2, b1/b2=3/6=1/2, c1/c2=(-8)/(-16)=1/2. All equal → COINCIDENT ✓."
+            }
+          ]
+        },
+        {
+          "type": "mcq",
+          "label": "TOPIC 3.2: MCQs",
+          "items": [
+            {
+              "mcq_num": 1,
+              "difficulty": "Easy",
+              "question": "When two lines are parallel, the pair has:",
+              "options": {
+                "A": "Unique solution  (B) No solution  (C) Infinitely many  (D) Two solutions"
+              },
+              "answer": "B",
+              "explanation": "Parallel lines never meet → no common point → no solution → inconsistent."
+            },
+            {
+              "mcq_num": 2,
+              "difficulty": "Easy",
+              "question": "When two lines coincide, the pair has:",
+              "options": {
+                "A": "Unique solution  (B) No solution  (C) Infinitely many solutions  (D) Exactly two"
+              },
+              "answer": "C",
+              "explanation": "Every point on the line is a common solution → infinitely many."
+            },
+            {
+              "mcq_num": 3,
+              "difficulty": "Easy",
+              "question": "A consistent pair of linear equations has:",
+              "options": {
+                "A": "No solution  (B) At least one solution  (C) Exactly two  (D) Only infinitely many"
+              },
+              "answer": "B",
+              "explanation": "Consistent means at least one solution — unique or infinitely many."
+            },
+            {
+              "mcq_num": 4,
+              "difficulty": "Easy",
+              "question": "If two lines intersect at one point, the pair is:",
+              "options": {
+                "A": "Inconsistent  (B) Dependent  (C) Consistent with unique solution  (D) No solution"
+              },
+              "answer": "C",
+              "explanation": "One intersection point = one unique solution = consistent."
+            },
+            {
+              "mcq_num": 5,
+              "difficulty": "Easy",
+              "question": "A dependent pair of linear equations is always:",
+              "options": {
+                "A": "Inconsistent  (B) Consistent  (C) No solution  (D) One solution"
+              },
+              "answer": "B",
+              "explanation": "Dependent → same line → infinitely many solutions → always consistent."
+            },
+            {
+              "mcq_num": 6,
+              "difficulty": "Medium",
+              "question": "If a1/a2 ≠ b1/b2, the lines are:",
+              "options": {
+                "A": "Parallel  (B) Coincident  (C) Intersecting  (D) Cannot determine"
+              },
+              "answer": "C",
+              "explanation": "Different ratios → different slopes → lines intersect."
+            },
+            {
+              "mcq_num": 7,
+              "difficulty": "Medium",
+              "question": "If a1/a2=b1/b2=c1/c2, the pair is:",
+              "options": {
+                "A": "Inconsistent  (B) Consistent unique  (C) Dependent consistent  (D) None"
+              },
+              "answer": "C",
+              "explanation": "All ratios equal → lines coincide → infinitely many solutions."
+            },
+            {
+              "mcq_num": 8,
+              "difficulty": "Medium",
+              "question": "If a1/a2=b1/b2 ≠ c1/c2, which is TRUE?",
+              "options": {
+                "A": "Lines intersect  (B) Lines are parallel  (C) Lines coincide  (D) Unique solution"
+              },
+              "answer": "B",
+              "explanation": "Equal x-y ratio (same slope) but unequal constant ratio → parallel → no solution."
+            },
+            {
+              "mcq_num": 9,
+              "difficulty": "Medium",
+              "question": "For x+3y=6 and 2x-3y=12: a1/a2=1/2, b1/b2=-1. Lines are:",
+              "options": {
+                "A": "Parallel  (B) Coincident  (C) Intersecting  (D) Cannot determine"
+              },
+              "answer": "C",
+              "explanation": "1/2 ≠ -1 → lines intersect → unique solution at (6,0)."
+            },
+            {
+              "mcq_num": 10,
+              "difficulty": "Medium",
+              "question": "In Champa's problem, y=2x-2 and y=4x-4 intersect at (1,0). In context:",
+              "options": {
+                "A": "0 pants and 1 skirt  (B) 1 pant and 0 skirts  (C) 2 pants  (D) No solution"
+              },
+              "answer": "B",
+              "explanation": "x=1 (pants), y=0 (skirts)."
+            },
+            {
+              "mcq_num": 11,
+              "difficulty": "Medium",
+              "question": "For 2x+3y-9=0 and 4x+6y-18=0: a1/a2=1/2, b1/b2=1/2, c1/c2=1/2. Pair is:",
+              "options": {
+                "A": "Inconsistent  (B) Consistent unique  (C) Dependent consistent  (D) None"
+              },
+              "answer": "C",
+              "explanation": "All ratios equal → lines coincide → infinitely many solutions."
+            },
+            {
+              "mcq_num": 12,
+              "difficulty": "Hard",
+              "question": "For x+2y-4=0 and 2x+4y-12=0: a1/a2=1/2, b1/b2=1/2, c1/c2=1/3. Pair is:",
+              "options": {
+                "A": "Consistent unique  (B) Dependent  (C) Inconsistent  (D) None"
+              },
+              "answer": "C",
+              "explanation": "a1/a2=b1/b2=1/2 ≠ c1/c2=1/3 → parallel → no solution → inconsistent."
+            },
+            {
+              "mcq_num": 13,
+              "difficulty": "Hard",
+              "question": "Condition for PARALLEL lines:",
+              "options": {
+                "A": "a1/a2 ≠ b1/b2  (B) a1/a2=b1/b2=c1/c2  (C) a1/a2=b1/b2 ≠ c1/c2  (D) a1/a2=c1/c2 ≠ b1/b2"
+              },
+              "answer": "C",
+              "explanation": "Same x-y ratio (same slope) but different constant ratio (different intercept) → parallel."
+            },
+            {
+              "mcq_num": 14,
+              "difficulty": "Hard",
+              "question": "For 3x+2y=5 and 2x-3y=7: a1/a2=3/2, b1/b2=-2/3. Pair is:",
+              "options": {
+                "A": "Inconsistent  (B) Consistent unique  (C) Dependent  (D) Cannot determine"
+              },
+              "answer": "B",
+              "explanation": "3/2 ≠ -2/3 → a1/a2 ≠ b1/b2 → intersecting → unique solution → consistent."
+            },
+            {
+              "mcq_num": 15,
+              "difficulty": "Hard",
+              "question": "For (4/3)x+2y=8 and 2x+3y=12: a1/a2=2/3, b1/b2=2/3, c1/c2=2/3. Pair is:",
+              "options": {
+                "A": "Inconsistent  (B) Consistent unique  (C) Dependent consistent  (D) None"
+              },
+              "answer": "C",
+              "explanation": "All ratios=2/3 → coincide → infinitely many → dependent consistent."
+            }
+          ]
+        }
+      ],
+      "subtopics": []
+    },
+    {
+      "topic_num": "3.3",
+      "topic_name": "ALGEBRAIC METHODS OF SOLVING A PAIR OF LINEAR EQUATIONS",
+      "mode": "A",
+      "sections": [
+        {
+          "type": "definition",
+          "label": "Definition:",
+          "text": "ALGEBRAIC METHODS are methods of solving a pair of linear equations using mathematical operations on the equations (without drawing graphs), giving exact solutions."
+        },
+        {
+          "type": "key_points",
+          "label": "Key Points:",
+          "points": [
+            "The graphical method is not convenient when solutions have non-integral coordinates like (sqrt(3), 2*sqrt(7)), (-1.75, 3.3), (4/13, 1/19).",
+            "Two algebraic methods: (i) Substitution Method (3.3.1) and (ii) Elimination Method (3.3.2).",
+            "Possible outcomes when solving algebraically:",
+            "(i) Unique values for x and y → unique solution (consistent).",
+            "(ii) True statement with no variable (e.g., 0=0) → infinitely many solutions (dependent consistent).",
+            "(iii) False statement with no variable (e.g., 0=9) → no solution (inconsistent)."
+          ]
+        },
+        {
+          "type": "list_of_topics",
+          "label": "LIST OF SUB-TOPICS IN THIS TOPIC:",
+          "items": [
+            "- Sub-Topic 3.3.1: Substitution Method",
+            "- Sub-Topic 3.3.2: Elimination Method"
+          ]
+        },
+        {
+          "type": "qa",
+          "label": "TOPIC 3.3: Q&A",
+          "items": []
+        },
+        {
+          "type": "qa",
+          "label": "Q&A",
+          "items": [
+            {
+              "q_num": 1,
+              "marks": 2,
+              "question": "Why do we prefer algebraic methods over the graphical method?",
+              "answer": "The graphical method is not convenient when the solution has non-integral coordinates like (sqrt(3), 2*sqrt(7)) or (4/13, 1/19). Reading such values accurately from a graph is very difficult. Algebraic methods give exact answers."
+            },
+            {
+              "q_num": 2,
+              "marks": 2,
+              "question": "Name the two algebraic methods for solving a pair of linear equations and state the basic idea of each.",
+              "answer": "(i) Substitution Method — Express one variable in terms of the other from one equation and substitute in the second.\n(ii) Elimination Method — Multiply both equations by suitable constants to make one variable's coefficient equal, then add or subtract to eliminate it."
+            },
+            {
+              "q_num": 3,
+              "marks": 2,
+              "question": "When solving a pair of equations algebraically, what does getting a TRUE statement like \"0 = 0\" indicate?",
+              "answer": "It indicates that both equations represent the same line. The pair has INFINITELY MANY SOLUTIONS (dependent consistent pair)."
+            },
+            {
+              "q_num": 4,
+              "marks": 2,
+              "question": "When solving a pair of equations algebraically, what does getting a FALSE statement like \"0 = 9\" indicate?",
+              "answer": "It indicates that the lines are parallel — there is no common solution. The pair has NO SOLUTION (inconsistent pair).\n\n---\n\n3 ಮಾರ್ಕ್ಸ್ × 3 questions:"
+            },
+            {
+              "q_num": 5,
+              "marks": 3,
+              "question": "What are the three possible outcomes when solving a pair of linear equations algebraically? Give the condition for each.",
+              "answer": "Step 1: Unique solution — We find specific values x=a and y=b that satisfy both equations. The lines intersect (a1/a2 ≠ b1/b2). Consistent pair.\n\nStep 2: Infinitely many solutions — We get a TRUE statement with no variable (e.g., 18=18 or 0=0). Both equations represent the same line (a1/a2=b1/b2=c1/c2). Dependent consistent pair.\n\nStep 3: No solution — We get a FALSE statement with no variable (e.g., 0=9 or -4=0). The lines are parallel (a1/a2=b1/b2 ≠ c1/c2). Inconsistent pair."
+            },
+            {
+              "q_num": 6,
+              "marks": 3,
+              "question": "For 2x + 3y = 8 and 4x + 6y = 7, show using BOTH substitution and elimination that the pair has no solution.",
+              "answer": "Step 1: Substitution — From 2x+3y=8: x=(8-3y)/2. Substitute in 4x+6y=7:\n4×(8-3y)/2 + 6y = 7 → 16-6y+6y = 7 → 16 = 7. FALSE → no solution.\n\nStep 2: Elimination — Multiply 2x+3y=8 by 2: 4x+6y=16.\nSubtract 4x+6y=7: 0 = 9. FALSE → no solution.\n\nStep 3: Both methods confirm the pair is INCONSISTENT. Check ratios: a1/a2=1/2, b1/b2=1/2, c1/c2=8/7. Since a1/a2=b1/b2 ≠ c1/c2 → parallel lines ✓."
+            },
+            {
+              "q_num": 7,
+              "marks": 3,
+              "question": "Compare all three methods (graphical, substitution, elimination). State when each is most suitable.",
+              "answer": "Step 1: Graphical method — Best for visual understanding. Only suitable when solution has integer coordinates. NOT suitable for fractional/irrational solutions.\n\nStep 2: Substitution method — Suitable for ALL cases. Best when one variable can be easily expressed in terms of the other (e.g., x = 3 - 2y). Gives exact values.\n\nStep 3: Elimination method — Suitable for ALL cases. Often faster than substitution when coefficients can be matched easily by multiplying by small integers. All three methods give the same answer.\n\n---\n\n4 ಮಾರ್ಕ್ಸ್ × 4 questions:"
+            },
+            {
+              "q_num": 8,
+              "marks": 4,
+              "question": "Solve x + y = 5 and 2x - 3y = 4 by BOTH substitution and elimination methods. Verify.",
+              "answer": "Step 1: SUBSTITUTION — From x+y=5: x=5-y. Substitute in 2x-3y=4:\n2(5-y)-3y=4 → 10-2y-3y=4 → -5y=-6 → y=6/5.\nx=5-6/5=19/5.\n\nStep 2: ELIMINATION — Multiply x+y=5 by 3: 3x+3y=15.\nAdd to 2x-3y=4: 5x=19 → x=19/5.\nSubstitute: 19/5+y=5 → y=6/5.\n\nStep 3: Both methods give x=19/5, y=6/5. ✓\n\nStep 4: Verification: 19/5+6/5=25/5=5 ✓. 2(19/5)-3(6/5)=38/5-18/5=20/5=4 ✓."
+            },
+            {
+              "q_num": 9,
+              "marks": 4,
+              "question": "Solve 3x - 5y - 4 = 0 and 9x = 2y + 7 by the substitution method.",
+              "answer": "Step 1: Rewrite: 3x-5y=4 ...(1) and 9x-2y=7 ...(2).\nFrom (1): x=(4+5y)/3 ...(3).\n\nStep 2: Substitute (3) in (2): 9×(4+5y)/3 - 2y = 7 → 3(4+5y) - 2y = 7 → 12+15y-2y = 7 → 13y = -5 → y = -5/13.\n\nStep 3: x = (4+5×(-5/13))/3 = (4-25/13)/3 = (52/13-25/13)/3 = (27/13)/3 = 27/39 = 9/13.\n\nStep 4: Solution: x=9/13, y=-5/13.\nVerification: 3(9/13)-5(-5/13)=27/13+25/13=52/13=4 ✓. 9(9/13)-2(-5/13)=81/13+10/13=91/13=7 ✓."
+            },
+            {
+              "q_num": 10,
+              "marks": 4,
+              "question": "Solve x/2 + 2y/3 = -1 and x - y/3 = 3 by the elimination method.",
+              "answer": "Step 1: Multiply first equation by 6: 3x + 4y = -6 ...(1).\nMultiply second equation by 3: 3x - y = 9 ...(2).\n\nStep 2: Subtract (2) from (1): 5y = -15 → y = -3.\n\nStep 3: Substitute y=-3 in (2): 3x-(-3)=9 → 3x+3=9 → 3x=6 → x=2.\n\nStep 4: Solution: x=2, y=-3.\nVerification: 2/2+2(-3)/3 = 1-2 = -1 ✓. 2-(-3)/3 = 2+1 = 3 ✓."
+            },
+            {
+              "q_num": 11,
+              "marks": 4,
+              "question": "Solve 3x + 4y = 10 and 2x - 2y = 2 by elimination. Also solve by substitution. Verify both give the same answer.",
+              "answer": "Step 1: ELIMINATION — Multiply 2x-2y=2 by 2: 4x-4y=4. Add to 3x+4y=10:\n7x=14 → x=2. Substitute: 2(2)-2y=2 → 4-2y=2 → y=1.\n\nStep 2: SUBSTITUTION — From 2x-2y=2: x=1+y. Substitute in 3x+4y=10:\n3(1+y)+4y=10 → 3+7y=10 → 7y=7 → y=1. x=1+1=2.\n\nStep 3: Both methods: x=2, y=1. ✓\n\nStep 4: Verification: 3(2)+4(1)=6+4=10 ✓. 2(2)-2(1)=4-2=2 ✓.\n\n---\n\n5 ಮಾರ್ಕ್ಸ್ × 1 question:"
+            },
+            {
+              "q_num": 12,
+              "marks": 5,
+              "question": "",
+              "answer": "PART A — Pencils and erasers:\n\nStep 1: Let pencil = Rs.x, eraser = Rs.y.\n2x + 3y = 9 ...(1) and 4x + 6y = 18 ...(2).\n\nStep 2: From (1): x = (9-3y)/2 ...(3). Substitute in (2):\n4×(9-3y)/2 + 6y = 18 → 2(9-3y) + 6y = 18 → 18-6y+6y = 18 → 18 = 18.\n\nStep 3: Observation — This is a TRUE statement with no variable. The pair has INFINITELY MANY SOLUTIONS. Equation (2) = 2 × Equation (1), so both are the same equation.\n\nStep 4: We CANNOT find a unique cost. For any value of y (eraser price), x = (9-3y)/2 gives a valid pencil price. Example: if eraser = Rs.1, pencil = Rs.3; if eraser = Rs.3, pencil = Rs.0. The problem has no unique answer.\n\nPART B — Two rails problem:\n\nStep 1: x + 2y - 4 = 0 ...(1) and 2x + 4y - 12 = 0 ...(2).\nMultiply (1) by 2: 2x + 4y - 8 = 0 ...(3).\n\nStep 2: Subtract (3) from (2): (2x+4y-12)-(2x+4y-8) = 0 → -4 = 0.\n\nStep 3: FALSE statement → the pair has NO SOLUTION → the rails will NOT cross each other.\n\nStep 4: Verify using ratios: a1=1, b1=2, c1=-4; a2=2, b2=4, c2=-12.\na1/a2=1/2; b1/b2=2/4=1/2; c1/c2=(-4)/(-12)=1/3.\na1/a2=b1/b2=1/2 ≠ c1/c2=1/3 → PARALLEL lines → no solution ✓.\nThe rails run parallel and will never cross each other."
+            }
+          ]
+        },
+        {
+          "type": "mcq",
+          "label": "TOPIC 3.3: MCQs",
+          "items": [
+            {
+              "mcq_num": 1,
+              "difficulty": "Easy",
+              "question": "Which is an algebraic method to solve a pair of linear equations?",
+              "options": {
+                "A": "Graphical  (B) Substitution  (C) Table  (D) Trial and error"
+              },
+              "answer": "B",
+              "explanation": "Substitution and Elimination are the two algebraic methods."
+            },
+            {
+              "mcq_num": 2,
+              "difficulty": "Easy",
+              "question": "The elimination method works by:",
+              "options": {
+                "A": "Drawing graphs  (B) Making one variable's coefficients equal then adding/subtracting",
+                "C": "Substituting one variable  (D) Guessing"
+              },
+              "answer": "B",
+              "explanation": "Make coefficients equal then add or subtract to eliminate one variable."
+            },
+            {
+              "mcq_num": 3,
+              "difficulty": "Easy",
+              "question": "Getting a FALSE statement (like 0=9) while solving means:",
+              "options": {
+                "A": "Unique solution  (B) Infinitely many  (C) No solution  (D) Error"
+              },
+              "answer": "C",
+              "explanation": "False statement → no solution → inconsistent (parallel lines)."
+            },
+            {
+              "mcq_num": 4,
+              "difficulty": "Easy",
+              "question": "Getting a TRUE statement (like 18=18) while solving means:",
+              "options": {
+                "A": "No solution  (B) Unique solution  (C) Infinitely many solutions  (D) Two solutions"
+              },
+              "answer": "C",
+              "explanation": "True statement with no variable → same line → infinitely many solutions."
+            },
+            {
+              "mcq_num": 5,
+              "difficulty": "Easy",
+              "question": "Algebraic methods give _____ answers compared to graphical method.",
+              "options": {
+                "A": "Approximate  (B) Graphical  (C) Exact  (D) Visual"
+              },
+              "answer": "C",
+              "explanation": "Algebraic methods give exact values; graphical method has reading errors for non-integers."
+            },
+            {
+              "mcq_num": 6,
+              "difficulty": "Medium",
+              "question": "For a solution like (sqrt(3), 2*sqrt(7)), which method is best?",
+              "options": {
+                "A": "Graphical  (B) Algebraic  (C) Trial  (D) None"
+              },
+              "answer": "B",
+              "explanation": "Irrational coordinates cannot be read accurately from a graph; algebraic methods give exact values."
+            },
+            {
+              "mcq_num": 7,
+              "difficulty": "Medium",
+              "question": "Substitution method has how many main steps?",
+              "options": {
+                "A": "2  (B) 3  (C) 4  (D) 5"
+              },
+              "answer": "B",
+              "explanation": "Step 1: Express one variable. Step 2: Substitute and solve. Step 3: Back-substitute."
+            },
+            {
+              "mcq_num": 8,
+              "difficulty": "Medium",
+              "question": "Elimination method has how many main steps?",
+              "options": {
+                "A": "2  (B) 3  (C) 4  (D) 5"
+              },
+              "answer": "C",
+              "explanation": "Make coefficients equal → Eliminate → Solve → Find other variable."
+            },
+            {
+              "mcq_num": 9,
+              "difficulty": "Medium",
+              "question": "For 2x+3y=8 and 4x+6y=7, after elimination we get 0=9. This means:",
+              "options": {
+                "A": "Error  (B) No solution  (C) Infinitely many  (D) x=0, y=9"
+              },
+              "answer": "B",
+              "explanation": "0=9 is false → no solution → inconsistent (parallel lines)."
+            },
+            {
+              "mcq_num": 10,
+              "difficulty": "Medium",
+              "question": "For 2x+3y=8 and 4x+6y=16: a1/a2=1/2, b1/b2=1/2, c1/c2=1/2. Solving gives:",
+              "options": {
+                "A": "Unique solution  (B) 0=9  (C) 0=0 (infinitely many)  (D) x=2, y=3"
+              },
+              "answer": "C",
+              "explanation": "All ratios equal → same line → 0=0 (true) → infinitely many."
+            },
+            {
+              "mcq_num": 11,
+              "difficulty": "Medium",
+              "question": "For which pair will solving give a false statement?",
+              "options": {
+                "A": "2x+3y=8 and 4x+6y=16  (B) 2x+3y=8 and 4x+6y=7",
+                "C": "x+y=5 and 2x+2y=10  (D) x-y=3 and 2x-2y=6"
+              },
+              "answer": "B",
+              "explanation": "For (B): a1/a2=b1/b2=1/2 but c1/c2=8/7 ≠ 1/2 → parallel → false statement."
+            },
+            {
+              "mcq_num": 12,
+              "difficulty": "Hard",
+              "question": "After solving a pair algebraically, a student gets -4=0. This means:",
+              "options": {
+                "A": "x=-4  (B) y=0  (C) Infinitely many  (D) No solution"
+              },
+              "answer": "D",
+              "explanation": "-4=0 is false → lines are parallel → no solution → inconsistent pair."
+            },
+            {
+              "mcq_num": 13,
+              "difficulty": "Hard",
+              "question": "While solving by substitution: x=(8-3y)/2 is substituted in 4x+6y=7. Expanding gives:",
+              "options": {
+                "A": "16=7 (false, no solution)  (B) 0=0 (infinite)  (C) y=1 (unique)  (D) x=2"
+              },
+              "answer": "A",
+              "explanation": "4×(8-3y)/2+6y=7 → 16-6y+6y=7 → 16=7 → FALSE → no solution."
+            },
+            {
+              "mcq_num": 14,
+              "difficulty": "Hard",
+              "question": "To eliminate variable y from 9x-4y=2000 and 7x-3y=2000, multiply by:",
+              "options": {
+                "A": "First by 4, second by 3  (B) First by 3, second by 4",
+                "C": "First by 7, second by 9  (D) First by 2, second by 2"
+              },
+              "answer": "B",
+              "explanation": "LCM of 4 and 3 is 12. Multiply (1) by 3: -12y; multiply (2) by 4: -12y. Subtract to eliminate y."
+            },
+            {
+              "mcq_num": 15,
+              "difficulty": "Hard",
+              "question": "For x/2+2y/3=-1 and x-y/3=3, multiply to clear fractions. First equation ×6 gives:",
+              "options": {
+                "A": "3x+4y=-6  (B) 6x+12y=-1  (C) 3x+2y=-6  (D) x+4y=-6"
+              },
+              "answer": "A",
+              "explanation": "6×(x/2)+6×(2y/3)=6×(-1) → 3x+4y=-6. ----"
+            }
+          ]
+        }
+      ],
+      "subtopics": [
+        {
+          "subtopic_num": "3.3.1",
+          "subtopic_name": "SUBSTITUTION METHOD",
+          "sections": [
+            {
+              "type": "definition",
+              "label": "Definition:",
+              "text": "The SUBSTITUTION METHOD is an algebraic method of solving a pair of linear equations where one variable is expressed in terms of the other from one equation, and this expression is substituted into the second equation to reduce it to an equation in one variable."
+            },
+            {
+              "type": "key_points",
+              "label": "Key Points:",
+              "points": [
+                "Step 1: From either equation, express one variable (say x) in terms of the other (y), or vice versa.",
+                "Step 2: Substitute this expression into the OTHER equation. Solve the resulting one-variable equation.",
+                "TRUE statement (e.g., 18=18): INFINITELY MANY SOLUTIONS.",
+                "FALSE statement (e.g., -4=0): NO SOLUTION (inconsistent).",
+                "Step 3: Substitute the found value back into the expression from Step 1 to get the other variable.",
+                "Always verify the solution by substituting back into BOTH original equations.",
+                "EXAMPLES: (textbook examples)",
+                "EXAMPLE 3.3.1.1: (Textbook Example 4) — Fractional Solution",
+                "PROBLEM: Solve 7x - 15y = 2 ...(1) and x + 2y = 3 ...(2) by substitution.",
+                "SOLUTION:",
+                "Step 1: From (2): x = 3 - 2y ...(3).",
+                "Step 2: Substitute in (1): 7(3-2y)-15y=2 → 21-14y-15y=2 → -29y=-19 → y=19/29.",
+                "Step 3: x = 3-2(19/29) = 49/29.",
+                "ANSWER: x=49/29, y=19/29.",
+                "Verification: 7(49/29)-15(19/29)=(343-285)/29=58/29=2 ✓; 49/29+2(19/29)=87/29=3 ✓.",
+                "EXAMPLE 3.3.1.2: (Textbook Example 5) — Age Problem",
+                "PROBLEM: \"Seven years ago, I was seven times as old as you. Three years from now, I shall be three times as old as you.\" Find ages.",
+                "SOLUTION:",
+                "Step 1: s-7=7(t-7) → s-7t+42=0 ...(1); s+3=3(t+3) → s-3t=6 ...(2).",
+                "Step 2: From (2): s=3t+6. Substitute in (1): -4t+48=0 → t=12.",
+                "Step 3: s=3(12)+6=42.",
+                "ANSWER: Aftab=42 years, daughter=12 years.",
+                "Verification: 35=7×5 ✓; 45=3×15 ✓.",
+                "EXAMPLE 3.3.1.3: (Textbook Example 6) — Infinitely Many Solutions",
+                "PROBLEM: 2 pencils + 3 erasers = Rs.9 ...(1); 4 pencils + 6 erasers = Rs.18 ...(2). Find costs.",
+                "SOLUTION:",
+                "From (1): x=(9-3y)/2. Substitute in (2): 18=18. TRUE → INFINITELY MANY SOLUTIONS.",
+                "ANSWER: Cannot find unique costs. Both equations are the same line.",
+                "EXAMPLE 3.3.1.4: (Textbook Example 7) — No Solution",
+                "PROBLEM: Rails: x+2y-4=0 ...(1) and 2x+4y-12=0 ...(2). Will they cross?",
+                "SOLUTION:",
+                "From (1): x=4-2y. Substitute in (2): -4=0. FALSE → NO SOLUTION.",
+                "ANSWER: Rails will NOT cross (parallel lines)."
+              ]
+            },
+            {
+              "type": "exercise",
+              "label": "EXERCISE 3.2 (3 Questions):",
+              "items": [
+                {
+                  "q_num": 3,
+                  "marks": null,
+                  "question": "2.1: Solve by substitution:",
+                  "answer": "(i) x+y=14; x-y=4\n(ii) s-t=3; s/3+t/2=6\n(iii) 3x-y=3; 9x-3y=9\n(iv) 0.2x+0.3y=1.3; 0.4x+0.5y=2.3\n(v) sqrt(2)x+sqrt(3)y=0; sqrt(3)x-sqrt(8)y=0\n(vi) 3x/2-5y/3=-2; x/3+y/2=13/6"
+                }
+              ],
+              "raw": "Q3.2.1: Solve by substitution:\n(i) x+y=14; x-y=4\n(ii) s-t=3; s/3+t/2=6\n(iii) 3x-y=3; 9x-3y=9\n(iv) 0.2x+0.3y=1.3; 0.4x+0.5y=2.3\n(v) sqrt(2)x+sqrt(3)y=0; sqrt(3)x-sqrt(8)y=0\n(vi) 3x/2-5y/3=-2; x/3+y/2=13/6\n\nQ3.2.2: Solve 2x+3y=11 and 2x-4y=-24. Find 'm' for which y=mx+3.\n\nQ3.2.3: Form equations and solve by substitution:\n(i) Difference between two numbers is 26; one is three times the other.\n(ii) Larger of two supplementary angles exceeds smaller by 18°.\n(iii) Coach buys 7 bats + 6 balls = Rs.3800; 3 bats + 5 balls = Rs.1750.\n(iv) Taxi: 10 km = Rs.105; 15 km = Rs.155. Find fixed and per-km charge. Cost for 25 km?\n(v) Fraction becomes 9/11 if 2 added to both; becomes 5/6 if 3 added to both.\n(vi) Five years hence Jacob = 3 × son. Five years ago Jacob = 7 × son. Find ages."
+            },
+            {
+              "type": "qa",
+              "label": "SUB-TOPIC 3.3.1: Q&A",
+              "items": []
+            },
+            {
+              "type": "qa",
+              "label": "Q&A",
+              "items": [
+                {
+                  "q_num": 1,
+                  "marks": 2,
+                  "question": "What are the three steps of the substitution method?",
+                  "answer": "Step 1: From one equation, express one variable in terms of the other (e.g., x = 3 - 2y).\nStep 2: Substitute this expression into the other equation and solve for the remaining variable.\nStep 3: Substitute the found value back to get the value of the other variable."
+                },
+                {
+                  "q_num": 2,
+                  "marks": 2,
+                  "question": "From x + 2y = 3, how do we express x in terms of y?",
+                  "answer": "x + 2y = 3 → x = 3 - 2y.\nThis expression replaces x in the other equation during substitution."
+                },
+                {
+                  "q_num": 3,
+                  "marks": 2,
+                  "question": "When does the substitution method give a true statement like \"18 = 18\"? What does it mean?",
+                  "answer": "This happens when both equations represent the same line (the second equation is a multiple of the first). It means the pair has INFINITELY MANY SOLUTIONS (dependent consistent pair)."
+                },
+                {
+                  "q_num": 4,
+                  "marks": 2,
+                  "question": "When does the substitution method give a false statement like \"-4 = 0\"? What does it mean?",
+                  "answer": "This happens when the lines are parallel — there is no common point. It means the pair has NO SOLUTION (inconsistent pair). In the rails problem, the rails will NOT cross each other.\n\n---\n\n3 ಮಾರ್ಕ್ಸ್ × 3 questions:"
+                },
+                {
+                  "q_num": 5,
+                  "marks": 3,
+                  "question": "In Aftab's age problem, form the two equations and solve using substitution to find the ages.",
+                  "answer": "Step 1: Let s=Aftab's age, t=daughter's age.\ns-7=7(t-7) → s-7t+42=0 ...(1). s+3=3(t+3) → s-3t=6 ...(2).\n\nStep 2: From (2): s=3t+6. Substitute in (1): (3t+6)-7t+42=0 → -4t=-48 → t=12.\n\nStep 3: s=3(12)+6=42.\nAftab is 42 years old; daughter is 12 years old.\nVerify: 7 years ago: 35=7×5 ✓. 3 years from now: 45=3×15 ✓."
+                },
+                {
+                  "q_num": 6,
+                  "marks": 3,
+                  "question": "In the pencils-erasers problem (2x+3y=9 and 4x+6y=18), apply substitution and explain the result.",
+                  "answer": "Step 1: From 2x+3y=9: x=(9-3y)/2 ...(3).\n\nStep 2: Substitute in 4x+6y=18: 4×(9-3y)/2+6y=18 → 18-6y+6y=18 → 18=18.\n\nStep 3: TRUE statement with no variable → INFINITELY MANY SOLUTIONS. Both equations are the same (eq.2 = 2 × eq.1). A unique cost for pencil and eraser cannot be determined."
+                },
+                {
+                  "q_num": 7,
+                  "marks": 3,
+                  "question": "Compare the three outcomes of substitution: unique solution, infinitely many, no solution. Give one example equation for each.",
+                  "answer": "Step 1: Unique solution — Get a specific value (e.g., y=19/29 from 7x-15y=2 and x+2y=3). Consistent pair with intersecting lines.\n\nStep 2: Infinitely many solutions — Get a true statement (e.g., 18=18 from 2x+3y=9 and 4x+6y=18). Dependent consistent pair with coincident lines.\n\nStep 3: No solution — Get a false statement (e.g., -4=0 from x+2y-4=0 and 2x+4y-12=0). Inconsistent pair with parallel lines.\n\n---\n\n4 ಮಾರ್ಕ್ಸ್ × 4 questions:"
+                },
+                {
+                  "q_num": 8,
+                  "marks": 4,
+                  "question": "Solve 7x - 15y = 2 and x + 2y = 3 by substitution. Show full working and verify.",
+                  "answer": "Step 1: From x+2y=3: x=3-2y ...(3).\n\nStep 2: Substitute in 7x-15y=2:\n7(3-2y)-15y=2 → 21-14y-15y=2 → -29y=-19 → y=19/29.\n\nStep 3: x=3-2(19/29)=3-38/29=(87-38)/29=49/29.\nSolution: x=49/29, y=19/29.\n\nStep 4: Verification:\n7(49/29)-15(19/29)=(343-285)/29=58/29=2 ✓.\n49/29+2(19/29)=(49+38)/29=87/29=3 ✓."
+                },
+                {
+                  "q_num": 9,
+                  "marks": 4,
+                  "question": "Solve 2x + 3y = 11 and 2x - 4y = -24 by substitution. Also find the value of m for which y = mx + 3.",
+                  "answer": "Step 1: From 2x+3y=11: x=(11-3y)/2 ...(3).\n\nStep 2: Substitute in 2x-4y=-24:\n2×(11-3y)/2-4y=-24 → 11-3y-4y=-24 → -7y=-35 → y=5.\n\nStep 3: x=(11-15)/2=-4/2=-2.\nSolution: x=-2, y=5.\n\nStep 4: For y=mx+3: 5=m(-2)+3 → -2m=2 → m=-1.\nVerification: 2(-2)+3(5)=-4+15=11 ✓. 2(-2)-4(5)=-4-20=-24 ✓."
+                },
+                {
+                  "q_num": 10,
+                  "marks": 4,
+                  "question": "Solve sqrt(2)x + sqrt(3)y = 0 and sqrt(3)x - sqrt(8)y = 0 by substitution.",
+                  "answer": "Step 1: From sqrt(2)x+sqrt(3)y=0: x=-sqrt(3)y/sqrt(2) = -(sqrt(6)/2)y ...(3).\n\nStep 2: Substitute in sqrt(3)x-sqrt(8)y=0:\nsqrt(3)×(-(sqrt(6)/2)y)-sqrt(8)y=0\n-(sqrt(18)/2)y-sqrt(8)y=0\n-(3sqrt(2)/2)y-2sqrt(2)y=0\nsqrt(2)y[(-3/2)-2]=0\nsqrt(2)y×(-7/2)=0 → y=0.\n\nStep 3: From (3): x=-(sqrt(6)/2)×0=0.\nSolution: x=0, y=0.\n\nStep 4: Verification: sqrt(2)(0)+sqrt(3)(0)=0 ✓. sqrt(3)(0)-sqrt(8)(0)=0 ✓."
+                },
+                {
+                  "q_num": 11,
+                  "marks": 4,
+                  "question": "A fraction becomes 9/11 if 2 is added to both numerator and denominator. It becomes 5/6 if 3 is added to both. Find the fraction using substitution.",
+                  "answer": "Step 1: Let numerator=p, denominator=q.\n(p+2)/(q+2)=9/11 → 11(p+2)=9(q+2) → 11p-9q=18-22=-4 → 11p-9q=-4 ...(1).\n(p+3)/(q+3)=5/6 → 6(p+3)=5(q+3) → 6p-5q=15-18=-3 → 6p-5q=-3 ...(2).\n\nStep 2: From (2): p=(-3+5q)/6 ...(3). Substitute in (1):\n11×(-3+5q)/6-9q=-4 → (-33+55q)/6-9q=-4 → -33+55q-54q=-24 → q=9.\n\nStep 3: p=(-3+5×9)/6=(-3+45)/6=42/6=7.\nFraction = 7/9.\n\nStep 4: Verification: (7+2)/(9+2)=9/11 ✓. (7+3)/(9+3)=10/12=5/6 ✓.\n\n---\n\n5 ಮಾರ್ಕ್ಸ್ × 1 question:"
+                },
+                {
+                  "q_num": 12,
+                  "marks": 5,
+                  "question": "",
+                  "answer": "PART A — Fraction equations by substitution:\n\nStep 1: Multiply first equation by 6: 9x-10y=-12 ...(1).\nMultiply second equation by 6: 2x+3y=13 ...(2).\n\nStep 2: From (2): x=(13-3y)/2 ...(3). Substitute in (1):\n9×(13-3y)/2-10y=-12 → (117-27y)/2-10y=-12 → 117-27y-20y=-24 → -47y=-141 → y=3.\n\nStep 3: x=(13-3×3)/2=(13-9)/2=4/2=2.\nSolution: x=2, y=3.\n\nStep 4: Verification:\n3(2)/2-5(3)/3=3-5=-2 ✓. 2/3+3/2=4/6+9/6=13/6 ✓.\n\nPART B — Jacob and son age problem:\n\nStep 1: Let Jacob's age=x, son's age=y.\nx+5=3(y+5) → x-3y=10 ...(1).\nx-5=7(y-5) → x-7y=-30 ...(2).\n\nStep 2: From (1): x=3y+10 ...(3). Substitute in (2):\n(3y+10)-7y=-30 → -4y=-40 → y=10.\n\nStep 3: x=3(10)+10=40.\nJacob=40 years; son=10 years.\n\nStep 4: Verification:\nFive years hence: Jacob=45, son=15. 45=3×15 ✓.\nFive years ago: Jacob=35, son=5. 35=7×5 ✓."
+                }
+              ]
+            },
+            {
+              "type": "mcq",
+              "label": "SUB-TOPIC 3.3.1: MCQs",
+              "items": [
+                {
+                  "mcq_num": 1,
+                  "difficulty": "Easy",
+                  "question": "In substitution method, Step 1 is to:",
+                  "options": {
+                    "A": "Draw the graph  (B) Express one variable in terms of the other",
+                    "C": "Add both equations  (D) Multiply both equations"
+                  },
+                  "answer": "B",
+                  "explanation": "Step 1 is to express one variable (x or y) in terms of the other from one equation."
+                },
+                {
+                  "mcq_num": 2,
+                  "difficulty": "Easy",
+                  "question": "From x+2y=3, expressing x gives:",
+                  "options": {
+                    "A": "x=3+2y  (B) x=2y-3  (C) x=3-2y  (D) x=3/2y"
+                  },
+                  "answer": "C",
+                  "explanation": "x+2y=3 → x=3-2y."
+                },
+                {
+                  "mcq_num": 3,
+                  "difficulty": "Easy",
+                  "question": "\"Seven years ago I was seven times your age\" for Aftab (s) and daughter (t):",
+                  "options": {
+                    "A": "s-7=7(t-7)  (B) s+7=7(t+7)  (C) s-7=7t  (D) s=7t-7"
+                  },
+                  "answer": "A",
+                  "explanation": "Seven years ago: s-7 and t-7. So s-7=7(t-7)."
+                },
+                {
+                  "mcq_num": 4,
+                  "difficulty": "Easy",
+                  "question": "After substitution, getting 18=18 means:",
+                  "options": {
+                    "A": "Unique solution  (B) No solution  (C) Infinitely many solutions  (D) Two solutions"
+                  },
+                  "answer": "C",
+                  "explanation": "True statement with no variable → infinitely many solutions → dependent consistent."
+                },
+                {
+                  "mcq_num": 5,
+                  "difficulty": "Easy",
+                  "question": "After substitution, getting -4=0 means:",
+                  "options": {
+                    "A": "Unique solution  (B) Infinitely many  (C) No solution  (D) x=-4"
+                  },
+                  "answer": "C",
+                  "explanation": "False statement → no solution → inconsistent (parallel lines)."
+                },
+                {
+                  "mcq_num": 6,
+                  "difficulty": "Medium",
+                  "question": "After expressing x=3-2y and substituting in 7x-15y=2, we get:",
+                  "options": {
+                    "A": "-29y=19  (B) -29y=-19  (C) 29y=19  (D) 29y=-2"
+                  },
+                  "answer": "B",
+                  "explanation": "7(3-2y)-15y=2 → 21-14y-15y=2 → -29y=2-21=-19."
+                },
+                {
+                  "mcq_num": 7,
+                  "difficulty": "Medium",
+                  "question": "Solution of 7x-15y=2 and x+2y=3:",
+                  "options": {
+                    "A": "x=49/29, y=19/29  (B) x=19/29, y=49/29  (C) x=3, y=2  (D) x=1, y=1"
+                  },
+                  "answer": "A",
+                  "explanation": "y=19/29; x=3-2(19/29)=49/29."
+                },
+                {
+                  "mcq_num": 8,
+                  "difficulty": "Medium",
+                  "question": "For 2x+3y=9 and 4x+6y=18, substitution gives 18=18. This means:",
+                  "options": {
+                    "A": "Wrong equations  (B) No solution  (C) Infinitely many — unique cost cannot be found  (D) x=18"
+                  },
+                  "answer": "C",
+                  "explanation": "Both equations are equivalent → same line → infinitely many solutions."
+                },
+                {
+                  "mcq_num": 9,
+                  "difficulty": "Medium",
+                  "question": "After finding y=5 from 2x+3y=11 and 2x-4y=-24, find x:",
+                  "options": {
+                    "A": "x=-2  (B) x=2  (C) x=5  (D) x=-5"
+                  },
+                  "answer": "A",
+                  "explanation": "2x+3(5)=11 → 2x=-4 → x=-2."
+                },
+                {
+                  "mcq_num": 10,
+                  "difficulty": "Medium",
+                  "question": "In the rails problem (x+2y-4=0 and 2x+4y-12=0), substitution gives -4=0. This means:",
+                  "options": {
+                    "A": "Rails cross at x=-4  (B) Rails do NOT cross  (C) Rails coincide  (D) x=4"
+                  },
+                  "answer": "B",
+                  "explanation": "-4=0 is false → no solution → rails are parallel → will NOT cross."
+                },
+                {
+                  "mcq_num": 11,
+                  "difficulty": "Medium",
+                  "question": "Solve x+y=14 and x-y=4 by substitution:",
+                  "options": {
+                    "A": "x=9, y=5  (B) x=5, y=9  (C) x=10, y=4  (D) x=7, y=7"
+                  },
+                  "answer": "A",
+                  "explanation": "From x-y=4: x=y+4. Substitute: 2y+4=14 → y=5, x=9."
+                },
+                {
+                  "mcq_num": 12,
+                  "difficulty": "Hard",
+                  "question": "Aftab=42, daughter=12. Verify \"three years from now I shall be three times your age\":",
+                  "options": {
+                    "A": "45 ≠ 3×15  (B) 45=3×15 ✓  (C) Cannot verify  (D) 42=3×12"
+                  },
+                  "answer": "B",
+                  "explanation": "Aftab in 3 years=45, daughter=15. 45=3×15=45 ✓."
+                },
+                {
+                  "mcq_num": 13,
+                  "difficulty": "Hard",
+                  "question": "Fraction becomes 9/11 if 2 added to both. Numerator=p, denominator=q. Equation:",
+                  "options": {
+                    "A": "p+2=9(q+2)  (B) 11(p+2)=9(q+2)  (C) p/q=9/11  (D) p+q=9/11"
+                  },
+                  "answer": "B",
+                  "explanation": "(p+2)/(q+2)=9/11 → cross multiply → 11(p+2)=9(q+2)."
+                },
+                {
+                  "mcq_num": 14,
+                  "difficulty": "Hard",
+                  "question": "Five years hence Jacob=3×son; 5 years ago Jacob=7×son. Jacob=x, son=y. Equations:",
+                  "options": {
+                    "A": "x+5=3(y+5) and x-5=7(y-5)  (B) x-5=3(y-5) and x+5=7(y+5)",
+                    "C": "x+5=3y and x-5=7y  (D) x=3(y+5) and x=7(y-5)"
+                  },
+                  "answer": "A",
+                  "explanation": "Five years hence: x+5=3(y+5). Five years ago: x-5=7(y-5)."
+                },
+                {
+                  "mcq_num": 15,
+                  "difficulty": "Hard",
+                  "question": "After solving Jacob-son: x-3y=10 ...(1) and x-7y=-30 ...(2). Subtract (2) from (1): 4y=40 → y=10. Then x=?",
+                  "options": {
+                    "A": "x=40  (B) x=50  (C) x=30  (D) x=20"
+                  },
+                  "answer": "A",
+                  "explanation": "From x-3y=10: x=3(10)+10=40. Jacob=40, son=10. ----"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "subtopic_num": "3.3.2",
+          "subtopic_name": "ELIMINATION METHOD",
+          "sections": [
+            {
+              "type": "definition",
+              "label": "Definition:",
+              "text": "The ELIMINATION METHOD is an algebraic method of solving a pair of linear equations where both equations are multiplied by suitable constants to make the coefficient of one variable numerically equal in both, and then the equations are added or subtracted to eliminate (remove) that variable."
+            },
+            {
+              "type": "key_points",
+              "label": "Key Points:",
+              "points": [
+                "Step 1: Multiply both equations by suitable non-zero constants to make the coefficients of one variable NUMERICALLY EQUAL.",
+                "Step 2: Add or subtract the equations to ELIMINATE that variable.",
+                "TRUE statement: INFINITELY MANY SOLUTIONS.",
+                "FALSE statement: NO SOLUTION.",
+                "Step 3: Solve the resulting one-variable equation.",
+                "Step 4: Substitute the found value into either original equation to get the other variable.",
+                "The method is called \"elimination\" because we eliminate one variable to reduce to a one-variable equation.",
+                "EXAMPLES: (textbook examples)",
+                "EXAMPLE 3.3.2.1: (Textbook Example 8) — Income Problem",
+                "PROBLEM: Ratio of incomes 9:7, ratio of expenditures 4:3, each saves Rs.2000. Find monthly incomes.",
+                "SOLUTION:",
+                "Step 1: 9x-4y=2000 ...(1); 7x-3y=2000 ...(2).",
+                "Step 2: (1)×3: 27x-12y=6000. (2)×4: 28x-12y=8000. Subtract: x=2000.",
+                "Step 3: 9(2000)-4y=2000 → y=4000.",
+                "ANSWER: Income 1=Rs.18,000; Income 2=Rs.14,000.",
+                "Verification: 18000:14000=9:7 ✓. Expenditures 16000:12000=4:3 ✓.",
+                "EXAMPLE 3.3.2.2: (Textbook Example 9) — No Solution",
+                "PROBLEM: 2x+3y=8 ...(1) and 4x+6y=7 ...(2).",
+                "SOLUTION: (1)×2: 4x+6y=16. Subtract (2): 0=9. FALSE → NO SOLUTION.",
+                "EXAMPLE 3.3.2.3: (Textbook Example 10) — Two-digit number",
+                "PROBLEM: Sum of two-digit number and its reverse=66; digits differ by 2. Find the number.",
+                "SOLUTION:",
+                "Step 1: 10x+y+10y+x=66 → x+y=6 ...(1). Digits differ by 2: two cases.",
+                "Step 2: Case 1 (x-y=2): Add → 2x=8 → x=4, y=2 → Number=42.",
+                "Case 2 (y-x=2): Add → 2y=8 → y=4, x=2 → Number=24.",
+                "ANSWER: Two numbers: 42 and 24.",
+                "Verification: 42+24=66 ✓; |4-2|=2 ✓."
+              ]
+            },
+            {
+              "type": "exercise",
+              "label": "EXERCISE 3.3 (2 Questions):",
+              "items": [
+                {
+                  "q_num": 3,
+                  "marks": null,
+                  "question": "3.1: Solve by elimination AND substitution:",
+                  "answer": "(i) x+y=5; 2x-3y=4\n(ii) 3x+4y=10; 2x-2y=2\n(iii) 3x-5y-4=0; 9x=2y+7\n(iv) x/2+2y/3=-1; x-y/3=3"
+                }
+              ],
+              "raw": "Q3.3.1: Solve by elimination AND substitution:\n(i) x+y=5; 2x-3y=4\n(ii) 3x+4y=10; 2x-2y=2\n(iii) 3x-5y-4=0; 9x=2y+7\n(iv) x/2+2y/3=-1; x-y/3=3\n\nQ3.3.2: Form equations and solve by elimination:\n(i) Fraction — add 1 to numerator, subtract 1 from denominator → 1; add 1 to denominator → 1/2.\n(ii) Nuri and Sonu — 5 years ago Nuri=3×Sonu; 10 years later Nuri=2×Sonu.\n(iii) Two-digit number: digit sum=9; 9×number=2×reversed number.\n(iv) Meena withdraws Rs.2000 in Rs.50 and Rs.100 notes — 25 notes total.\n(v) Library: fixed charge + per day after 3 days. Saritha=Rs.27 (7 days); Susy=Rs.21 (5 days)."
+            },
+            {
+              "type": "qa",
+              "label": "SUB-TOPIC 3.3.2: Q&A",
+              "items": []
+            },
+            {
+              "type": "qa",
+              "label": "Q&A",
+              "items": [
+                {
+                  "q_num": 1,
+                  "marks": 2,
+                  "question": "What are the four steps of the elimination method?",
+                  "answer": "Step 1: Multiply both equations by suitable constants to make one variable's coefficients numerically equal.\nStep 2: Add or subtract to eliminate that variable.\nStep 3: Solve the resulting one-variable equation.\nStep 4: Substitute back to find the other variable."
+                },
+                {
+                  "q_num": 2,
+                  "marks": 2,
+                  "question": "Why is the method called \"elimination method\"?",
+                  "answer": "Because we eliminate (remove) one variable by making its coefficients numerically equal in both equations and then adding or subtracting. This leaves only one variable to solve."
+                },
+                {
+                  "q_num": 3,
+                  "marks": 2,
+                  "question": "In the income problem, what do 9x and 7x represent?",
+                  "answer": "They represent the monthly incomes of the two persons in ratio 9:7.\nIncome of person 1 = Rs.9x. Income of person 2 = Rs.7x."
+                },
+                {
+                  "q_num": 4,
+                  "marks": 2,
+                  "question": "In the two-digit number problem, if ten's digit=x and unit's digit=y, write the original number and its reverse.",
+                  "answer": "Original number = 10x + y (ten's place contributes 10 times its digit).\nReversed number = 10y + x.\n\n---\n\n3 ಮಾರ್ಕ್ಸ್ × 3 questions:"
+                },
+                {
+                  "q_num": 5,
+                  "marks": 3,
+                  "question": "In the income problem (9x-4y=2000 and 7x-3y=2000), explain why we multiply by 3 and 4 to eliminate y. Show the elimination step.",
+                  "answer": "Step 1: Coefficients of y are -4 and -3. LCM(4,3)=12.\nMultiply equation (1) by 3: -4y×3=-12y.\nMultiply equation (2) by 4: -3y×4=-12y.\nNow both equations have -12y — subtracting eliminates y.\n\nStep 2: 27x-12y=6000 ...(3). 28x-12y=8000 ...(4).\nSubtract (3) from (4): (28x-27x)=8000-6000 → x=2000.\n\nStep 3: Substitute in (1): 9(2000)-4y=2000 → 4y=16000 → y=4000.\nIncome 1=Rs.18,000; Income 2=Rs.14,000."
+                },
+                {
+                  "q_num": 6,
+                  "marks": 3,
+                  "question": "In the two-digit number problem, why are there TWO answers (42 and 24)?",
+                  "answer": "Step 1: The sum condition gives x+y=6. The condition \"digits differ by 2\" has two interpretations: x-y=2 (ten's digit larger) OR y-x=2 (unit's digit larger).\n\nStep 2: Case 1 (x-y=2): Adding x+y=6 and x-y=2 → 2x=8 → x=4, y=2 → Number=42.\nCase 2 (y-x=2): Adding x+y=6 and y-x=2 → 2y=8 → y=4, x=2 → Number=24.\n\nStep 3: Both 42 and 24 are valid. Verify: 42+24=66 ✓; |4-2|=2 ✓. 24+42=66 ✓; |4-2|=2 ✓."
+                },
+                {
+                  "q_num": 7,
+                  "marks": 3,
+                  "question": "Compare the three outcomes of the elimination method with examples.",
+                  "answer": "Step 1: Unique solution — Get a specific value (e.g., x=2000 from income problem 9x-4y=2000 and 7x-3y=2000). Consistent pair, lines intersect.\n\nStep 2: No solution — Get a false statement (e.g., 0=9 from 2x+3y=8 and 4x+6y=7). Inconsistent pair, lines are parallel.\n\nStep 3: Infinitely many solutions — Get a true statement (e.g., 0=0 from 2x+3y=9 and 4x+6y=18). Dependent consistent pair, lines coincide.\n\n---\n\n4 ಮಾರ್ಕ್ಸ್ × 4 questions:"
+                },
+                {
+                  "q_num": 8,
+                  "marks": 4,
+                  "question": "Solve 9x - 4y = 2000 and 7x - 3y = 2000 by elimination. Find monthly incomes and verify.",
+                  "answer": "Step 1: Multiply (1) by 3: 27x-12y=6000 ...(3).\nMultiply (2) by 4: 28x-12y=8000 ...(4).\n\nStep 2: Subtract (3) from (4): x=2000.\n\nStep 3: Substitute in (1): 9(2000)-4y=2000 → 18000-4y=2000 → 4y=16000 → y=4000.\n\nStep 4: Income 1=9×2000=Rs.18,000. Income 2=7×2000=Rs.14,000.\nVerification: 18000:14000=9:7 ✓. Expenditures: 16000:12000=4:3 ✓."
+                },
+                {
+                  "q_num": 9,
+                  "marks": 4,
+                  "question": "The sum of a two-digit number and its reverse is 66. The digits differ by 2. Find all possible numbers using elimination. Verify.",
+                  "answer": "Step 1: Let ten's digit=x, unit's digit=y.\n(10x+y)+(10y+x)=66 → x+y=6 ...(1). Digits differ by 2: x-y=2 ...(2) OR y-x=2 ...(3).\n\nStep 2: Case 1 — Add (1)+(2): 2x=8 → x=4, y=2. Number=42.\nCase 2 — Add (1)+(3): 2y=8 → y=4, x=2. Number=24.\n\nStep 3: Verification of 42: 42+24=66 ✓; |4-2|=2 ✓.\nVerification of 24: 24+42=66 ✓; |2-4|=2 ✓.\n\nStep 4: There are TWO such numbers: 42 and 24."
+                },
+                {
+                  "q_num": 10,
+                  "marks": 4,
+                  "question": "Nuri was thrice as old as Sonu 5 years ago. Ten years later, Nuri will be twice as old as Sonu. Find their present ages using elimination.",
+                  "answer": "Step 1: Let Nuri's age=x, Sonu's age=y.\n5 years ago: x-5=3(y-5) → x-3y=-10 ...(1).\n10 years later: x+10=2(y+10) → x-2y=10 ...(2).\n\nStep 2: Subtract (1) from (2): (x-2y)-(x-3y)=10-(-10) → y=20.\n\nStep 3: From (2): x-2(20)=10 → x=50.\n\nStep 4: Nuri=50 years; Sonu=20 years.\nVerification: 5 years ago: 45=3×15 ✓. 10 years later: 60=2×30 ✓."
+                },
+                {
+                  "q_num": 11,
+                  "marks": 4,
+                  "question": "Meena went to a bank to withdraw Rs.2000. She got Rs.50 and Rs.100 notes only. She received 25 notes in all. Find how many notes of each type she received using elimination.",
+                  "answer": "Step 1: Let Rs.50 notes=x, Rs.100 notes=y.\nx+y=25 ...(1) and 50x+100y=2000 → x+2y=40 ...(2).\n\nStep 2: Subtract (1) from (2): y=15.\n\nStep 3: From (1): x=25-15=10.\n\nStep 4: Meena received 10 notes of Rs.50 and 15 notes of Rs.100.\nVerification: 10+15=25 ✓. 50(10)+100(15)=500+1500=2000 ✓.\n\n---\n\n5 ಮಾರ್ಕ್ಸ್ × 1 question:"
+                },
+                {
+                  "q_num": 12,
+                  "marks": 5,
+                  "question": "",
+                  "answer": "PART A — Income problem:\n\nStep 1: Let income of person 1=Rs.9x, income of person 2=Rs.7x.\nExpenditure of person 1=Rs.4y, expenditure of person 2=Rs.3y.\n9x-4y=2000 ...(1) and 7x-3y=2000 ...(2).\n\nStep 2: Multiply (1) by 3: 27x-12y=6000 ...(3).\nMultiply (2) by 4: 28x-12y=8000 ...(4).\nSubtract (3) from (4): x=2000.\n\nStep 3: From (1): 9(2000)-4y=2000 → 4y=16000 → y=4000.\n\nStep 4: Income 1=9×2000=Rs.18,000. Income 2=7×2000=Rs.14,000.\nVerification: Income ratio=18000:14000=9:7 ✓.\nExpenditures=18000-2000=16000 and 14000-2000=12000. Ratio=16000:12000=4:3 ✓.\n\nPART B — Library charges:\n\nStep 1: Let fixed charge for first 3 days=Rs.x, additional charge per day=Rs.y.\nSaritha (7 days = 3 + 4 extra): x+4y=27 ...(1).\nSusy (5 days = 3 + 2 extra): x+2y=21 ...(2).\n\nStep 2: Subtract (2) from (1): 2y=6 → y=3.\n\nStep 3: From (2): x+2(3)=21 → x=15.\n\nStep 4: Fixed charge=Rs.15; additional charge per day=Rs.3.\nVerification: 15+4(3)=15+12=27 ✓. 15+2(3)=15+6=21 ✓."
+                }
+              ]
+            },
+            {
+              "type": "mcq",
+              "label": "TOPIC 3.3.2: MCQs",
+              "items": [
+                {
+                  "mcq_num": 1,
+                  "difficulty": "Easy",
+                  "question": "In elimination method, we make one variable's coefficients:",
+                  "options": {
+                    "A": "Equal to zero  (B) Numerically equal in both equations  (C) Fractions  (D) Both 1"
+                  },
+                  "answer": "B",
+                  "explanation": "Numerically equal coefficients allow adding/subtracting to cancel that variable."
+                },
+                {
+                  "mcq_num": 2,
+                  "difficulty": "Easy",
+                  "question": "9x and 7x in the income problem represent:",
+                  "options": {
+                    "A": "Expenditures  (B) Savings  (C) Incomes  (D) Ages"
+                  },
+                  "answer": "C",
+                  "explanation": "Incomes are in ratio 9:7, denoted Rs.9x and Rs.7x."
+                },
+                {
+                  "mcq_num": 3,
+                  "difficulty": "Easy",
+                  "question": "Getting 0=9 after elimination means:",
+                  "options": {
+                    "A": "Unique solution  (B) Infinitely many  (C) No solution  (D) Two solutions"
+                  },
+                  "answer": "C",
+                  "explanation": "0=9 is false → no solution → inconsistent (parallel lines)."
+                },
+                {
+                  "mcq_num": 4,
+                  "difficulty": "Easy",
+                  "question": "Two-digit number with ten's digit x and unit's digit y is:",
+                  "options": {
+                    "A": "x+y  (B) xy  (C) 10x+y  (D) 10y+x"
+                  },
+                  "answer": "C",
+                  "explanation": "Ten's digit×10 + unit's digit = 10x+y."
+                },
+                {
+                  "mcq_num": 5,
+                  "difficulty": "Easy",
+                  "question": "Elimination method has how many steps?",
+                  "options": {
+                    "A": "2  (B) 3  (C) 4  (D) 5"
+                  },
+                  "answer": "C",
+                  "explanation": "Make coefficients equal → eliminate → solve → find other variable."
+                },
+                {
+                  "mcq_num": 6,
+                  "difficulty": "Medium",
+                  "question": "To eliminate y from 9x-4y=2000 and 7x-3y=2000, we multiply first by 3 and second by 4. Results:",
+                  "options": {
+                    "A": "27x-12y=6000 and 28x-12y=8000  (B) 9x-12y=6000 and 7x-12y=8000",
+                    "C": "27x-4y=6000 and 28x-3y=8000  (D) 27x-12y=2000 and 28x-12y=2000"
+                  },
+                  "answer": "A",
+                  "explanation": "(1)×3: 27x-12y=6000. (2)×4: 28x-12y=8000."
+                },
+                {
+                  "mcq_num": 7,
+                  "difficulty": "Medium",
+                  "question": "Subtracting 27x-12y=6000 from 28x-12y=8000 gives:",
+                  "options": {
+                    "A": "x=4000  (B) x=2000  (C) x=1000  (D) x=3000"
+                  },
+                  "answer": "B",
+                  "explanation": "(28x-27x)-(12y-12y)=2000 → x=2000."
+                },
+                {
+                  "mcq_num": 8,
+                  "difficulty": "Medium",
+                  "question": "x+y=6 and x-y=2 solved by elimination gives:",
+                  "options": {
+                    "A": "x=4, y=2 → 42  (B) x=2, y=4 → 24  (C) x=6, y=0 → 60  (D) x=3, y=3"
+                  },
+                  "answer": "A",
+                  "explanation": "Adding: 2x=8 → x=4, y=2 → number=42."
+                },
+                {
+                  "mcq_num": 9,
+                  "difficulty": "Medium",
+                  "question": "For 2x+3y=8 and 4x+6y=7, multiply first by 2:",
+                  "options": {
+                    "A": "4x+6y=8  (B) 4x+3y=16  (C) 4x+6y=16  (D) 2x+6y=16"
+                  },
+                  "answer": "C",
+                  "explanation": "2×(2x+3y=8) → 4x+6y=16."
+                },
+                {
+                  "mcq_num": 10,
+                  "difficulty": "Medium",
+                  "question": "For 3x+4y=10 and 2x-2y=2, multiply second by 2 → 4x-4y=4. Add to 3x+4y=10:",
+                  "options": {
+                    "A": "7x=14, x=2  (B) 7x=6  (C) x=10  (D) 7x=7"
+                  },
+                  "answer": "A",
+                  "explanation": "3x+4y+4x-4y=10+4 → 7x=14 → x=2."
+                },
+                {
+                  "mcq_num": 11,
+                  "difficulty": "Medium",
+                  "question": "If x=2 in 2x-2y=2, then y=?",
+                  "options": {
+                    "A": "0  (B) 1  (C) 2  (D) -1"
+                  },
+                  "answer": "B",
+                  "explanation": "2(2)-2y=2 → 4-2y=2 → y=1."
+                },
+                {
+                  "mcq_num": 12,
+                  "difficulty": "Hard",
+                  "question": "Incomes Rs.18,000 and Rs.14,000, each saves Rs.2000. Expenditure ratio:",
+                  "options": {
+                    "A": "16000:12000=4:3 ✓  (B) 18000:14000=9:7  (C) 9000:7000  (D) 20000:16000"
+                  },
+                  "answer": "A",
+                  "explanation": "18000-2000=16000 and 14000-2000=12000. 16000:12000=4:3 ✓."
+                },
+                {
+                  "mcq_num": 13,
+                  "difficulty": "Hard",
+                  "question": "3x-5y=4 and 9x-2y=7. Multiply first by 3: 9x-15y=12. Subtract (9x-2y=7):",
+                  "options": {
+                    "A": "-13y=5, y=-5/13  (B) 13y=-5, y=-5/13  (C) 13y=5  (D) y=7"
+                  },
+                  "answer": "B",
+                  "explanation": "(9x-15y)-(9x-2y)=12-7 → -13y=5 → y=-5/13."
+                },
+                {
+                  "mcq_num": 14,
+                  "difficulty": "Hard",
+                  "question": "Nuri-Sonu: 5 years ago Nuri=3×Sonu; 10 years later Nuri=2×Sonu. Nuri=x, Sonu=y. Equations:",
+                  "options": {
+                    "A": "x-5=3(y-5) and x+10=2(y+10)  (B) x+5=3(y+5) and x-10=2(y-10)",
+                    "C": "x=3y-5 and x=2y+10  (D) x-5=3y and x+10=2y"
+                  },
+                  "answer": "A",
+                  "explanation": "Five years ago: x-5=3(y-5). Ten years later: x+10=2(y+10)."
+                },
+                {
+                  "mcq_num": 15,
+                  "difficulty": "Hard",
+                  "question": "From Nuri-Sonu: x-3y=-10 ...(1) and x-2y=10 ...(2). Subtract (1) from (2): y=20. Then x=?",
+                  "options": {
+                    "A": "x=40  (B) x=50  (C) x=30  (D) x=60"
+                  },
+                  "answer": "B",
+                  "explanation": "From x-2(20)=10 → x=50. Nuri=50, Sonu=20."
+                }
+              ]
+            },
+            {
+              "type": "definition",
+              "label": "Definition:",
+              "text": "The SUMMARY collects all the key results and conditions studied in Chapter 3 regarding the solution of a pair of linear equations in two variables."
+            },
+            {
+              "type": "key_points",
+              "label": "Key Points:",
+              "points": [
+                "1. A pair of linear equations in two variables can be represented and solved by:",
+                "(i) Graphical method",
+                "(ii) Algebraic method",
+                "2. GRAPHICAL METHOD — graph of a pair = two lines:",
+                "(i) INTERSECT at one point → Unique solution → CONSISTENT pair.",
+                "(ii) COINCIDE → Infinitely many solutions → DEPENDENT (consistent) pair.",
+                "(iii) PARALLEL → No solution → INCONSISTENT pair.",
+                "3. ALGEBRAIC METHODS:",
+                "(i) Substitution Method",
+                "(ii) Elimination Method",
+                "4. RATIO CONDITIONS for a1x+b1y+c1=0 and a2x+b2y+c2=0:",
+                "(i) a1/a2 ≠ b1/b2 → CONSISTENT (unique solution).",
+                "(ii) a1/a2=b1/b2 ≠ c1/c2 → INCONSISTENT (no solution).",
+                "(iii) a1/a2=b1/b2=c1/c2 → DEPENDENT and CONSISTENT (infinitely many solutions).",
+                "5. Several real-life situations are represented by equations NOT linear initially, but can be REDUCED to a pair of linear equations by suitable substitution."
+              ]
+            },
+            {
+              "type": "list_of_topics",
+              "label": "LIST OF SUB-TOPICS IN THIS TOPIC:",
+              "items": [
+                "(No sub-topics — 3.4 is a summary topic.)"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic_num": "3.1",
+      "topic_name": "Def ✅ | KeyPts ✅ | LIST OF SUB-TOPICS ✅ | EXAMPLE ✅",
+      "mode": "B",
+      "sections": [
+        {
+          "type": "qa",
+          "label": "TOPIC 3.1 Q&A: 10 Qs (2M×4 + 3M×3 + 4M×4 + 5M×1) ✅",
+          "items": []
+        },
+        {
+          "type": "mcq",
+          "label": "TOPIC 3.1 MCQs: 15 MCQs ✅",
+          "items": []
+        }
+      ],
+      "subtopics": []
+    },
+    {
+      "topic_num": "3.2",
+      "topic_name": "Def ✅ | KeyPts ✅ | LIST OF SUB-TOPICS ✅ | EXAMPLES(3) ✅ | EXERCISE 3.1(7Q) ✅",
+      "mode": "B",
+      "sections": [
+        {
+          "type": "qa",
+          "label": "TOPIC 3.2 Q&A: 10 Qs (2M×4 + 3M×3 + 4M×4 + 5M×1) ✅",
+          "items": []
+        },
+        {
+          "type": "mcq",
+          "label": "TOPIC 3.2 MCQs: 15 MCQs ✅",
+          "items": []
+        }
+      ],
+      "subtopics": []
+    },
+    {
+      "topic_num": "3.3",
+      "topic_name": "Def ✅ | KeyPts ✅ | LIST OF SUB-TOPICS ✅",
+      "mode": "A",
+      "sections": [
+        {
+          "type": "qa",
+          "label": "TOPIC 3.3 Q&A: 10 Qs (2M×4 + 3M×3 + 4M×4 + 5M×1) ✅",
+          "items": []
+        },
+        {
+          "type": "mcq",
+          "label": "TOPIC 3.3 MCQs: 15 MCQs ✅",
+          "items": []
+        }
+      ],
+      "subtopics": [
+        {
+          "subtopic_num": "3.3.1",
+          "subtopic_name": "Def ✅ | KeyPts ✅ | EXAMPLES(4) ✅ | EXERCISE 3.2(3Q) ✅",
+          "sections": [
+            {
+              "type": "qa",
+              "label": "SUB-TOPIC 3.3.1 Q&A: 10 Qs (2M×4 + 3M×3 + 4M×4 + 5M×1) ✅",
+              "items": []
+            },
+            {
+              "type": "mcq",
+              "label": "SUB-TOPIC 3.3.1 MCQs: 15 MCQs ✅",
+              "items": []
+            }
+          ]
+        },
+        {
+          "subtopic_num": "3.3.2",
+          "subtopic_name": "Def ✅ | KeyPts ✅ | EXAMPLES(3) ✅ | EXERCISE 3.3(2Q) ✅",
+          "sections": [
+            {
+              "type": "qa",
+              "label": "SUB-TOPIC 3.3.2 Q&A: 10 Qs (2M×4 + 3M×3 + 4M×4 + 5M×1) ✅",
+              "items": []
+            },
+            {
+              "type": "mcq",
+              "label": "SUB-TOPIC 3.3.2 MCQs: 15 MCQs ✅",
+              "items": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic_num": "3.4",
+      "topic_name": "Def ✅ | KeyPts ✅ | LIST OF SUB-TOPICS ✅",
+      "mode": "B",
+      "sections": [],
+      "subtopics": []
+    }
+  ]
+}

@@ -1,0 +1,820 @@
+{
+  "metadata": {
+    "class": "9th STANDARD",
+    "subject": "Mathematics",
+    "part": "2",
+    "chapter_num": "12",
+    "chapter_name": "STATISTICS",
+    "source": "KSEEB Textbook 2025-26",
+    "mode": "B"
+  },
+  "chapter_sections": [
+    {
+      "type": "definition",
+      "label": "Definition:",
+      "text": "- STATISTICS is the branch of mathematics that deals with the collection, presentation, analysis, and interpretation of numerical data."
+    },
+    {
+      "type": "key_points",
+      "label": "Key Points:",
+      "points": [
+        "Data can be represented in tables (already known) or graphically.",
+        "Graphical representation makes comparisons among individual items easier to understand than actual data.",
+        "\"One picture is better than a thousand words\" — graphical representation gives a better visual understanding."
+      ]
+    },
+    {
+      "type": "list_of_topics",
+      "label": "LIST OF TOPICS IN THIS CHAPTER:",
+      "items": [
+        "- Topic 12.1: Graphical Representation of Data",
+        "Sub-Topic 12.1.A: Bar Graphs",
+        "Sub-Topic 12.1.B: Histogram",
+        "Sub-Topic 12.1.C: Frequency Polygon",
+        "- Topic 12.2: Summary",
+        "EXAMPLES (Chapter 12):",
+        "EXAMPLE 12.1: Bar Graph — Students born in different months",
+        "EXAMPLE 12.2: Bar Graph — Family monthly expenditure",
+        "EXAMPLE 12.3: Histogram — Uniform width (weights of students) + Varying width (marks of students)",
+        "EXAMPLE 12.4: Frequency Polygon — From histogram (marks of 51 students)",
+        "EXAMPLE 12.5: Frequency Polygon — Without histogram (cost of living index)",
+        "TRY THESE / FIGURE IT OUT (Activity):",
+        "Activity 1: Represent the data of four groups by suitable bar graphs.",
+        "A1: Students collect data in four groups and draw bar graphs using uniform width bars with equal spacing. Each group represents its data on x-axis (variable) and y-axis (value)."
+      ]
+    },
+    {
+      "type": "qa",
+      "label": "CHAPTER 12: Q&A",
+      "items": []
+    },
+    {
+      "type": "mcq",
+      "label": "CHAPTER 12: MCQs:",
+      "items": [
+        {
+          "mcq_num": 1,
+          "difficulty": "Easy",
+          "question": "Which of the following is NOT studied in Chapter 12?",
+          "options": {
+            "A": "Bar graph   (B) Pie chart   (C) Histogram   (D) Frequency polygon"
+          },
+          "answer": "B",
+          "explanation": "Chapter 12 covers bar graphs, histograms, and frequency polygons only. Pie chart is not included."
+        },
+        {
+          "mcq_num": 2,
+          "difficulty": "Easy",
+          "question": "The class-mark of the interval 140-150 is:",
+          "options": {
+            "A": "140   (B) 150   (C) 145   (D) 148"
+          },
+          "answer": "C",
+          "explanation": "Class-mark = (150 + 140) / 2 = 290 / 2 = 145."
+        },
+        {
+          "mcq_num": 3,
+          "difficulty": "Easy",
+          "question": "In Exercise 12.1 Q3, which political party won the maximum seats?",
+          "options": {
+            "A": "B   (B) C   (C) A   (D) F"
+          },
+          "answer": "C",
+          "explanation": "Party A won 75 seats, which is the maximum."
+        },
+        {
+          "mcq_num": 4,
+          "difficulty": "Medium",
+          "question": "To make class intervals 118-126, 127-135 continuous, we:",
+          "options": {
+            "A": "Add 1 to upper limits only",
+            "B": "Subtract 0.5 from lower limits and add 0.5 to upper limits",
+            "C": "Add 0.5 to both limits",
+            "D": "Subtract 1 from lower limits"
+          },
+          "answer": "B",
+          "explanation": "Subtract 0.5 from lower limit and add 0.5 to upper limit: 117.5-126.5, 126.5-135.5, etc."
+        },
+        {
+          "mcq_num": 5,
+          "difficulty": "Medium",
+          "question": "In Exercise 12.1 Q9 (surnames), the maximum number of surnames lie in the class interval:",
+          "options": {
+            "A": "4-6   (B) 1-4   (C) 8-12   (D) 6-8"
+          },
+          "answer": "D",
+          "explanation": "Class 6-8 has 44 surnames, which is the maximum."
+        },
+        {
+          "mcq_num": 6,
+          "difficulty": "Medium",
+          "question": "In Exercise 12.1 Q8 (children in park), the adjusted height for age group 10-15 (frequency = 10) is:",
+          "options": {
+            "A": "10   (B) 5   (C) 2   (D) 3"
+          },
+          "answer": "C",
+          "explanation": "Minimum class size = 1. Adjusted height = (10/5) x 1 = 2."
+        },
+        {
+          "mcq_num": 7,
+          "difficulty": "Medium",
+          "question": "Frequency polygons can be drawn:",
+          "options": {
+            "A": "Only with histograms",
+            "B": "Only without histograms",
+            "C": "Both with and without histograms",
+            "D": "Only for discrete data"
+          },
+          "answer": "C",
+          "explanation": "Frequency polygons can be drawn by joining mid-points of histogram bars OR independently without a histogram using class-marks."
+        },
+        {
+          "mcq_num": 8,
+          "difficulty": "Hard",
+          "question": "In Exercise 12.1 Q6, from the two frequency polygons of Section A and Section B, which section has higher marks concentration?",
+          "options": {
+            "A": "Section B (peak at 10-20)",
+            "B": "Section A (peak at 20-30)",
+            "C": "Both are equal",
+            "D": "Cannot be determined"
+          },
+          "answer": "B",
+          "explanation": "Section A peaks at 20-30 (17 students); Section B peaks at 10-20 (19 students). Section A has higher marks concentration, indicating relatively better performance."
+        },
+        {
+          "mcq_num": 9,
+          "difficulty": "Hard",
+          "question": "In a varying-width histogram, the adjusted height for interval 0-20 (frequency=7, width=20, minimum class size=10) is:",
+          "options": {
+            "A": "7   (B) 3.5   (C) 14   (D) 10"
+          },
+          "answer": "B",
+          "explanation": "Adjusted height = (7/20) x 10 = 70/20 = 3.5."
+        },
+        {
+          "mcq_num": 10,
+          "difficulty": "Hard",
+          "question": "In Exercise 12.1 Q5, how many neon lamps have a life time of more than 700 hours?",
+          "options": {
+            "A": "74   (B) 110   (C) 138   (D) 184"
+          },
+          "answer": "D",
+          "explanation": "74 (700-800) + 62 (800-900) + 48 (900-1000) = 184 lamps."
+        },
+        {
+          "mcq_num": 11,
+          "difficulty": "Hard",
+          "question": "In Example 3, why does Fig. 12.4 give a misleading picture?",
+          "options": {
+            "A": "Frequencies were not plotted",
+            "B": "Kink was missing on the axis",
+            "C": "Heights were drawn equal to frequencies despite varying class widths — areas are not proportional to frequencies",
+            "D": "Class intervals were not continuous"
+          },
+          "answer": "C",
+          "explanation": "When class widths vary, drawing heights equal to frequencies makes areas non-proportional to frequencies."
+        },
+        {
+          "mcq_num": 12,
+          "difficulty": "Hard",
+          "question": "In Exercise 12.1 Q4 (leaves of a plant), it is incorrect to say maximum leaves are 153 mm because:",
+          "options": {
+            "A": "Class 145-153 has minimum frequency",
+            "B": "Leaves in 145-153 range can be anywhere between 145-153 mm — not all at 153 mm",
+            "C": "The class-mark is 149 mm",
+            "D": "The histogram shows a different value"
+          },
+          "answer": "B",
+          "explanation": "Maximum frequency (12) is for interval 145-153 mm. Leaves are distributed anywhere in that range, not all at exactly 153 mm."
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "label": "CHAPTER 12: MCQs: (Same as above — retained)",
+      "items": []
+    },
+    {
+      "type": "mcq",
+      "label": "TOPIC 12.1: MCQs:",
+      "items": [
+        {
+          "mcq_num": 1,
+          "difficulty": "Easy",
+          "question": "\"One picture is better than a thousand words\" — this statement justifies:",
+          "options": {
+            "A": "Tabular representation   (B) Raw data   (C) Graphical representation   (D) Frequency distribution"
+          },
+          "answer": "C",
+          "explanation": "This statement is used in the textbook to justify why graphical representation is preferred."
+        },
+        {
+          "mcq_num": 2,
+          "difficulty": "Easy",
+          "question": "In a bar graph, the height of a bar depends on:",
+          "options": {
+            "A": "Width of the bar   (B) Class size   (C) Value of the variable   (D) Frequency density"
+          },
+          "answer": "C",
+          "explanation": "In a bar graph, the height of each bar depends on the value of the variable being represented."
+        },
+        {
+          "mcq_num": 3,
+          "difficulty": "Easy",
+          "question": "Histograms are used for data with:",
+          "options": {
+            "A": "Discrete values   (B) Continuous class intervals   (C) Categorical data   (D) Non-numerical data"
+          },
+          "answer": "B",
+          "explanation": "Histograms represent grouped frequency distributions with continuous classes."
+        },
+        {
+          "mcq_num": 4,
+          "difficulty": "Medium",
+          "question": "In a bar graph, which axis shows the variable (categories)?",
+          "options": {
+            "A": "y-axis   (B) Both axes   (C) x-axis   (D) Neither axis"
+          },
+          "answer": "C",
+          "explanation": "In a bar graph, the variable (categories) is shown on the x-axis; values are on the y-axis."
+        },
+        {
+          "mcq_num": 5,
+          "difficulty": "Medium",
+          "question": "Which representation makes it easiest to compare two sections of the same class?",
+          "options": {
+            "A": "Bar graph   (B) Histogram   (C) Frequency polygon   (D) Table"
+          },
+          "answer": "C",
+          "explanation": "Frequency polygons are very useful for comparing two different sets of data of the same nature."
+        },
+        {
+          "mcq_num": 6,
+          "difficulty": "Medium",
+          "question": "The width of the bar in a histogram is:",
+          "options": {
+            "A": "Always equal to 1   (B) Not important   (C) Significant — equal to class size   (D) Chosen randomly"
+          },
+          "answer": "C",
+          "explanation": "Unlike a bar graph, in a histogram the width of the bar equals the class-size and is significant."
+        },
+        {
+          "mcq_num": 7,
+          "difficulty": "Medium",
+          "question": "In a bar graph, gaps between bars are maintained for:",
+          "options": {
+            "A": "Zero frequency   (B) Missing data   (C) Visual clarity — bars represent discrete categories   (D) Class interval"
+          },
+          "answer": "C",
+          "explanation": "Gaps between bars in a bar graph indicate that data is discrete/categorical and are maintained for visual clarity."
+        },
+        {
+          "mcq_num": 8,
+          "difficulty": "Hard",
+          "question": "Which of the following correctly describes the relationship between bar graphs and histograms?",
+          "options": {
+            "A": "Both have gaps between bars   (B) Both have no gaps between bars",
+            "C": "Bar graph has gaps; histogram has no gaps   (D) Histogram has gaps; bar graph has no gaps"
+          },
+          "answer": "C",
+          "explanation": "Bar graphs have equal gaps between bars (discrete data); histograms have no gaps (continuous data)."
+        },
+        {
+          "mcq_num": 9,
+          "difficulty": "Hard",
+          "question": "Frequency polygons can be drawn:",
+          "options": {
+            "A": "Only over histograms   (B) Only independently without histograms",
+            "C": "Both over histograms and independently   (D) Only for discrete data"
+          },
+          "answer": "C",
+          "explanation": "Frequency polygons can be drawn by joining mid-points of histogram bars OR independently using class-marks without drawing a histogram."
+        },
+        {
+          "mcq_num": 10,
+          "difficulty": "Hard",
+          "question": "What does graphical representation help us do better than tables?",
+          "options": {
+            "A": "Store data permanently   (B) Show exact decimal values   (C) Make comparisons at a glance   (D) Calculate totals"
+          },
+          "answer": "C",
+          "explanation": "Graphical representation allows us to easily visualise and compare relative characteristics of data at a glance."
+        },
+        {
+          "mcq_num": 11,
+          "difficulty": "Hard",
+          "question": "In Topic 12.1, the three sub-topics are:",
+          "options": {
+            "A": "Bar graph, Pie chart, Line graph",
+            "B": "Histogram, Frequency table, Bar graph",
+            "C": "Bar graph, Histogram, Frequency polygon",
+            "D": "Mean, Median, Mode"
+          },
+          "answer": "C",
+          "explanation": "Topic 12.1 covers three types: bar graphs, histograms (uniform and varying widths), and frequency polygons."
+        },
+        {
+          "mcq_num": 12,
+          "difficulty": "Hard",
+          "question": "If a bar graph has maximum value 50 on y-axis, an appropriate scale would be:",
+          "options": {
+            "A": "1 unit = 100   (B) 1 unit = 5   (C) 1 unit = 50   (D) 1 unit = 500"
+          },
+          "answer": "B",
+          "explanation": "Scale 1 unit = 5 means y-axis goes up to 10 units to reach 50 — a practical and readable scale. ---- SUB-TOPIC 12.1.A: BAR GRAPHS -----------------------------------------------"
+        }
+      ]
+    },
+    {
+      "type": "definition",
+      "label": "Definition:",
+      "text": "- A BAR GRAPH is a pictorial representation of data in which usually bars of uniform width are drawn with equal spacing between them on one axis (say, the x-axis), depicting the variable. The values of the variable are shown on the other axis (say, the y-axis) and the heights of the bars depend on the values of the variable."
+    },
+    {
+      "type": "key_points",
+      "label": "Key Points:",
+      "points": [
+        "Bars are of uniform width.",
+        "Equal spacing (gaps) is maintained between consecutive bars.",
+        "x-axis: variable (categories/heads).",
+        "y-axis: value of the variable (frequency or quantity).",
+        "The width of the bar is not important — only the height matters.",
+        "Scale on y-axis is chosen based on maximum value to be represented.",
+        "From the heights of bars, relative comparisons can be made at a glance.",
+        "TRY THESE / FIGURE IT OUT:",
+        "Activity 1: Continuing with the same four groups of Activity 1, represent the data by suitable bar graphs.",
+        "A1: Students collect data in four groups from a previous activity. They represent the data on a bar graph:",
+        "x-axis: variable (categories from each group's data)",
+        "y-axis: value of each category",
+        "Bars of uniform width with equal spacing",
+        "Scale chosen based on maximum value",
+        "EXAMPLES: (textbook examples)",
+        "EXAMPLE 12.1.A.1: Bar Graph — Students born in different months",
+        "PROBLEM: In a particular section of Class IX, 40 students were asked about the months of their birth and the following bar graph (Fig. 12.1) was prepared. Observe the bar graph and answer:",
+        "(i) How many students were born in the month of November?",
+        "(ii) In which month were the maximum number of students born?",
+        "SOLUTION:",
+        "Step 1: Identify variable and value.",
+        "Variable = Month of birth. Value = Number of students born.",
+        "Step 2: Read the bar for November.",
+        "Height of November bar = 4 units.",
+        "Step 3: Find the tallest bar.",
+        "Tallest bar = August.",
+        "ANSWER:",
+        "(i) 4 students were born in the month of November.",
+        "(ii) The maximum number of students were born in the month of August.",
+        "EXAMPLE 12.1.A.2: Bar Graph — Family monthly expenditure",
+        "PROBLEM: A family with a monthly income of Rs. 20,000 had planned the following expenditures per month under various heads. Draw a bar graph for the data.",
+        "Table 12.1:",
+        "Heads                    | Expenditure (in thousand rupees)",
+        "Grocery                  | 4",
+        "Rent                     | 5",
+        "Education of children    | 5",
+        "Medicine                 | 2",
+        "Fuel                     | 2",
+        "Entertainment            | 1",
+        "Miscellaneous            | 1",
+        "SOLUTION:",
+        "Step 1: Represent Heads (variable) on horizontal axis. Take equal widths for all bars and equal gaps between them. Let 1 Head = 1 unit on x-axis.",
+        "Step 2: Represent expenditure (value) on vertical axis. Maximum expenditure = Rs. 5000. Choose scale: 1 unit = Rs. 1000.",
+        "Step 3: Draw rectangle for Grocery with width 1 unit and height 4 units (= Rs. 4000).",
+        "Step 4: Draw rectangles for remaining heads similarly, leaving gap of 1 unit between each.",
+        "ANSWER: Bar graph (Fig. 12.2) drawn with x-axis = Heads, y-axis = Expenditure (thousand rupees, scale 1 unit = Rs. 1000).",
+        "Observation: Expenditure on education is more than double that of medical expenses (5 vs 2 units).",
+        "ADDITIONAL CALCULATIONS:",
+        "Problem 1: From Table 12.1 (family expenditure), what fraction of total expenditure is spent on Rent?",
+        "Solution:",
+        "Total expenditure = 4 + 5 + 5 + 2 + 2 + 1 + 1 = 20 thousand rupees",
+        "Rent = 5 thousand rupees",
+        "Fraction = 5/20 = 1/4",
+        "Answer: 1/4 of total expenditure is spent on Rent.",
+        "Problem 2: In Example 1 (birth months), if 4 students were born in November and 6 in October, what would be the bar height for October if scale is 1 unit = 1 student?",
+        "Solution:",
+        "October frequency = 6 students.",
+        "Height of October bar = 6 units (since scale is 1 unit = 1 student).",
+        "Answer: October bar height = 6 units."
+      ]
+    },
+    {
+      "type": "definition",
+      "label": "Definition:",
+      "text": "- A HISTOGRAM is a graphical representation of a grouped frequency distribution with continuous classes. It is like a bar graph but used for continuous class intervals. In a histogram, rectangles are drawn with no gaps between them, where width = class size and area of each rectangle is proportional to the corresponding frequency."
+    },
+    {
+      "type": "key_points",
+      "label": "Key Points:",
+      "points": [
+        "Unlike bar graphs, there are NO gaps between consecutive rectangles in a histogram.",
+        "The area of each rectangle is proportional to the corresponding frequency.",
+        "When class widths are equal: heights are proportional to frequencies (draw heights = frequencies directly).",
+        "When class widths are varying: heights must be adjusted so areas remain proportional to frequencies.",
+        "Adjusted height = (Frequency / Width of class) x Minimum class size",
+        "A kink or break on the axis is shown if the first class interval does not start from zero.",
+        "The y-axis label for varying-width histogram: \"proportion of students per [minimum class size] interval.\"",
+        "Steps to draw histogram (uniform width):",
+        "(i) Represent variable on horizontal axis. If first class does not start from 0, show kink.",
+        "(ii) Represent frequency on vertical axis on suitable scale.",
+        "(iii) Draw rectangles of width = class-size and height = frequency.",
+        "(iv) No gaps between consecutive rectangles.",
+        "Steps to draw histogram (varying width):",
+        "Step 1: Select class interval with minimum class size.",
+        "Step 2: Adjusted height = (Frequency / Width of class) x Minimum class size."
+      ]
+    },
+    {
+      "type": "formulas",
+      "label": "FORMULA:",
+      "items": [
+        "Adjusted height (varying width histogram) = (Frequency / Width of class) x Minimum class size",
+        "WHERE:",
+        "Frequency = number of observations in that class",
+        "Width of class = upper limit - lower limit of that class interval",
+        "Minimum class size = smallest class width among all class intervals",
+        "EXAMPLES: (textbook examples)",
+        "EXAMPLE 12.1.B.1: Histogram — Uniform width (weights of 36 students)",
+        "PROBLEM: Draw a histogram for the following frequency distribution representing the weights of 36 students:",
+        "Table 12.2:",
+        "Weights (in kg) | Number of students",
+        "30.5 - 35.5     | 9",
+        "35.5 - 40.5     | 6",
+        "40.5 - 45.5     | 15",
+        "45.5 - 50.5     | 3",
+        "50.5 - 55.5     | 1",
+        "55.5 - 60.5     | 2",
+        "Total           | 36",
+        "SOLUTION:",
+        "Step 1: Represent weights on horizontal axis. Scale: 1 cm = 5 kg. Since first class starts from 30.5 (not 0), show a kink (break) on the axis.",
+        "Step 2: Represent number of students (frequency) on vertical axis. Maximum = 15.",
+        "Step 3: Draw rectangles — all class widths = 5 kg (equal width). Heights = frequencies directly.",
+        "Step 4: No gaps between consecutive rectangles → histogram (Fig. 12.3).",
+        "ANSWER: Histogram drawn. Class 40.5-45.5 has the tallest bar (frequency = 15).",
+        "EXAMPLE 12.1.B.2: Histogram — Varying width (marks of 90 students)",
+        "PROBLEM: A teacher grouped students' marks (out of 100) into varying class intervals. Show the histogram using heights directly is WRONG and draw the correct histogram.",
+        "Table 12.3:",
+        "Marks      | Number of students",
+        "0 - 20     | 7",
+        "20 - 30    | 10",
+        "30 - 40    | 10",
+        "40 - 50    | 20",
+        "50 - 60    | 20",
+        "60 - 70    | 15",
+        "70 - 100   | 8",
+        "Total      | 90",
+        "SOLUTION:",
+        "Step 1: Class widths vary (0-20 has width 20; 70-100 has width 30; others width 10). Using heights = frequencies directly gives misleading Fig. 12.4.",
+        "Step 2: Minimum class size = 10. Calculate adjusted heights:",
+        "Marks    | Freq | Width | Adj. Height = (F/W)x10",
+        "0-20     |  7   |  20   | (7/20)x10 = 3.5",
+        "20-30    | 10   |  10   | (10/10)x10 = 10",
+        "30-40    | 10   |  10   | (10/10)x10 = 10",
+        "40-50    | 20   |  10   | (20/10)x10 = 20",
+        "50-60    | 20   |  10   | (20/10)x10 = 20",
+        "60-70    | 15   |  10   | (15/10)x10 = 15",
+        "70-100   |  8   |  30   | (8/30)x10 = 2.67",
+        "Step 3: Draw correct histogram (Fig. 12.5) with adjusted heights. y-axis: \"Proportion of students per 10 marks interval.\"",
+        "ANSWER: Correct histogram drawn. Adjusted heights: 3.5, 10, 10, 20, 20, 15, 2.67.",
+        "ADDITIONAL CALCULATIONS:",
+        "Problem 1: In Table 12.2, what is the total number of students with weight less than 40.5 kg?",
+        "Solution: 30.5-35.5 = 9, 35.5-40.5 = 6. Total = 9 + 6 = 15 students.",
+        "Answer: 15 students have weight less than 40.5 kg.",
+        "Problem 2: Verify adjusted height for 40-50 (freq=20, width=10, min class size=10).",
+        "Solution: Adjusted height = (20/10) x 10 = 2 x 10 = 20. ✓"
+      ]
+    },
+    {
+      "type": "definition",
+      "label": "Definition:",
+      "text": "- A FREQUENCY POLYGON is a graphical representation of quantitative data using a polygon (closed figure) formed by joining the mid-points (class-marks) of the tops of the rectangles in a histogram by line segments. It can also be drawn without a histogram using class-marks directly.\n- CLASS-MARK is the mid-point of a class interval.\nFormula: CLASS-MARK = (Upper limit + Lower limit) / 2"
+    },
+    {
+      "type": "key_points",
+      "label": "Key Points:",
+      "points": [
+        "Frequency polygons can be drawn in two ways:",
+        "Method 1 (With histogram): Join mid-points (class-marks) of tops of adjacent histogram rectangles.",
+        "Method 2 (Without histogram): Plot (class-mark, frequency) points directly and join them.",
+        "To complete the polygon, add imaginary class intervals with zero frequency:",
+        "Before the first class and after the last class.",
+        "Adding zero-frequency classes at both ends makes area of frequency polygon equal to area of histogram.",
+        "If first class is 0-10, imaginary preceding class is (-10)-0 with class-mark = -5.",
+        "Frequency polygons are used when data is continuous and very large.",
+        "Very useful for comparing two different sets of data of the same nature."
+      ]
+    },
+    {
+      "type": "formulas",
+      "label": "FORMULA:",
+      "items": [
+        "Class-mark = (Upper limit + Lower limit) / 2",
+        "WHERE:",
+        "Upper limit = upper boundary of the class interval",
+        "Lower limit = lower boundary of the class interval",
+        "EXAMPLES: (textbook examples)",
+        "EXAMPLE 12.1.C.1: Frequency Polygon — From histogram (marks of 51 students)",
+        "PROBLEM: Draw a frequency polygon for marks of 51 students (Table 12.5).",
+        "Table 12.5:",
+        "Marks    | Freq    Marks    | Freq",
+        "0-10     | 5       50-60    | 3",
+        "10-20    | 10      60-70    | 2",
+        "20-30    | 4       70-80    | 2",
+        "30-40    | 6       80-90    | 3",
+        "40-50    | 7       90-100   | 9",
+        "Total = 51",
+        "SOLUTION:",
+        "Step 1: Draw histogram. Mark mid-points of tops as B, C, D, E, F, G, H, I, J, K.",
+        "Step 2: Imaginary preceding class = (-10)-0. Class-mark = -5. Frequency = 0. Join B to (-5, 0); where line meets y-axis = point A.",
+        "Step 3: Imaginary succeeding class = 100-110. Class-mark = 105. Frequency = 0. Mark as L.",
+        "Step 4: Join O, A, B, C, D, E, F, G, H, I, J, K, L → frequency polygon OABCDEFGHIJKL (Fig. 12.7).",
+        "ANSWER: Class 10-20 has highest frequency (10). Total = 51 students. ✓",
+        "EXAMPLE 12.1.C.2: Frequency Polygon — Without histogram (cost of living index)",
+        "PROBLEM: Draw frequency polygon for cost of living index data (Table 12.6) WITHOUT histogram.",
+        "Table 12.6:",
+        "Classes    | Class-mark | Frequency",
+        "140-150    |    145     | 5",
+        "150-160    |    155     | 10",
+        "160-170    |    165     | 20",
+        "170-180    |    175     | 9",
+        "180-190    |    185     | 6",
+        "190-200    |    195     | 2",
+        "Total = 52",
+        "SOLUTION:",
+        "Step 1: Find class-marks (shown in Table 12.7 above).",
+        "Step 2: A(135,0) — imaginary class before 140-150.",
+        "Step 3: H(205,0) — imaginary class after 190-200.",
+        "Step 4: Plot A(135,0), B(145,5), C(155,10), D(165,20), E(175,9), F(185,6), G(195,2), H(205,0).",
+        "Step 5: Join all → frequency polygon ABCDEFGH (Fig. 12.8).",
+        "ANSWER: Class 160-170 has highest frequency (20 weeks). Total = 52 weeks. ✓",
+        "ADDITIONAL CALCULATIONS:",
+        "Problem 1: Find class-mark of 600-700 (from Exercise 12.1 Q5).",
+        "Solution: Class-mark = (700+600)/2 = 1300/2 = 650.",
+        "Problem 2: In Example 12.1.C.2, verify total weeks = 52.",
+        "Solution: 5+10+20+9+6+2 = 52. ✓"
+      ]
+    },
+    {
+      "type": "definition",
+      "label": "Definition:",
+      "text": "- SUMMARY of Chapter 12 — Graphical representation of data in bar graphs, histograms, and frequency polygons."
+    },
+    {
+      "type": "key_points",
+      "label": "Key Points:",
+      "points": [
+        "In this chapter, you have studied the following point:",
+        "1. How data can be presented graphically in the form of bar graphs, histograms and frequency polygons."
+      ]
+    },
+    {
+      "type": "exercise",
+      "label": "EXERCISE 12.1 (All 9 Questions with Solutions):",
+      "items": [],
+      "raw": "QUESTION 12.2.1 (Exercise 12.1 Q1):\n[Content same as before — retained]\n\nA survey for cause of illness and death among women aged 15-44:\nS.No. 1: Reproductive health = 31.8%, 2: Neuropsychiatric = 25.4%, 3: Injuries = 12.4%,\n4: Cardiovascular = 4.3%, 5: Respiratory = 4.1%, 6: Other = 22.0%.\n(i) Represent graphically. (ii) Major cause? (iii) Two factors for major cause?\nANSWER: (i) Bar graph with heights 31.8, 25.4, 12.4, 4.3, 4.1, 22.0.\n(ii) Reproductive health conditions (31.8%). (iii) Lack of maternal care; malnutrition.\n\nQUESTION 12.2.2 (Exercise 12.1 Q2):\nGirls per 1000 boys: SC=940, ST=970, Non SC/ST=920, Backward=950, Non-backward=920, Rural=930, Urban=910.\n(i) Bar graph. (ii) Conclusions.\nANSWER: (i) Bar graph drawn. (ii) ST highest (970), Urban lowest (910).\n\nQUESTION 12.2.3 (Exercise 12.1 Q3):\nParty seats: A=75, B=55, C=37, D=29, E=10, F=37.\n(i) Bar graph. (ii) Max seats party.\nANSWER: (i) Bar graph drawn. (ii) Party A (75 seats).\n\nQUESTION 12.2.4 (Exercise 12.1 Q4):\nLeaf lengths (40 leaves): 118-126=3, 127-135=5, 136-144=9, 145-153=12, 154-162=5, 163-171=4, 172-180=2.\n(i) Histogram (make continuous first). (ii) Other representation? (iii) Max leaves 153 mm? Why?\nANSWER: (i) Make continuous: 117.5-126.5 etc. Width=9. Histogram drawn.\n(ii) Yes, frequency polygon. (iii) No — class 144.5-153.5 has max freq (12), leaves can be anywhere in 144.5-153.5 mm.\n\nQUESTION 12.2.5 (Exercise 12.1 Q5):\nNeon lamps: 300-400=14, 400-500=56, 500-600=60, 600-700=86, 700-800=74, 800-900=62, 900-1000=48.\n(i) Histogram. (ii) Lamps > 700 hours.\nANSWER: (i) Equal widths=100. Histogram drawn. (ii) 74+62+48 = 184 lamps.\n\nQUESTION 12.2.6 (Exercise 12.1 Q6):\nSection A: 0-10=3, 10-20=9, 20-30=17, 30-40=12, 40-50=9.\nSection B: 0-10=5, 10-20=19, 20-30=15, 30-40=10, 40-50=1.\nFrequency polygons on same graph. Compare performance.\nANSWER: Class-marks: 5,15,25,35,45. A: peaks at 20-30 (17); B: peaks at 10-20 (19). Section A performed better.\n\nQUESTION 12.2.7 (Exercise 12.1 Q7):\nCricket: Team A and B runs on 60 balls (discrete intervals 1-6 to 55-60).\nFrequency polygons. [Make continuous first.]\nANSWER: Continuous: 0.5-6.5 etc. Class-marks: 3.5, 9.5, ..., 57.5. Polygons plotted for both teams.\n\nQUESTION 12.2.8 (Exercise 12.1 Q8):\nChildren in park: 1-2=5, 2-3=3, 3-5=6, 5-7=12, 7-10=9, 10-15=10, 15-17=4. Histogram.\nANSWER: Varying widths. Min class size=1. Adj. heights: 5,3,3,6,3,2,2. Histogram drawn.\n\nQUESTION 12.2.9 (Exercise 12.1 Q9):\nSurnames: 1-4=6, 4-6=30, 6-8=44, 8-12=16, 12-20=4.\n(i) Histogram. (ii) Max surnames class.\nANSWER: Min class size=2. Adj. heights: 4,30,44,8,1. (ii) 6-8 has max (44 surnames)."
+    },
+    {
+      "type": "qa",
+      "label": "TOPIC 12.2: Q&A",
+      "items": []
+    },
+    {
+      "type": "mcq",
+      "label": "TOPIC 12.2: MCQs:",
+      "items": [
+        {
+          "mcq_num": 1,
+          "difficulty": "Easy",
+          "question": "Chapter 12 covers data presented graphically in how many forms?",
+          "options": {
+            "A": "2   (B) 3   (C) 4   (D) 5"
+          },
+          "answer": "B",
+          "explanation": "Bar graphs, histograms, and frequency polygons — 3 forms."
+        },
+        {
+          "mcq_num": 2,
+          "difficulty": "Easy",
+          "question": "The class-mark of interval 60-70 is:",
+          "options": {
+            "A": "60   (B) 70   (C) 65   (D) 64"
+          },
+          "answer": "C",
+          "explanation": "Class-mark = (70+60)/2 = 65."
+        },
+        {
+          "mcq_num": 3,
+          "difficulty": "Easy",
+          "question": "In Exercise 12.1 Q3, which party won the maximum seats?",
+          "options": {
+            "A": "B   (B) F   (C) A   (D) C"
+          },
+          "answer": "C",
+          "explanation": "Party A won 75 seats — maximum."
+        },
+        {
+          "mcq_num": 4,
+          "difficulty": "Medium",
+          "question": "To draw a frequency polygon from a histogram, we join the:",
+          "options": {
+            "A": "Upper limits   (B) Lower limits   (C) Mid-points of tops of rectangles (class-marks)   (D) Corners"
+          },
+          "answer": "C",
+          "explanation": "We join class-marks of tops of adjacent rectangles."
+        },
+        {
+          "mcq_num": 5,
+          "difficulty": "Medium",
+          "question": "In Exercise 12.1 Q5, lamps with life time more than 700 hours:",
+          "options": {
+            "A": "74   (B) 110   (C) 184   (D) 138"
+          },
+          "answer": "C",
+          "explanation": "74+62+48 = 184 lamps."
+        },
+        {
+          "mcq_num": 6,
+          "difficulty": "Medium",
+          "question": "In Exercise 12.1 Q9, class interval with maximum surnames:",
+          "options": {
+            "A": "4-6   (B) 1-4   (C) 8-12   (D) 6-8"
+          },
+          "answer": "D",
+          "explanation": "Class 6-8 has 44 surnames — maximum."
+        },
+        {
+          "mcq_num": 7,
+          "difficulty": "Medium",
+          "question": "To make 118-126, 127-135 continuous:",
+          "options": {
+            "A": "Add 1 to upper limits   (B) Subtract 0.5 from lower, add 0.5 to upper",
+            "C": "Add 0.5 to both   (D) Subtract 1 from lower"
+          },
+          "answer": "B",
+          "explanation": "117.5-126.5, 126.5-135.5, etc."
+        },
+        {
+          "mcq_num": 8,
+          "difficulty": "Hard",
+          "question": "In Exercise 12.1 Q8 (children), adjusted height for 10-15 (freq=10, width=5, min=1):",
+          "options": {
+            "A": "10   (B) 5   (C) 2   (D) 3"
+          },
+          "answer": "C",
+          "explanation": "(10/5) x 1 = 2."
+        },
+        {
+          "mcq_num": 9,
+          "difficulty": "Hard",
+          "question": "In Exercise 12.1 Q4, it is wrong to say max leaves = 153 mm because:",
+          "options": {
+            "A": "Class 145-153 has minimum frequency",
+            "B": "Leaves in 144.5-153.5 can be anywhere in that range — not all at 153 mm",
+            "C": "The class-mark is 149 mm",
+            "D": "The histogram shows different value"
+          },
+          "answer": "B",
+          "explanation": "Maximum frequency (12) only tells the range, not the exact value."
+        },
+        {
+          "mcq_num": 10,
+          "difficulty": "Hard",
+          "question": "In Exercise 12.1 Q6, which section performed better?",
+          "options": {
+            "A": "Section B (peak at 10-20)",
+            "B": "Section A (peak at 20-30)",
+            "C": "Both equal",
+            "D": "Cannot be determined"
+          },
+          "answer": "B",
+          "explanation": "Section A peaks at 20-30 (higher range) → better performance."
+        },
+        {
+          "mcq_num": 11,
+          "difficulty": "Hard",
+          "question": "Class-mark of 300-400 is:",
+          "options": {
+            "A": "300   (B) 400   (C) 350   (D) 380"
+          },
+          "answer": "C",
+          "explanation": "(400+300)/2 = 350."
+        },
+        {
+          "mcq_num": 12,
+          "difficulty": "Hard",
+          "question": "In Exercise 12.1 Q9, adjusted height for 12-20 (freq=4, width=8, min=2):",
+          "options": {
+            "A": "4   (B) 2   (C) 1   (D) 8"
+          },
+          "answer": "C",
+          "explanation": "(4/8) x 2 = 1."
+        }
+      ]
+    }
+  ],
+  "topics": [
+    {
+      "topic_num": "12.1",
+      "topic_name": "GRAPHICAL REPRESENTATION OF DATA",
+      "mode": "B",
+      "sections": [
+        {
+          "type": "definition",
+          "label": "Definition:",
+          "text": "- GRAPHICAL REPRESENTATION is a method of presenting data in the form of pictures or graphs. It makes comparisons among individual items easier to understand than actual data or tables."
+        },
+        {
+          "type": "key_points",
+          "label": "Key Points:",
+          "points": [
+            "Data represented by tables has already been studied in earlier classes.",
+            "Graphical representation gives a better visual understanding — \"one picture is better than a thousand words.\"",
+            "Comparisons among individual items are best shown by means of graphs.",
+            "Three types of graphical representations are studied in this topic:",
+            "(A) Bar graphs",
+            "(B) Histograms of uniform width, and of varying widths",
+            "(C) Frequency polygons"
+          ]
+        },
+        {
+          "type": "list_of_topics",
+          "label": "LIST OF SUB TOPICS IN THIS TOPIC:",
+          "items": [
+            "- Sub-Topic 12.1.A: Bar Graphs",
+            "- Sub-Topic 12.1.B: Histogram",
+            "- Sub-Topic 12.1.C: Frequency Polygon"
+          ]
+        },
+        {
+          "type": "qa",
+          "label": "TOPIC 12.1: Q&A",
+          "items": []
+        },
+        {
+          "type": "qa",
+          "label": "Q&A",
+          "items": [
+            {
+              "q_num": 1,
+              "marks": 2,
+              "question": "Define graphical representation of data. Why is it better than tabular form?",
+              "answer": "GRAPHICAL REPRESENTATION is a method of presenting data in the form of pictures or graphs. It makes comparisons among individual items easier to understand than actual data or tables.\nIt is better than tabular form because: one can easily visualise relative characteristics of data at a glance. As the textbook states — \"one picture is better than a thousand words.\""
+            },
+            {
+              "q_num": 2,
+              "marks": 2,
+              "question": "Name the three types of graphical representations studied in Topic 12.1.",
+              "answer": "The three types of graphical representations studied are:\n(A) Bar graphs — for discrete / categorical data.\n(B) Histograms of uniform width, and of varying widths — for continuous grouped data.\n(C) Frequency polygons — for continuous large data, especially to compare two data sets."
+            },
+            {
+              "q_num": 3,
+              "marks": 2,
+              "question": "What is the importance of the width of a bar in a bar graph versus a histogram?",
+              "answer": "In a Bar Graph:\nThe width of the bar is NOT important. Only the height (value) matters. All bars have uniform width just for visual clarity.\n\nIn a Histogram:\nThe width of the bar IS significant — it equals the class-size. The area of each rectangle (width x height) is proportional to the corresponding frequency. Different class widths require adjusted heights."
+            },
+            {
+              "q_num": 4,
+              "marks": 2,
+              "question": "For what purpose are frequency polygons most suitable?",
+              "answer": "Frequency polygons are most suitable:\n1. When data is continuous and very large.\n2. When comparing two different sets of data of the same nature, for example, comparing the performance of two different sections of the same class on the same graph.\n\n---\n\n3 ಮಾರ್ಕ್ಸ್ × 2 questions:"
+            },
+            {
+              "q_num": 5,
+              "marks": 3,
+              "question": "Explain the two methods of drawing a frequency polygon. Which method is used when the class intervals start from 0-10?",
+              "answer": "Step 1: Method 1 — With Histogram.\nDraw the histogram first. Mark the mid-points (class-marks) of the tops of each rectangle. Join these mid-points by line segments. Add imaginary zero-frequency class at both ends to close the polygon.\n\nStep 2: Method 2 — Without Histogram.\nFind class-marks (= (Upper + Lower)/2) for each class interval. Plot the points (class-mark, frequency) directly. Add imaginary zero-frequency classes at both ends. Join all points by line segments.\n\nStep 3: When first class = 0-10.\nImaginary preceding class = (-10)-0. Class-mark = (-10+0)/2 = -5. Frequency = 0.\nJoin point B (class-mark 5, first frequency) to this point. Where this line meets the y-axis is marked as A. Polygon begins from A on the y-axis."
+            },
+            {
+              "q_num": 6,
+              "marks": 3,
+              "question": "In a bar graph of a family's monthly expenditure, Grocery = Rs.4000, Rent = Rs.5000, Education = Rs.5000, Medicine = Rs.2000, Fuel = Rs.2000, Entertainment = Rs.1000, Miscellaneous = Rs.1000. (i) What scale is chosen for y-axis? (ii) Which head has maximum expenditure? (iii) How does the graph help compare items?",
+              "answer": "Step 1: Choose scale for y-axis.\nMaximum expenditure = Rs.5000. Choose scale: 1 unit = Rs.1000. y-axis goes up to 5 units.\n\nStep 2: Head with maximum expenditure.\nBoth Rent and Education of children are highest at Rs.5000 each (height = 5 units).\n\nStep 3: Comparison using graph.\nFrom bar heights directly: Education (5 units) is more than double that of Medicine (2 units). Fuel equals Medicine (both 2 units). Entertainment equals Miscellaneous (both 1 unit). This comparison is immediate from the graph but would take more effort in a table.\n\n---\n\n4 ಮಾರ್ಕ್ಸ್ × 3 questions:"
+            },
+            {
+              "q_num": 7,
+              "marks": 4,
+              "question": "The following data shows the marks obtained by 40 students in a test. The class intervals are given but are NOT continuous. (i) Make them continuous. (ii) Draw a histogram. (iii) State which class has maximum frequency. (iv) Can we say the maximum marks scored are 153 mm? Justify.",
+              "answer": "Step 1: Make class intervals continuous.\nSubtract 0.5 from lower limit; add 0.5 to upper limit.\n\nOriginal  | Continuous      | Freq\n118-126   | 117.5-126.5    | 3\n127-135   | 126.5-135.5    | 5\n136-144   | 135.5-144.5    | 9\n145-153   | 144.5-153.5    | 12\n154-162   | 153.5-162.5    | 5\n163-171   | 162.5-171.5    | 4\n172-180   | 171.5-180.5    | 2\n\nAll class widths = 9 (equal). Heights = frequencies directly.\n\nStep 2: Draw histogram.\nx-axis: Length (mm); y-axis: Number of leaves.\nShow kink at start since data begins at 117.5, not 0.\nRectangles: heights 3, 5, 9, 12, 5, 4, 2; width = 9 for each. No gaps.\n\nStep 3: Class with maximum frequency.\nClass 144.5-153.5 (original 145-153) has the highest frequency = 12 leaves.\n\nStep 4: Can we say maximum leaves are 153 mm?\nNO. The class 144.5-153.5 has the maximum frequency of 12, but these 12 leaves can have any length between 144.5 mm and 153.5 mm — they are not all exactly 153 mm long. So the statement is incorrect."
+            },
+            {
+              "q_num": 8,
+              "marks": 4,
+              "question": "In a particular section of Class IX, 40 students were asked about their birth months. The bar graph (Fig. 12.1) shows: August = 6 students (maximum), November = 4 students.",
+              "answer": "Step 1: Total monthly expenditure.\n= 4 + 5 + 5 + 2 + 2 + 1 + 1 = 20 thousand rupees = Rs.20,000.\n\nStep 2: Steps to draw bar graph.\n(i) Draw x-axis: Heads (Grocery, Rent, Education, Medicine, Fuel, Entertainment, Miscellaneous). Let 1 unit = 1 head.\n(ii) Draw y-axis: Expenditure. Scale: 1 unit = Rs.1000. Maximum = Rs.5000 → y-axis up to 5 units.\n(iii) Draw rectangle for Grocery: width = 1 unit, height = 4 units.\n(iv) Draw remaining bars with gap of 1 unit between each.\n\nStep 3: Item equal to Rent.\nRent = Rs.5000. Education of children = Rs.5000.\nEducation of children equals Rent in expenditure.\n\nStep 4: More spent on Education than Medicine.\nEducation = Rs.5000, Medicine = Rs.2000.\nDifference = 5000 - 2000 = Rs.3000.\nEducation costs Rs.3000 more per month than Medicine.\nAlso: Education is 5000/2000 = 2.5 times the medicine expenditure."
+            },
+            {
+              "q_num": 9,
+              "marks": 4,
+              "question": "The runs scored by two cricket teams A and B on the first 60 balls are given below. The class intervals are given as discrete. (i) Make them continuous. (ii) Write the class-marks. (iii) Write the coordinates (class-mark, frequency) for Team A's frequency polygon including imaginary end points.",
+              "answer": "Step 1: Make class intervals continuous.\nSubtract 0.5 from lower limit, add 0.5 to upper limit.\n\nOriginal | Continuous\n1-6      | 0.5-6.5\n7-12     | 6.5-12.5\n13-18    | 12.5-18.5\n19-24    | 18.5-24.5\n25-30    | 24.5-30.5\n31-36    | 30.5-36.5\n37-42    | 36.5-42.5\n43-48    | 42.5-48.5\n49-54    | 48.5-54.5\n55-60    | 54.5-60.5\n\nStep 2: Class-marks = (Upper + Lower)/2.\n0.5-6.5 → 3.5,  6.5-12.5 → 9.5,  12.5-18.5 → 15.5,  18.5-24.5 → 21.5,\n24.5-30.5 → 27.5,  30.5-36.5 → 33.5,  36.5-42.5 → 39.5,  42.5-48.5 → 45.5,\n48.5-54.5 → 51.5,  54.5-60.5 → 57.5.\n\nStep 3: Coordinates for Team A's frequency polygon.\nImaginary preceding class-mark = (0.5 - 6)/2 → class before 0.5-6.5 is (-5.5)-0.5, class-mark = -2.5. Frequency = 0.\nImaginary succeeding class-mark = 60.5-66.5, class-mark = 63.5. Frequency = 0.\n\nTeam A full coordinate list:\n(-2.5,0), (3.5,2), (9.5,1), (15.5,8), (21.5,9), (27.5,4), (33.5,5), (39.5,6), (45.5,10), (51.5,6), (57.5,2), (63.5,0).\n\n---\n\n5 ಮಾರ್ಕ್ಸ್ × 1 question:"
+            },
+            {
+              "q_num": 10,
+              "marks": 5,
+              "question": "Study the two problems below and solve both parts.",
+              "answer": "PART A — Bar Graph: Causes of Illness Among Women:\n\nStep 1: Draw bar graph.\nx-axis: Causes (S.No. 1 to 6), y-axis: Female fatality rate (%).\nScale: 1 unit = 5% (maximum = 31.8%, so y-axis up to approximately 7 units = 35%).\nBars: 31.8, 25.4, 12.4, 4.3, 4.1, 22.0.\n\nStep 2: Major cause.\nReproductive health conditions has the highest bar (31.8%) → it is the major cause of illness and death among women worldwide.\n\nStep 3: Total of all percentages.\n31.8 + 25.4 + 12.4 + 4.3 + 4.1 + 22.0 = 100%.\nThis confirms that the data accounts for ALL causes of women's illness and death — the percentages add up to 100%, which is expected for a complete survey.\n\n---\n\nPART B — Histogram: Surnames and Number of Letters:\n\nStep 1: Note class widths are varying.\n1-4 → width = 3\n4-6 → width = 2\n6-8 → width = 2\n8-12 → width = 4\n12-20 → width = 8\nMinimum class size = 2.\n\nStep 2: Calculate adjusted heights.\nAdjusted height = (Frequency / Width) x Minimum class size = (Frequency / Width) x 2.\n\nLetters | Freq | Width | Calculation         | Adj. Height\n1-4     |  6   |   3   | (6/3) x 2 = 4       | 4\n4-6     | 30   |   2   | (30/2) x 2 = 30     | 30\n6-8     | 44   |   2   | (44/2) x 2 = 44     | 44\n8-12    | 16   |   4   | (16/4) x 2 = 8      | 8\n12-20   |  4   |   8   | (4/8) x 2 = 1       | 1\n\nStep 3: Class with maximum adjusted height.\nClass 6-8 has the maximum adjusted height = 44.\n\nStep 4: Class with maximum number of surnames.\nClass 6-8 has the maximum number of surnames = 44. (In this case, adjusted height and frequency are the same since width = minimum class size = 2.)\n\nAnswer:\n(i) Adjusted heights: 4, 30, 44, 8, 1.\n(ii) Class 6-8 has maximum adjusted height (44).\n(iii) Class 6-8 has maximum number of surnames (44 surnames)."
+            }
+          ]
+        }
+      ],
+      "subtopics": []
+    }
+  ]
+}

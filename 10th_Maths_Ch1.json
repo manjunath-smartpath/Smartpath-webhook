@@ -1,0 +1,1332 @@
+{
+  "metadata": {
+    "class": "10th STANDARD",
+    "subject": "Mathematics",
+    "part": "1",
+    "chapter_num": "1",
+    "chapter_name": "REAL NUMBERS",
+    "source": "KSEEB Textbook 2025-26",
+    "mode": "B"
+  },
+  "chapter_sections": [
+    {
+      "type": "definition",
+      "label": "DEFINITION:",
+      "text": "- REAL NUMBERS include all rational and irrational numbers together on the number line.\n- A number 's' is called IRRATIONAL if it cannot be written in the form p/q, where\np and q are integers and q is not equal to 0."
+    },
+    {
+      "type": "key_points",
+      "label": "KEY POINTS:",
+      "points": [
+        "In Class IX, we began our exploration of the world of real numbers and encountered",
+        "irrational numbers.",
+        "We continue our discussion on real numbers in this chapter.",
+        "We begin with a very important property of positive integers in Section 1.2, namely",
+        "the Fundamental Theorem of Arithmetic.",
+        "The Fundamental Theorem of Arithmetic has to do with multiplication of positive integers.",
+        "Every composite number can be expressed as a product of primes in a unique way — this",
+        "is the Fundamental Theorem of Arithmetic.",
+        "We use the Fundamental Theorem of Arithmetic to prove the irrationality of many numbers",
+        "studied in Class IX, such as sqrt(2), sqrt(3) and sqrt(5)."
+      ]
+    },
+    {
+      "type": "list_of_topics",
+      "label": "LIST OF TOPICS IN THIS CHAPTER:",
+      "items": [
+        "- Topic 1.1: Introduction",
+        "(No sub-topics — textbook has only introductory paragraphs)",
+        "- Topic 1.2: The Fundamental Theorem of Arithmetic",
+        "(No sub-topics — textbook presents as single continuous topic)",
+        "- Topic 1.3: Revisiting Irrational Numbers",
+        "(No sub-topics — textbook presents as single continuous topic)",
+        "- Topic 1.4: Summary"
+      ]
+    },
+    {
+      "type": "qa",
+      "label": "CHAPTER 1: Q&A",
+      "items": []
+    },
+    {
+      "type": "mcq",
+      "label": "CHAPTER 1: MCQs:",
+      "items": [
+        {
+          "mcq_num": 1,
+          "difficulty": "Easy",
+          "question": "Which of the following is an irrational number?",
+          "options": {
+            "A": "3/4   (B) sqrt(9)   (C) sqrt(2)   (D) 0.5"
+          },
+          "answer": "C",
+          "explanation": "sqrt(2) = 1.41421... is non-terminating non-repeating — irrational. sqrt(9) = 3 is rational."
+        },
+        {
+          "mcq_num": 2,
+          "difficulty": "Easy",
+          "question": "Real numbers consist of:",
+          "options": {
+            "A": "Only rational numbers   (B) Only irrational numbers",
+            "C": "Both rational and irrational numbers   (D) Only integers"
+          },
+          "answer": "C",
+          "explanation": "Real numbers = rational + irrational numbers together on the number line."
+        },
+        {
+          "mcq_num": 3,
+          "difficulty": "Medium",
+          "question": "The irrationality of sqrt(2), sqrt(3), sqrt(5) is proved using:",
+          "options": {
+            "A": "Euclid's Division Lemma   (B) Fundamental Theorem of Arithmetic",
+            "C": "Properties of rational numbers   (D) Division algorithm"
+          },
+          "answer": "B",
+          "explanation": "FTA (uniqueness of prime factorisation) is the basis for proving sqrt(p) is irrational where p is prime."
+        },
+        {
+          "mcq_num": 4,
+          "difficulty": "Hard",
+          "question": "A student says \"All square roots are irrational.\" This is:",
+          "options": {
+            "A": "Always true",
+            "B": "False — sqrt(4) = 2 is rational",
+            "C": "True only for odd numbers",
+            "D": "True only for prime numbers"
+          },
+          "answer": "B",
+          "explanation": "sqrt(4) = 2, sqrt(9) = 3 are rational. Only sqrt(p) where p is prime is guaranteed irrational."
+        },
+        {
+          "mcq_num": 5,
+          "difficulty": "Hard",
+          "question": "0.10110111011110... is:",
+          "options": {
+            "A": "Rational   (B) Whole number   (C) Irrational   (D) Integer"
+          },
+          "answer": "C",
+          "explanation": "Non-terminating, non-repeating decimal — so it is irrational."
+        }
+      ]
+    }
+  ],
+  "topics": [
+    {
+      "topic_num": "1.1",
+      "topic_name": "INTRODUCTION",
+      "mode": "B",
+      "sections": [
+        {
+          "type": "definition",
+          "label": "DEFINITION:",
+          "text": "- REAL NUMBERS: Numbers that include all rational and irrational numbers; every point\non the number line represents a real number.\n- IRRATIONAL NUMBER: A number that cannot be written in the form p/q where p and q are\nintegers and q is not equal to 0."
+        },
+        {
+          "type": "key_points",
+          "label": "KEY POINTS:",
+          "points": [
+            "In Class IX, we began our exploration of the world of real numbers and encountered",
+            "irrational numbers.",
+            "We continue our discussion on real numbers in this chapter.",
+            "We begin with a very important property of positive integers in Section 1.2, namely",
+            "the Fundamental Theorem of Arithmetic.",
+            "The Fundamental Theorem of Arithmetic has to do with multiplication of positive integers.",
+            "Every composite number can be expressed as a product of primes in a unique way —",
+            "this important fact is the Fundamental Theorem of Arithmetic.",
+            "We use the Fundamental Theorem of Arithmetic to prove the irrationality of many of",
+            "the numbers you studied in Class IX, such as sqrt(2), sqrt(3) and sqrt(5).",
+            "So let us begin our exploration."
+          ]
+        },
+        {
+          "type": "list_of_topics",
+          "label": "LIST OF SUB TOPICS IN THIS TOPIC:",
+          "items": [
+            "- None (Topic 1.1 is a brief introductory section with no sub-topics in the textbook)"
+          ]
+        },
+        {
+          "type": "qa",
+          "label": "TOPIC 1.1: Q&A",
+          "items": []
+        },
+        {
+          "type": "qa",
+          "label": "Q&A",
+          "items": [
+            {
+              "q_num": 1,
+              "marks": 2,
+              "question": "What is a real number?",
+              "answer": "A real number is any number that can be found on the number line.\nIt includes both rational numbers (like 2, 3/4, -5) and irrational numbers\n(like sqrt(2), pi)."
+            },
+            {
+              "q_num": 2,
+              "marks": 2,
+              "question": "What is an irrational number? Give two examples.",
+              "answer": "A number 's' is called irrational if it cannot be written in the form p/q where p and q\nare integers and q is not equal to 0.\nExamples: sqrt(2), sqrt(3), pi, 0.10110111011110..."
+            },
+            {
+              "q_num": 3,
+              "marks": 2,
+              "question": "What does \"non-terminating non-repeating decimal\" mean?",
+              "answer": "A decimal that goes on forever without ending (non-terminating) and has no repeating\nblock of digits (non-repeating) is called non-terminating non-repeating.\nExample: sqrt(2) = 1.41421356... — never ends, digits never repeat.\nSuch numbers are irrational. In contrast, 1/3 = 0.333... is non-terminating but\nrepeating — so it is rational."
+            },
+            {
+              "q_num": 4,
+              "marks": 2,
+              "question": "Which theorem from Chapter 1 is used to prove irrationality of sqrt(2),",
+              "answer": "The Fundamental Theorem of Arithmetic is used to prove the irrationality of sqrt(2),\nsqrt(3), sqrt(5), and in general sqrt(p) where p is any prime number.\n\n---\n\n3 ಮಾರ್ಕ್ಸ್ × 3 questions:"
+            },
+            {
+              "q_num": 5,
+              "marks": 3,
+              "question": "What is the difference between rational and irrational numbers? Give",
+              "answer": "Step 1: A rational number can be written in the form p/q (integers p, q; q not 0).\nExamples: 1/2 = 0.5 (terminating), 1/3 = 0.333... (non-terminating repeating).\nStep 2: An irrational number CANNOT be written as p/q.\nExamples: sqrt(2) = 1.41421... (non-terminating non-repeating),\npi = 3.14159... (non-terminating non-repeating).\nStep 3: Key difference in decimal expansion:\nRational → terminating or non-terminating REPEATING.\nIrrational → always non-terminating NON-REPEATING."
+            },
+            {
+              "q_num": 6,
+              "marks": 3,
+              "question": "What was studied about real numbers in Class IX? What new topics continue",
+              "answer": "Step 1: In Class IX — We explored real numbers, encountered irrational numbers, studied\nhow rationals and irrationals together make up real numbers, and located\nirrationals on the number line. But we could NOT prove they were irrational.\nStep 2: In Class X — We prove irrationality using the Fundamental Theorem of Arithmetic\n(FTA). FTA guarantees UNIQUE prime factorisation of every composite number.\nStep 3: This uniqueness is the key tool — if we assume sqrt(2) is rational and use FTA,\nwe arrive at a contradiction, proving sqrt(2) is irrational."
+            },
+            {
+              "q_num": 7,
+              "marks": 3,
+              "question": "Name four irrational numbers studied in Class IX and explain why",
+              "answer": "Step 1: Four irrational numbers from Class IX:\nsqrt(2), sqrt(3), sqrt(5), pi.\n(Others: sqrt(15), -sqrt(2)/sqrt(3), 0.10110111011110...)\nStep 2: 0.10110111011110... is non-terminating (goes on forever) AND non-repeating\n(there is no fixed block of digits that repeats). So it is irrational.\nStep 3: 0.333... is non-terminating BUT repeating — the digit 3 repeats endlessly.\nIt equals 1/3 = 1/3 which is in p/q form (p=1, q=3). So it is rational.\n\n---\n\n4 ಮಾರ್ಕ್ಸ್ × 4 questions:"
+            },
+            {
+              "q_num": 8,
+              "marks": 4,
+              "question": "Explain with examples why sqrt(4) is rational but sqrt(2) is not. What",
+              "answer": "Step 1: sqrt(4) = 2. This can be written as 2/1, which is in p/q form (integers, q not 0).\nSo sqrt(4) is rational.\nStep 2: sqrt(2) = 1.41421356... This is non-terminating non-repeating.\nIt cannot be written as p/q for any integers p, q. So sqrt(2) is irrational.\nStep 3: General rule:\nsqrt(n) is rational if and only if n is a perfect square\n(n = 1, 4, 9, 16, 25, ...).\nsqrt(n) is irrational when n is a prime number (proved using FTA in Topic 1.3).\nStep 4: Examples:\nsqrt(9) = 3 (rational — 9 is perfect square).\nsqrt(7) is irrational (7 is prime, not a perfect square).\nsqrt(16) = 4 (rational — 16 is perfect square).\nsqrt(5) is irrational (5 is prime, not a perfect square)."
+            },
+            {
+              "q_num": 9,
+              "marks": 4,
+              "question": "pi is often written as 22/7. Is pi rational or irrational? Explain clearly.",
+              "answer": "Step 1: pi = 3.14159265358979... It is non-terminating and non-repeating.\nIt CANNOT be expressed exactly as p/q for any integers p, q.\nTherefore pi is IRRATIONAL.\n22/7 = 3.142857... is only an APPROXIMATION of pi, not the exact value.\nStep 2: 0.5 = 1/2. This is in p/q form (integers, q not 0).\n→ RATIONAL (terminating decimal).\nStep 3: sqrt(3) = 1.7320508... Non-terminating non-repeating. Cannot be p/q.\n→ IRRATIONAL.\nStep 4: -7/9 is already in p/q form (p=-7, q=9, q not 0).\n→ RATIONAL.\n1.010010001... is non-terminating non-repeating.\n→ IRRATIONAL."
+            },
+            {
+              "q_num": 10,
+              "marks": 4,
+              "question": "The Fundamental Theorem of Arithmetic is described as easy to state but",
+              "answer": "Step 1: STATEMENT of Fundamental Theorem of Arithmetic:\nEvery composite number can be expressed (factorised) as a product of primes,\nand this factorisation is unique, apart from the order of prime factors.\nStep 2: Example: 32760 = 2^3 x 3^2 x 5 x 7 x 13.\nNo matter how we factorise 32760, we always get the same set of prime factors\n(2, 3, 5, 7, 13 with the same powers) — just in different order.\nStep 3: Application 1 — Finding HCF and LCM:\nHCF(6, 20) = 2 (smallest power of common prime).\nLCM(6, 20) = 60 (greatest power of all primes).\nThis is called the Prime Factorisation Method.\nStep 4: Application 2 — Proving Irrationality:\nTo prove sqrt(2) is irrational, we assume sqrt(2) = a/b (coprime).\nUsing FTA's uniqueness, we show both a and b must be divisible by 2 —\ncontradicting that they are coprime. So sqrt(2) is irrational.\n\n---\n\n5 ಮಾರ್ಕ್ಸ್ × 1 question:"
+            },
+            {
+              "q_num": 11,
+              "marks": 5,
+              "question": "",
+              "answer": "PART A — Classification:\n\nStep 1: sqrt(25) = 5. This equals 5/1, which is in p/q form (integers, q not 0).\n→ RATIONAL. (25 is a perfect square)\n\nStep 2: sqrt(7) = 2.6457513... Non-terminating non-repeating. Cannot be written as p/q.\n→ IRRATIONAL. (7 is a prime number, not a perfect square)\n\nStep 3: 0.6666... = 2/3. This is in p/q form (p=2, q=3, q not 0).\nNon-terminating but REPEATING decimal.\n→ RATIONAL.\n\nStep 4: pi = 3.14159265... Non-terminating non-repeating. Cannot be written as p/q.\n22/7 is only an approximation of pi.\n→ IRRATIONAL.\n\nStep 5: -3/8. This is already in p/q form (p=-3, q=8, q not 0).\n= -0.375 (terminating decimal).\n→ RATIONAL.\n\nPART B — Properties of irrational numbers:\n\nStep 6: Two properties from Class IX:\n(i) The sum or difference of a rational and an irrational number is irrational.\n(ii) The product and quotient of a non-zero rational and an irrational number\nis irrational.\n\nStep 7: Example for property (i) — Sum of rational and irrational is irrational:\nShow that 5 - sqrt(3) is irrational.\nAssume 5 - sqrt(3) = a/b (coprime, b not 0).\nThen sqrt(3) = 5 - a/b = (5b - a)/b.\nSince a, b are integers, (5b - a)/b is rational. So sqrt(3) is rational.\nBut sqrt(3) is irrational — contradiction.\nTherefore 5 - sqrt(3) is irrational."
+            }
+          ]
+        },
+        {
+          "type": "mcq",
+          "label": "MCQ",
+          "items": [
+            {
+              "mcq_num": 1,
+              "difficulty": "Easy",
+              "question": "Which of the following is a rational number?",
+              "options": {
+                "A": "sqrt(3)   (B) sqrt(5)   (C) pi   (D) sqrt(4)"
+              },
+              "answer": "D",
+              "explanation": "sqrt(4) = 2 = 2/1, which is in the form p/q. So it is rational."
+            },
+            {
+              "mcq_num": 2,
+              "difficulty": "Easy",
+              "question": "A number that cannot be written in the form p/q (integers, q not 0) is called:",
+              "options": {
+                "A": "Rational   (B) Integer   (C) Whole   (D) Irrational"
+              },
+              "answer": "D",
+              "explanation": "By definition, a number that cannot be expressed as p/q is irrational."
+            },
+            {
+              "mcq_num": 3,
+              "difficulty": "Easy",
+              "question": "Which class introduced irrational numbers for the first time?",
+              "options": {
+                "A": "Class VI   (B) Class VII   (C) Class VIII   (D) Class IX"
+              },
+              "answer": "D",
+              "explanation": "In Class IX, we began exploration of real numbers and encountered irrationals."
+            },
+            {
+              "mcq_num": 4,
+              "difficulty": "Easy",
+              "question": "Real numbers consist of:",
+              "options": {
+                "A": "Only rational   (B) Only irrational",
+                "C": "Both rational and irrational   (D) Only integers"
+              },
+              "answer": "C",
+              "explanation": "Real numbers = rational numbers + irrational numbers together."
+            },
+            {
+              "mcq_num": 5,
+              "difficulty": "Easy",
+              "question": "Which of the following is an irrational number?",
+              "options": {
+                "A": "3/4   (B) sqrt(9)   (C) sqrt(2)   (D) 0.5"
+              },
+              "answer": "C",
+              "explanation": "sqrt(2) = 1.41421... is non-terminating non-repeating — irrational."
+            },
+            {
+              "mcq_num": 6,
+              "difficulty": "Medium",
+              "question": "The Fundamental Theorem of Arithmetic deals with:",
+              "options": {
+                "A": "Addition of integers   (B) Subtraction of primes",
+                "C": "Multiplication of positive integers   (D) Division of real numbers"
+              },
+              "answer": "C",
+              "explanation": "FTA deals with multiplication of positive integers — expressing composite numbers as products of primes."
+            },
+            {
+              "mcq_num": 7,
+              "difficulty": "Medium",
+              "question": "In the form p/q representing a rational number, which condition must hold?",
+              "options": {
+                "A": "p not equal to 0   (B) q not equal to 0",
+                "C": "Both p and q not equal to 0   (D) p > q"
+              },
+              "answer": "B",
+              "explanation": "q must not be zero (denominator cannot be zero). p can be 0."
+            },
+            {
+              "mcq_num": 8,
+              "difficulty": "Medium",
+              "question": "Which of the following decimals is RATIONAL?",
+              "options": {
+                "A": "0.10110111011110...   (B) 1.41421356...   (C) 3.14159265...   (D) 0.333..."
+              },
+              "answer": "D",
+              "explanation": "0.333... = 1/3 is non-terminating but REPEATING — rational. Others are non-terminating non-repeating — irrational."
+            },
+            {
+              "mcq_num": 9,
+              "difficulty": "Medium",
+              "question": "The irrationality of sqrt(2), sqrt(3), sqrt(5) is proved using:",
+              "options": {
+                "A": "Euclid's Division Lemma   (B) Fundamental Theorem of Arithmetic",
+                "C": "Properties of rational numbers   (D) Division algorithm"
+              },
+              "answer": "B",
+              "explanation": "FTA (uniqueness of prime factorisation) is the basis for proving irrationality."
+            },
+            {
+              "mcq_num": 10,
+              "difficulty": "Medium",
+              "question": "sqrt(2), sqrt(3), sqrt(5) are examples of:",
+              "options": {
+                "A": "Rational numbers   (B) Integers   (C) Whole numbers   (D) Irrational numbers"
+              },
+              "answer": "D",
+              "explanation": "These cannot be expressed in p/q form — they are irrational."
+            },
+            {
+              "mcq_num": 11,
+              "difficulty": "Medium",
+              "question": "Which section in Chapter 1 introduces the Fundamental Theorem of Arithmetic?",
+              "options": {
+                "A": "Section 1.1   (B) Section 1.2   (C) Section 1.3   (D) Section 1.4"
+              },
+              "answer": "B",
+              "explanation": "The Fundamental Theorem of Arithmetic is introduced in Section 1.2."
+            },
+            {
+              "mcq_num": 12,
+              "difficulty": "Hard",
+              "question": "The value of pi is:",
+              "options": {
+                "A": "22/7 exactly   (B) Rational   (C) Irrational   (D) An integer"
+              },
+              "answer": "C",
+              "explanation": "pi = 3.14159... is non-terminating non-repeating. 22/7 is only an approximation; the actual value of pi is irrational."
+            },
+            {
+              "mcq_num": 13,
+              "difficulty": "Hard",
+              "question": "-sqrt(2)/sqrt(3) is:",
+              "options": {
+                "A": "Rational   (B) Integer   (C) Irrational   (D) Zero"
+              },
+              "answer": "C",
+              "explanation": "-sqrt(2)/sqrt(3) = -sqrt(2/3) is non-terminating non-repeating — irrational."
+            },
+            {
+              "mcq_num": 14,
+              "difficulty": "Hard",
+              "question": "0.10110111011110... is:",
+              "options": {
+                "A": "Rational   (B) Whole number   (C) Irrational   (D) Integer"
+              },
+              "answer": "C",
+              "explanation": "Non-terminating, non-repeating decimal — so it is irrational."
+            },
+            {
+              "mcq_num": 15,
+              "difficulty": "Hard",
+              "question": "A student says \"All square roots are irrational.\" This is:",
+              "options": {
+                "A": "Always true",
+                "B": "False — sqrt(4) = 2 is rational",
+                "C": "True only for odd numbers",
+                "D": "True only for prime numbers"
+              },
+              "answer": "B",
+              "explanation": "sqrt(4) = 2, sqrt(9) = 3 are rational. Only sqrt(p) where p is prime is guaranteed to be irrational."
+            }
+          ]
+        }
+      ],
+      "subtopics": []
+    },
+    {
+      "topic_num": "1.2",
+      "topic_name": "THE FUNDAMENTAL THEOREM OF ARITHMETIC",
+      "mode": "B",
+      "sections": [
+        {
+          "type": "definition",
+          "label": "DEFINITION:",
+          "text": "- COMPOSITE NUMBER: A positive integer that has more than two factors (can be divided\nby numbers other than 1 and itself). Examples: 4, 6, 8, 9, 10, ...\n- PRIME NUMBER: A positive integer greater than 1 with no factors other than 1 and\nitself. Examples: 2, 3, 5, 7, 11, 13, ...\n- PRIME FACTORISATION: Expressing a composite number as a product of prime numbers.\n- HCF (Highest Common Factor): The largest number that divides all the given numbers.\nBy prime factorisation: HCF = product of SMALLEST power of each COMMON prime factor.\n- LCM (Lowest Common Multiple): The smallest number divisible by all the given numbers.\nBy prime factorisation: LCM = product of GREATEST power of each prime factor INVOLVED."
+        },
+        {
+          "type": "key_points",
+          "label": "KEY POINTS:",
+          "points": [
+            "In earlier classes, any natural number can be written as a product of its prime factors.",
+            "For instance: 2 = 2, 4 = 2 x 2, 253 = 11 x 23.",
+            "Every composite number has a UNIQUE prime factorisation (apart from order of factors).",
+            "The prime factorisation of a natural number is unique, except for the order of factors.",
+            "In general, composite number x = p1 x p2 x ... x pn (primes in ascending order).",
+            "Combining same primes: 32760 = 2^3 x 3^2 x 5 x 7 x 13.",
+            "This method of finding HCF and LCM using prime factorisation is called the",
+            "PRIME FACTORISATION METHOD.",
+            "For any two positive integers a and b:",
+            "HCF(a, b) x LCM(a, b) = a x b",
+            "NOTE: For THREE numbers p, q, r:",
+            "HCF(p,q,r) x LCM(p,q,r) NOT EQUAL TO p x q x r (product rule does NOT hold).",
+            "Formula for three numbers (from Note to the Reader in textbook):",
+            "LCM(p,q,r) = [p x q x r x HCF(p,q,r)] / [HCF(p,q) x HCF(q,r) x HCF(p,r)]",
+            "HCF(p,q,r) = [p x q x r x LCM(p,q,r)] / [LCM(p,q) x LCM(q,r) x LCM(p,r)]"
+          ]
+        },
+        {
+          "type": "list_of_topics",
+          "label": "LIST OF SUB TOPICS IN THIS TOPIC:",
+          "items": [
+            "- None (Topic 1.2 is a single continuous section in the textbook with no sub-sections)"
+          ]
+        },
+        {
+          "type": "theorem",
+          "label": "THEOREM:",
+          "statement": "(Theorem 1.1 — Fundamental Theorem of Arithmetic)\nEvery composite number can be expressed (factorised) as a product of primes, and this\nfactorisation is unique, apart from the order in which the prime factors occur.",
+          "given": "Any composite number x.",
+          "to_prove": "x can be expressed as a product of primes uniquely (except for order).",
+          "construction": "",
+          "proof": [
+            "Step 1: Existence — By factor tree method, any composite number can be broken into",
+            "prime factors. For example, 32760 → 2 x 16380 → ... → 2^3 x 3^2 x 5 x 7 x 13.",
+            "Step 2: Uniqueness — If x has two prime factorisations x = p1 x p2 x...x pn =",
+            "q1 x q2 x...x qm, then by the property of primes (a prime dividing a product",
+            "must divide one of the factors), every pi = some qj and vice versa.",
+            "Step 3: Therefore both factorisations are identical apart from order."
+          ],
+          "hence_proved": "EXAMPLES:\nEXAMPLE 1.2.1: (From textbook — Example 1)\nPROBLEM: Consider the numbers 4^n, where n is a natural number. Check whether there is\nany value of n for which 4^n ends with the digit zero.\nSOLUTION:\nStep 1: If 4^n ends with digit 0, it would be divisible by 10.\nStep 2: So its prime factorisation must contain both primes 2 and 5 (since 10 = 2 x 5).\nStep 3: But 4^n = (2^2)^n = 2^(2n). The only prime in the factorisation of 4^n is 2.\nStep 4: The uniqueness of the Fundamental Theorem of Arithmetic guarantees there are no\nother primes in the factorisation of 4^n.\nStep 5: Since 5 is NOT a factor of 4^n, there is no n for which 4^n ends with digit 0.\nANSWER: There is no natural number n for which 4^n ends with the digit zero.\nEXAMPLE 1.2.2: (From textbook — Example 2)\nPROBLEM: Find the LCM and HCF of 6 and 20 by the prime factorisation method.\nSOLUTION:\nStep 1: Write prime factorisations:\n6 = 2^1 x 3^1\n20 = 2^2 x 5^1\nStep 2: HCF = product of SMALLEST power of each COMMON prime factor.\nCommon prime factor = 2. Smallest power = 2^1.\nHCF(6, 20) = 2^1 = 2\nStep 3: LCM = product of GREATEST power of each prime factor INVOLVED.\nAll primes: 2, 3, 5. Greatest powers: 2^2, 3^1, 5^1.\nLCM(6, 20) = 2^2 x 3^1 x 5^1 = 4 x 3 x 5 = 60\nStep 4: Verification: HCF x LCM = 2 x 60 = 120 = 6 x 20. (Verified)\nANSWER: HCF(6, 20) = 2;  LCM(6, 20) = 60\nEXAMPLE 1.2.3: (From textbook — Example 3)\nPROBLEM: Find the HCF of 96 and 404 by prime factorisation method. Hence find LCM.\nSOLUTION:\nStep 1: Prime factorisation of 96:\n96 = 2 x 48 = 2 x 2 x 24 = 2 x 2 x 2 x 12 = 2 x 2 x 2 x 2 x 6\n= 2 x 2 x 2 x 2 x 2 x 3 = 2^5 x 3\nStep 2: Prime factorisation of 404:\n404 = 2 x 202 = 2 x 2 x 101 = 2^2 x 101  (101 is prime)\nStep 3: HCF: Common prime = 2. Smallest power = 2^2.\nHCF(96, 404) = 2^2 = 4\nStep 4: LCM using formula: LCM = (a x b) / HCF\nLCM(96, 404) = (96 x 404) / 4 = 38784 / 4 = 9696\nANSWER: HCF(96, 404) = 4;  LCM(96, 404) = 9696\nEXAMPLE 1.2.4: (From textbook — Example 4)\nPROBLEM: Find the HCF and LCM of 6, 72 and 120, using prime factorisation method.\nSOLUTION:\nStep 1: Prime factorisations:\n6   = 2 x 3\n72  = 2 x 36 = 2 x 2 x 18 = 2 x 2 x 2 x 9 = 2^3 x 3^2\n120 = 2 x 60 = 2 x 2 x 30 = 2 x 2 x 2 x 15 = 2^3 x 3 x 5\nStep 2: HCF: Common prime factors (in all three): 2 and 3.\nSmallest powers: 2^1, 3^1.\nHCF(6, 72, 120) = 2^1 x 3^1 = 2 x 3 = 6\nStep 3: LCM: Greatest powers of all prime factors (2, 3, 5):\n2^3, 3^2, 5^1.\nLCM(6, 72, 120) = 2^3 x 3^2 x 5^1 = 8 x 9 x 5 = 360\nStep 4: NOTE: 6 x 72 x 120 = 51840\nHCF x LCM = 6 x 360 = 2160\n51840 not equal to 2160 — product rule does NOT hold for three numbers.\nANSWER: HCF(6, 72, 120) = 6;  LCM(6, 72, 120) = 360"
+        },
+        {
+          "type": "textbook_exercises",
+          "label": "EXERCISE 1.1: (Textbook Exercise)",
+          "items": []
+        },
+        {
+          "type": "qa",
+          "label": "TOPIC 1.2: Q&A",
+          "items": []
+        },
+        {
+          "type": "qa",
+          "label": "Q&A",
+          "items": [
+            {
+              "q_num": 1,
+              "marks": 2,
+              "question": "State the Fundamental Theorem of Arithmetic.",
+              "answer": "Every composite number can be expressed (factorised) as a product of primes, and this\nfactorisation is unique, apart from the order in which the prime factors occur."
+            },
+            {
+              "q_num": 2,
+              "marks": 2,
+              "question": "Find HCF and LCM of 6 and 20 using prime factorisation.",
+              "answer": "6 = 2^1 x 3^1;  20 = 2^2 x 5^1.\nHCF = 2^1 = 2 (smallest power of common prime 2).\nLCM = 2^2 x 3 x 5 = 60 (greatest powers of all primes).\nVerify: 2 x 60 = 120 = 6 x 20. (Verified)"
+            },
+            {
+              "q_num": 3,
+              "marks": 2,
+              "question": "Write the prime factorisation of 32760.",
+              "answer": "32760 = 2 x 16380 = 2 x 2 x 8190 = 2 x 2 x 2 x 4095\n= 2^3 x 3^2 x 5 x 7 x 13."
+            },
+            {
+              "q_num": 4,
+              "marks": 2,
+              "question": "What is the relationship between HCF and LCM of two positive integers?",
+              "answer": "For two positive integers a and b: HCF(a, b) x LCM(a, b) = a x b.\nThis does NOT hold for three numbers.\nExample: HCF(6,72,120) x LCM(6,72,120) = 6 x 360 = 2160,\nbut 6 x 72 x 120 = 51840. Not equal.\n\n---\n\n3 ಮಾರ್ಕ್ಸ್ × 3 questions:"
+            },
+            {
+              "q_num": 5,
+              "marks": 3,
+              "question": "Find the HCF and LCM of 12, 15 and 21 using prime factorisation.",
+              "answer": "Step 1: Prime factorisations:\n12 = 2^2 x 3;  15 = 3 x 5;  21 = 3 x 7.\nStep 2: HCF: Common prime (all three) = 3. HCF = 3.\nStep 3: LCM: All primes = 2, 3, 5, 7. Greatest powers: 2^2, 3, 5, 7.\nLCM = 4 x 3 x 5 x 7 = 420."
+            },
+            {
+              "q_num": 6,
+              "marks": 3,
+              "question": "Given that HCF(306, 657) = 9, find LCM(306, 657).",
+              "answer": "Step 1: Using formula: HCF(a,b) x LCM(a,b) = a x b.\nStep 2: LCM(306, 657) = (306 x 657) / HCF = (306 x 657) / 9.\nStep 3: = 201042 / 9 = 22338.\nAnswer: LCM(306, 657) = 22338."
+            },
+            {
+              "q_num": 7,
+              "marks": 3,
+              "question": "Explain why 7 x 11 x 13 + 13 is a composite number.",
+              "answer": "Step 1: 7 x 11 x 13 + 13 = 13 x (7 x 11 + 1) = 13 x (77 + 1) = 13 x 78.\nStep 2: 78 = 2 x 39 = 2 x 3 x 13.\nSo 7 x 11 x 13 + 13 = 13 x 2 x 3 x 13 = 2 x 3 x 13^2.\nStep 3: It has factors 2, 3, 13 (other than 1 and itself).\nBy the Fundamental Theorem of Arithmetic, it is NOT prime.\nAnswer: 7 x 11 x 13 + 13 is a composite number.\n\n---\n\n4 ಮಾರ್ಕ್ಸ್ × 4 questions:"
+            },
+            {
+              "q_num": 8,
+              "marks": 4,
+              "question": "Find the HCF of 96 and 404 by prime factorisation method. Hence find",
+              "answer": "Step 1: Prime factorisation of 96:\n96 = 2 x 48 = 2 x 2 x 24 = 2 x 2 x 2 x 12 = 2 x 2 x 2 x 2 x 6\n= 2 x 2 x 2 x 2 x 2 x 3 = 2^5 x 3.\nStep 2: Prime factorisation of 404:\n404 = 2 x 202 = 2 x 2 x 101 = 2^2 x 101. (101 is prime)\nStep 3: HCF: Common prime = 2. Smallest power = 2^2.\nHCF(96, 404) = 4.\nStep 4: LCM = (96 x 404) / 4 = 38784 / 4 = 9696.\nVerify: 4 x 9696 = 38784 = 96 x 404. (Verified)"
+            },
+            {
+              "q_num": 9,
+              "marks": 4,
+              "question": "Find the HCF and LCM of 6, 72 and 120 using prime factorisation. Check",
+              "answer": "Step 1: 6 = 2 x 3;  72 = 2^3 x 3^2;  120 = 2^3 x 3 x 5.\nStep 2: HCF: Common primes = 2 and 3. Smallest powers: 2^1, 3^1.\nHCF = 2 x 3 = 6.\nStep 3: LCM: All primes = 2, 3, 5. Greatest powers: 2^3, 3^2, 5^1.\nLCM = 8 x 9 x 5 = 360.\nStep 4: HCF x LCM = 6 x 360 = 2160.\n6 x 72 x 120 = 51840.\n2160 is NOT equal to 51840.\nThe product rule does NOT hold for three numbers."
+            },
+            {
+              "q_num": 10,
+              "marks": 4,
+              "question": "Sonia takes 18 minutes and Ravi takes 12 minutes to drive one round of",
+              "answer": "Step 1: They meet at the starting point when both have completed whole numbers of rounds\nsimultaneously. This happens after LCM(18, 12) minutes.\nStep 2: Prime factorisations:\n18 = 2 x 3^2\n12 = 2^2 x 3\nStep 3: LCM = greatest powers of all primes (2 and 3):\n2^2 x 3^2 = 4 x 9 = 36 minutes.\nStep 4: Verification:\nSonia: 36/18 = 2 rounds (whole number). ✓\nRavi: 36/12 = 3 rounds (whole number). ✓\nBoth are at the starting point after 36 minutes.\nAnswer: They meet again at the starting point after 36 minutes."
+            },
+            {
+              "q_num": 11,
+              "marks": 4,
+              "question": "Check whether 4^n and 6^n can end with digit 0 for any natural number n.",
+              "answer": "Step 1: For a number to end with digit 0, it must be divisible by 10 = 2 x 5.\nSo its prime factorisation must contain both primes 2 and 5.\nStep 2: For 4^n:\n4^n = (2^2)^n = 2^(2n).\nOnly prime factor is 2. Since 5 is NOT present, by uniqueness of FTA,\n4^n CANNOT end with digit 0 for any natural number n.\nStep 3: For 6^n:\n6^n = (2 x 3)^n = 2^n x 3^n.\nPrime factors are only 2 and 3. Since 5 is NOT present, by uniqueness of FTA,\n6^n CANNOT end with digit 0 for any natural number n.\nStep 4: Conclusion: Neither 4^n nor 6^n ends with digit 0 for any natural number n.\n\n---\n\n5 ಮಾರ್ಕ್ಸ್ × 1 question:"
+            },
+            {
+              "q_num": 12,
+              "marks": 5,
+              "question": "",
+              "answer": "PART A — Prime factorisations:\n\nStep 1: 140 = 2 x 70 = 2 x 2 x 35 = 2 x 2 x 5 x 7 = 2^2 x 5 x 7.\n\nStep 2: 156 = 2 x 78 = 2 x 2 x 39 = 2 x 2 x 3 x 13 = 2^2 x 3 x 13.\n\nStep 3: 3825 = 3 x 1275 = 3 x 3 x 425 = 3 x 3 x 5 x 85 = 3 x 3 x 5 x 5 x 17\n= 3^2 x 5^2 x 17.\n\nStep 4: 5005 = 5 x 1001 = 5 x 7 x 143 = 5 x 7 x 11 x 13.\n\nPART B — LCM and HCF of 8, 9 and 25:\n\nStep 5: Prime factorisations:\n8 = 2^3;  9 = 3^2;  25 = 5^2.\n\nStep 6: HCF: No common prime factor among all three.\nHCF(8, 9, 25) = 1.\n\nStep 7: LCM: All primes = 2, 3, 5. Greatest powers: 2^3, 3^2, 5^2.\nLCM(8, 9, 25) = 8 x 9 x 25 = 1800.\n\nStep 8: Check — HCF x LCM vs product:\nHCF x LCM = 1 x 1800 = 1800.\n8 x 9 x 25 = 1800.\nIn this special case 1800 = 1800. (Equal — but only because HCF = 1)\nNOTE: This equality for HCF = 1 is a special case. In general, the product rule\ndoes NOT hold for three numbers.\n\nAnswer: (a) 140=2^2x5x7; 156=2^2x3x13; 3825=3^2x5^2x17; 5005=5x7x11x13.\n(b) HCF(8,9,25)=1; LCM(8,9,25)=1800."
+            }
+          ]
+        },
+        {
+          "type": "mcq",
+          "label": "MCQ",
+          "items": [
+            {
+              "mcq_num": 1,
+              "difficulty": "Easy",
+              "question": "The Fundamental Theorem of Arithmetic states that every composite number has a:",
+              "options": {
+                "A": "Unique prime factorisation   (B) Non-unique prime factorisation",
+                "C": "Factorisation with only 2s   (D) Factorisation with repeated primes only"
+              },
+              "answer": "A",
+              "explanation": "The theorem states the factorisation is unique apart from the order."
+            },
+            {
+              "mcq_num": 2,
+              "difficulty": "Easy",
+              "question": "What is HCF(6, 20)?",
+              "options": {
+                "A": "2   (B) 3   (C) 4   (D) 6"
+              },
+              "answer": "A",
+              "explanation": "6 = 2 x 3, 20 = 2^2 x 5. Common prime = 2. HCF = 2^1 = 2."
+            },
+            {
+              "mcq_num": 3,
+              "difficulty": "Easy",
+              "question": "What is LCM(6, 20)?",
+              "options": {
+                "A": "30   (B) 60   (C) 120   (D) 12"
+              },
+              "answer": "B",
+              "explanation": "LCM = 2^2 x 3 x 5 = 4 x 3 x 5 = 60."
+            },
+            {
+              "mcq_num": 4,
+              "difficulty": "Easy",
+              "question": "For two positive integers a and b, which formula is correct?",
+              "options": {
+                "A": "HCF(a,(B) + LCM(a,(B) = a + b   (B) HCF(a,(B) x LCM(a,(B) = a x b",
+                "C": "HCF(a,(B) / LCM(a,(B) = a / b   (D) HCF(a,(B) - LCM(a,(B) = a - b"
+              },
+              "answer": "B",
+              "explanation": "HCF(a,b) x LCM(a,b) = a x b for any two positive integers."
+            },
+            {
+              "mcq_num": 5,
+              "difficulty": "Easy",
+              "question": "Which of the following is NOT a prime number?",
+              "options": {
+                "A": "17   (B) 23   (C) 51   (D) 29"
+              },
+              "answer": "C",
+              "explanation": "51 = 3 x 17. It has factors other than 1 and 51 — composite."
+            },
+            {
+              "mcq_num": 6,
+              "difficulty": "Medium",
+              "question": "Given HCF(306, 657) = 9, the LCM(306, 657) is:",
+              "options": {
+                "A": "22338   (B) 11169   (C) 22339   (D) 44676"
+              },
+              "answer": "A",
+              "explanation": "LCM = (306 x 657) / 9 = 201042 / 9 = 22338."
+            },
+            {
+              "mcq_num": 7,
+              "difficulty": "Medium",
+              "question": "Can 6^n end with digit 0 for any natural number n?",
+              "options": {
+                "A": "Yes, for n = 5   (B) Yes, for n = 10   (C) No, never   (D) Yes, for n = 1"
+              },
+              "answer": "C",
+              "explanation": "6^n = 2^n x 3^n. No prime factor 5 — so 6^n can never end with 0."
+            },
+            {
+              "mcq_num": 8,
+              "difficulty": "Medium",
+              "question": "HCF of 12, 15 and 21 is:",
+              "options": {
+                "A": "1   (B) 2   (C) 3   (D) 6"
+              },
+              "answer": "C",
+              "explanation": "12 = 2^2 x 3, 15 = 3 x 5, 21 = 3 x 7. Common prime = 3. HCF = 3."
+            },
+            {
+              "mcq_num": 9,
+              "difficulty": "Medium",
+              "question": "For 4^n, which is always true?",
+              "options": {
+                "A": "4^n ends with 0 for n = 5   (B) 4^n = 2^(2n)",
+                "C": "4^n has 5 as a prime factor   (D) 4^n ends with 0 for some n"
+              },
+              "answer": "B",
+              "explanation": "4^n = (2^2)^n = 2^(2n). Always true. It never ends with 0."
+            },
+            {
+              "mcq_num": 10,
+              "difficulty": "Medium",
+              "question": "LCM of 8, 9 and 25 is:",
+              "options": {
+                "A": "360   (B) 900   (C) 1800   (D) 3600"
+              },
+              "answer": "C",
+              "explanation": "8=2^3, 9=3^2, 25=5^2. LCM = 2^3 x 3^2 x 5^2 = 8 x 9 x 25 = 1800."
+            },
+            {
+              "mcq_num": 11,
+              "difficulty": "Medium",
+              "question": "Sonia takes 18 min and Ravi takes 12 min for one round. They meet again after:",
+              "options": {
+                "A": "6 min   (B) 18 min   (C) 36 min   (D) 216 min"
+              },
+              "answer": "C",
+              "explanation": "LCM(18, 12) = 2^2 x 3^2 = 36 minutes."
+            },
+            {
+              "mcq_num": 12,
+              "difficulty": "Hard",
+              "question": "Prime factorisation of 3825 is:",
+              "options": {
+                "A": "3 x 5 x 255   (B) 3^2 x 5^2 x 17   (C) 3 x 5^2 x 51   (D) 5^2 x 153"
+              },
+              "answer": "B",
+              "explanation": "3825 = 3 x 1275 = 3 x 3 x 425 = 3^2 x 5^2 x 17."
+            },
+            {
+              "mcq_num": 13,
+              "difficulty": "Hard",
+              "question": "HCF(96, 404) is:",
+              "options": {
+                "A": "2   (B) 4   (C) 8   (D) 12"
+              },
+              "answer": "B",
+              "explanation": "96 = 2^5 x 3, 404 = 2^2 x 101. Common prime 2. Smallest power 2^2 = 4."
+            },
+            {
+              "mcq_num": 14,
+              "difficulty": "Hard",
+              "question": "7 x 11 x 13 + 13 is:",
+              "options": {
+                "A": "Prime   (B) Composite   (C) 1001   (D) Irrational"
+              },
+              "answer": "B",
+              "explanation": "7 x 11 x 13 + 13 = 13(77 + 1) = 13 x 78 = 2 x 3 x 13^2. Composite."
+            },
+            {
+              "mcq_num": 15,
+              "difficulty": "Hard",
+              "question": "LCM of 17, 23 and 29 is:",
+              "options": {
+                "A": "1   (B) 17   (C) 23 x 29   (D) 17 x 23 x 29"
+              },
+              "answer": "D",
+              "explanation": "17, 23, 29 are all prime with no common factors. LCM = 17 x 23 x 29 = 11339."
+            }
+          ]
+        }
+      ],
+      "subtopics": []
+    },
+    {
+      "topic_num": "1.3",
+      "topic_name": "REVISITING IRRATIONAL NUMBERS",
+      "mode": "B",
+      "sections": [
+        {
+          "type": "definition",
+          "label": "DEFINITION:",
+          "text": "- IRRATIONAL NUMBER: A number 's' is called irrational if it cannot be written in the\nform p/q, where p and q are integers and q is not equal to 0.\n- COPRIME NUMBERS: Two integers a and b are coprime if their HCF is 1 (no common\nfactor other than 1). Example: 3 and 5 are coprime; 4 and 9 are coprime.\n- PROOF BY CONTRADICTION: A method of proof where we assume the opposite of what we\nwant to prove, and show this assumption leads to a logical contradiction."
+        },
+        {
+          "type": "key_points",
+          "label": "KEY POINTS:",
+          "points": [
+            "The proof of irrationality is based on the technique called proof by contradiction.",
+            "Two properties of real numbers from Class IX:",
+            "(i)  The sum or difference of a rational and an irrational number is irrational.",
+            "(ii) The product and quotient of a non-zero rational and an irrational number is",
+            "irrational.",
+            "In general, sqrt(p) is irrational where p is a prime."
+          ]
+        },
+        {
+          "type": "list_of_topics",
+          "label": "LIST OF SUB TOPICS IN THIS TOPIC:",
+          "items": [
+            "- None (Topic 1.3 is a single continuous section in the textbook with no sub-sections)"
+          ]
+        },
+        {
+          "type": "theorem",
+          "label": "THEOREM:",
+          "statement": "(Theorem 1.2 — *Not from examination point of view)\nLet p be a prime number. If p divides a^2, then p divides a, where a is a positive\ninteger.",
+          "given": "p is prime; p divides a^2; a is a positive integer.",
+          "to_prove": "p divides a.",
+          "construction": "",
+          "proof": [
+            "Step 1: Let the prime factorisation of a be: a = p1 x p2 x ... x pn,",
+            "where p1, p2, ..., pn are primes (not necessarily distinct).",
+            "Step 2: Therefore, a^2 = (p1 x p2 x ... x pn)^2 = p1^2 x p2^2 x ... x pn^2.",
+            "Step 3: We are given that p divides a^2. So from the Fundamental Theorem of Arithmetic,",
+            "p must be one of the prime factors of a^2.",
+            "Step 4: By the uniqueness part of FTA, the only prime factors of a^2 are p1, p2,...,pn.",
+            "So p is one of p1, p2, ..., pn.",
+            "Step 5: Now, since a = p1 x p2 x ... x pn, p divides a."
+          ],
+          "hence_proved": ""
+        },
+        {
+          "type": "theorem",
+          "label": "THEOREM:",
+          "statement": "(Theorem 1.3)\nsqrt(2) is irrational.",
+          "given": "sqrt(2).",
+          "to_prove": "sqrt(2) is irrational.",
+          "construction": "",
+          "proof": [
+            "(Proof by contradiction)",
+            "Step 1: Let us assume, to the contrary, that sqrt(2) is rational.",
+            "Step 2: So we can find integers r and s (s not equal to 0) such that sqrt(2) = r/s.",
+            "Step 3: Suppose r and s have a common factor. Dividing by it, get sqrt(2) = a/b",
+            "where a and b are coprime.",
+            "Step 4: So b x sqrt(2) = a. Squaring both sides: 2b^2 = a^2.",
+            "Step 5: Therefore, 2 divides a^2.",
+            "Step 6: By Theorem 1.2 (p = 2), 2 divides a. So a = 2c for some integer c.",
+            "Step 7: Substituting: 2b^2 = (2c)^2 = 4c^2. So b^2 = 2c^2.",
+            "Step 8: Therefore 2 divides b^2, and by Theorem 1.2, 2 divides b.",
+            "Step 9: So a and b have 2 as a common factor. This contradicts the fact that a and b",
+            "are coprime.",
+            "Step 10: This contradiction arose from our incorrect assumption that sqrt(2) is rational."
+          ],
+          "hence_proved": "sqrt(2) is irrational.\nEXAMPLES:\nEXAMPLE 1.3.1: (From textbook — Example 5)\nPROBLEM: Prove that sqrt(3) is irrational.\nSOLUTION:\nStep 1: Assume, to the contrary, that sqrt(3) is rational.\nThen sqrt(3) = a/b (coprime integers a, b; b not equal to 0).\nStep 2: So b x sqrt(3) = a. Squaring: 3b^2 = a^2.\nStep 3: Therefore 3 divides a^2. By Theorem 1.2 (p = 3), 3 divides a.\nStep 4: Write a = 3c. Then 3b^2 = (3c)^2 = 9c^2. So b^2 = 3c^2.\nStep 5: Therefore 3 divides b^2, and by Theorem 1.2, 3 divides b.\nStep 6: So a and b have 3 as a common factor — contradicts coprimeness.\nStep 7: Contradiction arose from our incorrect assumption that sqrt(3) is rational.\nANSWER: sqrt(3) is irrational.\nEXAMPLE 1.3.2: (From textbook — Example 6)\nPROBLEM: Show that 5 - sqrt(3) is irrational.\nSOLUTION:\nStep 1: Assume, to the contrary, that 5 - sqrt(3) is rational.\nStep 2: Then 5 - sqrt(3) = a/b (coprime a, b; b not equal to 0).\nStep 3: Rearranging: sqrt(3) = 5 - a/b = (5b - a)/b.\nStep 4: Since a and b are integers, (5b - a)/b is rational. So sqrt(3) is rational.\nStep 5: But sqrt(3) is irrational — contradiction.\nANSWER: 5 - sqrt(3) is irrational.\nEXAMPLE 1.3.3: (From textbook — Example 7)\nPROBLEM: Show that 3 x sqrt(2) is irrational.\nSOLUTION:\nStep 1: Assume, to the contrary, that 3 x sqrt(2) is rational.\nStep 2: Then 3 x sqrt(2) = a/b (coprime a, b; b not equal to 0).\nStep 3: Rearranging: sqrt(2) = a/(3b).\nStep 4: Since a, 3, b are integers and 3b not equal to 0, a/(3b) is rational.\nSo sqrt(2) is rational.\nStep 5: But sqrt(2) is irrational — contradiction.\nANSWER: 3 x sqrt(2) is irrational."
+        },
+        {
+          "type": "textbook_exercises",
+          "label": "EXERCISE 1.2: (Textbook Exercise)",
+          "items": []
+        },
+        {
+          "type": "qa",
+          "label": "TOPIC 1.3: Q&A",
+          "items": []
+        },
+        {
+          "type": "qa",
+          "label": "Q&A",
+          "items": [
+            {
+              "q_num": 1,
+              "marks": 2,
+              "question": "What is meant by \"proof by contradiction\"?",
+              "answer": "Proof by contradiction is a technique where we assume the opposite of what we want to\nprove, and then show this assumption leads to a logical contradiction with known facts.\nSince the assumption leads to contradiction, it must be wrong — so the original statement\nmust be true."
+            },
+            {
+              "q_num": 2,
+              "marks": 2,
+              "question": "State Theorem 1.2 (the theorem used to prove irrationality).",
+              "answer": "Let p be a prime number. If p divides a^2, then p divides a, where a is a positive\ninteger.\n(Note: Theorem 1.2 is marked * — not from examination point of view.)"
+            },
+            {
+              "q_num": 3,
+              "marks": 2,
+              "question": "State two properties of irrational numbers studied in Class IX.",
+              "answer": "(i) The sum or difference of a rational and an irrational number is irrational.\n(ii) The product and quotient of a non-zero rational and an irrational number is\nirrational."
+            },
+            {
+              "q_num": 4,
+              "marks": 2,
+              "question": "Show that 3 x sqrt(2) is irrational.",
+              "answer": "Assume 3 x sqrt(2) = a/b (coprime, b not equal to 0).\nThen sqrt(2) = a/(3b). Since a, 3, b are integers and 3b not equal to 0, a/(3b) is\nrational. So sqrt(2) is rational. But sqrt(2) is irrational — contradiction.\nTherefore 3 x sqrt(2) is irrational.\n\n---\n\n3 ಮಾರ್ಕ್ಸ್ × 3 questions:"
+            },
+            {
+              "q_num": 5,
+              "marks": 3,
+              "question": "Prove that sqrt(3) is irrational.",
+              "answer": "Step 1: Assume sqrt(3) is rational. So sqrt(3) = a/b (coprime, b not equal to 0).\nStep 2: Squaring: 3b^2 = a^2. So 3 divides a^2. By Theorem 1.2 (p=3), 3 divides a.\nWrite a = 3c. Then 3b^2 = 9c^2, so b^2 = 3c^2. So 3 divides b.\nStep 3: Both a and b divisible by 3 — contradicts coprimeness.\nTherefore sqrt(3) is irrational."
+            },
+            {
+              "q_num": 6,
+              "marks": 3,
+              "question": "Show that 5 - sqrt(3) is irrational.",
+              "answer": "Step 1: Assume 5 - sqrt(3) is rational. Then 5 - sqrt(3) = a/b (coprime, b not equal 0).\nStep 2: Rearranging: sqrt(3) = 5 - a/b = (5b - a)/b.\nStep 3: Since a and b are integers, (5b - a)/b is rational. So sqrt(3) is rational.\nBut sqrt(3) is irrational — contradiction.\nTherefore 5 - sqrt(3) is irrational."
+            },
+            {
+              "q_num": 7,
+              "marks": 3,
+              "question": "Prove that 1/sqrt(2) is irrational.",
+              "answer": "Step 1: Assume 1/sqrt(2) = a/b (coprime, b not equal to 0, a not equal to 0).\nStep 2: Then sqrt(2) = b/a. Since b and a are integers (a not 0), b/a is rational.\nStep 3: So sqrt(2) is rational. But sqrt(2) is irrational — contradiction.\nTherefore 1/sqrt(2) is irrational.\n\n---\n\n4 ಮಾರ್ಕ್ಸ್ × 4 questions:"
+            },
+            {
+              "q_num": 8,
+              "marks": 4,
+              "question": "Prove that sqrt(2) is irrational.",
+              "answer": "Step 1: Assume, to the contrary, that sqrt(2) is rational.\nSo sqrt(2) = a/b where a, b are coprime integers and b not equal to 0.\nStep 2: Squaring both sides: 2b^2 = a^2.\nSo 2 divides a^2. By Theorem 1.2 (p=2), 2 divides a.\nStep 3: Write a = 2c for some integer c.\nSubstituting: 2b^2 = (2c)^2 = 4c^2. So b^2 = 2c^2.\nSo 2 divides b^2, hence by Theorem 1.2, 2 divides b.\nStep 4: So a and b are both divisible by 2 — contradicts that a and b are coprime.\nContradiction arose from incorrect assumption that sqrt(2) is rational.\nTherefore sqrt(2) is irrational."
+            },
+            {
+              "q_num": 9,
+              "marks": 4,
+              "question": "Prove that sqrt(5) is irrational.",
+              "answer": "Step 1: Assume sqrt(5) is rational. So sqrt(5) = a/b (coprime, b not equal to 0).\nStep 2: Squaring: 5b^2 = a^2. So 5 divides a^2. By Theorem 1.2 (p=5), 5 divides a.\nStep 3: Write a = 5c. Then 5b^2 = (5c)^2 = 25c^2. So b^2 = 5c^2.\nSo 5 divides b^2, hence by Theorem 1.2, 5 divides b.\nStep 4: Both a and b are divisible by 5 — contradicts coprimeness.\nTherefore sqrt(5) is irrational."
+            },
+            {
+              "q_num": 10,
+              "marks": 4,
+              "question": "Prove that 3 + 2 x sqrt(5) is irrational.",
+              "answer": "Step 1: Assume, to the contrary, that 3 + 2 x sqrt(5) is rational.\nSo 3 + 2 x sqrt(5) = a/b (coprime, b not equal to 0).\nStep 2: Rearranging: 2 x sqrt(5) = a/b - 3 = (a - 3b)/b.\nStep 3: So sqrt(5) = (a - 3b)/(2b).\nSince a and b are integers, (a - 3b)/(2b) is rational. So sqrt(5) is rational.\nStep 4: But sqrt(5) is irrational (proved in Q9) — contradiction.\nContradiction arose from incorrect assumption.\nTherefore 3 + 2 x sqrt(5) is irrational."
+            },
+            {
+              "q_num": 11,
+              "marks": 4,
+              "question": "Prove that the following are irrational:",
+              "answer": "Step 1: Prove 7 x sqrt(5) is irrational:\nAssume 7 x sqrt(5) = a/b (coprime, b not equal to 0).\nThen sqrt(5) = a/(7b). Since a, 7, b are integers and 7b not equal to 0,\na/(7b) is rational. So sqrt(5) is rational.\nBut sqrt(5) is irrational — contradiction.\nStep 2: Therefore 7 x sqrt(5) is irrational.\n\nStep 3: Prove 6 + sqrt(2) is irrational:\nAssume 6 + sqrt(2) = a/b (coprime, b not equal to 0).\nThen sqrt(2) = a/b - 6 = (a - 6b)/b.\nSince a and b are integers, (a - 6b)/b is rational. So sqrt(2) is rational.\nBut sqrt(2) is irrational — contradiction.\nStep 4: Therefore 6 + sqrt(2) is irrational.\n\n---\n\n5 ಮಾರ್ಕ್ಸ್ × 1 question:"
+            },
+            {
+              "q_num": 12,
+              "marks": 5,
+              "question": "",
+              "answer": "PART A — sqrt(2) is irrational, then 5 + 3 x sqrt(2) is irrational:\n\nStep 1: Prove sqrt(2) is irrational:\nAssume sqrt(2) = a/b (coprime, b not equal to 0).\nSquaring: 2b^2 = a^2. So 2 divides a^2. By Theorem 1.2, 2 divides a.\nWrite a = 2c. Then b^2 = 2c^2. So 2 divides b.\nBoth a and b divisible by 2 — contradicts coprimeness.\nTherefore sqrt(2) is irrational.\n\nStep 2: Now prove 5 + 3 x sqrt(2) is irrational:\nAssume 5 + 3 x sqrt(2) = a/b (coprime, b not equal to 0).\nThen 3 x sqrt(2) = a/b - 5 = (a - 5b)/b.\nSo sqrt(2) = (a - 5b)/(3b).\nSince a, b are integers, (a - 5b)/(3b) is rational. So sqrt(2) is rational.\nBut sqrt(2) is irrational (proved in Step 1) — contradiction.\n\nStep 3: Therefore 5 + 3 x sqrt(2) is irrational.\n\nPART B — Show 7 x sqrt(5) is irrational using the property:\n\nStep 4: Property: The product and quotient of a non-zero rational and an irrational\nnumber is always irrational.\n7 is a non-zero rational number.\nsqrt(5) is irrational (can be proved similarly to sqrt(2) using Theorem 1.2).\n\nStep 5: Since 7 (non-zero rational) x sqrt(5) (irrational) — by the above property,\n7 x sqrt(5) is irrational.\nProof by contradiction to confirm:\nAssume 7 x sqrt(5) = a/b (coprime, b not equal to 0).\nThen sqrt(5) = a/(7b) — rational.\nBut sqrt(5) is irrational — contradiction.\nTherefore 7 x sqrt(5) is irrational."
+            }
+          ]
+        },
+        {
+          "type": "mcq",
+          "label": "MCQ",
+          "items": [
+            {
+              "mcq_num": 1,
+              "difficulty": "Easy",
+              "question": "The proof technique used to prove sqrt(2) is irrational is:",
+              "options": {
+                "A": "Direct proof   (B) Proof by induction   (C) Proof by contradiction   (D) Trial and error"
+              },
+              "answer": "C",
+              "explanation": "We assume sqrt(2) is rational and arrive at a contradiction."
+            },
+            {
+              "mcq_num": 2,
+              "difficulty": "Easy",
+              "question": "Theorem 1.2 states: If p is prime and p divides a^2, then:",
+              "options": {
+                "A": "p divides a^2 only   (B) p divides a   (C) p divides 2a   (D) p^2 divides a"
+              },
+              "answer": "B",
+              "explanation": "Theorem 1.2: If p is prime and p divides a^2, then p divides a."
+            },
+            {
+              "mcq_num": 3,
+              "difficulty": "Easy",
+              "question": "Two integers a and b are called coprime if:",
+              "options": {
+                "A": "a > b   (B) HCF(a,(B) = 1   (C) LCM(a,(B) = 1   (D) a x b = 1"
+              },
+              "answer": "B",
+              "explanation": "Coprime means HCF(a, b) = 1 — no common factor other than 1."
+            },
+            {
+              "mcq_num": 4,
+              "difficulty": "Easy",
+              "question": "Which of the following is NOT irrational?",
+              "options": {
+                "A": "5 - sqrt(3)   (B) 3 x sqrt(2)   (C) 1/sqrt(2)   (D) sqrt(4)"
+              },
+              "answer": "D",
+              "explanation": "sqrt(4) = 2, which is rational. The others are all irrational."
+            },
+            {
+              "mcq_num": 5,
+              "difficulty": "Easy",
+              "question": "7 x sqrt(5) is:",
+              "options": {
+                "A": "Rational   (B) Irrational   (C) Integer   (D) Zero"
+              },
+              "answer": "B",
+              "explanation": "Non-zero rational (7) x irrational (sqrt(5)) = irrational."
+            },
+            {
+              "mcq_num": 6,
+              "difficulty": "Medium",
+              "question": "The sum of a rational number and an irrational number is:",
+              "options": {
+                "A": "Always rational   (B) Always irrational   (C) Sometimes rational   (D) Always integer"
+              },
+              "answer": "B",
+              "explanation": "Sum or difference of rational and irrational is always irrational."
+            },
+            {
+              "mcq_num": 7,
+              "difficulty": "Medium",
+              "question": "In the proof of sqrt(2) being irrational, from 2b^2 = a^2, we conclude:",
+              "options": {
+                "A": "b is even   (B) a is odd   (C) 2 divides a^2   (D) a equals b"
+              },
+              "answer": "C",
+              "explanation": "a^2 = 2b^2, so 2 divides a^2."
+            },
+            {
+              "mcq_num": 8,
+              "difficulty": "Medium",
+              "question": "In the proof that 5 - sqrt(3) is irrational, we show sqrt(3) = (5b - a)/b, which is:",
+              "options": {
+                "A": "Irrational   (B) Zero   (C) Rational   (D) Negative"
+              },
+              "answer": "C",
+              "explanation": "(5b - a)/b is rational (integers). But sqrt(3) is irrational — contradiction."
+            },
+            {
+              "mcq_num": 9,
+              "difficulty": "Medium",
+              "question": "sqrt(p) is irrational for:",
+              "options": {
+                "A": "All positive integers p   (B) Only p = 2   (C) All prime numbers p   (D) Only p = 4"
+              },
+              "answer": "C",
+              "explanation": "sqrt(p) is irrational whenever p is a prime number."
+            },
+            {
+              "mcq_num": 10,
+              "difficulty": "Medium",
+              "question": "After writing a = 3c in the proof of sqrt(3)'s irrationality, we get b^2 = 3c^2. This means:",
+              "options": {
+                "A": "b is a multiple of 9   (B) 3 divides b   (C) b = c   (D) b is prime"
+              },
+              "answer": "B",
+              "explanation": "b^2 = 3c^2 means 3 divides b^2. By Theorem 1.2 (p=3), 3 divides b."
+            },
+            {
+              "mcq_num": 11,
+              "difficulty": "Medium",
+              "question": "The product of a non-zero rational and an irrational number is:",
+              "options": {
+                "A": "Rational   (B) Integer   (C) Irrational   (D) Undefined"
+              },
+              "answer": "C",
+              "explanation": "Product and quotient of non-zero rational and irrational is irrational."
+            },
+            {
+              "mcq_num": 12,
+              "difficulty": "Hard",
+              "question": "In the proof of 3 + 2*sqrt(5) being irrational, we isolate sqrt(5) = (a-3b)/(2b). The contradiction arises because:",
+              "options": {
+                "A": "a - 3b = 0   (B) 2b = 0",
+                "C": "(a-3b)/(2(B) is rational but sqrt(5) is irrational   (D) a and b are not integers"
+              },
+              "answer": "C",
+              "explanation": "(a-3b)/(2b) is rational (integers), but sqrt(5) is irrational — contradiction."
+            },
+            {
+              "mcq_num": 13,
+              "difficulty": "Hard",
+              "question": "Which step comes FIRST in a proof by contradiction for irrationality?",
+              "options": {
+                "A": "Write a = pc   (B) Show p divides b   (C) Assume the number is rational   (D) Find HCF"
+              },
+              "answer": "C",
+              "explanation": "First step is to assume the opposite — i.e., assume the number is rational."
+            },
+            {
+              "mcq_num": 14,
+              "difficulty": "Hard",
+              "question": "If sqrt(p) is irrational and q is a non-zero rational, then q x sqrt(p) is:",
+              "options": {
+                "A": "Rational   (B) Irrational   (C) Integer   (D) Cannot be determined"
+              },
+              "answer": "B",
+              "explanation": "Product of non-zero rational (q) and irrational (sqrt(p)) is irrational."
+            },
+            {
+              "mcq_num": 15,
+              "difficulty": "Hard",
+              "question": "Theorem 1.2 (If p is prime and p divides a^2, then p divides a) is:",
+              "options": {
+                "A": "Required for board exam   (B) Not required for board exam — marked *",
+                "C": "Only for Class XI   (D) Only for Class IX"
+              },
+              "answer": "B",
+              "explanation": "It is marked * in the textbook — \"Not from the examination point of view.\""
+            }
+          ]
+        },
+        {
+          "type": "definition",
+          "label": "DEFINITION:",
+          "text": "- FUNDAMENTAL THEOREM OF ARITHMETIC: Every composite number can be expressed\n(factorised) as a product of primes, and this factorisation is unique, apart from\nthe order in which the prime factors occur."
+        },
+        {
+          "type": "key_points",
+          "label": "KEY POINTS (Textbook Summary):",
+          "points": [
+            "1. The Fundamental Theorem of Arithmetic:",
+            "Every composite number can be expressed (factorised) as a product of primes, and",
+            "this factorisation is unique, apart from the order in which the prime factors occur.",
+            "2. Theorem 1.2 (Examination NOT required — marked * in textbook):",
+            "If p is a prime and p divides a^2, then p divides a, where a is a positive integer.",
+            "3. Irrationality:",
+            "Using the Fundamental Theorem of Arithmetic, we can prove that sqrt(2) and sqrt(3)",
+            "are irrationals.",
+            "NOTE TO THE READER (from textbook):",
+            "HCF(p, q, r) x LCM(p, q, r) is NOT EQUAL TO p x q x r, where p, q, r are positive",
+            "integers (see Example 1.2.4).",
+            "However, the following results hold good for three numbers p, q and r:",
+            "LCM(p,q,r) = [p x q x r x HCF(p,q,r)] / [HCF(p,q) x HCF(q,r) x HCF(p,r)]",
+            "HCF(p,q,r) = [p x q x r x LCM(p,q,r)] / [LCM(p,q) x LCM(q,r) x LCM(p,r)]"
+          ]
+        },
+        {
+          "type": "list_of_topics",
+          "label": "LIST OF SUB TOPICS IN THIS TOPIC:",
+          "items": [
+            "- None (Topic 1.4 is a brief summary section with no sub-topics)"
+          ]
+        },
+        {
+          "type": "qa",
+          "label": "TOPIC 1.4: Q&A",
+          "items": []
+        },
+        {
+          "type": "qa",
+          "label": "Q&A",
+          "items": [
+            {
+              "q_num": 1,
+              "marks": 2,
+              "question": "Write the three main learning points of Chapter 1: Real Numbers.",
+              "answer": "(1) Fundamental Theorem of Arithmetic: every composite number has a unique prime\nfactorisation (apart from order).\n(2) Theorem 1.2: If p is prime and p divides a^2, then p divides a.\n(3) sqrt(2) and sqrt(3) are irrational — proved using the Fundamental Theorem of\nArithmetic."
+            },
+            {
+              "q_num": 2,
+              "marks": 2,
+              "question": "How many theorems are in Chapter 1? Name them with their statements.",
+              "answer": "Three theorems:\nTheorem 1.1 (FTA): Every composite number can be expressed as a product of primes\nuniquely (apart from order).\nTheorem 1.2 (*): If p is prime and p divides a^2, then p divides a. (Not for exam)\nTheorem 1.3: sqrt(2) is irrational."
+            },
+            {
+              "q_num": 3,
+              "marks": 2,
+              "question": "State the formula for LCM of three numbers p, q, r (from Note to Reader).",
+              "answer": "LCM(p,q,r) = [p x q x r x HCF(p,q,r)] / [HCF(p,q) x HCF(q,r) x HCF(p,r)]"
+            },
+            {
+              "q_num": 4,
+              "marks": 2,
+              "question": "Does the product rule HCF x LCM = product of numbers hold for three",
+              "answer": "No. For two numbers it holds: HCF(a,b) x LCM(a,b) = a x b.\nFor three numbers it does NOT hold.\nExample: HCF(6,72,120) x LCM(6,72,120) = 6 x 360 = 2160.\nBut 6 x 72 x 120 = 51840. 2160 is not equal to 51840.\n\n---\n\n3 ಮಾರ್ಕ್ಸ್ × 3 questions:"
+            },
+            {
+              "q_num": 5,
+              "marks": 3,
+              "question": "What is the significance of the Fundamental Theorem of Arithmetic?",
+              "answer": "Step 1: The FTA establishes that every composite number has a UNIQUE prime factorisation.\nStep 2: Application 1 — HCF and LCM:\nUsing prime factorisation, HCF = smallest powers of common primes;\nLCM = greatest powers of all primes. This is the prime factorisation method.\nStep 3: Application 2 — Proving irrationality:\nUniqueness of FTA allows us to prove that sqrt(2), sqrt(3), sqrt(5) etc.\nare irrational using proof by contradiction."
+            },
+            {
+              "q_num": 6,
+              "marks": 3,
+              "question": "Summarise the complete method to prove expressions like (a + b x sqrt(p))",
+              "answer": "Step 1: Assume the expression is rational = m/n (coprime, n not 0).\nStep 2: Rearrange to isolate sqrt(p) on one side:\nsqrt(p) = (m - an) / (bn)   [or similar]\nStep 3: The right side is rational (only integers involved).\nSo sqrt(p) would be rational — but sqrt(p) is irrational (known fact).\nThis is a contradiction. Therefore the expression is irrational."
+            },
+            {
+              "q_num": 7,
+              "marks": 3,
+              "question": "Compare the product rule for HCF x LCM for two and three numbers with",
+              "answer": "Step 1: For TWO numbers — rule holds:\nHCF(6, 20) x LCM(6, 20) = 2 x 60 = 120 = 6 x 20. (True)\nStep 2: For THREE numbers — rule does NOT hold:\nHCF(6,72,120) x LCM(6,72,120) = 6 x 360 = 2160.\nBut 6 x 72 x 120 = 51840. Not equal.\nStep 3: For three numbers, the correct formula from Note to Reader is:\nLCM(p,q,r) = [p x q x r x HCF(p,q,r)] / [HCF(p,q) x HCF(q,r) x HCF(p,r)]\n\n---\n\n4 ಮಾರ್ಕ್ಸ್ × 4 questions:"
+            },
+            {
+              "q_num": 8,
+              "marks": 4,
+              "question": "Give the step-by-step process to find HCF and LCM of 336 and 54 using",
+              "answer": "Step 1: Prime factorisation of 336:\n336 = 2 x 168 = 2 x 2 x 84 = 2 x 2 x 2 x 42 = 2 x 2 x 2 x 2 x 21\n= 2^4 x 3 x 7.\nStep 2: Prime factorisation of 54:\n54 = 2 x 27 = 2 x 3^3.\nStep 3: HCF: Common primes = 2 and 3. Smallest powers: 2^1, 3^1.\nHCF = 2 x 3 = 6.\nStep 4: LCM: All prime factors = 2, 3, 7. Greatest powers: 2^4, 3^3, 7^1.\nLCM = 2^4 x 3^3 x 7 = 16 x 27 x 7 = 3024.\nVerify: HCF x LCM = 6 x 3024 = 18144 = 336 x 54. (Verified)"
+            },
+            {
+              "q_num": 9,
+              "marks": 4,
+              "question": "What technique is used to prove numbers like sqrt(2), sqrt(3) are",
+              "answer": "Step 1: Technique: Proof by contradiction.\nAssume the number (say sqrt(p), p prime) is rational.\nStep 2: Write it as a/b (coprime integers, b not equal to 0).\nSquare both sides: pb^2 = a^2.\nSo p divides a^2.\nStep 3: By Theorem 1.2 (if prime p divides a^2, then p divides a):\np divides a. Write a = pc.\nSubstituting: pb^2 = p^2 c^2. So b^2 = pc^2. So p divides b.\nStep 4: Both a and b are divisible by p — contradicts the assumption that a and b are\ncoprime. Contradiction. Therefore sqrt(p) is irrational."
+            },
+            {
+              "q_num": 10,
+              "marks": 4,
+              "question": "Explain what Carl Friedrich Gauss contributed to the Fundamental Theorem",
+              "answer": "Step 1: The equivalent of the Fundamental Theorem of Arithmetic was first recorded as\nProposition 14 of Book IX in Euclid's Elements before it came to be known by\nits current name.\nStep 2: Carl Friedrich Gauss (1777-1855) gave the first correct proof of FTA in his work\nDisquisitiones Arithmeticae. He is often referred to as the \"Prince of\nMathematics\" and is one of the greatest mathematicians of all time, along with\nArchimedes and Newton.\nStep 3: The theorem is called \"fundamental\" because:\n(i) Every composite number has a UNIQUE prime factorisation — this uniqueness is\nfundamental to the study of integers.\n(ii) It has deep and significant applications in mathematics — proving irrationality,\nfinding HCF and LCM, number theory, and more.\nStep 4: It is easy to state — every composite = product of primes, uniquely — but its\napplications are far-reaching, making it one of the most important theorems in\nall of mathematics."
+            },
+            {
+              "q_num": 11,
+              "marks": 4,
+              "question": "An equivalent version says: \"The prime factorisation of a natural number",
+              "answer": "Step 1: The statement means: no matter how we factorise, we always get the same primes\n(with same powers) — only the order may differ.\nStep 2: Example 1: 60 = 2 x 2 x 3 x 5 = 2 x 3 x 2 x 5 = 3 x 5 x 2 x 2.\nAll orderings give the same prime factorisation: 2^2 x 3 x 5.\nStep 3: Example 2: 32760 = 2^3 x 3^2 x 5 x 7 x 13.\nWhether we start with 32760 = 2 x 16380 or 32760 = 3 x 10920 or any other way,\nthe final factorisation is always 2^3 x 3^2 x 5 x 7 x 13.\nStep 4: The uniqueness is guaranteed by the Fundamental Theorem of Arithmetic, and it\nis the foundation for all prime factorisation-based methods (HCF, LCM, and\nirrationality proofs).\n\n---\n\n5 ಮಾರ್ಕ್ಸ್ × 1 question:"
+            },
+            {
+              "q_num": 12,
+              "marks": 5,
+              "question": "",
+              "answer": "PART A — FTA with examples:\n\nStep 1: STATEMENT: Every composite number can be expressed (factorised) as a product\nof primes, and this factorisation is unique, apart from the order of prime factors.\n\nStep 2: Example 1 — Prime factorisation:\n96 = 2 x 48 = 2 x 2 x 24 = 2 x 2 x 2 x 12 = 2 x 2 x 2 x 2 x 6\n= 2^5 x 3.\nThis is the UNIQUE prime factorisation of 96.\n\nStep 3: Example 2 — Using FTA for HCF and LCM:\n96 = 2^5 x 3;  404 = 2^2 x 101.\nHCF(96, 404) = 2^2 = 4 (smallest power of common prime 2).\nLCM(96, 404) = (96 x 404)/4 = 38784/4 = 9696.\nVerify: 4 x 9696 = 38784 = 96 x 404. (Verified)\n\nPART B — Prove sqrt(3) is irrational, then 2 - 5 x sqrt(3) is irrational:\n\nStep 4: Prove sqrt(3) is irrational:\nAssume sqrt(3) = a/b (coprime, b not equal to 0).\nSquaring: 3b^2 = a^2. So 3 divides a^2. By Theorem 1.2 (p=3), 3 divides a.\nWrite a = 3c. Then 3b^2 = 9c^2, so b^2 = 3c^2. So 3 divides b.\nBoth a and b divisible by 3 — contradicts coprimeness.\nTherefore sqrt(3) is irrational.\n\nStep 5: Prove 2 - 5 x sqrt(3) is irrational:\nAssume 2 - 5 x sqrt(3) = a/b (coprime, b not equal to 0).\nThen -5 x sqrt(3) = a/b - 2 = (a - 2b)/b.\nSo sqrt(3) = (a - 2b) / (-5b) = (2b - a)/(5b).\nSince a and b are integers, (2b - a)/(5b) is rational.\nSo sqrt(3) is rational — but sqrt(3) is irrational (proved in Step 4).\nContradiction.\nTherefore 2 - 5 x sqrt(3) is irrational."
+            }
+          ]
+        },
+        {
+          "type": "mcq",
+          "label": "MCQ",
+          "items": [
+            {
+              "mcq_num": 1,
+              "difficulty": "Easy",
+              "question": "How many main theorems are there in Chapter 1?",
+              "options": {
+                "A": "1   (B) 2   (C) 3   (D) 4"
+              },
+              "answer": "C",
+              "explanation": "Theorem 1.1 (FTA), Theorem 1.2 (if p|a^2 then p|a), Theorem 1.3 (sqrt(2) is irrational)."
+            },
+            {
+              "mcq_num": 2,
+              "difficulty": "Easy",
+              "question": "Which theorem in Chapter 1 is NOT required from the examination point of view?",
+              "options": {
+                "A": "Theorem 1.1   (B) Theorem 1.2   (C) Theorem 1.3   (D) All required"
+              },
+              "answer": "B",
+              "explanation": "Theorem 1.2 is marked with * in the textbook."
+            },
+            {
+              "mcq_num": 3,
+              "difficulty": "Easy",
+              "question": "For two positive integers a and b, HCF(a, b) x LCM(a, b) = ?",
+              "options": {
+                "A": "a + b   (B) a - b   (C) a x b   (D) a / b"
+              },
+              "answer": "C",
+              "explanation": "HCF(a, b) x LCM(a, b) = a x b."
+            },
+            {
+              "mcq_num": 4,
+              "difficulty": "Easy",
+              "question": "Theorem 1.3 in Chapter 1 states:",
+              "options": {
+                "A": "Every composite number has unique factorisation",
+                "B": "If p divides a^2 then p divides a",
+                "C": "sqrt(2) is irrational",
+                "D": "sqrt(3) is rational"
+              },
+              "answer": "C",
+              "explanation": "Theorem 1.3: sqrt(2) is irrational."
+            },
+            {
+              "mcq_num": 5,
+              "difficulty": "Easy",
+              "question": "In Chapter 1, how many exercises are there?",
+              "options": {
+                "A": "1   (B) 2   (C) 3   (D) 4"
+              },
+              "answer": "B",
+              "explanation": "Exercise 1.1 (7 questions) and Exercise 1.2 (3 questions)."
+            },
+            {
+              "mcq_num": 6,
+              "difficulty": "Medium",
+              "question": "For three positive integers p, q, r, which statement is TRUE?",
+              "options": {
+                "A": "HCF x LCM = p x q x r",
+                "B": "HCF x LCM is NOT EQUAL TO p x q x r",
+                "C": "LCM = p x q x r always",
+                "D": "HCF = p x q x r always"
+              },
+              "answer": "B",
+              "explanation": "For three numbers, HCF x LCM is NOT equal to product of the numbers."
+            },
+            {
+              "mcq_num": 7,
+              "difficulty": "Medium",
+              "question": "The prime factorisation method for finding HCF gives:",
+              "options": {
+                "A": "Product of greatest powers of all prime factors",
+                "B": "Product of smallest powers of common prime factors",
+                "C": "Sum of all prime factors",
+                "D": "Product of all prime factors"
+              },
+              "answer": "B",
+              "explanation": "HCF = Product of SMALLEST power of each COMMON prime factor."
+            },
+            {
+              "mcq_num": 8,
+              "difficulty": "Medium",
+              "question": "The prime factorisation method for finding LCM gives:",
+              "options": {
+                "A": "Product of smallest powers of all prime factors",
+                "B": "Sum of greatest powers of all prime factors",
+                "C": "Product of greatest powers of all prime factors involved",
+                "D": "Product of common prime factors only"
+              },
+              "answer": "C",
+              "explanation": "LCM = Product of GREATEST power of each prime factor INVOLVED."
+            },
+            {
+              "mcq_num": 9,
+              "difficulty": "Medium",
+              "question": "Which result is proved using the Fundamental Theorem of Arithmetic in Chapter 1?",
+              "options": {
+                "A": "sqrt(2) is rational   (B) sqrt(2) is irrational",
+                "C": "sqrt(4) is irrational   (D) 2 is prime"
+              },
+              "answer": "B",
+              "explanation": "FTA uniqueness is used to prove sqrt(2) and sqrt(3) are irrational."
+            },
+            {
+              "mcq_num": 10,
+              "difficulty": "Medium",
+              "question": "What is the conclusion of Chapter 1's proof about sqrt(2)?",
+              "options": {
+                "A": "sqrt(2) = 1.414 exactly (rational)",
+                "B": "sqrt(2) cannot be expressed as p/q (irrational)",
+                "C": "sqrt(2) is an integer",
+                "D": "sqrt(2) = 22/7"
+              },
+              "answer": "B",
+              "explanation": "Proof by contradiction shows sqrt(2) cannot be expressed as p/q."
+            },
+            {
+              "mcq_num": 11,
+              "difficulty": "Medium",
+              "question": "The Fundamental Theorem of Arithmetic guarantees:",
+              "options": {
+                "A": "Infinitely many primes",
+                "B": "Unique prime factorisation for every composite number",
+                "C": "HCF always equals 1",
+                "D": "LCM equals the product of numbers"
+              },
+              "answer": "B",
+              "explanation": "FTA guarantees unique prime factorisation (unique apart from order)."
+            },
+            {
+              "mcq_num": 12,
+              "difficulty": "Hard",
+              "question": "The factorisation of 32760 as a product of prime powers is:",
+              "options": {
+                "A": "2^2 x 3^3 x 5 x 7 x 13   (B) 2^3 x 3^2 x 5 x 7 x 13",
+                "C": "2^3 x 3 x 5^2 x 7 x 13   (D) 2^4 x 3^2 x 5 x 7"
+              },
+              "answer": "B",
+              "explanation": "32760 = 2^3 x 3^2 x 5 x 7 x 13."
+            },
+            {
+              "mcq_num": 13,
+              "difficulty": "Hard",
+              "question": "HCF(336, 54) using prime factorisation is:",
+              "options": {
+                "A": "3   (B) 6   (C) 12   (D) 18"
+              },
+              "answer": "B",
+              "explanation": "336 = 2^4 x 3 x 7, 54 = 2 x 3^3. Common: 2^1, 3^1. HCF = 2 x 3 = 6."
+            },
+            {
+              "mcq_num": 14,
+              "difficulty": "Hard",
+              "question": "LCM(336, 54) using prime factorisation is:",
+              "options": {
+                "A": "1512   (B) 3024   (C) 6048   (D) 756"
+              },
+              "answer": "B",
+              "explanation": "Greatest powers: 2^4, 3^3, 7^1. LCM = 16 x 27 x 7 = 3024."
+            },
+            {
+              "mcq_num": 15,
+              "difficulty": "Hard",
+              "question": "After completing Chapter 1, which of the following CAN be concluded?",
+              "options": {
+                "A": "All square roots are irrational",
+                "B": "sqrt(p) is irrational for all prime p",
+                "C": "All decimals are irrational",
+                "D": "Rational numbers have no prime factorisation"
+              },
+              "answer": "B",
+              "explanation": "sqrt(p) is irrational for any prime p — proved using Theorem 1.2 and proof by contradiction. Not ALL square roots are irrational (sqrt(4) = 2 is rational)."
+            }
+          ]
+        },
+        {
+          "type": "qa",
+          "label": "Q&A FORMAT (marks-based — Arithmetic category):",
+          "items": []
+        },
+        {
+          "type": "theorem",
+          "label": "THEOREMS (STATEMENT/GIVEN/TO PROVE/PROOF format):",
+          "statement": "",
+          "given": "",
+          "to_prove": "",
+          "construction": "",
+          "proof": [],
+          "hence_proved": ""
+        },
+        {
+          "type": "mcq",
+          "label": "MCQ COUNT (15 per topic, 5E+6M+4H):",
+          "items": []
+        }
+      ],
+      "subtopics": []
+    }
+  ]
+}

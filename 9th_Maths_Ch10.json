@@ -1,0 +1,441 @@
+{
+  "metadata": {
+    "class": "9th STANDARD",
+    "subject": "Mathematics",
+    "part": "2",
+    "chapter_num": "10",
+    "chapter_name": "HERON'S FORMULA",
+    "source": "KSEEB Textbook 2025-26",
+    "mode": "B"
+  },
+  "chapter_sections": [
+    {
+      "type": "definition",
+      "label": "Definition:",
+      "text": "The formula given by Heron about the area of a triangle is also known as\nHero's formula. It gives the area of a triangle when all three sides are known,\nwithout needing the height of the triangle."
+    },
+    {
+      "type": "key_points",
+      "label": "Key Points:",
+      "points": [
+        "HERON'S FORMULA: Area = sqrt( s(s-a)(s-b)(s-c) )",
+        "where s = (a+b+c)/2 is the SEMI-PERIMETER of the triangle.",
+        "a, b and c are the three sides of the triangle.",
+        "s is called the SEMI-PERIMETER (half the perimeter).",
+        "This formula is useful when the height of the triangle is not known.",
+        "It works for all types of triangles: scalene, isosceles, equilateral,",
+        "right-angled.",
+        "Heron was born in about 10 AD possibly in Alexandria in Egypt.",
+        "He worked in applied mathematics and derived this famous formula for",
+        "the area of a triangle in terms of its three sides."
+      ]
+    },
+    {
+      "type": "list_of_topics",
+      "label": "LIST OF TOPICS IN THIS CHAPTER:",
+      "items": [
+        "- Topic 10.1: Area of a Triangle — by Heron's Formula",
+        "(No sub-topics in textbook under this topic)",
+        "- Topic 10.2: Summary"
+      ]
+    }
+  ],
+  "topics": [
+    {
+      "topic_num": "10.1",
+      "topic_name": "AREA OF A TRIANGLE — BY HERON'S FORMULA",
+      "mode": "B",
+      "sections": [
+        {
+          "type": "definition",
+          "label": "Definition:",
+          "text": "The area of a triangle with sides a, b and c is given by Heron's Formula:\nArea of a triangle = sqrt( s(s - a)(s - b)(s - c) )\nwhere s = semi-perimeter = (a + b + c) / 2."
+        },
+        {
+          "type": "key_points",
+          "label": "Key Points:",
+          "points": [
+            "The formula is also called Hero's formula.",
+            "s = (a + b + c) / 2 is the SEMI-PERIMETER — half the perimeter of the",
+            "triangle.",
+            "The formula is helpful where it is not possible to find the height of",
+            "the triangle easily.",
+            "When we know all three sides but not the height, this formula is applied.",
+            "For an EQUILATERAL TRIANGLE with side a:",
+            "s = 3a/2,  Area = (sqrt(3)/4) x a^2",
+            "If sides of a right triangle satisfy Pythagoras theorem, Heron's formula",
+            "gives the same answer as (1/2) x base x height.",
+            "Example: Triangle with sides 40 m, 32 m, 24 m —",
+            "Check: 32^2 + 24^2 = 1024 + 576 = 1600 = 40^2  (right triangle)",
+            "s = (40+32+24)/2 = 48",
+            "Area by Heron's = sqrt(48 x 8 x 24 x 16) = sqrt(147456) = 384 sq m",
+            "Area by (1/2 x base x height) = (1/2) x 32 x 24 = 384 sq m  (same)"
+          ]
+        },
+        {
+          "type": "list_of_topics",
+          "label": "LIST OF SUB TOPICS IN THIS TOPIC:",
+          "items": [
+            "- (No sub-topics in textbook under Topic 10.1. All content is at topic level.)"
+          ]
+        },
+        {
+          "type": "formulas",
+          "label": "FORMULA:",
+          "items": [
+            "Area of triangle = sqrt( s(s - a)(s - b)(s - c) )",
+            "WHERE:",
+            "a = first side of the triangle (cm or m)",
+            "b = second side of the triangle (cm or m)",
+            "c = third side of the triangle (cm or m)",
+            "s = semi-perimeter = (a + b + c) / 2",
+            "If sides are in cm → area is in cm^2",
+            "If sides are in m  → area is in m^2",
+            "EXAMPLES: (textbook examples)",
+            "EXAMPLE 10.1.1: Area of triangle given two sides and perimeter",
+            "PROBLEM: Find the area of a triangle, two sides of which are 8 cm and 11 cm",
+            "and the perimeter is 32 cm.",
+            "SOLUTION:",
+            "Step 1: Find the third side.",
+            "Perimeter = 32 cm,  a = 8 cm,  b = 11 cm",
+            "Third side c = 32 - (8 + 11) = 32 - 19 = 13 cm",
+            "Step 2: Find the semi-perimeter.",
+            "s = Perimeter / 2 = 32 / 2 = 16 cm",
+            "Step 3: Find (s-a), (s-b), (s-c).",
+            "s - a = 16 - 8  = 8 cm",
+            "s - b = 16 - 11 = 5 cm",
+            "s - c = 16 - 13 = 3 cm",
+            "Step 4: Apply Heron's Formula.",
+            "Area = sqrt( s(s-a)(s-b)(s-c) )",
+            "= sqrt( 16 x 8 x 5 x 3 )",
+            "= sqrt( 1920 )",
+            "= sqrt( 64 x 30 )",
+            "= 8 sqrt(30) cm^2",
+            "ANSWER: Area = 8 sqrt(30) cm^2",
+            "EXAMPLE 10.1.2: Area and fencing cost of a triangular park",
+            "PROBLEM: A triangular park ABC has sides 120 m, 80 m and 50 m. A gardener",
+            "Dhania has to put a fence all around it and also plant grass inside.",
+            "How much area does she need to plant? Find the cost of fencing it with",
+            "barbed wire at the rate of Rs 20 per metre leaving a space 3 m wide",
+            "for a gate on one side.",
+            "SOLUTION:",
+            "Step 1: Find the semi-perimeter.",
+            "2s = 50 + 80 + 120 = 250 m",
+            "s = 125 m",
+            "Step 2: Find (s-a), (s-b), (s-c).",
+            "s - 120 = 125 - 120 = 5 m",
+            "s - 80  = 125 - 80  = 45 m",
+            "s - 50  = 125 - 50  = 75 m",
+            "Step 3: Apply Heron's Formula.",
+            "Area = sqrt( s(s-a)(s-b)(s-c) )",
+            "= sqrt( 125 x 5 x 45 x 75 )",
+            "= sqrt( 2109375 )",
+            "= sqrt( 140625 x 15 )",
+            "= 375 sqrt(15) m^2",
+            "Step 4: Find cost of fencing.",
+            "Perimeter of park = AB + BC + CA = 250 m",
+            "Length of wire needed = 250 - 3 = 247 m  (3 m gap for gate)",
+            "Cost of fencing = Rs 20 x 247 = Rs 4940",
+            "ANSWER: Area = 375 sqrt(15) m^2,  Cost of fencing = Rs 4940",
+            "EXAMPLE 10.1.3: Area of triangle with sides in given ratio",
+            "PROBLEM: The sides of a triangular plot are in the ratio of 3 : 5 : 7 and",
+            "its perimeter is 300 m. Find its area.",
+            "SOLUTION:",
+            "Step 1: Find the actual sides.",
+            "Let sides be 3x, 5x and 7x metres.",
+            "3x + 5x + 7x = 300",
+            "15x = 300",
+            "x = 20",
+            "Sides: 3x20 = 60 m,  5x20 = 100 m,  7x20 = 140 m",
+            "Step 2: Find the semi-perimeter.",
+            "s = (60 + 100 + 140) / 2 = 300 / 2 = 150 m",
+            "Step 3: Find (s-a), (s-b), (s-c).",
+            "s - 60  = 150 - 60  = 90 m",
+            "s - 100 = 150 - 100 = 50 m",
+            "s - 140 = 150 - 140 = 10 m",
+            "Step 4: Apply Heron's Formula.",
+            "Area = sqrt( 150 x 90 x 50 x 10 )",
+            "= sqrt( 6750000 )",
+            "= sqrt( 2250000 x 3 )",
+            "= 1500 sqrt(3) m^2",
+            "ANSWER: Area = 1500 sqrt(3) m^2",
+            "ADDITIONAL CALCULATIONS: (textbook verification examples)",
+            "Problem 1: Find the area of an equilateral triangle with side 10 cm.",
+            "Solution:",
+            "s = (10 + 10 + 10) / 2 = 15 cm",
+            "Area = sqrt( 15(15-10)(15-10)(15-10) )",
+            "= sqrt( 15 x 5 x 5 x 5 )",
+            "= sqrt( 1875 )",
+            "= sqrt( 625 x 3 )",
+            "= 25 sqrt(3) cm^2",
+            "Answer: 25 sqrt(3) cm^2",
+            "Problem 2: Find the area of an isosceles triangle with unequal side 8 cm",
+            "and equal sides 5 cm each.",
+            "Solution:",
+            "s = (8 + 5 + 5) / 2 = 9 cm",
+            "Area = sqrt( 9(9-8)(9-5)(9-5) )",
+            "= sqrt( 9 x 1 x 4 x 4 )",
+            "= sqrt( 144 )",
+            "= 12 cm^2",
+            "Answer: 12 cm^2"
+          ]
+        },
+        {
+          "type": "exercise",
+          "label": "EXERCISE 10.1:",
+          "items": [],
+          "raw": "PROBLEM 10.1.1: A traffic signal board, indicating 'SCHOOL AHEAD', is an\nequilateral triangle with side 'a'. Find the area of the signal board, using\nHeron's formula. If its perimeter is 180 cm, what will be the area of the\nsignal board?\nSOLUTION:\nStep 1: For equilateral triangle with side a:\ns = 3a/2\ns - a = a/2  (same for all three sides)\nArea = sqrt( (3a/2)(a/2)(a/2)(a/2) )\n= sqrt( 3a^4/16 )\n= (sqrt(3)/4) x a^2\n\nStep 2: When perimeter = 180 cm:\nSide a = 180/3 = 60 cm\nArea = (sqrt(3)/4) x 60^2\n= (sqrt(3)/4) x 3600\n= 900 sqrt(3) cm^2\nANSWER: Area = (sqrt(3)/4) a^2.  When perimeter = 180 cm, Area = 900 sqrt(3) cm^2\n\nPROBLEM 10.1.2: The triangular side walls of a flyover have been used for\nadvertisements. The sides of the walls are 122 m, 22 m and 120 m. The\nadvertisements yield an earning of Rs 5000 per m^2 per year. A company hired\none of its walls for 3 months. How much rent did it pay?\nSOLUTION:\nStep 1: Find semi-perimeter.\ns = (122 + 22 + 120) / 2 = 264/2 = 132 m\n\nStep 2: Find (s-a), (s-b), (s-c).\ns - 122 = 132 - 122 = 10 m\ns - 22  = 132 - 22  = 110 m\ns - 120 = 132 - 120 = 12 m\n\nStep 3: Apply Heron's Formula.\nArea = sqrt( 132 x 10 x 110 x 12 )\n= sqrt( 1742400 )\n= 1320 m^2\n\nStep 4: Find rent.\nRent per year = Rs 5000 x 1320 = Rs 66,00,000\nRent for 3 months = Rs 66,00,000 / 4 = Rs 16,50,000\nANSWER: Rent paid = Rs 16,50,000\n\nPROBLEM 10.1.3: There is a slide in a park. One of its side walls has been\npainted with a message \"KEEP THE PARK GREEN AND CLEAN\". If the sides of the\nwall are 15 m, 11 m and 6 m, find the area painted in colour.\nSOLUTION:\nStep 1: Find semi-perimeter.\ns = (15 + 11 + 6) / 2 = 32/2 = 16 m\n\nStep 2: Find (s-a), (s-b), (s-c).\ns - 15 = 16 - 15 = 1 m\ns - 11 = 16 - 11 = 5 m\ns - 6  = 16 - 6  = 10 m\n\nStep 3: Apply Heron's Formula.\nArea = sqrt( 16 x 1 x 5 x 10 )\n= sqrt( 800 )\n= sqrt( 400 x 2 )\n= 20 sqrt(2) m^2\nANSWER: Area painted = 20 sqrt(2) m^2\n\nPROBLEM 10.1.4: Find the area of a triangle two sides of which are 18 cm and\n10 cm and the perimeter is 42 cm.\nSOLUTION:\nStep 1: Find the third side.\nThird side = 42 - (18 + 10) = 42 - 28 = 14 cm\n\nStep 2: Find semi-perimeter.\ns = 42/2 = 21 cm\n\nStep 3: Find (s-a), (s-b), (s-c).\ns - 18 = 21 - 18 = 3 cm\ns - 10 = 21 - 10 = 11 cm\ns - 14 = 21 - 14 = 7 cm\n\nStep 4: Apply Heron's Formula.\nArea = sqrt( 21 x 3 x 11 x 7 )\n= sqrt( 4851 )\n= sqrt( 441 x 11 )\n= 21 sqrt(11) cm^2\nANSWER: Area = 21 sqrt(11) cm^2\n\nPROBLEM 10.1.5: Sides of a triangle are in the ratio of 12 : 17 : 25 and its\nperimeter is 540 cm. Find its area.\nSOLUTION:\nStep 1: Find the actual sides.\nSum of ratio parts = 12 + 17 + 25 = 54\nk = 540/54 = 10\nSides: 12x10 = 120 cm,  17x10 = 170 cm,  25x10 = 250 cm\n\nStep 2: Find semi-perimeter.\ns = 540/2 = 270 cm\n\nStep 3: Find (s-a), (s-b), (s-c).\ns - 120 = 270 - 120 = 150 cm\ns - 170 = 270 - 170 = 100 cm\ns - 250 = 270 - 250 = 20 cm\n\nStep 4: Apply Heron's Formula.\nArea = sqrt( 270 x 150 x 100 x 20 )\n= sqrt( 81000000 )\n= 9000 cm^2\nANSWER: Area = 9000 cm^2\n\nPROBLEM 10.1.6: An isosceles triangle has perimeter 30 cm and each of the\nequal sides is 12 cm. Find the area of the triangle.\nSOLUTION:\nStep 1: Find the third side.\nThird side = 30 - (12 + 12) = 30 - 24 = 6 cm\n\nStep 2: Find semi-perimeter.\ns = 30/2 = 15 cm\n\nStep 3: Find (s-a), (s-b), (s-c).\ns - 12 = 15 - 12 = 3 cm  (for each equal side)\ns - 6  = 15 - 6  = 9 cm\n\nStep 4: Apply Heron's Formula.\nArea = sqrt( 15 x 3 x 3 x 9 )\n= sqrt( 1215 )\n= sqrt( 81 x 15 )\n= 9 sqrt(15) cm^2\nANSWER: Area = 9 sqrt(15) cm^2"
+        },
+        {
+          "type": "qa",
+          "label": "TOPIC 10.1: Q&A",
+          "items": []
+        },
+        {
+          "type": "qa",
+          "label": "Q&A",
+          "items": [
+            {
+              "q_num": 1,
+              "marks": 2,
+              "question": "What is Heron's Formula? State it clearly.",
+              "answer": "Heron's Formula gives the area of a triangle when all three sides are known.\nIf the sides of a triangle are a, b and c, and s is the semi-perimeter,\nthen:\n\nArea = sqrt( s(s - a)(s - b)(s - c) )\n\nwhere s = (a + b + c) / 2.\n\nThis formula is useful when the height of the triangle is not given or\nis difficult to find.\n\n---"
+            },
+            {
+              "q_num": 2,
+              "marks": 2,
+              "question": "What is a semi-perimeter? How is it calculated? Give an example.",
+              "answer": "The SEMI-PERIMETER of a triangle is half its perimeter.\n\nFormula:  s = (a + b + c) / 2\n\nwhere a, b and c are the three sides of the triangle.\n\nExample: If the sides of a triangle are 5 cm, 12 cm and 13 cm, then:\ns = (5 + 12 + 13) / 2 = 30 / 2 = 15 cm.\n\nSo the semi-perimeter is 15 cm.\n\n---"
+            },
+            {
+              "q_num": 3,
+              "marks": 2,
+              "question": "Find the area of a triangle with sides 3 cm, 4 cm and 5 cm",
+              "answer": "Given: a = 3 cm, b = 4 cm, c = 5 cm\n\nStep 1: Find semi-perimeter.\ns = (3 + 4 + 5) / 2 = 12 / 2 = 6 cm\n\nStep 2: Apply Heron's Formula.\nArea = sqrt( 6 x (6-3) x (6-4) x (6-5) )\n= sqrt( 6 x 3 x 2 x 1 )\n= sqrt( 36 )\n= 6 cm^2\n\nArea = 6 cm^2.\n(Note: 3^2 + 4^2 = 25 = 5^2, so it is also a right triangle.)\n\n---"
+            },
+            {
+              "q_num": 4,
+              "marks": 2,
+              "question": "For what type of problems is Heron's Formula most useful?",
+              "answer": "Heron's Formula is most useful when:\n- All three sides of the triangle are known, but\n- The height (altitude) of the triangle is NOT given or is difficult\nto calculate.\n\nExample situation: A triangular park has sides 40 m, 32 m and 24 m.\nWe can directly find its area using Heron's Formula without calculating\nthe height of the park.\n\ns = (40 + 32 + 24) / 2 = 48 m\nArea = sqrt(48 x 8 x 16 x 24) = sqrt(147456) = 384 m^2.\n\n---\n\n3 ಮಾರ್ಕ್ಸ್ × 2 questions:"
+            },
+            {
+              "q_num": 5,
+              "marks": 3,
+              "question": "Find the area of a triangle with sides 13 cm, 14 cm and 15 cm.",
+              "answer": "Step 1: Find semi-perimeter.\na = 13 cm, b = 14 cm, c = 15 cm\ns = (13 + 14 + 15) / 2 = 42 / 2 = 21 cm\n\nStep 2: Find (s - a), (s - b), (s - c).\ns - a = 21 - 13 = 8 cm\ns - b = 21 - 14 = 7 cm\ns - c = 21 - 15 = 6 cm\n\nStep 3: Apply Heron's Formula.\nArea = sqrt( s(s-a)(s-b)(s-c) )\n= sqrt( 21 x 8 x 7 x 6 )\n= sqrt( 7056 )\n= 84 cm^2\n\nArea of the triangle = 84 cm^2.\n\n---"
+            },
+            {
+              "q_num": 6,
+              "marks": 3,
+              "question": "Find the area of an equilateral triangle with side 6 cm using",
+              "answer": "Step 1: Find semi-perimeter.\ns = (6 + 6 + 6) / 2 = 18 / 2 = 9 cm\n\nStep 2: Find (s - a) for each side.\ns - 6 = 9 - 6 = 3 cm  (same for all three sides)\n\nStep 3: Apply Heron's Formula.\nArea = sqrt( 9 x 3 x 3 x 3 )\n= sqrt( 243 )\n= sqrt( 81 x 3 )\n= 9 sqrt(3) cm^2\n\nVerification using standard formula:\nArea = (sqrt(3) / 4) x a^2\n= (sqrt(3) / 4) x 36\n= 9 sqrt(3) cm^2  ✓  (same answer)\n\nArea of equilateral triangle = 9 sqrt(3) cm^2.\n\n---\n\n4 ಮಾರ್ಕ್ಸ್ × 3 questions:"
+            },
+            {
+              "q_num": 7,
+              "marks": 4,
+              "question": "The sides of a triangular plot are in the ratio 3 : 5 : 7 and",
+              "answer": "Step 1: Find the actual side lengths.\nLet the sides be 3x, 5x and 7x metres.\nPerimeter: 3x + 5x + 7x = 300\n15x = 300\nx = 20\nSo the sides are:\na = 3 x 20 = 60 m\nb = 5 x 20 = 100 m\nc = 7 x 20 = 140 m\n\nStep 2: Find the semi-perimeter.\ns = (60 + 100 + 140) / 2 = 300 / 2 = 150 m\n\nStep 3: Find (s - a), (s - b), (s - c).\ns - 60  = 150 - 60  = 90 m\ns - 100 = 150 - 100 = 50 m\ns - 140 = 150 - 140 = 10 m\n\nStep 4: Apply Heron's Formula.\nArea = sqrt( 150 x 90 x 50 x 10 )\n= sqrt( 6750000 )\n= sqrt( 2250000 x 3 )\n= 1500 sqrt(3) m^2\n\nArea of the triangular plot = 1500 sqrt(3) m^2.\n\n---"
+            },
+            {
+              "q_num": 8,
+              "marks": 4,
+              "question": "Find the area of a triangle in which two sides are 8 cm and",
+              "answer": "Step 1: Find the third side.\nPerimeter = 32 cm,  a = 8 cm,  b = 11 cm\nThird side c = 32 - (8 + 11) = 32 - 19 = 13 cm\n\nStep 2: Find the semi-perimeter.\ns = Perimeter / 2 = 32 / 2 = 16 cm\n\nStep 3: Find (s - a), (s - b), (s - c).\ns - a = 16 - 8  = 8 cm\ns - b = 16 - 11 = 5 cm\ns - c = 16 - 13 = 3 cm\n\nStep 4: Apply Heron's Formula.\nArea = sqrt( s(s-a)(s-b)(s-c) )\n= sqrt( 16 x 8 x 5 x 3 )\n= sqrt( 1920 )\n= sqrt( 64 x 30 )\n= 8 sqrt(30) cm^2\n\nArea of the triangle = 8 sqrt(30) cm^2.\n\n---"
+            },
+            {
+              "q_num": 9,
+              "marks": 4,
+              "question": "If the sides of a triangle are doubled, how does its area",
+              "answer": "Step 1: General proof — let original sides be a, b, c with semi-perimeter s.\ns = (a + b + c) / 2\nOriginal area = sqrt( s(s-a)(s-b)(s-c) )\n\nStep 2: New sides are 2a, 2b, 2c.\nNew s' = (2a + 2b + 2c) / 2 = (a + b + c) = 2s\n\nStep 3: New area = sqrt( s'(s'-2a)(s'-2b)(s'-2c) )\n= sqrt( 2s x (2s-2a) x (2s-2b) x (2s-2c) )\n= sqrt( 2s x 2(s-a) x 2(s-b) x 2(s-c) )\n= sqrt( 16 x s(s-a)(s-b)(s-c) )\n= 4 x original area\n\nWhen sides are doubled, area becomes 4 times the original.\n\nStep 4: Verification with triangle 6 cm, 8 cm, 10 cm.\ns = 12, Area = sqrt(12 x 6 x 4 x 2) = sqrt(576) = 24 cm^2\n\nDoubled sides: 12, 16, 20 cm.\ns' = 24, Area = sqrt(24 x 12 x 8 x 4) = sqrt(9216) = 96 cm^2\n\n96 / 24 = 4  ✓  (area is exactly 4 times)\n\nConclusion: When sides are doubled, area becomes 4 times the original area.\n\n---\n\n5 ಮಾರ್ಕ್ಸ್ × 1 question:"
+            },
+            {
+              "q_num": 10,
+              "marks": 5,
+              "question": "A triangular park ABC has sides 120 m, 80 m and 50 m.",
+              "answer": "PART A — Area of Triangular Park and Fencing Cost:\n\nStep 1: Find the semi-perimeter of the park.\na = 120 m, b = 80 m, c = 50 m\n2s = 120 + 80 + 50 = 250 m\ns = 125 m\n\nStep 2: Find (s - a), (s - b), (s - c).\ns - 120 = 125 - 120 = 5 m\ns - 80  = 125 - 80  = 45 m\ns - 50  = 125 - 50  = 75 m\n\nStep 3: Apply Heron's Formula.\nArea of park = sqrt( 125 x 5 x 45 x 75 )\n= sqrt( 2109375 )\n= sqrt( 140625 x 15 )\n= 375 sqrt(15) m^2\n\nStep 4: Find the cost of fencing.\nPerimeter = 250 m\nWire needed = 250 - 3 = 247 m  (3 m gap for gate)\nCost = Rs 20 x 247 = Rs 4940\n\nPART B — Area of Rhombus Field and Combined Total:\n\nStep 5: Find the shorter diagonal of the rhombus.\nSide = 30 m, longer diagonal d1 = 48 m\nHalf of d1 = 24 m\nHalf of d2 = sqrt(30^2 - 24^2)\n= sqrt(900 - 576)\n= sqrt(324)\n= 18 m\nShorter diagonal d2 = 2 x 18 = 36 m\n\nStep 6: Find the area of the rhombus.\nArea of rhombus = (1/2) x d1 x d2\n= (1/2) x 48 x 36\n= 864 m^2\n\nStep 7: Find the total combined area.\nTotal area = Area of park + Area of rhombus\n= 375 sqrt(15) + 864 m^2\n= (375 x 3.873) + 864    [sqrt(15) ≈ 3.873]\n≈ 1452.4 + 864\n≈ 2316.4 m^2\n\nSummary:\n- Area of triangular park   = 375 sqrt(15) m^2  ≈ 1452 m^2\n- Cost of fencing           = Rs 4940\n- Area of rhombus field     = 864 m^2\n- Total combined area       ≈ 2316 m^2"
+            }
+          ]
+        },
+        {
+          "type": "mcq",
+          "label": "MCQ",
+          "items": [
+            {
+              "mcq_num": 1,
+              "difficulty": "Easy",
+              "question": "In Heron's Formula, 's' stands for:",
+              "options": {
+                "A": "Side of the triangle",
+                "B": "Semi-perimeter of the triangle",
+                "C": "Square root",
+                "D": "Sum of all sides"
+              },
+              "answer": "B",
+              "explanation": "'s' is the SEMI-PERIMETER = (a+b+c)/2, where a, b, c are the sides."
+            },
+            {
+              "mcq_num": 2,
+              "difficulty": "Easy",
+              "question": "If the sides of a triangle are a, b and c, the semi-perimeter s is:",
+              "options": {
+                "A": "a + b + c",
+                "B": "(a + b + (C) / 3",
+                "C": "(a + b + (C) / 2",
+                "D": "2(a + b + c)"
+              },
+              "answer": "C",
+              "explanation": "Semi-perimeter s = (a + b + c) / 2, which is half the perimeter."
+            },
+            {
+              "mcq_num": 3,
+              "difficulty": "Easy",
+              "question": "The area of a triangle with sides 3 cm, 4 cm and 5 cm using Heron's Formula is:",
+              "options": {
+                "A": "9 cm^2",
+                "B": "12 cm^2",
+                "C": "6 cm^2",
+                "D": "10 cm^2"
+              },
+              "answer": "C",
+              "explanation": "s = 6, Area = sqrt(6 x 3 x 2 x 1) = sqrt(36) = 6 cm^2."
+            },
+            {
+              "mcq_num": 4,
+              "difficulty": "Easy",
+              "question": "Heron's Formula is used when:",
+              "options": {
+                "A": "The height of the triangle is known",
+                "B": "The base and height of the triangle are given",
+                "C": "The height is not given but all three sides are known",
+                "D": "Only one side is known"
+              },
+              "answer": "C",
+              "explanation": "Heron's Formula is helpful when height is not given or difficult to find, but all three sides are known."
+            },
+            {
+              "mcq_num": 5,
+              "difficulty": "Medium",
+              "question": "The area of an equilateral triangle with side 10 cm is:",
+              "options": {
+                "A": "50 cm^2",
+                "B": "25 sqrt(2) cm^2",
+                "C": "25 sqrt(3) cm^2",
+                "D": "100 cm^2"
+              },
+              "answer": "C",
+              "explanation": "s = 15, Area = sqrt(15 x 5 x 5 x 5) = sqrt(1875) = 25 sqrt(3) cm^2."
+            },
+            {
+              "mcq_num": 6,
+              "difficulty": "Medium",
+              "question": "The semi-perimeter of a triangle with sides 5 cm, 12 cm and 13 cm is:",
+              "options": {
+                "A": "30 cm",
+                "B": "15 cm",
+                "C": "20 cm",
+                "D": "10 cm"
+              },
+              "answer": "B",
+              "explanation": "s = (5 + 12 + 13) / 2 = 30 / 2 = 15 cm."
+            },
+            {
+              "mcq_num": 7,
+              "difficulty": "Medium",
+              "question": "A triangle has sides 6 cm, 8 cm and 10 cm. Its area using Heron's Formula is:",
+              "options": {
+                "A": "48 cm^2",
+                "B": "30 cm^2",
+                "C": "24 cm^2",
+                "D": "40 cm^2"
+              },
+              "answer": "C",
+              "explanation": "s = 12, Area = sqrt(12 x 6 x 4 x 2) = sqrt(576) = 24 cm^2."
+            },
+            {
+              "mcq_num": 8,
+              "difficulty": "Medium",
+              "question": "The area of a triangle with sides 13 cm, 14 cm and 15 cm is:",
+              "options": {
+                "A": "96 cm^2",
+                "B": "80 cm^2",
+                "C": "84 cm^2",
+                "D": "90 cm^2"
+              },
+              "answer": "C",
+              "explanation": "s = 21, Area = sqrt(21 x 8 x 7 x 6) = sqrt(7056) = 84 cm^2."
+            },
+            {
+              "mcq_num": 9,
+              "difficulty": "Medium",
+              "question": "If sides of a triangle are in ratio 3:5:7 and perimeter is 300 m, its area is:",
+              "options": {
+                "A": "1000 sqrt(3) m^2",
+                "B": "1500 sqrt(3) m^2",
+                "C": "2000 sqrt(3) m^2",
+                "D": "750 sqrt(3) m^2"
+              },
+              "answer": "B",
+              "explanation": "Sides are 60, 100, 140 m. s = 150. Area = sqrt(150 x 90 x 50 x 10) = sqrt(6750000) = 1500 sqrt(3) m^2."
+            },
+            {
+              "mcq_num": 10,
+              "difficulty": "Hard",
+              "question": "If the perimeter of a triangle is 32 cm and two of its sides are 8 cm and 11 cm, then the area of the triangle is:",
+              "options": {
+                "A": "6 sqrt(30) cm^2",
+                "B": "8 sqrt(30) cm^2",
+                "C": "4 sqrt(30) cm^2",
+                "D": "12 sqrt(30) cm^2"
+              },
+              "answer": "B",
+              "explanation": "Third side = 32-19 = 13 cm. s = 16. Area = sqrt(16 x 8 x 5 x 3) = sqrt(1920) = sqrt(64 x 30) = 8 sqrt(30) cm^2."
+            },
+            {
+              "mcq_num": 11,
+              "difficulty": "Hard",
+              "question": "A triangular park has sides 120 m, 80 m and 50 m. The cost of fencing it with barbed wire at Rs 20 per metre leaving a space 3 m for a gate is:",
+              "options": {
+                "A": "Rs 5000",
+                "B": "Rs 4940",
+                "C": "Rs 4000",
+                "D": "Rs 5140"
+              },
+              "answer": "B",
+              "explanation": "Perimeter = 250 m. Wire needed = 250 - 3 = 247 m. Cost = Rs 20 x 247 = Rs 4940."
+            },
+            {
+              "mcq_num": 12,
+              "difficulty": "Hard",
+              "question": "An isosceles triangle has perimeter 30 cm and each of the equal sides is 12 cm. Its area is:",
+              "options": {
+                "A": "9 sqrt(15) cm^2",
+                "B": "12 sqrt(11) cm^2",
+                "C": "6 sqrt(15) cm^2",
+                "D": "18 sqrt(5) cm^2"
+              },
+              "answer": "A",
+              "explanation": "Third side = 30-24 = 6 cm. s = 15. Area = sqrt(15 x 3 x 3 x 9) = sqrt(1215) = sqrt(81 x 15) = 9 sqrt(15) cm^2."
+            }
+          ]
+        },
+        {
+          "type": "definition",
+          "label": "Definition:",
+          "text": "In this chapter, you have studied Heron's Formula for finding the area of a\ntriangle when all three sides are known."
+        },
+        {
+          "type": "key_points",
+          "label": "Key Points:",
+          "points": [
+            "Area of a triangle with its sides as a, b and c is calculated by using",
+            "Heron's formula:",
+            "Area of triangle = sqrt( s(s-a)(s-b)(s-c) )",
+            "where s = (a + b + c) / 2"
+          ]
+        }
+      ],
+      "subtopics": []
+    }
+  ]
+}

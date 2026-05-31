@@ -1,0 +1,1111 @@
+{
+  "metadata": {
+    "class": "10TH STANDARD",
+    "subject": "MATHEMATICS",
+    "part": "2",
+    "chapter_num": "12",
+    "chapter_name": "SURFACE AREAS AND VOLUMES",
+    "source": "KSEEB Textbook 2025-26",
+    "mode": "B"
+  },
+  "chapter_sections": [
+    {
+      "type": "definition",
+      "label": "Definition:",
+      "text": "- SURFACE AREA of a solid is the total area of all its outer faces/surfaces.\n- VOLUME of a solid is the amount of space it occupies.\n- A COMBINATION OF SOLIDS is a new solid formed by joining two or more basic solids (cuboid, cone, cylinder, sphere, hemisphere) together."
+    },
+    {
+      "type": "key_points",
+      "label": "Key Points:",
+      "points": [
+        "From Class IX, the four basic solids are: CUBOID, CONE, CYLINDER, and SPHERE.",
+        "In real life, many objects are made by combining two or more basic solids (e.g., truck container = cylinder + two hemispheres; test tube = cylinder + hemisphere).",
+        "To find the surface area or volume of a combined solid, we break it into its basic solid parts.",
+        "SURFACE AREA RULE: Add only the VISIBLE (exposed) surface areas. Do NOT add total surface areas of individual solids — surfaces at the joining point are hidden.",
+        "VOLUME RULE: Volume of combined solid = SUM of volumes of all individual parts. No subtraction needed."
+      ]
+    },
+    {
+      "type": "list_of_topics",
+      "label": "LIST OF TOPICS IN THIS CHAPTER:",
+      "items": [
+        "- Topic 12.1: Introduction",
+        "- Topic 12.2: Surface Area of a Combination of Solids",
+        "- Topic 12.3: Volume of a Combination of Solids"
+      ]
+    },
+    {
+      "type": "formulas",
+      "label": "FORMULA: (Key Reference Formulae for this Chapter)",
+      "items": [
+        "For a Cylinder (radius r, height h):",
+        "CSA = 2πrh",
+        "TSA = 2πr(r + h)",
+        "Volume = πr²h",
+        "For a Cone (radius r, height h, slant height l):",
+        "l = √(r² + h²)",
+        "CSA = πrl",
+        "TSA = πr(r + l)",
+        "Volume = (1/3)πr²h",
+        "For a Sphere (radius r):",
+        "Surface Area = 4πr²",
+        "Volume = (4/3)πr³",
+        "For a Hemisphere (radius r):",
+        "CSA = 2πr²",
+        "TSA = 3πr²",
+        "Volume = (2/3)πr³",
+        "For a Cuboid (length l, breadth b, height h):",
+        "TSA = 2(lb + bh + lh)",
+        "Volume = l × b × h",
+        "WHERE:",
+        "r = radius (cm / m)",
+        "h = height (cm / m)",
+        "l = slant height of cone (cm / m)",
+        "π = 22/7 or 3.14 (as specified in problem)",
+        "CSA = Curved Surface Area",
+        "TSA = Total Surface Area"
+      ]
+    },
+    {
+      "type": "qa",
+      "label": "CHAPTER 12: Q&A",
+      "items": []
+    },
+    {
+      "type": "mcq",
+      "label": "CHAPTER 12: MCQs:",
+      "items": [
+        {
+          "mcq_num": 1,
+          "difficulty": "Easy",
+          "question": "The volume of a hemisphere of radius r is:",
+          "options": {
+            "A": "(4/3)πr³  (B) 2πr³  (C) (2/3)πr³  (D) πr³"
+          },
+          "answer": "C",
+          "explanation": "Volume of hemisphere = half of sphere = (1/2) × (4/3)πr³ = (2/3)πr³"
+        },
+        {
+          "mcq_num": 2,
+          "difficulty": "Easy",
+          "question": "The slant height of a cone with base radius r and height h is:",
+          "options": {
+            "A": "r + h  (B) √(r + h)  (C) √(r² + h²)  (D) r × h"
+          },
+          "answer": "C",
+          "explanation": "By Pythagoras theorem: l = √(r² + h²)"
+        },
+        {
+          "mcq_num": 3,
+          "difficulty": "Medium",
+          "question": "Two cubes each of volume 64 cm³ are joined end to end. The surface area of the resulting cuboid is:",
+          "options": {
+            "A": "192 cm²  (B) 128 cm²  (C) 160 cm²  (D) 96 cm²"
+          },
+          "answer": "C",
+          "explanation": "Edge = 4 cm. Cuboid: 8 × 4 × 4. SA = 2(32 + 16 + 32) = 160 cm²"
+        },
+        {
+          "mcq_num": 4,
+          "difficulty": "Medium",
+          "question": "For a solid formed by joining a cylinder (r, h) and a hemisphere (r) at their flat ends, the total surface area is:",
+          "options": {
+            "A": "2πrh + 4πr²  (B) 2πrh + 3πr²  (C) πr² + 2πrh + 2πr²  (D) 2πr(h − r)"
+          },
+          "answer": "C",
+          "explanation": "Visible surfaces = bottom circle of cylinder (πr²) + CSA of cylinder (2πrh) + CSA of hemisphere (2πr²)"
+        },
+        {
+          "mcq_num": 5,
+          "difficulty": "Hard",
+          "question": "A solid toy (hemisphere + cone, r = 2 cm, cone h = 2 cm) is placed inside a circumscribed cylinder. The volume of the toy is:",
+          "options": {
+            "A": "50.24 cm³  (B) 12.56 cm³  (C) 37.68 cm³  (D) 25.12 cm³"
+          },
+          "answer": "D",
+          "explanation": "V = (2/3)π(2)³ + (1/3)π(2)²(2) = (16π + 8π)/3 = 8π = 25.12 cm³"
+        }
+      ]
+    },
+    {
+      "type": "qa",
+      "label": "Q&A MARKS DISTRIBUTION (per section):",
+      "items": []
+    },
+    {
+      "type": "mcq",
+      "label": "MCQ COUNT:",
+      "items": []
+    }
+  ],
+  "topics": [
+    {
+      "topic_num": "12.1",
+      "topic_name": "INTRODUCTION",
+      "mode": "B",
+      "sections": [
+        {
+          "type": "definition",
+          "label": "Definition:",
+          "text": "- COMBINATION OF SOLIDS: When two or more basic solids (cuboid, cone, cylinder, sphere, hemisphere) are joined together to form a new solid, the resulting shape is called a combination of solids.\n- BASIC SOLIDS: Simple geometric solids whose surface area and volume formulas are already known — CUBOID, CONE, CYLINDER, SPHERE, HEMISPHERE."
+        },
+        {
+          "type": "key_points",
+          "label": "Key Points:",
+          "points": [
+            "From Class IX, we know how to find surface areas and volumes of cuboid, cone, cylinder, and sphere.",
+            "In everyday life, many objects are formed by combining two or more basic solids.",
+            "Examples:",
+            "Truck container for oil/water → CYLINDER with two HEMISPHERES at its ends (Fig. 12.2)",
+            "Test tube → CYLINDER with a HEMISPHERE at the closed end (Fig. 12.3)",
+            "Buildings, monuments → combinations of various solids",
+            "We cannot classify such combined objects under any single basic solid.",
+            "In this chapter, we learn to find surface areas and volumes of such combined solids by breaking them into known basic parts."
+          ]
+        },
+        {
+          "type": "list_of_topics",
+          "label": "LIST OF SUB TOPICS IN THIS TOPIC:",
+          "items": [
+            "- No sub-topics (Mode B — textbook has only X.Y numbering for this topic)"
+          ]
+        },
+        {
+          "type": "qa",
+          "label": "TOPIC 12.1: Q&A",
+          "items": []
+        },
+        {
+          "type": "qa",
+          "label": "Q&A",
+          "items": [
+            {
+              "q_num": 1,
+              "marks": 2,
+              "question": "Name the four basic solids you studied in Class IX.",
+              "answer": "The four basic solids studied in Class IX are:\n1. CUBOID\n2. CONE\n3. CYLINDER\n4. SPHERE\nTheir surface area and volume formulas are already known from Class IX."
+            },
+            {
+              "q_num": 2,
+              "marks": 2,
+              "question": "What is a combination of solids? Give one example.",
+              "answer": "When two or more basic solids are joined together to form a new solid, it is called a COMBINATION OF SOLIDS.\nExample: A truck container for carrying oil — it is shaped like a CYLINDER with two HEMISPHERES at its two ends. It cannot be classified as any single basic solid."
+            },
+            {
+              "q_num": 3,
+              "marks": 2,
+              "question": "Give two real-life examples where an object is formed by combining a cylinder and a hemisphere.",
+              "answer": "1. A truck container for oil or water — a cylinder with two hemispheres at its ends.\n2. A test tube — a cylinder with a hemisphere at its closed bottom end.\nBoth these objects are combinations of basic solids and cannot be classified as a single solid."
+            },
+            {
+              "q_num": 4,
+              "marks": 2,
+              "question": "Is it possible to classify a test tube (cylinder + hemisphere) under any one basic solid shape? Why?",
+              "answer": "No, it is not possible to classify a test tube under any single basic solid.\n- It has a CYLINDRICAL body (long straight part).\n- And a HEMISPHERICAL closed bottom (rounded end).\n- These are two different basic solid shapes joined together.\n- Therefore, a test tube is a combination of a cylinder and a hemisphere.\n\n---\n\n3 ಮಾರ್ಕ್ಸ್ × 3 questions:"
+            },
+            {
+              "q_num": 5,
+              "marks": 3,
+              "question": "Explain why we cannot simply classify real-life combined objects under a single basic solid, and describe the approach used to find their surface area.",
+              "answer": "Step 1: Many real-life objects (test tubes, truck containers, monuments) are formed by joining two or more basic solids. Their shape does not match any single basic solid (cuboid, cone, cylinder, sphere, or hemisphere) exactly.\n\nStep 2: To find the surface area of such a combined solid, we:\n(i) Identify the individual basic solid parts that make up the object.\n(ii) Identify which surfaces are VISIBLE (exposed) from outside.\n(iii) Identify which surfaces are HIDDEN (at the joining point — no longer visible).\n\nStep 3: Total Surface Area = Sum of only the VISIBLE surface areas.\nThe hidden surfaces at the junction must NOT be included."
+            },
+            {
+              "q_num": 6,
+              "marks": 3,
+              "question": "A monument is built in the shape of a cuboid with a hemisphere on top. A student claims: \"TSA of monument = TSA of cuboid + TSA of hemisphere.\" Explain why this is wrong and give the correct approach.",
+              "answer": "Step 1: When the hemisphere is placed on top of the cuboid, the flat circular base of the hemisphere (πr²) sits on the top face of the cuboid. This circular area is HIDDEN — it is no longer visible from outside.\n\nStep 2: The student's claim is wrong because it counts the hidden area twice:\n(i) It includes the full TSA of the cuboid (including the top face with the circle).\n(ii) It includes the full TSA of the hemisphere (including its flat base).\nBoth the top circle of the cuboid and the base of the hemisphere are the same hidden area — counted twice in the student's formula.\n\nStep 3: Correct approach:\nTSA of monument = TSA of cuboid − πr² (hidden circular area) + CSA of hemisphere (2πr²)\n= TSA of cuboid + πr²"
+            },
+            {
+              "q_num": 7,
+              "marks": 3,
+              "question": "What information do you need to find the surface area and volume of a combined solid? Explain with an example.",
+              "answer": "Step 1: To find the SURFACE AREA, we need:\n(i) The names of individual basic solid parts.\n(ii) Which surfaces are visible and which are hidden at the junction.\n(iii) Dimensions (radius, height, slant height) of each visible part.\n\nStep 2: To find the VOLUME, we need:\n(i) The names of individual parts.\n(ii) Dimensions (radius, height) of each part.\nThen add all volumes — no surfaces need to be checked.\n\nStep 3: Example — Playing top (cone + hemisphere, diameter 3.5 cm, height 5 cm):\n- For surface area: r = 1.75 cm, h_cone = 3.25 cm, l = 3.7 cm → Colour area = πrl + 2πr²\n- For volume: V = (1/3)πr²h + (2/3)πr³\n\n---\n\n4 ಮಾರ್ಕ್ಸ್ × 4 questions:"
+            },
+            {
+              "q_num": 8,
+              "marks": 4,
+              "question": "In a science project, students are asked to identify 4 real-life objects that are combinations of basic solids, name the solids they are made of, and state whether their surface area is greater than, equal to, or less than the sum of the surface areas of the individual parts.",
+              "answer": "Step 1: Object 1 — Truck container for oil:\nMade of: CYLINDER + 2 HEMISPHERES (one at each end)\nSurface area: LESS THAN sum of individual TSAs (the flat circular faces at junctions are hidden).\n\nStep 2: Object 2 — Test tube:\nMade of: CYLINDER + HEMISPHERE (closed bottom)\nSurface area: LESS THAN sum of individual TSAs (the flat base of hemisphere and bottom circle of cylinder are hidden at junction).\n\nStep 3: Object 3 — Decorative block (cube + hemisphere on top):\nMade of: CUBE + HEMISPHERE\nSurface area: LESS THAN sum of individual TSAs (the circular region on the cube top where hemisphere is attached is hidden).\n\nStep 4: Object 4 — Medicine capsule:\nMade of: CYLINDER + 2 HEMISPHERES (one at each end)\nSurface area: LESS THAN sum of individual TSAs (two circular faces hidden at junctions).\n\nConclusion: In ALL cases, the TSA of the combined solid is LESS than the sum of the TSAs of the individual parts, because surfaces at the joining points are always hidden."
+            },
+            {
+              "q_num": 9,
+              "marks": 4,
+              "question": "Explain the concept of combining solids with reference to a toy rocket (cone on cylinder), and state which surfaces are visible and which are hidden when the cone base is larger than the cylinder base.",
+              "answer": "Step 1: Shape — A wooden toy rocket is in the shape of a CONE mounted on top of a CYLINDER. The pointed apex of the cone is at the top, and the cylindrical portion forms the body.\n\nStep 2: Case: Cone base diameter (5 cm) > Cylinder base diameter (3 cm).\nWhen the cone sits on the cylinder, the cone base overhangs the cylinder top.\n\nStep 3: Hidden surface:\nThe top circular face of the CYLINDER (area = πr'²) is completely covered by the cone base. It is not visible from outside and must NOT be counted.\n\nStep 4: Visible surfaces:\n(i) CSA of cone (πrl) — lateral surface of cone (painted orange).\n(ii) Ring area at cone base = π(r² − r'²) — the exposed annular region (painted orange).\n(iii) CSA of cylinder (2πr'h') — lateral surface (painted yellow).\n(iv) Base circle of cylinder (πr'²) — the bottom of the rocket (painted yellow).\n\nThis shows that careful identification of visible/hidden surfaces is essential for correct surface area calculation."
+            },
+            {
+              "q_num": 10,
+              "marks": 4,
+              "question": "Why is volume calculation of combined solids simpler than surface area calculation? Explain with an example showing both calculations for a solid toy (hemisphere + cone, r = 2 cm, cone h = 2 cm).",
+              "answer": "Step 1: Volume is simpler because: When two solids are joined, no material is removed or destroyed. Every part of every solid still occupies space. So we simply add all individual volumes. No need to check which surfaces are hidden.\n\nStep 2: Volume of the toy:\nV = Volume of hemisphere + Volume of cone\n= (2/3)πr³ + (1/3)πr²h\n= (2/3) × 3.14 × (2)³ + (1/3) × 3.14 × (2)² × 2\n= (2/3) × 3.14 × 8 + (1/3) × 3.14 × 4 × 2\n= 16.747 + 8.373 = 25.12 cm³\n\nStep 3: Surface area is more complex because: When the flat base of the hemisphere and the flat base of the cone are joined, those surfaces are HIDDEN. They must not be counted.\nTSA = CSA of hemisphere + CSA of cone\n= 2πr² + πrl  (NOT their full TSAs — flat faces excluded)\nNote: l = √(r² + h²) = √(4 + 4) = √8 = 2√2 ≈ 2.83 cm\nTSA = 2 × 3.14 × 4 + 3.14 × 2 × 2.83 = 25.12 + 17.77 = 42.89 cm²\n\nStep 4: Conclusion: Volume = simple addition. Surface area = careful selection of only visible surfaces. This is the key difference."
+            },
+            {
+              "q_num": 11,
+              "marks": 4,
+              "question": "A wooden article was made by scooping out a hemisphere from each end of a solid cylinder. The height of the cylinder is 10 cm and its radius is 3.5 cm. Find the total surface area of the article. (Take π = 22/7)",
+              "answer": "Step 1: Identify visible surfaces after scooping:\n- CSA of the cylinder (the curved outer surface) — fully visible.\n- 2 hemispherical scooped surfaces (CSA of each hemisphere = 2πr²) — now visible inside.\n- The flat circular end-faces of the cylinder are removed (replaced by the hemispherical scoops).\n\nStep 2: TSA = CSA of cylinder + 2 × CSA of hemisphere\n= 2πrh + 2 × 2πr²\n= 2πr(h + 2r)\n\nStep 3: Substitute: r = 3.5 cm, h = 10 cm\n= 2 × (22/7) × 3.5 × (10 + 2 × 3.5)\n= 2 × (22/7) × 3.5 × (10 + 7)\n= 2 × (22/7) × 3.5 × 17\n\nStep 4: Calculate:\n= 2 × 22 × 0.5 × 17\n= 2 × 11 × 17\n= 2 × 187 = 374 cm²\n\nAnswer: Total surface area of the article = 374 cm²\n\n---\n\n5 ಮಾರ್ಕ್ಸ್ × 1 question:"
+            },
+            {
+              "q_num": 12,
+              "marks": 5,
+              "question": "A medicine capsule is in the shape of a cylinder with two hemispheres stuck to each of its ends. The length of the entire capsule is 14 mm and the diameter of the capsule is 5 mm.",
+              "answer": "PART A — Total Surface Area:\n\nStep 1: Diameter = 5 mm → Radius r = 2.5 mm\nTotal length = 14 mm\nLength of cylindrical part = Total length − 2 × radius (two hemispheres)\n= 14 − 2 × 2.5 = 14 − 5 = 9 mm\n\nStep 2: Visible surfaces:\n- CSA of cylinder = 2πrh = 2 × (22/7) × 2.5 × 9\n- 2 × CSA of hemisphere = 2 × 2πr² = 4πr²\n(The flat circular faces at junctions are hidden inside.)\n\nStep 3: TSA = 2πrh + 4πr² = 2πr(h + 2r)\n= 2 × (22/7) × 2.5 × (9 + 5)\n= 2 × (22/7) × 2.5 × 14\n= (2 × 22 × 2.5 × 14) / 7\n= 1540 / 7 = 220 mm²\n\nPART B — Total Volume:\n\nStep 4: Volume of cylinder = πr²h = (22/7) × (2.5)² × 9\n= (22/7) × 6.25 × 9\n= (22 × 56.25) / 7\n= 1237.5 / 7 = 176.786 mm³ (approx.)\n\nStep 5: Volume of 2 hemispheres = 2 × (2/3)πr³ = (4/3)πr³\n= (4/3) × (22/7) × (2.5)³\n= (4/3) × (22/7) × 15.625\n= (4 × 22 × 15.625) / (3 × 7)\n= 1375 / 21 = 65.476 mm³ (approx.)\n\nStep 6: Total volume = 176.786 + 65.476 = 242.26 mm³ (approx.)\n\nAnswer:\n(a) Total surface area of capsule = 220 mm²\n(b) Total volume of capsule ≈ 242.26 mm³"
+            }
+          ]
+        },
+        {
+          "type": "mcq",
+          "label": "MCQ",
+          "items": [
+            {
+              "mcq_num": 1,
+              "difficulty": "Easy",
+              "question": "Which of the following is a combination of a cylinder and two hemispheres?",
+              "options": {
+                "A": "A test tube  (B) A truck oil container  (C) A playing top  (D) A bird-bath"
+              },
+              "answer": "B",
+              "explanation": "A truck container for oil/water is shaped like a cylinder with two hemispheres at its ends (Fig. 12.2 in textbook)."
+            },
+            {
+              "mcq_num": 2,
+              "difficulty": "Easy",
+              "question": "A test tube is an example of a combination of which two basic solids?",
+              "options": {
+                "A": "Cone and sphere  (B) Cuboid and cylinder  (C) Cylinder and hemisphere  (D) Cone and cylinder"
+              },
+              "answer": "C",
+              "explanation": "A test tube has a cylindrical body with a hemispherical closed bottom."
+            },
+            {
+              "mcq_num": 3,
+              "difficulty": "Easy",
+              "question": "The basic solids whose surface areas and volumes are already studied in Class IX are:",
+              "options": {
+                "A": "Cuboid, cone, cylinder, sphere  (B) Cube, cone, cylinder, hemisphere",
+                "C": "Cuboid, pyramid, cone, sphere  (D) Cone, cylinder, prism, sphere"
+              },
+              "answer": "A",
+              "explanation": "The four basic solids from Class IX are CUBOID, CONE, CYLINDER, and SPHERE."
+            },
+            {
+              "mcq_num": 4,
+              "difficulty": "Easy",
+              "question": "When two basic solids are combined, the surface area of the new solid compared to the sum of the surface areas of the individual solids is:",
+              "options": {
+                "A": "Equal  (B) Greater  (C) Less  (D) Double"
+              },
+              "answer": "C",
+              "explanation": "Surfaces at the junction are hidden, so TSA of combined solid < sum of individual TSAs."
+            },
+            {
+              "mcq_num": 5,
+              "difficulty": "Easy",
+              "question": "A playing top (lattu) is shaped like a:",
+              "options": {
+                "A": "Cone surmounted by a cylinder  (B) Hemisphere surmounted by a cone",
+                "C": "Cone surmounted by a hemisphere  (D) Cylinder surmounted by a hemisphere"
+              },
+              "answer": "C",
+              "explanation": "The playing top has a cone at the bottom (pointed) with a hemisphere on top."
+            },
+            {
+              "mcq_num": 6,
+              "difficulty": "Medium",
+              "question": "A bird-bath is shaped like a cylinder with a hemispherical depression at one end. Which surfaces form the total surface area?",
+              "options": {
+                "A": "TSA of cylinder + TSA of hemisphere",
+                "B": "CSA of cylinder + base of cylinder + CSA of hemisphere",
+                "C": "CSA of cylinder + CSA of hemisphere only",
+                "D": "TSA of cylinder − base of hemisphere + CSA of hemisphere"
+              },
+              "answer": "B",
+              "explanation": "Visible surfaces: curved side of cylinder + bottom flat face of cylinder + curved surface of hemispherical depression."
+            },
+            {
+              "mcq_num": 7,
+              "difficulty": "Medium",
+              "question": "Which of the following is NOT a real-life example of a combination of solids?",
+              "options": {
+                "A": "A test tube  (B) A truck oil container  (C) A solid cricket ball  (D) A medicine capsule"
+              },
+              "answer": "C",
+              "explanation": "A solid cricket ball is a single sphere — a basic solid, not a combination."
+            },
+            {
+              "mcq_num": 8,
+              "difficulty": "Medium",
+              "question": "For finding the volume of a combined solid:",
+              "options": {
+                "A": "We subtract the volume at the joining point",
+                "B": "We add the volumes of all individual parts",
+                "C": "We average the volumes of individual parts",
+                "D": "We find only the volume of the larger part"
+              },
+              "answer": "B",
+              "explanation": "Volume of combined solid = sum of all individual volumes. No volume is lost at the junction."
+            },
+            {
+              "mcq_num": 9,
+              "difficulty": "Medium",
+              "question": "A medicine capsule has a cylinder in the middle and a hemisphere at each end. How many basic solid parts does it have?",
+              "options": {
+                "A": "2  (B) 3  (C) 4  (D) 1"
+              },
+              "answer": "B",
+              "explanation": "1 cylinder + 2 hemispheres = 3 parts total."
+            },
+            {
+              "mcq_num": 10,
+              "difficulty": "Medium",
+              "question": "A solid is made by joining a hemisphere and a cone at their flat circular faces (same radius). The flat faces at the junction are:",
+              "options": {
+                "A": "Visible from outside  (B) Hidden inside the solid",
+                "C": "Partially visible  (D) Form the base of the combined solid"
+              },
+              "answer": "B",
+              "explanation": "When flat faces of hemisphere and cone are joined, they become the internal junction — not visible from outside."
+            },
+            {
+              "mcq_num": 11,
+              "difficulty": "Medium",
+              "question": "When finding the surface area of a decorative block (cube + hemisphere on top), we:",
+              "options": {
+                "A": "Add TSA of cube and TSA of hemisphere",
+                "B": "Subtract the base of hemisphere from cube TSA, then add CSA of hemisphere",
+                "C": "Only use the CSA of the hemisphere",
+                "D": "Subtract TSA of hemisphere from cube TSA"
+              },
+              "answer": "B",
+              "explanation": "TSA = TSA of cube − πr² (hidden) + 2πr² (CSA of hemisphere) = TSA of cube + πr²"
+            },
+            {
+              "mcq_num": 12,
+              "difficulty": "Hard",
+              "question": "A truck container (cylinder + 2 hemispheres at ends, radius r, cylinder length h). Its total surface area is:",
+              "options": {
+                "A": "2πrh + 4πr²  (B) 2πrh + 2πr²  (C) 2πr(h + 2r)  (D) Both A and C"
+              },
+              "answer": "D",
+              "explanation": "TSA = 2πrh + 2(2πr²) = 2πrh + 4πr² = 2πr(h + 2r). Options A and D are equivalent."
+            },
+            {
+              "mcq_num": 13,
+              "difficulty": "Hard",
+              "question": "A wooden article (cylinder h = 10 cm, r = 3.5 cm) with a hemisphere scooped from each end. TSA is:",
+              "options": {
+                "A": "374 cm²  (B) 462 cm²  (C) 220 cm²  (D) 297 cm²"
+              },
+              "answer": "A",
+              "explanation": "TSA = 2πr(h + 2r) = 2 × (22/7) × 3.5 × (10 + 7) = 22 × 17 = 374 cm²"
+            },
+            {
+              "mcq_num": 14,
+              "difficulty": "Hard",
+              "question": "A medicine capsule (cylinder + 2 hemispheres, total length 14 mm, diameter 5 mm). Total surface area is:",
+              "options": {
+                "A": "110 mm²  (B) 440 mm²  (C) 220 mm²  (D) 330 mm²"
+              },
+              "answer": "C",
+              "explanation": "r=2.5 mm, h_cyl=9 mm. TSA = 2πr(h + 2r) = 2×(22/7)×2.5×14 = 220 mm²"
+            },
+            {
+              "mcq_num": 15,
+              "difficulty": "Hard",
+              "question": "For the medicine capsule in MCQ 14, the total VOLUME is approximately:",
+              "options": {
+                "A": "176.79 mm³  (B) 65.48 mm³  (C) 242.26 mm³  (D) 110.00 mm³"
+              },
+              "answer": "C",
+              "explanation": "V = πr²h_cyl + (4/3)πr³ = (22/7)×6.25×9 + (4/3)×(22/7)×15.625 = 176.79 + 65.48 = 242.26 mm³"
+            }
+          ]
+        }
+      ],
+      "subtopics": []
+    },
+    {
+      "topic_num": "12.2",
+      "topic_name": "SURFACE AREA OF A COMBINATION OF SOLIDS",
+      "mode": "B",
+      "sections": [
+        {
+          "type": "definition",
+          "label": "Definition:",
+          "text": "- TOTAL SURFACE AREA (TSA) of a combined solid: The sum of all EXPOSED (visible) surface areas of the individual basic solids that make up the combined solid.\n- CURVED SURFACE AREA (CSA): The area of only the curved part of a solid (excluding flat circular faces).\n- KEY PRINCIPLE: TSA of combined solid = Sum of only the VISIBLE surface areas. The surfaces at the junction (joining point) are HIDDEN and NOT counted."
+        },
+        {
+          "type": "key_points",
+          "label": "Key Points:",
+          "points": [
+            "When two solids are joined, the flat faces at the junction disappear from the outer surface.",
+            "For CONE + HEMISPHERE (same radius): Colour area = CSA of cone + CSA of hemisphere = πrl + 2πr²",
+            "For CUBE + HEMISPHERE on top: TSA = TSA of cube − πr² (hidden circle) + 2πr² (CSA of hemisphere) = TSA of cube + πr²",
+            "For CONE on CYLINDER (cone base > cylinder base): Exposed ring area = π(r² − r'²) must be added to the cone portion's area.",
+            "For CYLINDER + HEMISPHERICAL DEPRESSION at one end: TSA = 2πrh + 2πr² = 2πr(h + r)",
+            "IMPORTANT: \"Total surface area of combined solid\" ≠ \"Sum of total surface areas of individual solids.\""
+          ]
+        },
+        {
+          "type": "list_of_topics",
+          "label": "LIST OF SUB TOPICS IN THIS TOPIC:",
+          "items": [
+            "- No sub-topics (Mode B — textbook has only X.Y numbering for Topic 12.2)"
+          ]
+        },
+        {
+          "type": "formulas",
+          "label": "FORMULA:",
+          "items": [
+            "TSA of combined solid = (Sum of CSAs of all visible curved surfaces) + (Any remaining exposed flat areas)",
+            "For specific combinations:",
+            "1. Cone surmounted by Hemisphere (radius r, cone slant height l):",
+            "Colour Area = πrl + 2πr²",
+            "2. Cube (edge a) + Hemisphere on top (radius r):",
+            "TSA = 6a² − πr² + 2πr² = 6a² + πr²",
+            "3. Cone (r, l) on Cylinder (r', h'):",
+            "Cone-portion area = πrl + π(r² − r'²)   [ring added if r > r']",
+            "Cylinder-portion area = 2πr'h' + π(r')²",
+            "4. Cylinder (r, h) + Hemispherical Depression at one end:",
+            "TSA = 2πrh + 2πr²  = 2πr(h + r)",
+            "WHERE:",
+            "r = radius of cone/hemisphere/cylinder (cm)",
+            "l = slant height of cone = √(r² + h²) (cm)",
+            "h = height of cylinder/cone (cm)",
+            "a = edge of cube (cm)",
+            "r' = radius of cylinder (when different from cone radius) (cm)",
+            "h' = height of cylinder (cm)",
+            "EXAMPLES: (Textbook examples under Topic 12.2)",
+            "EXAMPLE 12.2.1: Playing Top (Lattu) — Surface Area",
+            "PROBLEM: Rasheed got a playing top shaped like a cone surmounted by a hemisphere. The entire top is 5 cm in height and the diameter of the top is 3.5 cm. Find the area he has to colour. (Take π = 22/7)",
+            "SOLUTION:",
+            "Step 1: Identify the shape — cone (bottom, pointed) + hemisphere (top, rounded).",
+            "Step 2: Given: Total height = 5 cm, Diameter = 3.5 cm → r = 1.75 cm",
+            "Step 3: Height of cone = Total height − radius of hemisphere = 5 − 1.75 = 3.25 cm",
+            "Step 4: Slant height of cone: l = √(r² + h²) = √(1.75² + 3.25²) = √(3.0625 + 10.5625) = √13.625 ≈ 3.7 cm",
+            "Step 5: Colour area = CSA of hemisphere + CSA of cone",
+            "= 2πr² + πrl = πr(2r + l)",
+            "= (22/7) × 1.75 × (2 × 1.75 + 3.7)",
+            "= (22/7) × 1.75 × 7.2",
+            "= (22/7) × 12.6 = 39.6 cm² (approx.)",
+            "ANSWER: Area to be coloured ≈ 39.6 cm²",
+            "NOTE: The total surface area of the top ≠ sum of TSAs of cone and hemisphere.",
+            "EXAMPLE 12.2.2: Decorative Block (Cube + Hemisphere) — Surface Area",
+            "PROBLEM: A decorative block is made of a cube (edge 5 cm) and a hemisphere (diameter 4.2 cm) fixed on top. Find the total surface area. (Take π = 22/7)",
+            "SOLUTION:",
+            "Step 1: TSA of cube = 6 × (edge)² = 6 × 25 = 150 cm²",
+            "Step 2: The circular part of the cube's top where hemisphere is attached is NOT visible.",
+            "Area to subtract = base area of hemisphere = πr² = (22/7) × 2.1 × 2.1 = 13.86 cm²",
+            "Step 3: CSA of hemisphere = 2πr² = 2 × 13.86 = 27.72 cm²",
+            "Step 4: TSA of block = 150 − 13.86 + 27.72 = 150 + 13.86 = 163.86 cm²",
+            "ANSWER: Total surface area = 163.86 cm²",
+            "EXAMPLE 12.2.3: Wooden Toy Rocket (Cone on Cylinder) — Surface Area",
+            "PROBLEM: A wooden toy rocket is a cone mounted on a cylinder. Total height = 26 cm, conical height = 6 cm, cone base diameter = 5 cm, cylinder base diameter = 3 cm. Find area painted orange (cone) and yellow (cylinder). (Take π = 3.14)",
+            "SOLUTION:",
+            "Step 1: Cone: r = 2.5 cm, h = 6 cm → l = √(2.5² + 6²) = √42.25 = 6.5 cm",
+            "Cylinder: r' = 1.5 cm, h' = 26 − 6 = 20 cm",
+            "Step 2: Cone base (r = 2.5 cm) > Cylinder base (r' = 1.5 cm) → ring area exposed on cone base.",
+            "Step 3: Orange area (conical portion) = CSA of cone + ring area",
+            "= πrl + π(r² − r'²)",
+            "= 3.14 × [(2.5 × 6.5) + (2.5² − 1.5²)]",
+            "= 3.14 × [16.25 + 6.25 − 2.25]",
+            "= 3.14 × 20.25 = 63.585 cm²",
+            "Step 4: Yellow area (cylindrical portion) = CSA of cylinder + area of one base of cylinder",
+            "= πr'(2h' + r') = 3.14 × 1.5 × 41.5 = 195.465 cm²",
+            "ANSWER: Orange area ≈ 63.585 cm²; Yellow area ≈ 195.465 cm²",
+            "EXAMPLE 12.2.4: Bird-Bath (Cylinder + Hemispherical Depression) — Surface Area",
+            "PROBLEM: A bird-bath is a cylinder (height 1.45 m, radius 30 cm) with a hemispherical depression at one end. Find the total surface area. (Take π = 22/7)",
+            "SOLUTION:",
+            "Step 1: h = 1.45 m = 145 cm, r = 30 cm",
+            "Step 2: TSA = CSA of cylinder + CSA of hemisphere",
+            "= 2πrh + 2πr² = 2πr(h + r)",
+            "= 2 × (22/7) × 30 × (145 + 30)",
+            "= 2 × (22/7) × 30 × 175",
+            "Step 3: = (2 × 22 × 30 × 175) / 7 = 231000 / 7 = 33000 cm² = 3.3 m²",
+            "ANSWER: Total surface area of bird-bath = 33000 cm² = 3.3 m²"
+          ]
+        },
+        {
+          "type": "exercise",
+          "label": "EXERCISE 12.1: (Unless stated otherwise, take π = 22/7)",
+          "items": [],
+          "raw": "EXERCISE 12.1.1: 2 cubes each of volume 64 cm³ are joined end to end. Find the surface area of the resulting cuboid.\n\nEXERCISE 12.1.2: A vessel is in the form of a hollow hemisphere mounted by a hollow cylinder. The diameter of the hemisphere is 14 cm and the total height of the vessel is 13 cm. Find the inner surface area of the vessel.\n\nEXERCISE 12.1.3: A toy is in the form of a cone of radius 3.5 cm mounted on a hemisphere of same radius. The total height of the toy is 15.5 cm. Find the total surface area of the toy.\n\nEXERCISE 12.1.4: A cubical block of side 7 cm is surmounted by a hemisphere. What is the greatest diameter the hemisphere can have? Find the surface area of the solid.\n\nEXERCISE 12.1.5: A hemispherical depression is cut out from one face of a cubical wooden block such that the diameter l of the hemisphere is equal to the edge of the cube. Determine the surface area of the remaining solid.\n\nEXERCISE 12.1.6: A medicine capsule is in the shape of a cylinder with two hemispheres stuck to each of its ends. The length of the entire capsule is 14 mm and the diameter of the capsule is 5 mm. Find its surface area.\n\nEXERCISE 12.1.7: A tent is in the shape of a cylinder surmounted by a conical top. If the height and diameter of the cylindrical part are 2.1 m and 4 m respectively, and the slant height of the top is 2.8 m, find the area of the canvas used for making the tent. Also, find the cost of the canvas at the rate of ₹500 per m². (Note: the base of the tent will not be covered with canvas.)\n\nEXERCISE 12.1.8: From a solid cylinder whose height is 2.4 cm and diameter 1.4 cm, a conical cavity of the same height and same diameter is hollowed out. Find the total surface area of the remaining solid to the nearest cm².\n\nEXERCISE 12.1.9: A wooden article was made by scooping out a hemisphere from each end of a solid cylinder. If the height of the cylinder is 10 cm and its base is of radius 3.5 cm, find the total surface area of the article."
+        },
+        {
+          "type": "qa",
+          "label": "TOPIC 12.2: Q&A",
+          "items": []
+        },
+        {
+          "type": "qa",
+          "label": "Q&A",
+          "items": [
+            {
+              "q_num": 1,
+              "marks": 2,
+              "question": "State the key principle for finding the surface area of a combination of solids.",
+              "answer": "The TOTAL SURFACE AREA of a combined solid = Sum of only the VISIBLE (exposed) surface areas of individual parts.\n- Surfaces at the junction (where two solids are joined) are HIDDEN and must NOT be counted.\n- Therefore: TSA of combined solid ≠ Sum of TSAs of individual solids."
+            },
+            {
+              "q_num": 2,
+              "marks": 2,
+              "question": "Write the CSA formulas for (i) hemisphere (ii) cone (iii) cylinder.",
+              "answer": "(i) CSA of hemisphere = 2πr²\n(ii) CSA of cone = πrl, where slant height l = √(r² + h²)\n(iii) CSA of cylinder = 2πrh\nThese are the key formulas used to find the surface area of combined solids."
+            },
+            {
+              "q_num": 3,
+              "marks": 2,
+              "question": "In Example 12.2.2 (decorative block), why do we subtract πr² from the cube's TSA and what do we add in its place?",
+              "answer": "The circular area (πr²) on the cube's top face where the hemisphere is attached is HIDDEN — it is covered by the flat base of the hemisphere and is not visible from outside.\nSo we: Subtract πr² (hidden area) from cube's TSA, AND Add 2πr² (CSA of hemisphere — the visible curved part).\nNet change = +πr². Therefore TSA of block = TSA of cube + πr²."
+            },
+            {
+              "q_num": 4,
+              "marks": 2,
+              "question": "How do we find the slant height of a cone if its radius r and vertical height h are known?",
+              "answer": "Using the Pythagoras theorem on the right triangle formed by the radius, height, and slant height:\nSlant height l = √(r² + h²)\nExample: If r = 3 cm and h = 4 cm, then l = √(9 + 16) = √25 = 5 cm.\n\n---\n\n3 ಮಾರ್ಕ್ಸ್ × 3 questions:"
+            },
+            {
+              "q_num": 5,
+              "marks": 3,
+              "question": "In Example 12.2.3 (toy rocket), the cone base (diameter 5 cm) is larger than the cylinder base (diameter 3 cm). Explain why a ring area is added to the orange painted area and find this ring area. (Take π = 3.14)",
+              "answer": "Step 1: When the cone (base r = 2.5 cm) sits on the cylinder (base r' = 1.5 cm), the cone base extends beyond the cylinder base by a ring-shaped (annular) region.\n\nStep 2: This ring is EXPOSED — it is visible from outside and must be included in the area to be painted orange.\nRing area = Area of cone base − Area of cylinder top\n= πr² − πr'² = π(r² − r'²)\n= 3.14 × (2.5² − 1.5²)\n= 3.14 × (6.25 − 2.25)\n= 3.14 × 4 = 12.56 cm²\n\nStep 3: If no ring were added, the orange area would be only CSA of cone = πrl = 3.14 × 2.5 × 6.5 = 51.025 cm².\nWith ring: Orange area = 51.025 + 12.56 = 63.585 cm² ✓"
+            },
+            {
+              "q_num": 6,
+              "marks": 3,
+              "question": "A toy is in the form of a cone of radius 3.5 cm mounted on a hemisphere of the same radius. The total height of the toy is 15.5 cm. Find the total surface area of the toy. (Take π = 22/7)",
+              "answer": "Step 1: r = 3.5 cm, total height = 15.5 cm\nHeight of cone = Total height − r = 15.5 − 3.5 = 12 cm\nSlant height: l = √(3.5² + 12²) = √(12.25 + 144) = √156.25 = 12.5 cm\n\nStep 2: TSA of toy = CSA of cone + CSA of hemisphere\n= πrl + 2πr²\n= π × 3.5 × 12.5 + 2π × 3.5²\n= π(43.75 + 24.5) = π × 68.25\n\nStep 3: = (22/7) × 68.25 = (22 × 68.25) / 7 = 1501.5 / 7 = 214.5 cm²\n\nAnswer: Total surface area of the toy = 214.5 cm²"
+            },
+            {
+              "q_num": 7,
+              "marks": 3,
+              "question": "A vessel is in the form of a hollow hemisphere (diameter 14 cm) mounted by a hollow cylinder (total height of vessel 13 cm). Find the inner surface area of the vessel. (Take π = 22/7)",
+              "answer": "Step 1: Radius r = 7 cm\nHeight of cylindrical part = Total height − radius of hemisphere = 13 − 7 = 6 cm\n\nStep 2: Inner surface area = CSA of cylinder + CSA of hemisphere\n= 2πrh + 2πr² = 2πr(h + r)\n= 2 × (22/7) × 7 × (6 + 7)\n= 2 × 22 × 13\n\nStep 3: = 2 × 286 = 572 cm²\n\nAnswer: Inner surface area of the vessel = 572 cm²\n\n---\n\n4 ಮಾರ್ಕ್ಸ್ × 4 questions:"
+            },
+            {
+              "q_num": 8,
+              "marks": 4,
+              "question": "From a solid cylinder whose height is 2.4 cm and diameter is 1.4 cm, a conical cavity of the same height and same diameter is hollowed out. Find the total surface area of the remaining solid to the nearest cm². (Take π = 22/7)",
+              "answer": "Step 1: r = 0.7 cm, h = 2.4 cm\nSlant height of conical cavity: l = √(r² + h²) = √(0.49 + 5.76) = √6.25 = 2.5 cm\n\nStep 2: Visible surfaces after hollowing:\n(i) CSA of cylinder = 2πrh (outer curved surface — fully visible)\n(ii) Base circle of cylinder = πr² (bottom flat face — visible)\n(iii) CSA of conical cavity = πrl (inner slant surface — now visible)\n(The top flat face of the cylinder is replaced by the conical cavity opening — not a flat circle anymore)\n\nStep 3: TSA = CSA of cylinder + Base of cylinder + CSA of cone\n= 2πrh + πr² + πrl\n= πr(2h + r + l)\n= (22/7) × 0.7 × (2 × 2.4 + 0.7 + 2.5)\n= (22/7) × 0.7 × (4.8 + 0.7 + 2.5)\n= (22/7) × 0.7 × 8.0\n\nStep 4: = (22 × 0.7 × 8) / 7 = (22 × 0.8) = 17.6 ≈ 18 cm²\n\nAnswer: Total surface area of the remaining solid ≈ 18 cm²"
+            },
+            {
+              "q_num": 9,
+              "marks": 4,
+              "question": "A hemispherical depression is cut out from one face of a cubical wooden block such that the diameter of the hemisphere equals the edge of the cube. Find the surface area of the remaining solid in terms of the edge a. (Take π = 22/7)",
+              "answer": "Step 1: Let the edge of the cube = a. Then the hemisphere diameter = a → radius r = a/2.\n\nStep 2: Original TSA of cube = 6a²\nWhen hemisphere is scooped out from one face, the flat circular region (πr²) on that face is replaced by the curved inner surface of the hemisphere (CSA = 2πr²).\n\nStep 3: SA of remaining solid = TSA of cube − πr² + 2πr²\n= 6a² + πr²\n= 6a² + π(a/2)²\n= 6a² + πa²/4\n\nStep 4: Factor: = a²(6 + π/4)\nNumerically (π = 22/7):\n= a²(6 + (22/7)/4)\n= a²(6 + 22/28)\n= a²(6 + 11/14)\n= a²(84/14 + 11/14)\n= a²(95/14)\n\nAnswer: Surface area of remaining solid = a²(6 + π/4) = (95/14)a²"
+            },
+            {
+              "q_num": 10,
+              "marks": 4,
+              "question": "A tent is in the shape of a cylinder surmounted by a conical top. The height and diameter of the cylindrical part are 2.1 m and 4 m respectively, and the slant height of the conical top is 2.8 m. Find the area of the canvas used for making the tent. Also find the cost if canvas costs ₹500 per m². (Take π = 22/7)",
+              "answer": "Step 1: Cylinder: r = 2 m, h = 2.1 m\nCone: r = 2 m (same), l = 2.8 m\n(The base of the tent is not covered with canvas.)\n\nStep 2: Canvas area = CSA of cylinder + CSA of cone\n= 2πrh + πrl\n= πr(2h + l)\n= (22/7) × 2 × (2 × 2.1 + 2.8)\n= (22/7) × 2 × (4.2 + 2.8)\n= (22/7) × 2 × 7.0\n\nStep 3: = (22 × 2 × 7) / 7 = (22 × 2) = 44 m²\n\nStep 4: Cost = Area × Rate = 44 × 500 = ₹22,000\n\nAnswer: Canvas area = 44 m²; Cost = ₹22,000"
+            },
+            {
+              "q_num": 11,
+              "marks": 4,
+              "question": "A cubical block of side 7 cm is surmounted by a hemisphere. What is the greatest diameter the hemisphere can have? Find the surface area of the solid. (Take π = 22/7)",
+              "answer": "Step 1: The hemisphere sits on the top face of the cube (7 × 7 cm). The greatest diameter the hemisphere can have = edge of cube = 7 cm → r = 3.5 cm.\n\nStep 2: SA of solid = TSA of cube − πr² + CSA of hemisphere\n= 6 × 7² − π(3.5)² + 2π(3.5)²\n= 6 × 49 + π(3.5)²\n= 294 + (22/7) × 12.25\n\nStep 3: = 294 + (22 × 12.25)/7 = 294 + 269.5/7 = 294 + 38.5 = 332.5 cm²\n\nStep 4: No further simplification needed.\n\nAnswer: Greatest diameter = 7 cm; Surface area of the solid = 332.5 cm²\n\n---\n\n5 ಮಾರ್ಕ್ಸ್ × 1 question:"
+            },
+            {
+              "q_num": 12,
+              "marks": 5,
+              "question": "A wooden toy rocket is in the shape of a cone mounted on a cylinder. The total height of the rocket is 26 cm and the height of the conical part is 6 cm. The base diameter of the conical portion is 5 cm and the base diameter of the cylindrical portion is 3 cm.",
+              "answer": "PART A — Orange and Yellow Surface Areas:\n\nStep 1: Cone: r = 2.5 cm, h = 6 cm\nSlant height: l = √(2.5² + 6²) = √(6.25 + 36) = √42.25 = 6.5 cm\nCylinder: r' = 1.5 cm, h' = 26 − 6 = 20 cm\n\nStep 2: Orange area (conical portion):\nSince cone base r (2.5 cm) > cylinder base r' (1.5 cm), ring area is exposed.\nOrange area = CSA of cone + Ring area\n= πrl + π(r² − r'²)\n= 3.14 × (2.5 × 6.5) + 3.14 × (6.25 − 2.25)\n= 3.14 × 16.25 + 3.14 × 4\n= 51.025 + 12.56 = 63.585 cm²\n\nStep 3: Yellow area (cylindrical portion):\nThe top of the cylinder is hidden under the cone.\nYellow area = CSA of cylinder + Base of cylinder\n= 2πr'h' + π(r')²\n= πr'(2h' + r')\n= 3.14 × 1.5 × (40 + 1.5)\n= 3.14 × 1.5 × 41.5 = 4.71 × 41.5 = 195.465 cm²\n\nPART B — Total Lacquered Area:\n\nStep 4: Total area to be lacquered = Orange area + Yellow area\n= 63.585 + 195.465\n= 259.05 cm²\n\nAnswer:\n(a) Orange painted area ≈ 63.585 cm²; Yellow painted area ≈ 195.465 cm²\n(b) Total lacquered area ≈ 259.05 cm²"
+            }
+          ]
+        },
+        {
+          "type": "mcq",
+          "label": "MCQ",
+          "items": [
+            {
+              "mcq_num": 1,
+              "difficulty": "Easy",
+              "question": "The curved surface area of a hemisphere of radius r is:",
+              "options": {
+                "A": "4πr²  (B) 2πr²  (C) πr²  (D) 3πr²"
+              },
+              "answer": "B",
+              "explanation": "CSA of hemisphere = half of sphere's SA = (1/2)(4πr²) = 2πr²"
+            },
+            {
+              "mcq_num": 2,
+              "difficulty": "Easy",
+              "question": "The slant height l of a cone (radius r, height h) is:",
+              "options": {
+                "A": "r + h  (B) √(r + h)  (C) √(r² + h²)  (D) r² + h²"
+              },
+              "answer": "C",
+              "explanation": "By Pythagoras theorem, l = √(r² + h²)"
+            },
+            {
+              "mcq_num": 3,
+              "difficulty": "Easy",
+              "question": "A solid is formed by joining a cylinder and a hemisphere at the flat end. The total surface area includes:",
+              "options": {
+                "A": "TSA of cylinder + TSA of hemisphere",
+                "B": "CSA of cylinder + CSA of hemisphere + base of cylinder",
+                "C": "CSA of cylinder + TSA of hemisphere",
+                "D": "Only CSA of cylinder"
+              },
+              "answer": "B",
+              "explanation": "Visible: CSA of cylinder + CSA of hemisphere + base circle of cylinder. The junction faces are hidden."
+            },
+            {
+              "mcq_num": 4,
+              "difficulty": "Easy",
+              "question": "The TSA of a decorative block (cube edge 5 cm + hemisphere radius 2.1 cm on top) is:",
+              "options": {
+                "A": "150 cm²  (B) 163.86 cm²  (C) 176.72 cm²  (D) 136.14 cm²"
+              },
+              "answer": "B",
+              "explanation": "TSA = 6(5²) + π(2.1)² = 150 + 13.86 = 163.86 cm²"
+            },
+            {
+              "mcq_num": 5,
+              "difficulty": "Easy",
+              "question": "For a medicine capsule (cylinder + 2 hemispheres, total length 14 mm, diameter 5 mm), the length of the cylindrical part is:",
+              "options": {
+                "A": "14 mm  (B) 9 mm  (C) 4 mm  (D) 11.5 mm"
+              },
+              "answer": "B",
+              "explanation": "Two hemispheres together = 2r = 5 mm. Cylinder length = 14 − 5 = 9 mm."
+            },
+            {
+              "mcq_num": 6,
+              "difficulty": "Medium",
+              "question": "In Example 12.2.1 (playing top: height 5 cm, diameter 3.5 cm), the slant height of the cone is approximately:",
+              "options": {
+                "A": "3.25 cm  (B) 3.5 cm  (C) 3.7 cm  (D) 5 cm"
+              },
+              "answer": "C",
+              "explanation": "r = 1.75 cm, h_cone = 3.25 cm. l = √(1.75² + 3.25²) = √13.625 ≈ 3.7 cm"
+            },
+            {
+              "mcq_num": 7,
+              "difficulty": "Medium",
+              "question": "When cone base radius (r) is larger than cylinder radius (r'), the area to be painted on the conical portion is:",
+              "options": {
+                "A": "πrl  (B) πrl + πr²  (C) πrl + π(r² − r'²)  (D) πrl + πr'²"
+              },
+              "answer": "C",
+              "explanation": "Orange area = CSA of cone + ring (annular) area = πrl + π(r² − r'²)"
+            },
+            {
+              "mcq_num": 8,
+              "difficulty": "Medium",
+              "question": "A bird-bath (cylinder r = 30 cm, h = 145 cm) with hemispherical depression. Its TSA is:",
+              "options": {
+                "A": "33000 cm²  (B) 22000 cm²  (C) 13860 cm²  (D) 46860 cm²"
+              },
+              "answer": "A",
+              "explanation": "TSA = 2πr(h + r) = 2 × (22/7) × 30 × 175 = 33000 cm²"
+            },
+            {
+              "mcq_num": 9,
+              "difficulty": "Medium",
+              "question": "A cubical block (side 7 cm) is surmounted by a hemisphere. The greatest diameter the hemisphere can have is:",
+              "options": {
+                "A": "14 cm  (B) 3.5 cm  (C) 7 cm  (D) 10.5 cm"
+              },
+              "answer": "C",
+              "explanation": "Greatest diameter = edge of cube = 7 cm (so hemisphere base fits within the top face)."
+            },
+            {
+              "mcq_num": 10,
+              "difficulty": "Medium",
+              "question": "When two cubes each of volume 64 cm³ are joined end to end, the surface area of the resulting cuboid is:",
+              "options": {
+                "A": "192 cm²  (B) 160 cm²  (C) 128 cm²  (D) 96 cm²"
+              },
+              "answer": "B",
+              "explanation": "Edge = 4 cm. Cuboid 8×4×4. SA = 2(32 + 16 + 32) = 160 cm²"
+            },
+            {
+              "mcq_num": 11,
+              "difficulty": "Medium",
+              "question": "A vessel (hollow hemisphere diameter 14 cm + hollow cylinder, total height 13 cm). Inner surface area is:",
+              "options": {
+                "A": "462 cm²  (B) 572 cm²  (C) 264 cm²  (D) 308 cm²"
+              },
+              "answer": "B",
+              "explanation": "r = 7 cm, h_cyl = 6 cm. SA = 2πr(h + r) = 2 × (22/7) × 7 × 13 = 572 cm²"
+            },
+            {
+              "mcq_num": 12,
+              "difficulty": "Hard",
+              "question": "A toy (cone r = 3.5 cm + hemisphere r = 3.5 cm, total height 15.5 cm). Total surface area is:",
+              "options": {
+                "A": "148.5 cm²  (B) 214.5 cm²  (C) 66 cm²  (D) 280 cm²"
+              },
+              "answer": "B",
+              "explanation": "h_cone = 12 cm, l = 12.5 cm. TSA = πrl + 2πr² = (22/7)(43.75 + 24.5) = (22/7) × 68.25 = 214.5 cm²"
+            },
+            {
+              "mcq_num": 13,
+              "difficulty": "Hard",
+              "question": "A wooden article (hemisphere scooped from each end of cylinder: h = 10 cm, r = 3.5 cm). TSA is:",
+              "options": {
+                "A": "374 cm²  (B) 462 cm²  (C) 220 cm²  (D) 297 cm²"
+              },
+              "answer": "A",
+              "explanation": "TSA = 2πr(h + 2r) = 2 × (22/7) × 3.5 × 17 = 22 × 17 = 374 cm²"
+            },
+            {
+              "mcq_num": 14,
+              "difficulty": "Hard",
+              "question": "From a solid cylinder (h = 2.4 cm, d = 1.4 cm), a conical cavity (same h and d) is hollowed. TSA to nearest cm² is:",
+              "options": {
+                "A": "17 cm²  (B) 18 cm²  (C) 19 cm²  (D) 16 cm²"
+              },
+              "answer": "B",
+              "explanation": "r=0.7 cm, l=2.5 cm. TSA = πr(2h + r + l) = (22/7)×0.7×8 = 2.2×8 = 17.6 ≈ 18 cm²"
+            },
+            {
+              "mcq_num": 15,
+              "difficulty": "Hard",
+              "question": "A hemispherical depression cut from one face of a cubical block (edge = a = hemisphere diameter). Surface area is:",
+              "options": {
+                "A": "a²(6 + π/4)  (B) a²(6 − π/4)  (C) 6a² + πa²  (D) 6a² − πa²"
+              },
+              "answer": "A",
+              "explanation": "SA = 6a² − π(a/2)² + 2π(a/2)² = 6a² + πa²/4 = a²(6 + π/4)"
+            }
+          ]
+        }
+      ],
+      "subtopics": []
+    },
+    {
+      "topic_num": "12.3",
+      "topic_name": "VOLUME OF A COMBINATION OF SOLIDS",
+      "mode": "B",
+      "sections": [
+        {
+          "type": "definition",
+          "label": "Definition:",
+          "text": "- VOLUME OF A COMBINATION OF SOLIDS: The total volume of a solid formed by joining two or more basic solids = SUM of the volumes of all individual constituent solids.\n- APPARENT CAPACITY: The volume of a container calculated without accounting for any raised portion inside (e.g., the full cylinder volume πr²h).\n- ACTUAL CAPACITY: The actual usable volume = Apparent capacity − Volume of the raised/hollow portion inside."
+        },
+        {
+          "type": "key_points",
+          "label": "Key Points:",
+          "points": [
+            "Volume of combined solid = Volume of Solid 1 + Volume of Solid 2 (+ more if needed). NO subtraction at the junction.",
+            "This is different from surface area — for volume, joining solids does not reduce the total volume.",
+            "When a solid is placed inside a container full of liquid, the volume of liquid displaced = volume of the solid.",
+            "HALF CYLINDER: Volume = (1/2) × πr²h (half the volume of a full cylinder).",
+            "For a glass with hemispherical base raised inside: Actual capacity = πr²h − (2/3)πr³"
+          ]
+        },
+        {
+          "type": "list_of_topics",
+          "label": "LIST OF SUB TOPICS IN THIS TOPIC:",
+          "items": [
+            "- No sub-topics (Mode B — textbook has only X.Y numbering for Topic 12.3)"
+          ]
+        },
+        {
+          "type": "formulas",
+          "label": "FORMULA:",
+          "items": [
+            "Volume of combined solid = Sum of volumes of individual parts",
+            "Specific combinations:",
+            "1. Cone (r, h) + Hemisphere (r):",
+            "V = (1/3)πr²h + (2/3)πr³ = (1/3)πr²(h + 2r)",
+            "2. Cuboid (l, b, h) + Half Cylinder (r, length):",
+            "V = lbh + (1/2)πr²(length)",
+            "3. Cylinder (r, h) with hemispherical base inside (raised):",
+            "Actual volume = πr²h − (2/3)πr³",
+            "4. Hemisphere (r) + Cone (r, h) — toy:",
+            "V = (2/3)πr³ + (1/3)πr²h",
+            "WHERE:",
+            "r = radius (cm / m)",
+            "h = height of cone or cylinder (cm / m)",
+            "l, b, h = dimensions of cuboid (m)",
+            "π = 22/7 or 3.14 (as specified)",
+            "EXAMPLES: (Textbook examples under Topic 12.3)",
+            "EXAMPLE 12.3.1: Industry Shed (Cuboid + Half Cylinder) — Volume",
+            "PROBLEM: Shanta's industry shed is a cuboid (7 m × 15 m base, height 8 m) surmounted by a half cylinder. The machinery occupies 300 m³ and 20 workers each occupy 0.08 m³. Find the volume of air in the shed. (Take π = 22/7)",
+            "SOLUTION:",
+            "Step 1: Cuboid: l = 15 m, b = 7 m, h = 8 m",
+            "Half cylinder: diameter = 7 m → r = 3.5 m, length = 15 m",
+            "Step 2: Volume of shed = Volume of cuboid + (1/2) × Volume of cylinder",
+            "= (15 × 7 × 8) + (1/2) × (22/7) × (3.5)² × 15",
+            "= 840 + (1/2) × (22/7) × 12.25 × 15",
+            "= 840 + 288.75 = 1128.75 m³",
+            "Step 3: Space used = 300 + (20 × 0.08) = 300 + 1.6 = 301.6 m³",
+            "Step 4: Air remaining = 1128.75 − 301.6 = 827.15 m³",
+            "ANSWER: Volume of air in shed = 827.15 m³",
+            "EXAMPLE 12.3.2: Juice Glass (Cylinder − Hemispherical Base) — Capacity",
+            "PROBLEM: A cylindrical glass (inner diameter 5 cm, height 10 cm) has a hemispherical raised portion at the bottom. Find the apparent capacity and actual capacity. (Use π = 3.14)",
+            "SOLUTION:",
+            "Step 1: r = 2.5 cm, h = 10 cm",
+            "Step 2: Apparent capacity = πr²h = 3.14 × 6.25 × 10 = 196.25 cm³",
+            "Step 3: Volume of hemispherical raised base = (2/3)πr³ = (2/3) × 3.14 × 15.625 = 32.71 cm³",
+            "Step 4: Actual capacity = 196.25 − 32.71 = 163.54 cm³",
+            "ANSWER: Apparent capacity = 196.25 cm³; Actual capacity = 163.54 cm³",
+            "EXAMPLE 12.3.3: Solid Toy + Circumscribed Cylinder — Volume Difference",
+            "PROBLEM: A solid toy is a hemisphere surmounted by a right circular cone (cone height 2 cm, base diameter 4 cm). Find the volume of the toy. If a cylinder circumscribes the toy, find the difference of volumes. (Take π = 3.14)",
+            "SOLUTION:",
+            "Step 1: r = 2 cm, h_cone = 2 cm",
+            "Step 2: Volume of toy = (2/3)πr³ + (1/3)πr²h",
+            "= (1/3)πr²(2r + h) = (1/3) × 3.14 × 4 × 6 = 25.12 cm³",
+            "Step 3: Circumscribed cylinder: r = 2 cm, H = r + h = 4 cm",
+            "Volume of cylinder = πr²H = 3.14 × 4 × 4 = 50.24 cm³",
+            "Step 4: Difference = 50.24 − 25.12 = 25.12 cm³",
+            "ANSWER: Volume of toy = 25.12 cm³; Difference = 25.12 cm³"
+          ]
+        },
+        {
+          "type": "exercise",
+          "label": "EXERCISE 12.2: (Unless stated otherwise, take π = 22/7)",
+          "items": [],
+          "raw": "EXERCISE 12.2.1: A solid is in the shape of a cone standing on a hemisphere with both their radii being equal to 1 cm and the height of the cone is equal to its radius. Find the volume of the solid in terms of π.\n\nEXERCISE 12.2.2: Rachel was asked to make a model shaped like a cylinder with two cones attached at its two ends. The diameter of the model is 3 cm and its length is 12 cm. If each cone has a height of 2 cm, find the volume of air contained in the model.\n\nEXERCISE 12.2.3: A gulab jamun contains sugar syrup up to about 30% of its volume. Find approximately how much syrup would be found in 45 gulab jamuns, each shaped like a cylinder with two hemispherical ends with length 5 cm and diameter 2.8 cm.\n\nEXERCISE 12.2.4: A pen stand made of wood is in the shape of a cuboid with four conical depressions. The dimensions of the cuboid are 15 cm × 10 cm × 3.5 cm. The radius of each depression is 0.5 cm and the depth is 1.4 cm. Find the volume of wood in the entire stand.\n\nEXERCISE 12.2.5: A vessel is in the form of an inverted cone (height 8 cm, top radius 5 cm) filled with water to the brim. Lead shots (each a sphere of radius 0.5 cm) are dropped in until one-fourth of the water flows out. Find the number of lead shots dropped.\n\nEXERCISE 12.2.6: A solid iron pole consists of a cylinder (height 220 cm, base diameter 24 cm) surmounted by another cylinder (height 60 cm, radius 8 cm). Find the mass of the pole, given that 1 cm³ of iron ≈ 8 g mass. (Use π = 3.14)\n\nEXERCISE 12.2.7: A solid (right circular cone: h = 120 cm, r = 60 cm, on a hemisphere: r = 60 cm) is placed upright in a right circular cylinder full of water (r = 60 cm, h = 180 cm) touching the bottom. Find the volume of water left in the cylinder.\n\nEXERCISE 12.2.8: A spherical glass vessel has a cylindrical neck 8 cm long, 2 cm in diameter. The diameter of the spherical part is 8.5 cm. A child finds its volume to be 345 cm³. Check whether she is correct. (Take π = 3.14, inside measurements.)"
+        },
+        {
+          "type": "qa",
+          "label": "TOPIC 12.3: Q&A",
+          "items": []
+        },
+        {
+          "type": "qa",
+          "label": "Q&A",
+          "items": [
+            {
+              "q_num": 1,
+              "marks": 2,
+              "question": "State the key principle for finding the volume of a combination of solids.",
+              "answer": "The VOLUME of a combined solid = SUM of the volumes of all individual constituent solids.\n- When solids are joined, no volume is lost or removed.\n- Therefore: Volume of combined solid = Volume₁ + Volume₂ + ...\n- No subtraction is needed (unlike surface area)."
+            },
+            {
+              "q_num": 2,
+              "marks": 2,
+              "question": "Write the volume formulas for (i) hemisphere (ii) cone (iii) cylinder.",
+              "answer": "(i) Volume of hemisphere = (2/3)πr³\n(ii) Volume of cone = (1/3)πr²h\n(iii) Volume of cylinder = πr²h\nWhere r = radius, h = height."
+            },
+            {
+              "q_num": 3,
+              "marks": 2,
+              "question": "What is the apparent capacity and actual capacity of a cylindrical glass (r = 2.5 cm, h = 10 cm) with a hemispherical raised base? (Use π = 3.14)",
+              "answer": "Apparent capacity = πr²h = 3.14 × 6.25 × 10 = 196.25 cm³\nActual capacity = Apparent capacity − Volume of hemisphere\n= 196.25 − (2/3) × 3.14 × (2.5)³\n= 196.25 − 32.71 = 163.54 cm³"
+            },
+            {
+              "q_num": 4,
+              "marks": 2,
+              "question": "When a solid is placed inside a container full of liquid, what happens? How does volume help here?",
+              "answer": "When a solid is placed inside a container full of liquid:\n- The solid displaces a volume of liquid equal to its own volume.\n- The displaced liquid overflows.\n- Volume of liquid displaced = Volume of the solid.\nThis principle is used in problems like lead shots dropped into a cone of water.\n\n---\n\n3 ಮಾರ್ಕ್ಸ್ × 3 questions:"
+            },
+            {
+              "q_num": 5,
+              "marks": 3,
+              "question": "A solid is in the shape of a cone (r = 1 cm, h = 1 cm) standing on a hemisphere (r = 1 cm). Find the volume of the solid in terms of π.",
+              "answer": "Step 1: Volume of hemisphere = (2/3)πr³ = (2/3)π(1)³ = (2π/3) cm³\n\nStep 2: Volume of cone = (1/3)πr²h = (1/3)π(1)²(1) = (π/3) cm³\n\nStep 3: Total volume = (2π/3) + (π/3) = (2π + π)/3 = 3π/3 = π cm³\n\nAnswer: Volume of solid = π cm³"
+            },
+            {
+              "q_num": 6,
+              "marks": 3,
+              "question": "Rachel was asked to make a model shaped like a cylinder with two cones attached at its two ends. The diameter is 3 cm and total length is 12 cm. Each cone has a height of 2 cm. Find the volume of air in the model. (Take π = 22/7)",
+              "answer": "Step 1: r = 1.5 cm\nTotal length = 12 cm, each cone h = 2 cm\nHeight of cylinder = 12 − 2 − 2 = 8 cm\n\nStep 2: Volume of cylinder = πr²h = (22/7) × (1.5)² × 8 = (22/7) × 2.25 × 8 = (22 × 18)/7 = 396/7 cm³\n\nStep 3: Volume of 2 cones = 2 × (1/3)πr²h = (2/3) × (22/7) × 2.25 × 2 = (2 × 22 × 4.5)/(3 × 7) = 198/21 = 66/7 cm³\n\nTotal volume = 396/7 + 66/7 = 462/7 = 66 cm³\n\nAnswer: Volume of air in the model = 66 cm³"
+            },
+            {
+              "q_num": 7,
+              "marks": 3,
+              "question": "An inverted cone (h = 8 cm, r = 5 cm) is full of water. Lead shots, each a sphere of radius 0.5 cm, are dropped into the vessel until one-fourth of the water flows out. Find the number of lead shots dropped.",
+              "answer": "Step 1: Volume of cone = (1/3)πr²h = (1/3) × π × 25 × 8 = 200π/3 cm³\nVolume of water that flows out (1/4) = (1/4) × (200π/3) = 50π/3 cm³\n\nStep 2: Volume of one lead shot (sphere r = 0.5 cm):\n= (4/3)πr³ = (4/3) × π × (0.5)³ = (4/3) × π × 0.125 = π/6 cm³\n\nStep 3: Number of shots = Volume displaced / Volume of 1 shot\n= (50π/3) ÷ (π/6) = (50/3) × 6 = 100\n\nAnswer: Number of lead shots = 100\n\n---\n\n4 ಮಾರ್ಕ್ಸ್ × 4 questions:"
+            },
+            {
+              "q_num": 8,
+              "marks": 4,
+              "question": "Shanta runs an industry in a shed in the shape of a cuboid surmounted by a half cylinder. The base of the shed is 7 m × 15 m, and the height of the cuboidal portion is 8 m. The machinery occupies 300 m³ and 20 workers each occupy 0.08 m³. Find the volume of air in the shed. (Take π = 22/7)",
+              "answer": "Step 1: Cuboid: l = 15 m, b = 7 m, h = 8 m → Volume = 15 × 7 × 8 = 840 m³\n\nStep 2: Half cylinder: diameter = breadth of cuboid = 7 m → r = 3.5 m, length = 15 m\nVolume of half cylinder = (1/2) × πr²l\n= (1/2) × (22/7) × (3.5)² × 15\n= (1/2) × (22/7) × 12.25 × 15\n= (1/2) × (22 × 12.25 × 15)/7\n= (1/2) × 4042.5/7 = (1/2) × 577.5 = 288.75 m³\n\nStep 3: Total volume of shed = 840 + 288.75 = 1128.75 m³\n\nStep 4: Space used = 300 + (20 × 0.08) = 300 + 1.6 = 301.6 m³\nAir remaining = 1128.75 − 301.6 = 827.15 m³\n\nAnswer: Volume of air in the shed = 827.15 m³"
+            },
+            {
+              "q_num": 9,
+              "marks": 4,
+              "question": "A solid toy is in the form of a hemisphere surmounted by a right circular cone. The height of the cone is 2 cm and the diameter of the base is 4 cm. (i) Find the volume of the toy. (ii) If a right circular cylinder circumscribes the toy, find the difference of the volumes. (Take π = 3.14)",
+              "answer": "Step 1: r = 2 cm (both hemisphere and cone), h_cone = 2 cm\n\nStep 2: Volume of toy = Volume of hemisphere + Volume of cone\n= (2/3)πr³ + (1/3)πr²h\n= (1/3)πr²(2r + h)\n= (1/3) × 3.14 × 4 × (4 + 2)\n= (1/3) × 3.14 × 4 × 6\n= (1/3) × 75.36 = 25.12 cm³\n\nStep 3: Circumscribed cylinder: same radius r = 2 cm, height = r + h = 2 + 2 = 4 cm\nVolume of cylinder = πr²H = 3.14 × 4 × 4 = 50.24 cm³\n\nStep 4: Difference = Volume of cylinder − Volume of toy\n= 50.24 − 25.12 = 25.12 cm³\n\nAnswer: (i) Volume of toy = 25.12 cm³; (ii) Difference = 25.12 cm³"
+            },
+            {
+              "q_num": 10,
+              "marks": 4,
+              "question": "A solid iron pole consists of a cylinder of height 220 cm and base diameter 24 cm, surmounted by another cylinder of height 60 cm and radius 8 cm. Find the mass of the pole, given that 1 cm³ of iron has approximately 8 g mass. (Use π = 3.14)",
+              "answer": "Step 1: Lower cylinder: r = 12 cm, h = 220 cm\nVolume = πr²h = 3.14 × 144 × 220\n= 3.14 × 31680 = 99475.2 cm³\n\nStep 2: Upper cylinder: r = 8 cm, h = 60 cm\nVolume = πr²h = 3.14 × 64 × 60\n= 3.14 × 3840 = 12057.6 cm³\n\nStep 3: Total volume = 99475.2 + 12057.6 = 111532.8 cm³\n\nStep 4: Mass = Volume × density = 111532.8 × 8 = 892262.4 g ≈ 892.26 kg\n\nAnswer: Mass of the iron pole ≈ 892.26 kg"
+            },
+            {
+              "q_num": 11,
+              "marks": 4,
+              "question": "A gulab jamun contains sugar syrup up to about 30% of its volume. Find approximately how much syrup would be found in 45 gulab jamuns, each shaped like a cylinder with two hemispherical ends, with total length 5 cm and diameter 2.8 cm. (Take π = 22/7)",
+              "answer": "Step 1: r = 1.4 cm. Length of cylindrical part = 5 − 2 × 1.4 = 5 − 2.8 = 2.2 cm\n\nStep 2: Volume of cylindrical part = πr²h = (22/7) × (1.4)² × 2.2\n= (22/7) × 1.96 × 2.2 = (22 × 1.96 × 2.2)/7 = 94.864/7 = 13.552 cm³\n\nStep 3: Volume of 2 hemispheres = (4/3)πr³ = (4/3) × (22/7) × (1.4)³\n= (4/3) × (22/7) × 2.744 = (4 × 22 × 2.744)/(3 × 7) = 241.472/21 = 11.498 cm³\n\nStep 4: Volume of one gulab jamun = 13.552 + 11.498 = 25.05 cm³ (approx.)\nVolume of syrup in 45 = 45 × 0.30 × 25.05 = 45 × 7.515 ≈ 338 cm³\n\nAnswer: Volume of syrup in 45 gulab jamuns ≈ 338 cm³\n\n---\n\n5 ಮಾರ್ಕ್ಸ್ × 1 question:"
+            },
+            {
+              "q_num": 12,
+              "marks": 5,
+              "question": "A solid consisting of a right circular cone of height 120 cm and radius 60 cm standing on a hemisphere of radius 60 cm is placed upright in a right circular cylinder full of water such that it touches the bottom. The radius and height of the cylinder are 60 cm and 180 cm respectively.",
+              "answer": "PART A — Volume of the Solid:\n\nStep 1: Volume of hemisphere (r = 60 cm):\n= (2/3)πr³ = (2/3) × (22/7) × (60)³\n= (2/3) × (22/7) × 216000\n= (2 × 22 × 216000) / (3 × 7)\n= 9504000 / 21 = 452571.43 cm³ (approx.)\nIn terms of π: = (2/3)π × 216000 = 144000π cm³\n\nStep 2: Volume of cone (r = 60 cm, h = 120 cm):\n= (1/3)πr²h = (1/3) × (22/7) × 3600 × 120\n= (1/3) × (22/7) × 432000\n= (22 × 432000) / (3 × 7) = 9504000/21 = 452571.43 cm³\nIn terms of π: = (1/3)π × 3600 × 120 = 144000π cm³\n\nStep 3: Total volume of solid = 144000π + 144000π = 288000π cm³\n= 288000 × (22/7) = 6336000/7 = 905142.86 cm³ (approx.)\n\nPART B — Volume of Water Left:\n\nStep 4: Volume of cylinder (r = 60 cm, h = 180 cm):\n= πr²h = (22/7) × 3600 × 180 = (22 × 3600 × 180)/7 = 14256000/7 = 2036571.43 cm³\nIn terms of π: = 648000π cm³\n\nStep 5: Volume of water left = Volume of cylinder − Volume of solid\n= 648000π − 288000π\n= 360000π\n= 360000 × (22/7)\n= 7920000/7\n= 1131428.57 cm³ (approx.)\n\nAnswer:\n(a) Volume of solid = 288000π ≈ 905142.86 cm³\n(b) Volume of water left = 360000π ≈ 1131428.57 cm³"
+            }
+          ]
+        },
+        {
+          "type": "mcq",
+          "label": "MCQ",
+          "items": [
+            {
+              "mcq_num": 1,
+              "difficulty": "Easy",
+              "question": "The volume of a hemisphere of radius r is:",
+              "options": {
+                "A": "(4/3)πr³  (B) 2πr³  (C) (2/3)πr³  (D) πr³"
+              },
+              "answer": "C",
+              "explanation": "Volume of hemisphere = (1/2) × (4/3)πr³ = (2/3)πr³"
+            },
+            {
+              "mcq_num": 2,
+              "difficulty": "Easy",
+              "question": "The volume of a cone with base radius r and height h is:",
+              "options": {
+                "A": "πr²h  (B) (1/3)πr²h  (C) (2/3)πr²h  (D) (4/3)πr²h"
+              },
+              "answer": "B",
+              "explanation": "Volume of cone = (1/3)πr²h"
+            },
+            {
+              "mcq_num": 3,
+              "difficulty": "Easy",
+              "question": "The volume of a combined solid (cone + hemisphere, both radius r, cone height h) is:",
+              "options": {
+                "A": "(1/3)πr²h + (4/3)πr³  (B) (1/3)πr²h + (2/3)πr³  (C) πr²h + (2/3)πr³  (D) (2/3)πr³ only"
+              },
+              "answer": "B",
+              "explanation": "V = Volume of cone + Volume of hemisphere = (1/3)πr²h + (2/3)πr³"
+            },
+            {
+              "mcq_num": 4,
+              "difficulty": "Easy",
+              "question": "The apparent capacity of a cylindrical glass (r = 2.5 cm, h = 10 cm) is:",
+              "options": {
+                "A": "163.54 cm³  (B) 196.25 cm³  (C) 32.71 cm³  (D) 228.96 cm³"
+              },
+              "answer": "B",
+              "explanation": "Apparent capacity = πr²h = 3.14 × 6.25 × 10 = 196.25 cm³"
+            },
+            {
+              "mcq_num": 5,
+              "difficulty": "Easy",
+              "question": "Volume of combined solid (when two basic solids are joined) equals:",
+              "options": {
+                "A": "Volume of larger solid only",
+                "B": "Sum of volumes of all individual parts",
+                "C": "Difference of volumes of the two parts",
+                "D": "Average of the two volumes"
+              },
+              "answer": "B",
+              "explanation": "Volume of combined solid = sum of all individual volumes. No volume is lost at the junction."
+            },
+            {
+              "mcq_num": 6,
+              "difficulty": "Medium",
+              "question": "A juice glass (r = 2.5 cm, h = 10 cm) has a hemispherical raised base. Actual capacity is:",
+              "options": {
+                "A": "196.25 cm³  (B) 163.54 cm³  (C) 228.96 cm³  (D) 32.71 cm³"
+              },
+              "answer": "B",
+              "explanation": "Actual = πr²h − (2/3)πr³ = 196.25 − 32.71 = 163.54 cm³"
+            },
+            {
+              "mcq_num": 7,
+              "difficulty": "Medium",
+              "question": "Shanta's shed (cuboid 15×7×8 m, half cylinder on top r=3.5 m, length 15 m). Total volume is:",
+              "options": {
+                "A": "840 m³  (B) 1128.75 m³  (C) 288.75 m³  (D) 1000 m³"
+              },
+              "answer": "B",
+              "explanation": "V = 15×7×8 + (1/2)×(22/7)×3.5²×15 = 840 + 288.75 = 1128.75 m³"
+            },
+            {
+              "mcq_num": 8,
+              "difficulty": "Medium",
+              "question": "Solid toy (hemisphere + cone, r = 2 cm, cone h = 2 cm). Volume of toy is:",
+              "options": {
+                "A": "50.24 cm³  (B) 12.56 cm³  (C) 25.12 cm³  (D) 37.68 cm³"
+              },
+              "answer": "C",
+              "explanation": "V = (1/3)πr²(2r + h) = (1/3) × 3.14 × 4 × 6 = 25.12 cm³"
+            },
+            {
+              "mcq_num": 9,
+              "difficulty": "Medium",
+              "question": "Solid of cone (r=1 cm, h=1 cm) on hemisphere (r=1 cm). Volume in terms of π is:",
+              "options": {
+                "A": "(2/3)π  (B) π  (C) (4/3)π  (D) (1/3)π"
+              },
+              "answer": "B",
+              "explanation": "V = (2/3)π + (1/3)π = π cm³"
+            },
+            {
+              "mcq_num": 10,
+              "difficulty": "Medium",
+              "question": "Rachel's model (cylinder + 2 cones at ends, diameter 3 cm, total length 12 cm, each cone h=2 cm). Volume of air is:",
+              "options": {
+                "A": "56.52 cm³  (B) 66 cm³  (C) 18.84 cm³  (D) 141.3 cm³"
+              },
+              "answer": "B",
+              "explanation": "r=1.5 cm, cyl h=8 cm. V = π(1.5)²(8) + 2×(1/3)π(1.5)²(2) = 18π + 3π = 21π = 66 cm³"
+            },
+            {
+              "mcq_num": 11,
+              "difficulty": "Medium",
+              "question": "Lead shots (r = 0.5 cm) dropped into an inverted cone (h = 8 cm, r = 5 cm) full of water until 1/4 water overflows. Number of shots is:",
+              "options": {
+                "A": "50  (B) 75  (C) 100  (D) 125"
+              },
+              "answer": "C",
+              "explanation": "1/4 V_cone = 50π/3 cm³; V_shot = π/6 cm³; Count = (50π/3)/(π/6) = 100"
+            },
+            {
+              "mcq_num": 12,
+              "difficulty": "Hard",
+              "question": "A solid iron pole (lower cyl: h=220 cm, d=24 cm; upper cyl: h=60 cm, r=8 cm). Mass if 1 cm³ = 8 g (π=3.14):",
+              "options": {
+                "A": "786.52 kg  (B) 892.26 kg  (C) 534.87 kg  (D) 1125.40 kg"
+              },
+              "answer": "B",
+              "explanation": "V = 3.14×(144×220 + 64×60) = 3.14 × 35520 = 111532.8 cm³. Mass ≈ 892.26 kg"
+            },
+            {
+              "mcq_num": 13,
+              "difficulty": "Hard",
+              "question": "Spherical glass vessel (sphere d=8.5 cm, neck: l=8 cm, d=2 cm). Actual volume (π=3.14) is approximately:",
+              "options": {
+                "A": "345 cm³  (B) 346.51 cm³  (C) 321.39 cm³  (D) 358.90 cm³"
+              },
+              "answer": "B",
+              "explanation": "V = (4/3)(3.14)(4.25)³ + (3.14)(1)²(8) = 321.39 + 25.12 = 346.51 cm³. Child's answer of 345 is incorrect."
+            },
+            {
+              "mcq_num": 14,
+              "difficulty": "Hard",
+              "question": "Solid (cone h=120 cm, r=60 cm on hemisphere r=60 cm) placed in cylinder (r=60 cm, h=180 cm) full of water. Volume of water remaining (π=22/7):",
+              "options": {
+                "A": "1131428.57 cm³  (B) 942000 cm³  (C) 565714.29 cm³  (D) 1884000 cm³"
+              },
+              "answer": "A",
+              "explanation": "V_water = (648000 − 288000)π = 360000×(22/7) = 1131428.57 cm³"
+            },
+            {
+              "mcq_num": 15,
+              "difficulty": "Hard",
+              "question": "Gulab jamun (cylinder + 2 hemispheres, length 5 cm, diameter 2.8 cm). Volume of syrup in 45 gulab jamuns (30% syrup) is approximately:",
+              "options": {
+                "A": "338 cm³  (B) 420 cm³  (C) 113 cm³  (D) 280 cm³"
+              },
+              "answer": "A",
+              "explanation": "V_one ≈ 25.05 cm³. Syrup = 45 × 0.30 × 25.05 ≈ 338 cm³"
+            }
+          ]
+        }
+      ],
+      "subtopics": []
+    }
+  ]
+}

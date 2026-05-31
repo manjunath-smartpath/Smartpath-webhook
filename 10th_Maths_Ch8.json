@@ -1,0 +1,1470 @@
+{
+  "metadata": {
+    "class": "10TH STANDARD",
+    "subject": "Mathematics",
+    "part": "2",
+    "chapter_num": "8",
+    "chapter_name": "INTRODUCTION TO TRIGONOMETRY",
+    "source": "KSEEB Textbook 2025-26",
+    "mode": "B"
+  },
+  "chapter_sections": [
+    {
+      "type": "definition",
+      "label": "Definition:",
+      "text": "- TRIGONOMETRY is the branch of mathematics that studies the relationships between the sides and angles of a triangle.\n- The word TRIGONOMETRY comes from Greek: TRI (three) + GON (sides) + METRON (measure).\n- A TRIGONOMETRIC RATIO is a ratio of any two sides of a right triangle with respect to one of its acute angles."
+    },
+    {
+      "type": "key_points",
+      "label": "Key Points:",
+      "points": [
+        "Trigonometry deals with RIGHT TRIANGLES and ACUTE ANGLES (0° to 90°) in Class 10.",
+        "The earliest known work on trigonometry was recorded in Egypt and Babylon.",
+        "Early astronomers used trigonometry to find distances of stars and planets from Earth.",
+        "Today, most technologically advanced methods in Engineering and Physical Sciences are based on trigonometrical concepts.",
+        "The word 'sine' traces back to Aryabhata (C.E. 476–550) who used the term ardha-jya.",
+        "Edmund Gunter (1581–1626) first used the abbreviated notation 'sin'.",
+        "Sir Jonas Moore first used the abbreviated notation 'cos' in 1674.",
+        "Trigonometric ratios can be extended to angles beyond 90° (studied in higher classes)."
+      ]
+    },
+    {
+      "type": "list_of_topics",
+      "label": "LIST OF TOPICS IN THIS CHAPTER:",
+      "items": [
+        "- Topic 8.1: Introduction",
+        "- Topic 8.2: Trigonometric Ratios",
+        "- Topic 8.3: Trigonometric Ratios of Some Specific Angles",
+        "- Topic 8.4: Trigonometric Identities",
+        "- Topic 8.5: Summary"
+      ]
+    },
+    {
+      "type": "formulas",
+      "label": "FORMULA: (Core formulas — detailed under each topic)",
+      "items": [
+        "For right triangle ABC right-angled at B:",
+        "sin A = BC / AC",
+        "cos A = AB / AC",
+        "tan A = BC / AB",
+        "cosec A = AC / BC = 1 / sin A",
+        "sec A = AC / AB = 1 / cos A",
+        "cot A = AB / BC = 1 / tan A",
+        "WHERE:",
+        "BC = side opposite to angle A",
+        "AB = side adjacent to angle A",
+        "AC = hypotenuse"
+      ]
+    },
+    {
+      "type": "qa",
+      "label": "CHAPTER 8: Q&A:",
+      "items": [
+        {
+          "q_num": 1,
+          "marks": 2,
+          "question": "What is trigonometry? From which language is the word derived?",
+          "answer": "TRIGONOMETRY is the branch of mathematics that studies the relationships between the sides and angles of a triangle.\nThe word comes from Greek: TRI (three) + GON (sides) + METRON (measure)."
+        },
+        {
+          "q_num": 2,
+          "marks": 2,
+          "question": "What are the six trigonometric ratios? Write their reciprocal relationships.",
+          "answer": "The six trigonometric ratios are: sin A, cos A, tan A, cosec A, sec A, cot A.\nReciprocal relationships:\ncosec A = 1/sin A\nsec A   = 1/cos A\ncot A   = 1/tan A"
+        },
+        {
+          "q_num": 3,
+          "marks": 2,
+          "question": "State the three fundamental trigonometric identities.",
+          "answer": "(i)  sin²A + cos²A = 1                             (for 0° <= A <= 90°)\n(ii) 1 + tan²A = sec²A  i.e., sec²A - tan²A = 1   (for 0° <= A < 90°)\n(iii) 1 + cot²A = cosec²A  i.e., cosec²A - cot²A = 1  (for 0° < A <= 90°)"
+        },
+        {
+          "q_num": 4,
+          "marks": 2,
+          "question": "What happens to sin A and cos A as angle A increases from 0° to 90°?",
+          "answer": "As angle A increases from 0° to 90°:\nsin A INCREASES steadily from 0 to 1.\ncos A DECREASES steadily from 1 to 0.\nThis is because as the angle grows, the opposite side grows and the adjacent side shrinks relative to the hypotenuse.\n\n---\n\n3 ಮಾರ್ಕ್ಸ್ × 3 questions:"
+        },
+        {
+          "q_num": 5,
+          "marks": 3,
+          "question": "Write the trigonometric ratios for the standard angles 0°, 30°, 45°, 60°, and 90°.",
+          "answer": "Step 1: Values of sin A:\nsin 0° = 0,  sin 30° = 1/2,  sin 45° = 1/sqrt(2),  sin 60° = sqrt(3)/2,  sin 90° = 1.\n\nStep 2: Values of cos A:\ncos 0° = 1,  cos 30° = sqrt(3)/2,  cos 45° = 1/sqrt(2),  cos 60° = 1/2,  cos 90° = 0.\n\nStep 3: Values of tan A:\ntan 0° = 0,  tan 30° = 1/sqrt(3),  tan 45° = 1,  tan 60° = sqrt(3),  tan 90° = Not defined.\nNote: cosec, sec, cot are reciprocals of sin, cos, tan. cosec 0°, cot 0°, tan 90°, sec 90° are NOT DEFINED."
+        },
+        {
+          "q_num": 6,
+          "marks": 3,
+          "question": "Express cos A, tan A, and sec A in terms of sin A.",
+          "answer": "Step 1: Using identity sin²A + cos²A = 1:\ncos A = sqrt(1 - sin²A)     (positive since A is acute).\n\nStep 2: tan A = sin A / cos A:\ntan A = sin A / sqrt(1 - sin²A).\n\nStep 3: sec A = 1 / cos A:\nsec A = 1 / sqrt(1 - sin²A)."
+        },
+        {
+          "q_num": 7,
+          "marks": 3,
+          "question": "Who were the key contributors to the history of trigonometry? Explain briefly.",
+          "answer": "Step 1: Aryabhata (C.E. 476-550):\nUsed the term ardha-jya (half-chord) for sine. This became jiva, then the Arabic version was translated to Latin sinus, and finally to 'sine'.\n\nStep 2: Edmund Gunter (1581-1626):\nAn English Professor of Astronomy who first used the abbreviated notation 'sin'. He also originated the name 'cosinus'.\n\nStep 3: Sir Jonas Moore (1674):\nAn English Mathematician who first used the abbreviated notation 'cos'.\nEarliest recorded work on trigonometry comes from Egypt and Babylon, used by astronomers to find distances of stars and planets.\n\n---\n\n4 ಮಾರ್ಕ್ಸ್ × 2 questions:"
+        },
+        {
+          "q_num": 8,
+          "marks": 4,
+          "question": "In right triangle ABC right-angled at B, if tan A = 4/3:",
+          "answer": "Step 1: Given tan A = BC/AB = 4/3. Let BC = 4k, AB = 3k.\n\nStep 2: By Pythagoras theorem:\nAC² = AB² + BC² = (3k)² + (4k)² = 9k² + 16k² = 25k²\nSo AC = 5k.\n\nStep 3: All six ratios:\nsin A = BC/AC = 4k/5k = 4/5\ncos A = AB/AC = 3k/5k = 3/5\ntan A = 4/3 (given)\ncosec A = 1/sin A = 5/4\nsec A   = 1/cos A = 5/3\ncot A   = 1/tan A = 3/4\n\nStep 4: Verify sin²A + cos²A = 1:\n(4/5)² + (3/5)² = 16/25 + 9/25 = 25/25 = 1  VERIFIED.\nANSWER: All six ratios found. Identity verified."
+        },
+        {
+          "q_num": 9,
+          "marks": 4,
+          "question": "Prove that (cot A - cos A)/(cot A + cos A) = (cosec A - 1)/(cosec A + 1).",
+          "answer": "Step 1: Simplify cot A - cos A:\ncot A - cos A = (cos A/sin A) - cos A = cos A(1/sin A - 1) = cos A(cosec A - 1).\n\nStep 2: Simplify cot A + cos A:\ncot A + cos A = (cos A/sin A) + cos A = cos A(1/sin A + 1) = cos A(cosec A + 1).\n\nStep 3: Divide:\nLHS = cos A(cosec A - 1) / cos A(cosec A + 1) = (cosec A - 1)/(cosec A + 1) = RHS.  [Proved]\n\nStep 4: Verify for A = 30°:\ncot 30° = sqrt(3), cos 30° = sqrt(3)/2, cosec 30° = 2.\nLHS = (sqrt(3) - sqrt(3)/2) / (sqrt(3) + sqrt(3)/2) = (sqrt(3)/2) / (3sqrt(3)/2) = 1/3.\nRHS = (2 - 1)/(2 + 1) = 1/3.  LHS = RHS.  VERIFIED.\nANSWER: Identity proved and verified for A = 30°.\n\n---\n\n5 ಮಾರ್ಕ್ಸ್ × 1 question:"
+        },
+        {
+          "q_num": 10,
+          "marks": 5,
+          "question": "",
+          "answer": "PART A - Prove sec A(1 - sin A)(sec A + tan A) = 1:\n\nStep 1: Write sec A + tan A in terms of sin A and cos A:\nsec A + tan A = 1/cos A + sin A/cos A = (1 + sin A)/cos A.\n\nStep 2: Multiply all three factors:\nLHS = (1/cos A)(1 - sin A) x (1 + sin A)/cos A.\n\nStep 3: Use difference of squares (1 - sin A)(1 + sin A) = 1 - sin²A:\nLHS = (1 - sin²A) / cos²A.\n\nStep 4: Apply identity 1 - sin²A = cos²A:\nLHS = cos²A / cos²A = 1 = RHS.  [Proved]\n\nPART B - Prove (sin theta - 2 sin³theta)/(2 cos³theta - cos theta) = tan theta:\n\nStep 1: Factor the numerator:\nsin theta - 2 sin³theta = sin theta(1 - 2 sin²theta).\n\nStep 2: Factor the denominator:\n2 cos³theta - cos theta = cos theta(2 cos²theta - 1).\n\nStep 3: Rewrite 1 - 2 sin²theta using sin²theta = 1 - cos²theta:\n1 - 2 sin²theta = 1 - 2(1 - cos²theta) = 2 cos²theta - 1.\n\nStep 4: Substitute and simplify:\nLHS = sin theta(2 cos²theta - 1) / cos theta(2 cos²theta - 1)\n= sin theta / cos theta = tan theta = RHS.  [Proved]\n\nANSWER: Both identities proved using fundamental trigonometric identities."
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "label": "CHAPTER 8: MCQs:",
+      "items": [
+        {
+          "mcq_num": 1,
+          "difficulty": "Easy",
+          "question": "The word 'TRI' in trigonometry means:",
+          "options": {
+            "A": "Angle  (B) Measure  (C) Three  (D) Side"
+          },
+          "answer": "C",
+          "explanation": "Tri = three, gon = sides, metron = measure."
+        },
+        {
+          "mcq_num": 2,
+          "difficulty": "Easy",
+          "question": "sin²A + cos²A =",
+          "options": {
+            "A": "0  (B) 2  (C) sin A  (D) 1"
+          },
+          "answer": "D",
+          "explanation": "This is the first fundamental trigonometric identity, derived from Pythagoras theorem."
+        },
+        {
+          "mcq_num": 3,
+          "difficulty": "Easy",
+          "question": "The value of tan 45° is:",
+          "options": {
+            "A": "0  (B) 1/√3  (C) 1  (D) √3"
+          },
+          "answer": "C",
+          "explanation": "In a 45°-45°-90° triangle, both legs are equal, so tan 45° = a/a = 1."
+        },
+        {
+          "mcq_num": 4,
+          "difficulty": "Medium",
+          "question": "sec²A − tan²A =",
+          "options": {
+            "A": "0  (B) 2  (C) 1  (D) cos²A"
+          },
+          "answer": "C",
+          "explanation": "This is the second fundamental identity: 1 + tan²A = sec²A."
+        },
+        {
+          "mcq_num": 5,
+          "difficulty": "Medium",
+          "question": "Which of the following is NOT DEFINED?",
+          "options": {
+            "A": "sin 90°  (B) cos 0°  (C) tan 90°  (D) tan 0°"
+          },
+          "answer": "C",
+          "explanation": "tan 90° = sin 90° / cos 90° = 1/0, which is undefined."
+        },
+        {
+          "mcq_num": 6,
+          "difficulty": "Hard",
+          "question": "The value of (sin A + cosec A)² + (cos A + sec A)² is:",
+          "options": {
+            "A": "5 + tan²A + cot²A  (B) 7 + tan²A + cot²A  (C) 7 + sin²A + cos²A  (D) 9"
+          },
+          "answer": "B",
+          "explanation": "= sin²A + 2 + cosec²A + cos²A + 2 + sec²A = 1 + 4 + (1 + cot²A) + (1 + tan²A) = 7 + tan²A + cot²A."
+        }
+      ]
+    }
+  ],
+  "topics": [
+    {
+      "topic_num": "8.1",
+      "topic_name": "INTRODUCTION",
+      "mode": "B",
+      "sections": [
+        {
+          "type": "definition",
+          "label": "Definition:",
+          "text": "- TRIGONOMETRY is the study of relationships between the sides and angles of a triangle.\n- The word comes from Greek: TRI (three) + GON (sides) + METRON (measure)."
+        },
+        {
+          "type": "key_points",
+          "label": "Key Points:",
+          "points": [
+            "Three real-life situations where right triangles appear (from textbook):",
+            "1. A student looking at the top of Qutub Minar — the horizontal distance, height of minar, and line of sight form a right triangle.",
+            "2. A girl on a balcony looking down at a flower pot on a temple stair — forms a right triangle across the river.",
+            "3. A hot air balloon moving from point A to B — altitude of B can be found using the triangle formed with the ground.",
+            "In all these situations, HEIGHTS and DISTANCES can be found using trigonometry.",
+            "In Class 10, trigonometric ratios are defined for ACUTE ANGLES (0° to 90°) of right triangles.",
+            "These ratios can be extended to other angles also (higher classes).",
+            "Earliest work: Egypt and Babylon. Used by astronomers to find star/planet distances.",
+            "Engineering and Physical Sciences today use trigonometrical concepts.",
+            "History:",
+            "Aryabhata (C.E. 476–550): Used ardha-jya (half-chord) → jiva → jiva (Arabic) → sinus (Latin) → sine.",
+            "Edmund Gunter (1581–1626): First used abbreviation 'sin'. Originated name 'cosinus'.",
+            "Sir Jonas Moore (1674): First used abbreviation 'cos'.",
+            "NOTE: sin A is NOT the product of 'sin' and A. 'sin' alone has no meaning."
+          ]
+        },
+        {
+          "type": "list_of_topics",
+          "label": "LIST OF SUB TOPICS IN THIS TOPIC:",
+          "items": [
+            "(No sub-topics — textbook has only introduction content under 8.1)"
+          ]
+        },
+        {
+          "type": "qa",
+          "label": "TOPIC 8.1: Q&A:",
+          "items": [
+            {
+              "q_num": 1,
+              "marks": 2,
+              "question": "What is trigonometry? What does the word mean?",
+              "answer": "TRIGONOMETRY is the branch of mathematics that studies the relationships between the sides and angles of a triangle.\nThe word comes from Greek: TRI = three, GON = sides, METRON = measure."
+            },
+            {
+              "q_num": 2,
+              "marks": 2,
+              "question": "Where was the earliest work on trigonometry recorded and who used it?",
+              "answer": "The earliest known work on trigonometry was recorded in Egypt and Babylon.\nEarly astronomers used it to find the distances of stars and planets from the Earth."
+            },
+            {
+              "q_num": 3,
+              "marks": 2,
+              "question": "What kind of triangle and angles are studied in Class 10 trigonometry?",
+              "answer": "In Class 10, we study RIGHT TRIANGLES with ACUTE ANGLES (angles between 0° and 90°).\nHowever, trigonometric ratios can be extended to other angles also."
+            },
+            {
+              "q_num": 4,
+              "marks": 2,
+              "question": "In which real-world fields is trigonometry used today?",
+              "answer": "Most technologically advanced methods used in ENGINEERING and PHYSICAL SCIENCES are based on trigonometrical concepts.\nIt is also used in navigation, surveying, architecture, and astronomy.\n\n---\n\n3 ಮಾರ್ಕ್ಸ್ × 3 questions:"
+            },
+            {
+              "q_num": 5,
+              "marks": 3,
+              "question": "Describe three real-life situations from the textbook where right triangles are used.",
+              "answer": "Step 1: Situation 1 - Qutub Minar:\nA student looking at the top of Qutub Minar forms a right triangle. The horizontal distance from the student, the height of the minar, and the line of sight form the three sides.\n\nStep 2: Situation 2 - River width:\nA girl on a balcony looking at a flower pot across a river forms a right triangle. The height of the balcony, the width of the river, and the line of sight are the three sides.\n\nStep 3: Situation 3 - Hot air balloon:\nA girl spots a balloon at point A. When her mother comes out, it has moved to point B. The altitude of B above the ground can be found using the right triangle formed."
+            },
+            {
+              "q_num": 6,
+              "marks": 3,
+              "question": "Trace the origin of the word 'sine' from Aryabhata to modern usage.",
+              "answer": "Step 1: Aryabhata (C.E. 476-550) used the Sanskrit term ardha-jya meaning 'half chord' for what we call sine today. It was later shortened to jiva.\n\nStep 2: Arabic scholars retained the word jiva. It was then translated into Latin as sinus (meaning 'curve' or 'bay'), which eventually became 'sine' in English.\n\nStep 3: Edmund Gunter (1581-1626) first used the abbreviated notation 'sin'. Sir Jonas Moore first used 'cos' in 1674. Thus the modern abbreviations came into use."
+            },
+            {
+              "q_num": 7,
+              "marks": 3,
+              "question": "Who first used the abbreviated notations 'sin' and 'cos'? What did Aryabhata call sine?",
+              "answer": "Step 1: Aryabhata (C.E. 476-550) called sine ardha-jya (half-chord). His work appeared in Aryabhatiyam.\n\nStep 2: Edmund Gunter (1581-1626), an English Professor of Astronomy, first used the abbreviated notation 'sin'. He also originated the name 'cosinus'.\n\nStep 3: Sir Jonas Moore, an English Mathematician, first used the abbreviated notation 'cos' in the year 1674.\n\n---\n\n4 ಮಾರ್ಕ್ಸ್ × 2 questions:"
+            },
+            {
+              "q_num": 8,
+              "marks": 4,
+              "question": "A student is standing on the ground and looking at the top of a tall building. Explain how a right triangle is formed and how trigonometry can be used to find the height of the building.",
+              "answer": "Step 1: Identify the triangle:\nThe student's position (A), the base of the building (B), and the top of the building (C) form a right triangle ABC, right-angled at B.\n\nStep 2: Identify the sides:\nAB = horizontal distance from student to building (measurable directly).\nBC = height of building (unknown, to be found).\nAC = line of sight from student's eye to the top (hypotenuse).\n\nStep 3: Use trigonometric ratio:\ntan(angle of elevation) = BC/AB = opposite/adjacent.\nSo BC = AB x tan(angle of elevation).\n\nStep 4: Conclusion:\nBy measuring the angle of elevation and the horizontal distance, the height of the building can be found without direct measurement. This is the practical power of trigonometry. Similar methods are used in surveying, architecture, and navigation."
+            },
+            {
+              "q_num": 9,
+              "marks": 4,
+              "question": "Explain with examples why sin A is not a product of 'sin' and A. Also explain why sin(-1)A is not equal to cosec A.",
+              "answer": "Step 1: sin A is not a product:\nIn trigonometry, sin A is an abbreviation for 'the sine of angle A'. The symbol 'sin' has no meaning when written separately from A.\nFor example: sin 30° = 1/2, not sin x 30 = 30 sin.\n\nStep 2: sin²A means (sin A)², not sin(A²):\nsin²30° = (sin 30°)² = (1/2)² = 1/4.\nIt does NOT mean sin(30²) = sin(900°).\n\nStep 3: sin(-1)A is not cosec A:\nsin(-1)A (sine inverse A or arc sine A) is the ANGLE whose sine is A. It is an INVERSE FUNCTION.\ncosec A = 1/sin A is the RECIPROCAL of sin A.\nThese are two completely different concepts.\n\nStep 4: Example to distinguish:\nIf sin A = 1/2, then sin(-1)(1/2) = 30° (an angle), but cosec A = 1/(1/2) = 2 (a ratio value, not an angle).\n\n---\n\n5 ಮಾರ್ಕ್ಸ್ × 1 question:"
+            },
+            {
+              "q_num": 10,
+              "marks": 5,
+              "question": "",
+              "answer": "PART A - Historical Development of Trigonometry:\n\nStep 1: Earliest origins:\nThe earliest known work on trigonometry was recorded in Egypt and Babylon. Ancient astronomers needed to calculate the positions of stars and planets, which required understanding triangles and angles.\n\nStep 2: Indian contribution - Aryabhata:\nAryabhata (C.E. 476-550) introduced the concept of ardha-jya (half-chord) in his work Aryabhatiyam. This was the first systematic use of what we now call sine. The term was later shortened to jiva by other Indian mathematicians.\n\nStep 3: Arabic and Latin transmission:\nArab scholars retained the word jiva. Latin scholars translated it as sinus (meaning curve), from which the word 'sine' emerged. Trigonometric knowledge spread from India through Arabia to Europe.\n\nStep 4: European abbreviations:\nEdmund Gunter (1581-1626) introduced the notation 'sin' and originated the name 'cosinus'. Sir Jonas Moore (1674) introduced 'cos'. These standard abbreviations are used worldwide today.\n\nStep 5: J.F. Herbart's remark:\nThe mathematician J.F. Herbart (1890) remarked: \"There is perhaps nothing which so occupies the middle position of mathematics as trigonometry.\" This reflects how trigonometry connects geometry, algebra, and analysis.\n\nPART B - Applications of Trigonometry:\n\nStep 1: Finding heights and distances:\nTrigonometry allows us to find heights of buildings, towers, mountains, and widths of rivers without direct measurement, using angles of elevation and depression with known distances.\n\nStep 2: Engineering and architecture:\nMost technologically advanced methods in Engineering and Physical Sciences are based on trigonometrical concepts. Bridges, buildings, and tunnels are designed using trigonometric calculations.\n\nStep 3: Astronomy and navigation:\nAstronomers use trigonometry to find the distances of stars and planets from Earth. Sailors and pilots use trigonometric ratios in navigation to determine their positions and courses accurately.\n\nANSWER: Trigonometry occupies the 'middle position' because it connects basic geometry (triangles) to advanced algebra and real-world measurement, making it indispensable in both pure and applied mathematics."
+            }
+          ]
+        },
+        {
+          "type": "mcq",
+          "label": "TOPIC 8.1: MCQs:",
+          "items": [
+            {
+              "mcq_num": 1,
+              "difficulty": "Easy",
+              "question": "The word 'trigonometry' comes from which language?",
+              "options": {
+                "A": "Latin  (B) Greek  (C) Arabic  (D) Sanskrit"
+              },
+              "answer": "B",
+              "explanation": "Trigonometry is derived from three Greek words — tri (three), gon (sides), metron (measure)."
+            },
+            {
+              "mcq_num": 2,
+              "difficulty": "Easy",
+              "question": "The earliest work on trigonometry was recorded in:",
+              "options": {
+                "A": "Greece and Rome  (B) India and China  (C) Egypt and Babylon  (D) Arabia and Persia"
+              },
+              "answer": "C",
+              "explanation": "As stated in the textbook, the earliest known work on trigonometry was recorded in Egypt and Babylon."
+            },
+            {
+              "mcq_num": 3,
+              "difficulty": "Easy",
+              "question": "The word 'TRI' in trigonometry means:",
+              "options": {
+                "A": "Angle  (B) Measure  (C) Three  (D) Side"
+              },
+              "answer": "C",
+              "explanation": "Tri = three, gon = sides, metron = measure."
+            },
+            {
+              "mcq_num": 4,
+              "difficulty": "Easy",
+              "question": "Who first used the abbreviation 'sin'?",
+              "options": {
+                "A": "Aryabhata  (B) Jonas Moore  (C) Edmund Gunter  (D) J.F. Herbart"
+              },
+              "answer": "C",
+              "explanation": "Edmund Gunter (1581–1626) first used the abbreviated notation 'sin'."
+            },
+            {
+              "mcq_num": 5,
+              "difficulty": "Easy",
+              "question": "Trigonometry is the study of relationships between:",
+              "options": {
+                "A": "Areas and volumes  (B) Sides and angles of a triangle  (C) Circles and tangents  (D) Straight lines and curves"
+              },
+              "answer": "B",
+              "explanation": "Trigonometry = study of the relationship between the sides and angles of a triangle."
+            },
+            {
+              "mcq_num": 6,
+              "difficulty": "Medium",
+              "question": "Aryabhata called the concept of 'sine' by the name:",
+              "options": {
+                "A": "Kotijya  (B) Ardha-jya  (C) Jiva  (D) Sinus"
+              },
+              "answer": "B",
+              "explanation": "Aryabhata used the word ardha-jya for half-chord, which later became jiva, then sinus, then sine."
+            },
+            {
+              "mcq_num": 7,
+              "difficulty": "Medium",
+              "question": "The name 'cosinus' originated with:",
+              "options": {
+                "A": "Aryabhata  (B) Jonas Moore  (C) Edmund Gunter  (D) J.F. Herbart"
+              },
+              "answer": "C",
+              "explanation": "The cosine function arose from the need to compute the sine of the complementary angle. Aryabhata called it kotijya; the name cosinus originated with Edmund Gunter."
+            },
+            {
+              "mcq_num": 8,
+              "difficulty": "Medium",
+              "question": "In Class 10, trigonometric ratios are defined for:",
+              "options": {
+                "A": "All angles  (B) Obtuse angles only  (C) Acute angles of a right triangle  (D) Reflex angles"
+              },
+              "answer": "C",
+              "explanation": "In Class 10, we restrict our discussion to acute angles only."
+            },
+            {
+              "mcq_num": 9,
+              "difficulty": "Medium",
+              "question": "Which of the following is NOT a real-life situation involving trigonometry (as given in textbook)?",
+              "options": {
+                "A": "Finding height of Qutub Minar  (B) Finding width of a river  (C) Finding altitude of a balloon  (D) Finding area of a rectangle"
+              },
+              "answer": "D",
+              "explanation": "The textbook discusses heights and distances — minar, river width, balloon altitude."
+            },
+            {
+              "mcq_num": 10,
+              "difficulty": "Medium",
+              "question": "The word 'jiva' was translated into which Latin word?",
+              "options": {
+                "A": "Cosinus  (B) Sinus  (C) Tangens  (D) Secans"
+              },
+              "answer": "B",
+              "explanation": "The Arabic word jiva was translated into Latin as sinus (meaning curve), which became 'sine'."
+            },
+            {
+              "mcq_num": 11,
+              "difficulty": "Medium",
+              "question": "In which year did Jonas Moore first use the abbreviated notation 'cos'?",
+              "options": {
+                "A": "1500  (B) 1626  (C) 1674  (D) 1890"
+              },
+              "answer": "C",
+              "explanation": "In 1674, Sir Jonas Moore first used the abbreviated notation 'cos'."
+            },
+            {
+              "mcq_num": 12,
+              "difficulty": "Hard",
+              "question": "Which similarity criterion is used to show that trigonometric ratios do not depend on the size of the right triangle?",
+              "options": {
+                "A": "SAS  (B) SSS  (C) AA  (D) RHS"
+              },
+              "answer": "C",
+              "explanation": "Using the AA similarity criterion, triangles formed at different points on the hypotenuse are similar, so trigonometric ratios remain the same regardless of triangle size."
+            },
+            {
+              "mcq_num": 13,
+              "difficulty": "Hard",
+              "question": "sin A is NOT the product of 'sin' and A. This means sin A represents:",
+              "options": {
+                "A": "The product of sine value and angle  (B) The abbreviation for sine of angle A  (C) The inverse of angle A  (D) A constant value"
+              },
+              "answer": "B",
+              "explanation": "'sin' separated from A has no meaning. sin A is an abbreviation for 'the sine of angle A'."
+            },
+            {
+              "mcq_num": 14,
+              "difficulty": "Hard",
+              "question": "Which of the following correctly describes what trigonometry helps us find in real life?",
+              "options": {
+                "A": "Heights and distances that can be directly measured  (B) Only the angles of a triangle  (C) Heights and distances that cannot be directly measured  (D) Only the sides of a triangle"
+              },
+              "answer": "C",
+              "explanation": "Trigonometry is useful when direct measurement is not possible."
+            },
+            {
+              "mcq_num": 15,
+              "difficulty": "Hard",
+              "question": "A student observes that sin A in triangle PAM equals sin A in triangle CAB. This is because:",
+              "options": {
+                "A": "The triangles have the same area  (B) The triangles are congruent  (C) The triangles are similar by AA criterion  (D) The hypotenuse is the same"
+              },
+              "answer": "C",
+              "explanation": "Triangles PAM and CAB are similar by the AA criterion, so corresponding sides are proportional. ----"
+            }
+          ]
+        }
+      ],
+      "subtopics": []
+    },
+    {
+      "topic_num": "8.2",
+      "topic_name": "TRIGONOMETRIC RATIOS",
+      "mode": "B",
+      "sections": [
+        {
+          "type": "definition",
+          "label": "Definition:",
+          "text": "- TRIGONOMETRIC RATIOS are ratios of any two sides of a right triangle with respect to one of its acute angles.\n- In right triangle ABC (right-angled at B), for acute angle A:\n* BC = side OPPOSITE to angle A\n* AB = side ADJACENT to angle A\n* AC = HYPOTENUSE (longest side)"
+        },
+        {
+          "type": "key_points",
+          "label": "Key Points:",
+          "points": [
+            "Six trigonometric ratios of angle A:",
+            "sin A = BC/AC   (opposite/hypotenuse)",
+            "cos A = AB/AC   (adjacent/hypotenuse)",
+            "tan A = BC/AB   (opposite/adjacent)",
+            "cosec A = AC/BC = 1/sin A",
+            "sec A = AC/AB = 1/cos A",
+            "cot A = AB/BC = 1/tan A",
+            "tan A = sin A / cos A   and   cot A = cos A / sin A",
+            "cosec A, sec A, cot A are RECIPROCALS of sin A, cos A, tan A.",
+            "Value of sin A or cos A is always ≤ 1 (hypotenuse is the longest side).",
+            "Value of sec A or cosec A is always ≥ 1.",
+            "Trigonometric ratios DO NOT CHANGE with the size of the triangle if the angle remains the same (proved using AA similarity).",
+            "sin A is NOT the product of 'sin' and A. sin⁻¹A ≠ cosec A.",
+            "sin²A means (sin A)², NOT sin(A²).",
+            "If one trigonometric ratio is known, all others can be found using Pythagoras theorem."
+          ]
+        },
+        {
+          "type": "list_of_topics",
+          "label": "LIST OF SUB TOPICS IN THIS TOPIC:",
+          "items": [
+            "(No sub-topics — textbook Section 8.2 has no X.Y.Z numbering)"
+          ]
+        },
+        {
+          "type": "formulas",
+          "label": "FORMULA:",
+          "items": [
+            "sin A = BC / AC",
+            "cos A = AB / AC",
+            "tan A = BC / AB",
+            "cosec A = 1 / sin A = AC / BC",
+            "sec A = 1 / cos A = AC / AB",
+            "cot A = 1 / tan A = AB / BC",
+            "WHERE:",
+            "BC = side opposite to angle A",
+            "AB = side adjacent to angle A",
+            "AC = hypotenuse of the right triangle",
+            "A = acute angle of the right triangle",
+            "EXAMPLES: (Textbook Examples)",
+            "EXAMPLE 8.2.1: Find all trigonometric ratios when tan A = 4/3.",
+            "PROBLEM: Given tan A = 4/3, find all other trigonometric ratios of angle A.",
+            "SOLUTION:",
+            "Step 1: tan A = BC/AB = 4/3, so let BC = 4k, AB = 3k (k is a positive number).",
+            "Step 2: By Pythagoras theorem: AC² = AB² + BC² = (3k)² + (4k)² = 9k² + 16k² = 25k².",
+            "So AC = 5k.",
+            "Step 3: sin A = BC/AC = 4k/5k = 4/5",
+            "cos A = AB/AC = 3k/5k = 3/5",
+            "tan A = 4/3 (given)",
+            "cot A = 1/tan A = 3/4",
+            "cosec A = 1/sin A = 5/4",
+            "sec A = 1/cos A = 5/3",
+            "ANSWER: sin A = 4/5, cos A = 3/5, tan A = 4/3, cot A = 3/4, cosec A = 5/4, sec A = 5/3.",
+            "EXAMPLE 8.2.2: Prove that equal sines imply equal angles.",
+            "PROBLEM: If angles B and Q are acute and sin B = sin Q, prove that angle B = angle Q.",
+            "SOLUTION:",
+            "Step 1: In right triangles ABC and PQR: sin B = AC/AB and sin Q = PR/PQ.",
+            "Step 2: sin B = sin Q → AC/AB = PR/PQ = k (say).",
+            "So AC = k·PR and AB = k·PQ.",
+            "Step 3: BC = √(AB² − AC²) = k·√(PQ² − PR²) = k·QR.",
+            "Step 4: Therefore AC/PR = AB/PQ = BC/QR.",
+            "Step 5: By Theorem 6.4 (SSS similarity), triangle ACB ~ triangle PRQ.",
+            "Therefore, angle B = angle Q.",
+            "ANSWER: angle B = angle Q. [Proved]",
+            "EXAMPLE 8.2.3: Find cos²θ + sin²θ and cos²θ − sin²θ.",
+            "PROBLEM: In right triangle ACB (right-angled at C), AB = 29 units, BC = 21 units, angle ABC = θ.",
+            "Find: (i) cos²θ + sin²θ   (ii) cos²θ − sin²θ",
+            "SOLUTION:",
+            "Step 1: AC = √(AB² − BC²) = √(29² − 21²) = √(841 − 441) = √400 = 20 units.",
+            "Step 2: sin θ = AC/AB = 20/29,   cos θ = BC/AB = 21/29.",
+            "Step 3: (i) cos²θ + sin²θ = (21/29)² + (20/29)² = (441 + 400)/841 = 841/841 = 1.",
+            "(ii) cos²θ − sin²θ = (441 − 400)/841 = 41/841.",
+            "ANSWER: (i) 1   (ii) 41/841.",
+            "EXAMPLE 8.2.4: Verify 2 sin A cos A = 1 when tan A = 1.",
+            "PROBLEM: In right triangle ABC (right-angled at B), if tan A = 1, verify that 2 sin A cos A = 1.",
+            "SOLUTION:",
+            "Step 1: tan A = BC/AB = 1, so BC = AB = k.",
+            "Step 2: AC = √(k² + k²) = k√2.",
+            "Step 3: sin A = BC/AC = k/(k√2) = 1/√2.",
+            "cos A = AB/AC = k/(k√2) = 1/√2.",
+            "Step 4: 2 sin A cos A = 2 × (1/√2) × (1/√2) = 2 × 1/2 = 1.",
+            "ANSWER: 2 sin A cos A = 1. [Verified]",
+            "EXAMPLE 8.2.5: Find sin Q and cos Q.",
+            "PROBLEM: In triangle OPQ (right-angled at P), OP = 7 cm and OQ − PQ = 1 cm. Find sin Q and cos Q.",
+            "SOLUTION:",
+            "Step 1: OQ = 1 + PQ.",
+            "Step 2: OQ² = OP² + PQ²  (Pythagoras theorem)",
+            "(1 + PQ)² = 49 + PQ²",
+            "1 + 2PQ + PQ² = 49 + PQ²",
+            "2PQ = 48 → PQ = 24 cm.",
+            "Step 3: OQ = 1 + 24 = 25 cm.",
+            "Step 4: sin Q = OP/OQ = 7/25.",
+            "cos Q = PQ/OQ = 24/25.",
+            "ANSWER: sin Q = 7/25, cos Q = 24/25."
+          ]
+        },
+        {
+          "type": "exercise",
+          "label": "EXERCISE 8.1:",
+          "items": [],
+          "raw": "1. In triangle ABC (right-angled at B), AB = 24 cm, BC = 7 cm. Determine:\n(i) sin A, cos A     (ii) sin C, cos C\n\n2. In Fig. 8.13, find tan P − cot R.\n[Right triangle PQR, right-angled at Q, PQ = 12 cm, PR = 13 cm]\n\n3. If sin A = 3/4, calculate cos A and tan A.\n\n4. Given 15 cot A = 8, find sin A and sec A.\n\n5. Given sec θ = 13/12, calculate all other trigonometric ratios.\n\n6. If angle A and angle B are acute angles such that cos A = cos B, then show that angle A = angle B.\n\n7. If cot θ = 7/8, evaluate:\n(i) (1 + sin θ)(1 − sin θ) / [(1 + cos θ)(1 − cos θ)]\n(ii) cot²θ\n\n8. If 3 cot A = 4, check whether (1 − tan²A)/(1 + tan²A) = cos²A − sin²A or not.\n\n9. In triangle ABC (right-angled at B), if tan A = 1/√3, find:\n(i) sin A cos C + cos A sin C     (ii) cos A cos C − sin A sin C\n\n10. In triangle PQR (right-angled at Q), PR + QR = 25 cm and PQ = 5 cm.\nDetermine the values of sin P, cos P and tan P.\n\n11. State whether true or false. Justify your answer.\n(i) The value of tan A is always less than 1.\n(ii) sec A = 12/5 for some value of angle A.\n(iii) cos A is the abbreviation used for the cosecant of angle A.\n(iv) cot A is the product of cot and A.\n(v) sin θ = 4/3 for some angle θ."
+        },
+        {
+          "type": "qa",
+          "label": "TOPIC 8.2: Q&A:",
+          "items": [
+            {
+              "q_num": 1,
+              "marks": 2,
+              "question": "Define sin A and cos A for right triangle ABC right-angled at B.",
+              "answer": "In right triangle ABC (right-angled at B), for acute angle A:\nsin A = BC/AC = (side opposite to angle A) / hypotenuse.\ncos A = AB/AC = (side adjacent to angle A) / hypotenuse."
+            },
+            {
+              "q_num": 2,
+              "marks": 2,
+              "question": "Write all six trigonometric ratios of angle A for right triangle ABC right-angled at B.",
+              "answer": "sin A = BC/AC     cos A = AB/AC     tan A = BC/AB\ncosec A = AC/BC   sec A = AC/AB     cot A = AB/BC\nAlso: tan A = sin A / cos A    cot A = cos A / sin A."
+            },
+            {
+              "q_num": 3,
+              "marks": 2,
+              "question": "Do trigonometric ratios change if the size of the triangle changes but the angle stays the same? Why?",
+              "answer": "No. Trigonometric ratios DO NOT CHANGE with the size of the triangle if the angle remains the same.\nReason: All right triangles with the same acute angle A are SIMILAR (by AA criterion). In similar triangles, corresponding sides are proportional, so the ratios remain the same."
+            },
+            {
+              "q_num": 4,
+              "marks": 2,
+              "question": "What is the maximum value of sin A and cos A? Justify.",
+              "answer": "The maximum value of sin A is 1 and of cos A is 1.\nReason: sin A = BC/AC and cos A = AB/AC. The hypotenuse AC is the longest side of a right triangle, so neither BC nor AB can exceed AC. Therefore both ratios are always <= 1.\n\n---\n\n3 ಮಾರ್ಕ್ಸ್ × 3 questions:"
+            },
+            {
+              "q_num": 5,
+              "marks": 3,
+              "question": "Given tan A = 4/3, find all six trigonometric ratios of angle A.",
+              "answer": "Step 1: tan A = BC/AB = 4/3. Let BC = 4k, AB = 3k.\n\nStep 2: By Pythagoras theorem:\nAC² = (3k)² + (4k)² = 9k² + 16k² = 25k²  so  AC = 5k.\n\nStep 3: All six ratios:\nsin A = 4/5,  cos A = 3/5,  tan A = 4/3,\ncosec A = 5/4,  sec A = 5/3,  cot A = 3/4."
+            },
+            {
+              "q_num": 6,
+              "marks": 3,
+              "question": "If cos A = 4/5, find all other five trigonometric ratios.",
+              "answer": "Step 1: cos A = AB/AC = 4/5. Let AB = 4k, AC = 5k.\n\nStep 2: By Pythagoras theorem:\nBC² = AC² - AB² = 25k² - 16k² = 9k²  so  BC = 3k.\n\nStep 3: Remaining ratios:\nsin A = BC/AC = 3/5,  tan A = BC/AB = 3/4,\ncosec A = AC/BC = 5/3,  sec A = AC/AB = 5/4,  cot A = AB/BC = 4/3."
+            },
+            {
+              "q_num": 7,
+              "marks": 3,
+              "question": "If angles B and Q are acute and sin B = sin Q, prove that angle B = angle Q.",
+              "answer": "Step 1: In right triangles ABC and PQR:\nsin B = AC/AB  and  sin Q = PR/PQ.\nGiven sin B = sin Q, so AC/AB = PR/PQ = k (say).\n\nStep 2: Let AC = k.PR and AB = k.PQ.\nThen BC = sqrt(AB² - AC²) = k.sqrt(PQ² - PR²) = k.QR.\n\nStep 3: Therefore AC/PR = AB/PQ = BC/QR.\nBy Theorem 6.4 (SSS similarity), triangle ACB ~ triangle PRQ.\nTherefore angle B = angle Q.  [Proved]\n\n---\n\n4 ಮಾರ್ಕ್ಸ್ × 2 questions:"
+            },
+            {
+              "q_num": 8,
+              "marks": 4,
+              "question": "In triangle PQR right-angled at Q, PR + QR = 25 cm and PQ = 5 cm. Find sin P, cos P, and tan P.",
+              "answer": "Step 1: Let QR = x. Then PR = 25 - x.\n\nStep 2: Apply Pythagoras theorem:\nPQ² + QR² = PR²\n5² + x² = (25 - x)²\n25 + x² = 625 - 50x + x²\n25 = 625 - 50x\n50x = 600  so  x = 12 cm.\n\nStep 3: QR = 12 cm,  PR = 25 - 12 = 13 cm.\n\nStep 4: Trigonometric ratios of angle P:\nsin P = QR/PR = 12/13\ncos P = PQ/PR = 5/13\ntan P = QR/PQ = 12/5\nANSWER: sin P = 12/13,  cos P = 5/13,  tan P = 12/5."
+            },
+            {
+              "q_num": 9,
+              "marks": 4,
+              "question": "In triangle OPQ right-angled at P, OP = 7 cm and OQ - PQ = 1 cm. Find all six trigonometric ratios of angle Q.",
+              "answer": "Step 1: Let PQ = x. Then OQ = x + 1.\n\nStep 2: Pythagoras theorem:\nOP² + PQ² = OQ²\n49 + x² = (x + 1)²\n49 + x² = x² + 2x + 1\n49 = 2x + 1  so  2x = 48  so  x = 24 cm.\n\nStep 3: PQ = 24 cm,  OQ = 25 cm,  OP = 7 cm.\n\nStep 4: All six trigonometric ratios of angle Q:\nsin Q = OP/OQ = 7/25       cos Q = PQ/OQ = 24/25    tan Q = OP/PQ = 7/24\ncosec Q = OQ/OP = 25/7     sec Q = OQ/PQ = 25/24    cot Q = PQ/OP = 24/7\nANSWER: sin Q = 7/25, cos Q = 24/25, tan Q = 7/24, cosec Q = 25/7, sec Q = 25/24, cot Q = 24/7.\n\n---\n\n5 ಮಾರ್ಕ್ಸ್ × 1 question:"
+            },
+            {
+              "q_num": 10,
+              "marks": 5,
+              "question": "",
+              "answer": "PART A - 3 cot A = 4:\n\nStep 1: cot A = 4/3, so tan A = 3/4, so BC/AB = 3/4. Let BC = 3k, AB = 4k.\n\nStep 2: By Pythagoras: AC = sqrt((3k)² + (4k)²) = sqrt(25k²) = 5k.\n\nStep 3: All six ratios:\nsin A = 3/5   cos A = 4/5   tan A = 3/4\ncosec A = 5/3  sec A = 5/4   cot A = 4/3\n\nStep 4: Check (1 - tan²A)/(1 + tan²A) = cos²A - sin²A:\nLHS = (1 - 9/16)/(1 + 9/16) = (7/16)/(25/16) = 7/25.\nRHS = (4/5)² - (3/5)² = 16/25 - 9/25 = 7/25.\nLHS = RHS = 7/25.  VERIFIED.\n\nPART B - sec theta = 13/12:\n\nStep 1: sec theta = AC/AB = 13/12. Let AC = 13k, AB = 12k.\n\nStep 2: BC = sqrt(AC² - AB²) = sqrt(169k² - 144k²) = sqrt(25k²) = 5k.\n\nStep 3: All six ratios of theta:\nsin theta = BC/AC = 5/13      cos theta = AB/AC = 12/13\ntan theta = BC/AB = 5/12      cosec theta = AC/BC = 13/5\nsec theta = 13/12 (given)     cot theta = AB/BC = 12/5\nANSWER: All ratios found for both parts. Identity verified."
+            }
+          ]
+        },
+        {
+          "type": "mcq",
+          "label": "TOPIC 8.2: MCQs:",
+          "items": [
+            {
+              "mcq_num": 1,
+              "difficulty": "Easy",
+              "question": "In right triangle ABC (right-angled at B), sin A equals:",
+              "options": {
+                "A": "AB/AC  (B) BC/AC  (C) BC/AB  (D) AB/BC"
+              },
+              "answer": "B",
+              "explanation": "sin A = (side opposite to A) / hypotenuse = BC/AC."
+            },
+            {
+              "mcq_num": 2,
+              "difficulty": "Easy",
+              "question": "The reciprocal of sin A is:",
+              "options": {
+                "A": "cos A  (B) tan A  (C) sec A  (D) cosec A"
+              },
+              "answer": "D",
+              "explanation": "cosec A = 1/sin A."
+            },
+            {
+              "mcq_num": 3,
+              "difficulty": "Easy",
+              "question": "In right triangle ABC (right-angled at B), cos A equals:",
+              "options": {
+                "A": "BC/AC  (B) AB/AC  (C) BC/AB  (D) AC/BC"
+              },
+              "answer": "B",
+              "explanation": "cos A = (side adjacent to A) / hypotenuse = AB/AC."
+            },
+            {
+              "mcq_num": 4,
+              "difficulty": "Easy",
+              "question": "The maximum value of sin A for an acute angle A is:",
+              "options": {
+                "A": "2  (B) greater than 1  (C) 1  (D) 0"
+              },
+              "answer": "C",
+              "explanation": "sin A = BC/AC ≤ 1 since hypotenuse AC is the longest side."
+            },
+            {
+              "mcq_num": 5,
+              "difficulty": "Easy",
+              "question": "tan A in terms of sin A and cos A is:",
+              "options": {
+                "A": "sin A × cos A  (B) cos A / sin A  (C) sin A / cos A  (D) 1/(sin A + cos A)"
+              },
+              "answer": "C",
+              "explanation": "tan A = (BC/AC)/(AB/AC) = BC/AB = sin A / cos A."
+            },
+            {
+              "mcq_num": 6,
+              "difficulty": "Medium",
+              "question": "If tan A = 5/12, then sin A equals:",
+              "options": {
+                "A": "5/13  (B) 12/13  (C) 5/12  (D) 12/5"
+              },
+              "answer": "A",
+              "explanation": "Opposite = 5k, adjacent = 12k, hypotenuse = 13k. sin A = 5/13."
+            },
+            {
+              "mcq_num": 7,
+              "difficulty": "Medium",
+              "question": "If sin A = 3/5, then cos A equals:",
+              "options": {
+                "A": "4/5  (B) 3/4  (C) 5/3  (D) 5/4"
+              },
+              "answer": "A",
+              "explanation": "BC = 3k, AC = 5k → AB = 4k (Pythagoras). cos A = 4/5."
+            },
+            {
+              "mcq_num": 8,
+              "difficulty": "Medium",
+              "question": "If cosec A = 2, then sin A is:",
+              "options": {
+                "A": "2  (B) 1/√2  (C) 1/2  (D) √3/2"
+              },
+              "answer": "C",
+              "explanation": "cosec A = 1/sin A = 2 → sin A = 1/2."
+            },
+            {
+              "mcq_num": 9,
+              "difficulty": "Medium",
+              "question": "Which of the following is TRUE?",
+              "options": {
+                "A": "sin A = sin × A  (B) The value of cos A can exceed 1  (C) cot A = cos A / sin A  (D) sec A = sin A / cos A"
+              },
+              "answer": "C",
+              "explanation": "cot A = 1/tan A = cos A / sin A. The others are false."
+            },
+            {
+              "mcq_num": 10,
+              "difficulty": "Medium",
+              "question": "If sin B = sin Q (both acute angles), then:",
+              "options": {
+                "A": "angle B > angle Q  (B) angle B < angle Q  (C) angle B = angle Q  (D) No relationship can be determined"
+              },
+              "answer": "C",
+              "explanation": "By the AA similarity criterion, the triangles are similar and corresponding angles are equal."
+            },
+            {
+              "mcq_num": 11,
+              "difficulty": "Medium",
+              "question": "In right triangle ABC (right-angled at B), tan A equals:",
+              "options": {
+                "A": "AB/BC  (B) BC/AB  (C) AC/BC  (D) AC/AB"
+              },
+              "answer": "B",
+              "explanation": "tan A = (side opposite to A) / (side adjacent to A) = BC/AB."
+            },
+            {
+              "mcq_num": 12,
+              "difficulty": "Hard",
+              "question": "If 3 cot A = 4, then (1 − tan²A)/(1 + tan²A) equals:",
+              "options": {
+                "A": "4/5  (B) 7/25  (C) 16/25  (D) 9/25"
+              },
+              "answer": "B",
+              "explanation": "cot A = 4/3 → tan A = 3/4. (1 − 9/16)/(1 + 9/16) = (7/16)/(25/16) = 7/25."
+            },
+            {
+              "mcq_num": 13,
+              "difficulty": "Hard",
+              "question": "In right triangle ACB (right-angled at C), AB = 29, BC = 21, angle ABC = θ. The value of cos²θ − sin²θ is:",
+              "options": {
+                "A": "1  (B) 41/841  (C) 400/841  (D) 0"
+              },
+              "answer": "B",
+              "explanation": "AC = 20, sin θ = 20/29, cos θ = 21/29. cos²θ − sin²θ = (441 − 400)/841 = 41/841."
+            },
+            {
+              "mcq_num": 14,
+              "difficulty": "Hard",
+              "question": "In triangle OPQ (right-angled at P), OP = 7 cm, OQ − PQ = 1 cm. The value of sin Q + cos Q is:",
+              "options": {
+                "A": "24/25  (B) 7/25  (C) 31/25  (D) 1"
+              },
+              "answer": "C",
+              "explanation": "sin Q = 7/25, cos Q = 24/25. Sum = 31/25."
+            },
+            {
+              "mcq_num": 15,
+              "difficulty": "Hard",
+              "question": "If tan A = 1, then 2 sin A cos A equals:",
+              "options": {
+                "A": "1/2  (B) √2  (C) 1  (D) 2"
+              },
+              "answer": "C",
+              "explanation": "tan A = 1 → sin A = cos A = 1/√2. 2 × (1/√2) × (1/√2) = 1. ----"
+            }
+          ]
+        }
+      ],
+      "subtopics": []
+    },
+    {
+      "topic_num": "8.3",
+      "topic_name": "TRIGONOMETRIC RATIOS OF SOME SPECIFIC ANGLES",
+      "mode": "B",
+      "sections": [
+        {
+          "type": "definition",
+          "label": "Definition:",
+          "text": "- TRIGONOMETRIC RATIOS OF SPECIFIC ANGLES are the exact values of sin, cos, tan, etc. for the standard angles 0°, 30°, 45°, 60°, and 90°."
+        },
+        {
+          "type": "key_points",
+          "label": "Key Points:",
+          "points": [
+            "These values are derived geometrically:",
+            "45°: from a right isosceles triangle (both legs equal).",
+            "30° and 60°: from an equilateral triangle with a perpendicular drawn.",
+            "0° and 90°: by observing the limiting behaviour as angle approaches 0° or 90°.",
+            "Key observation: As angle A increases from 0° to 90°, sin A INCREASES (0 to 1) and cos A DECREASES (1 to 0).",
+            "sin 0° = 0, cos 0° = 1, tan 0° = 0.",
+            "sin 90° = 1, cos 90° = 0; tan 90°, sec 90°, cot 0°, cosec 0° are NOT DEFINED.",
+            "TABLE 8.1 — TRIGONOMETRIC RATIO VALUES:",
+            "Angle A  :   0°        30°       45°       60°       90°",
+            "sin A    :   0         1/2       1/√2      √3/2      1",
+            "cos A    :   1         √3/2      1/√2      1/2       0",
+            "tan A    :   0         1/√3      1         √3        Not defined",
+            "cosec A  :   Not def.  2         √2        2/√3      1",
+            "sec A    :   1         2/√3      √2        2         Not defined",
+            "cot A    :   Not def.  √3        1         1/√3      0"
+          ]
+        },
+        {
+          "type": "list_of_topics",
+          "label": "LIST OF SUB TOPICS IN THIS TOPIC:",
+          "items": [
+            "(No sub-topics — textbook Section 8.3 has no X.Y.Z numbering, all content under 8.3)"
+          ]
+        },
+        {
+          "type": "formulas",
+          "label": "FORMULA:",
+          "items": [
+            "Derivation of 45° values:",
+            "In right triangle with angle A = 45°: BC = AB = a, AC = a√2.",
+            "sin 45° = a/(a√2) = 1/√2,   cos 45° = 1/√2,   tan 45° = 1.",
+            "Derivation of 30° and 60° values:",
+            "In equilateral triangle ABC (side 2a), perpendicular AD to BC:",
+            "BD = a, AD = a√3, AB = 2a.",
+            "sin 30° = a/2a = 1/2,   cos 30° = a√3/2a = √3/2,   tan 30° = a/(a√3) = 1/√3.",
+            "sin 60° = a√3/2a = √3/2, cos 60° = a/2a = 1/2, tan 60° = a√3/a = √3.",
+            "EXAMPLES: (Textbook Examples)",
+            "EXAMPLE 8.3.1: Find lengths of BC and AC when angle ACB = 30°.",
+            "PROBLEM: In triangle ABC (right-angled at B), AB = 5 cm and angle ACB = 30°. Find BC and AC.",
+            "SOLUTION:",
+            "Step 1: BC is adjacent to angle C, AB is opposite to angle C.",
+            "Step 2: tan C = AB/BC → tan 30° = 5/BC → 1/√3 = 5/BC → BC = 5√3 cm.",
+            "Step 3: sin C = AB/AC → sin 30° = 5/AC → 1/2 = 5/AC → AC = 10 cm.",
+            "ANSWER: BC = 5√3 cm, AC = 10 cm.",
+            "EXAMPLE 8.3.2: Find angles in a right triangle.",
+            "PROBLEM: In triangle PQR (right-angled at Q), PQ = 3 cm and PR = 6 cm. Find angle QPR and angle PRQ.",
+            "SOLUTION:",
+            "Step 1: sin R = PQ/PR = 3/6 = 1/2.",
+            "Step 2: sin R = 1/2 → angle PRQ = 30°.",
+            "Step 3: Therefore angle QPR = 90° − 30° = 60°.",
+            "ANSWER: angle QPR = 60°, angle PRQ = 30°.",
+            "EXAMPLE 8.3.3: Solve for A and B using specific angles.",
+            "PROBLEM: If sin(A − B) = 1/2 and cos(A + B) = 1/2, where 0° < A + B ≤ 90° and A > B, find A and B.",
+            "SOLUTION:",
+            "Step 1: sin(A − B) = 1/2 → A − B = 30°  ... (1)",
+            "Step 2: cos(A + B) = 1/2 → A + B = 60°  ... (2)",
+            "Step 3: Adding (1) and (2): 2A = 90° → A = 45°.",
+            "Step 4: From (2): B = 60° − 45° = 15°.",
+            "ANSWER: A = 45°, B = 15°."
+          ]
+        },
+        {
+          "type": "exercise",
+          "label": "EXERCISE 8.2:",
+          "items": [],
+          "raw": "1. Evaluate the following:\n(i) sin 60° cos 30° + sin 30° cos 60°\n(ii) 2 tan²45° + cos²30° − sin²60°\n(iii) cos 45° / (sec 30° + cosec 30°)\n(iv) (sin 30° + tan 45° − cosec 60°) / (sec 30° + cos 60° + cot 45°)\n(v) (5 cos²60° + 4 sec²30° − tan²45°) / (sin²30° + cos²30°)\n\n2. Choose the correct option and justify:\n(i) 2 tan 30° / (1 + tan²30°) =\n(A) sin 60°  (B) cos 60°  (C) tan 60°  (D) sin 30°\n(ii) (1 − tan²45°)/(1 + tan²45°) =\n(A) tan 90°  (B) 1  (C) sin 45°  (D) 0\n(iii) sin 2A = 2 sin A is true when A =\n(A) 0°  (B) 30°  (C) 45°  (D) 60°\n(iv) 2 tan 30° / (1 − tan²30°) =\n(A) cos 60°  (B) sin 60°  (C) tan 60°  (D) sin 30°\n\n3. If tan(A + B) = √3 and tan(A − B) = 1/√3, 0° < A + B ≤ 90°, A > B. Find A and B.\n\n4. State whether true or false. Justify your answer.\n(i) sin(A + B) = sin A + sin B.\n(ii) The value of sin θ increases as θ increases.\n(iii) The value of cos θ increases as θ increases.\n(iv) sin θ = cos θ for all values of θ.\n(v) cot A is not defined for A = 0°."
+        },
+        {
+          "type": "qa",
+          "label": "TOPIC 8.3: Q&A:",
+          "items": [
+            {
+              "q_num": 1,
+              "marks": 2,
+              "question": "Write the values of sin, cos, and tan for 30° and 60°.",
+              "answer": "For 30°:  sin 30° = 1/2,      cos 30° = sqrt(3)/2,  tan 30° = 1/sqrt(3).\nFor 60°:  sin 60° = sqrt(3)/2, cos 60° = 1/2,        tan 60° = sqrt(3)."
+            },
+            {
+              "q_num": 2,
+              "marks": 2,
+              "question": "Write the values of sin, cos, and tan for 0°, 45°, and 90°.",
+              "answer": "For 0°:   sin 0° = 0,         cos 0° = 1,          tan 0° = 0.\nFor 45°:  sin 45° = 1/sqrt(2), cos 45° = 1/sqrt(2), tan 45° = 1.\nFor 90°:  sin 90° = 1,        cos 90° = 0,          tan 90° = Not Defined."
+            },
+            {
+              "q_num": 3,
+              "marks": 2,
+              "question": "Why is tan 90° not defined? Why is cosec 0° not defined?",
+              "answer": "tan 90° = sin 90°/cos 90° = 1/0 — NOT DEFINED (cos 90° = 0, so division by zero).\ncosec 0° = 1/sin 0° = 1/0 — NOT DEFINED (sin 0° = 0, so division by zero)."
+            },
+            {
+              "q_num": 4,
+              "marks": 2,
+              "question": "As angle A increases from 0° to 90°, what happens to sin A and cos A?",
+              "answer": "sin A INCREASES from 0 to 1 (the opposite side grows relative to hypotenuse).\ncos A DECREASES from 1 to 0 (the adjacent side shrinks relative to hypotenuse).\n\n---\n\n3 ಮಾರ್ಕ್ಸ್ × 3 questions:"
+            },
+            {
+              "q_num": 5,
+              "marks": 3,
+              "question": "Using an equilateral triangle, derive the values of sin 30°, cos 30°, sin 60°, and cos 60°.",
+              "answer": "Step 1: Take equilateral triangle ABC with side 2a. Draw perpendicular AD to BC.\nThen BD = a, and by Pythagoras: AD = sqrt((2a)² - a²) = sqrt(3a²) = a*sqrt(3).\n\nStep 2: In right triangle ABD, angle ABD = 60°, angle BAD = 30°:\nsin 60° = AD/AB = a*sqrt(3)/2a = sqrt(3)/2\ncos 60° = BD/AB = a/2a = 1/2\ntan 60° = AD/BD = a*sqrt(3)/a = sqrt(3).\n\nStep 3: For angle BAD = 30°:\nsin 30° = BD/AB = a/2a = 1/2\ncos 30° = AD/AB = a*sqrt(3)/2a = sqrt(3)/2\ntan 30° = BD/AD = a/(a*sqrt(3)) = 1/sqrt(3)."
+            },
+            {
+              "q_num": 6,
+              "marks": 3,
+              "question": "Evaluate: (5 cos²60° + 4 sec²30° - tan²45°) / (sin²30° + cos²30°).",
+              "answer": "Step 1: Substitute values:\ncos²60° = (1/2)² = 1/4\nsec²30° = (2/sqrt(3))² = 4/3\ntan²45° = 1²  = 1\nsin²30° + cos²30° = 1  (using identity).\n\nStep 2: Calculate numerator:\n5(1/4) + 4(4/3) - 1 = 5/4 + 16/3 - 1\n= 15/12 + 64/12 - 12/12 = 67/12.\n\nStep 3: Divide by denominator:\n(67/12) / 1 = 67/12.\nANSWER: 67/12."
+            },
+            {
+              "q_num": 7,
+              "marks": 3,
+              "question": "If tan(A + B) = sqrt(3) and tan(A - B) = 1/sqrt(3), where 0° < A + B <= 90° and A > B, find A and B.",
+              "answer": "Step 1: tan(A + B) = sqrt(3) = tan 60°, so A + B = 60°  ... (1).\n\nStep 2: tan(A - B) = 1/sqrt(3) = tan 30°, so A - B = 30°  ... (2).\n\nStep 3: Solve (1) and (2):\nAdding:    2A = 90°  so  A = 45°.\nSubtracting: 2B = 30°  so  B = 15°.\nANSWER: A = 45°, B = 15°.\n\n---\n\n4 ಮಾರ್ಕ್ಸ್ × 2 questions:"
+            },
+            {
+              "q_num": 8,
+              "marks": 4,
+              "question": "In triangle ABC right-angled at B, AB = 5 cm and angle ACB = 30°. Find BC and AC. Also find all six trigonometric ratios of angle ACB.",
+              "answer": "Step 1: In triangle ABC (right-angled at B), angle C = 30°.\nBC is adjacent to angle C, AB is opposite to angle C.\n\nStep 2: Find BC:\ntan C = AB/BC  so  tan 30° = 5/BC  so  1/sqrt(3) = 5/BC  so  BC = 5*sqrt(3) cm.\n\nStep 3: Find AC:\nsin C = AB/AC  so  sin 30° = 5/AC  so  1/2 = 5/AC  so  AC = 10 cm.\n\nStep 4: All six ratios of angle C = 30°:\nsin 30° = 1/2,        cos 30° = sqrt(3)/2,  tan 30° = 1/sqrt(3),\ncosec 30° = 2,        sec 30° = 2/sqrt(3),  cot 30° = sqrt(3).\nANSWER: BC = 5*sqrt(3) cm, AC = 10 cm. Standard 30° ratios confirmed."
+            },
+            {
+              "q_num": 9,
+              "marks": 4,
+              "question": "Evaluate the following:",
+              "answer": "Step 1: Values needed:\nsin 60° = sqrt(3)/2,  cos 30° = sqrt(3)/2,  sin 30° = 1/2,  cos 60° = 1/2,\ntan 45° = 1,  cos²30° = 3/4,  sin²60° = 3/4.\n\nStep 2: Solve (i):\nsin 60° cos 30° + sin 30° cos 60°\n= (sqrt(3)/2)(sqrt(3)/2) + (1/2)(1/2)\n= 3/4 + 1/4 = 4/4 = 1.\n[Note: This equals sin(60° + 30°) = sin 90° = 1. VERIFIED.]\n\nStep 3: Solve (ii):\n2 tan²45° + cos²30° - sin²60°\n= 2(1)² + 3/4 - 3/4\n= 2 + 0 = 2.\nANSWER: (i) 1     (ii) 2.\n\n---\n\n5 ಮಾರ್ಕ್ಸ್ × 1 question:"
+            },
+            {
+              "q_num": 10,
+              "marks": 5,
+              "question": "",
+              "answer": "PART A - Trigonometric ratios of 45°:\n\nStep 1: Consider a right isosceles triangle with both acute angles = 45°.\nLet BC = AB = a (both legs equal since angles are equal).\n\nStep 2: By Pythagoras theorem:\nAC² = AB² + BC² = a² + a² = 2a²  so  AC = a*sqrt(2).\n\nStep 3: Calculate all six ratios for angle A = 45°:\nsin 45° = BC/AC = a/(a*sqrt(2)) = 1/sqrt(2).\ncos 45° = AB/AC = a/(a*sqrt(2)) = 1/sqrt(2).\ntan 45° = BC/AB = a/a = 1.\n\nStep 4: Reciprocals:\ncosec 45° = 1/sin 45° = sqrt(2).\nsec 45°   = 1/cos 45° = sqrt(2).\ncot 45°   = 1/tan 45° = 1.\n\nPART B - True or False:\n\nStep 1: (i) sin(A + B) = sin A + sin B — FALSE.\nCounter-example: sin(30° + 60°) = sin 90° = 1.\nBut sin 30° + sin 60° = 1/2 + sqrt(3)/2 = (1 + sqrt(3))/2 ≈ 1.37, which is not equal to 1.\n\nStep 2: (ii) Value of sin theta increases as theta increases from 0° to 90° — TRUE.\nsin 0° = 0, sin 30° = 0.5, sin 45° ≈ 0.707, sin 60° ≈ 0.866, sin 90° = 1. Clearly increasing.\n\nStep 3: (iii) sin theta = cos theta for all values of theta — FALSE.\nsin theta = cos theta only when theta = 45° (both equal 1/sqrt(2)). For all other angles they differ.\n\nStep 4: (iv) cot A is not defined for A = 0° — TRUE.\ncot 0° = cos 0°/sin 0° = 1/0 — NOT DEFINED (division by zero).\nANSWER: All parts solved with justifications."
+            }
+          ]
+        },
+        {
+          "type": "mcq",
+          "label": "TOPIC 8.3: MCQs:",
+          "items": [
+            {
+              "mcq_num": 1,
+              "difficulty": "Easy",
+              "question": "The value of sin 90° is:",
+              "options": {
+                "A": "0  (B) 1/2  (C) 1/√2  (D) 1"
+              },
+              "answer": "D",
+              "explanation": "sin 90° = 1 (defined by limiting approach as angle → 90°)."
+            },
+            {
+              "mcq_num": 2,
+              "difficulty": "Easy",
+              "question": "The value of cos 60° is:",
+              "options": {
+                "A": "√3/2  (B) 1/2  (C) 1/√2  (D) 0"
+              },
+              "answer": "B",
+              "explanation": "Derived using equilateral triangle with perpendicular: cos 60° = 1/2."
+            },
+            {
+              "mcq_num": 3,
+              "difficulty": "Easy",
+              "question": "The value of tan 45° is:",
+              "options": {
+                "A": "0  (B) 1/√3  (C) 1  (D) √3"
+              },
+              "answer": "C",
+              "explanation": "In 45°-45°-90° triangle, both legs equal, so tan 45° = a/a = 1."
+            },
+            {
+              "mcq_num": 4,
+              "difficulty": "Easy",
+              "question": "Which of the following is NOT DEFINED?",
+              "options": {
+                "A": "sin 90°  (B) cos 0°  (C) tan 90°  (D) tan 0°"
+              },
+              "answer": "C",
+              "explanation": "tan 90° = sin 90°/cos 90° = 1/0 → undefined."
+            },
+            {
+              "mcq_num": 5,
+              "difficulty": "Easy",
+              "question": "The value of sin 30° + cos 60° is:",
+              "options": {
+                "A": "1  (B) √3  (C) 0  (D) 2"
+              },
+              "answer": "A",
+              "explanation": "sin 30° = 1/2, cos 60° = 1/2. Sum = 1."
+            },
+            {
+              "mcq_num": 6,
+              "difficulty": "Medium",
+              "question": "The value of 2 tan²45° + cos²30° − sin²60° is:",
+              "options": {
+                "A": "3  (B) 2  (C) 1  (D) 0"
+              },
+              "answer": "B",
+              "explanation": "2(1)² + (√3/2)² − (√3/2)² = 2 + 3/4 − 3/4 = 2."
+            },
+            {
+              "mcq_num": 7,
+              "difficulty": "Medium",
+              "question": "If tan(A + B) = √3 and tan(A − B) = 1/√3, then A equals:",
+              "options": {
+                "A": "15°  (B) 30°  (C) 45°  (D) 60°"
+              },
+              "answer": "C",
+              "explanation": "A + B = 60°, A − B = 30°. Solving: A = 45°."
+            },
+            {
+              "mcq_num": 8,
+              "difficulty": "Medium",
+              "question": "sin 2A = 2 sin A is true when A =",
+              "options": {
+                "A": "30°  (B) 45°  (C) 60°  (D) 0°"
+              },
+              "answer": "D",
+              "explanation": "2 sin A cos A = 2 sin A → cos A = 1 → A = 0°."
+            },
+            {
+              "mcq_num": 9,
+              "difficulty": "Medium",
+              "question": "The value of (5 cos²60° + 4 sec²30° − tan²45°) / (sin²30° + cos²30°) is:",
+              "options": {
+                "A": "67/12  (B) 2  (C) 1  (D) 4"
+              },
+              "answer": "A",
+              "explanation": "Numerator = 5(1/4) + 4(4/3) − 1 = 5/4 + 16/3 − 1 = 15/12 + 64/12 − 12/12 = 67/12. Denominator = 1."
+            },
+            {
+              "mcq_num": 10,
+              "difficulty": "Medium",
+              "question": "In right triangle PQR (right-angled at Q), PQ = 3 cm, PR = 6 cm. The angle PRQ is:",
+              "options": {
+                "A": "45°  (B) 30°  (C) 60°  (D) 90°"
+              },
+              "answer": "B",
+              "explanation": "sin R = PQ/PR = 3/6 = 1/2 → angle PRQ = 30°."
+            },
+            {
+              "mcq_num": 11,
+              "difficulty": "Medium",
+              "question": "The value of 2 tan 30°/(1 + tan²30°) equals:",
+              "options": {
+                "A": "sin 60°  (B) cos 60°  (C) tan 60°  (D) sin 30°"
+              },
+              "answer": "A",
+              "explanation": "= 2(1/√3)/(4/3) = (2/√3)(3/4) = 3/(2√3) = √3/2 = sin 60°."
+            },
+            {
+              "mcq_num": 12,
+              "difficulty": "Hard",
+              "question": "In right triangle ABC (right-angled at B), AB = 5 cm and angle ACB = 30°. The length of BC is:",
+              "options": {
+                "A": "5 cm  (B) 10 cm  (C) 5/√3 cm  (D) 5√3 cm"
+              },
+              "answer": "D",
+              "explanation": "tan 30° = AB/BC → 1/√3 = 5/BC → BC = 5√3 cm."
+            },
+            {
+              "mcq_num": 13,
+              "difficulty": "Hard",
+              "question": "If sin(A − B) = 1/2 and cos(A + B) = 1/2, then B equals:",
+              "options": {
+                "A": "30°  (B) 45°  (C) 15°  (D) 60°"
+              },
+              "answer": "C",
+              "explanation": "A − B = 30°, A + B = 60°. Solving: B = 15°."
+            },
+            {
+              "mcq_num": 14,
+              "difficulty": "Hard",
+              "question": "The value of (1 − tan²45°)/(1 + tan²45°) is:",
+              "options": {
+                "A": "tan 90°  (B) 1  (C) sin 45°  (D) 0"
+              },
+              "answer": "D",
+              "explanation": "tan 45° = 1. (1 − 1)/(1 + 1) = 0/2 = 0."
+            },
+            {
+              "mcq_num": 15,
+              "difficulty": "Hard",
+              "question": "The value of cos 45°/(sec 30° + cosec 30°) is:",
+              "options": {
+                "A": "√3(√3 − 1)/6  (B) (√6 − √2)/8  (C) 3(√3 − 1)/8  (D) √6/8"
+              },
+              "answer": "B",
+              "explanation": "cos 45° = 1/√2, sec 30° = 2/√3, cosec 30° = 2. Denominator = 2/√3 + 2 = 2(1 + √3)/√3. Result = (1/√2) × √3/[2(1 + √3)] = √3/[2√2(1 + √3)]. Rationalise: × (√3 − 1)/(√3 − 1) → √3(√3 − 1)/[2√2 × 2] = (3 − √3)/(4√2) = (√6 − √2)/8. ----"
+            }
+          ]
+        }
+      ],
+      "subtopics": []
+    },
+    {
+      "topic_num": "8.4",
+      "topic_name": "TRIGONOMETRIC IDENTITIES",
+      "mode": "B",
+      "sections": [
+        {
+          "type": "definition",
+          "label": "Definition:",
+          "text": "- An IDENTITY is an equation that is true for all values of the variables involved.\n- A TRIGONOMETRIC IDENTITY is an equation involving trigonometric ratios of an angle that is true for all values of the angle (within the defined range)."
+        },
+        {
+          "type": "key_points",
+          "label": "Key Points:",
+          "points": [
+            "Three fundamental identities (derived from Pythagoras theorem in right triangle ABC right-angled at B):",
+            "IDENTITY 1: sin²A + cos²A = 1   [for all A: 0° ≤ A ≤ 90°]",
+            "IDENTITY 2: 1 + tan²A = sec²A   i.e., sec²A − tan²A = 1   [for 0° ≤ A < 90°]",
+            "IDENTITY 3: 1 + cot²A = cosec²A  i.e., cosec²A − cot²A = 1  [for 0° < A ≤ 90°]",
+            "Identity 2 is NOT valid at A = 90° (tan A and sec A undefined there).",
+            "Identity 3 is NOT valid at A = 0° (cot A and cosec A undefined there).",
+            "Using these identities, any one ratio can be expressed in terms of another.",
+            "Standard technique to prove identities: convert everything to sin and cos, or use known identities to simplify LHS = RHS."
+          ]
+        },
+        {
+          "type": "list_of_topics",
+          "label": "LIST OF SUB TOPICS IN THIS TOPIC:",
+          "items": [
+            "(No sub-topics — textbook Section 8.4 has no X.Y.Z numbering)"
+          ]
+        },
+        {
+          "type": "theorem",
+          "label": "THEOREM:",
+          "statement": "In a right triangle ABC (right-angled at B):\n(i) sin²A + cos²A = 1\n(ii) 1 + tan²A = sec²A\n(iii) 1 + cot²A = cosec²A",
+          "given": "Right triangle ABC, right-angled at B.",
+          "to_prove": "The three identities above.",
+          "construction": "",
+          "proof": [
+            "Step 1: By Pythagoras theorem: AB² + BC² = AC²  ... (1)",
+            "Step 2: Divide (1) by AC²:",
+            "AB²/AC² + BC²/AC² = 1",
+            "→ (cos A)² + (sin A)² = 1",
+            "→ cos²A + sin²A = 1   → sin²A + cos²A = 1. [Identity 1 proved]",
+            "Step 3: Divide (1) by AB²:",
+            "1 + BC²/AB² = AC²/AB²",
+            "→ 1 + tan²A = sec²A. [Identity 2 proved]",
+            "(Valid for 0° ≤ A < 90°; undefined at A = 90°.)",
+            "Step 4: Divide (1) by BC²:",
+            "AB²/BC² + 1 = AC²/BC²",
+            "→ cot²A + 1 = cosec²A. [Identity 3 proved]",
+            "(Valid for 0° < A ≤ 90°; undefined at A = 0°.)"
+          ],
+          "hence_proved": ""
+        },
+        {
+          "type": "formulas",
+          "label": "FORMULA:",
+          "items": [
+            "sin²A + cos²A = 1",
+            "→ sin A = √(1 − cos²A),   cos A = √(1 − sin²A)",
+            "sec²A − tan²A = 1",
+            "→ tan A = √(sec²A − 1),   sec A = √(1 + tan²A)",
+            "cosec²A − cot²A = 1",
+            "→ cot A = √(cosec²A − 1),   cosec A = √(1 + cot²A)",
+            "WHERE:",
+            "All six trigonometric ratios are for acute angle A of a right triangle.",
+            "EXAMPLES: (Textbook Examples)",
+            "EXAMPLE 8.4.1: Express cos A, tan A, sec A in terms of sin A.",
+            "PROBLEM: Express cos A, tan A, and sec A in terms of sin A.",
+            "SOLUTION:",
+            "Step 1: sin²A + cos²A = 1 → cos A = √(1 − sin²A)   (positive since A is acute).",
+            "Step 2: tan A = sin A / cos A = sin A / √(1 − sin²A).",
+            "Step 3: sec A = 1 / cos A = 1 / √(1 − sin²A).",
+            "ANSWER: cos A = √(1 − sin²A),   tan A = sin A/√(1 − sin²A),   sec A = 1/√(1 − sin²A).",
+            "EXAMPLE 8.4.2: Prove an identity involving sec A and tan A.",
+            "PROBLEM: Prove that sec A(1 − sin A)(sec A + tan A) = 1.",
+            "SOLUTION:",
+            "Step 1: LHS = (1/cos A)(1 − sin A)(1/cos A + sin A/cos A)",
+            "Step 2:     = (1/cos A)(1 − sin A) × [(1 + sin A)/cos A]",
+            "Step 3:     = (1 − sin A)(1 + sin A) / cos²A",
+            "Step 4:     = (1 − sin²A) / cos²A",
+            "Step 5:     = cos²A / cos²A = 1 = RHS.",
+            "ANSWER: sec A(1 − sin A)(sec A + tan A) = 1. [Proved]",
+            "EXAMPLE 8.4.3: Prove a cot–cosec identity.",
+            "PROBLEM: Prove that (cot A − cos A)/(cot A + cos A) = (cosec A − 1)/(cosec A + 1).",
+            "SOLUTION:",
+            "Step 1: cot A − cos A = (cos A/sin A) − cos A = cos A(1/sin A − 1) = cos A(cosec A − 1).",
+            "Step 2: cot A + cos A = cos A(1/sin A + 1) = cos A(cosec A + 1).",
+            "Step 3: LHS = cos A(cosec A − 1) / cos A(cosec A + 1) = (cosec A − 1)/(cosec A + 1) = RHS.",
+            "ANSWER: (cot A − cos A)/(cot A + cos A) = (cosec A − 1)/(cosec A + 1). [Proved]",
+            "EXAMPLE 8.4.4: Prove a compound identity.",
+            "PROBLEM: Prove that (sin θ − cos θ + 1)/(sin θ + cos θ − 1) = 1/(sec θ − tan θ).",
+            "SOLUTION:",
+            "Step 1: Divide numerator and denominator of LHS by cos θ:",
+            "LHS = (tan θ − 1 + sec θ)/(tan θ + 1 − sec θ).",
+            "Step 2: Let p = tan θ + sec θ.",
+            "LHS = (p − 1) / (1 − (sec θ − tan θ))",
+            "Multiply numerator and denominator by (tan θ − sec θ):",
+            "= [(tan θ + sec θ) − 1](tan θ − sec θ) / [(tan θ − sec θ + 1)(tan θ − sec θ)]",
+            "= [tan²θ − sec²θ − (tan θ − sec θ)] / [(tan θ − sec θ + 1)(tan θ − sec θ)]",
+            "Step 3: tan²θ − sec²θ = −1 (from identity sec²θ − tan²θ = 1).",
+            "= [−1 − (tan θ − sec θ)] / [(tan θ − sec θ + 1)(tan θ − sec θ)]",
+            "= −(1 + tan θ − sec θ) / [(1 + tan θ − sec θ)(tan θ − sec θ)]",
+            "Step 4: = −1/(tan θ − sec θ) = 1/(sec θ − tan θ) = RHS.",
+            "ANSWER: (sin θ − cos θ + 1)/(sin θ + cos θ − 1) = 1/(sec θ − tan θ). [Proved]"
+          ]
+        },
+        {
+          "type": "exercise",
+          "label": "EXERCISE 8.3:",
+          "items": [],
+          "raw": "1. Express sin A, sec A and tan A in terms of cot A.\n\n2. Write all other trigonometric ratios of angle A in terms of sec A.\n\n3. Choose the correct option. Justify your choice.\n(i) 9 sec²A − 9 tan²A =\n(A) 1  (B) 9  (C) 8  (D) 0\n(ii) (1 + tan θ + sec θ)(1 + cot θ − cosec θ) =\n(A) 0  (B) 1  (C) 2  (D) −1\n(iii) (sec A + tan A)(1 − sin A) =\n(A) sec A  (B) sin A  (C) cosec A  (D) cos A\n(iv) (1 + tan²A)/(1 + cot²A) =\n(A) sec²A  (B) −1  (C) cot²A  (D) tan²A\n\n4. Prove the following identities:\n(i)  (cosec θ − cot θ)² = (1 − cos θ)/(1 + cos θ)\n(ii) cos A/(1 + sin A) + (1 + sin A)/cos A = 2 sec A\n(iii) tan θ/(1 − cot θ) + cot θ/(1 − tan θ) = 1 + sec θ cosec θ\n[Hint: Write expression in terms of sin θ and cos θ]\n(iv) (1 + sec A)/sec A = sin²A/(1 − cos A)\n[Hint: Simplify LHS and RHS separately]\n(v)  (cos A − sin A + 1)/(cos A + sin A − 1) = cosec A + cot A\n[using identity cosec²A = 1 + cot²A]\n(vi) √[(1 + sin A)/(1 − sin A)] = sec A + tan A\n(vii) (sin θ − 2 sin³θ)/(2 cos³θ − cos θ) = tan θ\n(viii) (sin A + cosec A)² + (cos A + sec A)² = 7 + tan²A + cot²A\n(ix) (cosec A − sin A)(sec A − cos A) = 1/(tan A + cot A)\n[Hint: Simplify LHS and RHS separately]\n(x) [(1 + tan²A)/(1 + cot²A)] = [(1 − tan A)/(1 − cot A)]² = tan²A"
+        },
+        {
+          "type": "qa",
+          "label": "TOPIC 8.4: Q&A:",
+          "items": [
+            {
+              "q_num": 1,
+              "marks": 2,
+              "question": "State the three fundamental trigonometric identities.",
+              "answer": "(i)  sin²A + cos²A = 1                              (for 0° <= A <= 90°)\n(ii) 1 + tan²A = sec²A  i.e., sec²A - tan²A = 1    (for 0° <= A < 90°)\n(iii) 1 + cot²A = cosec²A  i.e., cosec²A - cot²A = 1  (for 0° < A <= 90°)"
+            },
+            {
+              "q_num": 2,
+              "marks": 2,
+              "question": "For what values of A are the following undefined?",
+              "answer": "(i) tan A = sin A/cos A and sec A = 1/cos A. Since cos 90° = 0, both are undefined for A = 90°.\n(ii) cosec A = 1/sin A and cot A = cos A/sin A. Since sin 0° = 0, both are undefined for A = 0°."
+            },
+            {
+              "q_num": 3,
+              "marks": 2,
+              "question": "If sin A + cos A = sqrt(2), find sin A × cos A.",
+              "answer": "Square both sides: (sin A + cos A)² = 2.\nsin²A + 2 sin A cos A + cos²A = 2.\n1 + 2 sin A cos A = 2     (using sin²A + cos²A = 1).\nsin A cos A = 1/2."
+            },
+            {
+              "q_num": 4,
+              "marks": 2,
+              "question": "If sec A = 5/4, find tan A using identities.",
+              "answer": "Using sec²A - tan²A = 1:\ntan²A = sec²A - 1 = (5/4)² - 1 = 25/16 - 16/16 = 9/16.\ntan A = 3/4.\n\n---\n\n3 ಮಾರ್ಕ್ಸ್ × 3 questions:"
+            },
+            {
+              "q_num": 5,
+              "marks": 3,
+              "question": "Prove sin²A + cos²A = 1 using Pythagoras theorem.",
+              "answer": "Step 1: In right triangle ABC (right-angled at B):\nAB² + BC² = AC²   ... (Pythagoras theorem).\n\nStep 2: Divide both sides by AC²:\nAB²/AC² + BC²/AC² = 1\nso  (AB/AC)² + (BC/AC)² = 1\nso  cos²A + sin²A = 1.\n\nStep 3: Therefore sin²A + cos²A = 1.  [Proved]\n(This identity is true for all A such that 0° <= A <= 90°.)"
+            },
+            {
+              "q_num": 6,
+              "marks": 3,
+              "question": "Prove that sec²A - tan²A = 1 and cosec²A - cot²A = 1.",
+              "answer": "Step 1: From AB² + BC² = AC², divide by AB²:\n1 + (BC/AB)² = (AC/AB)²\nso  1 + tan²A = sec²A\nso  sec²A - tan²A = 1.  [Proved, valid for 0° <= A < 90°]\n\nStep 2: Divide AB² + BC² = AC² by BC²:\n(AB/BC)² + 1 = (AC/BC)²\nso  cot²A + 1 = cosec²A\nso  cosec²A - cot²A = 1.  [Proved, valid for 0° < A <= 90°]\n\nStep 3: All three identities are derived by dividing the Pythagoras equation by AC², AB², and BC² respectively."
+            },
+            {
+              "q_num": 7,
+              "marks": 3,
+              "question": "Prove that (cot A - cos A)/(cot A + cos A) = (cosec A - 1)/(cosec A + 1).",
+              "answer": "Step 1: Simplify numerator:\ncot A - cos A = (cos A/sin A) - cos A = cos A(1/sin A - 1) = cos A(cosec A - 1).\n\nStep 2: Simplify denominator:\ncot A + cos A = (cos A/sin A) + cos A = cos A(1/sin A + 1) = cos A(cosec A + 1).\n\nStep 3: Divide:\nLHS = cos A(cosec A - 1) / cos A(cosec A + 1) = (cosec A - 1)/(cosec A + 1) = RHS.  [Proved]\n\n---\n\n4 ಮಾರ್ಕ್ಸ್ × 2 questions:"
+            },
+            {
+              "q_num": 8,
+              "marks": 4,
+              "question": "Prove that sec A(1 - sin A)(sec A + tan A) = 1.",
+              "answer": "Step 1: Write sec A and tan A in terms of sin A and cos A:\nsec A = 1/cos A,  tan A = sin A/cos A.\nsec A + tan A = (1 + sin A)/cos A.\n\nStep 2: Write the full LHS:\nLHS = (1/cos A)(1 - sin A) x (1 + sin A)/cos A.\n\nStep 3: Use difference of squares: (1 - sin A)(1 + sin A) = 1 - sin²A:\nLHS = (1 - sin²A) / cos²A.\n\nStep 4: Apply identity 1 - sin²A = cos²A:\nLHS = cos²A / cos²A = 1 = RHS.  [Proved]"
+            },
+            {
+              "q_num": 9,
+              "marks": 4,
+              "question": "Prove that cos A/(1 + sin A) + (1 + sin A)/cos A = 2 sec A.",
+              "answer": "Step 1: Take LCM of the two fractions. LCM = cos A(1 + sin A):\nLHS = [(cos A)² + (1 + sin A)²] / [cos A(1 + sin A)].\n\nStep 2: Expand the numerator:\ncos²A + (1 + sin A)² = cos²A + 1 + 2 sin A + sin²A\n= (sin²A + cos²A) + 1 + 2 sin A\n= 1 + 1 + 2 sin A = 2 + 2 sin A = 2(1 + sin A).\n\nStep 3: Substitute:\nLHS = 2(1 + sin A) / [cos A(1 + sin A)] = 2/cos A = 2 sec A = RHS.  [Proved]\n\nStep 4: Note: Identity sin²A + cos²A = 1 was used in Step 2.\n\n---\n\n5 ಮಾರ್ಕ್ಸ್ × 1 question:"
+            },
+            {
+              "q_num": 10,
+              "marks": 5,
+              "question": "",
+              "answer": "PART A - Prove (sin theta - 2 sin³theta)/(2 cos³theta - cos theta) = tan theta:\n\nStep 1: Factor the numerator:\nsin theta - 2 sin³theta = sin theta(1 - 2 sin²theta).\n\nStep 2: Factor the denominator:\n2 cos³theta - cos theta = cos theta(2 cos²theta - 1).\n\nStep 3: Rewrite 1 - 2 sin²theta using sin²theta = 1 - cos²theta:\n1 - 2 sin²theta = 1 - 2(1 - cos²theta) = 1 - 2 + 2 cos²theta = 2 cos²theta - 1.\n\nStep 4: Substitute and simplify:\nLHS = sin theta(2 cos²theta - 1) / cos theta(2 cos²theta - 1)\n= sin theta / cos theta = tan theta = RHS.  [Proved]\n\nPART B - Prove (sin A + cosec A)² + (cos A + sec A)² = 7 + tan²A + cot²A:\n\nStep 1: Expand (sin A + cosec A)²:\n= sin²A + 2 x sin A x cosec A + cosec²A\n= sin²A + 2 + cosec²A           (since sin A x cosec A = 1).\n\nStep 2: Expand (cos A + sec A)²:\n= cos²A + 2 x cos A x sec A + sec²A\n= cos²A + 2 + sec²A             (since cos A x sec A = 1).\n\nStep 3: Add both expansions:\nLHS = sin²A + cos²A + 4 + cosec²A + sec²A\n= 1 + 4 + cosec²A + sec²A\n= 5 + cosec²A + sec²A.\n\nStep 4: Apply identities cosec²A = 1 + cot²A and sec²A = 1 + tan²A:\nLHS = 5 + (1 + cot²A) + (1 + tan²A)\n= 5 + 1 + 1 + tan²A + cot²A\n= 7 + tan²A + cot²A = RHS.  [Proved]\nANSWER: Both identities proved using fundamental trigonometric identities."
+            }
+          ]
+        },
+        {
+          "type": "mcq",
+          "label": "TOPIC 8.4: MCQs:",
+          "items": [
+            {
+              "mcq_num": 1,
+              "difficulty": "Easy",
+              "question": "sin²A + cos²A =",
+              "options": {
+                "A": "0  (B) 2  (C) sin A  (D) 1"
+              },
+              "answer": "D",
+              "explanation": "First fundamental trigonometric identity."
+            },
+            {
+              "mcq_num": 2,
+              "difficulty": "Easy",
+              "question": "sec²A − tan²A =",
+              "options": {
+                "A": "0  (B) 2  (C) 1  (D) sin²A"
+              },
+              "answer": "C",
+              "explanation": "Second fundamental identity: 1 + tan²A = sec²A → sec²A − tan²A = 1."
+            },
+            {
+              "mcq_num": 3,
+              "difficulty": "Easy",
+              "question": "cosec²A − cot²A =",
+              "options": {
+                "A": "0  (B) 1  (C) 2  (D) cos²A"
+              },
+              "answer": "B",
+              "explanation": "Third fundamental identity: cot²A + 1 = cosec²A → cosec²A − cot²A = 1."
+            },
+            {
+              "mcq_num": 4,
+              "difficulty": "Easy",
+              "question": "The value of 9 sec²A − 9 tan²A is:",
+              "options": {
+                "A": "1  (B) 0  (C) 8  (D) 9"
+              },
+              "answer": "D",
+              "explanation": "9(sec²A − tan²A) = 9 × 1 = 9."
+            },
+            {
+              "mcq_num": 5,
+              "difficulty": "Easy",
+              "question": "sin A in terms of cos A is:",
+              "options": {
+                "A": "cos A  (B) 1 − cos A  (C) √(1 − cos²A)  (D) √(1 + cos²A)"
+              },
+              "answer": "C",
+              "explanation": "sin²A + cos²A = 1 → sin A = √(1 − cos²A) for acute A."
+            },
+            {
+              "mcq_num": 6,
+              "difficulty": "Medium",
+              "question": "The identity sec²A − tan²A = 1 is valid for:",
+              "options": {
+                "A": "0° < A ≤ 90°  (B) 0° ≤ A < 90°  (C) 0° < A < 90°  (D) All values of A"
+              },
+              "answer": "B",
+              "explanation": "tan A and sec A are undefined at A = 90°, so identity holds for 0° ≤ A < 90°."
+            },
+            {
+              "mcq_num": 7,
+              "difficulty": "Medium",
+              "question": "The value of (1 + tan θ + sec θ)(1 + cot θ − cosec θ) is:",
+              "options": {
+                "A": "0  (B) 1  (C) 2  (D) −1"
+              },
+              "answer": "C",
+              "explanation": "Expanding in terms of sin θ and cos θ simplifies to 2."
+            },
+            {
+              "mcq_num": 8,
+              "difficulty": "Medium",
+              "question": "(sec A + tan A)(1 − sin A) equals:",
+              "options": {
+                "A": "sec A  (B) sin A  (C) cosec A  (D) cos A"
+              },
+              "answer": "D",
+              "explanation": "= [(1 + sin A)/cos A](1 − sin A) = (1 − sin²A)/cos A = cos²A/cos A = cos A."
+            },
+            {
+              "mcq_num": 9,
+              "difficulty": "Medium",
+              "question": "(1 + tan²A)/(1 + cot²A) equals:",
+              "options": {
+                "A": "sec²A  (B) −1  (C) cot²A  (D) tan²A"
+              },
+              "answer": "D",
+              "explanation": "= sec²A/cosec²A = sin²A/cos²A = tan²A."
+            },
+            {
+              "mcq_num": 10,
+              "difficulty": "Medium",
+              "question": "cosec A and cot A are NOT defined for:",
+              "options": {
+                "A": "A = 45°  (B) A = 90°  (C) A = 60°  (D) A = 0°"
+              },
+              "answer": "D",
+              "explanation": "cosec A = 1/sin A, cot A = cos A/sin A. At A = 0°, sin A = 0 → undefined."
+            },
+            {
+              "mcq_num": 11,
+              "difficulty": "Medium",
+              "question": "If sec A = 5/4, then tan A equals:",
+              "options": {
+                "A": "4/5  (B) 5/3  (C) 3/4  (D) 3/5"
+              },
+              "answer": "C",
+              "explanation": "tan²A = sec²A − 1 = 25/16 − 1 = 9/16 → tan A = 3/4."
+            },
+            {
+              "mcq_num": 12,
+              "difficulty": "Hard",
+              "question": "The value of (cosec A − sin A)(sec A − cos A) equals:",
+              "options": {
+                "A": "sin A + cos A  (B) 1  (C) 1/(tan A + cot A)  (D) tan A × cot A"
+              },
+              "answer": "C",
+              "explanation": "= (cos²A/sin A)(sin²A/cos A) = sin A cos A. tan A + cot A = 1/(sin A cos A). So 1/(tan A + cot A) = sin A cos A. ✓"
+            },
+            {
+              "mcq_num": 13,
+              "difficulty": "Hard",
+              "question": "Which is the correct form of (cosec θ − cot θ)²?",
+              "options": {
+                "A": "(1 + cos θ)/(1 − cos θ)  (B) (1 − cos θ)/(1 + cos θ)  (C) (1 − sin θ)/(1 + sin θ)  (D) sin²θ"
+              },
+              "answer": "B",
+              "explanation": "cosec θ − cot θ = (1 − cos θ)/sin θ. Squaring: (1 − cos θ)²/sin²θ = (1 − cos θ)²/(1 − cos²θ) = (1 − cos θ)/(1 + cos θ)."
+            },
+            {
+              "mcq_num": 14,
+              "difficulty": "Hard",
+              "question": "If cos A + sin A = √2 cos A, then cos A − sin A equals:",
+              "options": {
+                "A": "√2 sin A  (B) √2 cos A  (C) sin A  (D) cos A"
+              },
+              "answer": "A",
+              "explanation": "cos A + sin A = √2 cos A → squaring: 1 + 2 sin A cos A = 2 cos²A. (cos A − sin A)² = 1 − 2 sin A cos A = 2 sin²A → cos A − sin A = √2 sin A."
+            },
+            {
+              "mcq_num": 15,
+              "difficulty": "Hard",
+              "question": "The value of (sin A + cosec A)² + (cos A + sec A)² is:",
+              "options": {
+                "A": "5 + tan²A + cot²A  (B) 7 + tan²A + cot²A  (C) 7 + sin²A + cos²A  (D) 9"
+              },
+              "answer": "B",
+              "explanation": "= sin²A + 2 + cosec²A + cos²A + 2 + sec²A = 1 + 4 + (1 + cot²A) + (1 + tan²A) = 7 + tan²A + cot²A. ----"
+            }
+          ]
+        },
+        {
+          "type": "definition",
+          "label": "Definition:",
+          "text": "- This topic summarises all key concepts, formulas, and identities of Chapter 8."
+        },
+        {
+          "type": "key_points",
+          "label": "Key Points:",
+          "points": [
+            "1. In right triangle ABC (right-angled at B):",
+            "sin A = BC/AC,   cos A = AB/AC,   tan A = BC/AB.",
+            "cosec A = 1/sin A,   sec A = 1/cos A,   cot A = 1/tan A,   tan A = sin A/cos A.",
+            "2. If one trigonometric ratio of an acute angle is known, all others can be determined.",
+            "3. Values for standard angles:",
+            "sin: 0, 1/2, 1/√2, √3/2, 1       (at 0°, 30°, 45°, 60°, 90°)",
+            "cos: 1, √3/2, 1/√2, 1/2, 0",
+            "tan: 0, 1/√3, 1, √3, ND",
+            "cosec: ND, 2, √2, 2/√3, 1",
+            "sec: 1, 2/√3, √2, 2, ND",
+            "cot: ND, √3, 1, 1/√3, 0",
+            "(ND = Not Defined)",
+            "4. sin A and cos A never exceed 1. sec A and cosec A are always ≥ 1.",
+            "5. Fundamental Identities:",
+            "(i)  sin²A + cos²A = 1",
+            "(ii) sec²A − tan²A = 1   (0° ≤ A < 90°)",
+            "(iii) cosec²A − cot²A = 1  (0° < A ≤ 90°)"
+          ]
+        }
+      ],
+      "subtopics": []
+    }
+  ]
+}

@@ -1,0 +1,1391 @@
+{
+  "metadata": {
+    "class": "10th STANDARD",
+    "subject": "Mathematics",
+    "part": "1",
+    "chapter_num": "4",
+    "chapter_name": "QUADRATIC EQUATIONS",
+    "source": "KSEEB Textbook 2025-26",
+    "mode": "B"
+  },
+  "chapter_sections": [
+    {
+      "type": "definition",
+      "label": "Definition:",
+      "text": "- A QUADRATIC EQUATION in the variable x is an equation of the form ax^2 + bx + c = 0,\nwhere a, b, c are real numbers and a ≠ 0.\n- It is obtained by equating a quadratic polynomial to zero."
+    },
+    {
+      "type": "key_points",
+      "label": "Key Points:",
+      "points": [
+        "The equation ax^2 + bx + c = 0, a ≠ 0 is called the STANDARD FORM of a quadratic equation.",
+        "Any equation of the form p(x) = 0, where p(x) is a polynomial of degree 2, is a quadratic equation.",
+        "A quadratic equation can have AT MOST TWO roots.",
+        "The zeroes of the quadratic polynomial ax^2 + bx + c and the roots of the equation",
+        "ax^2 + bx + c = 0 are the SAME.",
+        "The DISCRIMINANT of ax^2 + bx + c = 0 is D = b^2 - 4ac. It decides the nature of roots."
+      ]
+    },
+    {
+      "type": "list_of_topics",
+      "label": "LIST OF TOPICS IN THIS CHAPTER:",
+      "items": [
+        "- Topic 4.1: Introduction",
+        "- Topic 4.2: Quadratic Equations",
+        "- Topic 4.3: Solution of a Quadratic Equation by Factorisation",
+        "- Topic 4.4: Nature of Roots"
+      ]
+    },
+    {
+      "type": "formulas",
+      "label": "FORMULA:",
+      "items": [
+        "x = (-b ± √(b^2 - 4ac)) / 2a        [Quadratic Formula]",
+        "WHERE:",
+        "x = roots of the quadratic equation",
+        "a = coefficient of x^2 (a ≠ 0)",
+        "b = coefficient of x",
+        "c = constant term",
+        "b^2 - 4ac = Discriminant (D)"
+      ]
+    },
+    {
+      "type": "qa",
+      "label": "CHAPTER 4: Q&A:",
+      "items": []
+    },
+    {
+      "type": "mcq",
+      "label": "CHAPTER 4: MCQs:",
+      "items": []
+    }
+  ],
+  "topics": [
+    {
+      "topic_num": "4.1",
+      "topic_name": "INTRODUCTION",
+      "mode": "B",
+      "sections": [
+        {
+          "type": "definition",
+          "label": "Definition:",
+          "text": "- A QUADRATIC EQUATION arises when a quadratic polynomial of the form ax^2 + bx + c\n(a ≠ 0) is equated to zero.\n- Quadratic equations come up in many real-life situations."
+        },
+        {
+          "type": "key_points",
+          "label": "Key Points:",
+          "points": [
+            "Example: A prayer hall with carpet area 300 m^2, length = (2x+1) m, breadth = x m",
+            "gives the equation 2x^2 + x - 300 = 0.",
+            "BABYLONIANS were believed to be first to solve quadratic equations.",
+            "EUCLID (Greek) developed a geometrical approach for solutions of quadratic equations.",
+            "BRAHMAGUPTA (C.E. 598-665): gave formula for ax^2 + bx = c.",
+            "SRIDHARACHARYA (C.E. 1025): derived the quadratic formula by completing the square.",
+            "AL-KHWARIZMI (C.E. 800): studied quadratic equations of different types.",
+            "ABRAHAM BAR HIYYA HA-NASI: published complete solutions in Europe in C.E. 1145.",
+            "(Note: Topic 4.1 is an introductory topic — no sub-topics in textbook. No exercises",
+            "or examples are assigned to this section separately.)"
+          ]
+        },
+        {
+          "type": "qa",
+          "label": "TOPIC 4.1: Q&A:",
+          "items": []
+        },
+        {
+          "type": "qa",
+          "label": "Q&A",
+          "items": [
+            {
+              "q_num": 1,
+              "marks": 2,
+              "question": "What is a quadratic equation? Give one real-life example.",
+              "answer": "A QUADRATIC EQUATION is an equation of the form ax^2 + bx + c = 0, where a, b, c\nare real numbers and a ≠ 0.\nReal-life example: A prayer hall with carpet area 300 m^2, length = (2x+1) m, breadth = x m\ngives: 2x^2 + x - 300 = 0."
+            },
+            {
+              "q_num": 2,
+              "marks": 2,
+              "question": "Why is the condition a ≠ 0 necessary in ax^2 + bx + c = 0?",
+              "answer": "If a = 0, the x^2 term disappears and the equation becomes bx + c = 0, which is a\nLINEAR equation (degree 1), not quadratic (degree 2).\nSo a ≠ 0 is needed to ensure the equation has exactly degree 2."
+            },
+            {
+              "q_num": 3,
+              "marks": 2,
+              "question": "Name two mathematicians who contributed to quadratic equations and state their contributions.",
+              "answer": "(i) BRAHMAGUPTA (C.E. 598-665): Gave algebraic formula to solve ax^2 + bx = c.\n(ii) SRIDHARACHARYA (C.E. 1025): Derived the quadratic formula x = (-b ± √(b^2-4ac))/2a\nusing the method of completing the square."
+            },
+            {
+              "q_num": 4,
+              "marks": 2,
+              "question": "A cottage industry produces x toys per day, each costing ₹(55-x). Total",
+              "answer": "Total cost = x(55-x) = 750.\n55x - x^2 = 750 → x^2 - 55x + 750 = 0.\n\n---\n\n3 ಮಾರ್ಕ್ಸ್ × 3 questions:"
+            },
+            {
+              "q_num": 5,
+              "marks": 3,
+              "question": "John and Jivanti together have 45 marbles. Both lost 5 each. Product of",
+              "answer": "Step 1: John's remaining = x - 5. Jivanti's remaining = 40 - x.\nStep 2: Product = (x-5)(40-x) = -x^2 + 45x - 200.\nStep 3: -x^2 + 45x - 200 = 124 → x^2 - 45x + 324 = 0.\nANSWER: x^2 - 45x + 324 = 0."
+            },
+            {
+              "q_num": 6,
+              "marks": 3,
+              "question": "Rohan's mother is 26 years older than him. Product of their ages 3 years",
+              "answer": "Step 1: Rohan after 3 years = x + 3. Mother after 3 years = x + 29.\nStep 2: (x+3)(x+29) = 360.\nStep 3: x^2 + 32x + 87 = 360 → x^2 + 32x - 273 = 0.\nANSWER: x^2 + 32x - 273 = 0."
+            },
+            {
+              "q_num": 7,
+              "marks": 3,
+              "question": "Compare Euclid's and Brahmagupta's approaches to solving quadratic equations.",
+              "answer": "Step 1: EUCLID used a GEOMETRICAL approach — finding lengths that are solutions\nof quadratic equations through geometric construction.\nStep 2: BRAHMAGUPTA used an ALGEBRAIC approach — giving a direct formula\nto solve ax^2 + bx = c numerically.\nStep 3: Brahmagupta's method is more general and algebraic; Euclid's is geometric.\nANSWER: Brahmagupta's algebraic approach is more direct and widely applicable.\n\n---\n\n4 ಮಾರ್ಕ್ಸ್ × 2 questions:"
+            },
+            {
+              "q_num": 8,
+              "marks": 4,
+              "question": "A train travels 480 km at uniform speed. If speed was 8 km/h less, it",
+              "answer": "Step 1: Let speed = x km/h. Time = 480/x. At (x-8): time = 480/(x-8).\nStep 2: 480/(x-8) - 480/x = 3.\nStep 3: 480x - 480(x-8) = 3x(x-8) → 3840 = 3x^2 - 24x → x^2 - 8x - 1280 = 0.\nStep 4: (x-40)(x+32) = 0 → x = 40 (reject x = -32).\nANSWER: Speed = 40 km/h."
+            },
+            {
+              "q_num": 9,
+              "marks": 4,
+              "question": "The area of a rectangular plot is 528 m^2. Its length is one more than",
+              "answer": "Step 1: Let breadth = x m. Length = (2x+1) m.\nStep 2: x(2x+1) = 528 → 2x^2 + x - 528 = 0.\nStep 3: D = 1 + 4(2)(528) = 4225. √4225 = 65.\nx = (-1+65)/4 = 16. (Reject x = -66/4.)\nStep 4: Breadth = 16 m. Length = 2(16)+1 = 33 m.\nANSWER: Breadth = 16 m, Length = 33 m. (Verify: 16×33 = 528 ✓)\n\n---\n\n5 ಮಾರ್ಕ್ಸ್ × 1 question:"
+            },
+            {
+              "q_num": 10,
+              "marks": 5,
+              "question": "",
+              "answer": "PART A — (x+2)^3 = x^3 - 4:\nStep 1: LHS = x^3 + 6x^2 + 12x + 8.\nStep 2: x^3+6x^2+12x+8 = x^3-4 → 6x^2+12x+12 = 0 → x^2+2x+2 = 0.\nStep 3: YES, quadratic equation. a=1, b=2, c=2.\nStep 4: D = 4 - 8 = -4 < 0. NO REAL ROOTS.\nANSWER A: YES, quadratic (x^2+2x+2=0), but D = -4 < 0 → NO REAL ROOTS.\n\nPART B — x(x+1)+8 = (x+2)(x-2):\nStep 1: LHS = x^2 + x + 8. RHS = x^2 - 4.\nStep 2: x^2+x+8 = x^2-4 → x + 12 = 0.\nStep 3: x^2 terms cancelled. Degree = 1.\nStep 4: NOT a quadratic equation — it reduces to the LINEAR equation x = -12.\nANSWER B: NOT quadratic. The x^2 terms cancel → linear equation x + 12 = 0."
+            }
+          ]
+        },
+        {
+          "type": "mcq",
+          "label": "MCQ",
+          "items": [
+            {
+              "mcq_num": 1,
+              "difficulty": "Easy",
+              "question": "Which civilisation is believed to have first solved quadratic equations?",
+              "options": {
+                "A": "Greek   (B) Indian   (C) Babylonian   (D) Arab"
+              },
+              "answer": "C",
+              "explanation": "Many people believe BABYLONIANS were the first to solve quadratic equations."
+            },
+            {
+              "mcq_num": 2,
+              "difficulty": "Easy",
+              "question": "Brahmagupta gave a formula to solve quadratic equations of the form:",
+              "options": {
+                "A": "ax^2 + bx + c = 0   (B) ax^2 + bx = c   (C) ax^2 = c   (D) ax^2 - bx = 0"
+              },
+              "answer": "B",
+              "explanation": "Brahmagupta (C.E. 598-665) gave explicit formula for ax^2 + bx = c."
+            },
+            {
+              "mcq_num": 3,
+              "difficulty": "Easy",
+              "question": "The prayer hall problem (area = 300 m^2, length = 2x+1) gives the equation:",
+              "options": {
+                "A": "2x^2 + x + 300 = 0",
+                "B": "2x^2 - x - 300 = 0",
+                "C": "2x^2 + x - 300 = 0",
+                "D": "x^2 + x - 300 = 0"
+              },
+              "answer": "C",
+              "explanation": "Area = x(2x+1) = 300 → 2x^2 + x - 300 = 0."
+            },
+            {
+              "mcq_num": 4,
+              "difficulty": "Easy",
+              "question": "Who developed a geometrical approach to find solutions of quadratic equations?",
+              "options": {
+                "A": "Brahmagupta   (B) Euclid   (C) Al-Khwarizmi   (D) Sridharacharya"
+              },
+              "answer": "B",
+              "explanation": "Greek mathematician Euclid developed a geometrical approach."
+            },
+            {
+              "mcq_num": 5,
+              "difficulty": "Easy",
+              "question": "The quadratic formula was derived by:",
+              "options": {
+                "A": "Brahmagupta   (B) Euclid   (C) Sridharacharya   (D) Al-Khwarizmi"
+              },
+              "answer": "C",
+              "explanation": "Sridharacharya (C.E. 1025) derived the formula by completing the square."
+            },
+            {
+              "mcq_num": 6,
+              "difficulty": "Medium",
+              "question": "John and Jivanti have 45 marbles. Both lost 5. Product of remaining = 124. If John had x, the equation is:",
+              "options": {
+                "A": "x^2 - 45x + 200 = 0",
+                "B": "x^2 - 45x + 324 = 0",
+                "C": "x^2 + 45x - 324 = 0",
+                "D": "x^2 - 40x + 124 = 0"
+              },
+              "answer": "B",
+              "explanation": "(x-5)(40-x) = 124 → x^2 - 45x + 324 = 0."
+            },
+            {
+              "mcq_num": 7,
+              "difficulty": "Medium",
+              "question": "Al-Khwarizmi studied quadratic equations around:",
+              "options": {
+                "A": "C.E. 598   (B) C.E. 800   (C) C.E. 1025   (D) C.E. 1145"
+              },
+              "answer": "B",
+              "explanation": "Al-Khwarizmi studied quadratic equations about C.E. 800."
+            },
+            {
+              "mcq_num": 8,
+              "difficulty": "Medium",
+              "question": "A cottage industry: cost per toy = ₹(55-x), total cost = ₹750. Equation:",
+              "options": {
+                "A": "x^2 + 55x - 750 = 0",
+                "B": "x^2 - 55x - 750 = 0",
+                "C": "x^2 - 55x + 750 = 0",
+                "D": "55x - x^2 + 750 = 0"
+              },
+              "answer": "C",
+              "explanation": "x(55-x) = 750 → x^2 - 55x + 750 = 0."
+            },
+            {
+              "mcq_num": 9,
+              "difficulty": "Medium",
+              "question": "If condition a = 0 in ax^2 + bx + c = 0, the equation becomes:",
+              "options": {
+                "A": "Still quadratic   (B) Linear: bx + c = 0   (C) Cubic   (D) Has no solution"
+              },
+              "answer": "B",
+              "explanation": "a=0 removes x^2 term, leaving bx + c = 0 (linear, degree 1)."
+            },
+            {
+              "mcq_num": 10,
+              "difficulty": "Medium",
+              "question": "Abraham bar Hiyya Ha-Nasi published complete solutions in Europe in:",
+              "options": {
+                "A": "C.E. 598   (B) C.E. 800   (C) C.E. 1025   (D) C.E. 1145"
+              },
+              "answer": "D",
+              "explanation": "Abraham bar Hiyya Ha-Nasi's book 'Liber embadorum' was published in C.E. 1145."
+            },
+            {
+              "mcq_num": 11,
+              "difficulty": "Medium",
+              "question": "Rohan's mother is 26 years older. Product of ages 3 years from now = 360. If Rohan's age = x:",
+              "options": {
+                "A": "x^2 + 29x - 273 = 0",
+                "B": "x^2 + 32x - 273 = 0",
+                "C": "x^2 + 32x + 273 = 0",
+                "D": "x^2 - 29x - 273 = 0"
+              },
+              "answer": "B",
+              "explanation": "(x+3)(x+29) = 360 → x^2 + 32x + 87 = 360 → x^2 + 32x - 273 = 0."
+            },
+            {
+              "mcq_num": 12,
+              "difficulty": "Hard",
+              "question": "Area of rectangular plot = 528 m^2. Length = one more than twice breadth (breadth = x). Equation:",
+              "options": {
+                "A": "2x^2 + x - 528 = 0",
+                "B": "2x^2 - x - 528 = 0",
+                "C": "x^2 + 2x - 528 = 0",
+                "D": "2x^2 + x + 528 = 0"
+              },
+              "answer": "A",
+              "explanation": "x(2x+1) = 528 → 2x^2 + x - 528 = 0."
+            },
+            {
+              "mcq_num": 13,
+              "difficulty": "Hard",
+              "question": "Train travels 480 km at speed x km/h. At speed (x-8) km/h it takes 3 more hours. Equation:",
+              "options": {
+                "A": "x^2 - 8x - 1280 = 0",
+                "B": "x^2 + 8x - 1280 = 0",
+                "C": "x^2 - 8x + 1280 = 0",
+                "D": "3x^2 - 24x - 3840 = 0"
+              },
+              "answer": "A",
+              "explanation": "480/(x-8) - 480/x = 3. Cross-multiply: x^2 - 8x - 1280 = 0."
+            },
+            {
+              "mcq_num": 14,
+              "difficulty": "Hard",
+              "question": "Product of two consecutive positive integers = 306. If smaller = x, equation is:",
+              "options": {
+                "A": "x^2 + x - 306 = 0",
+                "B": "x^2 - x - 306 = 0",
+                "C": "x^2 + x + 306 = 0",
+                "D": "2x^2 + x - 306 = 0"
+              },
+              "answer": "A",
+              "explanation": "x(x+1) = 306 → x^2 + x - 306 = 0."
+            },
+            {
+              "mcq_num": 15,
+              "difficulty": "Hard",
+              "question": "Which of these is NOT a quadratic equation (after simplification)?",
+              "options": {
+                "A": "(x-2)^2 + 1 = 2x - 3",
+                "B": "x(2x+3) = x^2 + 1",
+                "C": "x(x+1) + 8 = (x+2)(x-2)",
+                "D": "(x+2)^3 = x^3 - 4"
+              },
+              "answer": "C",
+              "explanation": "x(x+1)+8=(x+2)(x-2) → x+12=0, which is linear, not quadratic."
+            }
+          ]
+        }
+      ],
+      "subtopics": []
+    },
+    {
+      "topic_num": "4.2",
+      "topic_name": "QUADRATIC EQUATIONS",
+      "mode": "B",
+      "sections": [
+        {
+          "type": "definition",
+          "label": "Definition:",
+          "text": "- A QUADRATIC EQUATION in the variable x is an equation of the form ax^2 + bx + c = 0,\nwhere a, b, c are real numbers, a ≠ 0.\n- The STANDARD FORM is obtained by writing terms in descending order of degree."
+        },
+        {
+          "type": "key_points",
+          "label": "Key Points:",
+          "points": [
+            "Examples of quadratic equations: 2x^2 + x - 300 = 0, 2x^2 - 3x + 1 = 0,",
+            "4x - 3x^2 + 2 = 0, 1 - x^2 + 300 = 0.",
+            "Any equation of the form p(x) = 0, where p(x) is a polynomial of degree 2, is quadratic.",
+            "CAUTION: Always simplify an equation before deciding if it is quadratic.",
+            "Some equations appear quadratic but reduce to linear (e.g. x(x+1)+8=(x+2)(x-2)).",
+            "Some appear cubic but reduce to quadratic (e.g. (x+2)^3 = x^3 - 4)."
+          ]
+        },
+        {
+          "type": "list_of_topics",
+          "label": "LIST OF SUB TOPICS IN THIS TOPIC:",
+          "items": [
+            "(No sub-topics in textbook for 4.2 — Mode B applies)",
+            "EXAMPLES:",
+            "EXAMPLE 4.2.1: Represent situations as quadratic equations.",
+            "PROBLEM:",
+            "(i) John and Jivanti together have 45 marbles. Both lost 5 marbles each.",
+            "Product of remaining marbles = 124. Find how many marbles each had.",
+            "(ii) A cottage industry produces x toys per day. Cost per toy = ₹(55-x).",
+            "Total cost = ₹750. Find number of toys produced.",
+            "SOLUTION:",
+            "(i) Step 1: Let John had x marbles. Jivanti had = 45 - x marbles.",
+            "Step 2: After losing 5 each: John = x-5, Jivanti = 40-x.",
+            "Step 3: Product = (x-5)(40-x) = 40x - x^2 - 200 + 5x = -x^2 + 45x - 200.",
+            "Step 4: -x^2 + 45x - 200 = 124",
+            "-x^2 + 45x - 324 = 0",
+            "x^2 - 45x + 324 = 0",
+            "ANSWER (i): x^2 - 45x + 324 = 0",
+            "(ii) Step 1: Number of toys = x. Cost per toy = 55 - x.",
+            "Step 2: Total cost = x(55-x) = 55x - x^2 = 750.",
+            "Step 3: -x^2 + 55x - 750 = 0",
+            "x^2 - 55x + 750 = 0",
+            "ANSWER (ii): x^2 - 55x + 750 = 0",
+            "EXAMPLE 4.2.2: Check whether the following are quadratic equations.",
+            "PROBLEM: (i) (x-2)^2 + 1 = 2x - 3   (ii) x(x+1) + 8 = (x+2)(x-2)",
+            "(iii) x(2x+3) = x^2 + 1     (iv) (x+2)^3 = x^3 - 4",
+            "SOLUTION:",
+            "(i) Step 1: LHS = (x-2)^2 + 1 = x^2 - 4x + 4 + 1 = x^2 - 4x + 5.",
+            "Step 2: x^2 - 4x + 5 = 2x - 3 → x^2 - 6x + 8 = 0.",
+            "Step 3: It is of the form ax^2 + bx + c = 0. YES, quadratic equation.",
+            "ANSWER (i): YES — quadratic equation (x^2 - 6x + 8 = 0).",
+            "(ii) Step 1: x(x+1)+8 = x^2+x+8. (x+2)(x-2) = x^2-4.",
+            "Step 2: x^2+x+8 = x^2-4 → x+12 = 0.",
+            "Step 3: NOT of the form ax^2+bx+c=0.",
+            "ANSWER (ii): NO — NOT a quadratic equation (reduces to x+12=0, linear).",
+            "(iii) Step 1: LHS = 2x^2+3x. So 2x^2+3x = x^2+1 → x^2+3x-1 = 0.",
+            "Step 2: It is of the form ax^2+bx+c=0.",
+            "ANSWER (iii): YES — quadratic equation (x^2+3x-1=0).",
+            "(iv) Step 1: LHS = (x+2)^3 = x^3+6x^2+12x+8.",
+            "Step 2: x^3+6x^2+12x+8 = x^3-4 → 6x^2+12x+12=0 → x^2+2x+2=0.",
+            "Step 3: It is of the form ax^2+bx+c=0.",
+            "ANSWER (iv): YES — quadratic equation (x^2+2x+2=0)."
+          ]
+        },
+        {
+          "type": "exercise",
+          "label": "EXERCISE 4.1:",
+          "items": [
+            {
+              "q_num": 1,
+              "marks": null,
+              "question": "Check whether the following are quadratic equations:",
+              "answer": "(i)   (x+1)^2 = 2(x-3)\n(ii)  x^2 - 2x = (-2)(3-x)\n(iii) (x-2)(x+1) = (x-1)(x+3)\n(iv)  (x-3)(2x+1) = x(x+5)\n(v)   (2x-1)(x-3) = (x+5)(x-1)\n(vi)  x^2 + 3x + 1 = (x-2)^2\n(vii) (x+2)^3 = 2x(x^2-1)\n(viii) x^3 - 4x^2 - x + 1 = (x-2)^3\n\nANSWERS (Exercise 4.1 Q1):\n(i)   (x+1)^2=2(x-3) → x^2+2x+1=2x-6 → x^2+7=0. Degree 2. YES, quadratic.\n(ii)  x^2-2x=(-2)(3-x)=−6+2x → x^2-2x-2x+6=0 → x^2-4x+6=0. YES, quadratic.\n(iii) (x-2)(x+1)=x^2-x-2. (x-1)(x+3)=x^2+2x-3. x^2-x-2=x^2+2x-3 → -3x+1=0. NO.\n(iv)  (x-3)(2x+1)=2x^2-5x-3. x(x+5)=x^2+5x. 2x^2-5x-3=x^2+5x → x^2-10x-3=0. YES.\n(v)   (2x-1)(x-3)=2x^2-7x+3. (x+5)(x-1)=x^2+4x-5. x^2-11x+8=0. YES, quadratic.\n(vi)  x^2+3x+1=(x-2)^2=x^2-4x+4 → 7x-3=0. NO (linear).\n(vii) (x+2)^3=x^3+6x^2+12x+8. 2x(x^2-1)=2x^3-2x.\nx^3+6x^2+12x+8=2x^3-2x → -x^3+6x^2+14x+8=0 (degree 3). NO.\n(viii) x^3-4x^2-x+1=(x-2)^3=x^3-6x^2+12x-8.\nx^3-4x^2-x+1=x^3-6x^2+12x-8 → 2x^2-13x+9=0. YES, quadratic."
+            },
+            {
+              "q_num": 2,
+              "marks": null,
+              "question": "Represent the following situations in the form of quadratic equations:",
+              "answer": "(i)  Area of rectangular plot = 528 m^2. Length = one more than twice breadth. Find l and b.\n(ii) Product of two consecutive positive integers = 306. Find them.\n(iii) Rohan's mother is 26 years older. Product of ages 3 years from now = 360. Find Rohan's age.\n(iv) Train travels 480 km at uniform speed. At 8 km/h less, takes 3 hours more. Find speed.\n\nANSWERS (Exercise 4.1 Q2):\n(i)  Let breadth = x m. Length = 2x+1. x(2x+1) = 528 → 2x^2+x-528 = 0.\n(ii) Let smaller integer = x. x(x+1) = 306 → x^2+x-306 = 0.\n(iii) Rohan's age = x. Mother = x+26. After 3 years: (x+3)(x+29) = 360 → x^2+32x-273 = 0.\n(iv) Speed = x km/h. 480/(x-8) - 480/x = 3 → x^2 - 8x - 1280 = 0."
+            }
+          ],
+          "raw": "Q1. Check whether the following are quadratic equations:\n(i)   (x+1)^2 = 2(x-3)\n(ii)  x^2 - 2x = (-2)(3-x)\n(iii) (x-2)(x+1) = (x-1)(x+3)\n(iv)  (x-3)(2x+1) = x(x+5)\n(v)   (2x-1)(x-3) = (x+5)(x-1)\n(vi)  x^2 + 3x + 1 = (x-2)^2\n(vii) (x+2)^3 = 2x(x^2-1)\n(viii) x^3 - 4x^2 - x + 1 = (x-2)^3\n\nANSWERS (Exercise 4.1 Q1):\n(i)   (x+1)^2=2(x-3) → x^2+2x+1=2x-6 → x^2+7=0. Degree 2. YES, quadratic.\n(ii)  x^2-2x=(-2)(3-x)=−6+2x → x^2-2x-2x+6=0 → x^2-4x+6=0. YES, quadratic.\n(iii) (x-2)(x+1)=x^2-x-2. (x-1)(x+3)=x^2+2x-3. x^2-x-2=x^2+2x-3 → -3x+1=0. NO.\n(iv)  (x-3)(2x+1)=2x^2-5x-3. x(x+5)=x^2+5x. 2x^2-5x-3=x^2+5x → x^2-10x-3=0. YES.\n(v)   (2x-1)(x-3)=2x^2-7x+3. (x+5)(x-1)=x^2+4x-5. x^2-11x+8=0. YES, quadratic.\n(vi)  x^2+3x+1=(x-2)^2=x^2-4x+4 → 7x-3=0. NO (linear).\n(vii) (x+2)^3=x^3+6x^2+12x+8. 2x(x^2-1)=2x^3-2x.\nx^3+6x^2+12x+8=2x^3-2x → -x^3+6x^2+14x+8=0 (degree 3). NO.\n(viii) x^3-4x^2-x+1=(x-2)^3=x^3-6x^2+12x-8.\nx^3-4x^2-x+1=x^3-6x^2+12x-8 → 2x^2-13x+9=0. YES, quadratic.\n\nQ2. Represent the following situations in the form of quadratic equations:\n(i)  Area of rectangular plot = 528 m^2. Length = one more than twice breadth. Find l and b.\n(ii) Product of two consecutive positive integers = 306. Find them.\n(iii) Rohan's mother is 26 years older. Product of ages 3 years from now = 360. Find Rohan's age.\n(iv) Train travels 480 km at uniform speed. At 8 km/h less, takes 3 hours more. Find speed.\n\nANSWERS (Exercise 4.1 Q2):\n(i)  Let breadth = x m. Length = 2x+1. x(2x+1) = 528 → 2x^2+x-528 = 0.\n(ii) Let smaller integer = x. x(x+1) = 306 → x^2+x-306 = 0.\n(iii) Rohan's age = x. Mother = x+26. After 3 years: (x+3)(x+29) = 360 → x^2+32x-273 = 0.\n(iv) Speed = x km/h. 480/(x-8) - 480/x = 3 → x^2 - 8x - 1280 = 0."
+        },
+        {
+          "type": "qa",
+          "label": "TOPIC 4.2: Q&A:",
+          "items": []
+        },
+        {
+          "type": "qa",
+          "label": "Q&A",
+          "items": [
+            {
+              "q_num": 1,
+              "marks": 2,
+              "question": "Define a quadratic equation in standard form. Give two examples.",
+              "answer": "ax^2 + bx + c = 0, where a, b, c are real numbers and a ≠ 0.\nExamples: (i) 2x^2 + x - 300 = 0.  (ii) x^2 - 3x + 2 = 0."
+            },
+            {
+              "q_num": 2,
+              "marks": 2,
+              "question": "Is (x+2)^3 = x^3 - 4 a quadratic equation? Verify.",
+              "answer": "LHS = x^3+6x^2+12x+8. Setting equal to x^3-4:\n6x^2+12x+12=0 → x^2+2x+2=0. Degree 2, a=1≠0.\nYES — quadratic equation."
+            },
+            {
+              "q_num": 3,
+              "marks": 2,
+              "question": "Is x(x+1)+8 = (x+2)(x-2) a quadratic equation? Verify.",
+              "answer": "LHS = x^2+x+8. RHS = x^2-4.\nx^2+x+8 = x^2-4 → x+12=0. Degree 1.\nNO — NOT a quadratic equation (reduces to linear)."
+            },
+            {
+              "q_num": 4,
+              "marks": 2,
+              "question": "Product of two consecutive positive integers = 306. Form the quadratic equation.",
+              "answer": "Let smaller integer = x. Next = x+1.\nx(x+1) = 306 → x^2+x-306 = 0.\n\n---\n\n3 ಮಾರ್ಕ್ಸ್ × 3 questions:"
+            },
+            {
+              "q_num": 5,
+              "marks": 3,
+              "question": "Check whether these are quadratic equations:",
+              "answer": "(i) LHS = x^2-4x+5. → x^2-4x+5 = 2x-3 → x^2-6x+8=0. Degree 2.\nYES — Quadratic equation.\n(ii) LHS=2x^2+3x. 2x^2+3x = x^2+1 → x^2+3x-1=0. Degree 2.\nYES — Quadratic equation."
+            },
+            {
+              "q_num": 6,
+              "marks": 3,
+              "question": "John and Jivanti have 45 marbles. Both lost 5. Product of remaining = 124.",
+              "answer": "Step 1: John's remaining = x-5. Jivanti's = 40-x.\nStep 2: (x-5)(40-x) = -x^2+45x-200.\nStep 3: -x^2+45x-200 = 124 → x^2-45x+324 = 0.\nANSWER: x^2-45x+324 = 0."
+            },
+            {
+              "q_num": 7,
+              "marks": 3,
+              "question": "Rohan's mother is 26 years older. Product of ages 3 years from now = 360.",
+              "answer": "Step 1: Rohan after 3 yrs = x+3. Mother = x+29.\nStep 2: (x+3)(x+29) = 360 → x^2+32x+87=360.\nStep 3: x^2+32x-273 = 0. a=1, b=32, c=-273.\nANSWER: x^2+32x-273=0, where a=1, b=32, c=-273.\n\n---\n\n4 ಮಾರ್ಕ್ಸ್ × 2 questions:"
+            },
+            {
+              "q_num": 8,
+              "marks": 4,
+              "question": "Train travels 480 km at speed x km/h. At (x-8) km/h, takes 3 hrs more.",
+              "answer": "Step 1: Time at x = 480/x. Time at (x-8) = 480/(x-8).\nStep 2: 480/(x-8) - 480/x = 3.\nStep 3: 480x - 480(x-8) = 3x(x-8) → 3840 = 3x^2-24x → x^2-8x-1280=0.\nStep 4: (x-40)(x+32)=0 → x=40 (reject x=-32).\nANSWER: Speed = 40 km/h."
+            },
+            {
+              "q_num": 9,
+              "marks": 4,
+              "question": "Rectangular plot area = 528 m^2. Length = one more than twice breadth. Find dimensions.",
+              "answer": "Step 1: Breadth=x, Length=2x+1. x(2x+1)=528 → 2x^2+x-528=0.\nStep 2: D = 1+4(2)(528) = 4225. √4225=65.\nStep 3: x=(-1+65)/4=16. (Reject x=-66/4.)\nStep 4: Breadth=16 m, Length=33 m.\nANSWER: Breadth=16 m, Length=33 m. (16×33=528 ✓)\n\n---\n\n5 ಮಾರ್ಕ್ಸ್ × 1 question:"
+            },
+            {
+              "q_num": 10,
+              "marks": 5,
+              "question": "",
+              "answer": "PART A:\n(i)  x^2-4x+5=2x-3 → x^2-6x+8=0. QUADRATIC ✓ (degree 2)\n(ii) x^2+x+8=x^2-4 → x+12=0. NOT quadratic — LINEAR (degree 1, x^2 cancelled)\n(iii) 2x^2+3x=x^2+1 → x^2+3x-1=0. QUADRATIC ✓ (degree 2)\n(iv) x^3+6x^2+12x+8=x^3-4 → x^2+2x+2=0. QUADRATIC ✓ (appears cubic, simplifies to degree 2)\nKey Rule: Always simplify before classifying. (ii) looks quadratic but x^2 cancels.\n\nPART B:\n(a) Breadth=x, Length=2x+1. x(2x+1)=528 → 2x^2+x-528=0. [a=2, b=1, c=-528]\n(b) Integers: x and x+1. x(x+1)=306 → x^2+x-306=0. [a=1, b=1, c=-306]"
+            }
+          ]
+        },
+        {
+          "type": "mcq",
+          "label": "MCQ",
+          "items": [
+            {
+              "mcq_num": 1,
+              "difficulty": "Easy",
+              "question": "In ax^2 + bx + c = 0, which condition must hold?",
+              "options": {
+                "A": "a = 0   (B) b ≠ 0   (C) a ≠ 0   (D) c ≠ 0"
+              },
+              "answer": "C",
+              "explanation": "a ≠ 0 ensures the equation has degree exactly 2."
+            },
+            {
+              "mcq_num": 2,
+              "difficulty": "Easy",
+              "question": "Which of the following is a quadratic equation?",
+              "options": {
+                "A": "x^3 + 2x + 1 = 0   (B) x^2 + 3x + 1 = 0   (C) 3x + 5 = 0   (D) 1/x + 2 = 0"
+              },
+              "answer": "B",
+              "explanation": "x^2+3x+1=0 is of form ax^2+bx+c=0 with a=1≠0."
+            },
+            {
+              "mcq_num": 3,
+              "difficulty": "Easy",
+              "question": "Is x(x+1)+8=(x+2)(x-2) a quadratic equation?",
+              "options": {
+                "A": "Yes   (B) No, linear   (C) No, cubic   (D) Yes, but not in standard form"
+              },
+              "answer": "B",
+              "explanation": "Simplifies to x+12=0, which is linear."
+            },
+            {
+              "mcq_num": 4,
+              "difficulty": "Easy",
+              "question": "Standard form of 4x - 3x^2 + 2 = 0 is:",
+              "options": {
+                "A": "4x - 3x^2 + 2 = 0   (B) -3x^2 + 4x + 2 = 0   (C) 3x^2 - 4x - 2 = 0   (D) Both (B) and (C)"
+              },
+              "answer": "D",
+              "explanation": "Both -3x^2+4x+2=0 and 3x^2-4x-2=0 are standard forms."
+            },
+            {
+              "mcq_num": 5,
+              "difficulty": "Easy",
+              "question": "Which of these is NOT a quadratic equation (after simplification)?",
+              "options": {
+                "A": "2x^2-3x+1=0   (B) (x-2)(x+1)=(x-1)(x+3)   (C) x(2x+3)=x^2+1   (D) x^2-2x=(-2)(3-x)"
+              },
+              "answer": "B",
+              "explanation": "(x-2)(x+1)=(x-1)(x+3) simplifies to -3x+1=0 (linear)."
+            },
+            {
+              "mcq_num": 6,
+              "difficulty": "Medium",
+              "question": "Is (x+2)^3 = x^3-4 a quadratic equation?",
+              "options": {
+                "A": "No, cubic   (B) Yes, after simplification   (C) No, linear   (D) Cannot be determined"
+              },
+              "answer": "B",
+              "explanation": "Simplifies to x^2+2x+2=0."
+            },
+            {
+              "mcq_num": 7,
+              "difficulty": "Medium",
+              "question": "John had x marbles, Jivanti had (45-x). Both lost 5. Product = 124. Equation:",
+              "options": {
+                "A": "x^2-45x+200=0   (B) x^2-45x+324=0   (C) x^2+45x-324=0   (D) x^2-40x+124=0"
+              },
+              "answer": "B",
+              "explanation": "(x-5)(40-x)=124 → x^2-45x+324=0."
+            },
+            {
+              "mcq_num": 8,
+              "difficulty": "Medium",
+              "question": "Is (2x-1)(x-3)=(x+5)(x-1) quadratic?",
+              "options": {
+                "A": "Yes, x^2-11x+8=0   (B) No, linear   (C) No, cubic   (D) Yes, a=2"
+              },
+              "answer": "A",
+              "explanation": "2x^2-7x+3=x^2+4x-5 → x^2-11x+8=0. Quadratic."
+            },
+            {
+              "mcq_num": 9,
+              "difficulty": "Medium",
+              "question": "Toys produced = x, cost = ₹(55-x), total = ₹750. Equation:",
+              "options": {
+                "A": "x^2-55x+750=0   (B) x^2+55x-750=0   (C) x^2-55x-750=0   (D) 55x+x^2=750"
+              },
+              "answer": "A",
+              "explanation": "x(55-x)=750 → x^2-55x+750=0."
+            },
+            {
+              "mcq_num": 10,
+              "difficulty": "Medium",
+              "question": "Is x^2+3x+1=(x-2)^2 quadratic?",
+              "options": {
+                "A": "Yes   (B) No, linear   (C) No, identity   (D) Cannot be determined"
+              },
+              "answer": "B",
+              "explanation": "x^2+3x+1=x^2-4x+4 → 7x-3=0. Linear."
+            },
+            {
+              "mcq_num": 11,
+              "difficulty": "Medium",
+              "question": "Is x^3-4x^2-x+1=(x-2)^3 quadratic?",
+              "options": {
+                "A": "Yes, 2x^2-13x+9=0   (B) No, cubic   (C) No, linear   (D) Cannot be determined"
+              },
+              "answer": "A",
+              "explanation": "(x-2)^3=x^3-6x^2+12x-8. Simplifies to 2x^2-13x+9=0. Quadratic."
+            },
+            {
+              "mcq_num": 12,
+              "difficulty": "Hard",
+              "question": "Train: 480 km at speed x; at (x-8) takes 3 hours more. Equation:",
+              "options": {
+                "A": "x^2-8x-1280=0   (B) x^2+8x-1280=0   (C) x^2-8x+1280=0   (D) 3x^2-24x=3840"
+              },
+              "answer": "A",
+              "explanation": "480/(x-8)-480/x=3 → 3840=3x^2-24x → x^2-8x-1280=0."
+            },
+            {
+              "mcq_num": 13,
+              "difficulty": "Hard",
+              "question": "Rohan's mother 26 years older. Product of ages 3 years from now=360. Rohan=x. Equation:",
+              "options": {
+                "A": "x^2+32x-273=0   (B) x^2+29x-273=0   (C) x^2+32x+273=0   (D) x^2-32x-273=0"
+              },
+              "answer": "A",
+              "explanation": "(x+3)(x+29)=360 → x^2+32x-273=0."
+            },
+            {
+              "mcq_num": 14,
+              "difficulty": "Hard",
+              "question": "Is (x+2)^3=2x(x^2-1) quadratic?",
+              "options": {
+                "A": "Yes   (B) No, cubic   (C) No, linear   (D) Cannot be determined"
+              },
+              "answer": "B",
+              "explanation": "LHS=x^3+6x^2+12x+8. RHS=2x^3-2x. -x^3+6x^2+14x+8=0 (degree 3). NOT quadratic."
+            },
+            {
+              "mcq_num": 15,
+              "difficulty": "Hard",
+              "question": "Which gives a quadratic equation after simplification?",
+              "options": {
+                "A": ",",
+                "B": "=linear;",
+                "C": "=cubic.",
+                "D": "(x-2)^2+1=2x-3"
+              },
+              "answer": "D",
+              "explanation": ""
+            }
+          ]
+        }
+      ],
+      "subtopics": []
+    },
+    {
+      "topic_num": "4.3",
+      "topic_name": "SOLUTION OF A QUADRATIC EQUATION BY FACTORISATION",
+      "mode": "B",
+      "sections": [
+        {
+          "type": "definition",
+          "label": "Definition:",
+          "text": "- A real number α is called a ROOT of the quadratic equation ax^2 + bx + c = 0, a ≠ 0,\nif aα^2 + bα + c = 0.\n- We say x = α is a SOLUTION of the equation, or that α SATISFIES the equation."
+        },
+        {
+          "type": "key_points",
+          "label": "Key Points:",
+          "points": [
+            "The ZEROES of ax^2 + bx + c and ROOTS of ax^2 + bx + c = 0 are the SAME.",
+            "A quadratic equation can have AT MOST TWO roots.",
+            "METHOD: Split the middle term → factorise into two linear factors → equate each to zero.",
+            "The ZERO PRODUCT PROPERTY: if A × B = 0, then A = 0 OR B = 0.",
+            "Always check: can the negative root be discarded due to physical constraints (e.g. length,",
+            "breadth, speed, number of items must be positive)?"
+          ]
+        },
+        {
+          "type": "list_of_topics",
+          "label": "LIST OF SUB TOPICS IN THIS TOPIC:",
+          "items": [
+            "(No sub-topics in textbook for 4.3 — Mode B applies)",
+            "EXAMPLES:",
+            "EXAMPLE 4.3.1: Find roots of 2x^2 - 5x + 3 = 0 by factorisation.",
+            "PROBLEM: 2x^2 - 5x + 3 = 0",
+            "SOLUTION:",
+            "Step 1: Split -5x as -2x - 3x. Check: (-2x)×(-3x) = 6x^2 = 2x^2 × 3. ✓",
+            "Step 2: 2x^2 - 5x + 3 = 2x^2 - 2x - 3x + 3",
+            "Step 3: = 2x(x-1) - 3(x-1) = (2x-3)(x-1)",
+            "Step 4: Set each factor to zero: 2x-3=0 → x=3/2. x-1=0 → x=1.",
+            "ANSWER: Roots are 1 and 3/2.",
+            "EXAMPLE 4.3.2: Find roots of 6x^2 - x - 2 = 0.",
+            "PROBLEM: 6x^2 - x - 2 = 0",
+            "SOLUTION:",
+            "Step 1: Split -x as +3x - 4x. Check: 3x×(-4x) = -12x^2 = 6x^2×(-2). ✓",
+            "Step 2: 6x^2 - x - 2 = 6x^2 + 3x - 4x - 2",
+            "Step 3: = 3x(2x+1) - 2(2x+1) = (3x-2)(2x+1)",
+            "Step 4: 3x-2=0 → x=2/3. 2x+1=0 → x=-1/2.",
+            "ANSWER: Roots are 2/3 and -1/2.",
+            "EXAMPLE 4.3.3: Find roots of 3x^2 - 2√6 x + 2 = 0.",
+            "PROBLEM: 3x^2 - 2√6 x + 2 = 0",
+            "SOLUTION:",
+            "Step 1: Split -2√6 x as -√6 x - √6 x. Check: (-√6 x)×(-√6 x) = 6x^2 = 3x^2×2. ✓",
+            "Step 2: 3x^2 - 2√6 x + 2 = 3x^2 - √6 x - √6 x + 2",
+            "Step 3: = √3 x(√3 x - √2) - √2(√3 x - √2) = (√3 x - √2)(√3 x - √2) = (√3 x - √2)^2",
+            "Step 4: (√3 x - √2)^2 = 0 → √3 x = √2 → x = √2/√3 = √(2/3).",
+            "ANSWER: Root is √(2/3) [repeated root, since (√3 x - √2)^2 = 0].",
+            "EXAMPLE 4.3.4: Find dimensions of prayer hall (2x^2 + x - 300 = 0).",
+            "PROBLEM: Breadth = x m, equation: 2x^2 + x - 300 = 0.",
+            "SOLUTION:",
+            "Step 1: Split x as +25x - 24x. Check: 25x×(-24x) = -600x^2 = 2x^2×(-300). ✓",
+            "Step 2: 2x^2 + x - 300 = 2x^2 - 24x + 25x - 300",
+            "Step 3: = 2x(x-12) + 25(x-12) = (x-12)(2x+25)",
+            "Step 4: x-12=0 → x=12. 2x+25=0 → x=-25/2=-12.5.",
+            "Step 5: Breadth cannot be negative. Reject x=-12.5.",
+            "ANSWER: Breadth = 12 m. Length = 2(12)+1 = 25 m."
+          ]
+        },
+        {
+          "type": "exercise",
+          "label": "EXERCISE 4.2:",
+          "items": [
+            {
+              "q_num": 1,
+              "marks": null,
+              "question": "Find roots of the following by factorisation:",
+              "answer": "(i)   x^2 - 3x - 10 = 0\n(ii)  2x^2 + x - 6 = 0\n(iii) √2 x^2 + 7x + 5√2 = 0\n(iv)  2x^2 - x + 1/8 = 0\n(v)   100x^2 - 20x + 1 = 0\n\nANSWERS (Exercise 4.2 Q1):\n(i)   x^2-3x-10=0 → (x-5)(x+2)=0 → x=5 or x=-2.\n(ii)  2x^2+x-6=0 → (2x-3)(x+2)=0 → x=3/2 or x=-2.\n(iii) √2 x^2+7x+5√2=0 → (√2 x+5)(x+√2)=0 → x=-5/√2 or x=-√2.\n(iv)  2x^2-x+1/8=0. Multiply by 8: 16x^2-8x+1=0 → (4x-1)^2=0 → x=1/4 (repeated).\n(v)   100x^2-20x+1=0 → (10x-1)^2=0 → x=1/10 (repeated)."
+            },
+            {
+              "q_num": 2,
+              "marks": null,
+              "question": "Solve the problems given in Example 4.2.1.",
+              "answer": "ANSWER: (i) x^2-45x+324=0 → (x-36)(x-9)=0 → x=36 or x=9.\nJohn had 36 marbles (Jivanti had 9) OR John had 9 marbles (Jivanti had 36).\n(ii) x^2-55x+750=0 → (x-25)(x-30)=0 → x=25 or x=30.\n25 toys at ₹30 each OR 30 toys at ₹25 each."
+            },
+            {
+              "q_num": 3,
+              "marks": null,
+              "question": "Find two numbers whose sum is 27 and product is 182.",
+              "answer": "ANSWER: Let one number = x. Other = 27-x. x(27-x)=182 → x^2-27x+182=0\n→ (x-13)(x-14)=0 → x=13 or x=14. Numbers are 13 and 14."
+            },
+            {
+              "q_num": 4,
+              "marks": null,
+              "question": "Find two consecutive positive integers, sum of whose squares is 365.",
+              "answer": "ANSWER: Let integers = x and x+1. x^2+(x+1)^2=365 → 2x^2+2x-364=0 → x^2+x-182=0\n→ (x-13)(x+14)=0 → x=13. Integers: 13 and 14."
+            },
+            {
+              "q_num": 5,
+              "marks": null,
+              "question": "Altitude of right triangle is 7 cm less than base. Hypotenuse = 13 cm. Find sides.",
+              "answer": "ANSWER: Base=x, altitude=x-7. x^2+(x-7)^2=169 → 2x^2-14x-120=0 → x^2-7x-60=0\n→ (x-12)(x+5)=0 → x=12. Base=12 cm, altitude=5 cm."
+            },
+            {
+              "q_num": 6,
+              "marks": null,
+              "question": "Cottage industry: cost per pottery article = ₹(2x+3) where x=articles made.",
+              "answer": "Total cost = ₹90. Find number of articles and cost each.\nANSWER: x(2x+3)=90 → 2x^2+3x-90=0 → (2x+15)(x-6)=0 → x=6 (reject x=-15/2).\n6 articles produced, each costing ₹(12+3) = ₹15."
+            }
+          ],
+          "raw": "Q1. Find roots of the following by factorisation:\n(i)   x^2 - 3x - 10 = 0\n(ii)  2x^2 + x - 6 = 0\n(iii) √2 x^2 + 7x + 5√2 = 0\n(iv)  2x^2 - x + 1/8 = 0\n(v)   100x^2 - 20x + 1 = 0\n\nANSWERS (Exercise 4.2 Q1):\n(i)   x^2-3x-10=0 → (x-5)(x+2)=0 → x=5 or x=-2.\n(ii)  2x^2+x-6=0 → (2x-3)(x+2)=0 → x=3/2 or x=-2.\n(iii) √2 x^2+7x+5√2=0 → (√2 x+5)(x+√2)=0 → x=-5/√2 or x=-√2.\n(iv)  2x^2-x+1/8=0. Multiply by 8: 16x^2-8x+1=0 → (4x-1)^2=0 → x=1/4 (repeated).\n(v)   100x^2-20x+1=0 → (10x-1)^2=0 → x=1/10 (repeated).\n\nQ2. Solve the problems given in Example 4.2.1.\nANSWER: (i) x^2-45x+324=0 → (x-36)(x-9)=0 → x=36 or x=9.\nJohn had 36 marbles (Jivanti had 9) OR John had 9 marbles (Jivanti had 36).\n(ii) x^2-55x+750=0 → (x-25)(x-30)=0 → x=25 or x=30.\n25 toys at ₹30 each OR 30 toys at ₹25 each.\n\nQ3. Find two numbers whose sum is 27 and product is 182.\nANSWER: Let one number = x. Other = 27-x. x(27-x)=182 → x^2-27x+182=0\n→ (x-13)(x-14)=0 → x=13 or x=14. Numbers are 13 and 14.\n\nQ4. Find two consecutive positive integers, sum of whose squares is 365.\nANSWER: Let integers = x and x+1. x^2+(x+1)^2=365 → 2x^2+2x-364=0 → x^2+x-182=0\n→ (x-13)(x+14)=0 → x=13. Integers: 13 and 14.\n\nQ5. Altitude of right triangle is 7 cm less than base. Hypotenuse = 13 cm. Find sides.\nANSWER: Base=x, altitude=x-7. x^2+(x-7)^2=169 → 2x^2-14x-120=0 → x^2-7x-60=0\n→ (x-12)(x+5)=0 → x=12. Base=12 cm, altitude=5 cm.\n\nQ6. Cottage industry: cost per pottery article = ₹(2x+3) where x=articles made.\nTotal cost = ₹90. Find number of articles and cost each.\nANSWER: x(2x+3)=90 → 2x^2+3x-90=0 → (2x+15)(x-6)=0 → x=6 (reject x=-15/2).\n6 articles produced, each costing ₹(12+3) = ₹15."
+        },
+        {
+          "type": "qa",
+          "label": "TOPIC 4.3: Q&A:",
+          "items": []
+        },
+        {
+          "type": "qa",
+          "label": "Q&A",
+          "items": [
+            {
+              "q_num": 1,
+              "marks": 2,
+              "question": "Define root of a quadratic equation. How many roots can it have at most?",
+              "answer": "A real number α is a ROOT of ax^2+bx+c=0 (a≠0) if aα^2+bα+c=0.\nA quadratic equation can have AT MOST TWO ROOTS (since the polynomial has at most 2 zeroes)."
+            },
+            {
+              "q_num": 2,
+              "marks": 2,
+              "question": "State the Zero Product Property and its role in factorisation method.",
+              "answer": "ZERO PRODUCT PROPERTY: If A×B = 0, then A = 0 OR B = 0.\nAfter factorising ax^2+bx+c into (px+q)(rx+s), we apply this to get\npx+q=0 OR rx+s=0, giving two linear equations and thus two roots."
+            },
+            {
+              "q_num": 3,
+              "marks": 2,
+              "question": "Find the roots of x^2 - 3x - 10 = 0 by factorisation.",
+              "answer": "x^2-3x-10 = (x-5)(x+2) = 0.\nx-5=0 → x=5.   x+2=0 → x=-2.\nRoots: 5 and -2."
+            },
+            {
+              "q_num": 4,
+              "marks": 2,
+              "question": "What are equal/repeated roots? Give one example.",
+              "answer": "EQUAL (REPEATED) ROOTS occur when both roots are the same value.\nThis happens when the quadratic is a perfect square.\nExample: 100x^2-20x+1 = (10x-1)^2 = 0 → x = 1/10 (repeated root).\n\n---\n\n3 ಮಾರ್ಕ್ಸ್ × 3 questions:"
+            },
+            {
+              "q_num": 5,
+              "marks": 3,
+              "question": "Find roots of 6x^2 - x - 2 = 0 by factorisation. Verify one root.",
+              "answer": "Step 1: Split -x as +3x-4x. [Check: 3x×(-4x)=-12x^2=6×(-2)×x^2 ✓]\nStep 2: 6x^2-x-2 = 3x(2x+1) - 2(2x+1) = (3x-2)(2x+1).\nStep 3: 3x-2=0 → x=2/3.  2x+1=0 → x=-1/2.\nVerify x=2/3: 6(4/9)-(2/3)-2 = 8/3-2/3-6/3 = 0. ✓\nANSWER: Roots are 2/3 and -1/2."
+            },
+            {
+              "q_num": 6,
+              "marks": 3,
+              "question": "Find two numbers whose sum is 27 and product is 182.",
+              "answer": "Step 1: Let one number = x. Other = 27-x.\nStep 2: x(27-x) = 182 → x^2-27x+182=0.\nStep 3: (x-13)(x-14)=0 → x=13 or x=14.\nANSWER: The numbers are 13 and 14. (13+14=27 ✓, 13×14=182 ✓)"
+            },
+            {
+              "q_num": 7,
+              "marks": 3,
+              "question": "Find roots of 3x^2 - 2√6 x + 2 = 0 by factorisation.",
+              "answer": "Step 1: Split -2√6 x as -√6 x - √6 x. [Check: (-√6)(-√6)x^2=6x^2=3×2×x^2 ✓]\nStep 2: 3x^2-2√6 x+2 = √3 x(√3 x-√2) - √2(√3 x-√2) = (√3 x-√2)^2.\nStep 3: (√3 x-√2)^2=0 → x=√2/√3=√(2/3).\nANSWER: Root is √(2/3) — repeated root (equal roots).\n\n---\n\n4 ಮಾರ್ಕ್ಸ್ × 2 questions:"
+            },
+            {
+              "q_num": 8,
+              "marks": 4,
+              "question": "The altitude of a right triangle is 7 cm less than its base.",
+              "answer": "Step 1: Let base=x cm. Altitude=(x-7) cm.\nStep 2: Pythagoras: x^2+(x-7)^2=169.\nx^2+x^2-14x+49=169.\nStep 3: 2x^2-14x-120=0 → x^2-7x-60=0.\nStep 4: (x-12)(x+5)=0 → x=12 or x=-5. Reject x=-5.\nANSWER: Base=12 cm, Altitude=5 cm. (Verify: 144+25=169=13^2 ✓)"
+            },
+            {
+              "q_num": 9,
+              "marks": 4,
+              "question": "Find two consecutive positive integers whose sum of squares is 365. Verify.",
+              "answer": "Step 1: Let integers = x and x+1.\nStep 2: x^2+(x+1)^2=365 → x^2+x^2+2x+1=365.\nStep 3: 2x^2+2x-364=0 → x^2+x-182=0.\nStep 4: (x-13)(x+14)=0 → x=13 (reject x=-14).\nANSWER: Integers are 13 and 14. (Verify: 169+196=365 ✓)\n\n---\n\n5 ಮಾರ್ಕ್ಸ್ × 1 question:"
+            },
+            {
+              "q_num": 10,
+              "marks": 5,
+              "question": "",
+              "answer": "PART A — Pottery Articles:\nStep 1: Let articles = x. Cost per article = ₹(2x+3).\nStep 2: x(2x+3) = 90 → 2x^2+3x-90=0.\nStep 3: D = 9+720=729. √729=27. x=(-3+27)/4=24/4=6. (Reject x=(-3-27)/4=-30/4.)\nStep 4: Articles=6. Cost per article=2(6)+3=₹15.\nANSWER A: 6 articles at ₹15 each. (Verify: 6×15=₹90 ✓)\n\nPART B — Prayer Hall:\nStep 1: Let breadth=x m. Length=(2x+1) m.\nStep 2: x(2x+1)=300 → 2x^2+x-300=0.\nStep 3: Split: 2x^2-24x+25x-300=2x(x-12)+25(x-12)=(x-12)(2x+25).\nStep 4: x=12 or x=-12.5. Reject x=-12.5.\nANSWER B: Breadth=12 m, Length=25 m. (Verify: 12×25=300 m^2 ✓)"
+            }
+          ]
+        },
+        {
+          "type": "mcq",
+          "label": "MCQ",
+          "items": [
+            {
+              "mcq_num": 1,
+              "difficulty": "Easy",
+              "question": "Maximum number of roots of a quadratic equation:",
+              "options": {
+                "A": "1   (B) 2   (C) 3   (D) Infinite"
+              },
+              "answer": "B",
+              "explanation": "Quadratic polynomial has at most 2 zeroes = at most 2 roots."
+            },
+            {
+              "mcq_num": 2,
+              "difficulty": "Easy",
+              "question": "In factorisation method, after factorising into two linear factors, we:",
+              "options": {
+                "A": "Add them   (B) Multiply them   (C) Equate each to zero   (D) Divide by one"
+              },
+              "answer": "C",
+              "explanation": "By Zero Product Property, each factor is equated to zero."
+            },
+            {
+              "mcq_num": 3,
+              "difficulty": "Easy",
+              "question": "Verify: is x=1 a root of 2x^2-3x+1=0?",
+              "options": {
+                "A": "2-3+1=0. YES   (B) 2-3+1=1. NO   (C) Not a root   (D) Cannot check"
+              },
+              "answer": "A",
+              "explanation": "2(1)^2-3(1)+1=2-3+1=0=RHS. YES, x=1 is a root."
+            },
+            {
+              "mcq_num": 4,
+              "difficulty": "Easy",
+              "question": "Roots of (2x-3)(x-1)=0 are:",
+              "options": {
+                "A": "3 and 1   (B) 3/2 and 1   (C) -3/2 and -1   (D) 2/3 and 1"
+              },
+              "answer": "B",
+              "explanation": "2x-3=0→x=3/2; x-1=0→x=1."
+            },
+            {
+              "mcq_num": 5,
+              "difficulty": "Easy",
+              "question": "Roots of 100x^2-20x+1=0:",
+              "options": {
+                "A": "1/10 and 1/10   (B) 1/10 and -1/10   (C) 10 and 10   (D) 1/5 and 1/5"
+              },
+              "answer": "A",
+              "explanation": "(10x-1)^2=0 → x=1/10 (repeated root)."
+            },
+            {
+              "mcq_num": 6,
+              "difficulty": "Medium",
+              "question": "Roots of 2x^2 + x - 6 = 0:",
+              "options": {
+                "A": "3/2 and -2   (B) -3/2 and 2   (C) 3 and -2   (D) 3/2 and 2"
+              },
+              "answer": "A",
+              "explanation": "(2x-3)(x+2)=0 → x=3/2 or x=-2."
+            },
+            {
+              "mcq_num": 7,
+              "difficulty": "Medium",
+              "question": "2x^2+x-300=0 (prayer hall). Breadth x=?",
+              "options": {
+                "A": "25 m   (B) 12 m   (C) -12.5 m   (D) 10 m"
+              },
+              "answer": "B",
+              "explanation": "(x-12)(2x+25)=0 → x=12 (positive). Breadth=12 m."
+            },
+            {
+              "mcq_num": 8,
+              "difficulty": "Medium",
+              "question": "Zeroes of polynomial ax^2+bx+c vs roots of ax^2+bx+c=0:",
+              "options": {
+                "A": "Different   (B) Same   (C) Zeroes = 2 × Roots   (D) No relation"
+              },
+              "answer": "B",
+              "explanation": "Zeroes of the polynomial equal roots of the equation."
+            },
+            {
+              "mcq_num": 9,
+              "difficulty": "Medium",
+              "question": "Roots of √2 x^2 + 7x + 5√2 = 0:",
+              "options": {
+                "A": "-√2 and -5/√2   (B) √2 and 5/√2   (C) -5 and √2   (D) -1 and -5"
+              },
+              "answer": "A",
+              "explanation": "(√2 x+5)(x+√2)=0 → x=-5/√2 or x=-√2."
+            },
+            {
+              "mcq_num": 10,
+              "difficulty": "Medium",
+              "question": "Two numbers: sum=27, product=182. Equation:",
+              "options": {
+                "A": "x^2-27x+182=0   (B) x^2+27x-182=0   (C) x^2-27x-182=0   (D) x^2+27x+182=0"
+              },
+              "answer": "A",
+              "explanation": "x(27-x)=182 → x^2-27x+182=0."
+            },
+            {
+              "mcq_num": 11,
+              "difficulty": "Medium",
+              "question": "Pottery: cost per article=₹(2x+3), x=articles, total=₹90. Equation:",
+              "options": {
+                "A": "2x^2+3x-90=0   (B) 2x^2+3x+90=0   (C) x^2+3x-90=0   (D) 2x^2-3x-90=0"
+              },
+              "answer": "A",
+              "explanation": "x(2x+3)=90 → 2x^2+3x-90=0."
+            },
+            {
+              "mcq_num": 12,
+              "difficulty": "Hard",
+              "question": "Two consecutive positive integers: sum of squares=365. They are:",
+              "options": {
+                "A": "12,13   (B) 13,14   (C) 14,15   (D) 11,12"
+              },
+              "answer": "B",
+              "explanation": "x^2+x-182=0 → (x-13)(x+14)=0 → x=13. Integers: 13,14."
+            },
+            {
+              "mcq_num": 13,
+              "difficulty": "Hard",
+              "question": "Both roots equal → quadratic is:",
+              "options": {
+                "A": "Two different linear factors   (B) Perfect square (repeated factor)",
+                "C": "Cannot be factorised   (D) Has three factors"
+              },
+              "answer": "B",
+              "explanation": "Equal roots → quadratic is a perfect square, e.g. (ax-b)^2=0."
+            },
+            {
+              "mcq_num": 14,
+              "difficulty": "Hard",
+              "question": "Right triangle: altitude 7 cm less than base, hypotenuse=13 cm. Base=?",
+              "options": {
+                "A": "5 cm   (B) 7 cm   (C) 12 cm   (D) 13 cm"
+              },
+              "answer": "C",
+              "explanation": "x^2+(x-7)^2=169 → x^2-7x-60=0 → x=12."
+            },
+            {
+              "mcq_num": 15,
+              "difficulty": "Hard",
+              "question": "2x^2 - x + 1/8 = 0. Roots:",
+              "options": {
+                "A": "1/4 and 1/4   (B) 1/2 and 1/4   (C) -1/4 and -1/4   (D) 1/4 and -1/4"
+              },
+              "answer": "A",
+              "explanation": "×8: 16x^2-8x+1=0 → (4x-1)^2=0 → x=1/4 (repeated)."
+            }
+          ]
+        }
+      ],
+      "subtopics": []
+    },
+    {
+      "topic_num": "4.4",
+      "topic_name": "NATURE OF ROOTS",
+      "mode": "B",
+      "sections": [
+        {
+          "type": "definition",
+          "label": "Definition:",
+          "text": "- The DISCRIMINANT of the quadratic equation ax^2 + bx + c = 0 is D = b^2 - 4ac.\n- It determines whether the equation has real roots and what type they are."
+        },
+        {
+          "type": "key_points",
+          "label": "Key Points:",
+          "points": [
+            "QUADRATIC FORMULA: x = (-b ± √(b^2 - 4ac)) / 2a (valid when b^2 - 4ac ≥ 0)",
+            "THREE CASES based on D = b^2 - 4ac:",
+            "(i)  D > 0: TWO DISTINCT REAL ROOTS — x = (-b+√D)/2a and x = (-b-√D)/2a",
+            "(ii) D = 0: TWO EQUAL REAL ROOTS (coincident) — both roots = -b/2a",
+            "(iii) D < 0: NO REAL ROOTS (square root of negative number has no real value)",
+            "If D < 0 → situation may be declared IMPOSSIBLE in real-life problems.",
+            "For two equal roots: D = 0 → solve for unknown parameters (e.g. k)."
+          ]
+        },
+        {
+          "type": "list_of_topics",
+          "label": "LIST OF SUB TOPICS IN THIS TOPIC:",
+          "items": [
+            "(No sub-topics in textbook for 4.4 — Mode B applies)"
+          ]
+        },
+        {
+          "type": "formulas",
+          "label": "FORMULA:",
+          "items": [
+            "x = (-b ± √(b^2 - 4ac)) / 2a        [Quadratic Formula]",
+            "WHERE:",
+            "x = roots of the quadratic equation",
+            "a = coefficient of x^2 (a ≠ 0)",
+            "b = coefficient of x",
+            "c = constant term",
+            "D = b^2 - 4ac = Discriminant",
+            "EXAMPLES:",
+            "EXAMPLE 4.4.1: Find discriminant of 2x^2 - 4x + 3 = 0. Find nature of roots.",
+            "PROBLEM: 2x^2 - 4x + 3 = 0",
+            "SOLUTION:",
+            "Step 1: Identify a=2, b=-4, c=3.",
+            "Step 2: D = b^2-4ac = (-4)^2 - 4(2)(3) = 16 - 24 = -8.",
+            "Step 3: D = -8 < 0.",
+            "ANSWER: The equation has NO REAL ROOTS.",
+            "EXAMPLE 4.4.2: A pole on boundary of circular park (diameter 13 m).",
+            "Difference of distances from two opposite gates A and B = 7 m.",
+            "Is it possible to erect such a pole? If yes, find distances.",
+            "PROBLEM: Diameter AB = 13 m. |AP - BP| = 7 m.",
+            "SOLUTION:",
+            "Step 1: Let BP = x m. Then AP = x + 7 m.",
+            "Step 2: Since AB is a diameter, ∠APB = 90° (angle in semicircle).",
+            "Step 3: By Pythagoras: AP^2 + BP^2 = AB^2",
+            "(x+7)^2 + x^2 = 13^2",
+            "x^2+14x+49+x^2 = 169",
+            "2x^2+14x-120 = 0 → x^2+7x-60 = 0.",
+            "Step 4: D = 7^2 - 4(1)(-60) = 49 + 240 = 289 > 0. Possible.",
+            "Step 5: x = (-7 ± √289)/2 = (-7 ± 17)/2.",
+            "x = 5 or x = -12. Reject x=-12 (distance must be positive).",
+            "ANSWER: BP = 5 m, AP = 12 m.",
+            "EXAMPLE 4.4.3: Find discriminant of 3x^2 - 2x + 1/3 = 0. Find roots if real.",
+            "PROBLEM: 3x^2 - 2x + 1/3 = 0",
+            "SOLUTION:",
+            "Step 1: a=3, b=-2, c=1/3.",
+            "Step 2: D = (-2)^2 - 4(3)(1/3) = 4 - 4 = 0.",
+            "Step 3: D = 0 → TWO EQUAL REAL ROOTS.",
+            "Step 4: Roots = -b/2a = -(-2)/(2×3) = 2/6 = 1/3.",
+            "ANSWER: Both roots = 1/3."
+          ]
+        },
+        {
+          "type": "exercise",
+          "label": "EXERCISE 4.3:",
+          "items": [
+            {
+              "q_num": 1,
+              "marks": null,
+              "question": "Find nature of roots. If real roots exist, find them:",
+              "answer": "(i)   2x^2 - 3x + 5 = 0\n(ii)  3x^2 - 4√3 x + 4 = 0\n(iii) 2x^2 - 6x + 3 = 0\n\nANSWERS (Exercise 4.3 Q1):\n(i)  a=2, b=-3, c=5. D=9-40=-31 < 0. NO REAL ROOTS.\n(ii) a=3, b=-4√3, c=4. D=48-48=0. EQUAL ROOTS. x=-(-4√3)/(6)=4√3/6=2√3/3=2/√3.\n(iii) a=2, b=-6, c=3. D=36-24=12 > 0. TWO DISTINCT REAL ROOTS.\nx=(6±√12)/4=(6±2√3)/4=(3±√3)/2. Roots=(3+√3)/2 and (3-√3)/2."
+            },
+            {
+              "q_num": 2,
+              "marks": null,
+              "question": "Find k so each equation has two equal roots:",
+              "answer": "(i)  2x^2 + kx + 3 = 0\n(ii) kx(x-2) + 6 = 0\n\nANSWERS (Exercise 4.3 Q2):\n(i)  For equal roots, D=0: k^2-4(2)(3)=0 → k^2=24 → k=±2√6.\n(ii) kx^2-2kx+6=0. D=(-2k)^2-4(k)(6)=4k^2-24k=4k(k-6)=0.\nk=0 or k=6. Reject k=0 (not quadratic). k=6."
+            },
+            {
+              "q_num": 3,
+              "marks": null,
+              "question": "Rectangular mango grove: length=twice breadth, area=800 m^2. Possible?",
+              "answer": "ANSWER: Let breadth=x. Length=2x. 2x^2=800 → x^2-400=0. D=0+1600=1600>0.\nYES. x=20. Breadth=20 m, length=40 m."
+            },
+            {
+              "q_num": 4,
+              "marks": null,
+              "question": "Two friends: ages sum=20. Product of ages 4 years ago=48. Possible?",
+              "answer": "ANSWER: Let one age=x. Other=20-x. (x-4)(16-x)=48.\n-x^2+20x-64=48 → x^2-20x+112=0. D=400-448=-48<0.\nNOT POSSIBLE."
+            },
+            {
+              "q_num": 5,
+              "marks": null,
+              "question": "Rectangular park: perimeter=80 m, area=400 m^2. Possible?",
+              "answer": "ANSWER: x+y=40 (perimeter/2). x(40-x)=400 → x^2-40x+400=0.\nD=1600-1600=0. YES. x=20. It is a square with side 20 m."
+            }
+          ],
+          "raw": "Q1. Find nature of roots. If real roots exist, find them:\n(i)   2x^2 - 3x + 5 = 0\n(ii)  3x^2 - 4√3 x + 4 = 0\n(iii) 2x^2 - 6x + 3 = 0\n\nANSWERS (Exercise 4.3 Q1):\n(i)  a=2, b=-3, c=5. D=9-40=-31 < 0. NO REAL ROOTS.\n(ii) a=3, b=-4√3, c=4. D=48-48=0. EQUAL ROOTS. x=-(-4√3)/(6)=4√3/6=2√3/3=2/√3.\n(iii) a=2, b=-6, c=3. D=36-24=12 > 0. TWO DISTINCT REAL ROOTS.\nx=(6±√12)/4=(6±2√3)/4=(3±√3)/2. Roots=(3+√3)/2 and (3-√3)/2.\n\nQ2. Find k so each equation has two equal roots:\n(i)  2x^2 + kx + 3 = 0\n(ii) kx(x-2) + 6 = 0\n\nANSWERS (Exercise 4.3 Q2):\n(i)  For equal roots, D=0: k^2-4(2)(3)=0 → k^2=24 → k=±2√6.\n(ii) kx^2-2kx+6=0. D=(-2k)^2-4(k)(6)=4k^2-24k=4k(k-6)=0.\nk=0 or k=6. Reject k=0 (not quadratic). k=6.\n\nQ3. Rectangular mango grove: length=twice breadth, area=800 m^2. Possible?\nANSWER: Let breadth=x. Length=2x. 2x^2=800 → x^2-400=0. D=0+1600=1600>0.\nYES. x=20. Breadth=20 m, length=40 m.\n\nQ4. Two friends: ages sum=20. Product of ages 4 years ago=48. Possible?\nANSWER: Let one age=x. Other=20-x. (x-4)(16-x)=48.\n-x^2+20x-64=48 → x^2-20x+112=0. D=400-448=-48<0.\nNOT POSSIBLE.\n\nQ5. Rectangular park: perimeter=80 m, area=400 m^2. Possible?\nANSWER: x+y=40 (perimeter/2). x(40-x)=400 → x^2-40x+400=0.\nD=1600-1600=0. YES. x=20. It is a square with side 20 m."
+        },
+        {
+          "type": "qa",
+          "label": "TOPIC 4.4: Q&A:",
+          "items": []
+        },
+        {
+          "type": "qa",
+          "label": "Q&A",
+          "items": [
+            {
+              "q_num": 1,
+              "marks": 2,
+              "question": "What is the discriminant of a quadratic equation? Write its formula.",
+              "answer": "The DISCRIMINANT of ax^2+bx+c=0 is D = b^2 - 4ac.\nIt determines the nature of roots:\nD>0 → two distinct real roots; D=0 → two equal real roots; D<0 → no real roots."
+            },
+            {
+              "q_num": 2,
+              "marks": 2,
+              "question": "Write the quadratic formula and state when it gives real roots.",
+              "answer": "QUADRATIC FORMULA: x = (-b ± √(b^2-4ac)) / 2a.\nGives REAL roots when D = b^2-4ac ≥ 0.\nIf D < 0, the equation has no real roots."
+            },
+            {
+              "q_num": 3,
+              "marks": 2,
+              "question": "Find discriminant of 2x^2-4x+3=0. State nature of roots.",
+              "answer": "a=2, b=-4, c=3.\nD = (-4)^2-4(2)(3) = 16-24 = -8.\nD=-8<0 → NO REAL ROOTS."
+            },
+            {
+              "q_num": 4,
+              "marks": 2,
+              "question": "Find discriminant of 3x^2-4√3 x+4=0. State nature of roots.",
+              "answer": "a=3, b=-4√3, c=4.\nD = (-4√3)^2-4(3)(4) = 48-48 = 0.\nD=0 → TWO EQUAL REAL ROOTS.\n\n---\n\n3 ಮಾರ್ಕ್ಸ್ × 3 questions:"
+            },
+            {
+              "q_num": 5,
+              "marks": 3,
+              "question": "Find roots of 2x^2-6x+3=0 using quadratic formula.",
+              "answer": "Step 1: a=2, b=-6, c=3. D=36-24=12>0. Two distinct roots.\nStep 2: x=(6±√12)/(2×2)=(6±2√3)/4=(3±√3)/2.\nStep 3: Roots=(3+√3)/2 and (3-√3)/2.\nANSWER: Roots are (3+√3)/2 and (3-√3)/2."
+            },
+            {
+              "q_num": 6,
+              "marks": 3,
+              "question": "Find value of k for which kx(x-2)+6=0 has two equal roots.",
+              "answer": "Step 1: kx^2-2kx+6=0. a=k, b=-2k, c=6. For equal roots: D=0.\nStep 2: (-2k)^2-4(k)(6)=0 → 4k^2-24k=0 → 4k(k-6)=0.\nStep 3: k=0 or k=6. Reject k=0 (not quadratic).\nANSWER: k=6."
+            },
+            {
+              "q_num": 7,
+              "marks": 3,
+              "question": "Is it possible to design a rectangular mango grove with length twice",
+              "answer": "Step 1: Breadth=x, Length=2x. Area: 2x^2=800 → x^2-400=0.\nStep 2: D=0+1600=1600>0. YES, possible.\nStep 3: x=√400=20. (Reject x=-20.)\nANSWER: Breadth=20 m, Length=40 m.\n\n---\n\n4 ಮಾರ್ಕ್ಸ್ × 2 questions:"
+            },
+            {
+              "q_num": 8,
+              "marks": 4,
+              "question": "A pole is erected on the boundary of a circular park (diameter=13 m).",
+              "answer": "Step 1: Let BP=x m. AP=(x+7) m. AB=13 m (diameter), so ∠APB=90°.\nStep 2: By Pythagoras: (x+7)^2+x^2=169.\nx^2+14x+49+x^2=169 → 2x^2+14x-120=0 → x^2+7x-60=0.\nStep 3: D=49+240=289>0. YES, possible.\nStep 4: x=(-7±17)/2 → x=5 or x=-12. Reject x=-12.\nANSWER: Distance from gate B=5 m, gate A=12 m."
+            },
+            {
+              "q_num": 9,
+              "marks": 4,
+              "question": "Find values of k for which 2x^2+kx+3=0 has two equal roots.",
+              "answer": "Step 1: a=2, b=k, c=3. For equal roots: D=0.\nStep 2: k^2-4(2)(3)=0 → k^2=24 → k=±2√6.\nStep 3: For k=2√6: roots=-b/2a=-2√6/4=-√6/2.\nStep 4: For k=-2√6: roots=-(-2√6)/4=√6/2.\nANSWER: k=2√6 → equal roots=-√6/2.\nk=-2√6 → equal roots=√6/2.\n\n---\n\n5 ಮಾರ್ಕ್ಸ್ × 1 question:"
+            },
+            {
+              "q_num": 10,
+              "marks": 5,
+              "question": "",
+              "answer": "PART A — Ages Problem:\nStep 1: Let one age=x. Other=20-x.\nStep 2: Four years ago: (x-4)(16-x)=48.\nStep 3: -x^2+20x-64=48 → x^2-20x+112=0.\nStep 4: D=400-448=-48. D<0.\nANSWER A: NOT POSSIBLE. D=-48<0 → no real solution for ages.\n\nPART B — Rectangular Park:\nStep 1: Length=x, breadth=y. x+y=40 (from perimeter). y=40-x.\nStep 2: Area: x(40-x)=400 → x^2-40x+400=0.\nStep 3: D=1600-1600=0. D=0 → possible. Equal roots.\nStep 4: x=40/2=20. y=20.\nANSWER B: YES, possible. Park is a SQUARE with side=20 m.\nVerify: Perimeter=80 m ✓, Area=400 m^2 ✓."
+            }
+          ]
+        },
+        {
+          "type": "mcq",
+          "label": "MCQ",
+          "items": [
+            {
+              "mcq_num": 1,
+              "difficulty": "Easy",
+              "question": "Discriminant of ax^2+bx+c=0 is:",
+              "options": {
+                "A": "b^2+4ac   (B) b^2-4ac   (C) 4ac-b^2   (D) b^2×4ac"
+              },
+              "answer": "B",
+              "explanation": "D = b^2 - 4ac."
+            },
+            {
+              "mcq_num": 2,
+              "difficulty": "Easy",
+              "question": "If D>0, the equation has:",
+              "options": {
+                "A": "No real roots   (B) Two equal real roots   (C) Two distinct real roots   (D) Three roots"
+              },
+              "answer": "C",
+              "explanation": "D>0 → two distinct real roots: x=(-b±√D)/2a."
+            },
+            {
+              "mcq_num": 3,
+              "difficulty": "Easy",
+              "question": "If D=0, both roots equal:",
+              "options": {
+                "A": "b/2a   (B) -b/2a   (C) Zero   (D) -b/a"
+              },
+              "answer": "B",
+              "explanation": "When D=0, roots = -b/2a (coincident)."
+            },
+            {
+              "mcq_num": 4,
+              "difficulty": "Easy",
+              "question": "For 2x^2-4x+3=0, D=?",
+              "options": {
+                "A": "8   (B) -8   (C) 16   (D) 40"
+              },
+              "answer": "B",
+              "explanation": "D=(-4)^2-4(2)(3)=16-24=-8."
+            },
+            {
+              "mcq_num": 5,
+              "difficulty": "Easy",
+              "question": "The quadratic formula gives:",
+              "options": {
+                "A": "x=(b±√(b^2-4ac))/2a",
+                "B": "x=(-b±√(b^2+4ac))/2a",
+                "C": "x=(-b±√(b^2-4ac))/2a",
+                "D": "x=(-b±√(b^2-4ac))/a"
+              },
+              "answer": "C",
+              "explanation": "x=(-b±√(b^2-4ac))/2a is the correct formula."
+            },
+            {
+              "mcq_num": 6,
+              "difficulty": "Medium",
+              "question": "For 3x^2-4√3 x+4=0, nature of roots:",
+              "options": {
+                "A": "Two distinct   (B) Two equal   (C) No real   (D) Cannot determine"
+              },
+              "answer": "B",
+              "explanation": "D=(4√3)^2-4(3)(4)=48-48=0. Equal roots."
+            },
+            {
+              "mcq_num": 7,
+              "difficulty": "Medium",
+              "question": "For 2x^2-3x+5=0, D and nature:",
+              "options": {
+                "A": "D=31>0; distinct   (B) D=-31<0; no real   (C) D=0; equal   (D) D=49>0; distinct"
+              },
+              "answer": "B",
+              "explanation": "D=9-40=-31<0. No real roots."
+            },
+            {
+              "mcq_num": 8,
+              "difficulty": "Medium",
+              "question": "For 2x^2+kx+3=0 to have equal roots, k=?",
+              "options": {
+                "A": "±6   (B) ±2√6   (C) ±12   (D) ±√6"
+              },
+              "answer": "B",
+              "explanation": "D=k^2-24=0 → k=±2√6."
+            },
+            {
+              "mcq_num": 9,
+              "difficulty": "Medium",
+              "question": "Circular park problem (diameter=13, difference=7): D=?",
+              "options": {
+                "A": "49   (B) 289   (C) 121   (D) -49"
+              },
+              "answer": "B",
+              "explanation": "x^2+7x-60=0. D=49+240=289."
+            },
+            {
+              "mcq_num": 10,
+              "difficulty": "Medium",
+              "question": "Two friends: sum of ages=20, product 4 years ago=48:",
+              "options": {
+                "A": "Possible; ages 12 and 8   (B) Not possible; D<0   (C) Possible; both 10   (D) Not possible; D=0"
+              },
+              "answer": "B",
+              "explanation": "x^2-20x+112=0. D=400-448=-48<0. Not possible."
+            },
+            {
+              "mcq_num": 11,
+              "difficulty": "Medium",
+              "question": "For 3x^2-2x+1/3=0, roots:",
+              "options": {
+                "A": "1/3 and -1/3   (B) 1/3 and 1/3   (C) 2/3 and 2/3   (D) No real roots"
+              },
+              "answer": "B",
+              "explanation": "D=4-4=0. Roots=-(-2)/6=1/3 (both equal)."
+            },
+            {
+              "mcq_num": 12,
+              "difficulty": "Hard",
+              "question": "For kx(x-2)+6=0 to have equal roots, k=?",
+              "options": {
+                "A": "0 only   (B) 6 only   (C) 0 or 6   (D) ±6"
+              },
+              "answer": "B",
+              "explanation": "4k(k-6)=0 → k=0 or k=6. k=0 rejected (not quadratic). k=6."
+            },
+            {
+              "mcq_num": 13,
+              "difficulty": "Hard",
+              "question": "Rectangular park: perimeter=80m, area=400m^2:",
+              "options": {
+                "A": "Possible; 30m×10m   (B) Possible; 20m×20m (square)   (C) Not possible; D<0   (D) Possible; 40m×0"
+              },
+              "answer": "B",
+              "explanation": "x^2-40x+400=0. D=0. x=20. Square of side 20m."
+            },
+            {
+              "mcq_num": 14,
+              "difficulty": "Hard",
+              "question": "2x^2-6x+3=0. Roots:",
+              "options": {
+                "A": "and",
+                "B": "both correct.",
+                "C": "Both (A) and (B) are equivalent",
+                "D": "3+√3 and 3-√3"
+              },
+              "answer": "C",
+              "explanation": ""
+            },
+            {
+              "mcq_num": 15,
+              "difficulty": "Hard",
+              "question": "Mango grove: length=twice breadth, area=800m^2. D=?",
+              "options": {
+                "A": "0   (B) 400   (C) 1600   (D) -1600"
+              },
+              "answer": "C",
+              "explanation": "x^2-400=0. a=1,b=0,c=-400. D=0-4(1)(-400)=1600."
+            }
+          ]
+        },
+        {
+          "type": "key_points",
+          "label": "Key Points:",
+          "points": [
+            "1. A QUADRATIC EQUATION in x is of the form ax^2+bx+c=0, a,b,c real, a≠0.",
+            "2. α is a ROOT of ax^2+bx+c=0 if aα^2+bα+c=0. Zeroes of polynomial = roots of equation.",
+            "3. FACTORISATION METHOD: Factorise ax^2+bx+c into two linear factors; equate each to zero.",
+            "4. QUADRATIC FORMULA: x=(-b±√(b^2-4ac))/2a, when b^2-4ac≥0.",
+            "5. DISCRIMINANT D=b^2-4ac:",
+            "(i)  D>0 → two distinct real roots",
+            "(ii) D=0 → two equal real roots",
+            "(iii) D<0 → no real roots"
+          ]
+        }
+      ],
+      "subtopics": []
+    },
+    {
+      "topic_num": "4.1",
+      "topic_name": "Definition + Key Points + Q&A (11) + MCQ (15) ✅",
+      "mode": "B",
+      "sections": [],
+      "subtopics": []
+    },
+    {
+      "topic_num": "4.2",
+      "topic_name": "Definition + Key Points + List of Sub Topics (Mode B) +",
+      "mode": "B",
+      "sections": [],
+      "subtopics": []
+    },
+    {
+      "topic_num": "4.3",
+      "topic_name": "Definition + Key Points + List of Sub Topics (Mode B) +",
+      "mode": "B",
+      "sections": [],
+      "subtopics": []
+    },
+    {
+      "topic_num": "4.4",
+      "topic_name": "Definition + Key Points + List of Sub Topics (Mode B) + FORMULA +",
+      "mode": "B",
+      "sections": [],
+      "subtopics": []
+    }
+  ]
+}
