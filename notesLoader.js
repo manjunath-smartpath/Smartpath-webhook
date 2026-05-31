@@ -9,7 +9,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const NOTES_DIR = path.join(__dirname, 'notes');
+const NOTES_DIR = __dirname;  // JSON files are in repo root (alongside index.js)
 
 // notesDB key = "{cls}_{subject}_{chapter}"  e.g. "9_Science_9"
 const notesDB = {};
@@ -36,7 +36,13 @@ function normalizeSubject(rawSubject) {
 }
 
 function loadAllNotes() {
-  const files = fs.readdirSync(NOTES_DIR).filter(f => f.endsWith('.json') && !f.startsWith('_'));
+  const files = fs.readdirSync(NOTES_DIR).filter(f =>
+    f.endsWith('.json') &&
+    !f.startsWith('_') &&
+    f !== 'package.json' &&
+    f !== 'package-lock.json' &&
+    /^\d+th_/.test(f)   // only chapter files like "8th_Science_Ch1.json"
+  );
   let loaded = 0;
 
   for (const file of files) {
@@ -101,7 +107,6 @@ function getChapterName(cls, subject, ch) {
 function hasChapterContent(cls, subject, ch) {
   const c = getChapter(cls, subject, ch);
   if (!c) return false;
-  // True if chapter_sections has any qa/mcq/definition with content
   return c.chapter_sections.some(s =>
     (s.type === 'qa' && (s.items || []).length > 0) ||
     (s.type === 'mcq' && (s.items || []).length > 0) ||
@@ -149,7 +154,7 @@ function getSections(sectionsArr, type) {
   return (sectionsArr || []).filter(s => s.type === type);
 }
 
-// Collect all Q&A items from a sections array → [{q_num, marks, question, answer}]
+// Collect all Q&A items from a sections array
 function collectQA(sectionsArr) {
   const out = [];
   for (const s of (sectionsArr || [])) {
@@ -180,7 +185,6 @@ module.exports = {
   getSections,
   collectQA,
   collectMCQ,
-  // expose for debugging
   _notesDB: notesDB,
   _chapterIndex: chapterIndex
 };
