@@ -1,6 +1,7 @@
 {
   "name": "smartpath-webhook",
-  "version": "1.0.0",
+  "version": "2.0.0",
+  "description": "Smartpath Kalike — KSEEB tutoring WhatsApp bot (tap-navigation + quiz + GPT)",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
@@ -8,9 +9,9 @@
   "dependencies": {
     "express": "^4.18.2",
     "axios": "^1.6.0",
-    "google-spreadsheet": "^4.1.4",
+    "google-spreadsheet": "^4.1.1",
     "google-auth-library": "^9.0.0",
-    "@pinecone-database/pinecone": "^3.0.0",
-    "openai": "^4.0.0"
+    "@pinecone-database/pinecone": "^2.0.0",
+    "openai": "^4.20.0"
   }
 }

@@ -1,343 +1,27 @@
+// ============================================================
+// SECTION 1 + 3 + 9: SETUP + STATE + WEBHOOK ROUTER
+// Smartpath Kalike Phase 3 — main index.js core
+// ============================================================
+
 const express = require('express');
-const axios = require('axios');
-const { GoogleSpreadsheet } = require('google-spreadsheet');
-const { JWT } = require('google-auth-library');
-const { Pinecone } = require('@pinecone-database/pinecone');
-const OpenAI = require('openai');
-const fs = require('fs');
+const N = require('./notesLoader');
+const S = require('./sendHelpers');
+const NAV = require('./navigation');
+const C = require('./contentDisplay');
+const Q = require('./quizEngine');
+const G = require('./sheetAndGpt');
 
 const app = express();
 app.use(express.json());
-app.use((req, res, next) => {
-  console.log("Incoming:", req.method, req.url);
-  next();
-});
 
 const VERIFY_TOKEN = process.env.VERIFY_TOKEN;
-const WHATSAPP_TOKEN = process.env.WHATSAPP_TOKEN;
-const PHONE_NUMBER_ID = process.env.PHONE_NUMBER_ID;
-const GOOGLE_SHEET_ID = process.env.GOOGLE_SHEET_ID;
 
-// ============ MEMORY ============
-const studentMemory = {};
+// Load all notes at startup
+N.loadAllNotes();
 
-// ============ FAQ CACHE ============
-const CACHE_FILE = '/app/faq_cache.json';
-let faqCache = {};
-
-function loadCache() {
-  try {
-    if (fs.existsSync(CACHE_FILE)) {
-      faqCache = JSON.parse(fs.readFileSync(CACHE_FILE, 'utf8'));
-      console.log(`Cache loaded: ${Object.keys(faqCache).length} entries`);
-    }
-  } catch (e) {
-    console.error('Cache load error:', e.message);
-    faqCache = {};
-  }
-}
-
-function saveCache(key, value) {
-  try {
-    faqCache[key] = value;
-    fs.writeFileSync(CACHE_FILE, JSON.stringify(faqCache), 'utf8');
-  } catch (e) {
-    console.error('Cache save error:', e.message);
-  }
-}
-
-loadCache();
-
-// ============ CHAPTER MAPPING ============
-const chapterMap = {
-  "6": {
-    "1": "Patterns in Mathematics",
-    "2": "Lines and Angles",
-    "3": "Playing with Numbers",
-    "4": "Basic Geometrical Ideas",
-    "5": "Understanding Elementary Shapes",
-    "6": "Perimeter and Area",
-    "7": "Fractions",
-    "8": "Decimals",
-    "9": "Data Handling",
-    "10": "Mensuration",
-    "11": "Algebra",
-    "12": "Ratio and Proportion",
-  },
-  "7": {
-    "1": "Integers",
-    "2": "Fractions and Decimals",
-    "3": "Data Handling",
-    "4": "Simple Equations",
-    "5": "Lines and Angles",
-    "6": "Triangle and its Properties",
-    "7": "Comparing Quantities",
-    "8": "Rational Numbers",
-    "9": "Perimeter and Area",
-    "10": "Algebraic Expressions",
-    "11": "Exponents and Powers",
-    "12": "Symmetry",
-    "13": "Visualising Solid Shapes",
-  },
-  "8": {
-    "1": "Rational Numbers",
-    "2": "Linear Equations in One Variable",
-    "3": "Understanding Quadrilaterals",
-    "4": "Practical Geometry",
-    "5": "Data Handling",
-    "6": "Squares and Square Roots",
-    "7": "Cubes and Cube Roots",
-    "8": "Comparing Quantities",
-    "9": "Algebraic Expressions and Identities",
-    "10": "Visualizing Solid Shapes",
-  },
-  "9": {
-    "1": "Number Systems",
-    "2": "Polynomials",
-    "3": "Coordinate Geometry",
-    "4": "Linear Equations in Two Variables",
-    "5": "Euclid Geometry",
-    "6": "Lines and Angles",
-    "7": "Triangles",
-    "8": "Quadrilaterals",
-    "9": "Circles",
-    "10": "Heron Formula",
-    "11": "Surface Areas and Volumes",
-    "12": "Statistics",
-  },
-  "10": {
-    "1": "Real Numbers",
-    "2": "Polynomials",
-    "3": "Pair of Linear Equations",
-    "4": "Quadratic Equations",
-    "5": "Arithmetic Progressions",
-    "6": "Triangles",
-    "7": "Coordinate Geometry",
-    "8": "Trigonometry",
-    "9": "Applications of Trigonometry",
-    "10": "Circles",
-    "11": "Areas Related to Circles",
-    "12": "Surface Areas and Volumes",
-    "13": "Statistics",
-    "14": "Probability",
-  }
-};
-
-// ============ FOLLOW-UP WORDS ============
-const followUpWords = [
-  "more", "explain more", "little more", "explain again",
-  "above topic", "about above", "more about",
-  "with examples", "with calculation",
-  "calculated examples", "same topic", "tell me more",
-  "elaborate", "detail", "in detail", "example",
-  "and more", "give more", "what else"
-];
-
-function isFollowUp(question) {
-  const q = question.toLowerCase().trim();
-  return followUpWords.some(word => q.includes(word));
-}
-
-function buildSearchQuery(question, studentClass) {
-  let q = question.toLowerCase().trim();
-
-  // Chapter number → name
-  const chapterMatch = q.match(/chapter\s+(\d+)/);
-  if (chapterMatch) {
-    const chNum = chapterMatch[1];
-    if (chapterMap[studentClass]?.[chNum]) {
-      question = question.replace(/chapter\s+\d+/i, chapterMap[studentClass][chNum]);
-    }
-  }
-
-  return `Class ${studentClass} KSEEB: ${question}`;
-}
-
-function cleanLatex(text) {
-  return text
-    .replace(/\\\(|\\\)/g, '')
-    .replace(/\\\[|\\\]/g, '')
-    .replace(/\\frac\{([^}]+)\}\{([^}]+)\}/g, '$1/$2')
-    .replace(/\\times/g, 'x')
-    .replace(/\\div/g, '÷')
-    .replace(/\\pm/g, '±')
-    .replace(/\\sqrt\{([^}]+)\}/g, 'sqrt($1)')
-    .replace(/\\text\{([^}]+)\}/g, '$1')
-    .replace(/\{|\}/g, '')
-    .replace(/\\\\/g, '\n');
-}
-
-// ============ ASK KSEEB ============
-async function askKSEEB(question, studentClass, from) {
-  try {
-    // Follow-up check
-    let searchQuestion = question;
-    if (isFollowUp(question) && studentMemory[from]) {
-      searchQuestion = `${studentMemory[from]} ${question}`;
-      console.log('Follow-up detected:', searchQuestion);
-    } else {
-      studentMemory[from] = question;
-    }
-
-    // Build search query
-    const enhanced = buildSearchQuery(searchQuestion, studentClass);
-    console.log('Search query:', enhanced);
-
-    // Cache check
-    const cacheKey = `${studentClass}_${enhanced.toLowerCase().trim()}`;
-    if (faqCache[cacheKey]) {
-      console.log('Cache hit!');
-      return faqCache[cacheKey];
-    }
-
-    const pc = new Pinecone({ apiKey: process.env.PINECONE_API_KEY });
-    const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
-
-    // Embedding
-    const embRes = await openai.embeddings.create({
-      model: 'text-embedding-3-small',
-      input: enhanced
-    });
-    const queryVector = embRes.data[0].embedding;
-
-    // Pinecone Search
-    const index = pc.index('kseeb-kalike');
-    const searchRes = await index.query({
-      vector: queryVector,
-      topK: 8,
-      includeMetadata: true,
-      filter: { class: { $eq: studentClass } }
-    });
-
-    console.log('Pinecone matches:', searchRes.matches.length);
-    if (searchRes.matches.length > 0) {
-      console.log('Top score:', searchRes.matches[0].score);
-    }
-
-    const context = searchRes.matches
-      .filter(m => m.score > 0.3)
-      .map(m => m.metadata.text)
-      .join('\n\n');
-
-    if (!context || context.trim() === '') {
-      return 'ಈ ಪ್ರಶ್ನೆಗೆ ಉತ್ತರ textbook ನಲ್ಲಿ ಸಿಗಲಿಲ್ಲ.';
-    }
-
-    // GPT
-    const gptRes = await openai.chat.completions.create({
-      model: 'gpt-4o-mini',
-      messages: [
-        {
-          role: 'system',
-          content: `You are a KSEEB Karnataka state board tutor for classes 6-10.
-Answer ONLY using the provided context from KSEEB textbooks.
-Your answer must closely match the textbook content - use the same words, terms and explanations as in the textbook context provided.
-Do NOT paraphrase or rewrite - stay as close to the textbook language as possible.
-Do NOT use general knowledge.
-Do NOT make up answers.
-Answer strictly in the same language as the user's original question.
-If the user wrote in English, respond ONLY in English.
-If the user wrote in Kannada, respond ONLY in Kannada.
-Do NOT mix languages.
-Keep answer under 250 words.
-Never use LaTeX format like \\( \\) or \\frac{}{}.
-Write math in plain text only:
-- Use 2 1/3 instead of \\(2 \\frac{1}{3}\\)
-- Use a/b instead of \\frac{a}{b}
-- Use x^2 instead of \\(x^2\\)
-If answer not in context, say exactly: "ಈ ಪ್ರಶ್ನೆಗೆ ಉತ್ತರ textbook ನಲ್ಲಿ ಸಿಗಲಿಲ್ಲ"
-
-Context:
-${context}`
-        },
-        { role: 'user', content: question }
-      ],
-      max_tokens: 500
-    });
-
-    let reply = gptRes.choices[0].message.content;
-    reply = cleanLatex(reply);
-
-    // Cache save
-    saveCache(cacheKey, reply);
-
-    return reply;
-
-  } catch (e) {
-    console.error('askKSEEB error:', e.message);
-    return '⚠️ ತಾಂತ್ರಿಕ ತೊಂದರೆ ಆಗಿದೆ, ದಯವಿಟ್ಟು ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ.';
-  }
-}
-
-// ============ GOOGLE SHEET ============
-async function getSheet() {
-  const creds = JSON.parse(process.env.GOOGLE_SERVICE_ACCOUNT_JSON);
-  const jwt = new JWT({
-    email: creds.client_email,
-    key: creds.private_key,
-    scopes: ['https://www.googleapis.com/auth/spreadsheets'],
-  });
-  const doc = new GoogleSpreadsheet(GOOGLE_SHEET_ID, jwt);
-  await doc.loadInfo();
-  return doc.sheetsByIndex[0];
-}
-
-async function getStudent(phone) {
-  try {
-    const sheet = await getSheet();
-    const rows = await sheet.getRows();
-    return rows.find(r => r.get('Phone') === phone) || null;
-  } catch (e) {
-    console.error("Sheet read error:", e.message);
-    return null;
-  }
-}
-
-async function saveNewStudent(phone) {
-  try {
-    const sheet = await getSheet();
-    const today = new Date();
-    const expiry = new Date(today);
-    expiry.setDate(expiry.getDate() + 2);
-    await sheet.addRow({
-      Phone: phone,
-      Name: '',
-      Class: '',
-      School: '',
-      City: '',
-      Start_Date: today.toISOString().split('T')[0],
-      Status: 'TRIAL',
-      Expiry_Date: expiry.toISOString().split('T')[0],
-      Registration_Step: 'PENDING_NAME'
-    });
-  } catch (e) {
-    console.error("Sheet write error:", e.message);
-  }
-}
-
-async function updateStudent(student, field, value) {
-  try {
-    student.set(field, value);
-    await student.save();
-  } catch (e) {
-    console.error("Sheet update error:", e.message);
-  }
-}
-
-async function isExpired(student) {
-  const expiry = new Date(student.get('Expiry_Date'));
-  return new Date() > expiry;
-}
-
-async function sendMessage(to, text) {
-  await axios.post(
-    `https://graph.facebook.com/v19.0/${PHONE_NUMBER_ID}/messages`,
-    { messaging_product: 'whatsapp', to, text: { body: text } },
-    { headers: { Authorization: `Bearer ${WHATSAPP_TOKEN}`, 'Content-Type': 'application/json' } }
-  );
-}
-
-// ============ WEBHOOK ============
+// ============================================================
+// WEBHOOK VERIFY (GET)
+// ============================================================
 app.get('/webhook', (req, res) => {
   const mode = req.query['hub.mode'];
   const token = req.query['hub.verify_token'];
@@ -349,88 +33,241 @@ app.get('/webhook', (req, res) => {
   }
 });
 
+// ============================================================
+// WEBHOOK RECEIVE (POST)
+// ============================================================
 app.post('/webhook', async (req, res) => {
   res.sendStatus(200);
   try {
     const entry = req.body.entry?.[0];
     const changes = entry?.changes?.[0];
     const message = changes?.value?.messages?.[0];
-    if (!message || message.type !== 'text') return;
+    if (!message) return;
 
-    const userMsg = message.text.body.trim();
     const from = message.from;
 
-    let student = await getStudent(from);
+    // Extract text OR interactive reply id
+    let userText = null;
+    let replyId = null;
+    if (message.type === 'text') {
+      userText = message.text.body.trim();
+    } else if (message.type === 'interactive') {
+      const it = message.interactive;
+      replyId = it.button_reply?.id || it.list_reply?.id || null;
+    } else {
+      return; // ignore other types
+    }
 
+    // ---- Get / create student ----
+    let student = await G.getStudent(from);
     if (!student) {
-      await saveNewStudent(from);
-      await sendMessage(from, `🙏 ಸ್ವಾಗತ! ನಾನು Smartpath Kalike, ನಿಮ್ಮ KSEEB ಟ್ಯೂಟರ್!\n\nಮೊದಲು ನಿಮ್ಮ ಹೆಸರು ಹೇಳಿ:`);
+      await G.saveNewStudent(from);
+      await S.sendText(from,
+        `🙏 ನಮಸ್ಕಾರ! Smartpath Kalike ಗೆ ಸ್ವಾಗತ 🎓\n\nನಿಮ್ಮ ಹೆಸರು ಹೇಳಿ / Your name:`);
       return;
     }
 
+    // ---- Registration flow ----
     const step = student.get('Registration_Step');
-    const status = student.get('Status');
-
-    if (step === 'PENDING_NAME') {
-      await updateStudent(student, 'Name', userMsg);
-      await updateStudent(student, 'Registration_Step', 'PENDING_CLASS');
-      await sendMessage(from, `ನಮಸ್ಕಾರ ${userMsg}! 😊\n\nನೀವು ಯಾವ ತರಗತಿ?\n(6, 7, 8, 9 ಅಥವಾ 10 ಎಂದು ಹೇಳಿ)`);
+    if (step && step !== 'COMPLETE') {
+      await handleRegistration(from, student, step, userText, replyId);
       return;
     }
 
-    if (step === 'PENDING_CLASS') {
-      if (!['6','7','8','9','10'].includes(userMsg)) {
-        await sendMessage(from, `⚠️ ದಯವಿಟ್ಟು 6, 7, 8, 9 ಅಥವಾ 10 ಎಂದು ಮಾತ್ರ ಹೇಳಿ:`);
+    // ---- Access check (TRIAL valid / ACTIVE) ----
+    if (!G.hasAccess(student)) {
+      // Auto-block expired trials
+      if (G.getStatus(student) === 'TRIAL' && G.isExpired(student)) {
+        await G.updateStudent(student, 'Status', 'BLOCKED');
+      }
+      await S.sendButtons(from,
+        `⏰ ನಿಮ್ಮ trial/plan ಮುಗಿದಿದೆ!\n\n💰 Upgrade: ₹99 / ₹199 / ₹299\n📞 7019068606`,
+        [{ id: 'NAV_MENU', title: '🔄 Try Again' }]);
+      return;
+    }
+
+    const cls = String(student.get('Class') || '').replace(/[^\d]/g, '') || '8';
+
+    // ---- Interactive (button/list tap) routing ----
+    if (replyId) {
+      await routeInteractive(from, student, cls, replyId);
+      return;
+    }
+
+    // ---- Text handling ----
+    if (userText) {
+      const lower = userText.toLowerCase();
+      // Menu triggers
+      if (['hi', 'hello', 'menu', 'start', 'ಮೆನು', 'hai', 'hey'].includes(lower)) {
+        await NAV.showMainMenu(from, cls);
         return;
       }
-      await updateStudent(student, 'Class', userMsg);
-      await updateStudent(student, 'Registration_Step', 'PENDING_SCHOOL');
-      await sendMessage(from, `${userMsg}ನೇ ತರಗತಿ ✅\n\nನಿಮ್ಮ ಶಾಲೆ ಹೆಸರು ಹೇಳಿ:`);
+      // Otherwise = a typed question → GPT (₹299 only)
+      await handleTypedQuestion(from, student, cls, userText);
       return;
     }
-
-    if (step === 'PENDING_SCHOOL') {
-      await updateStudent(student, 'School', userMsg);
-      await updateStudent(student, 'Registration_Step', 'PENDING_CITY');
-      await sendMessage(from, `${userMsg} ✅\n\nನಿಮ್ಮ ಊರು (City) ಹೇಳಿ:`);
-      return;
-    }
-
-    if (step === 'PENDING_CITY') {
-      await updateStudent(student, 'City', userMsg);
-      await updateStudent(student, 'Registration_Step', 'COMPLETE');
-      const name = student.get('Name');
-      const cls = student.get('Class');
-      await sendMessage(from,
-        `🎉 ನೋಂದಣಿ ಪೂರ್ಣವಾಯಿತು!\n\n` +
-        `ಹೆಸರು: ${name}\nತರಗತಿ: ${cls}ನೇ\nಶಾಲೆ: ${student.get('School')}\nಊರು: ${userMsg}\n\n` +
-        `✅ 2 ದಿನ FREE Trial ಶುರುವಾಯಿತು!\n\nಈಗ ಯಾವ ವಿಷಯದ ಪ್ರಶ್ನೆ ಬೇಕಾದರೂ ಕೇಳಿ! 📚`
-      );
-      return;
-    }
-
-    if (status === 'BLOCKED') {
-      await sendMessage(from, `⛔ ನಿಮ್ಮ Trial ಮುಗಿದಿದೆ!\n\n💰 ₹199/month ಗೆ Subscribe ಮಾಡಿ\n📞 Admin: 7019068606`);
-      return;
-    }
-
-    if (status === 'TRIAL') {
-      const expired = await isExpired(student);
-      if (expired) {
-        await updateStudent(student, 'Status', 'BLOCKED');
-        await sendMessage(from, `⏰ ನಿಮ್ಮ 2 ದಿನದ Free Trial ಮುಗಿದಿದೆ!\n\n📞 7019068606 ಗೆ WhatsApp ಮಾಡಿ\n💰 ₹199/month ಗೆ Subscribe ಮಾಡಿ`);
-        return;
-      }
-    }
-
-    const studentClass = student.get('Class') || '6';
-    const reply = await askKSEEB(userMsg, studentClass, from);
-    await sendMessage(from, reply.substring(0, 4000));
-
   } catch (err) {
-    console.error("FULL ERROR:", err.response?.data || err.message);
+    console.error('Webhook error:', err.response?.data || err.message);
   }
 });
 
+// ============================================================
+// REGISTRATION FLOW
+// ============================================================
+async function handleRegistration(from, student, step, userText, replyId) {
+  if (step === 'PENDING_NAME') {
+    if (!userText) { await S.sendText(from, 'ದಯವಿಟ್ಟು ಹೆಸರು type ಮಾಡಿ:'); return; }
+    await G.updateStudent(student, 'Name', userText);
+    await G.updateStudent(student, 'Registration_Step', 'PENDING_CLASS');
+    await S.sendButtons(from, `ನಮಸ್ಕಾರ ${userText}! 😊\nಯಾವ class? / Which class?`, [
+      { id: 'REG_CLASS_8', title: '8ನೇ / Class 8' },
+      { id: 'REG_CLASS_9', title: '9ನೇ / Class 9' },
+      { id: 'REG_CLASS_10', title: '10ನೇ / Class 10' }
+    ]);
+    return;
+  }
+
+  if (step === 'PENDING_CLASS') {
+    let cls = null;
+    if (replyId && replyId.startsWith('REG_CLASS_')) cls = replyId.replace('REG_CLASS_', '');
+    else if (userText && ['8','9','10'].includes(userText.trim())) cls = userText.trim();
+    if (!cls) {
+      await S.sendButtons(from, '⚠️ Class ಆರಿಸಿ:', [
+        { id: 'REG_CLASS_8', title: '8ನೇ / Class 8' },
+        { id: 'REG_CLASS_9', title: '9ನೇ / Class 9' },
+        { id: 'REG_CLASS_10', title: '10ನೇ / Class 10' }
+      ]);
+      return;
+    }
+    await G.updateStudent(student, 'Class', cls);
+    await G.updateStudent(student, 'Registration_Step', 'PENDING_SCHOOL');
+    await S.sendText(from, `${cls}ನೇ ತರಗತಿ ✅\n\nಶಾಲೆಯ ಹೆಸರು? / School name:`);
+    return;
+  }
+
+  if (step === 'PENDING_SCHOOL') {
+    if (!userText) { await S.sendText(from, 'ಶಾಲೆಯ ಹೆಸರು type ಮಾಡಿ:'); return; }
+    await G.updateStudent(student, 'School', userText);
+    await G.updateStudent(student, 'Registration_Step', 'PENDING_CITY');
+    await S.sendText(from, `${userText} ✅\n\nಊರು? / City:`);
+    return;
+  }
+
+  if (step === 'PENDING_CITY') {
+    if (!userText) { await S.sendText(from, 'ಊರು type ಮಾಡಿ:'); return; }
+    await G.updateStudent(student, 'City', userText);
+    await G.updateStudent(student, 'Registration_Step', 'COMPLETE');
+    const cls = String(student.get('Class') || '').replace(/[^\d]/g,'') || '8';
+    await S.sendText(from,
+      `🎉 ನೋಂದಣಿ ಪೂರ್ಣ! / Registered!\n\n` +
+      `✅ 2 ದಿನ FREE Trial ಶುರು!\n\nಈಗ ಕಲಿಯೋಣ! 📚`);
+    await NAV.showMainMenu(from, cls);
+    return;
+  }
+}
+
+// ============================================================
+// INTERACTIVE ROUTING (button/list ID → action)
+// ============================================================
+async function routeInteractive(from, student, cls, id) {
+  const st = NAV.getState(from);
+  st.cls = cls;
+
+  // --- Subject ---
+  if (id === 'SUBJ_Maths') return NAV.showParts(from, 'Maths');
+  if (id === 'SUBJ_Science') return NAV.showParts(from, 'Science');
+
+  // --- Part ---
+  if (id === 'PART_1') return NAV.showChapters(from, '1');
+  if (id === 'PART_2') return NAV.showChapters(from, '2');
+
+  // --- Chapter selected ---
+  if (id.startsWith('CH_')) {
+    const ch = id.replace('CH_', '');
+    return NAV.showChapterMenu(from, ch);
+  }
+
+  // --- Chapter-level content menu ---
+  if (id === 'CHCONTENT_TOPICS') return NAV.showTopics(from, st.ch);
+  if (id === 'CHCONTENT_NOTES') { st.contentSource = 'chapter'; st.topicIndex=null; st.subtopicIndex=null; return C.showNotes(from, st); }
+  if (id === 'CHCONTENT_QA')    { st.contentSource = 'chapter'; st.topicIndex=null; st.subtopicIndex=null; return C.startQA(from, st); }
+  if (id === 'CHCONTENT_QUIZ')  { st.contentSource = 'chapter'; st.topicIndex=null; st.subtopicIndex=null; return Q.startQuiz(from, st); }
+
+  // --- Topic selected ---
+  if (id.startsWith('TOPIC_')) {
+    const idx = parseInt(id.replace('TOPIC_', ''), 10);
+    st.contentSource = null;
+    return NAV.showTopicMenu(from, idx);
+  }
+
+  // --- Sub-topic list / selected ---
+  if (id === 'CONTENT_SUBTOPICS') return NAV.showSubtopics(from);
+  if (id.startsWith('SUBTOPIC_')) {
+    const idx = parseInt(id.replace('SUBTOPIC_', ''), 10);
+    return NAV.showSubtopicMenu(from, idx);
+  }
+
+  // --- Content type (Notes / Q&A / Quiz) ---
+  if (id === 'CONTENT_NOTES')  { st.contentSource = null; return C.showNotes(from, st); }
+  if (id === 'CONTENT_QA')     { st.contentSource = (st.contentSource==='chapter')?'chapter':null; return C.startQA(from, st); }
+  if (id === 'CONTENT_QUIZ')   { return Q.startQuiz(from, st); }
+
+  // --- Notes follow-ups ---
+  if (id === 'NOTES_ACTIVITY') return C.showActivity(from, st);
+  if (id === 'NOTES_DIAGRAMS') return C.showDiagrams(from, st);
+
+  // --- Q&A next ---
+  if (id === 'QA_NEXT') return C.nextQA(from, st);
+
+  // --- Quiz ---
+  if (id === 'QUIZ_START') return Q.sendQuizQuestion(from, st);
+  if (id.startsWith('QUIZ_ANS_')) {
+    const letter = id.replace('QUIZ_ANS_', '');
+    return Q.handleQuizAnswer(from, st, letter);
+  }
+  if (id === 'QUIZ_NEXT') return Q.nextQuizQuestion(from, st);
+  if (id === 'QUIZ_RETRY') return Q.retryQuiz(from, st);
+
+  // --- Navigation ---
+  if (id === 'NAV_BACK') return NAV.handleBack(from);
+  if (id === 'NAV_MENU') return NAV.showMainMenu(from, cls);
+
+  // Unknown → menu
+  await NAV.showMainMenu(from, cls);
+}
+
+// ============================================================
+// TYPED QUESTION → GPT (₹299 only, 10/day)
+// ============================================================
+async function handleTypedQuestion(from, student, cls, question) {
+  const gpt = G.checkGptAccess(student);
+
+  if (!gpt.allowed) {
+    if (gpt.reason === 'plan') {
+      await S.sendButtons(from,
+        `💎 "Ask Question" is a Premium feature (₹299 plan).\n\n` +
+        `Tap menu ಬಳಸಿ free browse ಮಾಡಿ, ಅಥವಾ ₹299 ಗೆ upgrade!\n📞 7019068606`,
+        [{ id: 'NAV_MENU', title: '📚 Browse Topics' }]);
+    } else if (gpt.reason === 'limit') {
+      await S.sendButtons(from,
+        `⏰ ಇಂದಿನ 10 questions ಮುಗಿದಿದೆ. ನಾಳೆ reset ಆಗುತ್ತೆ.\n\n` +
+        `Tap menu ನಿಂದ unlimited browse ಮಾಡಿ!`,
+        [{ id: 'NAV_MENU', title: '📚 Browse Topics' }]);
+    }
+    return;
+  }
+
+  // Allowed → call GPT
+  await S.sendText(from, '🤔 ಯೋಚಿಸ್ತಿದೀನಿ... / Thinking...');
+  const answer = await G.askKSEEB(question, cls, from);
+  await G.incrementGptCount(student);
+  await S.sendText(from, answer.substring(0, 4000));
+  await S.sendButtons(from,
+    `💎 ${gpt.remaining - 1} questions ಉಳಿದಿದೆ ಇಂದು.`,
+    [{ id: 'NAV_MENU', title: '📚 Browse Topics' }]);
+}
+
 const PORT = process.env.PORT || 3000;
-app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
+app.listen(PORT, () => console.log(`✅ Smartpath Kalike running on port ${PORT}`));
+
+module.exports = { app, routeInteractive, handleRegistration, handleTypedQuestion };
