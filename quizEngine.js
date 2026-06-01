@@ -12,6 +12,7 @@
 const N = require('./notesLoader');
 const S = require('./sendHelpers');
 const C = require('./contentDisplay');  // for getCurrentSections
+const G = require('./sheetAndGpt');     // for quiz score save
 
 // ============================================================
 // START QUIZ — load MCQ list, show intro
@@ -152,9 +153,18 @@ async function showQuizResult(to, st) {
 
   await S.sendText(to, msg);
 
+  // Save score to Google Sheet (QuizScores tab)
+  try {
+    const { label } = C.getCurrentSections(st);
+    await G.saveQuizScore(
+      to, st.studentName || '', st.cls || '', st.subject || '',
+      st.ch || '', label || '', score, total
+    );
+  } catch (e) { console.error('score save skip:', e.message); }
+
   await S.sendButtons(to, 'ಮುಂದೇನು? / What next?', [
     { id: 'QUIZ_RETRY', title: '🔄 Retry Quiz' },
-    { id: 'CHCONTENT_TOPICS', title: '📋 Topics' },
+    { id: 'PROGRESS', title: '📊 My Progress' },
     { id: 'NAV_MENU', title: '🏠 Home' }
   ]);
 }

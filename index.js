@@ -184,6 +184,7 @@ async function handleRegistration(from, student, step, userText, replyId) {
 async function routeInteractive(from, student, cls, id) {
   const st = NAV.getState(from);
   st.cls = cls;
+  st.studentName = student.get('Name') || '';
 
   // --- Subject ---
   if (id === 'SUBJ_Maths') return NAV.showParts(from, 'Maths');
@@ -242,6 +243,9 @@ async function routeInteractive(from, student, cls, id) {
   if (id === 'QUIZ_NEXT') return Q.nextQuizQuestion(from, st);
   if (id === 'QUIZ_RETRY') return Q.retryQuiz(from, st);
 
+  // --- Progress ---
+  if (id === 'PROGRESS') return showProgress(from);
+
   // --- Feedback ---
   if (id === 'FEEDBACK') {
     st.awaitingFeedback = true;
@@ -286,6 +290,38 @@ async function handleTypedQuestion(from, student, cls, question) {
   await S.sendButtons(from,
     `💎 ${gpt.remaining - 1} questions ಉಳಿದಿದೆ ಇಂದು.`,
     [{ id: 'NAV_MENU', title: '📚 Browse Topics' }]);
+}
+
+// ============================================================
+// PROGRESS — show quiz score history & stats
+// ============================================================
+async function showProgress(from) {
+  const p = await G.getProgress(from);
+
+  if (!p || p.count === 0) {
+    await S.sendButtons(from,
+      '📊 ಇನ್ನೂ quiz ಮಾಡಿಲ್ಲ!\nಒಂದು quiz ಮುಗಿಸಿ, ನಿಮ್ಮ progress ಇಲ್ಲಿ ಕಾಣುತ್ತೆ. 📚',
+      [{ id: 'NAV_MENU', title: '🏠 Home' }]);
+    return;
+  }
+
+  let msg = `📊 *ನಿಮ್ಮ Progress*\n\n`;
+  msg += `📝 ಒಟ್ಟು Quiz: *${p.count}*\n`;
+  msg += `⭐ ಸರಾಸರಿ Score: *${p.avg}%*\n`;
+  if (p.best) msg += `🏆 ಅತ್ಯುತ್ತಮ: ${p.best.percent}% (${p.best.subject} ${p.best.chapter})\n`;
+  if (p.worst && p.count > 1) msg += `📉 ಸುಧಾರಿಸಬೇಕು: ${p.worst.percent}% (${p.worst.subject} ${p.worst.chapter})\n`;
+
+  if (p.recent && p.recent.length) {
+    msg += `\n*ಇತ್ತೀಚಿನ Quiz:*\n`;
+    for (const r of p.recent) {
+      const icon = (parseInt(r.percent) >= 60) ? '✅' : '📚';
+      msg += `${icon} ${r.subject} ${r.chapter} — ${r.score}/${r.total} (${r.percent}%)\n`;
+    }
+  }
+
+  await S.sendText(from, msg.substring(0, 4000));
+  await S.sendButtons(from, 'ಮುಂದೇನು? / What next?',
+    [{ id: 'NAV_MENU', title: '🏠 Home' }]);
 }
 
 const PORT = process.env.PORT || 3000;

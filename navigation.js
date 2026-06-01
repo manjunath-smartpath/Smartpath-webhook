@@ -44,11 +44,12 @@ async function showMainMenu(to, cls, track = true) {
   st.cls = cls;
   st.subject = null; st.part = null; st.ch = null;
   st.topicIndex = null; st.subtopicIndex = null; st.contentSource = null;
-  await S.sendButtons(to, '📚 ಏನು ಕಲಿಯಬೇಕು? / What to learn?', [
+  await S.sendList(to, '📚 ಏನು ಕಲಿಯಬೇಕು? / What to learn?', 'Select', [
     { id: 'SUBJ_Maths', title: '📐 ಗಣಿತ Maths' },
     { id: 'SUBJ_Science', title: '🔬 ವಿಜ್ಞಾನ Science' },
+    { id: 'PROGRESS', title: '📊 My Progress' },
     { id: 'FEEDBACK', title: '💬 Feedback' }
-  ]);
+  ], 'Main Menu');
 }
 
 // ============================================================

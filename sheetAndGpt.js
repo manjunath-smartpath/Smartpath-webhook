@@ -195,6 +195,80 @@ ${context}` },
   }
 }
 
+// ---------- QUIZ SCORE HISTORY ----------
+async function getDoc() {
+  const creds = JSON.parse(process.env.GOOGLE_SERVICE_ACCOUNT_JSON);
+  const jwt = new JWT({
+    email: creds.client_email, key: creds.private_key,
+    scopes: ['https://www.googleapis.com/auth/spreadsheets'],
+  });
+  const doc = new GoogleSpreadsheet(GOOGLE_SHEET_ID, jwt);
+  await doc.loadInfo();
+  return doc;
+}
+
+// Save one quiz result
+async function saveQuizScore(phone, name, cls, subject, chapter, topic, score, total) {
+  try {
+    const doc = await getDoc();
+    let sheet = doc.sheetsByTitle['QuizScores'];
+    if (!sheet) {
+      sheet = await doc.addSheet({ title: 'QuizScores',
+        headerValues: ['Date','Phone','Name','Class','Subject','Chapter','Topic','Score','Total','Percent'] });
+    }
+    const pct = total > 0 ? Math.round((score / total) * 100) : 0;
+    await sheet.addRow({
+      Date: new Date().toISOString(),
+      Phone: phone, Name: name || '', Class: cls || '',
+      Subject: subject || '', Chapter: chapter || '', Topic: topic || '',
+      Score: String(score), Total: String(total), Percent: String(pct)
+    });
+    return true;
+  } catch (e) {
+    console.error('Quiz score save error:', e.message);
+    return false;
+  }
+}
+
+// Fetch progress stats for a student
+async function getProgress(phone) {
+  try {
+    const doc = await getDoc();
+    const sheet = doc.sheetsByTitle['QuizScores'];
+    if (!sheet) return null;
+    const rows = await sheet.getRows();
+    const mine = rows.filter(r => r.get('Phone') === phone);
+    if (!mine.length) return { count: 0 };
+
+    const pcts = mine.map(r => parseInt(r.get('Percent')) || 0);
+    const avg = Math.round(pcts.reduce((a, b) => a + b, 0) / pcts.length);
+
+    // best & worst
+    let best = mine[0], worst = mine[0];
+    for (const r of mine) {
+      if ((parseInt(r.get('Percent')) || 0) > (parseInt(best.get('Percent')) || 0)) best = r;
+      if ((parseInt(r.get('Percent')) || 0) < (parseInt(worst.get('Percent')) || 0)) worst = r;
+    }
+
+    // recent 5 (last rows)
+    const recent = mine.slice(-5).reverse().map(r => ({
+      subject: r.get('Subject'), chapter: r.get('Chapter'),
+      topic: r.get('Topic'), score: r.get('Score'),
+      total: r.get('Total'), percent: r.get('Percent')
+    }));
+
+    return {
+      count: mine.length, avg,
+      best: { percent: best.get('Percent'), subject: best.get('Subject'), chapter: best.get('Chapter') },
+      worst: { percent: worst.get('Percent'), subject: worst.get('Subject'), chapter: worst.get('Chapter') },
+      recent
+    };
+  } catch (e) {
+    console.error('Progress fetch error:', e.message);
+    return null;
+  }
+}
+
 // ---------- FEEDBACK ----------
 async function saveFeedback(phone, name, text) {
   try {
@@ -227,5 +301,6 @@ module.exports = {
   getPlan, getStatus, isExpired, hasAccess,
   checkGptAccess, incrementGptCount, askKSEEB,
   saveFeedback,
+  saveQuizScore, getProgress,
   GPT_DAILY_LIMIT
 };
