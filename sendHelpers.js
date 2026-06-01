@@ -44,6 +44,20 @@ async function sendText(to, text) {
   }
 }
 
+// ---------- Forward image by media ID (payment screenshots) ----------
+async function sendImageById(to, mediaId, caption = '') {
+  try {
+    await axios.post(API_URL, {
+      messaging_product: 'whatsapp',
+      to,
+      type: 'image',
+      image: { id: mediaId, caption: String(caption).substring(0, 1000) }
+    }, { headers: HEADERS });
+  } catch (e) {
+    console.error('sendImageById error:', e.response?.data?.error?.message || e.message);
+  }
+}
+
 // ---------- 2. REPLY BUTTONS (max 3) ----------
 // buttons = [{ id, title }, ...]  (max 3)
 async function sendButtons(to, bodyText, buttons) {
@@ -142,6 +156,7 @@ async function sendMultiSectionList(to, bodyText, buttonLabel, sections) {
 
 module.exports = {
   sendText,
+  sendImageById,
   sendButtons,
   sendList,
   sendMultiSectionList,

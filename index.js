@@ -54,6 +54,32 @@ app.post('/webhook', async (req, res) => {
     } else if (message.type === 'interactive') {
       const it = message.interactive;
       replyId = it.button_reply?.id || it.list_reply?.id || null;
+    } else if (message.type === 'image') {
+      // Payment screenshot — forward to admin
+      let student0 = await G.getStudent(from);
+      const name = student0 ? (student0.get('Name') || '') : '';
+      const cls0 = student0 ? String(student0.get('Class') || '').replace(/[^\d]/g, '') : '';
+      const adminPhone = process.env.ADMIN_PHONE;
+      if (adminPhone) {
+        // Forward the image to admin with a caption
+        await S.sendText(adminPhone,
+          `💳 *Payment Screenshot ಬಂದಿದೆ!*\n\n` +
+          `👤 ${name || 'Unknown'}\n📱 ${from}\n🎓 Class ${cls0}\n\n` +
+          `Verify ಮಾಡಿ → Sheet ನಲ್ಲಿ Plan + Status ACTIVE set ಮಾಡಿ.\n` +
+          `(Image ಕೆಳಗೆ forward ಆಗ್ತಿದೆ)`);
+        try {
+          const mediaId = message.image?.id;
+          if (mediaId) await S.sendImageById(adminPhone, mediaId,
+            `From ${name} (${from}) - Class ${cls0}`);
+        } catch (e) { console.error('img fwd:', e.message); }
+      }
+      // Acknowledge to student
+      await S.sendButtons(from,
+        `✅ Payment screenshot ಸಿಕ್ತು! 🙏\n\n` +
+        `24 ಗಂಟೆಯೊಳಗೆ verify ಮಾಡಿ activate ಮಾಡ್ತೀವಿ.\n` +
+        `ಸಹಾಯಕ್ಕೆ: ${process.env.SUPPORT_PHONE || '7019068606'}`,
+        [{ id: 'NAV_MENU', title: '🏠 Home' }]);
+      return;
     } else {
       return; // ignore other types
     }
@@ -81,8 +107,8 @@ app.post('/webhook', async (req, res) => {
         await G.updateStudent(student, 'Status', 'BLOCKED');
       }
       await S.sendButtons(from,
-        `⏰ ನಿಮ್ಮ trial/plan ಮುಗಿದಿದೆ!\n\n💰 Upgrade: ₹99 / ₹199 / ₹299\n📞 7019068606`,
-        [{ id: 'NAV_MENU', title: '🔄 Try Again' }]);
+        `⏰ ನಿಮ್ಮ trial/plan ಮುಗಿದಿದೆ!\n\n💰 Upgrade: ₹199 / ₹299\n📞 7019068606`,
+        [{ id: 'UPGRADE', title: '💳 Upgrade Plan' }, { id: 'NAV_MENU', title: '🔄 Try Again' }]);
       return;
     }
 
