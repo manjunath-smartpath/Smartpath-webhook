@@ -109,6 +109,25 @@ app.post('/webhook', async (req, res) => {
         return;
       }
 
+      // Parent phone capture mode (for parent report)
+      if (st.awaitingParentPhone) {
+        st.awaitingParentPhone = false;
+        const digits = userText.replace(/\D/g, '');
+        if (digits.length < 10) {
+          await S.sendButtons(from, '⚠️ ಸರಿಯಾದ 10-digit number type ಮಾಡಿ.',
+            [{ id: 'PARENT_REPORT', title: '🔁 ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ' }, { id: 'NAV_MENU', title: '🏠 Home' }]);
+          return;
+        }
+        const parentPhone = digits.length === 10 ? '91' + digits : digits;
+        const prog = await G.getProgress(from);
+        const cls = String(student.get('Class') || '').replace(/[^\d]/g, '');
+        const ok = await G.sendParentReport(parentPhone, student.get('Name'), cls, prog);
+        await S.sendButtons(from,
+          ok ? '✅ Parent ಗೆ report ಕಳಿಸಿದೆ!' : '⚠️ ಕಳಿಸೋಕೆ ಆಗಲಿಲ್ಲ. ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ.',
+          [{ id: 'NAV_MENU', title: '🏠 Home' }]);
+        return;
+      }
+
       // Menu triggers
       if (['hi', 'hello', 'menu', 'start', 'ಮೆನು', 'hai', 'hey'].includes(lower)) {
         await NAV.showMainMenu(from, cls);
@@ -168,11 +187,58 @@ async function handleRegistration(from, student, step, userText, replyId) {
   if (step === 'PENDING_CITY') {
     if (!userText) { await S.sendText(from, 'ಊರು type ಮಾಡಿ:'); return; }
     await G.updateStudent(student, 'City', userText);
-    await G.updateStudent(student, 'Registration_Step', 'COMPLETE');
-    const cls = String(student.get('Class') || '').replace(/[^\d]/g,'') || '8';
+    await G.updateStudent(student, 'Registration_Step', 'PENDING_CODE');
     await S.sendText(from,
-      `🎉 ನೋಂದಣಿ ಪೂರ್ಣ! / Registered!\n\n` +
-      `✅ 2 ದಿನ FREE Trial ಶುರು!\n\nಈಗ ಕಲಿಯೋಣ! 📚`);
+      `📋 School code ಇದ್ಯಾ?\n\n` +
+      `ಇದ್ರೆ → code type ಮಾಡಿ (e.g. GHS10A)\n` +
+      `ಇಲ್ಲ ಅಂದ್ರೆ → *NO* type ಮಾಡಿ (2 ದಿನ free trial)`);
+    return;
+  }
+
+  if (step === 'PENDING_CODE') {
+    const cls = String(student.get('Class') || '').replace(/[^\d]/g,'') || '8';
+    const txt = (userText || '').trim();
+
+    // Skip code → trial
+    if (!txt || ['no', 'illa', 'ಇಲ್ಲ', 'skip', 'na'].includes(txt.toLowerCase())) {
+      await G.updateStudent(student, 'Registration_Step', 'COMPLETE');
+      await S.sendText(from,
+        `🎉 ನೋಂದಣಿ ಪೂರ್ಣ! / Registered!\n\n✅ 2 ದಿನ FREE Trial ಶುರು!\n\nಈಗ ಕಲಿಯೋಣ! 📚`);
+      await NAV.showMainMenu(from, cls);
+      return;
+    }
+
+    // Validate code
+    const res = await G.validateSchoolCode(txt, cls);
+    if (!res.ok) {
+      let msg;
+      switch (res.reason) {
+        case 'invalid': msg = '❌ Code ಸರಿ ಇಲ್ಲ. ಮತ್ತೆ type ಮಾಡಿ ಅಥವಾ *NO* ಅಂತ type ಮಾಡಿ.'; break;
+        case 'inactive': msg = '❌ ಈ code ಈಗ active ಇಲ್ಲ. *NO* type ಮಾಡಿ ಅಥವಾ admin ನ ಸಂಪರ್ಕಿಸಿ.'; break;
+        case 'expired': msg = '❌ ಈ code ನ ಅವಧಿ ಮುಗಿದಿದೆ. *NO* type ಮಾಡಿ.'; break;
+        case 'limit_reached': msg = '❌ ಈ code ನ limit ಮುಗಿದಿದೆ. Admin ನ ಸಂಪರ್ಕಿಸಿ ಅಥವಾ *NO* type ಮಾಡಿ.'; break;
+        case 'class_mismatch': msg = `❌ ಈ code ${res.codeClass}ನೇ ತರಗತಿಗೆ. ನೀವು ${cls}ನೇ ತರಗತಿ. ಸರಿಯಾದ code ಅಥವಾ *NO* type ಮಾಡಿ.`; break;
+        default: msg = '⚠️ ಸಮಸ್ಯೆ ಆಯ್ತು. ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ ಅಥವಾ *NO* type ಮಾಡಿ.';
+      }
+      await S.sendText(from, msg);
+      return;  // stay in PENDING_CODE
+    }
+
+    // Valid code → activate
+    const expiry = new Date();
+    expiry.setMonth(expiry.getMonth() + res.months);
+    await G.updateStudent(student, 'Plan', res.plan);
+    await G.updateStudent(student, 'Status', 'ACTIVE');
+    await G.updateStudent(student, 'StartDate', new Date().toISOString().split('T')[0]);
+    await G.updateStudent(student, 'ExpiryDate', expiry.toISOString().split('T')[0]);
+    await G.updateStudent(student, 'Registration_Step', 'COMPLETE');
+    await G.redeemSchoolCode(res.row);
+
+    await S.sendText(from,
+      `🎉 ಯಶಸ್ವಿ! Code activated!\n\n` +
+      `🏫 ${res.school}\n` +
+      `💎 Plan: ₹${res.plan} (${res.months} ತಿಂಗಳು)\n` +
+      `📅 ${expiry.toISOString().split('T')[0]} ತನಕ\n\nಈಗ ಕಲಿಯೋಣ! 📚`);
     await NAV.showMainMenu(from, cls);
     return;
   }
@@ -244,7 +310,38 @@ async function routeInteractive(from, student, cls, id) {
   if (id === 'QUIZ_RETRY') return Q.retryQuiz(from, st);
 
   // --- Progress ---
-  if (id === 'PROGRESS') return showProgress(from);
+  if (id === 'PROGRESS') return showProgress(from, student);
+
+  // --- Upgrade (manual UPI) ---
+  if (id === 'UPGRADE') return showUpgrade(from, student);
+  if (id === 'UPG_199' || id === 'UPG_299') {
+    const planAmt = id === 'UPG_299' ? '299' : '199';
+    const upiId = process.env.UPI_ID || 'PLACEHOLDER@upi';
+    const payeeName = process.env.UPI_NAME || 'Smartpath Kalike';
+    await S.sendText(from,
+      `💳 *₹${planAmt} Plan Payment*\n\n` +
+      `UPI ID: *${upiId}*\n` +
+      `ಹೆಸರು: ${payeeName}\n` +
+      `ಮೊತ್ತ: ₹${planAmt}\n\n` +
+      `1️⃣ ಮೇಲಿನ UPI ID ಗೆ ₹${planAmt} pay ಮಾಡಿ (GPay/PhonePe/Paytm)\n` +
+      `2️⃣ Payment screenshot ಇದೇ chat ಗೆ ಕಳಿಸಿ\n` +
+      `3️⃣ 24 ಗಂಟೆಯೊಳಗೆ activate ಆಗುತ್ತೆ ✅\n\n` +
+      `ಸಹಾಯಕ್ಕೆ: ${process.env.SUPPORT_PHONE || '7019068606'}`);
+    await S.sendButtons(from, 'Payment ಆದ ಮೇಲೆ screenshot ಕಳಿಸಿ 📸',
+      [{ id: 'NAV_MENU', title: '🏠 Home' }]);
+    return;
+  }
+
+  // --- Parent Report (₹299 only) ---
+  if (id === 'PARENT_REPORT') {
+    if (String(student.get('Plan')) !== '299') {
+      return S.sendButtons(from, '📤 Parent Report ₹299 plan ಗೆ ಮಾತ್ರ.',
+        [{ id: 'NAV_MENU', title: '🏠 Home' }]);
+    }
+    st.awaitingParentPhone = true;
+    return S.sendText(from,
+      '📤 Parent ರ WhatsApp number type ಮಾಡಿ:\n(10 digits, e.g. 9876543210)');
+  }
 
   // --- Feedback ---
   if (id === 'FEEDBACK') {
@@ -293,9 +390,45 @@ async function handleTypedQuestion(from, student, cls, question) {
 }
 
 // ============================================================
-// PROGRESS — show quiz score history & stats
+// UPGRADE — show plan options (manual UPI)
 // ============================================================
-async function showProgress(from) {
+async function showUpgrade(from, student) {
+  const plan = String(student.get('Plan') || '').trim();
+  const status = String(student.get('Status') || '').trim();
+
+  let header = '';
+  if (plan === '299' && status === 'ACTIVE') {
+    await S.sendButtons(from,
+      '✅ ನೀವು ಈಗಾಗಲೇ ₹299 Premium plan ನಲ್ಲಿ ಇದ್ದೀರಿ!\nಎಲ್ಲ features ಲಭ್ಯ. 🎉',
+      [{ id: 'NAV_MENU', title: '🏠 Home' }]);
+    return;
+  }
+  if (plan === '199' && status === 'ACTIVE') {
+    header = '💎 ನೀವು ₹199 plan ನಲ್ಲಿ ಇದ್ದೀರಿ.\n₹299 ಗೆ upgrade ಮಾಡಿ — GPT + Parent Report!\n\n';
+  } else {
+    header = '💎 Plan ಆರಿಸಿ — full access ಪಡೆಯಿರಿ!\n\n';
+  }
+
+  const msg = header +
+    `📘 *₹199 Standard*\nNotes + Q&A + Quiz + Progress\n\n` +
+    `💎 *₹299 Premium*\n₹199 ಎಲ್ಲ + AI Ask Question (10/day) + Parent Report\n\n` +
+    `Durations: 1mo / 6mo (₹999/₹1499) / 12mo (₹1799/₹2699)`;
+
+  await S.sendText(from, msg);
+
+  const rows = [];
+  if (!(plan === '199' && status === 'ACTIVE'))
+    rows.push({ id: 'UPG_199', title: '📘 ₹199 Standard' });
+  rows.push({ id: 'UPG_299', title: '💎 ₹299 Premium' });
+  rows.push({ id: 'NAV_MENU', title: '🏠 Home' });
+
+  await S.sendButtons(from, 'ಯಾವ plan ಬೇಕು?', rows);
+}
+
+// ============================================================
+// PROGRESS — show quiz score history & stats (improved)
+// ============================================================
+async function showProgress(from, student) {
   const p = await G.getProgress(from);
 
   if (!p || p.count === 0) {
@@ -305,23 +438,57 @@ async function showProgress(from) {
     return;
   }
 
-  let msg = `📊 *ನಿಮ್ಮ Progress*\n\n`;
-  msg += `📝 ಒಟ್ಟು Quiz: *${p.count}*\n`;
-  msg += `⭐ ಸರಾಸರಿ Score: *${p.avg}%*\n`;
-  if (p.best) msg += `🏆 ಅತ್ಯುತ್ತಮ: ${p.best.percent}% (${p.best.subject} ${p.best.chapter})\n`;
-  if (p.worst && p.count > 1) msg += `📉 ಸುಧಾರಿಸಬೇಕು: ${p.worst.percent}% (${p.worst.subject} ${p.worst.chapter})\n`;
+  const name = student.get('Name') || '';
+  const cls = String(student.get('Class') || '').replace(/[^\d]/g, '') || '';
 
+  // Star rating + remark
+  let stars, remark;
+  if (p.avg >= 90) { stars = '⭐⭐⭐⭐⭐'; remark = 'Excellent!'; }
+  else if (p.avg >= 75) { stars = '⭐⭐⭐⭐'; remark = 'Very Good!'; }
+  else if (p.avg >= 60) { stars = '⭐⭐⭐'; remark = 'Good!'; }
+  else if (p.avg >= 45) { stars = '⭐⭐'; remark = 'Keep trying!'; }
+  else { stars = '⭐'; remark = 'Need more practice'; }
+
+  let msg = `📊 *ನಿಮ್ಮ Progress — ${name}*\n\n`;
+  msg += `${stars} ${remark} (${p.avg}% avg)\n`;
+  if (p.streak >= 2) msg += `🔥 ${p.streak} days study streak!\n`;
+  msg += `\n📝 ಒಟ್ಟು Quiz: *${p.count}*\n`;
+
+  // subject-wise
+  if (p.subjects && p.subjects.length) {
+    for (const s of p.subjects) {
+      const icon = s.subject === 'Maths' ? '📐' : (s.subject === 'Science' ? '🔬' : '📚');
+      msg += `${icon} ${s.subject}: ${s.count} quizzes, avg ${s.avg}%\n`;
+    }
+  }
+
+  if (p.best) msg += `\n🏆 Best: ${p.best.subject} Ch${p.best.chapter} → ${p.best.percent}%\n`;
+
+  // weak topics
+  if (p.weak && p.weak.length) {
+    msg += `\n⚠️ *PRACTICE ಮಾಡಿ:*\n`;
+    for (const w of p.weak) {
+      msg += `• ${w.subject} Ch${w.chapter} ${w.topic || ''} (${w.percent}%)\n`;
+    }
+  }
+
+  // recent
   if (p.recent && p.recent.length) {
     msg += `\n*ಇತ್ತೀಚಿನ Quiz:*\n`;
     for (const r of p.recent) {
       const icon = (parseInt(r.percent) >= 60) ? '✅' : '📚';
-      msg += `${icon} ${r.subject} ${r.chapter} — ${r.score}/${r.total} (${r.percent}%)\n`;
+      msg += `${icon} ${r.subject} Ch${r.chapter} — ${r.score}/${r.total} (${r.percent}%)\n`;
     }
   }
 
   await S.sendText(from, msg.substring(0, 4000));
-  await S.sendButtons(from, 'ಮುಂದೇನು? / What next?',
-    [{ id: 'NAV_MENU', title: '🏠 Home' }]);
+
+  // Buttons: Parent Report (₹299 only) + Home
+  const plan = String(student.get('Plan') || '');
+  const btns = [];
+  if (plan === '299') btns.push({ id: 'PARENT_REPORT', title: '📤 Parent Report' });
+  btns.push({ id: 'NAV_MENU', title: '🏠 Home' });
+  await S.sendButtons(from, 'ಮುಂದೇನು? / What next?', btns);
 }
 
 const PORT = process.env.PORT || 3000;

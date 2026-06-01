@@ -7,7 +7,7 @@
 //   StartDate | ExpiryDate | GPT_Count | GPT_Date | Registration_Step
 //
 // Status: TRIAL / ACTIVE / EXPIRED / BLOCKED
-// Plan:   "" / 99 / 199 / 299   (admin sets after payment)
+// Plan:   "" / 199 / 299   (₹99 removed; admin sets after payment)
 // GPT:    only Plan==299, max 10/day (GPT_Count + GPT_Date)
 // ============================================================
 
@@ -195,6 +195,65 @@ ${context}` },
   }
 }
 
+// ---------- SCHOOL CODE SYSTEM ----------
+// SchoolCodes tab: Code|School|Class|Plan|DurationMonths|MaxUses|UsedCount|Active|ExpiryDate
+async function validateSchoolCode(code, studentClass) {
+  try {
+    const doc = await getDoc();
+    const sheet = doc.sheetsByTitle['SchoolCodes'];
+    if (!sheet) return { ok: false, reason: 'no_codes' };
+    const rows = await sheet.getRows();
+    const row = rows.find(r =>
+      String(r.get('Code') || '').trim().toUpperCase() === String(code).trim().toUpperCase());
+    if (!row) return { ok: false, reason: 'invalid' };
+
+    // Active check
+    if (String(row.get('Active') || '').trim().toUpperCase() !== 'YES')
+      return { ok: false, reason: 'inactive' };
+
+    // Expiry check
+    const exp = row.get('ExpiryDate');
+    if (exp && new Date(exp) < new Date())
+      return { ok: false, reason: 'expired' };
+
+    // MaxUses check
+    const maxU = parseInt(row.get('MaxUses')) || 0;
+    const used = parseInt(row.get('UsedCount')) || 0;
+    if (maxU > 0 && used >= maxU)
+      return { ok: false, reason: 'limit_reached' };
+
+    // Class match check
+    const codeClass = String(row.get('Class') || '').replace(/[^\d]/g, '');
+    const stuClass = String(studentClass || '').replace(/[^\d]/g, '');
+    if (codeClass && stuClass && codeClass !== stuClass)
+      return { ok: false, reason: 'class_mismatch', codeClass };
+
+    // Valid — return plan details
+    const months = parseInt(row.get('DurationMonths')) || 12;
+    return {
+      ok: true, row,
+      plan: String(row.get('Plan') || '199').trim(),
+      months, school: row.get('School') || ''
+    };
+  } catch (e) {
+    console.error('Code validate error:', e.message);
+    return { ok: false, reason: 'error' };
+  }
+}
+
+// Increment UsedCount after successful redemption
+async function redeemSchoolCode(codeRow) {
+  try {
+    const used = parseInt(codeRow.get('UsedCount')) || 0;
+    codeRow.set('UsedCount', String(used + 1));
+    await codeRow.save();
+    return true;
+  } catch (e) {
+    console.error('Code redeem error:', e.message);
+    return false;
+  }
+}
+
 // ---------- QUIZ SCORE HISTORY ----------
 async function getDoc() {
   const creds = JSON.parse(process.env.GOOGLE_SERVICE_ACCOUNT_JSON);
@@ -257,15 +316,97 @@ async function getProgress(phone) {
       total: r.get('Total'), percent: r.get('Percent')
     }));
 
+    // subject-wise breakdown
+    const bySubject = {};
+    for (const r of mine) {
+      const subj = r.get('Subject') || 'Other';
+      if (!bySubject[subj]) bySubject[subj] = { count: 0, sum: 0 };
+      bySubject[subj].count++;
+      bySubject[subj].sum += parseInt(r.get('Percent')) || 0;
+    }
+    const subjects = Object.keys(bySubject).map(s => ({
+      subject: s, count: bySubject[s].count,
+      avg: Math.round(bySubject[s].sum / bySubject[s].count)
+    }));
+
+    // weak topics (percent < 60) — best (lowest) 3 unique by subject+chapter+topic
+    const weakMap = {};
+    for (const r of mine) {
+      const pct = parseInt(r.get('Percent')) || 0;
+      if (pct < 60) {
+        const key = `${r.get('Subject')}|${r.get('Chapter')}|${r.get('Topic')}`;
+        if (!weakMap[key] || pct < weakMap[key].percent) {
+          weakMap[key] = {
+            subject: r.get('Subject'), chapter: r.get('Chapter'),
+            topic: r.get('Topic'), percent: pct
+          };
+        }
+      }
+    }
+    const weak = Object.values(weakMap).sort((a, b) => a.percent - b.percent).slice(0, 3);
+
+    // study streak (consecutive days ending today/yesterday)
+    const days = [...new Set(mine.map(r => (r.get('Date') || '').split('T')[0]))].filter(Boolean).sort().reverse();
+    let streak = 0;
+    if (days.length) {
+      const today = new Date(); today.setHours(0, 0, 0, 0);
+      let cursor = new Date(today);
+      // allow streak to start today or yesterday
+      const d0 = new Date(days[0]); d0.setHours(0, 0, 0, 0);
+      const diff0 = Math.round((today - d0) / 86400000);
+      if (diff0 <= 1) {
+        cursor = new Date(d0);
+        streak = 1;
+        for (let i = 1; i < days.length; i++) {
+          const di = new Date(days[i]); di.setHours(0, 0, 0, 0);
+          const gap = Math.round((cursor - di) / 86400000);
+          if (gap === 1) { streak++; cursor = di; }
+          else if (gap === 0) { continue; }
+          else break;
+        }
+      }
+    }
+
     return {
       count: mine.length, avg,
       best: { percent: best.get('Percent'), subject: best.get('Subject'), chapter: best.get('Chapter') },
       worst: { percent: worst.get('Percent'), subject: worst.get('Subject'), chapter: worst.get('Chapter') },
-      recent
+      recent, subjects, weak, streak
     };
   } catch (e) {
     console.error('Progress fetch error:', e.message);
     return null;
+  }
+}
+
+// Send progress report to a parent's WhatsApp number
+async function sendParentReport(parentPhone, studentName, cls, progress) {
+  try {
+    const p = progress;
+    const stars = '⭐'.repeat(Math.max(1, Math.min(5, Math.round((p.avg || 0) / 20))));
+    let msg = `📊 *Smartpath Kalike — Progress Report*\n\n`;
+    msg += `ವಿದ್ಯಾರ್ಥಿ: *${studentName}* (${cls}th)\n\n`;
+    msg += `📝 ಒಟ್ಟು Quiz: ${p.count}\n`;
+    msg += `⭐ Average: ${p.avg}% ${stars}\n\n`;
+    if (p.subjects && p.subjects.length) {
+      msg += p.subjects.map(s =>
+        `${s.subject === 'Maths' ? '📐' : '🔬'} ${s.subject}: ${s.avg}%`).join('  |  ') + '\n\n';
+    }
+    if (p.best) msg += `💪 Strong: ${p.best.subject} Ch${p.best.chapter} (${p.best.percent}%)\n`;
+    if (p.weak && p.weak.length) msg += `⚠️ Improve: ${p.weak[0].subject} Ch${p.weak[0].chapter} (${p.weak[0].percent}%)\n`;
+    msg += `\n— Smartpath Kalike 🎓`;
+
+    // reuse WhatsApp send via axios (same as sendHelpers)
+    const axios = require('axios');
+    await axios.post(
+      `https://graph.facebook.com/v19.0/${process.env.PHONE_NUMBER_ID}/messages`,
+      { messaging_product: 'whatsapp', to: parentPhone, type: 'text', text: { body: msg } },
+      { headers: { Authorization: `Bearer ${process.env.WHATSAPP_TOKEN}`, 'Content-Type': 'application/json' } }
+    );
+    return true;
+  } catch (e) {
+    console.error('Parent report error:', e.response?.data || e.message);
+    return false;
   }
 }
 
@@ -301,6 +442,7 @@ module.exports = {
   getPlan, getStatus, isExpired, hasAccess,
   checkGptAccess, incrementGptCount, askKSEEB,
   saveFeedback,
-  saveQuizScore, getProgress,
+  saveQuizScore, getProgress, sendParentReport,
+  validateSchoolCode, redeemSchoolCode,
   GPT_DAILY_LIMIT
 };

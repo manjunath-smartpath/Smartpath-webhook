@@ -48,6 +48,7 @@ async function showMainMenu(to, cls, track = true) {
     { id: 'SUBJ_Maths', title: '📐 ಗಣಿತ Maths' },
     { id: 'SUBJ_Science', title: '🔬 ವಿಜ್ಞಾನ Science' },
     { id: 'PROGRESS', title: '📊 My Progress' },
+    { id: 'UPGRADE', title: '💳 Upgrade Plan' },
     { id: 'FEEDBACK', title: '💬 Feedback' }
   ], 'Main Menu');
 }
