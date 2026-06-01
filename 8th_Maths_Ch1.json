@@ -6,7 +6,7 @@
     "chapter_num": "1",
     "chapter_name": "RATIONAL NUMBERS",
     "source": "KSEEB Textbook 2025-26",
-    "mode": "B"
+    "mode": "A"
   },
   "chapter_sections": [
     {
@@ -257,7 +257,7 @@
     {
       "topic_num": "1.2",
       "topic_name": "PROPERTIES OF RATIONAL NUMBERS",
-      "mode": "B",
+      "mode": "A",
       "sections": [
         {
           "type": "definition",
@@ -449,1334 +449,1371 @@
               "explanation": "By distributivity, a(b + c) = ab + ac for all rational numbers a, b, c. ----"
             }
           ]
-        },
+        }
+      ],
+      "subtopics": [
         {
-          "type": "definition",
-          "label": "Definition:",
-          "text": "A collection of numbers is said to be CLOSED under an operation if performing that operation on any two numbers from the collection always gives a result that also belongs to the same collection."
-        },
-        {
-          "type": "key_points",
-          "label": "Key Points:",
-          "points": [
-            "WHOLE NUMBERS: Closed under addition and multiplication. NOT closed under subtraction (5 - 7 = -2, not whole) and division (5 / 8 = 5/8, not whole)",
-            "INTEGERS: Closed under addition, subtraction and multiplication. NOT closed under division (5 / 8 = 5/8, not integer)",
-            "RATIONAL NUMBERS: Closed under addition, subtraction and multiplication",
-            "Rational numbers are NOT closed under division because a / 0 is not defined for any rational number a",
-            "However, if we exclude zero, the collection of all other rational numbers IS closed under division",
-            "CLOSURE TABLE:",
-            "Numbers          | Addition | Subtraction | Multiplication | Division",
-            "Rational numbers | Yes      | Yes         | Yes            | No",
-            "Integers         | Yes      | Yes         | Yes            | No",
-            "Whole numbers    | Yes      | No          | Yes            | No",
-            "Natural numbers  | Yes      | No          | Yes            | No",
-            "EXAMPLES:",
-            "Example 1.2.1.1: [Closure under Addition]",
-            "PROBLEM: Check whether 3/8 + (-5)/7 is a rational number.",
-            "SOLUTION:",
-            "Step 1: 3/8 + (-5)/7",
-            "Step 2: LCM of 8 and 7 is 56",
-            "Step 3: = (3 x 7)/56 + (-5 x 8)/56",
-            "Step 4: = 21/56 + (-40)/56",
-            "Step 5: = (21 - 40)/56",
-            "Step 6: = -19/56",
-            "ANSWER: -19/56, which is a rational number. So rational numbers are closed under addition.",
-            "Example 1.2.1.2: [Closure under Subtraction]",
-            "PROBLEM: Check whether -5/7 - 2/3 is a rational number.",
-            "SOLUTION:",
-            "Step 1: -5/7 - 2/3",
-            "Step 2: LCM of 7 and 3 is 21",
-            "Step 3: = (-5 x 3)/21 - (2 x 7)/21",
-            "Step 4: = -15/21 - 14/21",
-            "Step 5: = (-15 - 14)/21",
-            "Step 6: = -29/21",
-            "ANSWER: -29/21, which is a rational number. So rational numbers are closed under subtraction.",
-            "Example 1.2.1.3: [Closure under Multiplication]",
-            "PROBLEM: Check whether (-2)/3 x 4/5 is a rational number.",
-            "SOLUTION:",
-            "Step 1: (-2)/3 x 4/5",
-            "Step 2: = (-2 x 4)/(3 x 5)",
-            "Step 3: = -8/15",
-            "ANSWER: -8/15, which is a rational number. So rational numbers are closed under multiplication.",
-            "Example 1.2.1.4: [Closure under Division - NOT closed]",
-            "PROBLEM: Check whether (-5)/3 / (2/5) is a rational number. Why are rational numbers not closed under division?",
-            "SOLUTION:",
-            "Step 1: (-5)/3 / (2/5)",
-            "Step 2: = (-5)/3 x 5/2   (reciprocal of 2/5 is 5/2)",
-            "Step 3: = (-5 x 5)/(3 x 2)",
-            "Step 4: = -25/6",
-            "ANSWER: -25/6 is a rational number here. But for any rational number a, a / 0 is NOT defined. So rational numbers are NOT closed under division.",
-            "TRY THESE:",
-            "Fill in the blanks in the following table.",
-            "Numbers          | Closed under",
-            "| addition | subtraction | multiplication | division",
-            "Rational numbers | Yes      | Yes         | ...            | No",
-            "Integers         | ...      | Yes         | ...            | No",
-            "Whole numbers    | ...      | ...         | Yes            | ...",
-            "Natural numbers  | ...      | No          | ...            | ...",
-            "ANSWERS:",
-            "Rational numbers: multiplication = Yes",
-            "Integers: addition = Yes, multiplication = Yes",
-            "Whole numbers: addition = Yes, subtraction = No, division = No",
-            "Natural numbers: addition = Yes, multiplication = Yes, division = No"
-          ]
-        },
-        {
-          "type": "qa",
-          "label": "SUB-TOPIC 1.2.1: Q&A",
-          "items": []
-        },
-        {
-          "type": "qa",
-          "label": "Q&A",
-          "items": [
+          "subtopic_num": "1.2.1",
+          "subtopic_name": "CLOSURE",
+          "sections": [
             {
-              "q_num": 1,
-              "marks": 2,
-              "question": "What is closure property? Give one example for rational numbers under addition.",
-              "answer": "A collection of numbers is closed under an operation if the result of that operation on any two numbers from the collection also belongs to the same collection.\nExample: 3/8 + (-5/7) = -19/56, which is a rational number.\nSo rational numbers are closed under addition."
+              "type": "definition",
+              "label": "Definition:",
+              "text": "A collection of numbers is said to be CLOSED under an operation if performing that operation on any two numbers from the collection always gives a result that also belongs to the same collection."
             },
             {
-              "q_num": 2,
-              "marks": 2,
-              "question": "Are whole numbers closed under subtraction? Justify.",
-              "answer": "No, whole numbers are not closed under subtraction.\nExample: 5 - 7 = -2\n-2 is not a whole number.\nSo the result of subtracting two whole numbers may not be a whole number."
+              "type": "key_points",
+              "label": "Key Points:",
+              "points": [
+                "WHOLE NUMBERS: Closed under addition and multiplication. NOT closed under subtraction (5 - 7 = -2, not whole) and division (5 / 8 = 5/8, not whole)",
+                "INTEGERS: Closed under addition, subtraction and multiplication. NOT closed under division (5 / 8 = 5/8, not integer)",
+                "RATIONAL NUMBERS: Closed under addition, subtraction and multiplication",
+                "Rational numbers are NOT closed under division because a / 0 is not defined for any rational number a",
+                "However, if we exclude zero, the collection of all other rational numbers IS closed under division",
+                "CLOSURE TABLE:",
+                "Numbers          | Addition | Subtraction | Multiplication | Division",
+                "Rational numbers | Yes      | Yes         | Yes            | No",
+                "Integers         | Yes      | Yes         | Yes            | No",
+                "Whole numbers    | Yes      | No          | Yes            | No",
+                "Natural numbers  | Yes      | No          | Yes            | No",
+                "EXAMPLES:",
+                "Example 1.2.1.1: [Closure under Addition]",
+                "PROBLEM: Check whether 3/8 + (-5)/7 is a rational number.",
+                "SOLUTION:",
+                "Step 1: 3/8 + (-5)/7",
+                "Step 2: LCM of 8 and 7 is 56",
+                "Step 3: = (3 x 7)/56 + (-5 x 8)/56",
+                "Step 4: = 21/56 + (-40)/56",
+                "Step 5: = (21 - 40)/56",
+                "Step 6: = -19/56",
+                "ANSWER: -19/56, which is a rational number. So rational numbers are closed under addition.",
+                "Example 1.2.1.2: [Closure under Subtraction]",
+                "PROBLEM: Check whether -5/7 - 2/3 is a rational number.",
+                "SOLUTION:",
+                "Step 1: -5/7 - 2/3",
+                "Step 2: LCM of 7 and 3 is 21",
+                "Step 3: = (-5 x 3)/21 - (2 x 7)/21",
+                "Step 4: = -15/21 - 14/21",
+                "Step 5: = (-15 - 14)/21",
+                "Step 6: = -29/21",
+                "ANSWER: -29/21, which is a rational number. So rational numbers are closed under subtraction.",
+                "Example 1.2.1.3: [Closure under Multiplication]",
+                "PROBLEM: Check whether (-2)/3 x 4/5 is a rational number.",
+                "SOLUTION:",
+                "Step 1: (-2)/3 x 4/5",
+                "Step 2: = (-2 x 4)/(3 x 5)",
+                "Step 3: = -8/15",
+                "ANSWER: -8/15, which is a rational number. So rational numbers are closed under multiplication.",
+                "Example 1.2.1.4: [Closure under Division - NOT closed]",
+                "PROBLEM: Check whether (-5)/3 / (2/5) is a rational number. Why are rational numbers not closed under division?",
+                "SOLUTION:",
+                "Step 1: (-5)/3 / (2/5)",
+                "Step 2: = (-5)/3 x 5/2   (reciprocal of 2/5 is 5/2)",
+                "Step 3: = (-5 x 5)/(3 x 2)",
+                "Step 4: = -25/6",
+                "ANSWER: -25/6 is a rational number here. But for any rational number a, a / 0 is NOT defined. So rational numbers are NOT closed under division.",
+                "TRY THESE:",
+                "Fill in the blanks in the following table.",
+                "Numbers          | Closed under",
+                "| addition | subtraction | multiplication | division",
+                "Rational numbers | Yes      | Yes         | ...            | No",
+                "Integers         | ...      | Yes         | ...            | No",
+                "Whole numbers    | ...      | ...         | Yes            | ...",
+                "Natural numbers  | ...      | No          | ...            | ...",
+                "ANSWERS:",
+                "Rational numbers: multiplication = Yes",
+                "Integers: addition = Yes, multiplication = Yes",
+                "Whole numbers: addition = Yes, subtraction = No, division = No",
+                "Natural numbers: addition = Yes, multiplication = Yes, division = No"
+              ]
             },
             {
-              "q_num": 3,
-              "marks": 2,
-              "question": "Are integers closed under division? Justify.",
-              "answer": "No, integers are not closed under division.\nExample: 5 / 8 = 5/8\n5/8 is not an integer.\nSo the result of dividing two integers may not be an integer.\n\n---\n\n3 ಮಾರ್ಕ್ಸ್ × 2 questions:"
+              "type": "qa",
+              "label": "SUB-TOPIC 1.2.1: Q&A",
+              "items": []
             },
             {
-              "q_num": 4,
-              "marks": 3,
-              "question": "Show that -3/8 + (-4)/5 is a rational number (verify closure under addition).",
-              "answer": "Step 1: -3/8 + (-4/5)\nStep 2: LCM of 8 and 5 is 40\nStep 3: = (-3 x 5)/40 + (-4 x 8)/40\nStep 4: = -15/40 + (-32/40)\nStep 5: = (-15 - 32)/40\nStep 6: = -47/40\n\n-47/40 is a rational number (p/q form, q is not 0).\nSo rational numbers are closed under addition."
+              "type": "qa",
+              "label": "Q&A",
+              "items": [
+                {
+                  "q_num": 1,
+                  "marks": 2,
+                  "question": "What is closure property? Give one example for rational numbers under addition.",
+                  "answer": "A collection of numbers is closed under an operation if the result of that operation on any two numbers from the collection also belongs to the same collection.\nExample: 3/8 + (-5/7) = -19/56, which is a rational number.\nSo rational numbers are closed under addition."
+                },
+                {
+                  "q_num": 2,
+                  "marks": 2,
+                  "question": "Are whole numbers closed under subtraction? Justify.",
+                  "answer": "No, whole numbers are not closed under subtraction.\nExample: 5 - 7 = -2\n-2 is not a whole number.\nSo the result of subtracting two whole numbers may not be a whole number."
+                },
+                {
+                  "q_num": 3,
+                  "marks": 2,
+                  "question": "Are integers closed under division? Justify.",
+                  "answer": "No, integers are not closed under division.\nExample: 5 / 8 = 5/8\n5/8 is not an integer.\nSo the result of dividing two integers may not be an integer.\n\n---\n\n3 ಮಾರ್ಕ್ಸ್ × 2 questions:"
+                },
+                {
+                  "q_num": 4,
+                  "marks": 3,
+                  "question": "Show that -3/8 + (-4)/5 is a rational number (verify closure under addition).",
+                  "answer": "Step 1: -3/8 + (-4/5)\nStep 2: LCM of 8 and 5 is 40\nStep 3: = (-3 x 5)/40 + (-4 x 8)/40\nStep 4: = -15/40 + (-32/40)\nStep 5: = (-15 - 32)/40\nStep 6: = -47/40\n\n-47/40 is a rational number (p/q form, q is not 0).\nSo rational numbers are closed under addition."
+                },
+                {
+                  "q_num": 5,
+                  "marks": 3,
+                  "question": "Why are rational numbers NOT closed under division? Explain with reason and example.",
+                  "answer": "Rational numbers are not closed under division because:\n\nReason: For any rational number a, a / 0 is NOT defined.\nSince 0 is also a rational number, dividing by it is not possible.\n\nExample: (-5)/3 / (2/5) = (-5)/3 x 5/2 = -25/6 (this is a rational number)\nBut: 3/7 / 0 = NOT DEFINED (not a rational number)\n\nTherefore, rational numbers are not closed under division.\n\n---\n\n4 ಮಾರ್ಕ್ಸ್ × 2 questions:"
+                },
+                {
+                  "q_num": 6,
+                  "marks": 4,
+                  "question": "Verify closure property for rational numbers under addition, subtraction, and multiplication with one example each.",
+                  "answer": "Addition:\n3/8 + (-5/7) = 21/56 + (-40/56) = -19/56 ✓ (rational number)\n\nSubtraction:\n-5/7 - 2/3 = -15/21 - 14/21 = -29/21 ✓ (rational number)\n\nMultiplication:\n(-2/3) x (4/5) = -8/15 ✓ (rational number)\n\nConclusion: Rational numbers are closed under addition, subtraction, and multiplication.\nThey are NOT closed under division because a / 0 is not defined."
+                },
+                {
+                  "q_num": 7,
+                  "marks": 4,
+                  "question": "Complete the closure table and explain which number system is closed under the maximum number of operations.",
+                  "answer": "Numbers          | Addition | Subtraction | Multiplication | Division\nRational numbers | Yes      | Yes         | Yes            | No\nIntegers         | Yes      | Yes         | Yes            | No\nWhole numbers    | Yes      | No          | Yes            | No\nNatural numbers  | Yes      | No          | Yes            | No\n\nObservations:\n- Rational numbers and integers are both closed under 3 operations (addition, subtraction, multiplication)\n- Whole numbers and natural numbers are closed under only 2 operations (addition, multiplication)\n- NO number system listed above is closed under division (since a / 0 is not defined)\n- Rational numbers and integers have the maximum closure (3 operations)\n\n---\n\n5 ಮಾರ್ಕ್ಸ್ × 1 question:"
+                },
+                {
+                  "q_num": 8,
+                  "marks": 5,
+                  "question": "Verify closure property for rational numbers under all four operations. What conclusion do you draw?",
+                  "answer": "PART A — Verification:\n\n(i) Addition: 3/8 + (-5/7)\n= 21/56 + (-40/56) = -19/56 ✓ (rational)\nRational numbers are CLOSED under addition.\n\n(ii) Subtraction: -5/7 - 2/3\n= -15/21 - 14/21 = -29/21 ✓ (rational)\nRational numbers are CLOSED under subtraction.\n\n(iii) Multiplication: (-2/3) x (4/5)\n= -8/15 ✓ (rational)\nRational numbers are CLOSED under multiplication.\n\n(iv) Division: (-5/3) / (2/5)\n= (-5/3) x (5/2) = -25/6 ✓ (rational, when divisor is not zero)\nBut 3/7 / 0 = NOT DEFINED ✗\nRational numbers are NOT CLOSED under division.\n\nPART B — Conclusion:\n- Rational numbers are closed under addition, subtraction, and multiplication\n- Rational numbers are NOT closed under division because a / 0 is not defined\n- However, if we exclude zero from rational numbers, the remaining collection IS closed under division"
+                }
+              ]
             },
             {
-              "q_num": 5,
-              "marks": 3,
-              "question": "Why are rational numbers NOT closed under division? Explain with reason and example.",
-              "answer": "Rational numbers are not closed under division because:\n\nReason: For any rational number a, a / 0 is NOT defined.\nSince 0 is also a rational number, dividing by it is not possible.\n\nExample: (-5)/3 / (2/5) = (-5)/3 x 5/2 = -25/6 (this is a rational number)\nBut: 3/7 / 0 = NOT DEFINED (not a rational number)\n\nTherefore, rational numbers are not closed under division.\n\n---\n\n4 ಮಾರ್ಕ್ಸ್ × 2 questions:"
+              "type": "mcq",
+              "label": "SUB-TOPIC 1.2.1: MCQs:",
+              "items": []
             },
             {
-              "q_num": 6,
-              "marks": 4,
-              "question": "Verify closure property for rational numbers under addition, subtraction, and multiplication with one example each.",
-              "answer": "Addition:\n3/8 + (-5/7) = 21/56 + (-40/56) = -19/56 ✓ (rational number)\n\nSubtraction:\n-5/7 - 2/3 = -15/21 - 14/21 = -29/21 ✓ (rational number)\n\nMultiplication:\n(-2/3) x (4/5) = -8/15 ✓ (rational number)\n\nConclusion: Rational numbers are closed under addition, subtraction, and multiplication.\nThey are NOT closed under division because a / 0 is not defined."
-            },
-            {
-              "q_num": 7,
-              "marks": 4,
-              "question": "Complete the closure table and explain which number system is closed under the maximum number of operations.",
-              "answer": "Numbers          | Addition | Subtraction | Multiplication | Division\nRational numbers | Yes      | Yes         | Yes            | No\nIntegers         | Yes      | Yes         | Yes            | No\nWhole numbers    | Yes      | No          | Yes            | No\nNatural numbers  | Yes      | No          | Yes            | No\n\nObservations:\n- Rational numbers and integers are both closed under 3 operations (addition, subtraction, multiplication)\n- Whole numbers and natural numbers are closed under only 2 operations (addition, multiplication)\n- NO number system listed above is closed under division (since a / 0 is not defined)\n- Rational numbers and integers have the maximum closure (3 operations)\n\n---\n\n5 ಮಾರ್ಕ್ಸ್ × 1 question:"
-            },
-            {
-              "q_num": 8,
-              "marks": 5,
-              "question": "Verify closure property for rational numbers under all four operations. What conclusion do you draw?",
-              "answer": "PART A — Verification:\n\n(i) Addition: 3/8 + (-5/7)\n= 21/56 + (-40/56) = -19/56 ✓ (rational)\nRational numbers are CLOSED under addition.\n\n(ii) Subtraction: -5/7 - 2/3\n= -15/21 - 14/21 = -29/21 ✓ (rational)\nRational numbers are CLOSED under subtraction.\n\n(iii) Multiplication: (-2/3) x (4/5)\n= -8/15 ✓ (rational)\nRational numbers are CLOSED under multiplication.\n\n(iv) Division: (-5/3) / (2/5)\n= (-5/3) x (5/2) = -25/6 ✓ (rational, when divisor is not zero)\nBut 3/7 / 0 = NOT DEFINED ✗\nRational numbers are NOT CLOSED under division.\n\nPART B — Conclusion:\n- Rational numbers are closed under addition, subtraction, and multiplication\n- Rational numbers are NOT closed under division because a / 0 is not defined\n- However, if we exclude zero from rational numbers, the remaining collection IS closed under division"
+              "type": "mcq",
+              "label": "MCQ",
+              "items": [
+                {
+                  "mcq_num": 1,
+                  "difficulty": "Easy",
+                  "question": "Q: Whole numbers are closed under:",
+                  "options": {
+                    "A": "Addition only",
+                    "B": "Addition and multiplication",
+                    "C": "All four operations",
+                    "D": "Subtraction only"
+                  },
+                  "answer": "B",
+                  "explanation": "Whole numbers are closed under addition and multiplication, but not subtraction (5-7=-2) or division (5/8=5/8)."
+                },
+                {
+                  "mcq_num": 2,
+                  "difficulty": "Easy",
+                  "question": "Q: Integers are NOT closed under:",
+                  "options": {
+                    "A": "Addition",
+                    "B": "Subtraction",
+                    "C": "Multiplication",
+                    "D": "Division"
+                  },
+                  "answer": "D",
+                  "explanation": "Integers are not closed under division. For example, 5/8 = 5/8 which is not an integer."
+                },
+                {
+                  "mcq_num": 3,
+                  "difficulty": "Easy",
+                  "question": "Q: Rational numbers are NOT closed under:",
+                  "options": {
+                    "A": "Addition",
+                    "B": "Subtraction",
+                    "C": "Multiplication",
+                    "D": "Division"
+                  },
+                  "answer": "D",
+                  "explanation": "Rational numbers are not closed under division because a / 0 is not defined."
+                },
+                {
+                  "mcq_num": 4,
+                  "difficulty": "Medium",
+                  "question": "Q: The result of 3/8 + (-5)/7 is:",
+                  "options": {
+                    "A": "19/56",
+                    "B": "-19/56",
+                    "C": "-2/15",
+                    "D": "2/15"
+                  },
+                  "answer": "B",
+                  "explanation": "3/8 + (-5/7) = 21/56 + (-40)/56 = -19/56."
+                },
+                {
+                  "mcq_num": 5,
+                  "difficulty": "Medium",
+                  "question": "Q: Which of the following is NOT a rational number?",
+                  "options": {
+                    "A": "0",
+                    "B": "-2",
+                    "C": "3/0",
+                    "D": "-7/5"
+                  },
+                  "answer": "C",
+                  "explanation": "3/0 is not defined (denominator is 0), so it is not a rational number."
+                },
+                {
+                  "mcq_num": 6,
+                  "difficulty": "Hard",
+                  "question": "Q: If zero is removed from rational numbers, which statement becomes TRUE?",
+                  "options": {
+                    "A": "Subtraction is no longer closed",
+                    "B": "Division becomes closed",
+                    "C": "Addition is no longer closed",
+                    "D": "Multiplication is no longer closed"
+                  },
+                  "answer": "B",
+                  "explanation": "If zero is excluded, we never divide by zero, so the collection of non-zero rational numbers is closed under division."
+                },
+                {
+                  "mcq_num": 7,
+                  "difficulty": "Hard",
+                  "question": "Q: For rational numbers a and b, a/b is always a rational number when:",
+                  "options": {
+                    "A": "a is not 0",
+                    "B": "b is not 0",
+                    "C": "Both a and b are positive",
+                    "D": "a = b"
+                  },
+                  "answer": "B",
+                  "explanation": "a/b is a rational number as long as b is not 0. If b = 0, division is not defined. ----"
+                }
+              ]
             }
           ]
         },
         {
-          "type": "mcq",
-          "label": "SUB-TOPIC 1.2.1: MCQs:",
-          "items": []
-        },
-        {
-          "type": "mcq",
-          "label": "MCQ",
-          "items": [
+          "subtopic_num": "1.2.2",
+          "subtopic_name": "COMMUTATIVITY",
+          "sections": [
             {
-              "mcq_num": 1,
-              "difficulty": "Easy",
-              "question": "Q: Whole numbers are closed under:",
-              "options": {
-                "A": "Addition only",
-                "B": "Addition and multiplication",
-                "C": "All four operations",
-                "D": "Subtraction only"
-              },
-              "answer": "B",
-              "explanation": "Whole numbers are closed under addition and multiplication, but not subtraction (5-7=-2) or division (5/8=5/8)."
+              "type": "definition",
+              "label": "Definition:",
+              "text": "An operation is said to be COMMUTATIVE if changing the order of the two numbers does not change the result. That is, for any two numbers a and b: a operation b = b operation a."
             },
             {
-              "mcq_num": 2,
-              "difficulty": "Easy",
-              "question": "Q: Integers are NOT closed under:",
-              "options": {
-                "A": "Addition",
-                "B": "Subtraction",
-                "C": "Multiplication",
-                "D": "Division"
-              },
-              "answer": "D",
-              "explanation": "Integers are not closed under division. For example, 5/8 = 5/8 which is not an integer."
+              "type": "key_points",
+              "label": "Key Points:",
+              "points": [
+                "ADDITION is commutative for whole numbers, integers, and rational numbers: a + b = b + a",
+                "MULTIPLICATION is commutative for whole numbers, integers, and rational numbers: a x b = b x a",
+                "SUBTRACTION is NOT commutative for rational numbers (5 - 3 is not equal to 3 - 5)",
+                "DIVISION is NOT commutative for rational numbers (-5/4 / 3/7 is not equal to 3/7 / (-5/4))",
+                "For any two rational numbers a and b: a + b = b + a",
+                "For any two rational numbers a and b: a x b = b x a",
+                "COMMUTATIVITY TABLE:",
+                "Numbers          | Addition | Subtraction | Multiplication | Division",
+                "Rational numbers | Yes      | No          | Yes            | No",
+                "Integers         | Yes      | No          | Yes            | No",
+                "Whole numbers    | Yes      | No          | Yes            | No",
+                "Natural numbers  | Yes      | No          | Yes            | No",
+                "EXAMPLES:",
+                "Example 1.2.2.1: [Addition is commutative - Rational numbers]",
+                "PROBLEM: Check whether -2/3 + 5/7 = 5/7 + (-2/3).",
+                "SOLUTION:",
+                "Step 1: LHS = -2/3 + 5/7",
+                "Step 2: LCM of 3 and 7 is 21",
+                "Step 3: LHS = -14/21 + 15/21 = 1/21",
+                "Step 4: RHS = 5/7 + (-2/3)",
+                "Step 5: RHS = 15/21 + (-14/21) = 1/21",
+                "ANSWER: LHS = RHS = 1/21. So addition is commutative for rational numbers.",
+                "Example 1.2.2.2: [Subtraction is NOT commutative]",
+                "PROBLEM: Check whether 2/3 - 5/4 = 5/4 - 2/3.",
+                "SOLUTION:",
+                "Step 1: LHS = 2/3 - 5/4",
+                "Step 2: LCM of 3 and 4 is 12",
+                "Step 3: LHS = 8/12 - 15/12 = -7/12",
+                "Step 4: RHS = 5/4 - 2/3",
+                "Step 5: RHS = 15/12 - 8/12 = 7/12",
+                "ANSWER: LHS (-7/12) is not equal to RHS (7/12). So subtraction is NOT commutative.",
+                "Example 1.2.2.3: [Multiplication is commutative - Rational numbers]",
+                "PROBLEM: Check whether -7/3 x 6/5 = 6/5 x (-7/3).",
+                "SOLUTION:",
+                "Step 1: LHS = -7/3 x 6/5 = (-7 x 6)/(3 x 5) = -42/15",
+                "Step 2: RHS = 6/5 x (-7/3) = (6 x -7)/(5 x 3) = -42/15",
+                "ANSWER: LHS = RHS = -42/15. So multiplication is commutative for rational numbers.",
+                "Example 1.2.2.4: [Division is NOT commutative]",
+                "PROBLEM: Check whether -5/4 / 3/7 = 3/7 / (-5/4).",
+                "SOLUTION:",
+                "Step 1: LHS = -5/4 / 3/7 = -5/4 x 7/3 = -35/12",
+                "Step 2: RHS = 3/7 / (-5/4) = 3/7 x (-4/5) = -12/35",
+                "ANSWER: LHS (-35/12) is not equal to RHS (-12/35). So division is NOT commutative.",
+                "TRY THESE:",
+                "Complete the following table.",
+                "Numbers          | Commutative for",
+                "| addition | subtraction | multiplication | division",
+                "Rational numbers | Yes      | ...         | ...            | ...",
+                "Integers         | ...      | No          | ...            | ...",
+                "Whole numbers    | ...      | ...         | Yes            | ...",
+                "Natural numbers  | ...      | ...         | ...            | No",
+                "ANSWERS:",
+                "Rational numbers: subtraction = No, multiplication = Yes, division = No",
+                "Integers: addition = Yes, multiplication = Yes, division = No",
+                "Whole numbers: addition = Yes, subtraction = No, division = No",
+                "Natural numbers: addition = Yes, subtraction = No, multiplication = Yes"
+              ]
             },
             {
-              "mcq_num": 3,
-              "difficulty": "Easy",
-              "question": "Q: Rational numbers are NOT closed under:",
-              "options": {
-                "A": "Addition",
-                "B": "Subtraction",
-                "C": "Multiplication",
-                "D": "Division"
-              },
-              "answer": "D",
-              "explanation": "Rational numbers are not closed under division because a / 0 is not defined."
+              "type": "qa",
+              "label": "SUB-TOPIC 1.2.2: Q&A",
+              "items": []
             },
             {
-              "mcq_num": 4,
-              "difficulty": "Medium",
-              "question": "Q: The result of 3/8 + (-5)/7 is:",
-              "options": {
-                "A": "19/56",
-                "B": "-19/56",
-                "C": "-2/15",
-                "D": "2/15"
-              },
-              "answer": "B",
-              "explanation": "3/8 + (-5/7) = 21/56 + (-40)/56 = -19/56."
+              "type": "qa",
+              "label": "Q&A",
+              "items": [
+                {
+                  "q_num": 1,
+                  "marks": 2,
+                  "question": "What is commutativity? State which operations are commutative for rational numbers.",
+                  "answer": "An operation is commutative if changing the order of the two numbers does not change the result.\nFor rational numbers:\n- Addition is commutative: a + b = b + a\n- Multiplication is commutative: a x b = b x a\n- Subtraction and division are NOT commutative."
+                },
+                {
+                  "q_num": 2,
+                  "marks": 2,
+                  "question": "Is subtraction commutative for rational numbers? Give an example.",
+                  "answer": "No, subtraction is not commutative for rational numbers.\nExample: 2/3 - 5/4 = 8/12 - 15/12 = -7/12\nBut: 5/4 - 2/3 = 15/12 - 8/12 = 7/12\n-7/12 is not equal to 7/12. So subtraction is NOT commutative."
+                },
+                {
+                  "q_num": 3,
+                  "marks": 2,
+                  "question": "Verify that -7/3 x 6/5 = 6/5 x (-7/3).",
+                  "answer": "LHS = -7/3 x 6/5 = (-7 x 6)/(3 x 5) = -42/15\nRHS = 6/5 x (-7/3) = (6 x -7)/(5 x 3) = -42/15\nLHS = RHS = -42/15.\nSo multiplication is commutative for rational numbers.\n\n---\n\n3 ಮಾರ್ಕ್ಸ್ × 2 questions:"
+                },
+                {
+                  "q_num": 4,
+                  "marks": 3,
+                  "question": "Verify that addition is commutative for rational numbers: -6/5 + (-8/3) = (-8/3) + (-6/5).",
+                  "answer": "Step 1: LHS = -6/5 + (-8/3)\nStep 2: LCM of 5 and 3 is 15\nStep 3: = -18/15 + (-40/15) = -58/15\n\nStep 4: RHS = (-8/3) + (-6/5)\nStep 5: = -40/15 + (-18/15) = -58/15\n\nLHS = RHS = -58/15.\nSo addition is commutative for rational numbers."
+                },
+                {
+                  "q_num": 5,
+                  "marks": 3,
+                  "question": "Show that division is not commutative for rational numbers using -5/4 and 3/7.",
+                  "answer": "Step 1: LHS = -5/4 / 3/7\nStep 2: = -5/4 x 7/3 (reciprocal of 3/7 is 7/3)\nStep 3: = -35/12\n\nStep 4: RHS = 3/7 / (-5/4)\nStep 5: = 3/7 x (-4/5) (reciprocal of -5/4 is -4/5)\nStep 6: = -12/35\n\nLHS (-35/12) is not equal to RHS (-12/35).\nSo division is NOT commutative for rational numbers.\n\n---\n\n4 ಮಾರ್ಕ್ಸ್ × 2 questions:"
+                },
+                {
+                  "q_num": 6,
+                  "marks": 4,
+                  "question": "Verify commutativity of addition and multiplication for rational numbers using a = -2/3 and b = 5/7.",
+                  "answer": "Commutativity of Addition (a + b = b + a):\nLHS = -2/3 + 5/7 = -14/21 + 15/21 = 1/21\nRHS = 5/7 + (-2/3) = 15/21 + (-14/21) = 1/21\nLHS = RHS ✓ Addition is commutative.\n\nCommutativity of Multiplication (a x b = b x a):\nLHS = -2/3 x 5/7 = -10/21\nRHS = 5/7 x (-2/3) = -10/21\nLHS = RHS ✓ Multiplication is commutative."
+                },
+                {
+                  "q_num": 7,
+                  "marks": 4,
+                  "question": "Complete the commutativity table and state which operations are commutative for all four number systems.",
+                  "answer": "Numbers          | Addition | Subtraction | Multiplication | Division\nRational numbers | Yes      | No          | Yes            | No\nIntegers         | Yes      | No          | Yes            | No\nWhole numbers    | Yes      | No          | Yes            | No\nNatural numbers  | Yes      | No          | Yes            | No\n\nObservations:\n- Addition is commutative for all four number systems\n- Multiplication is commutative for all four number systems\n- Subtraction is NOT commutative for any of the four number systems\n- Division is NOT commutative for any of the four number systems\n\n---\n\n5 ಮಾರ್ಕ್ಸ್ × 1 question:"
+                },
+                {
+                  "q_num": 8,
+                  "marks": 5,
+                  "question": "Verify commutativity for rational numbers under all four operations. State which are commutative and which are not.",
+                  "answer": "PART A — Verification:\n\n(i) Addition: -2/3 + 5/7 = -14/21 + 15/21 = 1/21\n5/7 + (-2/3) = 15/21 + (-14/21) = 1/21\nLHS = RHS ✓ Addition IS commutative.\n\n(ii) Subtraction: 2/3 - 5/4 = 8/12 - 15/12 = -7/12\n5/4 - 2/3 = 15/12 - 8/12 = +7/12\nLHS ≠ RHS ✗ Subtraction is NOT commutative.\n\n(iii) Multiplication: -7/3 x 6/5 = -42/15\n6/5 x (-7/3) = -42/15\nLHS = RHS ✓ Multiplication IS commutative.\n\n(iv) Division: -5/4 / 3/7 = -5/4 x 7/3 = -35/12\n3/7 / (-5/4) = 3/7 x (-4/5) = -12/35\nLHS ≠ RHS ✗ Division is NOT commutative.\n\nPART B — Conclusion:\nCommutative: Addition (a + b = b + a) and Multiplication (a x b = b x a)\nNOT Commutative: Subtraction and Division"
+                }
+              ]
             },
             {
-              "mcq_num": 5,
-              "difficulty": "Medium",
-              "question": "Q: Which of the following is NOT a rational number?",
-              "options": {
-                "A": "0",
-                "B": "-2",
-                "C": "3/0",
-                "D": "-7/5"
-              },
-              "answer": "C",
-              "explanation": "3/0 is not defined (denominator is 0), so it is not a rational number."
+              "type": "mcq",
+              "label": "SUB-TOPIC 1.2.2: MCQs:",
+              "items": []
             },
             {
-              "mcq_num": 6,
-              "difficulty": "Hard",
-              "question": "Q: If zero is removed from rational numbers, which statement becomes TRUE?",
-              "options": {
-                "A": "Subtraction is no longer closed",
-                "B": "Division becomes closed",
-                "C": "Addition is no longer closed",
-                "D": "Multiplication is no longer closed"
-              },
-              "answer": "B",
-              "explanation": "If zero is excluded, we never divide by zero, so the collection of non-zero rational numbers is closed under division."
-            },
-            {
-              "mcq_num": 7,
-              "difficulty": "Hard",
-              "question": "Q: For rational numbers a and b, a/b is always a rational number when:",
-              "options": {
-                "A": "a is not 0",
-                "B": "b is not 0",
-                "C": "Both a and b are positive",
-                "D": "a = b"
-              },
-              "answer": "B",
-              "explanation": "a/b is a rational number as long as b is not 0. If b = 0, division is not defined. ----"
+              "type": "mcq",
+              "label": "MCQ",
+              "items": [
+                {
+                  "mcq_num": 1,
+                  "difficulty": "Easy",
+                  "question": "Q: Addition of rational numbers is:",
+                  "options": {
+                    "A": "Not commutative",
+                    "B": "Commutative",
+                    "C": "Sometimes commutative",
+                    "D": "Cannot say"
+                  },
+                  "answer": "B",
+                  "explanation": "Addition is commutative for rational numbers: a + b = b + a."
+                },
+                {
+                  "mcq_num": 2,
+                  "difficulty": "Easy",
+                  "question": "Q: Which operation is NOT commutative for rational numbers?",
+                  "options": {
+                    "A": "Addition",
+                    "B": "Multiplication",
+                    "C": "Subtraction",
+                    "D": "None of these"
+                  },
+                  "answer": "C",
+                  "explanation": "Subtraction is not commutative. 2/3 - 5/4 = -7/12, but 5/4 - 2/3 = 7/12."
+                },
+                {
+                  "mcq_num": 3,
+                  "difficulty": "Medium",
+                  "question": "Q: For rational numbers a and b, which is always true?",
+                  "options": {
+                    "A": "a - b = b - a",
+                    "B": "a / b = b / a",
+                    "C": "a x b = b x a",
+                    "D": "None"
+                  },
+                  "answer": "C",
+                  "explanation": "Multiplication is commutative for rational numbers: a x b = b x a."
+                },
+                {
+                  "mcq_num": 4,
+                  "difficulty": "Medium",
+                  "question": "Q: -7/3 x 6/5 equals:",
+                  "options": {
+                    "A": "42/15",
+                    "B": "-42/15",
+                    "C": "-35/18",
+                    "D": "35/18"
+                  },
+                  "answer": "B",
+                  "explanation": "(-7 x 6)/(3 x 5) = -42/15."
+                },
+                {
+                  "mcq_num": 5,
+                  "difficulty": "Hard",
+                  "question": "Q: -5/4 / 3/7 is:",
+                  "options": {
+                    "A": "Equal to 3/7 / (-5/4)",
+                    "B": "-35/12",
+                    "C": "-12/35",
+                    "D": "Both A and B"
+                  },
+                  "answer": "B",
+                  "explanation": "-5/4 / 3/7 = -5/4 x 7/3 = -35/12. And 3/7 / (-5/4) = -12/35. They are NOT equal, so division is not commutative."
+                },
+                {
+                  "mcq_num": 6,
+                  "difficulty": "Medium",
+                  "question": "Q: If a + b = b + a for rational numbers a and b, which property does this show?",
+                  "options": {
+                    "A": "Closure",
+                    "B": "Associativity",
+                    "C": "Commutativity",
+                    "D": "Distributivity"
+                  },
+                  "answer": "C",
+                  "explanation": "Changing the order of two numbers in addition without changing the result is commutativity: a + b = b + a."
+                },
+                {
+                  "mcq_num": 7,
+                  "difficulty": "Hard",
+                  "question": "Q: For which pair of operations is commutativity satisfied for ALL number systems?",
+                  "options": {
+                    "A": "Addition and subtraction",
+                    "B": "Subtraction and division",
+                    "C": "Addition and multiplication",
+                    "D": "Multiplication and division"
+                  },
+                  "answer": "C",
+                  "explanation": "Addition and multiplication are commutative for natural, whole, integer, and rational numbers. Subtraction and division are NOT commutative for any of these. ----"
+                }
+              ]
             }
           ]
         },
         {
-          "type": "definition",
-          "label": "Definition:",
-          "text": "An operation is said to be COMMUTATIVE if changing the order of the two numbers does not change the result. That is, for any two numbers a and b: a operation b = b operation a."
-        },
-        {
-          "type": "key_points",
-          "label": "Key Points:",
-          "points": [
-            "ADDITION is commutative for whole numbers, integers, and rational numbers: a + b = b + a",
-            "MULTIPLICATION is commutative for whole numbers, integers, and rational numbers: a x b = b x a",
-            "SUBTRACTION is NOT commutative for rational numbers (5 - 3 is not equal to 3 - 5)",
-            "DIVISION is NOT commutative for rational numbers (-5/4 / 3/7 is not equal to 3/7 / (-5/4))",
-            "For any two rational numbers a and b: a + b = b + a",
-            "For any two rational numbers a and b: a x b = b x a",
-            "COMMUTATIVITY TABLE:",
-            "Numbers          | Addition | Subtraction | Multiplication | Division",
-            "Rational numbers | Yes      | No          | Yes            | No",
-            "Integers         | Yes      | No          | Yes            | No",
-            "Whole numbers    | Yes      | No          | Yes            | No",
-            "Natural numbers  | Yes      | No          | Yes            | No",
-            "EXAMPLES:",
-            "Example 1.2.2.1: [Addition is commutative - Rational numbers]",
-            "PROBLEM: Check whether -2/3 + 5/7 = 5/7 + (-2/3).",
-            "SOLUTION:",
-            "Step 1: LHS = -2/3 + 5/7",
-            "Step 2: LCM of 3 and 7 is 21",
-            "Step 3: LHS = -14/21 + 15/21 = 1/21",
-            "Step 4: RHS = 5/7 + (-2/3)",
-            "Step 5: RHS = 15/21 + (-14/21) = 1/21",
-            "ANSWER: LHS = RHS = 1/21. So addition is commutative for rational numbers.",
-            "Example 1.2.2.2: [Subtraction is NOT commutative]",
-            "PROBLEM: Check whether 2/3 - 5/4 = 5/4 - 2/3.",
-            "SOLUTION:",
-            "Step 1: LHS = 2/3 - 5/4",
-            "Step 2: LCM of 3 and 4 is 12",
-            "Step 3: LHS = 8/12 - 15/12 = -7/12",
-            "Step 4: RHS = 5/4 - 2/3",
-            "Step 5: RHS = 15/12 - 8/12 = 7/12",
-            "ANSWER: LHS (-7/12) is not equal to RHS (7/12). So subtraction is NOT commutative.",
-            "Example 1.2.2.3: [Multiplication is commutative - Rational numbers]",
-            "PROBLEM: Check whether -7/3 x 6/5 = 6/5 x (-7/3).",
-            "SOLUTION:",
-            "Step 1: LHS = -7/3 x 6/5 = (-7 x 6)/(3 x 5) = -42/15",
-            "Step 2: RHS = 6/5 x (-7/3) = (6 x -7)/(5 x 3) = -42/15",
-            "ANSWER: LHS = RHS = -42/15. So multiplication is commutative for rational numbers.",
-            "Example 1.2.2.4: [Division is NOT commutative]",
-            "PROBLEM: Check whether -5/4 / 3/7 = 3/7 / (-5/4).",
-            "SOLUTION:",
-            "Step 1: LHS = -5/4 / 3/7 = -5/4 x 7/3 = -35/12",
-            "Step 2: RHS = 3/7 / (-5/4) = 3/7 x (-4/5) = -12/35",
-            "ANSWER: LHS (-35/12) is not equal to RHS (-12/35). So division is NOT commutative.",
-            "TRY THESE:",
-            "Complete the following table.",
-            "Numbers          | Commutative for",
-            "| addition | subtraction | multiplication | division",
-            "Rational numbers | Yes      | ...         | ...            | ...",
-            "Integers         | ...      | No          | ...            | ...",
-            "Whole numbers    | ...      | ...         | Yes            | ...",
-            "Natural numbers  | ...      | ...         | ...            | No",
-            "ANSWERS:",
-            "Rational numbers: subtraction = No, multiplication = Yes, division = No",
-            "Integers: addition = Yes, multiplication = Yes, division = No",
-            "Whole numbers: addition = Yes, subtraction = No, division = No",
-            "Natural numbers: addition = Yes, subtraction = No, multiplication = Yes"
-          ]
-        },
-        {
-          "type": "qa",
-          "label": "SUB-TOPIC 1.2.2: Q&A",
-          "items": []
-        },
-        {
-          "type": "qa",
-          "label": "Q&A",
-          "items": [
+          "subtopic_num": "1.2.3",
+          "subtopic_name": "ASSOCIATIVITY",
+          "sections": [
             {
-              "q_num": 1,
-              "marks": 2,
-              "question": "What is commutativity? State which operations are commutative for rational numbers.",
-              "answer": "An operation is commutative if changing the order of the two numbers does not change the result.\nFor rational numbers:\n- Addition is commutative: a + b = b + a\n- Multiplication is commutative: a x b = b x a\n- Subtraction and division are NOT commutative."
+              "type": "definition",
+              "label": "Definition:",
+              "text": "An operation is said to be ASSOCIATIVE if changing the grouping (brackets) of three numbers does not change the result. That is, for any three numbers a, b and c: (a operation b) operation c = a operation (b operation c)."
             },
             {
-              "q_num": 2,
-              "marks": 2,
-              "question": "Is subtraction commutative for rational numbers? Give an example.",
-              "answer": "No, subtraction is not commutative for rational numbers.\nExample: 2/3 - 5/4 = 8/12 - 15/12 = -7/12\nBut: 5/4 - 2/3 = 15/12 - 8/12 = 7/12\n-7/12 is not equal to 7/12. So subtraction is NOT commutative."
+              "type": "key_points",
+              "label": "Key Points:",
+              "points": [
+                "ADDITION is associative for whole numbers, integers, and rational numbers: (a + b) + c = a + (b + c)",
+                "MULTIPLICATION is associative for whole numbers, integers, and rational numbers: (a x b) x c = a x (b x c)",
+                "SUBTRACTION is NOT associative for rational numbers",
+                "DIVISION is NOT associative for rational numbers",
+                "Properties of commutativity and associativity together help simplify calculations",
+                "ASSOCIATIVITY TABLE:",
+                "Numbers          | Addition | Subtraction | Multiplication | Division",
+                "Rational numbers | Yes      | No          | Yes            | No",
+                "Integers         | Yes      | No          | Yes            | No",
+                "Whole numbers    | Yes      | No          | Yes            | No",
+                "Natural numbers  | Yes      | No          | Yes            | No",
+                "EXAMPLES:",
+                "Example 1.2.3.1: [Associativity of Addition - Rational numbers]",
+                "PROBLEM: Verify that -2/3 + [3/5 + (-5/6)] = [-2/3 + 3/5] + (-5/6).",
+                "SOLUTION:",
+                "Step 1: LHS = -2/3 + [3/5 + (-5/6)]",
+                "Step 2: Inside bracket: LCM of 5 and 6 is 30. 3/5 + (-5/6) = 18/30 + (-25/30) = -7/30",
+                "Step 3: LHS = -2/3 + (-7/30). LCM of 3 and 30 is 30. = -20/30 + (-7/30) = -27/30 = -9/10",
+                "Step 4: RHS = [-2/3 + 3/5] + (-5/6)",
+                "Step 5: Inside bracket: LCM of 3 and 5 is 15. -2/3 + 3/5 = -10/15 + 9/15 = -1/15",
+                "Step 6: RHS = -1/15 + (-5/6). LCM of 15 and 6 is 30. = -2/30 + (-25/30) = -27/30 = -9/10",
+                "ANSWER: LHS = RHS = -9/10. So addition is associative for rational numbers.",
+                "Example 1.2.3.2: [Subtraction is NOT associative]",
+                "PROBLEM: Check whether -2/3 - [-4/5 - 1/2] = [-2/3 - (-4/5)] - 1/2.",
+                "SOLUTION:",
+                "Step 1: LHS = -2/3 - [-4/5 - 1/2]",
+                "Step 2: Inside bracket: LCM of 5 and 2 is 10. -4/5 - 1/2 = -8/10 - 5/10 = -13/10",
+                "Step 3: LHS = -2/3 - (-13/10). LCM of 3 and 10 is 30. = -20/30 + 39/30 = 19/30",
+                "Step 4: RHS = [-2/3 - (-4/5)] - 1/2",
+                "Step 5: Inside bracket: LCM of 3 and 5 is 15. -2/3 + 4/5 = -10/15 + 12/15 = 2/15",
+                "Step 6: RHS = 2/15 - 1/2. LCM of 15 and 2 is 30. = 4/30 - 15/30 = -11/30",
+                "ANSWER: LHS (19/30) is not equal to RHS (-11/30). So subtraction is NOT associative.",
+                "Example 1.2.3.3: [Associativity of Multiplication - Rational numbers]",
+                "PROBLEM: Verify that -7/3 x (5/4 x 2/9) = (-7/3 x 5/4) x 2/9.",
+                "SOLUTION:",
+                "Step 1: LHS = -7/3 x (5/4 x 2/9)",
+                "Step 2: 5/4 x 2/9 = 10/36 = 5/18",
+                "Step 3: LHS = -7/3 x 5/18 = -35/54",
+                "Step 4: RHS = (-7/3 x 5/4) x 2/9",
+                "Step 5: -7/3 x 5/4 = -35/12",
+                "Step 6: RHS = -35/12 x 2/9 = -70/108 = -35/54",
+                "ANSWER: LHS = RHS = -35/54. So multiplication is associative for rational numbers.",
+                "Example 1.2.3.4: [Division is NOT associative]",
+                "PROBLEM: Check whether 1/2 / [-1/3 / 2/5] = [1/2 / (-1/3)] / 2/5.",
+                "SOLUTION:",
+                "Step 1: LHS = 1/2 / [-1/3 / 2/5]",
+                "Step 2: -1/3 / 2/5 = -1/3 x 5/2 = -5/6",
+                "Step 3: LHS = 1/2 / (-5/6) = 1/2 x (-6/5) = -6/10 = -3/5",
+                "Step 4: RHS = [1/2 / (-1/3)] / 2/5",
+                "Step 5: 1/2 / (-1/3) = 1/2 x (-3/1) = -3/2",
+                "Step 6: RHS = -3/2 / 2/5 = -3/2 x 5/2 = -15/4",
+                "ANSWER: LHS (-3/5) is not equal to RHS (-15/4). So division is NOT associative.",
+                "TRY THESE:",
+                "Complete the following table.",
+                "Numbers          | Associative for",
+                "| addition | subtraction | multiplication | division",
+                "Rational numbers | ...      | ...         | ...            | No",
+                "Integers         | ...      | ...         | Yes            | ...",
+                "Whole numbers    | Yes      | ...         | ...            | ...",
+                "Natural numbers  | ...      | No          | ...            | ...",
+                "ANSWERS:",
+                "Rational numbers: addition = Yes, subtraction = No, multiplication = Yes",
+                "Integers: addition = Yes, subtraction = No, division = No",
+                "Whole numbers: subtraction = No, multiplication = Yes, division = No",
+                "Natural numbers: addition = Yes, multiplication = Yes, division = No",
+                "Example 1: Find 3/7 + (-6/11) + (-8/21) + (5/22).",
+                "Solution:",
+                "3/7 + (-6/11) + (-8/21) + (5/22)",
+                "Method 1 (Direct - LCM of 7, 11, 21, 22 is 462):",
+                "= 198/462 + (-252/462) + (-176/462) + (105/462)",
+                "= (198 - 252 - 176 + 105)/462",
+                "= -125/462",
+                "Method 2 (Using commutativity and associativity):",
+                "= [3/7 + (-8/21)] + [-6/11 + 5/22]       (by using commutativity and associativity)",
+                "= [(9 + (-8))/21] + [(-12 + 5)/22]        (LCM of 7 and 21 is 21; LCM of 11 and 22 is 22)",
+                "= 1/21 + (-7/22)",
+                "= (22 - 147)/462",
+                "= -125/462",
+                "Do you think the properties of commutativity and associativity made the calculations easier?",
+                "Example 2: Find (-4/5) x (3/7) x (15/16) x (-14/9).",
+                "Solution:",
+                "Method 1:",
+                "(-4/5) x (3/7) x (15/16) x (-14/9)",
+                "= ((-4 x 3)/(5 x 7)) x ((15 x (-14))/(16 x 9))",
+                "= (-12/35) x (-35/24)",
+                "= (-12 x -35)/(35 x 24)",
+                "= 420/840",
+                "= 1/2",
+                "Method 2 (Using commutativity and associativity):",
+                "(-4/5) x (3/7) x (15/16) x (-14/9)",
+                "= ((-4/5) x (15/16)) x [(3/7) x (-14/9)]",
+                "= (-60/80) x (-42/63)",
+                "= (-3/4) x (-2/3)",
+                "= 6/12",
+                "= 1/2"
+              ]
             },
             {
-              "q_num": 3,
-              "marks": 2,
-              "question": "Verify that -7/3 x 6/5 = 6/5 x (-7/3).",
-              "answer": "LHS = -7/3 x 6/5 = (-7 x 6)/(3 x 5) = -42/15\nRHS = 6/5 x (-7/3) = (6 x -7)/(5 x 3) = -42/15\nLHS = RHS = -42/15.\nSo multiplication is commutative for rational numbers.\n\n---\n\n3 ಮಾರ್ಕ್ಸ್ × 2 questions:"
+              "type": "qa",
+              "label": "SUB-TOPIC 1.2.3: Q&A",
+              "items": []
             },
             {
-              "q_num": 4,
-              "marks": 3,
-              "question": "Verify that addition is commutative for rational numbers: -6/5 + (-8/3) = (-8/3) + (-6/5).",
-              "answer": "Step 1: LHS = -6/5 + (-8/3)\nStep 2: LCM of 5 and 3 is 15\nStep 3: = -18/15 + (-40/15) = -58/15\n\nStep 4: RHS = (-8/3) + (-6/5)\nStep 5: = -40/15 + (-18/15) = -58/15\n\nLHS = RHS = -58/15.\nSo addition is commutative for rational numbers."
+              "type": "qa",
+              "label": "Q&A",
+              "items": [
+                {
+                  "q_num": 1,
+                  "marks": 2,
+                  "question": "What is associativity? State which operations are associative for rational numbers.",
+                  "answer": "An operation is associative if changing the grouping (brackets) of three numbers does not change the result.\nFor rational numbers:\n- Addition is associative: (a + b) + c = a + (b + c)\n- Multiplication is associative: (a x b) x c = a x (b x c)\n- Subtraction and division are NOT associative."
+                },
+                {
+                  "q_num": 2,
+                  "marks": 2,
+                  "question": "Is subtraction associative? Give a simple example.",
+                  "answer": "No, subtraction is not associative.\nExample: (5 - 3) - 2 = 2 - 2 = 0\nBut: 5 - (3 - 2) = 5 - 1 = 4\n0 is not equal to 4. So subtraction is NOT associative."
+                },
+                {
+                  "q_num": 3,
+                  "marks": 2,
+                  "question": "How do commutativity and associativity help in calculations?",
+                  "answer": "These properties allow us to rearrange and regroup numbers to make calculations easier.\nExample: In 3/7 + (-6/11) + (-8/21) + 5/22, we group 3/7 with -8/21 (related denominators) and -6/11 with 5/22 (related denominators) to simplify the LCM calculation.\n\n---\n\n3 ಮಾರ್ಕ್ಸ್ × 2 questions:"
+                },
+                {
+                  "q_num": 4,
+                  "marks": 3,
+                  "question": "Verify that addition is associative for rational numbers using a = -2/3, b = 3/5, c = -5/6.",
+                  "answer": "Step 1: LHS = (-2/3 + 3/5) + (-5/6)\nStep 2: -2/3 + 3/5 = -10/15 + 9/15 = -1/15\nStep 3: LHS = -1/15 + (-5/6) = -2/30 + (-25/30) = -27/30 = -9/10\n\nStep 4: RHS = -2/3 + (3/5 + (-5/6))\nStep 5: 3/5 + (-5/6) = 18/30 + (-25/30) = -7/30\nStep 6: RHS = -2/3 + (-7/30) = -20/30 + (-7/30) = -27/30 = -9/10\n\nLHS = RHS = -9/10. So addition is associative."
+                },
+                {
+                  "q_num": 5,
+                  "marks": 3,
+                  "question": "Find (-4/5) x (3/7) x (15/16) x (-14/9) using associativity and commutativity.",
+                  "answer": "Using commutativity and associativity, group:\n= ((-4/5) x (15/16)) x ((3/7) x (-14/9))\n\nStep 1: -4/5 x 15/16 = -60/80 = -3/4\nStep 2: 3/7 x (-14/9) = -42/63 = -2/3\nStep 3: (-3/4) x (-2/3) = 6/12 = 1/2\n\nAnswer = 1/2\n\n---\n\n4 ಮಾರ್ಕ್ಸ್ × 2 questions:"
+                },
+                {
+                  "q_num": 6,
+                  "marks": 4,
+                  "question": "Verify that multiplication is associative for rational numbers using a = -7/3, b = 5/4, c = 2/9.",
+                  "answer": "To verify: (a x b) x c = a x (b x c)\n\nStep 1: LHS = (-7/3 x 5/4) x 2/9\nStep 2: -7/3 x 5/4 = -35/12\nStep 3: LHS = -35/12 x 2/9 = -70/108 = -35/54\n\nStep 4: RHS = -7/3 x (5/4 x 2/9)\nStep 5: 5/4 x 2/9 = 10/36 = 5/18\nStep 6: RHS = -7/3 x 5/18 = -35/54\n\nLHS = RHS = -35/54.\nSo multiplication is associative for rational numbers."
+                },
+                {
+                  "q_num": 7,
+                  "marks": 4,
+                  "question": "Find 3/7 + (-6/11) + (-8/21) + 5/22 using two methods and show that commutativity and associativity make calculations easier.",
+                  "answer": "Method 1 (Direct - LCM = 462):\n= 198/462 + (-252/462) + (-176/462) + 105/462\n= (198 - 252 - 176 + 105)/462 = -125/462\n\nMethod 2 (Using properties):\nGroup related fractions: [3/7 + (-8/21)] + [-6/11 + 5/22]\n= [(9-8)/21] + [(-12+5)/22]     (LCM of 7,21 = 21; LCM of 11,22 = 22)\n= 1/21 + (-7/22)\n= 22/462 + (-147/462) = -125/462\n\nBoth methods give -125/462.\nMethod 2 is easier because grouping fractions with related denominators reduces LCM calculation.\n\n---\n\n5 ಮಾರ್ಕ್ಸ್ × 1 question:"
+                },
+                {
+                  "q_num": 8,
+                  "marks": 5,
+                  "question": "Verify associativity for rational numbers under addition and multiplication. Also show that subtraction is NOT associative.",
+                  "answer": "PART A — Addition is associative:\nTake a = -2/3, b = 3/5, c = -5/6.\n\nLHS = (-2/3 + 3/5) + (-5/6) = -1/15 + (-5/6) = -2/30 + (-25/30) = -27/30 = -9/10\nRHS = -2/3 + (3/5 + (-5/6)) = -2/3 + (-7/30) = -20/30 + (-7/30) = -27/30 = -9/10\nLHS = RHS ✓ Addition IS associative.\n\nPART B — Multiplication is associative:\nTake a = -7/3, b = 5/4, c = 2/9.\n\nLHS = (-7/3 x 5/4) x 2/9 = -35/12 x 2/9 = -70/108 = -35/54\nRHS = -7/3 x (5/4 x 2/9) = -7/3 x 5/18 = -35/54\nLHS = RHS ✓ Multiplication IS associative.\n\nPART C — Subtraction is NOT associative:\nLHS = -2/3 - [-4/5 - 1/2]\n= -2/3 - (-13/10) = -20/30 + 39/30 = 19/30\nRHS = [-2/3 - (-4/5)] - 1/2\n= 2/15 - 1/2 = 4/30 - 15/30 = -11/30\nLHS (19/30) ≠ RHS (-11/30) ✗ Subtraction is NOT associative."
+                }
+              ]
             },
             {
-              "q_num": 5,
-              "marks": 3,
-              "question": "Show that division is not commutative for rational numbers using -5/4 and 3/7.",
-              "answer": "Step 1: LHS = -5/4 / 3/7\nStep 2: = -5/4 x 7/3 (reciprocal of 3/7 is 7/3)\nStep 3: = -35/12\n\nStep 4: RHS = 3/7 / (-5/4)\nStep 5: = 3/7 x (-4/5) (reciprocal of -5/4 is -4/5)\nStep 6: = -12/35\n\nLHS (-35/12) is not equal to RHS (-12/35).\nSo division is NOT commutative for rational numbers.\n\n---\n\n4 ಮಾರ್ಕ್ಸ್ × 2 questions:"
+              "type": "mcq",
+              "label": "SUB-TOPIC 1.2.3: MCQs:",
+              "items": []
             },
             {
-              "q_num": 6,
-              "marks": 4,
-              "question": "Verify commutativity of addition and multiplication for rational numbers using a = -2/3 and b = 5/7.",
-              "answer": "Commutativity of Addition (a + b = b + a):\nLHS = -2/3 + 5/7 = -14/21 + 15/21 = 1/21\nRHS = 5/7 + (-2/3) = 15/21 + (-14/21) = 1/21\nLHS = RHS ✓ Addition is commutative.\n\nCommutativity of Multiplication (a x b = b x a):\nLHS = -2/3 x 5/7 = -10/21\nRHS = 5/7 x (-2/3) = -10/21\nLHS = RHS ✓ Multiplication is commutative."
-            },
-            {
-              "q_num": 7,
-              "marks": 4,
-              "question": "Complete the commutativity table and state which operations are commutative for all four number systems.",
-              "answer": "Numbers          | Addition | Subtraction | Multiplication | Division\nRational numbers | Yes      | No          | Yes            | No\nIntegers         | Yes      | No          | Yes            | No\nWhole numbers    | Yes      | No          | Yes            | No\nNatural numbers  | Yes      | No          | Yes            | No\n\nObservations:\n- Addition is commutative for all four number systems\n- Multiplication is commutative for all four number systems\n- Subtraction is NOT commutative for any of the four number systems\n- Division is NOT commutative for any of the four number systems\n\n---\n\n5 ಮಾರ್ಕ್ಸ್ × 1 question:"
-            },
-            {
-              "q_num": 8,
-              "marks": 5,
-              "question": "Verify commutativity for rational numbers under all four operations. State which are commutative and which are not.",
-              "answer": "PART A — Verification:\n\n(i) Addition: -2/3 + 5/7 = -14/21 + 15/21 = 1/21\n5/7 + (-2/3) = 15/21 + (-14/21) = 1/21\nLHS = RHS ✓ Addition IS commutative.\n\n(ii) Subtraction: 2/3 - 5/4 = 8/12 - 15/12 = -7/12\n5/4 - 2/3 = 15/12 - 8/12 = +7/12\nLHS ≠ RHS ✗ Subtraction is NOT commutative.\n\n(iii) Multiplication: -7/3 x 6/5 = -42/15\n6/5 x (-7/3) = -42/15\nLHS = RHS ✓ Multiplication IS commutative.\n\n(iv) Division: -5/4 / 3/7 = -5/4 x 7/3 = -35/12\n3/7 / (-5/4) = 3/7 x (-4/5) = -12/35\nLHS ≠ RHS ✗ Division is NOT commutative.\n\nPART B — Conclusion:\nCommutative: Addition (a + b = b + a) and Multiplication (a x b = b x a)\nNOT Commutative: Subtraction and Division"
+              "type": "mcq",
+              "label": "MCQ",
+              "items": [
+                {
+                  "mcq_num": 1,
+                  "difficulty": "Easy",
+                  "question": "Q: Associativity means:",
+                  "options": {
+                    "A": "Order of numbers does not matter",
+                    "B": "Grouping of numbers does not matter",
+                    "C": "Both order and grouping do not matter",
+                    "D": "Result is always zero"
+                  },
+                  "answer": "B",
+                  "explanation": "Associativity means the grouping (brackets) of numbers does not change the result."
+                },
+                {
+                  "mcq_num": 2,
+                  "difficulty": "Easy",
+                  "question": "Q: Which operation is associative for rational numbers?",
+                  "options": {
+                    "A": "Addition only",
+                    "B": "Multiplication only",
+                    "C": "Both addition and multiplication",
+                    "D": "All four operations"
+                  },
+                  "answer": "C",
+                  "explanation": "Both addition and multiplication are associative for rational numbers."
+                },
+                {
+                  "mcq_num": 3,
+                  "difficulty": "Medium",
+                  "question": "Q: (a + b) + c = a + (b + c) is the property of:",
+                  "options": {
+                    "A": "Commutativity",
+                    "B": "Associativity",
+                    "C": "Distributivity",
+                    "D": "Closure"
+                  },
+                  "answer": "B",
+                  "explanation": "This is the associative property for addition."
+                },
+                {
+                  "mcq_num": 4,
+                  "difficulty": "Medium",
+                  "question": "Q: 3/7 + [(-6/11) + (-8/21)] = [3/7 + (-6/11)] + (-8/21) shows:",
+                  "options": {
+                    "A": "Commutativity",
+                    "B": "Associativity",
+                    "C": "Distributivity",
+                    "D": "Closure"
+                  },
+                  "answer": "B",
+                  "explanation": "Rearranging the brackets (grouping) without changing the result shows associativity."
+                },
+                {
+                  "mcq_num": 5,
+                  "difficulty": "Hard",
+                  "question": "Q: The value of (-4/5) x (3/7) x (15/16) x (-14/9) is:",
+                  "options": {
+                    "A": "-1/2",
+                    "B": "1/2",
+                    "C": "-1",
+                    "D": "1"
+                  },
+                  "answer": "B",
+                  "explanation": "(-4/5) x (15/16) = -3/4, and (3/7) x (-14/9) = -2/3. Then (-3/4) x (-2/3) = 1/2."
+                },
+                {
+                  "mcq_num": 6,
+                  "difficulty": "Hard",
+                  "question": "Q: Which is true for division of rational numbers?",
+                  "options": {
+                    "A": "Associative",
+                    "B": "Commutative",
+                    "C": "Closed",
+                    "D": "None of these"
+                  },
+                  "answer": "D",
+                  "explanation": "Division of rational numbers is not associative, not commutative, and not closed."
+                },
+                {
+                  "mcq_num": 7,
+                  "difficulty": "Hard",
+                  "question": "Q: In finding 3/7 + (-6/11) + (-8/21) + 5/22, the easiest grouping is:",
+                  "options": {
+                    "A": "(3/7 + -6/11) + (-8/21 + 5/22)",
+                    "B": "(3/7 + -8/21) + (-6/11 + 5/22)",
+                    "C": "(3/7 + 5/22) + (-6/11 + -8/21)",
+                    "D": "Original order only"
+                  },
+                  "answer": "B",
+                  "explanation": "Grouping 3/7 with -8/21 (both have 7 as factor) and -6/11 with 5/22 (both have 11 as factor) makes LCM simpler. ----"
+                }
+              ]
             }
           ]
         },
         {
-          "type": "mcq",
-          "label": "SUB-TOPIC 1.2.2: MCQs:",
-          "items": []
-        },
-        {
-          "type": "mcq",
-          "label": "MCQ",
-          "items": [
+          "subtopic_num": "1.2.4",
+          "subtopic_name": "THE ROLE OF ZERO (0)",
+          "sections": [
             {
-              "mcq_num": 1,
-              "difficulty": "Easy",
-              "question": "Q: Addition of rational numbers is:",
-              "options": {
-                "A": "Not commutative",
-                "B": "Commutative",
-                "C": "Sometimes commutative",
-                "D": "Cannot say"
-              },
-              "answer": "B",
-              "explanation": "Addition is commutative for rational numbers: a + b = b + a."
+              "type": "definition",
+              "label": "Definition:",
+              "text": "Zero is called the IDENTITY FOR ADDITION of rational numbers, or the ADDITIVE IDENTITY. It is the additive identity for integers and whole numbers as well."
             },
             {
-              "mcq_num": 2,
-              "difficulty": "Easy",
-              "question": "Q: Which operation is NOT commutative for rational numbers?",
-              "options": {
-                "A": "Addition",
-                "B": "Multiplication",
-                "C": "Subtraction",
-                "D": "None of these"
-              },
-              "answer": "C",
-              "explanation": "Subtraction is not commutative. 2/3 - 5/4 = -7/12, but 5/4 - 2/3 = 7/12."
+              "type": "key_points",
+              "label": "Key Points:",
+              "points": [
+                "For any whole number a: a + 0 = 0 + a = a",
+                "For any integer b: b + 0 = 0 + b = b",
+                "For any rational number c: c + 0 = 0 + c = c",
+                "Zero is the additive identity for whole numbers, integers, and rational numbers",
+                "Adding 0 to any number gives back the same number - the number keeps its identity",
+                "EXAMPLES:",
+                "Example 1.2.4.1: [Zero as Additive Identity]",
+                "Look at the following:",
+                "2 + 0 = 0 + 2 = 2                    (Addition of 0 to a whole number)",
+                "5 + 0 = 0 + (-5) = -5               (Addition of 0 to an integer)",
+                "(-2/7) + 0 = 0 + (-2/7) = -2/7      (Addition of 0 to a rational number)",
+                "In general:",
+                "a + 0 = 0 + a = a,    where a is a whole number",
+                "b + 0 = 0 + b = b,    where b is an integer",
+                "c + 0 = 0 + c = c,    where c is a rational number",
+                "Zero is called the identity for the addition of rational numbers. It is the additive identity for integers and whole numbers as well."
+              ]
             },
             {
-              "mcq_num": 3,
-              "difficulty": "Medium",
-              "question": "Q: For rational numbers a and b, which is always true?",
-              "options": {
-                "A": "a - b = b - a",
-                "B": "a / b = b / a",
-                "C": "a x b = b x a",
-                "D": "None"
-              },
-              "answer": "C",
-              "explanation": "Multiplication is commutative for rational numbers: a x b = b x a."
+              "type": "qa",
+              "label": "SUB-TOPIC 1.2.4: Q&A",
+              "items": []
             },
             {
-              "mcq_num": 4,
-              "difficulty": "Medium",
-              "question": "Q: -7/3 x 6/5 equals:",
-              "options": {
-                "A": "42/15",
-                "B": "-42/15",
-                "C": "-35/18",
-                "D": "35/18"
-              },
-              "answer": "B",
-              "explanation": "(-7 x 6)/(3 x 5) = -42/15."
+              "type": "qa",
+              "label": "Q&A",
+              "items": [
+                {
+                  "q_num": 1,
+                  "marks": 2,
+                  "question": "What is the additive identity for rational numbers?",
+                  "answer": "Zero (0) is the additive identity for rational numbers.\nFor any rational number a: a + 0 = 0 + a = a.\nExample: -3/7 + 0 = 0 + (-3/7) = -3/7."
+                },
+                {
+                  "q_num": 2,
+                  "marks": 2,
+                  "question": "Why is 0 called the additive identity?",
+                  "answer": "Zero is called the additive identity because adding zero to any number does not change its value. The number keeps its identity.\nFor any rational number a: a + 0 = 0 + a = a."
+                },
+                {
+                  "q_num": 3,
+                  "marks": 2,
+                  "question": "Is 0 the additive identity for whole numbers and integers also?",
+                  "answer": "Yes. Zero is the additive identity for whole numbers, integers, and rational numbers.\nFor whole number: 2 + 0 = 0 + 2 = 2\nFor integer: -5 + 0 = 0 + (-5) = -5\nFor rational: (-2/7) + 0 = 0 + (-2/7) = -2/7\n\n---\n\n3 ಮಾರ್ಕ್ಸ್ × 2 questions:"
+                },
+                {
+                  "q_num": 4,
+                  "marks": 3,
+                  "question": "Show that zero is the additive identity for rational numbers using three examples.",
+                  "answer": "Zero is the additive identity because adding 0 does not change the number.\n\nExample 1 (Positive rational): 3/5 + 0 = 0 + 3/5 = 3/5 ✓\nExample 2 (Negative rational): -7/9 + 0 = 0 + (-7/9) = -7/9 ✓\nExample 3 (Integer as rational): -4 + 0 = 0 + (-4) = -4 ✓\n\nIn general: c + 0 = 0 + c = c for any rational number c.\nSo 0 is the additive identity for rational numbers."
+                },
+                {
+                  "q_num": 5,
+                  "marks": 3,
+                  "question": "Find (-2/7) + 0 + 5/3. Which property helps simplify this?",
+                  "answer": "Step 1: (-2/7) + 0 = -2/7     (Role of zero / Additive identity: a + 0 = a)\nStep 2: -2/7 + 5/3\nStep 3: LCM of 7 and 3 is 21\nStep 4: = -6/21 + 35/21\nStep 5: = 29/21\n\nAnswer = 29/21.\nThe property used is: 0 is the additive identity (adding 0 does not change the value).\n\n---\n\n4 ಮಾರ್ಕ್ಸ್ × 2 questions:"
+                },
+                {
+                  "q_num": 6,
+                  "marks": 4,
+                  "question": "What is additive identity? Show that 0 is the additive identity for whole numbers, integers, and rational numbers with one example each.",
+                  "answer": "Additive identity is a number that, when added to any number, gives back the same number.\n\nFor whole numbers: a + 0 = 0 + a = a\nExample: 5 + 0 = 0 + 5 = 5 ✓\n\nFor integers: b + 0 = 0 + b = b\nExample: -13 + 0 = 0 + (-13) = -13 ✓\n\nFor rational numbers: c + 0 = 0 + c = c\nExample: -2/7 + 0 = 0 + (-2/7) = -2/7 ✓\n\nIn all three cases, adding 0 does not change the number.\nTherefore, 0 (zero) is the additive identity for whole numbers, integers, and rational numbers."
+                },
+                {
+                  "q_num": 7,
+                  "marks": 4,
+                  "question": "Simplify: (i) (-3/7) + 0 + (-2/9) + 0   (ii) 5/8 + 0 + (-3/4) + 0",
+                  "answer": "(i) (-3/7) + 0 + (-2/9) + 0\n= (-3/7) + (-2/9)     (since adding 0 does not change value)\nLCM of 7 and 9 is 63\n= -27/63 + (-14/63)\n= -41/63\n\n(ii) 5/8 + 0 + (-3/4) + 0\n= 5/8 + (-3/4)        (since adding 0 does not change value)\nLCM of 8 and 4 is 8\n= 5/8 + (-6/8)\n= -1/8\n\nProperty used: 0 is the additive identity, so a + 0 = a in both cases.\n\n---\n\n5 ಮಾರ್ಕ್ಸ್ × 1 question:"
+                },
+                {
+                  "q_num": 8,
+                  "marks": 5,
+                  "question": "Define additive identity. Verify that 0 is the additive identity for rational numbers. Also explain why no other rational number can be the additive identity.",
+                  "answer": "PART A — Definition:\nA number 'e' is called the additive identity if for any number a: a + e = e + a = a.\n\nPART B — Verification that 0 is additive identity:\nFor any rational number c: c + 0 = 0 + c = c\n\nExample 1: 3/5 + 0 = 3/5 ✓\nExample 2: -7/9 + 0 = -7/9 ✓\nExample 3: -4 + 0 = -4 ✓\n\nGeneral rule:\na + 0 = 0 + a = a,    where a is a whole number\nb + 0 = 0 + b = b,    where b is an integer\nc + 0 = 0 + c = c,    where c is a rational number\n\nPART C — Why no other number can be additive identity:\nSuppose some number e (not 0) is the additive identity.\nThen for any rational number a: a + e = a\nThis means e = a - a = 0.\nThis is a contradiction, since we assumed e is not 0.\nTherefore, 0 is the ONLY additive identity for rational numbers."
+                }
+              ]
             },
             {
-              "mcq_num": 5,
-              "difficulty": "Hard",
-              "question": "Q: -5/4 / 3/7 is:",
-              "options": {
-                "A": "Equal to 3/7 / (-5/4)",
-                "B": "-35/12",
-                "C": "-12/35",
-                "D": "Both A and B"
-              },
-              "answer": "B",
-              "explanation": "-5/4 / 3/7 = -5/4 x 7/3 = -35/12. And 3/7 / (-5/4) = -12/35. They are NOT equal, so division is not commutative."
+              "type": "mcq",
+              "label": "SUB-TOPIC 1.2.4: MCQs:",
+              "items": []
             },
             {
-              "mcq_num": 6,
-              "difficulty": "Medium",
-              "question": "Q: If a + b = b + a for rational numbers a and b, which property does this show?",
-              "options": {
-                "A": "Closure",
-                "B": "Associativity",
-                "C": "Commutativity",
-                "D": "Distributivity"
-              },
-              "answer": "C",
-              "explanation": "Changing the order of two numbers in addition without changing the result is commutativity: a + b = b + a."
-            },
-            {
-              "mcq_num": 7,
-              "difficulty": "Hard",
-              "question": "Q: For which pair of operations is commutativity satisfied for ALL number systems?",
-              "options": {
-                "A": "Addition and subtraction",
-                "B": "Subtraction and division",
-                "C": "Addition and multiplication",
-                "D": "Multiplication and division"
-              },
-              "answer": "C",
-              "explanation": "Addition and multiplication are commutative for natural, whole, integer, and rational numbers. Subtraction and division are NOT commutative for any of these. ----"
+              "type": "mcq",
+              "label": "MCQ",
+              "items": [
+                {
+                  "mcq_num": 1,
+                  "difficulty": "Easy",
+                  "question": "Q: The additive identity for rational numbers is:",
+                  "options": {
+                    "A": "1",
+                    "B": "0",
+                    "C": "-1",
+                    "D": "Any rational number"
+                  },
+                  "answer": "B",
+                  "explanation": "Zero (0) is the additive identity because a + 0 = 0 + a = a."
+                },
+                {
+                  "mcq_num": 2,
+                  "difficulty": "Easy",
+                  "question": "Q: For any rational number a, a + 0 equals:",
+                  "options": {
+                    "A": "0",
+                    "B": "-a",
+                    "C": "a",
+                    "D": "1"
+                  },
+                  "answer": "C",
+                  "explanation": "Adding zero to any number gives back the same number: a + 0 = a."
+                },
+                {
+                  "mcq_num": 3,
+                  "difficulty": "Medium",
+                  "question": "Q: -3/7 + 0 + 0 + 0 equals:",
+                  "options": {
+                    "A": "0",
+                    "B": "-3/7",
+                    "C": "3/7",
+                    "D": "3"
+                  },
+                  "answer": "B",
+                  "explanation": "Adding zero any number of times does not change the number. So -3/7 + 0 + 0 + 0 = -3/7."
+                },
+                {
+                  "mcq_num": 4,
+                  "difficulty": "Easy",
+                  "question": "Q: Which of the following shows the additive identity property?",
+                  "options": {
+                    "A": "-5/7 x 0 = 0",
+                    "B": "-5/7 + 0 = -5/7",
+                    "C": "-5/7 - 0 = 0",
+                    "D": "0 / (-5/7) = 0"
+                  },
+                  "answer": "B",
+                  "explanation": "Additive identity means a + 0 = a. So -5/7 + 0 = -5/7 shows the additive identity property."
+                },
+                {
+                  "mcq_num": 5,
+                  "difficulty": "Medium",
+                  "question": "Q: Zero is the additive identity for:",
+                  "options": {
+                    "A": "Only rational numbers",
+                    "B": "Only integers",
+                    "C": "Only whole numbers",
+                    "D": "Whole numbers, integers, and rational numbers"
+                  },
+                  "answer": "D",
+                  "explanation": "Zero is the additive identity for whole numbers (a + 0 = a), integers (b + 0 = b), and rational numbers (c + 0 = c)."
+                },
+                {
+                  "mcq_num": 6,
+                  "difficulty": "Medium",
+                  "question": "Q: If a + e = a for all rational numbers a, then e equals:",
+                  "options": {
+                    "A": "1",
+                    "B": "a",
+                    "C": "0",
+                    "D": "-a"
+                  },
+                  "answer": "C",
+                  "explanation": "The number that when added to any rational number gives back the same number is 0 (additive identity). So e = 0."
+                },
+                {
+                  "mcq_num": 7,
+                  "difficulty": "Hard",
+                  "question": "Q: Which statement is TRUE about additive identity?",
+                  "options": {
+                    "A": "Every number system has a different additive identity",
+                    "B": "The additive identity for rational numbers is 1",
+                    "C": "Adding the additive identity does not change the value of the number",
+                    "D": "The additive identity for integers is different from that for rational numbers"
+                  },
+                  "answer": "C",
+                  "explanation": "The additive identity is 0 for all number systems. Adding 0 to any number does not change its value: a + 0 = a. ----"
+                }
+              ]
             }
           ]
         },
         {
-          "type": "definition",
-          "label": "Definition:",
-          "text": "An operation is said to be ASSOCIATIVE if changing the grouping (brackets) of three numbers does not change the result. That is, for any three numbers a, b and c: (a operation b) operation c = a operation (b operation c)."
-        },
-        {
-          "type": "key_points",
-          "label": "Key Points:",
-          "points": [
-            "ADDITION is associative for whole numbers, integers, and rational numbers: (a + b) + c = a + (b + c)",
-            "MULTIPLICATION is associative for whole numbers, integers, and rational numbers: (a x b) x c = a x (b x c)",
-            "SUBTRACTION is NOT associative for rational numbers",
-            "DIVISION is NOT associative for rational numbers",
-            "Properties of commutativity and associativity together help simplify calculations",
-            "ASSOCIATIVITY TABLE:",
-            "Numbers          | Addition | Subtraction | Multiplication | Division",
-            "Rational numbers | Yes      | No          | Yes            | No",
-            "Integers         | Yes      | No          | Yes            | No",
-            "Whole numbers    | Yes      | No          | Yes            | No",
-            "Natural numbers  | Yes      | No          | Yes            | No",
-            "EXAMPLES:",
-            "Example 1.2.3.1: [Associativity of Addition - Rational numbers]",
-            "PROBLEM: Verify that -2/3 + [3/5 + (-5/6)] = [-2/3 + 3/5] + (-5/6).",
-            "SOLUTION:",
-            "Step 1: LHS = -2/3 + [3/5 + (-5/6)]",
-            "Step 2: Inside bracket: LCM of 5 and 6 is 30. 3/5 + (-5/6) = 18/30 + (-25/30) = -7/30",
-            "Step 3: LHS = -2/3 + (-7/30). LCM of 3 and 30 is 30. = -20/30 + (-7/30) = -27/30 = -9/10",
-            "Step 4: RHS = [-2/3 + 3/5] + (-5/6)",
-            "Step 5: Inside bracket: LCM of 3 and 5 is 15. -2/3 + 3/5 = -10/15 + 9/15 = -1/15",
-            "Step 6: RHS = -1/15 + (-5/6). LCM of 15 and 6 is 30. = -2/30 + (-25/30) = -27/30 = -9/10",
-            "ANSWER: LHS = RHS = -9/10. So addition is associative for rational numbers.",
-            "Example 1.2.3.2: [Subtraction is NOT associative]",
-            "PROBLEM: Check whether -2/3 - [-4/5 - 1/2] = [-2/3 - (-4/5)] - 1/2.",
-            "SOLUTION:",
-            "Step 1: LHS = -2/3 - [-4/5 - 1/2]",
-            "Step 2: Inside bracket: LCM of 5 and 2 is 10. -4/5 - 1/2 = -8/10 - 5/10 = -13/10",
-            "Step 3: LHS = -2/3 - (-13/10). LCM of 3 and 10 is 30. = -20/30 + 39/30 = 19/30",
-            "Step 4: RHS = [-2/3 - (-4/5)] - 1/2",
-            "Step 5: Inside bracket: LCM of 3 and 5 is 15. -2/3 + 4/5 = -10/15 + 12/15 = 2/15",
-            "Step 6: RHS = 2/15 - 1/2. LCM of 15 and 2 is 30. = 4/30 - 15/30 = -11/30",
-            "ANSWER: LHS (19/30) is not equal to RHS (-11/30). So subtraction is NOT associative.",
-            "Example 1.2.3.3: [Associativity of Multiplication - Rational numbers]",
-            "PROBLEM: Verify that -7/3 x (5/4 x 2/9) = (-7/3 x 5/4) x 2/9.",
-            "SOLUTION:",
-            "Step 1: LHS = -7/3 x (5/4 x 2/9)",
-            "Step 2: 5/4 x 2/9 = 10/36 = 5/18",
-            "Step 3: LHS = -7/3 x 5/18 = -35/54",
-            "Step 4: RHS = (-7/3 x 5/4) x 2/9",
-            "Step 5: -7/3 x 5/4 = -35/12",
-            "Step 6: RHS = -35/12 x 2/9 = -70/108 = -35/54",
-            "ANSWER: LHS = RHS = -35/54. So multiplication is associative for rational numbers.",
-            "Example 1.2.3.4: [Division is NOT associative]",
-            "PROBLEM: Check whether 1/2 / [-1/3 / 2/5] = [1/2 / (-1/3)] / 2/5.",
-            "SOLUTION:",
-            "Step 1: LHS = 1/2 / [-1/3 / 2/5]",
-            "Step 2: -1/3 / 2/5 = -1/3 x 5/2 = -5/6",
-            "Step 3: LHS = 1/2 / (-5/6) = 1/2 x (-6/5) = -6/10 = -3/5",
-            "Step 4: RHS = [1/2 / (-1/3)] / 2/5",
-            "Step 5: 1/2 / (-1/3) = 1/2 x (-3/1) = -3/2",
-            "Step 6: RHS = -3/2 / 2/5 = -3/2 x 5/2 = -15/4",
-            "ANSWER: LHS (-3/5) is not equal to RHS (-15/4). So division is NOT associative.",
-            "TRY THESE:",
-            "Complete the following table.",
-            "Numbers          | Associative for",
-            "| addition | subtraction | multiplication | division",
-            "Rational numbers | ...      | ...         | ...            | No",
-            "Integers         | ...      | ...         | Yes            | ...",
-            "Whole numbers    | Yes      | ...         | ...            | ...",
-            "Natural numbers  | ...      | No          | ...            | ...",
-            "ANSWERS:",
-            "Rational numbers: addition = Yes, subtraction = No, multiplication = Yes",
-            "Integers: addition = Yes, subtraction = No, division = No",
-            "Whole numbers: subtraction = No, multiplication = Yes, division = No",
-            "Natural numbers: addition = Yes, multiplication = Yes, division = No",
-            "Example 1: Find 3/7 + (-6/11) + (-8/21) + (5/22).",
-            "Solution:",
-            "3/7 + (-6/11) + (-8/21) + (5/22)",
-            "Method 1 (Direct - LCM of 7, 11, 21, 22 is 462):",
-            "= 198/462 + (-252/462) + (-176/462) + (105/462)",
-            "= (198 - 252 - 176 + 105)/462",
-            "= -125/462",
-            "Method 2 (Using commutativity and associativity):",
-            "= [3/7 + (-8/21)] + [-6/11 + 5/22]       (by using commutativity and associativity)",
-            "= [(9 + (-8))/21] + [(-12 + 5)/22]        (LCM of 7 and 21 is 21; LCM of 11 and 22 is 22)",
-            "= 1/21 + (-7/22)",
-            "= (22 - 147)/462",
-            "= -125/462",
-            "Do you think the properties of commutativity and associativity made the calculations easier?",
-            "Example 2: Find (-4/5) x (3/7) x (15/16) x (-14/9).",
-            "Solution:",
-            "Method 1:",
-            "(-4/5) x (3/7) x (15/16) x (-14/9)",
-            "= ((-4 x 3)/(5 x 7)) x ((15 x (-14))/(16 x 9))",
-            "= (-12/35) x (-35/24)",
-            "= (-12 x -35)/(35 x 24)",
-            "= 420/840",
-            "= 1/2",
-            "Method 2 (Using commutativity and associativity):",
-            "(-4/5) x (3/7) x (15/16) x (-14/9)",
-            "= ((-4/5) x (15/16)) x [(3/7) x (-14/9)]",
-            "= (-60/80) x (-42/63)",
-            "= (-3/4) x (-2/3)",
-            "= 6/12",
-            "= 1/2"
-          ]
-        },
-        {
-          "type": "qa",
-          "label": "SUB-TOPIC 1.2.3: Q&A",
-          "items": []
-        },
-        {
-          "type": "qa",
-          "label": "Q&A",
-          "items": [
+          "subtopic_num": "1.2.5",
+          "subtopic_name": "THE ROLE OF 1",
+          "sections": [
             {
-              "q_num": 1,
-              "marks": 2,
-              "question": "What is associativity? State which operations are associative for rational numbers.",
-              "answer": "An operation is associative if changing the grouping (brackets) of three numbers does not change the result.\nFor rational numbers:\n- Addition is associative: (a + b) + c = a + (b + c)\n- Multiplication is associative: (a x b) x c = a x (b x c)\n- Subtraction and division are NOT associative."
+              "type": "definition",
+              "label": "Definition:",
+              "text": "One (1) is called the MULTIPLICATIVE IDENTITY for rational numbers. When we multiply any rational number by 1, we get back the same rational number."
             },
             {
-              "q_num": 2,
-              "marks": 2,
-              "question": "Is subtraction associative? Give a simple example.",
-              "answer": "No, subtraction is not associative.\nExample: (5 - 3) - 2 = 2 - 2 = 0\nBut: 5 - (3 - 2) = 5 - 1 = 4\n0 is not equal to 4. So subtraction is NOT associative."
+              "type": "key_points",
+              "label": "Key Points:",
+              "points": [
+                "For any rational number a: a x 1 = 1 x a = a",
+                "1 is the multiplicative identity for rational numbers",
+                "1 is also the multiplicative identity for whole numbers and integers",
+                "Multiplying any rational number by 1 does not change the number",
+                "THINK, DISCUSS AND WRITE:",
+                "If a property holds for rational numbers, will it also hold for integers? For whole numbers? Which will? Which will not?",
+                "EXAMPLES:",
+                "Example 1.2.5.1: [One as Multiplicative Identity]",
+                "We have:",
+                "5 x 1 = 5 = 1 x 5                   (Multiplication of 1 with a whole number)",
+                "(-2/7) x 1 = ... x ... = -2/7",
+                "(3/8) x ... = 1 x (3/8) = 3/8",
+                "What do you find?",
+                "You will find that when you multiply any rational number with 1, you get back the same rational number as the product. Check this for a few more rational numbers.",
+                "You will find that, a x 1 = 1 x a = a for any rational number a.",
+                "We say that 1 is the multiplicative identity for rational numbers.",
+                "Is 1 the multiplicative identity for integers? For whole numbers?"
+              ]
             },
             {
-              "q_num": 3,
-              "marks": 2,
-              "question": "How do commutativity and associativity help in calculations?",
-              "answer": "These properties allow us to rearrange and regroup numbers to make calculations easier.\nExample: In 3/7 + (-6/11) + (-8/21) + 5/22, we group 3/7 with -8/21 (related denominators) and -6/11 with 5/22 (related denominators) to simplify the LCM calculation.\n\n---\n\n3 ಮಾರ್ಕ್ಸ್ × 2 questions:"
+              "type": "qa",
+              "label": "SUB-TOPIC 1.2.5: Q&A",
+              "items": []
             },
             {
-              "q_num": 4,
-              "marks": 3,
-              "question": "Verify that addition is associative for rational numbers using a = -2/3, b = 3/5, c = -5/6.",
-              "answer": "Step 1: LHS = (-2/3 + 3/5) + (-5/6)\nStep 2: -2/3 + 3/5 = -10/15 + 9/15 = -1/15\nStep 3: LHS = -1/15 + (-5/6) = -2/30 + (-25/30) = -27/30 = -9/10\n\nStep 4: RHS = -2/3 + (3/5 + (-5/6))\nStep 5: 3/5 + (-5/6) = 18/30 + (-25/30) = -7/30\nStep 6: RHS = -2/3 + (-7/30) = -20/30 + (-7/30) = -27/30 = -9/10\n\nLHS = RHS = -9/10. So addition is associative."
+              "type": "qa",
+              "label": "Q&A",
+              "items": [
+                {
+                  "q_num": 1,
+                  "marks": 2,
+                  "question": "What is the multiplicative identity for rational numbers?",
+                  "answer": "One (1) is the multiplicative identity for rational numbers.\nFor any rational number a: a x 1 = 1 x a = a.\nExample: -4/5 x 1 = 1 x (-4/5) = -4/5."
+                },
+                {
+                  "q_num": 2,
+                  "marks": 2,
+                  "question": "Why is 1 called the multiplicative identity?",
+                  "answer": "One is called the multiplicative identity because multiplying any number by 1 does not change its value. The number keeps its identity.\nFor any rational number a: a x 1 = 1 x a = a."
+                },
+                {
+                  "q_num": 3,
+                  "marks": 2,
+                  "question": "What is the difference between additive identity and multiplicative identity?",
+                  "answer": "Additive identity = 0 (zero): a + 0 = a\nMultiplicative identity = 1 (one): a x 1 = a\nAdding 0 does not change the number. Multiplying by 1 does not change the number.\n\n---\n\n3 ಮಾರ್ಕ್ಸ್ × 2 questions:"
+                },
+                {
+                  "q_num": 4,
+                  "marks": 3,
+                  "question": "Show that 1 is the multiplicative identity for rational numbers using three examples.",
+                  "answer": "Multiplicative identity means: a x 1 = 1 x a = a.\n\nExample 1 (Positive): 3/5 x 1 = 1 x 3/5 = 3/5 ✓\nExample 2 (Negative): -7/9 x 1 = 1 x (-7/9) = -7/9 ✓\nExample 3 (Integer): -4 x 1 = 1 x (-4) = -4 ✓\n\nIn general: a x 1 = 1 x a = a for any rational number a.\nSo 1 is the multiplicative identity for rational numbers."
+                },
+                {
+                  "q_num": 5,
+                  "marks": 3,
+                  "question": "Name the property used in each:",
+                  "answer": "(i) 1 is the multiplicative identity. Multiplying by 1 does not change the rational number.\n(ii) Commutativity of multiplication. The order of multiplication can be changed: a x b = b x a.\n(iii) Multiplicative inverse (reciprocal). -19/29 and 29/-19 are reciprocals, and their product is 1.\n\n---\n\n4 ಮಾರ್ಕ್ಸ್ × 2 questions:"
+                },
+                {
+                  "q_num": 6,
+                  "marks": 4,
+                  "question": "What is multiplicative identity? Show that 1 is the multiplicative identity for whole numbers, integers, and rational numbers with one example each.",
+                  "answer": "Multiplicative identity is a number that, when multiplied with any number, gives back the same number.\n\nFor whole numbers: a x 1 = 1 x a = a\nExample: 5 x 1 = 1 x 5 = 5 ✓\n\nFor integers: b x 1 = 1 x b = b\nExample: -13 x 1 = 1 x (-13) = -13 ✓\n\nFor rational numbers: c x 1 = 1 x c = c\nExample: -2/7 x 1 = 1 x (-2/7) = -2/7 ✓\n\nIn all three cases, multiplying by 1 does not change the number.\nTherefore, 1 (one) is the multiplicative identity for whole numbers, integers, and rational numbers."
+                },
+                {
+                  "q_num": 7,
+                  "marks": 4,
+                  "question": "Simplify: (i) (-4/5) x 1 x (-19/29)   (ii) (1/3) x (6 x 4/3). Name the properties used.",
+                  "answer": "(i) (-4/5) x 1 x (-19/29)\n= (-4/5) x (-19/29)           (since a x 1 = a, multiplicative identity)\n= (4 x 19)/(5 x 29)\n= 76/145\nProperty used: 1 is the multiplicative identity.\n\n(ii) (1/3) x (6 x 4/3)\n= (1/3 x 6) x 4/3              (rearranging brackets)\n= 2 x 4/3\n= 8/3\nProperty used: Associativity of multiplication allows us to regroup the numbers.\n\n---\n\n5 ಮಾರ್ಕ್ಸ್ × 1 question:"
+                },
+                {
+                  "q_num": 8,
+                  "marks": 5,
+                  "question": "Define multiplicative identity. Verify that 1 is the multiplicative identity for rational numbers. Compare additive identity (0) and multiplicative identity (1) with examples.",
+                  "answer": "PART A — Definition:\nA number 'e' is the multiplicative identity if for any number a: a x e = e x a = a.\n\nPART B — Verification that 1 is multiplicative identity:\nFor any rational number a: a x 1 = 1 x a = a\n\nExample 1: 5 x 1 = 1 x 5 = 5 ✓ (whole number)\nExample 2: -13 x 1 = 1 x (-13) = -13 ✓ (integer)\nExample 3: (-2/7) x 1 = 1 x (-2/7) = -2/7 ✓ (rational number)\nExample 4: (3/8) x 1 = 1 x (3/8) = 3/8 ✓\n\nGeneral rule: a x 1 = 1 x a = a for any rational number a.\nSo 1 is the multiplicative identity for rational numbers.\n\nPART C — Comparison of identities:\n\nProperty         | Additive Identity | Multiplicative Identity\nIdentity number  | 0 (zero)          | 1 (one)\nOperation        | Addition          | Multiplication\nFormula          | a + 0 = 0 + a = a | a x 1 = 1 x a = a\nExample          | -3/7 + 0 = -3/7   | -3/7 x 1 = -3/7\nHolds for        | All number systems | All number systems"
+                }
+              ]
             },
             {
-              "q_num": 5,
-              "marks": 3,
-              "question": "Find (-4/5) x (3/7) x (15/16) x (-14/9) using associativity and commutativity.",
-              "answer": "Using commutativity and associativity, group:\n= ((-4/5) x (15/16)) x ((3/7) x (-14/9))\n\nStep 1: -4/5 x 15/16 = -60/80 = -3/4\nStep 2: 3/7 x (-14/9) = -42/63 = -2/3\nStep 3: (-3/4) x (-2/3) = 6/12 = 1/2\n\nAnswer = 1/2\n\n---\n\n4 ಮಾರ್ಕ್ಸ್ × 2 questions:"
+              "type": "mcq",
+              "label": "SUB-TOPIC 1.2.5: MCQs:",
+              "items": []
             },
             {
-              "q_num": 6,
-              "marks": 4,
-              "question": "Verify that multiplication is associative for rational numbers using a = -7/3, b = 5/4, c = 2/9.",
-              "answer": "To verify: (a x b) x c = a x (b x c)\n\nStep 1: LHS = (-7/3 x 5/4) x 2/9\nStep 2: -7/3 x 5/4 = -35/12\nStep 3: LHS = -35/12 x 2/9 = -70/108 = -35/54\n\nStep 4: RHS = -7/3 x (5/4 x 2/9)\nStep 5: 5/4 x 2/9 = 10/36 = 5/18\nStep 6: RHS = -7/3 x 5/18 = -35/54\n\nLHS = RHS = -35/54.\nSo multiplication is associative for rational numbers."
-            },
-            {
-              "q_num": 7,
-              "marks": 4,
-              "question": "Find 3/7 + (-6/11) + (-8/21) + 5/22 using two methods and show that commutativity and associativity make calculations easier.",
-              "answer": "Method 1 (Direct - LCM = 462):\n= 198/462 + (-252/462) + (-176/462) + 105/462\n= (198 - 252 - 176 + 105)/462 = -125/462\n\nMethod 2 (Using properties):\nGroup related fractions: [3/7 + (-8/21)] + [-6/11 + 5/22]\n= [(9-8)/21] + [(-12+5)/22]     (LCM of 7,21 = 21; LCM of 11,22 = 22)\n= 1/21 + (-7/22)\n= 22/462 + (-147/462) = -125/462\n\nBoth methods give -125/462.\nMethod 2 is easier because grouping fractions with related denominators reduces LCM calculation.\n\n---\n\n5 ಮಾರ್ಕ್ಸ್ × 1 question:"
-            },
-            {
-              "q_num": 8,
-              "marks": 5,
-              "question": "Verify associativity for rational numbers under addition and multiplication. Also show that subtraction is NOT associative.",
-              "answer": "PART A — Addition is associative:\nTake a = -2/3, b = 3/5, c = -5/6.\n\nLHS = (-2/3 + 3/5) + (-5/6) = -1/15 + (-5/6) = -2/30 + (-25/30) = -27/30 = -9/10\nRHS = -2/3 + (3/5 + (-5/6)) = -2/3 + (-7/30) = -20/30 + (-7/30) = -27/30 = -9/10\nLHS = RHS ✓ Addition IS associative.\n\nPART B — Multiplication is associative:\nTake a = -7/3, b = 5/4, c = 2/9.\n\nLHS = (-7/3 x 5/4) x 2/9 = -35/12 x 2/9 = -70/108 = -35/54\nRHS = -7/3 x (5/4 x 2/9) = -7/3 x 5/18 = -35/54\nLHS = RHS ✓ Multiplication IS associative.\n\nPART C — Subtraction is NOT associative:\nLHS = -2/3 - [-4/5 - 1/2]\n= -2/3 - (-13/10) = -20/30 + 39/30 = 19/30\nRHS = [-2/3 - (-4/5)] - 1/2\n= 2/15 - 1/2 = 4/30 - 15/30 = -11/30\nLHS (19/30) ≠ RHS (-11/30) ✗ Subtraction is NOT associative."
+              "type": "mcq",
+              "label": "MCQ",
+              "items": [
+                {
+                  "mcq_num": 1,
+                  "difficulty": "Easy",
+                  "question": "Q: The multiplicative identity for rational numbers is:",
+                  "options": {
+                    "A": "0",
+                    "B": "1",
+                    "C": "-1",
+                    "D": "Any rational number"
+                  },
+                  "answer": "B",
+                  "explanation": "One (1) is the multiplicative identity because a x 1 = 1 x a = a."
+                },
+                {
+                  "mcq_num": 2,
+                  "difficulty": "Easy",
+                  "question": "Q: For any rational number a, a x 1 equals:",
+                  "options": {
+                    "A": "0",
+                    "B": "1",
+                    "C": "a",
+                    "D": "-a"
+                  },
+                  "answer": "C",
+                  "explanation": "Multiplying any number by 1 gives back the same number: a x 1 = a."
+                },
+                {
+                  "mcq_num": 3,
+                  "difficulty": "Medium",
+                  "question": "Q: (-4/5) x 1 = 1 x (-4/5) = -4/5 shows that:",
+                  "options": {
+                    "A": "Multiplication is commutative only",
+                    "B": "1 is the multiplicative identity only",
+                    "C": "Both commutativity and multiplicative identity",
+                    "D": "None"
+                  },
+                  "answer": "C",
+                  "explanation": "It shows commutativity (order doesn't matter) AND that 1 is the multiplicative identity (multiplying by 1 gives same number)."
+                },
+                {
+                  "mcq_num": 4,
+                  "difficulty": "Easy",
+                  "question": "Q: Which of the following shows the multiplicative identity property?",
+                  "options": {
+                    "A": "-3/7 + 1 = -3/7",
+                    "B": "-3/7 x 0 = 0",
+                    "C": "-3/7 x 1 = -3/7",
+                    "D": "1 / (-3/7) = -7/3"
+                  },
+                  "answer": "C",
+                  "explanation": "Multiplicative identity means a x 1 = a. So -3/7 x 1 = -3/7 shows the multiplicative identity property."
+                },
+                {
+                  "mcq_num": 5,
+                  "difficulty": "Medium",
+                  "question": "Q: One (1) is the multiplicative identity for:",
+                  "options": {
+                    "A": "Only rational numbers",
+                    "B": "Only integers",
+                    "C": "Only whole numbers",
+                    "D": "Whole numbers, integers, and rational numbers"
+                  },
+                  "answer": "D",
+                  "explanation": "One (1) is the multiplicative identity for whole numbers, integers, and rational numbers: a x 1 = 1 x a = a."
+                },
+                {
+                  "mcq_num": 6,
+                  "difficulty": "Medium",
+                  "question": "Q: If a x e = a for all rational numbers a, then e equals:",
+                  "options": {
+                    "A": "0",
+                    "B": "a",
+                    "C": "1",
+                    "D": "-a"
+                  },
+                  "answer": "C",
+                  "explanation": "The number that when multiplied with any rational number gives back the same number is 1 (multiplicative identity). So e = 1."
+                },
+                {
+                  "mcq_num": 7,
+                  "difficulty": "Hard",
+                  "question": "Q: What is the difference between additive identity and multiplicative identity for rational numbers?",
+                  "options": {
+                    "A": "Both are 0",
+                    "B": "Both are 1",
+                    "C": "Additive identity is 0, multiplicative identity is 1",
+                    "D": "Additive identity is 1, multiplicative identity is 0"
+                  },
+                  "answer": "C",
+                  "explanation": "0 is the additive identity (a + 0 = a) and 1 is the multiplicative identity (a x 1 = a) for rational numbers. ----"
+                }
+              ]
             }
           ]
         },
         {
-          "type": "mcq",
-          "label": "SUB-TOPIC 1.2.3: MCQs:",
-          "items": []
-        },
-        {
-          "type": "mcq",
-          "label": "MCQ",
-          "items": [
+          "subtopic_num": "1.2.6",
+          "subtopic_name": "DISTRIBUTIVITY OF MULTIPLICATION OVER ADDITION FOR RATIONAL NUMBERS",
+          "sections": [
             {
-              "mcq_num": 1,
-              "difficulty": "Easy",
-              "question": "Q: Associativity means:",
-              "options": {
-                "A": "Order of numbers does not matter",
-                "B": "Grouping of numbers does not matter",
-                "C": "Both order and grouping do not matter",
-                "D": "Result is always zero"
-              },
-              "answer": "B",
-              "explanation": "Associativity means the grouping (brackets) of numbers does not change the result."
+              "type": "definition",
+              "label": "Definition:",
+              "text": "For all rational numbers a, b and c:\na(b + c) = ab + ac   (Distributivity of multiplication over addition)\na(b - c) = ab - ac   (Distributivity of multiplication over subtraction)\nThis property is called DISTRIBUTIVITY of multiplication over addition and subtraction."
             },
             {
-              "mcq_num": 2,
-              "difficulty": "Easy",
-              "question": "Q: Which operation is associative for rational numbers?",
-              "options": {
-                "A": "Addition only",
-                "B": "Multiplication only",
-                "C": "Both addition and multiplication",
-                "D": "All four operations"
-              },
-              "answer": "C",
-              "explanation": "Both addition and multiplication are associative for rational numbers."
+              "type": "key_points",
+              "label": "Key Points:",
+              "points": [
+                "Multiplication can be \"distributed\" over addition or subtraction",
+                "a(b + c) = ab + ac means: multiply a with each term inside the bracket separately and add",
+                "This helps in simplifying expressions and calculations",
+                "Distributivity holds for all rational numbers",
+                "EXAMPLES:",
+                "Example 1.2.6.1: [Distributivity Verification]",
+                "To understand this, consider the rational numbers -3/4, 2/3 and -5/6.",
+                "(-3/4) x {(2/3) + (-5/6)}",
+                "= (-3/4) x {(4/6) + (-5/6)}",
+                "= (-3/4) x {-1/6}",
+                "= 3/24",
+                "= 1/8",
+                "Also: (-3/4) x (2/3) = -6/12 = -1/2",
+                "And:  (-3/4) x (-5/6) = 15/24 = 5/8",
+                "Therefore: ((-3/4) x (2/3)) + ((-3/4) x (-5/6)) = -1/2 + 5/8 = -4/8 + 5/8 = 1/8",
+                "Thus: (-3/4) x {(2/3) + (-5/6)} = ((-3/4) x (2/3)) + ((-3/4) x (-5/6))",
+                "Distributivity of Multiplication over Addition and Subtraction:",
+                "For all rational numbers a, b and c:",
+                "a(b + c) = ab + ac",
+                "a(b - c) = ab - ac",
+                "TRY THESE:",
+                "Find using distributivity.",
+                "(i) {(7/5) x (-3/12)} + {(7/5) x (5/12)}",
+                "= (7/5) x {(-3/12) + (5/12)}",
+                "= (7/5) x {2/12}",
+                "= (7/5) x (1/6)",
+                "= 7/30",
+                "(ii) {(9/16) x (4/12)} + {(9/16) x (-3/9)}",
+                "= (9/16) x {(4/12) + (-3/9)}",
+                "= (9/16) x {(1/3) + (-1/3)}",
+                "= (9/16) x 0",
+                "= 0",
+                "Example 3: Find (2/5) x (-3/7) - (1/14) - (3/7) x (3/5).",
+                "Solution:",
+                "(2/5) x (-3/7) - (1/14) - (3/7) x (3/5)",
+                "= (2/5) x (-3/7) - (3/7) x (3/5) - (1/14)          (by commutativity)",
+                "= (2/5) x (-3/7) + (-3/7) x (3/5) - (1/14)",
+                "= (-3/7) x {(2/5) + (3/5)} - (1/14)                 (by distributivity)",
+                "= (-3/7) x 1 - (1/14)",
+                "= -3/7 - 1/14",
+                "= -6/14 - 1/14",
+                "= -7/14",
+                "= -1/2"
+              ]
             },
             {
-              "mcq_num": 3,
-              "difficulty": "Medium",
-              "question": "Q: (a + b) + c = a + (b + c) is the property of:",
-              "options": {
-                "A": "Commutativity",
-                "B": "Associativity",
-                "C": "Distributivity",
-                "D": "Closure"
-              },
-              "answer": "B",
-              "explanation": "This is the associative property for addition."
+              "type": "exercise",
+              "label": "EXERCISE 1.1:",
+              "items": [],
+              "raw": "1. Name the property under multiplication used in each of the following.\n(i)  (-4/5) x 1 = 1 x (-4/5) = -4/5\nANSWER: 1 is the multiplicative identity.\n\n(ii) (-13/17) x (-2/7) = (-2/7) x (-13/17)\nANSWER: Commutativity of multiplication.\n\n(iii) (-19/29) x (29/-19) = 1\nANSWER: Multiplicative inverse (reciprocal). The product of a rational number and its reciprocal is 1.\n\n2. Tell what property allows you to compute (1/3) x (6 x 4/3) as (1/3 x 6) x 4/3.\nANSWER: Associativity of multiplication. This property allows us to regroup the numbers without changing the result.\n\n3. The product of two rational numbers is always a _______.\nANSWER: Rational number. (Rational numbers are closed under multiplication.)"
             },
             {
-              "mcq_num": 4,
-              "difficulty": "Medium",
-              "question": "Q: 3/7 + [(-6/11) + (-8/21)] = [3/7 + (-6/11)] + (-8/21) shows:",
-              "options": {
-                "A": "Commutativity",
-                "B": "Associativity",
-                "C": "Distributivity",
-                "D": "Closure"
-              },
-              "answer": "B",
-              "explanation": "Rearranging the brackets (grouping) without changing the result shows associativity."
+              "type": "qa",
+              "label": "SUB-TOPIC 1.2.6: Q&A",
+              "items": []
             },
             {
-              "mcq_num": 5,
-              "difficulty": "Hard",
-              "question": "Q: The value of (-4/5) x (3/7) x (15/16) x (-14/9) is:",
-              "options": {
-                "A": "-1/2",
-                "B": "1/2",
-                "C": "-1",
-                "D": "1"
-              },
-              "answer": "B",
-              "explanation": "(-4/5) x (15/16) = -3/4, and (3/7) x (-14/9) = -2/3. Then (-3/4) x (-2/3) = 1/2."
+              "type": "qa",
+              "label": "Q&A",
+              "items": [
+                {
+                  "q_num": 1,
+                  "marks": 2,
+                  "question": "State the distributive property of multiplication over addition for rational numbers.",
+                  "answer": "For all rational numbers a, b and c:\na(b + c) = ab + ac    (distributivity over addition)\na(b - c) = ab - ac    (distributivity over subtraction)"
+                },
+                {
+                  "q_num": 2,
+                  "marks": 2,
+                  "question": "What does distributivity mean? Give a simple example.",
+                  "answer": "Distributivity means multiplying a number by a sum is the same as multiplying by each term separately and adding.\nExample: 2 x (3 + 4) = 2 x 3 + 2 x 4 = 6 + 8 = 14.\nSo a(b + c) = ab + ac."
+                },
+                {
+                  "q_num": 3,
+                  "marks": 2,
+                  "question": "Name the property used: (-13/17) x (-2/7) = (-2/7) x (-13/17).",
+                  "answer": "Commutativity of multiplication.\nThis property states that the order of multiplication can be changed: a x b = b x a.\nSo (-13/17) x (-2/7) = (-2/7) x (-13/17).\n\n---\n\n3 ಮಾರ್ಕ್ಸ್ × 2 questions:"
+                },
+                {
+                  "q_num": 4,
+                  "marks": 3,
+                  "question": "Use distributivity to find {(7/5) x (-3/12)} + {(7/5) x (5/12)}.",
+                  "answer": "Step 1: Take (7/5) common using distributivity: a(b + c) = ab + ac\nStep 2: = (7/5) x {(-3/12) + (5/12)}\nStep 3: (-3/12) + (5/12) = 2/12 = 1/6\nStep 4: = (7/5) x (1/6)\nStep 5: = 7/30\n\nAnswer = 7/30."
+                },
+                {
+                  "q_num": 5,
+                  "marks": 3,
+                  "question": "Find (2/5) x (-3/7) - (1/14) - (3/7) x (3/5) using distributivity.",
+                  "answer": "Step 1: Rearrange using commutativity:\n= (2/5) x (-3/7) - (3/7) x (3/5) - (1/14)\nStep 2: Take (-3/7) common using distributivity:\n= (-3/7) x {(2/5) + (3/5)} - (1/14)\nStep 3: (2/5) + (3/5) = 5/5 = 1\nStep 4: = (-3/7) x 1 - (1/14) = -3/7 - 1/14\nStep 5: LCM of 7 and 14 is 14. = -6/14 - 1/14 = -7/14 = -1/2\n\nAnswer = -1/2.\n\n---\n\n4 ಮಾರ್ಕ್ಸ್ × 2 questions:"
+                },
+                {
+                  "q_num": 6,
+                  "marks": 4,
+                  "question": "Verify the distributive property for a = -3/4, b = 2/3, c = -5/6.",
+                  "answer": "To verify: a(b + c) = ab + ac\n\nStep 1: LHS = (-3/4) x {(2/3) + (-5/6)}\nStep 2: (2/3) + (-5/6) = 4/6 + (-5/6) = -1/6\nStep 3: LHS = (-3/4) x (-1/6) = 3/24 = 1/8\n\nStep 4: RHS = (-3/4 x 2/3) + (-3/4 x (-5/6))\nStep 5: -3/4 x 2/3 = -6/12 = -1/2\nStep 6: -3/4 x (-5/6) = 15/24 = 5/8\nStep 7: RHS = -1/2 + 5/8 = -4/8 + 5/8 = 1/8\n\nLHS = RHS = 1/8.\nSo distributive property holds for rational numbers."
+                },
+                {
+                  "q_num": 7,
+                  "marks": 4,
+                  "question": "Use distributivity to find {(9/16) x (4/12)} + {(9/16) x (-3/9)}. Also verify by direct calculation.",
+                  "answer": "Method 1 (Using distributivity):\n= (9/16) x {(4/12) + (-3/9)}\n= (9/16) x {(1/3) + (-1/3)}       (simplify: 4/12 = 1/3 and -3/9 = -1/3)\n= (9/16) x 0\n= 0\n\nMethod 2 (Direct calculation):\nStep 1: (9/16) x (4/12) = 36/192 = 3/16\nStep 2: (9/16) x (-3/9) = -27/144 = -3/16\nStep 3: 3/16 + (-3/16) = 0\n\nBoth methods give 0. Distributivity makes the calculation much easier (Method 1 only needs one multiplication vs two in Method 2).\n\n---\n\n5 ಮಾರ್ಕ್ಸ್ × 1 question:"
+                },
+                {
+                  "q_num": 8,
+                  "marks": 5,
+                  "question": "State and verify distributive property of multiplication over addition and subtraction for rational numbers. Also find (2/5) x (-3/7) - (1/14) - (3/7) x (3/5) using this property.",
+                  "answer": "PART A — Statement:\nFor all rational numbers a, b and c:\na(b + c) = ab + ac    (distributivity over addition)\na(b - c) = ab - ac    (distributivity over subtraction)\n\nPART B — Verification (a = -3/4, b = 2/3, c = -5/6):\nLHS = (-3/4) x {(2/3) + (-5/6)}\n= (-3/4) x {4/6 - 5/6}\n= (-3/4) x (-1/6) = 3/24 = 1/8\n\nRHS = (-3/4 x 2/3) + (-3/4 x (-5/6))\n= -1/2 + 5/8 = -4/8 + 5/8 = 1/8\n\nLHS = RHS = 1/8 ✓ Distributivity verified.\n\nPART C — Application:\n(2/5) x (-3/7) - (1/14) - (3/7) x (3/5)\n\nStep 1: Rearrange (commutativity):\n= (2/5) x (-3/7) - (3/7) x (3/5) - (1/14)\n\nStep 2: Apply distributivity (take -3/7 common):\n= (-3/7) x {(2/5) + (3/5)} - (1/14)\n\nStep 3: (2/5) + (3/5) = 1\n= (-3/7) x 1 - (1/14)\n= -3/7 - 1/14\n\nStep 4: LCM of 7 and 14 is 14\n= -6/14 - 1/14 = -7/14 = -1/2\n\nAnswer = -1/2"
+                }
+              ]
             },
             {
-              "mcq_num": 6,
-              "difficulty": "Hard",
-              "question": "Q: Which is true for division of rational numbers?",
-              "options": {
-                "A": "Associative",
-                "B": "Commutative",
-                "C": "Closed",
-                "D": "None of these"
-              },
-              "answer": "D",
-              "explanation": "Division of rational numbers is not associative, not commutative, and not closed."
+              "type": "mcq",
+              "label": "SUB-TOPIC 1.2.6: MCQs:",
+              "items": []
             },
             {
-              "mcq_num": 7,
-              "difficulty": "Hard",
-              "question": "Q: In finding 3/7 + (-6/11) + (-8/21) + 5/22, the easiest grouping is:",
-              "options": {
-                "A": "(3/7 + -6/11) + (-8/21 + 5/22)",
-                "B": "(3/7 + -8/21) + (-6/11 + 5/22)",
-                "C": "(3/7 + 5/22) + (-6/11 + -8/21)",
-                "D": "Original order only"
-              },
-              "answer": "B",
-              "explanation": "Grouping 3/7 with -8/21 (both have 7 as factor) and -6/11 with 5/22 (both have 11 as factor) makes LCM simpler. ----"
-            }
-          ]
-        },
-        {
-          "type": "definition",
-          "label": "Definition:",
-          "text": "Zero is called the IDENTITY FOR ADDITION of rational numbers, or the ADDITIVE IDENTITY. It is the additive identity for integers and whole numbers as well."
-        },
-        {
-          "type": "key_points",
-          "label": "Key Points:",
-          "points": [
-            "For any whole number a: a + 0 = 0 + a = a",
-            "For any integer b: b + 0 = 0 + b = b",
-            "For any rational number c: c + 0 = 0 + c = c",
-            "Zero is the additive identity for whole numbers, integers, and rational numbers",
-            "Adding 0 to any number gives back the same number - the number keeps its identity",
-            "EXAMPLES:",
-            "Example 1.2.4.1: [Zero as Additive Identity]",
-            "Look at the following:",
-            "2 + 0 = 0 + 2 = 2                    (Addition of 0 to a whole number)",
-            "5 + 0 = 0 + (-5) = -5               (Addition of 0 to an integer)",
-            "(-2/7) + 0 = 0 + (-2/7) = -2/7      (Addition of 0 to a rational number)",
-            "In general:",
-            "a + 0 = 0 + a = a,    where a is a whole number",
-            "b + 0 = 0 + b = b,    where b is an integer",
-            "c + 0 = 0 + c = c,    where c is a rational number",
-            "Zero is called the identity for the addition of rational numbers. It is the additive identity for integers and whole numbers as well."
-          ]
-        },
-        {
-          "type": "qa",
-          "label": "SUB-TOPIC 1.2.4: Q&A",
-          "items": []
-        },
-        {
-          "type": "qa",
-          "label": "Q&A",
-          "items": [
-            {
-              "q_num": 1,
-              "marks": 2,
-              "question": "What is the additive identity for rational numbers?",
-              "answer": "Zero (0) is the additive identity for rational numbers.\nFor any rational number a: a + 0 = 0 + a = a.\nExample: -3/7 + 0 = 0 + (-3/7) = -3/7."
-            },
-            {
-              "q_num": 2,
-              "marks": 2,
-              "question": "Why is 0 called the additive identity?",
-              "answer": "Zero is called the additive identity because adding zero to any number does not change its value. The number keeps its identity.\nFor any rational number a: a + 0 = 0 + a = a."
-            },
-            {
-              "q_num": 3,
-              "marks": 2,
-              "question": "Is 0 the additive identity for whole numbers and integers also?",
-              "answer": "Yes. Zero is the additive identity for whole numbers, integers, and rational numbers.\nFor whole number: 2 + 0 = 0 + 2 = 2\nFor integer: -5 + 0 = 0 + (-5) = -5\nFor rational: (-2/7) + 0 = 0 + (-2/7) = -2/7\n\n---\n\n3 ಮಾರ್ಕ್ಸ್ × 2 questions:"
-            },
-            {
-              "q_num": 4,
-              "marks": 3,
-              "question": "Show that zero is the additive identity for rational numbers using three examples.",
-              "answer": "Zero is the additive identity because adding 0 does not change the number.\n\nExample 1 (Positive rational): 3/5 + 0 = 0 + 3/5 = 3/5 ✓\nExample 2 (Negative rational): -7/9 + 0 = 0 + (-7/9) = -7/9 ✓\nExample 3 (Integer as rational): -4 + 0 = 0 + (-4) = -4 ✓\n\nIn general: c + 0 = 0 + c = c for any rational number c.\nSo 0 is the additive identity for rational numbers."
-            },
-            {
-              "q_num": 5,
-              "marks": 3,
-              "question": "Find (-2/7) + 0 + 5/3. Which property helps simplify this?",
-              "answer": "Step 1: (-2/7) + 0 = -2/7     (Role of zero / Additive identity: a + 0 = a)\nStep 2: -2/7 + 5/3\nStep 3: LCM of 7 and 3 is 21\nStep 4: = -6/21 + 35/21\nStep 5: = 29/21\n\nAnswer = 29/21.\nThe property used is: 0 is the additive identity (adding 0 does not change the value).\n\n---\n\n4 ಮಾರ್ಕ್ಸ್ × 2 questions:"
-            },
-            {
-              "q_num": 6,
-              "marks": 4,
-              "question": "What is additive identity? Show that 0 is the additive identity for whole numbers, integers, and rational numbers with one example each.",
-              "answer": "Additive identity is a number that, when added to any number, gives back the same number.\n\nFor whole numbers: a + 0 = 0 + a = a\nExample: 5 + 0 = 0 + 5 = 5 ✓\n\nFor integers: b + 0 = 0 + b = b\nExample: -13 + 0 = 0 + (-13) = -13 ✓\n\nFor rational numbers: c + 0 = 0 + c = c\nExample: -2/7 + 0 = 0 + (-2/7) = -2/7 ✓\n\nIn all three cases, adding 0 does not change the number.\nTherefore, 0 (zero) is the additive identity for whole numbers, integers, and rational numbers."
-            },
-            {
-              "q_num": 7,
-              "marks": 4,
-              "question": "Simplify: (i) (-3/7) + 0 + (-2/9) + 0   (ii) 5/8 + 0 + (-3/4) + 0",
-              "answer": "(i) (-3/7) + 0 + (-2/9) + 0\n= (-3/7) + (-2/9)     (since adding 0 does not change value)\nLCM of 7 and 9 is 63\n= -27/63 + (-14/63)\n= -41/63\n\n(ii) 5/8 + 0 + (-3/4) + 0\n= 5/8 + (-3/4)        (since adding 0 does not change value)\nLCM of 8 and 4 is 8\n= 5/8 + (-6/8)\n= -1/8\n\nProperty used: 0 is the additive identity, so a + 0 = a in both cases.\n\n---\n\n5 ಮಾರ್ಕ್ಸ್ × 1 question:"
-            },
-            {
-              "q_num": 8,
-              "marks": 5,
-              "question": "Define additive identity. Verify that 0 is the additive identity for rational numbers. Also explain why no other rational number can be the additive identity.",
-              "answer": "PART A — Definition:\nA number 'e' is called the additive identity if for any number a: a + e = e + a = a.\n\nPART B — Verification that 0 is additive identity:\nFor any rational number c: c + 0 = 0 + c = c\n\nExample 1: 3/5 + 0 = 3/5 ✓\nExample 2: -7/9 + 0 = -7/9 ✓\nExample 3: -4 + 0 = -4 ✓\n\nGeneral rule:\na + 0 = 0 + a = a,    where a is a whole number\nb + 0 = 0 + b = b,    where b is an integer\nc + 0 = 0 + c = c,    where c is a rational number\n\nPART C — Why no other number can be additive identity:\nSuppose some number e (not 0) is the additive identity.\nThen for any rational number a: a + e = a\nThis means e = a - a = 0.\nThis is a contradiction, since we assumed e is not 0.\nTherefore, 0 is the ONLY additive identity for rational numbers."
-            }
-          ]
-        },
-        {
-          "type": "mcq",
-          "label": "SUB-TOPIC 1.2.4: MCQs:",
-          "items": []
-        },
-        {
-          "type": "mcq",
-          "label": "MCQ",
-          "items": [
-            {
-              "mcq_num": 1,
-              "difficulty": "Easy",
-              "question": "Q: The additive identity for rational numbers is:",
-              "options": {
-                "A": "1",
-                "B": "0",
-                "C": "-1",
-                "D": "Any rational number"
-              },
-              "answer": "B",
-              "explanation": "Zero (0) is the additive identity because a + 0 = 0 + a = a."
-            },
-            {
-              "mcq_num": 2,
-              "difficulty": "Easy",
-              "question": "Q: For any rational number a, a + 0 equals:",
-              "options": {
-                "A": "0",
-                "B": "-a",
-                "C": "a",
-                "D": "1"
-              },
-              "answer": "C",
-              "explanation": "Adding zero to any number gives back the same number: a + 0 = a."
-            },
-            {
-              "mcq_num": 3,
-              "difficulty": "Medium",
-              "question": "Q: -3/7 + 0 + 0 + 0 equals:",
-              "options": {
-                "A": "0",
-                "B": "-3/7",
-                "C": "3/7",
-                "D": "3"
-              },
-              "answer": "B",
-              "explanation": "Adding zero any number of times does not change the number. So -3/7 + 0 + 0 + 0 = -3/7."
-            },
-            {
-              "mcq_num": 4,
-              "difficulty": "Easy",
-              "question": "Q: Which of the following shows the additive identity property?",
-              "options": {
-                "A": "-5/7 x 0 = 0",
-                "B": "-5/7 + 0 = -5/7",
-                "C": "-5/7 - 0 = 0",
-                "D": "0 / (-5/7) = 0"
-              },
-              "answer": "B",
-              "explanation": "Additive identity means a + 0 = a. So -5/7 + 0 = -5/7 shows the additive identity property."
-            },
-            {
-              "mcq_num": 5,
-              "difficulty": "Medium",
-              "question": "Q: Zero is the additive identity for:",
-              "options": {
-                "A": "Only rational numbers",
-                "B": "Only integers",
-                "C": "Only whole numbers",
-                "D": "Whole numbers, integers, and rational numbers"
-              },
-              "answer": "D",
-              "explanation": "Zero is the additive identity for whole numbers (a + 0 = a), integers (b + 0 = b), and rational numbers (c + 0 = c)."
-            },
-            {
-              "mcq_num": 6,
-              "difficulty": "Medium",
-              "question": "Q: If a + e = a for all rational numbers a, then e equals:",
-              "options": {
-                "A": "1",
-                "B": "a",
-                "C": "0",
-                "D": "-a"
-              },
-              "answer": "C",
-              "explanation": "The number that when added to any rational number gives back the same number is 0 (additive identity). So e = 0."
-            },
-            {
-              "mcq_num": 7,
-              "difficulty": "Hard",
-              "question": "Q: Which statement is TRUE about additive identity?",
-              "options": {
-                "A": "Every number system has a different additive identity",
-                "B": "The additive identity for rational numbers is 1",
-                "C": "Adding the additive identity does not change the value of the number",
-                "D": "The additive identity for integers is different from that for rational numbers"
-              },
-              "answer": "C",
-              "explanation": "The additive identity is 0 for all number systems. Adding 0 to any number does not change its value: a + 0 = a. ----"
-            }
-          ]
-        },
-        {
-          "type": "definition",
-          "label": "Definition:",
-          "text": "One (1) is called the MULTIPLICATIVE IDENTITY for rational numbers. When we multiply any rational number by 1, we get back the same rational number."
-        },
-        {
-          "type": "key_points",
-          "label": "Key Points:",
-          "points": [
-            "For any rational number a: a x 1 = 1 x a = a",
-            "1 is the multiplicative identity for rational numbers",
-            "1 is also the multiplicative identity for whole numbers and integers",
-            "Multiplying any rational number by 1 does not change the number",
-            "THINK, DISCUSS AND WRITE:",
-            "If a property holds for rational numbers, will it also hold for integers? For whole numbers? Which will? Which will not?",
-            "EXAMPLES:",
-            "Example 1.2.5.1: [One as Multiplicative Identity]",
-            "We have:",
-            "5 x 1 = 5 = 1 x 5                   (Multiplication of 1 with a whole number)",
-            "(-2/7) x 1 = ... x ... = -2/7",
-            "(3/8) x ... = 1 x (3/8) = 3/8",
-            "What do you find?",
-            "You will find that when you multiply any rational number with 1, you get back the same rational number as the product. Check this for a few more rational numbers.",
-            "You will find that, a x 1 = 1 x a = a for any rational number a.",
-            "We say that 1 is the multiplicative identity for rational numbers.",
-            "Is 1 the multiplicative identity for integers? For whole numbers?"
-          ]
-        },
-        {
-          "type": "qa",
-          "label": "SUB-TOPIC 1.2.5: Q&A",
-          "items": []
-        },
-        {
-          "type": "qa",
-          "label": "Q&A",
-          "items": [
-            {
-              "q_num": 1,
-              "marks": 2,
-              "question": "What is the multiplicative identity for rational numbers?",
-              "answer": "One (1) is the multiplicative identity for rational numbers.\nFor any rational number a: a x 1 = 1 x a = a.\nExample: -4/5 x 1 = 1 x (-4/5) = -4/5."
-            },
-            {
-              "q_num": 2,
-              "marks": 2,
-              "question": "Why is 1 called the multiplicative identity?",
-              "answer": "One is called the multiplicative identity because multiplying any number by 1 does not change its value. The number keeps its identity.\nFor any rational number a: a x 1 = 1 x a = a."
-            },
-            {
-              "q_num": 3,
-              "marks": 2,
-              "question": "What is the difference between additive identity and multiplicative identity?",
-              "answer": "Additive identity = 0 (zero): a + 0 = a\nMultiplicative identity = 1 (one): a x 1 = a\nAdding 0 does not change the number. Multiplying by 1 does not change the number.\n\n---\n\n3 ಮಾರ್ಕ್ಸ್ × 2 questions:"
-            },
-            {
-              "q_num": 4,
-              "marks": 3,
-              "question": "Show that 1 is the multiplicative identity for rational numbers using three examples.",
-              "answer": "Multiplicative identity means: a x 1 = 1 x a = a.\n\nExample 1 (Positive): 3/5 x 1 = 1 x 3/5 = 3/5 ✓\nExample 2 (Negative): -7/9 x 1 = 1 x (-7/9) = -7/9 ✓\nExample 3 (Integer): -4 x 1 = 1 x (-4) = -4 ✓\n\nIn general: a x 1 = 1 x a = a for any rational number a.\nSo 1 is the multiplicative identity for rational numbers."
-            },
-            {
-              "q_num": 5,
-              "marks": 3,
-              "question": "Name the property used in each:",
-              "answer": "(i) 1 is the multiplicative identity. Multiplying by 1 does not change the rational number.\n(ii) Commutativity of multiplication. The order of multiplication can be changed: a x b = b x a.\n(iii) Multiplicative inverse (reciprocal). -19/29 and 29/-19 are reciprocals, and their product is 1.\n\n---\n\n4 ಮಾರ್ಕ್ಸ್ × 2 questions:"
-            },
-            {
-              "q_num": 6,
-              "marks": 4,
-              "question": "What is multiplicative identity? Show that 1 is the multiplicative identity for whole numbers, integers, and rational numbers with one example each.",
-              "answer": "Multiplicative identity is a number that, when multiplied with any number, gives back the same number.\n\nFor whole numbers: a x 1 = 1 x a = a\nExample: 5 x 1 = 1 x 5 = 5 ✓\n\nFor integers: b x 1 = 1 x b = b\nExample: -13 x 1 = 1 x (-13) = -13 ✓\n\nFor rational numbers: c x 1 = 1 x c = c\nExample: -2/7 x 1 = 1 x (-2/7) = -2/7 ✓\n\nIn all three cases, multiplying by 1 does not change the number.\nTherefore, 1 (one) is the multiplicative identity for whole numbers, integers, and rational numbers."
-            },
-            {
-              "q_num": 7,
-              "marks": 4,
-              "question": "Simplify: (i) (-4/5) x 1 x (-19/29)   (ii) (1/3) x (6 x 4/3). Name the properties used.",
-              "answer": "(i) (-4/5) x 1 x (-19/29)\n= (-4/5) x (-19/29)           (since a x 1 = a, multiplicative identity)\n= (4 x 19)/(5 x 29)\n= 76/145\nProperty used: 1 is the multiplicative identity.\n\n(ii) (1/3) x (6 x 4/3)\n= (1/3 x 6) x 4/3              (rearranging brackets)\n= 2 x 4/3\n= 8/3\nProperty used: Associativity of multiplication allows us to regroup the numbers.\n\n---\n\n5 ಮಾರ್ಕ್ಸ್ × 1 question:"
-            },
-            {
-              "q_num": 8,
-              "marks": 5,
-              "question": "Define multiplicative identity. Verify that 1 is the multiplicative identity for rational numbers. Compare additive identity (0) and multiplicative identity (1) with examples.",
-              "answer": "PART A — Definition:\nA number 'e' is the multiplicative identity if for any number a: a x e = e x a = a.\n\nPART B — Verification that 1 is multiplicative identity:\nFor any rational number a: a x 1 = 1 x a = a\n\nExample 1: 5 x 1 = 1 x 5 = 5 ✓ (whole number)\nExample 2: -13 x 1 = 1 x (-13) = -13 ✓ (integer)\nExample 3: (-2/7) x 1 = 1 x (-2/7) = -2/7 ✓ (rational number)\nExample 4: (3/8) x 1 = 1 x (3/8) = 3/8 ✓\n\nGeneral rule: a x 1 = 1 x a = a for any rational number a.\nSo 1 is the multiplicative identity for rational numbers.\n\nPART C — Comparison of identities:\n\nProperty         | Additive Identity | Multiplicative Identity\nIdentity number  | 0 (zero)          | 1 (one)\nOperation        | Addition          | Multiplication\nFormula          | a + 0 = 0 + a = a | a x 1 = 1 x a = a\nExample          | -3/7 + 0 = -3/7   | -3/7 x 1 = -3/7\nHolds for        | All number systems | All number systems"
-            }
-          ]
-        },
-        {
-          "type": "mcq",
-          "label": "SUB-TOPIC 1.2.5: MCQs:",
-          "items": []
-        },
-        {
-          "type": "mcq",
-          "label": "MCQ",
-          "items": [
-            {
-              "mcq_num": 1,
-              "difficulty": "Easy",
-              "question": "Q: The multiplicative identity for rational numbers is:",
-              "options": {
-                "A": "0",
-                "B": "1",
-                "C": "-1",
-                "D": "Any rational number"
-              },
-              "answer": "B",
-              "explanation": "One (1) is the multiplicative identity because a x 1 = 1 x a = a."
-            },
-            {
-              "mcq_num": 2,
-              "difficulty": "Easy",
-              "question": "Q: For any rational number a, a x 1 equals:",
-              "options": {
-                "A": "0",
-                "B": "1",
-                "C": "a",
-                "D": "-a"
-              },
-              "answer": "C",
-              "explanation": "Multiplying any number by 1 gives back the same number: a x 1 = a."
-            },
-            {
-              "mcq_num": 3,
-              "difficulty": "Medium",
-              "question": "Q: (-4/5) x 1 = 1 x (-4/5) = -4/5 shows that:",
-              "options": {
-                "A": "Multiplication is commutative only",
-                "B": "1 is the multiplicative identity only",
-                "C": "Both commutativity and multiplicative identity",
-                "D": "None"
-              },
-              "answer": "C",
-              "explanation": "It shows commutativity (order doesn't matter) AND that 1 is the multiplicative identity (multiplying by 1 gives same number)."
-            },
-            {
-              "mcq_num": 4,
-              "difficulty": "Easy",
-              "question": "Q: Which of the following shows the multiplicative identity property?",
-              "options": {
-                "A": "-3/7 + 1 = -3/7",
-                "B": "-3/7 x 0 = 0",
-                "C": "-3/7 x 1 = -3/7",
-                "D": "1 / (-3/7) = -7/3"
-              },
-              "answer": "C",
-              "explanation": "Multiplicative identity means a x 1 = a. So -3/7 x 1 = -3/7 shows the multiplicative identity property."
-            },
-            {
-              "mcq_num": 5,
-              "difficulty": "Medium",
-              "question": "Q: One (1) is the multiplicative identity for:",
-              "options": {
-                "A": "Only rational numbers",
-                "B": "Only integers",
-                "C": "Only whole numbers",
-                "D": "Whole numbers, integers, and rational numbers"
-              },
-              "answer": "D",
-              "explanation": "One (1) is the multiplicative identity for whole numbers, integers, and rational numbers: a x 1 = 1 x a = a."
-            },
-            {
-              "mcq_num": 6,
-              "difficulty": "Medium",
-              "question": "Q: If a x e = a for all rational numbers a, then e equals:",
-              "options": {
-                "A": "0",
-                "B": "a",
-                "C": "1",
-                "D": "-a"
-              },
-              "answer": "C",
-              "explanation": "The number that when multiplied with any rational number gives back the same number is 1 (multiplicative identity). So e = 1."
-            },
-            {
-              "mcq_num": 7,
-              "difficulty": "Hard",
-              "question": "Q: What is the difference between additive identity and multiplicative identity for rational numbers?",
-              "options": {
-                "A": "Both are 0",
-                "B": "Both are 1",
-                "C": "Additive identity is 0, multiplicative identity is 1",
-                "D": "Additive identity is 1, multiplicative identity is 0"
-              },
-              "answer": "C",
-              "explanation": "0 is the additive identity (a + 0 = a) and 1 is the multiplicative identity (a x 1 = a) for rational numbers. ----"
-            }
-          ]
-        },
-        {
-          "type": "definition",
-          "label": "Definition:",
-          "text": "For all rational numbers a, b and c:\na(b + c) = ab + ac   (Distributivity of multiplication over addition)\na(b - c) = ab - ac   (Distributivity of multiplication over subtraction)\nThis property is called DISTRIBUTIVITY of multiplication over addition and subtraction."
-        },
-        {
-          "type": "key_points",
-          "label": "Key Points:",
-          "points": [
-            "Multiplication can be \"distributed\" over addition or subtraction",
-            "a(b + c) = ab + ac means: multiply a with each term inside the bracket separately and add",
-            "This helps in simplifying expressions and calculations",
-            "Distributivity holds for all rational numbers",
-            "EXAMPLES:",
-            "Example 1.2.6.1: [Distributivity Verification]",
-            "To understand this, consider the rational numbers -3/4, 2/3 and -5/6.",
-            "(-3/4) x {(2/3) + (-5/6)}",
-            "= (-3/4) x {(4/6) + (-5/6)}",
-            "= (-3/4) x {-1/6}",
-            "= 3/24",
-            "= 1/8",
-            "Also: (-3/4) x (2/3) = -6/12 = -1/2",
-            "And:  (-3/4) x (-5/6) = 15/24 = 5/8",
-            "Therefore: ((-3/4) x (2/3)) + ((-3/4) x (-5/6)) = -1/2 + 5/8 = -4/8 + 5/8 = 1/8",
-            "Thus: (-3/4) x {(2/3) + (-5/6)} = ((-3/4) x (2/3)) + ((-3/4) x (-5/6))",
-            "Distributivity of Multiplication over Addition and Subtraction:",
-            "For all rational numbers a, b and c:",
-            "a(b + c) = ab + ac",
-            "a(b - c) = ab - ac",
-            "TRY THESE:",
-            "Find using distributivity.",
-            "(i) {(7/5) x (-3/12)} + {(7/5) x (5/12)}",
-            "= (7/5) x {(-3/12) + (5/12)}",
-            "= (7/5) x {2/12}",
-            "= (7/5) x (1/6)",
-            "= 7/30",
-            "(ii) {(9/16) x (4/12)} + {(9/16) x (-3/9)}",
-            "= (9/16) x {(4/12) + (-3/9)}",
-            "= (9/16) x {(1/3) + (-1/3)}",
-            "= (9/16) x 0",
-            "= 0",
-            "Example 3: Find (2/5) x (-3/7) - (1/14) - (3/7) x (3/5).",
-            "Solution:",
-            "(2/5) x (-3/7) - (1/14) - (3/7) x (3/5)",
-            "= (2/5) x (-3/7) - (3/7) x (3/5) - (1/14)          (by commutativity)",
-            "= (2/5) x (-3/7) + (-3/7) x (3/5) - (1/14)",
-            "= (-3/7) x {(2/5) + (3/5)} - (1/14)                 (by distributivity)",
-            "= (-3/7) x 1 - (1/14)",
-            "= -3/7 - 1/14",
-            "= -6/14 - 1/14",
-            "= -7/14",
-            "= -1/2"
-          ]
-        },
-        {
-          "type": "exercise",
-          "label": "EXERCISE 1.1:",
-          "items": [],
-          "raw": "1. Name the property under multiplication used in each of the following.\n(i)  (-4/5) x 1 = 1 x (-4/5) = -4/5\nANSWER: 1 is the multiplicative identity.\n\n(ii) (-13/17) x (-2/7) = (-2/7) x (-13/17)\nANSWER: Commutativity of multiplication.\n\n(iii) (-19/29) x (29/-19) = 1\nANSWER: Multiplicative inverse (reciprocal). The product of a rational number and its reciprocal is 1.\n\n2. Tell what property allows you to compute (1/3) x (6 x 4/3) as (1/3 x 6) x 4/3.\nANSWER: Associativity of multiplication. This property allows us to regroup the numbers without changing the result.\n\n3. The product of two rational numbers is always a _______.\nANSWER: Rational number. (Rational numbers are closed under multiplication.)"
-        },
-        {
-          "type": "qa",
-          "label": "SUB-TOPIC 1.2.6: Q&A",
-          "items": []
-        },
-        {
-          "type": "qa",
-          "label": "Q&A",
-          "items": [
-            {
-              "q_num": 1,
-              "marks": 2,
-              "question": "State the distributive property of multiplication over addition for rational numbers.",
-              "answer": "For all rational numbers a, b and c:\na(b + c) = ab + ac    (distributivity over addition)\na(b - c) = ab - ac    (distributivity over subtraction)"
-            },
-            {
-              "q_num": 2,
-              "marks": 2,
-              "question": "What does distributivity mean? Give a simple example.",
-              "answer": "Distributivity means multiplying a number by a sum is the same as multiplying by each term separately and adding.\nExample: 2 x (3 + 4) = 2 x 3 + 2 x 4 = 6 + 8 = 14.\nSo a(b + c) = ab + ac."
-            },
-            {
-              "q_num": 3,
-              "marks": 2,
-              "question": "Name the property used: (-13/17) x (-2/7) = (-2/7) x (-13/17).",
-              "answer": "Commutativity of multiplication.\nThis property states that the order of multiplication can be changed: a x b = b x a.\nSo (-13/17) x (-2/7) = (-2/7) x (-13/17).\n\n---\n\n3 ಮಾರ್ಕ್ಸ್ × 2 questions:"
-            },
-            {
-              "q_num": 4,
-              "marks": 3,
-              "question": "Use distributivity to find {(7/5) x (-3/12)} + {(7/5) x (5/12)}.",
-              "answer": "Step 1: Take (7/5) common using distributivity: a(b + c) = ab + ac\nStep 2: = (7/5) x {(-3/12) + (5/12)}\nStep 3: (-3/12) + (5/12) = 2/12 = 1/6\nStep 4: = (7/5) x (1/6)\nStep 5: = 7/30\n\nAnswer = 7/30."
-            },
-            {
-              "q_num": 5,
-              "marks": 3,
-              "question": "Find (2/5) x (-3/7) - (1/14) - (3/7) x (3/5) using distributivity.",
-              "answer": "Step 1: Rearrange using commutativity:\n= (2/5) x (-3/7) - (3/7) x (3/5) - (1/14)\nStep 2: Take (-3/7) common using distributivity:\n= (-3/7) x {(2/5) + (3/5)} - (1/14)\nStep 3: (2/5) + (3/5) = 5/5 = 1\nStep 4: = (-3/7) x 1 - (1/14) = -3/7 - 1/14\nStep 5: LCM of 7 and 14 is 14. = -6/14 - 1/14 = -7/14 = -1/2\n\nAnswer = -1/2.\n\n---\n\n4 ಮಾರ್ಕ್ಸ್ × 2 questions:"
-            },
-            {
-              "q_num": 6,
-              "marks": 4,
-              "question": "Verify the distributive property for a = -3/4, b = 2/3, c = -5/6.",
-              "answer": "To verify: a(b + c) = ab + ac\n\nStep 1: LHS = (-3/4) x {(2/3) + (-5/6)}\nStep 2: (2/3) + (-5/6) = 4/6 + (-5/6) = -1/6\nStep 3: LHS = (-3/4) x (-1/6) = 3/24 = 1/8\n\nStep 4: RHS = (-3/4 x 2/3) + (-3/4 x (-5/6))\nStep 5: -3/4 x 2/3 = -6/12 = -1/2\nStep 6: -3/4 x (-5/6) = 15/24 = 5/8\nStep 7: RHS = -1/2 + 5/8 = -4/8 + 5/8 = 1/8\n\nLHS = RHS = 1/8.\nSo distributive property holds for rational numbers."
-            },
-            {
-              "q_num": 7,
-              "marks": 4,
-              "question": "Use distributivity to find {(9/16) x (4/12)} + {(9/16) x (-3/9)}. Also verify by direct calculation.",
-              "answer": "Method 1 (Using distributivity):\n= (9/16) x {(4/12) + (-3/9)}\n= (9/16) x {(1/3) + (-1/3)}       (simplify: 4/12 = 1/3 and -3/9 = -1/3)\n= (9/16) x 0\n= 0\n\nMethod 2 (Direct calculation):\nStep 1: (9/16) x (4/12) = 36/192 = 3/16\nStep 2: (9/16) x (-3/9) = -27/144 = -3/16\nStep 3: 3/16 + (-3/16) = 0\n\nBoth methods give 0. Distributivity makes the calculation much easier (Method 1 only needs one multiplication vs two in Method 2).\n\n---\n\n5 ಮಾರ್ಕ್ಸ್ × 1 question:"
-            },
-            {
-              "q_num": 8,
-              "marks": 5,
-              "question": "State and verify distributive property of multiplication over addition and subtraction for rational numbers. Also find (2/5) x (-3/7) - (1/14) - (3/7) x (3/5) using this property.",
-              "answer": "PART A — Statement:\nFor all rational numbers a, b and c:\na(b + c) = ab + ac    (distributivity over addition)\na(b - c) = ab - ac    (distributivity over subtraction)\n\nPART B — Verification (a = -3/4, b = 2/3, c = -5/6):\nLHS = (-3/4) x {(2/3) + (-5/6)}\n= (-3/4) x {4/6 - 5/6}\n= (-3/4) x (-1/6) = 3/24 = 1/8\n\nRHS = (-3/4 x 2/3) + (-3/4 x (-5/6))\n= -1/2 + 5/8 = -4/8 + 5/8 = 1/8\n\nLHS = RHS = 1/8 ✓ Distributivity verified.\n\nPART C — Application:\n(2/5) x (-3/7) - (1/14) - (3/7) x (3/5)\n\nStep 1: Rearrange (commutativity):\n= (2/5) x (-3/7) - (3/7) x (3/5) - (1/14)\n\nStep 2: Apply distributivity (take -3/7 common):\n= (-3/7) x {(2/5) + (3/5)} - (1/14)\n\nStep 3: (2/5) + (3/5) = 1\n= (-3/7) x 1 - (1/14)\n= -3/7 - 1/14\n\nStep 4: LCM of 7 and 14 is 14\n= -6/14 - 1/14 = -7/14 = -1/2\n\nAnswer = -1/2"
-            }
-          ]
-        },
-        {
-          "type": "mcq",
-          "label": "SUB-TOPIC 1.2.6: MCQs:",
-          "items": []
-        },
-        {
-          "type": "mcq",
-          "label": "MCQ",
-          "items": [
-            {
-              "mcq_num": 1,
-              "difficulty": "Easy",
-              "question": "Q: a(b + c) = ab + ac is the property of:",
-              "options": {
-                "A": "Commutativity",
-                "B": "Associativity",
-                "C": "Distributivity",
-                "D": "Closure"
-              },
-              "answer": "C",
-              "explanation": "This is the distributive property of multiplication over addition."
-            },
-            {
-              "mcq_num": 2,
-              "difficulty": "Easy",
-              "question": "Q: Multiplication of rational numbers is distributive over:",
-              "options": {
-                "A": "Addition only",
-                "B": "Subtraction only",
-                "C": "Both addition and subtraction",
-                "D": "Neither"
-              },
-              "answer": "C",
-              "explanation": "Multiplication is distributive over both addition (a(b+c)=ab+ac) and subtraction (a(b-c)=ab-ac)."
-            },
-            {
-              "mcq_num": 3,
-              "difficulty": "Medium",
-              "question": "Q: Using distributivity, (7/5) x (-3/12) + (7/5) x (5/12) equals:",
-              "options": {
-                "A": "7/30",
-                "B": "0",
-                "C": "7/5",
-                "D": "2/12"
-              },
-              "answer": "A",
-              "explanation": "= (7/5) x {(-3/12) + (5/12)} = (7/5) x (2/12) = (7/5) x (1/6) = 7/30."
-            },
-            {
-              "mcq_num": 4,
-              "difficulty": "Medium",
-              "question": "Q: (-3/4) x {(2/3) + (-5/6)} equals:",
-              "options": {
-                "A": "1/8",
-                "B": "-1/8",
-                "C": "1/2",
-                "D": "-1/2"
-              },
-              "answer": "A",
-              "explanation": "(-3/4) x (-1/6) = 3/24 = 1/8."
-            },
-            {
-              "mcq_num": 5,
-              "difficulty": "Medium",
-              "question": "Q: Which property allows (1/3) x (6 x 4/3) to be written as (1/3 x 6) x 4/3?",
-              "options": {
-                "A": "Commutativity",
-                "B": "Associativity",
-                "C": "Distributivity",
-                "D": "Closure"
-              },
-              "answer": "B",
-              "explanation": "Changing the grouping (brackets) of three numbers in multiplication uses associativity."
-            },
-            {
-              "mcq_num": 6,
-              "difficulty": "Hard",
-              "question": "Q: The simplified value of (2/5) x (-3/7) - (1/14) - (3/7) x (3/5) is:",
-              "options": {
-                "A": "1/2",
-                "B": "-1/2",
-                "C": "-1",
-                "D": "1"
-              },
-              "answer": "B",
-              "explanation": "= (-3/7) x (2/5 + 3/5) - 1/14 = -3/7 - 1/14 = -6/14 - 1/14 = -7/14 = -1/2."
-            },
-            {
-              "mcq_num": 7,
-              "difficulty": "Hard",
-              "question": "Q: Using distributivity, (9/16) x (4/12) + (9/16) x (-3/9) equals:",
-              "options": {
-                "A": "9/16",
-                "B": "1",
-                "C": "0",
-                "D": "-1"
-              },
-              "answer": "C",
-              "explanation": "= (9/16) x {1/3 + (-1/3)} = (9/16) x 0 = 0."
+              "type": "mcq",
+              "label": "MCQ",
+              "items": [
+                {
+                  "mcq_num": 1,
+                  "difficulty": "Easy",
+                  "question": "Q: a(b + c) = ab + ac is the property of:",
+                  "options": {
+                    "A": "Commutativity",
+                    "B": "Associativity",
+                    "C": "Distributivity",
+                    "D": "Closure"
+                  },
+                  "answer": "C",
+                  "explanation": "This is the distributive property of multiplication over addition."
+                },
+                {
+                  "mcq_num": 2,
+                  "difficulty": "Easy",
+                  "question": "Q: Multiplication of rational numbers is distributive over:",
+                  "options": {
+                    "A": "Addition only",
+                    "B": "Subtraction only",
+                    "C": "Both addition and subtraction",
+                    "D": "Neither"
+                  },
+                  "answer": "C",
+                  "explanation": "Multiplication is distributive over both addition (a(b+c)=ab+ac) and subtraction (a(b-c)=ab-ac)."
+                },
+                {
+                  "mcq_num": 3,
+                  "difficulty": "Medium",
+                  "question": "Q: Using distributivity, (7/5) x (-3/12) + (7/5) x (5/12) equals:",
+                  "options": {
+                    "A": "7/30",
+                    "B": "0",
+                    "C": "7/5",
+                    "D": "2/12"
+                  },
+                  "answer": "A",
+                  "explanation": "= (7/5) x {(-3/12) + (5/12)} = (7/5) x (2/12) = (7/5) x (1/6) = 7/30."
+                },
+                {
+                  "mcq_num": 4,
+                  "difficulty": "Medium",
+                  "question": "Q: (-3/4) x {(2/3) + (-5/6)} equals:",
+                  "options": {
+                    "A": "1/8",
+                    "B": "-1/8",
+                    "C": "1/2",
+                    "D": "-1/2"
+                  },
+                  "answer": "A",
+                  "explanation": "(-3/4) x (-1/6) = 3/24 = 1/8."
+                },
+                {
+                  "mcq_num": 5,
+                  "difficulty": "Medium",
+                  "question": "Q: Which property allows (1/3) x (6 x 4/3) to be written as (1/3 x 6) x 4/3?",
+                  "options": {
+                    "A": "Commutativity",
+                    "B": "Associativity",
+                    "C": "Distributivity",
+                    "D": "Closure"
+                  },
+                  "answer": "B",
+                  "explanation": "Changing the grouping (brackets) of three numbers in multiplication uses associativity."
+                },
+                {
+                  "mcq_num": 6,
+                  "difficulty": "Hard",
+                  "question": "Q: The simplified value of (2/5) x (-3/7) - (1/14) - (3/7) x (3/5) is:",
+                  "options": {
+                    "A": "1/2",
+                    "B": "-1/2",
+                    "C": "-1",
+                    "D": "1"
+                  },
+                  "answer": "B",
+                  "explanation": "= (-3/7) x (2/5 + 3/5) - 1/14 = -3/7 - 1/14 = -6/14 - 1/14 = -7/14 = -1/2."
+                },
+                {
+                  "mcq_num": 7,
+                  "difficulty": "Hard",
+                  "question": "Q: Using distributivity, (9/16) x (4/12) + (9/16) x (-3/9) equals:",
+                  "options": {
+                    "A": "9/16",
+                    "B": "1",
+                    "C": "0",
+                    "D": "-1"
+                  },
+                  "answer": "C",
+                  "explanation": "= (9/16) x {1/3 + (-1/3)} = (9/16) x 0 = 0."
+                }
+              ]
             }
           ]
         }
-      ],
-      "subtopics": []
+      ]
     }
   ]
 }

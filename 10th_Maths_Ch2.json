@@ -207,6 +207,11 @@
           ]
         },
         {
+          "type": "misc",
+          "label": "Classification rule:",
+          "text": "Degree 1 → Linear polynomial: ax + b\nDegree 2 → Quadratic polynomial: ax^2 + bx + c\nDegree 3 → Cubic polynomial: ax^3 + bx^2 + cx + d\n(In all cases, the leading coefficient a ≠ 0)"
+        },
+        {
           "type": "mcq",
           "label": "TOPIC 2.1: MCQs:",
           "items": [
@@ -554,7 +559,7 @@
         },
         {
           "type": "mcq",
-          "label": "MCQ",
+          "label": "TOPIC 2.2: MCQs:",
           "items": [
             {
               "mcq_num": 1,
@@ -941,7 +946,7 @@
         },
         {
           "type": "mcq",
-          "label": "MCQ",
+          "label": "TOPIC 2.3: MCQs:",
           "items": [
             {
               "mcq_num": 1,

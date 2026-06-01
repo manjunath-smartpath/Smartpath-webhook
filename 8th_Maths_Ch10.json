@@ -6,7 +6,7 @@
     "chapter_num": "10",
     "chapter_name": "EXPONENTS AND POWERS",
     "source": "KSEEB Textbook 2025-26",
-    "mode": "B"
+    "mode": "A"
   },
   "chapter_sections": [
     {
@@ -214,7 +214,7 @@
         },
         {
           "type": "mcq",
-          "label": "MCQ",
+          "label": "TOPIC 10.1: MCQs:",
           "items": [
             {
               "mcq_num": 1,
@@ -295,7 +295,15 @@
               "explanation": "In m x 10^n, n is the exponent. Here n = 24. ----------------------------------------------------------------"
             }
           ]
-        },
+        }
+      ],
+      "subtopics": []
+    },
+    {
+      "topic_num": "10.2",
+      "topic_name": "Powers with Negative Exponents",
+      "mode": "B",
+      "sections": [
         {
           "type": "definition",
           "label": "Definition:",
@@ -414,7 +422,7 @@
         },
         {
           "type": "mcq",
-          "label": "MCQ",
+          "label": "TOPIC 10.2: MCQs:",
           "items": [
             {
               "mcq_num": 1,
@@ -495,7 +503,15 @@
               "explanation": "0.5 = 5/10 = 5 x 10^(-1). ----------------------------------------------------------------"
             }
           ]
-        },
+        }
+      ],
+      "subtopics": []
+    },
+    {
+      "topic_num": "10.3",
+      "topic_name": "Laws of Exponents",
+      "mode": "B",
+      "sections": [
         {
           "type": "definition",
           "label": "Definition:",
@@ -657,7 +673,7 @@
         },
         {
           "type": "mcq",
-          "label": "MCQ",
+          "label": "TOPIC 10.3: MCQs:",
           "items": [
             {
               "mcq_num": 1,
@@ -751,7 +767,15 @@
               "explanation": "(-2)^(-3+4) = (-2)^1 = -2. ----------------------------------------------------------------"
             }
           ]
-        },
+        }
+      ],
+      "subtopics": []
+    },
+    {
+      "topic_num": "10.4",
+      "topic_name": "Use of Exponents to Express Small Numbers in Standard Form",
+      "mode": "A",
+      "sections": [
         {
           "type": "definition",
           "label": "Definition:",
@@ -866,7 +890,7 @@
         },
         {
           "type": "mcq",
-          "label": "MCQ",
+          "label": "TOPIC 10.4: MCQs:",
           "items": [
             {
               "mcq_num": 1,
@@ -947,193 +971,200 @@
               "explanation": "Time = Distance/Speed = (1.5 x 10^11)/(3 x 10^8) = 0.5 x 10^3 = 500 seconds. ----"
             }
           ]
-        },
+        }
+      ],
+      "subtopics": [
         {
-          "type": "definition",
-          "label": "Definition:",
-          "text": "To COMPARE numbers in standard form, convert them to the same power of 10 and compare.\nTo ADD numbers in standard form, convert to the same power of 10 first.\nTo find RATIO, divide and simplify the powers."
-        },
-        {
-          "type": "key_points",
-          "label": "Key Points:",
-          "points": [
-            "To compare: find ratio by dividing the two numbers.",
-            "To add: convert both to same power of 10, then add the coefficients.",
-            "To subtract: convert both to same power of 10, then subtract.",
-            "EXAMPLES:",
-            "EXAMPLE 10.4.1.1:",
-            "PROBLEM: Compare diameter of Sun (1.4 x 10^9 m) with diameter of Earth (1.2756 x 10^7 m).",
-            "SOLUTION:",
-            "Step 1: Ratio = (1.4 x 10^9) / (1.2756 x 10^7)",
-            "= (1.4/1.2756) x 10^(9-7)",
-            "= (1.4/1.2756) x 100",
-            "≈ 100 (approximately).",
-            "Step 2: Diameter of Sun is about 100 times the diameter of Earth.",
-            "ANSWER: Sun's diameter ≈ 100 times Earth's diameter.",
-            "EXAMPLE 10.4.1.2:",
-            "PROBLEM: Find the total mass of Earth (5.97 x 10^24 kg) and Moon (7.35 x 10^22 kg).",
-            "SOLUTION:",
-            "Step 1: Convert to same power: 5.97 x 10^24 = 5.97 x 100 x 10^22 = 597 x 10^22.",
-            "Step 2: Total = 597 x 10^22 + 7.35 x 10^22 = (597 + 7.35) x 10^22 = 604.35 x 10^22 kg.",
-            "ANSWER: Total mass = 604.35 x 10^22 kg.",
-            "EXAMPLE 10.4.1.3:",
-            "PROBLEM: Distance Sun to Earth = 1.496 x 10^11 m. Distance Earth to Moon = 3.84 x 10^8 m. Find distance Sun to Moon (during solar eclipse when Moon is between Sun and Earth).",
-            "SOLUTION:",
-            "Step 1: Convert to same power: 1.496 x 10^11 = 1496 x 10^8.",
-            "Step 2: Distance = 1496 x 10^8 - 3.84 x 10^8 = (1496 - 3.84) x 10^8 = 1492.16 x 10^8 m.",
-            "ANSWER: Distance from Sun to Moon = 1492.16 x 10^8 m."
-          ]
-        },
-        {
-          "type": "additional_facts",
-          "label": "ADDITIONAL FACTS:",
-          "text": "- Distance from Earth to Sun = 1.496 x 10^11 m.\n- Distance from Earth to Moon = 3.84 x 10^8 m.\n- Speed of light = 3 x 10^8 m/s.\n- Average diameter of Red Blood Cell = 0.000007 m = 7 x 10^(-6) m.\n- Size of plant cell = 0.00001275 m = 1.275 x 10^(-5) m."
-        },
-        {
-          "type": "qa",
-          "label": "SUB-TOPIC 10.4.1: Q&A",
-          "items": []
-        },
-        {
-          "type": "qa",
-          "label": "Q&A",
-          "items": [
+          "subtopic_num": "10.4.1",
+          "subtopic_name": "Comparing Very Large and Very Small Numbers",
+          "sections": [
             {
-              "q_num": 1,
-              "marks": 2,
-              "question": "Express in standard form: (i) 0.0000085 (ii) 1230000.",
-              "answer": "(i) 0.0000085 = 8.5 x 10^(-6). (Moved decimal 6 places right.)\n(ii) 1230000 = 1.23 x 10^6. (Moved decimal 6 places left.)"
+              "type": "definition",
+              "label": "Definition:",
+              "text": "To COMPARE numbers in standard form, convert them to the same power of 10 and compare.\nTo ADD numbers in standard form, convert to the same power of 10 first.\nTo find RATIO, divide and simplify the powers."
             },
             {
-              "q_num": 2,
-              "marks": 2,
-              "question": "Convert to usual form: (i) 3.52 x 10^5 (ii) 2.7 x 10^(-4).",
-              "answer": "(i) 3.52 x 10^5 = 3.52 x 100000 = 352000.\n(ii) 2.7 x 10^(-4) = 2.7/10000 = 0.00027."
+              "type": "key_points",
+              "label": "Key Points:",
+              "points": [
+                "To compare: find ratio by dividing the two numbers.",
+                "To add: convert both to same power of 10, then add the coefficients.",
+                "To subtract: convert both to same power of 10, then subtract.",
+                "EXAMPLES:",
+                "EXAMPLE 10.4.1.1:",
+                "PROBLEM: Compare diameter of Sun (1.4 x 10^9 m) with diameter of Earth (1.2756 x 10^7 m).",
+                "SOLUTION:",
+                "Step 1: Ratio = (1.4 x 10^9) / (1.2756 x 10^7)",
+                "= (1.4/1.2756) x 10^(9-7)",
+                "= (1.4/1.2756) x 100",
+                "≈ 100 (approximately).",
+                "Step 2: Diameter of Sun is about 100 times the diameter of Earth.",
+                "ANSWER: Sun's diameter ≈ 100 times Earth's diameter.",
+                "EXAMPLE 10.4.1.2:",
+                "PROBLEM: Find the total mass of Earth (5.97 x 10^24 kg) and Moon (7.35 x 10^22 kg).",
+                "SOLUTION:",
+                "Step 1: Convert to same power: 5.97 x 10^24 = 5.97 x 100 x 10^22 = 597 x 10^22.",
+                "Step 2: Total = 597 x 10^22 + 7.35 x 10^22 = (597 + 7.35) x 10^22 = 604.35 x 10^22 kg.",
+                "ANSWER: Total mass = 604.35 x 10^22 kg.",
+                "EXAMPLE 10.4.1.3:",
+                "PROBLEM: Distance Sun to Earth = 1.496 x 10^11 m. Distance Earth to Moon = 3.84 x 10^8 m. Find distance Sun to Moon (during solar eclipse when Moon is between Sun and Earth).",
+                "SOLUTION:",
+                "Step 1: Convert to same power: 1.496 x 10^11 = 1496 x 10^8.",
+                "Step 2: Distance = 1496 x 10^8 - 3.84 x 10^8 = (1496 - 3.84) x 10^8 = 1492.16 x 10^8 m.",
+                "ANSWER: Distance from Sun to Moon = 1492.16 x 10^8 m."
+              ]
             },
             {
-              "q_num": 3,
-              "marks": 2,
-              "question": "Size of bacteria = 0.0000005 m, size of plant cell = 0.00001275 m. Express both in standard form.",
-              "answer": "Bacteria = 0.0000005 = 5 x 10^(-7) m.\nPlant cell = 0.00001275 = 1.275 x 10^(-5) m.\n\n---\n\n3 ಮಾರ್ಕ್ಸ್ × 2 questions:"
+              "type": "additional_facts",
+              "label": "ADDITIONAL FACTS:",
+              "text": "- Distance from Earth to Sun = 1.496 x 10^11 m.\n- Distance from Earth to Moon = 3.84 x 10^8 m.\n- Speed of light = 3 x 10^8 m/s.\n- Average diameter of Red Blood Cell = 0.000007 m = 7 x 10^(-6) m.\n- Size of plant cell = 0.00001275 m = 1.275 x 10^(-5) m."
             },
             {
-              "q_num": 4,
-              "marks": 3,
-              "question": "Diameter of Sun = 1.4 x 10^9 m, diameter of Earth = 1.2756 x 10^7 m. Find how many times larger the Sun is than Earth.",
-              "answer": "Step 1: Ratio = (1.4 x 10^9) / (1.2756 x 10^7)\nStep 2: = (1.4/1.2756) x 10^(9-7) = (1.4/1.2756) x 10^2 ≈ 1.097 x 100 ≈ 109.7.\nStep 3: Sun's diameter is approximately 110 times the diameter of Earth."
+              "type": "qa",
+              "label": "SUB-TOPIC 10.4.1: Q&A",
+              "items": []
             },
             {
-              "q_num": 5,
-              "marks": 3,
-              "question": "Distance Sun to Earth = 1.496 x 10^11 m. Distance Earth to Moon = 3.84 x 10^8 m. During a solar eclipse, Moon is between Sun and Earth. Find distance Sun to Moon.",
-              "answer": "Step 1: Sun to Moon = Sun to Earth - Earth to Moon = 1.496 x 10^11 - 3.84 x 10^8.\nStep 2: Convert to same power: 1.496 x 10^11 = 1496 x 10^8.\nStep 3: 1496 x 10^8 - 3.84 x 10^8 = (1496 - 3.84) x 10^8 = 1492.16 x 10^8 m.\nAnswer: 1492.16 x 10^8 m (≈ 1.49216 x 10^11 m).\n\n---\n\n4 ಮಾರ್ಕ್ಸ್ × 2 questions:"
+              "type": "qa",
+              "label": "Q&A",
+              "items": [
+                {
+                  "q_num": 1,
+                  "marks": 2,
+                  "question": "Express in standard form: (i) 0.0000085 (ii) 1230000.",
+                  "answer": "(i) 0.0000085 = 8.5 x 10^(-6). (Moved decimal 6 places right.)\n(ii) 1230000 = 1.23 x 10^6. (Moved decimal 6 places left.)"
+                },
+                {
+                  "q_num": 2,
+                  "marks": 2,
+                  "question": "Convert to usual form: (i) 3.52 x 10^5 (ii) 2.7 x 10^(-4).",
+                  "answer": "(i) 3.52 x 10^5 = 3.52 x 100000 = 352000.\n(ii) 2.7 x 10^(-4) = 2.7/10000 = 0.00027."
+                },
+                {
+                  "q_num": 3,
+                  "marks": 2,
+                  "question": "Size of bacteria = 0.0000005 m, size of plant cell = 0.00001275 m. Express both in standard form.",
+                  "answer": "Bacteria = 0.0000005 = 5 x 10^(-7) m.\nPlant cell = 0.00001275 = 1.275 x 10^(-5) m.\n\n---\n\n3 ಮಾರ್ಕ್ಸ್ × 2 questions:"
+                },
+                {
+                  "q_num": 4,
+                  "marks": 3,
+                  "question": "Diameter of Sun = 1.4 x 10^9 m, diameter of Earth = 1.2756 x 10^7 m. Find how many times larger the Sun is than Earth.",
+                  "answer": "Step 1: Ratio = (1.4 x 10^9) / (1.2756 x 10^7)\nStep 2: = (1.4/1.2756) x 10^(9-7) = (1.4/1.2756) x 10^2 ≈ 1.097 x 100 ≈ 109.7.\nStep 3: Sun's diameter is approximately 110 times the diameter of Earth."
+                },
+                {
+                  "q_num": 5,
+                  "marks": 3,
+                  "question": "Distance Sun to Earth = 1.496 x 10^11 m. Distance Earth to Moon = 3.84 x 10^8 m. During a solar eclipse, Moon is between Sun and Earth. Find distance Sun to Moon.",
+                  "answer": "Step 1: Sun to Moon = Sun to Earth - Earth to Moon = 1.496 x 10^11 - 3.84 x 10^8.\nStep 2: Convert to same power: 1.496 x 10^11 = 1496 x 10^8.\nStep 3: 1496 x 10^8 - 3.84 x 10^8 = (1496 - 3.84) x 10^8 = 1492.16 x 10^8 m.\nAnswer: 1492.16 x 10^8 m (≈ 1.49216 x 10^11 m).\n\n---\n\n4 ಮಾರ್ಕ್ಸ್ × 2 questions:"
+                },
+                {
+                  "q_num": 6,
+                  "marks": 4,
+                  "question": "Total mass of Earth + Moon = 5.97 x 10^24 + 7.35 x 10^22. Find total mass and express the Moon's mass as a fraction of Earth's mass.",
+                  "answer": "Step 1: Convert to same power: 5.97 x 10^24 = 597 x 10^22.\nStep 2: Total = 597 x 10^22 + 7.35 x 10^22 = 604.35 x 10^22 kg = 6.0435 x 10^24 kg.\nStep 3: Moon mass / Earth mass = (7.35 x 10^22)/(5.97 x 10^24)\n= (7.35/5.97) x 10^(22-24)\n= 1.231 x 10^(-2) = 0.01231.\nStep 4: Moon is approximately 1/81 or about 1.2% of Earth's mass."
+                },
+                {
+                  "q_num": 7,
+                  "marks": 4,
+                  "question": "A light year = 9.461 x 10^15 m. Distance to nearest star Proxima Centauri = 4.24 light years. Express this distance in metres in standard form. Also express the speed of light (3 x 10^8 m/s) and find time to travel 1 light year.",
+                  "answer": "Step 1: 1 light year = 9.461 x 10^15 m.\nStep 2: Distance to Proxima Centauri = 4.24 x 9.461 x 10^15 = 40.1146 x 10^15 = 4.01 x 10^16 m.\nStep 3: Speed of light = 3 x 10^8 m/s.\nStep 4: Time for 1 light year = (9.461 x 10^15) / (3 x 10^8) = (9.461/3) x 10^(15-8) = 3.154 x 10^7 seconds.\nAnswer: Distance = 4.01 x 10^16 m. Time = 3.154 x 10^7 seconds ≈ 1 year (as expected).\n\n---\n\n5 ಮಾರ್ಕ್ಸ್ × 1 question:"
+                },
+                {
+                  "q_num": 8,
+                  "marks": 5,
+                  "question": "PART A — A flea is 1.5 mm long. A bacterium is 2 x 10^(-6) m long. Express both in standard form (in metres) and find how many bacteria can fit end to end along the length of the flea.",
+                  "answer": "PART A — Flea vs Bacteria:\nStep 1: Flea = 1.5 mm = 0.0015 m = 1.5 x 10^(-3) m.\nStep 2: Bacteria = 2 x 10^(-6) m.\nStep 3: Number of bacteria = (1.5 x 10^(-3)) / (2 x 10^(-6))\n= (1.5/2) x 10^(-3-(-6))\n= 0.75 x 10^3 = 750 bacteria.\n\nPART B — Debt per Citizen:\nStep 1: Debt = 4,35,00,00,00,00,000 = 4.35 x 10^12 Rs.\nStep 2: Population = 1.4 x 10^9.\nStep 3: Per person = (4.35 x 10^12) / (1.4 x 10^9)\n= (4.35/1.4) x 10^(12-9)\n= 3.107 x 10^3 ≈ Rs. 3107 per citizen.\n\nFinal Answer: 750 bacteria fit along the flea. Each citizen owes approximately Rs. 3107."
+                }
+              ]
             },
             {
-              "q_num": 6,
-              "marks": 4,
-              "question": "Total mass of Earth + Moon = 5.97 x 10^24 + 7.35 x 10^22. Find total mass and express the Moon's mass as a fraction of Earth's mass.",
-              "answer": "Step 1: Convert to same power: 5.97 x 10^24 = 597 x 10^22.\nStep 2: Total = 597 x 10^22 + 7.35 x 10^22 = 604.35 x 10^22 kg = 6.0435 x 10^24 kg.\nStep 3: Moon mass / Earth mass = (7.35 x 10^22)/(5.97 x 10^24)\n= (7.35/5.97) x 10^(22-24)\n= 1.231 x 10^(-2) = 0.01231.\nStep 4: Moon is approximately 1/81 or about 1.2% of Earth's mass."
-            },
-            {
-              "q_num": 7,
-              "marks": 4,
-              "question": "A light year = 9.461 x 10^15 m. Distance to nearest star Proxima Centauri = 4.24 light years. Express this distance in metres in standard form. Also express the speed of light (3 x 10^8 m/s) and find time to travel 1 light year.",
-              "answer": "Step 1: 1 light year = 9.461 x 10^15 m.\nStep 2: Distance to Proxima Centauri = 4.24 x 9.461 x 10^15 = 40.1146 x 10^15 = 4.01 x 10^16 m.\nStep 3: Speed of light = 3 x 10^8 m/s.\nStep 4: Time for 1 light year = (9.461 x 10^15) / (3 x 10^8) = (9.461/3) x 10^(15-8) = 3.154 x 10^7 seconds.\nAnswer: Distance = 4.01 x 10^16 m. Time = 3.154 x 10^7 seconds ≈ 1 year (as expected).\n\n---\n\n5 ಮಾರ್ಕ್ಸ್ × 1 question:"
-            },
-            {
-              "q_num": 8,
-              "marks": 5,
-              "question": "PART A — A flea is 1.5 mm long. A bacterium is 2 x 10^(-6) m long. Express both in standard form (in metres) and find how many bacteria can fit end to end along the length of the flea.",
-              "answer": "PART A — Flea vs Bacteria:\nStep 1: Flea = 1.5 mm = 0.0015 m = 1.5 x 10^(-3) m.\nStep 2: Bacteria = 2 x 10^(-6) m.\nStep 3: Number of bacteria = (1.5 x 10^(-3)) / (2 x 10^(-6))\n= (1.5/2) x 10^(-3-(-6))\n= 0.75 x 10^3 = 750 bacteria.\n\nPART B — Debt per Citizen:\nStep 1: Debt = 4,35,00,00,00,00,000 = 4.35 x 10^12 Rs.\nStep 2: Population = 1.4 x 10^9.\nStep 3: Per person = (4.35 x 10^12) / (1.4 x 10^9)\n= (4.35/1.4) x 10^(12-9)\n= 3.107 x 10^3 ≈ Rs. 3107 per citizen.\n\nFinal Answer: 750 bacteria fit along the flea. Each citizen owes approximately Rs. 3107."
-            }
-          ]
-        },
-        {
-          "type": "mcq",
-          "label": "MCQ",
-          "items": [
-            {
-              "mcq_num": 1,
-              "difficulty": "Easy",
-              "question": "0.000035 in standard form is:",
-              "options": {
-                "A": "35 x 10^(-6)",
-                "B": "3.5 x 10^(-5)",
-                "C": "3.5 x 10^5",
-                "D": "0.35 x 10^(-4)"
-              },
-              "answer": "B",
-              "explanation": "0.000035 = 3.5/100000 = 3.5 x 10^(-5)."
-            },
-            {
-              "mcq_num": 2,
-              "difficulty": "Easy",
-              "question": "7.54 x 10^(-4) in usual form is:",
-              "options": {
-                "A": "0.0754",
-                "B": "0.00754",
-                "C": "0.000754",
-                "D": "75400"
-              },
-              "answer": "C",
-              "explanation": "7.54 x 10^(-4) = 7.54/10000 = 0.000754."
-            },
-            {
-              "mcq_num": 3,
-              "difficulty": "Medium",
-              "question": "Size of a plant cell is 0.00001275 m. In standard form this is:",
-              "options": {
-                "A": "1.275 x 10^(-4)",
-                "B": "1.275 x 10^(-5)",
-                "C": "12.75 x 10^(-6)",
-                "D": "1.275 x 10^5"
-              },
-              "answer": "B",
-              "explanation": "0.00001275 = 1.275/100000 = 1.275 x 10^(-5)."
-            },
-            {
-              "mcq_num": 4,
-              "difficulty": "Medium",
-              "question": "In standard form, a number is written as m x 10^n where:",
-              "options": {
-                "A": "m can be any value",
-                "B": "1 <= m < 10",
-                "C": "m > 10",
-                "D": "0 < m < 1"
-              },
-              "answer": "B",
-              "explanation": "In standard form m x 10^n, 1 <= m < 10."
-            },
-            {
-              "mcq_num": 5,
-              "difficulty": "Hard",
-              "question": "Total mass of Earth (5.97 x 10^24 kg) + Moon (7.35 x 10^22 kg) = ?",
-              "options": {
-                "A": "6.0435 x 10^24 kg",
-                "B": "604.35 x 10^22 kg",
-                "C": "13.32 x 10^46 kg",
-                "D": "Both A and B"
-              },
-              "answer": "D",
-              "explanation": "597 x 10^22 + 7.35 x 10^22 = 604.35 x 10^22 = 6.0435 x 10^24 kg. Both A and B are correct."
-            },
-            {
-              "mcq_num": 6,
-              "difficulty": "Hard",
-              "question": "Speed of sound = 344 m/s. Express in standard form:",
-              "options": {
-                "A": "3.44 x 10^2",
-                "B": "34.4 x 10",
-                "C": "3.44 x 10^(-2)",
-                "D": "344 x 10^0"
-              },
-              "answer": "A",
-              "explanation": "344 = 3.44 x 100 = 3.44 x 10^2. Since 1 <= 3.44 < 10, this is correct standard form."
+              "type": "mcq",
+              "label": "SUB-TOPIC 10.4.1: MCQs:",
+              "items": [
+                {
+                  "mcq_num": 1,
+                  "difficulty": "Easy",
+                  "question": "0.000035 in standard form is:",
+                  "options": {
+                    "A": "35 x 10^(-6)",
+                    "B": "3.5 x 10^(-5)",
+                    "C": "3.5 x 10^5",
+                    "D": "0.35 x 10^(-4)"
+                  },
+                  "answer": "B",
+                  "explanation": "0.000035 = 3.5/100000 = 3.5 x 10^(-5)."
+                },
+                {
+                  "mcq_num": 2,
+                  "difficulty": "Easy",
+                  "question": "7.54 x 10^(-4) in usual form is:",
+                  "options": {
+                    "A": "0.0754",
+                    "B": "0.00754",
+                    "C": "0.000754",
+                    "D": "75400"
+                  },
+                  "answer": "C",
+                  "explanation": "7.54 x 10^(-4) = 7.54/10000 = 0.000754."
+                },
+                {
+                  "mcq_num": 3,
+                  "difficulty": "Medium",
+                  "question": "Size of a plant cell is 0.00001275 m. In standard form this is:",
+                  "options": {
+                    "A": "1.275 x 10^(-4)",
+                    "B": "1.275 x 10^(-5)",
+                    "C": "12.75 x 10^(-6)",
+                    "D": "1.275 x 10^5"
+                  },
+                  "answer": "B",
+                  "explanation": "0.00001275 = 1.275/100000 = 1.275 x 10^(-5)."
+                },
+                {
+                  "mcq_num": 4,
+                  "difficulty": "Medium",
+                  "question": "In standard form, a number is written as m x 10^n where:",
+                  "options": {
+                    "A": "m can be any value",
+                    "B": "1 <= m < 10",
+                    "C": "m > 10",
+                    "D": "0 < m < 1"
+                  },
+                  "answer": "B",
+                  "explanation": "In standard form m x 10^n, 1 <= m < 10."
+                },
+                {
+                  "mcq_num": 5,
+                  "difficulty": "Hard",
+                  "question": "Total mass of Earth (5.97 x 10^24 kg) + Moon (7.35 x 10^22 kg) = ?",
+                  "options": {
+                    "A": "6.0435 x 10^24 kg",
+                    "B": "604.35 x 10^22 kg",
+                    "C": "13.32 x 10^46 kg",
+                    "D": "Both A and B"
+                  },
+                  "answer": "D",
+                  "explanation": "597 x 10^22 + 7.35 x 10^22 = 604.35 x 10^22 = 6.0435 x 10^24 kg. Both A and B are correct."
+                },
+                {
+                  "mcq_num": 6,
+                  "difficulty": "Hard",
+                  "question": "Speed of sound = 344 m/s. Express in standard form:",
+                  "options": {
+                    "A": "3.44 x 10^2",
+                    "B": "34.4 x 10",
+                    "C": "3.44 x 10^(-2)",
+                    "D": "344 x 10^0"
+                  },
+                  "answer": "A",
+                  "explanation": "344 = 3.44 x 100 = 3.44 x 10^2. Since 1 <= 3.44 < 10, this is correct standard form."
+                }
+              ]
             }
           ]
         }
-      ],
-      "subtopics": []
+      ]
     }
   ]
 }

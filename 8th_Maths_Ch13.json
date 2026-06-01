@@ -6,7 +6,7 @@
     "chapter_num": "13",
     "chapter_name": "INTRODUCTION TO GRAPHS",
     "source": "KSEEB Textbook 2025-26",
-    "mode": "B"
+    "mode": "A"
   },
   "chapter_sections": [
     {
@@ -48,7 +48,7 @@
     {
       "topic_num": "13.1",
       "topic_name": "Introduction",
-      "mode": "B",
+      "mode": "A",
       "sections": [
         {
           "type": "definition",
@@ -237,232 +237,239 @@
               "explanation": "Temperature at 10 a.m. = 40°C. Temperature at 6 p.m. = 35°C. Change = 35 - 40 = -5°C. So it decreased by 5°C. ----"
             }
           ]
-        },
+        }
+      ],
+      "subtopics": [
         {
-          "type": "definition",
-          "label": "Definition:",
-          "text": "A LINE GRAPH displays data that changes continuously over periods of time. A line graph which is a whole unbroken line is called a LINEAR GRAPH."
-        },
-        {
-          "type": "key_points",
-          "label": "Key Points:",
-          "points": [
-            "In a line graph, each piece of data is shown by a POINT on a square grid.",
-            "The points are then CONNECTED BY LINE SEGMENTS.",
-            "A line graph that is a whole unbroken line is called a LINEAR GRAPH.",
-            "Line graphs are best used to show data that changes continuously over time (like temperature, sales, population, distance).",
-            "The x-axis usually shows time (or the independent value).",
-            "The y-axis usually shows the measured value (like temperature, runs scored).",
-            "From a line graph, we can read values that were not directly recorded, by reading between the plotted points.",
-            "A horizontal line segment in a distance-time graph means the vehicle has STOPPED (distance from starting point did not change).",
-            "EXAMPLES: (textbook examples)",
-            "EXAMPLE 13.1.1.1: (A graph on \"Performance\" — Batsman A and B)",
-            "PROBLEM:",
-            "The given graph (Fig 13.3) represents the total runs scored by two batsmen A and B during each of the ten different matches in the year 2007. Study the graph and answer the following questions:",
-            "(i) What information is given on the two axes?",
-            "(ii) Which line shows the runs scored by batsman A?",
-            "(iii) Were the run scored by them same in any match in 2007? If so, in which match?",
-            "(iv) Among the two batsmen, who is steadier? How do you judge it?",
-            "SOLUTION:",
-            "Step 1: Read the axes — x-axis = matches played, y-axis = runs scored.",
-            "Step 2: Identify the lines — dotted line = Batsman A, solid line = Batsman B.",
-            "Step 3: Find intersection point — both graphs meet at match 4 (60 runs).",
-            "Step 4: Compare consistency — check highest, lowest, and average performance.",
-            "ANSWER:",
-            "(i) The horizontal axis (x-axis) indicates the matches played during the year 2007. The vertical axis (y-axis) shows the total runs scored in each match.",
-            "(ii) The dotted line shows the runs scored by Batsman A. (This is already indicated at the top of the graph.)",
-            "(iii) During the 4th match, both have scored the same number of runs (60). This is indicated by the point at which both graphs meet.",
-            "(iv) Batsman A has one great \"peak\" but many deep \"valleys.\" He does not appear to be consistent. Batsman B, on the other hand, has never scored below a total of 40 runs, even though his highest score is only 100 in comparison to 115 of A. Also A has scored a zero in two matches and in a total of 5 matches he has scored less than 40 runs. Since A has a lot of ups and downs, B is a more consistent and reliable batsman.",
-            "EXAMPLE 13.1.1.2: (Distance-Time Graph — Car journey from City P to City Q)",
-            "PROBLEM:",
-            "The given graph (Fig 13.4) describes the distances of a car from a city P at different times when it is travelling from City P to City Q, which are 350 km apart. Study the graph and answer the following:",
-            "(i) What information is given on the two axes?",
-            "(ii) From where and when did the car begin its journey?",
-            "(iii) How far did the car go in the first hour?",
-            "(iv) How far did the car go during (i) the 2nd hour? (ii) the 3rd hour?",
-            "(v) Was the speed same during the first three hours? How do you know it?",
-            "(vi) Did the car stop for some duration at any place? Justify your answer.",
-            "(vii) When did the car reach City Q?",
-            "SOLUTION:",
-            "Step 1: Read the axes — x-axis = time, y-axis = distance from City P.",
-            "Step 2: Read starting point — car starts at 8 a.m. from City P (distance = 0).",
-            "Step 3: Read distances at each hour:",
-            "At 8 a.m.: 0 km    - At 9 a.m.: 50 km",
-            "At 10 a.m.: 150 km  - At 11 a.m.: 200 km",
-            "At 12 noon: 200 km  - At 2 p.m.: 350 km",
-            "Step 4: Calculate distance each hour:",
-            "1st hour (8–9 a.m.): 50 - 0 = 50 km",
-            "2nd hour (9–10 a.m.): 150 - 50 = 100 km",
-            "3rd hour (10–11 a.m.): 200 - 150 = 50 km",
-            "Step 5: Check for stop — distance same at 11 a.m. and 12 noon → car stopped.",
-            "ANSWER:",
-            "(i) The horizontal (x) axis shows the time. The vertical (y) axis shows the distance of the car from City P.",
-            "(ii) The car started from City P at 8 a.m.",
-            "(iii) The car travelled 50 km during the first hour (8 a.m. to 9 a.m.).",
-            "(iv) Distance covered:",
-            "2nd hour (9 a.m. to 10 a.m.): 150 - 50 = 100 km",
-            "3rd hour (10 a.m. to 11 a.m.): 200 - 150 = 50 km",
-            "(v) The speed was NOT the same all the time. In fact the graph illustrates how the speed varied. The car covered 50 km in 1st hour, 100 km in 2nd hour, 50 km in 3rd hour — different distances in each hour means different speeds.",
-            "(vi) Yes, the car did stop. We find that the car was 200 km away from city P when the time was 11 a.m. and also at 12 noon. This shows that the car did not travel during the interval 11 a.m. to 12 noon. The horizontal line segment representing \"travel\" during this period is illustrative of this fact.",
-            "(vii) The car reached City Q at 2 p.m."
-          ]
-        },
-        {
-          "type": "exercise",
-          "label": "EXERCISE 13.1:",
-          "items": [],
-          "raw": "1. The following graph shows the temperature of a patient in a hospital, recorded every hour.\n(a) What was the patient's temperature at 1 p.m.?\n(b) When was the patient's temperature 38.5°C?\n(c) The patient's temperature was the same two times during the period given. What were these two times?\n(d) What was the temperature at 1.30 p.m.? How did you arrive at your answer?\n(e) During which periods did the patients' temperature show an upward trend?\n\n2. The following line graph shows the yearly sales figures for a manufacturing company.\n(a) What were the sales in (i) 2002   (ii) 2006?\n(b) What were the sales in (i) 2003   (ii) 2005?\n(c) Compute the difference between the sales in 2002 and 2006.\n(d) In which year was there the greatest difference between the sales as compared to its previous year?\n\n3. For an experiment in Botany, two different plants, plant A and plant B were grown under similar laboratory conditions. Their heights were measured at the end of each week for 3 weeks. The results are shown by the following graph.\n(a) How high was Plant A after (i) 2 weeks   (ii) 3 weeks?\n(b) How high was Plant B after (i) 2 weeks   (ii) 3 weeks?\n(c) How much did Plant A grow during the 3rd week?\n(d) How much did Plant B grow from the end of the 2nd week to the end of the 3rd week?\n(e) During which week did Plant A grow most?\n(f) During which week did Plant B grow least?\n(g) Were the two plants of the same height during any week shown here? Specify.\n\n4. The following graph shows the temperature forecast and the actual temperature for each day of a week.\n(a) On which days was the forecast temperature the same as the actual temperature?\n(b) What was the maximum forecast temperature during the week?\n(c) What was the minimum actual temperature during the week?\n(d) On which day did the actual temperature differ the most from the forecast temperature?\n\n5. Use the tables below to draw linear graphs.\n(a) The number of days a hill side city received snow in different years.\nYear:  2003   2004   2005   2006\nDays:    8     10      5     12\n(b) Population (in thousands) of men and women in a village in different years.\nYear:           2003   2004   2005   2006   2007\nNumber of Men:    12   12.5    13    13.2   13.5\nNumber of Women: 11.3  11.9    13    13.6   12.8\n\n6. A courier-person cycles from a town to a neighbouring suburban area to deliver a parcel to a merchant. His distance from the town at different times is shown by the following graph.\n(a) What is the scale taken for the time axis?\n(b) How much time did the person take for the travel?\n(c) How far is the place of the merchant from the town?\n(d) Did the person stop on his way? Explain.\n(e) During which period did he ride fastest?\n\n7. Can there be a time-temperature graph as follows? Justify your answer.\n(i) [Graph rising steeply — possible, temperature can increase fast]\n(ii) [Graph falling steeply — possible, temperature can decrease fast]\n(iii) [Graph rising and then falling back to a point — possible, temperature can go up then come down]\n(iv) [Graph as a horizontal line going right — possible, temperature stays same over time]"
-        },
-        {
-          "type": "qa",
-          "label": "SUB-TOPIC 13.1.1: Q&A",
-          "items": []
-        },
-        {
-          "type": "qa",
-          "label": "Q&A",
-          "items": [
+          "subtopic_num": "13.1.1",
+          "subtopic_name": "A Line Graph",
+          "sections": [
             {
-              "q_num": 1,
-              "marks": 2,
-              "question": "What is a line graph?",
-              "answer": "A LINE GRAPH displays data that changes continuously over periods of time.\nIn a line graph, each piece of data is shown by a POINT on a square grid, and the points are then CONNECTED BY LINE SEGMENTS.\nA line graph that is a whole unbroken line is called a LINEAR GRAPH."
+              "type": "definition",
+              "label": "Definition:",
+              "text": "A LINE GRAPH displays data that changes continuously over periods of time. A line graph which is a whole unbroken line is called a LINEAR GRAPH."
             },
             {
-              "q_num": 2,
-              "marks": 2,
-              "question": "What is a linear graph?",
-              "answer": "A LINE GRAPH which is a whole UNBROKEN LINE is called a LINEAR GRAPH.\nA linear graph is always a straight line. It is formed when two quantities are in DIRECT VARIATION — as one increases, the other increases by the same proportion."
+              "type": "key_points",
+              "label": "Key Points:",
+              "points": [
+                "In a line graph, each piece of data is shown by a POINT on a square grid.",
+                "The points are then CONNECTED BY LINE SEGMENTS.",
+                "A line graph that is a whole unbroken line is called a LINEAR GRAPH.",
+                "Line graphs are best used to show data that changes continuously over time (like temperature, sales, population, distance).",
+                "The x-axis usually shows time (or the independent value).",
+                "The y-axis usually shows the measured value (like temperature, runs scored).",
+                "From a line graph, we can read values that were not directly recorded, by reading between the plotted points.",
+                "A horizontal line segment in a distance-time graph means the vehicle has STOPPED (distance from starting point did not change).",
+                "EXAMPLES: (textbook examples)",
+                "EXAMPLE 13.1.1.1: (A graph on \"Performance\" — Batsman A and B)",
+                "PROBLEM:",
+                "The given graph (Fig 13.3) represents the total runs scored by two batsmen A and B during each of the ten different matches in the year 2007. Study the graph and answer the following questions:",
+                "(i) What information is given on the two axes?",
+                "(ii) Which line shows the runs scored by batsman A?",
+                "(iii) Were the run scored by them same in any match in 2007? If so, in which match?",
+                "(iv) Among the two batsmen, who is steadier? How do you judge it?",
+                "SOLUTION:",
+                "Step 1: Read the axes — x-axis = matches played, y-axis = runs scored.",
+                "Step 2: Identify the lines — dotted line = Batsman A, solid line = Batsman B.",
+                "Step 3: Find intersection point — both graphs meet at match 4 (60 runs).",
+                "Step 4: Compare consistency — check highest, lowest, and average performance.",
+                "ANSWER:",
+                "(i) The horizontal axis (x-axis) indicates the matches played during the year 2007. The vertical axis (y-axis) shows the total runs scored in each match.",
+                "(ii) The dotted line shows the runs scored by Batsman A. (This is already indicated at the top of the graph.)",
+                "(iii) During the 4th match, both have scored the same number of runs (60). This is indicated by the point at which both graphs meet.",
+                "(iv) Batsman A has one great \"peak\" but many deep \"valleys.\" He does not appear to be consistent. Batsman B, on the other hand, has never scored below a total of 40 runs, even though his highest score is only 100 in comparison to 115 of A. Also A has scored a zero in two matches and in a total of 5 matches he has scored less than 40 runs. Since A has a lot of ups and downs, B is a more consistent and reliable batsman.",
+                "EXAMPLE 13.1.1.2: (Distance-Time Graph — Car journey from City P to City Q)",
+                "PROBLEM:",
+                "The given graph (Fig 13.4) describes the distances of a car from a city P at different times when it is travelling from City P to City Q, which are 350 km apart. Study the graph and answer the following:",
+                "(i) What information is given on the two axes?",
+                "(ii) From where and when did the car begin its journey?",
+                "(iii) How far did the car go in the first hour?",
+                "(iv) How far did the car go during (i) the 2nd hour? (ii) the 3rd hour?",
+                "(v) Was the speed same during the first three hours? How do you know it?",
+                "(vi) Did the car stop for some duration at any place? Justify your answer.",
+                "(vii) When did the car reach City Q?",
+                "SOLUTION:",
+                "Step 1: Read the axes — x-axis = time, y-axis = distance from City P.",
+                "Step 2: Read starting point — car starts at 8 a.m. from City P (distance = 0).",
+                "Step 3: Read distances at each hour:",
+                "At 8 a.m.: 0 km    - At 9 a.m.: 50 km",
+                "At 10 a.m.: 150 km  - At 11 a.m.: 200 km",
+                "At 12 noon: 200 km  - At 2 p.m.: 350 km",
+                "Step 4: Calculate distance each hour:",
+                "1st hour (8–9 a.m.): 50 - 0 = 50 km",
+                "2nd hour (9–10 a.m.): 150 - 50 = 100 km",
+                "3rd hour (10–11 a.m.): 200 - 150 = 50 km",
+                "Step 5: Check for stop — distance same at 11 a.m. and 12 noon → car stopped.",
+                "ANSWER:",
+                "(i) The horizontal (x) axis shows the time. The vertical (y) axis shows the distance of the car from City P.",
+                "(ii) The car started from City P at 8 a.m.",
+                "(iii) The car travelled 50 km during the first hour (8 a.m. to 9 a.m.).",
+                "(iv) Distance covered:",
+                "2nd hour (9 a.m. to 10 a.m.): 150 - 50 = 100 km",
+                "3rd hour (10 a.m. to 11 a.m.): 200 - 150 = 50 km",
+                "(v) The speed was NOT the same all the time. In fact the graph illustrates how the speed varied. The car covered 50 km in 1st hour, 100 km in 2nd hour, 50 km in 3rd hour — different distances in each hour means different speeds.",
+                "(vi) Yes, the car did stop. We find that the car was 200 km away from city P when the time was 11 a.m. and also at 12 noon. This shows that the car did not travel during the interval 11 a.m. to 12 noon. The horizontal line segment representing \"travel\" during this period is illustrative of this fact.",
+                "(vii) The car reached City Q at 2 p.m."
+              ]
             },
             {
-              "q_num": 3,
-              "marks": 2,
-              "question": "In a distance-time graph, what does a horizontal line segment mean?",
-              "answer": "A horizontal line segment in a distance-time graph means the distance from the starting point did NOT change during that time period.\nThis tells us that the vehicle had STOPPED (was not moving) during that time.\nExample: In Example 13.1.1.2, the horizontal line between 11 a.m. and 12 noon means the car stopped.\n\n---\n\n3 ಮಾರ್ಕ್ಸ್ × 2 questions:"
+              "type": "exercise",
+              "label": "EXERCISE 13.1:",
+              "items": [],
+              "raw": "1. The following graph shows the temperature of a patient in a hospital, recorded every hour.\n(a) What was the patient's temperature at 1 p.m.?\n(b) When was the patient's temperature 38.5°C?\n(c) The patient's temperature was the same two times during the period given. What were these two times?\n(d) What was the temperature at 1.30 p.m.? How did you arrive at your answer?\n(e) During which periods did the patients' temperature show an upward trend?\n\n2. The following line graph shows the yearly sales figures for a manufacturing company.\n(a) What were the sales in (i) 2002   (ii) 2006?\n(b) What were the sales in (i) 2003   (ii) 2005?\n(c) Compute the difference between the sales in 2002 and 2006.\n(d) In which year was there the greatest difference between the sales as compared to its previous year?\n\n3. For an experiment in Botany, two different plants, plant A and plant B were grown under similar laboratory conditions. Their heights were measured at the end of each week for 3 weeks. The results are shown by the following graph.\n(a) How high was Plant A after (i) 2 weeks   (ii) 3 weeks?\n(b) How high was Plant B after (i) 2 weeks   (ii) 3 weeks?\n(c) How much did Plant A grow during the 3rd week?\n(d) How much did Plant B grow from the end of the 2nd week to the end of the 3rd week?\n(e) During which week did Plant A grow most?\n(f) During which week did Plant B grow least?\n(g) Were the two plants of the same height during any week shown here? Specify.\n\n4. The following graph shows the temperature forecast and the actual temperature for each day of a week.\n(a) On which days was the forecast temperature the same as the actual temperature?\n(b) What was the maximum forecast temperature during the week?\n(c) What was the minimum actual temperature during the week?\n(d) On which day did the actual temperature differ the most from the forecast temperature?\n\n5. Use the tables below to draw linear graphs.\n(a) The number of days a hill side city received snow in different years.\nYear:  2003   2004   2005   2006\nDays:    8     10      5     12\n(b) Population (in thousands) of men and women in a village in different years.\nYear:           2003   2004   2005   2006   2007\nNumber of Men:    12   12.5    13    13.2   13.5\nNumber of Women: 11.3  11.9    13    13.6   12.8\n\n6. A courier-person cycles from a town to a neighbouring suburban area to deliver a parcel to a merchant. His distance from the town at different times is shown by the following graph.\n(a) What is the scale taken for the time axis?\n(b) How much time did the person take for the travel?\n(c) How far is the place of the merchant from the town?\n(d) Did the person stop on his way? Explain.\n(e) During which period did he ride fastest?\n\n7. Can there be a time-temperature graph as follows? Justify your answer.\n(i) [Graph rising steeply — possible, temperature can increase fast]\n(ii) [Graph falling steeply — possible, temperature can decrease fast]\n(iii) [Graph rising and then falling back to a point — possible, temperature can go up then come down]\n(iv) [Graph as a horizontal line going right — possible, temperature stays same over time]"
             },
             {
-              "q_num": 4,
-              "marks": 3,
-              "question": "How do you draw a line graph? Write the steps clearly.",
-              "answer": "Step 1: Choose the axes — decide which data goes on the x-axis (usually time or independent value) and which goes on the y-axis (usually the measured value).\n\nStep 2: Choose a suitable SCALE for both axes so that all the data points fit neatly on the graph sheet. Mark the scale clearly on both axes.\n\nStep 3: PLOT each pair of values as a point on the graph. For example, if temperature at 6 a.m. is 37°C, mark the point where x = 6 a.m. and y = 37°C meet.\n\nStep 4: CONNECT the points by line segments in order. The result is the line graph."
+              "type": "qa",
+              "label": "SUB-TOPIC 13.1.1: Q&A",
+              "items": []
             },
             {
-              "q_num": 5,
-              "marks": 3,
-              "question": "In Example 13.1.1.1, how do you judge which batsman — A or B — is steadier? What evidence from the graph supports your answer?",
-              "answer": "Step 1 — Batsman A: Batsman A scored as high as 115 in one match (great peak) but also scored zero in two matches and below 40 in 5 matches. His graph has many deep \"valleys,\" showing high inconsistency.\n\nStep 2 — Batsman B: Batsman B has never scored below 40 in any match. His highest score is 100. His graph stays within a moderate range with no extreme drops. He is consistent and reliable.\n\nStep 3 — Conclusion: BATSMAN B is steadier. To judge steadiness, we look at the lowest scores and the consistency — not just the highest. Since B never dropped below 40, while A dropped to zero, B is the more reliable batsman.\n\n---\n\n4 ಮಾರ್ಕ್ಸ್ × 2 questions:"
+              "type": "qa",
+              "label": "Q&A",
+              "items": [
+                {
+                  "q_num": 1,
+                  "marks": 2,
+                  "question": "What is a line graph?",
+                  "answer": "A LINE GRAPH displays data that changes continuously over periods of time.\nIn a line graph, each piece of data is shown by a POINT on a square grid, and the points are then CONNECTED BY LINE SEGMENTS.\nA line graph that is a whole unbroken line is called a LINEAR GRAPH."
+                },
+                {
+                  "q_num": 2,
+                  "marks": 2,
+                  "question": "What is a linear graph?",
+                  "answer": "A LINE GRAPH which is a whole UNBROKEN LINE is called a LINEAR GRAPH.\nA linear graph is always a straight line. It is formed when two quantities are in DIRECT VARIATION — as one increases, the other increases by the same proportion."
+                },
+                {
+                  "q_num": 3,
+                  "marks": 2,
+                  "question": "In a distance-time graph, what does a horizontal line segment mean?",
+                  "answer": "A horizontal line segment in a distance-time graph means the distance from the starting point did NOT change during that time period.\nThis tells us that the vehicle had STOPPED (was not moving) during that time.\nExample: In Example 13.1.1.2, the horizontal line between 11 a.m. and 12 noon means the car stopped.\n\n---\n\n3 ಮಾರ್ಕ್ಸ್ × 2 questions:"
+                },
+                {
+                  "q_num": 4,
+                  "marks": 3,
+                  "question": "How do you draw a line graph? Write the steps clearly.",
+                  "answer": "Step 1: Choose the axes — decide which data goes on the x-axis (usually time or independent value) and which goes on the y-axis (usually the measured value).\n\nStep 2: Choose a suitable SCALE for both axes so that all the data points fit neatly on the graph sheet. Mark the scale clearly on both axes.\n\nStep 3: PLOT each pair of values as a point on the graph. For example, if temperature at 6 a.m. is 37°C, mark the point where x = 6 a.m. and y = 37°C meet.\n\nStep 4: CONNECT the points by line segments in order. The result is the line graph."
+                },
+                {
+                  "q_num": 5,
+                  "marks": 3,
+                  "question": "In Example 13.1.1.1, how do you judge which batsman — A or B — is steadier? What evidence from the graph supports your answer?",
+                  "answer": "Step 1 — Batsman A: Batsman A scored as high as 115 in one match (great peak) but also scored zero in two matches and below 40 in 5 matches. His graph has many deep \"valleys,\" showing high inconsistency.\n\nStep 2 — Batsman B: Batsman B has never scored below 40 in any match. His highest score is 100. His graph stays within a moderate range with no extreme drops. He is consistent and reliable.\n\nStep 3 — Conclusion: BATSMAN B is steadier. To judge steadiness, we look at the lowest scores and the consistency — not just the highest. Since B never dropped below 40, while A dropped to zero, B is the more reliable batsman.\n\n---\n\n4 ಮಾರ್ಕ್ಸ್ × 2 questions:"
+                },
+                {
+                  "q_num": 6,
+                  "marks": 4,
+                  "question": "In Example 13.1.1.2, a car travels from City P to City Q (350 km). Graph readings: 8 a.m.=0, 9 a.m.=50, 10 a.m.=150, 11 a.m.=200, 12 noon=200, 2 p.m.=350 km. Calculate the distance covered each hour for the first 3 hours and explain whether the speed was constant.",
+                  "answer": "Step 1 — 1st hour (8 a.m. to 9 a.m.):\nDistance covered = 50 - 0 = 50 km.\nSpeed = Distance / Time = 50 / 1 = 50 km/hr.\n\nStep 2 — 2nd hour (9 a.m. to 10 a.m.):\nDistance covered = 150 - 50 = 100 km.\nSpeed = 100 / 1 = 100 km/hr.\n\nStep 3 — 3rd hour (10 a.m. to 11 a.m.):\nDistance covered = 200 - 150 = 50 km.\nSpeed = 50 / 1 = 50 km/hr.\n\nStep 4 — Conclusion: The speed was NOT constant. In the 1st hour the speed was 50 km/hr, in the 2nd hour it was 100 km/hr (double), and in the 3rd hour it was back to 50 km/hr. Different distances covered per hour means different speeds. The graph illustrates how the speed varied — a steeper part of the graph means higher speed, and a flatter part means lower speed."
+                },
+                {
+                  "q_num": 7,
+                  "marks": 4,
+                  "question": "From the car journey graph in Example 13.1.1.2, prove that the car stopped for some time during the journey. When did it stop and for how long? When did it finally reach City Q?",
+                  "answer": "Step 1 — Graph readings at 11 a.m. and 12 noon:\nFrom the graph, the distance at 11 a.m. = 200 km from City P.\nFrom the graph, the distance at 12 noon = 200 km from City P.\n\nStep 2 — Interpretation: The distance did NOT change between 11 a.m. and 12 noon. If the car was moving, the distance would have increased. Since it stayed at 200 km, the car was NOT moving during this period.\n\nStep 3 — Evidence from graph: The line segment between 11 a.m. and 12 noon is HORIZONTAL (flat). A horizontal line in a distance-time graph always indicates that the vehicle has STOPPED.\n\nStep 4 — Conclusion: The car stopped at a place 200 km from City P. It stopped from 11 a.m. to 12 noon — for 1 hour. After 12 noon, it continued moving and reached City Q (350 km from City P) at 2 p.m. Total journey time from start (8 a.m.) to reach City Q (2 p.m.) = 6 hours (including 1 hour stop).\n\n---\n\n5 ಮಾರ್ಕ್ಸ್ × 1 question:"
+                },
+                {
+                  "q_num": 8,
+                  "marks": 5,
+                  "question": "Draw a line graph for the following data and answer the questions.",
+                  "answer": "PART A — Reading the graph:\n(a) The temperature was highest at 10 a.m. — it was 40°C.\n(b) The temperature was RISING from 6 a.m. to 10 a.m. (37°C → 40°C, an increase of 3°C).\n(c) The temperature was FALLING from 10 a.m. to 6 p.m. (40°C → 38°C → 35°C, a total fall of 5°C).\n(d) At 8 a.m. (not recorded), the graph is going upward between 6 a.m. (37°C) and 10 a.m. (40°C). So the graph SUGGESTS the temperature at 8 a.m. was MORE THAN 37°C — approximately 38.5°C.\n\nPART B — Calculations:\n(e) Fall from peak to end:\nPeak temperature (at 10 a.m.) = 40°C\nTemperature at end of recorded period (6 p.m.) = 35°C\nFall = 40 - 35 = 5°C\nSo the temperature fell by 5°C from its peak (10 a.m.) to the final recording (6 p.m.).\nThe graph line goes steeply downward from 10 a.m. to 6 p.m., visually showing this 5°C drop."
+                }
+              ]
             },
             {
-              "q_num": 6,
-              "marks": 4,
-              "question": "In Example 13.1.1.2, a car travels from City P to City Q (350 km). Graph readings: 8 a.m.=0, 9 a.m.=50, 10 a.m.=150, 11 a.m.=200, 12 noon=200, 2 p.m.=350 km. Calculate the distance covered each hour for the first 3 hours and explain whether the speed was constant.",
-              "answer": "Step 1 — 1st hour (8 a.m. to 9 a.m.):\nDistance covered = 50 - 0 = 50 km.\nSpeed = Distance / Time = 50 / 1 = 50 km/hr.\n\nStep 2 — 2nd hour (9 a.m. to 10 a.m.):\nDistance covered = 150 - 50 = 100 km.\nSpeed = 100 / 1 = 100 km/hr.\n\nStep 3 — 3rd hour (10 a.m. to 11 a.m.):\nDistance covered = 200 - 150 = 50 km.\nSpeed = 50 / 1 = 50 km/hr.\n\nStep 4 — Conclusion: The speed was NOT constant. In the 1st hour the speed was 50 km/hr, in the 2nd hour it was 100 km/hr (double), and in the 3rd hour it was back to 50 km/hr. Different distances covered per hour means different speeds. The graph illustrates how the speed varied — a steeper part of the graph means higher speed, and a flatter part means lower speed."
+              "type": "mcq",
+              "label": "SUB-TOPIC 13.1.1: MCQs:",
+              "items": []
             },
             {
-              "q_num": 7,
-              "marks": 4,
-              "question": "From the car journey graph in Example 13.1.1.2, prove that the car stopped for some time during the journey. When did it stop and for how long? When did it finally reach City Q?",
-              "answer": "Step 1 — Graph readings at 11 a.m. and 12 noon:\nFrom the graph, the distance at 11 a.m. = 200 km from City P.\nFrom the graph, the distance at 12 noon = 200 km from City P.\n\nStep 2 — Interpretation: The distance did NOT change between 11 a.m. and 12 noon. If the car was moving, the distance would have increased. Since it stayed at 200 km, the car was NOT moving during this period.\n\nStep 3 — Evidence from graph: The line segment between 11 a.m. and 12 noon is HORIZONTAL (flat). A horizontal line in a distance-time graph always indicates that the vehicle has STOPPED.\n\nStep 4 — Conclusion: The car stopped at a place 200 km from City P. It stopped from 11 a.m. to 12 noon — for 1 hour. After 12 noon, it continued moving and reached City Q (350 km from City P) at 2 p.m. Total journey time from start (8 a.m.) to reach City Q (2 p.m.) = 6 hours (including 1 hour stop).\n\n---\n\n5 ಮಾರ್ಕ್ಸ್ × 1 question:"
-            },
-            {
-              "q_num": 8,
-              "marks": 5,
-              "question": "Draw a line graph for the following data and answer the questions.",
-              "answer": "PART A — Reading the graph:\n(a) The temperature was highest at 10 a.m. — it was 40°C.\n(b) The temperature was RISING from 6 a.m. to 10 a.m. (37°C → 40°C, an increase of 3°C).\n(c) The temperature was FALLING from 10 a.m. to 6 p.m. (40°C → 38°C → 35°C, a total fall of 5°C).\n(d) At 8 a.m. (not recorded), the graph is going upward between 6 a.m. (37°C) and 10 a.m. (40°C). So the graph SUGGESTS the temperature at 8 a.m. was MORE THAN 37°C — approximately 38.5°C.\n\nPART B — Calculations:\n(e) Fall from peak to end:\nPeak temperature (at 10 a.m.) = 40°C\nTemperature at end of recorded period (6 p.m.) = 35°C\nFall = 40 - 35 = 5°C\nSo the temperature fell by 5°C from its peak (10 a.m.) to the final recording (6 p.m.).\nThe graph line goes steeply downward from 10 a.m. to 6 p.m., visually showing this 5°C drop."
-            }
-          ]
-        },
-        {
-          "type": "mcq",
-          "label": "SUB-TOPIC 13.1.1: MCQs:",
-          "items": []
-        },
-        {
-          "type": "mcq",
-          "label": "MCQ",
-          "items": [
-            {
-              "mcq_num": 1,
-              "difficulty": "Easy",
-              "question": "A line graph displays data that:",
-              "options": {
-                "A": "Never changes",
-                "B": "Changes continuously over periods of time",
-                "C": "Is always the same",
-                "D": "Shows only one value"
-              },
-              "answer": "B",
-              "explanation": "The textbook definition says a LINE GRAPH displays data that changes continuously over periods of time."
-            },
-            {
-              "mcq_num": 2,
-              "difficulty": "Easy",
-              "question": "In a line graph, the data points are connected by:",
-              "options": {
-                "A": "Curves",
-                "B": "Vertical lines",
-                "C": "Line segments",
-                "D": "Dots"
-              },
-              "answer": "C",
-              "explanation": "In a line graph, the points are then CONNECTED BY LINE SEGMENTS."
-            },
-            {
-              "mcq_num": 3,
-              "difficulty": "Easy",
-              "question": "A line graph which is a whole unbroken line is called a:",
-              "options": {
-                "A": "Curve graph",
-                "B": "Bar graph",
-                "C": "Scatter graph",
-                "D": "Linear graph"
-              },
-              "answer": "D",
-              "explanation": "A line graph which is a whole unbroken line is called a LINEAR GRAPH."
-            },
-            {
-              "mcq_num": 4,
-              "difficulty": "Medium",
-              "question": "In a distance-time graph, what does a horizontal line segment tell us?",
-              "options": {
-                "A": "The vehicle is moving fast",
-                "B": "The vehicle has stopped",
-                "C": "The vehicle is reversing",
-                "D": "The vehicle is accelerating"
-              },
-              "answer": "B",
-              "explanation": "A horizontal line segment means the distance from the starting point did not change, which means the vehicle has STOPPED."
-            },
-            {
-              "mcq_num": 5,
-              "difficulty": "Medium",
-              "question": "In Example 13.1.1.1, during which match did both Batsman A and Batsman B score the same runs?",
-              "options": {
-                "A": "2nd match",
-                "B": "3rd match",
-                "C": "4th match",
-                "D": "5th match"
-              },
-              "answer": "C",
-              "explanation": "Both graphs meet at the 4th match where both scored 60 runs."
-            },
-            {
-              "mcq_num": 6,
-              "difficulty": "Hard",
-              "question": "In Example 13.1.1.2, the car journey from City P to City Q, how far did the car travel during the 3rd hour (10 a.m. to 11 a.m.)?",
-              "options": {
-                "A": "100 km",
-                "B": "150 km",
-                "C": "50 km",
-                "D": "200 km"
-              },
-              "answer": "C",
-              "explanation": "At 10 a.m. car was 150 km from P. At 11 a.m. car was 200 km from P. Distance in 3rd hour = 200 - 150 = 50 km."
+              "type": "mcq",
+              "label": "MCQ",
+              "items": [
+                {
+                  "mcq_num": 1,
+                  "difficulty": "Easy",
+                  "question": "A line graph displays data that:",
+                  "options": {
+                    "A": "Never changes",
+                    "B": "Changes continuously over periods of time",
+                    "C": "Is always the same",
+                    "D": "Shows only one value"
+                  },
+                  "answer": "B",
+                  "explanation": "The textbook definition says a LINE GRAPH displays data that changes continuously over periods of time."
+                },
+                {
+                  "mcq_num": 2,
+                  "difficulty": "Easy",
+                  "question": "In a line graph, the data points are connected by:",
+                  "options": {
+                    "A": "Curves",
+                    "B": "Vertical lines",
+                    "C": "Line segments",
+                    "D": "Dots"
+                  },
+                  "answer": "C",
+                  "explanation": "In a line graph, the points are then CONNECTED BY LINE SEGMENTS."
+                },
+                {
+                  "mcq_num": 3,
+                  "difficulty": "Easy",
+                  "question": "A line graph which is a whole unbroken line is called a:",
+                  "options": {
+                    "A": "Curve graph",
+                    "B": "Bar graph",
+                    "C": "Scatter graph",
+                    "D": "Linear graph"
+                  },
+                  "answer": "D",
+                  "explanation": "A line graph which is a whole unbroken line is called a LINEAR GRAPH."
+                },
+                {
+                  "mcq_num": 4,
+                  "difficulty": "Medium",
+                  "question": "In a distance-time graph, what does a horizontal line segment tell us?",
+                  "options": {
+                    "A": "The vehicle is moving fast",
+                    "B": "The vehicle has stopped",
+                    "C": "The vehicle is reversing",
+                    "D": "The vehicle is accelerating"
+                  },
+                  "answer": "B",
+                  "explanation": "A horizontal line segment means the distance from the starting point did not change, which means the vehicle has STOPPED."
+                },
+                {
+                  "mcq_num": 5,
+                  "difficulty": "Medium",
+                  "question": "In Example 13.1.1.1, during which match did both Batsman A and Batsman B score the same runs?",
+                  "options": {
+                    "A": "2nd match",
+                    "B": "3rd match",
+                    "C": "4th match",
+                    "D": "5th match"
+                  },
+                  "answer": "C",
+                  "explanation": "Both graphs meet at the 4th match where both scored 60 runs."
+                },
+                {
+                  "mcq_num": 6,
+                  "difficulty": "Hard",
+                  "question": "In Example 13.1.1.2, the car journey from City P to City Q, how far did the car travel during the 3rd hour (10 a.m. to 11 a.m.)?",
+                  "options": {
+                    "A": "100 km",
+                    "B": "150 km",
+                    "C": "50 km",
+                    "D": "200 km"
+                  },
+                  "answer": "C",
+                  "explanation": "At 10 a.m. car was 150 km from P. At 11 a.m. car was 200 km from P. Distance in 3rd hour = 200 - 150 = 50 km."
+                }
+              ]
             }
           ]
         }
-      ],
-      "subtopics": []
+      ]
     },
     {
       "topic_num": "13.2",

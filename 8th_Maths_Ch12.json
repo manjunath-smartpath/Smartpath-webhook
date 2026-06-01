@@ -6,7 +6,7 @@
     "chapter_num": "12",
     "chapter_name": "FACTORISATION",
     "source": "KSEEB Textbook 2025-26",
-    "mode": "B"
+    "mode": "A"
   },
   "chapter_sections": [
     {
@@ -132,7 +132,7 @@
     {
       "topic_num": "12.1",
       "topic_name": "INTRODUCTION",
-      "mode": "B",
+      "mode": "A",
       "sections": [
         {
           "type": "definition",
@@ -220,7 +220,7 @@
         },
         {
           "type": "mcq",
-          "label": "MCQ",
+          "label": "TOPIC 12.1: MCQs:",
           "items": [
             {
               "mcq_num": 1,
@@ -301,358 +301,371 @@
               "explanation": "6x = 2 × 3 × x, which can be split further. So 6x is NOT irreducible. ----"
             }
           ]
-        },
+        }
+      ],
+      "subtopics": [
         {
-          "type": "definition",
-          "label": "Definition:",
-          "text": "FACTORS OF A NATURAL NUMBER are all those numbers which divide it exactly\n(without leaving a remainder). A natural number written entirely as a product\nof its prime factors is in PRIME FACTOR FORM."
-        },
-        {
-          "type": "key_points",
-          "label": "Key Points:",
-          "points": [
-            "30 = 2 x 15 = 3 x 10 = 5 x 6 = 1 x 30.",
-            "All factors of 30: 1, 2, 3, 5, 6, 10, 15, 30.",
-            "Prime factors of 30: 2, 3, 5 (only the prime ones).",
-            "1 is a factor of any number: 101 = 1 x 101. However, 1 is not written",
-            "separately in prime factor form unless specially required.",
-            "PRIME FACTOR FORM: 70 = 2 x 5 x 7. 90 = 2 x 3 x 3 x 5.",
-            "2, 3 and 5 are prime factors of 30; 1, 6, 10, 15 and 30 are also factors",
-            "but not prime factors.",
-            "EXAMPLES: (textbook examples)",
-            "EXAMPLE 12.1.1.1: Factors and prime factor form of 30",
-            "PROBLEM: Find all factors and prime factors of 30. Write in prime factor form.",
-            "SOLUTION:",
-            "Step 1: 30 = 2 x 15 = 3 x 10 = 5 x 6 = 6 x 5.",
-            "Step 2: All factors: 1, 2, 3, 5, 6, 10, 15, 30.",
-            "Step 3: Prime factors: 2, 3, 5.",
-            "Step 4: Prime factor form: 30 = 2 x 3 x 5.",
-            "ANSWER: Factors: 1, 2, 3, 5, 6, 10, 15, 30. Prime factor form: 30 = 2 x 3 x 5."
-          ]
-        },
-        {
-          "type": "qa",
-          "label": "SUB-TOPIC 12.1.1: Q&A:",
-          "items": []
-        },
-        {
-          "type": "qa",
-          "label": "Q&A",
-          "items": [
+          "subtopic_num": "12.1.1",
+          "subtopic_name": "Factors of Natural Numbers",
+          "sections": [
             {
-              "q_num": 1,
-              "marks": 2,
-              "question": "What are the prime factors of 30? Write in prime factor form.",
-              "answer": "Prime factors of 30 are 2, 3 and 5.\nPrime factor form: 30 = 2 × 3 × 5."
+              "type": "definition",
+              "label": "Definition:",
+              "text": "FACTORS OF A NATURAL NUMBER are all those numbers which divide it exactly\n(without leaving a remainder). A natural number written entirely as a product\nof its prime factors is in PRIME FACTOR FORM."
             },
             {
-              "q_num": 2,
-              "marks": 2,
-              "question": "Why is 1 not shown as a separate factor in prime factor form?",
-              "answer": "1 is a factor of every number. Since it is common to all numbers, it is\nnot written separately in prime factor form unless specially required."
+              "type": "key_points",
+              "label": "Key Points:",
+              "points": [
+                "30 = 2 x 15 = 3 x 10 = 5 x 6 = 1 x 30.",
+                "All factors of 30: 1, 2, 3, 5, 6, 10, 15, 30.",
+                "Prime factors of 30: 2, 3, 5 (only the prime ones).",
+                "1 is a factor of any number: 101 = 1 x 101. However, 1 is not written",
+                "separately in prime factor form unless specially required.",
+                "PRIME FACTOR FORM: 70 = 2 x 5 x 7. 90 = 2 x 3 x 3 x 5.",
+                "2, 3 and 5 are prime factors of 30; 1, 6, 10, 15 and 30 are also factors",
+                "but not prime factors.",
+                "EXAMPLES: (textbook examples)",
+                "EXAMPLE 12.1.1.1: Factors and prime factor form of 30",
+                "PROBLEM: Find all factors and prime factors of 30. Write in prime factor form.",
+                "SOLUTION:",
+                "Step 1: 30 = 2 x 15 = 3 x 10 = 5 x 6 = 6 x 5.",
+                "Step 2: All factors: 1, 2, 3, 5, 6, 10, 15, 30.",
+                "Step 3: Prime factors: 2, 3, 5.",
+                "Step 4: Prime factor form: 30 = 2 x 3 x 5.",
+                "ANSWER: Factors: 1, 2, 3, 5, 6, 10, 15, 30. Prime factor form: 30 = 2 x 3 x 5."
+              ]
             },
             {
-              "q_num": 3,
-              "marks": 2,
-              "question": "List all factors of 30 and identify which are prime factors.",
-              "answer": "All factors of 30: 1, 2, 3, 5, 6, 10, 15, 30.\nPrime factors (prime numbers in this list): 2, 3, 5.\n\n---\n\n3 ಮಾರ್ಕ್ಸ್ × 2 questions:"
+              "type": "qa",
+              "label": "SUB-TOPIC 12.1.1: Q&A:",
+              "items": []
             },
             {
-              "q_num": 4,
-              "marks": 3,
-              "question": "Write the prime factor form of 70. Find factors of 70 and state",
-              "answer": "Step 1: 70 = 2 × 35 = 2 × 5 × 7.\nStep 2: Prime factor form: 70 = 2 × 5 × 7.\nStep 3: All factors of 70: 1, 2, 5, 7, 10, 14, 35, 70.\nPrime factors: 2, 5, 7.\nAnswer: 70 = 2 × 5 × 7. Prime factors: 2, 5, 7."
+              "type": "qa",
+              "label": "Q&A",
+              "items": [
+                {
+                  "q_num": 1,
+                  "marks": 2,
+                  "question": "What are the prime factors of 30? Write in prime factor form.",
+                  "answer": "Prime factors of 30 are 2, 3 and 5.\nPrime factor form: 30 = 2 × 3 × 5."
+                },
+                {
+                  "q_num": 2,
+                  "marks": 2,
+                  "question": "Why is 1 not shown as a separate factor in prime factor form?",
+                  "answer": "1 is a factor of every number. Since it is common to all numbers, it is\nnot written separately in prime factor form unless specially required."
+                },
+                {
+                  "q_num": 3,
+                  "marks": 2,
+                  "question": "List all factors of 30 and identify which are prime factors.",
+                  "answer": "All factors of 30: 1, 2, 3, 5, 6, 10, 15, 30.\nPrime factors (prime numbers in this list): 2, 3, 5.\n\n---\n\n3 ಮಾರ್ಕ್ಸ್ × 2 questions:"
+                },
+                {
+                  "q_num": 4,
+                  "marks": 3,
+                  "question": "Write the prime factor form of 70. Find factors of 70 and state",
+                  "answer": "Step 1: 70 = 2 × 35 = 2 × 5 × 7.\nStep 2: Prime factor form: 70 = 2 × 5 × 7.\nStep 3: All factors of 70: 1, 2, 5, 7, 10, 14, 35, 70.\nPrime factors: 2, 5, 7.\nAnswer: 70 = 2 × 5 × 7. Prime factors: 2, 5, 7."
+                },
+                {
+                  "q_num": 5,
+                  "marks": 3,
+                  "question": "Write prime factor form of 90. How many prime factors does 90",
+                  "answer": "Step 1: 90 = 2 × 45 = 2 × 9 × 5 = 2 × 3 × 3 × 5.\nStep 2: Prime factor form: 90 = 2 × 3^2 × 5.\nStep 3: Distinct prime factors: 2, 3, 5 → 3 distinct prime factors.\nTotal factors: (1+1)(2+1)(1+1) = 2 × 3 × 2 = 12 total factors.\nAnswer: 90 = 2 × 3 × 3 × 5. 3 distinct prime factors. 12 total factors.\n\n---\n\n4 ಮಾರ್ಕ್ಸ್ × 2 questions:"
+                },
+                {
+                  "q_num": 6,
+                  "marks": 4,
+                  "question": "Find HCF of 12 and 18 using prime factor form. Also find their LCM.",
+                  "answer": "Step 1: 12 = 2 × 2 × 3 = 2^2 × 3.\nStep 2: 18 = 2 × 3 × 3 = 2 × 3^2.\nStep 3: HCF = product of common prime factors with lowest powers.\nCommon: 2^1 and 3^1. HCF = 2 × 3 = 6.\nStep 4: LCM = product of all prime factors with highest powers.\n= 2^2 × 3^2 = 4 × 9 = 36.\nVerify: HCF × LCM = 6 × 36 = 216 = 12 × 18 ✓\nAnswer: HCF of 12 and 18 = 6. LCM = 36."
+                },
+                {
+                  "q_num": 7,
+                  "marks": 4,
+                  "question": "A number N has prime factor form N = 2^3 × 3 × 5^2.",
+                  "answer": "Step 1: N = 2^3 × 3 × 5^2 = 8 × 3 × 25 = 600.\nStep 2: 4 factors of 600: 1, 2, 3, 4 (many factors possible).\nMore: 5, 6, 8, 10, 12, 15, 20, 24, 25, 30, 40, 50, 75, 100, 150, 200, 300, 600.\nStep 3: 30 = 2 × 3 × 5. Does 600 contain 2, 3, 5? Yes. So 30 is a factor of 600.\nStep 4: 40 = 2^3 × 5. Does 600 contain 2^3 and 5? Yes. So 40 is a factor of 600.\nAnswer: N = 600. (iii) Yes, 30 is a factor. (iv) Yes, 40 is a factor.\n\n---\n\n5 ಮಾರ್ಕ್ಸ್ × 1 question:"
+                },
+                {
+                  "q_num": 8,
+                  "marks": 5,
+                  "question": "",
+                  "answer": "PART A — Prime factors, HCF and LCM of 252 and 360:\n252: 252 = 2 × 126 = 2 × 2 × 63 = 4 × 63 = 4 × 9 × 7 = 2^2 × 3^2 × 7.\n360: 360 = 2 × 180 = 4 × 90 = 4 × 9 × 10 = 2^3 × 3^2 × 5.\nHCF: common factors with lowest power = 2^2 × 3^2 = 4 × 9 = 36.\nLCM: all factors with highest power = 2^3 × 3^2 × 5 × 7 = 8 × 9 × 5 × 7 = 2520.\nVerify: 252 × 360 = 90720. HCF × LCM = 36 × 2520 = 90720 ✓\n\nPART B — Rectangle and factor:\nArea = length × breadth: 360 = 36 × b → b = 360/36 = 10 cm.\nFactor check: 360 = 2^3 × 3^2 × 5. 36 = 2^2 × 3^2.\nSince 2^2 and 3^2 both appear in 360's factorisation, 36 IS a factor of 360 ✓\nAnswer: Breadth = 10 cm. Yes, 36 is a factor of 360."
+                }
+              ]
             },
             {
-              "q_num": 5,
-              "marks": 3,
-              "question": "Write prime factor form of 90. How many prime factors does 90",
-              "answer": "Step 1: 90 = 2 × 45 = 2 × 9 × 5 = 2 × 3 × 3 × 5.\nStep 2: Prime factor form: 90 = 2 × 3^2 × 5.\nStep 3: Distinct prime factors: 2, 3, 5 → 3 distinct prime factors.\nTotal factors: (1+1)(2+1)(1+1) = 2 × 3 × 2 = 12 total factors.\nAnswer: 90 = 2 × 3 × 3 × 5. 3 distinct prime factors. 12 total factors.\n\n---\n\n4 ಮಾರ್ಕ್ಸ್ × 2 questions:"
-            },
-            {
-              "q_num": 6,
-              "marks": 4,
-              "question": "Find HCF of 12 and 18 using prime factor form. Also find their LCM.",
-              "answer": "Step 1: 12 = 2 × 2 × 3 = 2^2 × 3.\nStep 2: 18 = 2 × 3 × 3 = 2 × 3^2.\nStep 3: HCF = product of common prime factors with lowest powers.\nCommon: 2^1 and 3^1. HCF = 2 × 3 = 6.\nStep 4: LCM = product of all prime factors with highest powers.\n= 2^2 × 3^2 = 4 × 9 = 36.\nVerify: HCF × LCM = 6 × 36 = 216 = 12 × 18 ✓\nAnswer: HCF of 12 and 18 = 6. LCM = 36."
-            },
-            {
-              "q_num": 7,
-              "marks": 4,
-              "question": "A number N has prime factor form N = 2^3 × 3 × 5^2.",
-              "answer": "Step 1: N = 2^3 × 3 × 5^2 = 8 × 3 × 25 = 600.\nStep 2: 4 factors of 600: 1, 2, 3, 4 (many factors possible).\nMore: 5, 6, 8, 10, 12, 15, 20, 24, 25, 30, 40, 50, 75, 100, 150, 200, 300, 600.\nStep 3: 30 = 2 × 3 × 5. Does 600 contain 2, 3, 5? Yes. So 30 is a factor of 600.\nStep 4: 40 = 2^3 × 5. Does 600 contain 2^3 and 5? Yes. So 40 is a factor of 600.\nAnswer: N = 600. (iii) Yes, 30 is a factor. (iv) Yes, 40 is a factor.\n\n---\n\n5 ಮಾರ್ಕ್ಸ್ × 1 question:"
-            },
-            {
-              "q_num": 8,
-              "marks": 5,
-              "question": "",
-              "answer": "PART A — Prime factors, HCF and LCM of 252 and 360:\n252: 252 = 2 × 126 = 2 × 2 × 63 = 4 × 63 = 4 × 9 × 7 = 2^2 × 3^2 × 7.\n360: 360 = 2 × 180 = 4 × 90 = 4 × 9 × 10 = 2^3 × 3^2 × 5.\nHCF: common factors with lowest power = 2^2 × 3^2 = 4 × 9 = 36.\nLCM: all factors with highest power = 2^3 × 3^2 × 5 × 7 = 8 × 9 × 5 × 7 = 2520.\nVerify: 252 × 360 = 90720. HCF × LCM = 36 × 2520 = 90720 ✓\n\nPART B — Rectangle and factor:\nArea = length × breadth: 360 = 36 × b → b = 360/36 = 10 cm.\nFactor check: 360 = 2^3 × 3^2 × 5. 36 = 2^2 × 3^2.\nSince 2^2 and 3^2 both appear in 360's factorisation, 36 IS a factor of 360 ✓\nAnswer: Breadth = 10 cm. Yes, 36 is a factor of 360."
+              "type": "mcq",
+              "label": "SUB-TOPIC 12.1.1: MCQs:",
+              "items": [
+                {
+                  "mcq_num": 1,
+                  "difficulty": "Easy",
+                  "question": "Prime factor form of 30 is:",
+                  "options": {
+                    "A": "2 x 15",
+                    "B": "3 x 10",
+                    "C": "2 x 3 x 5",
+                    "D": "6 x 5"
+                  },
+                  "answer": "C",
+                  "explanation": "All factors must be prime. 15 = 3 x 5, so 2 x 15 is not prime factor form. 2 x 3 x 5 — all prime."
+                },
+                {
+                  "mcq_num": 2,
+                  "difficulty": "Medium",
+                  "question": "Which of the following is a prime factor of 90?",
+                  "options": {
+                    "A": "6",
+                    "B": "9",
+                    "C": "15",
+                    "D": "3"
+                  },
+                  "answer": "D",
+                  "explanation": "90 = 2 x 3 x 3 x 5. Prime factors are 2, 3, 5. Of the options, only 3 is a prime factor."
+                },
+                {
+                  "mcq_num": 3,
+                  "difficulty": "Hard",
+                  "question": "How many distinct prime factors does 90 have?",
+                  "options": {
+                    "A": "2",
+                    "B": "3",
+                    "C": "4",
+                    "D": "5"
+                  },
+                  "answer": "B",
+                  "explanation": "The correct answer is (B) 3. Solution: 90 = 2 x 3 x 3 x 5. Distinct prime factors: 2, 3, 5 → 3 distinct."
+                },
+                {
+                  "mcq_num": 4,
+                  "difficulty": "Easy",
+                  "question": "The prime factor form of 90 is:",
+                  "options": {
+                    "A": "2 × 3 × 3 × 5",
+                    "B": "9 × 10",
+                    "C": "2 × 45",
+                    "D": "6 × 15"
+                  },
+                  "answer": "A",
+                  "explanation": "The correct answer is (A) 2 × 3 × 3 × 5. Solution: 90 = 2 × 3^2 × 5 = 2 × 3 × 3 × 5."
+                },
+                {
+                  "mcq_num": 5,
+                  "difficulty": "Medium",
+                  "question": "If N = 2^3 × 3 × 5^2, then N equals:",
+                  "options": {
+                    "A": "360",
+                    "B": "600",
+                    "C": "450",
+                    "D": "300"
+                  },
+                  "answer": "B",
+                  "explanation": "The correct answer is (B) 600. Solution: 2^3 × 3 × 5^2 = 8 × 3 × 25 = 600."
+                },
+                {
+                  "mcq_num": 6,
+                  "difficulty": "Hard",
+                  "question": "HCF of 12 and 18 using prime factor form is:",
+                  "options": {
+                    "A": "2",
+                    "B": "4",
+                    "C": "6",
+                    "D": "36"
+                  },
+                  "answer": "C",
+                  "explanation": "The correct answer is (C) 6. ----"
+                }
+              ]
             }
           ]
         },
         {
-          "type": "mcq",
-          "label": "MCQ",
-          "items": [
+          "subtopic_num": "12.1.2",
+          "subtopic_name": "Factors of Algebraic Expressions",
+          "sections": [
             {
-              "mcq_num": 1,
-              "difficulty": "Easy",
-              "question": "Prime factor form of 30 is:",
-              "options": {
-                "A": "2 x 15",
-                "B": "3 x 10",
-                "C": "2 x 3 x 5",
-                "D": "6 x 5"
-              },
-              "answer": "C",
-              "explanation": "All factors must be prime. 15 = 3 x 5, so 2 x 15 is not prime factor form. 2 x 3 x 5 — all prime."
+              "type": "definition",
+              "label": "Definition:",
+              "text": "FACTORS OF AN ALGEBRAIC EXPRESSION are expressions which, when multiplied\ntogether, give the original expression. In algebraic expressions, terms are formed\nas products of factors. Factors that cannot be broken down further are called\nIRREDUCIBLE FACTORS."
             },
             {
-              "mcq_num": 2,
-              "difficulty": "Medium",
-              "question": "Which of the following is a prime factor of 90?",
-              "options": {
-                "A": "6",
-                "B": "9",
-                "C": "15",
-                "D": "3"
-              },
-              "answer": "D",
-              "explanation": "90 = 2 x 3 x 3 x 5. Prime factors are 2, 3, 5. Of the options, only 3 is a prime factor."
+              "type": "key_points",
+              "label": "Key Points:",
+              "points": [
+                "In the term 5xy: 5xy = 5 x x x y. Irreducible factors are 5, x and y.",
+                "5 x (xy) is NOT the irreducible form because xy = x x y (can be split further).",
+                "3x(x+2) = 3 x x x (x+2). Irreducible factors are 3, x and (x+2).",
+                "10x(x+2)(y+3) = 2 x 5 x x x (x+2) x (y+3) — all irreducible.",
+                "Expressions like 3xy, 5x^2 y, 2x(y+2), 5(y+1)(x+2) are already in factor form.",
+                "Expressions like 2x+4, 3x+3y, x^2+5x+6 are NOT in obvious factor form.",
+                "We need systematic methods to find their factors.",
+                "Note 1 is a factor of every term. In 5xy: 5xy = 1 x 5 x x x y.",
+                "But we do not show 1 as a separate factor.",
+                "EXAMPLES: (textbook examples)",
+                "EXAMPLE 12.1.2.1: Identifying irreducible factors",
+                "PROBLEM: Write 5xy, 3x(x+2), and 10x(x+2)(y+3) in irreducible factor form.",
+                "SOLUTION:",
+                "Step 1: 5xy = 5 x x x y. Irreducible factors: 5, x, y.",
+                "Step 2: 3x(x+2) = 3 x x x (x+2). Irreducible factors: 3, x, (x+2).",
+                "Note: (x+2) cannot be factored further (it is irreducible).",
+                "Step 3: 10x(x+2)(y+3) = 2 x 5 x x x (x+2) x (y+3).",
+                "Irreducible factors: 2, 5, x, (x+2), (y+3).",
+                "ANSWER: As listed above."
+              ]
             },
             {
-              "mcq_num": 3,
-              "difficulty": "Hard",
-              "question": "How many distinct prime factors does 90 have?",
-              "options": {
-                "A": "2",
-                "B": "3",
-                "C": "4",
-                "D": "5"
-              },
-              "answer": "B",
-              "explanation": "The correct answer is (B) 3. Solution: 90 = 2 x 3 x 3 x 5. Distinct prime factors: 2, 3, 5 → 3 distinct."
+              "type": "qa",
+              "label": "SUB-TOPIC 12.1.2: Q&A:",
+              "items": []
             },
             {
-              "mcq_num": 4,
-              "difficulty": "Easy",
-              "question": "The prime factor form of 90 is:",
-              "options": {
-                "A": "2 × 3 × 3 × 5",
-                "B": "9 × 10",
-                "C": "2 × 45",
-                "D": "6 × 15"
-              },
-              "answer": "A",
-              "explanation": "The correct answer is (A) 2 × 3 × 3 × 5. Solution: 90 = 2 × 3^2 × 5 = 2 × 3 × 3 × 5."
+              "type": "qa",
+              "label": "Q&A",
+              "items": [
+                {
+                  "q_num": 1,
+                  "marks": 2,
+                  "question": "What are the irreducible factors of 5xy?",
+                  "answer": "5xy = 5 × x × y. Irreducible factors are 5, x and y."
+                },
+                {
+                  "q_num": 2,
+                  "marks": 2,
+                  "question": "Why is 5 × (xy) NOT the irreducible form of 5xy?",
+                  "answer": "Because xy = x × y, so xy can be split further. It is NOT irreducible.\nThe correct irreducible form of 5xy is 5 × x × y."
+                },
+                {
+                  "q_num": 3,
+                  "marks": 2,
+                  "question": "List the irreducible factors of 10x(x+2)(y+3).",
+                  "answer": "10 = 2 × 5. So 10x(x+2)(y+3) = 2 × 5 × x × (x+2) × (y+3).\nIrreducible factors: 2, 5, x, (x+2), (y+3).\n\n---\n\n3 ಮಾರ್ಕ್ಸ್ × 2 questions:"
+                },
+                {
+                  "q_num": 4,
+                  "marks": 3,
+                  "question": "Write 3x(x+2) in irreducible factor form and state its factors.",
+                  "answer": "Step 1: 3x(x+2) = 3 × x × (x+2).\nStep 2: Each factor is irreducible: 3 (prime), x (variable), (x+2) (cannot split further).\nStep 3: Verify by expanding: 3 × x × (x+2) = 3x^2 + 6x.\nAlternatively: 3x(x+2) = 3x × x + 3x × 2 = 3x^2 + 6x ✓\nAnswer: 3x(x+2) = 3 × x × (x+2). Irreducible factors: 3, x, (x+2)."
+                },
+                {
+                  "q_num": 5,
+                  "marks": 3,
+                  "question": "Which of the following expressions are already in factor (product)",
+                  "answer": "Step 1: Already in factor form:\n(i) 5x^2y = 5 × x × x × y — a product ✓\n(iii) 3x(x+2) = 3 × x × (x+2) — a product ✓\nStep 2: Not in factor form (they are sums, need factorisation):\n(ii) 2x + 4 — sum of two terms → factorise → 2(x+2).\n(iv) x^2 + 5x + 6 — sum of three terms → factorise → (x+2)(x+3).\nStep 3: Key rule: if the expression is a product of factors, it is in factor form.\n\n---\n\n4 ಮಾರ್ಕ್ಸ್ × 2 questions:"
+                },
+                {
+                  "q_num": 6,
+                  "marks": 4,
+                  "question": "For each expression, write in irreducible factor form and list all",
+                  "answer": "Step 1: (i) 15ab^2:\n15 = 3 × 5, b^2 = b × b.\n15ab^2 = 3 × 5 × a × b × b.\nIrreducible factors: 3, 5, a, b.\nStep 2: (ii) 7x^2y^2z:\n7 is prime. x^2 = x × x, y^2 = y × y, z = z.\n7x^2y^2z = 7 × x × x × y × y × z.\nIrreducible factors: 7, x, y, z.\nStep 3: Note — even though x appears twice, x itself is irreducible.\nStep 4: 1 is also a factor of each but is not shown."
+                },
+                {
+                  "q_num": 7,
+                  "marks": 4,
+                  "question": "The term 12a^2b appears in an algebraic expression.",
+                  "answer": "Step 1: 12a^2b = 2 × 2 × 3 × a × a × b (irreducible factor form).\nStep 2: Irreducible factors: 2, 3, a, b.\nStep 3: Two-factor forms (many valid combinations):\n(i) 12 × a^2b (two factors: 12 and a^2b).\n(ii) 4ab × 3a (two factors: 4ab and 3a).\n(iii) 3b × 4a^2 (two factors: 3b and 4a^2).\n(iv) 6a × 2ab (two factors: 6a and 2ab).\nStep 4: There are many ways; the irreducible form is the most complete breakdown.\n\n---\n\n5 ಮಾರ್ಕ್ಸ್ × 1 question:"
+                },
+                {
+                  "q_num": 8,
+                  "marks": 5,
+                  "question": "",
+                  "answer": "PART A — 5xy + 3x:\nStep 1: 5xy = 5 × x × y.  3x = 3 × x.\nStep 2: Common factor: x (appears in both terms).\nStep 3: 5xy + 3x = x(5y + 3). [Factorised using common factor method]\nStep 4: The expression CAN be factorised as x(5y + 3).\nVerification: x × (5y+3) = 5xy + 3x ✓\n\nPART B — 10x(x+2)(y+3):\nStep 1: 10 = 2 × 5. Full irreducible form:\n= 2 × 5 × x × (x+2) × (y+3).\nStep 2: Count irreducible factors: 2, 5, x, (x+2), (y+3) → 5 irreducible factors.\nStep 3: Divide by 2x:\n[2 × 5 × x × (x+2) × (y+3)] ÷ (2x)\nCancel 2 and x: result = 5(x+2)(y+3).\nAnswer: 5xy+3x = x(5y+3). 10x(x+2)(y+3) has 5 irreducible factors.\n÷ 2x gives 5(x+2)(y+3)."
+                }
+              ]
             },
             {
-              "mcq_num": 5,
-              "difficulty": "Medium",
-              "question": "If N = 2^3 × 3 × 5^2, then N equals:",
-              "options": {
-                "A": "360",
-                "B": "600",
-                "C": "450",
-                "D": "300"
-              },
-              "answer": "B",
-              "explanation": "The correct answer is (B) 600. Solution: 2^3 × 3 × 5^2 = 8 × 3 × 25 = 600."
-            },
-            {
-              "mcq_num": 6,
-              "difficulty": "Hard",
-              "question": "HCF of 12 and 18 using prime factor form is:",
-              "options": {
-                "A": "2",
-                "B": "4",
-                "C": "6",
-                "D": "36"
-              },
-              "answer": "C",
-              "explanation": "The correct answer is (C) 6. ----"
-            }
-          ]
-        },
-        {
-          "type": "definition",
-          "label": "Definition:",
-          "text": "FACTORS OF AN ALGEBRAIC EXPRESSION are expressions which, when multiplied\ntogether, give the original expression. In algebraic expressions, terms are formed\nas products of factors. Factors that cannot be broken down further are called\nIRREDUCIBLE FACTORS."
-        },
-        {
-          "type": "key_points",
-          "label": "Key Points:",
-          "points": [
-            "In the term 5xy: 5xy = 5 x x x y. Irreducible factors are 5, x and y.",
-            "5 x (xy) is NOT the irreducible form because xy = x x y (can be split further).",
-            "3x(x+2) = 3 x x x (x+2). Irreducible factors are 3, x and (x+2).",
-            "10x(x+2)(y+3) = 2 x 5 x x x (x+2) x (y+3) — all irreducible.",
-            "Expressions like 3xy, 5x^2 y, 2x(y+2), 5(y+1)(x+2) are already in factor form.",
-            "Expressions like 2x+4, 3x+3y, x^2+5x+6 are NOT in obvious factor form.",
-            "We need systematic methods to find their factors.",
-            "Note 1 is a factor of every term. In 5xy: 5xy = 1 x 5 x x x y.",
-            "But we do not show 1 as a separate factor.",
-            "EXAMPLES: (textbook examples)",
-            "EXAMPLE 12.1.2.1: Identifying irreducible factors",
-            "PROBLEM: Write 5xy, 3x(x+2), and 10x(x+2)(y+3) in irreducible factor form.",
-            "SOLUTION:",
-            "Step 1: 5xy = 5 x x x y. Irreducible factors: 5, x, y.",
-            "Step 2: 3x(x+2) = 3 x x x (x+2). Irreducible factors: 3, x, (x+2).",
-            "Note: (x+2) cannot be factored further (it is irreducible).",
-            "Step 3: 10x(x+2)(y+3) = 2 x 5 x x x (x+2) x (y+3).",
-            "Irreducible factors: 2, 5, x, (x+2), (y+3).",
-            "ANSWER: As listed above."
-          ]
-        },
-        {
-          "type": "qa",
-          "label": "SUB-TOPIC 12.1.2: Q&A:",
-          "items": []
-        },
-        {
-          "type": "qa",
-          "label": "Q&A",
-          "items": [
-            {
-              "q_num": 1,
-              "marks": 2,
-              "question": "What are the irreducible factors of 5xy?",
-              "answer": "5xy = 5 × x × y. Irreducible factors are 5, x and y."
-            },
-            {
-              "q_num": 2,
-              "marks": 2,
-              "question": "Why is 5 × (xy) NOT the irreducible form of 5xy?",
-              "answer": "Because xy = x × y, so xy can be split further. It is NOT irreducible.\nThe correct irreducible form of 5xy is 5 × x × y."
-            },
-            {
-              "q_num": 3,
-              "marks": 2,
-              "question": "List the irreducible factors of 10x(x+2)(y+3).",
-              "answer": "10 = 2 × 5. So 10x(x+2)(y+3) = 2 × 5 × x × (x+2) × (y+3).\nIrreducible factors: 2, 5, x, (x+2), (y+3).\n\n---\n\n3 ಮಾರ್ಕ್ಸ್ × 2 questions:"
-            },
-            {
-              "q_num": 4,
-              "marks": 3,
-              "question": "Write 3x(x+2) in irreducible factor form and state its factors.",
-              "answer": "Step 1: 3x(x+2) = 3 × x × (x+2).\nStep 2: Each factor is irreducible: 3 (prime), x (variable), (x+2) (cannot split further).\nStep 3: Verify by expanding: 3 × x × (x+2) = 3x^2 + 6x.\nAlternatively: 3x(x+2) = 3x × x + 3x × 2 = 3x^2 + 6x ✓\nAnswer: 3x(x+2) = 3 × x × (x+2). Irreducible factors: 3, x, (x+2)."
-            },
-            {
-              "q_num": 5,
-              "marks": 3,
-              "question": "Which of the following expressions are already in factor (product)",
-              "answer": "Step 1: Already in factor form:\n(i) 5x^2y = 5 × x × x × y — a product ✓\n(iii) 3x(x+2) = 3 × x × (x+2) — a product ✓\nStep 2: Not in factor form (they are sums, need factorisation):\n(ii) 2x + 4 — sum of two terms → factorise → 2(x+2).\n(iv) x^2 + 5x + 6 — sum of three terms → factorise → (x+2)(x+3).\nStep 3: Key rule: if the expression is a product of factors, it is in factor form.\n\n---\n\n4 ಮಾರ್ಕ್ಸ್ × 2 questions:"
-            },
-            {
-              "q_num": 6,
-              "marks": 4,
-              "question": "For each expression, write in irreducible factor form and list all",
-              "answer": "Step 1: (i) 15ab^2:\n15 = 3 × 5, b^2 = b × b.\n15ab^2 = 3 × 5 × a × b × b.\nIrreducible factors: 3, 5, a, b.\nStep 2: (ii) 7x^2y^2z:\n7 is prime. x^2 = x × x, y^2 = y × y, z = z.\n7x^2y^2z = 7 × x × x × y × y × z.\nIrreducible factors: 7, x, y, z.\nStep 3: Note — even though x appears twice, x itself is irreducible.\nStep 4: 1 is also a factor of each but is not shown."
-            },
-            {
-              "q_num": 7,
-              "marks": 4,
-              "question": "The term 12a^2b appears in an algebraic expression.",
-              "answer": "Step 1: 12a^2b = 2 × 2 × 3 × a × a × b (irreducible factor form).\nStep 2: Irreducible factors: 2, 3, a, b.\nStep 3: Two-factor forms (many valid combinations):\n(i) 12 × a^2b (two factors: 12 and a^2b).\n(ii) 4ab × 3a (two factors: 4ab and 3a).\n(iii) 3b × 4a^2 (two factors: 3b and 4a^2).\n(iv) 6a × 2ab (two factors: 6a and 2ab).\nStep 4: There are many ways; the irreducible form is the most complete breakdown.\n\n---\n\n5 ಮಾರ್ಕ್ಸ್ × 1 question:"
-            },
-            {
-              "q_num": 8,
-              "marks": 5,
-              "question": "",
-              "answer": "PART A — 5xy + 3x:\nStep 1: 5xy = 5 × x × y.  3x = 3 × x.\nStep 2: Common factor: x (appears in both terms).\nStep 3: 5xy + 3x = x(5y + 3). [Factorised using common factor method]\nStep 4: The expression CAN be factorised as x(5y + 3).\nVerification: x × (5y+3) = 5xy + 3x ✓\n\nPART B — 10x(x+2)(y+3):\nStep 1: 10 = 2 × 5. Full irreducible form:\n= 2 × 5 × x × (x+2) × (y+3).\nStep 2: Count irreducible factors: 2, 5, x, (x+2), (y+3) → 5 irreducible factors.\nStep 3: Divide by 2x:\n[2 × 5 × x × (x+2) × (y+3)] ÷ (2x)\nCancel 2 and x: result = 5(x+2)(y+3).\nAnswer: 5xy+3x = x(5y+3). 10x(x+2)(y+3) has 5 irreducible factors.\n÷ 2x gives 5(x+2)(y+3)."
-            }
-          ]
-        },
-        {
-          "type": "mcq",
-          "label": "MCQ",
-          "items": [
-            {
-              "mcq_num": 1,
-              "difficulty": "Easy",
-              "question": "The irreducible factors of 5xy are:",
-              "options": {
-                "A": "5 and xy",
-                "B": "5x and y",
-                "C": "5, x and y",
-                "D": "5xy (already irreducible)"
-              },
-              "answer": "C",
-              "explanation": "5xy = 5 x x x y. Each of 5, x, y is irreducible individually."
-            },
-            {
-              "mcq_num": 2,
-              "difficulty": "Medium",
-              "question": "3x(x+2) in irreducible factor form is:",
-              "options": {
-                "A": "3 x x(x+2)",
-                "B": "3 x x x (x+2)",
-                "C": "3x x (x+2)",
-                "D": "3 x (x+2)"
-              },
-              "answer": "B",
-              "explanation": "x and (x+2) are both irreducible. So 3x(x+2) = 3 x x x (x+2)."
-            },
-            {
-              "mcq_num": 3,
-              "difficulty": "Hard",
-              "question": "Which expression is already in irreducible factor form?",
-              "options": {
-                "A": "2x + 4",
-                "B": "x^2 + 5x + 6",
-                "C": "3x(x+2)",
-                "D": "3x + 3y"
-              },
-              "answer": "C",
-              "explanation": "3x(x+2) = 3 x x x (x+2) — all three are irreducible. The others need factorisation: 2x+4 = 2(x+2), 3x+3y = 3(x+y), x^2+5x+6 = (x+2)(x+3)."
-            },
-            {
-              "mcq_num": 4,
-              "difficulty": "Easy",
-              "question": "The number of irreducible factors in 3x(x+2) is:",
-              "options": {
-                "A": "1",
-                "B": "2",
-                "C": "3",
-                "D": "4"
-              },
-              "answer": "C",
-              "explanation": "3x(x+2) = 3 × x × (x+2). Three irreducible factors."
-            },
-            {
-              "mcq_num": 5,
-              "difficulty": "Medium",
-              "question": "Which pair has the same set of irreducible factors?",
-              "options": {
-                "A": "5xy and 5x",
-                "B": "3x^2 and 3x",
-                "C": "2xy and 2x^2",
-                "D": "7ab and 7a^2b"
-              },
-              "answer": "A",
-              "explanation": "Irreducible factors of 5xy = {5, x, y}. Of 5x = {5, x}. NOT same. Actually none are same — the correct answer among these is that each has its own unique set. Answer D: 7ab = 7×a×b. 7a^2b = 7×a×a×b. NOT same. Revised: Among the options, none are truly identical sets, but the question tests recognition. Accept D — both share 7, a, b (just different powers of a). Answer: D | Difficulty: Medium"
-            },
-            {
-              "mcq_num": 6,
-              "difficulty": "Hard",
-              "question": "10x(x+2)(y+3) has how many irreducible factors?",
-              "options": {
-                "A": "3",
-                "B": "4",
-                "C": "5",
-                "D": "6"
-              },
-              "answer": "C",
-              "explanation": "10 = 2×5. So: 2, 5, x, (x+2), (y+3) — five irreducible factors."
+              "type": "mcq",
+              "label": "SUB-TOPIC 12.1.2: MCQs:",
+              "items": [
+                {
+                  "mcq_num": 1,
+                  "difficulty": "Easy",
+                  "question": "The irreducible factors of 5xy are:",
+                  "options": {
+                    "A": "5 and xy",
+                    "B": "5x and y",
+                    "C": "5, x and y",
+                    "D": "5xy (already irreducible)"
+                  },
+                  "answer": "C",
+                  "explanation": "5xy = 5 x x x y. Each of 5, x, y is irreducible individually."
+                },
+                {
+                  "mcq_num": 2,
+                  "difficulty": "Medium",
+                  "question": "3x(x+2) in irreducible factor form is:",
+                  "options": {
+                    "A": "3 x x(x+2)",
+                    "B": "3 x x x (x+2)",
+                    "C": "3x x (x+2)",
+                    "D": "3 x (x+2)"
+                  },
+                  "answer": "B",
+                  "explanation": "x and (x+2) are both irreducible. So 3x(x+2) = 3 x x x (x+2)."
+                },
+                {
+                  "mcq_num": 3,
+                  "difficulty": "Hard",
+                  "question": "Which expression is already in irreducible factor form?",
+                  "options": {
+                    "A": "2x + 4",
+                    "B": "x^2 + 5x + 6",
+                    "C": "3x(x+2)",
+                    "D": "3x + 3y"
+                  },
+                  "answer": "C",
+                  "explanation": "3x(x+2) = 3 x x x (x+2) — all three are irreducible. The others need factorisation: 2x+4 = 2(x+2), 3x+3y = 3(x+y), x^2+5x+6 = (x+2)(x+3)."
+                },
+                {
+                  "mcq_num": 4,
+                  "difficulty": "Easy",
+                  "question": "The number of irreducible factors in 3x(x+2) is:",
+                  "options": {
+                    "A": "1",
+                    "B": "2",
+                    "C": "3",
+                    "D": "4"
+                  },
+                  "answer": "C",
+                  "explanation": "3x(x+2) = 3 × x × (x+2). Three irreducible factors."
+                },
+                {
+                  "mcq_num": 5,
+                  "difficulty": "Medium",
+                  "question": "Which pair has the same set of irreducible factors?",
+                  "options": {
+                    "A": "5xy and 5x",
+                    "B": "3x^2 and 3x",
+                    "C": "2xy and 2x^2",
+                    "D": "7ab and 7a^2b"
+                  },
+                  "answer": "A",
+                  "explanation": "Irreducible factors of 5xy = {5, x, y}. Of 5x = {5, x}. NOT same. Actually none are same — the correct answer among these is that each has its own unique set. Answer D: 7ab = 7×a×b. 7a^2b = 7×a×a×b. NOT same. Revised: Among the options, none are truly identical sets, but the question tests recognition. Accept D — both share 7, a, b (just different powers of a). Answer: D | Difficulty: Medium"
+                },
+                {
+                  "mcq_num": 6,
+                  "difficulty": "Hard",
+                  "question": "10x(x+2)(y+3) has how many irreducible factors?",
+                  "options": {
+                    "A": "3",
+                    "B": "4",
+                    "C": "5",
+                    "D": "6"
+                  },
+                  "answer": "C",
+                  "explanation": "10 = 2×5. So: 2, 5, x, (x+2), (y+3) — five irreducible factors."
+                }
+              ]
             }
           ]
         }
-      ],
-      "subtopics": []
+      ]
     },
     {
       "topic_num": "12.2",
       "topic_name": "WHAT IS FACTORISATION?",
-      "mode": "B",
+      "mode": "A",
       "sections": [
         {
           "type": "definition",
@@ -753,7 +766,7 @@
         },
         {
           "type": "mcq",
-          "label": "MCQ",
+          "label": "TOPIC 12.2: MCQs:",
           "items": [
             {
               "mcq_num": 1,
@@ -834,889 +847,914 @@
               "explanation": "The correct answer is (A) a + 7. Solution: a^2+14a+49 = (a+7)^2. So side = (a+7). ----"
             }
           ]
-        },
+        }
+      ],
+      "subtopics": [
         {
-          "type": "definition",
-          "label": "Definition:",
-          "text": "The METHOD OF COMMON FACTORS involves writing each term of the algebraic\nexpression as a product of irreducible factors, identifying the COMMON FACTOR\namong all terms, and using the distributive law to write the expression as a\nproduct."
-        },
-        {
-          "type": "key_points",
-          "label": "Key Points:",
-          "points": [
-            "Step 1: Write each term as a product of irreducible factors.",
-            "Step 2: Look for and separate the common factors among all terms.",
-            "Step 3: Combine the remaining factors using the distributive law.",
-            "Result is of the form: (Common factor) x (Remaining expression).",
-            "This is the systematic way of using the common factor method."
-          ]
-        },
-        {
-          "type": "formulas",
-          "label": "FORMULA:",
-          "items": [
-            "If each term has a common factor c:",
-            "Term1 + Term2 + ... = c x (Term1/c + Term2/c + ...)",
-            "WHERE:",
-            "c = HCF (Highest Common Factor) of all terms",
-            "The remaining expression after taking out c is the other factor",
-            "EXAMPLES: (textbook examples)",
-            "EXAMPLE 12.2.1.1: Factorising 2x + 4",
-            "PROBLEM: Factorise 2x + 4.",
-            "SOLUTION:",
-            "Step 1: Write terms as products of irreducible factors:",
-            "2x = 2 x x",
-            "4 = 2 x 2",
-            "Step 2: Common factor = 2.",
-            "Step 3: 2x + 4 = (2 x x) + (2 x 2) = 2 x (x + 2) = 2(x + 2).",
-            "ANSWER: 2(x + 2).",
-            "EXAMPLE 12.2.1.2: Factorising 5xy + 10x",
-            "PROBLEM: Factorise 5xy + 10x.",
-            "SOLUTION:",
-            "Step 1: 5xy = 5 x x x y, 10x = 2 x 5 x x.",
-            "Step 2: Common factors: 5 and x. HCF = 5x.",
-            "Step 3: 5xy + 10x = (5 x x x y) + (5 x x x 2) = 5x(y + 2).",
-            "ANSWER: 5x(y + 2).",
-            "EXAMPLE 12.2.1.3: Factorising 12a^2b + 15ab^2 (Textbook Example 1)",
-            "PROBLEM: Factorise 12a^2b + 15ab^2.",
-            "SOLUTION:",
-            "Step 1: 12a^2b = 2 x 2 x 3 x a x a x b",
-            "15ab^2 = 3 x 5 x a x b x b",
-            "Step 2: Common factors: 3, a, b → HCF = 3ab.",
-            "Step 3: 12a^2b + 15ab^2",
-            "= 3 x a x b x [(2 x 2 x a) + (5 x b)]",
-            "= 3ab(4a + 5b).",
-            "ANSWER: 3ab(4a + 5b).",
-            "EXAMPLE 12.2.1.4: Factorising 10x^2 - 18x^3 + 14x^4 (Textbook Example 2)",
-            "PROBLEM: Factorise 10x^2 - 18x^3 + 14x^4.",
-            "SOLUTION:",
-            "Step 1: 10x^2 = 2 x 5 x x x x",
-            "18x^3 = 2 x 3 x 3 x x x x x x",
-            "14x^4 = 2 x 7 x x x x x x x x",
-            "Step 2: Common factors: 2, x, x → HCF = 2x^2.",
-            "Step 3: 10x^2 - 18x^3 + 14x^4",
-            "= 2x^2[(5) - (3 x 3 x x) + (7 x x x x)]",
-            "= 2x^2(5 - 9x + 7x^2).",
-            "ANSWER: 2x^2(5 - 9x + 7x^2).",
-            "TRY THESE / FIGURE IT OUT: (textbook practice boxes)",
-            "Q1: Factorise (i) 12x + 36  (ii) 22y - 33z  (iii) 14pq + 35pqr",
-            "A1:",
-            "(i) 12x + 36 = 12(x + 3).",
-            "[12x = 12 x x, 36 = 12 x 3. HCF = 12.]",
-            "(ii) 22y - 33z = 11(2y - 3z).",
-            "[22y = 11 x 2 x y, 33z = 11 x 3 x z. HCF = 11.]",
-            "(iii) 14pq + 35pqr = 7pq(2 + 5r).",
-            "[14pq = 2 x 7 x p x q, 35pqr = 5 x 7 x p x q x r. HCF = 7pq.]",
-            "ADDITIONAL CALCULATIONS:",
-            "Problem 1: Factorise 7x - 42.",
-            "Solution: 7x = 7 x x, 42 = 7 x 6. HCF = 7.",
-            "7x - 42 = 7(x - 6).",
-            "Answer: 7(x - 6).",
-            "Problem 2: Factorise -16z + 20z^3.",
-            "Solution: -16z = -4 x 4 x z, 20z^3 = 4 x 5 x z x z x z. HCF = 4z.",
-            "-16z + 20z^3 = 4z(-4 + 5z^2).",
-            "Answer: 4z(5z^2 - 4).",
-            "Problem 3: Factorise x^2yz + xy^2z + xyz^2.",
-            "Solution: HCF = xyz.",
-            "x^2yz + xy^2z + xyz^2 = xyz(x + y + z).",
-            "Answer: xyz(x + y + z)."
-          ]
-        },
-        {
-          "type": "qa",
-          "label": "SUB-TOPIC 12.2.1: Q&A:",
-          "items": []
-        },
-        {
-          "type": "qa",
-          "label": "Q&A",
-          "items": [
+          "subtopic_num": "12.2.1",
+          "subtopic_name": "Method of Common Factors",
+          "sections": [
             {
-              "q_num": 1,
-              "marks": 2,
-              "question": "What are the three steps in the method of common factors?",
-              "answer": "(i) Write each term as a product of irreducible factors.\n(ii) Look for and separate the common factor(s) among all terms.\n(iii) Combine remaining factors using the distributive law."
+              "type": "definition",
+              "label": "Definition:",
+              "text": "The METHOD OF COMMON FACTORS involves writing each term of the algebraic\nexpression as a product of irreducible factors, identifying the COMMON FACTOR\namong all terms, and using the distributive law to write the expression as a\nproduct."
             },
             {
-              "q_num": 2,
-              "marks": 2,
-              "question": "Factorise 2x + 4.",
-              "answer": "2x = 2 × x, 4 = 2 × 2. HCF = 2.\n2x + 4 = 2(x + 2)."
+              "type": "key_points",
+              "label": "Key Points:",
+              "points": [
+                "Step 1: Write each term as a product of irreducible factors.",
+                "Step 2: Look for and separate the common factors among all terms.",
+                "Step 3: Combine the remaining factors using the distributive law.",
+                "Result is of the form: (Common factor) x (Remaining expression).",
+                "This is the systematic way of using the common factor method."
+              ]
             },
             {
-              "q_num": 3,
-              "marks": 2,
-              "question": "Factorise 5xy + 10x.",
-              "answer": "5xy = 5×x×y, 10x = 2×5×x. HCF = 5x.\n5xy + 10x = 5x(y + 2).\n\n---\n\n3 ಮಾರ್ಕ್ಸ್ × 2 questions:"
+              "type": "formulas",
+              "label": "FORMULA:",
+              "items": [
+                "If each term has a common factor c:",
+                "Term1 + Term2 + ... = c x (Term1/c + Term2/c + ...)",
+                "WHERE:",
+                "c = HCF (Highest Common Factor) of all terms",
+                "The remaining expression after taking out c is the other factor",
+                "EXAMPLES: (textbook examples)",
+                "EXAMPLE 12.2.1.1: Factorising 2x + 4",
+                "PROBLEM: Factorise 2x + 4.",
+                "SOLUTION:",
+                "Step 1: Write terms as products of irreducible factors:",
+                "2x = 2 x x",
+                "4 = 2 x 2",
+                "Step 2: Common factor = 2.",
+                "Step 3: 2x + 4 = (2 x x) + (2 x 2) = 2 x (x + 2) = 2(x + 2).",
+                "ANSWER: 2(x + 2).",
+                "EXAMPLE 12.2.1.2: Factorising 5xy + 10x",
+                "PROBLEM: Factorise 5xy + 10x.",
+                "SOLUTION:",
+                "Step 1: 5xy = 5 x x x y, 10x = 2 x 5 x x.",
+                "Step 2: Common factors: 5 and x. HCF = 5x.",
+                "Step 3: 5xy + 10x = (5 x x x y) + (5 x x x 2) = 5x(y + 2).",
+                "ANSWER: 5x(y + 2).",
+                "EXAMPLE 12.2.1.3: Factorising 12a^2b + 15ab^2 (Textbook Example 1)",
+                "PROBLEM: Factorise 12a^2b + 15ab^2.",
+                "SOLUTION:",
+                "Step 1: 12a^2b = 2 x 2 x 3 x a x a x b",
+                "15ab^2 = 3 x 5 x a x b x b",
+                "Step 2: Common factors: 3, a, b → HCF = 3ab.",
+                "Step 3: 12a^2b + 15ab^2",
+                "= 3 x a x b x [(2 x 2 x a) + (5 x b)]",
+                "= 3ab(4a + 5b).",
+                "ANSWER: 3ab(4a + 5b).",
+                "EXAMPLE 12.2.1.4: Factorising 10x^2 - 18x^3 + 14x^4 (Textbook Example 2)",
+                "PROBLEM: Factorise 10x^2 - 18x^3 + 14x^4.",
+                "SOLUTION:",
+                "Step 1: 10x^2 = 2 x 5 x x x x",
+                "18x^3 = 2 x 3 x 3 x x x x x x",
+                "14x^4 = 2 x 7 x x x x x x x x",
+                "Step 2: Common factors: 2, x, x → HCF = 2x^2.",
+                "Step 3: 10x^2 - 18x^3 + 14x^4",
+                "= 2x^2[(5) - (3 x 3 x x) + (7 x x x x)]",
+                "= 2x^2(5 - 9x + 7x^2).",
+                "ANSWER: 2x^2(5 - 9x + 7x^2).",
+                "TRY THESE / FIGURE IT OUT: (textbook practice boxes)",
+                "Q1: Factorise (i) 12x + 36  (ii) 22y - 33z  (iii) 14pq + 35pqr",
+                "A1:",
+                "(i) 12x + 36 = 12(x + 3).",
+                "[12x = 12 x x, 36 = 12 x 3. HCF = 12.]",
+                "(ii) 22y - 33z = 11(2y - 3z).",
+                "[22y = 11 x 2 x y, 33z = 11 x 3 x z. HCF = 11.]",
+                "(iii) 14pq + 35pqr = 7pq(2 + 5r).",
+                "[14pq = 2 x 7 x p x q, 35pqr = 5 x 7 x p x q x r. HCF = 7pq.]",
+                "ADDITIONAL CALCULATIONS:",
+                "Problem 1: Factorise 7x - 42.",
+                "Solution: 7x = 7 x x, 42 = 7 x 6. HCF = 7.",
+                "7x - 42 = 7(x - 6).",
+                "Answer: 7(x - 6).",
+                "Problem 2: Factorise -16z + 20z^3.",
+                "Solution: -16z = -4 x 4 x z, 20z^3 = 4 x 5 x z x z x z. HCF = 4z.",
+                "-16z + 20z^3 = 4z(-4 + 5z^2).",
+                "Answer: 4z(5z^2 - 4).",
+                "Problem 3: Factorise x^2yz + xy^2z + xyz^2.",
+                "Solution: HCF = xyz.",
+                "x^2yz + xy^2z + xyz^2 = xyz(x + y + z).",
+                "Answer: xyz(x + y + z)."
+              ]
             },
             {
-              "q_num": 4,
-              "marks": 3,
-              "question": "Factorise 12a^2b + 15ab^2.",
-              "answer": "Step 1: 12a^2b = 2×2×3×a×a×b, 15ab^2 = 3×5×a×b×b.\nStep 2: HCF = 3ab.\nStep 3: 12a^2b + 15ab^2 = 3ab(4a + 5b).\nAnswer: 3ab(4a + 5b)."
+              "type": "qa",
+              "label": "SUB-TOPIC 12.2.1: Q&A:",
+              "items": []
             },
             {
-              "q_num": 5,
-              "marks": 3,
-              "question": "Factorise 10x^2 − 18x^3 + 14x^4.",
-              "answer": "Step 1: 10x^2 = 2×5×x×x, 18x^3 = 2×3×3×x^3, 14x^4 = 2×7×x^4.\nStep 2: HCF = 2x^2.\nStep 3: 10x^2 − 18x^3 + 14x^4 = 2x^2(5 − 9x + 7x^2).\nAnswer: 2x^2(5 − 9x + 7x^2).\n\n---\n\n4 ಮಾರ್ಕ್ಸ್ × 2 questions:"
+              "type": "qa",
+              "label": "Q&A",
+              "items": [
+                {
+                  "q_num": 1,
+                  "marks": 2,
+                  "question": "What are the three steps in the method of common factors?",
+                  "answer": "(i) Write each term as a product of irreducible factors.\n(ii) Look for and separate the common factor(s) among all terms.\n(iii) Combine remaining factors using the distributive law."
+                },
+                {
+                  "q_num": 2,
+                  "marks": 2,
+                  "question": "Factorise 2x + 4.",
+                  "answer": "2x = 2 × x, 4 = 2 × 2. HCF = 2.\n2x + 4 = 2(x + 2)."
+                },
+                {
+                  "q_num": 3,
+                  "marks": 2,
+                  "question": "Factorise 5xy + 10x.",
+                  "answer": "5xy = 5×x×y, 10x = 2×5×x. HCF = 5x.\n5xy + 10x = 5x(y + 2).\n\n---\n\n3 ಮಾರ್ಕ್ಸ್ × 2 questions:"
+                },
+                {
+                  "q_num": 4,
+                  "marks": 3,
+                  "question": "Factorise 12a^2b + 15ab^2.",
+                  "answer": "Step 1: 12a^2b = 2×2×3×a×a×b, 15ab^2 = 3×5×a×b×b.\nStep 2: HCF = 3ab.\nStep 3: 12a^2b + 15ab^2 = 3ab(4a + 5b).\nAnswer: 3ab(4a + 5b)."
+                },
+                {
+                  "q_num": 5,
+                  "marks": 3,
+                  "question": "Factorise 10x^2 − 18x^3 + 14x^4.",
+                  "answer": "Step 1: 10x^2 = 2×5×x×x, 18x^3 = 2×3×3×x^3, 14x^4 = 2×7×x^4.\nStep 2: HCF = 2x^2.\nStep 3: 10x^2 − 18x^3 + 14x^4 = 2x^2(5 − 9x + 7x^2).\nAnswer: 2x^2(5 − 9x + 7x^2).\n\n---\n\n4 ಮಾರ್ಕ್ಸ್ × 2 questions:"
+                },
+                {
+                  "q_num": 6,
+                  "marks": 4,
+                  "question": "Factorise each expression: (i) 7x − 42  (ii) −16z + 20z^3",
+                  "answer": "Step 1: (i) 7x = 7×x, 42 = 7×6. HCF = 7.\n7x − 42 = 7(x − 6).\nStep 2: (ii) 16z = 4×4×z, 20z^3 = 4×5×z^3. HCF = 4z.\n−16z + 20z^3 = 4z(−4 + 5z^2) = 4z(5z^2 − 4).\nStep 3: (iii) 5x^2y = 5×x×x×y, 15xy^2 = 3×5×x×y×y. HCF = 5xy.\n5x^2y − 15xy^2 = 5xy(x − 3y).\nStep 4: Verify (iii): 5xy × x = 5x^2y ✓, 5xy × 3y = 15xy^2 ✓.\nAnswer: (i) 7(x−6).  (ii) 4z(5z^2−4).  (iii) 5xy(x−3y)."
+                },
+                {
+                  "q_num": 7,
+                  "marks": 4,
+                  "question": "The area of a rectangle is 12a^2b + 15ab^2. One side is 3ab.",
+                  "answer": "Step 1: Area = length × breadth. Area = 12a^2b + 15ab^2, one side = 3ab.\nStep 2: Factorise: 12a^2b + 15ab^2 = 3ab(4a + 5b).\nStep 3: Other side = 3ab(4a+5b) ÷ 3ab = (4a + 5b).\nStep 4: Perimeter = 2(length + breadth) = 2(3ab + 4a + 5b).\nAnswer: Other side = (4a + 5b). Perimeter = 2(3ab + 4a + 5b).\n\n---\n\n5 ಮಾರ್ಕ್ಸ್ × 1 question:"
+                },
+                {
+                  "q_num": 8,
+                  "marks": 5,
+                  "question": "",
+                  "answer": "PART A — x^2yz + xy^2z + xyz^2:\nStep 1: x^2yz = x×x×y×z, xy^2z = x×y×y×z, xyz^2 = x×y×z×z.\nStep 2: HCF = xyz (common to all three terms).\nStep 3: x^2yz + xy^2z + xyz^2 = xyz(x + y + z).\nStep 4: Verify: xyz×x = x^2yz ✓, xyz×y = xy^2z ✓, xyz×z = xyz^2 ✓.\nAnswer (Part A): HCF = xyz. Factorised form: xyz(x + y + z).\n\nPART B — Volume expression:\nStep 1: 10a^2b = 2×5×a×a×b, 15ab^2 = 3×5×a×b×b, 5ab = 5×a×b. HCF = 5ab.\nStep 2: 10a^2b − 15ab^2 + 5ab = 5ab(2a − 3b + 1).\nStep 3: Numerical verify with a=3, b=2:\nOriginal: 10(9)(2) − 15(3)(4) + 5(3)(2) = 180 − 180 + 30 = 30.\nFactorised: 5(3)(2) × (2×3 − 3×2 + 1) = 30 × (6−6+1) = 30 × 1 = 30 ✓.\nAnswer (Part B): 5ab(2a − 3b + 1). Verified numerically ✓."
+                }
+              ]
             },
             {
-              "q_num": 6,
-              "marks": 4,
-              "question": "Factorise each expression: (i) 7x − 42  (ii) −16z + 20z^3",
-              "answer": "Step 1: (i) 7x = 7×x, 42 = 7×6. HCF = 7.\n7x − 42 = 7(x − 6).\nStep 2: (ii) 16z = 4×4×z, 20z^3 = 4×5×z^3. HCF = 4z.\n−16z + 20z^3 = 4z(−4 + 5z^2) = 4z(5z^2 − 4).\nStep 3: (iii) 5x^2y = 5×x×x×y, 15xy^2 = 3×5×x×y×y. HCF = 5xy.\n5x^2y − 15xy^2 = 5xy(x − 3y).\nStep 4: Verify (iii): 5xy × x = 5x^2y ✓, 5xy × 3y = 15xy^2 ✓.\nAnswer: (i) 7(x−6).  (ii) 4z(5z^2−4).  (iii) 5xy(x−3y)."
-            },
-            {
-              "q_num": 7,
-              "marks": 4,
-              "question": "The area of a rectangle is 12a^2b + 15ab^2. One side is 3ab.",
-              "answer": "Step 1: Area = length × breadth. Area = 12a^2b + 15ab^2, one side = 3ab.\nStep 2: Factorise: 12a^2b + 15ab^2 = 3ab(4a + 5b).\nStep 3: Other side = 3ab(4a+5b) ÷ 3ab = (4a + 5b).\nStep 4: Perimeter = 2(length + breadth) = 2(3ab + 4a + 5b).\nAnswer: Other side = (4a + 5b). Perimeter = 2(3ab + 4a + 5b).\n\n---\n\n5 ಮಾರ್ಕ್ಸ್ × 1 question:"
-            },
-            {
-              "q_num": 8,
-              "marks": 5,
-              "question": "",
-              "answer": "PART A — x^2yz + xy^2z + xyz^2:\nStep 1: x^2yz = x×x×y×z, xy^2z = x×y×y×z, xyz^2 = x×y×z×z.\nStep 2: HCF = xyz (common to all three terms).\nStep 3: x^2yz + xy^2z + xyz^2 = xyz(x + y + z).\nStep 4: Verify: xyz×x = x^2yz ✓, xyz×y = xy^2z ✓, xyz×z = xyz^2 ✓.\nAnswer (Part A): HCF = xyz. Factorised form: xyz(x + y + z).\n\nPART B — Volume expression:\nStep 1: 10a^2b = 2×5×a×a×b, 15ab^2 = 3×5×a×b×b, 5ab = 5×a×b. HCF = 5ab.\nStep 2: 10a^2b − 15ab^2 + 5ab = 5ab(2a − 3b + 1).\nStep 3: Numerical verify with a=3, b=2:\nOriginal: 10(9)(2) − 15(3)(4) + 5(3)(2) = 180 − 180 + 30 = 30.\nFactorised: 5(3)(2) × (2×3 − 3×2 + 1) = 30 × (6−6+1) = 30 × 1 = 30 ✓.\nAnswer (Part B): 5ab(2a − 3b + 1). Verified numerically ✓."
+              "type": "mcq",
+              "label": "SUB-TOPIC 12.2.1: MCQs:",
+              "items": [
+                {
+                  "mcq_num": 1,
+                  "difficulty": "Easy",
+                  "question": "Factorised form of 2x + 4 is:",
+                  "options": {
+                    "A": "2(x + 4)",
+                    "B": "2(x + 2)",
+                    "C": "x(2 + 4)",
+                    "D": "4(x + 1)"
+                  },
+                  "answer": "B",
+                  "explanation": "HCF of 2x and 4 is 2. 2x + 4 = 2(x + 2)."
+                },
+                {
+                  "mcq_num": 2,
+                  "difficulty": "Easy",
+                  "question": "The HCF (common factor) of 5xy and 10x is:",
+                  "options": {
+                    "A": "5y",
+                    "B": "10x",
+                    "C": "5x",
+                    "D": "xy"
+                  },
+                  "answer": "C",
+                  "explanation": "The correct answer is (C) 5x. Solution: 5xy = 5 x x x y, 10x = 2 x 5 x x. HCF = 5 x x = 5x."
+                },
+                {
+                  "mcq_num": 3,
+                  "difficulty": "Medium",
+                  "question": "Factorised form of 12a^2b + 15ab^2 is:",
+                  "options": {
+                    "A": "3a(4ab + 5b^2)",
+                    "B": "3ab(4a + 5",
+                    "C": "ab(12a + 15",
+                    "D": "3b(4a^2 + 5ab)"
+                  },
+                  "answer": "B",
+                  "explanation": "Option (B) is correct based on the definition/theorem. Solution: HCF of 12a^2b and 15ab^2 = 3ab. 12a^2b + 15ab^2 = 3ab(4a + 5b)."
+                },
+                {
+                  "mcq_num": 4,
+                  "difficulty": "Medium",
+                  "question": "Factorised form of 10x^2 - 18x^3 + 14x^4 is:",
+                  "options": {
+                    "A": "2x(5x - 9x^2 + 7x^3)",
+                    "B": "2x^2(5 - 9x + 7x^2)",
+                    "C": "x^2(10 - 18x + 14x^2)",
+                    "D": "2(5x^2 - 9x^3 + 7x^4)"
+                  },
+                  "answer": "B",
+                  "explanation": "Option (B) is correct based on the definition/theorem. Solution: HCF = 2x^2. 10x^2 - 18x^3 + 14x^4 = 2x^2(5 - 9x + 7x^2)."
+                },
+                {
+                  "mcq_num": 5,
+                  "difficulty": "Hard",
+                  "question": "Factorised form of -4a^2 + 4ab - 4ca is:",
+                  "options": {
+                    "A": "-4a(a - b +",
+                    "B": "4a(-a + b - c)",
+                    "C": "Both A and B",
+                    "D": "-4(a^2 - ab + ca)"
+                  },
+                  "answer": "C",
+                  "explanation": "HCF = 4a (taking out with negative sign). -4a^2 + 4ab - 4ca = -4a(a - b + c) = 4a(-a + b - c). Both are equivalent."
+                },
+                {
+                  "mcq_num": 6,
+                  "difficulty": "Medium",
+                  "question": "Factorised form of x^2yz + xy^2z + xyz^2 is:",
+                  "options": {
+                    "A": "xyz(x+y+z)",
+                    "B": "xy(xz+yz+z^2)",
+                    "C": "z(x^2y+xy^2+xy)",
+                    "D": "xyz + xyz + xyz"
+                  },
+                  "answer": "A",
+                  "explanation": "Option (A) is correct based on the definition/theorem. Solution: HCF = xyz. x^2yz+xy^2z+xyz^2 = xyz(x+y+z). ----"
+                }
+              ]
             }
           ]
         },
         {
-          "type": "mcq",
-          "label": "MCQ",
-          "items": [
+          "subtopic_num": "12.2.2",
+          "subtopic_name": "Factorisation by Regrouping Terms",
+          "sections": [
             {
-              "mcq_num": 1,
-              "difficulty": "Easy",
-              "question": "Factorised form of 2x + 4 is:",
-              "options": {
-                "A": "2(x + 4)",
-                "B": "2(x + 2)",
-                "C": "x(2 + 4)",
-                "D": "4(x + 1)"
-              },
-              "answer": "B",
-              "explanation": "HCF of 2x and 4 is 2. 2x + 4 = 2(x + 2)."
+              "type": "definition",
+              "label": "Definition:",
+              "text": "FACTORISATION BY REGROUPING is used when there is no single common factor for\nall terms, but the terms can be rearranged (regrouped) into groups such that\neach group has a common factor, and after factoring each group, a new common\nfactor appears across all groups."
             },
             {
-              "mcq_num": 2,
-              "difficulty": "Easy",
-              "question": "The HCF (common factor) of 5xy and 10x is:",
-              "options": {
-                "A": "5y",
-                "B": "10x",
-                "C": "5x",
-                "D": "xy"
-              },
-              "answer": "C",
-              "explanation": "The correct answer is (C) 5x. Solution: 5xy = 5 x x x y, 10x = 2 x 5 x x. HCF = 5 x x = 5x."
+              "type": "key_points",
+              "label": "Key Points:",
+              "points": [
+                "Used when there is NO single common factor for all terms.",
+                "REGROUPING: rearrange terms into groups so each group has a common factor.",
+                "After factoring each group, a new common factor appears — factor it out.",
+                "Regrouping may be possible in more than one way — both give the same result.",
+                "The final factorised form is the same regardless of how we regroup.",
+                "EXAMPLES: (textbook examples)",
+                "EXAMPLE 12.2.2.1: Factorising 2xy + 2y + 3x + 3",
+                "PROBLEM: Factorise 2xy + 2y + 3x + 3.",
+                "SOLUTION:",
+                "Step 1: No single common factor for all four terms.",
+                "Step 2: Group first two and last two:",
+                "(2xy + 2y) + (3x + 3)",
+                "Step 3: Factor each group:",
+                "2xy + 2y = 2y(x + 1)",
+                "3x + 3 = 3(x + 1)",
+                "Step 4: Common factor across groups = (x + 1).",
+                "2y(x+1) + 3(x+1) = (x + 1)(2y + 3).",
+                "ANSWER: (x + 1)(2y + 3).",
+                "EXAMPLE 12.2.2.2: Factorising 6xy - 4y + 6 - 9x (Textbook Example 3)",
+                "PROBLEM: Factorise 6xy - 4y + 6 - 9x.",
+                "SOLUTION:",
+                "Step 1: No common factor for all terms.",
+                "Step 2: Reorder: 6xy - 4y - 9x + 6.",
+                "Group: (6xy - 4y) and (-9x + 6).",
+                "Step 3: 6xy - 4y = 2y(3x - 2) ... (a)",
+                "9x + 6 = -3(3x - 2) ... (b)",
+                "Step 4: Common factor = (3x - 2).",
+                "2y(3x-2) - 3(3x-2) = (3x - 2)(2y - 3).",
+                "ANSWER: (3x - 2)(2y - 3).",
+                "TRY THESE / FIGURE IT OUT: (textbook practice boxes)",
+                "Q1: Can the above expression 2xy + 3 + 2y + 3x also be solved by regrouping as",
+                "(2xy + 2y) + (3x + 3)? Verify.",
+                "A1: 2xy + 2y + 3x + 3 (rearranged).",
+                "(2xy + 2y) + (3x + 3) = 2y(x+1) + 3(x+1) = (x+1)(2y+3). Yes, same answer.",
+                "Q2: Verify by regrouping the other way: (2xy + 3x) + (2y + 3).",
+                "A2: (2xy + 3x) + (2y + 3) = x(2y + 3) + 1(2y + 3) = (2y + 3)(x + 1).",
+                "Same answer: (x + 1)(2y + 3). ✓",
+                "ADDITIONAL CALCULATIONS:",
+                "Problem 1: Factorise ax + bx - ay - by.",
+                "Solution: Group: (ax + bx) + (-ay - by) = x(a + b) - y(a + b) = (a + b)(x - y).",
+                "Answer: (a + b)(x - y).",
+                "Problem 2: Factorise 15pq + 15 + 9q + 25p.",
+                "Solution: Reorder: 15pq + 25p + 9q + 15.",
+                "(15pq + 25p) + (9q + 15) = 5p(3q + 5) + 3(3q + 5) = (3q + 5)(5p + 3).",
+                "Answer: (3q + 5)(5p + 3)."
+              ]
             },
             {
-              "mcq_num": 3,
-              "difficulty": "Medium",
-              "question": "Factorised form of 12a^2b + 15ab^2 is:",
-              "options": {
-                "A": "3a(4ab + 5b^2)",
-                "B": "3ab(4a + 5",
-                "C": "ab(12a + 15",
-                "D": "3b(4a^2 + 5ab)"
-              },
-              "answer": "B",
-              "explanation": "Option (B) is correct based on the definition/theorem. Solution: HCF of 12a^2b and 15ab^2 = 3ab. 12a^2b + 15ab^2 = 3ab(4a + 5b)."
+              "type": "qa",
+              "label": "SUB-TOPIC 12.2.2: Q&A:",
+              "items": []
             },
             {
-              "mcq_num": 4,
-              "difficulty": "Medium",
-              "question": "Factorised form of 10x^2 - 18x^3 + 14x^4 is:",
-              "options": {
-                "A": "2x(5x - 9x^2 + 7x^3)",
-                "B": "2x^2(5 - 9x + 7x^2)",
-                "C": "x^2(10 - 18x + 14x^2)",
-                "D": "2(5x^2 - 9x^3 + 7x^4)"
-              },
-              "answer": "B",
-              "explanation": "Option (B) is correct based on the definition/theorem. Solution: HCF = 2x^2. 10x^2 - 18x^3 + 14x^4 = 2x^2(5 - 9x + 7x^2)."
+              "type": "qa",
+              "label": "Q&A",
+              "items": [
+                {
+                  "q_num": 1,
+                  "marks": 2,
+                  "question": "When do we use factorisation by regrouping?",
+                  "answer": "We use regrouping when there is NO single common factor for all terms of\nthe expression. We rearrange terms into groups so that each group has a common\nfactor, and then a new common factor appears across all groups."
+                },
+                {
+                  "q_num": 2,
+                  "marks": 2,
+                  "question": "Factorise 2xy + 2y + 3x + 3.",
+                  "answer": "Group: (2xy+2y) + (3x+3) = 2y(x+1) + 3(x+1) = (x+1)(2y+3)."
+                },
+                {
+                  "q_num": 3,
+                  "marks": 2,
+                  "question": "What is regrouping in factorisation?",
+                  "answer": "Regrouping means rearranging the terms of an expression so that the terms\nin each group have a common factor. After factoring each group, a common factor\nappears across all groups.\n\n---\n\n3 ಮಾರ್ಕ್ಸ್ × 2 questions:"
+                },
+                {
+                  "q_num": 4,
+                  "marks": 3,
+                  "question": "Factorise 6xy − 4y + 6 − 9x.",
+                  "answer": "Step 1: No common factor for all terms. Reorder: 6xy − 4y − 9x + 6.\nStep 2: Group: (6xy−4y) + (−9x+6) = 2y(3x−2) − 3(3x−2).\nStep 3: Common factor (3x−2): = (3x−2)(2y−3).\nAnswer: (3x − 2)(2y − 3)."
+                },
+                {
+                  "q_num": 5,
+                  "marks": 3,
+                  "question": "Factorise ax + bx − ay − by.",
+                  "answer": "Step 1: Group: (ax+bx) + (−ay−by) = x(a+b) − y(a+b).\nStep 2: Common factor (a+b).\nStep 3: = (a+b)(x−y).\nAnswer: (a + b)(x − y).\n\n---\n\n4 ಮಾರ್ಕ್ಸ್ × 2 questions:"
+                },
+                {
+                  "q_num": 6,
+                  "marks": 4,
+                  "question": "Factorise using regrouping: (i) 15pq + 15 + 9q + 25p",
+                  "answer": "Step 1: (i) Reorder: 15pq + 25p + 9q + 15.\nGroup: (15pq+25p) + (9q+15) = 5p(3q+5) + 3(3q+5).\n= (3q+5)(5p+3).\nStep 2: (ii) Reorder: z − 7 − xyz + 7xy.\nGroup: (z−7) + (7xy−xyz) = (z−7) + xy(7−z) = (z−7) − xy(z−7).\n= (z−7)(1−xy).\nStep 3: Verify (i): (3q+5)(5p+3) = 15pq + 9q + 25p + 15 ✓\nStep 4: Verify (ii): (z−7)(1−xy) = z−xyz−7+7xy = z−7+7xy−xyz ✓\nAnswer: (i) (3q+5)(5p+3).  (ii) (z−7)(1−xy)."
+                },
+                {
+                  "q_num": 7,
+                  "marks": 4,
+                  "question": "Factorise and verify: (i) 2xy + 3 + 2y + 3x",
+                  "answer": "Step 1: Expression: 2xy + 3 + 2y + 3x = 2xy + 2y + 3x + 3.\nGrouping 1: (2xy+2y) + (3x+3) = 2y(x+1) + 3(x+1) = (x+1)(2y+3).\nStep 2: Grouping 2: (2xy+3x) + (2y+3) = x(2y+3) + 1(2y+3) = (2y+3)(x+1).\nStep 3: Both give (x+1)(2y+3) — same answer ✓.\nStep 4: Verify by expanding: (x+1)(2y+3) = 2xy+3x+2y+3 = 2xy+2y+3x+3 ✓.\nAnswer: (x + 1)(2y + 3).\n\n---\n\n5 ಮಾರ್ಕ್ಸ್ × 1 question:"
+                },
+                {
+                  "q_num": 8,
+                  "marks": 5,
+                  "question": "",
+                  "answer": "PART A:\nExpression 1: 6xy − 4y − 9x + 6:\nStep 1: Group: (6xy−4y) + (−9x+6) = 2y(3x−2) + (−3)(3x−2).\nStep 2: = (3x−2)(2y−3). ✓\n\nExpression 2: 15xy − 6x + 5y − 2:\nStep 1: Group: (15xy−6x) + (5y−2) = 3x(5y−2) + 1(5y−2).\nStep 2: = (5y−2)(3x+1). ✓\nVerify: (5y−2)(3x+1) = 15xy+5y−6x−2 = 15xy−6x+5y−2 ✓.\n\nPART B — Rectangle dimensions:\nArea = 2xy + 2y + 3x + 3.\nStep 1: Group: (2xy+2y) + (3x+3) = 2y(x+1) + 3(x+1) = (x+1)(2y+3).\nStep 2: Area = (x+1)(2y+3) = length × breadth.\nStep 3: Length = (x+1) and breadth = (2y+3)\n(or equivalently, length = (2y+3) and breadth = (x+1)).\nAnswer: Length = (x+1), Breadth = (2y+3)."
+                }
+              ]
             },
             {
-              "mcq_num": 5,
-              "difficulty": "Hard",
-              "question": "Factorised form of -4a^2 + 4ab - 4ca is:",
-              "options": {
-                "A": "-4a(a - b +",
-                "B": "4a(-a + b - c)",
-                "C": "Both A and B",
-                "D": "-4(a^2 - ab + ca)"
-              },
-              "answer": "C",
-              "explanation": "HCF = 4a (taking out with negative sign). -4a^2 + 4ab - 4ca = -4a(a - b + c) = 4a(-a + b - c). Both are equivalent."
-            },
-            {
-              "mcq_num": 6,
-              "difficulty": "Medium",
-              "question": "Factorised form of x^2yz + xy^2z + xyz^2 is:",
-              "options": {
-                "A": "xyz(x+y+z)",
-                "B": "xy(xz+yz+z^2)",
-                "C": "z(x^2y+xy^2+xy)",
-                "D": "xyz + xyz + xyz"
-              },
-              "answer": "A",
-              "explanation": "Option (A) is correct based on the definition/theorem. Solution: HCF = xyz. x^2yz+xy^2z+xyz^2 = xyz(x+y+z). ----"
+              "type": "mcq",
+              "label": "SUB-TOPIC 12.2.2: MCQs:",
+              "items": [
+                {
+                  "mcq_num": 1,
+                  "difficulty": "Easy",
+                  "question": "Factorisation by regrouping is used when:",
+                  "options": {
+                    "A": "All terms have a common factor",
+                    "B": "There is no common factor for all terms",
+                    "C": "The expression has only two terms",
+                    "D": "The expression is a perfect square"
+                  },
+                  "answer": "B",
+                  "explanation": "When no single common factor exists for all terms, we regroup."
+                },
+                {
+                  "mcq_num": 2,
+                  "difficulty": "Easy",
+                  "question": "Factorised form of 2xy + 2y + 3x + 3 is:",
+                  "options": {
+                    "A": "(2y+3)(x+1)",
+                    "B": "(x+1)(2y+3)",
+                    "C": "Both A and B",
+                    "D": "(2x+3)(y+1)"
+                  },
+                  "answer": "C",
+                  "explanation": "(x+1)(2y+3) = (2y+3)(x+1) — same expression, order of factors can differ."
+                },
+                {
+                  "mcq_num": 3,
+                  "difficulty": "Medium",
+                  "question": "Factorised form of 6xy - 4y + 6 - 9x is:",
+                  "options": {
+                    "A": "(3x-2)(2y-3)",
+                    "B": "(3x+2)(2y+3)",
+                    "C": "(2y-3)(3x+2)",
+                    "D": "(3x-2)(2y+3)"
+                  },
+                  "answer": "A",
+                  "explanation": "Option (A) is correct based on the definition/theorem. Solution: Regroup: 2y(3x-2) - 3(3x-2) = (3x-2)(2y-3)."
+                },
+                {
+                  "mcq_num": 4,
+                  "difficulty": "Hard",
+                  "question": "Factorised form of z - 7 + 7xy - xyz is:",
+                  "options": {
+                    "A": "(1-xy)(z+7)",
+                    "B": "(1-xy)(7-z)",
+                    "C": "(xy-1)(z-7)",
+                    "D": "(z-7)(1-xy)"
+                  },
+                  "answer": "D",
+                  "explanation": "Option (D) is correct based on the definition/theorem. Solution: Regroup: (z - 7) + (7xy - xyz) = (z-7) + xy(7-z) = (z-7) - xy(z-7) = (z-7)(1-xy)."
+                },
+                {
+                  "mcq_num": 5,
+                  "difficulty": "Medium",
+                  "question": "Factorised form of ax + bx − ay − by is:",
+                  "options": {
+                    "A": "(a+b)(x−y)",
+                    "B": "(x+y)(a−",
+                    "C": "(a−b)(x+y)",
+                    "D": "ab(x−y)"
+                  },
+                  "answer": "A",
+                  "explanation": "Option (A) is correct based on the definition/theorem. Solution: x(a+b) − y(a+b) = (a+b)(x−y)."
+                },
+                {
+                  "mcq_num": 6,
+                  "difficulty": "Hard",
+                  "question": "Factorised form of 15pq + 15 + 9q + 25p is:",
+                  "options": {
+                    "A": "(5p+3)(3q+5)",
+                    "B": "(3q+5)(5p+3)",
+                    "C": "Both A and B",
+                    "D": "(15p+9)(q+1)"
+                  },
+                  "answer": "C",
+                  "explanation": "The correct answer is (C) Both A and B. Solution: 5p(3q+5) + 3(3q+5) = (3q+5)(5p+3) = (5p+3)(3q+5). Same expression. ----"
+                }
+              ]
             }
           ]
         },
         {
-          "type": "definition",
-          "label": "Definition:",
-          "text": "FACTORISATION BY REGROUPING is used when there is no single common factor for\nall terms, but the terms can be rearranged (regrouped) into groups such that\neach group has a common factor, and after factoring each group, a new common\nfactor appears across all groups."
-        },
-        {
-          "type": "key_points",
-          "label": "Key Points:",
-          "points": [
-            "Used when there is NO single common factor for all terms.",
-            "REGROUPING: rearrange terms into groups so each group has a common factor.",
-            "After factoring each group, a new common factor appears — factor it out.",
-            "Regrouping may be possible in more than one way — both give the same result.",
-            "The final factorised form is the same regardless of how we regroup.",
-            "EXAMPLES: (textbook examples)",
-            "EXAMPLE 12.2.2.1: Factorising 2xy + 2y + 3x + 3",
-            "PROBLEM: Factorise 2xy + 2y + 3x + 3.",
-            "SOLUTION:",
-            "Step 1: No single common factor for all four terms.",
-            "Step 2: Group first two and last two:",
-            "(2xy + 2y) + (3x + 3)",
-            "Step 3: Factor each group:",
-            "2xy + 2y = 2y(x + 1)",
-            "3x + 3 = 3(x + 1)",
-            "Step 4: Common factor across groups = (x + 1).",
-            "2y(x+1) + 3(x+1) = (x + 1)(2y + 3).",
-            "ANSWER: (x + 1)(2y + 3).",
-            "EXAMPLE 12.2.2.2: Factorising 6xy - 4y + 6 - 9x (Textbook Example 3)",
-            "PROBLEM: Factorise 6xy - 4y + 6 - 9x.",
-            "SOLUTION:",
-            "Step 1: No common factor for all terms.",
-            "Step 2: Reorder: 6xy - 4y - 9x + 6.",
-            "Group: (6xy - 4y) and (-9x + 6).",
-            "Step 3: 6xy - 4y = 2y(3x - 2) ... (a)",
-            "9x + 6 = -3(3x - 2) ... (b)",
-            "Step 4: Common factor = (3x - 2).",
-            "2y(3x-2) - 3(3x-2) = (3x - 2)(2y - 3).",
-            "ANSWER: (3x - 2)(2y - 3).",
-            "TRY THESE / FIGURE IT OUT: (textbook practice boxes)",
-            "Q1: Can the above expression 2xy + 3 + 2y + 3x also be solved by regrouping as",
-            "(2xy + 2y) + (3x + 3)? Verify.",
-            "A1: 2xy + 2y + 3x + 3 (rearranged).",
-            "(2xy + 2y) + (3x + 3) = 2y(x+1) + 3(x+1) = (x+1)(2y+3). Yes, same answer.",
-            "Q2: Verify by regrouping the other way: (2xy + 3x) + (2y + 3).",
-            "A2: (2xy + 3x) + (2y + 3) = x(2y + 3) + 1(2y + 3) = (2y + 3)(x + 1).",
-            "Same answer: (x + 1)(2y + 3). ✓",
-            "ADDITIONAL CALCULATIONS:",
-            "Problem 1: Factorise ax + bx - ay - by.",
-            "Solution: Group: (ax + bx) + (-ay - by) = x(a + b) - y(a + b) = (a + b)(x - y).",
-            "Answer: (a + b)(x - y).",
-            "Problem 2: Factorise 15pq + 15 + 9q + 25p.",
-            "Solution: Reorder: 15pq + 25p + 9q + 15.",
-            "(15pq + 25p) + (9q + 15) = 5p(3q + 5) + 3(3q + 5) = (3q + 5)(5p + 3).",
-            "Answer: (3q + 5)(5p + 3)."
-          ]
-        },
-        {
-          "type": "qa",
-          "label": "SUB-TOPIC 12.2.2: Q&A:",
-          "items": []
-        },
-        {
-          "type": "qa",
-          "label": "Q&A",
-          "items": [
+          "subtopic_num": "12.2.3",
+          "subtopic_name": "Factorisation Using Identities",
+          "sections": [
             {
-              "q_num": 1,
-              "marks": 2,
-              "question": "When do we use factorisation by regrouping?",
-              "answer": "We use regrouping when there is NO single common factor for all terms of\nthe expression. We rearrange terms into groups so that each group has a common\nfactor, and then a new common factor appears across all groups."
+              "type": "definition",
+              "label": "Definition:",
+              "text": "Some algebraic expressions can be factorised using standard algebraic IDENTITIES.\nWe observe which identity the expression fits (by matching its form with the\nright-hand side of an identity), then write the left-hand side as the factorised form."
             },
             {
-              "q_num": 2,
-              "marks": 2,
-              "question": "Factorise 2xy + 2y + 3x + 3.",
-              "answer": "Group: (2xy+2y) + (3x+3) = 2y(x+1) + 3(x+1) = (x+1)(2y+3)."
+              "type": "key_points",
+              "label": "Key Points:",
+              "points": [
+                "Three identities used for factorisation:",
+                "Identity I:   (a + b)^2 = a^2 + 2ab + b^2",
+                "Identity II:  (a - b)^2 = a^2 - 2ab + b^2",
+                "Identity III: (a + b)(a - b) = a^2 - b^2",
+                "Identity I: Both first and last terms are perfect squares, middle term = +2ab.",
+                "Factors: (a+b)(a+b) = (a+b)^2.",
+                "Identity II: Both first and last terms are perfect squares, middle term = -2ab.",
+                "Factors: (a-b)(a-b) = (a-b)^2.",
+                "Identity III: Exactly two terms, both perfect squares, second is negative.",
+                "Factors: (a+b)(a-b).",
+                "Sometimes two identities are applied one after another (e.g., m^4 - 256)."
+              ]
             },
             {
-              "q_num": 3,
-              "marks": 2,
-              "question": "What is regrouping in factorisation?",
-              "answer": "Regrouping means rearranging the terms of an expression so that the terms\nin each group have a common factor. After factoring each group, a common factor\nappears across all groups.\n\n---\n\n3 ಮಾರ್ಕ್ಸ್ × 2 questions:"
+              "type": "formulas",
+              "label": "FORMULA:",
+              "items": [
+                "I.  (a+b)^2 = a^2 + 2ab + b^2",
+                "WHERE:",
+                "a = first expression (square root of first term)",
+                "b = second expression (square root of last term)",
+                "2ab = middle term",
+                "II. (a-b)^2 = a^2 - 2ab + b^2",
+                "III. (a+b)(a-b) = a^2 - b^2",
+                "WHERE:",
+                "a^2 = first term (must be perfect square)",
+                "b^2 = second term (must be perfect square, subtracted)",
+                "EXAMPLES: (textbook examples)",
+                "EXAMPLE 12.2.3.1: Factorising x^2 + 8x + 16 (Textbook Example 4)",
+                "PROBLEM: Factorise x^2 + 8x + 16.",
+                "SOLUTION:",
+                "Step 1: Three terms. First term x^2 = (x)^2 ✓ (perfect square).",
+                "Last term 16 = (4)^2 ✓ (perfect square). Middle term = +8x.",
+                "Step 2: Check 2ab = 2 x x x 4 = 8x ✓. So a = x, b = 4.",
+                "Step 3: x^2 + 8x + 16 = (x + 4)^2. [Identity I]",
+                "ANSWER: (x + 4)^2.",
+                "EXAMPLE 12.2.3.2: Factorising 4y^2 - 12y + 9 (Textbook Example 5)",
+                "PROBLEM: Factorise 4y^2 - 12y + 9.",
+                "SOLUTION:",
+                "Step 1: 4y^2 = (2y)^2 ✓, 9 = 3^2 ✓. Middle term = -12y (negative).",
+                "Step 2: Check 2ab = 2 x 2y x 3 = 12y ✓. So a = 2y, b = 3.",
+                "Step 3: 4y^2 - 12y + 9 = (2y - 3)^2. [Identity II]",
+                "ANSWER: (2y - 3)^2.",
+                "EXAMPLE 12.2.3.3: Factorising 49p^2 - 36 (Textbook Example 6)",
+                "PROBLEM: Factorise 49p^2 - 36.",
+                "SOLUTION:",
+                "Step 1: Two terms. 49p^2 = (7p)^2 ✓, 36 = 6^2 ✓. Second term negative.",
+                "Step 2: Apply Identity III with a = 7p, b = 6.",
+                "Step 3: 49p^2 - 36 = (7p)^2 - 6^2 = (7p - 6)(7p + 6). [Identity III]",
+                "ANSWER: (7p - 6)(7p + 6).",
+                "EXAMPLE 12.2.3.4: Factorising a^2 - 2ab + b^2 - c^2 (Textbook Example 7)",
+                "PROBLEM: Factorise a^2 - 2ab + b^2 - c^2.",
+                "SOLUTION:",
+                "Step 1: First three terms form a perfect square:",
+                "a^2 - 2ab + b^2 = (a - b)^2. [Identity II]",
+                "Step 2: Now expression = (a-b)^2 - c^2 (difference of two squares).",
+                "Step 3: Apply Identity III with A = (a-b), B = c:",
+                "(a-b)^2 - c^2 = [(a-b) - c][(a-b) + c] = (a-b-c)(a-b+c). [Identity III]",
+                "ANSWER: (a - b - c)(a - b + c).",
+                "EXAMPLE 12.2.3.5: Factorising m^4 - 256 (Textbook Example 8)",
+                "PROBLEM: Factorise m^4 - 256.",
+                "SOLUTION:",
+                "Step 1: m^4 = (m^2)^2, 256 = 16^2. Apply Identity III:",
+                "m^4 - 256 = (m^2 - 16)(m^2 + 16). [Identity III]",
+                "Step 2: (m^2 + 16) cannot be factorised further.",
+                "m^2 - 16 = m^2 - 4^2 = (m - 4)(m + 4). [Identity III again]",
+                "Step 3: Therefore m^4 - 256 = (m-4)(m+4)(m^2+16).",
+                "ANSWER: (m - 4)(m + 4)(m^2 + 16).",
+                "ADDITIONAL CALCULATIONS:",
+                "Problem 1: Factorise 121b^2 - 88bc + 16c^2.",
+                "Solution: 121b^2 = (11b)^2, 16c^2 = (4c)^2, 2 x 11b x 4c = 88bc ✓.",
+                "121b^2 - 88bc + 16c^2 = (11b - 4c)^2. [Identity II]",
+                "Answer: (11b - 4c)^2.",
+                "Problem 2: Factorise 16x^5 - 144x^3.",
+                "Solution: HCF = 16x^3.",
+                "16x^5 - 144x^3 = 16x^3(x^2 - 9) = 16x^3(x-3)(x+3). [Identity III]",
+                "Answer: 16x^3(x - 3)(x + 3)."
+              ]
             },
             {
-              "q_num": 4,
-              "marks": 3,
-              "question": "Factorise 6xy − 4y + 6 − 9x.",
-              "answer": "Step 1: No common factor for all terms. Reorder: 6xy − 4y − 9x + 6.\nStep 2: Group: (6xy−4y) + (−9x+6) = 2y(3x−2) − 3(3x−2).\nStep 3: Common factor (3x−2): = (3x−2)(2y−3).\nAnswer: (3x − 2)(2y − 3)."
+              "type": "qa",
+              "label": "SUB-TOPIC 12.2.3: Q&A:",
+              "items": []
             },
             {
-              "q_num": 5,
-              "marks": 3,
-              "question": "Factorise ax + bx − ay − by.",
-              "answer": "Step 1: Group: (ax+bx) + (−ay−by) = x(a+b) − y(a+b).\nStep 2: Common factor (a+b).\nStep 3: = (a+b)(x−y).\nAnswer: (a + b)(x − y).\n\n---\n\n4 ಮಾರ್ಕ್ಸ್ × 2 questions:"
+              "type": "qa",
+              "label": "Q&A",
+              "items": [
+                {
+                  "q_num": 1,
+                  "marks": 2,
+                  "question": "Write Identity I, II and III used for factorisation.",
+                  "answer": "Identity I:  (a+b)^2 = a^2 + 2ab + b^2.\nIdentity II: (a−b)^2 = a^2 − 2ab + b^2.\nIdentity III: (a+b)(a−b) = a^2 − b^2."
+                },
+                {
+                  "q_num": 2,
+                  "marks": 2,
+                  "question": "Factorise x^2 + 8x + 16.",
+                  "answer": "a = x, b = 4. Check: 2ab = 2×x×4 = 8x ✓.\nx^2 + 8x + 16 = (x+4)^2. [Identity I]"
+                },
+                {
+                  "q_num": 3,
+                  "marks": 2,
+                  "question": "Factorise 49p^2 − 36.",
+                  "answer": "49p^2 = (7p)^2, 36 = 6^2. Two terms, second negative → Identity III.\n49p^2 − 36 = (7p−6)(7p+6).\n\n---\n\n3 ಮಾರ್ಕ್ಸ್ × 2 questions:"
+                },
+                {
+                  "q_num": 4,
+                  "marks": 3,
+                  "question": "Factorise 4y^2 − 12y + 9. Identify which identity is used.",
+                  "answer": "Step 1: 4y^2 = (2y)^2, 9 = 3^2. Middle term = −12y (negative) → Identity II.\nStep 2: Check: 2ab = 2×(2y)×3 = 12y ✓.\nStep 3: 4y^2 − 12y + 9 = (2y−3)^2. [Identity II]\nAnswer: (2y − 3)^2."
+                },
+                {
+                  "q_num": 5,
+                  "marks": 3,
+                  "question": "Factorise a^2 − 2ab + b^2 − c^2.",
+                  "answer": "Step 1: First three terms → Identity II: a^2−2ab+b^2 = (a−b)^2.\nStep 2: Expression = (a−b)^2 − c^2. Now two terms, both squares → Identity III.\nStep 3: = [(a−b)−c][(a−b)+c] = (a−b−c)(a−b+c).\nAnswer: (a − b − c)(a − b + c).\n\n---\n\n4 ಮಾರ್ಕ್ಸ್ × 2 questions:"
+                },
+                {
+                  "q_num": 6,
+                  "marks": 4,
+                  "question": "Factorise using appropriate identities:",
+                  "answer": "Step 1: (i) 121b^2=(11b)^2, 16c^2=(4c)^2. Middle term=−88bc.\nCheck: 2×(11b)×(4c) = 88bc ✓ → Identity II.\n121b^2 − 88bc + 16c^2 = (11b−4c)^2.\nStep 2: (ii) 9x^2y^2 = (3xy)^2, 16 = 4^2. Two terms, second negative → Identity III.\n9x^2y^2 − 16 = (3xy−4)(3xy+4).\nStep 3: Verify (i): (11b−4c)^2 = 121b^2−88bc+16c^2 ✓.\nStep 4: Verify (ii): (3xy−4)(3xy+4) = 9x^2y^2 − 16 ✓.\nAnswer: (i) (11b−4c)^2.  (ii) (3xy−4)(3xy+4)."
+                },
+                {
+                  "q_num": 7,
+                  "marks": 4,
+                  "question": "Factorise m^4 − 256 completely. Show all steps and name each",
+                  "answer": "Step 1: m^4 = (m^2)^2, 256 = 16^2. Two terms, second negative.\nm^4 − 256 = (m^2−16)(m^2+16). [Identity III: a=m^2, b=16]\nStep 2: (m^2+16) cannot be factorised further (sum of squares).\nStep 3: m^2−16 = m^2 − 4^2 = (m−4)(m+4). [Identity III again: a=m, b=4]\nStep 4: m^4 − 256 = (m−4)(m+4)(m^2+16). ✓\nAnswer: (m−4)(m+4)(m^2+16).\n\n---\n\n5 ಮಾರ್ಕ್ಸ್ × 1 question:"
+                },
+                {
+                  "q_num": 8,
+                  "marks": 5,
+                  "question": "",
+                  "answer": "PART A:\n(i) 25x^2 − 40xy + 16y^2:\n25x^2=(5x)^2, 16y^2=(4y)^2. Middle=−40xy. Check: 2×5x×4y=40xy ✓.\n= (5x−4y)^2. [Identity II: a=5x, b=4y]\n\n(ii) x^4 − y^4:\nStep 1: x^4=(x^2)^2, y^4=(y^2)^2. → (x^2−y^2)(x^2+y^2). [Identity III]\nStep 2: x^2−y^2 = (x−y)(x+y). [Identity III]\nStep 3: x^4−y^4 = (x−y)(x+y)(x^2+y^2). ✓\n\nPART B — Square side:\nStep 1: Area = 4y^2−12y+9. For square: area = side^2.\nStep 2: (2y)^2=4y^2, 3^2=9, 2×(2y)×3=12y ✓ → Identity II.\n4y^2 − 12y + 9 = (2y−3)^2.\nStep 3: Side = (2y−3).\nStep 4: When y=5: side = 2(5)−3 = 7. Perimeter = 4×7 = 28 units.\nAnswer: Side = (2y−3). When y=5: perimeter = 28 units."
+                }
+              ]
             },
             {
-              "q_num": 6,
-              "marks": 4,
-              "question": "Factorise using regrouping: (i) 15pq + 15 + 9q + 25p",
-              "answer": "Step 1: (i) Reorder: 15pq + 25p + 9q + 15.\nGroup: (15pq+25p) + (9q+15) = 5p(3q+5) + 3(3q+5).\n= (3q+5)(5p+3).\nStep 2: (ii) Reorder: z − 7 − xyz + 7xy.\nGroup: (z−7) + (7xy−xyz) = (z−7) + xy(7−z) = (z−7) − xy(z−7).\n= (z−7)(1−xy).\nStep 3: Verify (i): (3q+5)(5p+3) = 15pq + 9q + 25p + 15 ✓\nStep 4: Verify (ii): (z−7)(1−xy) = z−xyz−7+7xy = z−7+7xy−xyz ✓\nAnswer: (i) (3q+5)(5p+3).  (ii) (z−7)(1−xy)."
-            },
-            {
-              "q_num": 7,
-              "marks": 4,
-              "question": "Factorise and verify: (i) 2xy + 3 + 2y + 3x",
-              "answer": "Step 1: Expression: 2xy + 3 + 2y + 3x = 2xy + 2y + 3x + 3.\nGrouping 1: (2xy+2y) + (3x+3) = 2y(x+1) + 3(x+1) = (x+1)(2y+3).\nStep 2: Grouping 2: (2xy+3x) + (2y+3) = x(2y+3) + 1(2y+3) = (2y+3)(x+1).\nStep 3: Both give (x+1)(2y+3) — same answer ✓.\nStep 4: Verify by expanding: (x+1)(2y+3) = 2xy+3x+2y+3 = 2xy+2y+3x+3 ✓.\nAnswer: (x + 1)(2y + 3).\n\n---\n\n5 ಮಾರ್ಕ್ಸ್ × 1 question:"
-            },
-            {
-              "q_num": 8,
-              "marks": 5,
-              "question": "",
-              "answer": "PART A:\nExpression 1: 6xy − 4y − 9x + 6:\nStep 1: Group: (6xy−4y) + (−9x+6) = 2y(3x−2) + (−3)(3x−2).\nStep 2: = (3x−2)(2y−3). ✓\n\nExpression 2: 15xy − 6x + 5y − 2:\nStep 1: Group: (15xy−6x) + (5y−2) = 3x(5y−2) + 1(5y−2).\nStep 2: = (5y−2)(3x+1). ✓\nVerify: (5y−2)(3x+1) = 15xy+5y−6x−2 = 15xy−6x+5y−2 ✓.\n\nPART B — Rectangle dimensions:\nArea = 2xy + 2y + 3x + 3.\nStep 1: Group: (2xy+2y) + (3x+3) = 2y(x+1) + 3(x+1) = (x+1)(2y+3).\nStep 2: Area = (x+1)(2y+3) = length × breadth.\nStep 3: Length = (x+1) and breadth = (2y+3)\n(or equivalently, length = (2y+3) and breadth = (x+1)).\nAnswer: Length = (x+1), Breadth = (2y+3)."
+              "type": "mcq",
+              "label": "SUB-TOPIC 12.2.3: MCQs:",
+              "items": [
+                {
+                  "mcq_num": 1,
+                  "difficulty": "Easy",
+                  "question": "x^2 + 8x + 16 factorises to:",
+                  "options": {
+                    "A": "(x+4)(x-4)",
+                    "B": "(x+4)^2",
+                    "C": "(x-4)^2",
+                    "D": "(x+8)(x+2)"
+                  },
+                  "answer": "B",
+                  "explanation": "a = x, b = 4. x^2 + 2(x)(4) + 4^2 = (x+4)^2. [Identity I]"
+                },
+                {
+                  "mcq_num": 2,
+                  "difficulty": "Easy",
+                  "question": "Which identity is used to factorise a^2 - b^2?",
+                  "options": {
+                    "A": "Identity I",
+                    "B": "Identity II",
+                    "C": "Identity III",
+                    "D": "None"
+                  },
+                  "answer": "C",
+                  "explanation": "(a+b)(a-b) = a^2 - b^2 is Identity III."
+                },
+                {
+                  "mcq_num": 3,
+                  "difficulty": "Medium",
+                  "question": "Factorised form of 4y^2 - 12y + 9 is:",
+                  "options": {
+                    "A": "(2y+3)^2",
+                    "B": "(2y-3)^2",
+                    "C": "(4y-9)(y-1)",
+                    "D": "(2y-3)(2y+3)"
+                  },
+                  "answer": "B",
+                  "explanation": "Option (B) is correct based on the definition/theorem. Solution: a = 2y, b = 3. (2y-3)^2. [Identity II]"
+                },
+                {
+                  "mcq_num": 4,
+                  "difficulty": "Medium",
+                  "question": "Factorised form of 49p^2 - 36 is:",
+                  "options": {
+                    "A": "(49p-36)(p+1)",
+                    "B": "(7p-6)^2",
+                    "C": "(7p-6)(7p+6)",
+                    "D": "(7p+6)^2"
+                  },
+                  "answer": "C",
+                  "explanation": "Option (C) is correct based on the definition/theorem. Solution: a = 7p, b = 6. 49p^2-36 = (7p-6)(7p+6). [Identity III]"
+                },
+                {
+                  "mcq_num": 5,
+                  "difficulty": "Hard",
+                  "question": "Factorised form of m^4 - 256 is:",
+                  "options": {
+                    "A": "(m^2-16)^2",
+                    "B": "(m-16)(m+16)",
+                    "C": "(m-4)(m+4)(m^2+16)",
+                    "D": "(m^2-16)(m^2-16)"
+                  },
+                  "answer": "C",
+                  "explanation": "Option (C) is correct based on the definition/theorem. Solution: m^4-256 = (m^2-16)(m^2+16) = (m-4)(m+4)(m^2+16)."
+                },
+                {
+                  "mcq_num": 6,
+                  "difficulty": "Medium",
+                  "question": "The factorised form of a^2 − 2ab + b^2 − c^2 is:",
+                  "options": {
+                    "A": "(a−b+c)(a−b−",
+                    "B": "(a+b−c)(a−b+",
+                    "C": "(a−b−c)(a−b+",
+                    "D": "(a+b+c)^2"
+                  },
+                  "answer": "C",
+                  "explanation": "Option (C) is correct based on the definition/theorem. Solution: (a−b)^2 − c^2 = [(a−b)−c][(a−b)+c] = (a−b−c)(a−b+c). ----"
+                }
+              ]
             }
           ]
         },
         {
-          "type": "mcq",
-          "label": "MCQ",
-          "items": [
+          "subtopic_num": "12.2.4",
+          "subtopic_name": "Factors of the Form (x + a)(x + b)",
+          "sections": [
             {
-              "mcq_num": 1,
-              "difficulty": "Easy",
-              "question": "Factorisation by regrouping is used when:",
-              "options": {
-                "A": "All terms have a common factor",
-                "B": "There is no common factor for all terms",
-                "C": "The expression has only two terms",
-                "D": "The expression is a perfect square"
-              },
-              "answer": "B",
-              "explanation": "When no single common factor exists for all terms, we regroup."
+              "type": "definition",
+              "label": "Definition:",
+              "text": "IDENTITY IV: (x + a)(x + b) = x^2 + (a + b)x + ab.\nThis identity is used to factorise expressions of the type x^2 + px + q, where\nwe need to find two numbers a and b such that ab = q and a + b = p."
             },
             {
-              "mcq_num": 2,
-              "difficulty": "Easy",
-              "question": "Factorised form of 2xy + 2y + 3x + 3 is:",
-              "options": {
-                "A": "(2y+3)(x+1)",
-                "B": "(x+1)(2y+3)",
-                "C": "Both A and B",
-                "D": "(2x+3)(y+1)"
-              },
-              "answer": "C",
-              "explanation": "(x+1)(2y+3) = (2y+3)(x+1) — same expression, order of factors can differ."
+              "type": "key_points",
+              "label": "Key Points:",
+              "points": [
+                "Identity IV: (x + a)(x + b) = x^2 + (a + b)x + ab.",
+                "For factorising x^2 + px + q:",
+                "Find a, b such that: ab = q (product = constant term) AND a + b = p (sum = coeff. of x).",
+                "Factors are (x + a) and (x + b).",
+                "If ab > 0: both a and b have the same sign (check the sign of a+b to decide).",
+                "If ab < 0: one of a, b is negative.",
+                "After finding a and b, verify: (a + b) = coefficient of x in the original expression."
+              ]
             },
             {
-              "mcq_num": 3,
-              "difficulty": "Medium",
-              "question": "Factorised form of 6xy - 4y + 6 - 9x is:",
-              "options": {
-                "A": "(3x-2)(2y-3)",
-                "B": "(3x+2)(2y+3)",
-                "C": "(2y-3)(3x+2)",
-                "D": "(3x-2)(2y+3)"
-              },
-              "answer": "A",
-              "explanation": "Option (A) is correct based on the definition/theorem. Solution: Regroup: 2y(3x-2) - 3(3x-2) = (3x-2)(2y-3)."
+              "type": "formulas",
+              "label": "FORMULA:",
+              "items": [
+                "x^2 + px + q = (x + a)(x + b)",
+                "WHERE:",
+                "ab = q (product of a and b = constant term)",
+                "a + b = p (sum of a and b = coefficient of x)",
+                "Factors: (x + a) and (x + b)",
+                "EXAMPLES: (textbook examples)",
+                "EXAMPLE 12.2.4.1: Factorising x^2 + 5x + 6 (Textbook Example 9)",
+                "PROBLEM: Factorise x^2 + 5x + 6.",
+                "SOLUTION:",
+                "Step 1: ab = 6 and a + b = 5.",
+                "Step 2: Find a, b: Try a = 2, b = 3: 2 x 3 = 6 ✓ and 2 + 3 = 5 ✓.",
+                "Step 3: x^2 + 5x + 6 = (x + 2)(x + 3).",
+                "ANSWER: (x + 2)(x + 3).",
+                "EXAMPLE 12.2.4.2: Factorising y^2 - 7y + 12 (Textbook Example 10)",
+                "PROBLEM: Find the factors of y^2 - 7y + 12.",
+                "SOLUTION:",
+                "Step 1: ab = 12, a + b = -7. Since product positive and sum negative, both negative.",
+                "Step 2: Try a = -3, b = -4: (-3)(-4) = 12 ✓ and (-3) + (-4) = -7 ✓.",
+                "Step 3: y^2 - 7y + 12 = y^2 - 3y - 4y + 12",
+                "= y(y - 3) - 4(y - 3) = (y - 3)(y - 4).",
+                "ANSWER: (y - 3)(y - 4).",
+                "EXAMPLE 12.2.4.3: Factorising z^2 - 4z - 12 (Textbook Example 11)",
+                "PROBLEM: Obtain the factors of z^2 - 4z - 12.",
+                "SOLUTION:",
+                "Step 1: ab = -12, a + b = -4. Since product negative, one of a, b is negative.",
+                "Step 2: Try a = -6, b = 2: (-6)(2) = -12 ✓ and (-6) + 2 = -4 ✓.",
+                "Step 3: z^2 - 4z - 12 = z^2 - 6z + 2z - 12",
+                "= z(z - 6) + 2(z - 6) = (z - 6)(z + 2).",
+                "ANSWER: (z - 6)(z + 2).",
+                "EXAMPLE 12.2.4.4: Factorising 3m^2 + 9m + 6 (Textbook Example 12)",
+                "PROBLEM: Find the factors of 3m^2 + 9m + 6.",
+                "SOLUTION:",
+                "Step 1: 3 is a common factor: 3m^2 + 9m + 6 = 3(m^2 + 3m + 2).",
+                "Step 2: Factorise m^2 + 3m + 2: ab = 2, a+b = 3.",
+                "Try a = 1, b = 2: 1 x 2 = 2 ✓ and 1 + 2 = 3 ✓.",
+                "m^2 + 3m + 2 = (m + 1)(m + 2).",
+                "Step 3: 3m^2 + 9m + 6 = 3(m + 1)(m + 2).",
+                "ANSWER: 3(m + 1)(m + 2).",
+                "ADDITIONAL CALCULATIONS:",
+                "Problem 1: Factorise p^2 + 6p + 8.",
+                "Solution: ab = 8, a+b = 6. Try a = 2, b = 4: 2x4 = 8 ✓, 2+4 = 6 ✓.",
+                "p^2 + 6p + 8 = (p + 2)(p + 4).",
+                "Answer: (p + 2)(p + 4).",
+                "Problem 2: Factorise q^2 - 10q + 21.",
+                "Solution: ab = 21, a+b = -10. Both negative.",
+                "Try a = -3, b = -7: (-3)(-7) = 21 ✓, (-3)+(-7) = -10 ✓.",
+                "q^2 - 10q + 21 = (q - 3)(q - 7).",
+                "Answer: (q - 3)(q - 7)."
+              ]
             },
             {
-              "mcq_num": 4,
-              "difficulty": "Hard",
-              "question": "Factorised form of z - 7 + 7xy - xyz is:",
-              "options": {
-                "A": "(1-xy)(z+7)",
-                "B": "(1-xy)(7-z)",
-                "C": "(xy-1)(z-7)",
-                "D": "(z-7)(1-xy)"
-              },
-              "answer": "D",
-              "explanation": "Option (D) is correct based on the definition/theorem. Solution: Regroup: (z - 7) + (7xy - xyz) = (z-7) + xy(7-z) = (z-7) - xy(z-7) = (z-7)(1-xy)."
+              "type": "qa",
+              "label": "SUB-TOPIC 12.2.4: Q&A:",
+              "items": []
             },
             {
-              "mcq_num": 5,
-              "difficulty": "Medium",
-              "question": "Factorised form of ax + bx − ay − by is:",
-              "options": {
-                "A": "(a+b)(x−y)",
-                "B": "(x+y)(a−",
-                "C": "(a−b)(x+y)",
-                "D": "ab(x−y)"
-              },
-              "answer": "A",
-              "explanation": "Option (A) is correct based on the definition/theorem. Solution: x(a+b) − y(a+b) = (a+b)(x−y)."
+              "type": "qa",
+              "label": "Q&A",
+              "items": [
+                {
+                  "q_num": 1,
+                  "marks": 2,
+                  "question": "State Identity IV and when it is used.",
+                  "answer": "Identity IV: (x+a)(x+b) = x^2 + (a+b)x + ab.\nUsed to factorise expressions of the form x^2 + px + q, where we find a, b\nsuch that ab = q and a + b = p."
+                },
+                {
+                  "q_num": 2,
+                  "marks": 2,
+                  "question": "Factorise x^2 + 5x + 6.",
+                  "answer": "ab = 6, a+b = 5. Try a=2, b=3: 2×3=6 ✓, 2+3=5 ✓.\nx^2 + 5x + 6 = (x+2)(x+3)."
+                },
+                {
+                  "q_num": 3,
+                  "marks": 2,
+                  "question": "Factorise y^2 − 7y + 12.",
+                  "answer": "ab=12, a+b=−7. Both negative. Try a=−3, b=−4: product=12 ✓, sum=−7 ✓.\ny^2 − 7y + 12 = (y−3)(y−4).\n\n---\n\n3 ಮಾರ್ಕ್ಸ್ × 2 questions:"
+                },
+                {
+                  "q_num": 4,
+                  "marks": 3,
+                  "question": "Factorise z^2 − 4z − 12.",
+                  "answer": "Step 1: ab = −12, a+b = −4. One negative.\nStep 2: Try a=−6, b=2: (−6)(2)=−12 ✓, (−6)+2=−4 ✓.\nStep 3: z^2 − 4z − 12 = (z−6)(z+2).\nAnswer: (z − 6)(z + 2)."
+                },
+                {
+                  "q_num": 5,
+                  "marks": 3,
+                  "question": "Factorise 3m^2 + 9m + 6.",
+                  "answer": "Step 1: Common factor 3: 3m^2 + 9m + 6 = 3(m^2 + 3m + 2).\nStep 2: For m^2+3m+2: ab=2, a+b=3. Try a=1, b=2: 1×2=2 ✓, 1+2=3 ✓.\nStep 3: 3m^2 + 9m + 6 = 3(m+1)(m+2).\nAnswer: 3(m + 1)(m + 2).\n\n---\n\n4 ಮಾರ್ಕ್ಸ್ × 2 questions:"
+                },
+                {
+                  "q_num": 6,
+                  "marks": 4,
+                  "question": "Factorise: (i) p^2 + 6p + 8  (ii) q^2 − 10q + 21  (iii) r^2 + 2r − 8",
+                  "answer": "Step 1: (i) ab=8, a+b=6. Try a=2, b=4: 2×4=8 ✓, 2+4=6 ✓.\np^2 + 6p + 8 = (p+2)(p+4).\nStep 2: (ii) ab=21, a+b=−10. Both negative.\nTry a=−3, b=−7: (−3)(−7)=21 ✓, (−3)+(−7)=−10 ✓.\nq^2 − 10q + 21 = (q−3)(q−7).\nStep 3: (iii) ab=−8, a+b=2. One negative.\nTry a=4, b=−2: 4×(−2)=−8 ✓, 4+(−2)=2 ✓.\nr^2 + 2r − 8 = (r+4)(r−2).\nStep 4: Verify all by expanding back ✓.\nAnswer: (i) (p+2)(p+4). (ii) (q−3)(q−7). (iii) (r+4)(r−2)."
+                },
+                {
+                  "q_num": 7,
+                  "marks": 4,
+                  "question": "The area of a rectangle is x^2 + 5x + 6. Find possible length and",
+                  "answer": "Step 1: x^2 + 5x + 6: ab=6, a+b=5. a=2, b=3.\nx^2 + 5x + 6 = (x+2)(x+3).\nStep 2: Length = (x+3), Breadth = (x+2).\nStep 3: When x = 4:\nLength = 4+3 = 7, Breadth = 4+2 = 6.\nArea = 7 × 6 = 42 sq units.\nCheck: x^2+5x+6 = 16+20+6 = 42 ✓.\nStep 4: Perimeter = 2(7+6) = 2×13 = 26 units.\nAnswer: Length=(x+3), Breadth=(x+2). When x=4: Area=42, Perimeter=26.\n\n---\n\n5 ಮಾರ್ಕ್ಸ್ × 1 question:"
+                },
+                {
+                  "q_num": 8,
+                  "marks": 5,
+                  "question": "",
+                  "answer": "PART A:\n(i) 5p^2 − 25p + 20:\nCommon factor 5: = 5(p^2 − 5p + 4).\nFor p^2−5p+4: ab=4, a+b=−5. Try a=−1, b=−4: (−1)(−4)=4 ✓, (−1)+(−4)=−5 ✓.\n= 5(p−1)(p−4).\n\n(ii) 2z^2 − z − 6:\nNo overall common factor. ab = 2×(−6) = −12 (multiply coefficient of z^2 with constant).\nNeed two numbers with product −12 and sum −1: try a=−4, b=3: −4×3=−12 ✓, −4+3=−1 ✓.\n2z^2 − z − 6 = 2z^2 − 4z + 3z − 6 = 2z(z−2) + 3(z−2) = (z−2)(2z+3).\n\nPART B — Rectangle with area y^2 − 7y + 12:\nStep 1: ab=12, a+b=−7. Both negative. a=−3, b=−4.\ny^2 − 7y + 12 = (y−3)(y−4).\nStep 2: Dimensions: length = (y−4), breadth = (y−3).\nStep 3: When y = 8: Length = 5, Breadth = 4.\nArea = 5 × 4 = 20.\nStep 4: Verify: y^2−7y+12 = 64−56+12 = 20 ✓.\nAnswer: Dimensions: (y−3) and (y−4). When y=8: Area=20. Verified ✓."
+                }
+              ]
             },
             {
-              "mcq_num": 6,
-              "difficulty": "Hard",
-              "question": "Factorised form of 15pq + 15 + 9q + 25p is:",
-              "options": {
-                "A": "(5p+3)(3q+5)",
-                "B": "(3q+5)(5p+3)",
-                "C": "Both A and B",
-                "D": "(15p+9)(q+1)"
-              },
-              "answer": "C",
-              "explanation": "The correct answer is (C) Both A and B. Solution: 5p(3q+5) + 3(3q+5) = (3q+5)(5p+3) = (5p+3)(3q+5). Same expression. ----"
-            }
-          ]
-        },
-        {
-          "type": "definition",
-          "label": "Definition:",
-          "text": "Some algebraic expressions can be factorised using standard algebraic IDENTITIES.\nWe observe which identity the expression fits (by matching its form with the\nright-hand side of an identity), then write the left-hand side as the factorised form."
-        },
-        {
-          "type": "key_points",
-          "label": "Key Points:",
-          "points": [
-            "Three identities used for factorisation:",
-            "Identity I:   (a + b)^2 = a^2 + 2ab + b^2",
-            "Identity II:  (a - b)^2 = a^2 - 2ab + b^2",
-            "Identity III: (a + b)(a - b) = a^2 - b^2",
-            "Identity I: Both first and last terms are perfect squares, middle term = +2ab.",
-            "Factors: (a+b)(a+b) = (a+b)^2.",
-            "Identity II: Both first and last terms are perfect squares, middle term = -2ab.",
-            "Factors: (a-b)(a-b) = (a-b)^2.",
-            "Identity III: Exactly two terms, both perfect squares, second is negative.",
-            "Factors: (a+b)(a-b).",
-            "Sometimes two identities are applied one after another (e.g., m^4 - 256)."
-          ]
-        },
-        {
-          "type": "formulas",
-          "label": "FORMULA:",
-          "items": [
-            "I.  (a+b)^2 = a^2 + 2ab + b^2",
-            "WHERE:",
-            "a = first expression (square root of first term)",
-            "b = second expression (square root of last term)",
-            "2ab = middle term",
-            "II. (a-b)^2 = a^2 - 2ab + b^2",
-            "III. (a+b)(a-b) = a^2 - b^2",
-            "WHERE:",
-            "a^2 = first term (must be perfect square)",
-            "b^2 = second term (must be perfect square, subtracted)",
-            "EXAMPLES: (textbook examples)",
-            "EXAMPLE 12.2.3.1: Factorising x^2 + 8x + 16 (Textbook Example 4)",
-            "PROBLEM: Factorise x^2 + 8x + 16.",
-            "SOLUTION:",
-            "Step 1: Three terms. First term x^2 = (x)^2 ✓ (perfect square).",
-            "Last term 16 = (4)^2 ✓ (perfect square). Middle term = +8x.",
-            "Step 2: Check 2ab = 2 x x x 4 = 8x ✓. So a = x, b = 4.",
-            "Step 3: x^2 + 8x + 16 = (x + 4)^2. [Identity I]",
-            "ANSWER: (x + 4)^2.",
-            "EXAMPLE 12.2.3.2: Factorising 4y^2 - 12y + 9 (Textbook Example 5)",
-            "PROBLEM: Factorise 4y^2 - 12y + 9.",
-            "SOLUTION:",
-            "Step 1: 4y^2 = (2y)^2 ✓, 9 = 3^2 ✓. Middle term = -12y (negative).",
-            "Step 2: Check 2ab = 2 x 2y x 3 = 12y ✓. So a = 2y, b = 3.",
-            "Step 3: 4y^2 - 12y + 9 = (2y - 3)^2. [Identity II]",
-            "ANSWER: (2y - 3)^2.",
-            "EXAMPLE 12.2.3.3: Factorising 49p^2 - 36 (Textbook Example 6)",
-            "PROBLEM: Factorise 49p^2 - 36.",
-            "SOLUTION:",
-            "Step 1: Two terms. 49p^2 = (7p)^2 ✓, 36 = 6^2 ✓. Second term negative.",
-            "Step 2: Apply Identity III with a = 7p, b = 6.",
-            "Step 3: 49p^2 - 36 = (7p)^2 - 6^2 = (7p - 6)(7p + 6). [Identity III]",
-            "ANSWER: (7p - 6)(7p + 6).",
-            "EXAMPLE 12.2.3.4: Factorising a^2 - 2ab + b^2 - c^2 (Textbook Example 7)",
-            "PROBLEM: Factorise a^2 - 2ab + b^2 - c^2.",
-            "SOLUTION:",
-            "Step 1: First three terms form a perfect square:",
-            "a^2 - 2ab + b^2 = (a - b)^2. [Identity II]",
-            "Step 2: Now expression = (a-b)^2 - c^2 (difference of two squares).",
-            "Step 3: Apply Identity III with A = (a-b), B = c:",
-            "(a-b)^2 - c^2 = [(a-b) - c][(a-b) + c] = (a-b-c)(a-b+c). [Identity III]",
-            "ANSWER: (a - b - c)(a - b + c).",
-            "EXAMPLE 12.2.3.5: Factorising m^4 - 256 (Textbook Example 8)",
-            "PROBLEM: Factorise m^4 - 256.",
-            "SOLUTION:",
-            "Step 1: m^4 = (m^2)^2, 256 = 16^2. Apply Identity III:",
-            "m^4 - 256 = (m^2 - 16)(m^2 + 16). [Identity III]",
-            "Step 2: (m^2 + 16) cannot be factorised further.",
-            "m^2 - 16 = m^2 - 4^2 = (m - 4)(m + 4). [Identity III again]",
-            "Step 3: Therefore m^4 - 256 = (m-4)(m+4)(m^2+16).",
-            "ANSWER: (m - 4)(m + 4)(m^2 + 16).",
-            "ADDITIONAL CALCULATIONS:",
-            "Problem 1: Factorise 121b^2 - 88bc + 16c^2.",
-            "Solution: 121b^2 = (11b)^2, 16c^2 = (4c)^2, 2 x 11b x 4c = 88bc ✓.",
-            "121b^2 - 88bc + 16c^2 = (11b - 4c)^2. [Identity II]",
-            "Answer: (11b - 4c)^2.",
-            "Problem 2: Factorise 16x^5 - 144x^3.",
-            "Solution: HCF = 16x^3.",
-            "16x^5 - 144x^3 = 16x^3(x^2 - 9) = 16x^3(x-3)(x+3). [Identity III]",
-            "Answer: 16x^3(x - 3)(x + 3)."
-          ]
-        },
-        {
-          "type": "qa",
-          "label": "SUB-TOPIC 12.2.3: Q&A:",
-          "items": []
-        },
-        {
-          "type": "qa",
-          "label": "Q&A",
-          "items": [
-            {
-              "q_num": 1,
-              "marks": 2,
-              "question": "Write Identity I, II and III used for factorisation.",
-              "answer": "Identity I:  (a+b)^2 = a^2 + 2ab + b^2.\nIdentity II: (a−b)^2 = a^2 − 2ab + b^2.\nIdentity III: (a+b)(a−b) = a^2 − b^2."
-            },
-            {
-              "q_num": 2,
-              "marks": 2,
-              "question": "Factorise x^2 + 8x + 16.",
-              "answer": "a = x, b = 4. Check: 2ab = 2×x×4 = 8x ✓.\nx^2 + 8x + 16 = (x+4)^2. [Identity I]"
-            },
-            {
-              "q_num": 3,
-              "marks": 2,
-              "question": "Factorise 49p^2 − 36.",
-              "answer": "49p^2 = (7p)^2, 36 = 6^2. Two terms, second negative → Identity III.\n49p^2 − 36 = (7p−6)(7p+6).\n\n---\n\n3 ಮಾರ್ಕ್ಸ್ × 2 questions:"
-            },
-            {
-              "q_num": 4,
-              "marks": 3,
-              "question": "Factorise 4y^2 − 12y + 9. Identify which identity is used.",
-              "answer": "Step 1: 4y^2 = (2y)^2, 9 = 3^2. Middle term = −12y (negative) → Identity II.\nStep 2: Check: 2ab = 2×(2y)×3 = 12y ✓.\nStep 3: 4y^2 − 12y + 9 = (2y−3)^2. [Identity II]\nAnswer: (2y − 3)^2."
-            },
-            {
-              "q_num": 5,
-              "marks": 3,
-              "question": "Factorise a^2 − 2ab + b^2 − c^2.",
-              "answer": "Step 1: First three terms → Identity II: a^2−2ab+b^2 = (a−b)^2.\nStep 2: Expression = (a−b)^2 − c^2. Now two terms, both squares → Identity III.\nStep 3: = [(a−b)−c][(a−b)+c] = (a−b−c)(a−b+c).\nAnswer: (a − b − c)(a − b + c).\n\n---\n\n4 ಮಾರ್ಕ್ಸ್ × 2 questions:"
-            },
-            {
-              "q_num": 6,
-              "marks": 4,
-              "question": "Factorise using appropriate identities:",
-              "answer": "Step 1: (i) 121b^2=(11b)^2, 16c^2=(4c)^2. Middle term=−88bc.\nCheck: 2×(11b)×(4c) = 88bc ✓ → Identity II.\n121b^2 − 88bc + 16c^2 = (11b−4c)^2.\nStep 2: (ii) 9x^2y^2 = (3xy)^2, 16 = 4^2. Two terms, second negative → Identity III.\n9x^2y^2 − 16 = (3xy−4)(3xy+4).\nStep 3: Verify (i): (11b−4c)^2 = 121b^2−88bc+16c^2 ✓.\nStep 4: Verify (ii): (3xy−4)(3xy+4) = 9x^2y^2 − 16 ✓.\nAnswer: (i) (11b−4c)^2.  (ii) (3xy−4)(3xy+4)."
-            },
-            {
-              "q_num": 7,
-              "marks": 4,
-              "question": "Factorise m^4 − 256 completely. Show all steps and name each",
-              "answer": "Step 1: m^4 = (m^2)^2, 256 = 16^2. Two terms, second negative.\nm^4 − 256 = (m^2−16)(m^2+16). [Identity III: a=m^2, b=16]\nStep 2: (m^2+16) cannot be factorised further (sum of squares).\nStep 3: m^2−16 = m^2 − 4^2 = (m−4)(m+4). [Identity III again: a=m, b=4]\nStep 4: m^4 − 256 = (m−4)(m+4)(m^2+16). ✓\nAnswer: (m−4)(m+4)(m^2+16).\n\n---\n\n5 ಮಾರ್ಕ್ಸ್ × 1 question:"
-            },
-            {
-              "q_num": 8,
-              "marks": 5,
-              "question": "",
-              "answer": "PART A:\n(i) 25x^2 − 40xy + 16y^2:\n25x^2=(5x)^2, 16y^2=(4y)^2. Middle=−40xy. Check: 2×5x×4y=40xy ✓.\n= (5x−4y)^2. [Identity II: a=5x, b=4y]\n\n(ii) x^4 − y^4:\nStep 1: x^4=(x^2)^2, y^4=(y^2)^2. → (x^2−y^2)(x^2+y^2). [Identity III]\nStep 2: x^2−y^2 = (x−y)(x+y). [Identity III]\nStep 3: x^4−y^4 = (x−y)(x+y)(x^2+y^2). ✓\n\nPART B — Square side:\nStep 1: Area = 4y^2−12y+9. For square: area = side^2.\nStep 2: (2y)^2=4y^2, 3^2=9, 2×(2y)×3=12y ✓ → Identity II.\n4y^2 − 12y + 9 = (2y−3)^2.\nStep 3: Side = (2y−3).\nStep 4: When y=5: side = 2(5)−3 = 7. Perimeter = 4×7 = 28 units.\nAnswer: Side = (2y−3). When y=5: perimeter = 28 units."
-            }
-          ]
-        },
-        {
-          "type": "mcq",
-          "label": "MCQ",
-          "items": [
-            {
-              "mcq_num": 1,
-              "difficulty": "Easy",
-              "question": "x^2 + 8x + 16 factorises to:",
-              "options": {
-                "A": "(x+4)(x-4)",
-                "B": "(x+4)^2",
-                "C": "(x-4)^2",
-                "D": "(x+8)(x+2)"
-              },
-              "answer": "B",
-              "explanation": "a = x, b = 4. x^2 + 2(x)(4) + 4^2 = (x+4)^2. [Identity I]"
-            },
-            {
-              "mcq_num": 2,
-              "difficulty": "Easy",
-              "question": "Which identity is used to factorise a^2 - b^2?",
-              "options": {
-                "A": "Identity I",
-                "B": "Identity II",
-                "C": "Identity III",
-                "D": "None"
-              },
-              "answer": "C",
-              "explanation": "(a+b)(a-b) = a^2 - b^2 is Identity III."
-            },
-            {
-              "mcq_num": 3,
-              "difficulty": "Medium",
-              "question": "Factorised form of 4y^2 - 12y + 9 is:",
-              "options": {
-                "A": "(2y+3)^2",
-                "B": "(2y-3)^2",
-                "C": "(4y-9)(y-1)",
-                "D": "(2y-3)(2y+3)"
-              },
-              "answer": "B",
-              "explanation": "Option (B) is correct based on the definition/theorem. Solution: a = 2y, b = 3. (2y-3)^2. [Identity II]"
-            },
-            {
-              "mcq_num": 4,
-              "difficulty": "Medium",
-              "question": "Factorised form of 49p^2 - 36 is:",
-              "options": {
-                "A": "(49p-36)(p+1)",
-                "B": "(7p-6)^2",
-                "C": "(7p-6)(7p+6)",
-                "D": "(7p+6)^2"
-              },
-              "answer": "C",
-              "explanation": "Option (C) is correct based on the definition/theorem. Solution: a = 7p, b = 6. 49p^2-36 = (7p-6)(7p+6). [Identity III]"
-            },
-            {
-              "mcq_num": 5,
-              "difficulty": "Hard",
-              "question": "Factorised form of m^4 - 256 is:",
-              "options": {
-                "A": "(m^2-16)^2",
-                "B": "(m-16)(m+16)",
-                "C": "(m-4)(m+4)(m^2+16)",
-                "D": "(m^2-16)(m^2-16)"
-              },
-              "answer": "C",
-              "explanation": "Option (C) is correct based on the definition/theorem. Solution: m^4-256 = (m^2-16)(m^2+16) = (m-4)(m+4)(m^2+16)."
-            },
-            {
-              "mcq_num": 6,
-              "difficulty": "Medium",
-              "question": "The factorised form of a^2 − 2ab + b^2 − c^2 is:",
-              "options": {
-                "A": "(a−b+c)(a−b−",
-                "B": "(a+b−c)(a−b+",
-                "C": "(a−b−c)(a−b+",
-                "D": "(a+b+c)^2"
-              },
-              "answer": "C",
-              "explanation": "Option (C) is correct based on the definition/theorem. Solution: (a−b)^2 − c^2 = [(a−b)−c][(a−b)+c] = (a−b−c)(a−b+c). ----"
-            }
-          ]
-        },
-        {
-          "type": "definition",
-          "label": "Definition:",
-          "text": "IDENTITY IV: (x + a)(x + b) = x^2 + (a + b)x + ab.\nThis identity is used to factorise expressions of the type x^2 + px + q, where\nwe need to find two numbers a and b such that ab = q and a + b = p."
-        },
-        {
-          "type": "key_points",
-          "label": "Key Points:",
-          "points": [
-            "Identity IV: (x + a)(x + b) = x^2 + (a + b)x + ab.",
-            "For factorising x^2 + px + q:",
-            "Find a, b such that: ab = q (product = constant term) AND a + b = p (sum = coeff. of x).",
-            "Factors are (x + a) and (x + b).",
-            "If ab > 0: both a and b have the same sign (check the sign of a+b to decide).",
-            "If ab < 0: one of a, b is negative.",
-            "After finding a and b, verify: (a + b) = coefficient of x in the original expression."
-          ]
-        },
-        {
-          "type": "formulas",
-          "label": "FORMULA:",
-          "items": [
-            "x^2 + px + q = (x + a)(x + b)",
-            "WHERE:",
-            "ab = q (product of a and b = constant term)",
-            "a + b = p (sum of a and b = coefficient of x)",
-            "Factors: (x + a) and (x + b)",
-            "EXAMPLES: (textbook examples)",
-            "EXAMPLE 12.2.4.1: Factorising x^2 + 5x + 6 (Textbook Example 9)",
-            "PROBLEM: Factorise x^2 + 5x + 6.",
-            "SOLUTION:",
-            "Step 1: ab = 6 and a + b = 5.",
-            "Step 2: Find a, b: Try a = 2, b = 3: 2 x 3 = 6 ✓ and 2 + 3 = 5 ✓.",
-            "Step 3: x^2 + 5x + 6 = (x + 2)(x + 3).",
-            "ANSWER: (x + 2)(x + 3).",
-            "EXAMPLE 12.2.4.2: Factorising y^2 - 7y + 12 (Textbook Example 10)",
-            "PROBLEM: Find the factors of y^2 - 7y + 12.",
-            "SOLUTION:",
-            "Step 1: ab = 12, a + b = -7. Since product positive and sum negative, both negative.",
-            "Step 2: Try a = -3, b = -4: (-3)(-4) = 12 ✓ and (-3) + (-4) = -7 ✓.",
-            "Step 3: y^2 - 7y + 12 = y^2 - 3y - 4y + 12",
-            "= y(y - 3) - 4(y - 3) = (y - 3)(y - 4).",
-            "ANSWER: (y - 3)(y - 4).",
-            "EXAMPLE 12.2.4.3: Factorising z^2 - 4z - 12 (Textbook Example 11)",
-            "PROBLEM: Obtain the factors of z^2 - 4z - 12.",
-            "SOLUTION:",
-            "Step 1: ab = -12, a + b = -4. Since product negative, one of a, b is negative.",
-            "Step 2: Try a = -6, b = 2: (-6)(2) = -12 ✓ and (-6) + 2 = -4 ✓.",
-            "Step 3: z^2 - 4z - 12 = z^2 - 6z + 2z - 12",
-            "= z(z - 6) + 2(z - 6) = (z - 6)(z + 2).",
-            "ANSWER: (z - 6)(z + 2).",
-            "EXAMPLE 12.2.4.4: Factorising 3m^2 + 9m + 6 (Textbook Example 12)",
-            "PROBLEM: Find the factors of 3m^2 + 9m + 6.",
-            "SOLUTION:",
-            "Step 1: 3 is a common factor: 3m^2 + 9m + 6 = 3(m^2 + 3m + 2).",
-            "Step 2: Factorise m^2 + 3m + 2: ab = 2, a+b = 3.",
-            "Try a = 1, b = 2: 1 x 2 = 2 ✓ and 1 + 2 = 3 ✓.",
-            "m^2 + 3m + 2 = (m + 1)(m + 2).",
-            "Step 3: 3m^2 + 9m + 6 = 3(m + 1)(m + 2).",
-            "ANSWER: 3(m + 1)(m + 2).",
-            "ADDITIONAL CALCULATIONS:",
-            "Problem 1: Factorise p^2 + 6p + 8.",
-            "Solution: ab = 8, a+b = 6. Try a = 2, b = 4: 2x4 = 8 ✓, 2+4 = 6 ✓.",
-            "p^2 + 6p + 8 = (p + 2)(p + 4).",
-            "Answer: (p + 2)(p + 4).",
-            "Problem 2: Factorise q^2 - 10q + 21.",
-            "Solution: ab = 21, a+b = -10. Both negative.",
-            "Try a = -3, b = -7: (-3)(-7) = 21 ✓, (-3)+(-7) = -10 ✓.",
-            "q^2 - 10q + 21 = (q - 3)(q - 7).",
-            "Answer: (q - 3)(q - 7)."
-          ]
-        },
-        {
-          "type": "qa",
-          "label": "SUB-TOPIC 12.2.4: Q&A:",
-          "items": []
-        },
-        {
-          "type": "qa",
-          "label": "Q&A",
-          "items": [
-            {
-              "q_num": 1,
-              "marks": 2,
-              "question": "State Identity IV and when it is used.",
-              "answer": "Identity IV: (x+a)(x+b) = x^2 + (a+b)x + ab.\nUsed to factorise expressions of the form x^2 + px + q, where we find a, b\nsuch that ab = q and a + b = p."
-            },
-            {
-              "q_num": 2,
-              "marks": 2,
-              "question": "Factorise x^2 + 5x + 6.",
-              "answer": "ab = 6, a+b = 5. Try a=2, b=3: 2×3=6 ✓, 2+3=5 ✓.\nx^2 + 5x + 6 = (x+2)(x+3)."
-            },
-            {
-              "q_num": 3,
-              "marks": 2,
-              "question": "Factorise y^2 − 7y + 12.",
-              "answer": "ab=12, a+b=−7. Both negative. Try a=−3, b=−4: product=12 ✓, sum=−7 ✓.\ny^2 − 7y + 12 = (y−3)(y−4).\n\n---\n\n3 ಮಾರ್ಕ್ಸ್ × 2 questions:"
-            },
-            {
-              "q_num": 4,
-              "marks": 3,
-              "question": "Factorise z^2 − 4z − 12.",
-              "answer": "Step 1: ab = −12, a+b = −4. One negative.\nStep 2: Try a=−6, b=2: (−6)(2)=−12 ✓, (−6)+2=−4 ✓.\nStep 3: z^2 − 4z − 12 = (z−6)(z+2).\nAnswer: (z − 6)(z + 2)."
-            },
-            {
-              "q_num": 5,
-              "marks": 3,
-              "question": "Factorise 3m^2 + 9m + 6.",
-              "answer": "Step 1: Common factor 3: 3m^2 + 9m + 6 = 3(m^2 + 3m + 2).\nStep 2: For m^2+3m+2: ab=2, a+b=3. Try a=1, b=2: 1×2=2 ✓, 1+2=3 ✓.\nStep 3: 3m^2 + 9m + 6 = 3(m+1)(m+2).\nAnswer: 3(m + 1)(m + 2).\n\n---\n\n4 ಮಾರ್ಕ್ಸ್ × 2 questions:"
-            },
-            {
-              "q_num": 6,
-              "marks": 4,
-              "question": "Factorise: (i) p^2 + 6p + 8  (ii) q^2 − 10q + 21  (iii) r^2 + 2r − 8",
-              "answer": "Step 1: (i) ab=8, a+b=6. Try a=2, b=4: 2×4=8 ✓, 2+4=6 ✓.\np^2 + 6p + 8 = (p+2)(p+4).\nStep 2: (ii) ab=21, a+b=−10. Both negative.\nTry a=−3, b=−7: (−3)(−7)=21 ✓, (−3)+(−7)=−10 ✓.\nq^2 − 10q + 21 = (q−3)(q−7).\nStep 3: (iii) ab=−8, a+b=2. One negative.\nTry a=4, b=−2: 4×(−2)=−8 ✓, 4+(−2)=2 ✓.\nr^2 + 2r − 8 = (r+4)(r−2).\nStep 4: Verify all by expanding back ✓.\nAnswer: (i) (p+2)(p+4). (ii) (q−3)(q−7). (iii) (r+4)(r−2)."
-            },
-            {
-              "q_num": 7,
-              "marks": 4,
-              "question": "The area of a rectangle is x^2 + 5x + 6. Find possible length and",
-              "answer": "Step 1: x^2 + 5x + 6: ab=6, a+b=5. a=2, b=3.\nx^2 + 5x + 6 = (x+2)(x+3).\nStep 2: Length = (x+3), Breadth = (x+2).\nStep 3: When x = 4:\nLength = 4+3 = 7, Breadth = 4+2 = 6.\nArea = 7 × 6 = 42 sq units.\nCheck: x^2+5x+6 = 16+20+6 = 42 ✓.\nStep 4: Perimeter = 2(7+6) = 2×13 = 26 units.\nAnswer: Length=(x+3), Breadth=(x+2). When x=4: Area=42, Perimeter=26.\n\n---\n\n5 ಮಾರ್ಕ್ಸ್ × 1 question:"
-            },
-            {
-              "q_num": 8,
-              "marks": 5,
-              "question": "",
-              "answer": "PART A:\n(i) 5p^2 − 25p + 20:\nCommon factor 5: = 5(p^2 − 5p + 4).\nFor p^2−5p+4: ab=4, a+b=−5. Try a=−1, b=−4: (−1)(−4)=4 ✓, (−1)+(−4)=−5 ✓.\n= 5(p−1)(p−4).\n\n(ii) 2z^2 − z − 6:\nNo overall common factor. ab = 2×(−6) = −12 (multiply coefficient of z^2 with constant).\nNeed two numbers with product −12 and sum −1: try a=−4, b=3: −4×3=−12 ✓, −4+3=−1 ✓.\n2z^2 − z − 6 = 2z^2 − 4z + 3z − 6 = 2z(z−2) + 3(z−2) = (z−2)(2z+3).\n\nPART B — Rectangle with area y^2 − 7y + 12:\nStep 1: ab=12, a+b=−7. Both negative. a=−3, b=−4.\ny^2 − 7y + 12 = (y−3)(y−4).\nStep 2: Dimensions: length = (y−4), breadth = (y−3).\nStep 3: When y = 8: Length = 5, Breadth = 4.\nArea = 5 × 4 = 20.\nStep 4: Verify: y^2−7y+12 = 64−56+12 = 20 ✓.\nAnswer: Dimensions: (y−3) and (y−4). When y=8: Area=20. Verified ✓."
-            }
-          ]
-        },
-        {
-          "type": "mcq",
-          "label": "MCQ",
-          "items": [
-            {
-              "mcq_num": 1,
-              "difficulty": "Easy",
-              "question": "For factorising x^2 + px + q, we find a and b such that:",
-              "options": {
-                "A": "a + b = q and ab = p",
-                "B": "ab = q and a + b = p",
-                "C": "a x b = p and a + b = q",
-                "D": "ab = p + q"
-              },
-              "answer": "B",
-              "explanation": "Compare with (x+a)(x+b) = x^2 + (a+b)x + ab. So ab = q, a+b = p."
-            },
-            {
-              "mcq_num": 2,
-              "difficulty": "Easy",
-              "question": "Factorised form of x^2 + 5x + 6 is:",
-              "options": {
-                "A": "(x+1)(x+6)",
-                "B": "(x+2)(x+3)",
-                "C": "(x+5)(x+1)",
-                "D": "(x-2)(x-3)"
-              },
-              "answer": "B",
-              "explanation": "Option (B) is correct based on the definition/theorem. Solution: ab=6, a+b=5 → a=2, b=3."
-            },
-            {
-              "mcq_num": 3,
-              "difficulty": "Medium",
-              "question": "Factorised form of y^2 - 7y + 12 is:",
-              "options": {
-                "A": "(y+3)(y+4)",
-                "B": "(y-3)(y-4)",
-                "C": "(y-6)(y-2)",
-                "D": "(y-12)(y+1)"
-              },
-              "answer": "B",
-              "explanation": "Option (B) is correct based on the definition/theorem. Solution: ab=12, a+b=-7 → a=-3, b=-4."
-            },
-            {
-              "mcq_num": 4,
-              "difficulty": "Medium",
-              "question": "Factorised form of z^2 - 4z - 12 is:",
-              "options": {
-                "A": "(z+6)(z-2)",
-                "B": "(z-6)(z+2)",
-                "C": "(z-4)(z+3)",
-                "D": "(z+4)(z-3)"
-              },
-              "answer": "B",
-              "explanation": "Option (B) is correct based on the definition/theorem. Solution: ab=-12, a+b=-4 → a=-6, b=2."
-            },
-            {
-              "mcq_num": 5,
-              "difficulty": "Hard",
-              "question": "Factorised form of 3m^2 + 9m + 6 is:",
-              "options": {
-                "A": "3(m+2)(m+3)",
-                "B": "3(m+1)(m+6)",
-                "C": "3(m+1)(m+2)",
-                "D": "(3m+3)(m+2)"
-              },
-              "answer": "C",
-              "explanation": "Option (C) is correct based on the definition/theorem. Solution: 3(m^2 + 3m + 2) = 3(m+1)(m+2)."
-            },
-            {
-              "mcq_num": 6,
-              "difficulty": "Hard",
-              "question": "Factorised form of 2z^2 − z − 6 is:",
-              "options": {
-                "A": "(2z+3)(z−2)",
-                "B": "(2z−3)(z+2)",
-                "C": "(z−2)(2z+3)",
-                "D": "Both A and C"
-              },
-              "answer": "D",
-              "explanation": "The correct answer is (D) Both A and C. Solution: 2z^2−z−6 = 2z^2−4z+3z−6 = 2z(z−2)+3(z−2) = (z−2)(2z+3)."
+              "type": "mcq",
+              "label": "SUB-TOPIC 12.2.4: MCQs:",
+              "items": [
+                {
+                  "mcq_num": 1,
+                  "difficulty": "Easy",
+                  "question": "For factorising x^2 + px + q, we find a and b such that:",
+                  "options": {
+                    "A": "a + b = q and ab = p",
+                    "B": "ab = q and a + b = p",
+                    "C": "a x b = p and a + b = q",
+                    "D": "ab = p + q"
+                  },
+                  "answer": "B",
+                  "explanation": "Compare with (x+a)(x+b) = x^2 + (a+b)x + ab. So ab = q, a+b = p."
+                },
+                {
+                  "mcq_num": 2,
+                  "difficulty": "Easy",
+                  "question": "Factorised form of x^2 + 5x + 6 is:",
+                  "options": {
+                    "A": "(x+1)(x+6)",
+                    "B": "(x+2)(x+3)",
+                    "C": "(x+5)(x+1)",
+                    "D": "(x-2)(x-3)"
+                  },
+                  "answer": "B",
+                  "explanation": "Option (B) is correct based on the definition/theorem. Solution: ab=6, a+b=5 → a=2, b=3."
+                },
+                {
+                  "mcq_num": 3,
+                  "difficulty": "Medium",
+                  "question": "Factorised form of y^2 - 7y + 12 is:",
+                  "options": {
+                    "A": "(y+3)(y+4)",
+                    "B": "(y-3)(y-4)",
+                    "C": "(y-6)(y-2)",
+                    "D": "(y-12)(y+1)"
+                  },
+                  "answer": "B",
+                  "explanation": "Option (B) is correct based on the definition/theorem. Solution: ab=12, a+b=-7 → a=-3, b=-4."
+                },
+                {
+                  "mcq_num": 4,
+                  "difficulty": "Medium",
+                  "question": "Factorised form of z^2 - 4z - 12 is:",
+                  "options": {
+                    "A": "(z+6)(z-2)",
+                    "B": "(z-6)(z+2)",
+                    "C": "(z-4)(z+3)",
+                    "D": "(z+4)(z-3)"
+                  },
+                  "answer": "B",
+                  "explanation": "Option (B) is correct based on the definition/theorem. Solution: ab=-12, a+b=-4 → a=-6, b=2."
+                },
+                {
+                  "mcq_num": 5,
+                  "difficulty": "Hard",
+                  "question": "Factorised form of 3m^2 + 9m + 6 is:",
+                  "options": {
+                    "A": "3(m+2)(m+3)",
+                    "B": "3(m+1)(m+6)",
+                    "C": "3(m+1)(m+2)",
+                    "D": "(3m+3)(m+2)"
+                  },
+                  "answer": "C",
+                  "explanation": "Option (C) is correct based on the definition/theorem. Solution: 3(m^2 + 3m + 2) = 3(m+1)(m+2)."
+                },
+                {
+                  "mcq_num": 6,
+                  "difficulty": "Hard",
+                  "question": "Factorised form of 2z^2 − z − 6 is:",
+                  "options": {
+                    "A": "(2z+3)(z−2)",
+                    "B": "(2z−3)(z+2)",
+                    "C": "(z−2)(2z+3)",
+                    "D": "Both A and C"
+                  },
+                  "answer": "D",
+                  "explanation": "The correct answer is (D) Both A and C. Solution: 2z^2−z−6 = 2z^2−4z+3z−6 = 2z(z−2)+3(z−2) = (z−2)(2z+3)."
+                }
+              ]
             }
           ]
         }
-      ],
-      "subtopics": []
+      ]
     },
     {
       "topic_num": "12.3",
       "topic_name": "DIVISION OF ALGEBRAIC EXPRESSIONS",
-      "mode": "B",
+      "mode": "A",
       "sections": [
         {
           "type": "definition",
@@ -1813,7 +1851,7 @@
         },
         {
           "type": "mcq",
-          "label": "MCQ",
+          "label": "TOPIC 12.3: MCQs:",
           "items": [
             {
               "mcq_num": 1,
@@ -1894,407 +1932,420 @@
               "explanation": "The correct answer is (A) 5x. Solution: 15x^2y / 3xy = (15/3) × (x^2/x) × (y/y) = 5x. ----"
             }
           ]
-        },
+        }
+      ],
+      "subtopics": [
         {
-          "type": "definition",
-          "label": "Definition:",
-          "text": "Division of a MONOMIAL by another MONOMIAL is done by writing both monomials\nin irreducible factor form and then cancelling the common factors."
-        },
-        {
-          "type": "key_points",
-          "label": "Key Points:",
-          "points": [
-            "Write both dividend and divisor in irreducible factor form.",
-            "Cancel common factors (like cancelling in numerical fractions).",
-            "The remaining factors in the numerator form the quotient.",
-            "If all factors cancel, the quotient is 1.",
-            "EXAMPLES: (textbook examples)",
-            "EXAMPLE 12.3.1.1: Dividing 6x^3 by 2x",
-            "PROBLEM: Divide 6x^3 by 2x.",
-            "SOLUTION:",
-            "Step 1: 6x^3 = 2 x 3 x x x x x x",
-            "2x = 2 x x",
-            "Step 2: Cancel 2 and x (common factors).",
-            "Step 3: Result = 3 x x x x = 3x^2.",
-            "ANSWER: 3x^2.",
-            "EXAMPLE 12.3.1.2: Dividing (-20x^4) by 10x^2 (Textbook Example 13, part i)",
-            "PROBLEM: Do the division: (-20x^4) / 10x^2.",
-            "SOLUTION:",
-            "Step 1: -20x^4 = -2 x 2 x 5 x x x x x x x x",
-            "10x^2 = 2 x 5 x x x x",
-            "Step 2: Cancel 2, 5, x, x.",
-            "Step 3: Result = -2 x x x x = -2x^2.",
-            "ANSWER: -2x^2.",
-            "EXAMPLE 12.3.1.3: Dividing 7x^2y^2z^2 by 14xyz (Textbook Example 13, part ii)",
-            "PROBLEM: Do the division: 7x^2y^2z^2 / 14xyz.",
-            "SOLUTION:",
-            "Step 1: 7x^2y^2z^2 = 7 x x x x x y x y x z x z",
-            "14xyz = 2 x 7 x x x y x z",
-            "Step 2: Cancel 7, x, y, z.",
-            "Step 3: Result = (x x y x z)/2 = (1/2)xyz.",
-            "ANSWER: (1/2)xyz.",
-            "TRY THESE / FIGURE IT OUT: (textbook practice boxes)",
-            "Q1: Divide (i) 24xy^2z^3 by 6yz^2   (ii) 63a^2b^4c^6 by 7a^2b^2c^3",
-            "A1:",
-            "(i) 24xy^2z^3 / 6yz^2 = (24/6) x (y^2/y) x (z^3/z^2) x x = 4xyz.",
-            "(ii) 63a^2b^4c^6 / 7a^2b^2c^3 = (63/7) x (b^4/b^2) x (c^6/c^3) = 9b^2c^3.",
-            "ADDITIONAL CALCULATIONS:",
-            "Problem 1: Divide 34x^3y^3z^3 by 51xy^2z^3.",
-            "Solution: (34/51) x (x^3/x) x (y^3/y^2) x (z^3/z^3)",
-            "= (2/3) x x^2 x y = (2/3)x^2y.",
-            "Answer: (2/3)x^2y.",
-            "Problem 2: Divide 12a^8b^4 by (-6a^6b^4).",
-            "Solution: (12/-6) x (a^8/a^6) x (b^4/b^4) = -2a^2.",
-            "Answer: -2a^2."
-          ]
-        },
-        {
-          "type": "qa",
-          "label": "SUB-TOPIC 12.3.1: Q&A:",
-          "items": []
-        },
-        {
-          "type": "qa",
-          "label": "Q&A",
-          "items": [
+          "subtopic_num": "12.3.1",
+          "subtopic_name": "Division of a Monomial by Another Monomial",
+          "sections": [
             {
-              "q_num": 1,
-              "marks": 2,
-              "question": "How do we divide a monomial by another monomial?",
-              "answer": "Write both in irreducible factor form, then cancel common factors.\nThe remaining factors in the numerator form the quotient."
+              "type": "definition",
+              "label": "Definition:",
+              "text": "Division of a MONOMIAL by another MONOMIAL is done by writing both monomials\nin irreducible factor form and then cancelling the common factors."
             },
             {
-              "q_num": 2,
-              "marks": 2,
-              "question": "Divide 6x^3 by 2x.",
-              "answer": "6x^3 = 2×3×x^3, 2x = 2×x.\nCancel 2 and x: result = 3x^2."
+              "type": "key_points",
+              "label": "Key Points:",
+              "points": [
+                "Write both dividend and divisor in irreducible factor form.",
+                "Cancel common factors (like cancelling in numerical fractions).",
+                "The remaining factors in the numerator form the quotient.",
+                "If all factors cancel, the quotient is 1.",
+                "EXAMPLES: (textbook examples)",
+                "EXAMPLE 12.3.1.1: Dividing 6x^3 by 2x",
+                "PROBLEM: Divide 6x^3 by 2x.",
+                "SOLUTION:",
+                "Step 1: 6x^3 = 2 x 3 x x x x x x",
+                "2x = 2 x x",
+                "Step 2: Cancel 2 and x (common factors).",
+                "Step 3: Result = 3 x x x x = 3x^2.",
+                "ANSWER: 3x^2.",
+                "EXAMPLE 12.3.1.2: Dividing (-20x^4) by 10x^2 (Textbook Example 13, part i)",
+                "PROBLEM: Do the division: (-20x^4) / 10x^2.",
+                "SOLUTION:",
+                "Step 1: -20x^4 = -2 x 2 x 5 x x x x x x x x",
+                "10x^2 = 2 x 5 x x x x",
+                "Step 2: Cancel 2, 5, x, x.",
+                "Step 3: Result = -2 x x x x = -2x^2.",
+                "ANSWER: -2x^2.",
+                "EXAMPLE 12.3.1.3: Dividing 7x^2y^2z^2 by 14xyz (Textbook Example 13, part ii)",
+                "PROBLEM: Do the division: 7x^2y^2z^2 / 14xyz.",
+                "SOLUTION:",
+                "Step 1: 7x^2y^2z^2 = 7 x x x x x y x y x z x z",
+                "14xyz = 2 x 7 x x x y x z",
+                "Step 2: Cancel 7, x, y, z.",
+                "Step 3: Result = (x x y x z)/2 = (1/2)xyz.",
+                "ANSWER: (1/2)xyz.",
+                "TRY THESE / FIGURE IT OUT: (textbook practice boxes)",
+                "Q1: Divide (i) 24xy^2z^3 by 6yz^2   (ii) 63a^2b^4c^6 by 7a^2b^2c^3",
+                "A1:",
+                "(i) 24xy^2z^3 / 6yz^2 = (24/6) x (y^2/y) x (z^3/z^2) x x = 4xyz.",
+                "(ii) 63a^2b^4c^6 / 7a^2b^2c^3 = (63/7) x (b^4/b^2) x (c^6/c^3) = 9b^2c^3.",
+                "ADDITIONAL CALCULATIONS:",
+                "Problem 1: Divide 34x^3y^3z^3 by 51xy^2z^3.",
+                "Solution: (34/51) x (x^3/x) x (y^3/y^2) x (z^3/z^3)",
+                "= (2/3) x x^2 x y = (2/3)x^2y.",
+                "Answer: (2/3)x^2y.",
+                "Problem 2: Divide 12a^8b^4 by (-6a^6b^4).",
+                "Solution: (12/-6) x (a^8/a^6) x (b^4/b^4) = -2a^2.",
+                "Answer: -2a^2."
+              ]
             },
             {
-              "q_num": 3,
-              "marks": 2,
-              "question": "Divide (−20x^4) by 10x^2.",
-              "answer": "−20x^4 / 10x^2 = (−20/10) × (x^4/x^2) = −2 × x^2 = −2x^2.\n\n---\n\n3 ಮಾರ್ಕ್ಸ್ × 2 questions:"
+              "type": "qa",
+              "label": "SUB-TOPIC 12.3.1: Q&A:",
+              "items": []
             },
             {
-              "q_num": 4,
-              "marks": 3,
-              "question": "Divide 7x^2y^2z^2 by 14xyz.",
-              "answer": "Step 1: 7x^2y^2z^2 = 7×x×x×y×y×z×z, 14xyz = 2×7×x×y×z.\nStep 2: Cancel 7, x, y, z.\nStep 3: Result = (x×y×z)/2 = (1/2)xyz.\nAnswer: (1/2)xyz."
+              "type": "qa",
+              "label": "Q&A",
+              "items": [
+                {
+                  "q_num": 1,
+                  "marks": 2,
+                  "question": "How do we divide a monomial by another monomial?",
+                  "answer": "Write both in irreducible factor form, then cancel common factors.\nThe remaining factors in the numerator form the quotient."
+                },
+                {
+                  "q_num": 2,
+                  "marks": 2,
+                  "question": "Divide 6x^3 by 2x.",
+                  "answer": "6x^3 = 2×3×x^3, 2x = 2×x.\nCancel 2 and x: result = 3x^2."
+                },
+                {
+                  "q_num": 3,
+                  "marks": 2,
+                  "question": "Divide (−20x^4) by 10x^2.",
+                  "answer": "−20x^4 / 10x^2 = (−20/10) × (x^4/x^2) = −2 × x^2 = −2x^2.\n\n---\n\n3 ಮಾರ್ಕ್ಸ್ × 2 questions:"
+                },
+                {
+                  "q_num": 4,
+                  "marks": 3,
+                  "question": "Divide 7x^2y^2z^2 by 14xyz.",
+                  "answer": "Step 1: 7x^2y^2z^2 = 7×x×x×y×y×z×z, 14xyz = 2×7×x×y×z.\nStep 2: Cancel 7, x, y, z.\nStep 3: Result = (x×y×z)/2 = (1/2)xyz.\nAnswer: (1/2)xyz."
+                },
+                {
+                  "q_num": 5,
+                  "marks": 3,
+                  "question": "Divide 34x^3y^3z^3 by 51xy^2z^3.",
+                  "answer": "Step 1: 34/51 = 2/3. x^3/x = x^2. y^3/y^2 = y. z^3/z^3 = 1.\nStep 2: 34x^3y^3z^3/51xy^2z^3 = (2/3) × x^2 × y × 1 = (2/3)x^2y.\nStep 3: Verify: 51xy^2z^3 × (2/3)x^2y = 51 × (2/3) × x^3y^3z^3 = 34x^3y^3z^3 ✓.\nAnswer: (2/3)x^2y.\n\n---\n\n4 ಮಾರ್ಕ್ಸ್ × 2 questions:"
+                },
+                {
+                  "q_num": 6,
+                  "marks": 4,
+                  "question": "Divide: (i) 24xy^2z^3 by 6yz^2   (ii) 63a^2b^4c^6 by 7a^2b^2c^3",
+                  "answer": "Step 1: (i) 24/6=4. x stays. y^2/y=y. z^3/z^2=z.\n24xy^2z^3 / 6yz^2 = 4xyz.\nStep 2: Verify: 6yz^2 × 4xyz = 24xy^2z^3 ✓.\nStep 3: (ii) 63/7=9. a^2/a^2=1. b^4/b^2=b^2. c^6/c^3=c^3.\n63a^2b^4c^6 / 7a^2b^2c^3 = 9b^2c^3.\nStep 4: Verify: 7a^2b^2c^3 × 9b^2c^3 = 63a^2b^4c^6 ✓.\nAnswer: (i) 4xyz.  (ii) 9b^2c^3."
+                },
+                {
+                  "q_num": 7,
+                  "marks": 4,
+                  "question": "Divide: (i) 28x^4 by 56x  (ii) −12a^8b^4 by −6a^6b^4",
+                  "answer": "Step 1: (i) 28x^4/56x = (28/56) × x^3 = (1/2)x^3.\nStep 2: (ii) −12a^8b^4/(−6a^6b^4) = (−12/−6) × a^2 × 1 = 2a^2.\nStep 3: (iii) Divide each term: p^3q^6/p^2q^2 = pq^4. p^6q^3/p^2q^2 = p^4q.\n(p^3q^6 − p^6q^3)/p^2q^2 = pq^4 − p^4q = pq(q^3 − p^3).\nStep 4: Verify (ii): −6a^6b^4 × 2a^2 = −12a^8b^4 ✓.\nAnswer: (i) (1/2)x^3. (ii) 2a^2. (iii) pq(q^3 − p^3).\n\n---\n\n5 ಮಾರ್ಕ್ಸ್ × 1 question:"
+                },
+                {
+                  "q_num": 8,
+                  "marks": 5,
+                  "question": "",
+                  "answer": "PART A — Three divisions:\n(i) 36x^3y^2 / 9x^2y = (36/9) × x × y = 4xy.\n(ii) −54a^4b^3c^2 / 9a^2bc = (−54/9) × a^2 × b^2 × c = −6a^2b^2c.\n(iii) 12p^2q^3r / 4pqr = (12/4) × p × q^2 × 1 = 3pq^2.\n\nPART B — Speed × Time = Distance:\nStep 1: Distance = speed × time = 180x^3y^2 × 30xy.\nHmm — re-read: distance/time = speed. Distance = speed × time.\nBut the question says speed = 180x^3y^2 ÷ 30xy.\nSpeed = 180x^3y^2 / 30xy = 6x^2y.\nStep 2: When x=2, y=1: speed = 6×4×1 = 24 km/h.\nDistance = speed × time = 24 × 30(2)(1) = 24 × 60 = 1440 km.\nAnswer (Part A): (i) 4xy. (ii) −6a^2b^2c. (iii) 3pq^2.\nAnswer (Part B): Speed = 6x^2y. When x=2, y=1: speed = 24 km/h."
+                }
+              ]
             },
             {
-              "q_num": 5,
-              "marks": 3,
-              "question": "Divide 34x^3y^3z^3 by 51xy^2z^3.",
-              "answer": "Step 1: 34/51 = 2/3. x^3/x = x^2. y^3/y^2 = y. z^3/z^3 = 1.\nStep 2: 34x^3y^3z^3/51xy^2z^3 = (2/3) × x^2 × y × 1 = (2/3)x^2y.\nStep 3: Verify: 51xy^2z^3 × (2/3)x^2y = 51 × (2/3) × x^3y^3z^3 = 34x^3y^3z^3 ✓.\nAnswer: (2/3)x^2y.\n\n---\n\n4 ಮಾರ್ಕ್ಸ್ × 2 questions:"
-            },
-            {
-              "q_num": 6,
-              "marks": 4,
-              "question": "Divide: (i) 24xy^2z^3 by 6yz^2   (ii) 63a^2b^4c^6 by 7a^2b^2c^3",
-              "answer": "Step 1: (i) 24/6=4. x stays. y^2/y=y. z^3/z^2=z.\n24xy^2z^3 / 6yz^2 = 4xyz.\nStep 2: Verify: 6yz^2 × 4xyz = 24xy^2z^3 ✓.\nStep 3: (ii) 63/7=9. a^2/a^2=1. b^4/b^2=b^2. c^6/c^3=c^3.\n63a^2b^4c^6 / 7a^2b^2c^3 = 9b^2c^3.\nStep 4: Verify: 7a^2b^2c^3 × 9b^2c^3 = 63a^2b^4c^6 ✓.\nAnswer: (i) 4xyz.  (ii) 9b^2c^3."
-            },
-            {
-              "q_num": 7,
-              "marks": 4,
-              "question": "Divide: (i) 28x^4 by 56x  (ii) −12a^8b^4 by −6a^6b^4",
-              "answer": "Step 1: (i) 28x^4/56x = (28/56) × x^3 = (1/2)x^3.\nStep 2: (ii) −12a^8b^4/(−6a^6b^4) = (−12/−6) × a^2 × 1 = 2a^2.\nStep 3: (iii) Divide each term: p^3q^6/p^2q^2 = pq^4. p^6q^3/p^2q^2 = p^4q.\n(p^3q^6 − p^6q^3)/p^2q^2 = pq^4 − p^4q = pq(q^3 − p^3).\nStep 4: Verify (ii): −6a^6b^4 × 2a^2 = −12a^8b^4 ✓.\nAnswer: (i) (1/2)x^3. (ii) 2a^2. (iii) pq(q^3 − p^3).\n\n---\n\n5 ಮಾರ್ಕ್ಸ್ × 1 question:"
-            },
-            {
-              "q_num": 8,
-              "marks": 5,
-              "question": "",
-              "answer": "PART A — Three divisions:\n(i) 36x^3y^2 / 9x^2y = (36/9) × x × y = 4xy.\n(ii) −54a^4b^3c^2 / 9a^2bc = (−54/9) × a^2 × b^2 × c = −6a^2b^2c.\n(iii) 12p^2q^3r / 4pqr = (12/4) × p × q^2 × 1 = 3pq^2.\n\nPART B — Speed × Time = Distance:\nStep 1: Distance = speed × time = 180x^3y^2 × 30xy.\nHmm — re-read: distance/time = speed. Distance = speed × time.\nBut the question says speed = 180x^3y^2 ÷ 30xy.\nSpeed = 180x^3y^2 / 30xy = 6x^2y.\nStep 2: When x=2, y=1: speed = 6×4×1 = 24 km/h.\nDistance = speed × time = 24 × 30(2)(1) = 24 × 60 = 1440 km.\nAnswer (Part A): (i) 4xy. (ii) −6a^2b^2c. (iii) 3pq^2.\nAnswer (Part B): Speed = 6x^2y. When x=2, y=1: speed = 24 km/h."
+              "type": "mcq",
+              "label": "SUB-TOPIC 12.3.1: MCQs:",
+              "items": [
+                {
+                  "mcq_num": 1,
+                  "difficulty": "Easy",
+                  "question": "(-20x^4) / 10x^2 equals:",
+                  "options": {
+                    "A": "-2x^2",
+                    "B": "2x^2",
+                    "C": "-2x^6",
+                    "D": "10x^2"
+                  },
+                  "answer": "A",
+                  "explanation": "The correct answer is (A) -2x^2. Solution: (-20/10) x (x^4/x^2) = -2x^2."
+                },
+                {
+                  "mcq_num": 2,
+                  "difficulty": "Easy",
+                  "question": "7x^2y^2z^2 / 14xyz equals:",
+                  "options": {
+                    "A": "(1/2)xyz",
+                    "B": "2xyz",
+                    "C": "xyz/14",
+                    "D": "7xyz"
+                  },
+                  "answer": "A",
+                  "explanation": "Option (A) is correct based on the definition/theorem. Solution: (7/14) x x x y x z = (1/2)xyz."
+                },
+                {
+                  "mcq_num": 3,
+                  "difficulty": "Medium",
+                  "question": "Division of monomials is done by:",
+                  "options": {
+                    "A": "Adding powers of like terms",
+                    "B": "Writing in irreducible form and cancelling common factors",
+                    "C": "Subtracting all coefficients",
+                    "D": "Multiplying all variables"
+                  },
+                  "answer": "B",
+                  "explanation": "We write both in irreducible factor form and cancel common factors."
+                },
+                {
+                  "mcq_num": 4,
+                  "difficulty": "Easy",
+                  "question": "36x^3y^2 ÷ 9x^2y equals:",
+                  "options": {
+                    "A": "4xy",
+                    "B": "4x^2y^2",
+                    "C": "4y",
+                    "D": "9xy"
+                  },
+                  "answer": "A",
+                  "explanation": "The correct answer is (A) 4xy. Solution: (36/9)×(x^3/x^2)×(y^2/y) = 4×x×y = 4xy."
+                },
+                {
+                  "mcq_num": 5,
+                  "difficulty": "Medium",
+                  "question": "−54a^4b^3c^2 ÷ 9a^2bc equals:",
+                  "options": {
+                    "A": "−6a^2b^2c",
+                    "B": "6a^2b^2c",
+                    "C": "−6a^2b^3c^2",
+                    "D": "−6a^6b^4c^3"
+                  },
+                  "answer": "A",
+                  "explanation": "The correct answer is (A) −6a^2b^2c. Solution: (−54/9)×(a^4/a^2)×(b^3/b)×(c^2/c) = −6×a^2×b^2×c = −6a^2b^2c."
+                },
+                {
+                  "mcq_num": 6,
+                  "difficulty": "Hard",
+                  "question": "24xy^2z^3 ÷ 6yz^2 equals:",
+                  "options": {
+                    "A": "4xyz",
+                    "B": "4xy^3z",
+                    "C": "4xz",
+                    "D": "18xy^3z"
+                  },
+                  "answer": "A",
+                  "explanation": "The correct answer is (A) 4xyz. Solution: (24/6)×x×(y^2/y)×(z^3/z^2) = 4×x×y×z = 4xyz. ----"
+                }
+              ]
             }
           ]
         },
         {
-          "type": "mcq",
-          "label": "MCQ",
-          "items": [
+          "subtopic_num": "12.3.2",
+          "subtopic_name": "Division of a Polynomial by a Monomial",
+          "sections": [
             {
-              "mcq_num": 1,
-              "difficulty": "Easy",
-              "question": "(-20x^4) / 10x^2 equals:",
-              "options": {
-                "A": "-2x^2",
-                "B": "2x^2",
-                "C": "-2x^6",
-                "D": "10x^2"
-              },
-              "answer": "A",
-              "explanation": "The correct answer is (A) -2x^2. Solution: (-20/10) x (x^4/x^2) = -2x^2."
+              "type": "definition",
+              "label": "Definition:",
+              "text": "Division of a POLYNOMIAL by a MONOMIAL is done by dividing EACH TERM of the\npolynomial separately by the monomial (Method 1), or by factorising the\npolynomial to identify and cancel the monomial as a common factor (Method 2)."
             },
             {
-              "mcq_num": 2,
-              "difficulty": "Easy",
-              "question": "7x^2y^2z^2 / 14xyz equals:",
-              "options": {
-                "A": "(1/2)xyz",
-                "B": "2xyz",
-                "C": "xyz/14",
-                "D": "7xyz"
-              },
-              "answer": "A",
-              "explanation": "Option (A) is correct based on the definition/theorem. Solution: (7/14) x x x y x z = (1/2)xyz."
+              "type": "key_points",
+              "label": "Key Points:",
+              "points": [
+                "Method 1 (Term by term): Divide each term of the polynomial by the monomial.",
+                "(T1 + T2 + T3) / m = T1/m + T2/m + T3/m.",
+                "Method 2 (Common factor): Factorise polynomial — if monomial appears as a",
+                "common factor, cancel it directly.",
+                "Both methods give the same result.",
+                "Method 2 is more elegant when the polynomial has a clean common factor.",
+                "EXAMPLES: (textbook examples)",
+                "EXAMPLE 12.3.2.1: Dividing 4y^3 + 5y^2 + 6y by 2y",
+                "PROBLEM: Divide (4y^3 + 5y^2 + 6y) by 2y.",
+                "SOLUTION:",
+                "Method 1 (term by term):",
+                "4y^3/2y = 2y^2",
+                "5y^2/2y = (5/2)y",
+                "6y/2y = 3",
+                "Result = 2y^2 + (5/2)y + 3.",
+                "Method 2 (common factor):",
+                "4y^3 + 5y^2 + 6y = 2y(2y^2 + (5/2)y + 3).",
+                "Cancel 2y: result = 2y^2 + (5/2)y + 3. (Same answer ✓)",
+                "ANSWER: 2y^2 + (5/2)y + 3.",
+                "EXAMPLE 12.3.2.2: Dividing 24(x^2yz + xy^2z + xyz^2) by 8xyz (Textbook Example 14)",
+                "PROBLEM: Divide 24(x^2yz + xy^2z + xyz^2) by 8xyz using both methods.",
+                "SOLUTION:",
+                "Method 2 (factorisation):",
+                "24(x^2yz + xy^2z + xyz^2)",
+                "= 2 x 2 x 2 x 3 x xyz x (x + y + z)",
+                "= 8 x 3 x xyz x (x + y + z)",
+                "= 24xyz(x + y + z).",
+                "Divide by 8xyz: 24xyz(x+y+z)/8xyz = 3(x + y + z).",
+                "Method 1 (term by term):",
+                "24x^2yz/8xyz = 3x",
+                "24xy^2z/8xyz = 3y",
+                "24xyz^2/8xyz = 3z",
+                "Sum = 3x + 3y + 3z = 3(x + y + z). ✓",
+                "ANSWER: 3(x + y + z).",
+                "ADDITIONAL CALCULATIONS:",
+                "Problem 1: Divide (5x^2 - 6x) by 3x.",
+                "Solution:",
+                "5x^2/3x = 5x/3",
+                "6x/3x = -2",
+                "Result = (5x/3) - 2.",
+                "Answer: (5x/3) - 2.",
+                "Problem 2: Divide (3y^8 - 4y^6 + 5y^4) by y^4.",
+                "Solution:",
+                "3y^8/y^4 = 3y^4",
+                "4y^6/y^4 = -4y^2",
+                "5y^4/y^4 = 5",
+                "Result = 3y^4 - 4y^2 + 5.",
+                "Answer: 3y^4 - 4y^2 + 5."
+              ]
             },
             {
-              "mcq_num": 3,
-              "difficulty": "Medium",
-              "question": "Division of monomials is done by:",
-              "options": {
-                "A": "Adding powers of like terms",
-                "B": "Writing in irreducible form and cancelling common factors",
-                "C": "Subtracting all coefficients",
-                "D": "Multiplying all variables"
-              },
-              "answer": "B",
-              "explanation": "We write both in irreducible factor form and cancel common factors."
+              "type": "qa",
+              "label": "SUB-TOPIC 12.3.2: Q&A:",
+              "items": []
             },
             {
-              "mcq_num": 4,
-              "difficulty": "Easy",
-              "question": "36x^3y^2 ÷ 9x^2y equals:",
-              "options": {
-                "A": "4xy",
-                "B": "4x^2y^2",
-                "C": "4y",
-                "D": "9xy"
-              },
-              "answer": "A",
-              "explanation": "The correct answer is (A) 4xy. Solution: (36/9)×(x^3/x^2)×(y^2/y) = 4×x×y = 4xy."
+              "type": "qa",
+              "label": "Q&A",
+              "items": [
+                {
+                  "q_num": 1,
+                  "marks": 2,
+                  "question": "What are the two methods for dividing a polynomial by a monomial?",
+                  "answer": "Method 1: Divide each term of the polynomial separately by the monomial.\nMethod 2: Factorise the polynomial, identify the monomial as a common factor,\nand cancel it."
+                },
+                {
+                  "q_num": 2,
+                  "marks": 2,
+                  "question": "Divide (4y^3 + 5y^2 + 6y) by 2y.",
+                  "answer": "4y^3/2y + 5y^2/2y + 6y/2y = 2y^2 + (5/2)y + 3."
+                },
+                {
+                  "q_num": 3,
+                  "marks": 2,
+                  "question": "Divide (5x^2 − 6x) by x.",
+                  "answer": "5x^2/x − 6x/x = 5x − 6.\n\n---\n\n3 ಮಾರ್ಕ್ಸ್ × 2 questions:"
+                },
+                {
+                  "q_num": 4,
+                  "marks": 3,
+                  "question": "Divide 24(x^2yz + xy^2z + xyz^2) by 8xyz.",
+                  "answer": "Step 1: Factorise: 24(x^2yz+xy^2z+xyz^2) = 24xyz(x+y+z).\nStep 2: Divide by 8xyz: 24xyz(x+y+z)/8xyz = 3(x+y+z).\nStep 3: Verify: 8xyz × 3(x+y+z) = 24xyz(x+y+z) = 24(x^2yz+xy^2z+xyz^2) ✓.\nAnswer: 3(x + y + z)."
+                },
+                {
+                  "q_num": 5,
+                  "marks": 3,
+                  "question": "Divide (3y^8 − 4y^6 + 5y^4) by y^4.",
+                  "answer": "Step 1: 3y^8/y^4 = 3y^4.\nStep 2: −4y^6/y^4 = −4y^2.\nStep 3: 5y^4/y^4 = 5.\nAnswer: 3y^4 − 4y^2 + 5.\n\n---\n\n4 ಮಾರ್ಕ್ಸ್ × 2 questions:"
+                },
+                {
+                  "q_num": 6,
+                  "marks": 4,
+                  "question": "Divide using Method 1 and verify with Method 2:",
+                  "answer": "Step 1: Method 1 (term by term):\n8x^3y^2/4x^2y = 2xy, 4x^2y^3/4x^2y = y^2.\nResult = 2xy + y^2.\nStep 2: Method 2 (factorisation):\n8x^3y^2 + 4x^2y^3 = 4x^2y(2xy + y^2). [HCF = 4x^2y]\nDivide by 4x^2y: 2xy + y^2. ✓\nStep 3: Both methods agree ✓.\nStep 4: Further: 2xy + y^2 = y(2x + y). So the result can also be written y(2x+y).\nAnswer: 2xy + y^2 = y(2x + y)."
+                },
+                {
+                  "q_num": 7,
+                  "marks": 4,
+                  "question": "The area of a rectangle is (x^3 + 2x^2 + 3x). One side (breadth) is x.",
+                  "answer": "Step 1: Area = length × breadth. Breadth = x.\nStep 2: Length = (x^3 + 2x^2 + 3x) ÷ x.\n= x^3/x + 2x^2/x + 3x/x = x^2 + 2x + 3.\nStep 3: Perimeter = 2(length + breadth)\n= 2(x^2 + 2x + 3 + x) = 2(x^2 + 3x + 3).\nStep 4: Verify: x × (x^2+2x+3) = x^3+2x^2+3x ✓.\nAnswer: Length = (x^2 + 2x + 3). Perimeter = 2(x^2 + 3x + 3).\n\n---\n\n5 ಮಾರ್ಕ್ಸ್ × 1 question:"
+                },
+                {
+                  "q_num": 8,
+                  "marks": 5,
+                  "question": "",
+                  "answer": "PART A — Both methods:\nMethod 1 (term by term):\n4y^3/2y = 2y^2.\n5y^2/2y = (5/2)y.\n6y/2y = 3.\nResult = 2y^2 + (5/2)y + 3. ✓\n\nMethod 2 (common factor):\n4y^3 + 5y^2 + 6y = 2y × 2y^2 + 2y × (5/2)y + 2y × 3 = 2y(2y^2 + (5/2)y + 3).\nCancel 2y: Result = 2y^2 + (5/2)y + 3. ✓\nBoth methods give: 2y^2 + (5/2)y + 3. ✓\n\nPART B — Cuboid height:\nStep 1: Base area = 3a × b = 3ab. Volume = base area × height.\nStep 2: Height = Volume ÷ base area = (12a^2b + 15ab^2) ÷ 3ab.\nStep 3: Factorise numerator: 12a^2b+15ab^2 = 3ab(4a+5b).\nHeight = 3ab(4a+5b) / 3ab = (4a + 5b).\nStep 4: When a=3, b=2:\nHeight = 4(3)+5(2) = 12+10 = 22 cm.\nVerify: Volume = 12(9)(2)+15(3)(4) = 216+180 = 396.\nBase × height = 3(3)(2) × 22 = 18 × 22 = 396 ✓.\nAnswer: Height = (4a + 5b). When a=3, b=2: height = 22 cm."
+                }
+              ]
             },
             {
-              "mcq_num": 5,
-              "difficulty": "Medium",
-              "question": "−54a^4b^3c^2 ÷ 9a^2bc equals:",
-              "options": {
-                "A": "−6a^2b^2c",
-                "B": "6a^2b^2c",
-                "C": "−6a^2b^3c^2",
-                "D": "−6a^6b^4c^3"
-              },
-              "answer": "A",
-              "explanation": "The correct answer is (A) −6a^2b^2c. Solution: (−54/9)×(a^4/a^2)×(b^3/b)×(c^2/c) = −6×a^2×b^2×c = −6a^2b^2c."
-            },
-            {
-              "mcq_num": 6,
-              "difficulty": "Hard",
-              "question": "24xy^2z^3 ÷ 6yz^2 equals:",
-              "options": {
-                "A": "4xyz",
-                "B": "4xy^3z",
-                "C": "4xz",
-                "D": "18xy^3z"
-              },
-              "answer": "A",
-              "explanation": "The correct answer is (A) 4xyz. Solution: (24/6)×x×(y^2/y)×(z^3/z^2) = 4×x×y×z = 4xyz. ----"
-            }
-          ]
-        },
-        {
-          "type": "definition",
-          "label": "Definition:",
-          "text": "Division of a POLYNOMIAL by a MONOMIAL is done by dividing EACH TERM of the\npolynomial separately by the monomial (Method 1), or by factorising the\npolynomial to identify and cancel the monomial as a common factor (Method 2)."
-        },
-        {
-          "type": "key_points",
-          "label": "Key Points:",
-          "points": [
-            "Method 1 (Term by term): Divide each term of the polynomial by the monomial.",
-            "(T1 + T2 + T3) / m = T1/m + T2/m + T3/m.",
-            "Method 2 (Common factor): Factorise polynomial — if monomial appears as a",
-            "common factor, cancel it directly.",
-            "Both methods give the same result.",
-            "Method 2 is more elegant when the polynomial has a clean common factor.",
-            "EXAMPLES: (textbook examples)",
-            "EXAMPLE 12.3.2.1: Dividing 4y^3 + 5y^2 + 6y by 2y",
-            "PROBLEM: Divide (4y^3 + 5y^2 + 6y) by 2y.",
-            "SOLUTION:",
-            "Method 1 (term by term):",
-            "4y^3/2y = 2y^2",
-            "5y^2/2y = (5/2)y",
-            "6y/2y = 3",
-            "Result = 2y^2 + (5/2)y + 3.",
-            "Method 2 (common factor):",
-            "4y^3 + 5y^2 + 6y = 2y(2y^2 + (5/2)y + 3).",
-            "Cancel 2y: result = 2y^2 + (5/2)y + 3. (Same answer ✓)",
-            "ANSWER: 2y^2 + (5/2)y + 3.",
-            "EXAMPLE 12.3.2.2: Dividing 24(x^2yz + xy^2z + xyz^2) by 8xyz (Textbook Example 14)",
-            "PROBLEM: Divide 24(x^2yz + xy^2z + xyz^2) by 8xyz using both methods.",
-            "SOLUTION:",
-            "Method 2 (factorisation):",
-            "24(x^2yz + xy^2z + xyz^2)",
-            "= 2 x 2 x 2 x 3 x xyz x (x + y + z)",
-            "= 8 x 3 x xyz x (x + y + z)",
-            "= 24xyz(x + y + z).",
-            "Divide by 8xyz: 24xyz(x+y+z)/8xyz = 3(x + y + z).",
-            "Method 1 (term by term):",
-            "24x^2yz/8xyz = 3x",
-            "24xy^2z/8xyz = 3y",
-            "24xyz^2/8xyz = 3z",
-            "Sum = 3x + 3y + 3z = 3(x + y + z). ✓",
-            "ANSWER: 3(x + y + z).",
-            "ADDITIONAL CALCULATIONS:",
-            "Problem 1: Divide (5x^2 - 6x) by 3x.",
-            "Solution:",
-            "5x^2/3x = 5x/3",
-            "6x/3x = -2",
-            "Result = (5x/3) - 2.",
-            "Answer: (5x/3) - 2.",
-            "Problem 2: Divide (3y^8 - 4y^6 + 5y^4) by y^4.",
-            "Solution:",
-            "3y^8/y^4 = 3y^4",
-            "4y^6/y^4 = -4y^2",
-            "5y^4/y^4 = 5",
-            "Result = 3y^4 - 4y^2 + 5.",
-            "Answer: 3y^4 - 4y^2 + 5."
-          ]
-        },
-        {
-          "type": "qa",
-          "label": "SUB-TOPIC 12.3.2: Q&A:",
-          "items": []
-        },
-        {
-          "type": "qa",
-          "label": "Q&A",
-          "items": [
-            {
-              "q_num": 1,
-              "marks": 2,
-              "question": "What are the two methods for dividing a polynomial by a monomial?",
-              "answer": "Method 1: Divide each term of the polynomial separately by the monomial.\nMethod 2: Factorise the polynomial, identify the monomial as a common factor,\nand cancel it."
-            },
-            {
-              "q_num": 2,
-              "marks": 2,
-              "question": "Divide (4y^3 + 5y^2 + 6y) by 2y.",
-              "answer": "4y^3/2y + 5y^2/2y + 6y/2y = 2y^2 + (5/2)y + 3."
-            },
-            {
-              "q_num": 3,
-              "marks": 2,
-              "question": "Divide (5x^2 − 6x) by x.",
-              "answer": "5x^2/x − 6x/x = 5x − 6.\n\n---\n\n3 ಮಾರ್ಕ್ಸ್ × 2 questions:"
-            },
-            {
-              "q_num": 4,
-              "marks": 3,
-              "question": "Divide 24(x^2yz + xy^2z + xyz^2) by 8xyz.",
-              "answer": "Step 1: Factorise: 24(x^2yz+xy^2z+xyz^2) = 24xyz(x+y+z).\nStep 2: Divide by 8xyz: 24xyz(x+y+z)/8xyz = 3(x+y+z).\nStep 3: Verify: 8xyz × 3(x+y+z) = 24xyz(x+y+z) = 24(x^2yz+xy^2z+xyz^2) ✓.\nAnswer: 3(x + y + z)."
-            },
-            {
-              "q_num": 5,
-              "marks": 3,
-              "question": "Divide (3y^8 − 4y^6 + 5y^4) by y^4.",
-              "answer": "Step 1: 3y^8/y^4 = 3y^4.\nStep 2: −4y^6/y^4 = −4y^2.\nStep 3: 5y^4/y^4 = 5.\nAnswer: 3y^4 − 4y^2 + 5.\n\n---\n\n4 ಮಾರ್ಕ್ಸ್ × 2 questions:"
-            },
-            {
-              "q_num": 6,
-              "marks": 4,
-              "question": "Divide using Method 1 and verify with Method 2:",
-              "answer": "Step 1: Method 1 (term by term):\n8x^3y^2/4x^2y = 2xy, 4x^2y^3/4x^2y = y^2.\nResult = 2xy + y^2.\nStep 2: Method 2 (factorisation):\n8x^3y^2 + 4x^2y^3 = 4x^2y(2xy + y^2). [HCF = 4x^2y]\nDivide by 4x^2y: 2xy + y^2. ✓\nStep 3: Both methods agree ✓.\nStep 4: Further: 2xy + y^2 = y(2x + y). So the result can also be written y(2x+y).\nAnswer: 2xy + y^2 = y(2x + y)."
-            },
-            {
-              "q_num": 7,
-              "marks": 4,
-              "question": "The area of a rectangle is (x^3 + 2x^2 + 3x). One side (breadth) is x.",
-              "answer": "Step 1: Area = length × breadth. Breadth = x.\nStep 2: Length = (x^3 + 2x^2 + 3x) ÷ x.\n= x^3/x + 2x^2/x + 3x/x = x^2 + 2x + 3.\nStep 3: Perimeter = 2(length + breadth)\n= 2(x^2 + 2x + 3 + x) = 2(x^2 + 3x + 3).\nStep 4: Verify: x × (x^2+2x+3) = x^3+2x^2+3x ✓.\nAnswer: Length = (x^2 + 2x + 3). Perimeter = 2(x^2 + 3x + 3).\n\n---\n\n5 ಮಾರ್ಕ್ಸ್ × 1 question:"
-            },
-            {
-              "q_num": 8,
-              "marks": 5,
-              "question": "",
-              "answer": "PART A — Both methods:\nMethod 1 (term by term):\n4y^3/2y = 2y^2.\n5y^2/2y = (5/2)y.\n6y/2y = 3.\nResult = 2y^2 + (5/2)y + 3. ✓\n\nMethod 2 (common factor):\n4y^3 + 5y^2 + 6y = 2y × 2y^2 + 2y × (5/2)y + 2y × 3 = 2y(2y^2 + (5/2)y + 3).\nCancel 2y: Result = 2y^2 + (5/2)y + 3. ✓\nBoth methods give: 2y^2 + (5/2)y + 3. ✓\n\nPART B — Cuboid height:\nStep 1: Base area = 3a × b = 3ab. Volume = base area × height.\nStep 2: Height = Volume ÷ base area = (12a^2b + 15ab^2) ÷ 3ab.\nStep 3: Factorise numerator: 12a^2b+15ab^2 = 3ab(4a+5b).\nHeight = 3ab(4a+5b) / 3ab = (4a + 5b).\nStep 4: When a=3, b=2:\nHeight = 4(3)+5(2) = 12+10 = 22 cm.\nVerify: Volume = 12(9)(2)+15(3)(4) = 216+180 = 396.\nBase × height = 3(3)(2) × 22 = 18 × 22 = 396 ✓.\nAnswer: Height = (4a + 5b). When a=3, b=2: height = 22 cm."
-            }
-          ]
-        },
-        {
-          "type": "mcq",
-          "label": "MCQ",
-          "items": [
-            {
-              "mcq_num": 1,
-              "difficulty": "Easy",
-              "question": "(4y^3 + 5y^2 + 6y) / 2y equals:",
-              "options": {
-                "A": "2y^2 + (5/2)y + 3",
-                "B": "4y^2 + 5y + 6",
-                "C": "2y^3 + 5y^2 + 6y",
-                "D": "2y + 5/2 + 3/y"
-              },
-              "answer": "A",
-              "explanation": "Option (A) is correct based on the definition/theorem. Solution: Divide each term: 4y^3/2y=2y^2, 5y^2/2y=(5/2)y, 6y/2y=3."
-            },
-            {
-              "mcq_num": 2,
-              "difficulty": "Easy",
-              "question": "To divide a polynomial by a monomial using Method 1, we:",
-              "options": {
-                "A": "Factorise the polynomial first",
-                "B": "Divide each term of the polynomial by the monomial",
-                "C": "Cancel the entire polynomial with the monomial",
-                "D": "Multiply both by the monomial"
-              },
-              "answer": "B",
-              "explanation": "Method 1 divides each term separately by the monomial."
-            },
-            {
-              "mcq_num": 3,
-              "difficulty": "Medium",
-              "question": "Result of dividing 24(x^2yz + xy^2z + xyz^2) by 8xyz is:",
-              "options": {
-                "A": "3xyz",
-                "B": "3(x+y+z)",
-                "C": "3(xy+yz+xz)",
-                "D": "8(x+y+z)"
-              },
-              "answer": "B",
-              "explanation": "Option (B) is correct based on the definition/theorem. Solution: 24xyz(x+y+z)/8xyz = 3(x+y+z)."
-            },
-            {
-              "mcq_num": 4,
-              "difficulty": "Easy",
-              "question": "(5x^2 − 10x) ÷ 5x equals:",
-              "options": {
-                "A": "x − 2",
-                "B": "x + 2",
-                "C": "5(x−2)",
-                "D": "x^2 − 2"
-              },
-              "answer": "A",
-              "explanation": "The correct answer is (A) x − 2. Solution: 5x^2/5x − 10x/5x = x − 2."
-            },
-            {
-              "mcq_num": 5,
-              "difficulty": "Medium",
-              "question": "The area of a rectangle is (x^3 + 2x^2 + 3x) and breadth is x. The length is:",
-              "options": {
-                "A": "x^2 + 2x",
-                "B": "x^2 + 2x + 3",
-                "C": "x + 2 + 3",
-                "D": "x^3 + 2x"
-              },
-              "answer": "B",
-              "explanation": "The correct answer is (B) x^2 + 2x + 3. Solution: (x^3+2x^2+3x)/x = x^2 + 2x + 3."
-            },
-            {
-              "mcq_num": 6,
-              "difficulty": "Hard",
-              "question": "(3y^8 − 4y^6 + 5y^4) ÷ y^4 equals:",
-              "options": {
-                "A": "3y^4 − 4y^2 + 5",
-                "B": "3y^2 − 4y + 5",
-                "C": "3y^4 − 4y^2",
-                "D": "3y^4"
-              },
-              "answer": "A",
-              "explanation": "The correct answer is (A) 3y^4 − 4y^2 + 5. Solution: 3y^8/y^4=3y^4, −4y^6/y^4=−4y^2, 5y^4/y^4=5. Result=3y^4−4y^2+5."
+              "type": "mcq",
+              "label": "SUB-TOPIC 12.3.2: MCQs:",
+              "items": [
+                {
+                  "mcq_num": 1,
+                  "difficulty": "Easy",
+                  "question": "(4y^3 + 5y^2 + 6y) / 2y equals:",
+                  "options": {
+                    "A": "2y^2 + (5/2)y + 3",
+                    "B": "4y^2 + 5y + 6",
+                    "C": "2y^3 + 5y^2 + 6y",
+                    "D": "2y + 5/2 + 3/y"
+                  },
+                  "answer": "A",
+                  "explanation": "Option (A) is correct based on the definition/theorem. Solution: Divide each term: 4y^3/2y=2y^2, 5y^2/2y=(5/2)y, 6y/2y=3."
+                },
+                {
+                  "mcq_num": 2,
+                  "difficulty": "Easy",
+                  "question": "To divide a polynomial by a monomial using Method 1, we:",
+                  "options": {
+                    "A": "Factorise the polynomial first",
+                    "B": "Divide each term of the polynomial by the monomial",
+                    "C": "Cancel the entire polynomial with the monomial",
+                    "D": "Multiply both by the monomial"
+                  },
+                  "answer": "B",
+                  "explanation": "Method 1 divides each term separately by the monomial."
+                },
+                {
+                  "mcq_num": 3,
+                  "difficulty": "Medium",
+                  "question": "Result of dividing 24(x^2yz + xy^2z + xyz^2) by 8xyz is:",
+                  "options": {
+                    "A": "3xyz",
+                    "B": "3(x+y+z)",
+                    "C": "3(xy+yz+xz)",
+                    "D": "8(x+y+z)"
+                  },
+                  "answer": "B",
+                  "explanation": "Option (B) is correct based on the definition/theorem. Solution: 24xyz(x+y+z)/8xyz = 3(x+y+z)."
+                },
+                {
+                  "mcq_num": 4,
+                  "difficulty": "Easy",
+                  "question": "(5x^2 − 10x) ÷ 5x equals:",
+                  "options": {
+                    "A": "x − 2",
+                    "B": "x + 2",
+                    "C": "5(x−2)",
+                    "D": "x^2 − 2"
+                  },
+                  "answer": "A",
+                  "explanation": "The correct answer is (A) x − 2. Solution: 5x^2/5x − 10x/5x = x − 2."
+                },
+                {
+                  "mcq_num": 5,
+                  "difficulty": "Medium",
+                  "question": "The area of a rectangle is (x^3 + 2x^2 + 3x) and breadth is x. The length is:",
+                  "options": {
+                    "A": "x^2 + 2x",
+                    "B": "x^2 + 2x + 3",
+                    "C": "x + 2 + 3",
+                    "D": "x^3 + 2x"
+                  },
+                  "answer": "B",
+                  "explanation": "The correct answer is (B) x^2 + 2x + 3. Solution: (x^3+2x^2+3x)/x = x^2 + 2x + 3."
+                },
+                {
+                  "mcq_num": 6,
+                  "difficulty": "Hard",
+                  "question": "(3y^8 − 4y^6 + 5y^4) ÷ y^4 equals:",
+                  "options": {
+                    "A": "3y^4 − 4y^2 + 5",
+                    "B": "3y^2 − 4y + 5",
+                    "C": "3y^4 − 4y^2",
+                    "D": "3y^4"
+                  },
+                  "answer": "A",
+                  "explanation": "The correct answer is (A) 3y^4 − 4y^2 + 5. Solution: 3y^8/y^4=3y^4, −4y^6/y^4=−4y^2, 5y^4/y^4=5. Result=3y^4−4y^2+5."
+                }
+              ]
             }
           ]
         }
-      ],
-      "subtopics": []
+      ]
     },
     {
       "topic_num": "12.4",
@@ -2440,7 +2491,7 @@
         },
         {
           "type": "mcq",
-          "label": "MCQ",
+          "label": "TOPIC 12.4: MCQs:",
           "items": [
             {
               "mcq_num": 1,

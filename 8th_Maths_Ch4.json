@@ -6,7 +6,7 @@
     "chapter_num": "4",
     "chapter_name": "DATA HANDLING",
     "source": "KSEEB Textbook 2025-26",
-    "mode": "B"
+    "mode": "A"
   },
   "chapter_sections": [
     {
@@ -243,7 +243,7 @@
         },
         {
           "type": "mcq",
-          "label": "MCQ",
+          "label": "TOPIC 4.1: MCQs:",
           "items": [
             {
               "mcq_num": 1,
@@ -331,7 +331,7 @@
     {
       "topic_num": "4.2",
       "topic_name": "CIRCLE GRAPH OR PIE CHART",
-      "mode": "B",
+      "mode": "A",
       "sections": [
         {
           "type": "definition",
@@ -445,7 +445,7 @@
         },
         {
           "type": "mcq",
-          "label": "MCQ",
+          "label": "TOPIC 4.2: MCQs:",
           "items": [
             {
               "mcq_num": 1,
@@ -526,277 +526,284 @@
               "explanation": "Sports = 25% of 4000 = (25/100) x 4000 = 1000 viewers. ----"
             }
           ]
-        },
+        }
+      ],
+      "subtopics": [
         {
-          "type": "definition",
-          "label": "Definition:",
-          "text": "CENTRAL ANGLE: The angle at the centre of the circle for each sector is called the central angle of that sector.\nThe total angle at the centre of a circle = 360 degrees."
-        },
-        {
-          "type": "key_points",
-          "label": "Key Points:",
-          "points": [
-            "Central angle of a sector = (Value of the part / Total value) x 360 degrees.",
-            "To draw a pie chart: find the central angle for each sector, then draw using a protractor.",
-            "The sum of all central angles must always equal 360 degrees.",
-            "Steps to draw a pie chart:",
-            "Step 1: Find the total of all values.",
-            "Step 2: For each item, find its fraction = value / total.",
-            "Step 3: Find the central angle = fraction x 360 degrees.",
-            "Step 4: Draw a circle, mark centre O and a radius OA.",
-            "Step 5: Use a protractor to draw each sector angle one by one.",
-            "Step 6: Label each sector."
-          ]
-        },
-        {
-          "type": "formulas",
-          "label": "FORMULA:",
-          "items": [
-            "Central angle of a sector = (Value of the part / Total value) x 360 degrees",
-            "WHERE:",
-            "Value of the part = the data value for that category",
-            "Total value       = sum of all data values",
-            "360 degrees       = total angle at the centre of a circle",
-            "EXAMPLES: (textbook examples)",
-            "EXAMPLE 4.2.1.1: Drawing pie chart for ice cream flavours",
-            "PROBLEM: The favourite flavours of ice-creams for students given as percentages:",
-            "Chocolate: 50%, Vanilla: 25%, Other flavours: 25%. Draw a pie chart.",
-            "SOLUTION:",
-            "Step 1: Find central angle for each:",
-            "Chocolate:      (50/100) x 360 = 180 degrees",
-            "Vanilla:        (25/100) x 360 = 90 degrees",
-            "Other flavours: (25/100) x 360 = 90 degrees",
-            "Step 2: Check: 180 + 90 + 90 = 360 degrees. (correct)",
-            "Step 3: Draw a circle. Mark centre O and radius OA.",
-            "Step 4: Draw angle AOB = 180 degrees for Chocolate sector.",
-            "Step 5: From OB, draw 90 degrees for Vanilla sector.",
-            "Step 6: Remaining 90 degrees = Other flavours sector.",
-            "ANSWER: Pie chart with Chocolate = 180 degrees (half circle), Vanilla = 90 degrees (quarter), Other flavours = 90 degrees (quarter).",
-            "EXAMPLE 4.2.1.2: Reading a pie chart — Family expenditure (Textbook Example 1)",
-            "PROBLEM: A pie chart (Fig 4.4) shows expenditure of a family:",
-            "Food: 25%, Clothes: 10%, House rent: 10%, Education for children: 15%, Transport: 5%, Others: 20%, Savings: 15%.",
-            "(i) On which item is expenditure maximum?",
-            "(ii) Expenditure on which item equals total savings?",
-            "(iii) If monthly savings = Rs 3000, what is monthly expenditure on clothes?",
-            "SOLUTION:",
-            "Step 1: (i) Largest sector = Food (25%). Maximum expenditure is on Food.",
-            "Step 2: (ii) Savings = 15%. Education for children = 15%. They are equal.",
-            "Step 3: (iii) 15% = Rs 3000. So 1% = Rs 200. Clothes = 10% = 10 x 200 = Rs 2000.",
-            "ANSWER: (i) Food. (ii) Education for children. (iii) Rs 2000.",
-            "EXAMPLE 4.2.1.3: Drawing pie chart — Baker's shop (Textbook Example 2)",
-            "PROBLEM: Sales of different items at a baker's shop:",
-            "Ordinary bread: 320, Fruit bread: 80, Cakes and pastries: 160, Biscuits: 120, Others: 40. Total = 720.",
-            "Draw a pie chart.",
-            "SOLUTION:",
-            "Step 1: Find central angle for each:",
-            "Ordinary bread:     (320/720) x 360 = (4/9) x 360  = 160 degrees",
-            "Biscuits:           (120/720) x 360 = (1/6) x 360  = 60 degrees",
-            "Cakes and pastries: (160/720) x 360 = (2/9) x 360  = 80 degrees",
-            "Fruit bread:        (80/720)  x 360 = (1/9) x 360  = 40 degrees",
-            "Others:             (40/720)  x 360 = (1/18) x 360 = 20 degrees",
-            "Step 2: Check: 160 + 60 + 80 + 40 + 20 = 360 degrees. (correct)",
-            "Step 3: Draw circle, mark O and OA. Draw sectors one by one using protractor.",
-            "ANSWER: Pie chart (Fig 4.5) with Ordinary bread = 160 deg, Biscuits = 60 deg, Cakes and pastries = 80 deg, Fruit bread = 40 deg, Others = 20 deg.",
-            "TRY THESE / FIGURE IT OUT: (Sub-topic 4.2.1 - Draw pie chart)",
-            "Q1: Draw a pie chart of the time spent by a child during a day:",
-            "Sleep = 8 hours, School = 6 hours, Home work = 4 hours, Play = 4 hours, Others = 2 hours. Total = 24 hours.",
-            "A1:",
-            "Sleep:     (8/24) x 360  = (1/3) x 360  = 120 degrees",
-            "School:    (6/24) x 360  = (1/4) x 360  = 90 degrees",
-            "Home work: (4/24) x 360  = (1/6) x 360  = 60 degrees",
-            "Play:      (4/24) x 360  = (1/6) x 360  = 60 degrees",
-            "Others:    (2/24) x 360  = (1/12) x 360 = 30 degrees",
-            "Check: 120 + 90 + 60 + 60 + 30 = 360 degrees. (correct)",
-            "Draw pie chart with these central angles."
-          ]
-        },
-        {
-          "type": "exercise",
-          "label": "EXERCISE 4.1:",
-          "items": [
+          "subtopic_num": "4.2.1",
+          "subtopic_name": "DRAWING PIE CHARTS",
+          "sections": [
             {
-              "q_num": 1,
-              "marks": null,
-              "question": "A survey was made about the type of music liked by young people in a city. Pie chart shows: Light 40%, Folk 30%, Semi Classical 20%, Classical 10%.",
-              "answer": "(i) If 20 people liked Classical music, how many young people were surveyed?\n(ii) Which type of music is liked by the maximum number of people?\n(iii) If a cassette company makes 1000 CDs, how many of each type would they make?\nSolution:\n(i) Classical = 10% = 20 people. So 100% = 200 people surveyed.\n(ii) Light music (40%) is liked by maximum people.\n(iii) Light = 40% of 1000 = 400. Folk = 30% of 1000 = 300. Semi Classical = 20% of 1000 = 200. Classical = 10% of 1000 = 100."
+              "type": "definition",
+              "label": "Definition:",
+              "text": "CENTRAL ANGLE: The angle at the centre of the circle for each sector is called the central angle of that sector.\nThe total angle at the centre of a circle = 360 degrees."
             },
             {
-              "q_num": 2,
-              "marks": null,
-              "question": "360 people voted for favourite season (Summer=90, Rainy=120, Winter=150).",
-              "answer": "(i) Which season got the most votes? (ii) Find the central angle of each sector. (iii) Draw a pie chart.\nSolution:\n(i) Winter got most votes (150).\n(ii) Summer: (90/360) x 360 = 90 degrees. Rainy: (120/360) x 360 = 120 degrees. Winter: (150/360) x 360 = 150 degrees.\n(iii) Draw circle and mark sectors with above angles."
+              "type": "key_points",
+              "label": "Key Points:",
+              "points": [
+                "Central angle of a sector = (Value of the part / Total value) x 360 degrees.",
+                "To draw a pie chart: find the central angle for each sector, then draw using a protractor.",
+                "The sum of all central angles must always equal 360 degrees.",
+                "Steps to draw a pie chart:",
+                "Step 1: Find the total of all values.",
+                "Step 2: For each item, find its fraction = value / total.",
+                "Step 3: Find the central angle = fraction x 360 degrees.",
+                "Step 4: Draw a circle, mark centre O and a radius OA.",
+                "Step 5: Use a protractor to draw each sector angle one by one.",
+                "Step 6: Label each sector."
+              ]
             },
             {
-              "q_num": 3,
-              "marks": null,
-              "question": "Draw a pie chart for colours preferred by a group (Blue=18, Green=9, Red=6, Yellow=3, Total=36).",
-              "answer": "Solution:\nBlue:   (18/36) x 360 = 180 degrees\nGreen:  (9/36)  x 360 = 90 degrees\nRed:    (6/36)  x 360 = 60 degrees\nYellow: (3/36)  x 360 = 30 degrees\nCheck: 180+90+60+30 = 360 degrees. (correct)"
+              "type": "formulas",
+              "label": "FORMULA:",
+              "items": [
+                "Central angle of a sector = (Value of the part / Total value) x 360 degrees",
+                "WHERE:",
+                "Value of the part = the data value for that category",
+                "Total value       = sum of all data values",
+                "360 degrees       = total angle at the centre of a circle",
+                "EXAMPLES: (textbook examples)",
+                "EXAMPLE 4.2.1.1: Drawing pie chart for ice cream flavours",
+                "PROBLEM: The favourite flavours of ice-creams for students given as percentages:",
+                "Chocolate: 50%, Vanilla: 25%, Other flavours: 25%. Draw a pie chart.",
+                "SOLUTION:",
+                "Step 1: Find central angle for each:",
+                "Chocolate:      (50/100) x 360 = 180 degrees",
+                "Vanilla:        (25/100) x 360 = 90 degrees",
+                "Other flavours: (25/100) x 360 = 90 degrees",
+                "Step 2: Check: 180 + 90 + 90 = 360 degrees. (correct)",
+                "Step 3: Draw a circle. Mark centre O and radius OA.",
+                "Step 4: Draw angle AOB = 180 degrees for Chocolate sector.",
+                "Step 5: From OB, draw 90 degrees for Vanilla sector.",
+                "Step 6: Remaining 90 degrees = Other flavours sector.",
+                "ANSWER: Pie chart with Chocolate = 180 degrees (half circle), Vanilla = 90 degrees (quarter), Other flavours = 90 degrees (quarter).",
+                "EXAMPLE 4.2.1.2: Reading a pie chart — Family expenditure (Textbook Example 1)",
+                "PROBLEM: A pie chart (Fig 4.4) shows expenditure of a family:",
+                "Food: 25%, Clothes: 10%, House rent: 10%, Education for children: 15%, Transport: 5%, Others: 20%, Savings: 15%.",
+                "(i) On which item is expenditure maximum?",
+                "(ii) Expenditure on which item equals total savings?",
+                "(iii) If monthly savings = Rs 3000, what is monthly expenditure on clothes?",
+                "SOLUTION:",
+                "Step 1: (i) Largest sector = Food (25%). Maximum expenditure is on Food.",
+                "Step 2: (ii) Savings = 15%. Education for children = 15%. They are equal.",
+                "Step 3: (iii) 15% = Rs 3000. So 1% = Rs 200. Clothes = 10% = 10 x 200 = Rs 2000.",
+                "ANSWER: (i) Food. (ii) Education for children. (iii) Rs 2000.",
+                "EXAMPLE 4.2.1.3: Drawing pie chart — Baker's shop (Textbook Example 2)",
+                "PROBLEM: Sales of different items at a baker's shop:",
+                "Ordinary bread: 320, Fruit bread: 80, Cakes and pastries: 160, Biscuits: 120, Others: 40. Total = 720.",
+                "Draw a pie chart.",
+                "SOLUTION:",
+                "Step 1: Find central angle for each:",
+                "Ordinary bread:     (320/720) x 360 = (4/9) x 360  = 160 degrees",
+                "Biscuits:           (120/720) x 360 = (1/6) x 360  = 60 degrees",
+                "Cakes and pastries: (160/720) x 360 = (2/9) x 360  = 80 degrees",
+                "Fruit bread:        (80/720)  x 360 = (1/9) x 360  = 40 degrees",
+                "Others:             (40/720)  x 360 = (1/18) x 360 = 20 degrees",
+                "Step 2: Check: 160 + 60 + 80 + 40 + 20 = 360 degrees. (correct)",
+                "Step 3: Draw circle, mark O and OA. Draw sectors one by one using protractor.",
+                "ANSWER: Pie chart (Fig 4.5) with Ordinary bread = 160 deg, Biscuits = 60 deg, Cakes and pastries = 80 deg, Fruit bread = 40 deg, Others = 20 deg.",
+                "TRY THESE / FIGURE IT OUT: (Sub-topic 4.2.1 - Draw pie chart)",
+                "Q1: Draw a pie chart of the time spent by a child during a day:",
+                "Sleep = 8 hours, School = 6 hours, Home work = 4 hours, Play = 4 hours, Others = 2 hours. Total = 24 hours.",
+                "A1:",
+                "Sleep:     (8/24) x 360  = (1/3) x 360  = 120 degrees",
+                "School:    (6/24) x 360  = (1/4) x 360  = 90 degrees",
+                "Home work: (4/24) x 360  = (1/6) x 360  = 60 degrees",
+                "Play:      (4/24) x 360  = (1/6) x 360  = 60 degrees",
+                "Others:    (2/24) x 360  = (1/12) x 360 = 30 degrees",
+                "Check: 120 + 90 + 60 + 60 + 30 = 360 degrees. (correct)",
+                "Draw pie chart with these central angles."
+              ]
             },
             {
-              "q_num": 4,
-              "marks": null,
-              "question": "Pie chart shows marks in exam: Maths=90 deg, S.Science=65 deg, Science=80 deg, English=55 deg, Hindi=70 deg. Total marks = 540.",
-              "answer": "(i) In which subject did student score 105 marks?\n(ii) How many more marks in Maths than Hindi?\n(iii) Is sum of S.Science and Maths more than Science and Hindi?\nSolution:\n(i) For 540 marks, central angle = 360 deg. So 1 mark = 360/540 = 2/3 deg. 105 marks = 105 x 2/3 = 70 degrees. Hindi = 70 degrees. Answer: Hindi.\n(ii) Maths = 90 deg = 90/(2/3) = 135 marks. Hindi = 70 deg = 70/(2/3) = 105 marks. Difference = 135-105 = 30 marks.\n(iii) S.Science+Maths = 65+90 = 155 deg. Science+Hindi = 80+70 = 150 deg. Yes, S.Science+Maths (155) > Science+Hindi (150)."
+              "type": "exercise",
+              "label": "EXERCISE 4.1:",
+              "items": [
+                {
+                  "q_num": 1,
+                  "marks": null,
+                  "question": "A survey was made about the type of music liked by young people in a city. Pie chart shows: Light 40%, Folk 30%, Semi Classical 20%, Classical 10%.",
+                  "answer": "(i) If 20 people liked Classical music, how many young people were surveyed?\n(ii) Which type of music is liked by the maximum number of people?\n(iii) If a cassette company makes 1000 CDs, how many of each type would they make?\nSolution:\n(i) Classical = 10% = 20 people. So 100% = 200 people surveyed.\n(ii) Light music (40%) is liked by maximum people.\n(iii) Light = 40% of 1000 = 400. Folk = 30% of 1000 = 300. Semi Classical = 20% of 1000 = 200. Classical = 10% of 1000 = 100."
+                },
+                {
+                  "q_num": 2,
+                  "marks": null,
+                  "question": "360 people voted for favourite season (Summer=90, Rainy=120, Winter=150).",
+                  "answer": "(i) Which season got the most votes? (ii) Find the central angle of each sector. (iii) Draw a pie chart.\nSolution:\n(i) Winter got most votes (150).\n(ii) Summer: (90/360) x 360 = 90 degrees. Rainy: (120/360) x 360 = 120 degrees. Winter: (150/360) x 360 = 150 degrees.\n(iii) Draw circle and mark sectors with above angles."
+                },
+                {
+                  "q_num": 3,
+                  "marks": null,
+                  "question": "Draw a pie chart for colours preferred by a group (Blue=18, Green=9, Red=6, Yellow=3, Total=36).",
+                  "answer": "Solution:\nBlue:   (18/36) x 360 = 180 degrees\nGreen:  (9/36)  x 360 = 90 degrees\nRed:    (6/36)  x 360 = 60 degrees\nYellow: (3/36)  x 360 = 30 degrees\nCheck: 180+90+60+30 = 360 degrees. (correct)"
+                },
+                {
+                  "q_num": 4,
+                  "marks": null,
+                  "question": "Pie chart shows marks in exam: Maths=90 deg, S.Science=65 deg, Science=80 deg, English=55 deg, Hindi=70 deg. Total marks = 540.",
+                  "answer": "(i) In which subject did student score 105 marks?\n(ii) How many more marks in Maths than Hindi?\n(iii) Is sum of S.Science and Maths more than Science and Hindi?\nSolution:\n(i) For 540 marks, central angle = 360 deg. So 1 mark = 360/540 = 2/3 deg. 105 marks = 105 x 2/3 = 70 degrees. Hindi = 70 degrees. Answer: Hindi.\n(ii) Maths = 90 deg = 90/(2/3) = 135 marks. Hindi = 70 deg = 70/(2/3) = 105 marks. Difference = 135-105 = 30 marks.\n(iii) S.Science+Maths = 65+90 = 155 deg. Science+Hindi = 80+70 = 150 deg. Yes, S.Science+Maths (155) > Science+Hindi (150)."
+                },
+                {
+                  "q_num": 5,
+                  "marks": null,
+                  "question": "Display data of students in a hostel speaking different languages (Hindi=40, English=12, Marathi=9, Tamil=7, Bengali=4, Total=72) in a pie chart.",
+                  "answer": "Solution:\nHindi:   (40/72) x 360 = 200 degrees\nEnglish: (12/72) x 360 = 60 degrees\nMarathi: (9/72)  x 360 = 45 degrees\nTamil:   (7/72)  x 360 = 35 degrees\nBengali: (4/72)  x 360 = 20 degrees\nCheck: 200+60+45+35+20 = 360 degrees. (correct)\n\nADDITIONAL CALCULATIONS:\nProblem 1: A baker's total sales = Rs 720. Biscuits sales = Rs 120. Find central angle for biscuits.\nSolution: (120/720) x 360 = (1/6) x 360 = 60 degrees.\nAnswer: Central angle for biscuits = 60 degrees.\n\nProblem 2: In a pie chart, if 15% represents Rs 3000, what does 10% represent?\nSolution: 15% = Rs 3000. So 1% = Rs 200. Therefore 10% = 10 x 200 = Rs 2000.\nAnswer: 10% represents Rs 2000."
+                }
+              ],
+              "raw": "Q1: A survey was made about the type of music liked by young people in a city. Pie chart shows: Light 40%, Folk 30%, Semi Classical 20%, Classical 10%.\n(i) If 20 people liked Classical music, how many young people were surveyed?\n(ii) Which type of music is liked by the maximum number of people?\n(iii) If a cassette company makes 1000 CDs, how many of each type would they make?\nSolution:\n(i) Classical = 10% = 20 people. So 100% = 200 people surveyed.\n(ii) Light music (40%) is liked by maximum people.\n(iii) Light = 40% of 1000 = 400. Folk = 30% of 1000 = 300. Semi Classical = 20% of 1000 = 200. Classical = 10% of 1000 = 100.\n\nQ2: 360 people voted for favourite season (Summer=90, Rainy=120, Winter=150).\n(i) Which season got the most votes? (ii) Find the central angle of each sector. (iii) Draw a pie chart.\nSolution:\n(i) Winter got most votes (150).\n(ii) Summer: (90/360) x 360 = 90 degrees. Rainy: (120/360) x 360 = 120 degrees. Winter: (150/360) x 360 = 150 degrees.\n(iii) Draw circle and mark sectors with above angles.\n\nQ3: Draw a pie chart for colours preferred by a group (Blue=18, Green=9, Red=6, Yellow=3, Total=36).\nSolution:\nBlue:   (18/36) x 360 = 180 degrees\nGreen:  (9/36)  x 360 = 90 degrees\nRed:    (6/36)  x 360 = 60 degrees\nYellow: (3/36)  x 360 = 30 degrees\nCheck: 180+90+60+30 = 360 degrees. (correct)\n\nQ4: Pie chart shows marks in exam: Maths=90 deg, S.Science=65 deg, Science=80 deg, English=55 deg, Hindi=70 deg. Total marks = 540.\n(i) In which subject did student score 105 marks?\n(ii) How many more marks in Maths than Hindi?\n(iii) Is sum of S.Science and Maths more than Science and Hindi?\nSolution:\n(i) For 540 marks, central angle = 360 deg. So 1 mark = 360/540 = 2/3 deg. 105 marks = 105 x 2/3 = 70 degrees. Hindi = 70 degrees. Answer: Hindi.\n(ii) Maths = 90 deg = 90/(2/3) = 135 marks. Hindi = 70 deg = 70/(2/3) = 105 marks. Difference = 135-105 = 30 marks.\n(iii) S.Science+Maths = 65+90 = 155 deg. Science+Hindi = 80+70 = 150 deg. Yes, S.Science+Maths (155) > Science+Hindi (150).\n\nQ5: Display data of students in a hostel speaking different languages (Hindi=40, English=12, Marathi=9, Tamil=7, Bengali=4, Total=72) in a pie chart.\nSolution:\nHindi:   (40/72) x 360 = 200 degrees\nEnglish: (12/72) x 360 = 60 degrees\nMarathi: (9/72)  x 360 = 45 degrees\nTamil:   (7/72)  x 360 = 35 degrees\nBengali: (4/72)  x 360 = 20 degrees\nCheck: 200+60+45+35+20 = 360 degrees. (correct)\n\nADDITIONAL CALCULATIONS:\nProblem 1: A baker's total sales = Rs 720. Biscuits sales = Rs 120. Find central angle for biscuits.\nSolution: (120/720) x 360 = (1/6) x 360 = 60 degrees.\nAnswer: Central angle for biscuits = 60 degrees.\n\nProblem 2: In a pie chart, if 15% represents Rs 3000, what does 10% represent?\nSolution: 15% = Rs 3000. So 1% = Rs 200. Therefore 10% = 10 x 200 = Rs 2000.\nAnswer: 10% represents Rs 2000."
             },
             {
-              "q_num": 5,
-              "marks": null,
-              "question": "Display data of students in a hostel speaking different languages (Hindi=40, English=12, Marathi=9, Tamil=7, Bengali=4, Total=72) in a pie chart.",
-              "answer": "Solution:\nHindi:   (40/72) x 360 = 200 degrees\nEnglish: (12/72) x 360 = 60 degrees\nMarathi: (9/72)  x 360 = 45 degrees\nTamil:   (7/72)  x 360 = 35 degrees\nBengali: (4/72)  x 360 = 20 degrees\nCheck: 200+60+45+35+20 = 360 degrees. (correct)\n\nADDITIONAL CALCULATIONS:\nProblem 1: A baker's total sales = Rs 720. Biscuits sales = Rs 120. Find central angle for biscuits.\nSolution: (120/720) x 360 = (1/6) x 360 = 60 degrees.\nAnswer: Central angle for biscuits = 60 degrees.\n\nProblem 2: In a pie chart, if 15% represents Rs 3000, what does 10% represent?\nSolution: 15% = Rs 3000. So 1% = Rs 200. Therefore 10% = 10 x 200 = Rs 2000.\nAnswer: 10% represents Rs 2000."
-            }
-          ],
-          "raw": "Q1: A survey was made about the type of music liked by young people in a city. Pie chart shows: Light 40%, Folk 30%, Semi Classical 20%, Classical 10%.\n(i) If 20 people liked Classical music, how many young people were surveyed?\n(ii) Which type of music is liked by the maximum number of people?\n(iii) If a cassette company makes 1000 CDs, how many of each type would they make?\nSolution:\n(i) Classical = 10% = 20 people. So 100% = 200 people surveyed.\n(ii) Light music (40%) is liked by maximum people.\n(iii) Light = 40% of 1000 = 400. Folk = 30% of 1000 = 300. Semi Classical = 20% of 1000 = 200. Classical = 10% of 1000 = 100.\n\nQ2: 360 people voted for favourite season (Summer=90, Rainy=120, Winter=150).\n(i) Which season got the most votes? (ii) Find the central angle of each sector. (iii) Draw a pie chart.\nSolution:\n(i) Winter got most votes (150).\n(ii) Summer: (90/360) x 360 = 90 degrees. Rainy: (120/360) x 360 = 120 degrees. Winter: (150/360) x 360 = 150 degrees.\n(iii) Draw circle and mark sectors with above angles.\n\nQ3: Draw a pie chart for colours preferred by a group (Blue=18, Green=9, Red=6, Yellow=3, Total=36).\nSolution:\nBlue:   (18/36) x 360 = 180 degrees\nGreen:  (9/36)  x 360 = 90 degrees\nRed:    (6/36)  x 360 = 60 degrees\nYellow: (3/36)  x 360 = 30 degrees\nCheck: 180+90+60+30 = 360 degrees. (correct)\n\nQ4: Pie chart shows marks in exam: Maths=90 deg, S.Science=65 deg, Science=80 deg, English=55 deg, Hindi=70 deg. Total marks = 540.\n(i) In which subject did student score 105 marks?\n(ii) How many more marks in Maths than Hindi?\n(iii) Is sum of S.Science and Maths more than Science and Hindi?\nSolution:\n(i) For 540 marks, central angle = 360 deg. So 1 mark = 360/540 = 2/3 deg. 105 marks = 105 x 2/3 = 70 degrees. Hindi = 70 degrees. Answer: Hindi.\n(ii) Maths = 90 deg = 90/(2/3) = 135 marks. Hindi = 70 deg = 70/(2/3) = 105 marks. Difference = 135-105 = 30 marks.\n(iii) S.Science+Maths = 65+90 = 155 deg. Science+Hindi = 80+70 = 150 deg. Yes, S.Science+Maths (155) > Science+Hindi (150).\n\nQ5: Display data of students in a hostel speaking different languages (Hindi=40, English=12, Marathi=9, Tamil=7, Bengali=4, Total=72) in a pie chart.\nSolution:\nHindi:   (40/72) x 360 = 200 degrees\nEnglish: (12/72) x 360 = 60 degrees\nMarathi: (9/72)  x 360 = 45 degrees\nTamil:   (7/72)  x 360 = 35 degrees\nBengali: (4/72)  x 360 = 20 degrees\nCheck: 200+60+45+35+20 = 360 degrees. (correct)\n\nADDITIONAL CALCULATIONS:\nProblem 1: A baker's total sales = Rs 720. Biscuits sales = Rs 120. Find central angle for biscuits.\nSolution: (120/720) x 360 = (1/6) x 360 = 60 degrees.\nAnswer: Central angle for biscuits = 60 degrees.\n\nProblem 2: In a pie chart, if 15% represents Rs 3000, what does 10% represent?\nSolution: 15% = Rs 3000. So 1% = Rs 200. Therefore 10% = 10 x 200 = Rs 2000.\nAnswer: 10% represents Rs 2000."
-        },
-        {
-          "type": "qa",
-          "label": "SUB-TOPIC 4.2.1: Q&A:",
-          "items": []
-        },
-        {
-          "type": "qa",
-          "label": "Q&A",
-          "items": [
-            {
-              "q_num": 1,
-              "marks": 2,
-              "question": "What is the formula to find the central angle of each sector in a pie chart?",
-              "answer": "Central angle of a sector = (Value of the part / Total value) x 360 degrees.\nThe total angle at the centre of a circle is 360 degrees."
+              "type": "qa",
+              "label": "SUB-TOPIC 4.2.1: Q&A:",
+              "items": []
             },
             {
-              "q_num": 2,
-              "marks": 2,
-              "question": "If one item is 25% of the total, what is its central angle in a pie chart?",
-              "answer": "Central angle = (25/100) x 360 = (1/4) x 360 = 90 degrees."
+              "type": "qa",
+              "label": "Q&A",
+              "items": [
+                {
+                  "q_num": 1,
+                  "marks": 2,
+                  "question": "What is the formula to find the central angle of each sector in a pie chart?",
+                  "answer": "Central angle of a sector = (Value of the part / Total value) x 360 degrees.\nThe total angle at the centre of a circle is 360 degrees."
+                },
+                {
+                  "q_num": 2,
+                  "marks": 2,
+                  "question": "If one item is 25% of the total, what is its central angle in a pie chart?",
+                  "answer": "Central angle = (25/100) x 360 = (1/4) x 360 = 90 degrees."
+                },
+                {
+                  "q_num": 3,
+                  "marks": 2,
+                  "question": "What must the sum of all central angles in a pie chart always equal?",
+                  "answer": "The sum of all central angles in any pie chart must always equal 360 degrees, because all sectors together make the full circle.\n\n---\n\n3 ಮಾರ್ಕ್ಸ್ × 2 questions:"
+                },
+                {
+                  "q_num": 4,
+                  "marks": 3,
+                  "question": "A child spends: Sleep=8h, School=6h, Homework=4h out of 24 hours in a day.",
+                  "answer": "Step 1: Sleep:    (8/24) x 360 = (1/3) x 360 = 120 degrees.\nStep 2: School:   (6/24) x 360 = (1/4) x 360 = 90 degrees.\nStep 3: Homework: (4/24) x 360 = (1/6) x 360 = 60 degrees."
+                },
+                {
+                  "q_num": 5,
+                  "marks": 3,
+                  "question": "A baker's total sales = Rs 720. Biscuits = Rs 120, Fruit bread = Rs 80, Others = Rs 40.",
+                  "answer": "Step 1: Biscuits:    (120/720) x 360 = (1/6) x 360 = 60 degrees.\nStep 2: Fruit bread: (80/720)  x 360 = (1/9) x 360 = 40 degrees.\nStep 3: Others:      (40/720)  x 360 = (1/18) x 360 = 20 degrees.\nThese three together = 60+40+20 = 120 degrees (correct for these three items out of total 360).\n\n---\n\n4 ಮಾರ್ಕ್ಸ್ × 2 questions:"
+                },
+                {
+                  "q_num": 6,
+                  "marks": 4,
+                  "question": "A survey shows favourite ice cream flavours: Chocolate=50%, Vanilla=25%, Other=25%.",
+                  "answer": "Step 1: (i) Chocolate: (50/100) x 360 = 180 degrees.\nVanilla:   (25/100) x 360 = 90 degrees.\nOther:     (25/100) x 360 = 90 degrees.\nStep 2: (ii) Check: 180 + 90 + 90 = 360 degrees. (correct)\nStep 3: (iii) Chocolate has the largest sector (180 degrees = half circle).\nStep 4: (iv) Chocolate = 50% of 200 = 100 students."
+                },
+                {
+                  "q_num": 7,
+                  "marks": 4,
+                  "question": "A pie chart shows marks scored by a student: Maths=90°, S.Science=65°, Science=80°, English=55°, Hindi=70°. Total marks obtained = 540.",
+                  "answer": "Step 1: 540 marks = 360 degrees. So 1 degree = 540/360 = 3/2 marks.\nStep 2: (i) Maths  = 90 x (3/2) = 135 marks.\nStep 3: (ii) Hindi  = 70 x (3/2) = 105 marks.\nStep 4: (iii) Maths - Hindi = 135 - 105 = 30 more marks in Maths.\n(iv) S.Science+Maths = 65+90 = 155°. Science+Hindi = 80+70 = 150°. Yes, 155 > 150.\n\n---\n\n5 ಮಾರ್ಕ್ಸ್ × 1 question:"
+                },
+                {
+                  "q_num": 8,
+                  "marks": 5,
+                  "question": "A baker's shop sales: Ordinary bread=Rs 320, Fruit bread=Rs 80, Cakes & pastries=Rs 160, Biscuits=Rs 120, Others=Rs 40. Total=Rs 720.",
+                  "answer": "PART A — Baker's shop central angles:\nStep 1: Ordinary bread:     (320/720) x 360 = (4/9) x 360  = 160 degrees.\nStep 2: Fruit bread:        (80/720)  x 360 = (1/9) x 360  = 40 degrees.\nStep 3: Cakes and pastries: (160/720) x 360 = (2/9) x 360  = 80 degrees.\nStep 4: Biscuits:           (120/720) x 360 = (1/6) x 360  = 60 degrees.\nOthers:             (40/720)  x 360 = (1/18) x 360 = 20 degrees.\nVerify: 160+40+80+60+20 = 360 degrees. (correct)\n\nPART B — Family income and expenditure:\nStep 1: 15% = Rs 3000. So 1% = Rs 200. Total monthly income = 100% = 100 x 200 = Rs 20,000.\nStep 2: (i) Total monthly income = Rs 20,000.\nStep 3: (ii) Food = 25% = 25 x 200 = Rs 5,000.\nStep 4: (iii) Transport = 5% = 5 x 200 = Rs 1,000."
+                }
+              ]
             },
             {
-              "q_num": 3,
-              "marks": 2,
-              "question": "What must the sum of all central angles in a pie chart always equal?",
-              "answer": "The sum of all central angles in any pie chart must always equal 360 degrees, because all sectors together make the full circle.\n\n---\n\n3 ಮಾರ್ಕ್ಸ್ × 2 questions:"
-            },
-            {
-              "q_num": 4,
-              "marks": 3,
-              "question": "A child spends: Sleep=8h, School=6h, Homework=4h out of 24 hours in a day.",
-              "answer": "Step 1: Sleep:    (8/24) x 360 = (1/3) x 360 = 120 degrees.\nStep 2: School:   (6/24) x 360 = (1/4) x 360 = 90 degrees.\nStep 3: Homework: (4/24) x 360 = (1/6) x 360 = 60 degrees."
-            },
-            {
-              "q_num": 5,
-              "marks": 3,
-              "question": "A baker's total sales = Rs 720. Biscuits = Rs 120, Fruit bread = Rs 80, Others = Rs 40.",
-              "answer": "Step 1: Biscuits:    (120/720) x 360 = (1/6) x 360 = 60 degrees.\nStep 2: Fruit bread: (80/720)  x 360 = (1/9) x 360 = 40 degrees.\nStep 3: Others:      (40/720)  x 360 = (1/18) x 360 = 20 degrees.\nThese three together = 60+40+20 = 120 degrees (correct for these three items out of total 360).\n\n---\n\n4 ಮಾರ್ಕ್ಸ್ × 2 questions:"
-            },
-            {
-              "q_num": 6,
-              "marks": 4,
-              "question": "A survey shows favourite ice cream flavours: Chocolate=50%, Vanilla=25%, Other=25%.",
-              "answer": "Step 1: (i) Chocolate: (50/100) x 360 = 180 degrees.\nVanilla:   (25/100) x 360 = 90 degrees.\nOther:     (25/100) x 360 = 90 degrees.\nStep 2: (ii) Check: 180 + 90 + 90 = 360 degrees. (correct)\nStep 3: (iii) Chocolate has the largest sector (180 degrees = half circle).\nStep 4: (iv) Chocolate = 50% of 200 = 100 students."
-            },
-            {
-              "q_num": 7,
-              "marks": 4,
-              "question": "A pie chart shows marks scored by a student: Maths=90°, S.Science=65°, Science=80°, English=55°, Hindi=70°. Total marks obtained = 540.",
-              "answer": "Step 1: 540 marks = 360 degrees. So 1 degree = 540/360 = 3/2 marks.\nStep 2: (i) Maths  = 90 x (3/2) = 135 marks.\nStep 3: (ii) Hindi  = 70 x (3/2) = 105 marks.\nStep 4: (iii) Maths - Hindi = 135 - 105 = 30 more marks in Maths.\n(iv) S.Science+Maths = 65+90 = 155°. Science+Hindi = 80+70 = 150°. Yes, 155 > 150.\n\n---\n\n5 ಮಾರ್ಕ್ಸ್ × 1 question:"
-            },
-            {
-              "q_num": 8,
-              "marks": 5,
-              "question": "A baker's shop sales: Ordinary bread=Rs 320, Fruit bread=Rs 80, Cakes & pastries=Rs 160, Biscuits=Rs 120, Others=Rs 40. Total=Rs 720.",
-              "answer": "PART A — Baker's shop central angles:\nStep 1: Ordinary bread:     (320/720) x 360 = (4/9) x 360  = 160 degrees.\nStep 2: Fruit bread:        (80/720)  x 360 = (1/9) x 360  = 40 degrees.\nStep 3: Cakes and pastries: (160/720) x 360 = (2/9) x 360  = 80 degrees.\nStep 4: Biscuits:           (120/720) x 360 = (1/6) x 360  = 60 degrees.\nOthers:             (40/720)  x 360 = (1/18) x 360 = 20 degrees.\nVerify: 160+40+80+60+20 = 360 degrees. (correct)\n\nPART B — Family income and expenditure:\nStep 1: 15% = Rs 3000. So 1% = Rs 200. Total monthly income = 100% = 100 x 200 = Rs 20,000.\nStep 2: (i) Total monthly income = Rs 20,000.\nStep 3: (ii) Food = 25% = 25 x 200 = Rs 5,000.\nStep 4: (iii) Transport = 5% = 5 x 200 = Rs 1,000."
-            }
-          ]
-        },
-        {
-          "type": "mcq",
-          "label": "MCQ",
-          "items": [
-            {
-              "mcq_num": 1,
-              "difficulty": "Easy",
-              "question": "The total angle at the centre of a circle used in a pie chart is:",
-              "options": {
-                "A": "90 degrees",
-                "B": "180 degrees",
-                "C": "270 degrees",
-                "D": "360 degrees"
-              },
-              "answer": "D",
-              "explanation": "The total angle at the centre of a circle is 360 degrees."
-            },
-            {
-              "mcq_num": 2,
-              "difficulty": "Medium",
-              "question": "If chocolate flavour is preferred by 50% of students, its central angle in a pie chart is:",
-              "options": {
-                "A": "90 degrees",
-                "B": "120 degrees",
-                "C": "180 degrees",
-                "D": "360 degrees"
-              },
-              "answer": "C",
-              "explanation": "Central angle = (50/100) x 360 = 180 degrees."
-            },
-            {
-              "mcq_num": 3,
-              "difficulty": "Hard",
-              "question": "A baker's total sales = Rs 720. Ordinary bread sales = Rs 320. The central angle for ordinary bread in a pie chart is:",
-              "options": {
-                "A": "120 degrees",
-                "B": "140 degrees",
-                "C": "160 degrees",
-                "D": "180 degrees"
-              },
-              "answer": "C",
-              "explanation": "Central angle = (320/720) x 360 = (4/9) x 360 = 160 degrees."
-            },
-            {
-              "mcq_num": 4,
-              "difficulty": "Easy",
-              "question": "To draw a pie chart, we use which instrument to measure central angles?",
-              "options": {
-                "A": "Ruler",
-                "B": "Compass",
-                "C": "Protractor",
-                "D": "Set square"
-              },
-              "answer": "C",
-              "explanation": "A protractor is used to measure and draw the central angles for each sector in a pie chart."
-            },
-            {
-              "mcq_num": 5,
-              "difficulty": "Medium",
-              "question": "360 people voted for favourite season: Summer=90, Rainy=120, Winter=150. Central angle for Winter is:",
-              "options": {
-                "A": "90 degrees",
-                "B": "120 degrees",
-                "C": "150 degrees",
-                "D": "180 degrees"
-              },
-              "answer": "C",
-              "explanation": "Central angle = (150/360) x 360 = 150 degrees."
-            },
-            {
-              "mcq_num": 6,
-              "difficulty": "Hard",
-              "question": "A pie chart shows marks: Maths=90°, Hindi=70°. If total marks = 540, how many marks were scored in Maths?",
-              "options": {
-                "A": "90",
-                "B": "105",
-                "C": "120",
-                "D": "135"
-              },
-              "answer": "D",
-              "explanation": "360° = 540 marks. So 1° = 540/360 = 3/2 marks. Maths = 90 x (3/2) = 135 marks."
+              "type": "mcq",
+              "label": "SUB-TOPIC 4.2.1: MCQs:",
+              "items": [
+                {
+                  "mcq_num": 1,
+                  "difficulty": "Easy",
+                  "question": "The total angle at the centre of a circle used in a pie chart is:",
+                  "options": {
+                    "A": "90 degrees",
+                    "B": "180 degrees",
+                    "C": "270 degrees",
+                    "D": "360 degrees"
+                  },
+                  "answer": "D",
+                  "explanation": "The total angle at the centre of a circle is 360 degrees."
+                },
+                {
+                  "mcq_num": 2,
+                  "difficulty": "Medium",
+                  "question": "If chocolate flavour is preferred by 50% of students, its central angle in a pie chart is:",
+                  "options": {
+                    "A": "90 degrees",
+                    "B": "120 degrees",
+                    "C": "180 degrees",
+                    "D": "360 degrees"
+                  },
+                  "answer": "C",
+                  "explanation": "Central angle = (50/100) x 360 = 180 degrees."
+                },
+                {
+                  "mcq_num": 3,
+                  "difficulty": "Hard",
+                  "question": "A baker's total sales = Rs 720. Ordinary bread sales = Rs 320. The central angle for ordinary bread in a pie chart is:",
+                  "options": {
+                    "A": "120 degrees",
+                    "B": "140 degrees",
+                    "C": "160 degrees",
+                    "D": "180 degrees"
+                  },
+                  "answer": "C",
+                  "explanation": "Central angle = (320/720) x 360 = (4/9) x 360 = 160 degrees."
+                },
+                {
+                  "mcq_num": 4,
+                  "difficulty": "Easy",
+                  "question": "To draw a pie chart, we use which instrument to measure central angles?",
+                  "options": {
+                    "A": "Ruler",
+                    "B": "Compass",
+                    "C": "Protractor",
+                    "D": "Set square"
+                  },
+                  "answer": "C",
+                  "explanation": "A protractor is used to measure and draw the central angles for each sector in a pie chart."
+                },
+                {
+                  "mcq_num": 5,
+                  "difficulty": "Medium",
+                  "question": "360 people voted for favourite season: Summer=90, Rainy=120, Winter=150. Central angle for Winter is:",
+                  "options": {
+                    "A": "90 degrees",
+                    "B": "120 degrees",
+                    "C": "150 degrees",
+                    "D": "180 degrees"
+                  },
+                  "answer": "C",
+                  "explanation": "Central angle = (150/360) x 360 = 150 degrees."
+                },
+                {
+                  "mcq_num": 6,
+                  "difficulty": "Hard",
+                  "question": "A pie chart shows marks: Maths=90°, Hindi=70°. If total marks = 540, how many marks were scored in Maths?",
+                  "options": {
+                    "A": "90",
+                    "B": "105",
+                    "C": "120",
+                    "D": "135"
+                  },
+                  "answer": "D",
+                  "explanation": "360° = 540 marks. So 1° = 540/360 = 3/2 marks. Maths = 90 x (3/2) = 135 marks."
+                }
+              ]
             }
           ]
         }
-      ],
-      "subtopics": []
+      ]
     },
     {
       "topic_num": "4.3",
       "topic_name": "CHANCE AND PROBABILITY",
-      "mode": "B",
+      "mode": "A",
       "sections": [
         {
           "type": "definition",
@@ -888,7 +895,7 @@
         },
         {
           "type": "mcq",
-          "label": "MCQ",
+          "label": "TOPIC 4.3: MCQs:",
           "items": [
             {
               "mcq_num": 1,
@@ -969,915 +976,946 @@
               "explanation": "Red balls = 3 (most in bag). P(Red) = 3/6 = 1/2 which is highest among all colours. ----"
             }
           ]
-        },
+        }
+      ],
+      "subtopics": [
         {
-          "type": "definition",
-          "label": "Definition:",
-          "text": "RANDOM EXPERIMENT: An experiment whose outcome cannot be controlled or predicted exactly in advance is called a random experiment.\nOUTCOME: Each possible result of a random experiment is called an outcome."
-        },
-        {
-          "type": "key_points",
-          "label": "Key Points:",
-          "points": [
-            "A random experiment like tossing a coin has outcomes we cannot control.",
-            "When a coin is tossed: outcomes are Head (H) and Tail (T). Total = 2 outcomes.",
-            "When a die is thrown: outcomes are 1, 2, 3, 4, 5, 6. Total = 6 outcomes.",
-            "Before a cricket match, captains toss a coin. We cannot predict whether we get Head or Tail — this is a random experiment.",
-            "We cannot say which outcome will occur before performing the experiment.",
-            "TRY THESE / FIGURE IT OUT: (Sub-topic 4.3.1)",
-            "Q1: If you try to start a scooter, what are the possible outcomes?",
-            "A1: The possible outcomes are: (i) Scooter starts, (ii) Scooter does not start.",
-            "Q2: When a die is thrown, what are the six possible outcomes?",
-            "A2: The six possible outcomes are: 1, 2, 3, 4, 5, 6."
-          ]
-        },
-        {
-          "type": "qa",
-          "label": "SUB-TOPIC 4.3.1: Q&A:",
-          "items": []
-        },
-        {
-          "type": "qa",
-          "label": "Q&A",
-          "items": [
+          "subtopic_num": "4.3.1",
+          "subtopic_name": "GETTING A RESULT",
+          "sections": [
             {
-              "q_num": 1,
-              "marks": 2,
-              "question": "What is a random experiment?",
-              "answer": "A random experiment is one whose outcome cannot be controlled or predicted exactly in advance.\nExample: Tossing a coin — we cannot say whether we will get Head or Tail."
+              "type": "definition",
+              "label": "Definition:",
+              "text": "RANDOM EXPERIMENT: An experiment whose outcome cannot be controlled or predicted exactly in advance is called a random experiment.\nOUTCOME: Each possible result of a random experiment is called an outcome."
             },
             {
-              "q_num": 2,
-              "marks": 2,
-              "question": "What are the outcomes of tossing a coin?",
-              "answer": "When a coin is tossed, the possible outcomes are:\n(i) Head (H)  (ii) Tail (T)\nTotal = 2 outcomes."
+              "type": "key_points",
+              "label": "Key Points:",
+              "points": [
+                "A random experiment like tossing a coin has outcomes we cannot control.",
+                "When a coin is tossed: outcomes are Head (H) and Tail (T). Total = 2 outcomes.",
+                "When a die is thrown: outcomes are 1, 2, 3, 4, 5, 6. Total = 6 outcomes.",
+                "Before a cricket match, captains toss a coin. We cannot predict whether we get Head or Tail — this is a random experiment.",
+                "We cannot say which outcome will occur before performing the experiment.",
+                "TRY THESE / FIGURE IT OUT: (Sub-topic 4.3.1)",
+                "Q1: If you try to start a scooter, what are the possible outcomes?",
+                "A1: The possible outcomes are: (i) Scooter starts, (ii) Scooter does not start.",
+                "Q2: When a die is thrown, what are the six possible outcomes?",
+                "A2: The six possible outcomes are: 1, 2, 3, 4, 5, 6."
+              ]
             },
             {
-              "q_num": 3,
-              "marks": 2,
-              "question": "What are the outcomes of throwing a die?",
-              "answer": "When a die is thrown, the possible outcomes are:\n1, 2, 3, 4, 5, 6.\nTotal = 6 outcomes.\n\n---\n\n3 ಮಾರ್ಕ್ಸ್ × 2 questions:"
+              "type": "qa",
+              "label": "SUB-TOPIC 4.3.1: Q&A:",
+              "items": []
             },
             {
-              "q_num": 4,
-              "marks": 3,
-              "question": "Before a cricket match, the captains toss a coin.",
-              "answer": "Step 1: (i) It is a random experiment because neither captain can predict or control whether the coin will land Heads or Tails.\nStep 2: (ii) Possible outcomes = Head (H) or Tail (T). Total = 2 outcomes.\nStep 3: (iii) No captain can control the result — it is entirely by chance."
+              "type": "qa",
+              "label": "Q&A",
+              "items": [
+                {
+                  "q_num": 1,
+                  "marks": 2,
+                  "question": "What is a random experiment?",
+                  "answer": "A random experiment is one whose outcome cannot be controlled or predicted exactly in advance.\nExample: Tossing a coin — we cannot say whether we will get Head or Tail."
+                },
+                {
+                  "q_num": 2,
+                  "marks": 2,
+                  "question": "What are the outcomes of tossing a coin?",
+                  "answer": "When a coin is tossed, the possible outcomes are:\n(i) Head (H)  (ii) Tail (T)\nTotal = 2 outcomes."
+                },
+                {
+                  "q_num": 3,
+                  "marks": 2,
+                  "question": "What are the outcomes of throwing a die?",
+                  "answer": "When a die is thrown, the possible outcomes are:\n1, 2, 3, 4, 5, 6.\nTotal = 6 outcomes.\n\n---\n\n3 ಮಾರ್ಕ್ಸ್ × 2 questions:"
+                },
+                {
+                  "q_num": 4,
+                  "marks": 3,
+                  "question": "Before a cricket match, the captains toss a coin.",
+                  "answer": "Step 1: (i) It is a random experiment because neither captain can predict or control whether the coin will land Heads or Tails.\nStep 2: (ii) Possible outcomes = Head (H) or Tail (T). Total = 2 outcomes.\nStep 3: (iii) No captain can control the result — it is entirely by chance."
+                },
+                {
+                  "q_num": 5,
+                  "marks": 3,
+                  "question": "You try to start a scooter. When you spin a wheel with sectors A, B, C (Fig 4.6).",
+                  "answer": "Step 1: (i) Starting a scooter: Outcomes = (a) Scooter starts, (b) Scooter does not start. Total = 2 outcomes.\nStep 2: (ii) Spinning wheel with sectors A, B, C: Outcomes = A, B, C. Total = 3 outcomes.\nStep 3: (iii) The spinning wheel has more outcomes (3) than starting a scooter (2).\n\n---\n\n4 ಮಾರ್ಕ್ಸ್ × 2 questions:"
+                },
+                {
+                  "q_num": 6,
+                  "marks": 4,
+                  "question": "A bag contains 5 balls of different colours — Red (R), Green (G), Blue (B), Yellow (Y), White (W). One ball is drawn without looking.",
+                  "answer": "Step 1: (i) Possible outcomes = R, G, B, Y, W (any one of the 5 balls).\nStep 2: (ii) Total outcomes = 5.\nStep 3: (iii) Yes, this is a random experiment because we cannot control or predict which ball will be drawn.\nStep 4: (iv) No, we cannot predict which colour will be drawn — each ball has an equal chance."
+                },
+                {
+                  "q_num": 7,
+                  "marks": 4,
+                  "question": "Compare a random experiment with a non-random (fixed result) activity.",
+                  "answer": "Step 1: (i) Random experiment: Throwing a die. Outcomes = 1, 2, 3, 4, 5, 6 (6 outcomes). We cannot predict which number will appear.\nStep 2: (ii) Non-random activity: Adding 3 + 4. Answer is always 7 — fixed, never changes, no chance involved.\nStep 3: (iii) Outcomes of throwing a die = 1, 2, 3, 4, 5, 6.\nStep 4: (iv) No, we cannot control which number appears — this is what makes it a random experiment.\n\n---\n\n5 ಮಾರ್ಕ್ಸ್ × 1 question:"
+                },
+                {
+                  "q_num": 8,
+                  "marks": 5,
+                  "question": "Different experiments and their outcomes.",
+                  "answer": "PART A — Listing outcomes:\nStep 1: (i) Tossing one coin: Outcomes = H, T. Total = 2 outcomes.\nStep 2: (ii) Throwing one die: Outcomes = 1, 2, 3, 4, 5, 6. Total = 6 outcomes.\nStep 3: (iii) Spinning wheel: Outcomes = W, R, B, G, Y. Total = 5 outcomes.\n\nPART B — Cards numbered 1 to 10:\nStep 1: (i) All possible outcomes = 1, 2, 3, 4, 5, 6, 7, 8, 9, 10. Total = 10 outcomes.\nStep 2: (ii) Even numbers = 2, 4, 6, 8, 10. Total = 5 outcomes give an even number.\nStep 3: (iii) Numbers greater than 7 = 8, 9, 10. Total = 3 outcomes give a number greater than 7."
+                }
+              ]
             },
             {
-              "q_num": 5,
-              "marks": 3,
-              "question": "You try to start a scooter. When you spin a wheel with sectors A, B, C (Fig 4.6).",
-              "answer": "Step 1: (i) Starting a scooter: Outcomes = (a) Scooter starts, (b) Scooter does not start. Total = 2 outcomes.\nStep 2: (ii) Spinning wheel with sectors A, B, C: Outcomes = A, B, C. Total = 3 outcomes.\nStep 3: (iii) The spinning wheel has more outcomes (3) than starting a scooter (2).\n\n---\n\n4 ಮಾರ್ಕ್ಸ್ × 2 questions:"
-            },
-            {
-              "q_num": 6,
-              "marks": 4,
-              "question": "A bag contains 5 balls of different colours — Red (R), Green (G), Blue (B), Yellow (Y), White (W). One ball is drawn without looking.",
-              "answer": "Step 1: (i) Possible outcomes = R, G, B, Y, W (any one of the 5 balls).\nStep 2: (ii) Total outcomes = 5.\nStep 3: (iii) Yes, this is a random experiment because we cannot control or predict which ball will be drawn.\nStep 4: (iv) No, we cannot predict which colour will be drawn — each ball has an equal chance."
-            },
-            {
-              "q_num": 7,
-              "marks": 4,
-              "question": "Compare a random experiment with a non-random (fixed result) activity.",
-              "answer": "Step 1: (i) Random experiment: Throwing a die. Outcomes = 1, 2, 3, 4, 5, 6 (6 outcomes). We cannot predict which number will appear.\nStep 2: (ii) Non-random activity: Adding 3 + 4. Answer is always 7 — fixed, never changes, no chance involved.\nStep 3: (iii) Outcomes of throwing a die = 1, 2, 3, 4, 5, 6.\nStep 4: (iv) No, we cannot control which number appears — this is what makes it a random experiment.\n\n---\n\n5 ಮಾರ್ಕ್ಸ್ × 1 question:"
-            },
-            {
-              "q_num": 8,
-              "marks": 5,
-              "question": "Different experiments and their outcomes.",
-              "answer": "PART A — Listing outcomes:\nStep 1: (i) Tossing one coin: Outcomes = H, T. Total = 2 outcomes.\nStep 2: (ii) Throwing one die: Outcomes = 1, 2, 3, 4, 5, 6. Total = 6 outcomes.\nStep 3: (iii) Spinning wheel: Outcomes = W, R, B, G, Y. Total = 5 outcomes.\n\nPART B — Cards numbered 1 to 10:\nStep 1: (i) All possible outcomes = 1, 2, 3, 4, 5, 6, 7, 8, 9, 10. Total = 10 outcomes.\nStep 2: (ii) Even numbers = 2, 4, 6, 8, 10. Total = 5 outcomes give an even number.\nStep 3: (iii) Numbers greater than 7 = 8, 9, 10. Total = 3 outcomes give a number greater than 7."
+              "type": "mcq",
+              "label": "SUB-TOPIC 4.3.1: MCQs:",
+              "items": [
+                {
+                  "mcq_num": 1,
+                  "difficulty": "Easy",
+                  "question": "When a coin is tossed, the possible outcomes are:",
+                  "options": {
+                    "A": "Only Head",
+                    "B": "Only Tail",
+                    "C": "Head and Tail",
+                    "D": "Head, Tail, and Edge"
+                  },
+                  "answer": "C",
+                  "explanation": "When a coin is tossed, the two possible outcomes are Head (H) and Tail (T)."
+                },
+                {
+                  "mcq_num": 2,
+                  "difficulty": "Medium",
+                  "question": "Which of the following is a random experiment?",
+                  "options": {
+                    "A": "Adding 2 + 3",
+                    "B": "Tossing a coin",
+                    "C": "Finding the area of a circle",
+                    "D": "Measuring the length of a room"
+                  },
+                  "answer": "B",
+                  "explanation": "Tossing a coin is a random experiment because we cannot control whether we get Head or Tail."
+                },
+                {
+                  "mcq_num": 3,
+                  "difficulty": "Hard",
+                  "question": "When a die is thrown, the total number of possible outcomes is:",
+                  "options": {
+                    "A": "2",
+                    "B": "4",
+                    "C": "6",
+                    "D": "12"
+                  },
+                  "answer": "C",
+                  "explanation": "A die has faces numbered 1, 2, 3, 4, 5, 6 so there are 6 possible outcomes."
+                },
+                {
+                  "mcq_num": 4,
+                  "difficulty": "Easy",
+                  "question": "When a coin is tossed once, which of the following is a possible outcome?",
+                  "options": {
+                    "A": "Head",
+                    "B": "Both Head and Tail together",
+                    "C": "Neither Head nor Tail",
+                    "D": "Edge"
+                  },
+                  "answer": "A",
+                  "explanation": "When a coin is tossed once, the only two possible outcomes are Head (H) or Tail (T). So Head is a valid outcome."
+                },
+                {
+                  "mcq_num": 5,
+                  "difficulty": "Medium",
+                  "question": "A spinner has sectors A, B, A, C, A, D (6 equal sectors). How many possible outcomes are there?",
+                  "options": {
+                    "A": "3",
+                    "B": "4",
+                    "C": "6",
+                    "D": "12"
+                  },
+                  "answer": "B",
+                  "explanation": "The distinct outcomes are A, B, C, D — 4 different results (even though A appears 3 times)."
+                },
+                {
+                  "mcq_num": 6,
+                  "difficulty": "Hard",
+                  "question": "Before a cricket match, a coin is tossed. Team X calls Head. What is the probability that Team X wins the toss?",
+                  "options": {
+                    "A": "0",
+                    "B": "1/4",
+                    "C": "1/2",
+                    "D": "1"
+                  },
+                  "answer": "C",
+                  "explanation": "Coin has 2 equally likely outcomes (Head, Tail). P(Head) = 1/2. Team X wins the toss with probability 1/2. ----"
+                }
+              ]
             }
           ]
         },
         {
-          "type": "mcq",
-          "label": "MCQ",
-          "items": [
+          "subtopic_num": "4.3.2",
+          "subtopic_name": "EQUALLY LIKELY OUTCOMES",
+          "sections": [
             {
-              "mcq_num": 1,
-              "difficulty": "Easy",
-              "question": "When a coin is tossed, the possible outcomes are:",
-              "options": {
-                "A": "Only Head",
-                "B": "Only Tail",
-                "C": "Head and Tail",
-                "D": "Head, Tail, and Edge"
-              },
-              "answer": "C",
-              "explanation": "When a coin is tossed, the two possible outcomes are Head (H) and Tail (T)."
+              "type": "definition",
+              "label": "Definition:",
+              "text": "EQUALLY LIKELY OUTCOMES: Outcomes of an experiment are said to be equally likely if each has the same chance of occurring."
             },
             {
-              "mcq_num": 2,
-              "difficulty": "Medium",
-              "question": "Which of the following is a random experiment?",
-              "options": {
-                "A": "Adding 2 + 3",
-                "B": "Tossing a coin",
-                "C": "Finding the area of a circle",
-                "D": "Measuring the length of a room"
-              },
-              "answer": "B",
-              "explanation": "Tossing a coin is a random experiment because we cannot control whether we get Head or Tail."
+              "type": "key_points",
+              "label": "Key Points:",
+              "points": [
+                "When a coin is tossed many times, as the number of tosses increases, the number of heads and the number of tails come closer and closer to each other.",
+                "This means each outcome has nearly the same chance of occurring.",
+                "When a die is tossed a large number of times, the number of each of the six outcomes becomes almost equal.",
+                "In such cases, we say the different outcomes are equally likely — each outcome has the same chance of occurring.",
+                "GRAPH/TABLE (Coin Toss Table from textbook):",
+                "Number of tosses | Number of heads | Number of tails",
+                "50               | 27              | 23",
+                "60               | 28              | 32",
+                "70               | 33              | 37",
+                "80               | 38              | 42",
+                "90               | 44              | 46",
+                "100              | 48              | 52",
+                "Observation: As the number of tosses increases, heads and tails come closer and closer to each other."
+              ]
             },
             {
-              "mcq_num": 3,
-              "difficulty": "Hard",
-              "question": "When a die is thrown, the total number of possible outcomes is:",
-              "options": {
-                "A": "2",
-                "B": "4",
-                "C": "6",
-                "D": "12"
-              },
-              "answer": "C",
-              "explanation": "A die has faces numbered 1, 2, 3, 4, 5, 6 so there are 6 possible outcomes."
+              "type": "qa",
+              "label": "SUB-TOPIC 4.3.2: Q&A:",
+              "items": []
             },
             {
-              "mcq_num": 4,
-              "difficulty": "Easy",
-              "question": "When a coin is tossed once, which of the following is a possible outcome?",
-              "options": {
-                "A": "Head",
-                "B": "Both Head and Tail together",
-                "C": "Neither Head nor Tail",
-                "D": "Edge"
-              },
-              "answer": "A",
-              "explanation": "When a coin is tossed once, the only two possible outcomes are Head (H) or Tail (T). So Head is a valid outcome."
+              "type": "qa",
+              "label": "Q&A",
+              "items": [
+                {
+                  "q_num": 1,
+                  "marks": 2,
+                  "question": "What are equally likely outcomes?",
+                  "answer": "Outcomes of an experiment are said to be equally likely if each outcome has the same chance of occurring.\nExample: Head and Tail when tossing a fair coin are equally likely."
+                },
+                {
+                  "q_num": 2,
+                  "marks": 2,
+                  "question": "When a coin is tossed many times, what do we observe about the number of heads and tails?",
+                  "answer": "As we increase the number of tosses more and more, the number of heads and the number of tails come closer and closer to each other.\nThis shows that Head and Tail are equally likely outcomes."
+                },
+                {
+                  "q_num": 3,
+                  "marks": 2,
+                  "question": "When a die is tossed a large number of times, what happens to the number of times each outcome appears?",
+                  "answer": "When a die is tossed a large number of times, the number of times each of the six outcomes (1, 2, 3, 4, 5, 6) appears becomes almost equal to each other.\nThis shows all six outcomes are equally likely.\n\n---\n\n3 ಮಾರ್ಕ್ಸ್ × 2 questions:"
+                },
+                {
+                  "q_num": 4,
+                  "marks": 3,
+                  "question": "A coin is tossed. The table shows results:",
+                  "answer": "Step 1: (i) Yes, heads and tails are equally likely because a fair coin gives equal chance to both outcomes.\nStep 2: (ii) As we increase tosses, heads and tails come closer and closer to each other (at 50 tosses: 27 and 23; at 100 tosses: 48 and 52 — getting closer).\nStep 3: (iii) Conclusion: Head and Tail are equally likely outcomes for a fair coin toss."
+                },
+                {
+                  "q_num": 5,
+                  "marks": 3,
+                  "question": "When a die is thrown once:",
+                  "answer": "Step 1: (i) Outcomes = 1, 2, 3, 4, 5, 6. Total = 6 outcomes.\nStep 2: (ii) Yes, all outcomes are equally likely because a fair die has 6 identical faces — no face is more likely than another.\nStep 3: (iii) In 600 throws, each number would appear approximately 600/6 = 100 times.\n\n---\n\n4 ಮಾರ್ಕ್ಸ್ × 2 questions:"
+                },
+                {
+                  "q_num": 6,
+                  "marks": 4,
+                  "question": "Coin toss experiment table from textbook:",
+                  "answer": "Step 1: (i) At 90 tosses: Heads=44, Tails=46. Difference = 2. Closest to each other.\nStep 2: (ii) At 50 tosses: Heads=27, Tails=23. Difference = 27-23 = 4.\nStep 3: (iii) At 100 tosses: Heads=48, Tails=52. Difference = 52-48 = 4. Still close.\nStep 4: (iv) As the number of tosses increases, heads and tails come closer and closer — confirming that Head and Tail are equally likely outcomes."
+                },
+                {
+                  "q_num": 7,
+                  "marks": 4,
+                  "question": "A spinner has 3 sectors of equal size — Red (R), Blue (B), Green (G). It is spun 90 times.",
+                  "answer": "Step 1: (i) Yes, all outcomes are equally likely because all three sectors are of equal size — each has the same chance.\nStep 2: (ii) In 90 spins, each colour appears approximately 90/3 = 30 times.\nStep 3: (iii) At 30 spins, results are not perfectly equal (12, 9, 9) but are close — this is normal for a small number of spins.\nStep 4: (iv) In 900 spins, each colour would appear very close to 300 times — the results get more balanced as spins increase.\n\n---\n\n5 ಮಾರ್ಕ್ಸ್ × 1 question:"
+                },
+                {
+                  "q_num": 8,
+                  "marks": 5,
+                  "question": "Understanding equally likely outcomes through experiments.",
+                  "answer": "PART A — Coin toss comparison:\nStep 1: (i) 50 tosses: difference = 27-23 = 4. 200 tosses: difference = 102-98 = 4.\nStep 2: (ii) In 200 tosses, heads=98 and tails=102 are closer as percentages (49% and 51%) vs 50 tosses (54% and 46%).\nStep 3: (iii) As tosses increase, the difference as a percentage becomes smaller — heads and tails get closer to equal (50-50).\n\nPART B — Die throwing analysis:\nStep 1: (i) Results: 9, 11, 10, 12, 9, 9. They are close but not exactly equal — this is normal for 60 throws. Yes, the die outcomes are equally likely.\nStep 2: (ii) Expected = 60/6 = 10 times each.\nStep 3: (iii) In 6000 throws, each number would appear very close to 1000 times — confirming all 6 outcomes are equally likely."
+                }
+              ]
             },
             {
-              "mcq_num": 5,
-              "difficulty": "Medium",
-              "question": "A spinner has sectors A, B, A, C, A, D (6 equal sectors). How many possible outcomes are there?",
-              "options": {
-                "A": "3",
-                "B": "4",
-                "C": "6",
-                "D": "12"
-              },
-              "answer": "B",
-              "explanation": "The distinct outcomes are A, B, C, D — 4 different results (even though A appears 3 times)."
-            },
-            {
-              "mcq_num": 6,
-              "difficulty": "Hard",
-              "question": "Before a cricket match, a coin is tossed. Team X calls Head. What is the probability that Team X wins the toss?",
-              "options": {
-                "A": "0",
-                "B": "1/4",
-                "C": "1/2",
-                "D": "1"
-              },
-              "answer": "C",
-              "explanation": "Coin has 2 equally likely outcomes (Head, Tail). P(Head) = 1/2. Team X wins the toss with probability 1/2. ----"
+              "type": "mcq",
+              "label": "SUB-TOPIC 4.3.2: MCQs:",
+              "items": [
+                {
+                  "mcq_num": 1,
+                  "difficulty": "Easy",
+                  "question": "Outcomes of an experiment are equally likely when:",
+                  "options": {
+                    "A": "Only one outcome is possible",
+                    "B": "Each outcome has the same chance of occurring",
+                    "C": "One outcome occurs more than others",
+                    "D": "The experiment is done only once"
+                  },
+                  "answer": "B",
+                  "explanation": "Equally likely means each outcome has the same chance of occurring."
+                },
+                {
+                  "mcq_num": 2,
+                  "difficulty": "Medium",
+                  "question": "When a fair coin is tossed a large number of times, what do we observe?",
+                  "options": {
+                    "A": "Heads always more than tails",
+                    "B": "Tails always more than heads",
+                    "C": "Heads and tails come closer to each other",
+                    "D": "Always exactly equal"
+                  },
+                  "answer": "C",
+                  "explanation": "As the number of tosses increases, heads and tails come closer and closer to each other."
+                },
+                {
+                  "mcq_num": 3,
+                  "difficulty": "Hard",
+                  "question": "A coin is tossed 100 times. Heads = 48, Tails = 52. As we toss more, what do we expect?",
+                  "options": {
+                    "A": "Heads will always stay less than tails",
+                    "B": "Heads and tails will come closer to each other (both near 50)",
+                    "C": "Heads will become 0",
+                    "D": "Tails will become 100"
+                  },
+                  "answer": "B",
+                  "explanation": "As the number of tosses increases, heads and tails come closer and closer to each other (both approaching 50 out of 100)."
+                },
+                {
+                  "mcq_num": 4,
+                  "difficulty": "Easy",
+                  "question": "When are the outcomes of an experiment said to be equally likely?",
+                  "options": {
+                    "A": "When one outcome occurs more than others",
+                    "B": "When each outcome has the same chance of occurring",
+                    "C": "When only one outcome is possible",
+                    "D": "When the experiment is done only once"
+                  },
+                  "answer": "B",
+                  "explanation": "Equally likely means each outcome has the same chance of occurring."
+                },
+                {
+                  "mcq_num": 5,
+                  "difficulty": "Medium",
+                  "question": "A die is thrown 600 times. Approximately how many times would the number 3 appear?",
+                  "options": {
+                    "A": "50",
+                    "B": "100",
+                    "C": "150",
+                    "D": "200"
+                  },
+                  "answer": "B",
+                  "explanation": "Die has 6 equally likely outcomes. Each appears 600/6 = 100 times approximately."
+                },
+                {
+                  "mcq_num": 6,
+                  "difficulty": "Hard",
+                  "question": "A coin is tossed 50 times: Heads=27, Tails=23. A coin is tossed 200 times: Heads=98, Tails=102. In which experiment are heads and tails closest as a percentage?",
+                  "options": {
+                    "A": "50 tosses",
+                    "B": "200 tosses",
+                    "C": "Both equal",
+                    "D": "Cannot determine"
+                  },
+                  "answer": "B",
+                  "explanation": "200 tosses: Heads=49%, Tails=51% (2% gap). 50 tosses: Heads=54%, Tails=46% (8% gap). 200 tosses are closer. ----"
+                }
+              ]
             }
           ]
         },
         {
-          "type": "definition",
-          "label": "Definition:",
-          "text": "EQUALLY LIKELY OUTCOMES: Outcomes of an experiment are said to be equally likely if each has the same chance of occurring."
-        },
-        {
-          "type": "key_points",
-          "label": "Key Points:",
-          "points": [
-            "When a coin is tossed many times, as the number of tosses increases, the number of heads and the number of tails come closer and closer to each other.",
-            "This means each outcome has nearly the same chance of occurring.",
-            "When a die is tossed a large number of times, the number of each of the six outcomes becomes almost equal.",
-            "In such cases, we say the different outcomes are equally likely — each outcome has the same chance of occurring.",
-            "GRAPH/TABLE (Coin Toss Table from textbook):",
-            "Number of tosses | Number of heads | Number of tails",
-            "50               | 27              | 23",
-            "60               | 28              | 32",
-            "70               | 33              | 37",
-            "80               | 38              | 42",
-            "90               | 44              | 46",
-            "100              | 48              | 52",
-            "Observation: As the number of tosses increases, heads and tails come closer and closer to each other."
-          ]
-        },
-        {
-          "type": "qa",
-          "label": "SUB-TOPIC 4.3.2: Q&A:",
-          "items": []
-        },
-        {
-          "type": "qa",
-          "label": "Q&A",
-          "items": [
+          "subtopic_num": "4.3.3",
+          "subtopic_name": "LINKING CHANCES TO PROBABILITY",
+          "sections": [
             {
-              "q_num": 1,
-              "marks": 2,
-              "question": "What are equally likely outcomes?",
-              "answer": "Outcomes of an experiment are said to be equally likely if each outcome has the same chance of occurring.\nExample: Head and Tail when tossing a fair coin are equally likely."
+              "type": "definition",
+              "label": "Definition:",
+              "text": "PROBABILITY: When outcomes are equally likely, the probability of an event = Number of outcomes that give the event / Total number of equally likely outcomes."
             },
             {
-              "q_num": 2,
-              "marks": 2,
-              "question": "When a coin is tossed many times, what do we observe about the number of heads and tails?",
-              "answer": "As we increase the number of tosses more and more, the number of heads and the number of tails come closer and closer to each other.\nThis shows that Head and Tail are equally likely outcomes."
+              "type": "key_points",
+              "label": "Key Points:",
+              "points": [
+                "Tossing a coin once: 2 equally likely outcomes (Head, Tail). Likelihood of getting Head = 1 out of 2.",
+                "So, probability of getting Head = 1/2. Probability of getting Tail = 1/2.",
+                "Throwing a die: 6 equally likely outcomes (1,2,3,4,5,6). Probability of getting 2 = 1/6.",
+                "Probability of getting 7 (not on die) = 0/6 = 0 (impossible).",
+                "Probability of getting a number from 1 through 6 = 6/6 = 1 (certain)."
+              ]
             },
             {
-              "q_num": 3,
-              "marks": 2,
-              "question": "When a die is tossed a large number of times, what happens to the number of times each outcome appears?",
-              "answer": "When a die is tossed a large number of times, the number of times each of the six outcomes (1, 2, 3, 4, 5, 6) appears becomes almost equal to each other.\nThis shows all six outcomes are equally likely.\n\n---\n\n3 ಮಾರ್ಕ್ಸ್ × 2 questions:"
+              "type": "formulas",
+              "label": "FORMULA:",
+              "items": [
+                "Probability of an event = Number of outcomes that give the event / Total number of equally likely outcomes",
+                "WHERE:",
+                "Number of outcomes giving the event = count of favourable outcomes",
+                "Total number of outcomes            = all possible equally likely outcomes",
+                "EXAMPLES: (textbook examples)",
+                "EXAMPLE 4.3.3.1: Coin toss probability",
+                "PROBLEM: A coin is tossed once. What is the probability of getting Head? What is the probability of getting Tail?",
+                "SOLUTION:",
+                "Step 1: Total equally likely outcomes = 2 (Head and Tail).",
+                "Step 2: Outcomes giving Head = 1.",
+                "Step 3: Probability of Head = 1/2.",
+                "Step 4: Outcomes giving Tail = 1.",
+                "Step 5: Probability of Tail = 1/2.",
+                "ANSWER: Probability of Head = 1/2. Probability of Tail = 1/2.",
+                "EXAMPLE 4.3.3.2: Die throw probability",
+                "PROBLEM: A die is thrown once. What is the probability of getting outcome 2? What is the probability of getting an even number?",
+                "SOLUTION:",
+                "Step 1: Total outcomes = 6 (1, 2, 3, 4, 5, 6).",
+                "Step 2: Outcomes giving 2 = 1. Probability of getting 2 = 1/6.",
+                "Step 3: Even numbers = 2, 4, 6 (three outcomes). Probability of even = 3/6 = 1/2.",
+                "Step 4: Outcomes giving 7 = 0 (7 is not on die). Probability = 0/6 = 0.",
+                "ANSWER: P(2) = 1/6. P(even) = 1/2. P(7) = 0.",
+                "ADDITIONAL CALCULATIONS:",
+                "Problem 1: A die is thrown. Find probability of getting a number 1 through 6.",
+                "Solution: Outcomes = 1,2,3,4,5,6 (all 6 outcomes give the event). Probability = 6/6 = 1.",
+                "Answer: Probability = 1 (certain event)."
+              ]
             },
             {
-              "q_num": 4,
-              "marks": 3,
-              "question": "A coin is tossed. The table shows results:",
-              "answer": "Step 1: (i) Yes, heads and tails are equally likely because a fair coin gives equal chance to both outcomes.\nStep 2: (ii) As we increase tosses, heads and tails come closer and closer to each other (at 50 tosses: 27 and 23; at 100 tosses: 48 and 52 — getting closer).\nStep 3: (iii) Conclusion: Head and Tail are equally likely outcomes for a fair coin toss."
+              "type": "qa",
+              "label": "SUB-TOPIC 4.3.3: Q&A:",
+              "items": []
             },
             {
-              "q_num": 5,
-              "marks": 3,
-              "question": "When a die is thrown once:",
-              "answer": "Step 1: (i) Outcomes = 1, 2, 3, 4, 5, 6. Total = 6 outcomes.\nStep 2: (ii) Yes, all outcomes are equally likely because a fair die has 6 identical faces — no face is more likely than another.\nStep 3: (iii) In 600 throws, each number would appear approximately 600/6 = 100 times.\n\n---\n\n4 ಮಾರ್ಕ್ಸ್ × 2 questions:"
+              "type": "qa",
+              "label": "Q&A",
+              "items": [
+                {
+                  "q_num": 1,
+                  "marks": 2,
+                  "question": "Write the probability formula when outcomes are equally likely.",
+                  "answer": "Probability of an event = Number of outcomes that give the event / Total number of equally likely outcomes."
+                },
+                {
+                  "q_num": 2,
+                  "marks": 2,
+                  "question": "When a coin is tossed once, what is the probability of getting a Head?",
+                  "answer": "Total equally likely outcomes = 2 (Head and Tail).\nOutcomes giving Head = 1.\nProbability of Head = 1/2."
+                },
+                {
+                  "q_num": 3,
+                  "marks": 2,
+                  "question": "When a die is thrown once, what is the probability of getting the number 7?",
+                  "answer": "7 is not present on any face of a die.\nOutcomes giving 7 = 0.\nProbability = 0/6 = 0 (impossible event).\n\n---\n\n3 ಮಾರ್ಕ್ಸ್ × 2 questions:"
+                },
+                {
+                  "q_num": 4,
+                  "marks": 3,
+                  "question": "When a die is thrown once, find:",
+                  "answer": "Step 1: (i) Total outcomes = 6. Outcomes giving 5 = 1. P(5) = 1/6.\nStep 2: (ii) Even numbers = 2, 4, 6 (3 outcomes). P(even) = 3/6 = 1/2.\nStep 3: (iii) Numbers 1-6 = all 6 outcomes. P(1 through 6) = 6/6 = 1 (certain event)."
+                },
+                {
+                  "q_num": 5,
+                  "marks": 3,
+                  "question": "When a coin is tossed once, find the probability of:",
+                  "answer": "Step 1: (i) Total outcomes = 2 (H, T). Outcomes giving Tail = 1. P(Tail) = 1/2.\nStep 2: (ii) Outcomes giving Head or Tail = 2 (all outcomes). P(Head or Tail) = 2/2 = 1 (certain).\nStep 3: (iii) There is no other outcome besides Head or Tail. P(neither) = 0/2 = 0 (impossible).\n\n---\n\n4 ಮಾರ್ಕ್ಸ್ × 2 questions:"
+                },
+                {
+                  "q_num": 6,
+                  "marks": 4,
+                  "question": "A bag has 4 red balls and 2 yellow balls (identical except colour). A ball is drawn randomly.",
+                  "answer": "Step 1: (i) Total balls = 4 red + 2 yellow = 6. Total outcomes = 6.\nStep 2: (ii) Outcomes giving red = 4. P(red) = 4/6 = 2/3.\nStep 3: (iii) Outcomes giving yellow = 2. P(yellow) = 2/6 = 1/3.\nStep 4: (iv) 2/3 > 1/3. Probability of red is more than yellow because there are more red balls in the bag."
+                },
+                {
+                  "q_num": 7,
+                  "marks": 4,
+                  "question": "A die is thrown once. Find the probability of:",
+                  "answer": "Step 1: (i) Prime numbers on a die = 2, 3, 5 (3 outcomes). P(prime) = 3/6 = 1/2.\nStep 2: (ii) Numbers not greater than 5 = 1,2,3,4,5 (5 outcomes). P(≤5) = 5/6.\nStep 3: (iii) Numbers greater than 6 = none (0 outcomes). P(>6) = 0/6 = 0 (impossible).\nStep 4: (iv) P(prime) = 1/2. P(not prime): not prime = 1,4,6 (3 outcomes) = 3/6 = 1/2.\nP(prime) + P(not prime) = 1/2 + 1/2 = 1. (verified)\n\n---\n\n5 ಮಾರ್ಕ್ಸ್ × 1 question:"
+                },
+                {
+                  "q_num": 8,
+                  "marks": 5,
+                  "question": "Probability problems combining coin and die.",
+                  "answer": "PART A — Coin toss:\nStep 1: (i) Total outcomes = 2. P(Head) = 1/2.\nStep 2: (ii) P(Tail) = 1/2.\nStep 3: (iii) P(Head) + P(Tail) = 1/2 + 1/2 = 1.\nStep 4: (iv) The sum = 1 tells us that one of these outcomes must definitely occur — getting Head or Tail covers all possibilities.\n\nPART B — Die throw:\nStep 1: (i) Numbers less than 3 = 1, 2 (2 outcomes). P(<3) = 2/6 = 1/3.\nStep 2: (ii) Numbers greater than 4 = 5, 6 (2 outcomes). P(>4) = 2/6 = 1/3.\nStep 3: (iii) Outcomes giving 1 = 1. P(1) = 1/6.\nStep 4: (iv) P(<3) = 2/6. P(=3) = 1/6. P(>3): numbers 4,5,6 = 3/6.\nSum = 2/6 + 1/6 + 3/6 = 6/6 = 1. (verified)"
+                }
+              ]
             },
             {
-              "q_num": 6,
-              "marks": 4,
-              "question": "Coin toss experiment table from textbook:",
-              "answer": "Step 1: (i) At 90 tosses: Heads=44, Tails=46. Difference = 2. Closest to each other.\nStep 2: (ii) At 50 tosses: Heads=27, Tails=23. Difference = 27-23 = 4.\nStep 3: (iii) At 100 tosses: Heads=48, Tails=52. Difference = 52-48 = 4. Still close.\nStep 4: (iv) As the number of tosses increases, heads and tails come closer and closer — confirming that Head and Tail are equally likely outcomes."
-            },
-            {
-              "q_num": 7,
-              "marks": 4,
-              "question": "A spinner has 3 sectors of equal size — Red (R), Blue (B), Green (G). It is spun 90 times.",
-              "answer": "Step 1: (i) Yes, all outcomes are equally likely because all three sectors are of equal size — each has the same chance.\nStep 2: (ii) In 90 spins, each colour appears approximately 90/3 = 30 times.\nStep 3: (iii) At 30 spins, results are not perfectly equal (12, 9, 9) but are close — this is normal for a small number of spins.\nStep 4: (iv) In 900 spins, each colour would appear very close to 300 times — the results get more balanced as spins increase.\n\n---\n\n5 ಮಾರ್ಕ್ಸ್ × 1 question:"
-            },
-            {
-              "q_num": 8,
-              "marks": 5,
-              "question": "Understanding equally likely outcomes through experiments.",
-              "answer": "PART A — Coin toss comparison:\nStep 1: (i) 50 tosses: difference = 27-23 = 4. 200 tosses: difference = 102-98 = 4.\nStep 2: (ii) In 200 tosses, heads=98 and tails=102 are closer as percentages (49% and 51%) vs 50 tosses (54% and 46%).\nStep 3: (iii) As tosses increase, the difference as a percentage becomes smaller — heads and tails get closer to equal (50-50).\n\nPART B — Die throwing analysis:\nStep 1: (i) Results: 9, 11, 10, 12, 9, 9. They are close but not exactly equal — this is normal for 60 throws. Yes, the die outcomes are equally likely.\nStep 2: (ii) Expected = 60/6 = 10 times each.\nStep 3: (iii) In 6000 throws, each number would appear very close to 1000 times — confirming all 6 outcomes are equally likely."
+              "type": "mcq",
+              "label": "SUB-TOPIC 4.3.3: MCQs:",
+              "items": [
+                {
+                  "mcq_num": 1,
+                  "difficulty": "Easy",
+                  "question": "When a coin is tossed once, the probability of getting a Tail is:",
+                  "options": {
+                    "A": "0",
+                    "B": "1/4",
+                    "C": "1/2",
+                    "D": "1"
+                  },
+                  "answer": "C",
+                  "explanation": "Total outcomes = 2 (Head, Tail). Outcomes giving Tail = 1. Probability = 1/2."
+                },
+                {
+                  "mcq_num": 2,
+                  "difficulty": "Medium",
+                  "question": "When a die is thrown once, the probability of getting the number 3 is:",
+                  "options": {
+                    "A": "1/3",
+                    "B": "1/6",
+                    "C": "1/2",
+                    "D": "3/6"
+                  },
+                  "answer": "B",
+                  "explanation": "Total outcomes = 6. Outcomes giving 3 = 1. Probability = 1/6."
+                },
+                {
+                  "mcq_num": 3,
+                  "difficulty": "Hard",
+                  "question": "When a die is thrown, the probability of getting a number greater than 4 is:",
+                  "options": {
+                    "A": "1/6",
+                    "B": "2/6 = 1/3",
+                    "C": "3/6 = 1/2",
+                    "D": "4/6"
+                  },
+                  "answer": "B",
+                  "explanation": "Numbers greater than 4 on a die = 5, 6 (2 outcomes). Total = 6. Probability = 2/6 = 1/3."
+                },
+                {
+                  "mcq_num": 4,
+                  "difficulty": "Easy",
+                  "question": "The probability of an impossible event is:",
+                  "options": {
+                    "A": "1",
+                    "B": "1/2",
+                    "C": "0",
+                    "D": "-1"
+                  },
+                  "answer": "C",
+                  "explanation": "An impossible event has 0 favourable outcomes. Probability = 0/total = 0."
+                },
+                {
+                  "mcq_num": 5,
+                  "difficulty": "Medium",
+                  "question": "When a die is thrown, the probability of getting a number from 1 to 6 is:",
+                  "options": {
+                    "A": "0",
+                    "B": "1/6",
+                    "C": "1/2",
+                    "D": "1"
+                  },
+                  "answer": "D",
+                  "explanation": "All 6 outcomes (1,2,3,4,5,6) are favourable. Probability = 6/6 = 1 (certain event)."
+                },
+                {
+                  "mcq_num": 6,
+                  "difficulty": "Hard",
+                  "question": "A bag has 4 red and 2 yellow balls. What is the probability of NOT getting a red ball?",
+                  "options": {
+                    "A": "1/6",
+                    "B": "1/3",
+                    "C": "2/3",
+                    "D": "1/2"
+                  },
+                  "answer": "B",
+                  "explanation": "Not red = yellow. Yellow balls = 2. Total = 6. P(not red) = 2/6 = 1/3. ----"
+                }
+              ]
             }
           ]
         },
         {
-          "type": "mcq",
-          "label": "MCQ",
-          "items": [
+          "subtopic_num": "4.3.4",
+          "subtopic_name": "OUTCOMES AS EVENTS",
+          "sections": [
             {
-              "mcq_num": 1,
-              "difficulty": "Easy",
-              "question": "Outcomes of an experiment are equally likely when:",
-              "options": {
-                "A": "Only one outcome is possible",
-                "B": "Each outcome has the same chance of occurring",
-                "C": "One outcome occurs more than others",
-                "D": "The experiment is done only once"
-              },
-              "answer": "B",
-              "explanation": "Equally likely means each outcome has the same chance of occurring."
+              "type": "definition",
+              "label": "Definition:",
+              "text": "EVENT: Each outcome of an experiment or a collection of outcomes make an event."
             },
             {
-              "mcq_num": 2,
-              "difficulty": "Medium",
-              "question": "When a fair coin is tossed a large number of times, what do we observe?",
-              "options": {
-                "A": "Heads always more than tails",
-                "B": "Tails always more than heads",
-                "C": "Heads and tails come closer to each other",
-                "D": "Always exactly equal"
-              },
-              "answer": "C",
-              "explanation": "As the number of tosses increases, heads and tails come closer and closer to each other."
+              "type": "key_points",
+              "label": "Key Points:",
+              "points": [
+                "An event can be a single outcome or a collection of outcomes.",
+                "In coin toss: Getting Head is an event. Getting Tail is an event.",
+                "In die throw: Getting 1 is an event. Getting 2 is an event. Getting any one of 1,2,3,4,5,6 is an event.",
+                "Getting an even number (2, 4, or 6) is also an event — a collection of 3 outcomes.",
+                "Probability of an event = number of favourable outcomes / total outcomes.",
+                "EXAMPLES: (textbook examples)",
+                "EXAMPLE 4.3.4.1: Bag with coloured balls (Textbook Example 3)",
+                "PROBLEM: A bag has 4 red balls and 2 yellow balls (identical in all respects other than colour). A ball is drawn from the bag without looking. What is probability of getting a red ball? Is it more or less than getting a yellow ball?",
+                "SOLUTION:",
+                "Step 1: Total outcomes = 4 + 2 = 6 balls.",
+                "Step 2: Getting a red ball: 4 outcomes (any of the 4 red balls).",
+                "Step 3: Probability of red = 4/6 = 2/3.",
+                "Step 4: Getting a yellow ball: 2 outcomes.",
+                "Step 5: Probability of yellow = 2/6 = 1/3.",
+                "Step 6: Compare: 2/3 > 1/3.",
+                "ANSWER: Probability of red = 2/3. Probability of yellow = 1/3. Probability of getting red is more than yellow.",
+                "TRY THESE / FIGURE IT OUT: (Sub-topic 4.3.4 — Spinning wheel Fig 4.8: R,G,G,R,G,R,G,R — 4R and 4G)",
+                "Q1(i): List the number of outcomes of getting a green sector and not getting a green sector.",
+                "A1(i): Green sectors = G,G,G,G = 4. Non-green (Red) sectors = R,R,R,R = 4. Total = 8.",
+                "Outcomes giving green = 4. Outcomes not giving green = 4.",
+                "Q1(ii): Find the probability of getting a green sector.",
+                "A1(ii): P(green) = 4/8 = 1/2.",
+                "Q1(iii): Find the probability of not getting a green sector.",
+                "A1(iii): P(not green) = 4/8 = 1/2."
+              ]
             },
             {
-              "mcq_num": 3,
-              "difficulty": "Hard",
-              "question": "A coin is tossed 100 times. Heads = 48, Tails = 52. As we toss more, what do we expect?",
-              "options": {
-                "A": "Heads will always stay less than tails",
-                "B": "Heads and tails will come closer to each other (both near 50)",
-                "C": "Heads will become 0",
-                "D": "Tails will become 100"
-              },
-              "answer": "B",
-              "explanation": "As the number of tosses increases, heads and tails come closer and closer to each other (both approaching 50 out of 100)."
+              "type": "qa",
+              "label": "SUB-TOPIC 4.3.4: Q&A:",
+              "items": []
             },
             {
-              "mcq_num": 4,
-              "difficulty": "Easy",
-              "question": "When are the outcomes of an experiment said to be equally likely?",
-              "options": {
-                "A": "When one outcome occurs more than others",
-                "B": "When each outcome has the same chance of occurring",
-                "C": "When only one outcome is possible",
-                "D": "When the experiment is done only once"
-              },
-              "answer": "B",
-              "explanation": "Equally likely means each outcome has the same chance of occurring."
+              "type": "qa",
+              "label": "Q&A",
+              "items": [
+                {
+                  "q_num": 1,
+                  "marks": 2,
+                  "question": "What is an event in a random experiment?",
+                  "answer": "Each outcome of an experiment or a collection of outcomes make an event.\nExample: Getting an even number when throwing a die is an event — it is a collection of outcomes 2, 4, 6."
+                },
+                {
+                  "q_num": 2,
+                  "marks": 2,
+                  "question": "When a die is thrown, is getting an even number an event? What outcomes does it include?",
+                  "answer": "Yes, getting an even number is an event.\nIt includes outcomes: 2, 4, 6 — a collection of 3 outcomes."
+                },
+                {
+                  "q_num": 3,
+                  "marks": 2,
+                  "question": "A box has 10 slips numbered 1 to 10. One slip is drawn randomly. What is the probability of getting the number 6?",
+                  "answer": "Total outcomes = 10.\nOutcomes giving 6 = 1 (only slip number 6).\nProbability = 1/10.\n\n---\n\n3 ಮಾರ್ಕ್ಸ್ × 2 questions:"
+                },
+                {
+                  "q_num": 4,
+                  "marks": 3,
+                  "question": "A bag has 4 red balls and 2 yellow balls. A ball is drawn randomly.",
+                  "answer": "Step 1: Total balls = 4 + 2 = 6. Total outcomes = 6.\nStep 2: (i) P(red)    = 4/6 = 2/3.\nStep 3: (ii) P(yellow) = 2/6 = 1/3.\n(iii) Since 2/3 > 1/3, getting a red ball is more likely."
+                },
+                {
+                  "q_num": 5,
+                  "marks": 3,
+                  "question": "A spinning wheel has 4 green (G) and 4 red (R) sectors. Total = 8 sectors.",
+                  "answer": "Step 1: (i) Green sectors = 4. Total = 8. P(green) = 4/8 = 1/2.\nStep 2: (ii) Not green (Red) = 4. P(not green) = 4/8 = 1/2.\nStep 3: (iii) P(green) + P(not green) = 1/2 + 1/2 = 1. (total probability always = 1)\n\n---\n\n4 ಮಾರ್ಕ್ಸ್ × 2 questions:"
+                },
+                {
+                  "q_num": 6,
+                  "marks": 4,
+                  "question": "Numbers 1 to 10 are written on separate slips and put in a box. One slip is drawn randomly.",
+                  "answer": "Step 1: (i) P(6) = 1/10.\nStep 2: (ii) Numbers less than 6 = 1,2,3,4,5 (5 numbers). P(<6) = 5/10 = 1/2.\nStep 3: (iii) Numbers greater than 6 = 7,8,9,10 (4 numbers). P(>6) = 4/10 = 2/5.\nStep 4: (iv) P(<6) + P(=6) + P(>6) = 5/10 + 1/10 + 4/10 = 10/10 = 1. (verified)"
+                },
+                {
+                  "q_num": 7,
+                  "marks": 4,
+                  "question": "A well-shuffled deck of 52 playing cards has 4 suits (Hearts, Diamonds, Clubs, Spades), each with 13 cards. One card is drawn randomly.",
+                  "answer": "Step 1: (i) Total outcomes = 52 (one card drawn from 52 cards).\nStep 2: (ii) Aces = 4. P(Ace) = 4/52 = 1/13.\nStep 3: (iii) Hearts = 13. P(Heart) = 13/52 = 1/4.\nStep 4: (iv) P(Heart) = 1/4 = 13/52 > P(Ace) = 4/52. Getting a Heart has higher probability.\n\n---\n\n5 ಮಾರ್ಕ್ಸ್ × 1 question:"
+                },
+                {
+                  "q_num": 8,
+                  "marks": 5,
+                  "question": "Events and probability from combined experiments.",
+                  "answer": "PART A — Bag with coloured balls:\nStep 1: (i) Outcomes = any one of the 9 balls — Red(1), Red(2), Red(3), Red(4), Green(1), Green(2), Green(3), Blue(1), Blue(2). Total = 9.\nStep 2: (ii) P(Red) = 4/9.  P(Green) = 3/9 = 1/3.  P(Blue) = 2/9.\nStep 3: (iii) Red (4/9) is most likely. Blue (2/9) is least likely.\nStep 4: (iv) 4/9 + 3/9 + 2/9 = 9/9 = 1. (verified)\n\nPART B — Die throw:\nStep 1: Multiples of 3 on die = 3, 6 (2 outcomes). P(multiple of 3) = 2/6 = 1/3.\nStep 2: Factors of 6 on die = 1, 2, 3, 6 (4 outcomes). P(factor of 6) = 4/6 = 2/3.\nStep 3: Numbers that are BOTH multiples of 3 AND factors of 6 = 3, 6 (2 outcomes).\nNumbers that are multiples of 3 OR factors of 6 but NOT BOTH = factors of 6 that are not multiples of 3 = 1, 2 (2 outcomes).\nStep 4: P(factor of 6 but not multiple of 3) = 2/6 = 1/3."
+                }
+              ]
             },
             {
-              "mcq_num": 5,
-              "difficulty": "Medium",
-              "question": "A die is thrown 600 times. Approximately how many times would the number 3 appear?",
-              "options": {
-                "A": "50",
-                "B": "100",
-                "C": "150",
-                "D": "200"
-              },
-              "answer": "B",
-              "explanation": "Die has 6 equally likely outcomes. Each appears 600/6 = 100 times approximately."
-            },
-            {
-              "mcq_num": 6,
-              "difficulty": "Hard",
-              "question": "A coin is tossed 50 times: Heads=27, Tails=23. A coin is tossed 200 times: Heads=98, Tails=102. In which experiment are heads and tails closest as a percentage?",
-              "options": {
-                "A": "50 tosses",
-                "B": "200 tosses",
-                "C": "Both equal",
-                "D": "Cannot determine"
-              },
-              "answer": "B",
-              "explanation": "200 tosses: Heads=49%, Tails=51% (2% gap). 50 tosses: Heads=54%, Tails=46% (8% gap). 200 tosses are closer. ----"
+              "type": "mcq",
+              "label": "SUB-TOPIC 4.3.4: MCQs:",
+              "items": [
+                {
+                  "mcq_num": 1,
+                  "difficulty": "Easy",
+                  "question": "A bag has 4 red balls and 2 yellow balls. Probability of getting a yellow ball is:",
+                  "options": {
+                    "A": "1/6",
+                    "B": "1/3",
+                    "C": "2/3",
+                    "D": "1/2"
+                  },
+                  "answer": "B",
+                  "explanation": "Yellow balls = 2. Total = 6. Probability = 2/6 = 1/3."
+                },
+                {
+                  "mcq_num": 2,
+                  "difficulty": "Medium",
+                  "question": "A spinning wheel has 4 green and 4 red sectors. What is the probability of getting a green sector?",
+                  "options": {
+                    "A": "1/4",
+                    "B": "1/3",
+                    "C": "1/2",
+                    "D": "3/4"
+                  },
+                  "answer": "C",
+                  "explanation": "Green sectors = 4. Total sectors = 8. Probability = 4/8 = 1/2."
+                },
+                {
+                  "mcq_num": 3,
+                  "difficulty": "Hard",
+                  "question": "A box has slips numbered 1 to 10. One slip is drawn. What is the probability of getting a number less than 6?",
+                  "options": {
+                    "A": "1/10",
+                    "B": "2/10",
+                    "C": "4/10",
+                    "D": "5/10 = 1/2"
+                  },
+                  "answer": "D",
+                  "explanation": "Numbers less than 6 = 1,2,3,4,5 (5 outcomes). Total = 10. Probability = 5/10 = 1/2."
+                },
+                {
+                  "mcq_num": 4,
+                  "difficulty": "Easy",
+                  "question": "Which of the following is an event in a die throw experiment?",
+                  "options": {
+                    "A": "Getting number 4 only",
+                    "B": "Getting an even number",
+                    "C": "Getting a prime number",
+                    "D": "All of the above"
+                  },
+                  "answer": "D",
+                  "explanation": "Getting number 4, getting an even number (2,4,6), getting a prime number (2,3,5) — all are events (single or collection of outcomes)."
+                },
+                {
+                  "mcq_num": 5,
+                  "difficulty": "Medium",
+                  "question": "A spinning wheel has 4 green (G) and 4 red (R) sectors. The probability of NOT getting a green sector is:",
+                  "options": {
+                    "A": "1/4",
+                    "B": "1/3",
+                    "C": "1/2",
+                    "D": "3/4"
+                  },
+                  "answer": "C",
+                  "explanation": "Not green = Red sectors = 4. Total = 8. P(not green) = 4/8 = 1/2."
+                },
+                {
+                  "mcq_num": 6,
+                  "difficulty": "Hard",
+                  "question": "A well-shuffled deck of 52 cards is drawn once. What is the probability of getting an Ace?",
+                  "options": {
+                    "A": "1/52",
+                    "B": "1/26",
+                    "C": "1/13",
+                    "D": "4/13"
+                  },
+                  "answer": "C",
+                  "explanation": "Aces in a deck = 4. Total cards = 52. P(Ace) = 4/52 = 1/13. ----"
+                }
+              ]
             }
           ]
         },
         {
-          "type": "definition",
-          "label": "Definition:",
-          "text": "PROBABILITY: When outcomes are equally likely, the probability of an event = Number of outcomes that give the event / Total number of equally likely outcomes."
-        },
-        {
-          "type": "key_points",
-          "label": "Key Points:",
-          "points": [
-            "Tossing a coin once: 2 equally likely outcomes (Head, Tail). Likelihood of getting Head = 1 out of 2.",
-            "So, probability of getting Head = 1/2. Probability of getting Tail = 1/2.",
-            "Throwing a die: 6 equally likely outcomes (1,2,3,4,5,6). Probability of getting 2 = 1/6.",
-            "Probability of getting 7 (not on die) = 0/6 = 0 (impossible).",
-            "Probability of getting a number from 1 through 6 = 6/6 = 1 (certain)."
-          ]
-        },
-        {
-          "type": "formulas",
-          "label": "FORMULA:",
-          "items": [
-            "Probability of an event = Number of outcomes that give the event / Total number of equally likely outcomes",
-            "WHERE:",
-            "Number of outcomes giving the event = count of favourable outcomes",
-            "Total number of outcomes            = all possible equally likely outcomes",
-            "EXAMPLES: (textbook examples)",
-            "EXAMPLE 4.3.3.1: Coin toss probability",
-            "PROBLEM: A coin is tossed once. What is the probability of getting Head? What is the probability of getting Tail?",
-            "SOLUTION:",
-            "Step 1: Total equally likely outcomes = 2 (Head and Tail).",
-            "Step 2: Outcomes giving Head = 1.",
-            "Step 3: Probability of Head = 1/2.",
-            "Step 4: Outcomes giving Tail = 1.",
-            "Step 5: Probability of Tail = 1/2.",
-            "ANSWER: Probability of Head = 1/2. Probability of Tail = 1/2.",
-            "EXAMPLE 4.3.3.2: Die throw probability",
-            "PROBLEM: A die is thrown once. What is the probability of getting outcome 2? What is the probability of getting an even number?",
-            "SOLUTION:",
-            "Step 1: Total outcomes = 6 (1, 2, 3, 4, 5, 6).",
-            "Step 2: Outcomes giving 2 = 1. Probability of getting 2 = 1/6.",
-            "Step 3: Even numbers = 2, 4, 6 (three outcomes). Probability of even = 3/6 = 1/2.",
-            "Step 4: Outcomes giving 7 = 0 (7 is not on die). Probability = 0/6 = 0.",
-            "ANSWER: P(2) = 1/6. P(even) = 1/2. P(7) = 0.",
-            "ADDITIONAL CALCULATIONS:",
-            "Problem 1: A die is thrown. Find probability of getting a number 1 through 6.",
-            "Solution: Outcomes = 1,2,3,4,5,6 (all 6 outcomes give the event). Probability = 6/6 = 1.",
-            "Answer: Probability = 1 (certain event)."
-          ]
-        },
-        {
-          "type": "qa",
-          "label": "SUB-TOPIC 4.3.3: Q&A:",
-          "items": []
-        },
-        {
-          "type": "qa",
-          "label": "Q&A",
-          "items": [
+          "subtopic_num": "4.3.5",
+          "subtopic_name": "CHANCE AND PROBABILITY RELATED TO REAL LIFE",
+          "sections": [
             {
-              "q_num": 1,
-              "marks": 2,
-              "question": "Write the probability formula when outcomes are equally likely.",
-              "answer": "Probability of an event = Number of outcomes that give the event / Total number of equally likely outcomes."
+              "type": "definition",
+              "label": "Definition:",
+              "text": "Probability is applied in real life to predict the likelihood of events occurring in various situations."
             },
             {
-              "q_num": 2,
-              "marks": 2,
-              "question": "When a coin is tossed once, what is the probability of getting a Head?",
-              "answer": "Total equally likely outcomes = 2 (Head and Tail).\nOutcomes giving Head = 1.\nProbability of Head = 1/2."
+              "type": "key_points",
+              "label": "Key Points:",
+              "points": [
+                "Example: During rainy season, chance that it rains on any day = 1/10. So probability of rain = 1/10. Probability of no rain = 9/10 (assuming raining/not raining equally likely).",
+                "Uses of probability in real life:",
+                "1. To find characteristics of a large group by using a small part of the group.",
+                "Example: During elections, an exit poll is taken. A few people who come out after voting are chosen randomly and asked whom they voted for. This gives an idea of the chance of winning of each candidate.",
+                "2. To predict weather — the Meteorological Department predicts weather by observing trends from data collected over many years in the past.",
+                "Probability ranges from 0 to 1.",
+                "Probability = 0 means the event is impossible.",
+                "Probability = 1 means the event is certain.",
+                "For any event: 0 <= Probability <= 1."
+              ]
             },
             {
-              "q_num": 3,
-              "marks": 2,
-              "question": "When a die is thrown once, what is the probability of getting the number 7?",
-              "answer": "7 is not present on any face of a die.\nOutcomes giving 7 = 0.\nProbability = 0/6 = 0 (impossible event).\n\n---\n\n3 ಮಾರ್ಕ್ಸ್ × 2 questions:"
+              "type": "exercise",
+              "label": "EXERCISE 4.2:",
+              "items": [
+                {
+                  "q_num": 1,
+                  "marks": null,
+                  "question": "List the outcomes you can see in these experiments.",
+                  "answer": "(a) Spinning a wheel (sectors A, B, A, C, A, D): Outcomes = A, B, C, D.\n(b) Tossing two coins together: Outcomes = HH, HT, TH, TT."
+                },
+                {
+                  "q_num": 2,
+                  "marks": null,
+                  "question": "When a die is thrown, list outcomes of an event of getting:",
+                  "answer": "(i)(a) a prime number: 2, 3, 5.\n(i)(b) not a prime number: 1, 4, 6.\n(ii)(a) a number greater than 5: 6.\n(ii)(b) a number not greater than 5: 1, 2, 3, 4, 5."
+                },
+                {
+                  "q_num": 3,
+                  "marks": null,
+                  "question": "Find the following:",
+                  "answer": "(a) Probability of the pointer stopping on D in Question 1(a).\nWheel has sectors: A,B,A,C,A,D = 6 sectors. D appears once. P(D) = 1/6.\n(b) Probability of getting an ace from a well shuffled deck of 52 cards.\nAces = 4 (one per suit). P(ace) = 4/52 = 1/13.\n(c) Probability of getting a red apple (from figure with 4 red R and 3 green G apples = 7 total).\nP(red) = 4/7."
+                },
+                {
+                  "q_num": 4,
+                  "marks": null,
+                  "question": "Numbers 1 to 10 written on slips, one slip drawn randomly. Find probability of:",
+                  "answer": "(i) Getting number 6: P = 1/10.\n(ii) Getting a number less than 6: Numbers = 1,2,3,4,5. P = 5/10 = 1/2.\n(iii) Getting a number greater than 6: Numbers = 7,8,9,10. P = 4/10 = 2/5.\n(iv) Getting a 1-digit number: Numbers = 1,2,3,4,5,6,7,8,9. P = 9/10."
+                },
+                {
+                  "q_num": 5,
+                  "marks": null,
+                  "question": "Spinning wheel with 3 green, 1 blue, 1 red sector. Total = 5 sectors.",
+                  "answer": "Probability of getting green = 3/5.\nProbability of getting non-blue = (3+1)/5 = 4/5 (green + red = 4 sectors)."
+                },
+                {
+                  "q_num": 6,
+                  "marks": null,
+                  "question": "Find probabilities of events in Question 2.",
+                  "answer": "(i)(a) Prime: P = 3/6 = 1/2.\n(i)(b) Not prime: P = 3/6 = 1/2.\n(ii)(a) Greater than 5: P = 1/6.\n(ii)(b) Not greater than 5: P = 5/6."
+                }
+              ],
+              "raw": "Q1: List the outcomes you can see in these experiments.\n(a) Spinning a wheel (sectors A, B, A, C, A, D): Outcomes = A, B, C, D.\n(b) Tossing two coins together: Outcomes = HH, HT, TH, TT.\n\nQ2: When a die is thrown, list outcomes of an event of getting:\n(i)(a) a prime number: 2, 3, 5.\n(i)(b) not a prime number: 1, 4, 6.\n(ii)(a) a number greater than 5: 6.\n(ii)(b) a number not greater than 5: 1, 2, 3, 4, 5.\n\nQ3: Find the following:\n(a) Probability of the pointer stopping on D in Question 1(a).\nWheel has sectors: A,B,A,C,A,D = 6 sectors. D appears once. P(D) = 1/6.\n(b) Probability of getting an ace from a well shuffled deck of 52 cards.\nAces = 4 (one per suit). P(ace) = 4/52 = 1/13.\n(c) Probability of getting a red apple (from figure with 4 red R and 3 green G apples = 7 total).\nP(red) = 4/7.\n\nQ4: Numbers 1 to 10 written on slips, one slip drawn randomly. Find probability of:\n(i) Getting number 6: P = 1/10.\n(ii) Getting a number less than 6: Numbers = 1,2,3,4,5. P = 5/10 = 1/2.\n(iii) Getting a number greater than 6: Numbers = 7,8,9,10. P = 4/10 = 2/5.\n(iv) Getting a 1-digit number: Numbers = 1,2,3,4,5,6,7,8,9. P = 9/10.\n\nQ5: Spinning wheel with 3 green, 1 blue, 1 red sector. Total = 5 sectors.\nProbability of getting green = 3/5.\nProbability of getting non-blue = (3+1)/5 = 4/5 (green + red = 4 sectors).\n\nQ6: Find probabilities of events in Question 2.\n(i)(a) Prime: P = 3/6 = 1/2.\n(i)(b) Not prime: P = 3/6 = 1/2.\n(ii)(a) Greater than 5: P = 1/6.\n(ii)(b) Not greater than 5: P = 5/6."
             },
             {
-              "q_num": 4,
-              "marks": 3,
-              "question": "When a die is thrown once, find:",
-              "answer": "Step 1: (i) Total outcomes = 6. Outcomes giving 5 = 1. P(5) = 1/6.\nStep 2: (ii) Even numbers = 2, 4, 6 (3 outcomes). P(even) = 3/6 = 1/2.\nStep 3: (iii) Numbers 1-6 = all 6 outcomes. P(1 through 6) = 6/6 = 1 (certain event)."
+              "type": "qa",
+              "label": "SUB-TOPIC 4.3.5: Q&A:",
+              "items": []
             },
             {
-              "q_num": 5,
-              "marks": 3,
-              "question": "When a coin is tossed once, find the probability of:",
-              "answer": "Step 1: (i) Total outcomes = 2 (H, T). Outcomes giving Tail = 1. P(Tail) = 1/2.\nStep 2: (ii) Outcomes giving Head or Tail = 2 (all outcomes). P(Head or Tail) = 2/2 = 1 (certain).\nStep 3: (iii) There is no other outcome besides Head or Tail. P(neither) = 0/2 = 0 (impossible).\n\n---\n\n4 ಮಾರ್ಕ್ಸ್ × 2 questions:"
+              "type": "qa",
+              "label": "Q&A",
+              "items": [
+                {
+                  "q_num": 1,
+                  "marks": 2,
+                  "question": "How is probability used in real life? Give one example.",
+                  "answer": "Probability is used to predict the likelihood of events in real life.\nExample: During elections, an exit poll is taken by asking a few people who come out after voting — this gives an idea of the chance of winning of each candidate."
+                },
+                {
+                  "q_num": 2,
+                  "marks": 2,
+                  "question": "What does a probability of 0 mean? What does a probability of 1 mean?",
+                  "answer": "Probability = 0 means the event is impossible — it cannot happen.\nProbability = 1 means the event is certain — it will definitely happen."
+                },
+                {
+                  "q_num": 3,
+                  "marks": 2,
+                  "question": "During rainy season, the probability of rain on any day is 1/10. What is the probability that it does not rain?",
+                  "answer": "P(no rain) = 1 - P(rain) = 1 - 1/10 = 9/10.\nThe probability that it does not rain = 9/10.\n\n---\n\n3 ಮಾರ್ಕ್ಸ್ × 2 questions:"
+                },
+                {
+                  "q_num": 4,
+                  "marks": 3,
+                  "question": "How does the Meteorological Department use probability? Explain with an example.",
+                  "answer": "Step 1: The Meteorological Department collects weather data over many years and observes trends.\nStep 2: Based on past data, they predict the probability of rain, storms, or sunshine on any particular day.\nStep 3: Example: If it has rained on a particular date in 8 out of 10 past years, the probability of rain on that date = 8/10 = 4/5. They use this to predict \"80% chance of rain today.\""
+                },
+                {
+                  "q_num": 5,
+                  "marks": 3,
+                  "question": "In an election, candidates A, B, and C are contesting. An exit poll asks 100 randomly chosen voters. Results: A=45, B=35, C=20.",
+                  "answer": "Step 1: Total people polled = 100. All outcomes = 100 equally likely choices.\nStep 2: (i) P(A wins) = 45/100 = 9/20.\nStep 3: (ii) P(B wins) = 35/100 = 7/20.\n(iii) P(C wins) = 20/100 = 1/5.\n\n---\n\n4 ಮಾರ್ಕ್ಸ್ × 2 questions:"
+                },
+                {
+                  "q_num": 6,
+                  "marks": 4,
+                  "question": "A spinning wheel (Fig 4.8) has sectors: R, G, G, R, G, R, G, R — total 8 sectors (4 Red, 4 Green).",
+                  "answer": "Step 1: (i) Green sectors = 4. Total = 8. P(Green) = 4/8 = 1/2.\nStep 2: (ii) Red sectors = 4. P(Red) = 4/8 = 1/2.\nStep 3: (iii) P(Green) + P(Red) = 1/2 + 1/2 = 1. This tells us the two outcomes together cover all possibilities — one of them must definitely happen.\nStep 4: (iv) Yes. Example: In quality testing of a product, each item is either \"good\" or \"defective\" — probability of good + probability of defective = 1."
+                },
+                {
+                  "q_num": 7,
+                  "marks": 4,
+                  "question": "A bag has 7 apples — 4 Red (R) and 3 Green (G). One apple is picked randomly.",
+                  "answer": "Step 1: (i) Total apples = 7. P(Red) = 4/7.\nStep 2: (ii) P(Green) = 3/7.\nStep 3: (iii) In 70 apples: Red = (4/7) x 70 = 40 apples.\nStep 4: (iv) P(no rain) = 1 - P(rain) = 1 - 3/5 = 2/5.\n\n---\n\n5 ಮಾರ್ಕ್ಸ್ × 1 question:"
+                },
+                {
+                  "q_num": 8,
+                  "marks": 5,
+                  "question": "Probability in real life — combined application.",
+                  "answer": "PART A — Cards numbered 1 to 10:\nStep 1: (i) Red cards = 1,2,3,4,5 (5 cards). P(Red) = 5/10 = 1/2.\nStep 2: (ii) Blue cards = 6,7,8,9,10 (5 cards). P(Blue) = 5/10 = 1/2.\nStep 3: (iii) Even-numbered blue cards = 6, 8, 10 (3 cards). P(even blue) = 3/10.\nStep 4: (iv) P(Red) + P(Blue) = 1/2 + 1/2 = 1. (verified)\n\nPART B — Factory quality inspection:\nStep 1: (i) P(good) = 95/100 = 19/20.\nStep 2: (ii) P(defective) = 5/100 = 1/20.\nStep 3: (iii) In 500 items: Defective = (1/20) x 500 = 25 items expected to be defective."
+                }
+              ]
             },
             {
-              "q_num": 6,
-              "marks": 4,
-              "question": "A bag has 4 red balls and 2 yellow balls (identical except colour). A ball is drawn randomly.",
-              "answer": "Step 1: (i) Total balls = 4 red + 2 yellow = 6. Total outcomes = 6.\nStep 2: (ii) Outcomes giving red = 4. P(red) = 4/6 = 2/3.\nStep 3: (iii) Outcomes giving yellow = 2. P(yellow) = 2/6 = 1/3.\nStep 4: (iv) 2/3 > 1/3. Probability of red is more than yellow because there are more red balls in the bag."
-            },
-            {
-              "q_num": 7,
-              "marks": 4,
-              "question": "A die is thrown once. Find the probability of:",
-              "answer": "Step 1: (i) Prime numbers on a die = 2, 3, 5 (3 outcomes). P(prime) = 3/6 = 1/2.\nStep 2: (ii) Numbers not greater than 5 = 1,2,3,4,5 (5 outcomes). P(≤5) = 5/6.\nStep 3: (iii) Numbers greater than 6 = none (0 outcomes). P(>6) = 0/6 = 0 (impossible).\nStep 4: (iv) P(prime) = 1/2. P(not prime): not prime = 1,4,6 (3 outcomes) = 3/6 = 1/2.\nP(prime) + P(not prime) = 1/2 + 1/2 = 1. (verified)\n\n---\n\n5 ಮಾರ್ಕ್ಸ್ × 1 question:"
-            },
-            {
-              "q_num": 8,
-              "marks": 5,
-              "question": "Probability problems combining coin and die.",
-              "answer": "PART A — Coin toss:\nStep 1: (i) Total outcomes = 2. P(Head) = 1/2.\nStep 2: (ii) P(Tail) = 1/2.\nStep 3: (iii) P(Head) + P(Tail) = 1/2 + 1/2 = 1.\nStep 4: (iv) The sum = 1 tells us that one of these outcomes must definitely occur — getting Head or Tail covers all possibilities.\n\nPART B — Die throw:\nStep 1: (i) Numbers less than 3 = 1, 2 (2 outcomes). P(<3) = 2/6 = 1/3.\nStep 2: (ii) Numbers greater than 4 = 5, 6 (2 outcomes). P(>4) = 2/6 = 1/3.\nStep 3: (iii) Outcomes giving 1 = 1. P(1) = 1/6.\nStep 4: (iv) P(<3) = 2/6. P(=3) = 1/6. P(>3): numbers 4,5,6 = 3/6.\nSum = 2/6 + 1/6 + 3/6 = 6/6 = 1. (verified)"
-            }
-          ]
-        },
-        {
-          "type": "mcq",
-          "label": "MCQ",
-          "items": [
-            {
-              "mcq_num": 1,
-              "difficulty": "Easy",
-              "question": "When a coin is tossed once, the probability of getting a Tail is:",
-              "options": {
-                "A": "0",
-                "B": "1/4",
-                "C": "1/2",
-                "D": "1"
-              },
-              "answer": "C",
-              "explanation": "Total outcomes = 2 (Head, Tail). Outcomes giving Tail = 1. Probability = 1/2."
-            },
-            {
-              "mcq_num": 2,
-              "difficulty": "Medium",
-              "question": "When a die is thrown once, the probability of getting the number 3 is:",
-              "options": {
-                "A": "1/3",
-                "B": "1/6",
-                "C": "1/2",
-                "D": "3/6"
-              },
-              "answer": "B",
-              "explanation": "Total outcomes = 6. Outcomes giving 3 = 1. Probability = 1/6."
-            },
-            {
-              "mcq_num": 3,
-              "difficulty": "Hard",
-              "question": "When a die is thrown, the probability of getting a number greater than 4 is:",
-              "options": {
-                "A": "1/6",
-                "B": "2/6 = 1/3",
-                "C": "3/6 = 1/2",
-                "D": "4/6"
-              },
-              "answer": "B",
-              "explanation": "Numbers greater than 4 on a die = 5, 6 (2 outcomes). Total = 6. Probability = 2/6 = 1/3."
-            },
-            {
-              "mcq_num": 4,
-              "difficulty": "Easy",
-              "question": "The probability of an impossible event is:",
-              "options": {
-                "A": "1",
-                "B": "1/2",
-                "C": "0",
-                "D": "-1"
-              },
-              "answer": "C",
-              "explanation": "An impossible event has 0 favourable outcomes. Probability = 0/total = 0."
-            },
-            {
-              "mcq_num": 5,
-              "difficulty": "Medium",
-              "question": "When a die is thrown, the probability of getting a number from 1 to 6 is:",
-              "options": {
-                "A": "0",
-                "B": "1/6",
-                "C": "1/2",
-                "D": "1"
-              },
-              "answer": "D",
-              "explanation": "All 6 outcomes (1,2,3,4,5,6) are favourable. Probability = 6/6 = 1 (certain event)."
-            },
-            {
-              "mcq_num": 6,
-              "difficulty": "Hard",
-              "question": "A bag has 4 red and 2 yellow balls. What is the probability of NOT getting a red ball?",
-              "options": {
-                "A": "1/6",
-                "B": "1/3",
-                "C": "2/3",
-                "D": "1/2"
-              },
-              "answer": "B",
-              "explanation": "Not red = yellow. Yellow balls = 2. Total = 6. P(not red) = 2/6 = 1/3. ----"
-            }
-          ]
-        },
-        {
-          "type": "definition",
-          "label": "Definition:",
-          "text": "EVENT: Each outcome of an experiment or a collection of outcomes make an event."
-        },
-        {
-          "type": "key_points",
-          "label": "Key Points:",
-          "points": [
-            "An event can be a single outcome or a collection of outcomes.",
-            "In coin toss: Getting Head is an event. Getting Tail is an event.",
-            "In die throw: Getting 1 is an event. Getting 2 is an event. Getting any one of 1,2,3,4,5,6 is an event.",
-            "Getting an even number (2, 4, or 6) is also an event — a collection of 3 outcomes.",
-            "Probability of an event = number of favourable outcomes / total outcomes.",
-            "EXAMPLES: (textbook examples)",
-            "EXAMPLE 4.3.4.1: Bag with coloured balls (Textbook Example 3)",
-            "PROBLEM: A bag has 4 red balls and 2 yellow balls (identical in all respects other than colour). A ball is drawn from the bag without looking. What is probability of getting a red ball? Is it more or less than getting a yellow ball?",
-            "SOLUTION:",
-            "Step 1: Total outcomes = 4 + 2 = 6 balls.",
-            "Step 2: Getting a red ball: 4 outcomes (any of the 4 red balls).",
-            "Step 3: Probability of red = 4/6 = 2/3.",
-            "Step 4: Getting a yellow ball: 2 outcomes.",
-            "Step 5: Probability of yellow = 2/6 = 1/3.",
-            "Step 6: Compare: 2/3 > 1/3.",
-            "ANSWER: Probability of red = 2/3. Probability of yellow = 1/3. Probability of getting red is more than yellow.",
-            "TRY THESE / FIGURE IT OUT: (Sub-topic 4.3.4 — Spinning wheel Fig 4.8: R,G,G,R,G,R,G,R — 4R and 4G)",
-            "Q1(i): List the number of outcomes of getting a green sector and not getting a green sector.",
-            "A1(i): Green sectors = G,G,G,G = 4. Non-green (Red) sectors = R,R,R,R = 4. Total = 8.",
-            "Outcomes giving green = 4. Outcomes not giving green = 4.",
-            "Q1(ii): Find the probability of getting a green sector.",
-            "A1(ii): P(green) = 4/8 = 1/2.",
-            "Q1(iii): Find the probability of not getting a green sector.",
-            "A1(iii): P(not green) = 4/8 = 1/2."
-          ]
-        },
-        {
-          "type": "qa",
-          "label": "SUB-TOPIC 4.3.4: Q&A:",
-          "items": []
-        },
-        {
-          "type": "qa",
-          "label": "Q&A",
-          "items": [
-            {
-              "q_num": 1,
-              "marks": 2,
-              "question": "What is an event in a random experiment?",
-              "answer": "Each outcome of an experiment or a collection of outcomes make an event.\nExample: Getting an even number when throwing a die is an event — it is a collection of outcomes 2, 4, 6."
-            },
-            {
-              "q_num": 2,
-              "marks": 2,
-              "question": "When a die is thrown, is getting an even number an event? What outcomes does it include?",
-              "answer": "Yes, getting an even number is an event.\nIt includes outcomes: 2, 4, 6 — a collection of 3 outcomes."
-            },
-            {
-              "q_num": 3,
-              "marks": 2,
-              "question": "A box has 10 slips numbered 1 to 10. One slip is drawn randomly. What is the probability of getting the number 6?",
-              "answer": "Total outcomes = 10.\nOutcomes giving 6 = 1 (only slip number 6).\nProbability = 1/10.\n\n---\n\n3 ಮಾರ್ಕ್ಸ್ × 2 questions:"
-            },
-            {
-              "q_num": 4,
-              "marks": 3,
-              "question": "A bag has 4 red balls and 2 yellow balls. A ball is drawn randomly.",
-              "answer": "Step 1: Total balls = 4 + 2 = 6. Total outcomes = 6.\nStep 2: (i) P(red)    = 4/6 = 2/3.\nStep 3: (ii) P(yellow) = 2/6 = 1/3.\n(iii) Since 2/3 > 1/3, getting a red ball is more likely."
-            },
-            {
-              "q_num": 5,
-              "marks": 3,
-              "question": "A spinning wheel has 4 green (G) and 4 red (R) sectors. Total = 8 sectors.",
-              "answer": "Step 1: (i) Green sectors = 4. Total = 8. P(green) = 4/8 = 1/2.\nStep 2: (ii) Not green (Red) = 4. P(not green) = 4/8 = 1/2.\nStep 3: (iii) P(green) + P(not green) = 1/2 + 1/2 = 1. (total probability always = 1)\n\n---\n\n4 ಮಾರ್ಕ್ಸ್ × 2 questions:"
-            },
-            {
-              "q_num": 6,
-              "marks": 4,
-              "question": "Numbers 1 to 10 are written on separate slips and put in a box. One slip is drawn randomly.",
-              "answer": "Step 1: (i) P(6) = 1/10.\nStep 2: (ii) Numbers less than 6 = 1,2,3,4,5 (5 numbers). P(<6) = 5/10 = 1/2.\nStep 3: (iii) Numbers greater than 6 = 7,8,9,10 (4 numbers). P(>6) = 4/10 = 2/5.\nStep 4: (iv) P(<6) + P(=6) + P(>6) = 5/10 + 1/10 + 4/10 = 10/10 = 1. (verified)"
-            },
-            {
-              "q_num": 7,
-              "marks": 4,
-              "question": "A well-shuffled deck of 52 playing cards has 4 suits (Hearts, Diamonds, Clubs, Spades), each with 13 cards. One card is drawn randomly.",
-              "answer": "Step 1: (i) Total outcomes = 52 (one card drawn from 52 cards).\nStep 2: (ii) Aces = 4. P(Ace) = 4/52 = 1/13.\nStep 3: (iii) Hearts = 13. P(Heart) = 13/52 = 1/4.\nStep 4: (iv) P(Heart) = 1/4 = 13/52 > P(Ace) = 4/52. Getting a Heart has higher probability.\n\n---\n\n5 ಮಾರ್ಕ್ಸ್ × 1 question:"
-            },
-            {
-              "q_num": 8,
-              "marks": 5,
-              "question": "Events and probability from combined experiments.",
-              "answer": "PART A — Bag with coloured balls:\nStep 1: (i) Outcomes = any one of the 9 balls — Red(1), Red(2), Red(3), Red(4), Green(1), Green(2), Green(3), Blue(1), Blue(2). Total = 9.\nStep 2: (ii) P(Red) = 4/9.  P(Green) = 3/9 = 1/3.  P(Blue) = 2/9.\nStep 3: (iii) Red (4/9) is most likely. Blue (2/9) is least likely.\nStep 4: (iv) 4/9 + 3/9 + 2/9 = 9/9 = 1. (verified)\n\nPART B — Die throw:\nStep 1: Multiples of 3 on die = 3, 6 (2 outcomes). P(multiple of 3) = 2/6 = 1/3.\nStep 2: Factors of 6 on die = 1, 2, 3, 6 (4 outcomes). P(factor of 6) = 4/6 = 2/3.\nStep 3: Numbers that are BOTH multiples of 3 AND factors of 6 = 3, 6 (2 outcomes).\nNumbers that are multiples of 3 OR factors of 6 but NOT BOTH = factors of 6 that are not multiples of 3 = 1, 2 (2 outcomes).\nStep 4: P(factor of 6 but not multiple of 3) = 2/6 = 1/3."
-            }
-          ]
-        },
-        {
-          "type": "mcq",
-          "label": "MCQ",
-          "items": [
-            {
-              "mcq_num": 1,
-              "difficulty": "Easy",
-              "question": "A bag has 4 red balls and 2 yellow balls. Probability of getting a yellow ball is:",
-              "options": {
-                "A": "1/6",
-                "B": "1/3",
-                "C": "2/3",
-                "D": "1/2"
-              },
-              "answer": "B",
-              "explanation": "Yellow balls = 2. Total = 6. Probability = 2/6 = 1/3."
-            },
-            {
-              "mcq_num": 2,
-              "difficulty": "Medium",
-              "question": "A spinning wheel has 4 green and 4 red sectors. What is the probability of getting a green sector?",
-              "options": {
-                "A": "1/4",
-                "B": "1/3",
-                "C": "1/2",
-                "D": "3/4"
-              },
-              "answer": "C",
-              "explanation": "Green sectors = 4. Total sectors = 8. Probability = 4/8 = 1/2."
-            },
-            {
-              "mcq_num": 3,
-              "difficulty": "Hard",
-              "question": "A box has slips numbered 1 to 10. One slip is drawn. What is the probability of getting a number less than 6?",
-              "options": {
-                "A": "1/10",
-                "B": "2/10",
-                "C": "4/10",
-                "D": "5/10 = 1/2"
-              },
-              "answer": "D",
-              "explanation": "Numbers less than 6 = 1,2,3,4,5 (5 outcomes). Total = 10. Probability = 5/10 = 1/2."
-            },
-            {
-              "mcq_num": 4,
-              "difficulty": "Easy",
-              "question": "Which of the following is an event in a die throw experiment?",
-              "options": {
-                "A": "Getting number 4 only",
-                "B": "Getting an even number",
-                "C": "Getting a prime number",
-                "D": "All of the above"
-              },
-              "answer": "D",
-              "explanation": "Getting number 4, getting an even number (2,4,6), getting a prime number (2,3,5) — all are events (single or collection of outcomes)."
-            },
-            {
-              "mcq_num": 5,
-              "difficulty": "Medium",
-              "question": "A spinning wheel has 4 green (G) and 4 red (R) sectors. The probability of NOT getting a green sector is:",
-              "options": {
-                "A": "1/4",
-                "B": "1/3",
-                "C": "1/2",
-                "D": "3/4"
-              },
-              "answer": "C",
-              "explanation": "Not green = Red sectors = 4. Total = 8. P(not green) = 4/8 = 1/2."
-            },
-            {
-              "mcq_num": 6,
-              "difficulty": "Hard",
-              "question": "A well-shuffled deck of 52 cards is drawn once. What is the probability of getting an Ace?",
-              "options": {
-                "A": "1/52",
-                "B": "1/26",
-                "C": "1/13",
-                "D": "4/13"
-              },
-              "answer": "C",
-              "explanation": "Aces in a deck = 4. Total cards = 52. P(Ace) = 4/52 = 1/13. ----"
-            }
-          ]
-        },
-        {
-          "type": "definition",
-          "label": "Definition:",
-          "text": "Probability is applied in real life to predict the likelihood of events occurring in various situations."
-        },
-        {
-          "type": "key_points",
-          "label": "Key Points:",
-          "points": [
-            "Example: During rainy season, chance that it rains on any day = 1/10. So probability of rain = 1/10. Probability of no rain = 9/10 (assuming raining/not raining equally likely).",
-            "Uses of probability in real life:",
-            "1. To find characteristics of a large group by using a small part of the group.",
-            "Example: During elections, an exit poll is taken. A few people who come out after voting are chosen randomly and asked whom they voted for. This gives an idea of the chance of winning of each candidate.",
-            "2. To predict weather — the Meteorological Department predicts weather by observing trends from data collected over many years in the past.",
-            "Probability ranges from 0 to 1.",
-            "Probability = 0 means the event is impossible.",
-            "Probability = 1 means the event is certain.",
-            "For any event: 0 <= Probability <= 1."
-          ]
-        },
-        {
-          "type": "exercise",
-          "label": "EXERCISE 4.2:",
-          "items": [
-            {
-              "q_num": 1,
-              "marks": null,
-              "question": "List the outcomes you can see in these experiments.",
-              "answer": "(a) Spinning a wheel (sectors A, B, A, C, A, D): Outcomes = A, B, C, D.\n(b) Tossing two coins together: Outcomes = HH, HT, TH, TT."
-            },
-            {
-              "q_num": 2,
-              "marks": null,
-              "question": "When a die is thrown, list outcomes of an event of getting:",
-              "answer": "(i)(a) a prime number: 2, 3, 5.\n(i)(b) not a prime number: 1, 4, 6.\n(ii)(a) a number greater than 5: 6.\n(ii)(b) a number not greater than 5: 1, 2, 3, 4, 5."
-            },
-            {
-              "q_num": 3,
-              "marks": null,
-              "question": "Find the following:",
-              "answer": "(a) Probability of the pointer stopping on D in Question 1(a).\nWheel has sectors: A,B,A,C,A,D = 6 sectors. D appears once. P(D) = 1/6.\n(b) Probability of getting an ace from a well shuffled deck of 52 cards.\nAces = 4 (one per suit). P(ace) = 4/52 = 1/13.\n(c) Probability of getting a red apple (from figure with 4 red R and 3 green G apples = 7 total).\nP(red) = 4/7."
-            },
-            {
-              "q_num": 4,
-              "marks": null,
-              "question": "Numbers 1 to 10 written on slips, one slip drawn randomly. Find probability of:",
-              "answer": "(i) Getting number 6: P = 1/10.\n(ii) Getting a number less than 6: Numbers = 1,2,3,4,5. P = 5/10 = 1/2.\n(iii) Getting a number greater than 6: Numbers = 7,8,9,10. P = 4/10 = 2/5.\n(iv) Getting a 1-digit number: Numbers = 1,2,3,4,5,6,7,8,9. P = 9/10."
-            },
-            {
-              "q_num": 5,
-              "marks": null,
-              "question": "Spinning wheel with 3 green, 1 blue, 1 red sector. Total = 5 sectors.",
-              "answer": "Probability of getting green = 3/5.\nProbability of getting non-blue = (3+1)/5 = 4/5 (green + red = 4 sectors)."
-            },
-            {
-              "q_num": 6,
-              "marks": null,
-              "question": "Find probabilities of events in Question 2.",
-              "answer": "(i)(a) Prime: P = 3/6 = 1/2.\n(i)(b) Not prime: P = 3/6 = 1/2.\n(ii)(a) Greater than 5: P = 1/6.\n(ii)(b) Not greater than 5: P = 5/6."
-            }
-          ],
-          "raw": "Q1: List the outcomes you can see in these experiments.\n(a) Spinning a wheel (sectors A, B, A, C, A, D): Outcomes = A, B, C, D.\n(b) Tossing two coins together: Outcomes = HH, HT, TH, TT.\n\nQ2: When a die is thrown, list outcomes of an event of getting:\n(i)(a) a prime number: 2, 3, 5.\n(i)(b) not a prime number: 1, 4, 6.\n(ii)(a) a number greater than 5: 6.\n(ii)(b) a number not greater than 5: 1, 2, 3, 4, 5.\n\nQ3: Find the following:\n(a) Probability of the pointer stopping on D in Question 1(a).\nWheel has sectors: A,B,A,C,A,D = 6 sectors. D appears once. P(D) = 1/6.\n(b) Probability of getting an ace from a well shuffled deck of 52 cards.\nAces = 4 (one per suit). P(ace) = 4/52 = 1/13.\n(c) Probability of getting a red apple (from figure with 4 red R and 3 green G apples = 7 total).\nP(red) = 4/7.\n\nQ4: Numbers 1 to 10 written on slips, one slip drawn randomly. Find probability of:\n(i) Getting number 6: P = 1/10.\n(ii) Getting a number less than 6: Numbers = 1,2,3,4,5. P = 5/10 = 1/2.\n(iii) Getting a number greater than 6: Numbers = 7,8,9,10. P = 4/10 = 2/5.\n(iv) Getting a 1-digit number: Numbers = 1,2,3,4,5,6,7,8,9. P = 9/10.\n\nQ5: Spinning wheel with 3 green, 1 blue, 1 red sector. Total = 5 sectors.\nProbability of getting green = 3/5.\nProbability of getting non-blue = (3+1)/5 = 4/5 (green + red = 4 sectors).\n\nQ6: Find probabilities of events in Question 2.\n(i)(a) Prime: P = 3/6 = 1/2.\n(i)(b) Not prime: P = 3/6 = 1/2.\n(ii)(a) Greater than 5: P = 1/6.\n(ii)(b) Not greater than 5: P = 5/6."
-        },
-        {
-          "type": "qa",
-          "label": "SUB-TOPIC 4.3.5: Q&A:",
-          "items": []
-        },
-        {
-          "type": "qa",
-          "label": "Q&A",
-          "items": [
-            {
-              "q_num": 1,
-              "marks": 2,
-              "question": "How is probability used in real life? Give one example.",
-              "answer": "Probability is used to predict the likelihood of events in real life.\nExample: During elections, an exit poll is taken by asking a few people who come out after voting — this gives an idea of the chance of winning of each candidate."
-            },
-            {
-              "q_num": 2,
-              "marks": 2,
-              "question": "What does a probability of 0 mean? What does a probability of 1 mean?",
-              "answer": "Probability = 0 means the event is impossible — it cannot happen.\nProbability = 1 means the event is certain — it will definitely happen."
-            },
-            {
-              "q_num": 3,
-              "marks": 2,
-              "question": "During rainy season, the probability of rain on any day is 1/10. What is the probability that it does not rain?",
-              "answer": "P(no rain) = 1 - P(rain) = 1 - 1/10 = 9/10.\nThe probability that it does not rain = 9/10.\n\n---\n\n3 ಮಾರ್ಕ್ಸ್ × 2 questions:"
-            },
-            {
-              "q_num": 4,
-              "marks": 3,
-              "question": "How does the Meteorological Department use probability? Explain with an example.",
-              "answer": "Step 1: The Meteorological Department collects weather data over many years and observes trends.\nStep 2: Based on past data, they predict the probability of rain, storms, or sunshine on any particular day.\nStep 3: Example: If it has rained on a particular date in 8 out of 10 past years, the probability of rain on that date = 8/10 = 4/5. They use this to predict \"80% chance of rain today.\""
-            },
-            {
-              "q_num": 5,
-              "marks": 3,
-              "question": "In an election, candidates A, B, and C are contesting. An exit poll asks 100 randomly chosen voters. Results: A=45, B=35, C=20.",
-              "answer": "Step 1: Total people polled = 100. All outcomes = 100 equally likely choices.\nStep 2: (i) P(A wins) = 45/100 = 9/20.\nStep 3: (ii) P(B wins) = 35/100 = 7/20.\n(iii) P(C wins) = 20/100 = 1/5.\n\n---\n\n4 ಮಾರ್ಕ್ಸ್ × 2 questions:"
-            },
-            {
-              "q_num": 6,
-              "marks": 4,
-              "question": "A spinning wheel (Fig 4.8) has sectors: R, G, G, R, G, R, G, R — total 8 sectors (4 Red, 4 Green).",
-              "answer": "Step 1: (i) Green sectors = 4. Total = 8. P(Green) = 4/8 = 1/2.\nStep 2: (ii) Red sectors = 4. P(Red) = 4/8 = 1/2.\nStep 3: (iii) P(Green) + P(Red) = 1/2 + 1/2 = 1. This tells us the two outcomes together cover all possibilities — one of them must definitely happen.\nStep 4: (iv) Yes. Example: In quality testing of a product, each item is either \"good\" or \"defective\" — probability of good + probability of defective = 1."
-            },
-            {
-              "q_num": 7,
-              "marks": 4,
-              "question": "A bag has 7 apples — 4 Red (R) and 3 Green (G). One apple is picked randomly.",
-              "answer": "Step 1: (i) Total apples = 7. P(Red) = 4/7.\nStep 2: (ii) P(Green) = 3/7.\nStep 3: (iii) In 70 apples: Red = (4/7) x 70 = 40 apples.\nStep 4: (iv) P(no rain) = 1 - P(rain) = 1 - 3/5 = 2/5.\n\n---\n\n5 ಮಾರ್ಕ್ಸ್ × 1 question:"
-            },
-            {
-              "q_num": 8,
-              "marks": 5,
-              "question": "Probability in real life — combined application.",
-              "answer": "PART A — Cards numbered 1 to 10:\nStep 1: (i) Red cards = 1,2,3,4,5 (5 cards). P(Red) = 5/10 = 1/2.\nStep 2: (ii) Blue cards = 6,7,8,9,10 (5 cards). P(Blue) = 5/10 = 1/2.\nStep 3: (iii) Even-numbered blue cards = 6, 8, 10 (3 cards). P(even blue) = 3/10.\nStep 4: (iv) P(Red) + P(Blue) = 1/2 + 1/2 = 1. (verified)\n\nPART B — Factory quality inspection:\nStep 1: (i) P(good) = 95/100 = 19/20.\nStep 2: (ii) P(defective) = 5/100 = 1/20.\nStep 3: (iii) In 500 items: Defective = (1/20) x 500 = 25 items expected to be defective."
-            }
-          ]
-        },
-        {
-          "type": "mcq",
-          "label": "MCQ",
-          "items": [
-            {
-              "mcq_num": 1,
-              "difficulty": "Easy",
-              "question": "If the probability of an event is 0, it means:",
-              "options": {
-                "A": "The event will definitely happen",
-                "B": "The event is impossible",
-                "C": "The event happens half the time",
-                "D": "The event is likely"
-              },
-              "answer": "B",
-              "explanation": "Probability = 0 means the event is impossible."
-            },
-            {
-              "mcq_num": 2,
-              "difficulty": "Medium",
-              "question": "The probability of any event lies between:",
-              "options": {
-                "A": "-1 and 1",
-                "B": "0 and 1",
-                "C": "1 and 10",
-                "D": "0 and 100"
-              },
-              "answer": "B",
-              "explanation": "For any event, probability is always between 0 and 1 (both inclusive)."
-            },
-            {
-              "mcq_num": 3,
-              "difficulty": "Hard",
-              "question": "During rainy season, probability of rain on any day = 1/10. What is the probability that it does NOT rain?",
-              "options": {
-                "A": "1/10",
-                "B": "1/5",
-                "C": "9/10",
-                "D": "1"
-              },
-              "answer": "C",
-              "explanation": "P(no rain) = 1 - P(rain) = 1 - 1/10 = 9/10."
-            },
-            {
-              "mcq_num": 4,
-              "difficulty": "Easy",
-              "question": "The probability of a certain event (that will definitely happen) is:",
-              "options": {
-                "A": "0",
-                "B": "1/2",
-                "C": "1",
-                "D": "More than 1"
-              },
-              "answer": "C",
-              "explanation": "A certain event has all outcomes favourable. Probability = total/total = 1."
-            },
-            {
-              "mcq_num": 5,
-              "difficulty": "Medium",
-              "question": "Probability is used in real life to predict weather by:",
-              "options": {
-                "A": "Guessing randomly",
-                "B": "Observing trends from data collected over many years",
-                "C": "Looking at the sky each morning",
-                "D": "Asking people on the street"
-              },
-              "answer": "B",
-              "explanation": "The Meteorological Department predicts weather by observing trends from data collected over many years in the past."
-            },
-            {
-              "mcq_num": 6,
-              "difficulty": "Hard",
-              "question": "In a factory, out of 100 items, 95 are good and 5 are defective. One item is picked randomly. What is the probability of getting a defective item?",
-              "options": {
-                "A": "1/100",
-                "B": "1/20",
-                "C": "19/20",
-                "D": "95/100"
-              },
-              "answer": "B",
-              "explanation": "Defective items = 5. Total = 100. P(defective) = 5/100 = 1/20."
+              "type": "mcq",
+              "label": "SUB-TOPIC 4.3.5: MCQs:",
+              "items": [
+                {
+                  "mcq_num": 1,
+                  "difficulty": "Easy",
+                  "question": "If the probability of an event is 0, it means:",
+                  "options": {
+                    "A": "The event will definitely happen",
+                    "B": "The event is impossible",
+                    "C": "The event happens half the time",
+                    "D": "The event is likely"
+                  },
+                  "answer": "B",
+                  "explanation": "Probability = 0 means the event is impossible."
+                },
+                {
+                  "mcq_num": 2,
+                  "difficulty": "Medium",
+                  "question": "The probability of any event lies between:",
+                  "options": {
+                    "A": "-1 and 1",
+                    "B": "0 and 1",
+                    "C": "1 and 10",
+                    "D": "0 and 100"
+                  },
+                  "answer": "B",
+                  "explanation": "For any event, probability is always between 0 and 1 (both inclusive)."
+                },
+                {
+                  "mcq_num": 3,
+                  "difficulty": "Hard",
+                  "question": "During rainy season, probability of rain on any day = 1/10. What is the probability that it does NOT rain?",
+                  "options": {
+                    "A": "1/10",
+                    "B": "1/5",
+                    "C": "9/10",
+                    "D": "1"
+                  },
+                  "answer": "C",
+                  "explanation": "P(no rain) = 1 - P(rain) = 1 - 1/10 = 9/10."
+                },
+                {
+                  "mcq_num": 4,
+                  "difficulty": "Easy",
+                  "question": "The probability of a certain event (that will definitely happen) is:",
+                  "options": {
+                    "A": "0",
+                    "B": "1/2",
+                    "C": "1",
+                    "D": "More than 1"
+                  },
+                  "answer": "C",
+                  "explanation": "A certain event has all outcomes favourable. Probability = total/total = 1."
+                },
+                {
+                  "mcq_num": 5,
+                  "difficulty": "Medium",
+                  "question": "Probability is used in real life to predict weather by:",
+                  "options": {
+                    "A": "Guessing randomly",
+                    "B": "Observing trends from data collected over many years",
+                    "C": "Looking at the sky each morning",
+                    "D": "Asking people on the street"
+                  },
+                  "answer": "B",
+                  "explanation": "The Meteorological Department predicts weather by observing trends from data collected over many years in the past."
+                },
+                {
+                  "mcq_num": 6,
+                  "difficulty": "Hard",
+                  "question": "In a factory, out of 100 items, 95 are good and 5 are defective. One item is picked randomly. What is the probability of getting a defective item?",
+                  "options": {
+                    "A": "1/100",
+                    "B": "1/20",
+                    "C": "19/20",
+                    "D": "95/100"
+                  },
+                  "answer": "B",
+                  "explanation": "Defective items = 5. Total = 100. P(defective) = 5/100 = 1/20."
+                }
+              ]
             }
           ]
         }
-      ],
-      "subtopics": []
+      ]
     }
   ]
 }

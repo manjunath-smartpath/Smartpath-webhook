@@ -6,7 +6,7 @@
     "chapter_num": "6",
     "chapter_name": "CUBES AND CUBE ROOTS",
     "source": "KSEEB Textbook 2025-26",
-    "mode": "B"
+    "mode": "A"
   },
   "chapter_sections": [
     {
@@ -174,7 +174,7 @@
         },
         {
           "type": "mcq",
-          "label": "MCQ",
+          "label": "TOPIC 6.1: MCQs:",
           "items": [
             {
               "mcq_num": 1,
@@ -223,7 +223,7 @@
     {
       "topic_num": "6.2",
       "topic_name": "CUBES",
-      "mode": "B",
+      "mode": "A",
       "sections": [
         {
           "type": "definition",
@@ -335,7 +335,7 @@
         },
         {
           "type": "mcq",
-          "label": "MCQ",
+          "label": "TOPIC 6.2: MCQs:",
           "items": [
             {
               "mcq_num": 1,
@@ -403,364 +403,377 @@
               "explanation": "400 = 2^4 x 5^2. No prime factor forms complete triplets. Not a perfect cube. ----"
             }
           ]
-        },
+        }
+      ],
+      "subtopics": [
         {
-          "type": "definition",
-          "label": "Definition:",
-          "text": "Cube numbers show interesting patterns through consecutive odd numbers and prime factorisation."
-        },
-        {
-          "type": "key_points",
-          "label": "Key Points:",
-          "points": [
-            "PATTERN 1 — Cubes as sum of consecutive odd numbers:",
-            "1^3 = 1",
-            "2^3 = 3 + 5 = 8",
-            "3^3 = 7 + 9 + 11 = 27",
-            "4^3 = 13 + 15 + 17 + 19 = 64",
-            "5^3 = 21 + 23 + 25 + 27 + 29 = 125",
-            "n^3 is expressed as sum of n consecutive odd numbers.",
-            "PATTERN 2 — Difference of consecutive cubes:",
-            "2^3 - 1^3 = 1 + 2x1x3 = 7",
-            "3^3 - 2^3 = 1 + 3x2x3 = 19",
-            "4^3 - 3^3 = 1 + 4x3x3 = 37",
-            "In general: (n+1)^3 - n^3 = 1 + 3n(n+1)",
-            "PATTERN 3 — Prime factorisation:",
-            "Each prime factor of a perfect cube appears exactly THREE times.",
-            "4^3 = 64 = 2^6, 6^3 = 216 = 2^3 x 3^3, 15^3 = 3375 = 3^3 x 5^3.",
-            "TRY THESE (Textbook p.71):",
-            "Q1: Express the following numbers as the sum of odd numbers using the above pattern:",
-            "(a) 6^3   (b) 8^3   (c) 7^3",
-            "A1: (a) 6^3 = 216 = 31+33+35+37+39+41 (6 consecutive odd numbers starting after 5^3's last odd).",
-            "Actually using textbook pattern:",
-            "5^3: last odd = 29. 6^3 starts at 31.",
-            "6^3 = 31+33+35+37+39+41 = 216.",
-            "(b) 7^3: starts at 43. 43+45+47+49+51+53+55 = 343.",
-            "(c) 8^3: starts at 57. 57+59+61+63+65+67+69+71 = 512.",
-            "Q2: Consider the following pattern and find the value:",
-            "(i) 7^3 - 6^3   (ii) 12^3 - 11^3   (iii) 20^3 - 19^3   (iv) 51^3 - 50^3",
-            "A2: Using pattern: (n+1)^3 - n^3 = 1 + 3n(n+1)",
-            "(i) 7^3-6^3 = 1 + 3x6x7 = 1 + 126 = 127.",
-            "(ii) 12^3-11^3 = 1 + 3x11x12 = 1 + 396 = 397.",
-            "(iii) 20^3-19^3 = 1 + 3x19x20 = 1 + 1140 = 1141.",
-            "(iv) 51^3-50^3 = 1 + 3x50x51 = 1 + 7650 = 7651."
-          ]
-        },
-        {
-          "type": "qa",
-          "label": "SUB-TOPIC 6.2.1: Q&A:",
-          "items": []
-        },
-        {
-          "type": "qa",
-          "label": "Q&A",
-          "items": [
+          "subtopic_num": "6.2.1",
+          "subtopic_name": "Some Interesting Patterns",
+          "sections": [
             {
-              "q_num": 1,
-              "marks": 2,
-              "question": "Express 3^3 as sum of consecutive odd numbers.",
-              "answer": "3^3 = 27 = 7 + 9 + 11. (3 consecutive odd numbers starting at 7.) ✔"
+              "type": "definition",
+              "label": "Definition:",
+              "text": "Cube numbers show interesting patterns through consecutive odd numbers and prime factorisation."
             },
             {
-              "q_num": 2,
-              "marks": 2,
-              "question": "Find 7^3 - 6^3 using the pattern (n+1)^3 - n^3 = 1 + 3n(n+1).",
-              "answer": "n = 6: 7^3 - 6^3 = 1 + 3(6)(7) = 1 + 126 = 127.\nVerify: 343 - 216 = 127. ✔"
+              "type": "key_points",
+              "label": "Key Points:",
+              "points": [
+                "PATTERN 1 — Cubes as sum of consecutive odd numbers:",
+                "1^3 = 1",
+                "2^3 = 3 + 5 = 8",
+                "3^3 = 7 + 9 + 11 = 27",
+                "4^3 = 13 + 15 + 17 + 19 = 64",
+                "5^3 = 21 + 23 + 25 + 27 + 29 = 125",
+                "n^3 is expressed as sum of n consecutive odd numbers.",
+                "PATTERN 2 — Difference of consecutive cubes:",
+                "2^3 - 1^3 = 1 + 2x1x3 = 7",
+                "3^3 - 2^3 = 1 + 3x2x3 = 19",
+                "4^3 - 3^3 = 1 + 4x3x3 = 37",
+                "In general: (n+1)^3 - n^3 = 1 + 3n(n+1)",
+                "PATTERN 3 — Prime factorisation:",
+                "Each prime factor of a perfect cube appears exactly THREE times.",
+                "4^3 = 64 = 2^6, 6^3 = 216 = 2^3 x 3^3, 15^3 = 3375 = 3^3 x 5^3.",
+                "TRY THESE (Textbook p.71):",
+                "Q1: Express the following numbers as the sum of odd numbers using the above pattern:",
+                "(a) 6^3   (b) 8^3   (c) 7^3",
+                "A1: (a) 6^3 = 216 = 31+33+35+37+39+41 (6 consecutive odd numbers starting after 5^3's last odd).",
+                "Actually using textbook pattern:",
+                "5^3: last odd = 29. 6^3 starts at 31.",
+                "6^3 = 31+33+35+37+39+41 = 216.",
+                "(b) 7^3: starts at 43. 43+45+47+49+51+53+55 = 343.",
+                "(c) 8^3: starts at 57. 57+59+61+63+65+67+69+71 = 512.",
+                "Q2: Consider the following pattern and find the value:",
+                "(i) 7^3 - 6^3   (ii) 12^3 - 11^3   (iii) 20^3 - 19^3   (iv) 51^3 - 50^3",
+                "A2: Using pattern: (n+1)^3 - n^3 = 1 + 3n(n+1)",
+                "(i) 7^3-6^3 = 1 + 3x6x7 = 1 + 126 = 127.",
+                "(ii) 12^3-11^3 = 1 + 3x11x12 = 1 + 396 = 397.",
+                "(iii) 20^3-19^3 = 1 + 3x19x20 = 1 + 1140 = 1141.",
+                "(iv) 51^3-50^3 = 1 + 3x50x51 = 1 + 7650 = 7651."
+              ]
             },
             {
-              "q_num": 3,
-              "marks": 2,
-              "question": "In prime factorisation of a perfect cube, how does each prime factor appear?",
-              "answer": "Each prime factor appears EXACTLY THREE TIMES (in triplets).\nExample: 8 = 2^3 (factor 2 appears 3 times). cube_root(8) = 2. ✔\n\n---\n\n3 ಮಾರ್ಕ್ಸ್ × 2 questions:"
+              "type": "qa",
+              "label": "SUB-TOPIC 6.2.1: Q&A:",
+              "items": []
             },
             {
-              "q_num": 4,
-              "marks": 3,
-              "question": "Express 6^3 as sum of consecutive odd numbers.",
-              "answer": "Step 1: 5^3's last odd = 29 (5^3 = 21+23+25+27+29).\nStep 2: Next group for 6^3: start from 31.\nStep 3: 6^3 = 31+33+35+37+39+41 (6 odd numbers).\nStep 4: 31+33+35+37+39+41 = 216 = 6^3. ✔\nAnswer: 6^3 = 216 = 31+33+35+37+39+41."
+              "type": "qa",
+              "label": "Q&A",
+              "items": [
+                {
+                  "q_num": 1,
+                  "marks": 2,
+                  "question": "Express 3^3 as sum of consecutive odd numbers.",
+                  "answer": "3^3 = 27 = 7 + 9 + 11. (3 consecutive odd numbers starting at 7.) ✔"
+                },
+                {
+                  "q_num": 2,
+                  "marks": 2,
+                  "question": "Find 7^3 - 6^3 using the pattern (n+1)^3 - n^3 = 1 + 3n(n+1).",
+                  "answer": "n = 6: 7^3 - 6^3 = 1 + 3(6)(7) = 1 + 126 = 127.\nVerify: 343 - 216 = 127. ✔"
+                },
+                {
+                  "q_num": 3,
+                  "marks": 2,
+                  "question": "In prime factorisation of a perfect cube, how does each prime factor appear?",
+                  "answer": "Each prime factor appears EXACTLY THREE TIMES (in triplets).\nExample: 8 = 2^3 (factor 2 appears 3 times). cube_root(8) = 2. ✔\n\n---\n\n3 ಮಾರ್ಕ್ಸ್ × 2 questions:"
+                },
+                {
+                  "q_num": 4,
+                  "marks": 3,
+                  "question": "Express 6^3 as sum of consecutive odd numbers.",
+                  "answer": "Step 1: 5^3's last odd = 29 (5^3 = 21+23+25+27+29).\nStep 2: Next group for 6^3: start from 31.\nStep 3: 6^3 = 31+33+35+37+39+41 (6 odd numbers).\nStep 4: 31+33+35+37+39+41 = 216 = 6^3. ✔\nAnswer: 6^3 = 216 = 31+33+35+37+39+41."
+                },
+                {
+                  "q_num": 5,
+                  "marks": 3,
+                  "question": "Find 12^3 - 11^3 and 20^3 - 19^3 using the pattern.",
+                  "answer": "Step 1: Pattern: (n+1)^3 - n^3 = 1 + 3n(n+1).\nStep 2: 12^3 - 11^3 (n=11): 1 + 3x11x12 = 1 + 396 = 397.\nVerify: 1728 - 1331 = 397. ✔\nStep 3: 20^3 - 19^3 (n=19): 1 + 3x19x20 = 1 + 1140 = 1141.\nVerify: 8000 - 6859 = 1141. ✔\nAnswer: 397; 1141.\n\n---\n\n4 ಮಾರ್ಕ್ಸ್ × 2 questions:"
+                },
+                {
+                  "q_num": 6,
+                  "marks": 4,
+                  "question": "Express 2^3, 3^3, 4^3, and 5^3 as sums of consecutive odd numbers. Identify the starting odd number for each.",
+                  "answer": "Step 1: 1^3 = 1 (single odd number: 1).\nStep 2: 2^3 = 8 = 3+5. Starts at 3.\nStep 3: 3^3 = 27 = 7+9+11. Starts at 7.\nStep 4: 4^3 = 64 = 13+15+17+19. Starts at 13.\nStep 5: 5^3 = 125 = 21+23+25+27+29. Starts at 21.\nPattern: Starting numbers — 1, 3, 7, 13, 21, 31 ... (differences: 2,4,6,8,10...)\nAnswer: 8=3+5; 27=7+9+11; 64=13+15+17+19; 125=21+23+25+27+29."
+                },
+                {
+                  "q_num": 7,
+                  "marks": 4,
+                  "question": "Find 51^3 - 50^3 using the pattern. Also verify 2^3 - 1^3 = 1 + 2x1x3.",
+                  "answer": "Step 1: 51^3 - 50^3 (n=50): 1 + 3x50x51 = 1 + 7650 = 7651.\nStep 2: Verify: 51^3 = 132651. 50^3 = 125000. 132651-125000 = 7651. ✔\nStep 3: Verify 2^3-1^3 = 1+2x1x3:\n2^3-1^3 = 8-1 = 7. And 1+2x1x3 = 1+6 = 7. ✔\nAnswer: 51^3-50^3 = 7651.\n\n---\n\n5 ಮಾರ್ಕ್ಸ್ × 1 question:"
+                },
+                {
+                  "q_num": 8,
+                  "marks": 5,
+                  "question": "",
+                  "answer": "PART A:\n\nStep 1: Find starting odd for 8^3.\n7^3 = 343. 7^3's last odd: starts at 43 → 43+45+47+49+51+53+55=343. Last=55.\nStep 2: 8^3 starts at 57.\nStep 3: 8^3 = 57+59+61+63+65+67+69+71 (8 odd numbers).\nStep 4: Sum = 57+71=128, 59+69=128, 61+67=128, 63+65=128. Four pairs x 128 = 512. ✔\nAnswer (Part A): 8^3 = 512 = 57+59+61+63+65+67+69+71.\n\nPART B:\n\n(i) 15^3 - 14^3 (n=14): 1 + 3x14x15 = 1 + 630 = 631.\nVerify: 3375-2744=631. ✔\n\n(ii) 25^3 - 24^3 (n=24): 1 + 3x24x25 = 1 + 1800 = 1801.\n\nWhy always odd:\n(n+1)^3 - n^3 = 1 + 3n(n+1).\n3n(n+1) = 3 x (product of two consecutive integers).\nOne of n or n+1 is always even, so n(n+1) is always even.\n3 x even = even. Even + 1 = ODD.\nSo (n+1)^3 - n^3 is always ODD. ✔\n\nMCQ 6 [Hard]: Units digit of 77^3 is:\n(A) 1   (B) 3   (C) 7   (D) 9\nANSWER: (B)\nEXPLANATION: 77 ends in 7. 7^3=343 ends in 3. So 77^3 ends in 3."
+                }
+              ]
             },
             {
-              "q_num": 5,
-              "marks": 3,
-              "question": "Find 12^3 - 11^3 and 20^3 - 19^3 using the pattern.",
-              "answer": "Step 1: Pattern: (n+1)^3 - n^3 = 1 + 3n(n+1).\nStep 2: 12^3 - 11^3 (n=11): 1 + 3x11x12 = 1 + 396 = 397.\nVerify: 1728 - 1331 = 397. ✔\nStep 3: 20^3 - 19^3 (n=19): 1 + 3x19x20 = 1 + 1140 = 1141.\nVerify: 8000 - 6859 = 1141. ✔\nAnswer: 397; 1141.\n\n---\n\n4 ಮಾರ್ಕ್ಸ್ × 2 questions:"
-            },
-            {
-              "q_num": 6,
-              "marks": 4,
-              "question": "Express 2^3, 3^3, 4^3, and 5^3 as sums of consecutive odd numbers. Identify the starting odd number for each.",
-              "answer": "Step 1: 1^3 = 1 (single odd number: 1).\nStep 2: 2^3 = 8 = 3+5. Starts at 3.\nStep 3: 3^3 = 27 = 7+9+11. Starts at 7.\nStep 4: 4^3 = 64 = 13+15+17+19. Starts at 13.\nStep 5: 5^3 = 125 = 21+23+25+27+29. Starts at 21.\nPattern: Starting numbers — 1, 3, 7, 13, 21, 31 ... (differences: 2,4,6,8,10...)\nAnswer: 8=3+5; 27=7+9+11; 64=13+15+17+19; 125=21+23+25+27+29."
-            },
-            {
-              "q_num": 7,
-              "marks": 4,
-              "question": "Find 51^3 - 50^3 using the pattern. Also verify 2^3 - 1^3 = 1 + 2x1x3.",
-              "answer": "Step 1: 51^3 - 50^3 (n=50): 1 + 3x50x51 = 1 + 7650 = 7651.\nStep 2: Verify: 51^3 = 132651. 50^3 = 125000. 132651-125000 = 7651. ✔\nStep 3: Verify 2^3-1^3 = 1+2x1x3:\n2^3-1^3 = 8-1 = 7. And 1+2x1x3 = 1+6 = 7. ✔\nAnswer: 51^3-50^3 = 7651.\n\n---\n\n5 ಮಾರ್ಕ್ಸ್ × 1 question:"
-            },
-            {
-              "q_num": 8,
-              "marks": 5,
-              "question": "",
-              "answer": "PART A:\n\nStep 1: Find starting odd for 8^3.\n7^3 = 343. 7^3's last odd: starts at 43 → 43+45+47+49+51+53+55=343. Last=55.\nStep 2: 8^3 starts at 57.\nStep 3: 8^3 = 57+59+61+63+65+67+69+71 (8 odd numbers).\nStep 4: Sum = 57+71=128, 59+69=128, 61+67=128, 63+65=128. Four pairs x 128 = 512. ✔\nAnswer (Part A): 8^3 = 512 = 57+59+61+63+65+67+69+71.\n\nPART B:\n\n(i) 15^3 - 14^3 (n=14): 1 + 3x14x15 = 1 + 630 = 631.\nVerify: 3375-2744=631. ✔\n\n(ii) 25^3 - 24^3 (n=24): 1 + 3x24x25 = 1 + 1800 = 1801.\n\nWhy always odd:\n(n+1)^3 - n^3 = 1 + 3n(n+1).\n3n(n+1) = 3 x (product of two consecutive integers).\nOne of n or n+1 is always even, so n(n+1) is always even.\n3 x even = even. Even + 1 = ODD.\nSo (n+1)^3 - n^3 is always ODD. ✔\n\nMCQ 6 [Hard]: Units digit of 77^3 is:\n(A) 1   (B) 3   (C) 7   (D) 9\nANSWER: (B)\nEXPLANATION: 77 ends in 7. 7^3=343 ends in 3. So 77^3 ends in 3."
+              "type": "mcq",
+              "label": "SUB-TOPIC 6.2.1: MCQs:",
+              "items": [
+                {
+                  "mcq_num": 1,
+                  "difficulty": "Easy",
+                  "question": "2^3 expressed as sum of consecutive odd numbers is:",
+                  "options": {
+                    "A": "1 + 7",
+                    "B": "3 + 5",
+                    "C": "1 + 3 + 4",
+                    "D": "4 + 4"
+                  },
+                  "answer": "B",
+                  "explanation": "2^3 = 8 = 3 + 5."
+                },
+                {
+                  "mcq_num": 2,
+                  "difficulty": "Medium",
+                  "question": "In prime factorisation of a perfect cube, each factor appears:",
+                  "options": {
+                    "A": "Once",
+                    "B": "Twice",
+                    "C": "Three times",
+                    "D": "Four times"
+                  },
+                  "answer": "C",
+                  "explanation": "Each prime factor must appear in triplets for the number to be a perfect cube."
+                },
+                {
+                  "mcq_num": 3,
+                  "difficulty": "Hard",
+                  "question": "7^3 - 6^3 = 1 + 3x6x7 = ?",
+                  "options": {
+                    "A": "107",
+                    "B": "117",
+                    "C": "127",
+                    "D": "137"
+                  },
+                  "answer": "C",
+                  "explanation": "1 + 3x6x7 = 1 + 126 = 127. Also verify: 343-216=127. ----"
+                }
+              ]
             }
           ]
         },
         {
-          "type": "mcq",
-          "label": "MCQ",
-          "items": [
+          "subtopic_num": "6.2.2",
+          "subtopic_name": "Smallest Multiple that is a Perfect Cube",
+          "sections": [
             {
-              "mcq_num": 1,
-              "difficulty": "Easy",
-              "question": "2^3 expressed as sum of consecutive odd numbers is:",
-              "options": {
-                "A": "1 + 7",
-                "B": "3 + 5",
-                "C": "1 + 3 + 4",
-                "D": "4 + 4"
-              },
-              "answer": "B",
-              "explanation": "2^3 = 8 = 3 + 5."
+              "type": "definition",
+              "label": "Definition:",
+              "text": "If any prime factor in the factorisation of a number does not appear in a complete group of three (triplet), the number is NOT a perfect cube. We can multiply or divide by appropriate factors to make it a perfect cube."
             },
             {
-              "mcq_num": 2,
-              "difficulty": "Medium",
-              "question": "In prime factorisation of a perfect cube, each factor appears:",
-              "options": {
-                "A": "Once",
-                "B": "Twice",
-                "C": "Three times",
-                "D": "Four times"
-              },
-              "answer": "C",
-              "explanation": "Each prime factor must appear in triplets for the number to be a perfect cube."
+              "type": "key_points",
+              "label": "Key Points:",
+              "points": [
+                "A number is a perfect cube only when all prime factors appear in triplets.",
+                "To find smallest multiplier: identify unpaired factors; multiply by missing factors.",
+                "To find smallest divisor: identify factors without complete triplets; divide by those factors.",
+                "EXAMPLES:",
+                "EXAMPLE 6.2.2.1: Is 243 a perfect cube?",
+                "PROBLEM: Check whether 243 is a perfect cube.",
+                "SOLUTION:",
+                "Step 1: 243 = 3 x 3 x 3 x 3 x 3 = 3^5.",
+                "Step 2: 3 appears 5 times = one complete triplet + 2 remaining.",
+                "Step 3: After grouping: (3x3x3) x 3x3 → one triplet, two extra.",
+                "ANSWER: 243 is NOT a perfect cube. (3^5 cannot form complete triplets only.)",
+                "EXAMPLE 6.2.2.2: Is 392 a perfect cube? If not, find smallest multiplier.",
+                "PROBLEM: Check 392; if not, find smallest number to multiply.",
+                "SOLUTION:",
+                "Step 1: 392 = 2x2x2 x 7x7 = 2^3 x 7^2.",
+                "Step 2: 2 appears in complete triplet (3 times). 7 appears only twice — no triplet.",
+                "Step 3: Need one more 7 to complete triplet for 7.",
+                "Step 4: 392 x 7 = 2744 = 2^3 x 7^3 = (2x7)^3 = 14^3.",
+                "ANSWER: 392 is NOT a perfect cube. Smallest multiplier = 7. Result: 2744 = 14^3.",
+                "EXAMPLE 6.2.2.3: Is 53240 a perfect cube? If not, find smallest divisor.",
+                "PROBLEM: Check 53240; if not, find smallest number to divide by.",
+                "SOLUTION:",
+                "Step 1: 53240 = 2x2x2 x 11x11x11 x 5 = 2^3 x 11^3 x 5.",
+                "Step 2: 2 and 11 are in complete triplets. Factor 5 appears only once — no triplet.",
+                "Step 3: Divide by 5 to remove the lone factor.",
+                "Step 4: 53240/5 = 10648 = 2^3 x 11^3 = (2x11)^3 = 22^3.",
+                "ANSWER: 53240 is NOT a perfect cube. Smallest divisor = 5. Result: 10648 = 22^3.",
+                "EXAMPLE 6.2.2.4: Is 1188 a perfect cube? If not, find smallest divisor.",
+                "PROBLEM: Check 1188; if not, find smallest divisor.",
+                "SOLUTION:",
+                "Step 1: 1188 = 2x2 x 3x3x3 x 11 = 2^2 x 3^3 x 11.",
+                "Step 2: 3 is in complete triplet. 2 appears twice (not triplet), 11 appears once (not triplet).",
+                "Step 3: Divide by 2^2 x 11 = 44.",
+                "Step 4: 1188/44 = 27 = 3^3. Perfect cube!",
+                "ANSWER: 1188 is NOT a perfect cube. Smallest divisor = 44. Result: 27 = 3^3.",
+                "EXAMPLE 6.2.2.5: Is 68600 a perfect cube? If not, find smallest multiplier.",
+                "PROBLEM: Check 68600; if not, find smallest multiplier.",
+                "SOLUTION:",
+                "Step 1: 68600 = 2x2x2 x 5x5 x 7x7x7 = 2^3 x 5^2 x 7^3.",
+                "Step 2: 2 and 7 in complete triplets. 5 appears only twice — no triplet.",
+                "Step 3: Need one more 5. Multiply by 5.",
+                "Step 4: 68600 x 5 = 343000 = 2^3 x 5^3 x 7^3 = (2x5x7)^3 = 70^3.",
+                "ANSWER: 68600 is NOT a perfect cube. Smallest multiplier = 5. Result: 343000 = 70^3.",
+                "TRY THESE (Textbook p.72):",
+                "Q1: Which of the following are perfect cubes?",
+                "1. 400   2. 3375   3. 8000   4. 15625   5. 9000   6. 6859   7. 2025   8. 10648",
+                "A1: 400 = 2^4 x 5^2 → NOT (2 appears 4 times, 5 twice — no complete triplets for all).",
+                "3375 = 3^3 x 5^3 = 15^3 → PERFECT CUBE. cube_root=15.",
+                "8000 = 2^6 x 5^3 = (4x5)^3 = 20^3 → PERFECT CUBE. cube_root=20.",
+                "15625 = 5^6 = (5^2)^3 = 25^3 → PERFECT CUBE. cube_root=25.",
+                "9000 = 2^3 x 3^2 x 5^3 → NOT (3 appears twice — no triplet).",
+                "6859 = 19^3 → PERFECT CUBE. cube_root=19.",
+                "2025 = 3^4 x 5^2 → NOT.",
+                "10648 = 2^3 x 11^3 = 22^3 → PERFECT CUBE. cube_root=22.",
+                "ADDITIONAL CALCULATIONS:",
+                "Problem 1: Find smallest number to multiply 72 to make it a perfect cube.",
+                "Solution: 72 = 2^3 x 3^2. Factor 3 appears only twice. Need one more 3.",
+                "72 x 3 = 216 = 6^3.",
+                "Answer: Multiply by 3. Result: 216 = 6^3.",
+                "Problem 2: Find smallest number to divide 500 to get a perfect cube.",
+                "Solution: 500 = 2^2 x 5^3. Factor 2 appears only twice. Divide by 2^2 = 4.",
+                "500/4 = 125 = 5^3.",
+                "Answer: Divide by 4. Result: 125 = 5^3."
+              ]
             },
             {
-              "mcq_num": 3,
-              "difficulty": "Hard",
-              "question": "7^3 - 6^3 = 1 + 3x6x7 = ?",
-              "options": {
-                "A": "107",
-                "B": "117",
-                "C": "127",
-                "D": "137"
-              },
-              "answer": "C",
-              "explanation": "1 + 3x6x7 = 1 + 126 = 127. Also verify: 343-216=127. ----"
-            }
-          ]
-        },
-        {
-          "type": "definition",
-          "label": "Definition:",
-          "text": "If any prime factor in the factorisation of a number does not appear in a complete group of three (triplet), the number is NOT a perfect cube. We can multiply or divide by appropriate factors to make it a perfect cube."
-        },
-        {
-          "type": "key_points",
-          "label": "Key Points:",
-          "points": [
-            "A number is a perfect cube only when all prime factors appear in triplets.",
-            "To find smallest multiplier: identify unpaired factors; multiply by missing factors.",
-            "To find smallest divisor: identify factors without complete triplets; divide by those factors.",
-            "EXAMPLES:",
-            "EXAMPLE 6.2.2.1: Is 243 a perfect cube?",
-            "PROBLEM: Check whether 243 is a perfect cube.",
-            "SOLUTION:",
-            "Step 1: 243 = 3 x 3 x 3 x 3 x 3 = 3^5.",
-            "Step 2: 3 appears 5 times = one complete triplet + 2 remaining.",
-            "Step 3: After grouping: (3x3x3) x 3x3 → one triplet, two extra.",
-            "ANSWER: 243 is NOT a perfect cube. (3^5 cannot form complete triplets only.)",
-            "EXAMPLE 6.2.2.2: Is 392 a perfect cube? If not, find smallest multiplier.",
-            "PROBLEM: Check 392; if not, find smallest number to multiply.",
-            "SOLUTION:",
-            "Step 1: 392 = 2x2x2 x 7x7 = 2^3 x 7^2.",
-            "Step 2: 2 appears in complete triplet (3 times). 7 appears only twice — no triplet.",
-            "Step 3: Need one more 7 to complete triplet for 7.",
-            "Step 4: 392 x 7 = 2744 = 2^3 x 7^3 = (2x7)^3 = 14^3.",
-            "ANSWER: 392 is NOT a perfect cube. Smallest multiplier = 7. Result: 2744 = 14^3.",
-            "EXAMPLE 6.2.2.3: Is 53240 a perfect cube? If not, find smallest divisor.",
-            "PROBLEM: Check 53240; if not, find smallest number to divide by.",
-            "SOLUTION:",
-            "Step 1: 53240 = 2x2x2 x 11x11x11 x 5 = 2^3 x 11^3 x 5.",
-            "Step 2: 2 and 11 are in complete triplets. Factor 5 appears only once — no triplet.",
-            "Step 3: Divide by 5 to remove the lone factor.",
-            "Step 4: 53240/5 = 10648 = 2^3 x 11^3 = (2x11)^3 = 22^3.",
-            "ANSWER: 53240 is NOT a perfect cube. Smallest divisor = 5. Result: 10648 = 22^3.",
-            "EXAMPLE 6.2.2.4: Is 1188 a perfect cube? If not, find smallest divisor.",
-            "PROBLEM: Check 1188; if not, find smallest divisor.",
-            "SOLUTION:",
-            "Step 1: 1188 = 2x2 x 3x3x3 x 11 = 2^2 x 3^3 x 11.",
-            "Step 2: 3 is in complete triplet. 2 appears twice (not triplet), 11 appears once (not triplet).",
-            "Step 3: Divide by 2^2 x 11 = 44.",
-            "Step 4: 1188/44 = 27 = 3^3. Perfect cube!",
-            "ANSWER: 1188 is NOT a perfect cube. Smallest divisor = 44. Result: 27 = 3^3.",
-            "EXAMPLE 6.2.2.5: Is 68600 a perfect cube? If not, find smallest multiplier.",
-            "PROBLEM: Check 68600; if not, find smallest multiplier.",
-            "SOLUTION:",
-            "Step 1: 68600 = 2x2x2 x 5x5 x 7x7x7 = 2^3 x 5^2 x 7^3.",
-            "Step 2: 2 and 7 in complete triplets. 5 appears only twice — no triplet.",
-            "Step 3: Need one more 5. Multiply by 5.",
-            "Step 4: 68600 x 5 = 343000 = 2^3 x 5^3 x 7^3 = (2x5x7)^3 = 70^3.",
-            "ANSWER: 68600 is NOT a perfect cube. Smallest multiplier = 5. Result: 343000 = 70^3.",
-            "TRY THESE (Textbook p.72):",
-            "Q1: Which of the following are perfect cubes?",
-            "1. 400   2. 3375   3. 8000   4. 15625   5. 9000   6. 6859   7. 2025   8. 10648",
-            "A1: 400 = 2^4 x 5^2 → NOT (2 appears 4 times, 5 twice — no complete triplets for all).",
-            "3375 = 3^3 x 5^3 = 15^3 → PERFECT CUBE. cube_root=15.",
-            "8000 = 2^6 x 5^3 = (4x5)^3 = 20^3 → PERFECT CUBE. cube_root=20.",
-            "15625 = 5^6 = (5^2)^3 = 25^3 → PERFECT CUBE. cube_root=25.",
-            "9000 = 2^3 x 3^2 x 5^3 → NOT (3 appears twice — no triplet).",
-            "6859 = 19^3 → PERFECT CUBE. cube_root=19.",
-            "2025 = 3^4 x 5^2 → NOT.",
-            "10648 = 2^3 x 11^3 = 22^3 → PERFECT CUBE. cube_root=22.",
-            "ADDITIONAL CALCULATIONS:",
-            "Problem 1: Find smallest number to multiply 72 to make it a perfect cube.",
-            "Solution: 72 = 2^3 x 3^2. Factor 3 appears only twice. Need one more 3.",
-            "72 x 3 = 216 = 6^3.",
-            "Answer: Multiply by 3. Result: 216 = 6^3.",
-            "Problem 2: Find smallest number to divide 500 to get a perfect cube.",
-            "Solution: 500 = 2^2 x 5^3. Factor 2 appears only twice. Divide by 2^2 = 4.",
-            "500/4 = 125 = 5^3.",
-            "Answer: Divide by 4. Result: 125 = 5^3."
-          ]
-        },
-        {
-          "type": "qa",
-          "label": "SUB-TOPIC 6.2.2: Q&A:",
-          "items": []
-        },
-        {
-          "type": "qa",
-          "label": "Q&A",
-          "items": [
-            {
-              "q_num": 1,
-              "marks": 2,
-              "question": "Is 216 a perfect cube? Verify.",
-              "answer": "216 = 2^3 x 3^3 = (2x3)^3 = 6^3. Each factor in triplet. YES, 216 is a perfect cube.\ncube_root(216) = 6. Verify: 6^3=216. ✔"
+              "type": "qa",
+              "label": "SUB-TOPIC 6.2.2: Q&A:",
+              "items": []
             },
             {
-              "q_num": 2,
-              "marks": 2,
-              "question": "Find smallest number to multiply 72 to get a perfect cube.",
-              "answer": "72 = 2^3 x 3^2. Factor 3 appears only twice — no triplet.\nMultiply by 3: 72x3=216=6^3. Smallest multiplier = 3."
+              "type": "qa",
+              "label": "Q&A",
+              "items": [
+                {
+                  "q_num": 1,
+                  "marks": 2,
+                  "question": "Is 216 a perfect cube? Verify.",
+                  "answer": "216 = 2^3 x 3^3 = (2x3)^3 = 6^3. Each factor in triplet. YES, 216 is a perfect cube.\ncube_root(216) = 6. Verify: 6^3=216. ✔"
+                },
+                {
+                  "q_num": 2,
+                  "marks": 2,
+                  "question": "Find smallest number to multiply 72 to get a perfect cube.",
+                  "answer": "72 = 2^3 x 3^2. Factor 3 appears only twice — no triplet.\nMultiply by 3: 72x3=216=6^3. Smallest multiplier = 3."
+                },
+                {
+                  "q_num": 3,
+                  "marks": 2,
+                  "question": "Find smallest divisor of 500 to get a perfect cube.",
+                  "answer": "500 = 2^2 x 5^3. Factor 2 has no triplet (appears twice).\nDivide by 2^2=4: 500/4=125=5^3. Smallest divisor = 4.\n\n---\n\n3 ಮಾರ್ಕ್ಸ್ × 2 questions:"
+                },
+                {
+                  "q_num": 4,
+                  "marks": 3,
+                  "question": "Is 1188 a perfect cube? Find smallest divisor.",
+                  "answer": "Step 1: 1188 = 2^2 x 3^3 x 11.\nStep 2: 3 is in complete triplet. 2 appears twice (no triplet), 11 appears once (no triplet).\nStep 3: Divide by 2^2 x 11 = 44.\nStep 4: 1188/44 = 27 = 3^3. ✔\nAnswer: NOT a perfect cube. Divide by 44. cube_root(27) = 3."
+                },
+                {
+                  "q_num": 5,
+                  "marks": 3,
+                  "question": "Which of the following are perfect cubes? 400, 3375, 8000, 9000.",
+                  "answer": "Step 1: 400 = 2^4 x 5^2. 2 appears 4 times (not multiple of 3), 5 twice. NOT perfect cube.\nStep 2: 3375 = 3^3 x 5^3. Both in triplets. PERFECT CUBE. cube_root=15.\nStep 3: 8000 = 2^6 x 5^3. 2^6=(2^2)^3, 5^3. Both in triplets. PERFECT CUBE. cube_root=20.\nStep 4: 9000 = 2^3 x 3^2 x 5^3. Factor 3 appears twice — no triplet. NOT perfect cube.\nAnswer: 3375 and 8000 are perfect cubes; 400 and 9000 are not.\n\n---\n\n4 ಮಾರ್ಕ್ಸ್ × 2 questions:"
+                },
+                {
+                  "q_num": 6,
+                  "marks": 4,
+                  "question": "Is 68600 a perfect cube? If not, find smallest multiplier to make it a perfect cube. Find cube root.",
+                  "answer": "Step 1: 68600 = 2^3 x 5^2 x 7^3.\nStep 2: 2 and 7 in complete triplets. 5 appears only twice — no triplet.\nStep 3: Multiply by 5: 68600x5 = 343000 = 2^3 x 5^3 x 7^3 = (2x5x7)^3 = 70^3.\nAnswer: NOT a perfect cube. Multiply by 5 → 343000. cube_root(343000) = 70."
+                },
+                {
+                  "q_num": 7,
+                  "marks": 4,
+                  "question": "Find the smallest number by which 243 must be multiplied to make it a perfect cube. Find the cube root.",
+                  "answer": "Step 1: 243 = 3^5.\nStep 2: 3^5 = 3^3 x 3^2. One complete triplet (3^3), two remaining.\nStep 3: Need one more 3 to make 3^6 = (3^2)^3 = 9^3.\nStep 4: Multiply by 3: 243x3 = 729 = 3^6 = (3^2)^3 = 9^3.\nAnswer: Multiply by 3. cube_root(729) = 9. Verify: 9^3=729. ✔\n\n---\n\n5 ಮಾರ್ಕ್ಸ್ × 1 question:"
+                },
+                {
+                  "q_num": 8,
+                  "marks": 5,
+                  "question": "",
+                  "answer": "PART A:\n\nStep 1: 2160 = 2^4 x 3^3 x 5.\nStep 2: 3 is in complete triplet. 2 appears 4 times (need 6 for triplet, so 2 short). 5 appears once (need 2 more).\nNOT a perfect cube.\n\n(i) Smallest multiplier: Need 2^2 x 5^2 = 4 x 25 = 100.\n2160 x 100 = 216000 = 2^6 x 3^3 x 5^3 = (2^2 x 3 x 5)^3 = (4x3x5)^3 = 60^3.\ncube_root(216000) = 60.\n\n(ii) Smallest divisor: Remove unpaired: 2^4 has one triplet used (2^3), one 2 remains. 5^1 has no triplet.\nDivide by 2 x 5 = 10.\n2160/10 = 216 = 2^3 x 3^3 = (2x3)^3 = 6^3. ✔\ncube_root(216) = 6.\n\nPART B:\n\nStep 1: Volume of one cuboid = 15 x 30 x 15 = 6750 cm^3.\nStep 2: 6750 = 2 x 3^3 x 5^3.\nStep 3: Factor 2 has no triplet. Need 2^2 more.\nStep 4: Number of cuboids = 2^2 = 4.\nStep 5: 4 x 6750 = 27000 = 2^3 x 3^3 x 5^3 = (2x3x5)^3 = 30^3.\nAnswer (Part B): 4 cuboids needed. Side of cube = 30 cm.\n\nMCQ 4 [Easy]: 3^3 = 27 as sum of consecutive odd numbers is:\n(A) 7+9+11   (B) 5+9+13   (C) 3+9+15   (D) 1+9+17\nANSWER: (A)\nEXPLANATION: 3^3 = 27 = 7+9+11. (3 consecutive odd numbers starting at 7.)\n\nMCQ 5 [Medium]: 12^3 - 11^3 = 1 + 3(11)(12) = ?\n(A) 387   (B) 397   (C) 407   (D) 417\nANSWER: (B)\nEXPLANATION: 1 + 3x11x12 = 1+396 = 397. Verify: 1728-1331=397. ✔\n\nMCQ 6 [Hard]: 51^3 - 50^3 = ?\n(A) 7551   (B) 7601   (C) 7651   (D) 7701\nANSWER: (C)\nEXPLANATION: 1 + 3x50x51 = 1+7650 = 7651."
+                }
+              ]
             },
             {
-              "q_num": 3,
-              "marks": 2,
-              "question": "Find smallest divisor of 500 to get a perfect cube.",
-              "answer": "500 = 2^2 x 5^3. Factor 2 has no triplet (appears twice).\nDivide by 2^2=4: 500/4=125=5^3. Smallest divisor = 4.\n\n---\n\n3 ಮಾರ್ಕ್ಸ್ × 2 questions:"
-            },
-            {
-              "q_num": 4,
-              "marks": 3,
-              "question": "Is 1188 a perfect cube? Find smallest divisor.",
-              "answer": "Step 1: 1188 = 2^2 x 3^3 x 11.\nStep 2: 3 is in complete triplet. 2 appears twice (no triplet), 11 appears once (no triplet).\nStep 3: Divide by 2^2 x 11 = 44.\nStep 4: 1188/44 = 27 = 3^3. ✔\nAnswer: NOT a perfect cube. Divide by 44. cube_root(27) = 3."
-            },
-            {
-              "q_num": 5,
-              "marks": 3,
-              "question": "Which of the following are perfect cubes? 400, 3375, 8000, 9000.",
-              "answer": "Step 1: 400 = 2^4 x 5^2. 2 appears 4 times (not multiple of 3), 5 twice. NOT perfect cube.\nStep 2: 3375 = 3^3 x 5^3. Both in triplets. PERFECT CUBE. cube_root=15.\nStep 3: 8000 = 2^6 x 5^3. 2^6=(2^2)^3, 5^3. Both in triplets. PERFECT CUBE. cube_root=20.\nStep 4: 9000 = 2^3 x 3^2 x 5^3. Factor 3 appears twice — no triplet. NOT perfect cube.\nAnswer: 3375 and 8000 are perfect cubes; 400 and 9000 are not.\n\n---\n\n4 ಮಾರ್ಕ್ಸ್ × 2 questions:"
-            },
-            {
-              "q_num": 6,
-              "marks": 4,
-              "question": "Is 68600 a perfect cube? If not, find smallest multiplier to make it a perfect cube. Find cube root.",
-              "answer": "Step 1: 68600 = 2^3 x 5^2 x 7^3.\nStep 2: 2 and 7 in complete triplets. 5 appears only twice — no triplet.\nStep 3: Multiply by 5: 68600x5 = 343000 = 2^3 x 5^3 x 7^3 = (2x5x7)^3 = 70^3.\nAnswer: NOT a perfect cube. Multiply by 5 → 343000. cube_root(343000) = 70."
-            },
-            {
-              "q_num": 7,
-              "marks": 4,
-              "question": "Find the smallest number by which 243 must be multiplied to make it a perfect cube. Find the cube root.",
-              "answer": "Step 1: 243 = 3^5.\nStep 2: 3^5 = 3^3 x 3^2. One complete triplet (3^3), two remaining.\nStep 3: Need one more 3 to make 3^6 = (3^2)^3 = 9^3.\nStep 4: Multiply by 3: 243x3 = 729 = 3^6 = (3^2)^3 = 9^3.\nAnswer: Multiply by 3. cube_root(729) = 9. Verify: 9^3=729. ✔\n\n---\n\n5 ಮಾರ್ಕ್ಸ್ × 1 question:"
-            },
-            {
-              "q_num": 8,
-              "marks": 5,
-              "question": "",
-              "answer": "PART A:\n\nStep 1: 2160 = 2^4 x 3^3 x 5.\nStep 2: 3 is in complete triplet. 2 appears 4 times (need 6 for triplet, so 2 short). 5 appears once (need 2 more).\nNOT a perfect cube.\n\n(i) Smallest multiplier: Need 2^2 x 5^2 = 4 x 25 = 100.\n2160 x 100 = 216000 = 2^6 x 3^3 x 5^3 = (2^2 x 3 x 5)^3 = (4x3x5)^3 = 60^3.\ncube_root(216000) = 60.\n\n(ii) Smallest divisor: Remove unpaired: 2^4 has one triplet used (2^3), one 2 remains. 5^1 has no triplet.\nDivide by 2 x 5 = 10.\n2160/10 = 216 = 2^3 x 3^3 = (2x3)^3 = 6^3. ✔\ncube_root(216) = 6.\n\nPART B:\n\nStep 1: Volume of one cuboid = 15 x 30 x 15 = 6750 cm^3.\nStep 2: 6750 = 2 x 3^3 x 5^3.\nStep 3: Factor 2 has no triplet. Need 2^2 more.\nStep 4: Number of cuboids = 2^2 = 4.\nStep 5: 4 x 6750 = 27000 = 2^3 x 3^3 x 5^3 = (2x3x5)^3 = 30^3.\nAnswer (Part B): 4 cuboids needed. Side of cube = 30 cm.\n\nMCQ 4 [Easy]: 3^3 = 27 as sum of consecutive odd numbers is:\n(A) 7+9+11   (B) 5+9+13   (C) 3+9+15   (D) 1+9+17\nANSWER: (A)\nEXPLANATION: 3^3 = 27 = 7+9+11. (3 consecutive odd numbers starting at 7.)\n\nMCQ 5 [Medium]: 12^3 - 11^3 = 1 + 3(11)(12) = ?\n(A) 387   (B) 397   (C) 407   (D) 417\nANSWER: (B)\nEXPLANATION: 1 + 3x11x12 = 1+396 = 397. Verify: 1728-1331=397. ✔\n\nMCQ 6 [Hard]: 51^3 - 50^3 = ?\n(A) 7551   (B) 7601   (C) 7651   (D) 7701\nANSWER: (C)\nEXPLANATION: 1 + 3x50x51 = 1+7650 = 7651."
-            }
-          ]
-        },
-        {
-          "type": "mcq",
-          "label": "MCQ",
-          "items": [
-            {
-              "mcq_num": 1,
-              "difficulty": "Easy",
-              "question": "Which of these is NOT a perfect cube?",
-              "options": {
-                "A": "216",
-                "B": "729",
-                "C": "1000",
-                "D": "400"
-              },
-              "answer": "D",
-              "explanation": "400 = 2^4 x 5^2. No prime factor forms complete triplets."
-            },
-            {
-              "mcq_num": 2,
-              "difficulty": "Medium",
-              "question": "392 = 2^3 x 7^2. To make it a perfect cube, multiply by:",
-              "options": {
-                "A": "7",
-                "B": "14",
-                "C": "49",
-                "D": "2"
-              },
-              "answer": "A",
-              "explanation": "7 appears only twice. Need one more 7 to complete the triplet."
-            },
-            {
-              "mcq_num": 3,
-              "difficulty": "Medium",
-              "question": "53240 = 2^3 x 5 x 11^3. To make it a perfect cube, divide by:",
-              "options": {
-                "A": "5",
-                "B": "10",
-                "C": "11",
-                "D": "2"
-              },
-              "answer": "A",
-              "explanation": "5 appears only once (no triplet). Divide by 5 to remove it."
-            },
-            {
-              "mcq_num": 4,
-              "difficulty": "Medium",
-              "question": "Is 8000 a perfect cube?",
-              "options": {
-                "A": "No",
-                "B": "Yes, it is 20^3",
-                "C": "Yes, it is 22^3",
-                "D": "Yes, it is 18^3"
-              },
-              "answer": "B",
-              "explanation": "8000 = 2^6 x 5^3 = (2^2 x 5)^3 = (4x5)^3 = 20^3."
-            },
-            {
-              "mcq_num": 5,
-              "difficulty": "Hard",
-              "question": "The smallest number to multiply 100 to get a perfect cube is:",
-              "options": {
-                "A": "5",
-                "B": "10",
-                "C": "50",
-                "D": "100"
-              },
-              "answer": "B",
-              "explanation": "100 = 2^2 x 5^2. Need one more 2 and one more 5. Multiply by 2x5=10. 100x10=1000=10^3."
+              "type": "mcq",
+              "label": "SUB-TOPIC 6.2.2: MCQs:",
+              "items": [
+                {
+                  "mcq_num": 1,
+                  "difficulty": "Easy",
+                  "question": "Which of these is NOT a perfect cube?",
+                  "options": {
+                    "A": "216",
+                    "B": "729",
+                    "C": "1000",
+                    "D": "400"
+                  },
+                  "answer": "D",
+                  "explanation": "400 = 2^4 x 5^2. No prime factor forms complete triplets."
+                },
+                {
+                  "mcq_num": 2,
+                  "difficulty": "Medium",
+                  "question": "392 = 2^3 x 7^2. To make it a perfect cube, multiply by:",
+                  "options": {
+                    "A": "7",
+                    "B": "14",
+                    "C": "49",
+                    "D": "2"
+                  },
+                  "answer": "A",
+                  "explanation": "7 appears only twice. Need one more 7 to complete the triplet."
+                },
+                {
+                  "mcq_num": 3,
+                  "difficulty": "Medium",
+                  "question": "53240 = 2^3 x 5 x 11^3. To make it a perfect cube, divide by:",
+                  "options": {
+                    "A": "5",
+                    "B": "10",
+                    "C": "11",
+                    "D": "2"
+                  },
+                  "answer": "A",
+                  "explanation": "5 appears only once (no triplet). Divide by 5 to remove it."
+                },
+                {
+                  "mcq_num": 4,
+                  "difficulty": "Medium",
+                  "question": "Is 8000 a perfect cube?",
+                  "options": {
+                    "A": "No",
+                    "B": "Yes, it is 20^3",
+                    "C": "Yes, it is 22^3",
+                    "D": "Yes, it is 18^3"
+                  },
+                  "answer": "B",
+                  "explanation": "8000 = 2^6 x 5^3 = (2^2 x 5)^3 = (4x5)^3 = 20^3."
+                },
+                {
+                  "mcq_num": 5,
+                  "difficulty": "Hard",
+                  "question": "The smallest number to multiply 100 to get a perfect cube is:",
+                  "options": {
+                    "A": "5",
+                    "B": "10",
+                    "C": "50",
+                    "D": "100"
+                  },
+                  "answer": "B",
+                  "explanation": "100 = 2^2 x 5^2. Need one more 2 and one more 5. Multiply by 2x5=10. 100x10=1000=10^3."
+                }
+              ]
             }
           ]
         }
-      ],
-      "subtopics": []
+      ]
     },
     {
       "topic_num": "6.3",
       "topic_name": "CUBE ROOTS",
-      "mode": "B",
+      "mode": "A",
       "sections": [
         {
           "type": "definition",
@@ -845,7 +858,7 @@
         },
         {
           "type": "mcq",
-          "label": "MCQ",
+          "label": "TOPIC 6.3: MCQs:",
           "items": [
             {
               "mcq_num": 1,
@@ -887,218 +900,225 @@
               "explanation": "9^3 = 729. So cube root of 729 is 9. ----"
             }
           ]
-        },
+        }
+      ],
+      "subtopics": [
         {
-          "type": "definition",
-          "label": "Definition:",
-          "text": "In the prime factorisation of a perfect cube, each prime factor appears THREE times. To find the cube root, group factors in triplets, take one factor from each triplet, and multiply."
-        },
-        {
-          "type": "key_points",
-          "label": "Key Points:",
-          "points": [
-            "Step 1: Find prime factorisation of the number.",
-            "Step 2: Group factors in triplets (groups of 3).",
-            "Step 3: Take one factor from each triplet.",
-            "Step 4: Multiply all chosen factors to get the cube root."
-          ]
-        },
-        {
-          "type": "formulas",
-          "label": "FORMULA:",
-          "items": [
-            "cube_root(N) = p1^(a1/3) x p2^(a2/3) x ...",
-            "WHERE:",
-            "N = perfect cube number",
-            "p1, p2, ... = prime factors of N",
-            "a1, a2, ... = powers of each prime factor (must be divisible by 3)",
-            "cube_root(N) = product of one factor from each triplet",
-            "EXAMPLES:",
-            "EXAMPLE 6.3.1.1: Find cube_root(3375).",
-            "PROBLEM: Find cube_root(3375).",
-            "SOLUTION:",
-            "Step 1: 3375 = 3x3x3 x 5x5x5 = 3^3 x 5^3.",
-            "Step 2: Triplets: (3x3x3) and (5x5x5).",
-            "Step 3: Take one from each: 3 and 5.",
-            "ANSWER: cube_root(3375) = 3 x 5 = 15.",
-            "EXAMPLE 6.3.1.2: Find cube_root(74088).",
-            "PROBLEM: Find cube_root(74088).",
-            "SOLUTION:",
-            "Step 1: 74088 = 2x2x2 x 3x3x3 x 7x7x7 = 2^3 x 3^3 x 7^3.",
-            "Step 2: Triplets: (2x2x2), (3x3x3), (7x7x7).",
-            "Step 3: Take one from each: 2, 3, 7.",
-            "ANSWER: cube_root(74088) = 2x3x7 = 42.",
-            "EXAMPLE 6.3.1.3: Find cube_root(8000).",
-            "PROBLEM: Find cube_root(8000).",
-            "SOLUTION:",
-            "Step 1: 8000 = 2x2x2 x 2x2x2 x 5x5x5 = 2^6 x 5^3.",
-            "Step 2: Triplets: (2x2x2), (2x2x2), (5x5x5).",
-            "Step 3: Take one from each: 2, 2, 5.",
-            "ANSWER: cube_root(8000) = 2x2x5 = 20.",
-            "EXAMPLE 6.3.1.4: Find cube_root(13824).",
-            "PROBLEM: Find cube_root(13824).",
-            "SOLUTION:",
-            "Step 1: 13824 = 2x2x2 x 2x2x2 x 2x2x2 x 3x3x3 = 2^9 x 3^3.",
-            "Step 2: Triplets: (2x2x2), (2x2x2), (2x2x2), (3x3x3).",
-            "Step 3: Take one from each: 2, 2, 2, 3.",
-            "ANSWER: cube_root(13824) = 2x2x2x3 = 24.",
-            "ADDITIONAL CALCULATIONS:",
-            "Problem 1: Find cube_root(27000).",
-            "Solution: 27000 = 27 x 1000 = 3^3 x 10^3 = (3x10)^3 = 30^3.",
-            "Answer: cube_root(27000) = 30.",
-            "Problem 2: Find cube_root(46656).",
-            "Solution: 46656 = 2^6 x 3^6 = (2^2)^3 x (3^2)^3 = (4x9)^3 = 36^3.",
-            "Answer: cube_root(46656) = 36.",
-            "Problem 3: Find cube_root(110592).",
-            "Solution: 110592 = 2^12 x 3^3 = (2^4)^3 x 3^3 = (16x3)^3 = 48^3.",
-            "Answer: cube_root(110592) = 48."
-          ]
-        },
-        {
-          "type": "qa",
-          "label": "SUB-TOPIC 6.3.1: Q&A:",
-          "items": []
-        },
-        {
-          "type": "qa",
-          "label": "Q&A",
-          "items": [
+          "subtopic_num": "6.3.1",
+          "subtopic_name": "Cube Root through Prime Factorisation Method",
+          "sections": [
             {
-              "q_num": 1,
-              "marks": 2,
-              "question": "How do we find cube root by prime factorisation?",
-              "answer": "Step 1: Find prime factorisation.\nStep 2: Group factors in TRIPLETS.\nStep 3: Take ONE factor from each triplet.\nStep 4: Multiply to get cube root."
+              "type": "definition",
+              "label": "Definition:",
+              "text": "In the prime factorisation of a perfect cube, each prime factor appears THREE times. To find the cube root, group factors in triplets, take one factor from each triplet, and multiply."
             },
             {
-              "q_num": 2,
-              "marks": 2,
-              "question": "Find cube_root(3375).",
-              "answer": "3375 = 3^3 x 5^3. Triplets: (3x3x3)(5x5x5). Take one each: 3, 5.\ncube_root(3375) = 3 x 5 = 15. ✔"
+              "type": "key_points",
+              "label": "Key Points:",
+              "points": [
+                "Step 1: Find prime factorisation of the number.",
+                "Step 2: Group factors in triplets (groups of 3).",
+                "Step 3: Take one factor from each triplet.",
+                "Step 4: Multiply all chosen factors to get the cube root."
+              ]
             },
             {
-              "q_num": 3,
-              "marks": 2,
-              "question": "Find cube_root(64).",
-              "answer": "64 = 2^6 = (2^2)^3 = 4^3. cube_root(64) = 4. ✔\n\n---\n\n3 ಮಾರ್ಕ್ಸ್ × 2 questions:"
+              "type": "formulas",
+              "label": "FORMULA:",
+              "items": [
+                "cube_root(N) = p1^(a1/3) x p2^(a2/3) x ...",
+                "WHERE:",
+                "N = perfect cube number",
+                "p1, p2, ... = prime factors of N",
+                "a1, a2, ... = powers of each prime factor (must be divisible by 3)",
+                "cube_root(N) = product of one factor from each triplet",
+                "EXAMPLES:",
+                "EXAMPLE 6.3.1.1: Find cube_root(3375).",
+                "PROBLEM: Find cube_root(3375).",
+                "SOLUTION:",
+                "Step 1: 3375 = 3x3x3 x 5x5x5 = 3^3 x 5^3.",
+                "Step 2: Triplets: (3x3x3) and (5x5x5).",
+                "Step 3: Take one from each: 3 and 5.",
+                "ANSWER: cube_root(3375) = 3 x 5 = 15.",
+                "EXAMPLE 6.3.1.2: Find cube_root(74088).",
+                "PROBLEM: Find cube_root(74088).",
+                "SOLUTION:",
+                "Step 1: 74088 = 2x2x2 x 3x3x3 x 7x7x7 = 2^3 x 3^3 x 7^3.",
+                "Step 2: Triplets: (2x2x2), (3x3x3), (7x7x7).",
+                "Step 3: Take one from each: 2, 3, 7.",
+                "ANSWER: cube_root(74088) = 2x3x7 = 42.",
+                "EXAMPLE 6.3.1.3: Find cube_root(8000).",
+                "PROBLEM: Find cube_root(8000).",
+                "SOLUTION:",
+                "Step 1: 8000 = 2x2x2 x 2x2x2 x 5x5x5 = 2^6 x 5^3.",
+                "Step 2: Triplets: (2x2x2), (2x2x2), (5x5x5).",
+                "Step 3: Take one from each: 2, 2, 5.",
+                "ANSWER: cube_root(8000) = 2x2x5 = 20.",
+                "EXAMPLE 6.3.1.4: Find cube_root(13824).",
+                "PROBLEM: Find cube_root(13824).",
+                "SOLUTION:",
+                "Step 1: 13824 = 2x2x2 x 2x2x2 x 2x2x2 x 3x3x3 = 2^9 x 3^3.",
+                "Step 2: Triplets: (2x2x2), (2x2x2), (2x2x2), (3x3x3).",
+                "Step 3: Take one from each: 2, 2, 2, 3.",
+                "ANSWER: cube_root(13824) = 2x2x2x3 = 24.",
+                "ADDITIONAL CALCULATIONS:",
+                "Problem 1: Find cube_root(27000).",
+                "Solution: 27000 = 27 x 1000 = 3^3 x 10^3 = (3x10)^3 = 30^3.",
+                "Answer: cube_root(27000) = 30.",
+                "Problem 2: Find cube_root(46656).",
+                "Solution: 46656 = 2^6 x 3^6 = (2^2)^3 x (3^2)^3 = (4x9)^3 = 36^3.",
+                "Answer: cube_root(46656) = 36.",
+                "Problem 3: Find cube_root(110592).",
+                "Solution: 110592 = 2^12 x 3^3 = (2^4)^3 x 3^3 = (16x3)^3 = 48^3.",
+                "Answer: cube_root(110592) = 48."
+              ]
             },
             {
-              "q_num": 4,
-              "marks": 3,
-              "question": "Find cube_root(8000) by prime factorisation.",
-              "answer": "Step 1: 8000 = 2^6 x 5^3.\nStep 2: Triplets: (2x2x2), (2x2x2), (5x5x5).\nStep 3: Take one from each: 2, 2, 5.\nStep 4: cube_root(8000) = 2 x 2 x 5 = 20.\nAnswer: cube_root(8000) = 20. Verify: 20^3=8000. ✔"
+              "type": "qa",
+              "label": "SUB-TOPIC 6.3.1: Q&A:",
+              "items": []
             },
             {
-              "q_num": 5,
-              "marks": 3,
-              "question": "Find cube_root(74088).",
-              "answer": "Step 1: 74088 = 2^3 x 3^3 x 7^3.\nStep 2: Triplets: (2x2x2), (3x3x3), (7x7x7).\nStep 3: Take one from each: 2, 3, 7.\nStep 4: cube_root(74088) = 2x3x7 = 42.\nAnswer: cube_root(74088) = 42. Verify: 42^3=74088. ✔\n\n---\n\n4 ಮಾರ್ಕ್ಸ್ × 2 questions:"
+              "type": "qa",
+              "label": "Q&A",
+              "items": [
+                {
+                  "q_num": 1,
+                  "marks": 2,
+                  "question": "How do we find cube root by prime factorisation?",
+                  "answer": "Step 1: Find prime factorisation.\nStep 2: Group factors in TRIPLETS.\nStep 3: Take ONE factor from each triplet.\nStep 4: Multiply to get cube root."
+                },
+                {
+                  "q_num": 2,
+                  "marks": 2,
+                  "question": "Find cube_root(3375).",
+                  "answer": "3375 = 3^3 x 5^3. Triplets: (3x3x3)(5x5x5). Take one each: 3, 5.\ncube_root(3375) = 3 x 5 = 15. ✔"
+                },
+                {
+                  "q_num": 3,
+                  "marks": 2,
+                  "question": "Find cube_root(64).",
+                  "answer": "64 = 2^6 = (2^2)^3 = 4^3. cube_root(64) = 4. ✔\n\n---\n\n3 ಮಾರ್ಕ್ಸ್ × 2 questions:"
+                },
+                {
+                  "q_num": 4,
+                  "marks": 3,
+                  "question": "Find cube_root(8000) by prime factorisation.",
+                  "answer": "Step 1: 8000 = 2^6 x 5^3.\nStep 2: Triplets: (2x2x2), (2x2x2), (5x5x5).\nStep 3: Take one from each: 2, 2, 5.\nStep 4: cube_root(8000) = 2 x 2 x 5 = 20.\nAnswer: cube_root(8000) = 20. Verify: 20^3=8000. ✔"
+                },
+                {
+                  "q_num": 5,
+                  "marks": 3,
+                  "question": "Find cube_root(74088).",
+                  "answer": "Step 1: 74088 = 2^3 x 3^3 x 7^3.\nStep 2: Triplets: (2x2x2), (3x3x3), (7x7x7).\nStep 3: Take one from each: 2, 3, 7.\nStep 4: cube_root(74088) = 2x3x7 = 42.\nAnswer: cube_root(74088) = 42. Verify: 42^3=74088. ✔\n\n---\n\n4 ಮಾರ್ಕ್ಸ್ × 2 questions:"
+                },
+                {
+                  "q_num": 6,
+                  "marks": 4,
+                  "question": "Find cube_root(13824) and cube_root(110592) by prime factorisation.",
+                  "answer": "cube_root(13824):\n13824 = 2^9 x 3^3. Triplets: three (2x2x2) triplets and (3x3x3).\ncube_root(13824) = 2x2x2x3 = 24. Verify: 24^3=13824. ✔\n\ncube_root(110592):\n110592 = 2^12 x 3^3. Triplets: four (2x2x2) triplets and (3x3x3).\ncube_root(110592) = 2x2x2x2x3 = 48. Verify: 48^3=110592. ✔"
+                },
+                {
+                  "q_num": 7,
+                  "marks": 4,
+                  "question": "Find cube_root(27000) and cube_root(46656).",
+                  "answer": "cube_root(27000):\n27000 = 2^3 x 3^3 x 5^3 = (2x3x5)^3 = 30^3.\ncube_root(27000) = 30.\n\ncube_root(46656):\n46656 = 2^6 x 3^6 = (2^2)^3 x (3^2)^3 = 4^3 x 9^3 = (4x9)^3 = 36^3.\ncube_root(46656) = 36.\n\n---\n\n5 ಮಾರ್ಕ್ಸ್ × 1 question:"
+                },
+                {
+                  "q_num": 8,
+                  "marks": 5,
+                  "question": "",
+                  "answer": "PART A:\n\n(i) 15625 = 5^6 = (5^2)^3 = 25^3. cube_root(15625) = 25.\n(ii) 175616: 175616 = 56^3 (8 x 2744 = 8 x 14^3 = (8x14) need to factor properly).\n175616 = 2^9 x 7^3 = (2^3)^3 x 7^3 = (8x7)^3 = 56^3. cube_root(175616) = 56.\n(iii) 91125 = 3^6 x 5^3 = (3^2)^3 x 5^3 = (9x5)^3 = 45^3. cube_root(91125) = 45.\n\nPART B:\n\nStep 1: Volume = 343000 litres = 343 m^3 (since 1 m^3 = 1000 litres).\nStep 2: Side = cube_root(343) = 7 m. (7^3=343 ✔)\nStep 3: Total surface area = 6 x side^2 = 6 x 7^2 = 6 x 49 = 294 m^2.\n\nAnswer (Part B):\n(i) Volume = 343 m^3.\n(ii) Side = 7 m.\n(iii) Total surface area = 294 m^2.\n\nMCQ 4 [Easy]: cube_root(8) = ?\n(A) 1   (B) 2   (C) 3   (D) 4\nANSWER: (B)\nEXPLANATION: 2^3=8. cube_root(8)=2.\n\nMCQ 5 [Medium]: cube_root(64) = ?\n(A) 3   (B) 4   (C) 5   (D) 6\nANSWER: (B)\nEXPLANATION: 4^3=64. cube_root(64)=4.\n\nMCQ 6 [Hard]: A cube has volume 15625 cm^3. Its side is:\n(A) 20 cm   (B) 23 cm   (C) 25 cm   (D) 27 cm\nANSWER: (C)\nEXPLANATION: Side = cube_root(15625) = 25 cm. 25^3=15625. ✔"
+                }
+              ]
             },
             {
-              "q_num": 6,
-              "marks": 4,
-              "question": "Find cube_root(13824) and cube_root(110592) by prime factorisation.",
-              "answer": "cube_root(13824):\n13824 = 2^9 x 3^3. Triplets: three (2x2x2) triplets and (3x3x3).\ncube_root(13824) = 2x2x2x3 = 24. Verify: 24^3=13824. ✔\n\ncube_root(110592):\n110592 = 2^12 x 3^3. Triplets: four (2x2x2) triplets and (3x3x3).\ncube_root(110592) = 2x2x2x2x3 = 48. Verify: 48^3=110592. ✔"
-            },
-            {
-              "q_num": 7,
-              "marks": 4,
-              "question": "Find cube_root(27000) and cube_root(46656).",
-              "answer": "cube_root(27000):\n27000 = 2^3 x 3^3 x 5^3 = (2x3x5)^3 = 30^3.\ncube_root(27000) = 30.\n\ncube_root(46656):\n46656 = 2^6 x 3^6 = (2^2)^3 x (3^2)^3 = 4^3 x 9^3 = (4x9)^3 = 36^3.\ncube_root(46656) = 36.\n\n---\n\n5 ಮಾರ್ಕ್ಸ್ × 1 question:"
-            },
-            {
-              "q_num": 8,
-              "marks": 5,
-              "question": "",
-              "answer": "PART A:\n\n(i) 15625 = 5^6 = (5^2)^3 = 25^3. cube_root(15625) = 25.\n(ii) 175616: 175616 = 56^3 (8 x 2744 = 8 x 14^3 = (8x14) need to factor properly).\n175616 = 2^9 x 7^3 = (2^3)^3 x 7^3 = (8x7)^3 = 56^3. cube_root(175616) = 56.\n(iii) 91125 = 3^6 x 5^3 = (3^2)^3 x 5^3 = (9x5)^3 = 45^3. cube_root(91125) = 45.\n\nPART B:\n\nStep 1: Volume = 343000 litres = 343 m^3 (since 1 m^3 = 1000 litres).\nStep 2: Side = cube_root(343) = 7 m. (7^3=343 ✔)\nStep 3: Total surface area = 6 x side^2 = 6 x 7^2 = 6 x 49 = 294 m^2.\n\nAnswer (Part B):\n(i) Volume = 343 m^3.\n(ii) Side = 7 m.\n(iii) Total surface area = 294 m^2.\n\nMCQ 4 [Easy]: cube_root(8) = ?\n(A) 1   (B) 2   (C) 3   (D) 4\nANSWER: (B)\nEXPLANATION: 2^3=8. cube_root(8)=2.\n\nMCQ 5 [Medium]: cube_root(64) = ?\n(A) 3   (B) 4   (C) 5   (D) 6\nANSWER: (B)\nEXPLANATION: 4^3=64. cube_root(64)=4.\n\nMCQ 6 [Hard]: A cube has volume 15625 cm^3. Its side is:\n(A) 20 cm   (B) 23 cm   (C) 25 cm   (D) 27 cm\nANSWER: (C)\nEXPLANATION: Side = cube_root(15625) = 25 cm. 25^3=15625. ✔"
-            }
-          ]
-        },
-        {
-          "type": "mcq",
-          "label": "MCQ",
-          "items": [
-            {
-              "mcq_num": 1,
-              "difficulty": "Easy",
-              "question": "cube_root(512) = ?",
-              "options": {
-                "A": "6",
-                "B": "7",
-                "C": "8",
-                "D": "9"
-              },
-              "answer": "C",
-              "explanation": "512 = 2^9 = (2^3)^3 = 8^3. cube_root(512) = 8."
-            },
-            {
-              "mcq_num": 2,
-              "difficulty": "Easy",
-              "question": "cube_root(27000) = ?",
-              "options": {
-                "A": "20",
-                "B": "25",
-                "C": "30",
-                "D": "35"
-              },
-              "answer": "C",
-              "explanation": "27000 = 3^3 x 10^3 = 30^3. cube_root(27000) = 30."
-            },
-            {
-              "mcq_num": 3,
-              "difficulty": "Medium",
-              "question": "To find cube root by prime factorisation, factors are grouped in:",
-              "options": {
-                "A": "Pairs",
-                "B": "Triplets",
-                "C": "Groups of 4",
-                "D": "Singles"
-              },
-              "answer": "B",
-              "explanation": "For cube root, each prime factor must form a group of three (triplet)."
-            },
-            {
-              "mcq_num": 4,
-              "difficulty": "Medium",
-              "question": "cube_root(15625) = ?",
-              "options": {
-                "A": "20",
-                "B": "25",
-                "C": "30",
-                "D": "35"
-              },
-              "answer": "B",
-              "explanation": "15625 = 5^6 = (5^2)^3 = 25^3. cube_root(15625) = 25."
-            },
-            {
-              "mcq_num": 5,
-              "difficulty": "Hard",
-              "question": "cube_root(74088) = ?",
-              "options": {
-                "A": "38",
-                "B": "40",
-                "C": "42",
-                "D": "44"
-              },
-              "answer": "C",
-              "explanation": "74088 = 2^3 x 3^3 x 7^3 = (2x3x7)^3 = 42^3."
-            },
-            {
-              "mcq_num": 6,
-              "difficulty": "Hard",
-              "question": "cube_root(110592) = ?",
-              "options": {
-                "A": "44",
-                "B": "46",
-                "C": "48",
-                "D": "50"
-              },
-              "answer": "C",
-              "explanation": "110592 = 2^12 x 3^3 = (2^4 x 3)^3 = (16x3)^3 = 48^3. cube_root = 48."
+              "type": "mcq",
+              "label": "SUB-TOPIC 6.3.1: MCQs:",
+              "items": [
+                {
+                  "mcq_num": 1,
+                  "difficulty": "Easy",
+                  "question": "cube_root(512) = ?",
+                  "options": {
+                    "A": "6",
+                    "B": "7",
+                    "C": "8",
+                    "D": "9"
+                  },
+                  "answer": "C",
+                  "explanation": "512 = 2^9 = (2^3)^3 = 8^3. cube_root(512) = 8."
+                },
+                {
+                  "mcq_num": 2,
+                  "difficulty": "Easy",
+                  "question": "cube_root(27000) = ?",
+                  "options": {
+                    "A": "20",
+                    "B": "25",
+                    "C": "30",
+                    "D": "35"
+                  },
+                  "answer": "C",
+                  "explanation": "27000 = 3^3 x 10^3 = 30^3. cube_root(27000) = 30."
+                },
+                {
+                  "mcq_num": 3,
+                  "difficulty": "Medium",
+                  "question": "To find cube root by prime factorisation, factors are grouped in:",
+                  "options": {
+                    "A": "Pairs",
+                    "B": "Triplets",
+                    "C": "Groups of 4",
+                    "D": "Singles"
+                  },
+                  "answer": "B",
+                  "explanation": "For cube root, each prime factor must form a group of three (triplet)."
+                },
+                {
+                  "mcq_num": 4,
+                  "difficulty": "Medium",
+                  "question": "cube_root(15625) = ?",
+                  "options": {
+                    "A": "20",
+                    "B": "25",
+                    "C": "30",
+                    "D": "35"
+                  },
+                  "answer": "B",
+                  "explanation": "15625 = 5^6 = (5^2)^3 = 25^3. cube_root(15625) = 25."
+                },
+                {
+                  "mcq_num": 5,
+                  "difficulty": "Hard",
+                  "question": "cube_root(74088) = ?",
+                  "options": {
+                    "A": "38",
+                    "B": "40",
+                    "C": "42",
+                    "D": "44"
+                  },
+                  "answer": "C",
+                  "explanation": "74088 = 2^3 x 3^3 x 7^3 = (2x3x7)^3 = 42^3."
+                },
+                {
+                  "mcq_num": 6,
+                  "difficulty": "Hard",
+                  "question": "cube_root(110592) = ?",
+                  "options": {
+                    "A": "44",
+                    "B": "46",
+                    "C": "48",
+                    "D": "50"
+                  },
+                  "answer": "C",
+                  "explanation": "110592 = 2^12 x 3^3 = (2^4 x 3)^3 = (16x3)^3 = 48^3. cube_root = 48."
+                }
+              ]
             }
           ]
         }
-      ],
-      "subtopics": []
+      ]
     }
   ]
 }
