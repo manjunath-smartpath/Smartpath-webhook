@@ -148,7 +148,10 @@
               "difficulty": "Easy",
               "question": "A simple closed curve made of only line segments is called:",
               "options": {
-                "A": "Circle   (B) Polygon   (C) Oval   (D) Arc"
+                "A": "Circle",
+                "B": "Polygon",
+                "C": "Oval",
+                "D": "Arc"
               },
               "answer": "B",
               "explanation": "A polygon is specifically a simple closed curve made of only straight line segments."
@@ -158,7 +161,10 @@
               "difficulty": "Medium",
               "question": "Which of the following is NOT a polygon?",
               "options": {
-                "A": "Triangle   (B) Square   (C) Circle   (D) Pentagon"
+                "A": "Triangle",
+                "B": "Square",
+                "C": "Circle",
+                "D": "Pentagon"
               },
               "answer": "C",
               "explanation": "A circle has no straight line segments. A polygon must be made of only line segments."
@@ -168,7 +174,10 @@
               "difficulty": "Hard",
               "question": "A figure formed by joining points with a pencil without lifting, but start and end points are different - this is:",
               "options": {
-                "A": "A closed curve   (B) A polygon   (C) An open curve   (D) A quadrilateral"
+                "A": "A closed curve",
+                "B": "A polygon",
+                "C": "An open curve",
+                "D": "A quadrilateral"
               },
               "answer": "C",
               "explanation": "If start and end points are not the same, the curve is open. A polygon needs to be a simple CLOSED curve."
@@ -178,7 +187,10 @@
               "difficulty": "Easy",
               "question": "Which of the following is a polygon?",
               "options": {
-                "A": "Circle   (B) Oval   (C) Semi-circle   (D) Triangle"
+                "A": "Circle",
+                "B": "Oval",
+                "C": "Semi-circle",
+                "D": "Triangle"
               },
               "answer": "D",
               "explanation": "A triangle is made of 3 straight line segments — it is a polygon. Circle, oval, and semi-circle all have curved sides."
@@ -188,7 +200,10 @@
               "difficulty": "Medium",
               "question": "A polygon with 6 sides is called a:",
               "options": {
-                "A": "Pentagon   (B) Hexagon   (C) Heptagon   (D) Octagon"
+                "A": "Pentagon",
+                "B": "Hexagon",
+                "C": "Heptagon",
+                "D": "Octagon"
               },
               "answer": "B",
               "explanation": "Hexa = 6. A hexagon has 6 sides. Pentagon = 5, Heptagon = 7, Octagon = 8."
@@ -198,7 +213,10 @@
               "difficulty": "Hard",
               "question": "Which of the following figures is both a simple curve AND a closed curve?",
               "options": {
-                "A": "A line segment   (B) The letter S   (C) A triangle   (D) A ray"
+                "A": "A line segment",
+                "B": "The letter S",
+                "C": "A triangle",
+                "D": "A ray"
               },
               "answer": "C",
               "explanation": "A triangle is a simple (non-self-crossing) closed (start = end) curve made of line segments — it satisfies both conditions for a polygon. ----"
@@ -294,8 +312,10 @@
               "difficulty": "Easy",
               "question": "In a convex polygon, any line segment joining two interior points lies:",
               "options": {
-                "A": "Outside the polygon   (B) On the boundary",
-                "C": "Wholly inside         (D) Partially outside"
+                "A": "Outside the polygon",
+                "B": "On the boundary",
+                "C": "Wholly inside",
+                "D": "Partially outside"
               },
               "answer": "C",
               "explanation": "This is the defining property of a convex polygon."
@@ -305,7 +325,10 @@
               "difficulty": "Medium",
               "question": "Which of the following is a concave polygon?",
               "options": {
-                "A": "Square   (B) Equilateral triangle   (C) Arrow shape   (D) Regular hexagon"
+                "A": "Square",
+                "B": "Equilateral triangle",
+                "C": "Arrow shape",
+                "D": "Regular hexagon"
               },
               "answer": "C",
               "explanation": "An arrow shape has an inward-pointing vertex making it concave."
@@ -315,8 +338,10 @@
               "difficulty": "Hard",
               "question": "Which statement is TRUE about convex polygons?",
               "options": {
-                "A": "Some diagonals lie outside         (B) At least one vertex points inward",
-                "C": "No diagonal lies in the exterior   (D) They cannot be regular polygons"
+                "A": "Some diagonals lie outside",
+                "B": "At least one vertex points inward",
+                "C": "No diagonal lies in the exterior",
+                "D": "They cannot be regular polygons"
               },
               "answer": "C",
               "explanation": "In a convex polygon, all diagonals lie completely inside."
@@ -326,7 +351,10 @@
               "difficulty": "Easy",
               "question": "In Class 8, we study which type of polygons?",
               "options": {
-                "A": "Concave only   (B) Convex only   (C) Both convex and concave   (D) Neither"
+                "A": "Concave only",
+                "B": "Convex only",
+                "C": "Both convex and concave",
+                "D": "Neither"
               },
               "answer": "B",
               "explanation": "In Class 8, we work with convex polygons only."
@@ -336,7 +364,10 @@
               "difficulty": "Medium",
               "question": "Which of the following shapes is a convex polygon?",
               "options": {
-                "A": "Star shape   (B) Arrow shape   (C) Letter C shape   (D) Regular pentagon"
+                "A": "Star shape",
+                "B": "Arrow shape",
+                "C": "Letter C shape",
+                "D": "Regular pentagon"
               },
               "answer": "D",
               "explanation": "A regular pentagon has all interior angles = 108° < 180° and all diagonals lie inside — it is a convex polygon."
@@ -444,8 +475,10 @@
               "difficulty": "Easy",
               "question": "A regular polygon must be:",
               "options": {
-                "A": "Equilateral only               (B) Equiangular only",
-                "C": "Both equilateral and equiangular   (D) Neither"
+                "A": "Equilateral only",
+                "B": "Equiangular only",
+                "C": "Both equilateral and equiangular",
+                "D": "Neither"
               },
               "answer": "C",
               "explanation": "Both conditions - equal sides AND equal angles - must be satisfied for a polygon to be regular."
@@ -455,7 +488,10 @@
               "difficulty": "Medium",
               "question": "Which of the following is a regular polygon?",
               "options": {
-                "A": "Rectangle   (B) Rhombus   (C) Square   (D) Scalene triangle"
+                "A": "Rectangle",
+                "B": "Rhombus",
+                "C": "Square",
+                "D": "Scalene triangle"
               },
               "answer": "C",
               "explanation": "A square has all 4 sides equal and all 4 angles = 90°."
@@ -465,8 +501,10 @@
               "difficulty": "Hard",
               "question": "A rhombus is:",
               "options": {
-                "A": "Equilateral but not equiangular   (B) Equiangular but not equilateral",
-                "C": "Both equilateral and equiangular  (D) Neither"
+                "A": "Equilateral but not equiangular",
+                "B": "Equiangular but not equilateral",
+                "C": "Both equilateral and equiangular",
+                "D": "Neither"
               },
               "answer": "A",
               "explanation": "A rhombus has all sides equal but angles are not necessarily equal."
@@ -476,7 +514,10 @@
               "difficulty": "Easy",
               "question": "How many sides does a regular hexagon have?",
               "options": {
-                "A": "4   (B) 5   (C) 6   (D) 8"
+                "A": "4",
+                "B": "5",
+                "C": "6",
+                "D": "8"
               },
               "answer": "C",
               "explanation": "A regular hexagon has 6 equal sides and 6 equal angles (120°)."
@@ -486,8 +527,10 @@
               "difficulty": "Medium",
               "question": "A rectangle is:",
               "options": {
-                "A": "Regular polygon         (B) Equiangular but not equilateral",
-                "C": "Equilateral but not equiangular   (D) Neither equilateral nor equiangular"
+                "A": "Regular polygon",
+                "B": "Equiangular but not equilateral",
+                "C": "Equilateral but not equiangular",
+                "D": "Neither equilateral nor equiangular"
               },
               "answer": "B",
               "explanation": "A rectangle has all angles = 90° (equiangular) but adjacent sides are unequal (not equilateral). So it is NOT a regular polygon."
@@ -497,7 +540,10 @@
               "difficulty": "Hard",
               "question": "Which condition is NECESSARY but NOT SUFFICIENT for a polygon to be regular?",
               "options": {
-                "A": "All angles equal   (B) All sides equal   (C) 4 sides   (D) Convex shape"
+                "A": "All angles equal",
+                "B": "All sides equal",
+                "C": "4 sides",
+                "D": "Convex shape"
               },
               "answer": "A",
               "explanation": "A polygon needs BOTH all angles equal AND all sides equal to be regular. Having only one condition (e.g., all angles equal like a rectangle, or all sides equal like a rhombus) is necessary but not sufficient."
@@ -663,7 +709,10 @@
               "difficulty": "Easy",
               "question": "The sum of all exterior angles of any polygon is:",
               "options": {
-                "A": "180°   (B) 270°   (C) 360°   (D) Depends on sides"
+                "A": "180°",
+                "B": "270°",
+                "C": "360°",
+                "D": "Depends on sides"
               },
               "answer": "C",
               "explanation": "Sum of exterior angles of any convex polygon = 360°."
@@ -673,7 +722,10 @@
               "difficulty": "Easy",
               "question": "Each exterior angle of a regular polygon is 40°. Number of sides:",
               "options": {
-                "A": "6   (B) 8   (C) 9   (D) 10"
+                "A": "6",
+                "B": "8",
+                "C": "9",
+                "D": "10"
               },
               "answer": "C",
               "explanation": "Number of sides = 360°/40° = 9."
@@ -683,7 +735,10 @@
               "difficulty": "Medium",
               "question": "Each interior angle of a regular polygon is 120°. Number of sides:",
               "options": {
-                "A": "4   (B) 5   (C) 6   (D) 8"
+                "A": "4",
+                "B": "5",
+                "C": "6",
+                "D": "8"
               },
               "answer": "C",
               "explanation": "Exterior angle = 180° - 120° = 60°. Sides = 360°/60° = 6."
@@ -693,7 +748,10 @@
               "difficulty": "Medium",
               "question": "Each exterior angle of a regular polygon is 45°. Number of sides:",
               "options": {
-                "A": "6   (B) 7   (C) 8   (D) 9"
+                "A": "6",
+                "B": "7",
+                "C": "8",
+                "D": "9"
               },
               "answer": "C",
               "explanation": "Number of sides = 360°/45° = 8."
@@ -703,7 +761,10 @@
               "difficulty": "Hard",
               "question": "Interior angle of a regular polygon is 5 times its exterior angle. How many sides?",
               "options": {
-                "A": "10   (B) 12   (C) 14   (D) 15"
+                "A": "10",
+                "B": "12",
+                "C": "14",
+                "D": "15"
               },
               "answer": "B",
               "explanation": "Let exterior = x. Interior = 5x. x + 5x = 180° → 6x = 180° → x = 30°. Sides = 360°/30° = 12."
@@ -713,7 +774,10 @@
               "difficulty": "Hard",
               "question": "The ratio of interior angle to exterior angle of a regular polygon is 7:2. How many sides does it have?",
               "options": {
-                "A": "8   (B) 9   (C) 10   (D) 12"
+                "A": "8",
+                "B": "9",
+                "C": "10",
+                "D": "12"
               },
               "answer": "B",
               "explanation": "Let exterior = 2k, interior = 7k. 7k + 2k = 180° → 9k = 180° → k = 20°. Exterior = 2×20° = 40°. Sides = 360°/40° = 9."
@@ -827,7 +891,10 @@
               "difficulty": "Easy",
               "question": "Which has exactly ONE pair of parallel sides?",
               "options": {
-                "A": "Parallelogram   (B) Rectangle   (C) Trapezium   (D) Square"
+                "A": "Parallelogram",
+                "B": "Rectangle",
+                "C": "Trapezium",
+                "D": "Square"
               },
               "answer": "C",
               "explanation": "Trapezium has exactly one pair of parallel sides."
@@ -837,7 +904,10 @@
               "difficulty": "Medium",
               "question": "Which is the most specific (special) quadrilateral?",
               "options": {
-                "A": "Parallelogram   (B) Rhombus   (C) Rectangle   (D) Square"
+                "A": "Parallelogram",
+                "B": "Rhombus",
+                "C": "Rectangle",
+                "D": "Square"
               },
               "answer": "D",
               "explanation": "A square is a special rectangle AND a special rhombus."
@@ -847,7 +917,10 @@
               "difficulty": "Hard",
               "question": "How many of the following are parallelograms? Trapezium, Rhombus, Rectangle, Kite, Square",
               "options": {
-                "A": "1   (B) 2   (C) 3   (D) 4"
+                "A": "1",
+                "B": "2",
+                "C": "3",
+                "D": "4"
               },
               "answer": "C",
               "explanation": "Rhombus, Rectangle, and Square are all special parallelograms. Trapezium and Kite are NOT parallelograms."
@@ -857,7 +930,10 @@
               "difficulty": "Easy",
               "question": "Which quadrilateral has exactly two pairs of consecutive equal sides but no parallel sides?",
               "options": {
-                "A": "Parallelogram   (B) Trapezium   (C) Kite   (D) Rhombus"
+                "A": "Parallelogram",
+                "B": "Trapezium",
+                "C": "Kite",
+                "D": "Rhombus"
               },
               "answer": "C",
               "explanation": "A kite has two distinct consecutive pairs of equal sides and no parallel sides."
@@ -867,7 +943,10 @@
               "difficulty": "Medium",
               "question": "How many quadrilaterals in this list are NOT parallelograms? Trapezium, Kite, Rhombus, Rectangle, Square, Isosceles trapezium",
               "options": {
-                "A": "1   (B) 2   (C) 3   (D) 4"
+                "A": "1",
+                "B": "2",
+                "C": "3",
+                "D": "4"
               },
               "answer": "C",
               "explanation": "Trapezium, Kite, and Isosceles trapezium are NOT parallelograms. Rhombus, Rectangle, and Square are all special parallelograms."
@@ -877,7 +956,10 @@
               "difficulty": "Hard",
               "question": "In which quadrilateral are the diagonals perpendicular to each other but do NOT bisect each other?",
               "options": {
-                "A": "Rhombus   (B) Square   (C) Kite   (D) Rectangle"
+                "A": "Rhombus",
+                "B": "Square",
+                "C": "Kite",
+                "D": "Rectangle"
               },
               "answer": "C",
               "explanation": "In a kite, diagonals are perpendicular but only one bisects the other (not mutual bisection). In rhombus and square, diagonals mutually bisect each other AND are perpendicular. ----"
@@ -985,8 +1067,10 @@
               "difficulty": "Easy",
               "question": "A trapezium has:",
               "options": {
-                "A": "No parallel sides             (B) Exactly one pair of parallel sides",
-                "C": "Two pairs of parallel sides   (D) All sides equal"
+                "A": "No parallel sides",
+                "B": "Exactly one pair of parallel sides",
+                "C": "Two pairs of parallel sides",
+                "D": "All sides equal"
               },
               "answer": "B",
               "explanation": "A trapezium is defined as having exactly one pair of parallel sides."
@@ -996,7 +1080,10 @@
               "difficulty": "Medium",
               "question": "If the non-parallel sides of a trapezium are equal, it is called:",
               "options": {
-                "A": "Kite   (B) Rhombus   (C) Isosceles trapezium   (D) Rectangle"
+                "A": "Kite",
+                "B": "Rhombus",
+                "C": "Isosceles trapezium",
+                "D": "Rectangle"
               },
               "answer": "C",
               "explanation": "Equal legs (non-parallel sides) make it an isosceles trapezium."
@@ -1019,7 +1106,10 @@
               "difficulty": "Easy",
               "question": "In a trapezium ABCD with AB || CD, the parallel sides are called:",
               "options": {
-                "A": "Legs   (B) Bases   (C) Diagonals   (D) Heights"
+                "A": "Legs",
+                "B": "Bases",
+                "C": "Diagonals",
+                "D": "Heights"
               },
               "answer": "B",
               "explanation": "The parallel sides of a trapezium are called its BASES. The non-parallel sides are called legs."
@@ -1029,7 +1119,10 @@
               "difficulty": "Medium",
               "question": "In trapezium ABCD with AB || CD, angle A = 75°. Find angle D.",
               "options": {
-                "A": "75°   (B) 105°   (C) 115°   (D) 180°"
+                "A": "75°",
+                "B": "105°",
+                "C": "115°",
+                "D": "180°"
               },
               "answer": "B",
               "explanation": "AB || CD, AD is transversal. Angle A and angle D are co-interior angles. Angle A + angle D = 180°. Angle D = 180° - 75° = 105°."
@@ -1039,7 +1132,10 @@
               "difficulty": "Hard",
               "question": "In isosceles trapezium ABCD with AB || CD, AB = 10 cm, CD = 6 cm, and AD = BC = 5 cm. The angle A = 65°. Find angle B.",
               "options": {
-                "A": "65°   (B) 115°   (C) 130°   (D) 75°"
+                "A": "65°",
+                "B": "115°",
+                "C": "130°",
+                "D": "75°"
               },
               "answer": "A",
               "explanation": "In an isosceles trapezium, base angles are equal. Angle A and angle B are base angles at AB. Therefore angle B = angle A = 65°. ----"
@@ -1161,8 +1257,10 @@
               "difficulty": "Medium",
               "question": "In a kite, the diagonals are:",
               "options": {
-                "A": "Equal in length             (B) Parallel to each other",
-                "C": "Perpendicular to each other (D) Bisecting each other equally"
+                "A": "Equal in length",
+                "B": "Parallel to each other",
+                "C": "Perpendicular to each other",
+                "D": "Bisecting each other equally"
               },
               "answer": "C",
               "explanation": "The diagonals of a kite are perpendicular to each other."
@@ -1172,8 +1270,10 @@
               "difficulty": "Hard",
               "question": "In kite ABCD where AB = AD and BC = CD, which is TRUE?",
               "options": {
-                "A": "Angle A = Angle C   (B) Angle B = Angle D",
-                "C": "All angles are equal   (D) AB is parallel to CD"
+                "A": "Angle A = Angle C",
+                "B": "Angle B = Angle D",
+                "C": "All angles are equal",
+                "D": "AB is parallel to CD"
               },
               "answer": "B",
               "explanation": "In a kite, angles between the unequal pairs are equal. Here angle B = angle D."
@@ -1183,7 +1283,10 @@
               "difficulty": "Easy",
               "question": "In kite ABCD with AB = AD = 5 cm and BC = CD = 3 cm, all sides are:",
               "options": {
-                "A": "Equal   (B) In two consecutive equal pairs   (C) Parallel   (D) Perpendicular"
+                "A": "Equal",
+                "B": "In two consecutive equal pairs",
+                "C": "Parallel",
+                "D": "Perpendicular"
               },
               "answer": "B",
               "explanation": "A kite has two distinct consecutive pairs of equal sides: AB = AD = 5 cm (one pair) and BC = CD = 3 cm (other pair)."
@@ -1193,8 +1296,10 @@
               "difficulty": "Medium",
               "question": "In kite ABCD with AB = AD and BC = CD, diagonal AC:",
               "options": {
-                "A": "Bisects diagonal BD equally   (B) Is perpendicular to BD only",
-                "C": "Is the axis of symmetry and bisects BD   (D) Is equal to BD"
+                "A": "Bisects diagonal BD equally",
+                "B": "Is perpendicular to BD only",
+                "C": "Is the axis of symmetry and bisects BD",
+                "D": "Is equal to BD"
               },
               "answer": "C",
               "explanation": "In a kite, diagonal AC (connecting vertices between unequal pairs) is the axis of symmetry. It bisects diagonal BD perpendicularly."
@@ -1204,7 +1309,10 @@
               "difficulty": "Hard",
               "question": "In kite ABCD, diagonals meet at O. AO = 4 cm, OC = 2 cm, OB = OD = 3 cm. What is diagonal BD?",
               "options": {
-                "A": "3 cm   (B) 6 cm   (C) 8 cm   (D) 12 cm"
+                "A": "3 cm",
+                "B": "6 cm",
+                "C": "8 cm",
+                "D": "12 cm"
               },
               "answer": "B",
               "explanation": "In a kite, the main diagonal (AC) bisects the other (BD). OB = OD = 3 cm → BD = OB + OD = 3 + 3 = 6 cm. ----"
@@ -1308,8 +1416,10 @@
               "difficulty": "Easy",
               "question": "A parallelogram has:",
               "options": {
-                "A": "One pair of parallel sides   (B) Two pairs of parallel sides",
-                "C": "No parallel sides            (D) All sides perpendicular"
+                "A": "One pair of parallel sides",
+                "B": "Two pairs of parallel sides",
+                "C": "No parallel sides",
+                "D": "All sides perpendicular"
               },
               "answer": "B",
               "explanation": "A parallelogram has both pairs of opposite sides parallel."
@@ -1319,7 +1429,10 @@
               "difficulty": "Medium",
               "question": "Which of the following is NOT a parallelogram?",
               "options": {
-                "A": "Rectangle   (B) Rhombus   (C) Square   (D) Trapezium"
+                "A": "Rectangle",
+                "B": "Rhombus",
+                "C": "Square",
+                "D": "Trapezium"
               },
               "answer": "D",
               "explanation": "Trapezium has only one pair of parallel sides."
@@ -1329,7 +1442,10 @@
               "difficulty": "Hard",
               "question": "In parallelogram ABCD, AB = 5 cm and BC = 3 cm. Find the perimeter.",
               "options": {
-                "A": "8 cm   (B) 15 cm   (C) 16 cm   (D) 30 cm"
+                "A": "8 cm",
+                "B": "15 cm",
+                "C": "16 cm",
+                "D": "30 cm"
               },
               "answer": "C",
               "explanation": "Opposite sides equal: AB = DC = 5 cm, BC = AD = 3 cm. Perimeter = 5 + 3 + 5 + 3 = 16 cm."
@@ -1339,7 +1455,10 @@
               "difficulty": "Easy",
               "question": "In a parallelogram, opposite sides are:",
               "options": {
-                "A": "Perpendicular   (B) Unequal   (C) Parallel and equal   (D) Supplementary"
+                "A": "Perpendicular",
+                "B": "Unequal",
+                "C": "Parallel and equal",
+                "D": "Supplementary"
               },
               "answer": "C",
               "explanation": "In a parallelogram, opposite sides are both parallel to each other AND equal in length."
@@ -1349,7 +1468,10 @@
               "difficulty": "Medium",
               "question": "ABCD is a parallelogram with angle A = 65°. Find angle C.",
               "options": {
-                "A": "115°   (B) 65°   (C) 90°   (D) 25°"
+                "A": "115°",
+                "B": "65°",
+                "C": "90°",
+                "D": "25°"
               },
               "answer": "B",
               "explanation": "Opposite angles of a parallelogram are equal. Angle C = Angle A = 65°."
@@ -1359,8 +1481,10 @@
               "difficulty": "Hard",
               "question": "In parallelogram ABCD, diagonals AC = 14 cm and BD = 10 cm, meeting at O. Find OA and OB.",
               "options": {
-                "A": "OA = 7 cm, OB = 5 cm   (B) OA = 14 cm, OB = 10 cm",
-                "C": "OA = 3.5 cm, OB = 2.5 cm   (D) OA = 5 cm, OB = 7 cm"
+                "A": "OA = 7 cm, OB = 5 cm",
+                "B": "OA = 14 cm, OB = 10 cm",
+                "C": "OA = 3.5 cm, OB = 2.5 cm",
+                "D": "OA = 5 cm, OB = 7 cm"
               },
               "answer": "A",
               "explanation": "Diagonals bisect each other. OA = AC/2 = 14/2 = 7 cm. OB = BD/2 = 10/2 = 5 cm. ----"
@@ -1471,7 +1595,10 @@
               "difficulty": "Easy",
               "question": "In parallelogram ABCD, AB and DC are:",
               "options": {
-                "A": "Adjacent sides   (B) Opposite sides   (C) Equal angles   (D) Diagonals"
+                "A": "Adjacent sides",
+                "B": "Opposite sides",
+                "C": "Equal angles",
+                "D": "Diagonals"
               },
               "answer": "B",
               "explanation": "AB and DC do not share a vertex - they are opposite sides."
@@ -1481,7 +1608,10 @@
               "difficulty": "Medium",
               "question": "In parallelogram PQRS, PQ = 8 cm. What is the length of RS?",
               "options": {
-                "A": "4 cm   (B) 6 cm   (C) 8 cm   (D) 16 cm"
+                "A": "4 cm",
+                "B": "6 cm",
+                "C": "8 cm",
+                "D": "16 cm"
               },
               "answer": "C",
               "explanation": "Opposite sides are equal. RS is opposite to PQ so RS = 8 cm."
@@ -1491,8 +1621,10 @@
               "difficulty": "Hard",
               "question": "Adjacent angles in a parallelogram are:",
               "options": {
-                "A": "Equal            (B) Complementary (sum = 90°)",
-                "C": "Supplementary (sum = 180°)   (D) Each equal to 60°"
+                "A": "Equal",
+                "B": "Complementary (sum = 90°)",
+                "C": "Supplementary (sum = 180°)",
+                "D": "Each equal to 60°"
               },
               "answer": "C",
               "explanation": "Adjacent angles in a parallelogram are supplementary."
@@ -1502,7 +1634,10 @@
               "difficulty": "Easy",
               "question": "In parallelogram ABCD, which pair are ADJACENT sides?",
               "options": {
-                "A": "AB and CD   (B) AB and BC   (C) AD and BC   (D) AB and DC"
+                "A": "AB and CD",
+                "B": "AB and BC",
+                "C": "AD and BC",
+                "D": "AB and DC"
               },
               "answer": "B",
               "explanation": "AB and BC share vertex B — they are adjacent sides. AB & CD and AD & BC are opposite side pairs."
@@ -1512,7 +1647,10 @@
               "difficulty": "Medium",
               "question": "In parallelogram PQRS, PQ = 3x - 2 and RS = x + 6. Find PQ.",
               "options": {
-                "A": "4   (B) 8   (C) 10   (D) 12"
+                "A": "4",
+                "B": "8",
+                "C": "10",
+                "D": "12"
               },
               "answer": "C",
               "explanation": "Opposite sides equal: PQ = RS. 3x - 2 = x + 6 → 2x = 8 → x = 4. PQ = 3(4) - 2 = 10 cm."
@@ -1522,8 +1660,10 @@
               "difficulty": "Hard",
               "question": "In parallelogram ABCD, the perimeter is 56 cm and AB = 3 × BC. Find AB and BC.",
               "options": {
-                "A": "AB = 21 cm, BC = 7 cm   (B) AB = 18 cm, BC = 6 cm",
-                "C": "AB = 24 cm, BC = 8 cm   (D) AB = 15 cm, BC = 5 cm"
+                "A": "AB = 21 cm, BC = 7 cm",
+                "B": "AB = 18 cm, BC = 6 cm",
+                "C": "AB = 24 cm, BC = 8 cm",
+                "D": "AB = 15 cm, BC = 5 cm"
               },
               "answer": "A",
               "explanation": "Perimeter = 2(AB + BC) = 56 → AB + BC = 28. AB = 3×BC → 3BC + BC = 28 → 4BC = 28 → BC = 7. AB = 21 cm. ----"
@@ -1639,7 +1779,10 @@
               "difficulty": "Easy",
               "question": "In a parallelogram, opposite angles are:",
               "options": {
-                "A": "Supplementary   (B) Complementary   (C) Equal   (D) Right angles"
+                "A": "Supplementary",
+                "B": "Complementary",
+                "C": "Equal",
+                "D": "Right angles"
               },
               "answer": "C",
               "explanation": "The correct answer is (C) Equal."
@@ -1649,7 +1792,10 @@
               "difficulty": "Easy",
               "question": "In parallelogram ABCD, angle A = 110°. Then angle B is:",
               "options": {
-                "A": "110°   (B) 70°   (C) 55°   (D) 180°"
+                "A": "110°",
+                "B": "70°",
+                "C": "55°",
+                "D": "180°"
               },
               "answer": "B",
               "explanation": "Adjacent angles supplementary. Angle B = 180° - 110° = 70°."
@@ -1659,7 +1805,10 @@
               "difficulty": "Medium",
               "question": "In parallelogram ABCD, angle A = 75°. Find angle C.",
               "options": {
-                "A": "75°   (B) 105°   (C) 115°   (D) 90°"
+                "A": "75°",
+                "B": "105°",
+                "C": "115°",
+                "D": "90°"
               },
               "answer": "A",
               "explanation": "The correct answer is (A) 75°."
@@ -1669,7 +1818,10 @@
               "difficulty": "Medium",
               "question": "If adjacent angles of a parallelogram are equal AND supplementary, the shape is:",
               "options": {
-                "A": "Rhombus   (B) Kite   (C) Trapezium   (D) Rectangle"
+                "A": "Rhombus",
+                "B": "Kite",
+                "C": "Trapezium",
+                "D": "Rectangle"
               },
               "answer": "D",
               "explanation": "Equal + supplementary → each = 90°. All right angles = rectangle."
@@ -1679,7 +1831,10 @@
               "difficulty": "Hard",
               "question": "In a parallelogram, angle A = 2x and angle B = x + 30°. Find x.",
               "options": {
-                "A": "30°   (B) 40°   (C) 50°   (D) 60°"
+                "A": "30°",
+                "B": "40°",
+                "C": "50°",
+                "D": "60°"
               },
               "answer": "C",
               "explanation": "2x + x + 30° = 180° → 3x = 150° → x = 50°."
@@ -1689,7 +1844,10 @@
               "difficulty": "Hard",
               "question": "In parallelogram ABCD, angle A : angle B = 2 : 3. Find angle A.",
               "options": {
-                "A": "60°   (B) 72°   (C) 108°   (D) 120°"
+                "A": "60°",
+                "B": "72°",
+                "C": "108°",
+                "D": "120°"
               },
               "answer": "B",
               "explanation": "Let angle A = 2k and angle B = 3k. Adjacent angles supplementary: 2k + 3k = 180° → 5k = 180° → k = 36°. Angle A = 2 × 36° = 72°. ----"
@@ -1800,8 +1958,10 @@
               "difficulty": "Easy",
               "question": "The diagonals of a parallelogram:",
               "options": {
-                "A": "Are equal in length   (B) Bisect each other",
-                "C": "Are perpendicular     (D) Do not intersect"
+                "A": "Are equal in length",
+                "B": "Bisect each other",
+                "C": "Are perpendicular",
+                "D": "Do not intersect"
               },
               "answer": "B",
               "explanation": "The correct answer is (B) Bisect each other."
@@ -1811,7 +1971,10 @@
               "difficulty": "Medium",
               "question": "In parallelogram ABCD, diagonals meet at O. If BO = 6 cm, then BD = ?",
               "options": {
-                "A": "3 cm   (B) 6 cm   (C) 12 cm   (D) 18 cm"
+                "A": "3 cm",
+                "B": "6 cm",
+                "C": "12 cm",
+                "D": "18 cm"
               },
               "answer": "C",
               "explanation": "DO = BO = 6 cm. BD = 6 + 6 = 12 cm."
@@ -1821,8 +1984,10 @@
               "difficulty": "Hard",
               "question": "In parallelogram PQRS, diagonals meet at O. OQ = 4 cm and OR = 3 cm. Find PR and QS.",
               "options": {
-                "A": "PR = 6 cm, QS = 8 cm   (B) PR = 8 cm, QS = 6 cm",
-                "C": "PR = 3 cm, QS = 4 cm   (D) PR = 4 cm, QS = 3 cm"
+                "A": "PR = 6 cm, QS = 8 cm",
+                "B": "PR = 8 cm, QS = 6 cm",
+                "C": "PR = 3 cm, QS = 4 cm",
+                "D": "PR = 4 cm, QS = 3 cm"
               },
               "answer": "A",
               "explanation": "OP = OR = 3 cm → PR = 6 cm. OQ = OS = 4 cm → QS = 8 cm."
@@ -1832,8 +1997,10 @@
               "difficulty": "Easy",
               "question": "Diagonals of a parallelogram bisect each other means:",
               "options": {
-                "A": "They are equal    (B) They are perpendicular",
-                "C": "Each cuts the other into two equal halves   (D) They do not intersect"
+                "A": "They are equal",
+                "B": "They are perpendicular",
+                "C": "Each cuts the other into two equal halves",
+                "D": "They do not intersect"
               },
               "answer": "C",
               "explanation": "Bisect means to cut into two equal halves. The diagonals of a parallelogram cut each other into two equal halves at the intersection."
@@ -1843,7 +2010,10 @@
               "difficulty": "Medium",
               "question": "In parallelogram ABCD, AO = 2x and OC = x + 4 (O = diagonal intersection). Find AC.",
               "options": {
-                "A": "8 cm   (B) 16 cm   (C) 12 cm   (D) 24 cm"
+                "A": "8 cm",
+                "B": "16 cm",
+                "C": "12 cm",
+                "D": "24 cm"
               },
               "answer": "B",
               "explanation": "AO = OC (bisect). 2x = x + 4 → x = 4. AO = 8 cm. AC = 2 × 8 = 16 cm."
@@ -1853,7 +2023,10 @@
               "difficulty": "Hard",
               "question": "In parallelogram ABCD, diagonal AC = 18 cm and BD = 12 cm. They meet at O. Find OA + OB.",
               "options": {
-                "A": "30 cm   (B) 15 cm   (C) 12 cm   (D) 9 cm"
+                "A": "30 cm",
+                "B": "15 cm",
+                "C": "12 cm",
+                "D": "9 cm"
               },
               "answer": "B",
               "explanation": "OA = AC/2 = 9 cm. OB = BD/2 = 6 cm. OA + OB = 9 + 6 = 15 cm."
@@ -1964,7 +2137,10 @@
               "difficulty": "Easy",
               "question": "Which special parallelogram has all sides equal?",
               "options": {
-                "A": "Rectangle   (B) Rhombus   (C) Trapezium   (D) Kite"
+                "A": "Rectangle",
+                "B": "Rhombus",
+                "C": "Trapezium",
+                "D": "Kite"
               },
               "answer": "B",
               "explanation": "The correct answer is (B) Rhombus."
@@ -1974,7 +2150,10 @@
               "difficulty": "Medium",
               "question": "Which special parallelogram has diagonals of equal length?",
               "options": {
-                "A": "Rhombus   (B) Rectangle   (C) Kite   (D) Trapezium"
+                "A": "Rhombus",
+                "B": "Rectangle",
+                "C": "Kite",
+                "D": "Trapezium"
               },
               "answer": "B",
               "explanation": "The correct answer is (B) Rectangle."
@@ -1984,8 +2163,10 @@
               "difficulty": "Hard",
               "question": "Which is true ONLY for a square and NOT for a general rectangle?",
               "options": {
-                "A": "Each angle = 90°             (B) Diagonals are equal",
-                "C": "Diagonals bisect each other  (D) Diagonals are perpendicular"
+                "A": "Each angle = 90°",
+                "B": "Diagonals are equal",
+                "C": "Diagonals bisect each other",
+                "D": "Diagonals are perpendicular"
               },
               "answer": "D",
               "explanation": "Perpendicular diagonals are only in rhombus or square, not in a general rectangle."
@@ -1995,7 +2176,10 @@
               "difficulty": "Easy",
               "question": "Which special parallelogram has diagonals that are perpendicular bisectors of each other?",
               "options": {
-                "A": "Rectangle   (B) Rhombus   (C) Trapezium   (D) Kite"
+                "A": "Rectangle",
+                "B": "Rhombus",
+                "C": "Trapezium",
+                "D": "Kite"
               },
               "answer": "B",
               "explanation": "The diagonals of a rhombus are perpendicular bisectors of each other — they bisect each other AND meet at 90°."
@@ -2005,7 +2189,10 @@
               "difficulty": "Medium",
               "question": "A parallelogram has all sides equal and all angles 90°. It is a:",
               "options": {
-                "A": "Rhombus only   (B) Rectangle only   (C) Square   (D) Trapezium"
+                "A": "Rhombus only",
+                "B": "Rectangle only",
+                "C": "Square",
+                "D": "Trapezium"
               },
               "answer": "C",
               "explanation": "All sides equal (like rhombus) + all angles 90° (like rectangle) = SQUARE. It is the most specific special parallelogram."
@@ -2015,8 +2202,10 @@
               "difficulty": "Hard",
               "question": "Which of the following statements correctly shows the relationship between special parallelograms?",
               "options": {
-                "A": "Every rectangle is a rhombus    (B) Every rhombus is a rectangle",
-                "C": "Every square is a rhombus       (D) Every parallelogram is a rectangle"
+                "A": "Every rectangle is a rhombus",
+                "B": "Every rhombus is a rectangle",
+                "C": "Every square is a rhombus",
+                "D": "Every parallelogram is a rectangle"
               },
               "answer": "C",
               "explanation": "A square has all sides equal (rhombus property). So every square IS a rhombus. But not every rhombus is a square (angles may not be 90°). ----"
@@ -2136,8 +2325,10 @@
               "difficulty": "Easy",
               "question": "A rhombus is a parallelogram in which:",
               "options": {
-                "A": "All angles are equal   (B) All sides are equal",
-                "C": "Diagonals are equal    (D) All angles are 90°"
+                "A": "All angles are equal",
+                "B": "All sides are equal",
+                "C": "Diagonals are equal",
+                "D": "All angles are 90°"
               },
               "answer": "B",
               "explanation": "The correct answer is (B) All sides are equal."
@@ -2147,8 +2338,10 @@
               "difficulty": "Medium",
               "question": "The diagonals of a rhombus are:",
               "options": {
-                "A": "Equal in length              (B) Perpendicular bisectors of each other",
-                "C": "Parallel to each other       (D) Not bisecting each other"
+                "A": "Equal in length",
+                "B": "Perpendicular bisectors of each other",
+                "C": "Parallel to each other",
+                "D": "Not bisecting each other"
               },
               "answer": "B",
               "explanation": "The correct answer is (B) Perpendicular bisectors of each other."
@@ -2158,7 +2351,10 @@
               "difficulty": "Medium",
               "question": "Which has all sides equal but angles NOT necessarily 90°?",
               "options": {
-                "A": "Rectangle   (B) Square   (C) Rhombus   (D) Trapezium"
+                "A": "Rectangle",
+                "B": "Square",
+                "C": "Rhombus",
+                "D": "Trapezium"
               },
               "answer": "C",
               "explanation": "The correct answer is (C) Rhombus."
@@ -2168,7 +2364,10 @@
               "difficulty": "Medium",
               "question": "In rhombus PQRS, angle P = 70°. Then angle Q = ?",
               "options": {
-                "A": "70°   (B) 110°   (C) 140°   (D) 35°"
+                "A": "70°",
+                "B": "110°",
+                "C": "140°",
+                "D": "35°"
               },
               "answer": "B",
               "explanation": "The correct answer is (B) 110°."
@@ -2178,8 +2377,10 @@
               "difficulty": "Hard",
               "question": "In rhombus ABCD, diagonal AC = 8 cm and BD = 6 cm, meeting at O. Find OA and OB.",
               "options": {
-                "A": "OA = 4 cm, OB = 3 cm   (B) OA = 8 cm, OB = 6 cm",
-                "C": "OA = 2 cm, OB = 1.5 cm   (D) OA = 3 cm, OB = 4 cm"
+                "A": "OA = 4 cm, OB = 3 cm",
+                "B": "OA = 8 cm, OB = 6 cm",
+                "C": "OA = 2 cm, OB = 1.5 cm",
+                "D": "OA = 3 cm, OB = 4 cm"
               },
               "answer": "A",
               "explanation": "The correct answer is (A) OA = 4 cm, OB = 3 cm."
@@ -2189,7 +2390,10 @@
               "difficulty": "Hard",
               "question": "In rhombus ABCD, diagonals are 10 cm and 24 cm. Find the side of the rhombus.",
               "options": {
-                "A": "12 cm   (B) 13 cm   (C) 17 cm   (D) 26 cm"
+                "A": "12 cm",
+                "B": "13 cm",
+                "C": "17 cm",
+                "D": "26 cm"
               },
               "answer": "B",
               "explanation": "Half diagonals = 5 cm and 12 cm. Side² = 5² + 12² = 25 + 144 = 169. Side = 13 cm. ----"
@@ -2306,8 +2510,10 @@
               "difficulty": "Easy",
               "question": "A rectangle is a parallelogram in which:",
               "options": {
-                "A": "All sides are equal          (B) Each angle is a right angle",
-                "C": "Diagonals are perpendicular  (D) Only two sides are parallel"
+                "A": "All sides are equal",
+                "B": "Each angle is a right angle",
+                "C": "Diagonals are perpendicular",
+                "D": "Only two sides are parallel"
               },
               "answer": "B",
               "explanation": "The correct answer is (B) Each angle is a right angle."
@@ -2317,8 +2523,10 @@
               "difficulty": "Medium",
               "question": "The diagonals of a rectangle are:",
               "options": {
-                "A": "Equal and perpendicular   (B) Equal but NOT perpendicular",
-                "C": "Unequal but bisecting     (D) Equal and parallel"
+                "A": "Equal and perpendicular",
+                "B": "Equal but NOT perpendicular",
+                "C": "Unequal but bisecting",
+                "D": "Equal and parallel"
               },
               "answer": "B",
               "explanation": "The correct answer is (B) Equal but NOT perpendicular."
@@ -2328,8 +2536,10 @@
               "difficulty": "Medium",
               "question": "Which property does a rectangle have that a parallelogram does NOT?",
               "options": {
-                "A": "Opposite sides equal      (B) Diagonals bisect each other",
-                "C": "Diagonals are equal       (D) Adjacent angles supplementary"
+                "A": "Opposite sides equal",
+                "B": "Diagonals bisect each other",
+                "C": "Diagonals are equal",
+                "D": "Adjacent angles supplementary"
               },
               "answer": "C",
               "explanation": "The correct answer is (C) Diagonals are equal."
@@ -2339,7 +2549,10 @@
               "difficulty": "Medium",
               "question": "In rectangle PQRS, diagonal PR = 3x - 2 and diagonal QS = x + 6. Find x.",
               "options": {
-                "A": "2   (B) 3   (C) 4   (D) 5"
+                "A": "2",
+                "B": "3",
+                "C": "4",
+                "D": "5"
               },
               "answer": "C",
               "explanation": "Diagonals equal. 3x - 2 = x + 6 → 2x = 8 → x = 4."
@@ -2349,7 +2562,10 @@
               "difficulty": "Hard",
               "question": "In rectangle ABCD, diagonals meet at O. Diagonal AC = 10 cm. Find OB.",
               "options": {
-                "A": "5 cm   (B) 10 cm   (C) 20 cm   (D) 2.5 cm"
+                "A": "5 cm",
+                "B": "10 cm",
+                "C": "20 cm",
+                "D": "2.5 cm"
               },
               "answer": "A",
               "explanation": "BD = AC = 10 cm. OB = BD/2 = 5 cm."
@@ -2359,7 +2575,10 @@
               "difficulty": "Hard",
               "question": "In rectangle ABCD, AB = 8 cm and BC = 6 cm. Find diagonal AC.",
               "options": {
-                "A": "7 cm   (B) 10 cm   (C) 12 cm   (D) 14 cm"
+                "A": "7 cm",
+                "B": "10 cm",
+                "C": "12 cm",
+                "D": "14 cm"
               },
               "answer": "B",
               "explanation": "In right triangle ABC (angle B = 90°): AC² = AB² + BC² = 64 + 36 = 100. AC = 10 cm. ----"
@@ -2469,8 +2688,10 @@
               "difficulty": "Easy",
               "question": "A square is:",
               "options": {
-                "A": "Rectangle only                   (B) Rhombus only",
-                "C": "Both a rectangle and a rhombus   (D) Trapezium"
+                "A": "Rectangle only",
+                "B": "Rhombus only",
+                "C": "Both a rectangle and a rhombus",
+                "D": "Trapezium"
               },
               "answer": "C",
               "explanation": "The correct answer is (C) Both a rectangle and a rhombus."
@@ -2480,7 +2701,10 @@
               "difficulty": "Easy",
               "question": "In a square, each angle is:",
               "options": {
-                "A": "45°   (B) 60°   (C) 90°   (D) 120°"
+                "A": "45°",
+                "B": "60°",
+                "C": "90°",
+                "D": "120°"
               },
               "answer": "C",
               "explanation": "The correct answer is (C) 90°."
@@ -2490,8 +2714,10 @@
               "difficulty": "Medium",
               "question": "The diagonals of a square are:",
               "options": {
-                "A": "Equal but not perpendicular        (B) Perpendicular but not equal",
-                "C": "Equal and perpendicular bisectors  (D) Not bisecting each other"
+                "A": "Equal but not perpendicular",
+                "B": "Perpendicular but not equal",
+                "C": "Equal and perpendicular bisectors",
+                "D": "Not bisecting each other"
               },
               "answer": "C",
               "explanation": "The correct answer is (C) Equal and perpendicular bisectors."
@@ -2501,7 +2727,10 @@
               "difficulty": "Medium",
               "question": "Which quadrilateral has all properties of parallelogram, rectangle and rhombus?",
               "options": {
-                "A": "Kite   (B) Trapezium   (C) Square   (D) Isosceles trapezium"
+                "A": "Kite",
+                "B": "Trapezium",
+                "C": "Square",
+                "D": "Isosceles trapezium"
               },
               "answer": "C",
               "explanation": "The correct answer is (C) Square."
@@ -2524,7 +2753,10 @@
               "difficulty": "Hard",
               "question": "In square ABCD with side 5 cm, find the length of the diagonal.",
               "options": {
-                "A": "5 cm   (B) 5√2 cm   (C) 10 cm   (D) 10√2 cm"
+                "A": "5 cm",
+                "B": "5√2 cm",
+                "C": "10 cm",
+                "D": "10√2 cm"
               },
               "answer": "B",
               "explanation": "In right triangle ABC (angle B = 90°, AB = BC = 5 cm): AC² = 5² + 5² = 50. AC = √50 = 5√2 cm."

@@ -70,7 +70,10 @@
           "difficulty": "Easy",
           "question": "The slant height of a cone with height 8 cm and radius 6 cm is:",
           "options": {
-            "A": "14 cm   (B) 10 cm   (C) 2 cm   (D) 7 cm"
+            "A": "14 cm",
+            "B": "10 cm",
+            "C": "2 cm",
+            "D": "7 cm"
           },
           "answer": "B",
           "explanation": "l = sqrt(6^2 + 8^2) = sqrt(100) = 10 cm."
@@ -80,8 +83,10 @@
           "difficulty": "Medium",
           "question": "A cone, a cylinder and a hemisphere all have the same base radius r and same height r. Which of the following is correct about their volumes?",
           "options": {
-            "A": "Cone = Cylinder   (B) Hemisphere = Cylinder",
-            "C": "Cone = Hemisphere   (D) Cylinder = 3 * Cone"
+            "A": "Cone = Cylinder",
+            "B": "Hemisphere = Cylinder",
+            "C": "Cone = Hemisphere",
+            "D": "Cylinder = 3 * Cone"
           },
           "answer": "D",
           "explanation": "V_cone = (1/3)*pi*r^3; V_cylinder = pi*r^3 = 3*(1/3)*pi*r^3."
@@ -91,7 +96,10 @@
           "difficulty": "Hard",
           "question": "A metallic sphere of radius 6 cm is melted and recast into a cone of radius 6 cm. The height of the cone is:",
           "options": {
-            "A": "6 cm   (B) 12 cm   (C) 24 cm   (D) 36 cm"
+            "A": "6 cm",
+            "B": "12 cm",
+            "C": "24 cm",
+            "D": "36 cm"
           },
           "answer": "C",
           "explanation": "(4/3)*pi*36*6 = (1/3)*pi*36*h => h = (4/3)*(4/3)*6... Actually: (4/3)*pi*216 = (1/3)*pi*36*h => 4*216 = 36*h => h = 864/36 = 24 cm."
@@ -337,7 +345,10 @@
               "difficulty": "Easy",
               "question": "Curved surface area of a cone with radius r and slant height l is:",
               "options": {
-                "A": "pi*r^2   (B) pi*r*l   (C) pi*r(l+r)   (D) 2*pi*r*l"
+                "A": "pi*r^2",
+                "B": "pi*r*l",
+                "C": "pi*r(l+r)",
+                "D": "2*pi*r*l"
               },
               "answer": "B",
               "explanation": "CSA = pi*r*l (base not included)."
@@ -347,7 +358,10 @@
               "difficulty": "Easy",
               "question": "Total surface area of a right circular cone is:",
               "options": {
-                "A": "pi*r*l   (B) pi*r^2   (C) pi*r(l+r)   (D) 2*pi*r(l+r)"
+                "A": "pi*r*l",
+                "B": "pi*r^2",
+                "C": "pi*r(l+r)",
+                "D": "2*pi*r(l+r)"
               },
               "answer": "C",
               "explanation": "TSA = pi*r*l + pi*r^2 = pi*r(l+r)."
@@ -357,7 +371,10 @@
               "difficulty": "Easy",
               "question": "Cone with radius 7 cm and slant height 10 cm. CSA = ? (pi = 22/7)",
               "options": {
-                "A": "220 cm^2   (B) 110 cm^2   (C) 440 cm^2   (D) 154 cm^2"
+                "A": "220 cm^2",
+                "B": "110 cm^2",
+                "C": "440 cm^2",
+                "D": "154 cm^2"
               },
               "answer": "A",
               "explanation": "CSA = (22/7) x 7 x 10 = 220 cm^2."
@@ -367,7 +384,10 @@
               "difficulty": "Easy",
               "question": "Slant height of a cone with h = 8 cm, r = 6 cm is:",
               "options": {
-                "A": "14 cm   (B) 10 cm   (C) 2 cm   (D) sqrt(28) cm"
+                "A": "14 cm",
+                "B": "10 cm",
+                "C": "2 cm",
+                "D": "sqrt(28) cm"
               },
               "answer": "B",
               "explanation": "l = sqrt(36 + 64) = sqrt(100) = 10 cm."
@@ -390,7 +410,10 @@
               "difficulty": "Medium",
               "question": "CSA of a cone = 550 cm^2, slant height = 25 cm. Base radius is: (pi = 22/7)",
               "options": {
-                "A": "5 cm   (B) 7 cm   (C) 10 cm   (D) 14 cm"
+                "A": "5 cm",
+                "B": "7 cm",
+                "C": "10 cm",
+                "D": "14 cm"
               },
               "answer": "B",
               "explanation": "r = 550*7/(22*25) = 7 cm."
@@ -400,7 +423,10 @@
               "difficulty": "Medium",
               "question": "Cone with base diameter 10 cm and slant height 13 cm. Height is:",
               "options": {
-                "A": "3 cm   (B) 12 cm   (C) 14.4 cm   (D) 16.9 cm"
+                "A": "3 cm",
+                "B": "12 cm",
+                "C": "14.4 cm",
+                "D": "16.9 cm"
               },
               "answer": "B",
               "explanation": "r = 5 cm. h = sqrt(169 - 25) = sqrt(144) = 12 cm."
@@ -410,7 +436,10 @@
               "difficulty": "Medium",
               "question": "If r is doubled and slant height unchanged, CSA becomes:",
               "options": {
-                "A": "2 times   (B) 4 times   (C) same   (D) sqrt(2) times"
+                "A": "2 times",
+                "B": "4 times",
+                "C": "same",
+                "D": "sqrt(2) times"
               },
               "answer": "A",
               "explanation": "CSA = pi*r*l. With 2r: CSA = 2*pi*r*l = 2 times."
@@ -420,7 +449,10 @@
               "difficulty": "Medium",
               "question": "Cone with r = 3 cm, l = 5 cm. Ratio CSA : TSA is:",
               "options": {
-                "A": "3:5   (B) 5:8   (C) 5:6   (D) 3:8"
+                "A": "3:5",
+                "B": "5:8",
+                "C": "5:6",
+                "D": "3:8"
               },
               "answer": "B",
               "explanation": "CSA = 15*pi. TSA = pi*3*(5+3) = 24*pi. Ratio = 15:24 = 5:8."
@@ -430,7 +462,10 @@
               "difficulty": "Medium",
               "question": "TSA of cone = 704 cm^2, r = 7 cm. CSA = ? (pi = 22/7)",
               "options": {
-                "A": "154 cm^2   (B) 550 cm^2   (C) 704 cm^2   (D) 308 cm^2"
+                "A": "154 cm^2",
+                "B": "550 cm^2",
+                "C": "704 cm^2",
+                "D": "308 cm^2"
               },
               "answer": "B",
               "explanation": "CSA = TSA - base = 704 - (22/7)*49 = 704 - 154 = 550 cm^2."
@@ -440,7 +475,10 @@
               "difficulty": "Hard",
               "question": "Cone with r = l (slant height = radius). TSA is:",
               "options": {
-                "A": "pi*r^2   (B) 2*pi*r^2   (C) 3*pi*r^2   (D) 4*pi*r^2"
+                "A": "pi*r^2",
+                "B": "2*pi*r^2",
+                "C": "3*pi*r^2",
+                "D": "4*pi*r^2"
               },
               "answer": "B",
               "explanation": "TSA = pi*r(l+r) = pi*r(r+r) = 2*pi*r^2."
@@ -450,7 +488,10 @@
               "difficulty": "Hard",
               "question": "A cone and a cylinder have the same base radius r. Cylinder height = l (slant height of cone). Ratio of their curved surface areas (cone : cylinder) is:",
               "options": {
-                "A": "1:2   (B) 1:1   (C) r:l   (D) 2:1"
+                "A": "1:2",
+                "B": "1:1",
+                "C": "r:l",
+                "D": "2:1"
               },
               "answer": "A",
               "explanation": "CSA cone = pi*r*l; CSA cylinder = 2*pi*r*l. Ratio = pi*r*l : 2*pi*r*l = 1:2."
@@ -698,7 +739,10 @@
               "difficulty": "Easy",
               "question": "Surface area of a sphere of radius r is:",
               "options": {
-                "A": "pi*r^2   (B) 2*pi*r^2   (C) 3*pi*r^2   (D) 4*pi*r^2"
+                "A": "pi*r^2",
+                "B": "2*pi*r^2",
+                "C": "3*pi*r^2",
+                "D": "4*pi*r^2"
               },
               "answer": "D",
               "explanation": "Surface area of sphere = 4*pi*r^2."
@@ -708,7 +752,10 @@
               "difficulty": "Easy",
               "question": "Curved surface area of a hemisphere of radius r is:",
               "options": {
-                "A": "pi*r^2   (B) 2*pi*r^2   (C) 3*pi*r^2   (D) 4*pi*r^2"
+                "A": "pi*r^2",
+                "B": "2*pi*r^2",
+                "C": "3*pi*r^2",
+                "D": "4*pi*r^2"
               },
               "answer": "B",
               "explanation": "CSA = (1/2)(4*pi*r^2) = 2*pi*r^2."
@@ -718,7 +765,10 @@
               "difficulty": "Easy",
               "question": "Total surface area of a hemisphere of radius r is:",
               "options": {
-                "A": "2*pi*r^2   (B) 3*pi*r^2   (C) 4*pi*r^2   (D) 5*pi*r^2"
+                "A": "2*pi*r^2",
+                "B": "3*pi*r^2",
+                "C": "4*pi*r^2",
+                "D": "5*pi*r^2"
               },
               "answer": "B",
               "explanation": "TSA = CSA + base = 2*pi*r^2 + pi*r^2 = 3*pi*r^2."
@@ -728,7 +778,10 @@
               "difficulty": "Easy",
               "question": "Surface area of a sphere of radius 7 cm is: (pi = 22/7)",
               "options": {
-                "A": "154 cm^2   (B) 308 cm^2   (C) 616 cm^2   (D) 1232 cm^2"
+                "A": "154 cm^2",
+                "B": "308 cm^2",
+                "C": "616 cm^2",
+                "D": "1232 cm^2"
               },
               "answer": "C",
               "explanation": "4 x (22/7) x 7 x 7 = 4 x 22 x 7 = 616 cm^2."
@@ -738,7 +791,10 @@
               "difficulty": "Easy",
               "question": "Total surface area of hemisphere of radius 7 cm is: (pi = 22/7)",
               "options": {
-                "A": "308 cm^2   (B) 462 cm^2   (C) 616 cm^2   (D) 154 cm^2"
+                "A": "308 cm^2",
+                "B": "462 cm^2",
+                "C": "616 cm^2",
+                "D": "154 cm^2"
               },
               "answer": "B",
               "explanation": "3*pi*r^2 = 3 x (22/7) x 49 = 462 cm^2."
@@ -748,7 +804,10 @@
               "difficulty": "Medium",
               "question": "Sphere and hemisphere have same radius r. Ratio SA of sphere : TSA of hemisphere is:",
               "options": {
-                "A": "4:3   (B) 2:1   (C) 4:1   (D) 3:2"
+                "A": "4:3",
+                "B": "2:1",
+                "C": "4:1",
+                "D": "3:2"
               },
               "answer": "A",
               "explanation": "4*pi*r^2 : 3*pi*r^2 = 4:3."
@@ -758,7 +817,10 @@
               "difficulty": "Medium",
               "question": "Surface area of a sphere is 154 cm^2. Radius is: (pi = 22/7)",
               "options": {
-                "A": "3 cm   (B) 3.5 cm   (C) 7 cm   (D) 14 cm"
+                "A": "3 cm",
+                "B": "3.5 cm",
+                "C": "7 cm",
+                "D": "14 cm"
               },
               "answer": "B",
               "explanation": "4*pi*r^2 = 154 => r^2 = 12.25 => r = 3.5 cm."
@@ -768,7 +830,10 @@
               "difficulty": "Medium",
               "question": "Radius of sphere increases 3 times. Surface area increases:",
               "options": {
-                "A": "3 times   (B) 6 times   (C) 9 times   (D) 27 times"
+                "A": "3 times",
+                "B": "6 times",
+                "C": "9 times",
+                "D": "27 times"
               },
               "answer": "C",
               "explanation": "SA proportional to r^2. New SA = 4*pi*(3r)^2 = 9 times."
@@ -778,7 +843,10 @@
               "difficulty": "Medium",
               "question": "CSA of hemisphere = TSA of hemisphere minus:",
               "options": {
-                "A": "pi*r^2   (B) 2*pi*r^2   (C) 3*pi*r^2   (D) 4*pi*r^2"
+                "A": "pi*r^2",
+                "B": "2*pi*r^2",
+                "C": "3*pi*r^2",
+                "D": "4*pi*r^2"
               },
               "answer": "A",
               "explanation": "TSA - CSA = 3*pi*r^2 - 2*pi*r^2 = pi*r^2 (the base area)."
@@ -788,7 +856,10 @@
               "difficulty": "Medium",
               "question": "Solid hemisphere of radius 7 cm placed on table. Area touching table is: (pi = 22/7)",
               "options": {
-                "A": "22 cm^2   (B) 77 cm^2   (C) 154 cm^2   (D) 308 cm^2"
+                "A": "22 cm^2",
+                "B": "77 cm^2",
+                "C": "154 cm^2",
+                "D": "308 cm^2"
               },
               "answer": "C",
               "explanation": "Base area = pi*r^2 = (22/7) x 49 = 154 cm^2."
@@ -798,7 +869,10 @@
               "difficulty": "Hard",
               "question": "Radius of moon = (1/4) of radius of earth. Ratio of surface areas moon : earth is:",
               "options": {
-                "A": "1:4   (B) 1:8   (C) 1:16   (D) 1:64"
+                "A": "1:4",
+                "B": "1:8",
+                "C": "1:16",
+                "D": "1:64"
               },
               "answer": "C",
               "explanation": "SA proportional to r^2. Ratio = (1/4)^2 : 1 = 1:16."
@@ -808,7 +882,10 @@
               "difficulty": "Hard",
               "question": "Right circular cylinder just encloses a sphere of radius r. CSA of cylinder (height = 2r, radius = r) is:",
               "options": {
-                "A": "2*pi*r^2   (B) 4*pi*r^2   (C) pi*r^2   (D) 8*pi*r^2"
+                "A": "2*pi*r^2",
+                "B": "4*pi*r^2",
+                "C": "pi*r^2",
+                "D": "8*pi*r^2"
               },
               "answer": "B",
               "explanation": "CSA = 2*pi*r*h = 2*pi*r*2r = 4*pi*r^2."
@@ -1030,7 +1107,10 @@
               "difficulty": "Easy",
               "question": "Volume of a right circular cone with base radius r and height h is:",
               "options": {
-                "A": "pi*r^2*h   (B) (1/2)*pi*r^2*h   (C) (1/3)*pi*r^2*h   (D) (2/3)*pi*r^2*h"
+                "A": "pi*r^2*h",
+                "B": "(1/2)*pi*r^2*h",
+                "C": "(1/3)*pi*r^2*h",
+                "D": "(2/3)*pi*r^2*h"
               },
               "answer": "C",
               "explanation": "Volume of cone = (1/3)*pi*r^2*h."
@@ -1040,7 +1120,10 @@
               "difficulty": "Easy",
               "question": "How many cones of same base and height fill a cylinder completely?",
               "options": {
-                "A": "1   (B) 2   (C) 3   (D) 4"
+                "A": "1",
+                "B": "2",
+                "C": "3",
+                "D": "4"
               },
               "answer": "C",
               "explanation": "Three cones = one cylinder (same base and height)."
@@ -1050,7 +1133,10 @@
               "difficulty": "Easy",
               "question": "Volume of cone with radius 6 cm and height 7 cm is: (pi = 22/7)",
               "options": {
-                "A": "264 cm^3   (B) 308 cm^3   (C) 792 cm^3   (D) 132 cm^3"
+                "A": "264 cm^3",
+                "B": "308 cm^3",
+                "C": "792 cm^3",
+                "D": "132 cm^3"
               },
               "answer": "A",
               "explanation": "(1/3) x (22/7) x 36 x 7 = (1/3) x 792 = 264 cm^3."
@@ -1060,7 +1146,10 @@
               "difficulty": "Easy",
               "question": "Height of cone with volume 1570 cm^3 and base radius 10 cm is: (pi = 3.14)",
               "options": {
-                "A": "5 cm   (B) 10 cm   (C) 15 cm   (D) 20 cm"
+                "A": "5 cm",
+                "B": "10 cm",
+                "C": "15 cm",
+                "D": "20 cm"
               },
               "answer": "C",
               "explanation": "(1/3)*3.14*100*h = 1570 => h = 4710/314 = 15 cm."
@@ -1070,7 +1159,10 @@
               "difficulty": "Medium",
               "question": "If radius is halved and height is doubled, volume becomes:",
               "options": {
-                "A": "same   (B) half   (C) double   (D) 4 times"
+                "A": "same",
+                "B": "half",
+                "C": "double",
+                "D": "4 times"
               },
               "answer": "B",
               "explanation": "New V = (1/3)*pi*(r/2)^2*2h = (1/2)*(1/3)*pi*r^2*h = half."
@@ -1080,7 +1172,10 @@
               "difficulty": "Medium",
               "question": "Base diameter = 28 cm, volume = 9856 cm^3. Height is: (pi = 22/7)",
               "options": {
-                "A": "24 cm   (B) 36 cm   (C) 48 cm   (D) 60 cm"
+                "A": "24 cm",
+                "B": "36 cm",
+                "C": "48 cm",
+                "D": "60 cm"
               },
               "answer": "C",
               "explanation": "r = 14. (1/3)*(22/7)*196*h = 9856 => h = 48 cm."
@@ -1090,7 +1185,10 @@
               "difficulty": "Medium",
               "question": "Cylinder of radius 7 cm and height 9 cm. Volume is: (pi = 22/7)",
               "options": {
-                "A": "1386 cm^3   (B) 462 cm^3   (C) 693 cm^3   (D) 3465 cm^3"
+                "A": "1386 cm^3",
+                "B": "462 cm^3",
+                "C": "693 cm^3",
+                "D": "3465 cm^3"
               },
               "answer": "A",
               "explanation": "V_cylinder = (22/7)*49*9 = 22*7*9 = 1386 cm^3."
@@ -1100,7 +1198,10 @@
               "difficulty": "Medium",
               "question": "Right triangle (base 5 cm, height 12 cm) revolved about height 12 cm. Volume of solid: (pi = 22/7)",
               "options": {
-                "A": "100*pi cm^3   (B) 300*pi cm^3   (C) 25*pi cm^3   (D) 75*pi cm^3"
+                "A": "100*pi cm^3",
+                "B": "300*pi cm^3",
+                "C": "25*pi cm^3",
+                "D": "75*pi cm^3"
               },
               "answer": "A",
               "explanation": "r = 5, h = 12. V = (1/3)*pi*25*12 = 100*pi cm^3."
@@ -1110,7 +1211,10 @@
               "difficulty": "Medium",
               "question": "Conical vessel: radius = 7 cm, slant height = 25 cm. Capacity in litres: (pi = 22/7)",
               "options": {
-                "A": "1.232 litres   (B) 1.078 litres   (C) 1.54 litres   (D) 0.616 litres"
+                "A": "1.232 litres",
+                "B": "1.078 litres",
+                "C": "1.54 litres",
+                "D": "0.616 litres"
               },
               "answer": "A",
               "explanation": "h = sqrt(625-49) = sqrt(576) = 24 cm. V = (1/3)*(22/7)*49*24 = (1/3)*3696 = 1232 cm^3 = 1.232 litres."
@@ -1120,7 +1224,10 @@
               "difficulty": "Medium",
               "question": "Volume of cone A = volume of cylinder B (same base radius). Cylinder height = 6 cm. Height of cone is:",
               "options": {
-                "A": "6 cm   (B) 12 cm   (C) 18 cm   (D) 2 cm"
+                "A": "6 cm",
+                "B": "12 cm",
+                "C": "18 cm",
+                "D": "2 cm"
               },
               "answer": "C",
               "explanation": "(1/3)*pi*r^2*h_cone = pi*r^2*6 => h_cone = 18 cm."
@@ -1130,7 +1237,10 @@
               "difficulty": "Hard",
               "question": "Heap of wheat: diameter = 10.5 m, height = 3 m. Volume is: (pi = 3.14)",
               "options": {
-                "A": "86.55 m^3   (B) 96.3 m^3   (C) 81.88 m^3   (D) 173.25 m^3"
+                "A": "86.55 m^3",
+                "B": "96.3 m^3",
+                "C": "81.88 m^3",
+                "D": "173.25 m^3"
               },
               "answer": "A",
               "explanation": "r = 5.25 m. V = (1/3)*3.14*5.25*5.25*3 = 3.14*27.5625 = 86.55 m^3 (approx)."
@@ -1140,7 +1250,10 @@
               "difficulty": "Hard",
               "question": "Volume of a cone = 9856 cm^3, base diameter = 28 cm (r = 14 cm). Slant height is:",
               "options": {
-                "A": "48 cm   (B) 50 cm   (C) 52 cm   (D) 60 cm"
+                "A": "48 cm",
+                "B": "50 cm",
+                "C": "52 cm",
+                "D": "60 cm"
               },
               "answer": "B",
               "explanation": "h = 48 cm (found above). l = sqrt(14^2 + 48^2) = sqrt(196+2304) = sqrt(2500) = 50 cm."
@@ -1368,7 +1481,10 @@
               "difficulty": "Easy",
               "question": "Volume of a sphere of radius r is:",
               "options": {
-                "A": "(1/3)*pi*r^3   (B) (2/3)*pi*r^3   (C) (4/3)*pi*r^3   (D) (4/3)*pi*r^2"
+                "A": "(1/3)*pi*r^3",
+                "B": "(2/3)*pi*r^3",
+                "C": "(4/3)*pi*r^3",
+                "D": "(4/3)*pi*r^2"
               },
               "answer": "C",
               "explanation": "Volume of sphere = (4/3)*pi*r^3."
@@ -1378,7 +1494,10 @@
               "difficulty": "Easy",
               "question": "Volume of a hemisphere of radius r is:",
               "options": {
-                "A": "(4/3)*pi*r^3   (B) (1/3)*pi*r^3   (C) (2/3)*pi*r^3   (D) 2*pi*r^3"
+                "A": "(4/3)*pi*r^3",
+                "B": "(1/3)*pi*r^3",
+                "C": "(2/3)*pi*r^3",
+                "D": "2*pi*r^3"
               },
               "answer": "C",
               "explanation": "Volume = (1/2) x (4/3)*pi*r^3 = (2/3)*pi*r^3."
@@ -1388,7 +1507,10 @@
               "difficulty": "Easy",
               "question": "Volume of sphere of radius 7 cm is: (pi = 22/7)",
               "options": {
-                "A": "1078 cm^3   (B) 1437.33 cm^3   (C) 718.67 cm^3   (D) 2156 cm^3"
+                "A": "1078 cm^3",
+                "B": "1437.33 cm^3",
+                "C": "718.67 cm^3",
+                "D": "2156 cm^3"
               },
               "answer": "B",
               "explanation": "(4/3) x (22/7) x 343 = (4/3) x 22 x 49 = 4312/3 = 1437.33 cm^3."
@@ -1398,7 +1520,10 @@
               "difficulty": "Easy",
               "question": "Volume of hemisphere of radius 3.5 cm is: (pi = 22/7)",
               "options": {
-                "A": "179.67 cm^3   (B) 89.8 cm^3   (C) 44.9 cm^3   (D) 359.33 cm^3"
+                "A": "179.67 cm^3",
+                "B": "89.8 cm^3",
+                "C": "44.9 cm^3",
+                "D": "359.33 cm^3"
               },
               "answer": "B",
               "explanation": "(2/3) x (22/7) x 3.5^3 = (2/3) x (22/7) x 42.875 = 89.8 cm^3."
@@ -1408,7 +1533,10 @@
               "difficulty": "Easy",
               "question": "If radius of sphere doubles, its volume becomes:",
               "options": {
-                "A": "2 times   (B) 4 times   (C) 6 times   (D) 8 times"
+                "A": "2 times",
+                "B": "4 times",
+                "C": "6 times",
+                "D": "8 times"
               },
               "answer": "D",
               "explanation": "V = (4/3)*pi*r^3. With 2r: V = (4/3)*pi*(2r)^3 = 8 times."
@@ -1418,7 +1546,10 @@
               "difficulty": "Medium",
               "question": "Ratio of volumes of sphere to hemisphere of same radius is:",
               "options": {
-                "A": "1:2   (B) 2:1   (C) 4:3   (D) 3:4"
+                "A": "1:2",
+                "B": "2:1",
+                "C": "4:3",
+                "D": "3:4"
               },
               "answer": "B",
               "explanation": "(4/3)*pi*r^3 : (2/3)*pi*r^3 = 4:2 = 2:1."
@@ -1428,7 +1559,10 @@
               "difficulty": "Medium",
               "question": "Metallic sphere of radius 4.9 cm, density 7.8 g/cm^3. Its mass (nearly) is:",
               "options": {
-                "A": "3.85 kg   (B) 3.5 kg   (C) 4.0 kg   (D) 3.0 kg"
+                "A": "3.85 kg",
+                "B": "3.5 kg",
+                "C": "4.0 kg",
+                "D": "3.0 kg"
               },
               "answer": "A",
               "explanation": "V = (4/3)*(22/7)*4.9^3 = 493 cm^3. Mass = 7.8 x 493 = 3845.4 g = 3.85 kg."
@@ -1438,7 +1572,10 @@
               "difficulty": "Medium",
               "question": "27 spheres of radius r melted to form one large sphere. Its radius is:",
               "options": {
-                "A": "3r   (B) 9r   (C) 27r   (D) sqrt(3)*r"
+                "A": "3r",
+                "B": "9r",
+                "C": "27r",
+                "D": "sqrt(3)*r"
               },
               "answer": "A",
               "explanation": "27*(4/3)*pi*r^3 = (4/3)*pi*R^3 => R^3 = 27r^3 => R = 3r."
@@ -1448,7 +1585,10 @@
               "difficulty": "Medium",
               "question": "Volume of sphere is 1437.33 cm^3. Its radius is: (pi = 22/7)",
               "options": {
-                "A": "3.5 cm   (B) 7 cm   (C) 14 cm   (D) 21 cm"
+                "A": "3.5 cm",
+                "B": "7 cm",
+                "C": "14 cm",
+                "D": "21 cm"
               },
               "answer": "B",
               "explanation": "(4/3)*(22/7)*r^3 = 1437.33 => r^3 = 343 => r = 7 cm."
@@ -1458,7 +1598,10 @@
               "difficulty": "Medium",
               "question": "Sphere of diameter 4.2 cm, density 8.9 g/cm^3. Its mass is: (pi = 22/7)",
               "options": {
-                "A": "345.39 g   (B) 200 g   (C) 500 g   (D) 150 g"
+                "A": "345.39 g",
+                "B": "200 g",
+                "C": "500 g",
+                "D": "150 g"
               },
               "answer": "A",
               "explanation": "r = 2.1 cm. V = (4/3)*(22/7)*9.261 = 38.808 cm^3. Mass = 38.808*8.9 = 345.39 g."
@@ -1468,7 +1611,10 @@
               "difficulty": "Hard",
               "question": "Dome of building is hemisphere, white-washed inside at Rs 4989.60 (Rs 20 per m^2). Volume of air inside dome is: (pi = 3.14)",
               "options": {
-                "A": "523.6 m^3   (B) 249.48 m^3   (C) 39.73 m^3   (D) 1047.2 m^3"
+                "A": "523.6 m^3",
+                "B": "249.48 m^3",
+                "C": "39.73 m^3",
+                "D": "1047.2 m^3"
               },
               "answer": "A",
               "explanation": "Inside SA = 4989.60/20 = 249.48 m^2. 2*pi*r^2 = 249.48 => r = 6.3 m. V = (2/3)*3.14*6.3^3 = (2/3)*3.14*250.05 = 523.6 m^3 (approx)."
@@ -1478,7 +1624,10 @@
               "difficulty": "Hard",
               "question": "A sphere of radius 6 cm is melted and recast into a cone of base radius 6 cm. Height of cone is:",
               "options": {
-                "A": "6 cm   (B) 12 cm   (C) 24 cm   (D) 36 cm"
+                "A": "6 cm",
+                "B": "12 cm",
+                "C": "24 cm",
+                "D": "36 cm"
               },
               "answer": "C",
               "explanation": "(4/3)*pi*216 = (1/3)*pi*36*h => 4*216 = 36*h => h = 864/36 = 24 cm."

@@ -97,6 +97,18 @@ app.post('/webhook', async (req, res) => {
     // ---- Text handling ----
     if (userText) {
       const lower = userText.toLowerCase();
+      const st = NAV.getState(from);
+
+      // Feedback capture mode
+      if (st.awaitingFeedback) {
+        st.awaitingFeedback = false;
+        await G.saveFeedback(from, student.get('Name'), userText);
+        await S.sendButtons(from,
+          '🙏 ಧನ್ಯವಾದ! ನಿಮ್ಮ feedback ತಲುಪಿದೆ.\n(Thank you for your feedback!)',
+          [{ id: 'NAV_MENU', title: '🏠 Home' }]);
+        return;
+      }
+
       // Menu triggers
       if (['hi', 'hello', 'menu', 'start', 'ಮೆನು', 'hai', 'hey'].includes(lower)) {
         await NAV.showMainMenu(from, cls);
@@ -214,6 +226,8 @@ async function routeInteractive(from, student, cls, id) {
 
   // --- Notes follow-ups ---
   if (id === 'NOTES_ACTIVITY') return C.showActivity(from, st);
+  if (id === 'NOTES_EXAMPLES') return C.showExamples(from, st);
+  if (id === 'NOTES_EXERCISE') return C.showExercise(from, st);
   if (id === 'NOTES_DIAGRAMS') return C.showDiagrams(from, st);
 
   // --- Q&A next ---
@@ -228,8 +242,15 @@ async function routeInteractive(from, student, cls, id) {
   if (id === 'QUIZ_NEXT') return Q.nextQuizQuestion(from, st);
   if (id === 'QUIZ_RETRY') return Q.retryQuiz(from, st);
 
+  // --- Feedback ---
+  if (id === 'FEEDBACK') {
+    st.awaitingFeedback = true;
+    return S.sendText(from,
+      '💬 ನಿಮ್ಮ feedback / ಸಲಹೆ type ಮಾಡಿ:\n(Please type your feedback or suggestion)');
+  }
+
   // --- Navigation ---
-  if (id === 'NAV_BACK') return NAV.handleBack(from);
+  if (id === 'NAV_BACK') return NAV.showMainMenu(from, cls);
   if (id === 'NAV_MENU') return NAV.showMainMenu(from, cls);
 
   // Unknown → menu

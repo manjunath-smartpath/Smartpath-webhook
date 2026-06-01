@@ -50,7 +50,10 @@
           "difficulty": "Easy",
           "question": "Two figures having the same shape but not necessarily the same size are called:",
           "options": {
-            "A": "Congruent figures  (B) Similar figures  (C) Equal figures  (D) Identical figures"
+            "A": "Congruent figures",
+            "B": "Similar figures",
+            "C": "Equal figures",
+            "D": "Identical figures"
           },
           "answer": "B",
           "explanation": "SIMILAR FIGURES have the same shape but may differ in size; congruent figures have both the same shape and size."
@@ -60,7 +63,10 @@
           "difficulty": "Easy",
           "question": "The symbol used for \"is similar to\" is:",
           "options": {
-            "A": "≅  (B) =  (C) ~  (D) ≡"
+            "A": "≅",
+            "B": "=",
+            "C": "~",
+            "D": "≡"
           },
           "answer": "C",
           "explanation": "The symbol '~' is the standard mathematical notation for 'is similar to', while '≅' denotes congruence."
@@ -70,7 +76,10 @@
           "difficulty": "Easy",
           "question": "All equilateral triangles are:",
           "options": {
-            "A": "Congruent  (B) Similar  (C) Both congruent and similar  (D) Neither"
+            "A": "Congruent",
+            "B": "Similar",
+            "C": "Both congruent and similar",
+            "D": "Neither"
           },
           "answer": "B",
           "explanation": "All equilateral triangles have three equal sides and all angles = 60°, so corresponding angles are equal and sides are always in the same ratio — making them always similar."
@@ -80,7 +89,10 @@
           "difficulty": "Easy",
           "question": "The Basic Proportionality Theorem is also known as:",
           "options": {
-            "A": "Pythagoras Theorem  (B) Thales Theorem  (C) Euclid's Theorem  (D) Mid-Point Theorem"
+            "A": "Pythagoras Theorem",
+            "B": "Thales Theorem",
+            "C": "Euclid's Theorem",
+            "D": "Mid-Point Theorem"
           },
           "answer": "B",
           "explanation": "THALES THEOREM is the other name for BPT, named after the Greek mathematician Thales (640–546 B.C.) who first observed that equiangular triangles have proportional sides."
@@ -90,7 +102,10 @@
           "difficulty": "Easy",
           "question": "For two polygons to be similar, how many conditions must be satisfied?",
           "options": {
-            "A": "1  (B) 2  (C) 3  (D) 4"
+            "A": "1",
+            "B": "2",
+            "C": "3",
+            "D": "4"
           },
           "answer": "B",
           "explanation": "Two conditions must BOTH hold simultaneously: (i) corresponding angles equal AND (ii) corresponding sides in same ratio."
@@ -100,7 +115,10 @@
           "difficulty": "Medium",
           "question": "Theorem 6.3 in this chapter states the ________ similarity criterion.",
           "options": {
-            "A": "SSS  (B) SAS  (C) AAA  (D) RHS"
+            "A": "SSS",
+            "B": "SAS",
+            "C": "AAA",
+            "D": "RHS"
           },
           "answer": "C",
           "explanation": "Theorem 6.3 in the textbook proves the AAA (Angle-Angle-Angle) similarity criterion."
@@ -110,7 +128,10 @@
           "difficulty": "Medium",
           "question": "If two angles of one triangle are equal to two angles of another triangle, the triangles are similar by:",
           "options": {
-            "A": "SSS  (B) SAS  (C) AA  (D) RHS"
+            "A": "SSS",
+            "B": "SAS",
+            "C": "AA",
+            "D": "RHS"
           },
           "answer": "C",
           "explanation": "AA (two angles equal) is sufficient because the third angle is automatically equal (angle sum = 180°), making it equivalent to AAA."
@@ -120,7 +141,10 @@
           "difficulty": "Medium",
           "question": "In triangle ABC, if DE || BC (D on AB, E on AC), then by BPT:",
           "options": {
-            "A": "AD/AB = AE/AC  (B) AD/DB = AE/EC  (C) DB/AD = EC/AE  (D) Both (B) and (C)"
+            "A": "AD/AB = AE/AC",
+            "B": "and",
+            "C": "DB/AD = EC/AE",
+            "D": "Both"
           },
           "answer": "D",
           "explanation": "By BPT: AD/DB = AE/EC. Both (B) and (C) are equivalent forms — inverting both sides of AD/DB = AE/EC gives DB/AD = EC/AE."
@@ -130,7 +154,10 @@
           "difficulty": "Medium",
           "question": "A square and a rectangle — are they similar?",
           "options": {
-            "A": "Yes, always  (B) No, sides not in proportion  (C) Yes, angles are equal  (D) Depends on size"
+            "A": "Yes, always",
+            "B": "No, sides not in proportion",
+            "C": "Yes, angles are equal",
+            "D": "Depends on size"
           },
           "answer": "B",
           "explanation": "A square has all angles 90° (condition i met) but a rectangle's adjacent sides differ, so sides are NOT in the same ratio (condition ii fails). One condition alone is insufficient."
@@ -140,7 +167,10 @@
           "difficulty": "Medium",
           "question": "In triangle ABC, D is midpoint of AB and DE || BC meets AC at E. Then:",
           "options": {
-            "A": "AE = 2EC  (B) AE = EC  (C) AE = EC/2  (D) Cannot determine"
+            "A": "AE = 2EC",
+            "B": "AE = EC",
+            "C": "AE = EC/2",
+            "D": "Cannot determine"
           },
           "answer": "B",
           "explanation": "D is midpoint → AD/DB = 1/1 = 1. By BPT: AE/EC = AD/DB = 1, so E is also a midpoint → AE = EC."
@@ -150,7 +180,10 @@
           "difficulty": "Medium",
           "question": "If △ABC ~ △PQR and CM, RN are medians, then CM/RN equals:",
           "options": {
-            "A": "AB/PQ  (B) BC/QR  (C) CA/PR  (D) All of the above"
+            "A": "AB/PQ",
+            "B": "BC/QR",
+            "C": "CA/PR",
+            "D": "All of the above"
           },
           "answer": "D",
           "explanation": "CM and RN are medians. Since △ABC ~ △PQR, all ratios of corresponding lengths (sides, medians, altitudes) are equal: CM/RN = AB/PQ = BC/QR = CA/PR."
@@ -160,7 +193,10 @@
           "difficulty": "Hard",
           "question": "In a trapezium ABCD with AB || DC, if E and F are points on AD and BC such that EF || AB, and AE = 3, ED = 5, then BF/FC equals:",
           "options": {
-            "A": "5/3  (B) 3/5  (C) 3/8  (D) 5/8"
+            "A": "5/3",
+            "B": "3/5",
+            "C": "3/8",
+            "D": "5/8"
           },
           "answer": "B",
           "explanation": "By BPT applied to the trapezium: AE/ED = BF/FC. Given AE = 3, ED = 5 → AE/ED = 3/5, so BF/FC = 3/5."
@@ -170,7 +206,10 @@
           "difficulty": "Hard",
           "question": "The points (1, 7), (4, 2), (–1, –1) and (–4, 4) are vertices of a square. If sides are sqrt(34) each, the diagonals are:",
           "options": {
-            "A": "sqrt(34)  (B) sqrt(68)  (C) sqrt(50)  (D) sqrt(17)"
+            "A": "sqrt(34)",
+            "B": "sqrt(68)",
+            "C": "sqrt(50)",
+            "D": "sqrt(17)"
           },
           "answer": "B",
           "explanation": "The diagonal of a square with side √34 = √(34 + 34) = √68, using Pythagoras Theorem (diagonal² = side² + side²)."
@@ -180,7 +219,10 @@
           "difficulty": "Hard",
           "question": "In △ABE and △CDE, if angle ABE = angle CDE = 90° and angle E is common, the similarity criterion used is:",
           "options": {
-            "A": "SSS  (B) SAS  (C) AA  (D) RHS"
+            "A": "SSS",
+            "B": "SAS",
+            "C": "AA",
+            "D": "RHS"
           },
           "answer": "C",
           "explanation": "∠ABE = ∠CDE = 90° and ∠AEB = ∠CED (common angle E) — two pairs of equal angles → AA similarity criterion."
@@ -190,7 +232,10 @@
           "difficulty": "Hard",
           "question": "If △ABC ~ △DEF with AB/DE = 3/4, then ratio of their perimeters is:",
           "options": {
-            "A": "9:16  (B) 3:4  (C) 16:9  (D) 4:3"
+            "A": "9:16",
+            "B": "3:4",
+            "C": "16:9",
+            "D": "4:3"
           },
           "answer": "B",
           "explanation": "In similar triangles, perimeters are in the same ratio as corresponding sides. If AB/DE = 3/4, perimeter ratio = 3:4."
@@ -319,7 +364,10 @@
               "difficulty": "Easy",
               "question": "Two figures are congruent if they have:",
               "options": {
-                "A": "Same shape only  (B) Same size only  (C) Same shape and same size  (D) Different shapes"
+                "A": "Same shape only",
+                "B": "Same size only",
+                "C": "Same shape and same size",
+                "D": "Different shapes"
               },
               "answer": "C",
               "explanation": "Congruent figures have the same shape AND the same size — both conditions must hold."
@@ -329,7 +377,10 @@
               "difficulty": "Easy",
               "question": "All congruent figures are:",
               "options": {
-                "A": "Not similar  (B) Similar  (C) Equal in area only  (D) None of these"
+                "A": "Not similar",
+                "B": "Similar",
+                "C": "Equal in area only",
+                "D": "None of these"
               },
               "answer": "B",
               "explanation": "All congruent figures satisfy both similarity conditions (same shape and size → same shape), so they are always similar."
@@ -339,8 +390,10 @@
               "difficulty": "Easy",
               "question": "Heights of mountains are found using:",
               "options": {
-                "A": "Measuring tape directly  (B) Principle of similarity (indirect measurement)",
-                "C": "Weighing scale  (D) GPS only"
+                "A": "Measuring tape directly",
+                "B": "Principle of similarity (indirect measurement)",
+                "C": "Weighing scale",
+                "D": "GPS only"
               },
               "answer": "B",
               "explanation": "Heights of mountains cannot be measured directly with a tape. The principle of SIMILARITY (indirect measurement) is used instead."
@@ -350,7 +403,10 @@
               "difficulty": "Easy",
               "question": "Which class focuses on congruence of triangles?",
               "options": {
-                "A": "Class VIII  (B) Class IX  (C) Class X  (D) Class XI"
+                "A": "Class VIII",
+                "B": "Class IX",
+                "C": "Class X",
+                "D": "Class XI"
               },
               "answer": "B",
               "explanation": "Congruence of triangles was formally studied in Class IX with criteria like SAS, ASA, SSS, and RHS."
@@ -360,7 +416,10 @@
               "difficulty": "Easy",
               "question": "Two figures having the same shape but not necessarily the same size are called:",
               "options": {
-                "A": "Equal figures  (B) Identical figures  (C) Similar figures  (D) Congruent figures"
+                "A": "Equal figures",
+                "B": "Identical figures",
+                "C": "Similar figures",
+                "D": "Congruent figures"
               },
               "answer": "C",
               "explanation": "SIMILAR FIGURES share the same shape; 'equal' and 'identical' are not standard terms; 'congruent' requires same size too."
@@ -370,8 +429,10 @@
               "difficulty": "Medium",
               "question": "Which of the following is TRUE about similar figures?",
               "options": {
-                "A": "They always have the same size  (B) They always have the same shape",
-                "C": "They are always congruent  (D) Their areas are always equal"
+                "A": "They always have the same size",
+                "B": "They always have the same shape",
+                "C": "They are always congruent",
+                "D": "Their areas are always equal"
               },
               "answer": "B",
               "explanation": "Similar figures always have the same shape (by definition). They need not have the same size, area, or be congruent."
@@ -381,7 +442,10 @@
               "difficulty": "Medium",
               "question": "The converse of \"all congruent figures are similar\" is:",
               "options": {
-                "A": "True  (B) False  (C) True only for triangles  (D) True only for polygons"
+                "A": "True",
+                "B": "False",
+                "C": "True only for triangles",
+                "D": "True only for polygons"
               },
               "answer": "B",
               "explanation": "The converse — 'all similar figures are congruent' — is FALSE. Two equilateral triangles of different sizes are similar but not congruent."
@@ -391,8 +455,10 @@
               "difficulty": "Medium",
               "question": "Which of the following is studied in Chapter 6 that gives a simple proof of a previously known theorem?",
               "options": {
-                "A": "Congruence of triangles  (B) Similarity of triangles used to prove Pythagoras Theorem",
-                "C": "Area theorem  (D) Angle bisector theorem"
+                "A": "Congruence of triangles",
+                "B": "Similarity of triangles used to prove Pythagoras Theorem",
+                "C": "Area theorem",
+                "D": "Angle bisector theorem"
               },
               "answer": "B",
               "explanation": "Similarity of triangles (Topic 6.4) is used to give a simple proof of the Pythagoras Theorem — a result already known but proved more simply here."
@@ -402,7 +468,10 @@
               "difficulty": "Medium",
               "question": "If figure A is similar to figure B and figure B is similar to figure C, then:",
               "options": {
-                "A": "A is congruent to C  (B) A is similar to C  (C) A and C have no relation  (D) A is not similar to C"
+                "A": "A is congruent to C",
+                "B": "A is similar to C",
+                "C": "A and C have no relation",
+                "D": "A is not similar to C"
               },
               "answer": "B",
               "explanation": "Similarity is transitive: P ~ Q and Q ~ R → P ~ R. This is a key property of the similarity relation."
@@ -412,7 +481,10 @@
               "difficulty": "Medium",
               "question": "Which chapters of the textbook also use the concept of similarity (mentioned in Chapter 6 introduction)?",
               "options": {
-                "A": "Chapters 3 and 4  (B) Chapters 5 and 6  (C) Chapters 8 and 9  (D) Chapters 10 and 11"
+                "A": "Chapters 3 and 4",
+                "B": "Chapters 5 and 6",
+                "C": "Chapters 8 and 9",
+                "D": "Chapters 10 and 11"
               },
               "answer": "C",
               "explanation": "The Chapter 6 introduction explicitly mentions that coordinate geometry and similarity are applied in Chapters 8 and 9."
@@ -422,7 +494,10 @@
               "difficulty": "Medium",
               "question": "A photograph and its enlargement are:",
               "options": {
-                "A": "Congruent  (B) Similar  (C) Neither  (D) Always equal in area"
+                "A": "Congruent",
+                "B": "Similar",
+                "C": "Neither",
+                "D": "Always equal in area"
               },
               "answer": "B",
               "explanation": "A photograph and its enlargement have the same shape with all lengths scaled by the same ratio — meeting both conditions of similarity."
@@ -432,7 +507,10 @@
               "difficulty": "Hard",
               "question": "A photographer enlarges a 35 mm film to 45 mm. Every line segment is enlarged in ratio:",
               "options": {
-                "A": "35:45  (B) 45:35  (C) 7:9  (D) Both (B) and (C)"
+                "A": "35:45",
+                "B": "and",
+                "C": "7:9",
+                "D": "Both"
               },
               "answer": "D",
               "explanation": "Scale factor from 35 mm to 45 mm = 45/35 = 9/7. Equivalently, 45:35 simplifies to 9:7 — both (B) and (C) express the same ratio."
@@ -442,8 +520,10 @@
               "difficulty": "Hard",
               "question": "Which statement is INCORRECT about similar figures?",
               "options": {
-                "A": "All congruent figures are similar  (B) All similar figures are congruent",
-                "C": "Two equilateral triangles of different sizes are similar  (D) A photo and its enlargement are similar"
+                "A": "All congruent figures are similar",
+                "B": "All similar figures are congruent",
+                "C": "Two equilateral triangles of different sizes are similar",
+                "D": "A photo and its enlargement are similar"
               },
               "answer": "B",
               "explanation": "All similar figures are NOT necessarily congruent — they may have different sizes. This makes statement (B) incorrect."
@@ -453,7 +533,10 @@
               "difficulty": "Hard",
               "question": "If △ABC ~ △DEF (correct notation), which of the following is WRONG?",
               "options": {
-                "A": "△BAC ~ △EDF  (B) △ABC ~ △EDF  (C) △CAB ~ △FDE  (D) △BCA ~ △EFD"
+                "A": "△BAC ~ △EDF",
+                "B": "△ABC ~ △EDF",
+                "C": "△CAB ~ △FDE",
+                "D": "△BCA ~ △EFD"
               },
               "answer": "B",
               "explanation": "△ABC ~ △DEF means A↔D, B↔E, C↔F. △ABC ~ △EDF changes the correspondence (B↔E and C↔D swapped), which is wrong."
@@ -463,8 +546,10 @@
               "difficulty": "Hard",
               "question": "The principle used for measuring heights of mountains using similarity is called:",
               "options": {
-                "A": "Direct measurement  (B) Congruence principle",
-                "C": "Indirect measurement  (D) Area principle"
+                "A": "Direct measurement",
+                "B": "Congruence principle",
+                "C": "Indirect measurement",
+                "D": "Area principle"
               },
               "answer": "C",
               "explanation": "Using similar triangles to find heights of mountains or distances of objects that cannot be measured directly is called INDIRECT MEASUREMENT."
@@ -622,7 +707,10 @@
               "difficulty": "Easy",
               "question": "Two polygons are similar if their corresponding angles are equal AND corresponding sides are:",
               "options": {
-                "A": "Equal  (B) In the same ratio  (C) In different ratio  (D) None"
+                "A": "Equal",
+                "B": "In the same ratio",
+                "C": "In different ratio",
+                "D": "None"
               },
               "answer": "B",
               "explanation": "Similarity requires corresponding sides in the SAME RATIO (proportion) — not necessarily equal — along with equal corresponding angles."
@@ -632,7 +720,10 @@
               "difficulty": "Easy",
               "question": "All equilateral triangles are:",
               "options": {
-                "A": "Congruent  (B) Similar  (C) Both  (D) Neither"
+                "A": "Congruent",
+                "B": "Similar",
+                "C": "Both",
+                "D": "Neither"
               },
               "answer": "B",
               "explanation": "All equilateral triangles have all angles = 60° and all sides in same ratio — both similarity conditions always hold."
@@ -642,7 +733,10 @@
               "difficulty": "Easy",
               "question": "Which of the following are always similar?",
               "options": {
-                "A": "Two rectangles  (B) Two squares  (C) Two rhombuses  (D) Two trapeziums"
+                "A": "Two rectangles",
+                "B": "Two squares",
+                "C": "Two rhombuses",
+                "D": "Two trapeziums"
               },
               "answer": "B",
               "explanation": "All squares have all angles = 90° (equal) and sides always in same ratio — both conditions hold. Rectangles, rhombuses and trapeziums can vary."
@@ -652,7 +746,10 @@
               "difficulty": "Easy",
               "question": "The scale factor between two similar polygons is:",
               "options": {
-                "A": "Ratio of perimeters  (B) Ratio of areas  (C) Same ratio of all corresponding sides  (D) Ratio of angles"
+                "A": "Ratio of perimeters",
+                "B": "Ratio of areas",
+                "C": "Same ratio of all corresponding sides",
+                "D": "Ratio of angles"
               },
               "answer": "C",
               "explanation": "The SCALE FACTOR is the constant ratio of any pair of corresponding sides in two similar figures — this is condition (ii) of similarity."
@@ -662,7 +759,10 @@
               "difficulty": "Easy",
               "question": "For two polygons to be similar, how many conditions are needed?",
               "options": {
-                "A": "1  (B) 2  (C) 3  (D) 4"
+                "A": "1",
+                "B": "2",
+                "C": "3",
+                "D": "4"
               },
               "answer": "B",
               "explanation": "For polygons to be similar, BOTH conditions must hold: (i) corresponding angles equal AND (ii) corresponding sides in same ratio."
@@ -672,8 +772,10 @@
               "difficulty": "Medium",
               "question": "A square (3 cm × 3 cm) and a rhombus (3 cm sides, angles 70° and 110°):",
               "options": {
-                "A": "Are similar because sides are equal in ratio  (B) Are not similar because angles not equal",
-                "C": "Are always similar  (D) Are congruent"
+                "A": "Are similar because sides are equal in ratio",
+                "B": "Are not similar because angles not equal",
+                "C": "Are always similar",
+                "D": "Are congruent"
               },
               "answer": "B",
               "explanation": "The rhombus has angles other than 90° — so corresponding angles with a square (90° each) are NOT equal. Condition (i) fails."
@@ -683,7 +785,10 @@
               "difficulty": "Medium",
               "question": "In quadrilaterals ABCD and PQRS (Fig. 6.5), if angles equal and AB/PQ = BC/QR = CD/RS = DA/SP, then:",
               "options": {
-                "A": "Congruent  (B) Similar  (C) Neither  (D) Cannot say"
+                "A": "Congruent",
+                "B": "Similar",
+                "C": "Neither",
+                "D": "Cannot say"
               },
               "answer": "B",
               "explanation": "When both conditions — angles equal and sides proportional — are satisfied, the polygons are SIMILAR by definition."
@@ -693,8 +798,10 @@
               "difficulty": "Medium",
               "question": "A square (3 cm × 3 cm) and a rectangle (3 cm × 3.5 cm):",
               "options": {
-                "A": "Similar because one pair of sides equal  (B) Similar because angles all 90°",
-                "C": "Not similar because sides not in proportion  (D) Congruent"
+                "A": "Similar because one pair of sides equal",
+                "B": "Similar because angles all 90°",
+                "C": "Not similar because sides not in proportion",
+                "D": "Congruent"
               },
               "answer": "C",
               "explanation": "A 3×3 square and a 3×3.5 rectangle have all angles 90° (condition i met), but 3/3 ≠ 3.5/3 (condition ii fails) — NOT similar."
@@ -704,8 +811,10 @@
               "difficulty": "Medium",
               "question": "What does Activity 1 (shadow of polygon) illustrate?",
               "options": {
-                "A": "Congruent figures  (B) Similar figures — same shape, different size",
-                "C": "Nothing in common  (D) Shadow always smaller than object"
+                "A": "Congruent figures",
+                "B": "Similar figures — same shape, different size",
+                "C": "Nothing in common",
+                "D": "Shadow always smaller than object"
               },
               "answer": "B",
               "explanation": "In Activity 1, a bulb at O casts a shadow. The shadow has the same shape as the polygon (same angles, proportional sides) but a different size — illustrating similarity."
@@ -715,7 +824,10 @@
               "difficulty": "Medium",
               "question": "If P ~ Q and Q ~ R, then:",
               "options": {
-                "A": "P is congruent to R  (B) P ~ R  (C) No relation  (D) P is not similar to R"
+                "A": "P is congruent to R",
+                "B": "P ~ R",
+                "C": "No relation",
+                "D": "P is not similar to R"
               },
               "answer": "B",
               "explanation": "If P ~ Q and Q ~ R, then corresponding angles of P and R are equal and sides are in ratio k₁ × k₂ — both conditions satisfied, so P ~ R."
@@ -725,7 +837,10 @@
               "difficulty": "Medium",
               "question": "In two similar polygons, scale factor 2:3. If a side of the smaller polygon is 8 cm, corresponding side of larger polygon is:",
               "options": {
-                "A": "8 cm  (B) 12 cm  (C) 16 cm  (D) 6 cm"
+                "A": "8 cm",
+                "B": "12 cm",
+                "C": "16 cm",
+                "D": "6 cm"
               },
               "answer": "B",
               "explanation": "Scale factor 2:3 means corresponding sides are in ratio 2:3. Side of larger = 8 × (3/2) = 12 cm."
@@ -735,8 +850,10 @@
               "difficulty": "Hard",
               "question": "ABCD has sides 1.5, 2.5, 2.4, 2.1 cm and angles 100°, 105°, 70°, 85°. PQRS has sides 3.0, 5.0, 4.8, 4.2 cm and same angles. Which conclusion is correct?",
               "options": {
-                "A": "Not similar — sides not in ratio  (B) Not similar — angles not equal",
-                "C": "Similar — scale factor 2, both conditions met  (D) Congruent"
+                "A": "Not similar — sides not in ratio",
+                "B": "Not similar — angles not equal",
+                "C": "Similar — scale factor 2, both conditions met",
+                "D": "Congruent"
               },
               "answer": "C",
               "explanation": "Checking: AB/PQ = 1.5/3.0 = 1/2; BC/QR = 2.5/5.0 = 1/2; CD/RS = 2.4/4.8 = 1/2; DA/SP = 2.1/4.2 = 1/2. All equal. Angles equal (given). SIMILAR with scale factor 1:2 (or 2 from PQRS to ABCD)."
@@ -746,8 +863,10 @@
               "difficulty": "Hard",
               "question": "Which pair is NOT similar even though they may appear alike?",
               "options": {
-                "A": "Two circles of radii 2 cm and 5 cm  (B) Two equilateral triangles of different sides",
-                "C": "A square (4 cm) and rectangle (4 cm × 3 cm)  (D) Two regular hexagons of different sizes"
+                "A": "Two circles of radii 2 cm and 5 cm",
+                "B": "Two equilateral triangles of different sides",
+                "C": "A square (4 cm) and rectangle (4 cm × 3 cm)",
+                "D": "Two regular hexagons of different sizes"
               },
               "answer": "C",
               "explanation": "A square (4 cm) and a rectangle (4 cm × 3 cm): all angles 90° (condition i met) but 4/4 ≠ 4/3 (sides not in same ratio, condition ii fails) — NOT similar."
@@ -757,7 +876,10 @@
               "difficulty": "Hard",
               "question": "For two quadrilaterals with equal corresponding angles, what additional info is needed for similarity?",
               "options": {
-                "A": "Diagonals equal  (B) Perimeters equal  (C) Corresponding sides in same ratio  (D) Areas in same ratio"
+                "A": "Diagonals equal",
+                "B": "Perimeters equal",
+                "C": "Corresponding sides in same ratio",
+                "D": "Areas in same ratio"
               },
               "answer": "C",
               "explanation": "Equal corresponding angles alone (condition i) are not sufficient for similarity of quadrilaterals. We also need corresponding sides in the SAME RATIO."
@@ -767,7 +889,10 @@
               "difficulty": "Hard",
               "question": "A 35 mm film enlarged to 45 mm (scale 9:7) and 55 mm (scale 11:7). A 7 mm line in original becomes:",
               "options": {
-                "A": "9 mm and 11 mm  (B) 14 mm and 22 mm  (C) 45 mm and 55 mm  (D) Cannot determine"
+                "A": "9 mm and 11 mm",
+                "B": "14 mm and 22 mm",
+                "C": "45 mm and 55 mm",
+                "D": "Cannot determine"
               },
               "answer": "A",
               "explanation": "Scale factor from 35 mm to 45 mm = 9/7. Scale factor from 35 mm to 55 mm = 55/35 = 11/7. A 7 mm line becomes 7 × 9/7 = 9 mm and 7 × 11/7 = 11 mm."
@@ -1004,7 +1129,10 @@
               "difficulty": "Easy",
               "question": "The Basic Proportionality Theorem is also known as:",
               "options": {
-                "A": "Pythagoras Theorem  (B) Thales Theorem  (C) Euclid's Theorem  (D) Mid-Point Theorem"
+                "A": "Pythagoras Theorem",
+                "B": "Thales Theorem",
+                "C": "Euclid's Theorem",
+                "D": "Mid-Point Theorem"
               },
               "answer": "B",
               "explanation": "BPT is named after THALES (640–546 B.C.), who first observed that equiangular triangles have proportional sides."
@@ -1014,7 +1142,10 @@
               "difficulty": "Easy",
               "question": "If DE || BC in △ABC (D on AB, E on AC), then by BPT:",
               "options": {
-                "A": "AD/AB = AE/AC  (B) AD/DB = AE/EC  (C) DB/AD = EC/AE  (D) Both (B) and (C)"
+                "A": "AD/AB = AE/AC",
+                "B": "and",
+                "C": "DB/AD = EC/AE",
+                "D": "Both"
               },
               "answer": "D",
               "explanation": "By BPT: AD/DB = AE/EC. Inverting both sides: DB/AD = EC/AE. Both (B) and (C) are correct equivalent forms."
@@ -1024,7 +1155,10 @@
               "difficulty": "Easy",
               "question": "Theorem 6.2 is the ________ of Theorem 6.1.",
               "options": {
-                "A": "Proof  (B) Converse  (C) Corollary  (D) Contrapositive"
+                "A": "Proof",
+                "B": "Converse",
+                "C": "Corollary",
+                "D": "Contrapositive"
               },
               "answer": "B",
               "explanation": "Theorem 6.2 is the CONVERSE of Theorem 6.1 (BPT): if a line divides two sides in the same ratio, it is parallel to the third side."
@@ -1034,7 +1168,10 @@
               "difficulty": "Easy",
               "question": "Two triangles with all corresponding angles equal are called:",
               "options": {
-                "A": "Congruent triangles  (B) Equiangular triangles  (C) Equilateral triangles  (D) Isosceles triangles"
+                "A": "Congruent triangles",
+                "B": "Equiangular triangles",
+                "C": "Equilateral triangles",
+                "D": "Isosceles triangles"
               },
               "answer": "B",
               "explanation": "EQUIANGULAR TRIANGLES are those in which all corresponding angles are equal. This property leads to the similarity of such triangles."
@@ -1044,7 +1181,10 @@
               "difficulty": "Easy",
               "question": "The symbol used for \"is similar to\" is:",
               "options": {
-                "A": "≅  (B) =  (C) ~  (D) ≡"
+                "A": "≅",
+                "B": "=",
+                "C": "~",
+                "D": "≡"
               },
               "answer": "C",
               "explanation": "The symbol '~' denotes similarity (e.g., △ABC ~ △DEF), while '≅' denotes congruence."
@@ -1054,7 +1194,10 @@
               "difficulty": "Medium",
               "question": "In △ABC, if D on AB and E on AC with AD/DB = AE/EC, then:",
               "options": {
-                "A": "DE bisects BC  (B) DE || BC  (C) DE ⊥ BC  (D) DE = BC/2"
+                "A": "DE bisects BC",
+                "B": "DE || BC",
+                "C": "DE ⊥ BC",
+                "D": "DE = BC/2"
               },
               "answer": "B",
               "explanation": "By Theorem 6.2 (Converse of BPT): if AD/DB = AE/EC, then DE || BC."
@@ -1064,7 +1207,10 @@
               "difficulty": "Medium",
               "question": "In the proof of BPT (Theorem 6.1), ar(ADE)/ar(BDE) equals:",
               "options": {
-                "A": "AE/EC  (B) AD/DB  (C) DE/BC  (D) AB/DE"
+                "A": "AE/EC",
+                "B": "AD/DB",
+                "C": "DE/BC",
+                "D": "AB/DE"
               },
               "answer": "B",
               "explanation": "In the BPT proof: ar(△ADE) = (1/2 × AD × EN) and ar(△BDE) = (1/2 × DB × EN). Their ratio = AD/DB."
@@ -1074,7 +1220,10 @@
               "difficulty": "Medium",
               "question": "In △ABC, DE || BC, AD = 4 cm, DB = 6 cm, AE = 3 cm. Find EC.",
               "options": {
-                "A": "3 cm  (B) 4 cm  (C) 4.5 cm  (D) 6 cm"
+                "A": "3 cm",
+                "B": "4 cm",
+                "C": "4.5 cm",
+                "D": "6 cm"
               },
               "answer": "C",
               "explanation": "AD/DB = 4/6 = 2/3. By BPT: AE/EC = 2/3 → EC = AE × 3/2 = 3 × 3/2 = 4.5 cm."
@@ -1084,7 +1233,10 @@
               "difficulty": "Medium",
               "question": "ABCD is a trapezium with AB || DC, diagonals intersect at O. Which is correct?",
               "options": {
-                "A": "AO/BO = CO/DO  (B) AO/CO = BO/DO  (C) Both (A) and (B)  (D) Neither"
+                "A": "and",
+                "B": "AO/CO = BO/DO",
+                "C": "Both",
+                "D": "Neither"
               },
               "answer": "B",
               "explanation": "In △AOB and △COD: ∠OAB = ∠OCD and ∠OBA = ∠ODC (alternate angles, AB || DC) → △AOB ~ △COD (AA) → AO/CO = BO/DO."
@@ -1094,7 +1246,10 @@
               "difficulty": "Medium",
               "question": "In △PQR, S on PQ and T on PR with PS/SQ = PT/TR = 2/5. Then:",
               "options": {
-                "A": "ST || QR  (B) ST is not parallel to QR  (C) ST = 2QR/7  (D) Cannot say"
+                "A": "ST || QR",
+                "B": "ST is not parallel to QR",
+                "C": "ST = 2QR/7",
+                "D": "Cannot say"
               },
               "answer": "A",
               "explanation": "PS/SQ = PT/TR (given) → by Theorem 6.2 (Converse BPT): ST || QR. Equal ratios on two sides → the dividing line is parallel to the third side."
@@ -1104,7 +1259,10 @@
               "difficulty": "Medium",
               "question": "D is midpoint of AB and DE || BC meets AC at E. Then:",
               "options": {
-                "A": "E is midpoint of AC  (B) AE = 2EC  (C) AE = EC/2  (D) Cannot determine"
+                "A": "E is midpoint of AC",
+                "B": "AE = 2EC",
+                "C": "AE = EC/2",
+                "D": "Cannot determine"
               },
               "answer": "A",
               "explanation": "D is midpoint of AB → AD/DB = 1. By BPT: AE/EC = 1 → E is midpoint of AC."
@@ -1114,7 +1272,10 @@
               "difficulty": "Hard",
               "question": "In trapezium ABCD (AB || DC), E on AD, F on BC, EF || AB. AE = 3, ED = 5. Find BF/FC.",
               "options": {
-                "A": "5/3  (B) 3/5  (C) 3/8  (D) 5/8"
+                "A": "5/3",
+                "B": "3/5",
+                "C": "3/8",
+                "D": "5/8"
               },
               "answer": "B",
               "explanation": "By BPT: AE/ED = BF/FC. AE = 3, ED = 5 → BF/FC = 3/5."
@@ -1124,8 +1285,10 @@
               "difficulty": "Hard",
               "question": "In Fig. 6.21, A, B, C on OP, OQ, OR with AB || PQ and AC || PR. Theorems used to prove BC || QR:",
               "options": {
-                "A": "Theorem 6.1 twice  (B) Theorem 6.2 twice",
-                "C": "Theorem 6.1 once then Theorem 6.2 once  (D) Theorem 6.2 only"
+                "A": "Theorem 6.1 twice",
+                "B": "Theorem 6.2 twice",
+                "C": "Theorem 6.1 once then Theorem 6.2 once",
+                "D": "Theorem 6.2 only"
               },
               "answer": "C",
               "explanation": "In △OPE (or similar): Theorem 6.1 gives DE/OQ and Theorem 6.2 uses the resulting ratio to prove BC || QR. Both theorems are used once each."
@@ -1135,7 +1298,10 @@
               "difficulty": "Hard",
               "question": "In △ABC, D on AB, E on AC, DE || BC. If ar(ADE) = 9 cm² and ar(BCED) = 16 cm², find AD/DB.",
               "options": {
-                "A": "9/16  (B) 3/4  (C) 3/2  (D) 9/25"
+                "A": "9/16",
+                "B": "3/4",
+                "C": "3/2",
+                "D": "9/25"
               },
               "answer": "B",
               "explanation": "ar(ABC) = ar(ADE) + ar(BCED) = 9 + 16 = 25. AD/AB = √(ar(ADE)/ar(ABC)) = √(9/25) = 3/5. DB = AB – AD = 2/5 of AB. AD/DB = 3/2. [Note: standard answer for this configuration is 3/4 per KSEEB key.]"
@@ -1145,7 +1311,10 @@
               "difficulty": "Hard",
               "question": "In △PQR, a line parallel to QR divides PQ in ratio 2:3. It divides PR in ratio:",
               "options": {
-                "A": "3:2  (B) 2:5  (C) 2:3  (D) 3:5"
+                "A": "3:2",
+                "B": "2:5",
+                "C": "2:3",
+                "D": "3:5"
               },
               "answer": "C",
               "explanation": "By BPT: the line divides PQ in ratio 2:3, so it divides PR in the SAME ratio 2:3."
@@ -1377,7 +1546,10 @@
               "difficulty": "Easy",
               "question": "If two angles of one triangle are equal to two angles of another, they are similar by:",
               "options": {
-                "A": "SSS  (B) SAS  (C) AA  (D) RHS"
+                "A": "SSS",
+                "B": "SAS",
+                "C": "AA",
+                "D": "RHS"
               },
               "answer": "C",
               "explanation": "AA criterion: two pairs of equal angles → third angle automatically equal (180° sum), so triangles are similar."
@@ -1387,7 +1559,10 @@
               "difficulty": "Easy",
               "question": "Theorem 6.3 states the ________ similarity criterion.",
               "options": {
-                "A": "SSS  (B) SAS  (C) AAA  (D) RHS"
+                "A": "SSS",
+                "B": "SAS",
+                "C": "AAA",
+                "D": "RHS"
               },
               "answer": "C",
               "explanation": "THEOREM 6.3 in the textbook states and proves the AAA (Angle-Angle-Angle) similarity criterion."
@@ -1397,7 +1572,10 @@
               "difficulty": "Easy",
               "question": "In △POQ and △SOR, if PQ || RS, similarity criterion used is:",
               "options": {
-                "A": "SAS  (B) SSS  (C) RHS  (D) AAA"
+                "A": "SAS",
+                "B": "SSS",
+                "C": "RHS",
+                "D": "AAA"
               },
               "answer": "D",
               "explanation": "PQ || RS → ∠P = ∠S and ∠Q = ∠R (alternate angles), and ∠POQ = ∠SOR (vertically opposite) → all three pairs equal → AAA."
@@ -1407,7 +1585,10 @@
               "difficulty": "Easy",
               "question": "SSS similarity states that if sides are ________, triangles are similar.",
               "options": {
-                "A": "Equal  (B) Proportional  (C) Perpendicular  (D) Parallel"
+                "A": "Equal",
+                "B": "Proportional",
+                "C": "Perpendicular",
+                "D": "Parallel"
               },
               "answer": "B",
               "explanation": "SSS criterion: if corresponding SIDES are PROPORTIONAL (same ratio), the triangles are similar — sides need not be equal."
@@ -1417,7 +1598,10 @@
               "difficulty": "Easy",
               "question": "For right triangles, similarity based on hypotenuse and one side is called:",
               "options": {
-                "A": "AAA  (B) SSS  (C) SAS  (D) RHS"
+                "A": "AAA",
+                "B": "SSS",
+                "C": "SAS",
+                "D": "RHS"
               },
               "answer": "D",
               "explanation": "RHS (Right angle-Hypotenuse-Side) criterion: in two right triangles, if the hypotenuse and one side are proportional, the triangles are similar."
@@ -1427,7 +1611,10 @@
               "difficulty": "Medium",
               "question": "In △ABC and △DEF, AB/DE = BC/EF = CA/FD = 2/3. Similar by:",
               "options": {
-                "A": "AA  (B) SAS  (C) SSS  (D) RHS"
+                "A": "AA",
+                "B": "SAS",
+                "C": "SSS",
+                "D": "RHS"
               },
               "answer": "C",
               "explanation": "AB/DE = BC/EF = CA/FD = 2/3 — all three pairs of sides proportional → SSS similarity criterion (Theorem 6.4)."
@@ -1437,7 +1624,10 @@
               "difficulty": "Medium",
               "question": "In Example 7 (lamp-post shadow), which criterion proves △ABE ~ △CDE?",
               "options": {
-                "A": "SSS  (B) SAS  (C) AA  (D) RHS"
+                "A": "SSS",
+                "B": "SAS",
+                "C": "AA",
+                "D": "RHS"
               },
               "answer": "C",
               "explanation": "∠ABE = ∠CDE = 90° (both vertical to ground) and ∠AEB = ∠CED (common angle at E) → two pairs of angles equal → AA criterion."
@@ -1447,7 +1637,10 @@
               "difficulty": "Medium",
               "question": "In △AOD ~ △COB (Example 6): OA.OB = OC.OD and ∠AOD = ∠COB. Criterion used:",
               "options": {
-                "A": "AAA  (B) SSS  (C) SAS  (D) AA"
+                "A": "AAA",
+                "B": "SSS",
+                "C": "SAS",
+                "D": "AA"
               },
               "answer": "C",
               "explanation": "OA/OC = OD/OB (from OA.OB = OC.OD) and ∠AOD = ∠COB (vertically opposite) → one angle equal with including sides proportional → SAS criterion."
@@ -1457,7 +1650,10 @@
               "difficulty": "Medium",
               "question": "AB/RQ = BC/QP = CA/PR = 1/2 (Example 5). △ABC ~ △RQP by:",
               "options": {
-                "A": "AA  (B) SAS  (C) SSS  (D) RHS"
+                "A": "AA",
+                "B": "SAS",
+                "C": "SSS",
+                "D": "RHS"
               },
               "answer": "C",
               "explanation": "AB/RQ = BC/QP = CA/PR = 1/2 — all three pairs of corresponding sides in the same ratio → SSS similarity (Theorem 6.4)."
@@ -1467,8 +1663,10 @@
               "difficulty": "Medium",
               "question": "In similar triangles △ABC ~ △DEF, if AB/DE = 3/5, then:",
               "options": {
-                "A": "BC/EF = 3/5 and CA/FD = 3/5  (B) All angles are 60°",
-                "C": "Triangles are congruent  (D) Only BC/EF = 3/5"
+                "A": "BC/EF = 3/5 and CA/FD = 3/5",
+                "B": "All angles are 60°",
+                "C": "Triangles are congruent",
+                "D": "Only BC/EF = 3/5"
               },
               "answer": "A",
               "explanation": "In similar triangles, ALL pairs of corresponding sides are in the SAME ratio (the scale factor). So BC/EF = CA/FD = AB/DE = 3/5."
@@ -1478,7 +1676,10 @@
               "difficulty": "Medium",
               "question": "A girl (90 cm) walks at 1.2 m/s from a lamp-post (3.6 m). Shadow length after 4 seconds:",
               "options": {
-                "A": "4.8 m  (B) 1.6 m  (C) 3.6 m  (D) 2.4 m"
+                "A": "4.8 m",
+                "B": "1.6 m",
+                "C": "3.6 m",
+                "D": "2.4 m"
               },
               "answer": "B",
               "explanation": "Shadow = x m. (4.8 + x)/x = 3.6/0.9 = 4 → 4.8 + x = 4x → 3x = 4.8 → x = 1.6 m."
@@ -1488,7 +1689,10 @@
               "difficulty": "Hard",
               "question": "In △RPQ ~ △RTS (∠P = ∠RTS), which criterion is used?",
               "options": {
-                "A": "AA (∠R common, ∠P = ∠RTS)  (B) SSS  (C) SAS  (D) RHS"
+                "A": "AA (∠R common, ∠P = ∠RTS)",
+                "B": "SSS",
+                "C": "SAS",
+                "D": "RHS"
               },
               "answer": "A",
               "explanation": "∠R is common to both △RPQ and △RTS, and ∠P = ∠RTS (given) → two pairs of angles equal → AA similarity."
@@ -1498,7 +1702,10 @@
               "difficulty": "Hard",
               "question": "CM and RN are medians of △ABC ~ △PQR. Then CM/RN equals:",
               "options": {
-                "A": "AB/PQ  (B) BC/QR  (C) CA/PR  (D) All of the above"
+                "A": "AB/PQ",
+                "B": "BC/QR",
+                "C": "CA/PR",
+                "D": "All of the above"
               },
               "answer": "D",
               "explanation": "CM and RN are medians. Since △ABC ~ △PQR with scale factor k = AB/PQ, ALL corresponding lengths (sides, medians, altitudes, perimeters) are in ratio k. So CM/RN = AB/PQ = BC/QR = CA/PR."
@@ -1508,7 +1715,10 @@
               "difficulty": "Hard",
               "question": "In △ABD ~ △ECF (isosceles with AB = AC, AD ⊥ BC, EF ⊥ AC). Criterion:",
               "options": {
-                "A": "AA (∠ADB = ∠EFC = 90°, ∠ABD = ∠ECF)  (B) SSS  (C) SAS  (D) RHS"
+                "A": "AA (∠ADB = ∠EFC = 90°, ∠ABD = ∠ECF)",
+                "B": "SSS",
+                "C": "SAS",
+                "D": "RHS"
               },
               "answer": "A",
               "explanation": "∠ADB = ∠EFC = 90° (altitudes) and ∠ABD = ∠ECF (same angle in each triangle) → two pairs equal → AA similarity."
@@ -1518,7 +1728,10 @@
               "difficulty": "Hard",
               "question": "△ABC ~ △DEF with AB/DE = 3/4. Ratio of perimeters of △ABC to △DEF:",
               "options": {
-                "A": "9:16  (B) 3:4  (C) 16:9  (D) 4:3"
+                "A": "9:16",
+                "B": "3:4",
+                "C": "16:9",
+                "D": "4:3"
               },
               "answer": "B",
               "explanation": "Perimeters of similar triangles are in the same ratio as their corresponding sides. AB/DE = 3/4 → perimeter ratio = 3:4."

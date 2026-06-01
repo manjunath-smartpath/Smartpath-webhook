@@ -207,7 +207,10 @@
               "difficulty": "Easy",
               "question": "Which of the following is NOT a linear expression?",
               "options": {
-                "A": "2x + 1    (B) 3y - 7    (C) x^2 + 1    (D) 12 - 5z"
+                "A": "2x + 1",
+                "B": "3y - 7",
+                "C": "x^2 + 1",
+                "D": "12 - 5z"
               },
               "answer": "C",
               "explanation": "Highest power of variable is 2, not 1"
@@ -217,7 +220,10 @@
               "difficulty": "Easy",
               "question": "Which of the following is an equation (not an expression)?",
               "options": {
-                "A": "2x - 3    (B) 3y + 7    (C) 5z    (D) 2x - 3 = 7"
+                "A": "2x - 3",
+                "B": "3y + 7",
+                "C": "5z",
+                "D": "2x - 3 = 7"
               },
               "answer": "D",
               "explanation": "Only equations have an equality sign ="
@@ -227,7 +233,10 @@
               "difficulty": "Easy",
               "question": "In the equation 6z + 10 = -2, what is the RHS?",
               "options": {
-                "A": "6z + 10    (B) 6z    (C) -2    (D) 10"
+                "A": "6z + 10",
+                "B": "6z",
+                "C": "-2",
+                "D": "10"
               },
               "answer": "C",
               "explanation": "Expression on the right of the equality sign is RHS"
@@ -237,7 +246,10 @@
               "difficulty": "Medium",
               "question": "x = 5 is a solution of which equation?",
               "options": {
-                "A": "2x - 3 = 10    (B) x + 5 = 10    (C) 3x = 20    (D) x - 2 = 8"
+                "A": "2x - 3 = 10",
+                "B": "x + 5 = 10",
+                "C": "3x = 20",
+                "D": "x - 2 = 8"
               },
               "answer": "B",
               "explanation": "5 + 5 = 10, LHS = RHS"
@@ -247,7 +259,10 @@
               "difficulty": "Medium",
               "question": "Which of the following expressions is linear in one variable?",
               "options": {
-                "A": "2xy + 5    (B) x^2 + y^2    (C) (5/4)(x - 4) + 10    (D) 1 + z + z^2"
+                "A": "2xy + 5",
+                "B": "x^2 + y^2",
+                "C": "(5/4)(x - 4) + 10",
+                "D": "1 + z + z^2"
               },
               "answer": "C",
               "explanation": "Expands to (5/4)x + 5, highest power of x is 1"
@@ -257,7 +272,10 @@
               "difficulty": "Hard",
               "question": "How many solutions does a linear equation in one variable have?",
               "options": {
-                "A": "0    (B) 1    (C) 2    (D) Infinitely many"
+                "A": "0",
+                "B": "1",
+                "C": "2",
+                "D": "Infinitely many"
               },
               "answer": "B",
               "explanation": "A linear equation in one variable has exactly one solution"
@@ -267,7 +285,10 @@
               "difficulty": "Hard",
               "question": "For the equation 2x - 3 = 7, which value is NOT a solution?",
               "options": {
-                "A": "x = 5    (B) x = 10    (C) Both x=5 and x=10    (D) Neither"
+                "A": "x = 5",
+                "B": "x = 10",
+                "C": "Both x=5 and x=10",
+                "D": "Neither"
               },
               "answer": "B",
               "explanation": "For x=10: LHS = 2(10)-3 = 17 ≠ 7 = RHS, so x=10 is not a solution"
@@ -400,7 +421,10 @@
               "difficulty": "Easy",
               "question": "Solve 3x = 2x + 18.",
               "options": {
-                "A": "x = 6    (B) x = 18    (C) x = 9    (D) x = 36"
+                "A": "x = 6",
+                "B": "x = 18",
+                "C": "x = 9",
+                "D": "x = 36"
               },
               "answer": "B",
               "explanation": "3x - 2x = 18 → x = 18"
@@ -423,7 +447,10 @@
               "difficulty": "Easy",
               "question": "Solve 4z + 3 = 6 + 2z.",
               "options": {
-                "A": "z = 3    (B) z = 3/2    (C) z = 9/2    (D) z = 1"
+                "A": "z = 3",
+                "B": "z = 3/2",
+                "C": "z = 9/2",
+                "D": "z = 1"
               },
               "answer": "B",
               "explanation": "4z - 2z = 6 - 3 → 2z = 3 → z = 3/2"
@@ -433,7 +460,10 @@
               "difficulty": "Medium",
               "question": "Solve 5t - 3 = 3t - 5.",
               "options": {
-                "A": "t = -1    (B) t = 1    (C) t = 4    (D) t = -4"
+                "A": "t = -1",
+                "B": "t = 1",
+                "C": "t = 4",
+                "D": "t = -4"
               },
               "answer": "A",
               "explanation": "5t - 3t = -5 + 3 → 2t = -2 → t = -1"
@@ -443,7 +473,10 @@
               "difficulty": "Medium",
               "question": "Solve 8x + 4 = 3(x - 1) + 7.",
               "options": {
-                "A": "x = 0    (B) x = 1    (C) x = -1    (D) x = 2"
+                "A": "x = 0",
+                "B": "x = 1",
+                "C": "x = -1",
+                "D": "x = 2"
               },
               "answer": "A",
               "explanation": "8x + 4 = 3x + 4 → 5x = 0 → x = 0"
@@ -453,7 +486,10 @@
               "difficulty": "Hard",
               "question": "Solve 2y + 5/3 = 26/3 - y.",
               "options": {
-                "A": "y = 7/3    (B) y = 3    (C) y = 7    (D) y = 1"
+                "A": "y = 7/3",
+                "B": "y = 3",
+                "C": "y = 7",
+                "D": "y = 1"
               },
               "answer": "A",
               "explanation": "3y = 26/3 - 5/3 = 21/3 = 7 → y = 7/3"
@@ -463,7 +499,10 @@
               "difficulty": "Hard",
               "question": "Solve 2x/3 + 1 = 7x/15 + 3.",
               "options": {
-                "A": "x = 6    (B) x = 10    (C) x = 15    (D) x = 3"
+                "A": "x = 6",
+                "B": "x = 10",
+                "C": "x = 15",
+                "D": "x = 3"
               },
               "answer": "B",
               "explanation": "LCM=15: 10x + 15 = 7x + 45 → 3x = 30 → x = 10"
@@ -618,7 +657,10 @@
               "difficulty": "Easy",
               "question": "Solve (6x+1)/3 + 1 = (x-3)/6.",
               "options": {
-                "A": "x = 1    (B) x = -1    (C) x = 2    (D) x = -2"
+                "A": "x = 1",
+                "B": "x = -1",
+                "C": "x = 2",
+                "D": "x = -2"
               },
               "answer": "B",
               "explanation": "11x = -11 → x = -1"
@@ -628,7 +670,10 @@
               "difficulty": "Easy",
               "question": "What is the LCM of 2, 3, and 6?",
               "options": {
-                "A": "12    (B) 36    (C) 6    (D) 18"
+                "A": "12",
+                "B": "36",
+                "C": "6",
+                "D": "18"
               },
               "answer": "C",
               "explanation": "6 is the smallest number divisible by 2, 3, and 6"
@@ -638,7 +683,10 @@
               "difficulty": "Medium",
               "question": "To solve x/2 - 1/5 = x/3 + 1/4, we multiply both sides by:",
               "options": {
-                "A": "30    (B) 15    (C) 60    (D) 20"
+                "A": "30",
+                "B": "15",
+                "C": "60",
+                "D": "20"
               },
               "answer": "C",
               "explanation": "LCM of 2, 5, 3, 4 = 60"
@@ -648,7 +696,10 @@
               "difficulty": "Medium",
               "question": "Solve 3(t - 3) = 5(2t + 1).",
               "options": {
-                "A": "t = 2    (B) t = -2    (C) t = 7    (D) t = -7"
+                "A": "t = 2",
+                "B": "t = -2",
+                "C": "t = 7",
+                "D": "t = -7"
               },
               "answer": "B",
               "explanation": "3t - 9 = 10t + 5 → -7t = 14 → t = -2"
@@ -658,7 +709,10 @@
               "difficulty": "Hard",
               "question": "Solve (x - 5)/3 = (x - 3)/5.",
               "options": {
-                "A": "x = 6    (B) x = -8    (C) x = 8    (D) x = -6"
+                "A": "x = 6",
+                "B": "x = -8",
+                "C": "x = 8",
+                "D": "x = -6"
               },
               "answer": "C",
               "explanation": "5x - 25 = 3x - 9 → 2x = 16 → x = 8"
@@ -668,7 +722,10 @@
               "difficulty": "Hard",
               "question": "Solve n/2 - 3n/4 + 5n/6 = 21.",
               "options": {
-                "A": "n = 12    (B) n = 24    (C) n = 36    (D) n = 48"
+                "A": "n = 12",
+                "B": "n = 24",
+                "C": "n = 36",
+                "D": "n = 48"
               },
               "answer": "C",
               "explanation": "LCM=12: 6n - 9n + 10n = 252 → 7n = 252 → n = 36"

@@ -50,7 +50,10 @@
           "difficulty": "Easy",
           "question": "Which of the following is a perfect square?",
           "options": {
-            "A": "32   (B) 48   (C) 25   (D) 50"
+            "A": "32",
+            "B": "48",
+            "C": "25",
+            "D": "50"
           },
           "answer": "C",
           "explanation": "25 = 5x5 = 5^2. Others cannot be expressed as n^2."
@@ -60,7 +63,10 @@
           "difficulty": "Medium",
           "question": "How many non-square numbers lie between 7^2 and 8^2?",
           "options": {
-            "A": "7   (B) 12   (C) 14   (D) 16"
+            "A": "7",
+            "B": "12",
+            "C": "14",
+            "D": "16"
           },
           "answer": "C",
           "explanation": "Between n^2 and (n+1)^2 there are 2n non-square numbers. Here n=7, so 2x7=14."
@@ -70,7 +76,10 @@
           "difficulty": "Hard",
           "question": "The least number that must be added to 1300 to make it a perfect square is:",
           "options": {
-            "A": "36   (B) 69   (C) 100   (D) 44"
+            "A": "36",
+            "B": "69",
+            "C": "100",
+            "D": "44"
           },
           "answer": "B",
           "explanation": "sqrt(1300) → quotient=36, remainder=4. Next perfect square = 37^2=1369. Add 1369-1300=69."
@@ -174,7 +183,10 @@
               "difficulty": "Easy",
               "question": "Which of the following is a perfect square?",
               "options": {
-                "A": "32   (B) 25   (C) 50   (D) 48"
+                "A": "32",
+                "B": "25",
+                "C": "50",
+                "D": "48"
               },
               "answer": "B",
               "explanation": "25 = 5x5 = 5^2, so it is a perfect square."
@@ -184,7 +196,10 @@
               "difficulty": "Medium",
               "question": "The area of a square with side 'a' is:",
               "options": {
-                "A": "2a   (B) 4a   (C) a^2   (D) a^3"
+                "A": "2a",
+                "B": "4a",
+                "C": "a^2",
+                "D": "a^3"
               },
               "answer": "C",
               "explanation": "Area of square = side x side = a x a = a^2."
@@ -194,7 +209,10 @@
               "difficulty": "Hard",
               "question": "Which of the following is NOT a perfect square?",
               "options": {
-                "A": "9   (B) 16   (C) 32   (D) 49"
+                "A": "9",
+                "B": "16",
+                "C": "32",
+                "D": "49"
               },
               "answer": "C",
               "explanation": "32 lies between 5^2=25 and 6^2=36. No natural number squares to 32."
@@ -355,7 +373,10 @@
               "difficulty": "Easy",
               "question": "Which of the following CANNOT be a perfect square?",
               "options": {
-                "A": "1444   (B) 2025   (C) 1057   (D) 625"
+                "A": "1444",
+                "B": "2025",
+                "C": "1057",
+                "D": "625"
               },
               "answer": "C",
               "explanation": "1057 ends in 7. No perfect square ends in 7."
@@ -365,7 +386,10 @@
               "difficulty": "Easy",
               "question": "Square of an odd number is always:",
               "options": {
-                "A": "Even   (B) Odd   (C) Zero   (D) None of these"
+                "A": "Even",
+                "B": "Odd",
+                "C": "Zero",
+                "D": "None of these"
               },
               "answer": "B",
               "explanation": "Odd x Odd = Odd. For example 3^2=9, 5^2=25."
@@ -375,7 +399,10 @@
               "difficulty": "Medium",
               "question": "The square of 19 ends with digit:",
               "options": {
-                "A": "1   (B) 9   (C) 6   (D) 4"
+                "A": "1",
+                "B": "9",
+                "C": "6",
+                "D": "4"
               },
               "answer": "A",
               "explanation": "19 ends with 9. Square of numbers ending in 9 end in 1. 19^2=361."
@@ -385,7 +412,10 @@
               "difficulty": "Medium",
               "question": "How many zeros does 400^2 have at the end?",
               "options": {
-                "A": "2   (B) 3   (C) 4   (D) 6"
+                "A": "2",
+                "B": "3",
+                "C": "4",
+                "D": "6"
               },
               "answer": "C",
               "explanation": "400 has 2 zeros. 400^2=160000 has 4 zeros (even number of zeros)."
@@ -395,7 +425,10 @@
               "difficulty": "Hard",
               "question": "Which of these is a perfect square?",
               "options": {
-                "A": "222222   (B) 1057   (C) 7928   (D) 9801"
+                "A": "222222",
+                "B": "1057",
+                "C": "7928",
+                "D": "9801"
               },
               "answer": "D",
               "explanation": "9801 = 99^2. Others end in 2, 7, or 8 which cannot be units digits of perfect squares."
@@ -584,7 +617,10 @@
               "difficulty": "Easy",
               "question": "Which is a triangular number?",
               "options": {
-                "A": "4   (B) 9   (C) 10   (D) 16"
+                "A": "4",
+                "B": "9",
+                "C": "10",
+                "D": "16"
               },
               "answer": "C",
               "explanation": "1, 3, 6, 10, 15 are triangular numbers. 10 = 1+2+3+4."
@@ -594,7 +630,10 @@
               "difficulty": "Medium",
               "question": "3 + 6 = ?",
               "options": {
-                "A": "4^2   (B) 2^2   (C) 3^2   (D) 5^2"
+                "A": "4^2",
+                "B": "2^2",
+                "C": "3^2",
+                "D": "5^2"
               },
               "answer": "C",
               "explanation": "3 + 6 = 9 = 3^2. Sum of two consecutive triangular numbers gives a square."
@@ -604,7 +643,10 @@
               "difficulty": "Hard",
               "question": "Which pair of consecutive triangular numbers adds to 25?",
               "options": {
-                "A": "6 + 19   (B) 10 + 15   (C) 1 + 24   (D) 3 + 22"
+                "A": "6 + 19",
+                "B": "10 + 15",
+                "C": "1 + 24",
+                "D": "3 + 22"
               },
               "answer": "B",
               "explanation": "10 + 15 = 25 = 5^2. Both 10 and 15 are consecutive triangular numbers."
@@ -614,7 +656,10 @@
               "difficulty": "Easy",
               "question": "The 5th triangular number is:",
               "options": {
-                "A": "10   (B) 12   (C) 15   (D) 21"
+                "A": "10",
+                "B": "12",
+                "C": "15",
+                "D": "21"
               },
               "answer": "C",
               "explanation": "1, 3, 6, 10, 15 — the 5th triangular number is 15."
@@ -624,7 +669,10 @@
               "difficulty": "Medium",
               "question": "21 + 28 = ?",
               "options": {
-                "A": "6^2   (B) 7^2   (C) 8^2   (D) 9^2"
+                "A": "6^2",
+                "B": "7^2",
+                "C": "8^2",
+                "D": "9^2"
               },
               "answer": "B",
               "explanation": "21 and 28 are consecutive triangular numbers. 21+28 = 49 = 7^2."
@@ -634,7 +682,10 @@
               "difficulty": "Hard",
               "question": "Which pair of consecutive triangular numbers sums to 81?",
               "options": {
-                "A": "28+53   (B) 36+45   (C) 21+60   (D) 30+51"
+                "A": "28+53",
+                "B": "36+45",
+                "C": "21+60",
+                "D": "30+51"
               },
               "answer": "B",
               "explanation": "36 and 45 are the 8th and 9th triangular numbers. 36+45 = 81 = 9^2."
@@ -650,7 +701,10 @@
               "difficulty": "Easy",
               "question": "Which of the following is a triangular number?",
               "options": {
-                "A": "4   (B) 6   (C) 8   (D) 12"
+                "A": "4",
+                "B": "6",
+                "C": "8",
+                "D": "12"
               },
               "answer": "B",
               "explanation": "Triangular numbers are 1, 3, 6, 10, 15, ... 6 = 1+2+3 is a triangular number."
@@ -660,7 +714,10 @@
               "difficulty": "Medium",
               "question": "How many non-square numbers lie between 7^2 and 8^2?",
               "options": {
-                "A": "7   (B) 12   (C) 14   (D) 16"
+                "A": "7",
+                "B": "12",
+                "C": "14",
+                "D": "16"
               },
               "answer": "C",
               "explanation": "Between n^2 and (n+1)^2 there are 2n non-square numbers. Here n=7, so 2x7=14."
@@ -670,7 +727,10 @@
               "difficulty": "Hard",
               "question": "Sum of first 8 odd natural numbers is:",
               "options": {
-                "A": "49   (B) 56   (C) 64   (D) 81"
+                "A": "49",
+                "B": "56",
+                "C": "64",
+                "D": "81"
               },
               "answer": "C",
               "explanation": "Sum of first n odd numbers = n^2. So sum of first 8 = 8^2 = 64. ----"
@@ -769,7 +829,10 @@
               "difficulty": "Easy",
               "question": "How many non-square numbers lie between 5^2 and 6^2?",
               "options": {
-                "A": "5   (B) 8   (C) 10   (D) 12"
+                "A": "5",
+                "B": "8",
+                "C": "10",
+                "D": "12"
               },
               "answer": "C",
               "explanation": "Between 25 and 36, there are 2x5 = 10 non-square numbers."
@@ -779,7 +842,10 @@
               "difficulty": "Medium",
               "question": "(n+1)^2 - n^2 = ?",
               "options": {
-                "A": "1   (B) n   (C) 2n   (D) 2n+1"
+                "A": "1",
+                "B": "n",
+                "C": "2n",
+                "D": "2n+1"
               },
               "answer": "D",
               "explanation": "(n+1)^2 - n^2 = n^2 + 2n + 1 - n^2 = 2n+1."
@@ -789,7 +855,10 @@
               "difficulty": "Hard",
               "question": "How many non-square numbers lie between 12^2 and 13^2?",
               "options": {
-                "A": "12   (B) 24   (C) 25   (D) 26"
+                "A": "12",
+                "B": "24",
+                "C": "25",
+                "D": "26"
               },
               "answer": "B",
               "explanation": "Between n^2 and (n+1)^2 there are 2n non-square numbers. Here n=12, 2x12=24. ----"
@@ -889,7 +958,10 @@
               "difficulty": "Easy",
               "question": "Sum of first n odd natural numbers is:",
               "options": {
-                "A": "n   (B) n+1   (C) n^2   (D) 2n"
+                "A": "n",
+                "B": "n+1",
+                "C": "n^2",
+                "D": "2n"
               },
               "answer": "C",
               "explanation": "1+3+5+...+(2n-1) = n^2."
@@ -899,7 +971,10 @@
               "difficulty": "Medium",
               "question": "Which of the following is a perfect square (using odd number test)?",
               "options": {
-                "A": "38   (B) 55   (C) 81   (D) 30"
+                "A": "38",
+                "B": "55",
+                "C": "81",
+                "D": "30"
               },
               "answer": "C",
               "explanation": "1+3+5+7+9+11+13+15+17 = 81 = 9^2. Reached 0 in 9 steps."
@@ -909,7 +984,10 @@
               "difficulty": "Hard",
               "question": "1 + 3 + 5 + 7 + 9 + 11 = ?",
               "options": {
-                "A": "5^2   (B) 6^2   (C) 7^2   (D) 4^2"
+                "A": "5^2",
+                "B": "6^2",
+                "C": "7^2",
+                "D": "4^2"
               },
               "answer": "B",
               "explanation": "Sum of first 6 odd numbers = 6^2 = 36. ----"
@@ -1009,7 +1087,10 @@
               "difficulty": "Easy",
               "question": "5^2 expressed as sum of two consecutive natural numbers is:",
               "options": {
-                "A": "11 + 14   (B) 12 + 13   (C) 10 + 15   (D) 11 + 15"
+                "A": "11 + 14",
+                "B": "12 + 13",
+                "C": "10 + 15",
+                "D": "11 + 15"
               },
               "answer": "B",
               "explanation": "5^2=25. First=(25-1)/2=12. Second=13. So 25=12+13."
@@ -1019,7 +1100,10 @@
               "difficulty": "Medium",
               "question": "First of the two consecutive numbers whose sum is 9^2 is:",
               "options": {
-                "A": "39   (B) 40   (C) 41   (D) 42"
+                "A": "39",
+                "B": "40",
+                "C": "41",
+                "D": "42"
               },
               "answer": "B",
               "explanation": "(81-1)/2 = 40. So 9^2 = 81 = 40 + 41."
@@ -1029,7 +1113,10 @@
               "difficulty": "Hard",
               "question": "Second of the two consecutive numbers whose sum is 13^2 is:",
               "options": {
-                "A": "84   (B) 85   (C) 86   (D) 87"
+                "A": "84",
+                "B": "85",
+                "C": "86",
+                "D": "87"
               },
               "answer": "B",
               "explanation": "13^2=169. Second=(169+1)/2=85. So 169=84+85. ----"
@@ -1119,7 +1206,10 @@
               "difficulty": "Easy",
               "question": "11 x 13 = ?",
               "options": {
-                "A": "12^2 + 1   (B) 12^2 - 1   (C) 11^2 + 1   (D) 13^2 - 1"
+                "A": "12^2 + 1",
+                "B": "12^2 - 1",
+                "C": "11^2 + 1",
+                "D": "13^2 - 1"
               },
               "answer": "B",
               "explanation": "11 x 13 = (12-1)(12+1) = 12^2 - 1 = 144 - 1 = 143."
@@ -1129,7 +1219,10 @@
               "difficulty": "Medium",
               "question": "29 x 31 = ?",
               "options": {
-                "A": "898   (B) 899   (C) 900   (D) 901"
+                "A": "898",
+                "B": "899",
+                "C": "900",
+                "D": "901"
               },
               "answer": "B",
               "explanation": "29 x 31 = (30-1)(30+1) = 30^2 - 1 = 900 - 1 = 899."
@@ -1139,7 +1232,10 @@
               "difficulty": "Hard",
               "question": "In general, (a+1)(a-1) = ?",
               "options": {
-                "A": "a^2 + 1   (B) a^2 - 1   (C) a^2   (D) 2a"
+                "A": "a^2 + 1",
+                "B": "a^2 - 1",
+                "C": "a^2",
+                "D": "2a"
               },
               "answer": "B",
               "explanation": "(a+1)(a-1) = a^2 - 1 by difference of squares identity. ----"
@@ -1236,7 +1332,10 @@
               "difficulty": "Easy",
               "question": "11111^2 = ?",
               "options": {
-                "A": "123454321   (B) 12345321   (C) 1234321   (D) 12321"
+                "A": "123454321",
+                "B": "12345321",
+                "C": "1234321",
+                "D": "12321"
               },
               "answer": "A",
               "explanation": "Pattern for 11111^2: digits go 1,2,3,4,5,4,3,2,1."
@@ -1246,7 +1345,10 @@
               "difficulty": "Medium",
               "question": "1111^2 = ?",
               "options": {
-                "A": "12321   (B) 1234321   (C) 123454321   (D) 12344321"
+                "A": "12321",
+                "B": "1234321",
+                "C": "123454321",
+                "D": "12344321"
               },
               "answer": "B",
               "explanation": "Pattern for 1111^2: digits go 1,2,3,4,3,2,1."
@@ -1256,7 +1358,10 @@
               "difficulty": "Hard",
               "question": "The middle digit of 111^2 is:",
               "options": {
-                "A": "1   (B) 2   (C) 3   (D) 4"
+                "A": "1",
+                "B": "2",
+                "C": "3",
+                "D": "4"
               },
               "answer": "C",
               "explanation": "111^2 = 12321. The middle digit is 3."
@@ -1479,7 +1584,10 @@
               "difficulty": "Easy",
               "question": "45^2 = ?",
               "options": {
-                "A": "2025   (B) 2016   (C) 1925   (D) 2125"
+                "A": "2025",
+                "B": "2016",
+                "C": "1925",
+                "D": "2125"
               },
               "answer": "A",
               "explanation": "45^2 = 4x5 hundred + 25 = 2000 + 25 = 2025."
@@ -1489,7 +1597,10 @@
               "difficulty": "Medium",
               "question": "39^2 = ?",
               "options": {
-                "A": "1481   (B) 1521   (C) 1601   (D) 1600"
+                "A": "1481",
+                "B": "1521",
+                "C": "1601",
+                "D": "1600"
               },
               "answer": "B",
               "explanation": "(30+9)^2 = 900 + 540 + 81 = 1521."
@@ -1499,7 +1610,10 @@
               "difficulty": "Hard",
               "question": "The formula used to find square of 42 without direct multiplication is:",
               "options": {
-                "A": "(a-b)^2   (B) (a+b)^2   (C) a^2 + b   (D) 2ab"
+                "A": "(a-b)^2",
+                "B": "(a+b)^2",
+                "C": "a^2 + b",
+                "D": "2ab"
               },
               "answer": "B",
               "explanation": "42 = 40+2. We use (a+b)^2 = a^2 + 2ab + b^2."
@@ -1509,7 +1623,10 @@
               "difficulty": "Easy",
               "question": "125^2 = ?",
               "options": {
-                "A": "15225   (B) 15525   (C) 15625   (D) 15025"
+                "A": "15225",
+                "B": "15525",
+                "C": "15625",
+                "D": "15025"
               },
               "answer": "C",
               "explanation": "125 ends in 5. 125^2 = 12x13 hundred+25 = 15625."
@@ -1519,7 +1636,10 @@
               "difficulty": "Medium",
               "question": "47^2 = ?",
               "options": {
-                "A": "2199   (B) 2209   (C) 2219   (D) 2189"
+                "A": "2199",
+                "B": "2209",
+                "C": "2219",
+                "D": "2189"
               },
               "answer": "B",
               "explanation": "47=(40+7). 47^2=1600+560+49=2209."
@@ -1529,7 +1649,10 @@
               "difficulty": "Hard",
               "question": "A square field has side 95 m. Its area is:",
               "options": {
-                "A": "9005 m^2   (B) 9015 m^2   (C) 9025 m^2   (D) 9035 m^2"
+                "A": "9005 m^2",
+                "B": "9015 m^2",
+                "C": "9025 m^2",
+                "D": "9035 m^2"
               },
               "answer": "C",
               "explanation": "95^2 = 9x10 hundred+25 = 9025 m^2."
@@ -1545,7 +1668,10 @@
               "difficulty": "Easy",
               "question": "55^2 = ?",
               "options": {
-                "A": "3000   (B) 3025   (C) 3050   (D) 2975"
+                "A": "3000",
+                "B": "3025",
+                "C": "3050",
+                "D": "2975"
               },
               "answer": "B",
               "explanation": "55^2 = 5x6 hundred + 25 = 3000 + 25 = 3025."
@@ -1555,7 +1681,10 @@
               "difficulty": "Medium",
               "question": "(a+b)^2 = ?",
               "options": {
-                "A": "a^2 + b^2   (B) a^2 - 2ab + b^2   (C) a^2 + 2ab + b^2   (D) 2a + 2b"
+                "A": "a^2 + b^2",
+                "B": "a^2 - 2ab + b^2",
+                "C": "a^2 + 2ab + b^2",
+                "D": "2a + 2b"
               },
               "answer": "C",
               "explanation": "Standard algebraic identity for square of a sum."
@@ -1565,7 +1694,10 @@
               "difficulty": "Hard",
               "question": "Which set forms a Pythagorean triplet?",
               "options": {
-                "A": "5, 10, 13   (B) 8, 15, 17   (C) 3, 6, 9   (D) 4, 7, 9"
+                "A": "5, 10, 13",
+                "B": "8, 15, 17",
+                "C": "3, 6, 9",
+                "D": "4, 7, 9"
               },
               "answer": "B",
               "explanation": "8^2 + 15^2 = 64 + 225 = 289 = 17^2. ----"
@@ -1696,7 +1828,10 @@
               "difficulty": "Easy",
               "question": "Which is a Pythagorean triplet?",
               "options": {
-                "A": "3, 5, 6   (B) 5, 12, 13   (C) 4, 6, 8   (D) 2, 3, 4"
+                "A": "3, 5, 6",
+                "B": "5, 12, 13",
+                "C": "4, 6, 8",
+                "D": "2, 3, 4"
               },
               "answer": "B",
               "explanation": "5^2 + 12^2 = 25 + 144 = 169 = 13^2."
@@ -1706,7 +1841,10 @@
               "difficulty": "Medium",
               "question": "Using 2m, m^2-1, m^2+1, what is the triplet when m = 5?",
               "options": {
-                "A": "10, 24, 26   (B) 5, 24, 25   (C) 10, 25, 26   (D) 5, 12, 13"
+                "A": "10, 24, 26",
+                "B": "5, 24, 25",
+                "C": "10, 25, 26",
+                "D": "5, 12, 13"
               },
               "answer": "A",
               "explanation": "2m=10, m^2-1=24, m^2+1=26. Check: 100+576=676=26^2."
@@ -1716,7 +1854,10 @@
               "difficulty": "Medium",
               "question": "The smallest Pythagorean triplet is:",
               "options": {
-                "A": "2, 3, 4   (B) 3, 4, 5   (C) 4, 5, 6   (D) 5, 6, 7"
+                "A": "2, 3, 4",
+                "B": "3, 4, 5",
+                "C": "4, 5, 6",
+                "D": "5, 6, 7"
               },
               "answer": "B",
               "explanation": "3^2 + 4^2 = 9 + 16 = 25 = 5^2."
@@ -1726,7 +1867,10 @@
               "difficulty": "Hard",
               "question": "In the general triplet form (2m, m^2-1, m^2+1), which is the largest number?",
               "options": {
-                "A": "2m   (B) m^2-1   (C) m^2+1   (D) m^2"
+                "A": "2m",
+                "B": "m^2-1",
+                "C": "m^2+1",
+                "D": "m^2"
               },
               "answer": "C",
               "explanation": "For m>1, m^2+1 is always the largest in the triplet."
@@ -1917,7 +2061,10 @@
               "difficulty": "Easy",
               "question": "sqrt(225) = ?",
               "options": {
-                "A": "13   (B) 14   (C) 15   (D) 16"
+                "A": "13",
+                "B": "14",
+                "C": "15",
+                "D": "16"
               },
               "answer": "C",
               "explanation": "15^2 = 225. So sqrt(225) = 15."
@@ -1927,7 +2074,10 @@
               "difficulty": "Medium",
               "question": "sqrt(361) = ?",
               "options": {
-                "A": "17   (B) 18   (C) 19   (D) 20"
+                "A": "17",
+                "B": "18",
+                "C": "19",
+                "D": "20"
               },
               "answer": "C",
               "explanation": "19^2 = 361. So sqrt(361) = 19."
@@ -1937,7 +2087,10 @@
               "difficulty": "Hard",
               "question": "sqrt(256) = ?",
               "options": {
-                "A": "14   (B) 15   (C) 16   (D) 17"
+                "A": "14",
+                "B": "15",
+                "C": "16",
+                "D": "17"
               },
               "answer": "C",
               "explanation": "16^2 = 256. So sqrt(256) = 16."
@@ -1947,7 +2100,10 @@
               "difficulty": "Easy",
               "question": "sqrt(400) = ?",
               "options": {
-                "A": "18   (B) 19   (C) 20   (D) 21"
+                "A": "18",
+                "B": "19",
+                "C": "20",
+                "D": "21"
               },
               "answer": "C",
               "explanation": "20^2=400."
@@ -1957,7 +2113,10 @@
               "difficulty": "Medium",
               "question": "sqrt(1764) = ?",
               "options": {
-                "A": "40   (B) 42   (C) 44   (D) 46"
+                "A": "40",
+                "B": "42",
+                "C": "44",
+                "D": "46"
               },
               "answer": "B",
               "explanation": "42^2=1764."
@@ -1967,7 +2126,10 @@
               "difficulty": "Hard",
               "question": "If sqrt(x) = 34, then x = ?",
               "options": {
-                "A": "1056   (B) 1156   (C) 1256   (D) 1356"
+                "A": "1056",
+                "B": "1156",
+                "C": "1256",
+                "D": "1356"
               },
               "answer": "B",
               "explanation": "x = 34^2 = 1156."
@@ -1983,7 +2145,10 @@
               "difficulty": "Easy",
               "question": "The square root of 144 is:",
               "options": {
-                "A": "11   (B) 12   (C) 13   (D) 14"
+                "A": "11",
+                "B": "12",
+                "C": "13",
+                "D": "14"
               },
               "answer": "B",
               "explanation": "12^2 = 144. So sqrt(144) = 12."
@@ -1993,7 +2158,10 @@
               "difficulty": "Medium",
               "question": "Finding the square root is the inverse operation of:",
               "options": {
-                "A": "Addition   (B) Subtraction   (C) Squaring   (D) Cubing"
+                "A": "Addition",
+                "B": "Subtraction",
+                "C": "Squaring",
+                "D": "Cubing"
               },
               "answer": "C",
               "explanation": "If squaring gives n^2, then square root reverses it to give n."
@@ -2003,7 +2171,10 @@
               "difficulty": "Hard",
               "question": "The symbol for positive square root is:",
               "options": {
-                "A": "cube root symbol   (B) sqrt( )   (C) ^2   (D) ||"
+                "A": "cube root symbol",
+                "B": "sqrt( )",
+                "C": "^2",
+                "D": "||"
               },
               "answer": "B",
               "explanation": "Positive square root is denoted by sqrt( ). ----"
@@ -2114,7 +2285,10 @@
               "difficulty": "Easy",
               "question": "By repeated subtraction from 36, how many steps to reach 0?",
               "options": {
-                "A": "4   (B) 5   (C) 6   (D) 7"
+                "A": "4",
+                "B": "5",
+                "C": "6",
+                "D": "7"
               },
               "answer": "C",
               "explanation": "sqrt(36)=6, so we need 6 steps of subtracting consecutive odd numbers."
@@ -2124,7 +2298,10 @@
               "difficulty": "Medium",
               "question": "Which of these can be found by reaching 0 in repeated subtraction?",
               "options": {
-                "A": "55   (B) 36   (C) 50   (D) 38"
+                "A": "55",
+                "B": "36",
+                "C": "50",
+                "D": "38"
               },
               "answer": "B",
               "explanation": "36 = 6^2 is a perfect square. Others are not perfect squares."
@@ -2134,7 +2311,10 @@
               "difficulty": "Hard",
               "question": "Find sqrt(49) by repeated subtraction — how many steps are needed?",
               "options": {
-                "A": "5   (B) 6   (C) 7   (D) 8"
+                "A": "5",
+                "B": "6",
+                "C": "7",
+                "D": "8"
               },
               "answer": "C",
               "explanation": "49-1=48, 48-3=45, 45-5=40, 40-7=33, 33-9=24, 24-11=13, 13-13=0. 7 steps. sqrt(49)=7. ----"
@@ -2277,7 +2457,10 @@
               "difficulty": "Easy",
               "question": "In the prime factorisation of a perfect square, each prime factor appears:",
               "options": {
-                "A": "Once   (B) Twice   (C) Even number of times   (D) Odd number of times"
+                "A": "Once",
+                "B": "Twice",
+                "C": "Even number of times",
+                "D": "Odd number of times"
               },
               "answer": "C",
               "explanation": "Perfect square means each factor comes in complete pairs."
@@ -2287,7 +2470,10 @@
               "difficulty": "Medium",
               "question": "sqrt(324) = ?",
               "options": {
-                "A": "16   (B) 17   (C) 18   (D) 19"
+                "A": "16",
+                "B": "17",
+                "C": "18",
+                "D": "19"
               },
               "answer": "C",
               "explanation": "324 = 2^2 x 3^4 = (2x3^2)^2 = 18^2."
@@ -2297,7 +2483,10 @@
               "difficulty": "Medium",
               "question": "Is 2352 a perfect square?",
               "options": {
-                "A": "Yes   (B) No, factor 3 has no pair   (C) No, factor 7 has no pair   (D) No, factor 2 has no pair"
+                "A": "Yes",
+                "B": "No, factor 3 has no pair",
+                "C": "No, factor 7 has no pair",
+                "D": "No, factor 2 has no pair"
               },
               "answer": "B",
               "explanation": "2352 = 2^4 x 3 x 7^2. The factor 3 appears only once."
@@ -2307,7 +2496,10 @@
               "difficulty": "Medium",
               "question": "The smallest square number divisible by 4, 9 and 10 is:",
               "options": {
-                "A": "180   (B) 360   (C) 900   (D) 3600"
+                "A": "180",
+                "B": "360",
+                "C": "900",
+                "D": "3600"
               },
               "answer": "C",
               "explanation": "LCM(4,9,10)=180=2^2 x 3^2 x 5. Factor 5 unpaired. Multiply by 5: 180x5=900=30^2."
@@ -2317,7 +2509,10 @@
               "difficulty": "Hard",
               "question": "sqrt(7056) = ?",
               "options": {
-                "A": "82   (B) 84   (C) 86   (D) 88"
+                "A": "82",
+                "B": "84",
+                "C": "86",
+                "D": "88"
               },
               "answer": "B",
               "explanation": "7056 = 2^4 x 3^2 x 7^2 = (2^2 x 3 x 7)^2 = 84^2. ----"
@@ -2465,7 +2660,10 @@
               "difficulty": "Easy",
               "question": "The number of digits in sqrt of a 4-digit perfect square is:",
               "options": {
-                "A": "1   (B) 2   (C) 3   (D) 4"
+                "A": "1",
+                "B": "2",
+                "C": "3",
+                "D": "4"
               },
               "answer": "B",
               "explanation": "3 or 4-digit perfect square has a 2-digit square root."
@@ -2475,7 +2673,10 @@
               "difficulty": "Easy",
               "question": "sqrt(529) = ?",
               "options": {
-                "A": "21   (B) 23   (C) 25   (D) 27"
+                "A": "21",
+                "B": "23",
+                "C": "25",
+                "D": "27"
               },
               "answer": "B",
               "explanation": "23^2 = 529. Verified by division method."
@@ -2485,7 +2686,10 @@
               "difficulty": "Medium",
               "question": "The least number to subtract from 5607 to make it a perfect square is:",
               "options": {
-                "A": "121   (B) 131   (C) 141   (D) 151"
+                "A": "121",
+                "B": "131",
+                "C": "141",
+                "D": "151"
               },
               "answer": "B",
               "explanation": "By division, remainder is 131. 5607-131=5476=74^2."
@@ -2495,7 +2699,10 @@
               "difficulty": "Medium",
               "question": "sqrt(2304) = ?",
               "options": {
-                "A": "46   (B) 47   (C) 48   (D) 49"
+                "A": "46",
+                "B": "47",
+                "C": "48",
+                "D": "49"
               },
               "answer": "C",
               "explanation": "48^2 = 2304. Verified by division method."
@@ -2505,7 +2712,10 @@
               "difficulty": "Hard",
               "question": "Number of bars over 36864 when using division method:",
               "options": {
-                "A": "2   (B) 3   (C) 4   (D) 5"
+                "A": "2",
+                "B": "3",
+                "C": "4",
+                "D": "5"
               },
               "answer": "B",
               "explanation": "36864 → 3|68|64 → 3 bars (5-digit number → 3-digit square root)."
@@ -2645,7 +2855,10 @@
               "difficulty": "Hard",
               "question": "Least number to add to 6412 to make it a perfect square:",
               "options": {
-                "A": "93   (B) 149   (C) 100   (D) 69"
+                "A": "93",
+                "B": "149",
+                "C": "100",
+                "D": "69"
               },
               "answer": "B",
               "explanation": "80^2=6400<6412. 81^2=6561. Add 6561-6412=149."
@@ -2661,7 +2874,10 @@
               "difficulty": "Easy",
               "question": "sqrt(17.64) = ?",
               "options": {
-                "A": "4.1   (B) 4.2   (C) 4.3   (D) 4.4"
+                "A": "4.1",
+                "B": "4.2",
+                "C": "4.3",
+                "D": "4.4"
               },
               "answer": "B",
               "explanation": "4.2^2 = 17.64."
@@ -2671,7 +2887,10 @@
               "difficulty": "Medium",
               "question": "Bars are placed on decimal part starting from:",
               "options": {
-                "A": "Leftmost digit   (B) Rightmost digit   (C) Decimal point moving right   (D) Decimal point moving left"
+                "A": "Leftmost digit",
+                "B": "Rightmost digit",
+                "C": "Decimal point moving right",
+                "D": "Decimal point moving left"
               },
               "answer": "C",
               "explanation": "For decimal part, pairs are made starting from decimal point and moving right."
@@ -2681,7 +2900,10 @@
               "difficulty": "Medium",
               "question": "sqrt(7.29) = ?",
               "options": {
-                "A": "2.5   (B) 2.7   (C) 2.9   (D) 3.1"
+                "A": "2.5",
+                "B": "2.7",
+                "C": "2.9",
+                "D": "3.1"
               },
               "answer": "B",
               "explanation": "2.7^2 = 7.29."
@@ -2691,7 +2913,10 @@
               "difficulty": "Hard",
               "question": "If area of a square is 2304 m^2, the side is:",
               "options": {
-                "A": "46 m   (B) 47 m   (C) 48 m   (D) 49 m"
+                "A": "46 m",
+                "B": "47 m",
+                "C": "48 m",
+                "D": "49 m"
               },
               "answer": "C",
               "explanation": "Side = sqrt(2304) = 48 m."
@@ -2701,7 +2926,10 @@
               "difficulty": "Medium",
               "question": "sqrt(2.25) = ?",
               "options": {
-                "A": "1.3   (B) 1.4   (C) 1.5   (D) 1.6"
+                "A": "1.3",
+                "B": "1.4",
+                "C": "1.5",
+                "D": "1.6"
               },
               "answer": "C",
               "explanation": "1.5^2 = 2.25."
@@ -2711,7 +2939,10 @@
               "difficulty": "Hard",
               "question": "A square has area 56.25 m^2. Its side is:",
               "options": {
-                "A": "6.5 m   (B) 7.0 m   (C) 7.5 m   (D) 8.0 m"
+                "A": "6.5 m",
+                "B": "7.0 m",
+                "C": "7.5 m",
+                "D": "8.0 m"
               },
               "answer": "C",
               "explanation": "Side = sqrt(56.25) = 7.5 m. 7.5^2 = 56.25. ✔"

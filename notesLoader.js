@@ -107,12 +107,41 @@ function getChapterName(cls, subject, ch) {
 function hasChapterContent(cls, subject, ch) {
   const c = getChapter(cls, subject, ch);
   if (!c) return false;
+  // True if chapter_sections has any qa/mcq/definition with content
   return c.chapter_sections.some(s =>
     (s.type === 'qa' && (s.items || []).length > 0) ||
     (s.type === 'mcq' && (s.items || []).length > 0) ||
     (s.type === 'definition' && s.text) ||
     (s.type === 'key_points' && (s.points || []).length > 0)
   );
+}
+
+// What content types exist in a sections array?
+function contentFlags(sectionsArr) {
+  const arr = sectionsArr || [];
+  const has = (t) => arr.some(s => s.type === t &&
+    ((s.items || []).length > 0 || s.text || (s.points || []).length > 0 ||
+     s.aim || s.statement || s.raw || s.label));
+  const qaCount = arr.filter(s => s.type === 'qa').reduce((n, s) => n + (s.items || []).length, 0);
+  const mcqCount = arr.filter(s => s.type === 'mcq').reduce((n, s) =>
+    n + (s.items || []).filter(m => {
+      const o = m.options || {};
+      return Object.keys(o).filter(k => o[k] && String(o[k]).trim()).length >= 2;
+    }).length, 0);
+  return {
+    notes: has('definition') || has('key_points') || has('additional_facts'),
+    qa: qaCount > 0,
+    quiz: mcqCount > 0,
+    activity: has('activity') || has('experiment'),
+    examples: has('formulas') || has('theorem'),
+    exercise: has('exercise') || has('textbook_exercises'),
+    diagrams: has('diagrams')
+  };
+}
+
+function chapterContentFlags(cls, subject, ch) {
+  const c = getChapter(cls, subject, ch);
+  return c ? contentFlags(c.chapter_sections) : {};
 }
 
 // Get topics list → [{num, name, mode, hasSubtopics}]
@@ -154,7 +183,7 @@ function getSections(sectionsArr, type) {
   return (sectionsArr || []).filter(s => s.type === type);
 }
 
-// Collect all Q&A items from a sections array
+// Collect all Q&A items from a sections array → [{q_num, marks, question, answer}]
 function collectQA(sectionsArr) {
   const out = [];
   for (const s of (sectionsArr || [])) {
@@ -178,6 +207,8 @@ module.exports = {
   getChapter,
   getChapterName,
   hasChapterContent,
+  contentFlags,
+  chapterContentFlags,
   getTopics,
   getSubtopics,
   getTopic,
@@ -185,6 +216,7 @@ module.exports = {
   getSections,
   collectQA,
   collectMCQ,
+  // expose for debugging
   _notesDB: notesDB,
   _chapterIndex: chapterIndex
 };

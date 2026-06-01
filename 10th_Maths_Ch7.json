@@ -50,8 +50,10 @@
           "difficulty": "Easy",
           "question": "Distance between P(x₁, y₁) and Q(x₂, y₂) is:",
           "options": {
-            "A": "(x₂–x₁) + (y₂–y₁)  (B) sqrt[(x₂–x₁)² + (y₂–y₁)²]",
-            "C": "(x₂–x₁)² + (y₂–y₁)²  (D) (x₂+x₁)² + (y₂+y₁)²"
+            "A": "(x₂–x₁) + (y₂–y₁)",
+            "B": "sqrt[(x₂–x₁)² + (y₂–y₁)²]",
+            "C": "(x₂–x₁)² + (y₂–y₁)²",
+            "D": "(x₂+x₁)² + (y₂+y₁)²"
           },
           "answer": "B",
           "explanation": "Option (B) is correct based on the definition/theorem."
@@ -61,7 +63,10 @@
           "difficulty": "Easy",
           "question": "Distance of P(3, 4) from origin:",
           "options": {
-            "A": "3  (B) 4  (C) 5  (D) 7"
+            "A": "3",
+            "B": "4",
+            "C": "5",
+            "D": "7"
           },
           "answer": "C",
           "explanation": "The correct answer is (C) 5."
@@ -71,8 +76,10 @@
           "difficulty": "Easy",
           "question": "Mid-point of P(x₁, y₁) and Q(x₂, y₂) is:",
           "options": {
-            "A": "[(x₁–x₂)/2, (y₁–y₂)/2]  (B) [(x₁+x₂)/2, (y₁+y₂)/2]",
-            "C": "[(x₁×x₂), (y₁×y₂)]  (D) [(x₁+x₂), (y₁+y₂)]"
+            "A": "[(x₁–x₂)/2, (y₁–y₂)/2]",
+            "B": "[(x₁+x₂)/2, (y₁+y₂)/2]",
+            "C": "[(x₁×x₂), (y₁×y₂)]",
+            "D": "[(x₁+x₂), (y₁+y₂)]"
           },
           "answer": "B",
           "explanation": "Option (B) is correct based on the definition/theorem."
@@ -82,7 +89,10 @@
           "difficulty": "Easy",
           "question": "Which theorem is used to derive the distance formula?",
           "options": {
-            "A": "Thales  (B) Pythagoras  (C) Mid-Point  (D) BPT"
+            "A": "Thales",
+            "B": "Pythagoras",
+            "C": "Mid-Point",
+            "D": "BPT"
           },
           "answer": "B",
           "explanation": "The correct answer is (B) Pythagoras."
@@ -92,7 +102,10 @@
           "difficulty": "Easy",
           "question": "Trisection points of AB divide AB in ratios:",
           "options": {
-            "A": "1:2 and 2:1  (B) 1:3 and 3:1  (C) 2:3 and 3:2  (D) 1:1 and 2:2"
+            "A": "1:2 and 2:1",
+            "B": "1:3 and 3:1",
+            "C": "2:3 and 3:2",
+            "D": "1:1 and 2:2"
           },
           "answer": "A",
           "explanation": "The correct answer is (A) 1:2 and 2:1."
@@ -102,7 +115,10 @@
           "difficulty": "Medium",
           "question": "The distance between (–5, 7) and (–1, 3):",
           "options": {
-            "A": "4sqrt(2)  (B) 4  (C) sqrt(8)  (D) sqrt(40)"
+            "A": "4sqrt(2)",
+            "B": "4",
+            "C": "sqrt(8)",
+            "D": "sqrt(40)"
           },
           "answer": "A",
           "explanation": "Option (A) is correct based on the definition/theorem."
@@ -112,7 +128,10 @@
           "difficulty": "Medium",
           "question": "Points A, B, C are collinear if:",
           "options": {
-            "A": "AB = BC  (B) AB + BC = AC  (C) AB × BC = AC  (D) AB – BC = AC"
+            "A": "AB = BC",
+            "B": "AB + BC = AC",
+            "C": "AB × BC = AC",
+            "D": "AB – BC = AC"
           },
           "answer": "B",
           "explanation": "The correct answer is (B) AB + BC = AC."
@@ -122,8 +141,10 @@
           "difficulty": "Medium",
           "question": "To prove ABCD is a square, which conditions must hold?",
           "options": {
-            "A": "All four sides equal only  (B) Both diagonals equal only",
-            "C": "All four sides equal AND both diagonals equal  (D) Opposite sides equal"
+            "A": "All four sides equal only",
+            "B": "Both diagonals equal only",
+            "C": "All four sides equal AND both diagonals equal",
+            "D": "Opposite sides equal"
           },
           "answer": "C",
           "explanation": "The correct answer is (C) All four sides equal AND both diagonals equal."
@@ -133,7 +154,10 @@
           "difficulty": "Medium",
           "question": "P divides segment joining (–1,7) and (4,–3) in ratio 2:3. Coordinates of P:",
           "options": {
-            "A": "(2, 3)  (B) (1, 3)  (C) (3, 1)  (D) (0, 5)"
+            "A": "(2, 3)",
+            "B": "(1, 3)",
+            "C": "(3, 1)",
+            "D": "(0, 5)"
           },
           "answer": "B",
           "explanation": "Option (B) is correct based on the definition/theorem."
@@ -143,7 +167,10 @@
           "difficulty": "Medium",
           "question": "If A(6,1), B(8,2), C(9,4), D(p,3) are vertices of parallelogram, p =",
           "options": {
-            "A": "5  (B) 6  (C) 7  (D) 8"
+            "A": "5",
+            "B": "6",
+            "C": "7",
+            "D": "8"
           },
           "answer": "C",
           "explanation": "The correct answer is (C) 7."
@@ -153,7 +180,10 @@
           "difficulty": "Medium",
           "question": "The y-axis divides segment joining (5,–6) and (–1,–4) in ratio:",
           "options": {
-            "A": "1:5  (B) 5:1  (C) 1:1  (D) 2:3"
+            "A": "1:5",
+            "B": "5:1",
+            "C": "1:1",
+            "D": "2:3"
           },
           "answer": "B",
           "explanation": "The correct answer is (B) 5:1."
@@ -163,7 +193,10 @@
           "difficulty": "Hard",
           "question": "Points (1,7), (4,2), (–1,–1) and (–4,4) form a:",
           "options": {
-            "A": "Rectangle  (B) Rhombus  (C) Square  (D) Parallelogram"
+            "A": "Rectangle",
+            "B": "Rhombus",
+            "C": "Square",
+            "D": "Parallelogram"
           },
           "answer": "C",
           "explanation": "The correct answer is (C) Square."
@@ -173,7 +206,10 @@
           "difficulty": "Hard",
           "question": "A relation between x and y such that (x, y) is equidistant from (7,1) and (3,5):",
           "options": {
-            "A": "x + y = 2  (B) x – y = 2  (C) 2x – y = 0  (D) x + 2y = 5"
+            "A": "x + y = 2",
+            "B": "x – y = 2",
+            "C": "2x – y = 0",
+            "D": "x + 2y = 5"
           },
           "answer": "B",
           "explanation": "The correct answer is (B) x – y = 2."
@@ -183,7 +219,10 @@
           "difficulty": "Hard",
           "question": "A and B are (–2,–2) and (2,–4). AP = (3/7)AB, P lies on AB. Coordinates of P:",
           "options": {
-            "A": "(–2/7, –20/7)  (B) (2/7, 20/7)  (C) (–2/7, 20/7)  (D) (2/7, –20/7)"
+            "A": "(–2/7, –20/7)",
+            "B": "(2/7, 20/7)",
+            "C": "(–2/7, 20/7)",
+            "D": "(2/7, –20/7)"
           },
           "answer": "A",
           "explanation": "Option (A) is correct based on the definition/theorem."
@@ -193,7 +232,10 @@
           "difficulty": "Hard",
           "question": "Area of rhombus with vertices (3,0),(4,5),(–1,4),(–2,–1):",
           "options": {
-            "A": "24 sq units  (B) 48 sq units  (C) 12 sq units  (D) 36 sq units"
+            "A": "24 sq units",
+            "B": "48 sq units",
+            "C": "12 sq units",
+            "D": "36 sq units"
           },
           "answer": "A",
           "explanation": "The correct answer is (A) 24 sq units."
@@ -323,7 +365,10 @@
               "difficulty": "Easy",
               "question": "Distance of a point from y-axis is called its:",
               "options": {
-                "A": "Ordinate  (B) Abscissa  (C) Coordinate  (D) Origin"
+                "A": "Ordinate",
+                "B": "Abscissa",
+                "C": "Coordinate",
+                "D": "Origin"
               },
               "answer": "B",
               "explanation": "The correct answer is (B) Abscissa."
@@ -333,7 +378,10 @@
               "difficulty": "Easy",
               "question": "A point on y-axis has coordinates of form:",
               "options": {
-                "A": "(x, 0)  (B) (0, y)  (C) (x, y)  (D) (0, 0)"
+                "A": "(x, 0)",
+                "B": "(0, y)",
+                "C": "(x, y)",
+                "D": "(0, 0)"
               },
               "answer": "B",
               "explanation": "Option (B) is correct based on the definition/theorem."
@@ -343,7 +391,10 @@
               "difficulty": "Easy",
               "question": "Graph of ax + by + c = 0 (a, b not simultaneously zero) is:",
               "options": {
-                "A": "Parabola  (B) Circle  (C) Straight line  (D) Hyperbola"
+                "A": "Parabola",
+                "B": "Circle",
+                "C": "Straight line",
+                "D": "Hyperbola"
               },
               "answer": "C",
               "explanation": "The correct answer is (C) Straight line."
@@ -353,7 +404,10 @@
               "difficulty": "Easy",
               "question": "Coordinate geometry is an algebraic tool for studying:",
               "options": {
-                "A": "Arithmetic  (B) Geometry  (C) Trigonometry  (D) Statistics"
+                "A": "Arithmetic",
+                "B": "Geometry",
+                "C": "Trigonometry",
+                "D": "Statistics"
               },
               "answer": "B",
               "explanation": "The correct answer is (B) Geometry."
@@ -363,7 +417,10 @@
               "difficulty": "Easy",
               "question": "y-coordinate of any point on x-axis is:",
               "options": {
-                "A": "1  (B) Undefined  (C) 0  (D) x"
+                "A": "1",
+                "B": "Undefined",
+                "C": "0",
+                "D": "x"
               },
               "answer": "C",
               "explanation": "The correct answer is (C) 0."
@@ -373,7 +430,10 @@
               "difficulty": "Medium",
               "question": "Coordinates of a point on x-axis at distance 4 from origin:",
               "options": {
-                "A": "(0, 4)  (B) (4, 0) or (–4, 0)  (C) (4, 4)  (D) (0, –4)"
+                "A": "(0, 4)",
+                "B": "(4, 0) or (–4, 0)",
+                "C": "(4, 4)",
+                "D": "(0, –4)"
               },
               "answer": "B",
               "explanation": "Option (B) is correct based on the definition/theorem."
@@ -383,7 +443,10 @@
               "difficulty": "Medium",
               "question": "Graph of y = ax² + bx + c (a ≠ 0) is:",
               "options": {
-                "A": "Straight line  (B) Circle  (C) Parabola  (D) Ellipse"
+                "A": "Straight line",
+                "B": "Circle",
+                "C": "Parabola",
+                "D": "Ellipse"
               },
               "answer": "C",
               "explanation": "The correct answer is (C) Parabola."
@@ -393,7 +456,10 @@
               "difficulty": "Medium",
               "question": "In coordinate geometry, a point's position is located using:",
               "options": {
-                "A": "A single axis  (B) A pair of coordinate axes  (C) Three axes  (D) A compass"
+                "A": "A single axis",
+                "B": "A pair of coordinate axes",
+                "C": "Three axes",
+                "D": "A compass"
               },
               "answer": "B",
               "explanation": "The correct answer is (B) A pair of coordinate axes."
@@ -403,7 +469,10 @@
               "difficulty": "Medium",
               "question": "Which point lies on the y-axis?",
               "options": {
-                "A": "(3, 0)  (B) (0, –5)  (C) (2, 3)  (D) (1, 1)"
+                "A": "(3, 0)",
+                "B": "(0, –5)",
+                "C": "(2, 3)",
+                "D": "(1, 1)"
               },
               "answer": "B",
               "explanation": "Option (B) is correct based on the definition/theorem."
@@ -413,7 +482,10 @@
               "difficulty": "Medium",
               "question": "x-coordinate of a point P is 0. Where does P lie?",
               "options": {
-                "A": "On x-axis  (B) At origin  (C) On y-axis  (D) First quadrant"
+                "A": "On x-axis",
+                "B": "At origin",
+                "C": "On y-axis",
+                "D": "First quadrant"
               },
               "answer": "C",
               "explanation": "The correct answer is (C) On y-axis."
@@ -423,8 +495,10 @@
               "difficulty": "Medium",
               "question": "Coordinate geometry is applied in which fields?",
               "options": {
-                "A": "Physics and engineering only  (B) Navigation and seismology only",
-                "C": "Art only  (D) Physics, engineering, navigation, seismology and art"
+                "A": "Physics and engineering only",
+                "B": "Navigation and seismology only",
+                "C": "Art only",
+                "D": "Physics, engineering, navigation, seismology and art"
               },
               "answer": "D",
               "explanation": "The correct answer is (D) Physics, engineering, navigation, seismology and art."
@@ -434,7 +508,10 @@
               "difficulty": "Hard",
               "question": "A point P(a, b) lies on x-axis. Which condition must be true?",
               "options": {
-                "A": "a = 0  (B) b = 0  (C) a = b  (D) a + b = 0"
+                "A": "a = 0",
+                "B": "b = 0",
+                "C": "a = b",
+                "D": "a + b = 0"
               },
               "answer": "B",
               "explanation": "The correct answer is (B) b = 0."
@@ -444,8 +521,10 @@
               "difficulty": "Hard",
               "question": "A linear equation in two variables represents a straight line if:",
               "options": {
-                "A": "y = ax² + bx + c  (B) ax + by + c = 0 where a, b not simultaneously zero",
-                "C": "ax² + bx = 0  (D) x² + y² = r²"
+                "A": "y = ax² + bx + c",
+                "B": "ax + by + c = 0 where a, b not simultaneously zero",
+                "C": "ax² + bx = 0",
+                "D": "x² + y² = r²"
               },
               "answer": "B",
               "explanation": "The correct answer is (B) ax + by + c = 0 where a, b not simultaneously zero."
@@ -455,8 +534,10 @@
               "difficulty": "Hard",
               "question": "A(–3, 0) and B(0, 4). Which statement is true?",
               "options": {
-                "A": "Both A and B on x-axis  (B) A on x-axis, B on y-axis",
-                "C": "Both on y-axis  (D) A on y-axis, B on x-axis"
+                "A": "Both A and B on x-axis",
+                "B": "A on x-axis, B on y-axis",
+                "C": "Both on y-axis",
+                "D": "A on y-axis, B on x-axis"
               },
               "answer": "B",
               "explanation": "The correct answer is (B) A on x-axis, B on y-axis."
@@ -466,7 +547,10 @@
               "difficulty": "Hard",
               "question": "The introductory activity of plotting given points on graph paper forms:",
               "options": {
-                "A": "A straight line  (B) A picture/figure  (C) A parabola  (D) A circle"
+                "A": "A straight line",
+                "B": "A picture/figure",
+                "C": "A parabola",
+                "D": "A circle"
               },
               "answer": "B",
               "explanation": "The correct answer is (B) A picture/figure."
@@ -742,7 +826,10 @@
               "difficulty": "Easy",
               "question": "The distance formula between P(x₁,y₁) and Q(x₂,y₂) is derived using:",
               "options": {
-                "A": "Section formula  (B) Pythagoras theorem  (C) Thales theorem  (D) Mid-point formula"
+                "A": "Section formula",
+                "B": "Pythagoras theorem",
+                "C": "Thales theorem",
+                "D": "Mid-point formula"
               },
               "answer": "B",
               "explanation": "The correct answer is (B) Pythagoras theorem."
@@ -752,7 +839,10 @@
               "difficulty": "Easy",
               "question": "Distance of (–3, 4) from origin:",
               "options": {
-                "A": "3  (B) 4  (C) 5  (D) 7"
+                "A": "3",
+                "B": "4",
+                "C": "5",
+                "D": "7"
               },
               "answer": "C",
               "explanation": "The correct answer is (C) 5."
@@ -762,7 +852,10 @@
               "difficulty": "Easy",
               "question": "Distance between (2,3) and (4,1):",
               "options": {
-                "A": "2  (B) 2sqrt(2)  (C) 4  (D) sqrt(6)"
+                "A": "2",
+                "B": "2sqrt(2)",
+                "C": "4",
+                "D": "sqrt(6)"
               },
               "answer": "B",
               "explanation": "Option (B) is correct based on the definition/theorem."
@@ -772,7 +865,10 @@
               "difficulty": "Easy",
               "question": "Distance of (a,b) from (–a,–b):",
               "options": {
-                "A": "2a  (B) 2b  (C) 2sqrt(a²+b²)  (D) sqrt(a²+b²)"
+                "A": "2a",
+                "B": "2b",
+                "C": "2sqrt(a²+b²)",
+                "D": "sqrt(a²+b²)"
               },
               "answer": "C",
               "explanation": "Option (C) is correct based on the definition/theorem."
@@ -782,7 +878,10 @@
               "difficulty": "Easy",
               "question": "A, B, C are collinear if:",
               "options": {
-                "A": "AB = BC  (B) AB + BC = AC  (C) AB × BC = AC  (D) AB – BC = AC"
+                "A": "AB = BC",
+                "B": "AB + BC = AC",
+                "C": "AB × BC = AC",
+                "D": "AB – BC = AC"
               },
               "answer": "B",
               "explanation": "The correct answer is (B) AB + BC = AC."
@@ -792,7 +891,10 @@
               "difficulty": "Medium",
               "question": "Distance between (–5,7) and (–1,3):",
               "options": {
-                "A": "4sqrt(2)  (B) 4  (C) sqrt(8)  (D) sqrt(40)"
+                "A": "4sqrt(2)",
+                "B": "4",
+                "C": "sqrt(8)",
+                "D": "sqrt(40)"
               },
               "answer": "A",
               "explanation": "Option (A) is correct based on the definition/theorem."
@@ -802,8 +904,10 @@
               "difficulty": "Medium",
               "question": "To prove ABCD is a square, which must hold?",
               "options": {
-                "A": "All four sides equal only  (B) Both diagonals equal only",
-                "C": "All four sides equal AND both diagonals equal  (D) Opposite sides equal"
+                "A": "All four sides equal only",
+                "B": "Both diagonals equal only",
+                "C": "All four sides equal AND both diagonals equal",
+                "D": "Opposite sides equal"
               },
               "answer": "C",
               "explanation": "The correct answer is (C) All four sides equal AND both diagonals equal."
@@ -813,7 +917,10 @@
               "difficulty": "Medium",
               "question": "If distance between P(2,–3) and Q(10,y) is 10, then y =",
               "options": {
-                "A": "3 only  (B) –9 only  (C) 3 or –9  (D) 0"
+                "A": "3 only",
+                "B": "–9 only",
+                "C": "3 or –9",
+                "D": "0"
               },
               "answer": "C",
               "explanation": "The correct answer is (C) 3 or –9."
@@ -823,7 +930,10 @@
               "difficulty": "Medium",
               "question": "Point on x-axis equidistant from (2,–5) and (–2,9):",
               "options": {
-                "A": "(–7, 0)  (B) (7, 0)  (C) (0, –7)  (D) (0, 7)"
+                "A": "(–7, 0)",
+                "B": "(7, 0)",
+                "C": "(0, –7)",
+                "D": "(0, 7)"
               },
               "answer": "A",
               "explanation": "Option (A) is correct based on the definition/theorem."
@@ -833,7 +943,10 @@
               "difficulty": "Medium",
               "question": "Points (1,7),(4,2),(–1,–1),(–4,4) form a:",
               "options": {
-                "A": "Rectangle  (B) Rhombus  (C) Square  (D) Parallelogram"
+                "A": "Rectangle",
+                "B": "Rhombus",
+                "C": "Square",
+                "D": "Parallelogram"
               },
               "answer": "C",
               "explanation": "The correct answer is (C) Square."
@@ -843,7 +956,10 @@
               "difficulty": "Medium",
               "question": "Relation such that (x,y) is equidistant from (7,1) and (3,5):",
               "options": {
-                "A": "x + y = 2  (B) x – y = 2  (C) 2x – y = 0  (D) x + 2y = 5"
+                "A": "x + y = 2",
+                "B": "x – y = 2",
+                "C": "2x – y = 0",
+                "D": "x + 2y = 5"
               },
               "answer": "B",
               "explanation": "The correct answer is (B) x – y = 2."
@@ -853,7 +969,10 @@
               "difficulty": "Hard",
               "question": "In Example 1, points (3,2),(–2,–3),(2,3) form a right triangle. Which criterion confirms right angle at P?",
               "options": {
-                "A": "PQ² = PR² + QR²  (B) PR² = PQ² + QR²  (C) QR² = PQ² + PR²  (D) PQ = PR"
+                "A": "PQ² = PR² + QR²",
+                "B": "PR² = PQ² + QR²",
+                "C": "QR² = PQ² + PR²",
+                "D": "PQ = PR"
               },
               "answer": "C",
               "explanation": "The correct answer is (C) QR² = PQ² + PR²."
@@ -863,7 +982,10 @@
               "difficulty": "Hard",
               "question": "Relation for (x,y) equidistant from (3,6) and (–3,4):",
               "options": {
-                "A": "3x + y = 5  (B) x + 3y = 5  (C) 3x – y = 5  (D) x – 3y = 5"
+                "A": "3x + y = 5",
+                "B": "x + 3y = 5",
+                "C": "3x – y = 5",
+                "D": "x – 3y = 5"
               },
               "answer": "A",
               "explanation": "The correct answer is (A) 3x + y = 5."
@@ -873,7 +995,10 @@
               "difficulty": "Hard",
               "question": "(1,5),(2,3),(–2,–11) — which is true?",
               "options": {
-                "A": "Collinear  (B) Right triangle  (C) Equilateral triangle  (D) Scalene triangle (not collinear)"
+                "A": "Collinear",
+                "B": "Right triangle",
+                "C": "Equilateral triangle",
+                "D": "Scalene triangle (not collinear)"
               },
               "answer": "D",
               "explanation": "Option (D) is correct based on the definition/theorem."
@@ -883,7 +1008,10 @@
               "difficulty": "Hard",
               "question": "Distance between (0,0) and (36,15) representing towns A and B:",
               "options": {
-                "A": "36 km  (B) 39 km  (C) 51 km  (D) 15 km"
+                "A": "36 km",
+                "B": "39 km",
+                "C": "51 km",
+                "D": "15 km"
               },
               "answer": "B",
               "explanation": "The correct answer is (B) 39 km."
@@ -1150,8 +1278,10 @@
               "difficulty": "Easy",
               "question": "Mid-point of P(x₁,y₁) and Q(x₂,y₂) is:",
               "options": {
-                "A": "[(x₁–x₂)/2,(y₁–y₂)/2]  (B) [(x₁+x₂)/2,(y₁+y₂)/2]",
-                "C": "[x₁x₂, y₁y₂]  (D) [(x₁+x₂),(y₁+y₂)]"
+                "A": "[(x₁–x₂)/2,(y₁–y₂)/2]",
+                "B": "[(x₁+x₂)/2,(y₁+y₂)/2]",
+                "C": "[x₁x₂, y₁y₂]",
+                "D": "[(x₁+x₂),(y₁+y₂)]"
               },
               "answer": "B",
               "explanation": "Option (B) is correct based on the definition/theorem."
@@ -1161,7 +1291,10 @@
               "difficulty": "Easy",
               "question": "Section formula gives coordinates of a point dividing a segment:",
               "options": {
-                "A": "Externally  (B) Internally  (C) Both  (D) At right angles"
+                "A": "Externally",
+                "B": "Internally",
+                "C": "Both",
+                "D": "At right angles"
               },
               "answer": "B",
               "explanation": "The correct answer is (B) Internally."
@@ -1171,7 +1304,10 @@
               "difficulty": "Easy",
               "question": "Mid-point formula is section formula with ratio:",
               "options": {
-                "A": "1:2  (B) 2:1  (C) 1:1  (D) 1:3"
+                "A": "1:2",
+                "B": "2:1",
+                "C": "1:1",
+                "D": "1:3"
               },
               "answer": "C",
               "explanation": "The correct answer is (C) 1:1."
@@ -1181,8 +1317,10 @@
               "difficulty": "Easy",
               "question": "If P divides AB in ratio m₁:m₂ internally, x-coordinate of P is:",
               "options": {
-                "A": "(m₁x₁+m₂x₂)/(m₁+m₂)  (B) (m₁x₂+m₂x₁)/(m₁+m₂)",
-                "C": "(m₁x₂–m₂x₁)/(m₁+m₂)  (D) (m₁+m₂)/(x₁+x₂)"
+                "A": "(m₁x₁+m₂x₂)/(m₁+m₂)",
+                "B": "(m₁x₂+m₂x₁)/(m₁+m₂)",
+                "C": "(m₁x₂–m₂x₁)/(m₁+m₂)",
+                "D": "(m₁+m₂)/(x₁+x₂)"
               },
               "answer": "B",
               "explanation": "Option (B) is correct based on the definition/theorem."
@@ -1192,7 +1330,10 @@
               "difficulty": "Easy",
               "question": "Two trisection points of AB divide it in ratios:",
               "options": {
-                "A": "1:2 and 2:1  (B) 1:3 and 3:1  (C) 2:3 and 3:2  (D) 1:1 and 2:2"
+                "A": "1:2 and 2:1",
+                "B": "1:3 and 3:1",
+                "C": "2:3 and 3:2",
+                "D": "1:1 and 2:2"
               },
               "answer": "A",
               "explanation": "The correct answer is (A) 1:2 and 2:1."
@@ -1202,7 +1343,10 @@
               "difficulty": "Medium",
               "question": "Point dividing (–1,7) and (4,–3) in ratio 2:3:",
               "options": {
-                "A": "(2,3)  (B) (1,3)  (C) (3,1)  (D) (0,5)"
+                "A": "(2,3)",
+                "B": "(1,3)",
+                "C": "(3,1)",
+                "D": "(0,5)"
               },
               "answer": "B",
               "explanation": "Option (B) is correct based on the definition/theorem."
@@ -1212,7 +1356,10 @@
               "difficulty": "Medium",
               "question": "In what ratio does (–1,6) divide segment joining (–3,10) and (6,–8)?",
               "options": {
-                "A": "1:2  (B) 2:7  (C) 3:4  (D) 2:3"
+                "A": "1:2",
+                "B": "2:7",
+                "C": "3:4",
+                "D": "2:3"
               },
               "answer": "B",
               "explanation": "The correct answer is (B) 2:7."
@@ -1222,7 +1369,10 @@
               "difficulty": "Medium",
               "question": "A(6,1),B(8,2),C(9,4),D(p,3) are vertices of parallelogram. p =",
               "options": {
-                "A": "5  (B) 6  (C) 7  (D) 8"
+                "A": "5",
+                "B": "6",
+                "C": "7",
+                "D": "8"
               },
               "answer": "C",
               "explanation": "The correct answer is (C) 7."
@@ -1232,7 +1382,10 @@
               "difficulty": "Medium",
               "question": "y-axis divides segment joining (5,–6) and (–1,–4) in ratio:",
               "options": {
-                "A": "1:5  (B) 5:1  (C) 1:1  (D) 2:3"
+                "A": "1:5",
+                "B": "5:1",
+                "C": "1:1",
+                "D": "2:3"
               },
               "answer": "B",
               "explanation": "The correct answer is (B) 5:1."
@@ -1242,8 +1395,10 @@
               "difficulty": "Medium",
               "question": "Trisection points of A(2,–2) and B(–7,4) are:",
               "options": {
-                "A": "(–1,0) and (–4,2)  (B) (1,0) and (4,–2)",
-                "C": "(–1,2) and (–4,0)  (D) (0,–1) and (2,–4)"
+                "A": "(–1,0) and (–4,2)",
+                "B": "(1,0) and (4,–2)",
+                "C": "(–1,2) and (–4,0)",
+                "D": "(0,–1) and (2,–4)"
               },
               "answer": "A",
               "explanation": "Option (A) is correct based on the definition/theorem."
@@ -1253,7 +1408,10 @@
               "difficulty": "Medium",
               "question": "Centre of circle is (2,–3) and one end of diameter is B(1,4). Other end A is:",
               "options": {
-                "A": "(3,–10)  (B) (–3,10)  (C) (3,10)  (D) (1.5,0.5)"
+                "A": "(3,–10)",
+                "B": "(–3,10)",
+                "C": "(3,10)",
+                "D": "(1.5,0.5)"
               },
               "answer": "A",
               "explanation": "Option (A) is correct based on the definition/theorem."
@@ -1263,7 +1421,10 @@
               "difficulty": "Hard",
               "question": "A(–2,–2) and B(2,–4). AP=(3/7)AB. Coordinates of P (ratio 3:4):",
               "options": {
-                "A": "(–2/7,–20/7)  (B) (2/7,20/7)  (C) (–2/7,20/7)  (D) (2/7,–20/7)"
+                "A": "(–2/7,–20/7)",
+                "B": "(2/7,20/7)",
+                "C": "(–2/7,20/7)",
+                "D": "(2/7,–20/7)"
               },
               "answer": "A",
               "explanation": "Option (A) is correct based on the definition/theorem."
@@ -1273,8 +1434,10 @@
               "difficulty": "Hard",
               "question": "Points dividing A(–2,2) to B(2,8) into four equal parts:",
               "options": {
-                "A": "(–1,7/2),(0,5),(1,13/2)  (B) (1,7/2),(0,5),(–1,13/2)",
-                "C": "(–1,3/2),(0,5),(1,11/2)  (D) (0,4),(0,5),(0,6)"
+                "A": "(–1,7/2),(0,5),(1,13/2)",
+                "B": "(1,7/2),(0,5),(–1,13/2)",
+                "C": "(–1,3/2),(0,5),(1,11/2)",
+                "D": "(0,4),(0,5),(0,6)"
               },
               "answer": "A",
               "explanation": "Option (A) is correct based on the definition/theorem."
@@ -1284,7 +1447,10 @@
               "difficulty": "Hard",
               "question": "Area of rhombus with vertices (3,0),(4,5),(–1,4),(–2,–1):",
               "options": {
-                "A": "24 sq units  (B) 48 sq units  (C) 12 sq units  (D) 36 sq units"
+                "A": "24 sq units",
+                "B": "48 sq units",
+                "C": "12 sq units",
+                "D": "36 sq units"
               },
               "answer": "A",
               "explanation": "The correct answer is (A) 24 sq units."
@@ -1294,7 +1460,10 @@
               "difficulty": "Hard",
               "question": "In Sports Day problem: Niharika at (2,25), Preet at (8,20). Distance between flags:",
               "options": {
-                "A": "sqrt(61) m  (B) sqrt(51) m  (C) 61 m  (D) 7 m"
+                "A": "sqrt(61) m",
+                "B": "sqrt(51) m",
+                "C": "61 m",
+                "D": "7 m"
               },
               "answer": "A",
               "explanation": "Option (A) is correct based on the definition/theorem."

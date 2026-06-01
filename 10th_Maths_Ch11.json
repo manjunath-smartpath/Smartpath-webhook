@@ -60,7 +60,10 @@
           "difficulty": "Easy",
           "question": "What is the angle of the major sector if the angle of the minor sector is 110°?",
           "options": {
-            "A": "110°     (B) 250°     (C) 270°     (D) 360°"
+            "A": "110°",
+            "B": "250°",
+            "C": "270°",
+            "D": "360°"
           },
           "answer": "B",
           "explanation": "Angle of major sector = 360 − 110 = 250°."
@@ -83,7 +86,10 @@
           "difficulty": "Easy",
           "question": "A quadrant of a circle has an angle of:",
           "options": {
-            "A": "45°     (B) 90°     (C) 120°     (D) 180°"
+            "A": "45°",
+            "B": "90°",
+            "C": "120°",
+            "D": "180°"
           },
           "answer": "B",
           "explanation": "A quadrant is 1/4 of a circle. 360° / 4 = 90°."
@@ -93,7 +99,10 @@
           "difficulty": "Easy",
           "question": "Which of the following is the region enclosed between a chord and the corresponding arc?",
           "options": {
-            "A": "Sector     (B) Segment     (C) Arc     (D) Radius"
+            "A": "Sector",
+            "B": "Segment",
+            "C": "Arc",
+            "D": "Radius"
           },
           "answer": "B",
           "explanation": "A SEGMENT is the portion of the circular region enclosed between a chord and the corresponding arc."
@@ -103,7 +112,10 @@
           "difficulty": "Medium",
           "question": "The area of a sector of a circle with radius 7 cm and angle 90° is: (Use π = 22/7)",
           "options": {
-            "A": "38.5 cm²     (B) 77 cm²     (C) 154 cm²     (D) 19.25 cm²"
+            "A": "38.5 cm²",
+            "B": "77 cm²",
+            "C": "154 cm²",
+            "D": "19.25 cm²"
           },
           "answer": "A",
           "explanation": "Area = (90/360) × (22/7) × 7 × 7 = (1/4) × 154 = 38.5 cm²."
@@ -113,7 +125,10 @@
           "difficulty": "Medium",
           "question": "The length of the arc of a sector with radius 14 cm and angle 90° is: (Use π = 22/7)",
           "options": {
-            "A": "11 cm     (B) 22 cm     (C) 44 cm     (D) 88 cm"
+            "A": "11 cm",
+            "B": "22 cm",
+            "C": "44 cm",
+            "D": "88 cm"
           },
           "answer": "B",
           "explanation": "Length = (90/360) × 2 × (22/7) × 14 = (1/4) × 88 = 22 cm."
@@ -136,7 +151,10 @@
           "difficulty": "Medium",
           "question": "A sector has radius 6 cm and angle 60°. The area of the sector is: (Use π = 22/7)",
           "options": {
-            "A": "18.86 cm²     (B) 37.71 cm²     (C) 113.14 cm²     (D) 9.43 cm²"
+            "A": "18.86 cm²",
+            "B": "37.71 cm²",
+            "C": "113.14 cm²",
+            "D": "9.43 cm²"
           },
           "answer": "A",
           "explanation": "Area = (60/360) × (22/7) × 36 = (1/6) × 792/7 = 132/7 = 18.86 cm² (approx.)"
@@ -146,7 +164,10 @@
           "difficulty": "Medium",
           "question": "If the circumference of a circle is 44 cm, the area of a quadrant of this circle is: (Use π = 22/7)",
           "options": {
-            "A": "38.5 cm²     (B) 77 cm²     (C) 154 cm²     (D) 19.25 cm²"
+            "A": "38.5 cm²",
+            "B": "77 cm²",
+            "C": "154 cm²",
+            "D": "19.25 cm²"
           },
           "answer": "A",
           "explanation": "2πr = 44 → r = 7 cm. Area of quadrant = (1/4) × (22/7) × 49 = (1/4) × 154 = 38.5 cm²."
@@ -156,7 +177,10 @@
           "difficulty": "Medium",
           "question": "The area of a sector of angle 45° in a circle of radius 4 cm is: (Use π = 3.14)",
           "options": {
-            "A": "3.14 cm²     (B) 6.28 cm²     (C) 12.56 cm²     (D) 50.24 cm²"
+            "A": "3.14 cm²",
+            "B": "6.28 cm²",
+            "C": "12.56 cm²",
+            "D": "50.24 cm²"
           },
           "answer": "B",
           "explanation": "Area = (45/360) × 3.14 × 16 = (1/8) × 50.24 = 6.28 cm²."
@@ -179,7 +203,10 @@
           "difficulty": "Hard",
           "question": "A chord of a circle of radius 10 cm subtends a right angle at the centre. The area of the minor segment is: (Use π = 3.14)",
           "options": {
-            "A": "14.5 cm²     (B) 28.5 cm²     (C) 57 cm²     (D) 100 cm²"
+            "A": "14.5 cm²",
+            "B": "28.5 cm²",
+            "C": "57 cm²",
+            "D": "100 cm²"
           },
           "answer": "B",
           "explanation": "Area of sector (90°) = (90/360) × 3.14 × 100 = 78.5 cm². Area of triangle = (1/2) × 10 × 10 = 50 cm². Segment = 78.5 − 50 = 28.5 cm²."
@@ -189,7 +216,10 @@
           "difficulty": "Hard",
           "question": "The minute hand of a clock is 14 cm long. Area swept in 5 minutes is: (Use π = 22/7)",
           "options": {
-            "A": "51.33 cm²     (B) 102.67 cm²     (C) 154 cm²     (D) 30.8 cm²"
+            "A": "51.33 cm²",
+            "B": "102.67 cm²",
+            "C": "154 cm²",
+            "D": "30.8 cm²"
           },
           "answer": "A",
           "explanation": "In 5 minutes → angle = (5/60) × 360 = 30°. Area = (30/360) × (22/7) × 196 = (1/12) × 616 = 51.33 cm² (approx.)"
@@ -199,7 +229,10 @@
           "difficulty": "Hard",
           "question": "A horse is tied at a corner of a square field of side 15 m with a rope of 5 m. The area the horse can graze is: (Use π = 3.14)",
           "options": {
-            "A": "78.5 m²     (B) 19.625 m²     (C) 39.25 m²     (D) 9.8125 m²"
+            "A": "78.5 m²",
+            "B": "19.625 m²",
+            "C": "39.25 m²",
+            "D": "9.8125 m²"
           },
           "answer": "B",
           "explanation": "Corner of square → angle = 90°. Area = (90/360) × 3.14 × 5 × 5 = (1/4) × 78.5 = 19.625 m²."
@@ -421,7 +454,10 @@
               "difficulty": "Easy",
               "question": "What is the angle of the major sector if the angle of the minor sector is 110°?",
               "options": {
-                "A": "110°     (B) 250°     (C) 270°     (D) 360°"
+                "A": "110°",
+                "B": "250°",
+                "C": "270°",
+                "D": "360°"
               },
               "answer": "B",
               "explanation": "Angle of major sector = 360 − 110 = 250°."
@@ -444,7 +480,10 @@
               "difficulty": "Easy",
               "question": "A quadrant of a circle has an angle of:",
               "options": {
-                "A": "45°     (B) 90°     (C) 120°     (D) 180°"
+                "A": "45°",
+                "B": "90°",
+                "C": "120°",
+                "D": "180°"
               },
               "answer": "B",
               "explanation": "A quadrant is 1/4 of a circle. 360° / 4 = 90°."
@@ -454,7 +493,10 @@
               "difficulty": "Easy",
               "question": "Which of the following is the region enclosed between a chord and the corresponding arc?",
               "options": {
-                "A": "Sector     (B) Segment     (C) Arc     (D) Radius"
+                "A": "Sector",
+                "B": "Segment",
+                "C": "Arc",
+                "D": "Radius"
               },
               "answer": "B",
               "explanation": "A SEGMENT is the portion of the circular region enclosed between a chord and the corresponding arc."
@@ -464,7 +506,10 @@
               "difficulty": "Medium",
               "question": "The area of a sector of a circle with radius 7 cm and angle 90° is: (Use π = 22/7)",
               "options": {
-                "A": "38.5 cm²     (B) 77 cm²     (C) 154 cm²     (D) 19.25 cm²"
+                "A": "38.5 cm²",
+                "B": "77 cm²",
+                "C": "154 cm²",
+                "D": "19.25 cm²"
               },
               "answer": "A",
               "explanation": "Area = (90/360) × (22/7) × 49 = (1/4) × 154 = 38.5 cm²."
@@ -474,7 +519,10 @@
               "difficulty": "Medium",
               "question": "The length of the arc of a sector with radius 14 cm and angle 90° is: (Use π = 22/7)",
               "options": {
-                "A": "11 cm     (B) 22 cm     (C) 44 cm     (D) 88 cm"
+                "A": "11 cm",
+                "B": "22 cm",
+                "C": "44 cm",
+                "D": "88 cm"
               },
               "answer": "B",
               "explanation": "Length = (90/360) × 2 × (22/7) × 14 = (1/4) × 88 = 22 cm."
@@ -497,7 +545,10 @@
               "difficulty": "Medium",
               "question": "A sector has radius 6 cm and angle 60°. The area of the sector is: (Use π = 22/7)",
               "options": {
-                "A": "18.86 cm²     (B) 37.71 cm²     (C) 113.14 cm²     (D) 9.43 cm²"
+                "A": "18.86 cm²",
+                "B": "37.71 cm²",
+                "C": "113.14 cm²",
+                "D": "9.43 cm²"
               },
               "answer": "A",
               "explanation": "Area = (60/360) × (22/7) × 36 = (1/6) × 792/7 = 132/7 = 18.86 cm² (approx.)"
@@ -507,7 +558,10 @@
               "difficulty": "Medium",
               "question": "If the circumference of a circle is 44 cm, the area of a quadrant of this circle is: (Use π = 22/7)",
               "options": {
-                "A": "38.5 cm²     (B) 77 cm²     (C) 154 cm²     (D) 19.25 cm²"
+                "A": "38.5 cm²",
+                "B": "77 cm²",
+                "C": "154 cm²",
+                "D": "19.25 cm²"
               },
               "answer": "A",
               "explanation": "2πr = 44 → r = 7 cm. Area of quadrant = (1/4) × (22/7) × 49 = 38.5 cm²."
@@ -517,7 +571,10 @@
               "difficulty": "Medium",
               "question": "The area of a sector of angle 45° in a circle of radius 4 cm is: (Use π = 3.14)",
               "options": {
-                "A": "3.14 cm²     (B) 6.28 cm²     (C) 12.56 cm²     (D) 50.24 cm²"
+                "A": "3.14 cm²",
+                "B": "6.28 cm²",
+                "C": "12.56 cm²",
+                "D": "50.24 cm²"
               },
               "answer": "B",
               "explanation": "Area = (45/360) × 3.14 × 16 = (1/8) × 50.24 = 6.28 cm²."
@@ -540,7 +597,10 @@
               "difficulty": "Hard",
               "question": "A chord of a circle of radius 10 cm subtends a right angle at the centre. The area of the minor segment is: (Use π = 3.14)",
               "options": {
-                "A": "14.5 cm²     (B) 28.5 cm²     (C) 57 cm²     (D) 100 cm²"
+                "A": "14.5 cm²",
+                "B": "28.5 cm²",
+                "C": "57 cm²",
+                "D": "100 cm²"
               },
               "answer": "B",
               "explanation": "Sector area (90°) = (1/4) × 3.14 × 100 = 78.5 cm². Triangle area = (1/2) × 10 × 10 = 50 cm². Segment = 78.5 − 50 = 28.5 cm²."
@@ -550,7 +610,10 @@
               "difficulty": "Hard",
               "question": "The minute hand of a clock is 14 cm long. Area swept in 5 minutes is: (Use π = 22/7)",
               "options": {
-                "A": "51.33 cm²     (B) 102.67 cm²     (C) 154 cm²     (D) 30.8 cm²"
+                "A": "51.33 cm²",
+                "B": "102.67 cm²",
+                "C": "154 cm²",
+                "D": "30.8 cm²"
               },
               "answer": "A",
               "explanation": "5 min → angle = (5/60) × 360 = 30°. Area = (30/360) × (22/7) × 196 = (1/12) × 616 = 51.33 cm² (approx.)"
@@ -560,7 +623,10 @@
               "difficulty": "Hard",
               "question": "A horse is tied at a corner of a square field of side 15 m with a rope of 5 m. The area the horse can graze is: (Use π = 3.14)",
               "options": {
-                "A": "78.5 m²     (B) 19.625 m²     (C) 39.25 m²     (D) 9.8125 m²"
+                "A": "78.5 m²",
+                "B": "19.625 m²",
+                "C": "39.25 m²",
+                "D": "9.8125 m²"
               },
               "answer": "B",
               "explanation": "Corner of square → 90°. Area = (90/360) × 3.14 × 25 = (1/4) × 78.5 = 19.625 m²."

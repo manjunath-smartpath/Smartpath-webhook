@@ -25,7 +25,18 @@ async function startQuiz(to, st) {
     return;
   }
 
-  st.quizList = mcqList;
+  // Keep only MCQs with at least 2 valid options (skip malformed)
+  const validMcq = mcqList.filter(m => {
+    const o = m.options || {};
+    return Object.keys(o).filter(k => o[k] && String(o[k]).trim()).length >= 2;
+  });
+
+  if (!validMcq.length) {
+    await S.sendText(to, 'ℹ️ ಈ topic ಗೆ quiz (MCQ) ಸಿಗಲಿಲ್ಲ.');
+    return;
+  }
+
+  st.quizList = validMcq;
   st.quizIndex = 0;
   st.quizScore = 0;
   st.quizResults = [];   // [{n, correct}]
@@ -36,7 +47,7 @@ async function startQuiz(to, st) {
     `📝 *Quiz: ${label}*\n${mcqList.length} questions ಇದೆ. Ready?`,
     [
       { id: 'QUIZ_START', title: '✅ Start' },
-      { id: 'NAV_BACK', title: '🔙 Back' }
+      { id: 'NAV_MENU', title: '🏠 Home' }
     ]);
 }
 
@@ -93,7 +104,7 @@ async function handleQuizAnswer(to, st, chosenLetter) {
   if (st.quizIndex < total - 1) {
     await S.sendButtons(to, `${n}/${total} ಮುಗಿಯಿತು. ಮುಂದಿನ ಪ್ರಶ್ನೆ?`, [
       { id: 'QUIZ_NEXT', title: '➡️ Next Question' },
-      { id: 'NAV_BACK', title: '🔙 Back' }
+      { id: 'NAV_MENU', title: '🏠 Home' }
     ]);
   } else {
     await showQuizResult(to, st);
@@ -143,8 +154,8 @@ async function showQuizResult(to, st) {
 
   await S.sendButtons(to, 'ಮುಂದೇನು? / What next?', [
     { id: 'QUIZ_RETRY', title: '🔄 Retry Quiz' },
-    { id: 'NAV_BACK', title: '📋 Topics' },
-    { id: 'NAV_MENU', title: '🏠 Menu' }
+    { id: 'CHCONTENT_TOPICS', title: '📋 Topics' },
+    { id: 'NAV_MENU', title: '🏠 Home' }
   ]);
 }
 

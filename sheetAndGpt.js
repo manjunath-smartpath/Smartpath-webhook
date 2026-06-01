@@ -195,9 +195,37 @@ ${context}` },
   }
 }
 
+// ---------- FEEDBACK ----------
+async function saveFeedback(phone, name, text) {
+  try {
+    const creds = JSON.parse(process.env.GOOGLE_SERVICE_ACCOUNT_JSON);
+    const jwt = new JWT({
+      email: creds.client_email, key: creds.private_key,
+      scopes: ['https://www.googleapis.com/auth/spreadsheets'],
+    });
+    const doc = new GoogleSpreadsheet(GOOGLE_SHEET_ID, jwt);
+    await doc.loadInfo();
+    // Use "Feedback" sheet tab, create if missing
+    let sheet = doc.sheetsByTitle['Feedback'];
+    if (!sheet) {
+      sheet = await doc.addSheet({ title: 'Feedback',
+        headerValues: ['Date', 'Phone', 'Name', 'Feedback'] });
+    }
+    await sheet.addRow({
+      Date: new Date().toISOString(),
+      Phone: phone, Name: name || '', Feedback: text
+    });
+    return true;
+  } catch (e) {
+    console.error('Feedback save error:', e.message);
+    return false;
+  }
+}
+
 module.exports = {
   getSheet, getStudent, saveNewStudent, updateStudent,
   getPlan, getStatus, isExpired, hasAccess,
   checkGptAccess, incrementGptCount, askKSEEB,
+  saveFeedback,
   GPT_DAILY_LIMIT
 };

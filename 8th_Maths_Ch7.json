@@ -96,7 +96,10 @@
           "difficulty": "Easy",
           "question": "Percentage means parts per:",
           "options": {
-            "A": "10   (B) 100   (C) 1000   (D) 1"
+            "A": "10",
+            "B": "100",
+            "C": "1000",
+            "D": "1"
           },
           "answer": "B",
           "explanation": "Percentage means parts per hundred (per 100)."
@@ -106,8 +109,10 @@
           "difficulty": "Medium",
           "question": "Which formula is used for depreciation?",
           "options": {
-            "A": "A = P(1 + R/100)^n   (B) A = P(1 - R/100)^n",
-            "C": "A = P + PRT/100       (D) A = P - PRT/100"
+            "A": "A = P(1 + R/100)^n",
+            "B": "A = P(1 - R/100)^n",
+            "C": "A = P + PRT/100",
+            "D": "A = P - PRT/100"
           },
           "answer": "B",
           "explanation": "For decrease (depreciation), minus sign is used: A = P(1 - R/100)^n."
@@ -117,7 +122,10 @@
           "difficulty": "Hard",
           "question": "CI on Rs 10,000 at 10% for 2 years is more than SI by:",
           "options": {
-            "A": "Rs 50   (B) Rs 100   (C) Rs 200   (D) Rs 150"
+            "A": "Rs 50",
+            "B": "Rs 100",
+            "C": "Rs 200",
+            "D": "Rs 150"
           },
           "answer": "B",
           "explanation": "SI = 2000. CI: Year1 I=1000, Year2 I=1100, CI=2100. Difference = Rs 100."
@@ -127,7 +135,10 @@
           "difficulty": "Easy",
           "question": "Discount is always calculated on:",
           "options": {
-            "A": "Sale Price   (B) Cost Price   (C) Marked Price   (D) Profit"
+            "A": "Sale Price",
+            "B": "Cost Price",
+            "C": "Marked Price",
+            "D": "Profit"
           },
           "answer": "C",
           "explanation": "Discount is always calculated on the Marked Price (MP) of the article."
@@ -137,8 +148,10 @@
           "difficulty": "Medium",
           "question": "GST stands for:",
           "options": {
-            "A": "General Sales Tax   (B) Goods and Services Tax",
-            "C": "Government Supply Tax   (D) Gross Sales Tax"
+            "A": "General Sales Tax",
+            "B": "Goods and Services Tax",
+            "C": "Government Supply Tax",
+            "D": "Gross Sales Tax"
           },
           "answer": "B",
           "explanation": "GST stands for Goods and Services Tax, introduced from July 1, 2017."
@@ -148,7 +161,10 @@
           "difficulty": "Hard",
           "question": "A scooter worth Rs 42,000 depreciates at 8% per year. Value after 1 year is:",
           "options": {
-            "A": "Rs 36,000   (B) Rs 38,000   (C) Rs 38,640   (D) Rs 39,000"
+            "A": "Rs 36,000",
+            "B": "Rs 38,000",
+            "C": "Rs 38,640",
+            "D": "Rs 39,000"
           },
           "answer": "C",
           "explanation": "Value = 42000 x (92/100) = Rs 38,640."
@@ -294,7 +310,10 @@
               "difficulty": "Easy",
               "question": "25% of 80 is:",
               "options": {
-                "A": "16   (B) 20   (C) 25   (D) 32"
+                "A": "16",
+                "B": "20",
+                "C": "25",
+                "D": "32"
               },
               "answer": "B",
               "explanation": "(25/100) x 80 = 20."
@@ -304,7 +323,10 @@
               "difficulty": "Easy",
               "question": "The ratio 4 : 5 as a percentage of the first quantity to the total is:",
               "options": {
-                "A": "40%   (B) 44.4%   (C) 50%   (D) 80%"
+                "A": "40%",
+                "B": "44.4%",
+                "C": "50%",
+                "D": "80%"
               },
               "answer": "B",
               "explanation": "4/(4+5) x 100 = (4/9) x 100 = 44.4%."
@@ -314,7 +336,10 @@
               "difficulty": "Medium",
               "question": "In a group of 50 people, 20 are women. What percentage are men?",
               "options": {
-                "A": "30%   (B) 40%   (C) 60%   (D) 70%"
+                "A": "30%",
+                "B": "40%",
+                "C": "60%",
+                "D": "70%"
               },
               "answer": "C",
               "explanation": "Men = 30. Percentage = (30/50) x 100 = 60%."
@@ -324,7 +349,10 @@
               "difficulty": "Easy",
               "question": "72% of 25 students are interested in maths. How many are NOT interested?",
               "options": {
-                "A": "4   (B) 5   (C) 7   (D) 18"
+                "A": "4",
+                "B": "5",
+                "C": "7",
+                "D": "18"
               },
               "answer": "C",
               "explanation": "Interested = (72/100) x 25 = 18. Not interested = 25 - 18 = 7."
@@ -334,7 +362,10 @@
               "difficulty": "Medium",
               "question": "A football team won 10 out of total matches with a win% of 40. Total matches played:",
               "options": {
-                "A": "20   (B) 25   (C) 30   (D) 40"
+                "A": "20",
+                "B": "25",
+                "C": "30",
+                "D": "40"
               },
               "answer": "B",
               "explanation": "40% of total = 10. Total = (10 x 100)/40 = 25."
@@ -344,7 +375,10 @@
               "difficulty": "Hard",
               "question": "Chameli had Rs 600 left after spending 75% of her money. Her original amount was:",
               "options": {
-                "A": "Rs 1,800   (B) Rs 2,000   (C) Rs 2,400   (D) Rs 2,500"
+                "A": "Rs 1,800",
+                "B": "Rs 2,000",
+                "C": "Rs 2,400",
+                "D": "Rs 2,500"
               },
               "answer": "C",
               "explanation": "25% = Rs 600. Total = (600 x 100)/25 = Rs 2,400."
@@ -497,7 +531,10 @@
               "difficulty": "Easy",
               "question": "Discount = Marked Price - ______",
               "options": {
-                "A": "Cost Price   (B) Sale Price   (C) Profit   (D) Tax"
+                "A": "Cost Price",
+                "B": "Sale Price",
+                "C": "Profit",
+                "D": "Tax"
               },
               "answer": "B",
               "explanation": "Discount = Marked Price - Sale Price."
@@ -507,7 +544,10 @@
               "difficulty": "Easy",
               "question": "An article has MP = Rs 600 and discount = 25%. The sale price is:",
               "options": {
-                "A": "Rs 150   (B) Rs 400   (C) Rs 450   (D) Rs 500"
+                "A": "Rs 150",
+                "B": "Rs 400",
+                "C": "Rs 450",
+                "D": "Rs 500"
               },
               "answer": "C",
               "explanation": "Discount = (25/100) x 600 = Rs 150. SP = 600 - 150 = Rs 450."
@@ -517,7 +557,10 @@
               "difficulty": "Medium",
               "question": "A pair of shoes marked at Rs 750 is sold at Rs 600. Discount% is:",
               "options": {
-                "A": "15%   (B) 20%   (C) 25%   (D) 30%"
+                "A": "15%",
+                "B": "20%",
+                "C": "25%",
+                "D": "30%"
               },
               "answer": "B",
               "explanation": "Discount = 150. Discount% = (150/750) x 100 = 20%."
@@ -527,7 +570,10 @@
               "difficulty": "Medium",
               "question": "A dress marked at Rs 120 has 20% discount. Sale price is:",
               "options": {
-                "A": "Rs 24   (B) Rs 80   (C) Rs 96   (D) Rs 100"
+                "A": "Rs 24",
+                "B": "Rs 80",
+                "C": "Rs 96",
+                "D": "Rs 100"
               },
               "answer": "C",
               "explanation": "SP = (80/100) x 120 = Rs 96."
@@ -537,7 +583,10 @@
               "difficulty": "Hard",
               "question": "An article is sold for Rs 1,600 after 20% discount. Its marked price is:",
               "options": {
-                "A": "Rs 1,800   (B) Rs 1,920   (C) Rs 2,000   (D) Rs 2,200"
+                "A": "Rs 1,800",
+                "B": "Rs 1,920",
+                "C": "Rs 2,000",
+                "D": "Rs 2,200"
               },
               "answer": "C",
               "explanation": "1600 = MP x (80/100). MP = 1600/0.8 = Rs 2000."
@@ -547,7 +596,10 @@
               "difficulty": "Hard",
               "question": "A bag marked at Rs 250 with 20% discount. What is the discount amount?",
               "options": {
-                "A": "Rs 25   (B) Rs 40   (C) Rs 50   (D) Rs 60"
+                "A": "Rs 25",
+                "B": "Rs 40",
+                "C": "Rs 50",
+                "D": "Rs 60"
               },
               "answer": "C",
               "explanation": "Discount = (20/100) x 250 = Rs 50. ----"
@@ -656,7 +708,10 @@
                   "difficulty": "Easy",
                   "question": "To find 10% of Rs 580, we get:",
                   "options": {
-                    "A": "Rs 5.80   (B) Rs 58   (C) Rs 580   (D) Rs 5800"
+                    "A": "Rs 5.80",
+                    "B": "Rs 58",
+                    "C": "Rs 580",
+                    "D": "Rs 5800"
                   },
                   "answer": "B",
                   "explanation": "10% of 580 = (10/100) x 580 = Rs 58."
@@ -666,7 +721,10 @@
                   "difficulty": "Easy",
                   "question": "5% is equal to:",
                   "options": {
-                    "A": "Double of 10%   (B) Half of 10%   (C) One-third of 10%   (D) Same as 10%"
+                    "A": "Double of 10%",
+                    "B": "Half of 10%",
+                    "C": "One-third of 10%",
+                    "D": "Same as 10%"
                   },
                   "answer": "B",
                   "explanation": "5% is half of 10%."
@@ -676,7 +734,10 @@
                   "difficulty": "Medium",
                   "question": "Estimated 15% of Rs 577.80 (rounded to Rs 580) is:",
                   "options": {
-                    "A": "Rs 58   (B) Rs 78   (C) Rs 87   (D) Rs 96"
+                    "A": "Rs 58",
+                    "B": "Rs 78",
+                    "C": "Rs 87",
+                    "D": "Rs 96"
                   },
                   "answer": "C",
                   "explanation": "10% = Rs 58. 5% = Rs 29. 15% = Rs 87."
@@ -686,7 +747,10 @@
                   "difficulty": "Medium",
                   "question": "Estimated 20% of Rs 375 (rounded to Rs 380) is:",
                   "options": {
-                    "A": "Rs 38   (B) Rs 57   (C) Rs 76   (D) Rs 80"
+                    "A": "Rs 38",
+                    "B": "Rs 57",
+                    "C": "Rs 76",
+                    "D": "Rs 80"
                   },
                   "answer": "C",
                   "explanation": "10% = Rs 38. 20% = 2 x Rs 38 = Rs 76."
@@ -696,7 +760,10 @@
                   "difficulty": "Medium",
                   "question": "To find 15% mentally, we calculate:",
                   "options": {
-                    "A": "10% only   (B) 5% only   (C) 10% + 5%   (D) 20% - 10%"
+                    "A": "10% only",
+                    "B": "5% only",
+                    "C": "10% + 5%",
+                    "D": "20% - 10%"
                   },
                   "answer": "C",
                   "explanation": "15% = 10% + 5%. Find 10% first, then add half of it (5%)."
@@ -706,7 +773,10 @@
                   "difficulty": "Hard",
                   "question": "A bill of Rs 750 has 15% discount. Using estimation (round to Rs 750):",
                   "options": {
-                    "A": "Rs 100   (B) Rs 112.50   (C) Rs 115   (D) Rs 120"
+                    "A": "Rs 100",
+                    "B": "Rs 112.50",
+                    "C": "Rs 115",
+                    "D": "Rs 120"
                   },
                   "answer": "B",
                   "explanation": "10% of 750 = Rs 75. 5% = Rs 37.50. 15% = Rs 75 + Rs 37.50 = Rs 112.50."
@@ -853,7 +923,10 @@
               "difficulty": "Easy",
               "question": "GST was introduced in India on:",
               "options": {
-                "A": "April 1, 2016   (B) January 1, 2017   (C) July 1, 2017   (D) March 31, 2018"
+                "A": "April 1, 2016",
+                "B": "January 1, 2017",
+                "C": "July 1, 2017",
+                "D": "March 31, 2018"
               },
               "answer": "C",
               "explanation": "GST was introduced from July 1, 2017."
@@ -863,7 +936,10 @@
               "difficulty": "Easy",
               "question": "An article costs Rs 450 with 5% sales tax. The tax amount is:",
               "options": {
-                "A": "Rs 20   (B) Rs 22.50   (C) Rs 25   (D) Rs 45"
+                "A": "Rs 20",
+                "B": "Rs 22.50",
+                "C": "Rs 25",
+                "D": "Rs 45"
               },
               "answer": "B",
               "explanation": "Tax = (5/100) x 450 = Rs 22.50."
@@ -873,7 +949,10 @@
               "difficulty": "Medium",
               "question": "An item costs Rs 3300 including 10% VAT. The original price is:",
               "options": {
-                "A": "Rs 2900   (B) Rs 3000   (C) Rs 3100   (D) Rs 3200"
+                "A": "Rs 2900",
+                "B": "Rs 3000",
+                "C": "Rs 3100",
+                "D": "Rs 3200"
               },
               "answer": "B",
               "explanation": "Original = (100/110) x 3300 = Rs 3000."
@@ -883,7 +962,10 @@
               "difficulty": "Medium",
               "question": "Sales tax is always charged on:",
               "options": {
-                "A": "Marked Price   (B) Cost Price   (C) Selling Price   (D) Discount"
+                "A": "Marked Price",
+                "B": "Cost Price",
+                "C": "Selling Price",
+                "D": "Discount"
               },
               "answer": "C",
               "explanation": "Sales tax is charged on the selling price."
@@ -893,7 +975,10 @@
               "difficulty": "Hard",
               "question": "Salim bought an article for Rs 784 including 12% GST. Price before GST:",
               "options": {
-                "A": "Rs 650   (B) Rs 680   (C) Rs 700   (D) Rs 720"
+                "A": "Rs 650",
+                "B": "Rs 680",
+                "C": "Rs 700",
+                "D": "Rs 720"
               },
               "answer": "C",
               "explanation": "(100/112) x 784 = Rs 700."
@@ -903,7 +988,10 @@
               "difficulty": "Hard",
               "question": "A hair dryer costs Rs 5,400 including 8% VAT. Price before VAT was:",
               "options": {
-                "A": "Rs 4,800   (B) Rs 5,000   (C) Rs 5,100   (D) Rs 5,200"
+                "A": "Rs 4,800",
+                "B": "Rs 5,000",
+                "C": "Rs 5,100",
+                "D": "Rs 5,200"
               },
               "answer": "B",
               "explanation": "Original = (100/108) x 5400 = Rs 5000."
@@ -1062,7 +1150,10 @@
               "difficulty": "Easy",
               "question": "SI on Rs 10,000 at 15% per annum for 2 years is:",
               "options": {
-                "A": "Rs 1500   (B) Rs 2000   (C) Rs 3000   (D) Rs 3200"
+                "A": "Rs 1500",
+                "B": "Rs 2000",
+                "C": "Rs 3000",
+                "D": "Rs 3200"
               },
               "answer": "C",
               "explanation": "SI = (10000 x 15 x 2)/100 = Rs 3000."
@@ -1072,7 +1163,10 @@
               "difficulty": "Medium",
               "question": "CI on Rs 100 at 10% p.a. for 2 years is:",
               "options": {
-                "A": "Rs 20   (B) Rs 21   (C) Rs 22   (D) Rs 25"
+                "A": "Rs 20",
+                "B": "Rs 21",
+                "C": "Rs 22",
+                "D": "Rs 25"
               },
               "answer": "B",
               "explanation": "Year1: I=10, A=110. Year2: I=11, CI=21."
@@ -1082,7 +1176,10 @@
               "difficulty": "Medium",
               "question": "For the same P, R, T (more than 1 year), which is true?",
               "options": {
-                "A": "SI > CI   (B) SI = CI   (C) SI < CI   (D) Cannot compare"
+                "A": "SI > CI",
+                "B": "SI = CI",
+                "C": "SI < CI",
+                "D": "Cannot compare"
               },
               "answer": "C",
               "explanation": "CI is always more than SI because interest is earned on previous interest."
@@ -1092,7 +1189,10 @@
               "difficulty": "Hard",
               "question": "Heena borrows Rs 20,000 at 8% CI for 2 years. Total CI is:",
               "options": {
-                "A": "Rs 3200   (B) Rs 3328   (C) Rs 3500   (D) Rs 4000"
+                "A": "Rs 3200",
+                "B": "Rs 3328",
+                "C": "Rs 3500",
+                "D": "Rs 4000"
               },
               "answer": "B",
               "explanation": "Year1: I=1600, A=21600. Year2: I=1728. CI=3328."
@@ -1102,7 +1202,10 @@
               "difficulty": "Hard",
               "question": "SI on Rs 5000 at 10% for 2 years is Rs 1000. CI for same values is:",
               "options": {
-                "A": "Rs 1000   (B) Rs 1050   (C) Rs 1100   (D) Rs 1200"
+                "A": "Rs 1000",
+                "B": "Rs 1050",
+                "C": "Rs 1100",
+                "D": "Rs 1200"
               },
               "answer": "B",
               "explanation": "Year1: I=500, A=5500. Year2: I=550. CI = Rs 500+550 = Rs 1050."
@@ -1251,7 +1354,10 @@
               "difficulty": "Easy",
               "question": "CI = _______",
               "options": {
-                "A": "A + P   (B) A - P   (C) P + R   (D) A x n"
+                "A": "A + P",
+                "B": "A - P",
+                "C": "P + R",
+                "D": "A x n"
               },
               "answer": "B",
               "explanation": "CI = Amount - Principal = A - P."
@@ -1261,7 +1367,10 @@
               "difficulty": "Medium",
               "question": "Find A when P = Rs 5000, R = 5%, n = 2 years.",
               "options": {
-                "A": "Rs 5500   (B) Rs 5512.50   (C) Rs 5525   (D) Rs 5600"
+                "A": "Rs 5500",
+                "B": "Rs 5512.50",
+                "C": "Rs 5525",
+                "D": "Rs 5600"
               },
               "answer": "B",
               "explanation": "A = 5000 x (21/20)^2 = 5000 x 441/400 = Rs 5512.50."
@@ -1271,7 +1380,10 @@
               "difficulty": "Medium",
               "question": "CI on Rs 12600 for 2 years at 10% is:",
               "options": {
-                "A": "Rs 2500   (B) Rs 2520   (C) Rs 2646   (D) Rs 2700"
+                "A": "Rs 2500",
+                "B": "Rs 2520",
+                "C": "Rs 2646",
+                "D": "Rs 2700"
               },
               "answer": "C",
               "explanation": "A = 12600 x (11/10)^2 = Rs 15246. CI = 15246 - 12600 = Rs 2646."
@@ -1281,7 +1393,10 @@
               "difficulty": "Hard",
               "question": "A = Rs 8820 for P = Rs 8000, R = 5%, n = 2 years. CI is:",
               "options": {
-                "A": "Rs 720   (B) Rs 800   (C) Rs 820   (D) Rs 840"
+                "A": "Rs 720",
+                "B": "Rs 800",
+                "C": "Rs 820",
+                "D": "Rs 840"
               },
               "answer": "C",
               "explanation": "CI = 8820 - 8000 = Rs 820."
@@ -1291,7 +1406,10 @@
               "difficulty": "Hard",
               "question": "Using A = P(1+R/100)^n, find A for P=Rs 10000, R=10%, n=2.",
               "options": {
-                "A": "Rs 12000   (B) Rs 12100   (C) Rs 12200   (D) Rs 12500"
+                "A": "Rs 12000",
+                "B": "Rs 12100",
+                "C": "Rs 12200",
+                "D": "Rs 12500"
               },
               "answer": "B",
               "explanation": "A = 10000 x (11/10)^2 = 10000 x 121/100 = Rs 12,100."
@@ -1443,8 +1561,10 @@
               "difficulty": "Easy",
               "question": "For depreciation, the formula used is:",
               "options": {
-                "A": "A = P(1 + R/100)^n   (B) A = P(1 - R/100)^n",
-                "C": "A = P - PRT/100       (D) A = P + R/n"
+                "A": "A = P(1 + R/100)^n",
+                "B": "A = P(1 - R/100)^n",
+                "C": "A = P - PRT/100",
+                "D": "A = P + R/n"
               },
               "answer": "B",
               "explanation": "For decrease, minus sign is used."
@@ -1454,7 +1574,10 @@
               "difficulty": "Easy",
               "question": "A TV worth Rs 21,000 depreciates at 5%. Value after 1 year:",
               "options": {
-                "A": "Rs 19,000   (B) Rs 19,500   (C) Rs 19,950   (D) Rs 20,000"
+                "A": "Rs 19,000",
+                "B": "Rs 19,500",
+                "C": "Rs 19,950",
+                "D": "Rs 20,000"
               },
               "answer": "C",
               "explanation": "21000 x (95/100) = Rs 19,950."
@@ -1464,7 +1587,10 @@
               "difficulty": "Medium",
               "question": "Population = 20,000 in 1997. At 5% growth, population in 2000 (end) is:",
               "options": {
-                "A": "Rs 23,000   (B) Rs 23,152   (C) 23,153   (D) Rs 24,000"
+                "A": "Rs 23,000",
+                "B": "Rs 23,152",
+                "C": "23,153",
+                "D": "Rs 24,000"
               },
               "answer": "C",
               "explanation": "3 years. 20000 x (21/20)^3 = 23152.5 = 23153 (approx)."
@@ -1474,7 +1600,10 @@
               "difficulty": "Medium",
               "question": "A machinery worth Rs 10,500 depreciates at 5%. Value after 1 year:",
               "options": {
-                "A": "Rs 9,975   (B) Rs 10,000   (C) Rs 9,500   (D) Rs 9,750"
+                "A": "Rs 9,975",
+                "B": "Rs 10,000",
+                "C": "Rs 9,500",
+                "D": "Rs 9,750"
               },
               "answer": "A",
               "explanation": "10500 x (95/100) = Rs 9975."
@@ -1484,7 +1613,10 @@
               "difficulty": "Hard",
               "question": "City population = 12 lakh. At 4% growth per year, population after 2 years (lakhs):",
               "options": {
-                "A": "12.48   (B) 12.97   (C) 13.00   (D) 12.96"
+                "A": "12.48",
+                "B": "12.97",
+                "C": "13.00",
+                "D": "12.96"
               },
               "answer": "B",
               "explanation": "12 x (26/25)^2 = 12 x 676/625 = 12.9792 approx 12.97 lakh."
@@ -1494,7 +1626,10 @@
               "difficulty": "Hard",
               "question": "A scooter bought at Rs 42,000 depreciates at 8% per annum. Value after 1 year:",
               "options": {
-                "A": "Rs 36,000   (B) Rs 38,000   (C) Rs 38,640   (D) Rs 39,000"
+                "A": "Rs 36,000",
+                "B": "Rs 38,000",
+                "C": "Rs 38,640",
+                "D": "Rs 39,000"
               },
               "answer": "C",
               "explanation": "A = 42000 x (92/100) = Rs 38,640."

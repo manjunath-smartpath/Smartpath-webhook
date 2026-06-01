@@ -47,7 +47,10 @@
           "difficulty": "Easy",
           "question": "The total surface area of a cube of side 3 cm is:",
           "options": {
-            "A": "9 sq.cm   (B) 27 sq.cm   (C) 54 sq.cm   (D) 18 sq.cm"
+            "A": "9 sq.cm",
+            "B": "27 sq.cm",
+            "C": "54 sq.cm",
+            "D": "18 sq.cm"
           },
           "answer": "C",
           "explanation": "TSA = 6l^2 = 6 x 9 = 54 sq.cm."
@@ -57,7 +60,10 @@
           "difficulty": "Easy",
           "question": "Volume is measured in:",
           "options": {
-            "A": "Square units   (B) Linear units   (C) Cubic units   (D) Decimal units"
+            "A": "Square units",
+            "B": "Linear units",
+            "C": "Cubic units",
+            "D": "Decimal units"
           },
           "answer": "C",
           "explanation": "Volume is a 3D measurement, so cubic units (cm^3, m^3) are used."
@@ -67,7 +73,10 @@
           "difficulty": "Medium",
           "question": "A cylinder has r = 7 cm and h = 10 cm. Its total surface area is: (pi = 22/7)",
           "options": {
-            "A": "440 sq.cm   (B) 748 sq.cm   (C) 594 sq.cm   (D) 308 sq.cm"
+            "A": "440 sq.cm",
+            "B": "748 sq.cm",
+            "C": "594 sq.cm",
+            "D": "308 sq.cm"
           },
           "answer": "B",
           "explanation": "TSA = 2*pi*r(r+h) = 2 x (22/7) x 7 x 17 = 44 x 17 = 748 sq.cm."
@@ -77,7 +86,10 @@
           "difficulty": "Medium",
           "question": "1 m^3 is equal to how many litres?",
           "options": {
-            "A": "100   (B) 1000   (C) 10000   (D) 1000000"
+            "A": "100",
+            "B": "1000",
+            "C": "10000",
+            "D": "1000000"
           },
           "answer": "B",
           "explanation": "1 m^3 = 1000000 cm^3 = 1000 L."
@@ -87,7 +99,10 @@
           "difficulty": "Hard",
           "question": "A cuboid has TSA 94 sq.cm, l = 5 cm, b = 4 cm. Its volume is:",
           "options": {
-            "A": "60 cm^3   (B) 94 cm^3   (C) 120 cm^3   (D) 47 cm^3"
+            "A": "60 cm^3",
+            "B": "94 cm^3",
+            "C": "120 cm^3",
+            "D": "47 cm^3"
           },
           "answer": "A",
           "explanation": "TSA=94 => 2(20+4h+5h)=94 => 20+9h=47 => h=3 cm. Volume=5x4x3=60 cm^3."
@@ -97,7 +112,10 @@
           "difficulty": "Hard",
           "question": "A cylindrical tank of r = 1 m and h = 7 m is filled with milk. The quantity of milk in litres is: (pi = 22/7)",
           "options": {
-            "A": "154 L   (B) 22000 L   (C) 15400 L   (D) 22 L"
+            "A": "154 L",
+            "B": "22000 L",
+            "C": "15400 L",
+            "D": "22 L"
           },
           "answer": "B",
           "explanation": "V = (22/7) x 1^2 x 7 = 22 m^3 = 22 x 1000 = 22000 litres."
@@ -200,7 +218,10 @@
               "difficulty": "Easy",
               "question": "The distance around the boundary of a closed plane figure is called:",
               "options": {
-                "A": "Area   (B) Volume   (C) Perimeter   (D) Surface area"
+                "A": "Area",
+                "B": "Volume",
+                "C": "Perimeter",
+                "D": "Surface area"
               },
               "answer": "C",
               "explanation": "Perimeter is the distance around the boundary of a closed plane figure."
@@ -210,7 +231,10 @@
               "difficulty": "Easy",
               "question": "Area is measured in:",
               "options": {
-                "A": "cm   (B) sq.cm   (C) cm^3   (D) km"
+                "A": "cm",
+                "B": "sq.cm",
+                "C": "cm^3",
+                "D": "km"
               },
               "answer": "B",
               "explanation": "Area is a 2D measurement, so it is measured in square units (sq.cm, sq.m)."
@@ -220,7 +244,10 @@
               "difficulty": "Medium",
               "question": "Surface area of a solid is:",
               "options": {
-                "A": "Volume of the solid   (B) Sum of areas of all its faces   (C) Area of the base only   (D) Perimeter of the base"
+                "A": "Volume of the solid",
+                "B": "Sum of areas of all its faces",
+                "C": "Area of the base only",
+                "D": "Perimeter of the base"
               },
               "answer": "B",
               "explanation": "Surface area = sum of areas of all faces of the solid."
@@ -230,7 +257,10 @@
               "difficulty": "Medium",
               "question": "Lateral surface area does NOT include:",
               "options": {
-                "A": "Side faces   (B) Top and bottom faces   (C) Front face   (D) Back face"
+                "A": "Side faces",
+                "B": "Top and bottom faces",
+                "C": "Front face",
+                "D": "Back face"
               },
               "answer": "B",
               "explanation": "Lateral (side) surface area excludes the top and bottom faces."
@@ -240,7 +270,10 @@
               "difficulty": "Hard",
               "question": "Which of the following is a three dimensional solid?",
               "options": {
-                "A": "Triangle   (B) Circle   (C) Cuboid   (D) Trapezium"
+                "A": "Triangle",
+                "B": "Circle",
+                "C": "Cuboid",
+                "D": "Trapezium"
               },
               "answer": "C",
               "explanation": "Cuboid is a 3D solid. Triangle, circle, trapezium are 2D plane figures."
@@ -250,7 +283,10 @@
               "difficulty": "Hard",
               "question": "Which branch of mathematics deals with measurement of geometric figures?",
               "options": {
-                "A": "Algebra   (B) Mensuration   (C) Statistics   (D) Arithmetic"
+                "A": "Algebra",
+                "B": "Mensuration",
+                "C": "Statistics",
+                "D": "Arithmetic"
               },
               "answer": "B",
               "explanation": "Mensuration is the branch that deals with measurement of geometric shapes — length, area, surface area, volume. ----------------------------------------------------------------"
@@ -418,7 +454,10 @@
               "difficulty": "Easy",
               "question": "The area of a trapezium with parallel sides 6 cm and 10 cm and height 4 cm is:",
               "options": {
-                "A": "32 sq.cm   (B) 48 sq.cm   (C) 16 sq.cm   (D) 64 sq.cm"
+                "A": "32 sq.cm",
+                "B": "48 sq.cm",
+                "C": "16 sq.cm",
+                "D": "64 sq.cm"
               },
               "answer": "A",
               "explanation": "Area = (1/2) x 4 x (6 + 10) = 2 x 16 = 32 sq.cm."
@@ -428,7 +467,10 @@
               "difficulty": "Easy",
               "question": "The formula for area of a rhombus is:",
               "options": {
-                "A": "base x height   (B) (1/2) x d1 x d2   (C) (1/2) x h x (a+(B)   (D) side^2"
+                "A": "base x height",
+                "B": "(1/2) x d1 x d2",
+                "C": "(1/2) x h x (a+",
+                "D": "side^2"
               },
               "answer": "B",
               "explanation": "Area of rhombus = (1/2) x d1 x d2, where d1 and d2 are the diagonals."
@@ -438,7 +480,10 @@
               "difficulty": "Medium",
               "question": "The area of a rhombus with diagonals 10 cm and 8 cm is:",
               "options": {
-                "A": "80 sq.cm   (B) 40 sq.cm   (C) 20 sq.cm   (D) 16 sq.cm"
+                "A": "80 sq.cm",
+                "B": "40 sq.cm",
+                "C": "20 sq.cm",
+                "D": "16 sq.cm"
               },
               "answer": "B",
               "explanation": "Area = (1/2) x 10 x 8 = 40 sq.cm."
@@ -448,7 +493,10 @@
               "difficulty": "Medium",
               "question": "A trapezium has area 120 sq.cm, height 8 cm and one parallel side 10 cm. The other parallel side is:",
               "options": {
-                "A": "20 cm   (B) 30 cm   (C) 15 cm   (D) 25 cm"
+                "A": "20 cm",
+                "B": "30 cm",
+                "C": "15 cm",
+                "D": "25 cm"
               },
               "answer": "A",
               "explanation": "120 = (1/2) x 8 x (10 + b) => 120 = 4(10+b) => 30 = 10+b => b = 20 cm."
@@ -458,7 +506,10 @@
               "difficulty": "Hard",
               "question": "A hexagon is divided into two congruent trapeziums by one diagonal. Each trapezium has parallel sides 11 cm and 5 cm with height 4 cm. The area of the hexagon is:",
               "options": {
-                "A": "32 sq.cm   (B) 48 sq.cm   (C) 64 sq.cm   (D) 128 sq.cm"
+                "A": "32 sq.cm",
+                "B": "48 sq.cm",
+                "C": "64 sq.cm",
+                "D": "128 sq.cm"
               },
               "answer": "C",
               "explanation": "Area of one trapezium = (1/2) x 4 x (11+5) = 32 sq.cm. Hexagon = 2 x 32 = 64 sq.cm."
@@ -468,7 +519,10 @@
               "difficulty": "Hard",
               "question": "The diagonal of a quadrilateral is 20 cm. The perpendiculars from the opposite vertices are 6 cm and 9 cm. The area of the quadrilateral is:",
               "options": {
-                "A": "150 sq.cm   (B) 270 sq.cm   (C) 90 sq.cm   (D) 120 sq.cm"
+                "A": "150 sq.cm",
+                "B": "270 sq.cm",
+                "C": "90 sq.cm",
+                "D": "120 sq.cm"
               },
               "answer": "A",
               "explanation": "Area = (1/2) x 20 x (6 + 9) = (1/2) x 20 x 15 = 150 sq.cm. ----------------------------------------------------------------"
@@ -575,7 +629,10 @@
               "difficulty": "Easy",
               "question": "A cuboid has:",
               "options": {
-                "A": "4 faces   (B) 5 faces   (C) 6 faces   (D) 8 faces"
+                "A": "4 faces",
+                "B": "5 faces",
+                "C": "6 faces",
+                "D": "8 faces"
               },
               "answer": "C",
               "explanation": "A cuboid has 6 rectangular faces."
@@ -585,7 +642,10 @@
               "difficulty": "Easy",
               "question": "How many edges does a cube have?",
               "options": {
-                "A": "6   (B) 8   (C) 12   (D) 4"
+                "A": "6",
+                "B": "8",
+                "C": "12",
+                "D": "4"
               },
               "answer": "C",
               "explanation": "A cube has 12 equal edges (4 on top, 4 on bottom, 4 vertical)."
@@ -595,7 +655,10 @@
               "difficulty": "Medium",
               "question": "Which solid has all six identical square faces?",
               "options": {
-                "A": "Cuboid   (B) Cylinder   (C) Cone   (D) Cube"
+                "A": "Cuboid",
+                "B": "Cylinder",
+                "C": "Cone",
+                "D": "Cube"
               },
               "answer": "D",
               "explanation": "A cube has all six faces as identical squares."
@@ -605,7 +668,10 @@
               "difficulty": "Medium",
               "question": "A cylinder has:",
               "options": {
-                "A": "2 flat faces and 1 curved surface   (B) 1 flat face and 1 curved surface   (C) 3 flat faces   (D) 4 curved surfaces"
+                "A": "2 flat faces and 1 curved surface",
+                "B": "1 flat face and 1 curved surface",
+                "C": "3 flat faces",
+                "D": "4 curved surfaces"
               },
               "answer": "A",
               "explanation": "A cylinder has 2 circular flat faces (top and bottom) and 1 curved surface."
@@ -615,7 +681,10 @@
               "difficulty": "Hard",
               "question": "A cube has all edges equal to 5 cm. How many pairs of identical faces does it have?",
               "options": {
-                "A": "1   (B) 3   (C) 6   (D) All 6 faces are identical"
+                "A": "1",
+                "B": "3",
+                "C": "6",
+                "D": "All 6 faces are identical"
               },
               "answer": "D",
               "explanation": "In a cube, all 6 faces are identical squares. So all 6 faces are identical."
@@ -625,7 +694,10 @@
               "difficulty": "Hard",
               "question": "Which of the following statements is TRUE?",
               "options": {
-                "A": "Every cube is a cuboid   (B) Every cuboid is a cube   (C) A cylinder has flat faces only   (D) A cube has 6 vertices"
+                "A": "Every cube is a cuboid",
+                "B": "Every cuboid is a cube",
+                "C": "A cylinder has flat faces only",
+                "D": "A cube has 6 vertices"
               },
               "answer": "A",
               "explanation": "A cube is a special cuboid where l = b = h. So every cube is a cuboid, but not vice versa. ----------------------------------------------------------------"
@@ -724,7 +796,10 @@
               "difficulty": "Easy",
               "question": "The surface area of a solid is found by:",
               "options": {
-                "A": "Adding the volumes of all faces   (B) Adding the areas of all faces   (C) Multiplying l x b x h   (D) Adding all the edges"
+                "A": "Adding the volumes of all faces",
+                "B": "Adding the areas of all faces",
+                "C": "Multiplying l x b x h",
+                "D": "Adding all the edges"
               },
               "answer": "B",
               "explanation": "Surface area = sum of areas of all faces of the solid."
@@ -734,7 +809,10 @@
               "difficulty": "Easy",
               "question": "TSA of a cuboid = ?",
               "options": {
-                "A": "lbh   (B) 2(l+b+h)   (C) 2(lb+bh+hl)   (D) 2h(l+b)"
+                "A": "lbh",
+                "B": "2(l+b+h)",
+                "C": "2(lb+bh+hl)",
+                "D": "2h(l+b)"
               },
               "answer": "C",
               "explanation": "TSA = 2(lb + bh + hl)."
@@ -744,7 +822,10 @@
               "difficulty": "Medium",
               "question": "Lateral surface area of a solid does NOT include:",
               "options": {
-                "A": "Side faces   (B) Front and back faces   (C) Top and bottom faces   (D) Curved surface"
+                "A": "Side faces",
+                "B": "Front and back faces",
+                "C": "Top and bottom faces",
+                "D": "Curved surface"
               },
               "answer": "C",
               "explanation": "Lateral surface area includes only the side faces. Top and bottom are excluded."
@@ -754,7 +835,10 @@
               "difficulty": "Medium",
               "question": "The curved surface area of a cylinder is equal to:",
               "options": {
-                "A": "pi*r^2   (B) 2*pi*r*h   (C) 2*pi*r(r+h)   (D) pi*r^2*h"
+                "A": "pi*r^2",
+                "B": "2*pi*r*h",
+                "C": "2*pi*r(r+h)",
+                "D": "pi*r^2*h"
               },
               "answer": "B",
               "explanation": "CSA = 2*pi*r*h = circumference of base x height."
@@ -764,7 +848,10 @@
               "difficulty": "Hard",
               "question": "We take pi = 22/7 for calculations unless:",
               "options": {
-                "A": "The base is square   (B) Otherwise stated   (C) The solid is a cuboid   (D) The height is given"
+                "A": "The base is square",
+                "B": "Otherwise stated",
+                "C": "The solid is a cuboid",
+                "D": "The height is given"
               },
               "answer": "B",
               "explanation": "pi = 22/7 is used unless otherwise stated in the problem."
@@ -774,7 +861,10 @@
               "difficulty": "Hard",
               "question": "LSA of a cuboid with l = 8 cm, b = 6 cm, h = 4 cm is:",
               "options": {
-                "A": "112 sq.cm   (B) 208 sq.cm   (C) 56 sq.cm   (D) 96 sq.cm"
+                "A": "112 sq.cm",
+                "B": "208 sq.cm",
+                "C": "56 sq.cm",
+                "D": "96 sq.cm"
               },
               "answer": "A",
               "explanation": "LSA = 2h(l+b) = 2 x 4 x (8+6) = 8 x 14 = 112 sq.cm. ----"
@@ -922,7 +1012,10 @@
               "difficulty": "Easy",
               "question": "The total surface area of a cuboid with l = 3 cm, b = 2 cm, h = 1 cm is:",
               "options": {
-                "A": "22 sq.cm   (B) 11 sq.cm   (C) 12 sq.cm   (D) 6 sq.cm"
+                "A": "22 sq.cm",
+                "B": "11 sq.cm",
+                "C": "12 sq.cm",
+                "D": "6 sq.cm"
               },
               "answer": "A",
               "explanation": "TSA = 2(3x2 + 2x1 + 1x3) = 2(6+2+3) = 2x11 = 22 sq.cm."
@@ -932,7 +1025,10 @@
               "difficulty": "Easy",
               "question": "LSA of a cuboid equals:",
               "options": {
-                "A": "Perimeter of base + height   (B) Perimeter of base x height   (C) 2(lb+bh+hl)   (D) lbh"
+                "A": "Perimeter of base + height",
+                "B": "Perimeter of base x height",
+                "C": "2(lb+bh+hl)",
+                "D": "lbh"
               },
               "answer": "B",
               "explanation": "LSA = 2(l+b) x h = perimeter of base x height."
@@ -942,7 +1038,10 @@
               "difficulty": "Medium",
               "question": "Lateral surface area of a cuboid is:",
               "options": {
-                "A": "2(lb + bh + hl)   (B) 2h(l + (B)   (C) lbh   (D) 2(l + b + h)"
+                "A": "2(lb + bh + hl)",
+                "B": "2h(l +",
+                "C": "lbh",
+                "D": "2(l + b + h)"
               },
               "answer": "B",
               "explanation": "LSA = perimeter of base x height = 2(l+b) x h."
@@ -952,7 +1051,10 @@
               "difficulty": "Medium",
               "question": "A cuboid has l = 10 cm, b = 6 cm, h = 4 cm. Its LSA is:",
               "options": {
-                "A": "128 sq.cm   (B) 248 sq.cm   (C) 64 sq.cm   (D) 96 sq.cm"
+                "A": "128 sq.cm",
+                "B": "248 sq.cm",
+                "C": "64 sq.cm",
+                "D": "96 sq.cm"
               },
               "answer": "A",
               "explanation": "LSA = 2 x 4 x (10+6) = 8 x 16 = 128 sq.cm."
@@ -962,7 +1064,10 @@
               "difficulty": "Hard",
               "question": "A cuboid has TSA 94 sq.cm. If l = 5 cm and b = 4 cm, the height is:",
               "options": {
-                "A": "2 cm   (B) 3 cm   (C) 4 cm   (D) 5 cm"
+                "A": "2 cm",
+                "B": "3 cm",
+                "C": "4 cm",
+                "D": "5 cm"
               },
               "answer": "B",
               "explanation": "94 = 2(5x4 + 4xh + hx5) => 47 = 20 + 9h => h = 3 cm."
@@ -972,7 +1077,10 @@
               "difficulty": "Hard",
               "question": "A cuboidal box (8 cm x 5 cm x 3 cm) is to be painted on all faces. The area to be painted is:",
               "options": {
-                "A": "79 sq.cm   (B) 158 sq.cm   (C) 120 sq.cm   (D) 240 sq.cm"
+                "A": "79 sq.cm",
+                "B": "158 sq.cm",
+                "C": "120 sq.cm",
+                "D": "240 sq.cm"
               },
               "answer": "B",
               "explanation": "TSA = 2(8x5 + 5x3 + 3x8) = 2(40+15+24) = 2x79 = 158 sq.cm. ----"
@@ -1092,7 +1200,10 @@
               "difficulty": "Easy",
               "question": "The total surface area of a cube of side 5 cm is:",
               "options": {
-                "A": "25 sq.cm   (B) 125 sq.cm   (C) 150 sq.cm   (D) 30 sq.cm"
+                "A": "25 sq.cm",
+                "B": "125 sq.cm",
+                "C": "150 sq.cm",
+                "D": "30 sq.cm"
               },
               "answer": "C",
               "explanation": "TSA = 6 x 5^2 = 6 x 25 = 150 sq.cm."
@@ -1102,7 +1213,10 @@
               "difficulty": "Easy",
               "question": "TSA of a cube = ?",
               "options": {
-                "A": "4l^2   (B) 6l^2   (C) l^3   (D) 12l"
+                "A": "4l^2",
+                "B": "6l^2",
+                "C": "l^3",
+                "D": "12l"
               },
               "answer": "B",
               "explanation": "A cube has 6 identical square faces, each of area l^2. TSA = 6l^2."
@@ -1112,7 +1226,10 @@
               "difficulty": "Medium",
               "question": "A cube has TSA 54 sq.cm. Its side is:",
               "options": {
-                "A": "3 cm   (B) 6 cm   (C) 9 cm   (D) 27 cm"
+                "A": "3 cm",
+                "B": "6 cm",
+                "C": "9 cm",
+                "D": "27 cm"
               },
               "answer": "A",
               "explanation": "6l^2 = 54 => l^2 = 9 => l = 3 cm."
@@ -1122,7 +1239,10 @@
               "difficulty": "Medium",
               "question": "The lateral surface area of a cube of side 4 cm is:",
               "options": {
-                "A": "16 sq.cm   (B) 64 sq.cm   (C) 96 sq.cm   (D) 48 sq.cm"
+                "A": "16 sq.cm",
+                "B": "64 sq.cm",
+                "C": "96 sq.cm",
+                "D": "48 sq.cm"
               },
               "answer": "B",
               "explanation": "LSA = 4l^2 = 4 x 16 = 64 sq.cm."
@@ -1132,7 +1252,10 @@
               "difficulty": "Hard",
               "question": "If each side of a cube is tripled, its TSA becomes:",
               "options": {
-                "A": "3 times   (B) 6 times   (C) 9 times   (D) 27 times"
+                "A": "3 times",
+                "B": "6 times",
+                "C": "9 times",
+                "D": "27 times"
               },
               "answer": "C",
               "explanation": "New TSA = 6(3l)^2 = 6 x 9l^2 = 9 x 6l^2 = 9 times original."
@@ -1142,7 +1265,10 @@
               "difficulty": "Hard",
               "question": "A cube has TSA 384 sq.cm. Its side is:",
               "options": {
-                "A": "6 cm   (B) 8 cm   (C) 10 cm   (D) 12 cm"
+                "A": "6 cm",
+                "B": "8 cm",
+                "C": "10 cm",
+                "D": "12 cm"
               },
               "answer": "B",
               "explanation": "6l^2 = 384 => l^2 = 64 => l = 8 cm. ----"
@@ -1278,7 +1404,10 @@
               "difficulty": "Easy",
               "question": "The curved surface area of a cylinder with r = 7 cm and h = 5 cm is: (pi = 22/7)",
               "options": {
-                "A": "110 sq.cm   (B) 220 sq.cm   (C) 154 sq.cm   (D) 440 sq.cm"
+                "A": "110 sq.cm",
+                "B": "220 sq.cm",
+                "C": "154 sq.cm",
+                "D": "440 sq.cm"
               },
               "answer": "B",
               "explanation": "CSA = 2 x (22/7) x 7 x 5 = 2 x 22 x 5 = 220 sq.cm."
@@ -1288,7 +1417,10 @@
               "difficulty": "Easy",
               "question": "CSA of cylinder = ?",
               "options": {
-                "A": "pi*r^2   (B) 2*pi*r*h   (C) 2*pi*r(r+h)   (D) pi*r^2*h"
+                "A": "pi*r^2",
+                "B": "2*pi*r*h",
+                "C": "2*pi*r(r+h)",
+                "D": "pi*r^2*h"
               },
               "answer": "B",
               "explanation": "CSA = 2*pi*r*h = circumference x height."
@@ -1298,7 +1430,10 @@
               "difficulty": "Medium",
               "question": "Total surface area of a cylinder is:",
               "options": {
-                "A": "pi*r^2*h   (B) 2*pi*r*h   (C) 2*pi*r(r + h)   (D) 2(pi*r^2 + h)"
+                "A": "pi*r^2*h",
+                "B": "2*pi*r*h",
+                "C": "2*pi*r(r + h)",
+                "D": "2(pi*r^2 + h)"
               },
               "answer": "C",
               "explanation": "TSA = 2*pi*r^2 + 2*pi*r*h = 2*pi*r(r + h)."
@@ -1308,7 +1443,10 @@
               "difficulty": "Medium",
               "question": "A cylinder has r = 14 cm and h = 20 cm. Its curved surface area is: (pi = 22/7)",
               "options": {
-                "A": "1760 sq.cm   (B) 880 sq.cm   (C) 3080 sq.cm   (D) 440 sq.cm"
+                "A": "1760 sq.cm",
+                "B": "880 sq.cm",
+                "C": "3080 sq.cm",
+                "D": "440 sq.cm"
               },
               "answer": "A",
               "explanation": "CSA = 2 x (22/7) x 14 x 20 = 2 x 22 x 2 x 20 = 1760 sq.cm."
@@ -1318,7 +1456,10 @@
               "difficulty": "Hard",
               "question": "If the radius of a cylinder is halved and height is doubled, its CSA:",
               "options": {
-                "A": "Doubles   (B) Halves   (C) Remains the same   (D) Becomes 4 times"
+                "A": "Doubles",
+                "B": "Halves",
+                "C": "Remains the same",
+                "D": "Becomes 4 times"
               },
               "answer": "C",
               "explanation": "New CSA = 2*pi*(r/2)*(2h) = 2*pi*r*h. Same as original."
@@ -1328,7 +1469,10 @@
               "difficulty": "Hard",
               "question": "A cylinder has TSA 968 sq.cm and r = 7 cm. Its height is: (pi = 22/7)",
               "options": {
-                "A": "10 cm   (B) 12 cm   (C) 15 cm   (D) 22 cm"
+                "A": "10 cm",
+                "B": "12 cm",
+                "C": "15 cm",
+                "D": "22 cm"
               },
               "answer": "C",
               "explanation": "2 x (22/7) x 7 x (7+h) = 968 => 44(7+h) = 968 => 7+h = 22 => h = 15 cm. ----------------------------------------------------------------"
@@ -1428,7 +1572,10 @@
               "difficulty": "Easy",
               "question": "Volume is measured in:",
               "options": {
-                "A": "Square units   (B) Cubic units   (C) Linear units   (D) Decimal units"
+                "A": "Square units",
+                "B": "Cubic units",
+                "C": "Linear units",
+                "D": "Decimal units"
               },
               "answer": "B",
               "explanation": "Volume is a 3D measurement, so cubic units (cm^3, m^3) are used."
@@ -1438,7 +1585,10 @@
               "difficulty": "Easy",
               "question": "Volume of a cuboid = ?",
               "options": {
-                "A": "l + b + h   (B) 2(lb+bh+hl)   (C) l x b x h   (D) (1/2) x l x b x h"
+                "A": "l + b + h",
+                "B": "2(lb+bh+hl)",
+                "C": "l x b x h",
+                "D": "(1/2) x l x b x h"
               },
               "answer": "C",
               "explanation": "Volume of cuboid = l x b x h."
@@ -1448,7 +1598,10 @@
               "difficulty": "Medium",
               "question": "1 cubic metre = _______ cubic centimetres.",
               "options": {
-                "A": "100   (B) 10000   (C) 1000   (D) 1000000"
+                "A": "100",
+                "B": "10000",
+                "C": "1000",
+                "D": "1000000"
               },
               "answer": "D",
               "explanation": "1 m^3 = 100 x 100 x 100 cm^3 = 1000000 cm^3."
@@ -1458,7 +1611,10 @@
               "difficulty": "Medium",
               "question": "Volume of a cylinder is:",
               "options": {
-                "A": "2*pi*r*h   (B) pi*r^2   (C) pi*r^2*h   (D) 2*pi*r(r+h)"
+                "A": "2*pi*r*h",
+                "B": "pi*r^2",
+                "C": "pi*r^2*h",
+                "D": "2*pi*r(r+h)"
               },
               "answer": "C",
               "explanation": "Volume of cylinder = pi*r^2*h = area of circular base x height."
@@ -1468,7 +1624,10 @@
               "difficulty": "Hard",
               "question": "The volume of a solid is found by:",
               "options": {
-                "A": "Counting unit cubes inside   (B) Adding all face areas   (C) Perimeter of base   (D) Sum of edges"
+                "A": "Counting unit cubes inside",
+                "B": "Adding all face areas",
+                "C": "Perimeter of base",
+                "D": "Sum of edges"
               },
               "answer": "A",
               "explanation": "Volume = number of unit cubes that fit inside = l x b x h."
@@ -1478,7 +1637,10 @@
               "difficulty": "Hard",
               "question": "A cuboid has volume 360 cm^3, l = 12 cm, b = 5 cm. Its height is:",
               "options": {
-                "A": "4 cm   (B) 5 cm   (C) 6 cm   (D) 3 cm"
+                "A": "4 cm",
+                "B": "5 cm",
+                "C": "6 cm",
+                "D": "3 cm"
               },
               "answer": "C",
               "explanation": "h = V/(l x b) = 360/(12 x 5) = 360/60 = 6 cm. ----"
@@ -1608,7 +1770,10 @@
               "difficulty": "Easy",
               "question": "Volume of a cuboid with l = 4 cm, b = 3 cm, h = 2 cm is:",
               "options": {
-                "A": "9 cm^3   (B) 18 cm^3   (C) 24 cm^3   (D) 48 cm^3"
+                "A": "9 cm^3",
+                "B": "18 cm^3",
+                "C": "24 cm^3",
+                "D": "48 cm^3"
               },
               "answer": "C",
               "explanation": "V = 4 x 3 x 2 = 24 cm^3."
@@ -1618,7 +1783,10 @@
               "difficulty": "Easy",
               "question": "Volume of cuboid = ?",
               "options": {
-                "A": "TSA   (B) l x b x h   (C) 2(l+b+h)   (D) l + b + h"
+                "A": "TSA",
+                "B": "l x b x h",
+                "C": "2(l+b+h)",
+                "D": "l + b + h"
               },
               "answer": "B",
               "explanation": "Volume = l x b x h."
@@ -1628,7 +1796,10 @@
               "difficulty": "Medium",
               "question": "If volume of a cuboid is 360 cm^3 and base area is 60 sq.cm, the height is:",
               "options": {
-                "A": "5 cm   (B) 6 cm   (C) 4 cm   (D) 3 cm"
+                "A": "5 cm",
+                "B": "6 cm",
+                "C": "4 cm",
+                "D": "3 cm"
               },
               "answer": "B",
               "explanation": "Height = 360/60 = 6 cm."
@@ -1638,7 +1809,10 @@
               "difficulty": "Medium",
               "question": "A cuboid has l = 8 cm, b = 5 cm, h = 3 cm. Its volume is:",
               "options": {
-                "A": "16 cm^3   (B) 120 cm^3   (C) 79 cm^3   (D) 158 cm^3"
+                "A": "16 cm^3",
+                "B": "120 cm^3",
+                "C": "79 cm^3",
+                "D": "158 cm^3"
               },
               "answer": "B",
               "explanation": "V = 8 x 5 x 3 = 120 cm^3."
@@ -1648,7 +1822,10 @@
               "difficulty": "Hard",
               "question": "Volume of a cuboid is equal to:",
               "options": {
-                "A": "Perimeter of base x height   (B) Area of base x height   (C) 2(lb + bh + hl)   (D) Area of base + height"
+                "A": "Perimeter of base x height",
+                "B": "Area of base x height",
+                "C": "2(lb + bh + hl)",
+                "D": "Area of base + height"
               },
               "answer": "B",
               "explanation": "Volume = l x b x h = Area of base x height."
@@ -1658,7 +1835,10 @@
               "difficulty": "Hard",
               "question": "A godown (10 m x 8 m x 5 m) stores boxes of volume 0.5 m^3 each. How many boxes fit?",
               "options": {
-                "A": "400   (B) 800   (C) 1600   (D) 200"
+                "A": "400",
+                "B": "800",
+                "C": "1600",
+                "D": "200"
               },
               "answer": "B",
               "explanation": "Volume of godown = 10 x 8 x 5 = 400 m^3. Boxes = 400/0.5 = 800. ----"
@@ -1772,7 +1952,10 @@
               "difficulty": "Easy",
               "question": "Volume of a cube of side 3 cm is:",
               "options": {
-                "A": "9 cm^3   (B) 27 cm^3   (C) 18 cm^3   (D) 54 cm^3"
+                "A": "9 cm^3",
+                "B": "27 cm^3",
+                "C": "18 cm^3",
+                "D": "54 cm^3"
               },
               "answer": "B",
               "explanation": "V = 3^3 = 27 cm^3."
@@ -1782,7 +1965,10 @@
               "difficulty": "Easy",
               "question": "Volume of cube = ?",
               "options": {
-                "A": "6l^2   (B) 4l^2   (C) l^3   (D) l^2"
+                "A": "6l^2",
+                "B": "4l^2",
+                "C": "l^3",
+                "D": "l^2"
               },
               "answer": "C",
               "explanation": "Volume = l x l x l = l^3."
@@ -1792,7 +1978,10 @@
               "difficulty": "Medium",
               "question": "If each side of a cube is tripled, the volume becomes:",
               "options": {
-                "A": "3 times   (B) 9 times   (C) 27 times   (D) 6 times"
+                "A": "3 times",
+                "B": "9 times",
+                "C": "27 times",
+                "D": "6 times"
               },
               "answer": "C",
               "explanation": "New volume = (3l)^3 = 27l^3. Volume becomes 27 times."
@@ -1802,7 +1991,10 @@
               "difficulty": "Medium",
               "question": "A cube has volume 125 cm^3. Its side is:",
               "options": {
-                "A": "5 cm   (B) 25 cm   (C) 3 cm   (D) 10 cm"
+                "A": "5 cm",
+                "B": "25 cm",
+                "C": "3 cm",
+                "D": "10 cm"
               },
               "answer": "A",
               "explanation": "l^3 = 125 => l = 5 cm (since 5^3 = 125)."
@@ -1812,7 +2004,10 @@
               "difficulty": "Hard",
               "question": "Volume of a cube is 512 cm^3. Its side is:",
               "options": {
-                "A": "6 cm   (B) 7 cm   (C) 8 cm   (D) 9 cm"
+                "A": "6 cm",
+                "B": "7 cm",
+                "C": "8 cm",
+                "D": "9 cm"
               },
               "answer": "C",
               "explanation": "l^3 = 512 => l = 8 cm (since 8^3 = 512)."
@@ -1822,7 +2017,10 @@
               "difficulty": "Hard",
               "question": "If each side of a cube is halved, the volume becomes:",
               "options": {
-                "A": "Half   (B) 1/4 th   (C) 1/8 th   (D) 1/6 th"
+                "A": "Half",
+                "B": "1/4 th",
+                "C": "1/8 th",
+                "D": "1/6 th"
               },
               "answer": "C",
               "explanation": "New V = (l/2)^3 = l^3/8. Volume becomes 1/8 th. ----"
@@ -1952,7 +2150,10 @@
               "difficulty": "Easy",
               "question": "Volume of a cylinder with r = 7 cm and h = 10 cm is: (pi = 22/7)",
               "options": {
-                "A": "1540 cm^3   (B) 770 cm^3   (C) 3080 cm^3   (D) 308 cm^3"
+                "A": "1540 cm^3",
+                "B": "770 cm^3",
+                "C": "3080 cm^3",
+                "D": "308 cm^3"
               },
               "answer": "A",
               "explanation": "V = (22/7) x 49 x 10 = 1540 cm^3."
@@ -1962,7 +2163,10 @@
               "difficulty": "Easy",
               "question": "Volume of cylinder = ?",
               "options": {
-                "A": "2*pi*r*h   (B) pi*r^2*h   (C) pi*r^2   (D) 2*pi*r(r+h)"
+                "A": "2*pi*r*h",
+                "B": "pi*r^2*h",
+                "C": "pi*r^2",
+                "D": "2*pi*r(r+h)"
               },
               "answer": "B",
               "explanation": "Volume = pi*r^2*h = area of circular base x height."
@@ -1972,7 +2176,10 @@
               "difficulty": "Medium",
               "question": "Volume of a cylinder is:",
               "options": {
-                "A": "2*pi*r*h   (B) pi*r*h   (C) pi*r^2*h   (D) 2*pi*r^2*h"
+                "A": "2*pi*r*h",
+                "B": "pi*r*h",
+                "C": "pi*r^2*h",
+                "D": "2*pi*r^2*h"
               },
               "answer": "C",
               "explanation": "Volume = pi*r^2*h."
@@ -1982,7 +2189,10 @@
               "difficulty": "Medium",
               "question": "A cylindrical tank of r = 7 m, h = 3 m. Its capacity in litres is: (pi = 22/7)",
               "options": {
-                "A": "462 L   (B) 4620 L   (C) 462000 L   (D) 46200 L"
+                "A": "462 L",
+                "B": "4620 L",
+                "C": "462000 L",
+                "D": "46200 L"
               },
               "answer": "C",
               "explanation": "V = (22/7) x 49 x 3 = 462 m^3 = 462 x 1000 = 462000 L."
@@ -1992,7 +2202,10 @@
               "difficulty": "Hard",
               "question": "A cylinder has volume 770 cm^3 and radius 7 cm. Its height is: (pi = 22/7)",
               "options": {
-                "A": "4 cm   (B) 5 cm   (C) 6 cm   (D) 7 cm"
+                "A": "4 cm",
+                "B": "5 cm",
+                "C": "6 cm",
+                "D": "7 cm"
               },
               "answer": "B",
               "explanation": "770 = (22/7) x 49 x h => 770 = 154h => h = 5 cm."
@@ -2002,7 +2215,10 @@
               "difficulty": "Hard",
               "question": "A cylindrical well of r = 1.4 m and h = 10 m. Volume of earth dug is: (pi = 22/7)",
               "options": {
-                "A": "44 m^3   (B) 61.6 m^3   (C) 88 m^3   (D) 30.8 m^3"
+                "A": "44 m^3",
+                "B": "61.6 m^3",
+                "C": "88 m^3",
+                "D": "30.8 m^3"
               },
               "answer": "B",
               "explanation": "V = (22/7) x 1.4^2 x 10 = (22/7) x 1.96 x 10 = 22 x 0.28 x 10 = 61.6 m^3. ----------------------------------------------------------------"
@@ -2127,7 +2343,10 @@
               "difficulty": "Easy",
               "question": "1 litre is equal to:",
               "options": {
-                "A": "100 cm^3   (B) 1000 cm^3   (C) 10 cm^3   (D) 10000 cm^3"
+                "A": "100 cm^3",
+                "B": "1000 cm^3",
+                "C": "10 cm^3",
+                "D": "10000 cm^3"
               },
               "answer": "B",
               "explanation": "1 L = 1000 mL = 1000 cm^3."
@@ -2137,7 +2356,10 @@
               "difficulty": "Easy",
               "question": "1 mL = ?",
               "options": {
-                "A": "1 L   (B) 1 cm^3   (C) 1 m^3   (D) 10 cm^3"
+                "A": "1 L",
+                "B": "1 cm^3",
+                "C": "1 m^3",
+                "D": "10 cm^3"
               },
               "answer": "B",
               "explanation": "1 mL = 1 cm^3. This is the basic capacity-volume link."
@@ -2147,7 +2369,10 @@
               "difficulty": "Medium",
               "question": "1 m^3 = _______ litres.",
               "options": {
-                "A": "100   (B) 10000   (C) 1000   (D) 100000"
+                "A": "100",
+                "B": "10000",
+                "C": "1000",
+                "D": "100000"
               },
               "answer": "C",
               "explanation": "1 m^3 = 1000000 cm^3 = 1000 L."
@@ -2157,7 +2382,10 @@
               "difficulty": "Medium",
               "question": "Volume refers to:",
               "options": {
-                "A": "Area of surface   (B) Amount of space an object occupies   (C) Weight of the object   (D) Quantity a container holds"
+                "A": "Area of surface",
+                "B": "Amount of space an object occupies",
+                "C": "Weight of the object",
+                "D": "Quantity a container holds"
               },
               "answer": "B",
               "explanation": "Volume = space occupied. Capacity = how much a container holds."
@@ -2167,7 +2395,10 @@
               "difficulty": "Hard",
               "question": "A tank holds 50 m^3 of water. Its capacity in litres is:",
               "options": {
-                "A": "5000 L   (B) 50000 L   (C) 500 L   (D) 500000 L"
+                "A": "5000 L",
+                "B": "50000 L",
+                "C": "500 L",
+                "D": "500000 L"
               },
               "answer": "B",
               "explanation": "50 m^3 = 50 x 1000 L = 50,000 L."
@@ -2177,7 +2408,10 @@
               "difficulty": "Hard",
               "question": "A cuboidal tank (3 m x 2 m x h) has capacity 12000 litres. Find h.",
               "options": {
-                "A": "1 m   (B) 2 m   (C) 3 m   (D) 4 m"
+                "A": "1 m",
+                "B": "2 m",
+                "C": "3 m",
+                "D": "4 m"
               },
               "answer": "B",
               "explanation": "12000 L = 12 m^3. V = 3 x 2 x h = 12 => 6h = 12 => h = 2 m."

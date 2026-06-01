@@ -54,7 +54,10 @@
           "difficulty": "Easy",
           "question": "The Cartesian system is named after:",
           "options": {
-            "A": "Isaac Newton   (B) Rene Descartes   (C) Euclid   (D) Pythagoras"
+            "A": "Isaac Newton",
+            "B": "Rene Descartes",
+            "C": "Euclid",
+            "D": "Pythagoras"
           },
           "answer": "B",
           "explanation": "Named in honour of French mathematician Rene Descartes (1596-1650)."
@@ -64,7 +67,10 @@
           "difficulty": "Easy",
           "question": "How many pieces of information are needed to locate a point in a plane?",
           "options": {
-            "A": "One   (B) Two   (C) Three   (D) Four"
+            "A": "One",
+            "B": "Two",
+            "C": "Three",
+            "D": "Four"
           },
           "answer": "B",
           "explanation": "A plane is two-dimensional, so two independent pieces of information are needed."
@@ -74,7 +80,10 @@
           "difficulty": "Medium",
           "question": "The point (4, −7) lies in which quadrant?",
           "options": {
-            "A": "Quadrant I   (B) Quadrant II   (C) Quadrant III   (D) Quadrant IV"
+            "A": "Quadrant I",
+            "B": "Quadrant II",
+            "C": "Quadrant III",
+            "D": "Quadrant IV"
           },
           "answer": "D",
           "explanation": "x = +4 (positive), y = −7 (negative). Signs (+, −) = Quadrant IV."
@@ -84,7 +93,10 @@
           "difficulty": "Medium",
           "question": "A point P has abscissa −5 and ordinate 3. The coordinates of P are:",
           "options": {
-            "A": "(3, −5)   (B) (−5, 3)   (C) (5, 3)   (D) (5, −3)"
+            "A": "(3, −5)",
+            "B": "(−5, 3)",
+            "C": "(5, 3)",
+            "D": "(5, −3)"
           },
           "answer": "B",
           "explanation": "Abscissa = x-coordinate = −5. Ordinate = y-coordinate = 3."
@@ -94,7 +106,10 @@
           "difficulty": "Hard",
           "question": "How many of the following points lie on the y-axis? (2, 0), (0, −3), (0, 5), (4, 0), (0, 0)",
           "options": {
-            "A": "2   (B) 3   (C) 4   (D) 5"
+            "A": "2",
+            "B": "3",
+            "C": "4",
+            "D": "5"
           },
           "answer": "B",
           "explanation": "Points with x = 0 lie on y-axis: (0,−3), (0,5), (0,0) = 3 points."
@@ -240,7 +255,10 @@
               "difficulty": "Easy",
               "question": "To locate a point on a NUMBER LINE, how many pieces of information are needed?",
               "options": {
-                "A": "One   (B) Two   (C) Three   (D) Zero"
+                "A": "One",
+                "B": "Two",
+                "C": "Three",
+                "D": "Zero"
               },
               "answer": "A",
               "explanation": "A number line is one-dimensional, so only one distance from the origin is needed."
@@ -250,7 +268,10 @@
               "difficulty": "Easy",
               "question": "In a seating plan, a student sits in the 3rd column and 5th row. Her position is:",
               "options": {
-                "A": "(5, 3)   (B) (3, 5)   (C) (8, 8)   (D) (15, 15)"
+                "A": "(5, 3)",
+                "B": "(3, 5)",
+                "C": "(8, 8)",
+                "D": "(15, 15)"
               },
               "answer": "B",
               "explanation": "Column number is written first, row number second. So 3rd column, 5th row = (3, 5)."
@@ -260,7 +281,10 @@
               "difficulty": "Easy",
               "question": "The Cartesian system was developed as a branch of:",
               "options": {
-                "A": "Trigonometry   (B) Algebra   (C) Coordinate Geometry   (D) Statistics"
+                "A": "Trigonometry",
+                "B": "Algebra",
+                "C": "Coordinate Geometry",
+                "D": "Statistics"
               },
               "answer": "C",
               "explanation": "Descartes' work of locating points using two perpendicular axes gave birth to Coordinate Geometry."
@@ -270,8 +294,10 @@
               "difficulty": "Medium",
               "question": "In the Seating Plan activity, position (5, 3) means:",
               "options": {
-                "A": "5th row, 3rd column   (B) 5th column, 3rd row",
-                "C": "5th column, 5th row   (D) 3rd column, 3rd row"
+                "A": "5th row, 3rd column",
+                "B": "5th column, 3rd row",
+                "C": "5th column, 5th row",
+                "D": "3rd column, 3rd row"
               },
               "answer": "B",
               "explanation": "The first number = column, second number = row."
@@ -281,7 +307,10 @@
               "difficulty": "Medium",
               "question": "A dot is placed on paper. Its position is \"5 cm from left edge and 9 cm from the bottom.\" What is the ordered pair for this position?",
               "options": {
-                "A": "(9, 5)   (B) (5, 9)   (C) (14, 14)   (D) (5, 0)"
+                "A": "(9, 5)",
+                "B": "(5, 9)",
+                "C": "(14, 14)",
+                "D": "(5, 0)"
               },
               "answer": "B",
               "explanation": "Horizontal (left edge) = 5 written first, vertical (bottom) = 9 second."
@@ -291,8 +320,10 @@
               "difficulty": "Medium",
               "question": "In a street plan, cross-street (4, 3) and cross-street (3, 4) are:",
               "options": {
-                "A": "The same crossing   (B) Two different crossings",
-                "C": "Both on main road   (D) Not possible to locate"
+                "A": "The same crossing",
+                "B": "Two different crossings",
+                "C": "Both on main road",
+                "D": "Not possible to locate"
               },
               "answer": "B",
               "explanation": "Order matters in coordinate pairs. (4, 3) ≠ (3, 4)."
@@ -302,7 +333,10 @@
               "difficulty": "Medium",
               "question": "In Exercise 3.1 Street Plan, how many cross-streets can be labelled as (4, 3)?",
               "options": {
-                "A": "Zero   (B) One   (C) Two   (D) Four"
+                "A": "Zero",
+                "B": "One",
+                "C": "Two",
+                "D": "Four"
               },
               "answer": "B",
               "explanation": "There is only one crossing of the 4th N-S street and 3rd E-W street."
@@ -312,7 +346,10 @@
               "difficulty": "Hard",
               "question": "In a classroom with 10 columns and 7 rows, how many different seat positions exist?",
               "options": {
-                "A": "17   (B) 70   (C) 35   (D) 10"
+                "A": "17",
+                "B": "70",
+                "C": "35",
+                "D": "10"
               },
               "answer": "B",
               "explanation": "Total = 10 × 7 = 70. Each position is a unique ordered pair (col, row)."
@@ -322,8 +359,10 @@
               "difficulty": "Hard",
               "question": "Rene Descartes' method was a development of which older concept?",
               "options": {
-                "A": "The number line   (B) Euclidean geometry",
-                "C": "Latitude and longitude   (D) Pythagorean theorem"
+                "A": "The number line",
+                "B": "Euclidean geometry",
+                "C": "Latitude and longitude",
+                "D": "Pythagorean theorem"
               },
               "answer": "C",
               "explanation": "Textbook states Descartes' method was a development of the older idea of latitude and longitude."
@@ -333,7 +372,10 @@
               "difficulty": "Hard",
               "question": "If a city has 5 streets running North-South and 5 streets running East-West, how many distinct cross-streets are there?",
               "options": {
-                "A": "10   (B) 20   (C) 25   (D) 50"
+                "A": "10",
+                "B": "20",
+                "C": "25",
+                "D": "50"
               },
               "answer": "C",
               "explanation": "5 × 5 = 25. Each of the 5 N-S streets crosses each of the 5 E-W streets exactly once, giving 25 unique (x, y) pairs."
@@ -343,7 +385,10 @@
               "difficulty": "Hard",
               "question": "A student says: \"To describe any position in a plane, one reference line is enough.\" This statement is:",
               "options": {
-                "A": "Always true   (B) Sometimes true   (C) False   (D) True only for vertical lines"
+                "A": "Always true",
+                "B": "Sometimes true",
+                "C": "False",
+                "D": "True only for vertical lines"
               },
               "answer": "C",
               "explanation": "One line gives only 1D information. A plane is 2D — always need two perpendicular reference lines."
@@ -353,8 +398,10 @@
               "difficulty": "Hard",
               "question": "In Exercise 3.1 Q2, are the cross-streets (4, 3) and (3, 4) the same or different? What is the total number of unique cross-streets with 5 streets in each direction?",
               "options": {
-                "A": "Same; 10 total   (B) Different; 25 total",
-                "C": "Same; 25 total   (D) Different; 10 total"
+                "A": "Same; 10 total",
+                "B": "Different; 25 total",
+                "C": "Same; 25 total",
+                "D": "Different; 10 total"
               },
               "answer": "B",
               "explanation": "(4,3) and (3,4) are different (order matters). Total = 5 × 5 = 25."
@@ -526,7 +573,10 @@
               "difficulty": "Easy",
               "question": "The horizontal line in the Cartesian plane is called:",
               "options": {
-                "A": "y-axis   (B) x-axis   (C) z-axis   (D) ordinate axis"
+                "A": "y-axis",
+                "B": "x-axis",
+                "C": "z-axis",
+                "D": "ordinate axis"
               },
               "answer": "B",
               "explanation": "The horizontal number line in the Cartesian plane is the x-axis."
@@ -536,7 +586,10 @@
               "difficulty": "Easy",
               "question": "The coordinates of the origin are:",
               "options": {
-                "A": "(1, 1)   (B) (0, 1)   (C) (1, 0)   (D) (0, 0)"
+                "A": "(1, 1)",
+                "B": "(0, 1)",
+                "C": "(1, 0)",
+                "D": "(0, 0)"
               },
               "answer": "D",
               "explanation": "Origin has zero distance from both axes, so coordinates are (0, 0)."
@@ -546,7 +599,10 @@
               "difficulty": "Easy",
               "question": "A point on the x-axis has its y-coordinate equal to:",
               "options": {
-                "A": "1   (B) −1   (C) 0   (D) Any value"
+                "A": "1",
+                "B": "−1",
+                "C": "0",
+                "D": "Any value"
               },
               "answer": "C",
               "explanation": "Every point on the x-axis has no perpendicular distance from x-axis, so ordinate = 0 always."
@@ -556,7 +612,10 @@
               "difficulty": "Easy",
               "question": "Quadrants are numbered in which direction starting from the positive x-axis?",
               "options": {
-                "A": "Clockwise   (B) Anticlockwise   (C) Horizontal   (D) Vertical"
+                "A": "Clockwise",
+                "B": "Anticlockwise",
+                "C": "Horizontal",
+                "D": "Vertical"
               },
               "answer": "B",
               "explanation": "Quadrants I, II, III, IV are numbered anticlockwise from OX."
@@ -566,7 +625,10 @@
               "difficulty": "Easy",
               "question": "The x-coordinate of a point is also called:",
               "options": {
-                "A": "Ordinate   (B) Abscissa   (C) Origin   (D) Quadrant"
+                "A": "Ordinate",
+                "B": "Abscissa",
+                "C": "Origin",
+                "D": "Quadrant"
               },
               "answer": "B",
               "explanation": "x-coordinate = abscissa = perpendicular distance from y-axis."
@@ -576,7 +638,10 @@
               "difficulty": "Medium",
               "question": "In Example 3.2.1 (Fig. 3.11), the coordinates of point M are:",
               "options": {
-                "A": "(3, 4)   (B) (−3, 4)   (C) (3, −4)   (D) (−3, −4)"
+                "A": "(3, 4)",
+                "B": "(−3, 4)",
+                "C": "(3, −4)",
+                "D": "(−3, −4)"
               },
               "answer": "B",
               "explanation": "M is 3 units to the left of y-axis (x = −3) and 4 units above x-axis (y = 4). So M = (−3, 4)."
@@ -586,7 +651,10 @@
               "difficulty": "Medium",
               "question": "The point (4, −7) lies in which quadrant?",
               "options": {
-                "A": "Quadrant I   (B) Quadrant II   (C) Quadrant III   (D) Quadrant IV"
+                "A": "Quadrant I",
+                "B": "Quadrant II",
+                "C": "Quadrant III",
+                "D": "Quadrant IV"
               },
               "answer": "D",
               "explanation": "x = +4 (positive), y = −7 (negative). Signs (+, −) = Quadrant IV."
@@ -596,7 +664,10 @@
               "difficulty": "Medium",
               "question": "A point lies in Quadrant II. Which of the following could be its coordinates?",
               "options": {
-                "A": "(3, 5)   (B) (−3, −5)   (C) (−3, 5)   (D) (3, −5)"
+                "A": "(3, 5)",
+                "B": "(−3, −5)",
+                "C": "(−3, 5)",
+                "D": "(3, −5)"
               },
               "answer": "C",
               "explanation": "Quadrant II has signs (−, +). x negative, y positive. (−3, 5) matches."
@@ -606,7 +677,10 @@
               "difficulty": "Medium",
               "question": "In Exercise 3.2.2 (Fig. 3.14), the coordinates of point C are:",
               "options": {
-                "A": "(5, −5)   (B) (−5, 5)   (C) (6, −5)   (D) (−6, 5)"
+                "A": "(5, −5)",
+                "B": "(−5, 5)",
+                "C": "(6, −5)",
+                "D": "(−6, 5)"
               },
               "answer": "C",
               "explanation": "C is 6 units to the right of y-axis (x = 6) and 5 units below x-axis (y = −5). So C = (6, −5)."
@@ -616,7 +690,10 @@
               "difficulty": "Hard",
               "question": "How many of the following points lie on the y-axis? (2, 0), (0, −3), (0, 5), (4, 0), (0, 0)",
               "options": {
-                "A": "2   (B) 3   (C) 4   (D) 5"
+                "A": "2",
+                "B": "3",
+                "C": "4",
+                "D": "5"
               },
               "answer": "B",
               "explanation": "Points on y-axis have x = 0: (0,−3), (0,5), (0,0) = 3 points. (2,0) and (4,0) have y = 0, so they lie on x-axis."
@@ -639,7 +716,10 @@
               "difficulty": "Hard",
               "question": "A point P is 5 units from the y-axis in the negative direction and 2 units from the x-axis in the positive direction. The coordinates of P are:",
               "options": {
-                "A": "(5, 2)   (B) (2, −5)   (C) (−5, 2)   (D) (−2, 5)"
+                "A": "(5, 2)",
+                "B": "(2, −5)",
+                "C": "(−5, 2)",
+                "D": "(−2, 5)"
               },
               "answer": "C",
               "explanation": "5 units from y-axis in NEGATIVE x-direction → abscissa = −5. 2 units from x-axis in POSITIVE y-direction → ordinate = +2. So P = (−5, 2). This point lies in Quadrant II."

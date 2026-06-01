@@ -47,7 +47,10 @@
           "difficulty": "Easy",
           "question": "A circle graph is also called a:",
           "options": {
-            "A": "Bar graph   (B) Pictograph   (C) Pie chart   (D) Line graph"
+            "A": "Bar graph",
+            "B": "Pictograph",
+            "C": "Pie chart",
+            "D": "Line graph"
           },
           "answer": "C",
           "explanation": "A circle graph is also called a pie chart."
@@ -57,7 +60,10 @@
           "difficulty": "Medium",
           "question": "When a die is thrown once, the probability of getting an even number is:",
           "options": {
-            "A": "1/6   (B) 1/3   (C) 1/2   (D) 2/3"
+            "A": "1/6",
+            "B": "1/3",
+            "C": "1/2",
+            "D": "2/3"
           },
           "answer": "C",
           "explanation": "Even numbers on a die = 2, 4, 6 (3 outcomes). Total outcomes = 6. Probability = 3/6 = 1/2."
@@ -67,7 +73,10 @@
           "difficulty": "Hard",
           "question": "A family spends: Food 25%, Clothes 10%, House rent 10%, Education 15%, Transport 5%, Others 20%, Savings 15%. If monthly savings = Rs 3000, what is the monthly expenditure on food?",
           "options": {
-            "A": "Rs 3000   (B) Rs 4000   (C) Rs 5000   (D) Rs 6000"
+            "A": "Rs 3000",
+            "B": "Rs 4000",
+            "C": "Rs 5000",
+            "D": "Rs 6000"
           },
           "answer": "C",
           "explanation": "15% = Rs 3000, so 1% = Rs 200. Food = 25% = 25 x 200 = Rs 5000."
@@ -77,7 +86,10 @@
           "difficulty": "Easy",
           "question": "The possible results of a random experiment are called:",
           "options": {
-            "A": "Events   (B) Outcomes   (C) Chances   (D) Fractions"
+            "A": "Events",
+            "B": "Outcomes",
+            "C": "Chances",
+            "D": "Fractions"
           },
           "answer": "B",
           "explanation": "The possible results of a random experiment are called outcomes."
@@ -87,7 +99,10 @@
           "difficulty": "Medium",
           "question": "A bag has 4 red balls and 2 yellow balls. The probability of getting a yellow ball is:",
           "options": {
-            "A": "1/6   (B) 1/3   (C) 2/3   (D) 1/2"
+            "A": "1/6",
+            "B": "1/3",
+            "C": "2/3",
+            "D": "1/2"
           },
           "answer": "B",
           "explanation": "Yellow balls = 2. Total = 6. Probability = 2/6 = 1/3."
@@ -97,7 +112,10 @@
           "difficulty": "Hard",
           "question": "360 people voted for favourite season: Summer=90, Rainy=120, Winter=150. The central angle for the Rainy season in a pie chart is:",
           "options": {
-            "A": "90 degrees   (B) 100 degrees   (C) 120 degrees   (D) 150 degrees"
+            "A": "90 degrees",
+            "B": "100 degrees",
+            "C": "120 degrees",
+            "D": "150 degrees"
           },
           "answer": "C",
           "explanation": "Central angle = (120/360) x 360 = 120 degrees."
@@ -232,8 +250,10 @@
               "difficulty": "Easy",
               "question": "In a bar graph, what does the height of a bar represent?",
               "options": {
-                "A": "The width of the category   (B) The quantity for each category",
-                "C": "The total data              (D) The colour of the bar"
+                "A": "The width of the category",
+                "B": "The quantity for each category",
+                "C": "The total data",
+                "D": "The colour of the bar"
               },
               "answer": "B",
               "explanation": "In a bar graph, bar heights give the quantity for each category."
@@ -243,8 +263,10 @@
               "difficulty": "Medium",
               "question": "A double bar graph is useful for:",
               "options": {
-                "A": "Showing one set of data   (B) Comparing two sets of data",
-                "C": "Drawing pictures          (D) Measuring angles"
+                "A": "Showing one set of data",
+                "B": "Comparing two sets of data",
+                "C": "Drawing pictures",
+                "D": "Measuring angles"
               },
               "answer": "B",
               "explanation": "A double bar graph shows two sets of data simultaneously, making comparison easy."
@@ -254,7 +276,10 @@
               "difficulty": "Hard",
               "question": "In a bar graph showing students from 2003-08 (values: 100, 200, 250, 300, 350), in which year was the increase in students maximum?",
               "options": {
-                "A": "2004-05   (B) 2005-06   (C) 2006-07   (D) 2007-08"
+                "A": "2004-05",
+                "B": "2005-06",
+                "C": "2006-07",
+                "D": "2007-08"
               },
               "answer": "A",
               "explanation": "Increases: 200-100=100, 250-200=50, 300-250=50, 350-300=50. Maximum increase = 100 in 2004-05."
@@ -264,7 +289,10 @@
               "difficulty": "Easy",
               "question": "Which type of graph shows two sets of data simultaneously?",
               "options": {
-                "A": "Pictograph   (B) Bar graph   (C) Double bar graph   (D) Pie chart"
+                "A": "Pictograph",
+                "B": "Bar graph",
+                "C": "Double bar graph",
+                "D": "Pie chart"
               },
               "answer": "C",
               "explanation": "A double bar graph shows two sets of data simultaneously and is useful for comparison."
@@ -274,7 +302,10 @@
               "difficulty": "Medium",
               "question": "In a pictograph, one car symbol = 100 cars. If August has 3 symbols, how many cars were produced?",
               "options": {
-                "A": "100   (B) 200   (C) 300   (D) 400"
+                "A": "100",
+                "B": "200",
+                "C": "300",
+                "D": "400"
               },
               "answer": "C",
               "explanation": "3 symbols x 100 = 300 cars."
@@ -284,7 +315,10 @@
               "difficulty": "Hard",
               "question": "A bar graph shows students: 2003-04=100, 2004-05=200, 2005-06=250. The statement \"Students in 2005-06 are 2.5 times that of 2003-04\" is:",
               "options": {
-                "A": "True   (B) False   (C) Cannot determine   (D) Partially true"
+                "A": "True",
+                "B": "False",
+                "C": "Cannot determine",
+                "D": "Partially true"
               },
               "answer": "A",
               "explanation": "2003-04 = 100. 2.5 x 100 = 250 = 2005-06 value. Statement is TRUE. ---- SUB-TOPIC (None — Topic 4.1 has no sub-topics in textbook) ----"
@@ -418,7 +452,10 @@
               "difficulty": "Easy",
               "question": "A circle graph is also called a:",
               "options": {
-                "A": "Bar graph   (B) Pictograph   (C) Pie chart   (D) Line graph"
+                "A": "Bar graph",
+                "B": "Pictograph",
+                "C": "Pie chart",
+                "D": "Line graph"
               },
               "answer": "C",
               "explanation": "A circle graph is also called a pie chart."
@@ -441,8 +478,10 @@
               "difficulty": "Hard",
               "question": "In a pie chart of viewers (Entertainment 50%, Sports 25%, News 15%, Informative 10%), which two programme types have viewers equal to sports watchers?",
               "options": {
-                "A": "Entertainment and News   (B) News and Informative",
-                "C": "Sports and News          (D) Informative and Entertainment"
+                "A": "Entertainment and News",
+                "B": "News and Informative",
+                "C": "Sports and News",
+                "D": "Informative and Entertainment"
               },
               "answer": "B",
               "explanation": "News (15%) + Informative (10%) = 25% = Sports (25%)."
@@ -452,7 +491,10 @@
               "difficulty": "Easy",
               "question": "In a circle graph, all the sector fractions together add up to:",
               "options": {
-                "A": "0   (B) 1/2   (C) 1   (D) 360"
+                "A": "0",
+                "B": "1/2",
+                "C": "1",
+                "D": "360"
               },
               "answer": "C",
               "explanation": "All sectors together make the whole circle, so all fractions add up to 1."
@@ -462,7 +504,10 @@
               "difficulty": "Medium",
               "question": "A child sleeps 8 hours out of 24 hours in a day. What fraction of the circle graph shows sleep?",
               "options": {
-                "A": "1/2   (B) 1/3   (C) 1/4   (D) 1/6"
+                "A": "1/2",
+                "B": "1/3",
+                "C": "1/4",
+                "D": "1/6"
               },
               "answer": "B",
               "explanation": "Fraction = 8/24 = 1/3."
@@ -472,7 +517,10 @@
               "difficulty": "Hard",
               "question": "A pie chart shows TV viewers: Entertainment=50%, Sports=25%, News=15%, Informative=10%. If total viewers = 4000, how many watch Sports?",
               "options": {
-                "A": "500   (B) 750   (C) 1000   (D) 2000"
+                "A": "500",
+                "B": "750",
+                "C": "1000",
+                "D": "2000"
               },
               "answer": "C",
               "explanation": "Sports = 25% of 4000 = (25/100) x 4000 = 1000 viewers. ----"
@@ -667,7 +715,10 @@
               "difficulty": "Easy",
               "question": "The total angle at the centre of a circle used in a pie chart is:",
               "options": {
-                "A": "90 degrees   (B) 180 degrees   (C) 270 degrees   (D) 360 degrees"
+                "A": "90 degrees",
+                "B": "180 degrees",
+                "C": "270 degrees",
+                "D": "360 degrees"
               },
               "answer": "D",
               "explanation": "The total angle at the centre of a circle is 360 degrees."
@@ -677,7 +728,10 @@
               "difficulty": "Medium",
               "question": "If chocolate flavour is preferred by 50% of students, its central angle in a pie chart is:",
               "options": {
-                "A": "90 degrees   (B) 120 degrees   (C) 180 degrees   (D) 360 degrees"
+                "A": "90 degrees",
+                "B": "120 degrees",
+                "C": "180 degrees",
+                "D": "360 degrees"
               },
               "answer": "C",
               "explanation": "Central angle = (50/100) x 360 = 180 degrees."
@@ -687,7 +741,10 @@
               "difficulty": "Hard",
               "question": "A baker's total sales = Rs 720. Ordinary bread sales = Rs 320. The central angle for ordinary bread in a pie chart is:",
               "options": {
-                "A": "120 degrees   (B) 140 degrees   (C) 160 degrees   (D) 180 degrees"
+                "A": "120 degrees",
+                "B": "140 degrees",
+                "C": "160 degrees",
+                "D": "180 degrees"
               },
               "answer": "C",
               "explanation": "Central angle = (320/720) x 360 = (4/9) x 360 = 160 degrees."
@@ -697,7 +754,10 @@
               "difficulty": "Easy",
               "question": "To draw a pie chart, we use which instrument to measure central angles?",
               "options": {
-                "A": "Ruler   (B) Compass   (C) Protractor   (D) Set square"
+                "A": "Ruler",
+                "B": "Compass",
+                "C": "Protractor",
+                "D": "Set square"
               },
               "answer": "C",
               "explanation": "A protractor is used to measure and draw the central angles for each sector in a pie chart."
@@ -707,7 +767,10 @@
               "difficulty": "Medium",
               "question": "360 people voted for favourite season: Summer=90, Rainy=120, Winter=150. Central angle for Winter is:",
               "options": {
-                "A": "90 degrees   (B) 120 degrees   (C) 150 degrees   (D) 180 degrees"
+                "A": "90 degrees",
+                "B": "120 degrees",
+                "C": "150 degrees",
+                "D": "180 degrees"
               },
               "answer": "C",
               "explanation": "Central angle = (150/360) x 360 = 150 degrees."
@@ -717,7 +780,10 @@
               "difficulty": "Hard",
               "question": "A pie chart shows marks: Maths=90°, Hindi=70°. If total marks = 540, how many marks were scored in Maths?",
               "options": {
-                "A": "90   (B) 105   (C) 120   (D) 135"
+                "A": "90",
+                "B": "105",
+                "C": "120",
+                "D": "135"
               },
               "answer": "D",
               "explanation": "360° = 540 marks. So 1° = 540/360 = 3/2 marks. Maths = 90 x (3/2) = 135 marks."
@@ -842,7 +908,10 @@
               "difficulty": "Medium",
               "question": "The possible results of a random experiment are called:",
               "options": {
-                "A": "Events   (B) Outcomes   (C) Chances   (D) Fractions"
+                "A": "Events",
+                "B": "Outcomes",
+                "C": "Chances",
+                "D": "Fractions"
               },
               "answer": "B",
               "explanation": "The possible results of a random experiment are called outcomes."
@@ -852,7 +921,10 @@
               "difficulty": "Hard",
               "question": "A student prepares 4 out of 5 chapters very well. A major question is asked from the unprepared chapter. This is an example of:",
               "options": {
-                "A": "Certainty   (B) Impossibility   (C) Chance   (D) Calculation"
+                "A": "Certainty",
+                "B": "Impossibility",
+                "C": "Chance",
+                "D": "Calculation"
               },
               "answer": "C",
               "explanation": "This is an example of chance — the student could not control which chapter would be asked."
@@ -862,8 +934,10 @@
               "difficulty": "Easy",
               "question": "Which of the following cannot be predicted before performing the experiment?",
               "options": {
-                "A": "Sum of 4 + 5              (B) Area of a square with side 3",
-                "C": "Outcome of tossing a coin (D) Product of 6 x 7"
+                "A": "Sum of 4 + 5",
+                "B": "Area of a square with side 3",
+                "C": "Outcome of tossing a coin",
+                "D": "Product of 6 x 7"
               },
               "answer": "C",
               "explanation": "Tossing a coin is a random experiment — outcome cannot be predicted in advance."
@@ -873,7 +947,10 @@
               "difficulty": "Medium",
               "question": "When a coin is tossed, the total number of possible outcomes is:",
               "options": {
-                "A": "1   (B) 2   (C) 3   (D) 4"
+                "A": "1",
+                "B": "2",
+                "C": "3",
+                "D": "4"
               },
               "answer": "B",
               "explanation": "Tossing a coin gives 2 equally likely outcomes: Head and Tail."
@@ -883,7 +960,10 @@
               "difficulty": "Hard",
               "question": "A bag has 3 Red, 2 Blue, 1 Green ball. One ball is drawn randomly. Which outcome is most likely?",
               "options": {
-                "A": "Green   (B) Blue   (C) Red   (D) All equally likely"
+                "A": "Green",
+                "B": "Blue",
+                "C": "Red",
+                "D": "All equally likely"
               },
               "answer": "C",
               "explanation": "Red balls = 3 (most in bag). P(Red) = 3/6 = 1/2 which is highest among all colours. ----"
@@ -979,8 +1059,10 @@
               "difficulty": "Easy",
               "question": "When a coin is tossed, the possible outcomes are:",
               "options": {
-                "A": "Only Head               (B) Only Tail",
-                "C": "Head and Tail           (D) Head, Tail, and Edge"
+                "A": "Only Head",
+                "B": "Only Tail",
+                "C": "Head and Tail",
+                "D": "Head, Tail, and Edge"
               },
               "answer": "C",
               "explanation": "When a coin is tossed, the two possible outcomes are Head (H) and Tail (T)."
@@ -990,8 +1072,10 @@
               "difficulty": "Medium",
               "question": "Which of the following is a random experiment?",
               "options": {
-                "A": "Adding 2 + 3                  (B) Tossing a coin",
-                "C": "Finding the area of a circle  (D) Measuring the length of a room"
+                "A": "Adding 2 + 3",
+                "B": "Tossing a coin",
+                "C": "Finding the area of a circle",
+                "D": "Measuring the length of a room"
               },
               "answer": "B",
               "explanation": "Tossing a coin is a random experiment because we cannot control whether we get Head or Tail."
@@ -1001,7 +1085,10 @@
               "difficulty": "Hard",
               "question": "When a die is thrown, the total number of possible outcomes is:",
               "options": {
-                "A": "2   (B) 4   (C) 6   (D) 12"
+                "A": "2",
+                "B": "4",
+                "C": "6",
+                "D": "12"
               },
               "answer": "C",
               "explanation": "A die has faces numbered 1, 2, 3, 4, 5, 6 so there are 6 possible outcomes."
@@ -1011,7 +1098,10 @@
               "difficulty": "Easy",
               "question": "When a coin is tossed once, which of the following is a possible outcome?",
               "options": {
-                "A": "Head   (B) Both Head and Tail together   (C) Neither Head nor Tail   (D) Edge"
+                "A": "Head",
+                "B": "Both Head and Tail together",
+                "C": "Neither Head nor Tail",
+                "D": "Edge"
               },
               "answer": "A",
               "explanation": "When a coin is tossed once, the only two possible outcomes are Head (H) or Tail (T). So Head is a valid outcome."
@@ -1021,7 +1111,10 @@
               "difficulty": "Medium",
               "question": "A spinner has sectors A, B, A, C, A, D (6 equal sectors). How many possible outcomes are there?",
               "options": {
-                "A": "3   (B) 4   (C) 6   (D) 12"
+                "A": "3",
+                "B": "4",
+                "C": "6",
+                "D": "12"
               },
               "answer": "B",
               "explanation": "The distinct outcomes are A, B, C, D — 4 different results (even though A appears 3 times)."
@@ -1031,7 +1124,10 @@
               "difficulty": "Hard",
               "question": "Before a cricket match, a coin is tossed. Team X calls Head. What is the probability that Team X wins the toss?",
               "options": {
-                "A": "0   (B) 1/4   (C) 1/2   (D) 1"
+                "A": "0",
+                "B": "1/4",
+                "C": "1/2",
+                "D": "1"
               },
               "answer": "C",
               "explanation": "Coin has 2 equally likely outcomes (Head, Tail). P(Head) = 1/2. Team X wins the toss with probability 1/2. ----"
@@ -1182,7 +1278,10 @@
               "difficulty": "Medium",
               "question": "A die is thrown 600 times. Approximately how many times would the number 3 appear?",
               "options": {
-                "A": "50   (B) 100   (C) 150   (D) 200"
+                "A": "50",
+                "B": "100",
+                "C": "150",
+                "D": "200"
               },
               "answer": "B",
               "explanation": "Die has 6 equally likely outcomes. Each appears 600/6 = 100 times approximately."
@@ -1192,7 +1291,10 @@
               "difficulty": "Hard",
               "question": "A coin is tossed 50 times: Heads=27, Tails=23. A coin is tossed 200 times: Heads=98, Tails=102. In which experiment are heads and tails closest as a percentage?",
               "options": {
-                "A": "50 tosses   (B) 200 tosses   (C) Both equal   (D) Cannot determine"
+                "A": "50 tosses",
+                "B": "200 tosses",
+                "C": "Both equal",
+                "D": "Cannot determine"
               },
               "answer": "B",
               "explanation": "200 tosses: Heads=49%, Tails=51% (2% gap). 50 tosses: Heads=54%, Tails=46% (8% gap). 200 tosses are closer. ----"
@@ -1315,7 +1417,10 @@
               "difficulty": "Easy",
               "question": "When a coin is tossed once, the probability of getting a Tail is:",
               "options": {
-                "A": "0   (B) 1/4   (C) 1/2   (D) 1"
+                "A": "0",
+                "B": "1/4",
+                "C": "1/2",
+                "D": "1"
               },
               "answer": "C",
               "explanation": "Total outcomes = 2 (Head, Tail). Outcomes giving Tail = 1. Probability = 1/2."
@@ -1325,7 +1430,10 @@
               "difficulty": "Medium",
               "question": "When a die is thrown once, the probability of getting the number 3 is:",
               "options": {
-                "A": "1/3   (B) 1/6   (C) 1/2   (D) 3/6"
+                "A": "1/3",
+                "B": "1/6",
+                "C": "1/2",
+                "D": "3/6"
               },
               "answer": "B",
               "explanation": "Total outcomes = 6. Outcomes giving 3 = 1. Probability = 1/6."
@@ -1335,7 +1443,10 @@
               "difficulty": "Hard",
               "question": "When a die is thrown, the probability of getting a number greater than 4 is:",
               "options": {
-                "A": "1/6   (B) 2/6 = 1/3   (C) 3/6 = 1/2   (D) 4/6"
+                "A": "1/6",
+                "B": "2/6 = 1/3",
+                "C": "3/6 = 1/2",
+                "D": "4/6"
               },
               "answer": "B",
               "explanation": "Numbers greater than 4 on a die = 5, 6 (2 outcomes). Total = 6. Probability = 2/6 = 1/3."
@@ -1345,7 +1456,10 @@
               "difficulty": "Easy",
               "question": "The probability of an impossible event is:",
               "options": {
-                "A": "1   (B) 1/2   (C) 0   (D) -1"
+                "A": "1",
+                "B": "1/2",
+                "C": "0",
+                "D": "-1"
               },
               "answer": "C",
               "explanation": "An impossible event has 0 favourable outcomes. Probability = 0/total = 0."
@@ -1355,7 +1469,10 @@
               "difficulty": "Medium",
               "question": "When a die is thrown, the probability of getting a number from 1 to 6 is:",
               "options": {
-                "A": "0   (B) 1/6   (C) 1/2   (D) 1"
+                "A": "0",
+                "B": "1/6",
+                "C": "1/2",
+                "D": "1"
               },
               "answer": "D",
               "explanation": "All 6 outcomes (1,2,3,4,5,6) are favourable. Probability = 6/6 = 1 (certain event)."
@@ -1365,7 +1482,10 @@
               "difficulty": "Hard",
               "question": "A bag has 4 red and 2 yellow balls. What is the probability of NOT getting a red ball?",
               "options": {
-                "A": "1/6   (B) 1/3   (C) 2/3   (D) 1/2"
+                "A": "1/6",
+                "B": "1/3",
+                "C": "2/3",
+                "D": "1/2"
               },
               "answer": "B",
               "explanation": "Not red = yellow. Yellow balls = 2. Total = 6. P(not red) = 2/6 = 1/3. ----"
@@ -1475,7 +1595,10 @@
               "difficulty": "Easy",
               "question": "A bag has 4 red balls and 2 yellow balls. Probability of getting a yellow ball is:",
               "options": {
-                "A": "1/6   (B) 1/3   (C) 2/3   (D) 1/2"
+                "A": "1/6",
+                "B": "1/3",
+                "C": "2/3",
+                "D": "1/2"
               },
               "answer": "B",
               "explanation": "Yellow balls = 2. Total = 6. Probability = 2/6 = 1/3."
@@ -1485,7 +1608,10 @@
               "difficulty": "Medium",
               "question": "A spinning wheel has 4 green and 4 red sectors. What is the probability of getting a green sector?",
               "options": {
-                "A": "1/4   (B) 1/3   (C) 1/2   (D) 3/4"
+                "A": "1/4",
+                "B": "1/3",
+                "C": "1/2",
+                "D": "3/4"
               },
               "answer": "C",
               "explanation": "Green sectors = 4. Total sectors = 8. Probability = 4/8 = 1/2."
@@ -1495,7 +1621,10 @@
               "difficulty": "Hard",
               "question": "A box has slips numbered 1 to 10. One slip is drawn. What is the probability of getting a number less than 6?",
               "options": {
-                "A": "1/10   (B) 2/10   (C) 4/10   (D) 5/10 = 1/2"
+                "A": "1/10",
+                "B": "2/10",
+                "C": "4/10",
+                "D": "5/10 = 1/2"
               },
               "answer": "D",
               "explanation": "Numbers less than 6 = 1,2,3,4,5 (5 outcomes). Total = 10. Probability = 5/10 = 1/2."
@@ -1518,7 +1647,10 @@
               "difficulty": "Medium",
               "question": "A spinning wheel has 4 green (G) and 4 red (R) sectors. The probability of NOT getting a green sector is:",
               "options": {
-                "A": "1/4   (B) 1/3   (C) 1/2   (D) 3/4"
+                "A": "1/4",
+                "B": "1/3",
+                "C": "1/2",
+                "D": "3/4"
               },
               "answer": "C",
               "explanation": "Not green = Red sectors = 4. Total = 8. P(not green) = 4/8 = 1/2."
@@ -1528,7 +1660,10 @@
               "difficulty": "Hard",
               "question": "A well-shuffled deck of 52 cards is drawn once. What is the probability of getting an Ace?",
               "options": {
-                "A": "1/52   (B) 1/26   (C) 1/13   (D) 4/13"
+                "A": "1/52",
+                "B": "1/26",
+                "C": "1/13",
+                "D": "4/13"
               },
               "answer": "C",
               "explanation": "Aces in a deck = 4. Total cards = 52. P(Ace) = 4/52 = 1/13. ----"
@@ -1666,8 +1801,10 @@
               "difficulty": "Easy",
               "question": "If the probability of an event is 0, it means:",
               "options": {
-                "A": "The event will definitely happen   (B) The event is impossible",
-                "C": "The event happens half the time    (D) The event is likely"
+                "A": "The event will definitely happen",
+                "B": "The event is impossible",
+                "C": "The event happens half the time",
+                "D": "The event is likely"
               },
               "answer": "B",
               "explanation": "Probability = 0 means the event is impossible."
@@ -1677,7 +1814,10 @@
               "difficulty": "Medium",
               "question": "The probability of any event lies between:",
               "options": {
-                "A": "-1 and 1   (B) 0 and 1   (C) 1 and 10   (D) 0 and 100"
+                "A": "-1 and 1",
+                "B": "0 and 1",
+                "C": "1 and 10",
+                "D": "0 and 100"
               },
               "answer": "B",
               "explanation": "For any event, probability is always between 0 and 1 (both inclusive)."
@@ -1687,7 +1827,10 @@
               "difficulty": "Hard",
               "question": "During rainy season, probability of rain on any day = 1/10. What is the probability that it does NOT rain?",
               "options": {
-                "A": "1/10   (B) 1/5   (C) 9/10   (D) 1"
+                "A": "1/10",
+                "B": "1/5",
+                "C": "9/10",
+                "D": "1"
               },
               "answer": "C",
               "explanation": "P(no rain) = 1 - P(rain) = 1 - 1/10 = 9/10."
@@ -1697,7 +1840,10 @@
               "difficulty": "Easy",
               "question": "The probability of a certain event (that will definitely happen) is:",
               "options": {
-                "A": "0   (B) 1/2   (C) 1   (D) More than 1"
+                "A": "0",
+                "B": "1/2",
+                "C": "1",
+                "D": "More than 1"
               },
               "answer": "C",
               "explanation": "A certain event has all outcomes favourable. Probability = total/total = 1."
@@ -1720,7 +1866,10 @@
               "difficulty": "Hard",
               "question": "In a factory, out of 100 items, 95 are good and 5 are defective. One item is picked randomly. What is the probability of getting a defective item?",
               "options": {
-                "A": "1/100   (B) 1/20   (C) 19/20   (D) 95/100"
+                "A": "1/100",
+                "B": "1/20",
+                "C": "19/20",
+                "D": "95/100"
               },
               "answer": "B",
               "explanation": "Defective items = 5. Total = 100. P(defective) = 5/100 = 1/20."

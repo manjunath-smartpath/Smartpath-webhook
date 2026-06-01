@@ -72,7 +72,10 @@
           "difficulty": "Easy",
           "question": "The longest chord of a circle is called the:",
           "options": {
-            "A": "Radius  (B) Arc  (C) Diameter  (D) Segment"
+            "A": "Radius",
+            "B": "Arc",
+            "C": "Diameter",
+            "D": "Segment"
           },
           "answer": "C",
           "explanation": "The diameter passes through the centre and is the longest chord."
@@ -82,7 +85,10 @@
           "difficulty": "Easy",
           "question": "The angle in a semicircle is:",
           "options": {
-            "A": "45 degrees  (B) 60 degrees  (C) 90 degrees  (D) 180 degrees"
+            "A": "45 degrees",
+            "B": "60 degrees",
+            "C": "90 degrees",
+            "D": "180 degrees"
           },
           "answer": "C",
           "explanation": "By Theorem 9.7, angle = (1/2) x 180 degrees = 90 degrees."
@@ -92,7 +98,10 @@
           "difficulty": "Medium",
           "question": "In cyclic quadrilateral ABCD, angle A = 110 degrees. Find angle C.",
           "options": {
-            "A": "110 degrees  (B) 70 degrees  (C) 90 degrees  (D) 80 degrees"
+            "A": "110 degrees",
+            "B": "70 degrees",
+            "C": "90 degrees",
+            "D": "80 degrees"
           },
           "answer": "B",
           "explanation": "angle A + angle C = 180. So angle C = 180 - 110 = 70 degrees."
@@ -102,7 +111,10 @@
           "difficulty": "Medium",
           "question": "How many circles can pass through three non-collinear points?",
           "options": {
-            "A": "0  (B) 1  (C) 2  (D) Infinitely many"
+            "A": "0",
+            "B": "1",
+            "C": "2",
+            "D": "Infinitely many"
           },
           "answer": "B",
           "explanation": "Exactly one circle passes through three non-collinear points."
@@ -112,7 +124,10 @@
           "difficulty": "Medium",
           "question": "Two chords AB and CD of a circle are equal. Then their corresponding arcs are:",
           "options": {
-            "A": "Unequal  (B) Congruent  (C) Supplementary  (D) Parallel"
+            "A": "Unequal",
+            "B": "Congruent",
+            "C": "Supplementary",
+            "D": "Parallel"
           },
           "answer": "B",
           "explanation": "Equal chords have congruent corresponding arcs."
@@ -122,7 +137,10 @@
           "difficulty": "Medium",
           "question": "The distance of a chord from the centre is measured along the:",
           "options": {
-            "A": "Chord itself  (B) Diameter  (C) Perpendicular from centre  (D) Radius"
+            "A": "Chord itself",
+            "B": "Diameter",
+            "C": "Perpendicular from centre",
+            "D": "Radius"
           },
           "answer": "C",
           "explanation": "Distance = length of perpendicular from centre to the chord."
@@ -132,7 +150,10 @@
           "difficulty": "Hard",
           "question": "In cyclic quadrilateral ABCD, angle B = 75 degrees. Find angle D.",
           "options": {
-            "A": "75 degrees  (B) 105 degrees  (C) 90 degrees  (D) 115 degrees"
+            "A": "75 degrees",
+            "B": "105 degrees",
+            "C": "90 degrees",
+            "D": "115 degrees"
           },
           "answer": "B",
           "explanation": "angle B + angle D = 180. So angle D = 180 - 75 = 105 degrees."
@@ -142,7 +163,10 @@
           "difficulty": "Hard",
           "question": "Central angle POQ = 140 degrees. The angle subtended by arc PQ at a point on the major arc is:",
           "options": {
-            "A": "140 degrees  (B) 280 degrees  (C) 70 degrees  (D) 35 degrees"
+            "A": "140 degrees",
+            "B": "280 degrees",
+            "C": "70 degrees",
+            "D": "35 degrees"
           },
           "answer": "C",
           "explanation": "Inscribed angle = (1/2) x central angle = (1/2) x 140 = 70 degrees."
@@ -152,7 +176,10 @@
           "difficulty": "Hard",
           "question": "In cyclic quadrilateral ABCD, angle A = 5x and angle C = 3x - 20. Find angle A.",
           "options": {
-            "A": "100 degrees  (B) 115 degrees  (C) 125 degrees  (D) 130 degrees"
+            "A": "100 degrees",
+            "B": "115 degrees",
+            "C": "125 degrees",
+            "D": "130 degrees"
           },
           "answer": "C",
           "explanation": "angle A + angle C = 180. 5x + 3x - 20 = 180. 8x = 200. x = 25. angle A = 5 x 25 = 125 degrees."
@@ -162,7 +189,10 @@
           "difficulty": "Hard",
           "question": "A chord is at distance 0 from the centre. This chord is the:",
           "options": {
-            "A": "Radius  (B) Tangent  (C) Minor chord  (D) Diameter"
+            "A": "Radius",
+            "B": "Tangent",
+            "C": "Minor chord",
+            "D": "Diameter"
           },
           "answer": "D",
           "explanation": "Distance 0 means the chord passes through the centre = diameter."
@@ -172,7 +202,10 @@
           "difficulty": "Hard",
           "question": "If ABCD is a cyclic parallelogram, it must be a:",
           "options": {
-            "A": "Rhombus  (B) Trapezium  (C) Rectangle  (D) Square"
+            "A": "Rhombus",
+            "B": "Trapezium",
+            "C": "Rectangle",
+            "D": "Square"
           },
           "answer": "C",
           "explanation": "In cyclic parallelogram, opposite angles are both equal and sum to 180 degrees, so each = 90 degrees — making it a rectangle."
@@ -309,7 +342,10 @@
               "difficulty": "Easy",
               "question": "Equal chords of a circle subtend _______ angles at the centre.",
               "options": {
-                "A": "Unequal  (B) Equal  (C) Supplementary  (D) Complementary"
+                "A": "Unequal",
+                "B": "Equal",
+                "C": "Supplementary",
+                "D": "Complementary"
               },
               "answer": "B",
               "explanation": "Theorem 9.1 — equal chords subtend equal angles at the centre."
@@ -319,7 +355,10 @@
               "difficulty": "Easy",
               "question": "Theorem 9.2 is the _______ of Theorem 9.1.",
               "options": {
-                "A": "Extension  (B) Proof  (C) Converse  (D) Corollary"
+                "A": "Extension",
+                "B": "Proof",
+                "C": "Converse",
+                "D": "Corollary"
               },
               "answer": "C",
               "explanation": "Theorem 9.2 reverses the condition and conclusion of Theorem 9.1."
@@ -329,8 +368,10 @@
               "difficulty": "Easy",
               "question": "In a circle with centre O, if AB = CD, then:",
               "options": {
-                "A": "angle AOB > angle COD  (B) angle AOB < angle COD",
-                "C": "angle AOB = angle COD  (D) angle AOB + angle COD = 180 degrees"
+                "A": "angle AOB > angle COD",
+                "B": "angle AOB < angle COD",
+                "C": "angle AOB = angle COD",
+                "D": "angle AOB + angle COD = 180 degrees"
               },
               "answer": "C",
               "explanation": "Equal chords subtend equal angles at the centre (Theorem 9.1)."
@@ -340,7 +381,10 @@
               "difficulty": "Medium",
               "question": "In the proof of Theorem 9.1, which congruence rule is used?",
               "options": {
-                "A": "SAS  (B) ASA  (C) SSS  (D) RHS"
+                "A": "SAS",
+                "B": "ASA",
+                "C": "SSS",
+                "D": "RHS"
               },
               "answer": "C",
               "explanation": "OA = OC (radii), OB = OD (radii), AB = CD (given) — three sides."
@@ -350,8 +394,10 @@
               "difficulty": "Medium",
               "question": "Two chords subtend angles of 60 degrees each at the centre. What can you conclude?",
               "options": {
-                "A": "The chords are perpendicular  (B) The chords are equal",
-                "C": "The chords bisect each other  (D) The chords are parallel"
+                "A": "The chords are perpendicular",
+                "B": "The chords are equal",
+                "C": "The chords bisect each other",
+                "D": "The chords are parallel"
               },
               "answer": "B",
               "explanation": "By Theorem 9.2, equal central angles imply equal chords."
@@ -361,8 +407,10 @@
               "difficulty": "Medium",
               "question": "CPCT is used after proving:",
               "options": {
-                "A": "Two lines are parallel  (B) Two triangles are similar",
-                "C": "Two triangles are congruent  (D) Two angles are supplementary"
+                "A": "Two lines are parallel",
+                "B": "Two triangles are similar",
+                "C": "Two triangles are congruent",
+                "D": "Two angles are supplementary"
               },
               "answer": "C",
               "explanation": "CPCT = Corresponding Parts of Congruent Triangles."
@@ -372,7 +420,10 @@
               "difficulty": "Medium",
               "question": "Chord AB subtends 80 degrees at centre O. Chord CD also subtends 80 degrees. Then:",
               "options": {
-                "A": "AB > CD  (B) AB < CD  (C) AB = CD  (D) Cannot be determined"
+                "A": "AB > CD",
+                "B": "AB < CD",
+                "C": "AB = CD",
+                "D": "Cannot be determined"
               },
               "answer": "C",
               "explanation": "Equal central angles imply equal chords (Theorem 9.2)."
@@ -382,7 +433,10 @@
               "difficulty": "Hard",
               "question": "Two congruent circles have chords AB and PQ. AB subtends 45 degrees at its centre and PQ = AB. What angle does PQ subtend at its centre?",
               "options": {
-                "A": "90 degrees  (B) 22.5 degrees  (C) 45 degrees  (D) 180 degrees"
+                "A": "90 degrees",
+                "B": "22.5 degrees",
+                "C": "45 degrees",
+                "D": "180 degrees"
               },
               "answer": "C",
               "explanation": "Congruent circles with equal chords subtend equal central angles."
@@ -392,7 +446,10 @@
               "difficulty": "Hard",
               "question": "In triangle AOB (O = centre), OA = OB (radii) and angle AOB = 120 degrees. Find angle OAB.",
               "options": {
-                "A": "60 degrees  (B) 30 degrees  (C) 90 degrees  (D) 45 degrees"
+                "A": "60 degrees",
+                "B": "30 degrees",
+                "C": "90 degrees",
+                "D": "45 degrees"
               },
               "answer": "B",
               "explanation": "Triangle OAB is isosceles. angle OAB = (180 - 120)/2 = 60/2 = 30 degrees."
@@ -402,7 +459,10 @@
               "difficulty": "Hard",
               "question": "Chord AB of a circle subtends angle 2x at centre O. Chord CD = AB. Then angle COD =?",
               "options": {
-                "A": "x  (B) 4x  (C) 2x  (D) x/2"
+                "A": "x",
+                "B": "4x",
+                "C": "2x",
+                "D": "x/2"
               },
               "answer": "C",
               "explanation": "Since AB = CD, by Theorem 9.1, angle COD = angle AOB = 2x."
@@ -412,7 +472,10 @@
               "difficulty": "Hard",
               "question": "Three equal chords AB, CD, EF are drawn in a circle. How many of the angles AOB, COD, EOF are equal to each other?",
               "options": {
-                "A": "None  (B) Any two  (C) All three  (D) Depends on position"
+                "A": "None",
+                "B": "Any two",
+                "C": "All three",
+                "D": "Depends on position"
               },
               "answer": "C",
               "explanation": "All three chords are equal, so by Theorem 9.1 all three central angles are equal."
@@ -422,7 +485,10 @@
               "difficulty": "Hard",
               "question": "In a circle, if chord length increases, the central angle subtended:",
               "options": {
-                "A": "Decreases  (B) Increases  (C) Stays same  (D) Becomes 180 degrees"
+                "A": "Decreases",
+                "B": "Increases",
+                "C": "Stays same",
+                "D": "Becomes 180 degrees"
               },
               "answer": "B",
               "explanation": "A longer chord subtends a larger angle at the centre."
@@ -565,8 +631,10 @@
               "difficulty": "Easy",
               "question": "The perpendicular from the centre of a circle to a chord:",
               "options": {
-                "A": "Trisects the chord  (B) Bisects the chord",
-                "C": "Is parallel to the chord  (D) Passes through one endpoint"
+                "A": "Trisects the chord",
+                "B": "Bisects the chord",
+                "C": "Is parallel to the chord",
+                "D": "Passes through one endpoint"
               },
               "answer": "B",
               "explanation": "Theorem 9.3 states the perpendicular from centre bisects the chord."
@@ -576,7 +644,10 @@
               "difficulty": "Easy",
               "question": "In Theorem 9.3, which congruence rule is used?",
               "options": {
-                "A": "SSS  (B) SAS  (C) ASA  (D) RHS"
+                "A": "SSS",
+                "B": "SAS",
+                "C": "ASA",
+                "D": "RHS"
               },
               "answer": "D",
               "explanation": "Right angle (90°), Hypotenuse (OA = OB = radius), Side (OM common)."
@@ -586,7 +657,10 @@
               "difficulty": "Easy",
               "question": "The distance from a point to a line is measured along the:",
               "options": {
-                "A": "Longest segment  (B) Parallel line  (C) Perpendicular  (D) Diameter"
+                "A": "Longest segment",
+                "B": "Parallel line",
+                "C": "Perpendicular",
+                "D": "Diameter"
               },
               "answer": "C",
               "explanation": "Distance = length of perpendicular from point to line."
@@ -596,7 +670,10 @@
               "difficulty": "Medium",
               "question": "A chord of length 10 cm is at distance 12 cm from the centre. The radius is:",
               "options": {
-                "A": "10 cm  (B) 13 cm  (C) 11 cm  (D) 15 cm"
+                "A": "10 cm",
+                "B": "13 cm",
+                "C": "11 cm",
+                "D": "15 cm"
               },
               "answer": "B",
               "explanation": "r^2 = 5^2 + 12^2 = 25 + 144 = 169. r = 13 cm."
@@ -606,7 +683,10 @@
               "difficulty": "Medium",
               "question": "In a circle with radius 17 cm, a chord is at 8 cm from the centre. Chord length:",
               "options": {
-                "A": "15 cm  (B) 25 cm  (C) 30 cm  (D) 20 cm"
+                "A": "15 cm",
+                "B": "25 cm",
+                "C": "30 cm",
+                "D": "20 cm"
               },
               "answer": "C",
               "explanation": "Half chord = sqrt(289 - 64) = sqrt(225) = 15. Chord = 30 cm."
@@ -616,7 +696,10 @@
               "difficulty": "Medium",
               "question": "Theorem 9.4 is the _______ of Theorem 9.3.",
               "options": {
-                "A": "Proof  (B) Extension  (C) Converse  (D) Corollary"
+                "A": "Proof",
+                "B": "Extension",
+                "C": "Converse",
+                "D": "Corollary"
               },
               "answer": "C",
               "explanation": "Theorem 9.4 reverses Theorem 9.3."
@@ -626,8 +709,10 @@
               "difficulty": "Medium",
               "question": "A line from centre O bisects chord AB at point M. Then:",
               "options": {
-                "A": "OM is parallel to AB  (B) OM is perpendicular to AB",
-                "C": "OM passes through A  (D) OM extended meets circle at A"
+                "A": "OM is parallel to AB",
+                "B": "OM is perpendicular to AB",
+                "C": "OM passes through A",
+                "D": "OM extended meets circle at A"
               },
               "answer": "B",
               "explanation": "Theorem 9.4 — line through centre bisecting chord is perpendicular."
@@ -637,7 +722,10 @@
               "difficulty": "Hard",
               "question": "In a circle of radius 5 cm, a chord is at distance 3 cm from the centre. Length of chord:",
               "options": {
-                "A": "4 cm  (B) 6 cm  (C) 8 cm  (D) 10 cm"
+                "A": "4 cm",
+                "B": "6 cm",
+                "C": "8 cm",
+                "D": "10 cm"
               },
               "answer": "C",
               "explanation": "Half chord = sqrt(25 - 9) = sqrt(16) = 4. Chord = 2 x 4 = 8 cm."
@@ -647,7 +735,10 @@
               "difficulty": "Hard",
               "question": "In a circle, OA = r (radius), OM = d (perpendicular to chord AB). Then AB =?",
               "options": {
-                "A": "2 sqrt(r^2 - d^2)  (B) sqrt(r^2 - d^2)  (C) 2 sqrt(r^2 + d^2)  (D) r - d"
+                "A": "2 sqrt(r^2 - d^2)",
+                "B": "sqrt(r^2 - d^2)",
+                "C": "2 sqrt(r^2 + d^2)",
+                "D": "r - d"
               },
               "answer": "A",
               "explanation": "AM = sqrt(r^2 - d^2). AB = 2 x AM = 2 sqrt(r^2 - d^2)."
@@ -657,7 +748,10 @@
               "difficulty": "Hard",
               "question": "Two circles of radii 5 cm and 3 cm intersect. The distance between centres is 4 cm. The length of the common chord is:",
               "options": {
-                "A": "4 cm  (B) 6 cm  (C) 8 cm  (D) 5 cm"
+                "A": "4 cm",
+                "B": "6 cm",
+                "C": "8 cm",
+                "D": "5 cm"
               },
               "answer": "B",
               "explanation": "Using perpendicular from each centre to the common chord and Pythagoras theorem in each triangle, the common chord = 6 cm."
@@ -667,7 +761,10 @@
               "difficulty": "Hard",
               "question": "A chord is at distance equal to the radius from the centre. The chord makes an angle of ______ at the centre.",
               "options": {
-                "A": "30 degrees  (B) 60 degrees  (C) 90 degrees  (D) 120 degrees"
+                "A": "30 degrees",
+                "B": "60 degrees",
+                "C": "90 degrees",
+                "D": "120 degrees"
               },
               "answer": "D",
               "explanation": "If OM = r (radius), OA = r, then angle OAM = 60 degrees (equilateral triangle OMA if AM = r, but here the half-triangle gives angle AOB = 120 degrees)."
@@ -677,7 +774,10 @@
               "difficulty": "Hard",
               "question": "In a circle of radius 13 cm, a chord AB is at distance 5 cm from centre. Find AB.",
               "options": {
-                "A": "12 cm  (B) 24 cm  (C) 10 cm  (D) 20 cm"
+                "A": "12 cm",
+                "B": "24 cm",
+                "C": "10 cm",
+                "D": "20 cm"
               },
               "answer": "B",
               "explanation": "AM = sqrt(169 - 25) = sqrt(144) = 12. AB = 2 x 12 = 24 cm."
@@ -809,7 +909,10 @@
               "difficulty": "Easy",
               "question": "Equal chords of a circle are _______ from the centre.",
               "options": {
-                "A": "Farther  (B) Equidistant  (C) Nearer  (D) At varying distances"
+                "A": "Farther",
+                "B": "Equidistant",
+                "C": "Nearer",
+                "D": "At varying distances"
               },
               "answer": "B",
               "explanation": "Theorem 9.5 — equal chords are equidistant from the centre."
@@ -819,7 +922,10 @@
               "difficulty": "Easy",
               "question": "The chord with zero distance from the centre is the:",
               "options": {
-                "A": "Minor chord  (B) Radius  (C) Diameter  (D) Tangent"
+                "A": "Minor chord",
+                "B": "Radius",
+                "C": "Diameter",
+                "D": "Tangent"
               },
               "answer": "C",
               "explanation": "The diameter passes through the centre, so its distance is zero."
@@ -829,7 +935,10 @@
               "difficulty": "Easy",
               "question": "Theorem 9.6 is the converse of:",
               "options": {
-                "A": "Theorem 9.3  (B) Theorem 9.4  (C) Theorem 9.5  (D) Theorem 9.7"
+                "A": "Theorem 9.3",
+                "B": "Theorem 9.4",
+                "C": "Theorem 9.5",
+                "D": "Theorem 9.7"
               },
               "answer": "C",
               "explanation": "Theorem 9.6 reverses the statement of Theorem 9.5."
@@ -839,7 +948,10 @@
               "difficulty": "Medium",
               "question": "In a circle with radius 5 cm, a chord is at distance 4 cm from the centre. The length of the chord is:",
               "options": {
-                "A": "3 cm  (B) 6 cm  (C) 8 cm  (D) 4 cm"
+                "A": "3 cm",
+                "B": "6 cm",
+                "C": "8 cm",
+                "D": "4 cm"
               },
               "answer": "B",
               "explanation": "Half chord = sqrt(25 - 16) = sqrt(9) = 3. Chord = 2 x 3 = 6 cm."
@@ -849,7 +961,10 @@
               "difficulty": "Medium",
               "question": "In a circle with radius 13 cm, chord AB = 10 cm and chord CD = 24 cm. Which chord is closer to the centre?",
               "options": {
-                "A": "AB  (B) CD  (C) Both equal  (D) Cannot determine"
+                "A": "AB",
+                "B": "CD",
+                "C": "Both equal",
+                "D": "Cannot determine"
               },
               "answer": "B",
               "explanation": "d_AB = sqrt(169 - 25) = 12 cm. d_CD = sqrt(169 - 144) = 5 cm. CD (longer) is closer (5 cm < 12 cm)."
@@ -859,7 +974,10 @@
               "difficulty": "Medium",
               "question": "Two chords are equidistant from the centre. This implies they are:",
               "options": {
-                "A": "Parallel  (B) Diameters  (C) Equal in length  (D) Bisecting each other"
+                "A": "Parallel",
+                "B": "Diameters",
+                "C": "Equal in length",
+                "D": "Bisecting each other"
               },
               "answer": "C",
               "explanation": "Theorem 9.6 — chords equidistant from centre are equal."
@@ -869,7 +987,10 @@
               "difficulty": "Medium",
               "question": "In circle with centre O, OM = ON (OM perpendicular to AB, ON perpendicular to CD). Then:",
               "options": {
-                "A": "AB > CD  (B) AB < CD  (C) AB = CD  (D) AB + CD = 180"
+                "A": "AB > CD",
+                "B": "AB < CD",
+                "C": "AB = CD",
+                "D": "AB + CD = 180"
               },
               "answer": "C",
               "explanation": "Chords equidistant from centre are equal (Theorem 9.6)."
@@ -879,7 +1000,10 @@
               "difficulty": "Hard",
               "question": "In circle of radius 10 cm, OM = 6 cm and ON = 8 cm. Then:",
               "options": {
-                "A": "AB > CD  (B) AB < CD  (C) AB = CD  (D) AB + CD = 10"
+                "A": "AB > CD",
+                "B": "AB < CD",
+                "C": "AB = CD",
+                "D": "AB + CD = 10"
               },
               "answer": "A",
               "explanation": "AB = 2 sqrt(100-36) = 2 x 8 = 16 cm. CD = 2 sqrt(100-64) = 2 x 6 = 12 cm. So AB > CD."
@@ -889,7 +1013,10 @@
               "difficulty": "Hard",
               "question": "How many chords of length 6 cm can be drawn in a circle of radius 5 cm?",
               "options": {
-                "A": "Only 1  (B) Only 2  (C) Infinitely many  (D) None"
+                "A": "Only 1",
+                "B": "Only 2",
+                "C": "Infinitely many",
+                "D": "None"
               },
               "answer": "C",
               "explanation": "All chords of 6 cm are at same distance from centre (Theorem 9.5), but can be drawn at any orientation — infinitely many exist."
@@ -899,7 +1026,10 @@
               "difficulty": "Hard",
               "question": "Two concentric circles have radii r1 = 5 cm and r2 = 3 cm. A chord of the outer circle is tangent to the inner circle. Find the length of the chord.",
               "options": {
-                "A": "4 cm  (B) 6 cm  (C) 8 cm  (D) 10 cm"
+                "A": "4 cm",
+                "B": "6 cm",
+                "C": "8 cm",
+                "D": "10 cm"
               },
               "answer": "C",
               "explanation": "Distance from centre = r2 = 3. Half chord = sqrt(25-9) = 4. Chord = 8 cm."
@@ -909,7 +1039,10 @@
               "difficulty": "Hard",
               "question": "In the proof of Theorem 9.5, which congruence rule is used?",
               "options": {
-                "A": "SSS  (B) SAS  (C) ASA  (D) RHS"
+                "A": "SSS",
+                "B": "SAS",
+                "C": "ASA",
+                "D": "RHS"
               },
               "answer": "D",
               "explanation": "Right angle (90°), Hypotenuse (OA = OC, radii), Side (AM = CN)."
@@ -919,7 +1052,10 @@
               "difficulty": "Hard",
               "question": "In Example 9.3.1, which congruence rule proves triangles OLE and OME congruent?",
               "options": {
-                "A": "SSS  (B) SAS  (C) AAS  (D) RHS"
+                "A": "SSS",
+                "B": "SAS",
+                "C": "AAS",
+                "D": "RHS"
               },
               "answer": "C",
               "explanation": "Two angles and one side (non-included) are equal between the two triangles."
@@ -1050,7 +1186,10 @@
               "difficulty": "Easy",
               "question": "The angle subtended by an arc at the centre is _______ the angle at any point on the remaining part of the circle.",
               "options": {
-                "A": "Equal to  (B) Half of  (C) Double  (D) Four times"
+                "A": "Equal to",
+                "B": "Half of",
+                "C": "Double",
+                "D": "Four times"
               },
               "answer": "C",
               "explanation": "Theorem 9.7: central angle = 2 x inscribed angle."
@@ -1060,7 +1199,10 @@
               "difficulty": "Easy",
               "question": "The angle in a semicircle is:",
               "options": {
-                "A": "60 degrees  (B) 90 degrees  (C) 120 degrees  (D) 180 degrees"
+                "A": "60 degrees",
+                "B": "90 degrees",
+                "C": "120 degrees",
+                "D": "180 degrees"
               },
               "answer": "B",
               "explanation": "(1/2) x 180 degrees = 90 degrees (Theorem 9.7 special case)."
@@ -1070,7 +1212,10 @@
               "difficulty": "Easy",
               "question": "Angles in the same segment of a circle are:",
               "options": {
-                "A": "Supplementary  (B) Complementary  (C) Equal  (D) Vertically opposite"
+                "A": "Supplementary",
+                "B": "Complementary",
+                "C": "Equal",
+                "D": "Vertically opposite"
               },
               "answer": "C",
               "explanation": "Theorem 9.8 — angles in same segment are equal."
@@ -1080,7 +1225,10 @@
               "difficulty": "Medium",
               "question": "Central angle POQ = 80 degrees. Angle subtended at A on major arc:",
               "options": {
-                "A": "160 degrees  (B) 80 degrees  (C) 40 degrees  (D) 20 degrees"
+                "A": "160 degrees",
+                "B": "80 degrees",
+                "C": "40 degrees",
+                "D": "20 degrees"
               },
               "answer": "C",
               "explanation": "Inscribed angle = (1/2) x 80 = 40 degrees."
@@ -1090,7 +1238,10 @@
               "difficulty": "Medium",
               "question": "Angle subtended at a point on the circle is 50 degrees. The central angle is:",
               "options": {
-                "A": "25 degrees  (B) 50 degrees  (C) 100 degrees  (D) 200 degrees"
+                "A": "25 degrees",
+                "B": "50 degrees",
+                "C": "100 degrees",
+                "D": "200 degrees"
               },
               "answer": "C",
               "explanation": "Central angle = 2 x 50 = 100 degrees."
@@ -1100,7 +1251,10 @@
               "difficulty": "Medium",
               "question": "AB is a diameter. C is on the circle. angle CAB = 40 degrees. Find angle ABC.",
               "options": {
-                "A": "40 degrees  (B) 50 degrees  (C) 60 degrees  (D) 90 degrees"
+                "A": "40 degrees",
+                "B": "50 degrees",
+                "C": "60 degrees",
+                "D": "90 degrees"
               },
               "answer": "B",
               "explanation": "angle ACB = 90 (semicircle). angle ABC = 180 - 90 - 40 = 50 degrees."
@@ -1110,7 +1264,10 @@
               "difficulty": "Medium",
               "question": "Congruent arcs of a circle subtend _______ angles at the centre.",
               "options": {
-                "A": "Supplementary  (B) Different  (C) Equal  (D) Right angles"
+                "A": "Supplementary",
+                "B": "Different",
+                "C": "Equal",
+                "D": "Right angles"
               },
               "answer": "C",
               "explanation": "Congruent arcs (same length) subtend equal central angles."
@@ -1120,7 +1277,10 @@
               "difficulty": "Hard",
               "question": "Minor arc PQ subtends 120 degrees at centre. The reflex angle POQ (major arc) is:",
               "options": {
-                "A": "60 degrees  (B) 120 degrees  (C) 240 degrees  (D) 180 degrees"
+                "A": "60 degrees",
+                "B": "120 degrees",
+                "C": "240 degrees",
+                "D": "180 degrees"
               },
               "answer": "C",
               "explanation": "Reflex angle = 360 - 120 = 240 degrees."
@@ -1130,7 +1290,10 @@
               "difficulty": "Hard",
               "question": "Central angle POQ = 130 degrees. A is on the minor arc. Find angle PAQ.",
               "options": {
-                "A": "65 degrees  (B) 115 degrees  (C) 130 degrees  (D) 260 degrees"
+                "A": "65 degrees",
+                "B": "115 degrees",
+                "C": "130 degrees",
+                "D": "260 degrees"
               },
               "answer": "B",
               "explanation": "A is on minor arc, so reflex POQ = 360 - 130 = 230 degrees. angle PAQ = (1/2) x 230 = 115 degrees."
@@ -1140,7 +1303,10 @@
               "difficulty": "Hard",
               "question": "angle PAQ = 35 degrees (A on major arc). B is another point on major arc. Then angle PBQ =?",
               "options": {
-                "A": "70 degrees  (B) 35 degrees  (C) 17.5 degrees  (D) 140 degrees"
+                "A": "70 degrees",
+                "B": "35 degrees",
+                "C": "17.5 degrees",
+                "D": "140 degrees"
               },
               "answer": "B",
               "explanation": "Angles in same segment (major arc) are equal (Theorem 9.8)."
@@ -1150,7 +1316,10 @@
               "difficulty": "Hard",
               "question": "In Example 9.4.1, triangle OCD is equilateral because:",
               "options": {
-                "A": "angle COD = 60°  (B) OC = OD = CD = radius  (C) CD is a diameter  (D) C and D are on minor arc"
+                "A": "angle COD = 60°",
+                "B": "OC = OD = CD = radius",
+                "C": "CD is a diameter",
+                "D": "C and D are on minor arc"
               },
               "answer": "B",
               "explanation": "All three sides equal (all equal to radius), so equilateral."
@@ -1160,7 +1329,10 @@
               "difficulty": "Hard",
               "question": "Four points A, B, C, D are concyclic if:",
               "options": {
-                "A": "AB = CD  (B) angle ACB = angle ADB  (C) AC = BD  (D) All angles = 90 degrees"
+                "A": "AB = CD",
+                "B": "angle ACB = angle ADB",
+                "C": "AC = BD",
+                "D": "All angles = 90 degrees"
               },
               "answer": "B",
               "explanation": "Theorem 9.9 — if AB subtends equal angles at C and D (same side), the four points lie on a circle (concyclic)."
@@ -1305,7 +1477,10 @@
               "difficulty": "Easy",
               "question": "In a cyclic quadrilateral, the sum of each pair of opposite angles is:",
               "options": {
-                "A": "90 degrees  (B) 180 degrees  (C) 270 degrees  (D) 360 degrees"
+                "A": "90 degrees",
+                "B": "180 degrees",
+                "C": "270 degrees",
+                "D": "360 degrees"
               },
               "answer": "B",
               "explanation": "Theorem 9.10 — opposite angles of cyclic quadrilateral sum to 180."
@@ -1315,8 +1490,10 @@
               "difficulty": "Easy",
               "question": "A quadrilateral ABCD is cyclic if:",
               "options": {
-                "A": "angle A + angle B = 180°  (B) angle A + angle C = 180°",
-                "C": "angle A + angle D = 180°  (D) angle A = angle C"
+                "A": "angle A + angle B = 180°",
+                "B": "angle A + angle C = 180°",
+                "C": "angle A + angle D = 180°",
+                "D": "angle A = angle C"
               },
               "answer": "B",
               "explanation": "In a cyclic quadrilateral, each pair of OPPOSITE angles sums to 180°. A and C are opposite angles; B and D are opposite angles."
@@ -1326,7 +1503,10 @@
               "difficulty": "Easy",
               "question": "Theorem 9.11 is the _______ of Theorem 9.10.",
               "options": {
-                "A": "Proof  (B) Extension  (C) Converse  (D) Corollary"
+                "A": "Proof",
+                "B": "Extension",
+                "C": "Converse",
+                "D": "Corollary"
               },
               "answer": "C",
               "explanation": "Theorem 9.11 — if opposite angles sum to 180°, it is cyclic (reverse of Theorem 9.10)."
@@ -1336,7 +1516,10 @@
               "difficulty": "Medium",
               "question": "In cyclic quadrilateral ABCD, angle A = 80° and angle B = 100°. Find angle C.",
               "options": {
-                "A": "80°  (B) 100°  (C) 120°  (D) 60°"
+                "A": "80°",
+                "B": "100°",
+                "C": "120°",
+                "D": "60°"
               },
               "answer": "B",
               "explanation": "angle A + angle C = 180°. angle C = 180 - 80 = 100°."
@@ -1346,7 +1529,10 @@
               "difficulty": "Medium",
               "question": "In cyclic quadrilateral ABCD, angle A = 3x and angle C = x + 20. Find x.",
               "options": {
-                "A": "35  (B) 40  (C) 45  (D) 50"
+                "A": "35",
+                "B": "40",
+                "C": "45",
+                "D": "50"
               },
               "answer": "B",
               "explanation": "3x + (x + 20) = 180. 4x = 160. x = 40. Verification: angle A = 120°, angle C = 60°. 120 + 60 = 180. Correct."
@@ -1356,8 +1542,10 @@
               "difficulty": "Medium",
               "question": "A rectangle is always a cyclic quadrilateral because:",
               "options": {
-                "A": "Its sides are equal  (B) Its diagonals are equal",
-                "C": "Its opposite angles sum to 180°  (D) It has a right angle"
+                "A": "Its sides are equal",
+                "B": "Its diagonals are equal",
+                "C": "Its opposite angles sum to 180°",
+                "D": "It has a right angle"
               },
               "answer": "C",
               "explanation": "Each angle = 90°. Opposite angles: 90 + 90 = 180°."
@@ -1367,7 +1555,10 @@
               "difficulty": "Medium",
               "question": "In cyclic quadrilateral PQRS, angle P = 70°. Find angle R.",
               "options": {
-                "A": "70°  (B) 110°  (C) 140°  (D) 90°"
+                "A": "70°",
+                "B": "110°",
+                "C": "140°",
+                "D": "90°"
               },
               "answer": "B",
               "explanation": "angle P + angle R = 180°. angle R = 180 - 70 = 110°."
@@ -1377,7 +1568,10 @@
               "difficulty": "Hard",
               "question": "In cyclic quadrilateral ABCD, angle A = 5x and angle C = 3x - 20. Find angle A.",
               "options": {
-                "A": "125°  (B) 100°  (C) 75°  (D) 150°"
+                "A": "125°",
+                "B": "100°",
+                "C": "75°",
+                "D": "150°"
               },
               "answer": "A",
               "explanation": "5x + 3x - 20 = 180. 8x = 200. x = 25. angle A = 5 x 25 = 125°."
@@ -1387,7 +1581,10 @@
               "difficulty": "Hard",
               "question": "In cyclic quadrilateral ABCD, angle DBC = 55° and angle BAC = 45°. Find angle BCD.",
               "options": {
-                "A": "70°  (B) 80°  (C) 90°  (D) 100°"
+                "A": "70°",
+                "B": "80°",
+                "C": "90°",
+                "D": "100°"
               },
               "answer": "B",
               "explanation": "angle CAD = 55° (same segment). angle DAB = 100°. angle BCD = 180 - 100 = 80°."
@@ -1397,7 +1594,10 @@
               "difficulty": "Hard",
               "question": "If ABCD is a cyclic parallelogram, then angle A = ?",
               "options": {
-                "A": "60°  (B) 120°  (C) 90°  (D) Depends on the parallelogram"
+                "A": "60°",
+                "B": "120°",
+                "C": "90°",
+                "D": "Depends on the parallelogram"
               },
               "answer": "C",
               "explanation": "Cyclic parallelogram is a rectangle. All angles = 90°."
@@ -1407,7 +1607,10 @@
               "difficulty": "Hard",
               "question": "In a cyclic quadrilateral, one angle is 2 times its opposite angle. Both angles are:",
               "options": {
-                "A": "60°, 120°  (B) 45°, 90°  (C) 90°, 90°  (D) 30°, 150°"
+                "A": "60°, 120°",
+                "B": "45°, 90°",
+                "C": "90°, 90°",
+                "D": "30°, 150°"
               },
               "answer": "A",
               "explanation": "x + 2x = 180. 3x = 180. x = 60. 2x = 120."
@@ -1417,7 +1620,10 @@
               "difficulty": "Hard",
               "question": "In Example 9.5.3, the angle bisectors of the four interior angles of any quadrilateral always form a quadrilateral that is:",
               "options": {
-                "A": "A rectangle  (B) A parallelogram  (C) Cyclic  (D) A square"
+                "A": "A rectangle",
+                "B": "A parallelogram",
+                "C": "Cyclic",
+                "D": "A square"
               },
               "answer": "C",
               "explanation": "Opposite angles of the formed quadrilateral sum to 180° (proved in Example 9.5.3), so by Theorem 9.11, it is cyclic."

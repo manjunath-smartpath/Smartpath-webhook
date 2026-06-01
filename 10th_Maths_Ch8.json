@@ -131,7 +131,10 @@
           "difficulty": "Easy",
           "question": "The word 'TRI' in trigonometry means:",
           "options": {
-            "A": "Angle  (B) Measure  (C) Three  (D) Side"
+            "A": "Angle",
+            "B": "Measure",
+            "C": "Three",
+            "D": "Side"
           },
           "answer": "C",
           "explanation": "Tri = three, gon = sides, metron = measure."
@@ -141,7 +144,10 @@
           "difficulty": "Easy",
           "question": "sin²A + cos²A =",
           "options": {
-            "A": "0  (B) 2  (C) sin A  (D) 1"
+            "A": "0",
+            "B": "2",
+            "C": "sin A",
+            "D": "1"
           },
           "answer": "D",
           "explanation": "This is the first fundamental trigonometric identity, derived from Pythagoras theorem."
@@ -151,7 +157,10 @@
           "difficulty": "Easy",
           "question": "The value of tan 45° is:",
           "options": {
-            "A": "0  (B) 1/√3  (C) 1  (D) √3"
+            "A": "0",
+            "B": "1/√3",
+            "C": "1",
+            "D": "√3"
           },
           "answer": "C",
           "explanation": "In a 45°-45°-90° triangle, both legs are equal, so tan 45° = a/a = 1."
@@ -161,7 +170,10 @@
           "difficulty": "Medium",
           "question": "sec²A − tan²A =",
           "options": {
-            "A": "0  (B) 2  (C) 1  (D) cos²A"
+            "A": "0",
+            "B": "2",
+            "C": "1",
+            "D": "cos²A"
           },
           "answer": "C",
           "explanation": "This is the second fundamental identity: 1 + tan²A = sec²A."
@@ -171,7 +183,10 @@
           "difficulty": "Medium",
           "question": "Which of the following is NOT DEFINED?",
           "options": {
-            "A": "sin 90°  (B) cos 0°  (C) tan 90°  (D) tan 0°"
+            "A": "sin 90°",
+            "B": "cos 0°",
+            "C": "tan 90°",
+            "D": "tan 0°"
           },
           "answer": "C",
           "explanation": "tan 90° = sin 90° / cos 90° = 1/0, which is undefined."
@@ -181,7 +196,10 @@
           "difficulty": "Hard",
           "question": "The value of (sin A + cosec A)² + (cos A + sec A)² is:",
           "options": {
-            "A": "5 + tan²A + cot²A  (B) 7 + tan²A + cot²A  (C) 7 + sin²A + cos²A  (D) 9"
+            "A": "5 + tan²A + cot²A",
+            "B": "7 + tan²A + cot²A",
+            "C": "7 + sin²A + cos²A",
+            "D": "9"
           },
           "answer": "B",
           "explanation": "= sin²A + 2 + cosec²A + cos²A + 2 + sec²A = 1 + 4 + (1 + cot²A) + (1 + tan²A) = 7 + tan²A + cot²A."
@@ -302,7 +320,10 @@
               "difficulty": "Easy",
               "question": "The word 'trigonometry' comes from which language?",
               "options": {
-                "A": "Latin  (B) Greek  (C) Arabic  (D) Sanskrit"
+                "A": "Latin",
+                "B": "Greek",
+                "C": "Arabic",
+                "D": "Sanskrit"
               },
               "answer": "B",
               "explanation": "Trigonometry is derived from three Greek words — tri (three), gon (sides), metron (measure)."
@@ -312,7 +333,10 @@
               "difficulty": "Easy",
               "question": "The earliest work on trigonometry was recorded in:",
               "options": {
-                "A": "Greece and Rome  (B) India and China  (C) Egypt and Babylon  (D) Arabia and Persia"
+                "A": "Greece and Rome",
+                "B": "India and China",
+                "C": "Egypt and Babylon",
+                "D": "Arabia and Persia"
               },
               "answer": "C",
               "explanation": "As stated in the textbook, the earliest known work on trigonometry was recorded in Egypt and Babylon."
@@ -322,7 +346,10 @@
               "difficulty": "Easy",
               "question": "The word 'TRI' in trigonometry means:",
               "options": {
-                "A": "Angle  (B) Measure  (C) Three  (D) Side"
+                "A": "Angle",
+                "B": "Measure",
+                "C": "Three",
+                "D": "Side"
               },
               "answer": "C",
               "explanation": "Tri = three, gon = sides, metron = measure."
@@ -332,7 +359,10 @@
               "difficulty": "Easy",
               "question": "Who first used the abbreviation 'sin'?",
               "options": {
-                "A": "Aryabhata  (B) Jonas Moore  (C) Edmund Gunter  (D) J.F. Herbart"
+                "A": "Aryabhata",
+                "B": "Jonas Moore",
+                "C": "Edmund Gunter",
+                "D": "J.F. Herbart"
               },
               "answer": "C",
               "explanation": "Edmund Gunter (1581–1626) first used the abbreviated notation 'sin'."
@@ -342,7 +372,10 @@
               "difficulty": "Easy",
               "question": "Trigonometry is the study of relationships between:",
               "options": {
-                "A": "Areas and volumes  (B) Sides and angles of a triangle  (C) Circles and tangents  (D) Straight lines and curves"
+                "A": "Areas and volumes",
+                "B": "Sides and angles of a triangle",
+                "C": "Circles and tangents",
+                "D": "Straight lines and curves"
               },
               "answer": "B",
               "explanation": "Trigonometry = study of the relationship between the sides and angles of a triangle."
@@ -352,7 +385,10 @@
               "difficulty": "Medium",
               "question": "Aryabhata called the concept of 'sine' by the name:",
               "options": {
-                "A": "Kotijya  (B) Ardha-jya  (C) Jiva  (D) Sinus"
+                "A": "Kotijya",
+                "B": "Ardha-jya",
+                "C": "Jiva",
+                "D": "Sinus"
               },
               "answer": "B",
               "explanation": "Aryabhata used the word ardha-jya for half-chord, which later became jiva, then sinus, then sine."
@@ -362,7 +398,10 @@
               "difficulty": "Medium",
               "question": "The name 'cosinus' originated with:",
               "options": {
-                "A": "Aryabhata  (B) Jonas Moore  (C) Edmund Gunter  (D) J.F. Herbart"
+                "A": "Aryabhata",
+                "B": "Jonas Moore",
+                "C": "Edmund Gunter",
+                "D": "J.F. Herbart"
               },
               "answer": "C",
               "explanation": "The cosine function arose from the need to compute the sine of the complementary angle. Aryabhata called it kotijya; the name cosinus originated with Edmund Gunter."
@@ -372,7 +411,10 @@
               "difficulty": "Medium",
               "question": "In Class 10, trigonometric ratios are defined for:",
               "options": {
-                "A": "All angles  (B) Obtuse angles only  (C) Acute angles of a right triangle  (D) Reflex angles"
+                "A": "All angles",
+                "B": "Obtuse angles only",
+                "C": "Acute angles of a right triangle",
+                "D": "Reflex angles"
               },
               "answer": "C",
               "explanation": "In Class 10, we restrict our discussion to acute angles only."
@@ -382,7 +424,10 @@
               "difficulty": "Medium",
               "question": "Which of the following is NOT a real-life situation involving trigonometry (as given in textbook)?",
               "options": {
-                "A": "Finding height of Qutub Minar  (B) Finding width of a river  (C) Finding altitude of a balloon  (D) Finding area of a rectangle"
+                "A": "Finding height of Qutub Minar",
+                "B": "Finding width of a river",
+                "C": "Finding altitude of a balloon",
+                "D": "Finding area of a rectangle"
               },
               "answer": "D",
               "explanation": "The textbook discusses heights and distances — minar, river width, balloon altitude."
@@ -392,7 +437,10 @@
               "difficulty": "Medium",
               "question": "The word 'jiva' was translated into which Latin word?",
               "options": {
-                "A": "Cosinus  (B) Sinus  (C) Tangens  (D) Secans"
+                "A": "Cosinus",
+                "B": "Sinus",
+                "C": "Tangens",
+                "D": "Secans"
               },
               "answer": "B",
               "explanation": "The Arabic word jiva was translated into Latin as sinus (meaning curve), which became 'sine'."
@@ -402,7 +450,10 @@
               "difficulty": "Medium",
               "question": "In which year did Jonas Moore first use the abbreviated notation 'cos'?",
               "options": {
-                "A": "1500  (B) 1626  (C) 1674  (D) 1890"
+                "A": "1500",
+                "B": "1626",
+                "C": "1674",
+                "D": "1890"
               },
               "answer": "C",
               "explanation": "In 1674, Sir Jonas Moore first used the abbreviated notation 'cos'."
@@ -412,7 +463,10 @@
               "difficulty": "Hard",
               "question": "Which similarity criterion is used to show that trigonometric ratios do not depend on the size of the right triangle?",
               "options": {
-                "A": "SAS  (B) SSS  (C) AA  (D) RHS"
+                "A": "SAS",
+                "B": "SSS",
+                "C": "AA",
+                "D": "RHS"
               },
               "answer": "C",
               "explanation": "Using the AA similarity criterion, triangles formed at different points on the hypotenuse are similar, so trigonometric ratios remain the same regardless of triangle size."
@@ -422,7 +476,10 @@
               "difficulty": "Hard",
               "question": "sin A is NOT the product of 'sin' and A. This means sin A represents:",
               "options": {
-                "A": "The product of sine value and angle  (B) The abbreviation for sine of angle A  (C) The inverse of angle A  (D) A constant value"
+                "A": "The product of sine value and angle",
+                "B": "The abbreviation for sine of angle A",
+                "C": "The inverse of angle A",
+                "D": "A constant value"
               },
               "answer": "B",
               "explanation": "'sin' separated from A has no meaning. sin A is an abbreviation for 'the sine of angle A'."
@@ -432,7 +489,10 @@
               "difficulty": "Hard",
               "question": "Which of the following correctly describes what trigonometry helps us find in real life?",
               "options": {
-                "A": "Heights and distances that can be directly measured  (B) Only the angles of a triangle  (C) Heights and distances that cannot be directly measured  (D) Only the sides of a triangle"
+                "A": "Heights and distances that can be directly measured",
+                "B": "Only the angles of a triangle",
+                "C": "Heights and distances that cannot be directly measured",
+                "D": "Only the sides of a triangle"
               },
               "answer": "C",
               "explanation": "Trigonometry is useful when direct measurement is not possible."
@@ -442,7 +502,10 @@
               "difficulty": "Hard",
               "question": "A student observes that sin A in triangle PAM equals sin A in triangle CAB. This is because:",
               "options": {
-                "A": "The triangles have the same area  (B) The triangles are congruent  (C) The triangles are similar by AA criterion  (D) The hypotenuse is the same"
+                "A": "The triangles have the same area",
+                "B": "The triangles are congruent",
+                "C": "The triangles are similar by AA criterion",
+                "D": "The hypotenuse is the same"
               },
               "answer": "C",
               "explanation": "Triangles PAM and CAB are similar by the AA criterion, so corresponding sides are proportional. ----"
@@ -643,7 +706,10 @@
               "difficulty": "Easy",
               "question": "In right triangle ABC (right-angled at B), sin A equals:",
               "options": {
-                "A": "AB/AC  (B) BC/AC  (C) BC/AB  (D) AB/BC"
+                "A": "AB/AC",
+                "B": "BC/AC",
+                "C": "BC/AB",
+                "D": "AB/BC"
               },
               "answer": "B",
               "explanation": "sin A = (side opposite to A) / hypotenuse = BC/AC."
@@ -653,7 +719,10 @@
               "difficulty": "Easy",
               "question": "The reciprocal of sin A is:",
               "options": {
-                "A": "cos A  (B) tan A  (C) sec A  (D) cosec A"
+                "A": "cos A",
+                "B": "tan A",
+                "C": "sec A",
+                "D": "cosec A"
               },
               "answer": "D",
               "explanation": "cosec A = 1/sin A."
@@ -663,7 +732,10 @@
               "difficulty": "Easy",
               "question": "In right triangle ABC (right-angled at B), cos A equals:",
               "options": {
-                "A": "BC/AC  (B) AB/AC  (C) BC/AB  (D) AC/BC"
+                "A": "BC/AC",
+                "B": "AB/AC",
+                "C": "BC/AB",
+                "D": "AC/BC"
               },
               "answer": "B",
               "explanation": "cos A = (side adjacent to A) / hypotenuse = AB/AC."
@@ -673,7 +745,10 @@
               "difficulty": "Easy",
               "question": "The maximum value of sin A for an acute angle A is:",
               "options": {
-                "A": "2  (B) greater than 1  (C) 1  (D) 0"
+                "A": "2",
+                "B": "greater than 1",
+                "C": "1",
+                "D": "0"
               },
               "answer": "C",
               "explanation": "sin A = BC/AC ≤ 1 since hypotenuse AC is the longest side."
@@ -683,7 +758,10 @@
               "difficulty": "Easy",
               "question": "tan A in terms of sin A and cos A is:",
               "options": {
-                "A": "sin A × cos A  (B) cos A / sin A  (C) sin A / cos A  (D) 1/(sin A + cos A)"
+                "A": "sin A × cos A",
+                "B": "cos A / sin A",
+                "C": "sin A / cos A",
+                "D": "1/(sin A + cos A)"
               },
               "answer": "C",
               "explanation": "tan A = (BC/AC)/(AB/AC) = BC/AB = sin A / cos A."
@@ -693,7 +771,10 @@
               "difficulty": "Medium",
               "question": "If tan A = 5/12, then sin A equals:",
               "options": {
-                "A": "5/13  (B) 12/13  (C) 5/12  (D) 12/5"
+                "A": "5/13",
+                "B": "12/13",
+                "C": "5/12",
+                "D": "12/5"
               },
               "answer": "A",
               "explanation": "Opposite = 5k, adjacent = 12k, hypotenuse = 13k. sin A = 5/13."
@@ -703,7 +784,10 @@
               "difficulty": "Medium",
               "question": "If sin A = 3/5, then cos A equals:",
               "options": {
-                "A": "4/5  (B) 3/4  (C) 5/3  (D) 5/4"
+                "A": "4/5",
+                "B": "3/4",
+                "C": "5/3",
+                "D": "5/4"
               },
               "answer": "A",
               "explanation": "BC = 3k, AC = 5k → AB = 4k (Pythagoras). cos A = 4/5."
@@ -713,7 +797,10 @@
               "difficulty": "Medium",
               "question": "If cosec A = 2, then sin A is:",
               "options": {
-                "A": "2  (B) 1/√2  (C) 1/2  (D) √3/2"
+                "A": "2",
+                "B": "1/√2",
+                "C": "1/2",
+                "D": "√3/2"
               },
               "answer": "C",
               "explanation": "cosec A = 1/sin A = 2 → sin A = 1/2."
@@ -723,7 +810,10 @@
               "difficulty": "Medium",
               "question": "Which of the following is TRUE?",
               "options": {
-                "A": "sin A = sin × A  (B) The value of cos A can exceed 1  (C) cot A = cos A / sin A  (D) sec A = sin A / cos A"
+                "A": "sin A = sin × A",
+                "B": "The value of cos A can exceed 1",
+                "C": "cot A = cos A / sin A",
+                "D": "sec A = sin A / cos A"
               },
               "answer": "C",
               "explanation": "cot A = 1/tan A = cos A / sin A. The others are false."
@@ -733,7 +823,10 @@
               "difficulty": "Medium",
               "question": "If sin B = sin Q (both acute angles), then:",
               "options": {
-                "A": "angle B > angle Q  (B) angle B < angle Q  (C) angle B = angle Q  (D) No relationship can be determined"
+                "A": "angle B > angle Q",
+                "B": "angle B < angle Q",
+                "C": "angle B = angle Q",
+                "D": "No relationship can be determined"
               },
               "answer": "C",
               "explanation": "By the AA similarity criterion, the triangles are similar and corresponding angles are equal."
@@ -743,7 +836,10 @@
               "difficulty": "Medium",
               "question": "In right triangle ABC (right-angled at B), tan A equals:",
               "options": {
-                "A": "AB/BC  (B) BC/AB  (C) AC/BC  (D) AC/AB"
+                "A": "AB/BC",
+                "B": "BC/AB",
+                "C": "AC/BC",
+                "D": "AC/AB"
               },
               "answer": "B",
               "explanation": "tan A = (side opposite to A) / (side adjacent to A) = BC/AB."
@@ -753,7 +849,10 @@
               "difficulty": "Hard",
               "question": "If 3 cot A = 4, then (1 − tan²A)/(1 + tan²A) equals:",
               "options": {
-                "A": "4/5  (B) 7/25  (C) 16/25  (D) 9/25"
+                "A": "4/5",
+                "B": "7/25",
+                "C": "16/25",
+                "D": "9/25"
               },
               "answer": "B",
               "explanation": "cot A = 4/3 → tan A = 3/4. (1 − 9/16)/(1 + 9/16) = (7/16)/(25/16) = 7/25."
@@ -763,7 +862,10 @@
               "difficulty": "Hard",
               "question": "In right triangle ACB (right-angled at C), AB = 29, BC = 21, angle ABC = θ. The value of cos²θ − sin²θ is:",
               "options": {
-                "A": "1  (B) 41/841  (C) 400/841  (D) 0"
+                "A": "1",
+                "B": "41/841",
+                "C": "400/841",
+                "D": "0"
               },
               "answer": "B",
               "explanation": "AC = 20, sin θ = 20/29, cos θ = 21/29. cos²θ − sin²θ = (441 − 400)/841 = 41/841."
@@ -773,7 +875,10 @@
               "difficulty": "Hard",
               "question": "In triangle OPQ (right-angled at P), OP = 7 cm, OQ − PQ = 1 cm. The value of sin Q + cos Q is:",
               "options": {
-                "A": "24/25  (B) 7/25  (C) 31/25  (D) 1"
+                "A": "24/25",
+                "B": "7/25",
+                "C": "31/25",
+                "D": "1"
               },
               "answer": "C",
               "explanation": "sin Q = 7/25, cos Q = 24/25. Sum = 31/25."
@@ -783,7 +888,10 @@
               "difficulty": "Hard",
               "question": "If tan A = 1, then 2 sin A cos A equals:",
               "options": {
-                "A": "1/2  (B) √2  (C) 1  (D) 2"
+                "A": "1/2",
+                "B": "√2",
+                "C": "1",
+                "D": "2"
               },
               "answer": "C",
               "explanation": "tan A = 1 → sin A = cos A = 1/√2. 2 × (1/√2) × (1/√2) = 1. ----"
@@ -949,7 +1057,10 @@
               "difficulty": "Easy",
               "question": "The value of sin 90° is:",
               "options": {
-                "A": "0  (B) 1/2  (C) 1/√2  (D) 1"
+                "A": "0",
+                "B": "1/2",
+                "C": "1/√2",
+                "D": "1"
               },
               "answer": "D",
               "explanation": "sin 90° = 1 (defined by limiting approach as angle → 90°)."
@@ -959,7 +1070,10 @@
               "difficulty": "Easy",
               "question": "The value of cos 60° is:",
               "options": {
-                "A": "√3/2  (B) 1/2  (C) 1/√2  (D) 0"
+                "A": "√3/2",
+                "B": "1/2",
+                "C": "1/√2",
+                "D": "0"
               },
               "answer": "B",
               "explanation": "Derived using equilateral triangle with perpendicular: cos 60° = 1/2."
@@ -969,7 +1083,10 @@
               "difficulty": "Easy",
               "question": "The value of tan 45° is:",
               "options": {
-                "A": "0  (B) 1/√3  (C) 1  (D) √3"
+                "A": "0",
+                "B": "1/√3",
+                "C": "1",
+                "D": "√3"
               },
               "answer": "C",
               "explanation": "In 45°-45°-90° triangle, both legs equal, so tan 45° = a/a = 1."
@@ -979,7 +1096,10 @@
               "difficulty": "Easy",
               "question": "Which of the following is NOT DEFINED?",
               "options": {
-                "A": "sin 90°  (B) cos 0°  (C) tan 90°  (D) tan 0°"
+                "A": "sin 90°",
+                "B": "cos 0°",
+                "C": "tan 90°",
+                "D": "tan 0°"
               },
               "answer": "C",
               "explanation": "tan 90° = sin 90°/cos 90° = 1/0 → undefined."
@@ -989,7 +1109,10 @@
               "difficulty": "Easy",
               "question": "The value of sin 30° + cos 60° is:",
               "options": {
-                "A": "1  (B) √3  (C) 0  (D) 2"
+                "A": "1",
+                "B": "√3",
+                "C": "0",
+                "D": "2"
               },
               "answer": "A",
               "explanation": "sin 30° = 1/2, cos 60° = 1/2. Sum = 1."
@@ -999,7 +1122,10 @@
               "difficulty": "Medium",
               "question": "The value of 2 tan²45° + cos²30° − sin²60° is:",
               "options": {
-                "A": "3  (B) 2  (C) 1  (D) 0"
+                "A": "3",
+                "B": "2",
+                "C": "1",
+                "D": "0"
               },
               "answer": "B",
               "explanation": "2(1)² + (√3/2)² − (√3/2)² = 2 + 3/4 − 3/4 = 2."
@@ -1009,7 +1135,10 @@
               "difficulty": "Medium",
               "question": "If tan(A + B) = √3 and tan(A − B) = 1/√3, then A equals:",
               "options": {
-                "A": "15°  (B) 30°  (C) 45°  (D) 60°"
+                "A": "15°",
+                "B": "30°",
+                "C": "45°",
+                "D": "60°"
               },
               "answer": "C",
               "explanation": "A + B = 60°, A − B = 30°. Solving: A = 45°."
@@ -1019,7 +1148,10 @@
               "difficulty": "Medium",
               "question": "sin 2A = 2 sin A is true when A =",
               "options": {
-                "A": "30°  (B) 45°  (C) 60°  (D) 0°"
+                "A": "30°",
+                "B": "45°",
+                "C": "60°",
+                "D": "0°"
               },
               "answer": "D",
               "explanation": "2 sin A cos A = 2 sin A → cos A = 1 → A = 0°."
@@ -1029,7 +1161,10 @@
               "difficulty": "Medium",
               "question": "The value of (5 cos²60° + 4 sec²30° − tan²45°) / (sin²30° + cos²30°) is:",
               "options": {
-                "A": "67/12  (B) 2  (C) 1  (D) 4"
+                "A": "67/12",
+                "B": "2",
+                "C": "1",
+                "D": "4"
               },
               "answer": "A",
               "explanation": "Numerator = 5(1/4) + 4(4/3) − 1 = 5/4 + 16/3 − 1 = 15/12 + 64/12 − 12/12 = 67/12. Denominator = 1."
@@ -1039,7 +1174,10 @@
               "difficulty": "Medium",
               "question": "In right triangle PQR (right-angled at Q), PQ = 3 cm, PR = 6 cm. The angle PRQ is:",
               "options": {
-                "A": "45°  (B) 30°  (C) 60°  (D) 90°"
+                "A": "45°",
+                "B": "30°",
+                "C": "60°",
+                "D": "90°"
               },
               "answer": "B",
               "explanation": "sin R = PQ/PR = 3/6 = 1/2 → angle PRQ = 30°."
@@ -1049,7 +1187,10 @@
               "difficulty": "Medium",
               "question": "The value of 2 tan 30°/(1 + tan²30°) equals:",
               "options": {
-                "A": "sin 60°  (B) cos 60°  (C) tan 60°  (D) sin 30°"
+                "A": "sin 60°",
+                "B": "cos 60°",
+                "C": "tan 60°",
+                "D": "sin 30°"
               },
               "answer": "A",
               "explanation": "= 2(1/√3)/(4/3) = (2/√3)(3/4) = 3/(2√3) = √3/2 = sin 60°."
@@ -1059,7 +1200,10 @@
               "difficulty": "Hard",
               "question": "In right triangle ABC (right-angled at B), AB = 5 cm and angle ACB = 30°. The length of BC is:",
               "options": {
-                "A": "5 cm  (B) 10 cm  (C) 5/√3 cm  (D) 5√3 cm"
+                "A": "5 cm",
+                "B": "10 cm",
+                "C": "5/√3 cm",
+                "D": "5√3 cm"
               },
               "answer": "D",
               "explanation": "tan 30° = AB/BC → 1/√3 = 5/BC → BC = 5√3 cm."
@@ -1069,7 +1213,10 @@
               "difficulty": "Hard",
               "question": "If sin(A − B) = 1/2 and cos(A + B) = 1/2, then B equals:",
               "options": {
-                "A": "30°  (B) 45°  (C) 15°  (D) 60°"
+                "A": "30°",
+                "B": "45°",
+                "C": "15°",
+                "D": "60°"
               },
               "answer": "C",
               "explanation": "A − B = 30°, A + B = 60°. Solving: B = 15°."
@@ -1079,7 +1226,10 @@
               "difficulty": "Hard",
               "question": "The value of (1 − tan²45°)/(1 + tan²45°) is:",
               "options": {
-                "A": "tan 90°  (B) 1  (C) sin 45°  (D) 0"
+                "A": "tan 90°",
+                "B": "1",
+                "C": "sin 45°",
+                "D": "0"
               },
               "answer": "D",
               "explanation": "tan 45° = 1. (1 − 1)/(1 + 1) = 0/2 = 0."
@@ -1089,7 +1239,10 @@
               "difficulty": "Hard",
               "question": "The value of cos 45°/(sec 30° + cosec 30°) is:",
               "options": {
-                "A": "√3(√3 − 1)/6  (B) (√6 − √2)/8  (C) 3(√3 − 1)/8  (D) √6/8"
+                "A": "√3(√3 − 1)/6",
+                "B": "(√6 − √2)/8",
+                "C": "3(√3 − 1)/8",
+                "D": "√6/8"
               },
               "answer": "B",
               "explanation": "cos 45° = 1/√2, sec 30° = 2/√3, cosec 30° = 2. Denominator = 2/√3 + 2 = 2(1 + √3)/√3. Result = (1/√2) × √3/[2(1 + √3)] = √3/[2√2(1 + √3)]. Rationalise: × (√3 − 1)/(√3 − 1) → √3(√3 − 1)/[2√2 × 2] = (3 − √3)/(4√2) = (√6 − √2)/8. ----"
@@ -1288,7 +1441,10 @@
               "difficulty": "Easy",
               "question": "sin²A + cos²A =",
               "options": {
-                "A": "0  (B) 2  (C) sin A  (D) 1"
+                "A": "0",
+                "B": "2",
+                "C": "sin A",
+                "D": "1"
               },
               "answer": "D",
               "explanation": "First fundamental trigonometric identity."
@@ -1298,7 +1454,10 @@
               "difficulty": "Easy",
               "question": "sec²A − tan²A =",
               "options": {
-                "A": "0  (B) 2  (C) 1  (D) sin²A"
+                "A": "0",
+                "B": "2",
+                "C": "1",
+                "D": "sin²A"
               },
               "answer": "C",
               "explanation": "Second fundamental identity: 1 + tan²A = sec²A → sec²A − tan²A = 1."
@@ -1308,7 +1467,10 @@
               "difficulty": "Easy",
               "question": "cosec²A − cot²A =",
               "options": {
-                "A": "0  (B) 1  (C) 2  (D) cos²A"
+                "A": "0",
+                "B": "1",
+                "C": "2",
+                "D": "cos²A"
               },
               "answer": "B",
               "explanation": "Third fundamental identity: cot²A + 1 = cosec²A → cosec²A − cot²A = 1."
@@ -1318,7 +1480,10 @@
               "difficulty": "Easy",
               "question": "The value of 9 sec²A − 9 tan²A is:",
               "options": {
-                "A": "1  (B) 0  (C) 8  (D) 9"
+                "A": "1",
+                "B": "0",
+                "C": "8",
+                "D": "9"
               },
               "answer": "D",
               "explanation": "9(sec²A − tan²A) = 9 × 1 = 9."
@@ -1328,7 +1493,10 @@
               "difficulty": "Easy",
               "question": "sin A in terms of cos A is:",
               "options": {
-                "A": "cos A  (B) 1 − cos A  (C) √(1 − cos²A)  (D) √(1 + cos²A)"
+                "A": "cos A",
+                "B": "1 − cos A",
+                "C": "√(1 − cos²A)",
+                "D": "√(1 + cos²A)"
               },
               "answer": "C",
               "explanation": "sin²A + cos²A = 1 → sin A = √(1 − cos²A) for acute A."
@@ -1338,7 +1506,10 @@
               "difficulty": "Medium",
               "question": "The identity sec²A − tan²A = 1 is valid for:",
               "options": {
-                "A": "0° < A ≤ 90°  (B) 0° ≤ A < 90°  (C) 0° < A < 90°  (D) All values of A"
+                "A": "0° < A ≤ 90°",
+                "B": "0° ≤ A < 90°",
+                "C": "0° < A < 90°",
+                "D": "All values of A"
               },
               "answer": "B",
               "explanation": "tan A and sec A are undefined at A = 90°, so identity holds for 0° ≤ A < 90°."
@@ -1348,7 +1519,10 @@
               "difficulty": "Medium",
               "question": "The value of (1 + tan θ + sec θ)(1 + cot θ − cosec θ) is:",
               "options": {
-                "A": "0  (B) 1  (C) 2  (D) −1"
+                "A": "0",
+                "B": "1",
+                "C": "2",
+                "D": "−1"
               },
               "answer": "C",
               "explanation": "Expanding in terms of sin θ and cos θ simplifies to 2."
@@ -1358,7 +1532,10 @@
               "difficulty": "Medium",
               "question": "(sec A + tan A)(1 − sin A) equals:",
               "options": {
-                "A": "sec A  (B) sin A  (C) cosec A  (D) cos A"
+                "A": "sec A",
+                "B": "sin A",
+                "C": "cosec A",
+                "D": "cos A"
               },
               "answer": "D",
               "explanation": "= [(1 + sin A)/cos A](1 − sin A) = (1 − sin²A)/cos A = cos²A/cos A = cos A."
@@ -1368,7 +1545,10 @@
               "difficulty": "Medium",
               "question": "(1 + tan²A)/(1 + cot²A) equals:",
               "options": {
-                "A": "sec²A  (B) −1  (C) cot²A  (D) tan²A"
+                "A": "sec²A",
+                "B": "−1",
+                "C": "cot²A",
+                "D": "tan²A"
               },
               "answer": "D",
               "explanation": "= sec²A/cosec²A = sin²A/cos²A = tan²A."
@@ -1378,7 +1558,10 @@
               "difficulty": "Medium",
               "question": "cosec A and cot A are NOT defined for:",
               "options": {
-                "A": "A = 45°  (B) A = 90°  (C) A = 60°  (D) A = 0°"
+                "A": "A = 45°",
+                "B": "A = 90°",
+                "C": "A = 60°",
+                "D": "A = 0°"
               },
               "answer": "D",
               "explanation": "cosec A = 1/sin A, cot A = cos A/sin A. At A = 0°, sin A = 0 → undefined."
@@ -1388,7 +1571,10 @@
               "difficulty": "Medium",
               "question": "If sec A = 5/4, then tan A equals:",
               "options": {
-                "A": "4/5  (B) 5/3  (C) 3/4  (D) 3/5"
+                "A": "4/5",
+                "B": "5/3",
+                "C": "3/4",
+                "D": "3/5"
               },
               "answer": "C",
               "explanation": "tan²A = sec²A − 1 = 25/16 − 1 = 9/16 → tan A = 3/4."
@@ -1398,7 +1584,10 @@
               "difficulty": "Hard",
               "question": "The value of (cosec A − sin A)(sec A − cos A) equals:",
               "options": {
-                "A": "sin A + cos A  (B) 1  (C) 1/(tan A + cot A)  (D) tan A × cot A"
+                "A": "sin A + cos A",
+                "B": "1",
+                "C": "1/(tan A + cot A)",
+                "D": "tan A × cot A"
               },
               "answer": "C",
               "explanation": "= (cos²A/sin A)(sin²A/cos A) = sin A cos A. tan A + cot A = 1/(sin A cos A). So 1/(tan A + cot A) = sin A cos A. ✓"
@@ -1408,7 +1597,10 @@
               "difficulty": "Hard",
               "question": "Which is the correct form of (cosec θ − cot θ)²?",
               "options": {
-                "A": "(1 + cos θ)/(1 − cos θ)  (B) (1 − cos θ)/(1 + cos θ)  (C) (1 − sin θ)/(1 + sin θ)  (D) sin²θ"
+                "A": "(1 + cos θ)/(1 − cos θ)",
+                "B": "(1 − cos θ)/(1 + cos θ)",
+                "C": "(1 − sin θ)/(1 + sin θ)",
+                "D": "sin²θ"
               },
               "answer": "B",
               "explanation": "cosec θ − cot θ = (1 − cos θ)/sin θ. Squaring: (1 − cos θ)²/sin²θ = (1 − cos θ)²/(1 − cos²θ) = (1 − cos θ)/(1 + cos θ)."
@@ -1418,7 +1610,10 @@
               "difficulty": "Hard",
               "question": "If cos A + sin A = √2 cos A, then cos A − sin A equals:",
               "options": {
-                "A": "√2 sin A  (B) √2 cos A  (C) sin A  (D) cos A"
+                "A": "√2 sin A",
+                "B": "√2 cos A",
+                "C": "sin A",
+                "D": "cos A"
               },
               "answer": "A",
               "explanation": "cos A + sin A = √2 cos A → squaring: 1 + 2 sin A cos A = 2 cos²A. (cos A − sin A)² = 1 − 2 sin A cos A = 2 sin²A → cos A − sin A = √2 sin A."
@@ -1428,7 +1623,10 @@
               "difficulty": "Hard",
               "question": "The value of (sin A + cosec A)² + (cos A + sec A)² is:",
               "options": {
-                "A": "5 + tan²A + cot²A  (B) 7 + tan²A + cot²A  (C) 7 + sin²A + cos²A  (D) 9"
+                "A": "5 + tan²A + cot²A",
+                "B": "7 + tan²A + cot²A",
+                "C": "7 + sin²A + cos²A",
+                "D": "9"
               },
               "answer": "B",
               "explanation": "= sin²A + 2 + cosec²A + cos²A + 2 + sec²A = 1 + 4 + (1 + cot²A) + (1 + tan²A) = 7 + tan²A + cot²A. ----"

@@ -121,8 +121,10 @@
           "difficulty": "Easy",
           "question": "Which of the following is the correct order of number sets (smallest to largest)?",
           "options": {
-            "A": "N ⊂ Z ⊂ W ⊂ Q   (B) N ⊂ W ⊂ Z ⊂ Q",
-            "C": "W ⊂ N ⊂ Z ⊂ Q   (D) Z ⊂ W ⊂ N ⊂ Q"
+            "A": "N ⊂ Z ⊂ W ⊂ Q",
+            "B": "N ⊂ W ⊂ Z ⊂ Q",
+            "C": "W ⊂ N ⊂ Z ⊂ Q",
+            "D": "Z ⊂ W ⊂ N ⊂ Q"
           },
           "answer": "B",
           "explanation": "Natural ⊂ Whole ⊂ Integer ⊂ Rational."
@@ -132,7 +134,10 @@
           "difficulty": "Easy",
           "question": "The symbol R represents:",
           "options": {
-            "A": "Rational numbers   (B) Real numbers   (C) Remainders   (D) Roots"
+            "A": "Rational numbers",
+            "B": "Real numbers",
+            "C": "Remainders",
+            "D": "Roots"
           },
           "answer": "B",
           "explanation": "R = rational + irrational = all real numbers."
@@ -142,7 +147,10 @@
           "difficulty": "Easy",
           "question": "Zero belongs to which of the following sets?",
           "options": {
-            "A": "N only   (B) W and N   (C) W, Z, Q, R   (D) N, W, Z, Q, R"
+            "A": "N only",
+            "B": "W and N",
+            "C": "W, Z, Q, R",
+            "D": "N, W, Z, Q, R"
           },
           "answer": "C",
           "explanation": "0 is NOT a natural number. It is a whole number, integer, rational, and real."
@@ -152,7 +160,10 @@
           "difficulty": "Medium",
           "question": "Which set does NOT contain negative numbers?",
           "options": {
-            "A": "Z   (B) Q   (C) W   (D) R"
+            "A": "Z",
+            "B": "Q",
+            "C": "W",
+            "D": "R"
           },
           "answer": "C",
           "explanation": "W = {0, 1, 2, 3, ...} — no negatives. Z, Q, R all include negatives."
@@ -162,7 +173,10 @@
           "difficulty": "Medium",
           "question": "The letter Z for integers comes from which language?",
           "options": {
-            "A": "Latin   (B) Greek   (C) German   (D) French"
+            "A": "Latin",
+            "B": "Greek",
+            "C": "German",
+            "D": "French"
           },
           "answer": "C",
           "explanation": "Z comes from \"zahlen\" (German) meaning \"to count.\""
@@ -185,7 +199,10 @@
           "difficulty": "Medium",
           "question": "How many types of numbers make up the real number system?",
           "options": {
-            "A": "2   (B) 3   (C) 5   (D) 6"
+            "A": "2",
+            "B": "3",
+            "C": "5",
+            "D": "6"
           },
           "answer": "A",
           "explanation": "Real numbers = Rational numbers + Irrational numbers (2 broad types)."
@@ -195,7 +212,10 @@
           "difficulty": "Hard",
           "question": "If a number belongs to N, then it also belongs to:",
           "options": {
-            "A": "W only   (B) W and Z only   (C) W, Z, and Q only   (D) W, Z, Q, and R"
+            "A": "W only",
+            "B": "W and Z only",
+            "C": "W, Z, and Q only",
+            "D": "W, Z, Q, and R"
           },
           "answer": "D",
           "explanation": "Since N ⊂ W ⊂ Z ⊂ Q ⊂ R, any natural number is in all these sets."
@@ -205,7 +225,10 @@
           "difficulty": "Hard",
           "question": "Which of the following number does NOT belong to Q?",
           "options": {
-            "A": "-7   (B) 0   (C) sqrt(2)   (D) 22/7"
+            "A": "-7",
+            "B": "0",
+            "C": "sqrt(2)",
+            "D": "22/7"
           },
           "answer": "C",
           "explanation": "sqrt(2) is irrational — it cannot be written as p/q. -7 = -7/1, 0 = 0/1, 22/7 are all rational."
@@ -215,7 +238,10 @@
           "difficulty": "Hard",
           "question": "A number that is in Z but NOT in W must be:",
           "options": {
-            "A": "A fraction   (B) A negative integer   (C) An irrational   (D) Zero"
+            "A": "A fraction",
+            "B": "A negative integer",
+            "C": "An irrational",
+            "D": "Zero"
           },
           "answer": "B",
           "explanation": "W = {0,1,2,...}, Z includes negatives. So Z - W = negative integers."
@@ -225,7 +251,10 @@
           "difficulty": "Easy",
           "question": "Q comes from which word?",
           "options": {
-            "A": "Question   (B) Quadrant   (C) Quotient   (D) Quantum"
+            "A": "Question",
+            "B": "Quadrant",
+            "C": "Quotient",
+            "D": "Quantum"
           },
           "answer": "C",
           "explanation": "Q stands for rational numbers; it comes from \"quotient.\""
@@ -405,7 +434,10 @@
               "difficulty": "Easy",
               "question": "Which symbol represents rational numbers?",
               "options": {
-                "A": "N   (B) Z   (C) Q   (D) W"
+                "A": "N",
+                "B": "Z",
+                "C": "Q",
+                "D": "W"
               },
               "answer": "C",
               "explanation": "Q comes from \"quotient.\" Rational comes from \"ratio.\""
@@ -415,7 +447,10 @@
               "difficulty": "Easy",
               "question": "Which of the following is NOT a natural number?",
               "options": {
-                "A": "5   (B) 100   (C) 0   (D) 1"
+                "A": "5",
+                "B": "100",
+                "C": "0",
+                "D": "1"
               },
               "answer": "C",
               "explanation": "Natural numbers start from 1. Zero is a whole number only."
@@ -425,7 +460,10 @@
               "difficulty": "Easy",
               "question": "-7 written as p/q in standard form is:",
               "options": {
-                "A": "7/1   (B) -7/1   (C) 1/(-7)   (D) -1/7"
+                "A": "7/1",
+                "B": "-7/1",
+                "C": "1/(-7)",
+                "D": "-1/7"
               },
               "answer": "B",
               "explanation": "Every integer m = m/1. So -7 = -7/1 (p=-7, q=1)."
@@ -435,7 +473,10 @@
               "difficulty": "Medium",
               "question": "A rational number between 1/3 and 1/2 is:",
               "options": {
-                "A": "1/6   (B) 5/12   (C) 2/3   (D) 3/4"
+                "A": "1/6",
+                "B": "5/12",
+                "C": "2/3",
+                "D": "3/4"
               },
               "answer": "B",
               "explanation": "(1/3 + 1/2)/2 = (2/6+3/6)/2 = (5/6)/2 = 5/12."
@@ -458,7 +499,10 @@
               "difficulty": "Medium",
               "question": "How many rational numbers exist between 2 and 3?",
               "options": {
-                "A": "1   (B) 10   (C) 100   (D) Infinitely many"
+                "A": "1",
+                "B": "10",
+                "C": "100",
+                "D": "Infinitely many"
               },
               "answer": "D",
               "explanation": "Between any two rationals, infinitely many rationals exist."
@@ -468,7 +512,10 @@
               "difficulty": "Medium",
               "question": "The co-prime form of 15/25 is:",
               "options": {
-                "A": "3/5   (B) 15/25   (C) 5/3   (D) 1/2"
+                "A": "3/5",
+                "B": "15/25",
+                "C": "5/3",
+                "D": "1/2"
               },
               "answer": "A",
               "explanation": "HCF(15,25)=5. So 15/25 = 3/5 (co-prime form)."
@@ -478,7 +525,10 @@
               "difficulty": "Hard",
               "question": "A rational number between r and s (r < s) is given by:",
               "options": {
-                "A": "r - s   (B) r × s   (C) (r + s)/2   (D) r/s"
+                "A": "r - s",
+                "B": "r × s",
+                "C": "(r + s)/2",
+                "D": "r/s"
               },
               "answer": "C",
               "explanation": "The mean of r and s always lies strictly between r and s."
@@ -488,8 +538,10 @@
               "difficulty": "Hard",
               "question": "Which set relationship is correct?",
               "options": {
-                "A": "Q ⊂ Z ⊂ W ⊂ N   (B) N ⊂ W ⊂ Z ⊂ Q",
-                "C": "Z ⊂ Q ⊂ W ⊂ N   (D) W ⊂ N ⊂ Z ⊂ Q"
+                "A": "Q ⊂ Z ⊂ W ⊂ N",
+                "B": "N ⊂ W ⊂ Z ⊂ Q",
+                "C": "Z ⊂ Q ⊂ W ⊂ N",
+                "D": "W ⊂ N ⊂ Z ⊂ Q"
               },
               "answer": "B",
               "explanation": "Natural ⊂ Whole ⊂ Integer ⊂ Rational."
@@ -512,7 +564,10 @@
               "difficulty": "Easy",
               "question": "The letter Z for integers comes from which language?",
               "options": {
-                "A": "Latin   (B) Greek   (C) German   (D) French"
+                "A": "Latin",
+                "B": "Greek",
+                "C": "German",
+                "D": "French"
               },
               "answer": "C",
               "explanation": "Z from \"zahlen\" (German) meaning \"to count.\""
@@ -674,7 +729,10 @@
               "difficulty": "Easy",
               "question": "Which of the following is an irrational number?",
               "options": {
-                "A": "3/4   (B) -7   (C) sqrt(2)   (D) 0"
+                "A": "3/4",
+                "B": "-7",
+                "C": "sqrt(2)",
+                "D": "0"
               },
               "answer": "C",
               "explanation": "sqrt(2) = 1.41421... is non-terminating non-recurring."
@@ -684,7 +742,10 @@
               "difficulty": "Easy",
               "question": "The symbol for real numbers is:",
               "options": {
-                "A": "Q   (B) Z   (C) R   (D) N"
+                "A": "Q",
+                "B": "Z",
+                "C": "R",
+                "D": "N"
               },
               "answer": "C",
               "explanation": "R = rational + irrational = all real numbers."
@@ -694,7 +755,10 @@
               "difficulty": "Easy",
               "question": "Which of the following is NOT irrational?",
               "options": {
-                "A": "sqrt(3)   (B) sqrt(5)   (C) sqrt(9)   (D) sqrt(7)"
+                "A": "sqrt(3)",
+                "B": "sqrt(5)",
+                "C": "sqrt(9)",
+                "D": "sqrt(7)"
               },
               "answer": "C",
               "explanation": "sqrt(9) = 3 (natural number, hence rational)."
@@ -704,7 +768,10 @@
               "difficulty": "Medium",
               "question": "Every real number is:",
               "options": {
-                "A": "Rational   (B) Irrational   (C) Rational or irrational   (D) An integer"
+                "A": "Rational",
+                "B": "Irrational",
+                "C": "Rational or irrational",
+                "D": "An integer"
               },
               "answer": "C",
               "explanation": "R = Q ∪ {irrationals}."
@@ -714,7 +781,10 @@
               "difficulty": "Medium",
               "question": "To locate sqrt(2) on the number line, we construct a right triangle with legs:",
               "options": {
-                "A": "2 and 2   (B) 1 and 1   (C) 1 and 2   (D) 2 and 3"
+                "A": "2 and 2",
+                "B": "1 and 1",
+                "C": "1 and 2",
+                "D": "2 and 3"
               },
               "answer": "B",
               "explanation": "sqrt(1^2 + 1^2) = sqrt(2) by Pythagoras theorem."
@@ -724,7 +794,10 @@
               "difficulty": "Medium",
               "question": "To locate sqrt(3) after sqrt(2) is located, the perpendicular drawn has length:",
               "options": {
-                "A": "sqrt(2)   (B) sqrt(3)   (C) 1   (D) 2"
+                "A": "sqrt(2)",
+                "B": "sqrt(3)",
+                "C": "1",
+                "D": "2"
               },
               "answer": "C",
               "explanation": "OD = sqrt((sqrt(2))^2 + 1^2) = sqrt(3). Perpendicular = 1 unit."
@@ -734,7 +807,10 @@
               "difficulty": "Medium",
               "question": "The value of pi correct to 5 decimal places is:",
               "options": {
-                "A": "3.14159   (B) 3.14269   (C) 3.14286   (D) 3.14128"
+                "A": "3.14159",
+                "B": "3.14269",
+                "C": "3.14286",
+                "D": "3.14128"
               },
               "answer": "A",
               "explanation": "pi = 3.14159265358979..."
@@ -744,7 +820,10 @@
               "difficulty": "Hard",
               "question": "0.101001000100001... is:",
               "options": {
-                "A": "Rational   (B) Irrational   (C) An integer   (D) A natural number"
+                "A": "Rational",
+                "B": "Irrational",
+                "C": "An integer",
+                "D": "A natural number"
               },
               "answer": "B",
               "explanation": "Non-terminating and non-recurring → irrational."
@@ -780,7 +859,10 @@
               "difficulty": "Easy",
               "question": "Who proved sqrt(2) is irrational?",
               "options": {
-                "A": "Aryabhatta   (B) Euclid   (C) Pythagoreans   (D) Archimedes"
+                "A": "Aryabhatta",
+                "B": "Euclid",
+                "C": "Pythagoreans",
+                "D": "Archimedes"
               },
               "answer": "C",
               "explanation": "Pythagoreans proved sqrt(2) is irrational around 400 BC."
@@ -790,7 +872,10 @@
               "difficulty": "Medium",
               "question": "sqrt(2) up to a few decimal places is:",
               "options": {
-                "A": "1.41421...   (B) 1.73205...   (C) 3.14159...   (D) 2.23606..."
+                "A": "1.41421...",
+                "B": "1.73205...",
+                "C": "3.14159...",
+                "D": "2.23606..."
               },
               "answer": "A",
               "explanation": "sqrt(2)=1.41421..., sqrt(3)=1.73205..., pi=3.14159..., sqrt(5)=2.23606..."
@@ -1020,7 +1105,10 @@
               "difficulty": "Easy",
               "question": "The decimal expansion of 7/8 is:",
               "options": {
-                "A": "0.785   (B) 0.875   (C) 0.857   (D) 0.758"
+                "A": "0.785",
+                "B": "0.875",
+                "C": "0.857",
+                "D": "0.758"
               },
               "answer": "B",
               "explanation": "7÷8 = 0.875 exactly (terminating)."
@@ -1030,7 +1118,10 @@
               "difficulty": "Easy",
               "question": "0.3bar = ?",
               "options": {
-                "A": "1/3   (B) 3/10   (C) 1/9   (D) 3/100"
+                "A": "1/3",
+                "B": "3/10",
+                "C": "1/9",
+                "D": "3/100"
               },
               "answer": "A",
               "explanation": "x=0.3bar → 10x=3+x → 9x=3 → x=1/3."
@@ -1040,7 +1131,10 @@
               "difficulty": "Easy",
               "question": "Which represents an irrational number?",
               "options": {
-                "A": "3.1416   (B) 0.333...   (C) 1.41421356...   (D) 0.875"
+                "A": "3.1416",
+                "B": "0.333...",
+                "C": "1.41421356...",
+                "D": "0.875"
               },
               "answer": "C",
               "explanation": "1.41421356... = sqrt(2), non-terminating non-recurring."
@@ -1050,7 +1144,10 @@
               "difficulty": "Medium",
               "question": "The repeating block of 1/7 has how many digits?",
               "options": {
-                "A": "3   (B) 5   (C) 6   (D) 7"
+                "A": "3",
+                "B": "5",
+                "C": "6",
+                "D": "7"
               },
               "answer": "C",
               "explanation": "1/7 = 0.142857bar — block 142857 has 6 digits."
@@ -1060,7 +1157,10 @@
               "difficulty": "Medium",
               "question": "0.47bar = ?",
               "options": {
-                "A": "47/99   (B) 47/100   (C) 47/990   (D) 4/9"
+                "A": "47/99",
+                "B": "47/100",
+                "C": "47/990",
+                "D": "4/9"
               },
               "answer": "A",
               "explanation": "100x=47+x → 99x=47 → x=47/99."
@@ -1070,7 +1170,10 @@
               "difficulty": "Medium",
               "question": "3.5bar72 means:",
               "options": {
-                "A": "3.5727272...   (B) 3.572572572...   (C) 3.5777...   (D) 3.572000..."
+                "A": "3.5727272...",
+                "B": "3.572572572...",
+                "C": "3.5777...",
+                "D": "3.572000..."
               },
               "answer": "A",
               "explanation": "Bar over 72 only → 72 repeats: 3.5727272..."
@@ -1080,8 +1183,10 @@
               "difficulty": "Medium",
               "question": "3/13 has what type of decimal expansion?",
               "options": {
-                "A": "Terminating   (B) Non-terminating recurring",
-                "C": "Non-terminating non-recurring   (D) Cannot be determined"
+                "A": "Terminating",
+                "B": "Non-terminating recurring",
+                "C": "Non-terminating non-recurring",
+                "D": "Cannot be determined"
               },
               "answer": "B",
               "explanation": "3/13 is rational → expansion is terminating or non-terminating recurring. 13 ≠ 2^m × 5^n, so non-terminating recurring."
@@ -1091,7 +1196,10 @@
               "difficulty": "Hard",
               "question": "0.2bar35 expressed as p/q is:",
               "options": {
-                "A": "235/999   (B) 233/990   (C) 235/990   (D) 23/99"
+                "A": "235/999",
+                "B": "233/990",
+                "C": "235/990",
+                "D": "23/99"
               },
               "answer": "B",
               "explanation": "100x=23.3+x → 99x=233/10 → x=233/990."
@@ -1101,8 +1209,10 @@
               "difficulty": "Hard",
               "question": "Which of the following is rational?",
               "options": {
-                "A": "7.478478...   (B) 1.101001000100001...",
-                "C": "sqrt(2)+sqrt(3)   (D) 0.10110111..."
+                "A": "7.478478...",
+                "B": "1.101001000100001...",
+                "C": "sqrt(2)+sqrt(3)",
+                "D": "0.10110111..."
               },
               "answer": "A",
               "explanation": "7.478478... = 7.478bar — non-terminating recurring → rational."
@@ -1112,7 +1222,10 @@
               "difficulty": "Hard",
               "question": "Maximum digits in repeating block of 1/17:",
               "options": {
-                "A": "16   (B) 17   (C) 8   (D) 18"
+                "A": "16",
+                "B": "17",
+                "C": "8",
+                "D": "18"
               },
               "answer": "A",
               "explanation": "Repeating block digits < divisor. For 1/17: maximum = 16."
@@ -1122,7 +1235,10 @@
               "difficulty": "Easy",
               "question": "Terminating decimals are always:",
               "options": {
-                "A": "Irrational   (B) Rational   (C) Integers   (D) Natural numbers"
+                "A": "Irrational",
+                "B": "Rational",
+                "C": "Integers",
+                "D": "Natural numbers"
               },
               "answer": "B",
               "explanation": "Terminating decimal = p/q form (denominator = power of 10) → rational."
@@ -1132,7 +1248,10 @@
               "difficulty": "Medium",
               "question": "Which has a TERMINATING decimal expansion?",
               "options": {
-                "A": "1/3   (B) 3/7   (C) 1/11   (D) 7/8"
+                "A": "1/3",
+                "B": "3/7",
+                "C": "1/11",
+                "D": "7/8"
               },
               "answer": "D",
               "explanation": "7/8 = 0.875 (terminates). Others are non-terminating recurring."
@@ -1367,7 +1486,10 @@
               "difficulty": "Easy",
               "question": "(sqrt(3)+sqrt(7))(sqrt(3)-sqrt(7)) = ?",
               "options": {
-                "A": "4   (B) -4   (C) 10   (D) -10"
+                "A": "4",
+                "B": "-4",
+                "C": "10",
+                "D": "-10"
               },
               "answer": "B",
               "explanation": "(sqrt(a)+sqrt(b))(sqrt(a)-sqrt(b)) = a-b = 3-7 = -4."
@@ -1377,7 +1499,10 @@
               "difficulty": "Easy",
               "question": "The rationalising factor of 1/sqrt(5) is:",
               "options": {
-                "A": "5   (B) sqrt(5)   (C) 1/5   (D) 5sqrt(5)"
+                "A": "5",
+                "B": "sqrt(5)",
+                "C": "1/5",
+                "D": "5sqrt(5)"
               },
               "answer": "B",
               "explanation": "Multiply by sqrt(5)/sqrt(5) to get sqrt(5)/5."
@@ -1387,7 +1512,10 @@
               "difficulty": "Easy",
               "question": "6sqrt(5) × 2sqrt(5) = ?",
               "options": {
-                "A": "12sqrt(5)   (B) 60   (C) 12   (D) 60sqrt(5)"
+                "A": "12sqrt(5)",
+                "B": "60",
+                "C": "12",
+                "D": "60sqrt(5)"
               },
               "answer": "B",
               "explanation": "6×2×sqrt(5)×sqrt(5) = 12×5 = 60."
@@ -1397,7 +1525,10 @@
               "difficulty": "Medium",
               "question": "Rationalise 1/(2+sqrt(3)):",
               "options": {
-                "A": "2+sqrt(3)   (B) 2-sqrt(3)   (C) 1/(2-sqrt(3))   (D) sqrt(3)/2"
+                "A": "2+sqrt(3)",
+                "B": "2-sqrt(3)",
+                "C": "1/(2-sqrt(3))",
+                "D": "sqrt(3)/2"
               },
               "answer": "B",
               "explanation": "×(2-sqrt(3))/(2-sqrt(3)) → (2-sqrt(3))/(4-3) = 2-sqrt(3)."
@@ -1407,7 +1538,10 @@
               "difficulty": "Medium",
               "question": "(sqrt(5)+sqrt(2))^2 = ?",
               "options": {
-                "A": "7   (B) 7+2sqrt(10)   (C) 7+sqrt(10)   (D) 3+2sqrt(10)"
+                "A": "7",
+                "B": "7+2sqrt(10)",
+                "C": "7+sqrt(10)",
+                "D": "3+2sqrt(10)"
               },
               "answer": "B",
               "explanation": "5 + 2sqrt(10) + 2 = 7+2sqrt(10)."
@@ -1417,7 +1551,10 @@
               "difficulty": "Medium",
               "question": "Which is RATIONAL?",
               "options": {
-                "A": "7sqrt(5)   (B) sqrt(2)+sqrt(3)   (C) sqrt(7)/sqrt(7)   (D) pi-2"
+                "A": "7sqrt(5)",
+                "B": "sqrt(2)+sqrt(3)",
+                "C": "sqrt(7)/sqrt(7)",
+                "D": "pi-2"
               },
               "answer": "C",
               "explanation": "sqrt(7)/sqrt(7) = 1 (rational)."
@@ -1427,7 +1564,10 @@
               "difficulty": "Medium",
               "question": "sqrt(a/b) = ?",
               "options": {
-                "A": "a/sqrt(b)   (B) sqrt(a)/sqrt(b)   (C) sqrt(a)/b   (D) a/b"
+                "A": "a/sqrt(b)",
+                "B": "sqrt(a)/sqrt(b)",
+                "C": "sqrt(a)/b",
+                "D": "a/b"
               },
               "answer": "B",
               "explanation": "Identity (ii) for positive real numbers."
@@ -1437,8 +1577,10 @@
               "difficulty": "Hard",
               "question": "1/(7+3sqrt(2)) rationalised = ?",
               "options": {
-                "A": "(7-3sqrt(2))/31   (B) (7+3sqrt(2))/31",
-                "C": "(7-3sqrt(2))/67   (D) 7-3sqrt(2)"
+                "A": "(7-3sqrt(2))/31",
+                "B": "(7+3sqrt(2))/31",
+                "C": "(7-3sqrt(2))/67",
+                "D": "7-3sqrt(2)"
               },
               "answer": "A",
               "explanation": "Denominator = 49 - 9×2 = 49-18 = 31."
@@ -1448,8 +1590,10 @@
               "difficulty": "Hard",
               "question": "5/(sqrt(3)-sqrt(5)) rationalised = ?",
               "options": {
-                "A": "(-5/2)(sqrt(3)+sqrt(5))   (B) (5/2)(sqrt(3)+sqrt(5))",
-                "C": "(-5/2)(sqrt(3)-sqrt(5))   (D) 5(sqrt(3)-sqrt(5))/2"
+                "A": "(-5/2)(sqrt(3)+sqrt(5))",
+                "B": "(5/2)(sqrt(3)+sqrt(5))",
+                "C": "(-5/2)(sqrt(3)-sqrt(5))",
+                "D": "5(sqrt(3)-sqrt(5))/2"
               },
               "answer": "A",
               "explanation": "Denominator = 3-5 = -2. So 5(sqrt(3)+sqrt(5))/(-2)."
@@ -1459,7 +1603,10 @@
               "difficulty": "Hard",
               "question": "In the geometric construction of sqrt(x), if AB=x and BC=1, the radius of the semicircle is:",
               "options": {
-                "A": "x/2   (B) (x-1)/2   (C) (x+1)/2   (D) x+1"
+                "A": "x/2",
+                "B": "(x-1)/2",
+                "C": "(x+1)/2",
+                "D": "x+1"
               },
               "answer": "C",
               "explanation": "O = midpoint of AC; AC = x+1; OC = (x+1)/2."
@@ -1469,8 +1616,10 @@
               "difficulty": "Easy",
               "question": "Add 2sqrt(2)+5sqrt(3) and sqrt(2)-3sqrt(3):",
               "options": {
-                "A": "2sqrt(2)+2sqrt(3)   (B) 3sqrt(2)+2sqrt(3)",
-                "C": "3sqrt(5)            (D) 2sqrt(3)+3sqrt(2)"
+                "A": "2sqrt(2)+2sqrt(3)",
+                "B": "3sqrt(2)+2sqrt(3)",
+                "C": "3sqrt(5)",
+                "D": "2sqrt(3)+3sqrt(2)"
               },
               "answer": "B",
               "explanation": "(2+1)sqrt(2)+(5-3)sqrt(3) = 3sqrt(2)+2sqrt(3)."
@@ -1480,7 +1629,10 @@
               "difficulty": "Medium",
               "question": "8sqrt(15) ÷ 2sqrt(3) = ?",
               "options": {
-                "A": "4sqrt(5)   (B) 4sqrt(15)   (C) 4sqrt(3)   (D) 8sqrt(5)"
+                "A": "4sqrt(5)",
+                "B": "4sqrt(15)",
+                "C": "4sqrt(3)",
+                "D": "8sqrt(5)"
               },
               "answer": "A",
               "explanation": "(8/2) × sqrt(15/3) = 4×sqrt(5) = 4sqrt(5)."
@@ -1644,7 +1796,10 @@
               "difficulty": "Easy",
               "question": "64^(1/2) = ?",
               "options": {
-                "A": "32   (B) 8   (C) 4   (D) 16"
+                "A": "32",
+                "B": "8",
+                "C": "4",
+                "D": "16"
               },
               "answer": "B",
               "explanation": "sqrt(64) = 8, since 8^2 = 64."
@@ -1654,7 +1809,10 @@
               "difficulty": "Easy",
               "question": "32^(1/5) = ?",
               "options": {
-                "A": "2   (B) 4   (C) 8   (D) 16"
+                "A": "2",
+                "B": "4",
+                "C": "8",
+                "D": "16"
               },
               "answer": "A",
               "explanation": "2^5 = 32, so 32^(1/5) = 2."
@@ -1664,7 +1822,10 @@
               "difficulty": "Easy",
               "question": "a^p × a^q = ?",
               "options": {
-                "A": "a^(p×q)   (B) a^(p+q)   (C) (2a)^(p+q)   (D) a^(p-q)"
+                "A": "a^(p×q)",
+                "B": "a^(p+q)",
+                "C": "(2a)^(p+q)",
+                "D": "a^(p-q)"
               },
               "answer": "B",
               "explanation": "Same base, multiply → add exponents."
@@ -1674,7 +1835,10 @@
               "difficulty": "Medium",
               "question": "9^(3/2) = ?",
               "options": {
-                "A": "27   (B) 18   (C) 81   (D) 3"
+                "A": "27",
+                "B": "18",
+                "C": "81",
+                "D": "3"
               },
               "answer": "A",
               "explanation": "9^(1/2)=3, then 3^3=27."
@@ -1684,7 +1848,10 @@
               "difficulty": "Medium",
               "question": "(3^(1/5))^4 = ?",
               "options": {
-                "A": "3^(1/9)   (B) 3^(4/5)   (C) 3^5   (D) 3^(5/4)"
+                "A": "3^(1/9)",
+                "B": "3^(4/5)",
+                "C": "3^5",
+                "D": "3^(5/4)"
               },
               "answer": "B",
               "explanation": "(a^p)^q = a^(pq). So (3^(1/5))^4 = 3^(4/5)."
@@ -1694,7 +1861,10 @@
               "difficulty": "Medium",
               "question": "2^(2/3) × 2^(1/3) = ?",
               "options": {
-                "A": "4   (B) 2^3   (C) 2   (D) 2^(2/9)"
+                "A": "4",
+                "B": "2^3",
+                "C": "2",
+                "D": "2^(2/9)"
               },
               "answer": "C",
               "explanation": "2^(2/3+1/3) = 2^1 = 2."
@@ -1704,7 +1874,10 @@
               "difficulty": "Medium",
               "question": "7^(1/5) / 7^(1/3) = ?",
               "options": {
-                "A": "7^(2/15)   (B) 7^(-2/15)   (C) 7^(2/8)   (D) 1"
+                "A": "7^(2/15)",
+                "B": "7^(-2/15)",
+                "C": "7^(2/8)",
+                "D": "1"
               },
               "answer": "B",
               "explanation": "7^(1/5-1/3) = 7^(3/15-5/15) = 7^(-2/15)."
@@ -1714,7 +1887,10 @@
               "difficulty": "Hard",
               "question": "16^(3/4) = ?",
               "options": {
-                "A": "4   (B) 8   (C) 12   (D) 64"
+                "A": "4",
+                "B": "8",
+                "C": "12",
+                "D": "64"
               },
               "answer": "B",
               "explanation": "16^(1/4)=2, then 2^3=8."
@@ -1724,7 +1900,10 @@
               "difficulty": "Hard",
               "question": "13^(1/5) × 17^(1/5) = ?",
               "options": {
-                "A": "30^(1/5)   (B) 221^5   (C) 221^(1/5)   (D) (13×17)^5"
+                "A": "30^(1/5)",
+                "B": "221^5",
+                "C": "221^(1/5)",
+                "D": "(13×17)^5"
               },
               "answer": "C",
               "explanation": "a^p × b^p = (ab)^p. 13^(1/5)×17^(1/5) = (13×17)^(1/5) = 221^(1/5)."
@@ -1734,7 +1913,10 @@
               "difficulty": "Hard",
               "question": "125^(-1/3) = ?",
               "options": {
-                "A": "-5   (B) 1/5   (C) 5   (D) -1/5"
+                "A": "-5",
+                "B": "1/5",
+                "C": "5",
+                "D": "-1/5"
               },
               "answer": "B",
               "explanation": "125^(1/3)=5, so 125^(-1/3)=1/5."
@@ -1744,7 +1926,10 @@
               "difficulty": "Easy",
               "question": "a^0 for any a≠0 equals:",
               "options": {
-                "A": "0   (B) a   (C) 1   (D) 1/a"
+                "A": "0",
+                "B": "a",
+                "C": "1",
+                "D": "1/a"
               },
               "answer": "C",
               "explanation": "Any non-zero number raised to power 0 = 1."
@@ -1754,7 +1939,10 @@
               "difficulty": "Medium",
               "question": "32^(2/5) = ?",
               "options": {
-                "A": "2   (B) 4   (C) 8   (D) 16"
+                "A": "2",
+                "B": "4",
+                "C": "8",
+                "D": "16"
               },
               "answer": "B",
               "explanation": "32^(1/5)=2, then 2^2=4."
@@ -1899,7 +2087,10 @@
               "difficulty": "Easy",
               "question": "(sqrt(5)+sqrt(3))(sqrt(5)-sqrt(3)) = ?",
               "options": {
-                "A": "2   (B) 8   (C) sqrt(15)   (D) 15"
+                "A": "2",
+                "B": "8",
+                "C": "sqrt(15)",
+                "D": "15"
               },
               "answer": "A",
               "explanation": "(sqrt(a)+sqrt(b))(sqrt(a)-sqrt(b)) = a-b = 5-3 = 2."
@@ -1909,8 +2100,10 @@
               "difficulty": "Medium",
               "question": "Which decimal expansion represents a rational number?",
               "options": {
-                "A": "1.41421356...   (B) 3.14159265...",
-                "C": "0.3333...       (D) 0.10110111..."
+                "A": "1.41421356...",
+                "B": "3.14159265...",
+                "C": "0.3333...",
+                "D": "0.10110111..."
               },
               "answer": "C",
               "explanation": "0.3333... = 0.3bar — non-terminating RECURRING → rational."
@@ -1920,7 +2113,10 @@
               "difficulty": "Medium",
               "question": "(sqrt(a)+sqrt(b))^2 = ?",
               "options": {
-                "A": "a+b   (B) a-b   (C) a+2sqrt(ab)+b   (D) a-2sqrt(ab)+b"
+                "A": "a+b",
+                "B": "a-b",
+                "C": "a+2sqrt(ab)+b",
+                "D": "a-2sqrt(ab)+b"
               },
               "answer": "C",
               "explanation": "Standard algebraic identity for sum squared."
@@ -1930,7 +2126,10 @@
               "difficulty": "Medium",
               "question": "If r is rational (r≠0) and s is irrational, then rs is:",
               "options": {
-                "A": "Rational   (B) Irrational   (C) May be either   (D) Zero"
+                "A": "Rational",
+                "B": "Irrational",
+                "C": "May be either",
+                "D": "Zero"
               },
               "answer": "B",
               "explanation": "Non-zero rational × irrational = always irrational."
@@ -1940,7 +2139,10 @@
               "difficulty": "Medium",
               "question": "a^(m/n) in radical form is:",
               "options": {
-                "A": "n√(a^m)   (B) m√(a^n)   (C) a^(mn)   (D) (a^m)^n"
+                "A": "n√(a^m)",
+                "B": "m√(a^n)",
+                "C": "a^(mn)",
+                "D": "(a^m)^n"
               },
               "answer": "A",
               "explanation": "a^(m/n) = (n√a)^m = n√(a^m)."
@@ -1950,7 +2152,10 @@
               "difficulty": "Hard",
               "question": "Product of sqrt(3) × sqrt(3) is:",
               "options": {
-                "A": "sqrt(6)   (B) sqrt(9)   (C) 3   (D) 9"
+                "A": "sqrt(6)",
+                "B": "sqrt(9)",
+                "C": "3",
+                "D": "9"
               },
               "answer": "C",
               "explanation": "sqrt(3) × sqrt(3) = 3 — product of two irrationals can be rational."
@@ -1973,7 +2178,10 @@
               "difficulty": "Hard",
               "question": "(a^p)^q = ?",
               "options": {
-                "A": "a^(p+q)   (B) a^(pq)   (C) a^(p-q)   (D) (a+b)^p"
+                "A": "a^(p+q)",
+                "B": "a^(pq)",
+                "C": "a^(p-q)",
+                "D": "(a+b)^p"
               },
               "answer": "B",
               "explanation": "Power of a power → multiply exponents."
@@ -1983,8 +2191,10 @@
               "difficulty": "Easy",
               "question": "sqrt(ab) = ?",
               "options": {
-                "A": "sqrt(a)+sqrt(b)   (B) sqrt(a)-sqrt(b)",
-                "C": "sqrt(a)×sqrt(b)   (D) sqrt(a)/sqrt(b)"
+                "A": "sqrt(a)+sqrt(b)",
+                "B": "sqrt(a)-sqrt(b)",
+                "C": "sqrt(a)×sqrt(b)",
+                "D": "sqrt(a)/sqrt(b)"
               },
               "answer": "C",
               "explanation": "Identity (i): sqrt(ab) = sqrt(a)×sqrt(b) for positive a, b."
@@ -1994,8 +2204,10 @@
               "difficulty": "Medium",
               "question": "The rationalising factor of (sqrt(5)-sqrt(3)) is:",
               "options": {
-                "A": "(sqrt(5)+sqrt(3))   (B) (sqrt(5)-sqrt(3))",
-                "C": "sqrt(15)            (D) (5-3)"
+                "A": "(sqrt(5)+sqrt(3))",
+                "B": "(sqrt(5)-sqrt(3))",
+                "C": "sqrt(15)",
+                "D": "(5-3)"
               },
               "answer": "A",
               "explanation": "Conjugate of (sqrt(5)-sqrt(3)) is (sqrt(5)+sqrt(3)). Product = 5-3 = 2 (rational)."

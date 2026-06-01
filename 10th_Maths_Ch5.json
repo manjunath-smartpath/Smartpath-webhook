@@ -209,7 +209,10 @@
           "difficulty": "Easy",
           "question": "The formula for the nth term of an AP with first term a and common difference d is:",
           "options": {
-            "A": "a_n = a - (n-1)d   (B) a_n = a + nd   (C) a_n = a + (n-1)d   (D) a_n = na + d"
+            "A": "a_n = a - (n-1)d",
+            "B": "a_n = a + nd",
+            "C": "a_n = a + (n-1)d",
+            "D": "a_n = na + d"
           },
           "answer": "C",
           "explanation": "a_n = a + (n-1)d is derived by adding d repeatedly: a, a+d, a+2d, ..., a+(n-1)d."
@@ -219,7 +222,10 @@
           "difficulty": "Easy",
           "question": "The sum of first n positive integers is:",
           "options": {
-            "A": "n(n-1)/2   (B) n(n+1)/2   (C) (n+1)(n+2)/2   (D) n^2"
+            "A": "n(n-1)/2",
+            "B": "n(n+1)/2",
+            "C": "(n+1)(n+2)/2",
+            "D": "n^2"
           },
           "answer": "B",
           "explanation": "Sum of first n positive integers = n(n+1)/2. For n=10: 10×11/2 = 55."
@@ -229,7 +235,10 @@
           "difficulty": "Medium",
           "question": "For the AP 8, 3, -2, ..., the sum of the first 22 terms is:",
           "options": {
-            "A": "979   (B) -979   (C) -770   (D) 770"
+            "A": "979",
+            "B": "-979",
+            "C": "-770",
+            "D": "770"
           },
           "answer": "B",
           "explanation": "S_22 = (22/2)[16 + 21×(-5)] = 11[16-105] = 11×(-89) = -979"
@@ -239,7 +248,10 @@
           "difficulty": "Medium",
           "question": "A manufacturer produced 600 TV sets in year 3 and 700 in year 7. The production in year 1 is:",
           "options": {
-            "A": "500   (B) 525   (C) 550   (D) 575"
+            "A": "500",
+            "B": "525",
+            "C": "550",
+            "D": "575"
           },
           "answer": "C",
           "explanation": "a+2d=600, a+6d=700 → 4d=100 → d=25 → a=550"
@@ -249,7 +261,10 @@
           "difficulty": "Hard",
           "question": "If the sum of first 7 terms of an AP is 49 and that of 17 terms is 289, then S_n =",
           "options": {
-            "A": "n^2+n   (B) 2n^2   (C) n^2   (D) n(n+1)"
+            "A": "n^2+n",
+            "B": "2n^2",
+            "C": "n^2",
+            "D": "n(n+1)"
           },
           "answer": "C",
           "explanation": "a+3d=7, a+8d=17 → d=2, a=1 → S_n = n^2"
@@ -259,7 +274,10 @@
           "difficulty": "Hard",
           "question": "In the AP 21, 18, 15, ..., which term is the first negative term?",
           "options": {
-            "A": "7th   (B) 8th   (C) 9th   (D) 10th"
+            "A": "7th",
+            "B": "8th",
+            "C": "9th",
+            "D": "10th"
           },
           "answer": "C",
           "explanation": "a_n < 0: 21+(n-1)(-3) < 0 → 24-3n < 0 → n > 8 → first negative at n = 9; a_9 = 21+8×(-3) = -3"
@@ -393,7 +411,10 @@
               "difficulty": "Easy",
               "question": "In the sequence 8000, 8500, 9000, ..., what fixed number is added each time?",
               "options": {
-                "A": "400   (B) 500   (C) 600   (D) 1000"
+                "A": "400",
+                "B": "500",
+                "C": "600",
+                "D": "1000"
               },
               "answer": "B",
               "explanation": "8000, 8500, 9000 — each term increases by 500. The fixed number added each time = 500."
@@ -403,7 +424,10 @@
               "difficulty": "Easy",
               "question": "The lengths of rungs of a ladder from bottom to top are 45, 43, 41, ... The fixed number added each time is:",
               "options": {
-                "A": "2   (B) -2   (C) 3   (D) -3"
+                "A": "2",
+                "B": "-2",
+                "C": "3",
+                "D": "-3"
               },
               "answer": "B",
               "explanation": "45, 43, 41, 39, ... — each rung is 2 cm shorter. Common difference = -2 (fixed subtraction)."
@@ -413,7 +437,10 @@
               "difficulty": "Easy",
               "question": "Shakila puts Rs. 100 in her daughter's box in year 1, then increases by Rs. 50 every year. The amount on the 3rd birthday is:",
               "options": {
-                "A": "Rs. 150   (B) Rs. 200   (C) Rs. 250   (D) Rs. 300"
+                "A": "Rs. 150",
+                "B": "Rs. 200",
+                "C": "Rs. 250",
+                "D": "Rs. 300"
               },
               "answer": "B",
               "explanation": "Rs.100, Rs.150, Rs.200, ... — each year Rs.50 is added. Fixed addition = Rs.50 makes it an AP."
@@ -423,7 +450,10 @@
               "difficulty": "Easy",
               "question": "Which of the following sequences has each term obtained by adding a fixed number to the preceding term?",
               "options": {
-                "A": "1, 4, 9, 16, ...   (B) 2, 4, 8, 16, ...   (C) 3, 6, 9, 12, ...   (D) 1, 1, 2, 3, 5, ..."
+                "A": "1, 4, 9, 16, ...",
+                "B": "2, 4, 8, 16, ...",
+                "C": "3, 6, 9, 12, ...",
+                "D": "1, 1, 2, 3, 5, ..."
               },
               "answer": "C",
               "explanation": "An AP requires a FIXED number to be added each time. Option (C) has a non-constant difference."
@@ -433,7 +463,10 @@
               "difficulty": "Easy",
               "question": "In the rabbit problem, the number of pairs at the start of the 6th month is:",
               "options": {
-                "A": "5   (B) 6   (C) 7   (D) 8"
+                "A": "5",
+                "B": "6",
+                "C": "7",
+                "D": "8"
               },
               "answer": "D",
               "explanation": "In the rabbit problem, the sequence 1, 1, 2, 3, 5, 8 — the difference between consecutive terms changes each time, so it is NOT an AP."
@@ -443,7 +476,10 @@
               "difficulty": "Medium",
               "question": "A savings scheme where an amount becomes 5/4 times itself after every 3 years. Starting with Rs. 8000, the amount after 6 years is:",
               "options": {
-                "A": "Rs. 10000   (B) Rs. 12500   (C) Rs. 15625   (D) Rs. 11000"
+                "A": "Rs. 10000",
+                "B": "Rs. 12500",
+                "C": "Rs. 15625",
+                "D": "Rs. 11000"
               },
               "answer": "B",
               "explanation": "If an amount becomes 5/4 times each year, it is being multiplied by 5/4 — not having a fixed amount ADDED. This is a geometric progression, not an AP."
@@ -453,7 +489,10 @@
               "difficulty": "Medium",
               "question": "The sequence 45, 43, 41, 39, 37, 35, 33, 31 represents lengths of rungs. How many rungs are there?",
               "options": {
-                "A": "7   (B) 8   (C) 9   (D) 10"
+                "A": "7",
+                "B": "8",
+                "C": "9",
+                "D": "10"
               },
               "answer": "B",
               "explanation": "Rungs: 45, 43, 41, ..., 31 — difference = -2. This is the AP representing rung lengths from bottom to top."
@@ -463,7 +502,10 @@
               "difficulty": "Medium",
               "question": "Which sequence does NOT follow the pattern of adding a fixed number?",
               "options": {
-                "A": "8000, 8500, 9000, ...   (B) 45, 43, 41, ...   (C) 10000, 12500, 15625, ...   (D) 100, 150, 200, ..."
+                "A": "8000, 8500, 9000, ...",
+                "B": "45, 43, 41, ...",
+                "C": "10000, 12500, 15625, ...",
+                "D": "100, 150, 200, ..."
               },
               "answer": "C",
               "explanation": "A sequence where a fixed number is added each time forms an AP. The sequence that multiplies or adds varying amounts does NOT follow an AP pattern."
@@ -473,7 +515,10 @@
               "difficulty": "Medium",
               "question": "In Shakila's sequence 100, 150, 200, 250, ..., the amount on the 5th birthday will be:",
               "options": {
-                "A": "Rs. 300   (B) Rs. 350   (C) Rs. 400   (D) Rs. 450"
+                "A": "Rs. 300",
+                "B": "Rs. 350",
+                "C": "Rs. 400",
+                "D": "Rs. 450"
               },
               "answer": "A",
               "explanation": "Shakila's sequence: 100, 150, 200, 250 — adding Rs.50 each year. In year n, amount = 100 + (n-1)×50. Year 5: 100 + 4×50 = Rs.300."
@@ -483,7 +528,10 @@
               "difficulty": "Medium",
               "question": "Which sequence from the introduction involves subtracting a fixed number to get the next term?",
               "options": {
-                "A": "Salary 8000, 8500, ...   (B) Investment 10000, 12500, ...   (C) Ladder rungs 45, 43, ...   (D) Savings 100, 150, ..."
+                "A": "Salary 8000, 8500, ...",
+                "B": "Investment 10000, 12500, ...",
+                "C": "Ladder rungs 45, 43, ...",
+                "D": "Savings 100, 150, ..."
               },
               "answer": "C",
               "explanation": "Rung lengths 45, 43, 41, ... decrease by 2 each time — a fixed number is SUBTRACTED, making this the sequence from the introduction with a negative common difference."
@@ -493,7 +541,10 @@
               "difficulty": "Medium",
               "question": "The number of unit squares in a square of side 4 units is:",
               "options": {
-                "A": "8   (B) 12   (C) 16   (D) 20"
+                "A": "8",
+                "B": "12",
+                "C": "16",
+                "D": "20"
               },
               "answer": "C",
               "explanation": "A square of side 4 units contains 4² = 16 unit squares. The sequence 1, 4, 9, 16, ... represents n² — differences are not fixed, so NOT an AP."
@@ -503,7 +554,10 @@
               "difficulty": "Hard",
               "question": "In Reena's salary example (a = Rs. 8000, d = Rs. 500), her salary in the 10th year is:",
               "options": {
-                "A": "Rs. 12000   (B) Rs. 12500   (C) Rs. 13000   (D) Rs. 11500"
+                "A": "Rs. 12000",
+                "B": "Rs. 12500",
+                "C": "Rs. 13000",
+                "D": "Rs. 11500"
               },
               "answer": "B",
               "explanation": "a_10 = 8000 + 9×500 = 8000 + 4500 = 12500"
@@ -526,7 +580,10 @@
               "difficulty": "Hard",
               "question": "A person's salary starts at Rs. 15000 with an increment of Rs. 1200 per year. In which year will it first exceed Rs. 20000?",
               "options": {
-                "A": "4th year   (B) 5th year   (C) 6th year   (D) 7th year"
+                "A": "4th year",
+                "B": "5th year",
+                "C": "6th year",
+                "D": "7th year"
               },
               "answer": "C",
               "explanation": "15000 + (n-1)×1200 > 20000 → (n-1) > 5000/1200 = 4.17 → n > 5.17 → n = 6"
@@ -536,8 +593,10 @@
               "difficulty": "Hard",
               "question": "The sequence 1, 4, 9, 16, 25 (unit squares) has differences 3, 5, 7, 9. Which statements are true?",
               "options": {
-                "A": "1, 4, 9, 16, 25 is an AP   (B) 1, 4, 9, 16, 25 is NOT an AP; but 3, 5, 7, 9 IS an AP",
-                "C": "Both sequences are APs   (D) Neither sequence is an AP"
+                "A": "1, 4, 9, 16, 25 is an AP",
+                "B": "1, 4, 9, 16, 25 is NOT an AP; but 3, 5, 7, 9 IS an AP",
+                "C": "Both sequences are APs",
+                "D": "Neither sequence is an AP"
               },
               "answer": "B",
               "explanation": "Sequence 1, 4, 9, 16, 25: differences are 3, 5, 7, 9 — these differences themselves form an AP, but the original sequence is NOT an AP."
@@ -721,7 +780,10 @@
               "difficulty": "Easy",
               "question": "In an AP, the fixed number added to each term to get the next term is called:",
               "options": {
-                "A": "First term   (B) Common ratio   (C) Common difference   (D) nth term"
+                "A": "First term",
+                "B": "Common ratio",
+                "C": "Common difference",
+                "D": "nth term"
               },
               "answer": "C",
               "explanation": "The fixed number added to each term to get the next term in an AP is called the COMMON DIFFERENCE, denoted d."
@@ -731,7 +793,10 @@
               "difficulty": "Easy",
               "question": "For the AP -5, -1, 3, 7, ..., the common difference is:",
               "options": {
-                "A": "-4   (B) 4   (C) 5   (D) -5"
+                "A": "-4",
+                "B": "4",
+                "C": "5",
+                "D": "-5"
               },
               "answer": "B",
               "explanation": "d = a2 - a1 = -1 - (-5) = 4. Verify: -1+4=3 ✓, 3+4=7 ✓."
@@ -741,7 +806,10 @@
               "difficulty": "Easy",
               "question": "Which of the following is an AP?",
               "options": {
-                "A": "1, 2, 4, 8, ...   (B) 1, 3, 5, 7, ...   (C) 1, 4, 9, 16, ...   (D) 1, 1, 2, 3, 5, ..."
+                "A": "1, 2, 4, 8, ...",
+                "B": "1, 3, 5, 7, ...",
+                "C": "1, 4, 9, 16, ...",
+                "D": "1, 1, 2, 3, 5, ..."
               },
               "answer": "B",
               "explanation": "Check differences: subtract consecutive terms. Only the AP option has a CONSTANT difference throughout."
@@ -751,7 +819,10 @@
               "difficulty": "Easy",
               "question": "For the AP 3, 3, 3, 3, ..., the common difference is:",
               "options": {
-                "A": "3   (B) 1   (C) 0   (D) -3"
+                "A": "3",
+                "B": "1",
+                "C": "0",
+                "D": "-3"
               },
               "answer": "C",
               "explanation": "3, 3, 3, 3 — every term is the same, so d = 3 - 3 = 0. A constant sequence is an AP with d = 0."
@@ -761,7 +832,10 @@
               "difficulty": "Easy",
               "question": "General form of an AP is:",
               "options": {
-                "A": "a, ar, ar^2, ...   (B) a, a+d, a+2d, ...   (C) a, a-d, a-2d, ...   (D) a1, a1+a2, ..."
+                "A": "a, ar, ar^2, ...",
+                "B": "a, a+d, a+2d, ...",
+                "C": "a, a-d, a-2d, ...",
+                "D": "a1, a1+a2, ..."
               },
               "answer": "B",
               "explanation": "The general form of an AP is a, a+d, a+2d, ... — starting from first term a with fixed common difference d."
@@ -771,7 +845,10 @@
               "difficulty": "Medium",
               "question": "For AP 3/2, 1/2, -1/2, -3/2, ..., the first term a and common difference d are:",
               "options": {
-                "A": "a=3/2, d=1   (B) a=3/2, d=-1   (C) a=1/2, d=-1   (D) a=3/2, d=2"
+                "A": "a=3/2, d=1",
+                "B": "a=3/2, d=-1",
+                "C": "a=1/2, d=-1",
+                "D": "a=3/2, d=2"
               },
               "answer": "B",
               "explanation": "a = 3/2, d = 1/2 - 3/2 = -1. Verify: 3/2 + (-1) = 1/2 ✓, 1/2 + (-1) = -1/2 ✓."
@@ -781,7 +858,10 @@
               "difficulty": "Medium",
               "question": "Which does NOT form an AP?",
               "options": {
-                "A": "-2, 2, -2, 2, -2, ...   (B) 0, -4, -8, -12, ...   (C) 1, 3, 5, 7, ...   (D) a, 2a, 3a, 4a, ..."
+                "A": "-2, 2, -2, 2, -2, ...",
+                "B": "0, -4, -8, -12, ...",
+                "C": "1, 3, 5, 7, ...",
+                "D": "a, 2a, 3a, 4a, ..."
               },
               "answer": "A",
               "explanation": "Check each sequence for a constant difference. The one where consecutive differences VARY does not form an AP."
@@ -791,7 +871,10 @@
               "difficulty": "Medium",
               "question": "For AP -1.2, -3.2, -5.2, -7.2, ..., the next two terms are:",
               "options": {
-                "A": "-9.2 and -11.2   (B) -8.2 and -10.2   (C) -9.2 and -12.2   (D) -8.2 and -9.2"
+                "A": "-9.2 and -11.2",
+                "B": "-8.2 and -10.2",
+                "C": "-9.2 and -12.2",
+                "D": "-8.2 and -9.2"
               },
               "answer": "A",
               "explanation": "d = -3.2 - (-1.2) = -2. Next terms: -7.2 + (-2) = -9.2 and -9.2 + (-2) = -11.2."
@@ -801,7 +884,10 @@
               "difficulty": "Medium",
               "question": "The list √2, √8, √18, √32, ... written as √2, 2√2, 3√2, 4√2, ... is:",
               "options": {
-                "A": "An AP with d = √2   (B) Not an AP   (C) An AP with d = 2   (D) An AP with d = 2√2"
+                "A": "An AP with d = √2",
+                "B": "Not an AP",
+                "C": "An AP with d = 2",
+                "D": "An AP with d = 2√2"
               },
               "answer": "A",
               "explanation": "√2, √8, √18, √32 = √2, 2√2, 3√2, 4√2 — each term = n√2. Common difference = √2 (constant irrational number). This IS an AP."
@@ -811,7 +897,10 @@
               "difficulty": "Medium",
               "question": "In an AP, if a2-a1 = 3 and a1 = 5, then a3 is:",
               "options": {
-                "A": "8   (B) 11   (C) 14   (D) 9"
+                "A": "8",
+                "B": "11",
+                "C": "14",
+                "D": "9"
               },
               "answer": "B",
               "explanation": "a1 = 5, d = 3. a3 = a1 + 2d = 5 + 6 = 11."
@@ -821,8 +910,10 @@
               "difficulty": "Medium",
               "question": "Taxi fare: Rs. 15 for 1st km, Rs. 8 for each additional km. The fares for 1, 2, 3, 4 km are:",
               "options": {
-                "A": "15, 23, 31, 39 — AP with d=8   (B) 15, 16, 17, 18 — AP",
-                "C": "15, 24, 33, 42 — AP   (D) 15, 23, 31, 39 — NOT an AP"
+                "A": "15, 23, 31, 39 — AP with d=8",
+                "B": "15, 16, 17, 18 — AP",
+                "C": "15, 24, 33, 42 — AP",
+                "D": "15, 23, 31, 39 — NOT an AP"
               },
               "answer": "A",
               "explanation": "AP: 15, 23, 31, ... (d=8). Taxi fare for n km = 15 + (n-1)×8 = 8n + 7. For n=7: 8(7)+7 = Rs.63."
@@ -832,7 +923,10 @@
               "difficulty": "Hard",
               "question": "Which sequence has an irrational common difference?",
               "options": {
-                "A": "2, 4, 6, 8, ...   (B) 3, 3+√2, 3+2√2, 3+3√2, ...   (C) 1, -1, -3, -5, ...   (D) 0.1, 0.2, 0.3, ..."
+                "A": "2, 4, 6, 8, ...",
+                "B": "3, 3+√2, 3+2√2, 3+3√2, ...",
+                "C": "1, -1, -3, -5, ...",
+                "D": "0.1, 0.2, 0.3, ..."
               },
               "answer": "B",
               "explanation": "√2, 2√2, 3√2 has d = √2, which is IRRATIONAL. This is the sequence from Exercise 5.1 Q8(ii)."
@@ -842,8 +936,10 @@
               "difficulty": "Hard",
               "question": "For a1, a2, ..., a_n to form an AP, which condition must hold?",
               "options": {
-                "A": "a_(k+1) - a_k = k for all k   (B) a_(k+1)/a_k = d for all k",
-                "C": "a_(k+1) - a_k = d (constant) for all k   (D) a_(k+1) + a_k = d for all k"
+                "A": "a_(k+1) - a_k = k for all k",
+                "B": "a_(k+1)/a_k = d for all k",
+                "C": "a_(k+1) - a_k = d (constant) for all k",
+                "D": "a_(k+1) + a_k = d for all k"
               },
               "answer": "C",
               "explanation": "For a1, a2, ..., a_n to be an AP, each consecutive difference must be the SAME: a_{k+1} - a_k = d for all k."
@@ -853,7 +949,10 @@
               "difficulty": "Hard",
               "question": "The list 1^2, 3^2, 5^2, 7^2 = 1, 9, 25, 49. Is this an AP?",
               "options": {
-                "A": "Yes, d = 8   (B) Yes, d = 16   (C) No — differences are 8, 16, 24 (not constant)   (D) Yes, d = 24"
+                "A": "Yes, d = 8",
+                "B": "Yes, d = 16",
+                "C": "No — differences are 8, 16, 24 (not constant)",
+                "D": "Yes, d = 24"
               },
               "answer": "C",
               "explanation": "1, 9, 25, 49 — differences: 8, 16, 24 — NOT constant. So 1², 3², 5², 7² does NOT form an AP."
@@ -863,8 +962,10 @@
               "difficulty": "Hard",
               "question": "Vacuum pump removes 1/4 of remaining air each time, starting with 100 units: 100, 75, 56.25, ... Is this an AP?",
               "options": {
-                "A": "Yes, d = -25   (B) No — differences -25, -18.75, ... are not constant",
-                "C": "Yes, d = -18.75   (D) Yes, d = 3/4"
+                "A": "Yes, d = -25",
+                "B": "No — differences -25, -18.75, ... are not constant",
+                "C": "Yes, d = -18.75",
+                "D": "Yes, d = 3/4"
               },
               "answer": "B",
               "explanation": "Vacuum pump: each step multiplies by (3/4). This is a GEOMETRIC progression (multiply by fixed ratio), not an AP (add fixed number)."
@@ -1086,7 +1187,10 @@
               "difficulty": "Easy",
               "question": "The formula for the nth term of an AP is:",
               "options": {
-                "A": "a_n = a-(n-1)d   (B) a_n = a+nd   (C) a_n = a+(n-1)d   (D) a_n = na+d"
+                "A": "a_n = a-(n-1)d",
+                "B": "a_n = a+nd",
+                "C": "a_n = a+(n-1)d",
+                "D": "a_n = na+d"
               },
               "answer": "C",
               "explanation": "a_n = a + (n-1)d — the nth term formula derived by adding d exactly (n-1) times to the first term a."
@@ -1096,7 +1200,10 @@
               "difficulty": "Easy",
               "question": "For AP 2, 7, 12, ..., the 10th term is:",
               "options": {
-                "A": "42   (B) 47   (C) 52   (D) 57"
+                "A": "42",
+                "B": "47",
+                "C": "52",
+                "D": "57"
               },
               "answer": "B",
               "explanation": "a=2, d=5, n=10. a_10 = 2 + 9×5 = 2 + 45 = 47."
@@ -1106,7 +1213,10 @@
               "difficulty": "Easy",
               "question": "The last term of a finite AP is denoted by:",
               "options": {
-                "A": "a   (B) d   (C) n   (D) l"
+                "A": "a",
+                "B": "d",
+                "C": "n",
+                "D": "l"
               },
               "answer": "D",
               "explanation": "The last term of a finite AP is denoted by 'l' (or a_n). It equals a + (n-1)d."
@@ -1116,7 +1226,10 @@
               "difficulty": "Easy",
               "question": "For AP 10, 7, 4, ..., d is:",
               "options": {
-                "A": "3   (B) -3   (C) 7   (D) -7"
+                "A": "3",
+                "B": "-3",
+                "C": "7",
+                "D": "-7"
               },
               "answer": "B",
               "explanation": "d = a2 - a1 = 7 - 10 = -3."
@@ -1126,7 +1239,10 @@
               "difficulty": "Easy",
               "question": "Which term of AP: 3, 8, 13, 18, ..., is 78?",
               "options": {
-                "A": "13th   (B) 14th   (C) 15th   (D) 16th"
+                "A": "13th",
+                "B": "14th",
+                "C": "15th",
+                "D": "16th"
               },
               "answer": "D",
               "explanation": "78 = 3+(n-1)5 → 75 = 5(n-1) → n = 16"
@@ -1136,7 +1252,10 @@
               "difficulty": "Medium",
               "question": "Which term of AP: 21, 18, 15, ..., is -81?",
               "options": {
-                "A": "33rd   (B) 34th   (C) 35th   (D) 36th"
+                "A": "33rd",
+                "B": "34th",
+                "C": "35th",
+                "D": "36th"
               },
               "answer": "C",
               "explanation": "a=21, d=-3. a_n = 21 + (n-1)(-3) = -81 → 21 - 3n + 3 = -81 → 3n = 105 → n = 35. 35th term."
@@ -1146,7 +1265,10 @@
               "difficulty": "Medium",
               "question": "AP: 10, 7, 4, ..., -62 has how many terms?",
               "options": {
-                "A": "23   (B) 24   (C) 25   (D) 26"
+                "A": "23",
+                "B": "24",
+                "C": "25",
+                "D": "26"
               },
               "answer": "C",
               "explanation": "a=10, d=-3, a_n=-62. n = (a_n - a)/d + 1 = (-62-10)/(-3) + 1 = 72/3 + 1 = 24 + 1 = 25 terms."
@@ -1156,8 +1278,10 @@
               "difficulty": "Medium",
               "question": "Is -150 a term of AP: 11, 8, 5, 2, ...?",
               "options": {
-                "A": "Yes, 54th term   (B) Yes, 55th term",
-                "C": "No — n is not an integer   (D) No — -150 < 2"
+                "A": "Yes, 54th term",
+                "B": "Yes, 55th term",
+                "C": "No — n is not an integer",
+                "D": "No — -150 < 2"
               },
               "answer": "C",
               "explanation": "-150 = 11+(n-1)(-3) → -161 = -3(n-1) → n-1 = 53.67 — non-integer"
@@ -1167,7 +1291,10 @@
               "difficulty": "Medium",
               "question": "AP has 50 terms; 3rd term = 12, last term = 106. Find the 29th term.",
               "options": {
-                "A": "57   (B) 60   (C) 64   (D) 68"
+                "A": "57",
+                "B": "60",
+                "C": "64",
+                "D": "68"
               },
               "answer": "C",
               "explanation": "a+2d=12; a+49d=106 → 47d=94 → d=2; a=8; a_29=8+28×2=64"
@@ -1177,7 +1304,10 @@
               "difficulty": "Medium",
               "question": "How many multiples of 4 lie between 10 and 250?",
               "options": {
-                "A": "58   (B) 59   (C) 60   (D) 61"
+                "A": "58",
+                "B": "59",
+                "C": "60",
+                "D": "61"
               },
               "answer": "C",
               "explanation": "AP: 12, 16, ..., 248. 248=12+(n-1)4 → n=60"
@@ -1187,7 +1317,10 @@
               "difficulty": "Medium",
               "question": "The 17th term exceeds 10th term by 7. The common difference is:",
               "options": {
-                "A": "0   (B) 1   (C) 2   (D) 7"
+                "A": "0",
+                "B": "1",
+                "C": "2",
+                "D": "7"
               },
               "answer": "B",
               "explanation": "a_17-a_10 = 7d = 7 → d=1"
@@ -1197,7 +1330,10 @@
               "difficulty": "Hard",
               "question": "Two APs have same d; difference between 100th terms is 100. Difference between 1000th terms is:",
               "options": {
-                "A": "1   (B) 10   (C) 100   (D) 1000"
+                "A": "1",
+                "B": "10",
+                "C": "100",
+                "D": "1000"
               },
               "answer": "C",
               "explanation": "If APs are a,a+d,... and b,b+d,... then a_100-b_100 = a-b = 100. a_1000-b_1000 = a-b = 100"
@@ -1207,7 +1343,10 @@
               "difficulty": "Hard",
               "question": "Ramkali saved Rs. 5 in week 1, increased by Rs. 1.75/week. In which week did she save Rs. 20.75?",
               "options": {
-                "A": "8th   (B) 9th   (C) 10th   (D) 11th"
+                "A": "8th",
+                "B": "9th",
+                "C": "10th",
+                "D": "11th"
               },
               "answer": "C",
               "explanation": "20.75 = 5+(n-1)×1.75 → n=10"
@@ -1217,7 +1356,10 @@
               "difficulty": "Hard",
               "question": "For what value of n are the nth terms of APs 63, 65, 67, ... and 3, 10, 17, ... equal?",
               "options": {
-                "A": "11   (B) 12   (C) 13   (D) 14"
+                "A": "11",
+                "B": "12",
+                "C": "13",
+                "D": "14"
               },
               "answer": "C",
               "explanation": "63+(n-1)2 = 3+(n-1)7 → 61+2n = -4+7n → 5n=65 → n=13"
@@ -1227,7 +1369,10 @@
               "difficulty": "Hard",
               "question": "Subba Rao started in 1995 at Rs. 5000, increment Rs. 200/year. Income reached Rs. 7000 in:",
               "options": {
-                "A": "2003   (B) 2004   (C) 2005   (D) 2006"
+                "A": "2003",
+                "B": "2004",
+                "C": "2005",
+                "D": "2006"
               },
               "answer": "C",
               "explanation": "7000=5000+(n-1)200 → n=11; 1995+10 = 2005"
@@ -1448,8 +1593,10 @@
               "difficulty": "Easy",
               "question": "The formula for sum of first n terms of an AP is:",
               "options": {
-                "A": "S_n = n[a+(n-1)d]   (B) S_n = (n/2)[2a+(n-1)d]",
-                "C": "S_n = (n/2)[a+(n-1)d]   (D) S_n = n[2a+(n-1)d]"
+                "A": "S_n = n[a+(n-1)d]",
+                "B": "S_n = (n/2)[2a+(n-1)d]",
+                "C": "S_n = (n/2)[a+(n-1)d]",
+                "D": "S_n = n[2a+(n-1)d]"
               },
               "answer": "B",
               "explanation": "S_n = n/2 × [2a + (n-1)d] — derived by adding the AP forward and backward and halving."
@@ -1459,7 +1606,10 @@
               "difficulty": "Easy",
               "question": "Sum of first n positive integers is:",
               "options": {
-                "A": "n(n-1)/2   (B) n(n+1)/2   (C) (n+1)(n+2)/2   (D) n^2/2"
+                "A": "n(n-1)/2",
+                "B": "n(n+1)/2",
+                "C": "(n+1)(n+2)/2",
+                "D": "n^2/2"
               },
               "answer": "B",
               "explanation": "S_n = n(n+1)/2. For AP 1,2,3,...,n: a=1, d=1. S_n = n/2 × [2 + (n-1)] = n(n+1)/2."
@@ -1469,7 +1619,10 @@
               "difficulty": "Easy",
               "question": "Sum of first 1000 positive integers is:",
               "options": {
-                "A": "500500   (B) 505000   (C) 50050   (D) 100100"
+                "A": "500500",
+                "B": "505000",
+                "C": "50050",
+                "D": "100100"
               },
               "answer": "A",
               "explanation": "S_1000 = 1000×1001/2 = 500500."
@@ -1479,7 +1632,10 @@
               "difficulty": "Easy",
               "question": "If a=5, d=3, n=10, then S_10 is:",
               "options": {
-                "A": "185   (B) 175   (C) 165   (D) 195"
+                "A": "185",
+                "B": "175",
+                "C": "165",
+                "D": "195"
               },
               "answer": "A",
               "explanation": "S_10 = (10/2)[10+9×3] = 5[10+27] = 5×37 = 185"
@@ -1489,7 +1645,10 @@
               "difficulty": "Easy",
               "question": "Sum of first 22 terms of AP 8, 3, -2, ... is:",
               "options": {
-                "A": "979   (B) -979   (C) -770   (D) 770"
+                "A": "979",
+                "B": "-979",
+                "C": "-770",
+                "D": "770"
               },
               "answer": "B",
               "explanation": "a=8, d=-5, n=22. S_22 = 22/2 × [16 + 21×(-5)] = 11 × [16-105] = 11 × (-89) = -979."
@@ -1499,8 +1658,10 @@
               "difficulty": "Medium",
               "question": "S_n = (n/2)(a+l) is used when:",
               "options": {
-                "A": "Only first term known   (B) First term and d are known",
-                "C": "First and last terms are known but d is not given   (D) Only n is known"
+                "A": "Only first term known",
+                "B": "First term and d are known",
+                "C": "First and last terms are known but d is not given",
+                "D": "Only n is known"
               },
               "answer": "C",
               "explanation": "S_n = n/2 × (a+l) is used when the LAST TERM l is known. Otherwise use S_n = n/2 × [2a + (n-1)d]."
@@ -1510,7 +1671,10 @@
               "difficulty": "Medium",
               "question": "How many terms of AP: 9, 17, 25, ... give sum of 636?",
               "options": {
-                "A": "10   (B) 11   (C) 12   (D) 13"
+                "A": "10",
+                "B": "11",
+                "C": "12",
+                "D": "13"
               },
               "answer": "C",
               "explanation": "636=(n/2)[18+(n-1)8]; 1272=8n^2+10n; 4n^2+5n-636=0; n=12"
@@ -1520,7 +1684,10 @@
               "difficulty": "Medium",
               "question": "If S_n = 4n-n^2, the 10th term is:",
               "options": {
-                "A": "-14   (B) -15   (C) -13   (D) -16"
+                "A": "-14",
+                "B": "-15",
+                "C": "-13",
+                "D": "-16"
               },
               "answer": "B",
               "explanation": "a_10 = S_10-S_9 = (40-100)-(36-81) = -60-(-45) = -15"
@@ -1530,7 +1697,10 @@
               "difficulty": "Medium",
               "question": "TV manufacturer: 600 sets in year 3, 700 in year 7. Total production in first 7 years:",
               "options": {
-                "A": "4200   (B) 4375   (C) 4550   (D) 4000"
+                "A": "4200",
+                "B": "4375",
+                "C": "4550",
+                "D": "4000"
               },
               "answer": "B",
               "explanation": "a+2d=600, a+6d=700 → 4d=100 → d=25 → a=550. S_7 = 7/2 × [2(550) + 6(25)] = 7/2 × 1250 = 4375."
@@ -1540,7 +1710,10 @@
               "difficulty": "Medium",
               "question": "Sum of first 15 multiples of 8 is:",
               "options": {
-                "A": "900   (B) 960   (C) 980   (D) 1000"
+                "A": "900",
+                "B": "960",
+                "C": "980",
+                "D": "1000"
               },
               "answer": "B",
               "explanation": "AP: 8, 16, ..., 120. S_15 = (15/2)(8+120) = (15/2)(128) = 960"
@@ -1550,7 +1723,10 @@
               "difficulty": "Medium",
               "question": "Sum of odd numbers between 0 and 50:",
               "options": {
-                "A": "576   (B) 600   (C) 625   (D) 650"
+                "A": "576",
+                "B": "600",
+                "C": "625",
+                "D": "650"
               },
               "answer": "C",
               "explanation": "AP: 1, 3, ..., 49. n=25. S_25=(25/2)(1+49)=625"
@@ -1560,7 +1736,10 @@
               "difficulty": "Hard",
               "question": "Sum of first 7 terms = 49 and first 17 terms = 289. Then S_n =",
               "options": {
-                "A": "n^2   (B) n^2+n   (C) 2n^2   (D) n(n+1)"
+                "A": "n^2",
+                "B": "n^2+n",
+                "C": "2n^2",
+                "D": "n(n+1)"
               },
               "answer": "A",
               "explanation": "a+3d=7; a+8d=17 → d=2, a=1. S_n=n^2"
@@ -1570,7 +1749,10 @@
               "difficulty": "Hard",
               "question": "7 cash prizes sum to Rs.700; each prize Rs.20 less than preceding. First prize is:",
               "options": {
-                "A": "Rs.100   (B) Rs.120   (C) Rs.140   (D) Rs.160"
+                "A": "Rs.100",
+                "B": "Rs.120",
+                "C": "Rs.140",
+                "D": "Rs.160"
               },
               "answer": "D",
               "explanation": "S_7=(7/2)(2a+6×(-20))=700 → 2a-120=200 → a=160"
@@ -1580,7 +1762,10 @@
               "difficulty": "Hard",
               "question": "Spiral of 13 semicircles with radii 0.5, 1.0, ..., 6.5 cm. Total length (π=22/7):",
               "options": {
-                "A": "143 cm   (B) 143.5 cm   (C) 144 cm   (D) 145 cm"
+                "A": "143 cm",
+                "B": "143.5 cm",
+                "C": "144 cm",
+                "D": "145 cm"
               },
               "answer": "A",
               "explanation": "Sum of radii = S_13 = (13/2)(0.5+6.5) = 45.5. Length = (22/7)×45.5 = 143 cm"
@@ -1590,7 +1775,10 @@
               "difficulty": "Hard",
               "question": "200 logs stacked: 20 in bottom, 19 in next, etc. Number of rows:",
               "options": {
-                "A": "15   (B) 16   (C) 17   (D) 18"
+                "A": "15",
+                "B": "16",
+                "C": "17",
+                "D": "18"
               },
               "answer": "B",
               "explanation": "S_n=200: n(41-n)=400 → n^2-41n+400=0 → (n-16)(n-25)=0 → n=16"

@@ -97,7 +97,10 @@
           "difficulty": "Easy",
           "question": "An expression with exactly two terms is called:",
           "options": {
-            "A": "Monomial   (B) Binomial   (C) Trinomial   (D) Polynomial"
+            "A": "Monomial",
+            "B": "Binomial",
+            "C": "Trinomial",
+            "D": "Polynomial"
           },
           "answer": "B",
           "explanation": "Binomial has exactly two terms."
@@ -107,7 +110,10 @@
           "difficulty": "Medium",
           "question": "x^3 x x^2 = ?",
           "options": {
-            "A": "x^5   (B) x^6   (C) x^1   (D) 2x^5"
+            "A": "x^5",
+            "B": "x^6",
+            "C": "x^1",
+            "D": "2x^5"
           },
           "answer": "A",
           "explanation": "x^3 x x^2 = x^(3+2) = x^5."
@@ -117,7 +123,10 @@
           "difficulty": "Hard",
           "question": "(a + b)(2a - 3b + c) contains how many initial product terms?",
           "options": {
-            "A": "4   (B) 5   (C) 6   (D) 3"
+            "A": "4",
+            "B": "5",
+            "C": "6",
+            "D": "3"
           },
           "answer": "C",
           "explanation": "Binomial (2 terms) x Trinomial (3 terms) = 2 x 3 = 6 terms."
@@ -127,7 +136,10 @@
           "difficulty": "Easy",
           "question": "An expression with exactly one term is called:",
           "options": {
-            "A": "Monomial   (B) Binomial   (C) Trinomial   (D) Polynomial"
+            "A": "Monomial",
+            "B": "Binomial",
+            "C": "Trinomial",
+            "D": "Polynomial"
           },
           "answer": "A",
           "explanation": "Monomial has exactly one term. Example: 5xy, 3x^2."
@@ -137,7 +149,10 @@
           "difficulty": "Medium",
           "question": "Which of the following are like terms?",
           "options": {
-            "A": "3x and 3y   (B) 5x^2 and 5x   (C) 4xy and -7xy   (D) 2ab and 2a"
+            "A": "3x and 3y",
+            "B": "5x^2 and 5x",
+            "C": "4xy and -7xy",
+            "D": "2ab and 2a"
           },
           "answer": "C",
           "explanation": "4xy and -7xy have same variables (x and y) with same powers. So they are like terms."
@@ -147,7 +162,10 @@
           "difficulty": "Hard",
           "question": "Product of (a + 7) and (a^2 + 3a + 5) gives how many final terms?",
           "options": {
-            "A": "6   (B) 5   (C) 4   (D) 3"
+            "A": "6",
+            "B": "5",
+            "C": "4",
+            "D": "3"
           },
           "answer": "C",
           "explanation": "6 initial products. Two pairs combine: (3a^2+7a^2) and (5a+21a). Final = 4 terms."
@@ -279,7 +297,10 @@
               "difficulty": "Easy",
               "question": "Which are like terms among: 3x, 5y, -2x, 4xy?",
               "options": {
-                "A": "3x and 5y   (B) 3x and -2x   (C) 5y and 4xy   (D) 3x and 4xy"
+                "A": "3x and 5y",
+                "B": "3x and -2x",
+                "C": "5y and 4xy",
+                "D": "3x and 4xy"
               },
               "answer": "B",
               "explanation": "3x and -2x both have variable x with power 1."
@@ -289,7 +310,10 @@
               "difficulty": "Easy",
               "question": "Sum of ab - bc and bc - ca is:",
               "options": {
-                "A": "ab - ca   (B) 2bc - ca   (C) ab + ca   (D) ab - 2bc"
+                "A": "ab - ca",
+                "B": "2bc - ca",
+                "C": "ab + ca",
+                "D": "ab - 2bc"
               },
               "answer": "A",
               "explanation": "ab - bc + bc - ca = ab - ca (bc terms cancel)."
@@ -312,7 +336,10 @@
               "difficulty": "Easy",
               "question": "Sum of l^2 + m^2, m^2 + n^2, n^2 + l^2 is:",
               "options": {
-                "A": "l^2 + m^2 + n^2   (B) 2l^2 + 2m^2 + 2n^2   (C) 3l^2 + 3m^2 + 3n^2   (D) 0"
+                "A": "l^2 + m^2 + n^2",
+                "B": "2l^2 + 2m^2 + 2n^2",
+                "C": "3l^2 + 3m^2 + 3n^2",
+                "D": "0"
               },
               "answer": "B",
               "explanation": "l^2+l^2=2l^2, m^2+m^2=2m^2, n^2+n^2=2n^2. Total = 2l^2+2m^2+2n^2."
@@ -322,8 +349,10 @@
               "difficulty": "Medium",
               "question": "Subtract 4a - 7ab + 3b + 12 from 12a - 9ab + 5b - 3. The result is:",
               "options": {
-                "A": "8a - 2ab + 2b - 15   (B) 8a + 2ab - 2b + 15",
-                "C": "16a - 16ab + 8b + 9  (D) 8a - 2ab + 2b + 15"
+                "A": "8a - 2ab + 2b - 15",
+                "B": "8a + 2ab - 2b + 15",
+                "C": "16a - 16ab + 8b + 9",
+                "D": "8a - 2ab + 2b + 15"
               },
               "answer": "A",
               "explanation": "12a-9ab+5b-3-4a+7ab-3b-12 = 8a-2ab+2b-15."
@@ -333,8 +362,10 @@
               "difficulty": "Hard",
               "question": "Add 2p^2q^2 - 3pq + 4 and -3p^2q^2 + 7pq + 5. Result is:",
               "options": {
-                "A": "-p^2q^2 + 4pq + 9   (B) p^2q^2 - 4pq + 9",
-                "C": "-p^2q^2 - 4pq + 9   (D) 5p^2q^2 + 10pq + 9"
+                "A": "-p^2q^2 + 4pq + 9",
+                "B": "p^2q^2 - 4pq + 9",
+                "C": "-p^2q^2 - 4pq + 9",
+                "D": "5p^2q^2 + 10pq + 9"
               },
               "answer": "A",
               "explanation": "(2-3)p^2q^2 + (-3+7)pq + (4+5) = -p^2q^2 + 4pq + 9."
@@ -455,7 +486,10 @@
               "difficulty": "Easy",
               "question": "Area of a rectangle with length 3x and breadth 5y is:",
               "options": {
-                "A": "8xy   (B) 15xy   (C) 15x^2y^2   (D) 8x + y"
+                "A": "8xy",
+                "B": "15xy",
+                "C": "15x^2y^2",
+                "D": "8x + y"
               },
               "answer": "B",
               "explanation": "Area = 3x x 5y = 15xy."
@@ -465,7 +499,10 @@
               "difficulty": "Medium",
               "question": "Volume of a box with length 2ax, breadth 3by, height 5cz is:",
               "options": {
-                "A": "10abcxyz   (B) 30abcxyz   (C) 15abcxyz   (D) 6abcxyz"
+                "A": "10abcxyz",
+                "B": "30abcxyz",
+                "C": "15abcxyz",
+                "D": "6abcxyz"
               },
               "answer": "B",
               "explanation": "2x3x5 = 30. Variables: abcxyz. Total = 30abcxyz."
@@ -475,7 +512,10 @@
               "difficulty": "Easy",
               "question": "Price of bananas per dozen = Rs p, quantity needed = z dozens. Total cost is:",
               "options": {
-                "A": "p + z   (B) pz   (C) p/z   (D) 2pz"
+                "A": "p + z",
+                "B": "pz",
+                "C": "p/z",
+                "D": "2pz"
               },
               "answer": "B",
               "explanation": "Total cost = price x quantity = Rs p x z = Rs pz."
@@ -485,7 +525,10 @@
               "difficulty": "Medium",
               "question": "Area of rectangle with length (l+5) and breadth (b-3) is written as:",
               "options": {
-                "A": "l + b + 2   (B) (l+5)(b-3)   (C) lb - 3l + 5b   (D) lb + 15"
+                "A": "l + b + 2",
+                "B": "(l+5)(b-3)",
+                "C": "lb - 3l + 5b",
+                "D": "lb + 15"
               },
               "answer": "B",
               "explanation": "Area = length x breadth = (l+5)(b-3). We write the expression first."
@@ -495,7 +538,10 @@
               "difficulty": "Medium",
               "question": "x^a x x^b = ?",
               "options": {
-                "A": "x^(a-(B)   (B) x^(a+(B)   (C) x^(axb)   (D) x^(a/b)"
+                "A": "x^(a-",
+                "B": "x^(a+",
+                "C": "x^(axb)",
+                "D": "x^(a/b)"
               },
               "answer": "B",
               "explanation": "When multiplying same base, add the exponents: x^a x x^b = x^(a+b)."
@@ -505,7 +551,10 @@
               "difficulty": "Hard",
               "question": "Volume of rectangular box with length m^2n, breadth n^2p, height p^2m is:",
               "options": {
-                "A": "m^2n^2p^2   (B) m^3n^3p^3   (C) m^5n^5p^5   (D) 6m^2n^2p^2"
+                "A": "m^2n^2p^2",
+                "B": "m^3n^3p^3",
+                "C": "m^5n^5p^5",
+                "D": "6m^2n^2p^2"
               },
               "answer": "B",
               "explanation": "m^2 x m = m^3. n x n^2 = n^3. p x p^2 = p^3. Volume = m^3n^3p^3."
@@ -606,7 +655,10 @@
               "difficulty": "Easy",
               "question": "Product of two monomials is always a:",
               "options": {
-                "A": "Binomial   (B) Trinomial   (C) Monomial   (D) Polynomial"
+                "A": "Binomial",
+                "B": "Trinomial",
+                "C": "Monomial",
+                "D": "Polynomial"
               },
               "answer": "C",
               "explanation": "Monomial x Monomial = Monomial always."
@@ -616,7 +668,10 @@
               "difficulty": "Medium",
               "question": "5x x (-4xyz) = ?",
               "options": {
-                "A": "-20x^2yz   (B) 20x^2yz   (C) -20xyz   (D) 20xyz"
+                "A": "-20x^2yz",
+                "B": "20x^2yz",
+                "C": "-20xyz",
+                "D": "20xyz"
               },
               "answer": "A",
               "explanation": "(5 x -4)(x x xyz) = -20x^2yz."
@@ -626,7 +681,10 @@
               "difficulty": "Easy",
               "question": "Product of 4p and (-3p) is:",
               "options": {
-                "A": "12p   (B) -12p   (C) 12p^2   (D) -12p^2"
+                "A": "12p",
+                "B": "-12p",
+                "C": "12p^2",
+                "D": "-12p^2"
               },
               "answer": "D",
               "explanation": "(4 x -3)(p x p) = -12p^2."
@@ -636,7 +694,10 @@
               "difficulty": "Medium",
               "question": "Find: 3x^2 x 4x^3.",
               "options": {
-                "A": "7x^5   (B) 12x^5   (C) 12x^6   (D) 7x^6"
+                "A": "7x^5",
+                "B": "12x^5",
+                "C": "12x^6",
+                "D": "7x^6"
               },
               "answer": "B",
               "explanation": "(3x4)(x^2 x x^3) = 12 x x^(2+3) = 12x^5."
@@ -646,7 +707,10 @@
               "difficulty": "Medium",
               "question": "Find: 2x x 5y x 7z.",
               "options": {
-                "A": "14xyz   (B) 35xyz   (C) 70xyz   (D) 70x^3"
+                "A": "14xyz",
+                "B": "35xyz",
+                "C": "70xyz",
+                "D": "70x^3"
               },
               "answer": "C",
               "explanation": "2x5x7 = 70. Variables = xyz. So 70xyz."
@@ -656,7 +720,10 @@
               "difficulty": "Hard",
               "question": "4xy x 5x^2y^2 x 6x^3y^3 = ?",
               "options": {
-                "A": "15x^6y^6   (B) 120x^5y^5   (C) 120x^6y^6   (D) 20x^6y^6"
+                "A": "15x^6y^6",
+                "B": "120x^5y^5",
+                "C": "120x^6y^6",
+                "D": "20x^6y^6"
               },
               "answer": "C",
               "explanation": "4x5x6=120. x^(1+2+3)=x^6. y^(1+2+3)=y^6. = 120x^6y^6. ----"
@@ -874,7 +941,10 @@
                   "difficulty": "Easy",
                   "question": "Product of 2x, 5y, 7z is:",
                   "options": {
-                    "A": "14xyz   (B) 35xyz   (C) 70xyz   (D) 70x^3"
+                    "A": "14xyz",
+                    "B": "35xyz",
+                    "C": "70xyz",
+                    "D": "70x^3"
                   },
                   "answer": "C",
                   "explanation": "2x5x7=70. Variables=xyz. So 70xyz."
@@ -884,7 +954,10 @@
                   "difficulty": "Medium",
                   "question": "Find volume: length=2ax, breadth=3by, height=5cz.",
                   "options": {
-                    "A": "10abcxyz   (B) 30abcxyz   (C) 15abcxyz   (D) 6abcxyz"
+                    "A": "10abcxyz",
+                    "B": "30abcxyz",
+                    "C": "15abcxyz",
+                    "D": "6abcxyz"
                   },
                   "answer": "B",
                   "explanation": "2x3x5=30. Variables=abcxyz. Total=30abcxyz."
@@ -894,7 +967,10 @@
                   "difficulty": "Medium",
                   "question": "Find: 4xy x 5x^2y^2 x 6x^3y^3.",
                   "options": {
-                    "A": "15x^6y^6   (B) 120x^5y^5   (C) 120x^6y^6   (D) 20x^6y^6"
+                    "A": "15x^6y^6",
+                    "B": "120x^5y^5",
+                    "C": "120x^6y^6",
+                    "D": "20x^6y^6"
                   },
                   "answer": "C",
                   "explanation": "4x5x6=120. x^6. y^6. =120x^6y^6."
@@ -904,7 +980,10 @@
                   "difficulty": "Easy",
                   "question": "Find: 2x x 3y x 4z.",
                   "options": {
-                    "A": "9xyz   (B) 24xyz   (C) 24x^3   (D) 9x^3"
+                    "A": "9xyz",
+                    "B": "24xyz",
+                    "C": "24x^3",
+                    "D": "9x^3"
                   },
                   "answer": "B",
                   "explanation": "2x3x4=24. Variables=xyz. =24xyz."
@@ -914,7 +993,10 @@
                   "difficulty": "Medium",
                   "question": "Volume of box: l=2q, b=4q^2, h=8q^3.",
                   "options": {
-                    "A": "14q^6   (B) 64q^5   (C) 64q^6   (D) 14q^5"
+                    "A": "14q^6",
+                    "B": "64q^5",
+                    "C": "64q^6",
+                    "D": "14q^5"
                   },
                   "answer": "C",
                   "explanation": "2x4x8=64. q^(1+2+3)=q^6. =64q^6."
@@ -924,7 +1006,10 @@
                   "difficulty": "Hard",
                   "question": "Find: xy x yz x zx.",
                   "options": {
-                    "A": "xyz   (B) x^2y^2z   (C) x^2y^2z^2   (D) xyz^2"
+                    "A": "xyz",
+                    "B": "x^2y^2z",
+                    "C": "x^2y^2z^2",
+                    "D": "xyz^2"
                   },
                   "answer": "C",
                   "explanation": "x^2, y^2, z^2. Product=x^2y^2z^2."
@@ -1026,7 +1111,10 @@
               "difficulty": "Easy",
               "question": "2x x (3x + 5xy) = ?",
               "options": {
-                "A": "6x^2 + 5xy   (B) 6x^2 + 10x^2y   (C) 6x + 10xy   (D) 6x^2 + 10xy"
+                "A": "6x^2 + 5xy",
+                "B": "6x^2 + 10x^2y",
+                "C": "6x + 10xy",
+                "D": "6x^2 + 10xy"
               },
               "answer": "B",
               "explanation": "2x x 3x = 6x^2. 2x x 5xy = 10x^2y."
@@ -1049,7 +1137,10 @@
               "difficulty": "Easy",
               "question": "The distributive law states: a(b + c) = ?",
               "options": {
-                "A": "ab + c   (B) a + bc   (C) ab + ac   (D) a + b + c"
+                "A": "ab + c",
+                "B": "a + bc",
+                "C": "ab + ac",
+                "D": "a + b + c"
               },
               "answer": "C",
               "explanation": "a(b + c) = ab + ac. Monomial multiplies each term of the polynomial."
@@ -1059,7 +1150,10 @@
               "difficulty": "Easy",
               "question": "5xy x (y^2 + 3) = ?",
               "options": {
-                "A": "5xy^3 + 15xy   (B) 5xy^2 + 15xy   (C) 5xy^3 + 3   (D) 5y^3 + 15y"
+                "A": "5xy^3 + 15xy",
+                "B": "5xy^2 + 15xy",
+                "C": "5xy^3 + 3",
+                "D": "5y^3 + 15y"
               },
               "answer": "A",
               "explanation": "5xy x y^2 = 5xy^3. 5xy x 3 = 15xy. Total = 5xy^3 + 15xy."
@@ -1069,7 +1163,10 @@
               "difficulty": "Medium",
               "question": "a^2 x (2ab - 5c) = ?",
               "options": {
-                "A": "2a^2b - 5ac   (B) 2a^3b - 5a^2c   (C) 2a^3b + 5a^2c   (D) 7a^3b"
+                "A": "2a^2b - 5ac",
+                "B": "2a^3b - 5a^2c",
+                "C": "2a^3b + 5a^2c",
+                "D": "7a^3b"
               },
               "answer": "B",
               "explanation": "a^2 x 2ab = 2a^3b. a^2 x (-5c) = -5a^2c."
@@ -1079,7 +1176,10 @@
               "difficulty": "Hard",
               "question": "Simplify x(x-3) + 2 for x = 1.",
               "options": {
-                "A": "0   (B) 1   (C) 2   (D) -1"
+                "A": "0",
+                "B": "1",
+                "C": "2",
+                "D": "-1"
               },
               "answer": "A",
               "explanation": "x^2 - 3x + 2. At x=1: 1 - 3 + 2 = 0. ----"
@@ -1296,8 +1396,10 @@
                   "difficulty": "Easy",
                   "question": "3p x (4p^2 + 5p + 7) = ?",
                   "options": {
-                    "A": "12p^3 + 15p^2 + 21p   (B) 12p^3 + 15p + 21",
-                    "C": "12p^2 + 15p + 21      (D) 7p^3 + 8p^2 + 10p"
+                    "A": "12p^3 + 15p^2 + 21p",
+                    "B": "12p^3 + 15p + 21",
+                    "C": "12p^2 + 15p + 21",
+                    "D": "7p^3 + 8p^2 + 10p"
                   },
                   "answer": "A",
                   "explanation": "3p x 4p^2=12p^3. 3p x 5p=15p^2. 3p x 7=21p."
@@ -1307,7 +1409,10 @@
                   "difficulty": "Medium",
                   "question": "x(x - 3) + 2 for x = 1 gives:",
                   "options": {
-                    "A": "0   (B) 1   (C) -1   (D) 2"
+                    "A": "0",
+                    "B": "1",
+                    "C": "-1",
+                    "D": "2"
                   },
                   "answer": "A",
                   "explanation": "x^2-3x+2. At x=1: 1-3+2=0."
@@ -1317,7 +1422,10 @@
                   "difficulty": "Hard",
                   "question": "3y(2y-7) - 3(y-4) - 63 for y = -2 gives:",
                   "options": {
-                    "A": "0   (B) 21   (C) -21   (D) 14"
+                    "A": "0",
+                    "B": "21",
+                    "C": "-21",
+                    "D": "14"
                   },
                   "answer": "B",
                   "explanation": "6y^2-24y-51. At y=-2: 24+48-51=21."
@@ -1327,7 +1435,10 @@
                   "difficulty": "Easy",
                   "question": "3p x (4p^2 + 5p + 7) gives how many product terms?",
                   "options": {
-                    "A": "1   (B) 2   (C) 3   (D) 4"
+                    "A": "1",
+                    "B": "2",
+                    "C": "3",
+                    "D": "4"
                   },
                   "answer": "C",
                   "explanation": "Monomial x Trinomial = 3 products."
@@ -1337,7 +1448,10 @@
                   "difficulty": "Medium",
                   "question": "Add 5m(3-m) and 6m^2-13m. Result is:",
                   "options": {
-                    "A": "m^2+2m   (B) m^2-2m   (C) 11m^2+2m   (D) -4m^2+2m"
+                    "A": "m^2+2m",
+                    "B": "m^2-2m",
+                    "C": "11m^2+2m",
+                    "D": "-4m^2+2m"
                   },
                   "answer": "A",
                   "explanation": "15m-5m^2+6m^2-13m = m^2+2m."
@@ -1347,7 +1461,10 @@
                   "difficulty": "Hard",
                   "question": "Subtract 3pq(p-q) from 2pq(p+q). Result is:",
                   "options": {
-                    "A": "-p^2q+5pq^2   (B) p^2q-5pq^2   (C) 5p^2q+pq^2   (D) -p^2q-5pq^2"
+                    "A": "-p^2q+5pq^2",
+                    "B": "p^2q-5pq^2",
+                    "C": "5p^2q+pq^2",
+                    "D": "-p^2q-5pq^2"
                   },
                   "answer": "A",
                   "explanation": "2p^2q+2pq^2-3p^2q+3pq^2 = -p^2q+5pq^2."
@@ -1449,8 +1566,10 @@
               "difficulty": "Easy",
               "question": "(x - 4)(2x + 3) = ?",
               "options": {
-                "A": "2x^2 - 5x - 12   (B) 2x^2 + 5x - 12",
-                "C": "2x^2 - 5x + 12   (D) 2x^2 + 5x + 12"
+                "A": "2x^2 - 5x - 12",
+                "B": "2x^2 + 5x - 12",
+                "C": "2x^2 - 5x + 12",
+                "D": "2x^2 + 5x + 12"
               },
               "answer": "A",
               "explanation": "2x^2 + 3x - 8x - 12 = 2x^2 - 5x - 12."
@@ -1460,8 +1579,10 @@
               "difficulty": "Medium",
               "question": "(a + 7)(a^2 + 3a + 5) = ?",
               "options": {
-                "A": "a^3 + 10a^2 + 26a + 35   (B) a^3 + 3a^2 + 26a + 35",
-                "C": "a^3 + 10a^2 + 5a + 35    (D) a^3 + 4a^2 + 8a + 35"
+                "A": "a^3 + 10a^2 + 26a + 35",
+                "B": "a^3 + 3a^2 + 26a + 35",
+                "C": "a^3 + 10a^2 + 5a + 35",
+                "D": "a^3 + 4a^2 + 8a + 35"
               },
               "answer": "A",
               "explanation": "a^3+3a^2+5a+7a^2+21a+35 = a^3+10a^2+26a+35."
@@ -1471,7 +1592,10 @@
               "difficulty": "Easy",
               "question": "Binomial x Binomial gives how many initial product terms?",
               "options": {
-                "A": "2   (B) 3   (C) 4   (D) 6"
+                "A": "2",
+                "B": "3",
+                "C": "4",
+                "D": "6"
               },
               "answer": "C",
               "explanation": "2 terms x 2 terms = 4 initial products."
@@ -1481,8 +1605,10 @@
               "difficulty": "Medium",
               "question": "(3a + 4b)(2a + 3b) = ?",
               "options": {
-                "A": "6a^2 + 17ab + 12b^2   (B) 6a^2 + 9ab + 12b^2",
-                "C": "5a^2 + 17ab + 7b^2    (D) 6a^2 + 8ab + 12b^2"
+                "A": "6a^2 + 17ab + 12b^2",
+                "B": "6a^2 + 9ab + 12b^2",
+                "C": "5a^2 + 17ab + 7b^2",
+                "D": "6a^2 + 8ab + 12b^2"
               },
               "answer": "A",
               "explanation": "6a^2+9ab+8ab+12b^2 = 6a^2+17ab+12b^2."
@@ -1492,8 +1618,10 @@
               "difficulty": "Medium",
               "question": "(x - y)(3x + 5y) = ?",
               "options": {
-                "A": "3x^2 + 2xy - 5y^2   (B) 3x^2 - 2xy - 5y^2",
-                "C": "3x^2 + 8xy + 5y^2   (D) 3x^2 - 8xy + 5y^2"
+                "A": "3x^2 + 2xy - 5y^2",
+                "B": "3x^2 - 2xy - 5y^2",
+                "C": "3x^2 + 8xy + 5y^2",
+                "D": "3x^2 - 8xy + 5y^2"
               },
               "answer": "A",
               "explanation": "3x^2+5xy-3xy-5y^2 = 3x^2+2xy-5y^2."
@@ -1735,8 +1863,10 @@
                   "difficulty": "Easy",
                   "question": "(a + 7)(a^2 + 3a + 5) = ?",
                   "options": {
-                    "A": "a^3+10a^2+26a+35   (B) a^3+3a^2+26a+35",
-                    "C": "a^3+10a^2+5a+35    (D) a^3+4a^2+8a+35"
+                    "A": "a^3+10a^2+26a+35",
+                    "B": "a^3+3a^2+26a+35",
+                    "C": "a^3+10a^2+5a+35",
+                    "D": "a^3+4a^2+8a+35"
                   },
                   "answer": "A",
                   "explanation": "a^3+3a^2+5a+7a^2+21a+35=a^3+10a^2+26a+35."
@@ -1746,7 +1876,10 @@
                   "difficulty": "Easy",
                   "question": "Initial product terms when multiplying a binomial by a trinomial:",
                   "options": {
-                    "A": "3   (B) 4   (C) 5   (D) 6"
+                    "A": "3",
+                    "B": "4",
+                    "C": "5",
+                    "D": "6"
                   },
                   "answer": "D",
                   "explanation": "2 x 3 = 6 initial products."
@@ -1756,8 +1889,10 @@
                   "difficulty": "Medium",
                   "question": "(x + y)(2x - 3y + z) = ?",
                   "options": {
-                    "A": "2x^2-xy-3y^2+xz+yz   (B) 2x^2+xy+3y^2+xz-yz",
-                    "C": "2x^2-xy+3y^2-xz+yz   (D) 2x^2-5xy-3y^2+xz"
+                    "A": "2x^2-xy-3y^2+xz+yz",
+                    "B": "2x^2+xy+3y^2+xz-yz",
+                    "C": "2x^2-xy+3y^2-xz+yz",
+                    "D": "2x^2-5xy-3y^2+xz"
                   },
                   "answer": "A",
                   "explanation": "2x^2-3xy+xz+2xy-3y^2+yz=2x^2-xy-3y^2+xz+yz."
@@ -1767,7 +1902,10 @@
                   "difficulty": "Medium",
                   "question": "(a+7)(a^2+3a+5) gives how many final terms?",
                   "options": {
-                    "A": "6   (B) 5   (C) 4   (D) 3"
+                    "A": "6",
+                    "B": "5",
+                    "C": "4",
+                    "D": "3"
                   },
                   "answer": "C",
                   "explanation": "a^3+10a^2+26a+35 = 4 terms."
@@ -1777,7 +1915,10 @@
                   "difficulty": "Hard",
                   "question": "Simplify (x^2-5)(x+5)+25 = ?",
                   "options": {
-                    "A": "x^3+5x^2-5x   (B) x^3-5x   (C) x^3+5x   (D) x^3-5x^2+5x"
+                    "A": "x^3+5x^2-5x",
+                    "B": "x^3-5x",
+                    "C": "x^3+5x",
+                    "D": "x^3-5x^2+5x"
                   },
                   "answer": "A",
                   "explanation": "x^3+5x^2-5x-25+25=x^3+5x^2-5x."
@@ -1787,8 +1928,10 @@
                   "difficulty": "Hard",
                   "question": "Simplify (a+b)(2a-3b+c)-(2a-3b)c = ?",
                   "options": {
-                    "A": "2a^2-3b^2-ab-ac+4bc   (B) 2a^2+3b^2+ab+ac-4bc",
-                    "C": "2a^2-3b^2+ab-ac+4bc   (D) 2a^2-3b^2-ab+ac-4bc"
+                    "A": "2a^2-3b^2-ab-ac+4bc",
+                    "B": "2a^2+3b^2+ab+ac-4bc",
+                    "C": "2a^2-3b^2+ab-ac+4bc",
+                    "D": "2a^2-3b^2-ab+ac-4bc"
                   },
                   "answer": "A",
                   "explanation": "2a^2-ab-3b^2+ac+bc-2ac+3bc=2a^2-3b^2-ab-ac+4bc."

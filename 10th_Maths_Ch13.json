@@ -225,7 +225,10 @@
           "difficulty": "Easy",
           "question": "The branch of mathematics dealing with collection and interpretation of numerical data is:",
           "options": {
-            "A": "Algebra   (B) Statistics   (C) Geometry   (D) Trigonometry"
+            "A": "Algebra",
+            "B": "Statistics",
+            "C": "Geometry",
+            "D": "Trigonometry"
           },
           "answer": "B",
           "explanation": "The correct answer is (B) Statistics."
@@ -235,7 +238,10 @@
           "difficulty": "Easy",
           "question": "The class mark of the class interval 40-60 is:",
           "options": {
-            "A": "40   (B) 60   (C) 50   (D) 20"
+            "A": "40",
+            "B": "60",
+            "C": "50",
+            "D": "20"
           },
           "answer": "C",
           "explanation": "The correct answer is (C) 50."
@@ -245,7 +251,10 @@
           "difficulty": "Easy",
           "question": "The three measures of central tendency are:",
           "options": {
-            "A": "Mean, Median, Range   (B) Mean, Mode, Range   (C) Mean, Median, Mode   (D) Median, Mode, Variance"
+            "A": "Mean, Median, Range",
+            "B": "Mean, Mode, Range",
+            "C": "Mean, Median, Mode",
+            "D": "Median, Mode, Variance"
           },
           "answer": "C",
           "explanation": "The correct answer is (C) Mean, Median, Mode."
@@ -255,7 +264,10 @@
           "difficulty": "Medium",
           "question": "The empirical relationship between mean, mode, and median is:",
           "options": {
-            "A": "Mode = 3 Median - 2 Mean   (B) 3 Mean = Mode + 2 Median   (C) 3 Median = Mode + 2 Mean   (D) Mean = Mode + Median"
+            "A": "Mode = 3 Median - 2 Mean",
+            "B": "3 Mean = Mode + 2 Median",
+            "C": "3 Median = Mode + 2 Mean",
+            "D": "Mean = Mode + Median"
           },
           "answer": "C",
           "explanation": "The correct answer is (C) 3 Median = Mode + 2 Mean."
@@ -265,7 +277,10 @@
           "difficulty": "Medium",
           "question": "If mode = 52 and mean = 62, then approximate median is:",
           "options": {
-            "A": "57   (B) 58.67   (C) 60   (D) 55"
+            "A": "57",
+            "B": "58.67",
+            "C": "60",
+            "D": "55"
           },
           "answer": "B",
           "explanation": "The correct answer is (B) 58.67. [3 Median = 52 + 124 = 176; Median = 58.67]"
@@ -275,7 +290,10 @@
           "difficulty": "Medium",
           "question": "The ogive can be used to find:",
           "options": {
-            "A": "Mean   (B) Mode   (C) Median   (D) Class mark"
+            "A": "Mean",
+            "B": "Mode",
+            "C": "Median",
+            "D": "Class mark"
           },
           "answer": "C",
           "explanation": "The correct answer is (C) Median."
@@ -285,7 +303,10 @@
           "difficulty": "Hard",
           "question": "The class mark of the class interval 150-250 is:",
           "options": {
-            "A": "150   (B) 250   (C) 200   (D) 100"
+            "A": "150",
+            "B": "250",
+            "C": "200",
+            "D": "100"
           },
           "answer": "C",
           "explanation": "The correct answer is (C) 200."
@@ -295,7 +316,10 @@
           "difficulty": "Hard",
           "question": "Which of the following is NOT a measure of central tendency?",
           "options": {
-            "A": "Mean   (B) Mode   (C) Median   (D) Standard deviation"
+            "A": "Mean",
+            "B": "Mode",
+            "C": "Median",
+            "D": "Standard deviation"
           },
           "answer": "D",
           "explanation": "The correct answer is (D) Standard deviation."
@@ -305,7 +329,10 @@
           "difficulty": "Hard",
           "question": "Before applying the median formula, the class intervals must be:",
           "options": {
-            "A": "Equal in size   (B) Continuous   (C) Starting from zero   (D) Arranged in descending order"
+            "A": "Equal in size",
+            "B": "Continuous",
+            "C": "Starting from zero",
+            "D": "Arranged in descending order"
           },
           "answer": "B",
           "explanation": "The correct answer is (B) Continuous."
@@ -315,7 +342,10 @@
           "difficulty": "Medium",
           "question": "Which measure is most affected by extreme values in data?",
           "options": {
-            "A": "Median   (B) Mode   (C) Mean   (D) All equally"
+            "A": "Median",
+            "B": "Mode",
+            "C": "Mean",
+            "D": "All equally"
           },
           "answer": "C",
           "explanation": "The correct answer is (C) Mean."
@@ -440,7 +470,10 @@
               "difficulty": "Easy",
               "question": "The chapter extends the study of mean, median, and mode to:",
               "options": {
-                "A": "Ungrouped data   (B) Raw data   (C) Grouped data   (D) Primary data"
+                "A": "Ungrouped data",
+                "B": "Raw data",
+                "C": "Grouped data",
+                "D": "Primary data"
               },
               "answer": "C",
               "explanation": "The correct answer is (C) Grouped data."
@@ -450,7 +483,10 @@
               "difficulty": "Easy",
               "question": "In Class IX, which of the following was NOT studied?",
               "options": {
-                "A": "Bar graphs   (B) Histograms   (C) Frequency polygons   (D) Ogives"
+                "A": "Bar graphs",
+                "B": "Histograms",
+                "C": "Frequency polygons",
+                "D": "Ogives"
               },
               "answer": "D",
               "explanation": "The correct answer is (D) Ogives."
@@ -460,7 +496,10 @@
               "difficulty": "Easy",
               "question": "The midpoint of a class interval is called:",
               "options": {
-                "A": "Class limit   (B) Class mark   (C) Class size   (D) Class boundary"
+                "A": "Class limit",
+                "B": "Class mark",
+                "C": "Class size",
+                "D": "Class boundary"
               },
               "answer": "B",
               "explanation": "The correct answer is (B) Class mark."
@@ -470,7 +509,10 @@
               "difficulty": "Medium",
               "question": "The class mark of the class interval 40-60 is:",
               "options": {
-                "A": "40   (B) 60   (C) 50   (D) 20"
+                "A": "40",
+                "B": "60",
+                "C": "50",
+                "D": "20"
               },
               "answer": "C",
               "explanation": "The correct answer is (C) 50."
@@ -480,7 +522,10 @@
               "difficulty": "Medium",
               "question": "If the class intervals are 0-10, 10-20, 20-30, where does a student scoring exactly 10 marks go?",
               "options": {
-                "A": "0-10   (B) 10-20   (C) Either class   (D) Not included"
+                "A": "0-10",
+                "B": "10-20",
+                "C": "Either class",
+                "D": "Not included"
               },
               "answer": "B",
               "explanation": "The correct answer is (B) 10-20."
@@ -490,7 +535,10 @@
               "difficulty": "Medium",
               "question": "The class size of the interval 25-35 is:",
               "options": {
-                "A": "25   (B) 35   (C) 30   (D) 10"
+                "A": "25",
+                "B": "35",
+                "C": "30",
+                "D": "10"
               },
               "answer": "D",
               "explanation": "The correct answer is (D) 10."
@@ -500,7 +548,10 @@
               "difficulty": "Medium",
               "question": "Which type of graph is formed by joining midpoints of tops of histogram bars?",
               "options": {
-                "A": "Bar graph   (B) Pie chart   (C) Frequency polygon   (D) Ogive"
+                "A": "Bar graph",
+                "B": "Pie chart",
+                "C": "Frequency polygon",
+                "D": "Ogive"
               },
               "answer": "C",
               "explanation": "The correct answer is (C) Frequency polygon."
@@ -510,7 +561,10 @@
               "difficulty": "Hard",
               "question": "A frequency distribution has class intervals 0-5, 5-10, 10-15. A student scores 5. In which class is he placed?",
               "options": {
-                "A": "0-5   (B) 5-10   (C) Both   (D) Cannot be determined"
+                "A": "0-5",
+                "B": "5-10",
+                "C": "Both",
+                "D": "Cannot be determined"
               },
               "answer": "B",
               "explanation": "The correct answer is (B) 5-10."
@@ -520,7 +574,10 @@
               "difficulty": "Hard",
               "question": "In a frequency distribution with class intervals of size 15, the class mark of 40-55 is:",
               "options": {
-                "A": "40   (B) 55   (C) 47.5   (D) 45"
+                "A": "40",
+                "B": "55",
+                "C": "47.5",
+                "D": "45"
               },
               "answer": "C",
               "explanation": "The correct answer is (C) 47.5."
@@ -530,7 +587,10 @@
               "difficulty": "Medium",
               "question": "How many measures of central tendency are studied in this chapter?",
               "options": {
-                "A": "1   (B) 2   (C) 3   (D) 4"
+                "A": "1",
+                "B": "2",
+                "C": "3",
+                "D": "4"
               },
               "answer": "C",
               "explanation": "The correct answer is (C) 3."
@@ -540,7 +600,10 @@
               "difficulty": "Hard",
               "question": "If a histogram has bars of varying widths, what does the height of each bar represent?",
               "options": {
-                "A": "Frequency   (B) Frequency density   (C) Class mark   (D) Cumulative frequency"
+                "A": "Frequency",
+                "B": "Frequency density",
+                "C": "Class mark",
+                "D": "Cumulative frequency"
               },
               "answer": "B",
               "explanation": "The correct answer is (B) Frequency density."
@@ -550,7 +613,10 @@
               "difficulty": "Easy",
               "question": "Frequency distribution is useful when:",
               "options": {
-                "A": "Data is very small   (B) All values are equal   (C) Data is large and needs grouping   (D) Data has no class intervals"
+                "A": "Data is very small",
+                "B": "All values are equal",
+                "C": "Data is large and needs grouping",
+                "D": "Data has no class intervals"
               },
               "answer": "C",
               "explanation": "The correct answer is (C) Data is large and needs grouping."
@@ -560,7 +626,10 @@
               "difficulty": "Medium",
               "question": "The class mark of the class interval 100-150 is:",
               "options": {
-                "A": "100   (B) 150   (C) 125   (D) 50"
+                "A": "100",
+                "B": "150",
+                "C": "125",
+                "D": "50"
               },
               "answer": "C",
               "explanation": "The correct answer is (C) 125."
@@ -570,7 +639,10 @@
               "difficulty": "Hard",
               "question": "The class mark of the class 15-25 is x. Then x equals:",
               "options": {
-                "A": "15   (B) 25   (C) 20   (D) 10"
+                "A": "15",
+                "B": "25",
+                "C": "20",
+                "D": "10"
               },
               "answer": "C",
               "explanation": "The correct answer is (C) 20."
@@ -580,7 +652,10 @@
               "difficulty": "Hard",
               "question": "Which of the following is NOT a measure of central tendency?",
               "options": {
-                "A": "Mean   (B) Mode   (C) Median   (D) Standard deviation"
+                "A": "Mean",
+                "B": "Mode",
+                "C": "Median",
+                "D": "Standard deviation"
               },
               "answer": "D",
               "explanation": "The correct answer is (D) Standard deviation."
@@ -871,7 +946,10 @@
               "difficulty": "Easy",
               "question": "The class mark of class interval 40-55 is:",
               "options": {
-                "A": "40   (B) 55   (C) 47.5   (D) 15"
+                "A": "40",
+                "B": "55",
+                "C": "47.5",
+                "D": "15"
               },
               "answer": "C",
               "explanation": "The correct answer is (C) 47.5."
@@ -881,7 +959,10 @@
               "difficulty": "Easy",
               "question": "In the Direct Method, mean x̄ =:",
               "options": {
-                "A": "Σfi / Σfixi   (B) Σfixi / Σfi   (C) Σfi + Σxi   (D) Σdi / Σfi"
+                "A": "Σfi / Σfixi",
+                "B": "Σfixi / Σfi",
+                "C": "Σfi + Σxi",
+                "D": "Σdi / Σfi"
               },
               "answer": "B",
               "explanation": "The correct answer is (B) Σfixi / Σfi."
@@ -891,7 +972,10 @@
               "difficulty": "Easy",
               "question": "In Assumed Mean Method, di =:",
               "options": {
-                "A": "xi + a   (B) xi - x̄   (C) xi - a   (D) a - xi"
+                "A": "xi + a",
+                "B": "xi - x̄",
+                "C": "xi - a",
+                "D": "a - xi"
               },
               "answer": "C",
               "explanation": "The correct answer is (C) xi - a."
@@ -901,7 +985,10 @@
               "difficulty": "Medium",
               "question": "If a = 47.5, h = 15, Σfiui = 29, Σfi = 30, then x̄ =:",
               "options": {
-                "A": "62   (B) 47.5   (C) 60   (D) 14.5"
+                "A": "62",
+                "B": "47.5",
+                "C": "60",
+                "D": "14.5"
               },
               "answer": "A",
               "explanation": "The correct answer is (A) 62. [x̄ = 47.5 + 15 × (29/30) = 47.5 + 14.5 = 62]"
@@ -911,7 +998,10 @@
               "difficulty": "Medium",
               "question": "In Step-Deviation Method, ui =:",
               "options": {
-                "A": "(xi - h) / a   (B) xi / h   (C) (xi - (A) / h   (D) (a - xi) / h"
+                "A": "/ h",
+                "B": "xi / h",
+                "C": "(xi -",
+                "D": "(a - xi) / h"
               },
               "answer": "C",
               "explanation": "Option (C) is correct based on the definition/theorem."
@@ -921,7 +1011,10 @@
               "difficulty": "Medium",
               "question": "For grouped data with Σfixi = 1860 and Σfi = 30, the mean is:",
               "options": {
-                "A": "59.3   (B) 62   (C) 64   (D) 1860"
+                "A": "59.3",
+                "B": "62",
+                "C": "64",
+                "D": "1860"
               },
               "answer": "B",
               "explanation": "The correct answer is (B) 62."
@@ -931,7 +1024,10 @@
               "difficulty": "Medium",
               "question": "The formula x̄ = a + (Σfidi / Σfi) is used in:",
               "options": {
-                "A": "Direct Method   (B) Step-Deviation Method   (C) Assumed Mean Method   (D) Median formula"
+                "A": "Direct Method",
+                "B": "Step-Deviation Method",
+                "C": "Assumed Mean Method",
+                "D": "Median formula"
               },
               "answer": "C",
               "explanation": "The correct answer is (C) Assumed Mean Method."
@@ -941,7 +1037,10 @@
               "difficulty": "Hard",
               "question": "In Example 13.2.2, a = 50, h = 10, Σfiui = -36, Σfi = 35. Mean x̄ =:",
               "options": {
-                "A": "39.71   (B) 50   (C) 39   (D) 40.29"
+                "A": "39.71",
+                "B": "50",
+                "C": "39",
+                "D": "40.29"
               },
               "answer": "A",
               "explanation": "The correct answer is (A) 39.71. [x̄ = 50 + 10 × (-36/35) = 50 - 10.29 = 39.71]"
@@ -951,7 +1050,10 @@
               "difficulty": "Hard",
               "question": "If class intervals are equal and all di have a common factor, which method is MOST convenient?",
               "options": {
-                "A": "Direct Method   (B) Assumed Mean Method   (C) Step-Deviation Method   (D) All equally convenient"
+                "A": "Direct Method",
+                "B": "Assumed Mean Method",
+                "C": "Step-Deviation Method",
+                "D": "All equally convenient"
               },
               "answer": "C",
               "explanation": "The correct answer is (C) Step-Deviation Method."
@@ -961,7 +1063,10 @@
               "difficulty": "Easy",
               "question": "All three methods of finding mean give:",
               "options": {
-                "A": "Different results   (B) The same result   (C) Results that differ by h   (D) Results that differ by 'a'"
+                "A": "Different results",
+                "B": "The same result",
+                "C": "Results that differ by h",
+                "D": "Results that differ by 'a'"
               },
               "answer": "B",
               "explanation": "The correct answer is (B) The same result."
@@ -971,7 +1076,10 @@
               "difficulty": "Medium",
               "question": "The Assumed Mean Method reduces calculation by using:",
               "options": {
-                "A": "Larger numbers   (B) Deviations (smaller numbers) instead of large class marks   (C) Dividing all values by h   (D) Cumulative frequency"
+                "A": "Larger numbers",
+                "B": "Deviations (smaller numbers) instead of large class marks",
+                "C": "Dividing all values by h",
+                "D": "Cumulative frequency"
               },
               "answer": "B",
               "explanation": "Option (B) is correct based on the definition/theorem."
@@ -981,7 +1089,10 @@
               "difficulty": "Hard",
               "question": "If a = 200, h = 20, Σfiui = -106, Σfi = 45, then x̄ =:",
               "options": {
-                "A": "200   (B) 152.89   (C) 247.11   (D) 153"
+                "A": "200",
+                "B": "152.89",
+                "C": "247.11",
+                "D": "153"
               },
               "answer": "B",
               "explanation": "The correct answer is (B) 152.89. [x̄ = 200 + 20 × (-106/45) = 200 - 47.11 = 152.89]"
@@ -991,7 +1102,10 @@
               "difficulty": "Medium",
               "question": "In Assumed Mean Method, if Σfidi = 0, then x̄ equals:",
               "options": {
-                "A": "0   (B) a   (C) h   (D) Σfi"
+                "A": "0",
+                "B": "a",
+                "C": "h",
+                "D": "Σfi"
               },
               "answer": "B",
               "explanation": "The correct answer is (B) a."
@@ -1001,7 +1115,10 @@
               "difficulty": "Hard",
               "question": "The step-deviation method formula is x̄ = a + h × (Σfiui / Σfi). Here 'h' is:",
               "options": {
-                "A": "Assumed mean   (B) Deviation   (C) Class size   (D) Class mark"
+                "A": "Assumed mean",
+                "B": "Deviation",
+                "C": "Class size",
+                "D": "Class mark"
               },
               "answer": "C",
               "explanation": "The correct answer is (C) Class size."
@@ -1011,7 +1128,10 @@
               "difficulty": "Hard",
               "question": "For grouped data, the ungrouped mean (59.3) differs from grouped mean (62) because:",
               "options": {
-                "A": "Different formulas are used   (B) Class mark approximation introduces error   (C) Frequencies are different   (D) Class sizes are different"
+                "A": "Different formulas are used",
+                "B": "Class mark approximation introduces error",
+                "C": "Frequencies are different",
+                "D": "Class sizes are different"
               },
               "answer": "B",
               "explanation": "The correct answer is (B) Class mark approximation introduces error."
@@ -1249,7 +1369,10 @@
               "difficulty": "Easy",
               "question": "The class with the maximum frequency in a grouped distribution is called:",
               "options": {
-                "A": "Mean class   (B) Median class   (C) Modal class   (D) Highest class"
+                "A": "Mean class",
+                "B": "Median class",
+                "C": "Modal class",
+                "D": "Highest class"
               },
               "answer": "C",
               "explanation": "The correct answer is (C) Modal class."
@@ -1259,7 +1382,10 @@
               "difficulty": "Easy",
               "question": "In the mode formula, f1 represents:",
               "options": {
-                "A": "Frequency of preceding class   (B) Frequency of modal class   (C) Frequency of succeeding class   (D) Total frequency"
+                "A": "Frequency of preceding class",
+                "B": "Frequency of modal class",
+                "C": "Frequency of succeeding class",
+                "D": "Total frequency"
               },
               "answer": "B",
               "explanation": "The correct answer is (B) Frequency of modal class."
@@ -1269,7 +1395,10 @@
               "difficulty": "Easy",
               "question": "In the mode formula, 'l' represents:",
               "options": {
-                "A": "Class size   (B) Upper limit of modal class   (C) Lower limit of modal class   (D) Assumed mean"
+                "A": "Class size",
+                "B": "Upper limit of modal class",
+                "C": "Lower limit of modal class",
+                "D": "Assumed mean"
               },
               "answer": "C",
               "explanation": "The correct answer is (C) Lower limit of modal class."
@@ -1279,7 +1408,10 @@
               "difficulty": "Medium",
               "question": "In Example 13.3.5: l = 3, h = 2, f1 = 8, f0 = 7, f2 = 2. Mode =:",
               "options": {
-                "A": "3   (B) 3.5   (C) 3.286   (D) 4"
+                "A": "3",
+                "B": "3.5",
+                "C": "3.286",
+                "D": "4"
               },
               "answer": "C",
               "explanation": "The correct answer is (C) 3.286. [Mode = 3 + [(8-7)/(16-7-2)] × 2 = 3 + (1/7) × 2 = 3.286]"
@@ -1289,7 +1421,10 @@
               "difficulty": "Medium",
               "question": "The mode formula is applicable when:",
               "options": {
-                "A": "Data has two modes   (B) Data is multimodal   (C) Data is unimodal (one modal class)   (D) All class sizes are different"
+                "A": "Data has two modes",
+                "B": "Data is multimodal",
+                "C": "Data is unimodal (one modal class)",
+                "D": "All class sizes are different"
               },
               "answer": "C",
               "explanation": "Option (C) is correct based on the definition/theorem."
@@ -1299,7 +1434,10 @@
               "difficulty": "Medium",
               "question": "In Example 13.3.6: l = 40, h = 15, f1 = 7, f0 = 3, f2 = 6. Mode =:",
               "options": {
-                "A": "40   (B) 50   (C) 52   (D) 55"
+                "A": "40",
+                "B": "50",
+                "C": "52",
+                "D": "55"
               },
               "answer": "C",
               "explanation": "The correct answer is (C) 52. [Mode = 40 + [(7-3)/(14-3-6)] × 15 = 40 + (4/5) × 15 = 40 + 12 = 52]"
@@ -1309,7 +1447,10 @@
               "difficulty": "Medium",
               "question": "The empirical relationship between mean, mode, and median is:",
               "options": {
-                "A": "Mode = Mean + 2 Median   (B) 3 Median = Mode + 2 Mean   (C) Mean = 3 Mode - 2 Median   (D) Median = Mode + Mean"
+                "A": "Mode = Mean + 2 Median",
+                "B": "3 Median = Mode + 2 Mean",
+                "C": "Mean = 3 Mode - 2 Median",
+                "D": "Median = Mode + Mean"
               },
               "answer": "B",
               "explanation": "The correct answer is (B) 3 Median = Mode + 2 Mean."
@@ -1319,7 +1460,10 @@
               "difficulty": "Hard",
               "question": "A frequency distribution: 0-10(f=5), 10-20(f=12), 20-30(f=8), 30-40(f=3). The modal class is:",
               "options": {
-                "A": "0-10   (B) 10-20   (C) 20-30   (D) 30-40"
+                "A": "0-10",
+                "B": "10-20",
+                "C": "20-30",
+                "D": "30-40"
               },
               "answer": "B",
               "explanation": "The correct answer is (B) 10-20."
@@ -1329,7 +1473,10 @@
               "difficulty": "Hard",
               "question": "For mode: l = 25, h = 10, f1 = 15, f0 = 10, f2 = 8. Mode =:",
               "options": {
-                "A": "25   (B) 29.17   (C) 30   (D) 27.5"
+                "A": "25",
+                "B": "29.17",
+                "C": "30",
+                "D": "27.5"
               },
               "answer": "B",
               "explanation": "The correct answer is (B) 29.17. [Mode = 25 + [(15-10)/(30-10-8)] × 10 = 25 + (5/12) × 10 = 25 + 4.17 = 29.17]"
@@ -1339,7 +1486,10 @@
               "difficulty": "Easy",
               "question": "Mode is best used to find:",
               "options": {
-                "A": "Average performance   (B) Most popular or most common value   (C) Middle value of data   (D) Sum of all values"
+                "A": "Average performance",
+                "B": "Most popular or most common value",
+                "C": "Middle value of data",
+                "D": "Sum of all values"
               },
               "answer": "B",
               "explanation": "The correct answer is (B) Most popular or most common value."
@@ -1349,7 +1499,10 @@
               "difficulty": "Medium",
               "question": "In which situation is median preferred over mode?",
               "options": {
-                "A": "Finding most popular TV show   (B) Finding most common shoe size   (C) Finding typical income when extreme values exist   (D) Finding most demanded product"
+                "A": "Finding most popular TV show",
+                "B": "Finding most common shoe size",
+                "C": "Finding typical income when extreme values exist",
+                "D": "Finding most demanded product"
               },
               "answer": "C",
               "explanation": "The correct answer is (C) Finding typical income when extreme values exist."
@@ -1359,7 +1512,10 @@
               "difficulty": "Hard",
               "question": "If mode = 52 and mean = 62, find the approximate median using the empirical formula:",
               "options": {
-                "A": "57   (B) 58.67   (C) 60   (D) 55.33"
+                "A": "57",
+                "B": "58.67",
+                "C": "60",
+                "D": "55.33"
               },
               "answer": "B",
               "explanation": "The correct answer is (B) 58.67. [3 Median = 52 + 124 = 176; Median = 176/3 ≈ 58.67]"
@@ -1369,7 +1525,10 @@
               "difficulty": "Medium",
               "question": "In the mode formula, 'h' stands for:",
               "options": {
-                "A": "Height of the bar   (B) Class size   (C) Assumed mean   (D) Deviation"
+                "A": "Height of the bar",
+                "B": "Class size",
+                "C": "Assumed mean",
+                "D": "Deviation"
               },
               "answer": "B",
               "explanation": "The correct answer is (B) Class size."
@@ -1379,7 +1538,10 @@
               "difficulty": "Hard",
               "question": "For the distribution: 1-3(f=7), 3-5(f=8), 5-7(f=2), 7-9(f=2), 9-11(f=1). Mode = ?",
               "options": {
-                "A": "3   (B) 3.286   (C) 5   (D) 4"
+                "A": "3",
+                "B": "3.286",
+                "C": "5",
+                "D": "4"
               },
               "answer": "B",
               "explanation": "The correct answer is (B) 3.286. [Modal class = 3-5; Mode = 3 + [(8-7)/(16-7-2)] × 2 = 3 + 2/7 = 3.286]"
@@ -1389,7 +1551,10 @@
               "difficulty": "Hard",
               "question": "The mode formula l + [(f1-f0)/(2f1-f0-f2)] × h is NOT valid when:",
               "options": {
-                "A": "Class size is 10   (B) Modal class is first class   (C) Two classes have equal maximum frequency   (D) f0 is zero"
+                "A": "Class size is 10",
+                "B": "Modal class is first class",
+                "C": "Two classes have equal maximum frequency",
+                "D": "f0 is zero"
               },
               "answer": "C",
               "explanation": "The correct answer is (C) Two classes have equal maximum frequency."
@@ -1633,7 +1798,10 @@
               "difficulty": "Easy",
               "question": "Median divides the distribution into:",
               "options": {
-                "A": "Three equal parts   (B) Four equal parts   (C) Two equal parts   (D) Unequal parts"
+                "A": "Three equal parts",
+                "B": "Four equal parts",
+                "C": "Two equal parts",
+                "D": "Unequal parts"
               },
               "answer": "C",
               "explanation": "The correct answer is (C) Two equal parts."
@@ -1643,7 +1811,10 @@
               "difficulty": "Easy",
               "question": "The class whose cumulative frequency is greater than and nearest to n/2 is called:",
               "options": {
-                "A": "Modal class   (B) Median class   (C) Mean class   (D) Frequency class"
+                "A": "Modal class",
+                "B": "Median class",
+                "C": "Mean class",
+                "D": "Frequency class"
               },
               "answer": "B",
               "explanation": "The correct answer is (B) Median class."
@@ -1653,7 +1824,10 @@
               "difficulty": "Easy",
               "question": "In the median formula, 'cf' stands for:",
               "options": {
-                "A": "Cumulative frequency of median class   (B) Central frequency   (C) Cumulative frequency of class preceding the median class   (D) Class frequency"
+                "A": "Cumulative frequency of median class",
+                "B": "Central frequency",
+                "C": "Cumulative frequency of class preceding the median class",
+                "D": "Class frequency"
               },
               "answer": "C",
               "explanation": "The correct answer is (C) Cumulative frequency of class preceding the median class."
@@ -1663,7 +1837,10 @@
               "difficulty": "Medium",
               "question": "For n = 51, the position of the median observation is:",
               "options": {
-                "A": "25   (B) 26   (C) 25.5   (D) 51"
+                "A": "25",
+                "B": "26",
+                "C": "25.5",
+                "D": "51"
               },
               "answer": "C",
               "explanation": "The correct answer is (C) 25.5."
@@ -1673,7 +1850,10 @@
               "difficulty": "Medium",
               "question": "In Example 13.4.7: l = 145, n/2 = 25.5, cf = 11, f = 18, h = 5. Median =:",
               "options": {
-                "A": "145   (B) 149.03   (C) 150   (D) 148"
+                "A": "145",
+                "B": "149.03",
+                "C": "150",
+                "D": "148"
               },
               "answer": "B",
               "explanation": "The correct answer is (B) 149.03. [Median = 145 + [(25.5-11)/18] × 5 = 145 + 4.03 = 149.03]"
@@ -1683,7 +1863,10 @@
               "difficulty": "Medium",
               "question": "The Less-than ogive is drawn by plotting:",
               "options": {
-                "A": "(Lower class limit, cf)   (B) (Class mark, frequency)   (C) (Upper class limit, cf)   (D) (Class size, cf)"
+                "A": "(Lower class limit, cf)",
+                "B": "(Class mark, frequency)",
+                "C": "(Upper class limit, cf)",
+                "D": "(Class size, cf)"
               },
               "answer": "C",
               "explanation": "Option (C) is correct based on the definition/theorem."
@@ -1693,7 +1876,10 @@
               "difficulty": "Medium",
               "question": "The More-than ogive is drawn by plotting:",
               "options": {
-                "A": "(Upper class limit, cf)   (B) (Lower class limit, cf)   (C) (Class mark, frequency)   (D) (Class size, frequency)"
+                "A": "(Upper class limit, cf)",
+                "B": "(Lower class limit, cf)",
+                "C": "(Class mark, frequency)",
+                "D": "(Class size, frequency)"
               },
               "answer": "B",
               "explanation": "Option (B) is correct based on the definition/theorem."
@@ -1703,7 +1889,10 @@
               "difficulty": "Hard",
               "question": "Median is found graphically as the x-coordinate of:",
               "options": {
-                "A": "Topmost point of less-than ogive   (B) Intersection of less-than and more-than ogives   (C) Highest point of more-than ogive   (D) Midpoint of histogram"
+                "A": "Topmost point of less-than ogive",
+                "B": "Intersection of less-than and more-than ogives",
+                "C": "Highest point of more-than ogive",
+                "D": "Midpoint of histogram"
               },
               "answer": "B",
               "explanation": "The correct answer is (B) Intersection of less-than and more-than ogives."
@@ -1713,7 +1902,10 @@
               "difficulty": "Hard",
               "question": "For distribution n = 68, median class cf = 22, f = 20, l = 125, h = 20. Median =:",
               "options": {
-                "A": "137   (B) 125   (C) 145   (D) 130"
+                "A": "137",
+                "B": "125",
+                "C": "145",
+                "D": "130"
               },
               "answer": "A",
               "explanation": "The correct answer is (A) 137. [Median = 125 + [(34-22)/20] × 20 = 125 + 12 = 137]"
@@ -1723,7 +1915,10 @@
               "difficulty": "Easy",
               "question": "Cumulative frequency of a class is:",
               "options": {
-                "A": "Frequency of that class only   (B) Sum of frequencies of all classes above it   (C) Sum of all frequencies up to that class   (D) Frequency divided by class size"
+                "A": "Frequency of that class only",
+                "B": "Sum of frequencies of all classes above it",
+                "C": "Sum of all frequencies up to that class",
+                "D": "Frequency divided by class size"
               },
               "answer": "C",
               "explanation": "The correct answer is (C) Sum of all frequencies up to that class."
@@ -1733,7 +1928,10 @@
               "difficulty": "Medium",
               "question": "If mean ≈ median ≈ mode for a distribution, the data is:",
               "options": {
-                "A": "Highly skewed right   (B) Highly skewed left   (C) Approximately symmetric   (D) Uniform"
+                "A": "Highly skewed right",
+                "B": "Highly skewed left",
+                "C": "Approximately symmetric",
+                "D": "Uniform"
               },
               "answer": "C",
               "explanation": "The correct answer is (C) Approximately symmetric."
@@ -1743,7 +1941,10 @@
               "difficulty": "Hard",
               "question": "In Example 13.4.8, x + y = 24 and x = 9. What is y?",
               "options": {
-                "A": "9   (B) 24   (C) 15   (D) 13"
+                "A": "9",
+                "B": "24",
+                "C": "15",
+                "D": "13"
               },
               "answer": "C",
               "explanation": "The correct answer is (C) 15."
@@ -1753,7 +1954,10 @@
               "difficulty": "Medium",
               "question": "When median is preferred over mean:",
               "options": {
-                "A": "When data has no extreme values   (B) When all values are equal   (C) When extreme values (very high/low) are present   (D) When class sizes are equal"
+                "A": "When data has no extreme values",
+                "B": "When all values are equal",
+                "C": "When extreme values (very high/low) are present",
+                "D": "When class sizes are equal"
               },
               "answer": "C",
               "explanation": "Option (C) is correct based on the definition/theorem."
@@ -1763,7 +1967,10 @@
               "difficulty": "Hard",
               "question": "For n = 100, the median class is identified when cumulative frequency just exceeds:",
               "options": {
-                "A": "100   (B) 25   (C) 50   (D) 75"
+                "A": "100",
+                "B": "25",
+                "C": "50",
+                "D": "75"
               },
               "answer": "C",
               "explanation": "The correct answer is (C) 50."
@@ -1773,7 +1980,10 @@
               "difficulty": "Hard",
               "question": "A note in the textbook states that before applying the median formula, ensure class intervals are:",
               "options": {
-                "A": "Equal in size   (B) Continuous   (C) Discontinuous   (D) Starting from zero"
+                "A": "Equal in size",
+                "B": "Continuous",
+                "C": "Discontinuous",
+                "D": "Starting from zero"
               },
               "answer": "B",
               "explanation": "The correct answer is (B) Continuous."
@@ -1909,7 +2119,10 @@
               "difficulty": "Easy",
               "question": "The formula x̄ = a + h × (Σfiui / Σfi) is used in:",
               "options": {
-                "A": "Direct Method   (B) Median   (C) Step-Deviation Method   (D) Mode"
+                "A": "Direct Method",
+                "B": "Median",
+                "C": "Step-Deviation Method",
+                "D": "Mode"
               },
               "answer": "C",
               "explanation": "The correct answer is (C) Step-Deviation Method."
@@ -1919,7 +2132,10 @@
               "difficulty": "Easy",
               "question": "Median formula for grouped data is:",
               "options": {
-                "A": "l + [(n/2 - cf)/f] × h   (B) l + [(f1-f0)/(2f1-f0-f2)] × h   (C) Σfixi/Σfi   (D) a + Σfidi/Σfi"
+                "A": "l + [(n/2 - cf)/f] × h",
+                "B": "l + [(f1-f0)/(2f1-f0-f2)] × h",
+                "C": "Σfixi/Σfi",
+                "D": "a + Σfidi/Σfi"
               },
               "answer": "A",
               "explanation": "Option (A) is correct based on the definition/theorem."
@@ -1929,7 +2145,10 @@
               "difficulty": "Easy",
               "question": "Mode formula for grouped data is:",
               "options": {
-                "A": "l + [(n/2 - cf)/f] × h   (B) Σfixi / Σfi   (C) a + Σfidi / Σfi   (D) l + [(f1-f0)/(2f1-f0-f2)] × h"
+                "A": "l + [(n/2 - cf)/f] × h",
+                "B": "Σfixi / Σfi",
+                "C": "a + Σfidi / Σfi",
+                "D": "l + [(f1-f0)/(2f1-f0-f2)] × h"
               },
               "answer": "D",
               "explanation": "Option (D) is correct based on the definition/theorem."
@@ -1939,7 +2158,10 @@
               "difficulty": "Medium",
               "question": "If mode = 36.8 and mean = 35.38, then approximate median is:",
               "options": {
-                "A": "36.09   (B) 35.85   (C) 36.5   (D) 35"
+                "A": "36.09",
+                "B": "35.85",
+                "C": "36.5",
+                "D": "35"
               },
               "answer": "B",
               "explanation": "The correct answer is (B) 35.85. [3 Median = 36.8 + 70.76 = 107.56; Median = 35.85]"
@@ -1949,7 +2171,10 @@
               "difficulty": "Medium",
               "question": "The empirical relationship is:",
               "options": {
-                "A": "Mode = 3 Median - 2 Mean   (B) 3 Mean = Mode + 2 Median   (C) 3 Median = Mode + 2 Mean   (D) Mean = Mode + Median"
+                "A": "Mode = 3 Median - 2 Mean",
+                "B": "3 Mean = Mode + 2 Median",
+                "C": "3 Median = Mode + 2 Mean",
+                "D": "Mean = Mode + Median"
               },
               "answer": "C",
               "explanation": "The correct answer is (C) 3 Median = Mode + 2 Mean."
@@ -1959,7 +2184,10 @@
               "difficulty": "Medium",
               "question": "The ogive (cumulative frequency curve) can be used to find:",
               "options": {
-                "A": "Mean   (B) Mode   (C) Median   (D) Class mark"
+                "A": "Mean",
+                "B": "Mode",
+                "C": "Median",
+                "D": "Class mark"
               },
               "answer": "C",
               "explanation": "The correct answer is (C) Median."
@@ -1969,7 +2197,10 @@
               "difficulty": "Hard",
               "question": "For a distribution: mode = 52, mean = 62. Using empirical formula, median ≈:",
               "options": {
-                "A": "57   (B) 58.67   (C) 60   (D) 55"
+                "A": "57",
+                "B": "58.67",
+                "C": "60",
+                "D": "55"
               },
               "answer": "B",
               "explanation": "The correct answer is (B) 58.67. [3 Median = 52 + 124 = 176; Median = 176/3 ≈ 58.67]"
@@ -1979,7 +2210,10 @@
               "difficulty": "Medium",
               "question": "Which measure is most affected by extreme values?",
               "options": {
-                "A": "Median   (B) Mode   (C) Mean   (D) All equally affected"
+                "A": "Median",
+                "B": "Mode",
+                "C": "Mean",
+                "D": "All equally affected"
               },
               "answer": "C",
               "explanation": "The correct answer is (C) Mean."
@@ -1989,7 +2223,10 @@
               "difficulty": "Hard",
               "question": "For grouped data: l = 65, n/2 = 34, cf = 22, f = 20, h = 20. Median =:",
               "options": {
-                "A": "65   (B) 77   (C) 75   (D) 85"
+                "A": "65",
+                "B": "77",
+                "C": "75",
+                "D": "85"
               },
               "answer": "B",
               "explanation": "The correct answer is (B) 77. [Median = 65 + [(34-22)/20] × 20 = 65 + 12 = 77]"
@@ -1999,7 +2236,10 @@
               "difficulty": "Easy",
               "question": "Before applying mode and median formulas, class intervals must be:",
               "options": {
-                "A": "Equal in size   (B) Continuous   (C) In ascending order only   (D) Starting from 0"
+                "A": "Equal in size",
+                "B": "Continuous",
+                "C": "In ascending order only",
+                "D": "Starting from 0"
               },
               "answer": "B",
               "explanation": "The correct answer is (B) Continuous."
@@ -2009,7 +2249,10 @@
               "difficulty": "Medium",
               "question": "Which measure is best to find the most popular shoe size in a shop?",
               "options": {
-                "A": "Mean   (B) Median   (C) Mode   (D) Cumulative frequency"
+                "A": "Mean",
+                "B": "Median",
+                "C": "Mode",
+                "D": "Cumulative frequency"
               },
               "answer": "C",
               "explanation": "The correct answer is (C) Mode."
@@ -2019,7 +2262,10 @@
               "difficulty": "Hard",
               "question": "In Step-Deviation method, a = 50, h = 10, Σfiui = -20, Σfi = 40. Then x̄ =:",
               "options": {
-                "A": "55   (B) 45   (C) 50   (D) 40"
+                "A": "55",
+                "B": "45",
+                "C": "50",
+                "D": "40"
               },
               "answer": "B",
               "explanation": "The correct answer is (B) 45. [x̄ = 50 + 10 × (-20/40) = 50 - 5 = 45]"
@@ -2029,7 +2275,10 @@
               "difficulty": "Medium",
               "question": "The point where less-than and more-than ogives intersect gives:",
               "options": {
-                "A": "Mean   (B) Mode   (C) Median on y-axis   (D) Median on x-axis"
+                "A": "Mean",
+                "B": "Mode",
+                "C": "Median on y-axis",
+                "D": "Median on x-axis"
               },
               "answer": "D",
               "explanation": "The correct answer is (D) Median on x-axis."
@@ -2039,7 +2288,10 @@
               "difficulty": "Hard",
               "question": "If x̄ = 39.71 for Σfi = 35, find Σfixi:",
               "options": {
-                "A": "35   (B) 1389.85   (C) 39.71   (D) 1390"
+                "A": "35",
+                "B": "1389.85",
+                "C": "39.71",
+                "D": "1390"
               },
               "answer": "D",
               "explanation": "The correct answer is (D) 1390. [Σfixi = 39.71 × 35 = 1389.85 ≈ 1390]"
@@ -2049,7 +2301,10 @@
               "difficulty": "Easy",
               "question": "The class mark assumption in grouped data means:",
               "options": {
-                "A": "Frequency is at the lower limit   (B) Frequency is at the upper limit   (C) Frequency of each class is centred at its midpoint   (D) All classes have equal frequency"
+                "A": "Frequency is at the lower limit",
+                "B": "Frequency is at the upper limit",
+                "C": "Frequency of each class is centred at its midpoint",
+                "D": "All classes have equal frequency"
               },
               "answer": "C",
               "explanation": "The correct answer is (C) Frequency of each class is centred at its midpoint."

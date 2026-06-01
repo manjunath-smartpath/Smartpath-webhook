@@ -55,7 +55,10 @@
           "difficulty": "Easy",
           "question": "Two figures are congruent if they have the:",
           "options": {
-            "A": "Same shape only   (B) Same size only   (C) Same shape and size   (D) Same area"
+            "A": "Same shape only",
+            "B": "Same size only",
+            "C": "Same shape and size",
+            "D": "Same area"
           },
           "answer": "C",
           "explanation": "Congruent figures have exactly the same shape AND size — they can be superimposed perfectly on each other."
@@ -78,7 +81,10 @@
           "difficulty": "Easy",
           "question": "How many valid congruence rules are there for triangles?",
           "options": {
-            "A": "3   (B) 4   (C) 5   (D) 6"
+            "A": "3",
+            "B": "4",
+            "C": "5",
+            "D": "6"
           },
           "answer": "C",
           "explanation": "There are 5 valid congruence rules: SAS (axiom), ASA, AAS, SSS, RHS. SSA and AAA do NOT prove congruence."
@@ -88,7 +94,10 @@
           "difficulty": "Medium",
           "question": "Which of the following is an AXIOM (not a theorem)?",
           "options": {
-            "A": "ASA   (B) SSS   (C) SAS   (D) RHS"
+            "A": "ASA",
+            "B": "SSS",
+            "C": "SAS",
+            "D": "RHS"
           },
           "answer": "C",
           "explanation": "SAS is an axiom — accepted without proof. ASA, AAS, SSS, and RHS are all theorems proved using SAS."
@@ -98,7 +107,10 @@
           "difficulty": "Medium",
           "question": "Which congruence rule applies ONLY to right triangles?",
           "options": {
-            "A": "SAS   (B) SSS   (C) AAS   (D) RHS"
+            "A": "SAS",
+            "B": "SSS",
+            "C": "AAS",
+            "D": "RHS"
           },
           "answer": "D",
           "explanation": "RHS (Right angle-Hypotenuse-Side) is the only rule specific to right-angled triangles."
@@ -108,7 +120,10 @@
           "difficulty": "Medium",
           "question": "Each angle of an equilateral triangle is:",
           "options": {
-            "A": "45 degrees   (B) 60 degrees   (C) 90 degrees   (D) 120 degrees"
+            "A": "45 degrees",
+            "B": "60 degrees",
+            "C": "90 degrees",
+            "D": "120 degrees"
           },
           "answer": "B",
           "explanation": "Equilateral triangle has all three sides equal, so all three angles are equal. Sum of angles = 180°, so each = 180°/3 = 60°."
@@ -118,7 +133,10 @@
           "difficulty": "Medium",
           "question": "Theorem 7.3 states: sides opposite to equal angles of a triangle are:",
           "options": {
-            "A": "Supplementary   (B) Complementary   (C) Equal   (D) Different"
+            "A": "Supplementary",
+            "B": "Complementary",
+            "C": "Equal",
+            "D": "Different"
           },
           "answer": "C",
           "explanation": "Theorem 7.3 (converse of 7.2): In a triangle, the side opposite the greater angle is longer; sides opposite equal angles are equal."
@@ -128,7 +146,10 @@
           "difficulty": "Medium",
           "question": "If delta PQR = delta ABC, then QR corresponds to:",
           "options": {
-            "A": "AB   (B) BC   (C) CA   (D) None"
+            "A": "AB",
+            "B": "BC",
+            "C": "CA",
+            "D": "None"
           },
           "answer": "B",
           "explanation": "In ΔPQR ≅ ΔABC, vertices correspond in order: P↔A, Q↔B, R↔C. So QR corresponds to BC."
@@ -138,7 +159,10 @@
           "difficulty": "Hard",
           "question": "In right angled triangle ABC (right angle at A) with AB = AC, the angles B and C are:",
           "options": {
-            "A": "30 degrees each   (B) 45 degrees each   (C) 60 degrees each   (D) 90 degrees each"
+            "A": "30 degrees each",
+            "B": "45 degrees each",
+            "C": "60 degrees each",
+            "D": "90 degrees each"
           },
           "answer": "B",
           "explanation": "Right angle at A, AB = AC. By isosceles triangle theorem, angles B = C. Angles B + C = 90°, so B = C = 45°."
@@ -148,8 +172,10 @@
           "difficulty": "Hard",
           "question": "Two triangles with angles 50 degrees, 60 degrees, 70 degrees each. They are:",
           "options": {
-            "A": "Always congruent   (B) Never congruent",
-            "C": "Similar but not necessarily congruent   (D) Always equilateral"
+            "A": "Always congruent",
+            "B": "Never congruent",
+            "C": "Similar but not necessarily congruent",
+            "D": "Always equilateral"
           },
           "answer": "C",
           "explanation": "Equal angles (AAA) means same shape (similar), but size can differ. Congruence requires SAME shape AND size."
@@ -272,7 +298,10 @@
               "difficulty": "Easy",
               "question": "A triangle has _______ vertices.",
               "options": {
-                "A": "2   (B) 3   (C) 4   (D) 5"
+                "A": "2",
+                "B": "3",
+                "C": "4",
+                "D": "5"
               },
               "answer": "B",
               "explanation": "A triangle has 3 vertices (corners), 3 sides, and 3 angles — it is a closed figure with 3 line segments."
@@ -282,7 +311,10 @@
               "difficulty": "Easy",
               "question": "In delta ABC, which of the following are the three sides?",
               "options": {
-                "A": "A, B, C   (B) angle A, angle B, angle C   (C) AB, BC, CA   (D) AB, BC, angle C"
+                "A": "A, B, C",
+                "B": "angle A, angle B, angle C",
+                "C": "AB, BC, CA",
+                "D": "AB, BC, angle C"
               },
               "answer": "C",
               "explanation": "In ΔABC, the three sides are AB, BC, and CA — each side connects two vertices."
@@ -292,7 +324,10 @@
               "difficulty": "Easy",
               "question": "The prefix 'Tri' in the word triangle means:",
               "options": {
-                "A": "Two   (B) Three   (C) Four   (D) Six"
+                "A": "Two",
+                "B": "Three",
+                "C": "Four",
+                "D": "Six"
               },
               "answer": "B",
               "explanation": "'Tri' is Latin/Greek prefix meaning 'three'. Triangle = three angles."
@@ -302,7 +337,10 @@
               "difficulty": "Easy",
               "question": "Triangle ABC in symbolic form is written as:",
               "options": {
-                "A": "T-ABC   (B) (ABC)   (C) delta ABC   (D) #ABC"
+                "A": "T-ABC",
+                "B": "(ABC)",
+                "C": "delta ABC",
+                "D": "#ABC"
               },
               "answer": "C",
               "explanation": "A triangle is written with the delta symbol (Δ) followed by the three vertices: ΔABC."
@@ -312,7 +350,10 @@
               "difficulty": "Easy",
               "question": "In delta PQR, the three angles are:",
               "options": {
-                "A": "P, Q, R   (B) PQ, QR, RP   (C) angle P, angle Q, angle R   (D) All of these"
+                "A": "P, Q, R",
+                "B": "PQ, QR, RP",
+                "C": "angle P, angle Q, angle R",
+                "D": "All of these"
               },
               "answer": "C",
               "explanation": "In ΔPQR, the three angles are ∠P (or ∠QPR), ∠Q, and ∠R."
@@ -322,7 +363,10 @@
               "difficulty": "Medium",
               "question": "Which chapter studies some properties of triangles before Chapter 7?",
               "options": {
-                "A": "Chapter 4   (B) Chapter 5   (C) Chapter 6   (D) Chapter 8"
+                "A": "Chapter 4",
+                "B": "Chapter 5",
+                "C": "Chapter 6",
+                "D": "Chapter 8"
               },
               "answer": "C",
               "explanation": "Chapter 6 (Lines and Angles) studies some triangle properties like exterior angle theorem before Chapter 7."
@@ -332,8 +376,10 @@
               "difficulty": "Medium",
               "question": "Which of the following is NOT studied in Chapter 7?",
               "options": {
-                "A": "Congruence of triangles   (B) Rules of congruence",
-                "C": "Construction of triangles   (D) Inequalities in a triangle"
+                "A": "Congruence of triangles",
+                "B": "Rules of congruence",
+                "C": "Construction of triangles",
+                "D": "Inequalities in a triangle"
               },
               "answer": "C",
               "explanation": "Chapter 7 covers congruence and properties of triangles — construction of triangles is covered in a later chapter."
@@ -343,7 +389,10 @@
               "difficulty": "Medium",
               "question": "In triangle ABC, the side opposite to vertex A is:",
               "options": {
-                "A": "AB   (B) AC   (C) BC   (D) None"
+                "A": "AB",
+                "B": "AC",
+                "C": "BC",
+                "D": "None"
               },
               "answer": "C",
               "explanation": "In ΔABC, each side is named by the vertices NOT on it: side opposite to vertex A is BC."
@@ -353,8 +402,10 @@
               "difficulty": "Medium",
               "question": "A triangle is a closed figure formed by:",
               "options": {
-                "A": "Two intersecting lines   (B) Three intersecting lines",
-                "C": "Four intersecting lines   (D) Parallel lines"
+                "A": "Two intersecting lines",
+                "B": "Three intersecting lines",
+                "C": "Four intersecting lines",
+                "D": "Parallel lines"
               },
               "answer": "B",
               "explanation": "A triangle is formed by three line segments joining three non-collinear points (not all on the same line)."
@@ -364,7 +415,10 @@
               "difficulty": "Medium",
               "question": "In delta ABC, the angle at vertex B is written as:",
               "options": {
-                "A": "AB   (B) BA   (C) angle B   (D) angle AB"
+                "A": "AB",
+                "B": "BA",
+                "C": "angle B",
+                "D": "angle AB"
               },
               "answer": "C",
               "explanation": "The angle at vertex B in ΔABC is written as ∠B or ∠ABC."
@@ -521,8 +575,10 @@
               "difficulty": "Easy",
               "question": "Two figures are congruent if they have:",
               "options": {
-                "A": "Same shape only   (B) Same size only",
-                "C": "Same shape and same size   (D) Different shapes but same area"
+                "A": "Same shape only",
+                "B": "Same size only",
+                "C": "Same shape and same size",
+                "D": "Different shapes but same area"
               },
               "answer": "C",
               "explanation": "Congruent = same shape AND same size. Two figures that can exactly overlap each other are congruent."
@@ -545,7 +601,10 @@
               "difficulty": "Easy",
               "question": "If delta PQR = delta ABC, then which side of delta PQR corresponds to BC?",
               "options": {
-                "A": "PQ   (B) QR   (C) RP   (D) None"
+                "A": "PQ",
+                "B": "QR",
+                "C": "RP",
+                "D": "None"
               },
               "answer": "B",
               "explanation": "In ΔPQR ≅ ΔABC, vertices match in order: P↔A, Q↔B, R↔C. So QR ↔ BC."
@@ -555,7 +614,10 @@
               "difficulty": "Easy",
               "question": "If delta PQR = delta ABC, which angle of delta PQR corresponds to angle B?",
               "options": {
-                "A": "angle P   (B) angle Q   (C) angle R   (D) None"
+                "A": "angle P",
+                "B": "angle Q",
+                "C": "angle R",
+                "D": "None"
               },
               "answer": "B",
               "explanation": "In ΔPQR ≅ ΔABC, vertex Q corresponds to vertex B. So ∠Q corresponds to ∠B."
@@ -565,7 +627,10 @@
               "difficulty": "Easy",
               "question": "Two circles are congruent when they have:",
               "options": {
-                "A": "Same area   (B) Same diameter   (C) Same radius   (D) Both B and C"
+                "A": "Same area",
+                "B": "Same diameter",
+                "C": "Same radius",
+                "D": "Both B and C"
               },
               "answer": "D",
               "explanation": "Two circles are congruent if and only if they have equal radii — then one can be perfectly placed over the other."
@@ -575,7 +640,10 @@
               "difficulty": "Medium",
               "question": "If delta FDE = delta ABC, then which vertex of delta FDE corresponds to vertex B?",
               "options": {
-                "A": "F   (B) D   (C) E   (D) None"
+                "A": "F",
+                "B": "D",
+                "C": "E",
+                "D": "None"
               },
               "answer": "B",
               "explanation": "In ΔFDE ≅ ΔABC, vertices match in order: F↔A, D↔B, E↔C. So vertex F corresponds to vertex A."
@@ -585,7 +653,10 @@
               "difficulty": "Medium",
               "question": "The symbol for congruence is:",
               "options": {
-                "A": "=   (B) ~   (C) congruent-symbol   (D) approximately-equal"
+                "A": "=",
+                "B": "~",
+                "C": "congruent-symbol",
+                "D": "approximately-equal"
               },
               "answer": "C",
               "explanation": "The congruence symbol is ≅ (not =). It means 'is congruent to' — same shape and size."
@@ -595,7 +666,10 @@
               "difficulty": "Medium",
               "question": "If delta PQR = delta XYZ, which is correct?",
               "options": {
-                "A": "PQ = YZ   (B) QR = XZ   (C) RP = ZX   (D) PQ = XY"
+                "A": "PQ = YZ",
+                "B": "QR = XZ",
+                "C": "RP = ZX",
+                "D": "PQ = XY"
               },
               "answer": "D",
               "explanation": "In ΔPQR ≅ ΔXYZ, all corresponding parts are equal: PQ=XY, QR=YZ, PR=XZ, ∠P=∠X, ∠Q=∠Y, ∠R=∠Z."
@@ -618,7 +692,10 @@
               "difficulty": "Medium",
               "question": "If delta ABC = delta DEF, then angle C corresponds to:",
               "options": {
-                "A": "angle D   (B) angle E   (C) angle F   (D) angle A"
+                "A": "angle D",
+                "B": "angle E",
+                "C": "angle F",
+                "D": "angle A"
               },
               "answer": "C",
               "explanation": "In ΔABC ≅ ΔDEF, vertices match: A↔D, B↔E, C↔F. So ∠C corresponds to ∠F."
@@ -628,7 +705,10 @@
               "difficulty": "Hard",
               "question": "In delta PQR = delta ABC, which statement is NOT correct?",
               "options": {
-                "A": "P↔A   (B) QR = BC   (C) delta QRP = delta ABC   (D) angle P = angle A"
+                "A": "P↔A",
+                "B": "QR = BC",
+                "C": "delta QRP = delta ABC",
+                "D": "angle P = angle A"
               },
               "answer": "C",
               "explanation": "In ΔPQR ≅ ΔABC: PQ=AB, QR=BC, PR=AC. A statement like PQ=BC would be incorrect as it mixes correspondence."
@@ -865,7 +945,10 @@
               "difficulty": "Easy",
               "question": "ASA congruence rule is a:",
               "options": {
-                "A": "Axiom   (B) Postulate   (C) Theorem   (D) Definition"
+                "A": "Axiom",
+                "B": "Postulate",
+                "C": "Theorem",
+                "D": "Definition"
               },
               "answer": "C",
               "explanation": "ASA is proved as a theorem using the SAS axiom — it is not independently assumed."
@@ -875,7 +958,10 @@
               "difficulty": "Easy",
               "question": "SAS congruence rule is a:",
               "options": {
-                "A": "Axiom   (B) Theorem   (C) Corollary   (D) Definition"
+                "A": "Axiom",
+                "B": "Theorem",
+                "C": "Corollary",
+                "D": "Definition"
               },
               "answer": "A",
               "explanation": "SAS is an axiom — it is accepted as true without proof and used to prove all other congruence rules."
@@ -885,7 +971,10 @@
               "difficulty": "Medium",
               "question": "In Example 7.3.1 (OA=OB, OD=OC), which rule proves delta AOD = delta BOC?",
               "options": {
-                "A": "ASA   (B) SSS   (C) SAS   (D) RHS"
+                "A": "ASA",
+                "B": "SSS",
+                "C": "SAS",
+                "D": "RHS"
               },
               "answer": "C",
               "explanation": "OA=OB, OD=OC, and ∠AOD=∠BOC (vertically opposite). This is SAS (two sides and included angle)."
@@ -895,7 +984,10 @@
               "difficulty": "Medium",
               "question": "AAS stands for:",
               "options": {
-                "A": "Angle-Angle-Side   (B) Angle-Area-Side   (C) Axiom-Angle-Side   (D) Area-Angle-Side"
+                "A": "Angle-Angle-Side",
+                "B": "Angle-Area-Side",
+                "C": "Axiom-Angle-Side",
+                "D": "Area-Angle-Side"
               },
               "answer": "A",
               "explanation": "AAS = Angle-Angle-Side. If two angles and a non-included side are equal, triangles are congruent."
@@ -905,7 +997,10 @@
               "difficulty": "Medium",
               "question": "In Example 7.3.3 (AB || CD, O is mid-point of AD), which rule proves delta AOB = delta DOC?",
               "options": {
-                "A": "SAS   (B) ASA   (C) AAS   (D) SSS"
+                "A": "SAS",
+                "B": "ASA",
+                "C": "AAS",
+                "D": "SSS"
               },
               "answer": "C",
               "explanation": "AB||CD means alternate interior angles are equal. With O as midpoint of AD, this gives ASA (Angle-Side-Angle)."
@@ -915,7 +1010,10 @@
               "difficulty": "Medium",
               "question": "Which of the following is NOT a valid congruence rule?",
               "options": {
-                "A": "SAS   (B) ASA   (C) SSA   (D) AAS"
+                "A": "SAS",
+                "B": "ASA",
+                "C": "SSA",
+                "D": "AAS"
               },
               "answer": "C",
               "explanation": "SSA (two sides + non-included angle) is NOT valid — it does not uniquely determine a triangle. AAA is also invalid."
@@ -925,7 +1023,10 @@
               "difficulty": "Medium",
               "question": "If in delta ABC and delta DEF: angle B = angle E, angle C = angle F and BC = EF, then which congruence rule applies?",
               "options": {
-                "A": "SAS   (B) AAS   (C) ASA   (D) SSS"
+                "A": "SAS",
+                "B": "AAS",
+                "C": "ASA",
+                "D": "SSS"
               },
               "answer": "C",
               "explanation": "Two angles equal (∠B=∠E, ∠C=∠F) makes the third equal too (∠A=∠D). With BC=EF (side), this is AAS."
@@ -948,7 +1049,10 @@
               "difficulty": "Hard",
               "question": "In Exercise 7.1.5, line l bisects angle A and B is on l. BP and BQ are perpendiculars. Which rule proves delta APB = delta AQB?",
               "options": {
-                "A": "SSS   (B) SAS   (C) RHS   (D) AAS"
+                "A": "SSS",
+                "B": "SAS",
+                "C": "RHS",
+                "D": "AAS"
               },
               "answer": "D",
               "explanation": "BL⊥AP and BM⊥AQ with ∠ABL=∠ABM by angle bisector. Using AAS: two angles and side AB are equal."
@@ -958,7 +1062,10 @@
               "difficulty": "Hard",
               "question": "In Example 7.3.2, P is on perpendicular bisector of AB. To prove PA = PB, which rule is used?",
               "options": {
-                "A": "ASA   (B) AAS   (C) SAS   (D) RHS"
+                "A": "ASA",
+                "B": "AAS",
+                "C": "SAS",
+                "D": "RHS"
               },
               "answer": "C",
               "explanation": "P is equidistant from A and B (PA=PB), ∠APC=∠BPC=90° (perpendicular bisector). Use RHS or SAS to prove ΔPAC≅ΔPBC."
@@ -1137,8 +1244,10 @@
               "difficulty": "Easy",
               "question": "An isosceles triangle is a triangle in which:",
               "options": {
-                "A": "All three sides are equal   (B) All three angles are equal",
-                "C": "Two sides are equal   (D) No two sides are equal"
+                "A": "All three sides are equal",
+                "B": "All three angles are equal",
+                "C": "Two sides are equal",
+                "D": "No two sides are equal"
               },
               "answer": "C",
               "explanation": "An isosceles triangle has exactly two equal sides (and the angles opposite to those sides are also equal)."
@@ -1148,7 +1257,10 @@
               "difficulty": "Easy",
               "question": "In isosceles triangle ABC with AB = AC, which angles are equal?",
               "options": {
-                "A": "angle A = angle B   (B) angle B = angle C   (C) angle A = angle C   (D) All angles"
+                "A": "angle A = angle B",
+                "B": "angle B = angle C",
+                "C": "angle A = angle C",
+                "D": "All angles"
               },
               "answer": "B",
               "explanation": "In isosceles ΔABC with AB=AC, the base angles ∠B and ∠C are equal (angles opposite to equal sides)."
@@ -1158,7 +1270,10 @@
               "difficulty": "Easy",
               "question": "Theorem 7.2 states: Angles opposite to equal sides of an isosceles triangle are:",
               "options": {
-                "A": "Supplementary   (B) Complementary   (C) Equal   (D) Different"
+                "A": "Supplementary",
+                "B": "Complementary",
+                "C": "Equal",
+                "D": "Different"
               },
               "answer": "C",
               "explanation": "Theorem 7.2: Angles opposite to equal sides are equal. In ΔABC, if AB=AC then ∠B=∠C."
@@ -1168,7 +1283,10 @@
               "difficulty": "Easy",
               "question": "Theorem 7.3 is the ______ of Theorem 7.2.",
               "options": {
-                "A": "Proof   (B) Converse   (C) Extension   (D) Contrapositive"
+                "A": "Proof",
+                "B": "Converse",
+                "C": "Extension",
+                "D": "Contrapositive"
               },
               "answer": "B",
               "explanation": "Theorem 7.3 is the converse of Theorem 7.2: if ∠B=∠C then AB=AC. Converse reverses the if-then statement."
@@ -1191,7 +1309,10 @@
               "difficulty": "Medium",
               "question": "In Example 7.4.1 (bisector AD perpendicular to BC), which congruence rule is used?",
               "options": {
-                "A": "SAS   (B) SSS   (C) ASA   (D) RHS"
+                "A": "SAS",
+                "B": "SSS",
+                "C": "ASA",
+                "D": "RHS"
               },
               "answer": "C",
               "explanation": "AD bisects ∠A and AD⊥BC. Using SAS with the equal angles and the common side AD, ΔABD≅ΔACD."
@@ -1201,7 +1322,10 @@
               "difficulty": "Medium",
               "question": "In right angled triangle ABC (angle A = 90 deg) with AB = AC, angles B and C are:",
               "options": {
-                "A": "30 degrees each   (B) 45 degrees each   (C) 60 degrees each   (D) 90 degrees each"
+                "A": "30 degrees each",
+                "B": "45 degrees each",
+                "C": "60 degrees each",
+                "D": "90 degrees each"
               },
               "answer": "B",
               "explanation": "∠A=90°, AB=AC. By isosceles triangle theorem, ∠B=∠C. Since ∠B+∠C=90°, each angle = 45°."
@@ -1211,7 +1335,10 @@
               "difficulty": "Medium",
               "question": "In isosceles triangle ABC (AB = AC), if angle B = 65 degrees, then angle C = ?",
               "options": {
-                "A": "50 degrees   (B) 65 degrees   (C) 115 degrees   (D) 130 degrees"
+                "A": "50 degrees",
+                "B": "65 degrees",
+                "C": "115 degrees",
+                "D": "130 degrees"
               },
               "answer": "B",
               "explanation": "AB=AC so ∠B=∠C=65°. Sum of angles = 180°. ∠A = 180° - 65° - 65° = 50°."
@@ -1221,7 +1348,10 @@
               "difficulty": "Medium",
               "question": "In isosceles triangle ABC (AB = AC), angle A = 40 degrees. Find angle B.",
               "options": {
-                "A": "40 degrees   (B) 60 degrees   (C) 70 degrees   (D) 80 degrees"
+                "A": "40 degrees",
+                "B": "60 degrees",
+                "C": "70 degrees",
+                "D": "80 degrees"
               },
               "answer": "C",
               "explanation": "∠A=40°, AB=AC so ∠B=∠C. ∠B+∠C = 180°-40° = 140°. So ∠B=∠C = 70°. Working: angle B = angle C; angle A + angle B + angle C = 180 => 40 + 2(angle B) = 180 => angle B = 70 degrees."
@@ -1244,7 +1374,10 @@
               "difficulty": "Hard",
               "question": "In Exercise 7.2.6, delta ABC isosceles (AB = AC), BA produced to D with AD = AB. angle BCD = ?",
               "options": {
-                "A": "45 degrees   (B) 60 degrees   (C) 90 degrees   (D) 120 degrees"
+                "A": "45 degrees",
+                "B": "60 degrees",
+                "C": "90 degrees",
+                "D": "120 degrees"
               },
               "answer": "C",
               "explanation": "D is on extension of BA beyond A. ∠CAD = exterior angle of isosceles ΔABC at A = 180° - ∠BAC = ∠B + ∠C = 2∠B."
@@ -1254,7 +1387,10 @@
               "difficulty": "Hard",
               "question": "Which congruence rule is used in the proof of Theorem 7.2?",
               "options": {
-                "A": "ASA   (B) AAS   (C) SAS   (D) SSS"
+                "A": "ASA",
+                "B": "AAS",
+                "C": "SAS",
+                "D": "SSS"
               },
               "answer": "C",
               "explanation": "In Theorem 7.2 proof: AD bisects ∠A. ΔABD and ΔACD have AB=AC, ∠BAD=∠CAD, AD common. SAS gives congruence."
@@ -1448,8 +1584,10 @@
               "difficulty": "Easy",
               "question": "SSS congruence rule states two triangles are congruent if:",
               "options": {
-                "A": "Two sides are equal   (B) Three sides are equal",
-                "C": "Three angles are equal   (D) Two sides and one angle are equal"
+                "A": "Two sides are equal",
+                "B": "Three sides are equal",
+                "C": "Three angles are equal",
+                "D": "Two sides and one angle are equal"
               },
               "answer": "B",
               "explanation": "SSS: If all three sides of one triangle equal the three sides of another, the triangles are congruent."
@@ -1459,8 +1597,10 @@
               "difficulty": "Easy",
               "question": "RHS stands for:",
               "options": {
-                "A": "Right angle-Height-Side   (B) Right angle-Hypotenuse-Side",
-                "C": "Radius-Height-Side   (D) Right-Hand-Side"
+                "A": "Right angle-Height-Side",
+                "B": "Right angle-Hypotenuse-Side",
+                "C": "Radius-Height-Side",
+                "D": "Right-Hand-Side"
               },
               "answer": "B",
               "explanation": "RHS = Right angle - Hypotenuse - Side. Applies only to right-angled triangles."
@@ -1470,8 +1610,10 @@
               "difficulty": "Easy",
               "question": "The RHS congruence rule applies to:",
               "options": {
-                "A": "All triangles   (B) Isosceles triangles only",
-                "C": "Right triangles only   (D) Equilateral triangles only"
+                "A": "All triangles",
+                "B": "Isosceles triangles only",
+                "C": "Right triangles only",
+                "D": "Equilateral triangles only"
               },
               "answer": "C",
               "explanation": "RHS is specifically designed for right triangles. The right angle is fixed, and hypotenuse + one side determine the triangle."
@@ -1481,7 +1623,10 @@
               "difficulty": "Medium",
               "question": "In Example 7.5.1, delta PAQ = delta PBQ is proved using which rule?",
               "options": {
-                "A": "SAS   (B) AAS   (C) SSS   (D) RHS"
+                "A": "SAS",
+                "B": "AAS",
+                "C": "SSS",
+                "D": "RHS"
               },
               "answer": "C",
               "explanation": "PA=PB (P on perpendicular bisector), PQ common, ∠PAQ=∠PBQ=90°. This gives RHS congruence."
@@ -1491,7 +1636,10 @@
               "difficulty": "Medium",
               "question": "In Example 7.5.2, delta PAB = delta PAC is proved using which rule?",
               "options": {
-                "A": "SAS   (B) ASA   (C) SSS   (D) RHS"
+                "A": "SAS",
+                "B": "ASA",
+                "C": "SSS",
+                "D": "RHS"
               },
               "answer": "D",
               "explanation": "PA⊥BC (given), AB=AC (isosceles), PA common. With right angle and two sides — RHS congruence applies."
@@ -1514,7 +1662,10 @@
               "difficulty": "Medium",
               "question": "In Exercise 7.3.2, AD is altitude of isosceles delta ABC (AB = AC). Which rule proves delta ADB = delta ADC?",
               "options": {
-                "A": "SAS   (B) ASA   (C) SSS   (D) RHS"
+                "A": "SAS",
+                "B": "ASA",
+                "C": "SSS",
+                "D": "RHS"
               },
               "answer": "D",
               "explanation": "AD is altitude (AD⊥BC), AB=AC (isosceles). ΔABD and ΔACD have right angle, equal hypotenuse AB=AC, AD common: RHS."
@@ -1524,7 +1675,10 @@
               "difficulty": "Medium",
               "question": "Two right triangles with hypotenuse 10 cm and one side 6 cm each are:",
               "options": {
-                "A": "Similar but not congruent   (B) Congruent   (C) Not congruent   (D) Cannot determine"
+                "A": "Similar but not congruent",
+                "B": "Congruent",
+                "C": "Not congruent",
+                "D": "Cannot determine"
               },
               "answer": "B",
               "explanation": "RHS: right angle + hypotenuse (10cm) + one side (6cm) fully determines the triangle. Both triangles are congruent."
@@ -1534,7 +1688,10 @@
               "difficulty": "Medium",
               "question": "In Exercise 7.3.3, delta ABM = delta PQN is proved using:",
               "options": {
-                "A": "SAS   (B) ASA   (C) SSS   (D) RHS"
+                "A": "SAS",
+                "B": "ASA",
+                "C": "SSS",
+                "D": "RHS"
               },
               "answer": "C",
               "explanation": "AB=PQ, BC=QN, and ∠M=∠N=90° (right angles). With hypotenuse BC=QN and side AB=PQ — this is RHS."
@@ -1557,7 +1714,10 @@
               "difficulty": "Hard",
               "question": "In Example 7.5.1, to prove PQ is perpendicular bisector of AB, the second congruence delta PAC = delta PBC uses which rule?",
               "options": {
-                "A": "SSS   (B) SAS   (C) AAS   (D) RHS"
+                "A": "SSS",
+                "B": "SAS",
+                "C": "AAS",
+                "D": "RHS"
               },
               "answer": "B",
               "explanation": "After proving ΔPAQ≅ΔPBQ by RHS, CPCT gives PA=PB and ∠APQ=∠BPQ — confirming PQ bisects AB perpendicularly."
@@ -1567,8 +1727,10 @@
               "difficulty": "Hard",
               "question": "Activity for SSS verification uses triangles with sides:",
               "options": {
-                "A": "3 cm, 4 cm, 5 cm   (B) 4 cm, 3.5 cm, 4.5 cm",
-                "C": "5 cm, 5 cm, 5 cm   (D) 4 cm, 5 cm, 6 cm"
+                "A": "3 cm, 4 cm, 5 cm",
+                "B": "4 cm, 3.5 cm, 4.5 cm",
+                "C": "5 cm, 5 cm, 5 cm",
+                "D": "4 cm, 5 cm, 6 cm"
               },
               "answer": "B",
               "explanation": "SSS verification activity uses cut-out triangles with given side lengths to physically check if they superimpose exactly."
@@ -1697,7 +1859,10 @@
               "difficulty": "Easy",
               "question": "How many valid congruence rules are there in Chapter 7?",
               "options": {
-                "A": "3   (B) 4   (C) 5   (D) 6"
+                "A": "3",
+                "B": "4",
+                "C": "5",
+                "D": "6"
               },
               "answer": "C",
               "explanation": "Chapter 7 has 5 valid congruence rules: SAS, ASA, AAS, SSS, RHS. SSA and AAA are NOT valid."
@@ -1707,7 +1872,10 @@
               "difficulty": "Easy",
               "question": "Which congruence rule applies ONLY to right triangles?",
               "options": {
-                "A": "SAS   (B) SSS   (C) AAS   (D) RHS"
+                "A": "SAS",
+                "B": "SSS",
+                "C": "AAS",
+                "D": "RHS"
               },
               "answer": "D",
               "explanation": "RHS applies ONLY to right triangles. The other 4 rules (SAS, ASA, AAS, SSS) apply to all triangles."
@@ -1717,7 +1885,10 @@
               "difficulty": "Easy",
               "question": "Two figures are congruent if they have the same:",
               "options": {
-                "A": "Shape only   (B) Size only   (C) Shape and size   (D) Area"
+                "A": "Shape only",
+                "B": "Size only",
+                "C": "Shape and size",
+                "D": "Area"
               },
               "answer": "C",
               "explanation": "Congruent figures must have the same shape AND same size — both conditions must be satisfied."
@@ -1727,7 +1898,10 @@
               "difficulty": "Easy",
               "question": "Which of the following is an AXIOM (not a theorem)?",
               "options": {
-                "A": "ASA   (B) SSS   (C) SAS   (D) RHS"
+                "A": "ASA",
+                "B": "SSS",
+                "C": "SAS",
+                "D": "RHS"
               },
               "answer": "C",
               "explanation": "SAS is an axiom (assumed without proof). All other congruence rules are theorems proved using SAS."
@@ -1737,7 +1911,10 @@
               "difficulty": "Easy",
               "question": "Each angle of an equilateral triangle is:",
               "options": {
-                "A": "45 degrees   (B) 60 degrees   (C) 90 degrees   (D) 120 degrees"
+                "A": "45 degrees",
+                "B": "60 degrees",
+                "C": "90 degrees",
+                "D": "120 degrees"
               },
               "answer": "B",
               "explanation": "Equilateral triangle: all sides equal, all angles equal. Each angle = 180°/3 = 60°."
@@ -1773,7 +1950,10 @@
               "difficulty": "Medium",
               "question": "Which rule states \"three sides equal => congruent\"?",
               "options": {
-                "A": "SAS   (B) ASA   (C) SSS   (D) RHS"
+                "A": "SAS",
+                "B": "ASA",
+                "C": "SSS",
+                "D": "RHS"
               },
               "answer": "C",
               "explanation": "SSS (Side-Side-Side) rule: If all three sides are equal, the triangles are congruent."
@@ -1783,7 +1963,10 @@
               "difficulty": "Medium",
               "question": "If delta ABC = delta PQR, then by CPCT which is TRUE?",
               "options": {
-                "A": "AB = QR   (B) BC = PR   (C) angle A = angle P   (D) angle B = angle R"
+                "A": "AB = QR",
+                "B": "BC = PR",
+                "C": "angle A = angle P",
+                "D": "angle B = angle R"
               },
               "answer": "C",
               "explanation": "In ΔABC≅ΔPQR, by CPCT: AB=PQ, BC=QR, AC=PR, ∠A=∠P, ∠B=∠Q, ∠C=∠R — all corresponding parts are equal."
@@ -1793,7 +1976,10 @@
               "difficulty": "Medium",
               "question": "Which is NOT a valid congruence rule?",
               "options": {
-                "A": "AAS   (B) RHS   (C) ASA   (D) SSA"
+                "A": "AAS",
+                "B": "RHS",
+                "C": "ASA",
+                "D": "SSA"
               },
               "answer": "D",
               "explanation": "SSA (two sides + non-included angle) is NOT a valid rule. It can yield two different triangles."
@@ -1803,8 +1989,10 @@
               "difficulty": "Hard",
               "question": "Two triangles with angles 50 degrees, 60 degrees and 70 degrees each. They are:",
               "options": {
-                "A": "Always congruent   (B) Never congruent",
-                "C": "Similar but not necessarily congruent   (D) Always equilateral"
+                "A": "Always congruent",
+                "B": "Never congruent",
+                "C": "Similar but not necessarily congruent",
+                "D": "Always equilateral"
               },
               "answer": "C",
               "explanation": "Equal angles (AAA) → similar triangles (same shape), but they may be different sizes. Congruence also requires equal size."

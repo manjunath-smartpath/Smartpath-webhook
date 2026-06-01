@@ -1434,10 +1434,10 @@
               "difficulty": "Medium",
               "question": "A force of 20 N acts on an area of 0.5 m^2. The pressure exerted is:",
               "options": {
-                "A": "10 N m^-2",
+                "A": "and",
                 "B": "40 N m^-2",
                 "C": "10 Pa",
-                "D": "Both (A) and (C)"
+                "D": "Both"
               },
               "answer": "D",
               "explanation": "P = F/A = 20/0.5 = 40 N m^-2 = 40 Pa. Wait - recalculating: 20/0.5 = 40 N m^-2 = 40 Pa. So answer is 40 N m^-2 = 40 Pa. Correct option is (B) if listed separately, but both units are equivalent. P = 40 Pa."
@@ -1630,10 +1630,10 @@
                   "difficulty": "Hard",
                   "question": "The magnitude of the buoyant force on an object depends on:",
                   "options": {
-                    "A": "The mass of the object",
+                    "A": "and",
                     "B": "The shape of the object",
                     "C": "The density of the fluid",
-                    "D": "Both (A) and (B)"
+                    "D": "Both"
                   },
                   "answer": "C",
                   "explanation": "The buoyant force depends on the density of the fluid (and the volume of fluid displaced). An object in mercury (high density) experiences greater buoyant force than in water."

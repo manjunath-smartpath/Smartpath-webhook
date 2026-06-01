@@ -57,7 +57,10 @@
           "difficulty": "Easy",
           "question": "Which of the following is NOT studied in Chapter 12?",
           "options": {
-            "A": "Bar graph   (B) Pie chart   (C) Histogram   (D) Frequency polygon"
+            "A": "Bar graph",
+            "B": "Pie chart",
+            "C": "Histogram",
+            "D": "Frequency polygon"
           },
           "answer": "B",
           "explanation": "Chapter 12 covers bar graphs, histograms, and frequency polygons only. Pie chart is not included."
@@ -67,7 +70,10 @@
           "difficulty": "Easy",
           "question": "The class-mark of the interval 140-150 is:",
           "options": {
-            "A": "140   (B) 150   (C) 145   (D) 148"
+            "A": "140",
+            "B": "150",
+            "C": "145",
+            "D": "148"
           },
           "answer": "C",
           "explanation": "Class-mark = (150 + 140) / 2 = 290 / 2 = 145."
@@ -77,7 +83,10 @@
           "difficulty": "Easy",
           "question": "In Exercise 12.1 Q3, which political party won the maximum seats?",
           "options": {
-            "A": "B   (B) C   (C) A   (D) F"
+            "A": "B",
+            "B": "C",
+            "C": "A",
+            "D": "F"
           },
           "answer": "C",
           "explanation": "Party A won 75 seats, which is the maximum."
@@ -100,7 +109,10 @@
           "difficulty": "Medium",
           "question": "In Exercise 12.1 Q9 (surnames), the maximum number of surnames lie in the class interval:",
           "options": {
-            "A": "4-6   (B) 1-4   (C) 8-12   (D) 6-8"
+            "A": "4-6",
+            "B": "1-4",
+            "C": "8-12",
+            "D": "6-8"
           },
           "answer": "D",
           "explanation": "Class 6-8 has 44 surnames, which is the maximum."
@@ -110,7 +122,10 @@
           "difficulty": "Medium",
           "question": "In Exercise 12.1 Q8 (children in park), the adjusted height for age group 10-15 (frequency = 10) is:",
           "options": {
-            "A": "10   (B) 5   (C) 2   (D) 3"
+            "A": "10",
+            "B": "5",
+            "C": "2",
+            "D": "3"
           },
           "answer": "C",
           "explanation": "Minimum class size = 1. Adjusted height = (10/5) x 1 = 2."
@@ -146,7 +161,10 @@
           "difficulty": "Hard",
           "question": "In a varying-width histogram, the adjusted height for interval 0-20 (frequency=7, width=20, minimum class size=10) is:",
           "options": {
-            "A": "7   (B) 3.5   (C) 14   (D) 10"
+            "A": "7",
+            "B": "3.5",
+            "C": "14",
+            "D": "10"
           },
           "answer": "B",
           "explanation": "Adjusted height = (7/20) x 10 = 70/20 = 3.5."
@@ -156,7 +174,10 @@
           "difficulty": "Hard",
           "question": "In Exercise 12.1 Q5, how many neon lamps have a life time of more than 700 hours?",
           "options": {
-            "A": "74   (B) 110   (C) 138   (D) 184"
+            "A": "74",
+            "B": "110",
+            "C": "138",
+            "D": "184"
           },
           "answer": "D",
           "explanation": "74 (700-800) + 62 (800-900) + 48 (900-1000) = 184 lamps."
@@ -203,7 +224,10 @@
           "difficulty": "Easy",
           "question": "\"One picture is better than a thousand words\" — this statement justifies:",
           "options": {
-            "A": "Tabular representation   (B) Raw data   (C) Graphical representation   (D) Frequency distribution"
+            "A": "Tabular representation",
+            "B": "Raw data",
+            "C": "Graphical representation",
+            "D": "Frequency distribution"
           },
           "answer": "C",
           "explanation": "This statement is used in the textbook to justify why graphical representation is preferred."
@@ -213,7 +237,10 @@
           "difficulty": "Easy",
           "question": "In a bar graph, the height of a bar depends on:",
           "options": {
-            "A": "Width of the bar   (B) Class size   (C) Value of the variable   (D) Frequency density"
+            "A": "Width of the bar",
+            "B": "Class size",
+            "C": "Value of the variable",
+            "D": "Frequency density"
           },
           "answer": "C",
           "explanation": "In a bar graph, the height of each bar depends on the value of the variable being represented."
@@ -223,7 +250,10 @@
           "difficulty": "Easy",
           "question": "Histograms are used for data with:",
           "options": {
-            "A": "Discrete values   (B) Continuous class intervals   (C) Categorical data   (D) Non-numerical data"
+            "A": "Discrete values",
+            "B": "Continuous class intervals",
+            "C": "Categorical data",
+            "D": "Non-numerical data"
           },
           "answer": "B",
           "explanation": "Histograms represent grouped frequency distributions with continuous classes."
@@ -233,7 +263,10 @@
           "difficulty": "Medium",
           "question": "In a bar graph, which axis shows the variable (categories)?",
           "options": {
-            "A": "y-axis   (B) Both axes   (C) x-axis   (D) Neither axis"
+            "A": "y-axis",
+            "B": "Both axes",
+            "C": "x-axis",
+            "D": "Neither axis"
           },
           "answer": "C",
           "explanation": "In a bar graph, the variable (categories) is shown on the x-axis; values are on the y-axis."
@@ -243,7 +276,10 @@
           "difficulty": "Medium",
           "question": "Which representation makes it easiest to compare two sections of the same class?",
           "options": {
-            "A": "Bar graph   (B) Histogram   (C) Frequency polygon   (D) Table"
+            "A": "Bar graph",
+            "B": "Histogram",
+            "C": "Frequency polygon",
+            "D": "Table"
           },
           "answer": "C",
           "explanation": "Frequency polygons are very useful for comparing two different sets of data of the same nature."
@@ -253,7 +289,10 @@
           "difficulty": "Medium",
           "question": "The width of the bar in a histogram is:",
           "options": {
-            "A": "Always equal to 1   (B) Not important   (C) Significant — equal to class size   (D) Chosen randomly"
+            "A": "Always equal to 1",
+            "B": "Not important",
+            "C": "Significant — equal to class size",
+            "D": "Chosen randomly"
           },
           "answer": "C",
           "explanation": "Unlike a bar graph, in a histogram the width of the bar equals the class-size and is significant."
@@ -263,7 +302,10 @@
           "difficulty": "Medium",
           "question": "In a bar graph, gaps between bars are maintained for:",
           "options": {
-            "A": "Zero frequency   (B) Missing data   (C) Visual clarity — bars represent discrete categories   (D) Class interval"
+            "A": "Zero frequency",
+            "B": "Missing data",
+            "C": "Visual clarity — bars represent discrete categories",
+            "D": "Class interval"
           },
           "answer": "C",
           "explanation": "Gaps between bars in a bar graph indicate that data is discrete/categorical and are maintained for visual clarity."
@@ -273,8 +315,10 @@
           "difficulty": "Hard",
           "question": "Which of the following correctly describes the relationship between bar graphs and histograms?",
           "options": {
-            "A": "Both have gaps between bars   (B) Both have no gaps between bars",
-            "C": "Bar graph has gaps; histogram has no gaps   (D) Histogram has gaps; bar graph has no gaps"
+            "A": "Both have gaps between bars",
+            "B": "Both have no gaps between bars",
+            "C": "Bar graph has gaps; histogram has no gaps",
+            "D": "Histogram has gaps; bar graph has no gaps"
           },
           "answer": "C",
           "explanation": "Bar graphs have equal gaps between bars (discrete data); histograms have no gaps (continuous data)."
@@ -284,8 +328,10 @@
           "difficulty": "Hard",
           "question": "Frequency polygons can be drawn:",
           "options": {
-            "A": "Only over histograms   (B) Only independently without histograms",
-            "C": "Both over histograms and independently   (D) Only for discrete data"
+            "A": "Only over histograms",
+            "B": "Only independently without histograms",
+            "C": "Both over histograms and independently",
+            "D": "Only for discrete data"
           },
           "answer": "C",
           "explanation": "Frequency polygons can be drawn by joining mid-points of histogram bars OR independently using class-marks without drawing a histogram."
@@ -295,7 +341,10 @@
           "difficulty": "Hard",
           "question": "What does graphical representation help us do better than tables?",
           "options": {
-            "A": "Store data permanently   (B) Show exact decimal values   (C) Make comparisons at a glance   (D) Calculate totals"
+            "A": "Store data permanently",
+            "B": "Show exact decimal values",
+            "C": "Make comparisons at a glance",
+            "D": "Calculate totals"
           },
           "answer": "C",
           "explanation": "Graphical representation allows us to easily visualise and compare relative characteristics of data at a glance."
@@ -318,7 +367,10 @@
           "difficulty": "Hard",
           "question": "If a bar graph has maximum value 50 on y-axis, an appropriate scale would be:",
           "options": {
-            "A": "1 unit = 100   (B) 1 unit = 5   (C) 1 unit = 50   (D) 1 unit = 500"
+            "A": "1 unit = 100",
+            "B": "1 unit = 5",
+            "C": "1 unit = 50",
+            "D": "1 unit = 500"
           },
           "answer": "B",
           "explanation": "Scale 1 unit = 5 means y-axis goes up to 10 units to reach 50 — a practical and readable scale. ---- SUB-TOPIC 12.1.A: BAR GRAPHS -----------------------------------------------"
@@ -584,7 +636,10 @@
           "difficulty": "Easy",
           "question": "Chapter 12 covers data presented graphically in how many forms?",
           "options": {
-            "A": "2   (B) 3   (C) 4   (D) 5"
+            "A": "2",
+            "B": "3",
+            "C": "4",
+            "D": "5"
           },
           "answer": "B",
           "explanation": "Bar graphs, histograms, and frequency polygons — 3 forms."
@@ -594,7 +649,10 @@
           "difficulty": "Easy",
           "question": "The class-mark of interval 60-70 is:",
           "options": {
-            "A": "60   (B) 70   (C) 65   (D) 64"
+            "A": "60",
+            "B": "70",
+            "C": "65",
+            "D": "64"
           },
           "answer": "C",
           "explanation": "Class-mark = (70+60)/2 = 65."
@@ -604,7 +662,10 @@
           "difficulty": "Easy",
           "question": "In Exercise 12.1 Q3, which party won the maximum seats?",
           "options": {
-            "A": "B   (B) F   (C) A   (D) C"
+            "A": "B",
+            "B": "F",
+            "C": "A",
+            "D": "C"
           },
           "answer": "C",
           "explanation": "Party A won 75 seats — maximum."
@@ -614,7 +675,10 @@
           "difficulty": "Medium",
           "question": "To draw a frequency polygon from a histogram, we join the:",
           "options": {
-            "A": "Upper limits   (B) Lower limits   (C) Mid-points of tops of rectangles (class-marks)   (D) Corners"
+            "A": "Upper limits",
+            "B": "Lower limits",
+            "C": "Mid-points of tops of rectangles (class-marks)",
+            "D": "Corners"
           },
           "answer": "C",
           "explanation": "We join class-marks of tops of adjacent rectangles."
@@ -624,7 +688,10 @@
           "difficulty": "Medium",
           "question": "In Exercise 12.1 Q5, lamps with life time more than 700 hours:",
           "options": {
-            "A": "74   (B) 110   (C) 184   (D) 138"
+            "A": "74",
+            "B": "110",
+            "C": "184",
+            "D": "138"
           },
           "answer": "C",
           "explanation": "74+62+48 = 184 lamps."
@@ -634,7 +701,10 @@
           "difficulty": "Medium",
           "question": "In Exercise 12.1 Q9, class interval with maximum surnames:",
           "options": {
-            "A": "4-6   (B) 1-4   (C) 8-12   (D) 6-8"
+            "A": "4-6",
+            "B": "1-4",
+            "C": "8-12",
+            "D": "6-8"
           },
           "answer": "D",
           "explanation": "Class 6-8 has 44 surnames — maximum."
@@ -644,8 +714,10 @@
           "difficulty": "Medium",
           "question": "To make 118-126, 127-135 continuous:",
           "options": {
-            "A": "Add 1 to upper limits   (B) Subtract 0.5 from lower, add 0.5 to upper",
-            "C": "Add 0.5 to both   (D) Subtract 1 from lower"
+            "A": "Add 1 to upper limits",
+            "B": "Subtract 0.5 from lower, add 0.5 to upper",
+            "C": "Add 0.5 to both",
+            "D": "Subtract 1 from lower"
           },
           "answer": "B",
           "explanation": "117.5-126.5, 126.5-135.5, etc."
@@ -655,7 +727,10 @@
           "difficulty": "Hard",
           "question": "In Exercise 12.1 Q8 (children), adjusted height for 10-15 (freq=10, width=5, min=1):",
           "options": {
-            "A": "10   (B) 5   (C) 2   (D) 3"
+            "A": "10",
+            "B": "5",
+            "C": "2",
+            "D": "3"
           },
           "answer": "C",
           "explanation": "(10/5) x 1 = 2."
@@ -691,7 +766,10 @@
           "difficulty": "Hard",
           "question": "Class-mark of 300-400 is:",
           "options": {
-            "A": "300   (B) 400   (C) 350   (D) 380"
+            "A": "300",
+            "B": "400",
+            "C": "350",
+            "D": "380"
           },
           "answer": "C",
           "explanation": "(400+300)/2 = 350."
@@ -701,7 +779,10 @@
           "difficulty": "Hard",
           "question": "In Exercise 12.1 Q9, adjusted height for 12-20 (freq=4, width=8, min=2):",
           "options": {
-            "A": "4   (B) 2   (C) 1   (D) 8"
+            "A": "4",
+            "B": "2",
+            "C": "1",
+            "D": "8"
           },
           "answer": "C",
           "explanation": "(4/8) x 2 = 1."

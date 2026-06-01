@@ -167,7 +167,10 @@
               "difficulty": "Easy",
               "question": "Which civilisation is believed to have first solved quadratic equations?",
               "options": {
-                "A": "Greek   (B) Indian   (C) Babylonian   (D) Arab"
+                "A": "Greek",
+                "B": "Indian",
+                "C": "Babylonian",
+                "D": "Arab"
               },
               "answer": "C",
               "explanation": "Many people believe BABYLONIANS were the first to solve quadratic equations."
@@ -177,7 +180,10 @@
               "difficulty": "Easy",
               "question": "Brahmagupta gave a formula to solve quadratic equations of the form:",
               "options": {
-                "A": "ax^2 + bx + c = 0   (B) ax^2 + bx = c   (C) ax^2 = c   (D) ax^2 - bx = 0"
+                "A": "ax^2 + bx + c = 0",
+                "B": "ax^2 + bx = c",
+                "C": "ax^2 = c",
+                "D": "ax^2 - bx = 0"
               },
               "answer": "B",
               "explanation": "Brahmagupta (C.E. 598-665) gave explicit formula for ax^2 + bx = c."
@@ -200,7 +206,10 @@
               "difficulty": "Easy",
               "question": "Who developed a geometrical approach to find solutions of quadratic equations?",
               "options": {
-                "A": "Brahmagupta   (B) Euclid   (C) Al-Khwarizmi   (D) Sridharacharya"
+                "A": "Brahmagupta",
+                "B": "Euclid",
+                "C": "Al-Khwarizmi",
+                "D": "Sridharacharya"
               },
               "answer": "B",
               "explanation": "Greek mathematician Euclid developed a geometrical approach."
@@ -210,7 +219,10 @@
               "difficulty": "Easy",
               "question": "The quadratic formula was derived by:",
               "options": {
-                "A": "Brahmagupta   (B) Euclid   (C) Sridharacharya   (D) Al-Khwarizmi"
+                "A": "Brahmagupta",
+                "B": "Euclid",
+                "C": "Sridharacharya",
+                "D": "Al-Khwarizmi"
               },
               "answer": "C",
               "explanation": "Sridharacharya (C.E. 1025) derived the formula by completing the square."
@@ -233,7 +245,10 @@
               "difficulty": "Medium",
               "question": "Al-Khwarizmi studied quadratic equations around:",
               "options": {
-                "A": "C.E. 598   (B) C.E. 800   (C) C.E. 1025   (D) C.E. 1145"
+                "A": "C.E. 598",
+                "B": "C.E. 800",
+                "C": "C.E. 1025",
+                "D": "C.E. 1145"
               },
               "answer": "B",
               "explanation": "Al-Khwarizmi studied quadratic equations about C.E. 800."
@@ -256,7 +271,10 @@
               "difficulty": "Medium",
               "question": "If condition a = 0 in ax^2 + bx + c = 0, the equation becomes:",
               "options": {
-                "A": "Still quadratic   (B) Linear: bx + c = 0   (C) Cubic   (D) Has no solution"
+                "A": "Still quadratic",
+                "B": "Linear: bx + c = 0",
+                "C": "Cubic",
+                "D": "Has no solution"
               },
               "answer": "B",
               "explanation": "a=0 removes x^2 term, leaving bx + c = 0 (linear, degree 1)."
@@ -266,7 +284,10 @@
               "difficulty": "Medium",
               "question": "Abraham bar Hiyya Ha-Nasi published complete solutions in Europe in:",
               "options": {
-                "A": "C.E. 598   (B) C.E. 800   (C) C.E. 1025   (D) C.E. 1145"
+                "A": "C.E. 598",
+                "B": "C.E. 800",
+                "C": "C.E. 1025",
+                "D": "C.E. 1145"
               },
               "answer": "D",
               "explanation": "Abraham bar Hiyya Ha-Nasi's book 'Liber embadorum' was published in C.E. 1145."
@@ -508,7 +529,10 @@
               "difficulty": "Easy",
               "question": "In ax^2 + bx + c = 0, which condition must hold?",
               "options": {
-                "A": "a = 0   (B) b ≠ 0   (C) a ≠ 0   (D) c ≠ 0"
+                "A": "a = 0",
+                "B": "b ≠ 0",
+                "C": "a ≠ 0",
+                "D": "c ≠ 0"
               },
               "answer": "C",
               "explanation": "a ≠ 0 ensures the equation has degree exactly 2."
@@ -518,7 +542,10 @@
               "difficulty": "Easy",
               "question": "Which of the following is a quadratic equation?",
               "options": {
-                "A": "x^3 + 2x + 1 = 0   (B) x^2 + 3x + 1 = 0   (C) 3x + 5 = 0   (D) 1/x + 2 = 0"
+                "A": "x^3 + 2x + 1 = 0",
+                "B": "x^2 + 3x + 1 = 0",
+                "C": "3x + 5 = 0",
+                "D": "1/x + 2 = 0"
               },
               "answer": "B",
               "explanation": "x^2+3x+1=0 is of form ax^2+bx+c=0 with a=1≠0."
@@ -528,7 +555,10 @@
               "difficulty": "Easy",
               "question": "Is x(x+1)+8=(x+2)(x-2) a quadratic equation?",
               "options": {
-                "A": "Yes   (B) No, linear   (C) No, cubic   (D) Yes, but not in standard form"
+                "A": "Yes",
+                "B": "No, linear",
+                "C": "No, cubic",
+                "D": "Yes, but not in standard form"
               },
               "answer": "B",
               "explanation": "Simplifies to x+12=0, which is linear."
@@ -538,7 +568,10 @@
               "difficulty": "Easy",
               "question": "Standard form of 4x - 3x^2 + 2 = 0 is:",
               "options": {
-                "A": "4x - 3x^2 + 2 = 0   (B) -3x^2 + 4x + 2 = 0   (C) 3x^2 - 4x - 2 = 0   (D) Both (B) and (C)"
+                "A": "4x - 3x^2 + 2 = 0",
+                "B": "and",
+                "C": "3x^2 - 4x - 2 = 0",
+                "D": "Both"
               },
               "answer": "D",
               "explanation": "Both -3x^2+4x+2=0 and 3x^2-4x-2=0 are standard forms."
@@ -548,7 +581,10 @@
               "difficulty": "Easy",
               "question": "Which of these is NOT a quadratic equation (after simplification)?",
               "options": {
-                "A": "2x^2-3x+1=0   (B) (x-2)(x+1)=(x-1)(x+3)   (C) x(2x+3)=x^2+1   (D) x^2-2x=(-2)(3-x)"
+                "A": "2x^2-3x+1=0",
+                "B": "(x-2)(x+1)=(x-1)(x+3)",
+                "C": "x(2x+3)=x^2+1",
+                "D": "x^2-2x=(-2)(3-x)"
               },
               "answer": "B",
               "explanation": "(x-2)(x+1)=(x-1)(x+3) simplifies to -3x+1=0 (linear)."
@@ -558,7 +594,10 @@
               "difficulty": "Medium",
               "question": "Is (x+2)^3 = x^3-4 a quadratic equation?",
               "options": {
-                "A": "No, cubic   (B) Yes, after simplification   (C) No, linear   (D) Cannot be determined"
+                "A": "No, cubic",
+                "B": "Yes, after simplification",
+                "C": "No, linear",
+                "D": "Cannot be determined"
               },
               "answer": "B",
               "explanation": "Simplifies to x^2+2x+2=0."
@@ -568,7 +607,10 @@
               "difficulty": "Medium",
               "question": "John had x marbles, Jivanti had (45-x). Both lost 5. Product = 124. Equation:",
               "options": {
-                "A": "x^2-45x+200=0   (B) x^2-45x+324=0   (C) x^2+45x-324=0   (D) x^2-40x+124=0"
+                "A": "x^2-45x+200=0",
+                "B": "x^2-45x+324=0",
+                "C": "x^2+45x-324=0",
+                "D": "x^2-40x+124=0"
               },
               "answer": "B",
               "explanation": "(x-5)(40-x)=124 → x^2-45x+324=0."
@@ -578,7 +620,10 @@
               "difficulty": "Medium",
               "question": "Is (2x-1)(x-3)=(x+5)(x-1) quadratic?",
               "options": {
-                "A": "Yes, x^2-11x+8=0   (B) No, linear   (C) No, cubic   (D) Yes, a=2"
+                "A": "Yes, x^2-11x+8=0",
+                "B": "No, linear",
+                "C": "No, cubic",
+                "D": "Yes, a=2"
               },
               "answer": "A",
               "explanation": "2x^2-7x+3=x^2+4x-5 → x^2-11x+8=0. Quadratic."
@@ -588,7 +633,10 @@
               "difficulty": "Medium",
               "question": "Toys produced = x, cost = ₹(55-x), total = ₹750. Equation:",
               "options": {
-                "A": "x^2-55x+750=0   (B) x^2+55x-750=0   (C) x^2-55x-750=0   (D) 55x+x^2=750"
+                "A": "x^2-55x+750=0",
+                "B": "x^2+55x-750=0",
+                "C": "x^2-55x-750=0",
+                "D": "55x+x^2=750"
               },
               "answer": "A",
               "explanation": "x(55-x)=750 → x^2-55x+750=0."
@@ -598,7 +646,10 @@
               "difficulty": "Medium",
               "question": "Is x^2+3x+1=(x-2)^2 quadratic?",
               "options": {
-                "A": "Yes   (B) No, linear   (C) No, identity   (D) Cannot be determined"
+                "A": "Yes",
+                "B": "No, linear",
+                "C": "No, identity",
+                "D": "Cannot be determined"
               },
               "answer": "B",
               "explanation": "x^2+3x+1=x^2-4x+4 → 7x-3=0. Linear."
@@ -608,7 +659,10 @@
               "difficulty": "Medium",
               "question": "Is x^3-4x^2-x+1=(x-2)^3 quadratic?",
               "options": {
-                "A": "Yes, 2x^2-13x+9=0   (B) No, cubic   (C) No, linear   (D) Cannot be determined"
+                "A": "Yes, 2x^2-13x+9=0",
+                "B": "No, cubic",
+                "C": "No, linear",
+                "D": "Cannot be determined"
               },
               "answer": "A",
               "explanation": "(x-2)^3=x^3-6x^2+12x-8. Simplifies to 2x^2-13x+9=0. Quadratic."
@@ -618,7 +672,10 @@
               "difficulty": "Hard",
               "question": "Train: 480 km at speed x; at (x-8) takes 3 hours more. Equation:",
               "options": {
-                "A": "x^2-8x-1280=0   (B) x^2+8x-1280=0   (C) x^2-8x+1280=0   (D) 3x^2-24x=3840"
+                "A": "x^2-8x-1280=0",
+                "B": "x^2+8x-1280=0",
+                "C": "x^2-8x+1280=0",
+                "D": "3x^2-24x=3840"
               },
               "answer": "A",
               "explanation": "480/(x-8)-480/x=3 → 3840=3x^2-24x → x^2-8x-1280=0."
@@ -628,7 +685,10 @@
               "difficulty": "Hard",
               "question": "Rohan's mother 26 years older. Product of ages 3 years from now=360. Rohan=x. Equation:",
               "options": {
-                "A": "x^2+32x-273=0   (B) x^2+29x-273=0   (C) x^2+32x+273=0   (D) x^2-32x-273=0"
+                "A": "x^2+32x-273=0",
+                "B": "x^2+29x-273=0",
+                "C": "x^2+32x+273=0",
+                "D": "x^2-32x-273=0"
               },
               "answer": "A",
               "explanation": "(x+3)(x+29)=360 → x^2+32x-273=0."
@@ -638,7 +698,10 @@
               "difficulty": "Hard",
               "question": "Is (x+2)^3=2x(x^2-1) quadratic?",
               "options": {
-                "A": "Yes   (B) No, cubic   (C) No, linear   (D) Cannot be determined"
+                "A": "Yes",
+                "B": "No, cubic",
+                "C": "No, linear",
+                "D": "Cannot be determined"
               },
               "answer": "B",
               "explanation": "LHS=x^3+6x^2+12x+8. RHS=2x^3-2x. -x^3+6x^2+14x+8=0 (degree 3). NOT quadratic."
@@ -847,7 +910,10 @@
               "difficulty": "Easy",
               "question": "Maximum number of roots of a quadratic equation:",
               "options": {
-                "A": "1   (B) 2   (C) 3   (D) Infinite"
+                "A": "1",
+                "B": "2",
+                "C": "3",
+                "D": "Infinite"
               },
               "answer": "B",
               "explanation": "Quadratic polynomial has at most 2 zeroes = at most 2 roots."
@@ -857,7 +923,10 @@
               "difficulty": "Easy",
               "question": "In factorisation method, after factorising into two linear factors, we:",
               "options": {
-                "A": "Add them   (B) Multiply them   (C) Equate each to zero   (D) Divide by one"
+                "A": "Add them",
+                "B": "Multiply them",
+                "C": "Equate each to zero",
+                "D": "Divide by one"
               },
               "answer": "C",
               "explanation": "By Zero Product Property, each factor is equated to zero."
@@ -867,7 +936,10 @@
               "difficulty": "Easy",
               "question": "Verify: is x=1 a root of 2x^2-3x+1=0?",
               "options": {
-                "A": "2-3+1=0. YES   (B) 2-3+1=1. NO   (C) Not a root   (D) Cannot check"
+                "A": "2-3+1=0. YES",
+                "B": "2-3+1=1. NO",
+                "C": "Not a root",
+                "D": "Cannot check"
               },
               "answer": "A",
               "explanation": "2(1)^2-3(1)+1=2-3+1=0=RHS. YES, x=1 is a root."
@@ -877,7 +949,10 @@
               "difficulty": "Easy",
               "question": "Roots of (2x-3)(x-1)=0 are:",
               "options": {
-                "A": "3 and 1   (B) 3/2 and 1   (C) -3/2 and -1   (D) 2/3 and 1"
+                "A": "3 and 1",
+                "B": "3/2 and 1",
+                "C": "-3/2 and -1",
+                "D": "2/3 and 1"
               },
               "answer": "B",
               "explanation": "2x-3=0→x=3/2; x-1=0→x=1."
@@ -887,7 +962,10 @@
               "difficulty": "Easy",
               "question": "Roots of 100x^2-20x+1=0:",
               "options": {
-                "A": "1/10 and 1/10   (B) 1/10 and -1/10   (C) 10 and 10   (D) 1/5 and 1/5"
+                "A": "1/10 and 1/10",
+                "B": "1/10 and -1/10",
+                "C": "10 and 10",
+                "D": "1/5 and 1/5"
               },
               "answer": "A",
               "explanation": "(10x-1)^2=0 → x=1/10 (repeated root)."
@@ -897,7 +975,10 @@
               "difficulty": "Medium",
               "question": "Roots of 2x^2 + x - 6 = 0:",
               "options": {
-                "A": "3/2 and -2   (B) -3/2 and 2   (C) 3 and -2   (D) 3/2 and 2"
+                "A": "3/2 and -2",
+                "B": "-3/2 and 2",
+                "C": "3 and -2",
+                "D": "3/2 and 2"
               },
               "answer": "A",
               "explanation": "(2x-3)(x+2)=0 → x=3/2 or x=-2."
@@ -907,7 +988,10 @@
               "difficulty": "Medium",
               "question": "2x^2+x-300=0 (prayer hall). Breadth x=?",
               "options": {
-                "A": "25 m   (B) 12 m   (C) -12.5 m   (D) 10 m"
+                "A": "25 m",
+                "B": "12 m",
+                "C": "-12.5 m",
+                "D": "10 m"
               },
               "answer": "B",
               "explanation": "(x-12)(2x+25)=0 → x=12 (positive). Breadth=12 m."
@@ -917,7 +1001,10 @@
               "difficulty": "Medium",
               "question": "Zeroes of polynomial ax^2+bx+c vs roots of ax^2+bx+c=0:",
               "options": {
-                "A": "Different   (B) Same   (C) Zeroes = 2 × Roots   (D) No relation"
+                "A": "Different",
+                "B": "Same",
+                "C": "Zeroes = 2 × Roots",
+                "D": "No relation"
               },
               "answer": "B",
               "explanation": "Zeroes of the polynomial equal roots of the equation."
@@ -927,7 +1014,10 @@
               "difficulty": "Medium",
               "question": "Roots of √2 x^2 + 7x + 5√2 = 0:",
               "options": {
-                "A": "-√2 and -5/√2   (B) √2 and 5/√2   (C) -5 and √2   (D) -1 and -5"
+                "A": "-√2 and -5/√2",
+                "B": "√2 and 5/√2",
+                "C": "-5 and √2",
+                "D": "-1 and -5"
               },
               "answer": "A",
               "explanation": "(√2 x+5)(x+√2)=0 → x=-5/√2 or x=-√2."
@@ -937,7 +1027,10 @@
               "difficulty": "Medium",
               "question": "Two numbers: sum=27, product=182. Equation:",
               "options": {
-                "A": "x^2-27x+182=0   (B) x^2+27x-182=0   (C) x^2-27x-182=0   (D) x^2+27x+182=0"
+                "A": "x^2-27x+182=0",
+                "B": "x^2+27x-182=0",
+                "C": "x^2-27x-182=0",
+                "D": "x^2+27x+182=0"
               },
               "answer": "A",
               "explanation": "x(27-x)=182 → x^2-27x+182=0."
@@ -947,7 +1040,10 @@
               "difficulty": "Medium",
               "question": "Pottery: cost per article=₹(2x+3), x=articles, total=₹90. Equation:",
               "options": {
-                "A": "2x^2+3x-90=0   (B) 2x^2+3x+90=0   (C) x^2+3x-90=0   (D) 2x^2-3x-90=0"
+                "A": "2x^2+3x-90=0",
+                "B": "2x^2+3x+90=0",
+                "C": "x^2+3x-90=0",
+                "D": "2x^2-3x-90=0"
               },
               "answer": "A",
               "explanation": "x(2x+3)=90 → 2x^2+3x-90=0."
@@ -957,7 +1053,10 @@
               "difficulty": "Hard",
               "question": "Two consecutive positive integers: sum of squares=365. They are:",
               "options": {
-                "A": "12,13   (B) 13,14   (C) 14,15   (D) 11,12"
+                "A": "12,13",
+                "B": "13,14",
+                "C": "14,15",
+                "D": "11,12"
               },
               "answer": "B",
               "explanation": "x^2+x-182=0 → (x-13)(x+14)=0 → x=13. Integers: 13,14."
@@ -967,8 +1066,10 @@
               "difficulty": "Hard",
               "question": "Both roots equal → quadratic is:",
               "options": {
-                "A": "Two different linear factors   (B) Perfect square (repeated factor)",
-                "C": "Cannot be factorised   (D) Has three factors"
+                "A": "Two different linear factors",
+                "B": "Perfect square (repeated factor)",
+                "C": "Cannot be factorised",
+                "D": "Has three factors"
               },
               "answer": "B",
               "explanation": "Equal roots → quadratic is a perfect square, e.g. (ax-b)^2=0."
@@ -978,7 +1079,10 @@
               "difficulty": "Hard",
               "question": "Right triangle: altitude 7 cm less than base, hypotenuse=13 cm. Base=?",
               "options": {
-                "A": "5 cm   (B) 7 cm   (C) 12 cm   (D) 13 cm"
+                "A": "5 cm",
+                "B": "7 cm",
+                "C": "12 cm",
+                "D": "13 cm"
               },
               "answer": "C",
               "explanation": "x^2+(x-7)^2=169 → x^2-7x-60=0 → x=12."
@@ -988,7 +1092,10 @@
               "difficulty": "Hard",
               "question": "2x^2 - x + 1/8 = 0. Roots:",
               "options": {
-                "A": "1/4 and 1/4   (B) 1/2 and 1/4   (C) -1/4 and -1/4   (D) 1/4 and -1/4"
+                "A": "1/4 and 1/4",
+                "B": "1/2 and 1/4",
+                "C": "-1/4 and -1/4",
+                "D": "1/4 and -1/4"
               },
               "answer": "A",
               "explanation": "×8: 16x^2-8x+1=0 → (4x-1)^2=0 → x=1/4 (repeated)."
@@ -1189,7 +1296,10 @@
               "difficulty": "Easy",
               "question": "Discriminant of ax^2+bx+c=0 is:",
               "options": {
-                "A": "b^2+4ac   (B) b^2-4ac   (C) 4ac-b^2   (D) b^2×4ac"
+                "A": "b^2+4ac",
+                "B": "b^2-4ac",
+                "C": "4ac-b^2",
+                "D": "b^2×4ac"
               },
               "answer": "B",
               "explanation": "D = b^2 - 4ac."
@@ -1199,7 +1309,10 @@
               "difficulty": "Easy",
               "question": "If D>0, the equation has:",
               "options": {
-                "A": "No real roots   (B) Two equal real roots   (C) Two distinct real roots   (D) Three roots"
+                "A": "No real roots",
+                "B": "Two equal real roots",
+                "C": "Two distinct real roots",
+                "D": "Three roots"
               },
               "answer": "C",
               "explanation": "D>0 → two distinct real roots: x=(-b±√D)/2a."
@@ -1209,7 +1322,10 @@
               "difficulty": "Easy",
               "question": "If D=0, both roots equal:",
               "options": {
-                "A": "b/2a   (B) -b/2a   (C) Zero   (D) -b/a"
+                "A": "b/2a",
+                "B": "-b/2a",
+                "C": "Zero",
+                "D": "-b/a"
               },
               "answer": "B",
               "explanation": "When D=0, roots = -b/2a (coincident)."
@@ -1219,7 +1335,10 @@
               "difficulty": "Easy",
               "question": "For 2x^2-4x+3=0, D=?",
               "options": {
-                "A": "8   (B) -8   (C) 16   (D) 40"
+                "A": "8",
+                "B": "-8",
+                "C": "16",
+                "D": "40"
               },
               "answer": "B",
               "explanation": "D=(-4)^2-4(2)(3)=16-24=-8."
@@ -1242,7 +1361,10 @@
               "difficulty": "Medium",
               "question": "For 3x^2-4√3 x+4=0, nature of roots:",
               "options": {
-                "A": "Two distinct   (B) Two equal   (C) No real   (D) Cannot determine"
+                "A": "Two distinct",
+                "B": "Two equal",
+                "C": "No real",
+                "D": "Cannot determine"
               },
               "answer": "B",
               "explanation": "D=(4√3)^2-4(3)(4)=48-48=0. Equal roots."
@@ -1252,7 +1374,10 @@
               "difficulty": "Medium",
               "question": "For 2x^2-3x+5=0, D and nature:",
               "options": {
-                "A": "D=31>0; distinct   (B) D=-31<0; no real   (C) D=0; equal   (D) D=49>0; distinct"
+                "A": "D=31>0; distinct",
+                "B": "D=-31<0; no real",
+                "C": "D=0; equal",
+                "D": "D=49>0; distinct"
               },
               "answer": "B",
               "explanation": "D=9-40=-31<0. No real roots."
@@ -1262,7 +1387,10 @@
               "difficulty": "Medium",
               "question": "For 2x^2+kx+3=0 to have equal roots, k=?",
               "options": {
-                "A": "±6   (B) ±2√6   (C) ±12   (D) ±√6"
+                "A": "±6",
+                "B": "±2√6",
+                "C": "±12",
+                "D": "±√6"
               },
               "answer": "B",
               "explanation": "D=k^2-24=0 → k=±2√6."
@@ -1272,7 +1400,10 @@
               "difficulty": "Medium",
               "question": "Circular park problem (diameter=13, difference=7): D=?",
               "options": {
-                "A": "49   (B) 289   (C) 121   (D) -49"
+                "A": "49",
+                "B": "289",
+                "C": "121",
+                "D": "-49"
               },
               "answer": "B",
               "explanation": "x^2+7x-60=0. D=49+240=289."
@@ -1282,7 +1413,10 @@
               "difficulty": "Medium",
               "question": "Two friends: sum of ages=20, product 4 years ago=48:",
               "options": {
-                "A": "Possible; ages 12 and 8   (B) Not possible; D<0   (C) Possible; both 10   (D) Not possible; D=0"
+                "A": "Possible; ages 12 and 8",
+                "B": "Not possible; D<0",
+                "C": "Possible; both 10",
+                "D": "Not possible; D=0"
               },
               "answer": "B",
               "explanation": "x^2-20x+112=0. D=400-448=-48<0. Not possible."
@@ -1292,7 +1426,10 @@
               "difficulty": "Medium",
               "question": "For 3x^2-2x+1/3=0, roots:",
               "options": {
-                "A": "1/3 and -1/3   (B) 1/3 and 1/3   (C) 2/3 and 2/3   (D) No real roots"
+                "A": "1/3 and -1/3",
+                "B": "1/3 and 1/3",
+                "C": "2/3 and 2/3",
+                "D": "No real roots"
               },
               "answer": "B",
               "explanation": "D=4-4=0. Roots=-(-2)/6=1/3 (both equal)."
@@ -1302,7 +1439,10 @@
               "difficulty": "Hard",
               "question": "For kx(x-2)+6=0 to have equal roots, k=?",
               "options": {
-                "A": "0 only   (B) 6 only   (C) 0 or 6   (D) ±6"
+                "A": "0 only",
+                "B": "6 only",
+                "C": "0 or 6",
+                "D": "±6"
               },
               "answer": "B",
               "explanation": "4k(k-6)=0 → k=0 or k=6. k=0 rejected (not quadratic). k=6."
@@ -1312,7 +1452,10 @@
               "difficulty": "Hard",
               "question": "Rectangular park: perimeter=80m, area=400m^2:",
               "options": {
-                "A": "Possible; 30m×10m   (B) Possible; 20m×20m (square)   (C) Not possible; D<0   (D) Possible; 40m×0"
+                "A": "Possible; 30m×10m",
+                "B": "Possible; 20m×20m (square)",
+                "C": "Not possible; D<0",
+                "D": "Possible; 40m×0"
               },
               "answer": "B",
               "explanation": "x^2-40x+400=0. D=0. x=20. Square of side 20m."
@@ -1323,8 +1466,8 @@
               "question": "2x^2-6x+3=0. Roots:",
               "options": {
                 "A": "and",
-                "B": "both correct.",
-                "C": "Both (A) and (B) are equivalent",
+                "B": "are equivalent",
+                "C": "Both",
                 "D": "3+√3 and 3-√3"
               },
               "answer": "C",
@@ -1335,7 +1478,10 @@
               "difficulty": "Hard",
               "question": "Mango grove: length=twice breadth, area=800m^2. D=?",
               "options": {
-                "A": "0   (B) 400   (C) 1600   (D) -1600"
+                "A": "0",
+                "B": "400",
+                "C": "1600",
+                "D": "-1600"
               },
               "answer": "C",
               "explanation": "x^2-400=0. a=1,b=0,c=-400. D=0-4(1)(-400)=1600."

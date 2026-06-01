@@ -52,8 +52,10 @@
           "difficulty": "Easy",
           "question": "When we factorise an algebraic expression, we write it as a:",
           "options": {
-            "A": "Sum of factors     (B) Product of factors",
-            "C": "Difference of factors    (D) Quotient of factors"
+            "A": "Sum of factors",
+            "B": "Product of factors",
+            "C": "Difference of factors",
+            "D": "Quotient of factors"
           },
           "answer": "B",
           "explanation": "Factorisation means writing an expression as a product of its factors."
@@ -63,7 +65,10 @@
           "difficulty": "Medium",
           "question": "Factorised form of 2x + 4 is:",
           "options": {
-            "A": "2(x + 4)   (B) 2(x + 2)   (C) x(2 + 4)   (D) 4(x + 1)"
+            "A": "2(x + 4)",
+            "B": "2(x + 2)",
+            "C": "x(2 + 4)",
+            "D": "4(x + 1)"
           },
           "answer": "B",
           "explanation": "Option (B) is correct based on the definition/theorem. Solution: 2x = 2 x x, 4 = 2 x 2. Common factor = 2. So 2x + 4 = 2(x + 2)."
@@ -73,8 +78,10 @@
           "difficulty": "Hard",
           "question": "Factorised form of m^4 - 256 is:",
           "options": {
-            "A": "(m^2 - 16)^2             (B) (m - 16)(m + 16)",
-            "C": "(m-4)(m+4)(m^2+16)       (D) (m^2 - 16)(m^2 - 16)"
+            "A": "(m^2 - 16)^2",
+            "B": "(m - 16)(m + 16)",
+            "C": "(m-4)(m+4)(m^2+16)",
+            "D": "(m^2 - 16)(m^2 - 16)"
           },
           "answer": "C",
           "explanation": "Option (C) is correct based on the definition/theorem. Solution: m^4 - 256 = (m^2)^2 - 16^2 = (m^2-16)(m^2+16). Then m^2 - 16 = (m-4)(m+4). Final: (m-4)(m+4)(m^2+16)."
@@ -84,7 +91,10 @@
           "difficulty": "Easy",
           "question": "Which of the following expressions is already in factorised form?",
           "options": {
-            "A": "3x + 6   (B) x^2 + 5x + 6   (C) 4(x+2)(x-1)   (D) 2x + 4"
+            "A": "3x + 6",
+            "B": "x^2 + 5x + 6",
+            "C": "4(x+2)(x-1)",
+            "D": "2x + 4"
           },
           "answer": "C",
           "explanation": "4(x+2)(x-1) is already a product of three factors."
@@ -94,7 +104,10 @@
           "difficulty": "Medium",
           "question": "Factorised form of 5xy + 10x is:",
           "options": {
-            "A": "5(xy + 10)   (B) 5x(y + 2)   (C) x(5y + 10)   (D) 10x(y + 1)"
+            "A": "5(xy + 10)",
+            "B": "5x(y + 2)",
+            "C": "x(5y + 10)",
+            "D": "10x(y + 1)"
           },
           "answer": "B",
           "explanation": "Option (B) is correct based on the definition/theorem. Solution: HCF of 5xy and 10x = 5x. 5xy + 10x = 5x(y+2)."
@@ -104,7 +117,10 @@
           "difficulty": "Hard",
           "question": "If (7x^2 + 14x) ÷ (x + 2) = quotient, then the quotient is:",
           "options": {
-            "A": "7x + 2   (B) 7(x+2)   (C) 7x   (D) 7"
+            "A": "7x + 2",
+            "B": "7(x+2)",
+            "C": "7x",
+            "D": "7"
           },
           "answer": "C",
           "explanation": "The correct answer is (C) 7x. Solution: 7x^2+14x = 7x(x+2). Cancel (x+2): quotient = 7x."
@@ -211,7 +227,10 @@
               "difficulty": "Easy",
               "question": "Prime factor form of 30 is:",
               "options": {
-                "A": "2 x 15   (B) 3 x 10   (C) 2 x 3 x 5   (D) 6 x 5"
+                "A": "2 x 15",
+                "B": "3 x 10",
+                "C": "2 x 3 x 5",
+                "D": "6 x 5"
               },
               "answer": "C",
               "explanation": "30 = 2 x 3 x 5. All factors are prime."
@@ -221,7 +240,10 @@
               "difficulty": "Medium",
               "question": "Prime factor form of 90 is:",
               "options": {
-                "A": "9 x 10   (B) 2 x 3 x 3 x 5   (C) 2 x 5 x 9   (D) 6 x 15"
+                "A": "9 x 10",
+                "B": "2 x 3 x 3 x 5",
+                "C": "2 x 5 x 9",
+                "D": "6 x 15"
               },
               "answer": "B",
               "explanation": "The correct answer is (B) 2 x 3 x 3 x 5. Solution: 90 = 2 x 45 = 2 x 9 x 5 = 2 x 3 x 3 x 5."
@@ -244,7 +266,10 @@
               "difficulty": "Easy",
               "question": "How many distinct prime factors does 70 have?",
               "options": {
-                "A": "2   (B) 3   (C) 4   (D) 5"
+                "A": "2",
+                "B": "3",
+                "C": "4",
+                "D": "5"
               },
               "answer": "B",
               "explanation": "The correct answer is (B) 3. Solution: 70 = 2 × 5 × 7. Three distinct prime factors: 2, 5, 7."
@@ -254,7 +279,10 @@
               "difficulty": "Medium",
               "question": "The prime factor form of 252 is:",
               "options": {
-                "A": "2 × 3 × 7^2   (B) 2^2 × 3^2 × 7   (C) 4 × 63   (D) 2^3 × 3 × 7"
+                "A": "2 × 3 × 7^2",
+                "B": "2^2 × 3^2 × 7",
+                "C": "4 × 63",
+                "D": "2^3 × 3 × 7"
               },
               "answer": "B",
               "explanation": "The correct answer is (B) 2^2 × 3^2 × 7. Solution: 252 = 4 × 63 = 4 × 9 × 7 = 2^2 × 3^2 × 7."
@@ -264,7 +292,10 @@
               "difficulty": "Hard",
               "question": "Which is NOT an irreducible factor of 6x^2y?",
               "options": {
-                "A": "2   (B) 3   (C) 6x   (D) x"
+                "A": "2",
+                "B": "3",
+                "C": "6x",
+                "D": "x"
               },
               "answer": "C",
               "explanation": "6x = 2 × 3 × x, which can be split further. So 6x is NOT irreducible. ----"
@@ -367,7 +398,10 @@
               "difficulty": "Easy",
               "question": "Prime factor form of 30 is:",
               "options": {
-                "A": "2 x 15   (B) 3 x 10   (C) 2 x 3 x 5   (D) 6 x 5"
+                "A": "2 x 15",
+                "B": "3 x 10",
+                "C": "2 x 3 x 5",
+                "D": "6 x 5"
               },
               "answer": "C",
               "explanation": "All factors must be prime. 15 = 3 x 5, so 2 x 15 is not prime factor form. 2 x 3 x 5 — all prime."
@@ -377,7 +411,10 @@
               "difficulty": "Medium",
               "question": "Which of the following is a prime factor of 90?",
               "options": {
-                "A": "6   (B) 9   (C) 15   (D) 3"
+                "A": "6",
+                "B": "9",
+                "C": "15",
+                "D": "3"
               },
               "answer": "D",
               "explanation": "90 = 2 x 3 x 3 x 5. Prime factors are 2, 3, 5. Of the options, only 3 is a prime factor."
@@ -387,7 +424,10 @@
               "difficulty": "Hard",
               "question": "How many distinct prime factors does 90 have?",
               "options": {
-                "A": "2   (B) 3   (C) 4   (D) 5"
+                "A": "2",
+                "B": "3",
+                "C": "4",
+                "D": "5"
               },
               "answer": "B",
               "explanation": "The correct answer is (B) 3. Solution: 90 = 2 x 3 x 3 x 5. Distinct prime factors: 2, 3, 5 → 3 distinct."
@@ -397,7 +437,10 @@
               "difficulty": "Easy",
               "question": "The prime factor form of 90 is:",
               "options": {
-                "A": "2 × 3 × 3 × 5   (B) 9 × 10   (C) 2 × 45   (D) 6 × 15"
+                "A": "2 × 3 × 3 × 5",
+                "B": "9 × 10",
+                "C": "2 × 45",
+                "D": "6 × 15"
               },
               "answer": "A",
               "explanation": "The correct answer is (A) 2 × 3 × 3 × 5. Solution: 90 = 2 × 3^2 × 5 = 2 × 3 × 3 × 5."
@@ -407,7 +450,10 @@
               "difficulty": "Medium",
               "question": "If N = 2^3 × 3 × 5^2, then N equals:",
               "options": {
-                "A": "360   (B) 600   (C) 450   (D) 300"
+                "A": "360",
+                "B": "600",
+                "C": "450",
+                "D": "300"
               },
               "answer": "B",
               "explanation": "The correct answer is (B) 600. Solution: 2^3 × 3 × 5^2 = 8 × 3 × 25 = 600."
@@ -417,7 +463,10 @@
               "difficulty": "Hard",
               "question": "HCF of 12 and 18 using prime factor form is:",
               "options": {
-                "A": "2   (B) 4   (C) 6   (D) 36"
+                "A": "2",
+                "B": "4",
+                "C": "6",
+                "D": "36"
               },
               "answer": "C",
               "explanation": "The correct answer is (C) 6. ----"
@@ -522,7 +571,10 @@
               "difficulty": "Easy",
               "question": "The irreducible factors of 5xy are:",
               "options": {
-                "A": "5 and xy    (B) 5x and y    (C) 5, x and y    (D) 5xy (already irreducible)"
+                "A": "5 and xy",
+                "B": "5x and y",
+                "C": "5, x and y",
+                "D": "5xy (already irreducible)"
               },
               "answer": "C",
               "explanation": "5xy = 5 x x x y. Each of 5, x, y is irreducible individually."
@@ -532,7 +584,10 @@
               "difficulty": "Medium",
               "question": "3x(x+2) in irreducible factor form is:",
               "options": {
-                "A": "3 x x(x+2)   (B) 3 x x x (x+2)   (C) 3x x (x+2)   (D) 3 x (x+2)"
+                "A": "3 x x(x+2)",
+                "B": "3 x x x (x+2)",
+                "C": "3x x (x+2)",
+                "D": "3 x (x+2)"
               },
               "answer": "B",
               "explanation": "x and (x+2) are both irreducible. So 3x(x+2) = 3 x x x (x+2)."
@@ -542,7 +597,10 @@
               "difficulty": "Hard",
               "question": "Which expression is already in irreducible factor form?",
               "options": {
-                "A": "2x + 4    (B) x^2 + 5x + 6    (C) 3x(x+2)    (D) 3x + 3y"
+                "A": "2x + 4",
+                "B": "x^2 + 5x + 6",
+                "C": "3x(x+2)",
+                "D": "3x + 3y"
               },
               "answer": "C",
               "explanation": "3x(x+2) = 3 x x x (x+2) — all three are irreducible. The others need factorisation: 2x+4 = 2(x+2), 3x+3y = 3(x+y), x^2+5x+6 = (x+2)(x+3)."
@@ -552,7 +610,10 @@
               "difficulty": "Easy",
               "question": "The number of irreducible factors in 3x(x+2) is:",
               "options": {
-                "A": "1   (B) 2   (C) 3   (D) 4"
+                "A": "1",
+                "B": "2",
+                "C": "3",
+                "D": "4"
               },
               "answer": "C",
               "explanation": "3x(x+2) = 3 × x × (x+2). Three irreducible factors."
@@ -562,7 +623,10 @@
               "difficulty": "Medium",
               "question": "Which pair has the same set of irreducible factors?",
               "options": {
-                "A": "5xy and 5x   (B) 3x^2 and 3x   (C) 2xy and 2x^2   (D) 7ab and 7a^2b"
+                "A": "5xy and 5x",
+                "B": "3x^2 and 3x",
+                "C": "2xy and 2x^2",
+                "D": "7ab and 7a^2b"
               },
               "answer": "A",
               "explanation": "Irreducible factors of 5xy = {5, x, y}. Of 5x = {5, x}. NOT same. Actually none are same — the correct answer among these is that each has its own unique set. Answer D: 7ab = 7×a×b. 7a^2b = 7×a×a×b. NOT same. Revised: Among the options, none are truly identical sets, but the question tests recognition. Accept D — both share 7, a, b (just different powers of a). Answer: D | Difficulty: Medium"
@@ -572,7 +636,10 @@
               "difficulty": "Hard",
               "question": "10x(x+2)(y+3) has how many irreducible factors?",
               "options": {
-                "A": "3   (B) 4   (C) 5   (D) 6"
+                "A": "3",
+                "B": "4",
+                "C": "5",
+                "D": "6"
               },
               "answer": "C",
               "explanation": "10 = 2×5. So: 2, 5, x, (x+2), (y+3) — five irreducible factors."
@@ -693,8 +760,10 @@
               "difficulty": "Easy",
               "question": "Factorisation means writing an expression as:",
               "options": {
-                "A": "A sum of factors       (B) A product of factors",
-                "C": "A difference of factors   (D) A quotient of factors"
+                "A": "A sum of factors",
+                "B": "A product of factors",
+                "C": "A difference of factors",
+                "D": "A quotient of factors"
               },
               "answer": "B",
               "explanation": "Factorisation always results in a PRODUCT (multiplication) of factors."
@@ -704,8 +773,10 @@
               "difficulty": "Medium",
               "question": "Which expression is already in factorised (factor) form?",
               "options": {
-                "A": "2x + 4       (B) x^2 + 5x + 6",
-                "C": "5(y+1)(x+2)  (D) 3x + 3y"
+                "A": "2x + 4",
+                "B": "x^2 + 5x + 6",
+                "C": "5(y+1)(x+2)",
+                "D": "3x + 3y"
               },
               "answer": "C",
               "explanation": "5(y+1)(x+2) is already a product of three factors: 5, (y+1), (x+2)."
@@ -715,7 +786,10 @@
               "difficulty": "Hard",
               "question": "Which of the following CANNOT be factorised further?",
               "options": {
-                "A": "2x + 4    (B) 3x + 3y    (C) x^2 + 5x + 6    (D) 5xy"
+                "A": "2x + 4",
+                "B": "3x + 3y",
+                "C": "x^2 + 5x + 6",
+                "D": "5xy"
               },
               "answer": "D",
               "explanation": "5xy = 5 x x x y — already in irreducible factor form. The others can be factorised: 2x+4=2(x+2), 3x+3y=3(x+y), x^2+5x+6=(x+2)(x+3)."
@@ -725,7 +799,10 @@
               "difficulty": "Easy",
               "question": "Factorised form of 7x − 42 is:",
               "options": {
-                "A": "7(x − 6)   (B) 7x(1 − 6)   (C) x(7 − 42)   (D) 42(x − 7)"
+                "A": "7(x − 6)",
+                "B": "7x(1 − 6)",
+                "C": "x(7 − 42)",
+                "D": "42(x − 7)"
               },
               "answer": "A",
               "explanation": "Option (A) is correct based on the definition/theorem. Solution: HCF = 7. 7x−42 = 7(x−6)."
@@ -735,7 +812,10 @@
               "difficulty": "Medium",
               "question": "Factorised form of 6xy − 4y + 6 − 9x is:",
               "options": {
-                "A": "(3x+2)(2y−3)   (B) (3x−2)(2y+3)   (C) (3x−2)(2y−3)   (D) (2y−3)(3x+2)"
+                "A": "(3x+2)(2y−3)",
+                "B": "(3x−2)(2y+3)",
+                "C": "(3x−2)(2y−3)",
+                "D": "(2y−3)(3x+2)"
               },
               "answer": "C",
               "explanation": "Option (C) is correct based on the definition/theorem. Solution: Regrouping gives (3x−2)(2y−3)."
@@ -745,7 +825,10 @@
               "difficulty": "Hard",
               "question": "The area of a square is a^2 + 14a + 49. The side of the square is:",
               "options": {
-                "A": "a + 7   (B) a + 14   (C) a − 7   (D) 2a + 7"
+                "A": "a + 7",
+                "B": "a + 14",
+                "C": "a − 7",
+                "D": "2a + 7"
               },
               "answer": "A",
               "explanation": "The correct answer is (A) a + 7. Solution: a^2+14a+49 = (a+7)^2. So side = (a+7). ----"
@@ -907,7 +990,10 @@
               "difficulty": "Easy",
               "question": "Factorised form of 2x + 4 is:",
               "options": {
-                "A": "2(x + 4)   (B) 2(x + 2)   (C) x(2 + 4)   (D) 4(x + 1)"
+                "A": "2(x + 4)",
+                "B": "2(x + 2)",
+                "C": "x(2 + 4)",
+                "D": "4(x + 1)"
               },
               "answer": "B",
               "explanation": "HCF of 2x and 4 is 2. 2x + 4 = 2(x + 2)."
@@ -917,7 +1003,10 @@
               "difficulty": "Easy",
               "question": "The HCF (common factor) of 5xy and 10x is:",
               "options": {
-                "A": "5y   (B) 10x   (C) 5x   (D) xy"
+                "A": "5y",
+                "B": "10x",
+                "C": "5x",
+                "D": "xy"
               },
               "answer": "C",
               "explanation": "The correct answer is (C) 5x. Solution: 5xy = 5 x x x y, 10x = 2 x 5 x x. HCF = 5 x x = 5x."
@@ -927,7 +1016,10 @@
               "difficulty": "Medium",
               "question": "Factorised form of 12a^2b + 15ab^2 is:",
               "options": {
-                "A": "3a(4ab + 5b^2)   (B) 3ab(4a + 5(B)   (C) ab(12a + 15(B)   (D) 3b(4a^2 + 5ab)"
+                "A": "3a(4ab + 5b^2)",
+                "B": "3ab(4a + 5",
+                "C": "ab(12a + 15",
+                "D": "3b(4a^2 + 5ab)"
               },
               "answer": "B",
               "explanation": "Option (B) is correct based on the definition/theorem. Solution: HCF of 12a^2b and 15ab^2 = 3ab. 12a^2b + 15ab^2 = 3ab(4a + 5b)."
@@ -937,8 +1029,10 @@
               "difficulty": "Medium",
               "question": "Factorised form of 10x^2 - 18x^3 + 14x^4 is:",
               "options": {
-                "A": "2x(5x - 9x^2 + 7x^3)   (B) 2x^2(5 - 9x + 7x^2)",
-                "C": "x^2(10 - 18x + 14x^2)  (D) 2(5x^2 - 9x^3 + 7x^4)"
+                "A": "2x(5x - 9x^2 + 7x^3)",
+                "B": "2x^2(5 - 9x + 7x^2)",
+                "C": "x^2(10 - 18x + 14x^2)",
+                "D": "2(5x^2 - 9x^3 + 7x^4)"
               },
               "answer": "B",
               "explanation": "Option (B) is correct based on the definition/theorem. Solution: HCF = 2x^2. 10x^2 - 18x^3 + 14x^4 = 2x^2(5 - 9x + 7x^2)."
@@ -948,8 +1042,10 @@
               "difficulty": "Hard",
               "question": "Factorised form of -4a^2 + 4ab - 4ca is:",
               "options": {
-                "A": "-4a(a - b + (C)   (B) 4a(-a + b - c)",
-                "C": "Both A and B     (D) -4(a^2 - ab + ca)"
+                "A": "-4a(a - b +",
+                "B": "4a(-a + b - c)",
+                "C": "Both A and B",
+                "D": "-4(a^2 - ab + ca)"
               },
               "answer": "C",
               "explanation": "HCF = 4a (taking out with negative sign). -4a^2 + 4ab - 4ca = -4a(a - b + c) = 4a(-a + b - c). Both are equivalent."
@@ -959,7 +1055,10 @@
               "difficulty": "Medium",
               "question": "Factorised form of x^2yz + xy^2z + xyz^2 is:",
               "options": {
-                "A": "xyz(x+y+z)   (B) xy(xz+yz+z^2)   (C) z(x^2y+xy^2+xy)   (D) xyz + xyz + xyz"
+                "A": "xyz(x+y+z)",
+                "B": "xy(xz+yz+z^2)",
+                "C": "z(x^2y+xy^2+xy)",
+                "D": "xyz + xyz + xyz"
               },
               "answer": "A",
               "explanation": "Option (A) is correct based on the definition/theorem. Solution: HCF = xyz. x^2yz+xy^2z+xyz^2 = xyz(x+y+z). ----"
@@ -1103,8 +1202,10 @@
               "difficulty": "Easy",
               "question": "Factorised form of 2xy + 2y + 3x + 3 is:",
               "options": {
-                "A": "(2y+3)(x+1)   (B) (x+1)(2y+3)",
-                "C": "Both A and B  (D) (2x+3)(y+1)"
+                "A": "(2y+3)(x+1)",
+                "B": "(x+1)(2y+3)",
+                "C": "Both A and B",
+                "D": "(2x+3)(y+1)"
               },
               "answer": "C",
               "explanation": "(x+1)(2y+3) = (2y+3)(x+1) — same expression, order of factors can differ."
@@ -1114,8 +1215,10 @@
               "difficulty": "Medium",
               "question": "Factorised form of 6xy - 4y + 6 - 9x is:",
               "options": {
-                "A": "(3x-2)(2y-3)   (B) (3x+2)(2y+3)",
-                "C": "(2y-3)(3x+2)   (D) (3x-2)(2y+3)"
+                "A": "(3x-2)(2y-3)",
+                "B": "(3x+2)(2y+3)",
+                "C": "(2y-3)(3x+2)",
+                "D": "(3x-2)(2y+3)"
               },
               "answer": "A",
               "explanation": "Option (A) is correct based on the definition/theorem. Solution: Regroup: 2y(3x-2) - 3(3x-2) = (3x-2)(2y-3)."
@@ -1125,8 +1228,10 @@
               "difficulty": "Hard",
               "question": "Factorised form of z - 7 + 7xy - xyz is:",
               "options": {
-                "A": "(1-xy)(z+7)    (B) (1-xy)(7-z)",
-                "C": "(xy-1)(z-7)    (D) (z-7)(1-xy)"
+                "A": "(1-xy)(z+7)",
+                "B": "(1-xy)(7-z)",
+                "C": "(xy-1)(z-7)",
+                "D": "(z-7)(1-xy)"
               },
               "answer": "D",
               "explanation": "Option (D) is correct based on the definition/theorem. Solution: Regroup: (z - 7) + (7xy - xyz) = (z-7) + xy(7-z) = (z-7) - xy(z-7) = (z-7)(1-xy)."
@@ -1136,7 +1241,10 @@
               "difficulty": "Medium",
               "question": "Factorised form of ax + bx − ay − by is:",
               "options": {
-                "A": "(a+b)(x−y)   (B) (x+y)(a−(B)   (C) (a−b)(x+y)   (D) ab(x−y)"
+                "A": "(a+b)(x−y)",
+                "B": "(x+y)(a−",
+                "C": "(a−b)(x+y)",
+                "D": "ab(x−y)"
               },
               "answer": "A",
               "explanation": "Option (A) is correct based on the definition/theorem. Solution: x(a+b) − y(a+b) = (a+b)(x−y)."
@@ -1146,7 +1254,10 @@
               "difficulty": "Hard",
               "question": "Factorised form of 15pq + 15 + 9q + 25p is:",
               "options": {
-                "A": "(5p+3)(3q+5)   (B) (3q+5)(5p+3)   (C) Both A and B   (D) (15p+9)(q+1)"
+                "A": "(5p+3)(3q+5)",
+                "B": "(3q+5)(5p+3)",
+                "C": "Both A and B",
+                "D": "(15p+9)(q+1)"
               },
               "answer": "C",
               "explanation": "The correct answer is (C) Both A and B. Solution: 5p(3q+5) + 3(3q+5) = (3q+5)(5p+3) = (5p+3)(3q+5). Same expression. ----"
@@ -1309,7 +1420,10 @@
               "difficulty": "Easy",
               "question": "x^2 + 8x + 16 factorises to:",
               "options": {
-                "A": "(x+4)(x-4)   (B) (x+4)^2   (C) (x-4)^2   (D) (x+8)(x+2)"
+                "A": "(x+4)(x-4)",
+                "B": "(x+4)^2",
+                "C": "(x-4)^2",
+                "D": "(x+8)(x+2)"
               },
               "answer": "B",
               "explanation": "a = x, b = 4. x^2 + 2(x)(4) + 4^2 = (x+4)^2. [Identity I]"
@@ -1319,7 +1433,10 @@
               "difficulty": "Easy",
               "question": "Which identity is used to factorise a^2 - b^2?",
               "options": {
-                "A": "Identity I   (B) Identity II   (C) Identity III   (D) None"
+                "A": "Identity I",
+                "B": "Identity II",
+                "C": "Identity III",
+                "D": "None"
               },
               "answer": "C",
               "explanation": "(a+b)(a-b) = a^2 - b^2 is Identity III."
@@ -1329,7 +1446,10 @@
               "difficulty": "Medium",
               "question": "Factorised form of 4y^2 - 12y + 9 is:",
               "options": {
-                "A": "(2y+3)^2   (B) (2y-3)^2   (C) (4y-9)(y-1)   (D) (2y-3)(2y+3)"
+                "A": "(2y+3)^2",
+                "B": "(2y-3)^2",
+                "C": "(4y-9)(y-1)",
+                "D": "(2y-3)(2y+3)"
               },
               "answer": "B",
               "explanation": "Option (B) is correct based on the definition/theorem. Solution: a = 2y, b = 3. (2y-3)^2. [Identity II]"
@@ -1339,7 +1459,10 @@
               "difficulty": "Medium",
               "question": "Factorised form of 49p^2 - 36 is:",
               "options": {
-                "A": "(49p-36)(p+1)   (B) (7p-6)^2   (C) (7p-6)(7p+6)   (D) (7p+6)^2"
+                "A": "(49p-36)(p+1)",
+                "B": "(7p-6)^2",
+                "C": "(7p-6)(7p+6)",
+                "D": "(7p+6)^2"
               },
               "answer": "C",
               "explanation": "Option (C) is correct based on the definition/theorem. Solution: a = 7p, b = 6. 49p^2-36 = (7p-6)(7p+6). [Identity III]"
@@ -1349,8 +1472,10 @@
               "difficulty": "Hard",
               "question": "Factorised form of m^4 - 256 is:",
               "options": {
-                "A": "(m^2-16)^2          (B) (m-16)(m+16)",
-                "C": "(m-4)(m+4)(m^2+16)  (D) (m^2-16)(m^2-16)"
+                "A": "(m^2-16)^2",
+                "B": "(m-16)(m+16)",
+                "C": "(m-4)(m+4)(m^2+16)",
+                "D": "(m^2-16)(m^2-16)"
               },
               "answer": "C",
               "explanation": "Option (C) is correct based on the definition/theorem. Solution: m^4-256 = (m^2-16)(m^2+16) = (m-4)(m+4)(m^2+16)."
@@ -1360,7 +1485,10 @@
               "difficulty": "Medium",
               "question": "The factorised form of a^2 − 2ab + b^2 − c^2 is:",
               "options": {
-                "A": "(a−b+c)(a−b−(C)   (B) (a+b−c)(a−b+(C)   (C) (a−b−c)(a−b+(C)   (D) (a+b+c)^2"
+                "A": "(a−b+c)(a−b−",
+                "B": "(a+b−c)(a−b+",
+                "C": "(a−b−c)(a−b+",
+                "D": "(a+b+c)^2"
               },
               "answer": "C",
               "explanation": "Option (C) is correct based on the definition/theorem. Solution: (a−b)^2 − c^2 = [(a−b)−c][(a−b)+c] = (a−b−c)(a−b+c). ----"
@@ -1507,8 +1635,10 @@
               "difficulty": "Easy",
               "question": "For factorising x^2 + px + q, we find a and b such that:",
               "options": {
-                "A": "a + b = q and ab = p    (B) ab = q and a + b = p",
-                "C": "a x b = p and a + b = q   (D) ab = p + q"
+                "A": "a + b = q and ab = p",
+                "B": "ab = q and a + b = p",
+                "C": "a x b = p and a + b = q",
+                "D": "ab = p + q"
               },
               "answer": "B",
               "explanation": "Compare with (x+a)(x+b) = x^2 + (a+b)x + ab. So ab = q, a+b = p."
@@ -1518,7 +1648,10 @@
               "difficulty": "Easy",
               "question": "Factorised form of x^2 + 5x + 6 is:",
               "options": {
-                "A": "(x+1)(x+6)   (B) (x+2)(x+3)   (C) (x+5)(x+1)   (D) (x-2)(x-3)"
+                "A": "(x+1)(x+6)",
+                "B": "(x+2)(x+3)",
+                "C": "(x+5)(x+1)",
+                "D": "(x-2)(x-3)"
               },
               "answer": "B",
               "explanation": "Option (B) is correct based on the definition/theorem. Solution: ab=6, a+b=5 → a=2, b=3."
@@ -1528,7 +1661,10 @@
               "difficulty": "Medium",
               "question": "Factorised form of y^2 - 7y + 12 is:",
               "options": {
-                "A": "(y+3)(y+4)   (B) (y-3)(y-4)   (C) (y-6)(y-2)   (D) (y-12)(y+1)"
+                "A": "(y+3)(y+4)",
+                "B": "(y-3)(y-4)",
+                "C": "(y-6)(y-2)",
+                "D": "(y-12)(y+1)"
               },
               "answer": "B",
               "explanation": "Option (B) is correct based on the definition/theorem. Solution: ab=12, a+b=-7 → a=-3, b=-4."
@@ -1538,7 +1674,10 @@
               "difficulty": "Medium",
               "question": "Factorised form of z^2 - 4z - 12 is:",
               "options": {
-                "A": "(z+6)(z-2)   (B) (z-6)(z+2)   (C) (z-4)(z+3)   (D) (z+4)(z-3)"
+                "A": "(z+6)(z-2)",
+                "B": "(z-6)(z+2)",
+                "C": "(z-4)(z+3)",
+                "D": "(z+4)(z-3)"
               },
               "answer": "B",
               "explanation": "Option (B) is correct based on the definition/theorem. Solution: ab=-12, a+b=-4 → a=-6, b=2."
@@ -1548,7 +1687,10 @@
               "difficulty": "Hard",
               "question": "Factorised form of 3m^2 + 9m + 6 is:",
               "options": {
-                "A": "3(m+2)(m+3)   (B) 3(m+1)(m+6)   (C) 3(m+1)(m+2)   (D) (3m+3)(m+2)"
+                "A": "3(m+2)(m+3)",
+                "B": "3(m+1)(m+6)",
+                "C": "3(m+1)(m+2)",
+                "D": "(3m+3)(m+2)"
               },
               "answer": "C",
               "explanation": "Option (C) is correct based on the definition/theorem. Solution: 3(m^2 + 3m + 2) = 3(m+1)(m+2)."
@@ -1558,7 +1700,10 @@
               "difficulty": "Hard",
               "question": "Factorised form of 2z^2 − z − 6 is:",
               "options": {
-                "A": "(2z+3)(z−2)   (B) (2z−3)(z+2)   (C) (z−2)(2z+3)   (D) Both A and C"
+                "A": "(2z+3)(z−2)",
+                "B": "(2z−3)(z+2)",
+                "C": "(z−2)(2z+3)",
+                "D": "Both A and C"
               },
               "answer": "D",
               "explanation": "The correct answer is (D) Both A and C. Solution: 2z^2−z−6 = 2z^2−4z+3z−6 = 2z(z−2)+3(z−2) = (z−2)(2z+3)."
@@ -1675,7 +1820,10 @@
               "difficulty": "Easy",
               "question": "Division of algebraic expressions is the inverse of:",
               "options": {
-                "A": "Addition   (B) Subtraction   (C) Multiplication   (D) Factorisation"
+                "A": "Addition",
+                "B": "Subtraction",
+                "C": "Multiplication",
+                "D": "Factorisation"
               },
               "answer": "C",
               "explanation": "Division undoes multiplication, just as 56/7 = 8 because 7 x 8 = 56."
@@ -1685,7 +1833,10 @@
               "difficulty": "Medium",
               "question": "6x^3 / 2x equals:",
               "options": {
-                "A": "3x^2   (B) 3x^3   (C) 6x^2   (D) 12x^4"
+                "A": "3x^2",
+                "B": "3x^3",
+                "C": "6x^2",
+                "D": "12x^4"
               },
               "answer": "A",
               "explanation": "The correct answer is (A) 3x^2. Solution: 6x^3/2x = 3x^2."
@@ -1695,7 +1846,10 @@
               "difficulty": "Hard",
               "question": "If Dividend = 5x^2 + 20x and Divisor = (x + 4), then Quotient is:",
               "options": {
-                "A": "5x + 4   (B) x + 4   (C) 5x   (D) 5(x + 4)"
+                "A": "5x + 4",
+                "B": "x + 4",
+                "C": "5x",
+                "D": "5(x + 4)"
               },
               "answer": "C",
               "explanation": "The correct answer is (C) 5x. Solution: 5x^2 + 20x = 5x(x + 4). Cancel (x+4): Quotient = 5x."
@@ -1705,8 +1859,10 @@
               "difficulty": "Easy",
               "question": "Which statement about algebraic division is TRUE?",
               "options": {
-                "A": "6x^3 ÷ 2x = 3x^3   (B) 6x^3 ÷ 2x = 3x^2",
-                "C": "6x^3 ÷ 2x = 4x^2   (D) 6x^3 ÷ 2x = 12x^4"
+                "A": "6x^3 ÷ 2x = 3x^3",
+                "B": "6x^3 ÷ 2x = 3x^2",
+                "C": "6x^3 ÷ 2x = 4x^2",
+                "D": "6x^3 ÷ 2x = 12x^4"
               },
               "answer": "B",
               "explanation": "The correct answer is (B) 6x^3 ÷ 2x = 3x^2. Solution: 6x^3/2x = (6/2) × (x^3/x) = 3x^2."
@@ -1716,7 +1872,10 @@
               "difficulty": "Medium",
               "question": "(5x^2 + 20x) ÷ 5x equals:",
               "options": {
-                "A": "x + 20   (B) x + 4   (C) 5x + 4   (D) x^2 + 4"
+                "A": "x + 20",
+                "B": "x + 4",
+                "C": "5x + 4",
+                "D": "x^2 + 4"
               },
               "answer": "B",
               "explanation": "The correct answer is (B) x + 4. Solution: 5x^2/5x = x. 20x/5x = 4. Result = x + 4."
@@ -1726,7 +1885,10 @@
               "difficulty": "Hard",
               "question": "If Dividend = 15x^2y and Divisor = 3xy, the Quotient is:",
               "options": {
-                "A": "5x   (B) 5y   (C) 5xy   (D) 5x^2"
+                "A": "5x",
+                "B": "5y",
+                "C": "5xy",
+                "D": "5x^2"
               },
               "answer": "A",
               "explanation": "The correct answer is (A) 5x. Solution: 15x^2y / 3xy = (15/3) × (x^2/x) × (y/y) = 5x. ----"
@@ -1854,7 +2016,10 @@
               "difficulty": "Easy",
               "question": "(-20x^4) / 10x^2 equals:",
               "options": {
-                "A": "-2x^2   (B) 2x^2   (C) -2x^6   (D) 10x^2"
+                "A": "-2x^2",
+                "B": "2x^2",
+                "C": "-2x^6",
+                "D": "10x^2"
               },
               "answer": "A",
               "explanation": "The correct answer is (A) -2x^2. Solution: (-20/10) x (x^4/x^2) = -2x^2."
@@ -1864,7 +2029,10 @@
               "difficulty": "Easy",
               "question": "7x^2y^2z^2 / 14xyz equals:",
               "options": {
-                "A": "(1/2)xyz   (B) 2xyz   (C) xyz/14   (D) 7xyz"
+                "A": "(1/2)xyz",
+                "B": "2xyz",
+                "C": "xyz/14",
+                "D": "7xyz"
               },
               "answer": "A",
               "explanation": "Option (A) is correct based on the definition/theorem. Solution: (7/14) x x x y x z = (1/2)xyz."
@@ -1887,7 +2055,10 @@
               "difficulty": "Easy",
               "question": "36x^3y^2 ÷ 9x^2y equals:",
               "options": {
-                "A": "4xy   (B) 4x^2y^2   (C) 4y   (D) 9xy"
+                "A": "4xy",
+                "B": "4x^2y^2",
+                "C": "4y",
+                "D": "9xy"
               },
               "answer": "A",
               "explanation": "The correct answer is (A) 4xy. Solution: (36/9)×(x^3/x^2)×(y^2/y) = 4×x×y = 4xy."
@@ -1897,7 +2068,10 @@
               "difficulty": "Medium",
               "question": "−54a^4b^3c^2 ÷ 9a^2bc equals:",
               "options": {
-                "A": "−6a^2b^2c   (B) 6a^2b^2c   (C) −6a^2b^3c^2   (D) −6a^6b^4c^3"
+                "A": "−6a^2b^2c",
+                "B": "6a^2b^2c",
+                "C": "−6a^2b^3c^2",
+                "D": "−6a^6b^4c^3"
               },
               "answer": "A",
               "explanation": "The correct answer is (A) −6a^2b^2c. Solution: (−54/9)×(a^4/a^2)×(b^3/b)×(c^2/c) = −6×a^2×b^2×c = −6a^2b^2c."
@@ -1907,7 +2081,10 @@
               "difficulty": "Hard",
               "question": "24xy^2z^3 ÷ 6yz^2 equals:",
               "options": {
-                "A": "4xyz   (B) 4xy^3z   (C) 4xz   (D) 18xy^3z"
+                "A": "4xyz",
+                "B": "4xy^3z",
+                "C": "4xz",
+                "D": "18xy^3z"
               },
               "answer": "A",
               "explanation": "The correct answer is (A) 4xyz. Solution: (24/6)×x×(y^2/y)×(z^3/z^2) = 4×x×y×z = 4xyz. ----"
@@ -2041,8 +2218,10 @@
               "difficulty": "Easy",
               "question": "(4y^3 + 5y^2 + 6y) / 2y equals:",
               "options": {
-                "A": "2y^2 + (5/2)y + 3   (B) 4y^2 + 5y + 6",
-                "C": "2y^3 + 5y^2 + 6y    (D) 2y + 5/2 + 3/y"
+                "A": "2y^2 + (5/2)y + 3",
+                "B": "4y^2 + 5y + 6",
+                "C": "2y^3 + 5y^2 + 6y",
+                "D": "2y + 5/2 + 3/y"
               },
               "answer": "A",
               "explanation": "Option (A) is correct based on the definition/theorem. Solution: Divide each term: 4y^3/2y=2y^2, 5y^2/2y=(5/2)y, 6y/2y=3."
@@ -2065,7 +2244,10 @@
               "difficulty": "Medium",
               "question": "Result of dividing 24(x^2yz + xy^2z + xyz^2) by 8xyz is:",
               "options": {
-                "A": "3xyz   (B) 3(x+y+z)   (C) 3(xy+yz+xz)   (D) 8(x+y+z)"
+                "A": "3xyz",
+                "B": "3(x+y+z)",
+                "C": "3(xy+yz+xz)",
+                "D": "8(x+y+z)"
               },
               "answer": "B",
               "explanation": "Option (B) is correct based on the definition/theorem. Solution: 24xyz(x+y+z)/8xyz = 3(x+y+z)."
@@ -2075,7 +2257,10 @@
               "difficulty": "Easy",
               "question": "(5x^2 − 10x) ÷ 5x equals:",
               "options": {
-                "A": "x − 2   (B) x + 2   (C) 5(x−2)   (D) x^2 − 2"
+                "A": "x − 2",
+                "B": "x + 2",
+                "C": "5(x−2)",
+                "D": "x^2 − 2"
               },
               "answer": "A",
               "explanation": "The correct answer is (A) x − 2. Solution: 5x^2/5x − 10x/5x = x − 2."
@@ -2085,7 +2270,10 @@
               "difficulty": "Medium",
               "question": "The area of a rectangle is (x^3 + 2x^2 + 3x) and breadth is x. The length is:",
               "options": {
-                "A": "x^2 + 2x   (B) x^2 + 2x + 3   (C) x + 2 + 3   (D) x^3 + 2x"
+                "A": "x^2 + 2x",
+                "B": "x^2 + 2x + 3",
+                "C": "x + 2 + 3",
+                "D": "x^3 + 2x"
               },
               "answer": "B",
               "explanation": "The correct answer is (B) x^2 + 2x + 3. Solution: (x^3+2x^2+3x)/x = x^2 + 2x + 3."
@@ -2095,7 +2283,10 @@
               "difficulty": "Hard",
               "question": "(3y^8 − 4y^6 + 5y^4) ÷ y^4 equals:",
               "options": {
-                "A": "3y^4 − 4y^2 + 5   (B) 3y^2 − 4y + 5   (C) 3y^4 − 4y^2   (D) 3y^4"
+                "A": "3y^4 − 4y^2 + 5",
+                "B": "3y^2 − 4y + 5",
+                "C": "3y^4 − 4y^2",
+                "D": "3y^4"
               },
               "answer": "A",
               "explanation": "The correct answer is (A) 3y^4 − 4y^2 + 5. Solution: 3y^8/y^4=3y^4, −4y^6/y^4=−4y^2, 5y^4/y^4=5. Result=3y^4−4y^2+5."
@@ -2269,7 +2460,10 @@
               "difficulty": "Easy",
               "question": "(7x^2 + 14x) / (x + 2) equals:",
               "options": {
-                "A": "7x - 2   (B) 7(x+2)   (C) 7x   (D) x + 2"
+                "A": "7x - 2",
+                "B": "7(x+2)",
+                "C": "7x",
+                "D": "x + 2"
               },
               "answer": "C",
               "explanation": "The correct answer is (C) 7x. Solution: 7x^2 + 14x = 7x(x+2). Cancel (x+2): result = 7x."
@@ -2279,7 +2473,10 @@
               "difficulty": "Medium",
               "question": "z(5z^2 - 80) / 5z(z + 4) equals:",
               "options": {
-                "A": "z + 4   (B) z - 4   (C) 5(z - 4)   (D) (z-4)/5"
+                "A": "z + 4",
+                "B": "z - 4",
+                "C": "5(z - 4)",
+                "D": "(z-4)/5"
               },
               "answer": "B",
               "explanation": "The correct answer is (B) z - 4. Solution: z(5z^2-80) = 5z(z-4)(z+4). Cancel 5z(z+4): result = (z-4)."
@@ -2289,8 +2486,10 @@
               "difficulty": "Hard",
               "question": "The factorised form of the dividend 44(x^4 - 5x^3 - 24x^2) is:",
               "options": {
-                "A": "4 x 11 x x^2 x (x+3)(x-8)   (B) 11x x (x-8)(x+3)",
-                "C": "44x^2(x-3)(x+8)              (D) 4x(x+3)(x-8)"
+                "A": "4 x 11 x x^2 x (x+3)(x-8)",
+                "B": "11x x (x-8)(x+3)",
+                "C": "44x^2(x-3)(x+8)",
+                "D": "4x(x+3)(x-8)"
               },
               "answer": "A",
               "explanation": "Option (A) is correct based on the definition/theorem. Solution: = 4 x 11 x x^2 x (x+3)(x-8)."
@@ -2300,7 +2499,10 @@
               "difficulty": "Hard",
               "question": "(y^2 + 7y + 10) / (y + 5) equals:",
               "options": {
-                "A": "y + 2   (B) y + 5   (C) y - 2   (D) 2y + 5"
+                "A": "y + 2",
+                "B": "y + 5",
+                "C": "y - 2",
+                "D": "2y + 5"
               },
               "answer": "A",
               "explanation": "The correct answer is (A) y + 2. Solution: y^2+7y+10 = (y+2)(y+5). Cancel (y+5): result = (y+2)."
@@ -2310,7 +2512,10 @@
               "difficulty": "Hard",
               "question": "Divide (4yz(z^2+6z−16)) by 2y(z+8). The result is:",
               "options": {
-                "A": "2z(z+2)   (B) 2z(z−2)   (C) 2yz(z−2)   (D) 4z(z−2)"
+                "A": "2z(z+2)",
+                "B": "2z(z−2)",
+                "C": "2yz(z−2)",
+                "D": "4z(z−2)"
               },
               "answer": "B",
               "explanation": "Option (B) is correct based on the definition/theorem. Solution: z^2+6z−16=(z+8)(z−2). Dividend=4yz(z+8)(z−2). Cancel 2y and (z+8): result = 2z(z−2)."

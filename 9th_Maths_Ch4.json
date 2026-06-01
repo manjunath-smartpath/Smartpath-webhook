@@ -66,7 +66,10 @@
           "difficulty": "Easy",
           "question": "A linear equation in two variables has:",
           "options": {
-            "A": "No solution  (B) Exactly one solution  (C) Exactly two solutions  (D) Infinitely many solutions"
+            "A": "No solution",
+            "B": "Exactly one solution",
+            "C": "Exactly two solutions",
+            "D": "Infinitely many solutions"
           },
           "answer": "D",
           "explanation": "For every value of x chosen, there is a corresponding value of y."
@@ -76,7 +79,10 @@
           "difficulty": "Easy",
           "question": "The standard form of a linear equation in two variables is:",
           "options": {
-            "A": "ax + b = 0  (B) ax^2 + bx + c = 0  (C) ax + by + c = 0  (D) ax + by = a + b"
+            "A": "ax + b = 0",
+            "B": "ax^2 + bx + c = 0",
+            "C": "ax + by + c = 0",
+            "D": "ax + by = a + b"
           },
           "answer": "C",
           "explanation": "ax + by + c = 0 where a, b, c are real numbers and a, b are not both zero."
@@ -86,7 +92,10 @@
           "difficulty": "Medium",
           "question": "In ax + by + c = 0, which condition must always hold?",
           "options": {
-            "A": "a = 0 and b = 0  (B) a and b are not both zero  (C) c = 0  (D) a must be positive"
+            "A": "a = 0 and b = 0",
+            "B": "a and b are not both zero",
+            "C": "c = 0",
+            "D": "a must be positive"
           },
           "answer": "B",
           "explanation": "a and b cannot be zero simultaneously; individually either can be zero."
@@ -96,7 +105,10 @@
           "difficulty": "Medium",
           "question": "Which of the following is NOT a linear equation in two variables?",
           "options": {
-            "A": "x + y = 5  (B) 2x - 3y = 7  (C) x^2 + y = 4  (D) pi*x + y - 1 = 0"
+            "A": "x + y = 5",
+            "B": "2x - 3y = 7",
+            "C": "x^2 + y = 4",
+            "D": "pi*x + y - 1 = 0"
           },
           "answer": "C",
           "explanation": "x^2 + y = 4 has degree 2 in x — not a linear equation."
@@ -106,7 +118,10 @@
           "difficulty": "Hard",
           "question": "For 2x + 3y = 12, which of the following is NOT a solution?",
           "options": {
-            "A": "(3, 2)  (B) (0, 4)  (C) (1, 4)  (D) (6, 0)"
+            "A": "(3, 2)",
+            "B": "(0, 4)",
+            "C": "(1, 4)",
+            "D": "(6, 0)"
           },
           "answer": "C",
           "explanation": "2(1) + 3(4) = 2 + 12 = 14 ≠ 12. The others: (3,2)→12✓, (0,4)→12✓, (6,0)→12✓."
@@ -237,7 +252,10 @@
               "difficulty": "Easy",
               "question": "A linear equation in one variable has:",
               "options": {
-                "A": "No solution  (B) Exactly two solutions  (C) A unique solution  (D) Infinitely many solutions"
+                "A": "No solution",
+                "B": "Exactly two solutions",
+                "C": "A unique solution",
+                "D": "Infinitely many solutions"
               },
               "answer": "C",
               "explanation": "A linear equation in one variable always has exactly one unique solution."
@@ -247,7 +265,10 @@
               "difficulty": "Easy",
               "question": "The solution of a linear equation in one variable can be shown on a:",
               "options": {
-                "A": "Cartesian plane only  (B) Number line  (C) Bar graph  (D) Pie chart"
+                "A": "Cartesian plane only",
+                "B": "Number line",
+                "C": "Bar graph",
+                "D": "Pie chart"
               },
               "answer": "B",
               "explanation": "The solution is a single value represented as a point on the number line."
@@ -257,7 +278,10 @@
               "difficulty": "Easy",
               "question": "Which of the following is a linear equation in one variable?",
               "options": {
-                "A": "x + y = 5  (B) 2x + 3y = 7  (C) x + 1 = 0  (D) x^2 + 1 = 0"
+                "A": "x + y = 5",
+                "B": "2x + 3y = 7",
+                "C": "x + 1 = 0",
+                "D": "x^2 + 1 = 0"
               },
               "answer": "C",
               "explanation": "x + 1 = 0 has only one variable (x)."
@@ -267,7 +291,10 @@
               "difficulty": "Easy",
               "question": "The solution of 2x + 5 = 0 is:",
               "options": {
-                "A": "x = 5/2  (B) x = -5/2  (C) x = 5  (D) x = -5"
+                "A": "x = 5/2",
+                "B": "x = -5/2",
+                "C": "x = 5",
+                "D": "x = -5"
               },
               "answer": "B",
               "explanation": "2x + 5 = 0 => 2x = -5 => x = -5/2."
@@ -277,7 +304,10 @@
               "difficulty": "Medium",
               "question": "In Chapter 4, concepts from which earlier chapter are used?",
               "options": {
-                "A": "Chapter 1  (B) Chapter 2  (C) Chapter 3  (D) Chapter 5"
+                "A": "Chapter 1",
+                "B": "Chapter 2",
+                "C": "Chapter 3",
+                "D": "Chapter 5"
               },
               "answer": "C",
               "explanation": "Chapter 3 (Coordinate Geometry) concepts are used."
@@ -287,7 +317,10 @@
               "difficulty": "Medium",
               "question": "Which of the following is NOT a linear equation in one variable?",
               "options": {
-                "A": "x + sqrt(2) = 0  (B) sqrt(2)y + sqrt(3) = 0  (C) x + 1 = 0  (D) x + y = 5"
+                "A": "x + sqrt(2) = 0",
+                "B": "sqrt(2)y + sqrt(3) = 0",
+                "C": "x + 1 = 0",
+                "D": "x + y = 5"
               },
               "answer": "D",
               "explanation": "x + y = 5 has two variables (x and y)."
@@ -310,7 +343,10 @@
               "difficulty": "Medium",
               "question": "The equation x + sqrt(2) = 0 is a linear equation in:",
               "options": {
-                "A": "No variable  (B) One variable  (C) Two variables  (D) Three variables"
+                "A": "No variable",
+                "B": "One variable",
+                "C": "Two variables",
+                "D": "Three variables"
               },
               "answer": "B",
               "explanation": "It has only one unknown quantity (x)."
@@ -320,7 +356,10 @@
               "difficulty": "Hard",
               "question": "If x = -5/2 is the solution of a linear equation in one variable, which equation could it be?",
               "options": {
-                "A": "2x - 5 = 0  (B) 2x + 5 = 0  (C) x + 5 = 0  (D) x - 5 = 0"
+                "A": "2x - 5 = 0",
+                "B": "2x + 5 = 0",
+                "C": "x + 5 = 0",
+                "D": "x - 5 = 0"
               },
               "answer": "B",
               "explanation": "2(-5/2) + 5 = -5 + 5 = 0. So 2x + 5 = 0 gives x = -5/2."
@@ -330,7 +369,10 @@
               "difficulty": "Hard",
               "question": "A student says \"A linear equation in one variable has infinitely many solutions.\" Is this correct?",
               "options": {
-                "A": "Yes, always  (B) No, it has a unique solution  (C) Yes, for special cases  (D) Depends on coefficient"
+                "A": "Yes, always",
+                "B": "No, it has a unique solution",
+                "C": "Yes, for special cases",
+                "D": "Depends on coefficient"
               },
               "answer": "B",
               "explanation": "A linear equation in one variable always has exactly ONE unique solution."
@@ -340,8 +382,10 @@
               "difficulty": "Hard",
               "question": "Chapter 4 extends the study from one variable to two variables. The main purpose is to:",
               "options": {
-                "A": "Study trigonometry  (B) Explore solutions and their Cartesian plane representation",
-                "C": "Study quadratic equations  (D) Learn number systems"
+                "A": "Study trigonometry",
+                "B": "Explore solutions and their Cartesian plane representation",
+                "C": "Study quadratic equations",
+                "D": "Learn number systems"
               },
               "answer": "B",
               "explanation": "The chapter explores whether a solution exists, its uniqueness, and its graphical representation on the Cartesian plane."
@@ -351,8 +395,10 @@
               "difficulty": "Hard",
               "question": "Both x + 1 = 0 and sqrt(2)y + sqrt(3) = 0 are:",
               "options": {
-                "A": "Linear equations in two variables  (B) Quadratic equations",
-                "C": "Linear equations in one variable  (D) Equations with no solution"
+                "A": "Linear equations in two variables",
+                "B": "Quadratic equations",
+                "C": "Linear equations in one variable",
+                "D": "Equations with no solution"
               },
               "answer": "C",
               "explanation": "Each has only one variable, so both are linear equations in one variable."
@@ -538,7 +584,10 @@
               "difficulty": "Easy",
               "question": "A linear equation in two variables is of the form:",
               "options": {
-                "A": "ax + b = 0  (B) ax^2 + bx + c = 0  (C) ax + by + c = 0  (D) ax + by = a + b"
+                "A": "ax + b = 0",
+                "B": "ax^2 + bx + c = 0",
+                "C": "ax + by + c = 0",
+                "D": "ax + by = a + b"
               },
               "answer": "C",
               "explanation": "Standard form is ax + by + c = 0 where a, b, c are real and a,b not both zero."
@@ -548,7 +597,10 @@
               "difficulty": "Easy",
               "question": "In ax + by + c = 0, which condition must hold?",
               "options": {
-                "A": "a = 0 and b = 0  (B) a and b not both zero  (C) c = 0  (D) a must be positive"
+                "A": "a = 0 and b = 0",
+                "B": "a and b not both zero",
+                "C": "c = 0",
+                "D": "a must be positive"
               },
               "answer": "B",
               "explanation": "a and b cannot both be zero simultaneously."
@@ -558,7 +610,10 @@
               "difficulty": "Easy",
               "question": "In 2x + 3y = 4.37 written as ax + by + c = 0, the value of c is:",
               "options": {
-                "A": "4.37  (B) -4.37  (C) 0  (D) 3"
+                "A": "4.37",
+                "B": "-4.37",
+                "C": "0",
+                "D": "3"
               },
               "answer": "B",
               "explanation": "2x + 3y - 4.37 = 0. So c = -4.37."
@@ -568,7 +623,10 @@
               "difficulty": "Easy",
               "question": "Which is NOT a linear equation in two variables?",
               "options": {
-                "A": "x + y = 5  (B) 2x - 3y = 7  (C) x^2 + y = 4  (D) pi*x + y - 1 = 0"
+                "A": "x + y = 5",
+                "B": "2x - 3y = 7",
+                "C": "x^2 + y = 4",
+                "D": "pi*x + y - 1 = 0"
               },
               "answer": "C",
               "explanation": "x^2 + y = 4 has degree 2 — not linear."
@@ -578,7 +636,10 @@
               "difficulty": "Medium",
               "question": "The equation 3x + 2 = 0 written as linear equation in two variables is:",
               "options": {
-                "A": "3x + y + 2 = 0  (B) 3x + 0.y + 2 = 0  (C) 0.x + 3y + 2 = 0  (D) 3x - 2y = 0"
+                "A": "3x + y + 2 = 0",
+                "B": "3x + 0.y + 2 = 0",
+                "C": "0.x + 3y + 2 = 0",
+                "D": "3x - 2y = 0"
               },
               "answer": "B",
               "explanation": "3x + 0.y + 2 = 0. a = 3, b = 0, c = 2."
@@ -588,7 +649,10 @@
               "difficulty": "Medium",
               "question": "In x - 4 = sqrt(3)y written as ax + by + c = 0, the value of b is:",
               "options": {
-                "A": "sqrt(3)  (B) -sqrt(3)  (C) 4  (D) -4"
+                "A": "sqrt(3)",
+                "B": "-sqrt(3)",
+                "C": "4",
+                "D": "-4"
               },
               "answer": "B",
               "explanation": "x - sqrt(3)y - 4 = 0. b = -sqrt(3)."
@@ -598,7 +662,10 @@
               "difficulty": "Medium",
               "question": "Which of the following can also be treated as a linear equation in two variables?",
               "options": {
-                "A": "x^2 = 4  (B) x + sqrt(2) = 0  (C) x^3 - 1 = 0  (D) sqrt(x) = 3"
+                "A": "x^2 = 4",
+                "B": "x + sqrt(2) = 0",
+                "C": "x^3 - 1 = 0",
+                "D": "sqrt(x) = 3"
               },
               "answer": "B",
               "explanation": "x + sqrt(2) = 0 can be written as 1.x + 0.y + sqrt(2) = 0."
@@ -608,7 +675,10 @@
               "difficulty": "Medium",
               "question": "For 4 = 5x - 3y in ax + by + c = 0 form, a = ?",
               "options": {
-                "A": "-5  (B) 3  (C) 5  (D) -3"
+                "A": "-5",
+                "B": "3",
+                "C": "5",
+                "D": "-3"
               },
               "answer": "C",
               "explanation": "5x - 3y - 4 = 0. a = 5."
@@ -618,7 +688,10 @@
               "difficulty": "Hard",
               "question": "y = 2 written as 0.x + 1.y - 2 = 0 has a = 0. Is this a valid linear equation in two variables?",
               "options": {
-                "A": "No, a = 0  (B) No, c is negative  (C) Yes, because b = 1 ≠ 0  (D) Only if a ≠ 0"
+                "A": "No, a = 0",
+                "B": "No, c is negative",
+                "C": "Yes, because b = 1 ≠ 0",
+                "D": "Only if a ≠ 0"
               },
               "answer": "C",
               "explanation": "Condition is a and b NOT BOTH zero. Here b = 1 ≠ 0. Valid."
@@ -628,7 +701,10 @@
               "difficulty": "Hard",
               "question": "For 2x = y in ax + by + c = 0 form, a = ?, b = ?, c = ?",
               "options": {
-                "A": "a=2, b=1, c=0  (B) a=2, b=-1, c=0  (C) a=-2, b=1, c=0  (D) a=2, b=-1, c=1"
+                "A": "a=2, b=1, c=0",
+                "B": "a=2, b=-1, c=0",
+                "C": "a=-2, b=1, c=0",
+                "D": "a=2, b=-1, c=1"
               },
               "answer": "B",
               "explanation": "2x - y + 0 = 0. a = 2, b = -1, c = 0."
@@ -638,7 +714,10 @@
               "difficulty": "Hard",
               "question": "For pi*u + 5v = 9 in standard form, c = ?",
               "options": {
-                "A": "9  (B) pi  (C) -9  (D) 5"
+                "A": "9",
+                "B": "pi",
+                "C": "-9",
+                "D": "5"
               },
               "answer": "C",
               "explanation": "pi*u + 5v - 9 = 0. c = -9."
@@ -648,7 +727,10 @@
               "difficulty": "Hard",
               "question": "For x - 3y = 0, a = ?, b = ?, c = ?",
               "options": {
-                "A": "a=1, b=3, c=0  (B) a=1, b=-3, c=0  (C) a=-1, b=3, c=0  (D) a=1, b=-3, c=1"
+                "A": "a=1, b=3, c=0",
+                "B": "a=1, b=-3, c=0",
+                "C": "a=-1, b=3, c=0",
+                "D": "a=1, b=-3, c=1"
               },
               "answer": "B",
               "explanation": "x - 3y + 0 = 0. a = 1, b = -3, c = 0."
@@ -832,7 +914,10 @@
               "difficulty": "Easy",
               "question": "A linear equation in two variables has:",
               "options": {
-                "A": "No solution  (B) Exactly one solution  (C) Exactly two solutions  (D) Infinitely many solutions"
+                "A": "No solution",
+                "B": "Exactly one solution",
+                "C": "Exactly two solutions",
+                "D": "Infinitely many solutions"
               },
               "answer": "D",
               "explanation": "For every value of x, there is a corresponding value of y."
@@ -842,7 +927,10 @@
               "difficulty": "Easy",
               "question": "A solution of a linear equation in two variables is written as:",
               "options": {
-                "A": "A single value x  (B) An ordered pair (x, y)  (C) A fraction p/q  (D) A single value y"
+                "A": "A single value x",
+                "B": "An ordered pair (x, y)",
+                "C": "A fraction p/q",
+                "D": "A single value y"
               },
               "answer": "B",
               "explanation": "Solution = ordered pair (x, y), first x then y."
@@ -852,7 +940,10 @@
               "difficulty": "Easy",
               "question": "Is (3, 0) a solution of 4x + 3y = 12?",
               "options": {
-                "A": "No  (B) Yes  (C) Cannot determine  (D) Only if x > 0"
+                "A": "No",
+                "B": "Yes",
+                "C": "Cannot determine",
+                "D": "Only if x > 0"
               },
               "answer": "B",
               "explanation": "4(3) + 3(0) = 12 + 0 = 12 = 12. ✓"
@@ -862,7 +953,10 @@
               "difficulty": "Easy",
               "question": "Which is a solution of x - 2y = 4?",
               "options": {
-                "A": "(0, 2)  (B) (2, 0)  (C) (4, 0)  (D) (1, 1)"
+                "A": "(0, 2)",
+                "B": "(2, 0)",
+                "C": "(4, 0)",
+                "D": "(1, 1)"
               },
               "answer": "C",
               "explanation": "(4,0): 4-0=4 ✓. Others: (0,2): -4≠4. (2,0): 2≠4. (1,1): -1≠4."
@@ -872,7 +966,10 @@
               "difficulty": "Medium",
               "question": "How many solutions does y = 3x + 5 have?",
               "options": {
-                "A": "Unique  (B) Two  (C) No solution  (D) Infinitely many"
+                "A": "Unique",
+                "B": "Two",
+                "C": "No solution",
+                "D": "Infinitely many"
               },
               "answer": "D",
               "explanation": "Every linear equation in two variables has infinitely many solutions."
@@ -882,7 +979,10 @@
               "difficulty": "Medium",
               "question": "For 2x + 5y = 0, if x = 0 then y = ?",
               "options": {
-                "A": "5  (B) 2  (C) 0  (D) -2/5"
+                "A": "5",
+                "B": "2",
+                "C": "0",
+                "D": "-2/5"
               },
               "answer": "C",
               "explanation": "2(0) + 5y = 0 => 5y = 0 => y = 0. Solution: (0, 0)."
@@ -892,7 +992,10 @@
               "difficulty": "Medium",
               "question": "For 3y + 4 = 0, the value of y in every solution is:",
               "options": {
-                "A": "4/3  (B) -4/3  (C) 0  (D) 4"
+                "A": "4/3",
+                "B": "-4/3",
+                "C": "0",
+                "D": "4"
               },
               "answer": "B",
               "explanation": "3y = -4 => y = -4/3. x can be any value."
@@ -902,7 +1005,10 @@
               "difficulty": "Medium",
               "question": "Find k if x = 2, y = 1 is a solution of 2x + 3y = k.",
               "options": {
-                "A": "5  (B) 6  (C) 7  (D) 8"
+                "A": "5",
+                "B": "6",
+                "C": "7",
+                "D": "8"
               },
               "answer": "C",
               "explanation": "2(2) + 3(1) = 4 + 3 = 7."
@@ -912,7 +1018,10 @@
               "difficulty": "Hard",
               "question": "Which is NOT a solution of x - 2y = 4?",
               "options": {
-                "A": "(4, 0)  (B) (0, 2)  (C) (2, -1)  (D) (6, 1)"
+                "A": "(4, 0)",
+                "B": "(0, 2)",
+                "C": "(2, -1)",
+                "D": "(6, 1)"
               },
               "answer": "B",
               "explanation": "(0,2): 0-4=-4≠4 ✗. Others: (4,0)→4✓, (2,-1)→2+2=4✓, (6,1)→4✓."
@@ -922,8 +1031,10 @@
               "difficulty": "Hard",
               "question": "For 2x + y = 7, which is the correct set of four solutions?",
               "options": {
-                "A": "(0,7),(1,5),(2,3),(3,1)  (B) (0,7),(1,6),(2,5),(3,4)",
-                "C": "(0,7),(1,4),(2,3),(3,2)  (D) (0,0),(1,5),(2,3),(3,1)"
+                "A": "(0,7),(1,5),(2,3),(3,1)",
+                "B": "(0,7),(1,6),(2,5),(3,4)",
+                "C": "(0,7),(1,4),(2,3),(3,2)",
+                "D": "(0,0),(1,5),(2,3),(3,1)"
               },
               "answer": "A",
               "explanation": "(0,7): 7✓. (1,5): 2+5=7✓. (2,3): 4+3=7✓. (3,1): 6+1=7✓."
@@ -933,7 +1044,10 @@
               "difficulty": "Hard",
               "question": "Check (sqrt(2), 4sqrt(2)) against x - 2y = 4. x - 2y = ?",
               "options": {
-                "A": "4  (B) -7sqrt(2)  (C) 0  (D) 4sqrt(2)"
+                "A": "4",
+                "B": "-7sqrt(2)",
+                "C": "0",
+                "D": "4sqrt(2)"
               },
               "answer": "B",
               "explanation": "sqrt(2) - 2(4sqrt(2)) = sqrt(2) - 8sqrt(2) = -7sqrt(2) ≠ 4."
@@ -943,7 +1057,10 @@
               "difficulty": "Hard",
               "question": "For pi*x + y = 9, when x = 1, y = ?",
               "options": {
-                "A": "9 + pi  (B) 9 - pi  (C) pi - 9  (D) pi + 9"
+                "A": "9 + pi",
+                "B": "9 - pi",
+                "C": "pi - 9",
+                "D": "pi + 9"
               },
               "answer": "B",
               "explanation": "pi(1) + y = 9 => y = 9 - pi."

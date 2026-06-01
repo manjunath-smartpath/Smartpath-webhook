@@ -47,7 +47,10 @@
           "difficulty": "Easy",
           "question": "Which of the following is a perfect cube?",
           "options": {
-            "A": "400   (B) 729   (C) 100   (D) 900"
+            "A": "400",
+            "B": "729",
+            "C": "100",
+            "D": "900"
           },
           "answer": "B",
           "explanation": "729 = 9^3. Others are not perfect cubes."
@@ -57,7 +60,10 @@
           "difficulty": "Medium",
           "question": "cube_root(1000) = ?",
           "options": {
-            "A": "8   (B) 9   (C) 10   (D) 11"
+            "A": "8",
+            "B": "9",
+            "C": "10",
+            "D": "11"
           },
           "answer": "C",
           "explanation": "10^3 = 1000. So cube root of 1000 is 10."
@@ -67,7 +73,10 @@
           "difficulty": "Hard",
           "question": "The smallest number by which 675 must be multiplied to get a perfect cube is:",
           "options": {
-            "A": "3   (B) 5   (C) 9   (D) 25"
+            "A": "3",
+            "B": "5",
+            "C": "9",
+            "D": "25"
           },
           "answer": "B",
           "explanation": "675 = 3^3 x 5^2. Factor 5 appears only twice. Multiply by 5. 675x5=3375=15^3."
@@ -172,7 +181,10 @@
               "difficulty": "Easy",
               "question": "The Hardy-Ramanujan Number is:",
               "options": {
-                "A": "1728   (B) 1729   (C) 1730   (D) 4104"
+                "A": "1728",
+                "B": "1729",
+                "C": "1730",
+                "D": "4104"
               },
               "answer": "B",
               "explanation": "1729 = 12^3 + 1^3 = 10^3 + 9^3."
@@ -182,7 +194,10 @@
               "difficulty": "Medium",
               "question": "1729 = 12^3 + ?",
               "options": {
-                "A": "0^3   (B) 1^3   (C) 2^3   (D) 3^3"
+                "A": "0^3",
+                "B": "1^3",
+                "C": "2^3",
+                "D": "3^3"
               },
               "answer": "B",
               "explanation": "12^3 = 1728 and 1^3 = 1. 1728 + 1 = 1729."
@@ -192,7 +207,10 @@
               "difficulty": "Hard",
               "question": "Which of the following is also a Hardy-Ramanujan Number?",
               "options": {
-                "A": "1000   (B) 4104   (C) 2197   (D) 1728"
+                "A": "1000",
+                "B": "4104",
+                "C": "2197",
+                "D": "1728"
               },
               "answer": "B",
               "explanation": "4104 = 2^3 + 16^3 = 9^3 + 15^3. It can be expressed as sum of two cubes in two ways."
@@ -324,7 +342,10 @@
               "difficulty": "Easy",
               "question": "Units digit of 3331^3 is:",
               "options": {
-                "A": "1   (B) 3   (C) 7   (D) 9"
+                "A": "1",
+                "B": "3",
+                "C": "7",
+                "D": "9"
               },
               "answer": "A",
               "explanation": "3331 ends in 1. Cube of numbers ending in 1 always ends in 1."
@@ -334,7 +355,10 @@
               "difficulty": "Easy",
               "question": "5^3 = ?",
               "options": {
-                "A": "15   (B) 25   (C) 75   (D) 125"
+                "A": "15",
+                "B": "25",
+                "C": "75",
+                "D": "125"
               },
               "answer": "D",
               "explanation": "5^3 = 5x5x5 = 125."
@@ -344,7 +368,10 @@
               "difficulty": "Medium",
               "question": "Cube of an odd number is always:",
               "options": {
-                "A": "Even   (B) Odd   (C) Prime   (D) 0"
+                "A": "Even",
+                "B": "Odd",
+                "C": "Prime",
+                "D": "0"
               },
               "answer": "B",
               "explanation": "Odd x Odd x Odd = Odd."
@@ -354,7 +381,10 @@
               "difficulty": "Medium",
               "question": "Units digit of 5022^3:",
               "options": {
-                "A": "2   (B) 4   (C) 6   (D) 8"
+                "A": "2",
+                "B": "4",
+                "C": "6",
+                "D": "8"
               },
               "answer": "D",
               "explanation": "5022 ends in 2. Cube of numbers ending in 2 end in 8."
@@ -364,7 +394,10 @@
               "difficulty": "Hard",
               "question": "Which of the following is NOT a perfect cube?",
               "options": {
-                "A": "216   (B) 729   (C) 1000   (D) 400"
+                "A": "216",
+                "B": "729",
+                "C": "1000",
+                "D": "400"
               },
               "answer": "D",
               "explanation": "400 = 2^4 x 5^2. No prime factor forms complete triplets. Not a perfect cube. ----"
@@ -481,7 +514,10 @@
               "difficulty": "Easy",
               "question": "2^3 expressed as sum of consecutive odd numbers is:",
               "options": {
-                "A": "1 + 7   (B) 3 + 5   (C) 1 + 3 + 4   (D) 4 + 4"
+                "A": "1 + 7",
+                "B": "3 + 5",
+                "C": "1 + 3 + 4",
+                "D": "4 + 4"
               },
               "answer": "B",
               "explanation": "2^3 = 8 = 3 + 5."
@@ -491,7 +527,10 @@
               "difficulty": "Medium",
               "question": "In prime factorisation of a perfect cube, each factor appears:",
               "options": {
-                "A": "Once   (B) Twice   (C) Three times   (D) Four times"
+                "A": "Once",
+                "B": "Twice",
+                "C": "Three times",
+                "D": "Four times"
               },
               "answer": "C",
               "explanation": "Each prime factor must appear in triplets for the number to be a perfect cube."
@@ -501,7 +540,10 @@
               "difficulty": "Hard",
               "question": "7^3 - 6^3 = 1 + 3x6x7 = ?",
               "options": {
-                "A": "107   (B) 117   (C) 127   (D) 137"
+                "A": "107",
+                "B": "117",
+                "C": "127",
+                "D": "137"
               },
               "answer": "C",
               "explanation": "1 + 3x6x7 = 1 + 126 = 127. Also verify: 343-216=127. ----"
@@ -650,7 +692,10 @@
               "difficulty": "Easy",
               "question": "Which of these is NOT a perfect cube?",
               "options": {
-                "A": "216   (B) 729   (C) 1000   (D) 400"
+                "A": "216",
+                "B": "729",
+                "C": "1000",
+                "D": "400"
               },
               "answer": "D",
               "explanation": "400 = 2^4 x 5^2. No prime factor forms complete triplets."
@@ -660,7 +705,10 @@
               "difficulty": "Medium",
               "question": "392 = 2^3 x 7^2. To make it a perfect cube, multiply by:",
               "options": {
-                "A": "7   (B) 14   (C) 49   (D) 2"
+                "A": "7",
+                "B": "14",
+                "C": "49",
+                "D": "2"
               },
               "answer": "A",
               "explanation": "7 appears only twice. Need one more 7 to complete the triplet."
@@ -670,7 +718,10 @@
               "difficulty": "Medium",
               "question": "53240 = 2^3 x 5 x 11^3. To make it a perfect cube, divide by:",
               "options": {
-                "A": "5   (B) 10   (C) 11   (D) 2"
+                "A": "5",
+                "B": "10",
+                "C": "11",
+                "D": "2"
               },
               "answer": "A",
               "explanation": "5 appears only once (no triplet). Divide by 5 to remove it."
@@ -680,7 +731,10 @@
               "difficulty": "Medium",
               "question": "Is 8000 a perfect cube?",
               "options": {
-                "A": "No   (B) Yes, it is 20^3   (C) Yes, it is 22^3   (D) Yes, it is 18^3"
+                "A": "No",
+                "B": "Yes, it is 20^3",
+                "C": "Yes, it is 22^3",
+                "D": "Yes, it is 18^3"
               },
               "answer": "B",
               "explanation": "8000 = 2^6 x 5^3 = (2^2 x 5)^3 = (4x5)^3 = 20^3."
@@ -690,7 +744,10 @@
               "difficulty": "Hard",
               "question": "The smallest number to multiply 100 to get a perfect cube is:",
               "options": {
-                "A": "5   (B) 10   (C) 50   (D) 100"
+                "A": "5",
+                "B": "10",
+                "C": "50",
+                "D": "100"
               },
               "answer": "B",
               "explanation": "100 = 2^2 x 5^2. Need one more 2 and one more 5. Multiply by 2x5=10. 100x10=1000=10^3."
@@ -795,7 +852,10 @@
               "difficulty": "Easy",
               "question": "cube_root(1000) = ?",
               "options": {
-                "A": "8   (B) 9   (C) 10   (D) 11"
+                "A": "8",
+                "B": "9",
+                "C": "10",
+                "D": "11"
               },
               "answer": "C",
               "explanation": "10^3 = 1000. So cube root of 1000 is 10."
@@ -805,7 +865,10 @@
               "difficulty": "Medium",
               "question": "Finding cube root is the inverse of:",
               "options": {
-                "A": "Squaring   (B) Finding cube   (C) Addition   (D) Division"
+                "A": "Squaring",
+                "B": "Finding cube",
+                "C": "Addition",
+                "D": "Division"
               },
               "answer": "B",
               "explanation": "Just as square root is inverse of squaring, cube root is inverse of cubing."
@@ -815,7 +878,10 @@
               "difficulty": "Hard",
               "question": "cube_root(729) = ?",
               "options": {
-                "A": "7   (B) 8   (C) 9   (D) 10"
+                "A": "7",
+                "B": "8",
+                "C": "9",
+                "D": "10"
               },
               "answer": "C",
               "explanation": "9^3 = 729. So cube root of 729 is 9. ----"
@@ -956,7 +1022,10 @@
               "difficulty": "Easy",
               "question": "cube_root(512) = ?",
               "options": {
-                "A": "6   (B) 7   (C) 8   (D) 9"
+                "A": "6",
+                "B": "7",
+                "C": "8",
+                "D": "9"
               },
               "answer": "C",
               "explanation": "512 = 2^9 = (2^3)^3 = 8^3. cube_root(512) = 8."
@@ -966,7 +1035,10 @@
               "difficulty": "Easy",
               "question": "cube_root(27000) = ?",
               "options": {
-                "A": "20   (B) 25   (C) 30   (D) 35"
+                "A": "20",
+                "B": "25",
+                "C": "30",
+                "D": "35"
               },
               "answer": "C",
               "explanation": "27000 = 3^3 x 10^3 = 30^3. cube_root(27000) = 30."
@@ -976,7 +1048,10 @@
               "difficulty": "Medium",
               "question": "To find cube root by prime factorisation, factors are grouped in:",
               "options": {
-                "A": "Pairs   (B) Triplets   (C) Groups of 4   (D) Singles"
+                "A": "Pairs",
+                "B": "Triplets",
+                "C": "Groups of 4",
+                "D": "Singles"
               },
               "answer": "B",
               "explanation": "For cube root, each prime factor must form a group of three (triplet)."
@@ -986,7 +1061,10 @@
               "difficulty": "Medium",
               "question": "cube_root(15625) = ?",
               "options": {
-                "A": "20   (B) 25   (C) 30   (D) 35"
+                "A": "20",
+                "B": "25",
+                "C": "30",
+                "D": "35"
               },
               "answer": "B",
               "explanation": "15625 = 5^6 = (5^2)^3 = 25^3. cube_root(15625) = 25."
@@ -996,7 +1074,10 @@
               "difficulty": "Hard",
               "question": "cube_root(74088) = ?",
               "options": {
-                "A": "38   (B) 40   (C) 42   (D) 44"
+                "A": "38",
+                "B": "40",
+                "C": "42",
+                "D": "44"
               },
               "answer": "C",
               "explanation": "74088 = 2^3 x 3^3 x 7^3 = (2x3x7)^3 = 42^3."
@@ -1006,7 +1087,10 @@
               "difficulty": "Hard",
               "question": "cube_root(110592) = ?",
               "options": {
-                "A": "44   (B) 46   (C) 48   (D) 50"
+                "A": "44",
+                "B": "46",
+                "C": "48",
+                "D": "50"
               },
               "answer": "C",
               "explanation": "110592 = 2^12 x 3^3 = (2^4 x 3)^3 = (16x3)^3 = 48^3. cube_root = 48."
