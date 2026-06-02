@@ -154,6 +154,31 @@ app.post('/webhook', async (req, res) => {
         return;
       }
 
+      // Evaluation answer capture mode (₹299)
+      if (st.awaitingEvalAnswer) {
+        st.awaitingEvalAnswer = false;
+        if (userText.length < 5) {
+          st.awaitingEvalAnswer = true;
+          await S.sendText(from, '✏️ ಸ್ವಲ್ಪ ವಿವರವಾಗಿ answer ಬರೆಯಿರಿ:');
+          return;
+        }
+        await S.sendText(from, '⏳ ನಿಮ್ಮ answer evaluate ಮಾಡ್ತಿದೀನಿ...');
+        const report = await G.evaluateAnswer(
+          cls, st.subject || '', st.evalQ, st.evalMarks, st.evalModel, userText);
+        if (!report) {
+          await S.sendButtons(from, '⚠️ Evaluate ಮಾಡೋಕೆ ಆಗಲಿಲ್ಲ. ಮತ್ತೆ try ಮಾಡಿ.',
+            [{ id: 'EVAL_START', title: '✏️ ಮತ್ತೆ' }, { id: 'NAV_MENU', title: '🏠 Home' }]);
+          return;
+        }
+        await G.incrementEvalCount(student);
+        await S.sendText(from, report.substring(0, 4000));
+        await S.sendButtons(from, 'ಮುಂದೇನು? / What next?', [
+          { id: 'EVAL_NEXT', title: '📝 Next Question' },
+          { id: 'NAV_MENU', title: '🏠 Home' }
+        ]);
+        return;
+      }
+
       // Menu triggers
       if (['hi', 'hello', 'menu', 'start', 'ಮೆನು', 'hai', 'hey'].includes(lower)) {
         await NAV.showMainMenu(from, cls);
@@ -277,6 +302,7 @@ async function routeInteractive(from, student, cls, id) {
   const st = NAV.getState(from);
   st.cls = cls;
   st.studentName = student.get('Name') || '';
+  st.plan = String(student.get('Plan') || '').trim();
 
   // --- Subject ---
   if (id === 'SUBJ_Maths') return NAV.showParts(from, 'Maths');
@@ -337,6 +363,13 @@ async function routeInteractive(from, student, cls, id) {
 
   // --- Progress ---
   if (id === 'PROGRESS') return showProgress(from, student);
+
+  // --- Evaluation (₹299, 5/day) ---
+  if (id === 'EVAL_START' || id === 'EVAL_NEXT') return startEvaluation(from, student, st);
+  if (id && id.startsWith('EVALQ_')) {
+    const qIdx = parseInt(id.replace('EVALQ_', ''), 10);
+    return askEvalQuestion(from, student, st, qIdx);
+  }
 
   // --- Upgrade (manual UPI) ---
   if (id === 'UPGRADE') return showUpgrade(from, student);
@@ -413,6 +446,82 @@ async function handleTypedQuestion(from, student, cls, question) {
   await S.sendButtons(from,
     `💎 ${gpt.remaining - 1} questions ಉಳಿದಿದೆ ಇಂದು.`,
     [{ id: 'NAV_MENU', title: '📚 Browse Topics' }]);
+}
+
+// ============================================================
+// EVALUATION — GPT evaluates student's written answer (₹299, 5/day)
+// ============================================================
+async function startEvaluation(from, student, st) {
+  // Access check
+  const acc = G.checkEvalAccess(student);
+  if (!acc.allowed) {
+    if (acc.reason === 'plan') {
+      await S.sendButtons(from,
+        '✏️ Evaluation ₹299 Premium plan ಗೆ ಮಾತ್ರ.\n\nUpgrade ಮಾಡಿ — ನಿಮ್ಮ answer GPT check ಮಾಡಿ marks + feedback ಕೊಡುತ್ತೆ!',
+        [{ id: 'UPGRADE', title: '💳 Upgrade ₹299' }, { id: 'NAV_MENU', title: '🏠 Home' }]);
+    } else {
+      await S.sendButtons(from,
+        `✏️ ಇಂದಿನ Evaluation limit (5) ಮುಗಿದಿದೆ.\nನಾಳೆ ಮತ್ತೆ try ಮಾಡಿ! 📚`,
+        [{ id: 'NAV_MENU', title: '🏠 Home' }]);
+    }
+    return;
+  }
+
+  // Show Q&A list — student picks the question
+  const { sections, label } = C.getCurrentSections(st);
+  const qaList = N.collectQA(sections);
+  if (!qaList || qaList.length === 0) {
+    await S.sendButtons(from, '⚠️ ಈ topic ನಲ್ಲಿ Q&A ಇಲ್ಲ. ಬೇರೆ topic try ಮಾಡಿ.',
+      [{ id: 'NAV_MENU', title: '🏠 Home' }]);
+    return;
+  }
+
+  // Save the QA list to state so we can fetch the chosen one
+  st.evalQAList = qaList.map(q => ({
+    question: q.question, marks: q.marks || 3, answer: q.answer || ''
+  }));
+  st.evalLabel = label || '';
+
+  // Build list rows (max 10 questions)
+  const rows = qaList.slice(0, 10).map((q, i) => ({
+    id: `EVALQ_${i}`,
+    title: `Q${i + 1} [${q.marks || 3}M]`.substring(0, 24),
+    description: (q.question || '').substring(0, 70)
+  }));
+  rows.push({ id: 'NAV_MENU', title: '🏠 Home' });
+
+  await S.sendList(from,
+    `✏️ *EVALUATION* (${acc.remaining} ಉಳಿದಿದೆ ಇಂದು)\n\n` +
+    `📚 ${label}\n\nಯಾವ ಪ್ರಶ್ನೆಗೆ answer ಬರೀತೀರಾ? ಆರಿಸಿ:`,
+    'ಪ್ರಶ್ನೆ ಆರಿಸಿ', rows, 'Evaluation');
+}
+
+// Student picked a question → ask for their answer
+async function askEvalQuestion(from, student, st, qIndex) {
+  const acc = G.checkEvalAccess(student);
+  if (!acc.allowed) {
+    await S.sendButtons(from,
+      acc.reason === 'plan'
+        ? '✏️ Evaluation ₹299 plan ಗೆ ಮಾತ್ರ.'
+        : '✏️ ಇಂದಿನ limit (5) ಮುಗಿದಿದೆ. ನಾಳೆ try ಮಾಡಿ!',
+      [{ id: 'NAV_MENU', title: '🏠 Home' }]);
+    return;
+  }
+  const list = st.evalQAList || [];
+  const pick = list[qIndex];
+  if (!pick) {
+    await S.sendButtons(from, '⚠️ ಪ್ರಶ್ನೆ ಸಿಗಲಿಲ್ಲ. ಮತ್ತೆ ಆರಿಸಿ.',
+      [{ id: 'EVAL_START', title: '✏️ Evaluation' }, { id: 'NAV_MENU', title: '🏠 Home' }]);
+    return;
+  }
+  st.evalQ = pick.question;
+  st.evalMarks = pick.marks || 3;
+  st.evalModel = pick.answer || '';
+  st.awaitingEvalAnswer = true;
+
+  await S.sendText(from,
+    `✏️ *Q [${st.evalMarks} marks]:*\n${pick.question}\n\n` +
+    `👇 ನಿಮ್ಮ answer ಬರೆಯಿರಿ (type ಮಾಡಿ):`);
 }
 
 // ============================================================

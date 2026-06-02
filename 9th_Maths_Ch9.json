@@ -293,7 +293,7 @@
               "q_num": 4,
               "marks": 2,
               "question": "Can two unequal chords of the same circle subtend equal angles at",
-              "answer": "No. Two unequal chords cannot subtend equal angles at the centre.\nJustification: By Theorem 9.2, equal central angles imply equal chords.\nContrapositive: unequal chords must subtend unequal central angles.\nSo unequal chords always subtend unequal angles at the centre.\n\n---\n\n3 ಮಾರ್ಕ್ಸ್ × 2 questions:"
+              "answer": "No. Two unequal chords cannot subtend equal angles at the centre.\nJustification: By Theorem 9.2, equal central angles imply equal chords.\nContrapositive: unequal chords must subtend unequal central angles.\nSo unequal chords always subtend unequal angles at the centre.\n\n---"
             },
             {
               "q_num": 5,
@@ -305,7 +305,7 @@
               "q_num": 6,
               "marks": 3,
               "question": "Prove Theorem 9.2: If angles subtended by two chords at the",
-              "answer": "GIVEN: Circle with centre O. angle AOB = angle COD.\nTO PROVE: AB = CD.\nPROOF:\nStep 1: In triangles AOB and COD:\nOA = OC  (Radii),  OB = OD  (Radii)\nangle AOB = angle COD  (Given)\nStep 2: By SAS congruence rule:\nTriangle AOB is congruent to triangle COD.\nStep 3: AB = CD  (CPCT)\nHENCE PROVED. [Theorem 9.2 — Converse of Theorem 9.1]\n\n---\n\n4 ಮಾರ್ಕ್ಸ್ × 3 questions:"
+              "answer": "GIVEN: Circle with centre O. angle AOB = angle COD.\nTO PROVE: AB = CD.\nPROOF:\nStep 1: In triangles AOB and COD:\nOA = OC  (Radii),  OB = OD  (Radii)\nangle AOB = angle COD  (Given)\nStep 2: By SAS congruence rule:\nTriangle AOB is congruent to triangle COD.\nStep 3: AB = CD  (CPCT)\nHENCE PROVED. [Theorem 9.2 — Converse of Theorem 9.1]\n\n---"
             },
             {
               "q_num": 7,
@@ -323,7 +323,7 @@
               "q_num": 9,
               "marks": 4,
               "question": "Prove that if chords of congruent circles subtend equal angles at",
-              "answer": "GIVEN: Two congruent circles C1 (centre O1, radius r) and C2 (centre O2,\nradius r). Chords AB in C1 and CD in C2 such that angle AO1B = angle CO2D.\nTO PROVE: AB = CD.\nPROOF:\nStep 1: In triangles AO1B and CO2D:\nO1A = O2C = r  (Radii of congruent circles)\nO1B = O2D = r  (Radii of congruent circles)\nangle AO1B = angle CO2D  (Given)\nStep 2: By SAS congruence rule:\nTriangle AO1B is congruent to triangle CO2D.\nStep 3: AB = CD  (CPCT)\nHENCE PROVED.\nNote: This is the converse of Exercise 9.1 Q1 result.\n\n---\n\n5 ಮಾರ್ಕ್ಸ್ × 1 question:"
+              "answer": "GIVEN: Two congruent circles C1 (centre O1, radius r) and C2 (centre O2,\nradius r). Chords AB in C1 and CD in C2 such that angle AO1B = angle CO2D.\nTO PROVE: AB = CD.\nPROOF:\nStep 1: In triangles AO1B and CO2D:\nO1A = O2C = r  (Radii of congruent circles)\nO1B = O2D = r  (Radii of congruent circles)\nangle AO1B = angle CO2D  (Given)\nStep 2: By SAS congruence rule:\nTriangle AO1B is congruent to triangle CO2D.\nStep 3: AB = CD  (CPCT)\nHENCE PROVED.\nNote: This is the converse of Exercise 9.1 Q1 result.\n\n---"
             },
             {
               "q_num": 10,
@@ -582,7 +582,7 @@
               "q_num": 4,
               "marks": 2,
               "question": "Why is the distance of the diameter from the centre zero?",
-              "answer": "The diameter passes through the centre of the circle. Therefore the centre\nlies on the chord (diameter) itself. The perpendicular from the centre to\nthe diameter has length zero. Hence the distance of the diameter from the\ncentre is 0.\n\n---\n\n3 ಮಾರ್ಕ್ಸ್ × 2 questions:"
+              "answer": "The diameter passes through the centre of the circle. Therefore the centre\nlies on the chord (diameter) itself. The perpendicular from the centre to\nthe diameter has length zero. Hence the distance of the diameter from the\ncentre is 0.\n\n---"
             },
             {
               "q_num": 5,
@@ -594,7 +594,7 @@
               "q_num": 6,
               "marks": 3,
               "question": "In a circle of radius 17 cm, a chord is at 8 cm from the centre.",
-              "answer": "GIVEN: Radius OA = 17 cm. Distance OM = 8 cm (OM perpendicular to chord AB).\nStep 1: In right triangle OMA (Pythagoras theorem):\nOA^2 = OM^2 + AM^2\n17^2 = 8^2 + AM^2\n289 = 64 + AM^2\nAM^2 = 225.\nStep 2: AM = 15 cm.\nStep 3: AB = 2 x AM = 30 cm.  (Theorem 9.3)\nANSWER: Length of chord = 30 cm.\n\n---\n\n4 ಮಾರ್ಕ್ಸ್ × 3 questions:"
+              "answer": "GIVEN: Radius OA = 17 cm. Distance OM = 8 cm (OM perpendicular to chord AB).\nStep 1: In right triangle OMA (Pythagoras theorem):\nOA^2 = OM^2 + AM^2\n17^2 = 8^2 + AM^2\n289 = 64 + AM^2\nAM^2 = 225.\nStep 2: AM = 15 cm.\nStep 3: AB = 2 x AM = 30 cm.  (Theorem 9.3)\nANSWER: Length of chord = 30 cm.\n\n---"
             },
             {
               "q_num": 7,
@@ -612,7 +612,7 @@
               "q_num": 9,
               "marks": 4,
               "question": "Prove Theorem 9.4: The line drawn through the centre to bisect a",
-              "answer": "GIVEN: Circle with centre O. M is mid-point of chord AB (AM = MB). Join OM.\nTO PROVE: OM perpendicular to AB.\nCONSTRUCTION: Join OA and OB.\nPROOF:\nStep 1: In triangles OAM and OBM:\nOA = OB  (Radii — Why? Both radii of same circle)\nAM = BM  (Given — M is mid-point)\nOM = OM  (Common)\nStep 2: By SSS congruence rule:\nTriangle OAM is congruent to triangle OBM.\nStep 3: angle OMA = angle OMB  (CPCT)\nStep 4: angle OMA + angle OMB = 180 degrees  (Linear pair)\n2 x angle OMA = 180 degrees → angle OMA = 90 degrees.\nStep 5: OM is perpendicular to AB.\nHENCE PROVED. [Theorem 9.4 — Converse of Theorem 9.3]\n\n---\n\n5 ಮಾರ್ಕ್ಸ್ × 1 question:"
+              "answer": "GIVEN: Circle with centre O. M is mid-point of chord AB (AM = MB). Join OM.\nTO PROVE: OM perpendicular to AB.\nCONSTRUCTION: Join OA and OB.\nPROOF:\nStep 1: In triangles OAM and OBM:\nOA = OB  (Radii — Why? Both radii of same circle)\nAM = BM  (Given — M is mid-point)\nOM = OM  (Common)\nStep 2: By SSS congruence rule:\nTriangle OAM is congruent to triangle OBM.\nStep 3: angle OMA = angle OMB  (CPCT)\nStep 4: angle OMA + angle OMB = 180 degrees  (Linear pair)\n2 x angle OMA = 180 degrees → angle OMA = 90 degrees.\nStep 5: OM is perpendicular to AB.\nHENCE PROVED. [Theorem 9.4 — Converse of Theorem 9.3]\n\n---"
             },
             {
               "q_num": 10,
@@ -860,7 +860,7 @@
               "q_num": 4,
               "marks": 2,
               "question": "In a circle of radius 5 cm, chords AB = 6 cm and CD = 8 cm.",
-              "answer": "OM_AB = sqrt(25 - 9) = 4 cm.\nOM_CD = sqrt(25 - 16) = 3 cm.\nSince 3 < 4, chord CD (the longer chord) is closer to the centre.\nRule: A longer chord is always nearer to the centre.\n\n---\n\n3 ಮಾರ್ಕ್ಸ್ × 2 questions:"
+              "answer": "OM_AB = sqrt(25 - 9) = 4 cm.\nOM_CD = sqrt(25 - 16) = 3 cm.\nSince 3 < 4, chord CD (the longer chord) is closer to the centre.\nRule: A longer chord is always nearer to the centre.\n\n---"
             },
             {
               "q_num": 5,
@@ -872,7 +872,7 @@
               "q_num": 6,
               "marks": 3,
               "question": "In a circle, two chords are each at distance 5 cm from the centre.",
-              "answer": "GIVEN: OM = ON = 5 cm. Radius = 13 cm.\nStep 1: AM^2 = OA^2 - OM^2 = 169 - 25 = 144. AM = 12 cm.\nStep 2: Chord = 2 x 12 = 24 cm.\nStep 3: Since OM = ON, by Theorem 9.6: both chords are equal = 24 cm each.\nANSWER: Each chord = 24 cm.\n\n---\n\n4 ಮಾರ್ಕ್ಸ್ × 3 questions:"
+              "answer": "GIVEN: OM = ON = 5 cm. Radius = 13 cm.\nStep 1: AM^2 = OA^2 - OM^2 = 169 - 25 = 144. AM = 12 cm.\nStep 2: Chord = 2 x 12 = 24 cm.\nStep 3: Since OM = ON, by Theorem 9.6: both chords are equal = 24 cm each.\nANSWER: Each chord = 24 cm.\n\n---"
             },
             {
               "q_num": 7,
@@ -890,7 +890,7 @@
               "q_num": 9,
               "marks": 4,
               "question": "Prove: If two equal chords of a circle intersect within it, the",
-              "answer": "GIVEN: Circle, centre O. Equal chords AB = CD intersecting at E. OE is drawn.\nTO PROVE: angle OEB = angle OED (OE makes equal angles with both chords).\nCONSTRUCTION: Draw OM perp to AB and ON perp to CD.\nPROOF:\nStep 1: AB = CD → by Theorem 9.5: OM = ON.\nStep 2: In right triangles OME and ONE:\nOM = ON,  OE = OE (common),  angle OME = angle ONE = 90°.\nBy RHS: triangle OME congruent to triangle ONE.\nStep 3: angle MEO = angle NEO  (CPCT), i.e., angle OEB = angle OED.\nHENCE PROVED.\n\n---\n\n5 ಮಾರ್ಕ್ಸ್ × 1 question:"
+              "answer": "GIVEN: Circle, centre O. Equal chords AB = CD intersecting at E. OE is drawn.\nTO PROVE: angle OEB = angle OED (OE makes equal angles with both chords).\nCONSTRUCTION: Draw OM perp to AB and ON perp to CD.\nPROOF:\nStep 1: AB = CD → by Theorem 9.5: OM = ON.\nStep 2: In right triangles OME and ONE:\nOM = ON,  OE = OE (common),  angle OME = angle ONE = 90°.\nBy RHS: triangle OME congruent to triangle ONE.\nStep 3: angle MEO = angle NEO  (CPCT), i.e., angle OEB = angle OED.\nHENCE PROVED.\n\n---"
             },
             {
               "q_num": 10,
@@ -1137,7 +1137,7 @@
               "q_num": 4,
               "marks": 2,
               "question": "State Theorem 9.8. Give one example of its use.",
-              "answer": "Theorem 9.8: Angles in the same segment of a circle are equal.\n(If A and C are on the same arc, then angle PAQ = angle PCQ.)\nExample: If angle PAQ = 40 degrees, then for any other point C on the same\narc, angle PCQ = 40 degrees also.\n\n---\n\n3 ಮಾರ್ಕ್ಸ್ × 2 questions:"
+              "answer": "Theorem 9.8: Angles in the same segment of a circle are equal.\n(If A and C are on the same arc, then angle PAQ = angle PCQ.)\nExample: If angle PAQ = 40 degrees, then for any other point C on the same\narc, angle PCQ = 40 degrees also.\n\n---"
             },
             {
               "q_num": 5,
@@ -1149,7 +1149,7 @@
               "q_num": 6,
               "marks": 3,
               "question": "In Fig. 9.19, AB is a diameter. CD is a chord equal to the radius.",
-              "answer": "Step 1: OC = OD = CD = radius → triangle OCD is equilateral.\nangle COD = 60 degrees.\nStep 2: angle CBD = (1/2) x angle COD = 30 degrees.  (Theorem 9.7)\nStep 3: angle ACB = 90 degrees  (Angle in semicircle, AB is diameter).\nangle BCE = 180 - 90 = 90 degrees  (Linear pair).\nStep 4: angle AEB = 180 - 90 - 30 = 60 degrees.\nANSWER: angle AEB = 60 degrees.\n\n---\n\n4 ಮಾರ್ಕ್ಸ್ × 3 questions:"
+              "answer": "Step 1: OC = OD = CD = radius → triangle OCD is equilateral.\nangle COD = 60 degrees.\nStep 2: angle CBD = (1/2) x angle COD = 30 degrees.  (Theorem 9.7)\nStep 3: angle ACB = 90 degrees  (Angle in semicircle, AB is diameter).\nangle BCE = 180 - 90 = 90 degrees  (Linear pair).\nStep 4: angle AEB = 180 - 90 - 30 = 60 degrees.\nANSWER: angle AEB = 60 degrees.\n\n---"
             },
             {
               "q_num": 7,
@@ -1167,7 +1167,7 @@
               "q_num": 9,
               "marks": 4,
               "question": "In Fig. 9.25, angle ABC = 69° and angle ACB = 31°. Find angle BDC,",
-              "answer": "Step 1: In triangle ABC:\nangle BAC = 180 - angle ABC - angle ACB = 180 - 69 - 31 = 80 degrees.\nStep 2: angle BAC and angle BDC both subtend chord BC from the same side.\nBy Theorem 9.8 (angles in same segment):\nangle BDC = angle BAC = 80 degrees.\nANSWER: angle BDC = 80 degrees.\n\n---\n\n5 ಮಾರ್ಕ್ಸ್ × 1 question:"
+              "answer": "Step 1: In triangle ABC:\nangle BAC = 180 - angle ABC - angle ACB = 180 - 69 - 31 = 80 degrees.\nStep 2: angle BAC and angle BDC both subtend chord BC from the same side.\nBy Theorem 9.8 (angles in same segment):\nangle BDC = angle BAC = 80 degrees.\nANSWER: angle BDC = 80 degrees.\n\n---"
             },
             {
               "q_num": 10,
@@ -1428,7 +1428,7 @@
               "q_num": 4,
               "marks": 2,
               "question": "In cyclic quadrilateral ABCD, angle A = 3x and angle C = x.",
-              "answer": "angle A + angle C = 180.\n3x + x = 180 → 4x = 180 → x = 45 degrees.\nangle A = 135 degrees.  angle C = 45 degrees.\nVerification: 135 + 45 = 180. ✓\n\n---\n\n3 ಮಾರ್ಕ್ಸ್ × 2 questions:"
+              "answer": "angle A + angle C = 180.\n3x + x = 180 → 4x = 180 → x = 45 degrees.\nangle A = 135 degrees.  angle C = 45 degrees.\nVerification: 135 + 45 = 180. ✓\n\n---"
             },
             {
               "q_num": 5,
@@ -1440,7 +1440,7 @@
               "q_num": 6,
               "marks": 3,
               "question": "Prove that a cyclic parallelogram is a rectangle.",
-              "answer": "GIVEN: ABCD is a parallelogram inscribed in a circle.\nTO PROVE: ABCD is a rectangle.\nPROOF:\nStep 1: Cyclic quadrilateral: angle A + angle C = 180°  ...(i)\nStep 2: Parallelogram: angle A = angle C  ...(ii)\nStep 3: From (i) and (ii): 2 x angle A = 180° → angle A = 90°.\nStep 4: Similarly angle B = angle D = 90°.\nStep 5: All angles = 90° → ABCD is a rectangle.\nHENCE PROVED.\n\n---\n\n4 ಮಾರ್ಕ್ಸ್ × 3 questions:"
+              "answer": "GIVEN: ABCD is a parallelogram inscribed in a circle.\nTO PROVE: ABCD is a rectangle.\nPROOF:\nStep 1: Cyclic quadrilateral: angle A + angle C = 180°  ...(i)\nStep 2: Parallelogram: angle A = angle C  ...(ii)\nStep 3: From (i) and (ii): 2 x angle A = 180° → angle A = 90°.\nStep 4: Similarly angle B = angle D = 90°.\nStep 5: All angles = 90° → ABCD is a rectangle.\nHENCE PROVED.\n\n---"
             },
             {
               "q_num": 7,
@@ -1458,7 +1458,7 @@
               "q_num": 9,
               "marks": 4,
               "question": "If diagonals of a cyclic quadrilateral are diameters of the circle,",
-              "answer": "GIVEN: Cyclic ABCD. Diagonals AC and BD are diameters.\nTO PROVE: ABCD is a rectangle.\nPROOF:\nStep 1: AC is diameter → angle ABC = 90°  (Angle in semicircle).\nStep 2: AC is diameter → angle ADC = 90°  (Angle in semicircle).\nStep 3: BD is diameter → angle BAD = 90°  (Angle in semicircle).\nStep 4: BD is diameter → angle BCD = 90°  (Angle in semicircle).\nStep 5: All four angles = 90° → ABCD is a rectangle.\nHENCE PROVED.\n\n---\n\n5 ಮಾರ್ಕ್ಸ್ × 1 question:"
+              "answer": "GIVEN: Cyclic ABCD. Diagonals AC and BD are diameters.\nTO PROVE: ABCD is a rectangle.\nPROOF:\nStep 1: AC is diameter → angle ABC = 90°  (Angle in semicircle).\nStep 2: AC is diameter → angle ADC = 90°  (Angle in semicircle).\nStep 3: BD is diameter → angle BAD = 90°  (Angle in semicircle).\nStep 4: BD is diameter → angle BCD = 90°  (Angle in semicircle).\nStep 5: All four angles = 90° → ABCD is a rectangle.\nHENCE PROVED.\n\n---"
             },
             {
               "q_num": 10,

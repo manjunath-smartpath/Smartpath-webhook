@@ -409,7 +409,7 @@
               "q_num": 4,
               "marks": 2,
               "question": "Name the three methods to find mean of grouped data and state when each is preferred.",
-              "answer": "The three methods are:\n\n(i) DIRECT METHOD: x̄ = Σfixi / Σfi\n→ Use when class marks and frequencies are small numbers.\n\n(ii) ASSUMED MEAN METHOD: x̄ = a + (Σfidi / Σfi)\n→ Use when class marks are large; deviations di = xi - a are smaller.\n\n(iii) STEP-DEVIATION METHOD: x̄ = a + h × (Σfiui / Σfi)\n→ Use when class size is equal and all deviations have a common factor h.\n\nAll three methods always give the SAME result.\n\n---\n\n3 ಮಾರ್ಕ್ಸ್ × 3 questions:"
+              "answer": "The three methods are:\n\n(i) DIRECT METHOD: x̄ = Σfixi / Σfi\n→ Use when class marks and frequencies are small numbers.\n\n(ii) ASSUMED MEAN METHOD: x̄ = a + (Σfidi / Σfi)\n→ Use when class marks are large; deviations di = xi - a are smaller.\n\n(iii) STEP-DEVIATION METHOD: x̄ = a + h × (Σfiui / Σfi)\n→ Use when class size is equal and all deviations have a common factor h.\n\nAll three methods always give the SAME result.\n\n---"
             },
             {
               "q_num": 5,
@@ -427,7 +427,7 @@
               "q_num": 7,
               "marks": 3,
               "question": "State the upper class limit convention in grouped frequency distributions. A student scores exactly 40 marks. If class intervals are 25-40 and 40-55, in which class is the student placed? Justify.",
-              "answer": "UPPER CLASS LIMIT CONVENTION: In a grouped frequency distribution, a value equal to the upper class limit of one class is placed in the NEXT (higher) class.\n\nThis is because each class interval is of the form [lower limit, upper limit), meaning:\n- Lower limit is INCLUDED\n- Upper limit is EXCLUDED\n\nFor the student scoring 40:\n- Class 25-40: includes values from 25 (inclusive) to 40 (exclusive) → 40 is NOT included here.\n- Class 40-55: includes values from 40 (inclusive) → 40 IS included here.\n\nANSWER: The student scoring 40 is placed in the class 40-55.\n\n---\n\n4 ಮಾರ್ಕ್ಸ್ × 4 questions:"
+              "answer": "UPPER CLASS LIMIT CONVENTION: In a grouped frequency distribution, a value equal to the upper class limit of one class is placed in the NEXT (higher) class.\n\nThis is because each class interval is of the form [lower limit, upper limit), meaning:\n- Lower limit is INCLUDED\n- Upper limit is EXCLUDED\n\nFor the student scoring 40:\n- Class 25-40: includes values from 25 (inclusive) to 40 (exclusive) → 40 is NOT included here.\n- Class 40-55: includes values from 40 (inclusive) → 40 IS included here.\n\nANSWER: The student scoring 40 is placed in the class 40-55.\n\n---"
             },
             {
               "q_num": 8,
@@ -451,7 +451,7 @@
               "q_num": 11,
               "marks": 4,
               "question": "The mean of the following distribution is 18. Find the missing frequency f.",
-              "answer": "Step 1: Class marks xi: 12, 14, 16, 18, 20, 22, 24\nStep 2: Calculate fi × xi:\n12×7=84, 14×6=84, 16×9=144, 18×13=234, 20×f=20f, 22×5=110, 24×4=96\nΣfixi = 84+84+144+234+20f+110+96 = 752 + 20f\nStep 3: Σfi = 7+6+9+13+f+5+4 = 44+f\n\nStep 4: Mean = 18:\n18 = (752 + 20f) / (44 + f)\n18(44 + f) = 752 + 20f\n792 + 18f = 752 + 20f\n792 - 752 = 20f - 18f\n40 = 2f\nf = 20\n\nANSWER: Missing frequency f = 20\n\n---\n\n5 ಮಾರ್ಕ್ಸ್ × 1 question:"
+              "answer": "Step 1: Class marks xi: 12, 14, 16, 18, 20, 22, 24\nStep 2: Calculate fi × xi:\n12×7=84, 14×6=84, 16×9=144, 18×13=234, 20×f=20f, 22×5=110, 24×4=96\nΣfixi = 84+84+144+234+20f+110+96 = 752 + 20f\nStep 3: Σfi = 7+6+9+13+f+5+4 = 44+f\n\nStep 4: Mean = 18:\n18 = (752 + 20f) / (44 + f)\n18(44 + f) = 752 + 20f\n792 + 18f = 752 + 20f\n792 - 752 = 20f - 18f\n40 = 2f\nf = 20\n\nANSWER: Missing frequency f = 20\n\n---"
             },
             {
               "q_num": 12,
@@ -885,7 +885,7 @@
               "q_num": 4,
               "marks": 2,
               "question": "Activity 1 states: \"No matter which xi is chosen as 'a', the mean is always the same (62).\" Explain why this is true.",
-              "answer": "In the Assumed Mean Method: x̄ = a + (Σfidi / Σfi)\n\nWhen we change 'a' to a different class mark, every di = xi - a changes too. The sum Σfidi adjusts exactly to compensate, so the final x̄ remains constant.\n\nThis proves that MEAN DOES NOT DEPEND ON THE CHOICE OF ASSUMED MEAN 'a'. The assumed mean is only a computational tool — it does not affect the final answer.\n\n---\n\n3 ಮಾರ್ಕ್ಸ್ × 3 questions:"
+              "answer": "In the Assumed Mean Method: x̄ = a + (Σfidi / Σfi)\n\nWhen we change 'a' to a different class mark, every di = xi - a changes too. The sum Σfidi adjusts exactly to compensate, so the final x̄ remains constant.\n\nThis proves that MEAN DOES NOT DEPEND ON THE CHOICE OF ASSUMED MEAN 'a'. The assumed mean is only a computational tool — it does not affect the final answer.\n\n---"
             },
             {
               "q_num": 5,
@@ -903,7 +903,7 @@
               "q_num": 7,
               "marks": 3,
               "question": "The following distribution shows heartbeats per minute of 30 women. Find the mean using Assumed Mean Method.",
-              "answer": "Step 1: xi: 66.5, 69.5, 72.5, 75.5, 78.5, 81.5, 84.5. a = 75.5, h = 3.\nStep 2:\ndi = xi - 75.5: -9, -6, -3, 0, 3, 6, 9\nfidi: -18, -24, -9, 0, 21, 24, 18 → Σfidi = 12\nΣfi = 30\nStep 3: x̄ = 75.5 + 12/30 = 75.5 + 0.4 = 75.9\n\nANSWER: Mean heartbeats per minute = 75.9\n\n---\n\n4 ಮಾರ್ಕ್ಸ್ × 4 questions:"
+              "answer": "Step 1: xi: 66.5, 69.5, 72.5, 75.5, 78.5, 81.5, 84.5. a = 75.5, h = 3.\nStep 2:\ndi = xi - 75.5: -9, -6, -3, 0, 3, 6, 9\nfidi: -18, -24, -9, 0, 21, 24, 18 → Σfidi = 12\nΣfi = 30\nStep 3: x̄ = 75.5 + 12/30 = 75.5 + 0.4 = 75.9\n\nANSWER: Mean heartbeats per minute = 75.9\n\n---"
             },
             {
               "q_num": 8,
@@ -927,7 +927,7 @@
               "q_num": 11,
               "marks": 4,
               "question": "The mean of the following frequency distribution is 62. Find Σfi and the missing class frequency for class 55-70, given that the distribution has classes 10-25(f=2), 25-40(f=3), 40-55(f=7), 55-70(f=?), 70-85(f=6), 85-100(f=6). Also verify by Direct Method.",
-              "answer": "Step 1: Σfi = 2+3+7+f+6+6 = 24+f\nStep 2: xi: 17.5, 32.5, 47.5, 62.5, 77.5, 92.5\nΣfixi = 35+97.5+332.5+62.5f+465+555 = 1485 + 62.5f\nStep 3: Mean = 62:\n62 = (1485 + 62.5f)/(24+f)\n62(24+f) = 1485 + 62.5f\n1488 + 62f = 1485 + 62.5f\n3 = 0.5f\nf = 6\n\nStep 4: Verify: Σfi = 24+6 = 30. Σfixi = 1485+62.5×6 = 1485+375 = 1860\nx̄ = 1860/30 = 62 ✓\n\nANSWER: Missing frequency = 6, Σfi = 30.\n\n---\n\n5 ಮಾರ್ಕ್ಸ್ × 1 question:"
+              "answer": "Step 1: Σfi = 2+3+7+f+6+6 = 24+f\nStep 2: xi: 17.5, 32.5, 47.5, 62.5, 77.5, 92.5\nΣfixi = 35+97.5+332.5+62.5f+465+555 = 1485 + 62.5f\nStep 3: Mean = 62:\n62 = (1485 + 62.5f)/(24+f)\n62(24+f) = 1485 + 62.5f\n1488 + 62f = 1485 + 62.5f\n3 = 0.5f\nf = 6\n\nStep 4: Verify: Σfi = 24+6 = 30. Σfixi = 1485+62.5×6 = 1485+375 = 1860\nx̄ = 1860/30 = 62 ✓\n\nANSWER: Missing frequency = 6, Σfi = 30.\n\n---"
             },
             {
               "q_num": 12,
@@ -1308,7 +1308,7 @@
               "q_num": 4,
               "marks": 2,
               "question": "State the empirical relationship between mean, mode and median. Use it to find mode when mean = 35.38 and median = 35.85.",
-              "answer": "EMPIRICAL RELATIONSHIP: 3 Median = Mode + 2 Mean\n\nThis approximate relationship holds for moderately skewed distributions.\n\nFinding Mode:\nMode = 3 Median - 2 Mean\n= 3 × 35.85 - 2 × 35.38\n= 107.55 - 70.76\n= 36.79 ≈ 36.8\n\nANSWER: Mode ≈ 36.8\n\n---\n\n3 ಮಾರ್ಕ್ಸ್ × 3 questions:"
+              "answer": "EMPIRICAL RELATIONSHIP: 3 Median = Mode + 2 Mean\n\nThis approximate relationship holds for moderately skewed distributions.\n\nFinding Mode:\nMode = 3 Median - 2 Mean\n= 3 × 35.85 - 2 × 35.38\n= 107.55 - 70.76\n= 36.79 ≈ 36.8\n\nANSWER: Mode ≈ 36.8\n\n---"
             },
             {
               "q_num": 5,
@@ -1326,7 +1326,7 @@
               "q_num": 7,
               "marks": 3,
               "question": "Find the mode of the number of cars passing through a spot.",
-              "answer": "Step 1: Modal class = 40-50 (maximum frequency = 20)\nStep 2: l = 40, h = 10, f1 = 20, f0 = 12, f2 = 11\nStep 3: Mode = 40 + [(20-12) / (2×20 - 12 - 11)] × 10\n= 40 + [8 / (40 - 23)] × 10\n= 40 + (8/17) × 10\n= 40 + 4.7 = 44.7\n\nANSWER: Mode = 44.7 cars\n\n---\n\n4 ಮಾರ್ಕ್ಸ್ × 4 questions:"
+              "answer": "Step 1: Modal class = 40-50 (maximum frequency = 20)\nStep 2: l = 40, h = 10, f1 = 20, f0 = 12, f2 = 11\nStep 3: Mode = 40 + [(20-12) / (2×20 - 12 - 11)] × 10\n= 40 + [8 / (40 - 23)] × 10\n= 40 + (8/17) × 10\n= 40 + 4.7 = 44.7\n\nANSWER: Mode = 44.7 cars\n\n---"
             },
             {
               "q_num": 8,
@@ -1350,7 +1350,7 @@
               "q_num": 11,
               "marks": 4,
               "question": "Find the mode of runs scored by top batsmen. What does it signify?",
-              "answer": "Step 1: Modal class = 4000-5000 (max f = 18)\nStep 2: l = 4000, h = 1000, f1 = 18, f0 = 4 (class 3000-4000), f2 = 9 (class 5000-6000)\nStep 3: Mode = 4000 + [(18-4)/(2×18-4-9)] × 1000\n= 4000 + [14/(36-13)] × 1000\n= 4000 + (14/23) × 1000\n= 4000 + 608.7 = 4608.7\n\nANSWER: Mode = 4608.7 runs\nThis means the most common career run-score among these top batsmen is about 4609 runs — most top players scored between 4000-5000 runs in their ODI careers.\n\n---\n\n5 ಮಾರ್ಕ್ಸ್ × 1 question:"
+              "answer": "Step 1: Modal class = 4000-5000 (max f = 18)\nStep 2: l = 4000, h = 1000, f1 = 18, f0 = 4 (class 3000-4000), f2 = 9 (class 5000-6000)\nStep 3: Mode = 4000 + [(18-4)/(2×18-4-9)] × 1000\n= 4000 + [14/(36-13)] × 1000\n= 4000 + (14/23) × 1000\n= 4000 + 608.7 = 4608.7\n\nANSWER: Mode = 4608.7 runs\nThis means the most common career run-score among these top batsmen is about 4609 runs — most top players scored between 4000-5000 runs in their ODI careers.\n\n---"
             },
             {
               "q_num": 12,
@@ -2139,7 +2139,7 @@
               "q_num": 4,
               "marks": 2,
               "question": "What is the empirical relationship between mean, mode, and median? When does it hold?",
-              "answer": "EMPIRICAL RELATIONSHIP:  3 Median = Mode + 2 Mean\n\nThis relationship:\n- Is APPROXIMATE, not exact.\n- Holds for MODERATELY SKEWED distributions.\n- Can be used to find one measure when the other two are known.\n\nExample: If Mode = 52 and Mean = 62:\n3 Median = 52 + 2×62 = 52 + 124 = 176\nMedian = 176/3 = 58.67\n\n---\n\n3 ಮಾರ್ಕ್ಸ್ × 3 questions:"
+              "answer": "EMPIRICAL RELATIONSHIP:  3 Median = Mode + 2 Mean\n\nThis relationship:\n- Is APPROXIMATE, not exact.\n- Holds for MODERATELY SKEWED distributions.\n- Can be used to find one measure when the other two are known.\n\nExample: If Mode = 52 and Mean = 62:\n3 Median = 52 + 2×62 = 52 + 124 = 176\nMedian = 176/3 = 58.67\n\n---"
             },
             {
               "q_num": 5,
@@ -2157,7 +2157,7 @@
               "q_num": 7,
               "marks": 3,
               "question": "For grouped data, why must class intervals be continuous before applying mode and median formulas? Convert 1-10, 11-20, 21-30 to continuous form.",
-              "answer": "WHY CONTINUOUS: The median and mode formulas assume that observations are spread continuously throughout each class interval. If there are gaps between classes, the formulas give incorrect results because:\n- There is no observation between the gap.\n- Cumulative frequencies would be inaccurate at the boundaries.\n\nCONVERSION:\nGap between classes = 11 - 10 = 1. Adjustment = 1/2 = 0.5\n\nOriginal:    1-10,    11-20,    21-30\nContinuous:  0.5-10.5, 10.5-20.5, 20.5-30.5\n\nANSWER: Subtract 0.5 from lower limit and add 0.5 to upper limit of each class.\n\n---\n\n4 ಮಾರ್ಕ್ಸ್ × 4 questions:"
+              "answer": "WHY CONTINUOUS: The median and mode formulas assume that observations are spread continuously throughout each class interval. If there are gaps between classes, the formulas give incorrect results because:\n- There is no observation between the gap.\n- Cumulative frequencies would be inaccurate at the boundaries.\n\nCONVERSION:\nGap between classes = 11 - 10 = 1. Adjustment = 1/2 = 0.5\n\nOriginal:    1-10,    11-20,    21-30\nContinuous:  0.5-10.5, 10.5-20.5, 20.5-30.5\n\nANSWER: Subtract 0.5 from lower limit and add 0.5 to upper limit of each class.\n\n---"
             },
             {
               "q_num": 8,
@@ -2181,7 +2181,7 @@
               "q_num": 11,
               "marks": 4,
               "question": "For a distribution: mean = 522, mode = 537.5. Find median using the empirical formula. Also, if a student says \"median is always between mode and mean,\" verify this with this example.",
-              "answer": "Step 1 — Find median:\n3 Median = Mode + 2 Mean = 537.5 + 2×522 = 537.5 + 1044 = 1581.5\nMedian = 1581.5/3 = 527.17\n\nStep 2 — Verify \"median is between mode and mean\":\nMean = 522; Median = 527.17; Mode = 537.5\n522 < 527.17 < 537.5 → Mean < Median < Mode ✓\n\nANSWER: Median ≈ 527. Yes, in this case median (527) lies between mean (522) and mode (537.5). For moderately skewed distributions, median generally lies between mean and mode.\n\n---\n\n5 ಮಾರ್ಕ್ಸ್ × 1 question:"
+              "answer": "Step 1 — Find median:\n3 Median = Mode + 2 Mean = 537.5 + 2×522 = 537.5 + 1044 = 1581.5\nMedian = 1581.5/3 = 527.17\n\nStep 2 — Verify \"median is between mode and mean\":\nMean = 522; Median = 527.17; Mode = 537.5\n522 < 527.17 < 537.5 → Mean < Median < Mode ✓\n\nANSWER: Median ≈ 527. Yes, in this case median (527) lies between mean (522) and mode (537.5). For moderately skewed distributions, median generally lies between mean and mode.\n\n---"
             },
             {
               "q_num": 12,

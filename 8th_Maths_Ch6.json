@@ -138,7 +138,7 @@
               "q_num": 3,
               "marks": 2,
               "question": "Verify that 1729 = 12^3 + 1^3.",
-              "answer": "12^3 = 12 x 12 x 12 = 1728.\n1^3 = 1.\n1728 + 1 = 1729. ✔\n\n---\n\n3 ಮಾರ್ಕ್ಸ್ × 2 questions:"
+              "answer": "12^3 = 12 x 12 x 12 = 1728.\n1^3 = 1.\n1728 + 1 = 1729. ✔\n\n---"
             },
             {
               "q_num": 4,
@@ -150,7 +150,7 @@
               "q_num": 5,
               "marks": 3,
               "question": "What is 4104? Verify it is also a Hardy-Ramanujan Number.",
-              "answer": "Step 1: 4104 = 2^3 + 16^3 = 8 + 4096 = 4104. ✔\nStep 2: 4104 = 9^3 + 15^3 = 729 + 3375 = 4104. ✔\n4104 is the second Hardy-Ramanujan Number — expressible as sum of two cubes in two ways.\n\n---\n\n4 ಮಾರ್ಕ್ಸ್ × 2 questions:"
+              "answer": "Step 1: 4104 = 2^3 + 16^3 = 8 + 4096 = 4104. ✔\nStep 2: 4104 = 9^3 + 15^3 = 729 + 3375 = 4104. ✔\n4104 is the second Hardy-Ramanujan Number — expressible as sum of two cubes in two ways.\n\n---"
             },
             {
               "q_num": 6,
@@ -162,7 +162,7 @@
               "q_num": 7,
               "marks": 4,
               "question": "13832 is also a Hardy-Ramanujan type number. Verify this property.",
-              "answer": "Step 1: Check 13832 = 2^3 + 24^3.\n2^3 = 8. 24^3 = 13824. 8 + 13824 = 13832. ✔\nStep 2: Check 13832 = 18^3 + 20^3?\n18^3 = 5832. 20^3 = 8000. 5832 + 8000 = 13832. ✔\nStep 3: Both verified. 13832 = 2^3 + 24^3 = 18^3 + 20^3.\nAnswer: 13832 is a Hardy-Ramanujan type number expressible as sum of two cubes in two ways.\n\n---\n\n5 ಮಾರ್ಕ್ಸ್ × 1 question:"
+              "answer": "Step 1: Check 13832 = 2^3 + 24^3.\n2^3 = 8. 24^3 = 13824. 8 + 13824 = 13832. ✔\nStep 2: Check 13832 = 18^3 + 20^3?\n18^3 = 5832. 20^3 = 8000. 5832 + 8000 = 13832. ✔\nStep 3: Both verified. 13832 = 2^3 + 24^3 = 18^3 + 20^3.\nAnswer: 13832 is a Hardy-Ramanujan type number expressible as sum of two cubes in two ways.\n\n---"
             },
             {
               "q_num": 8,
@@ -299,7 +299,7 @@
               "q_num": 3,
               "marks": 2,
               "question": "Is 9 a perfect cube? Why?",
-              "answer": "No. 2^3=8 and 3^3=27. 9 lies between 8 and 27.\nThere is NO natural number whose cube is 9.\nHence 9 is NOT a perfect cube.\n\n---\n\n3 ಮಾರ್ಕ್ಸ್ × 2 questions:"
+              "answer": "No. 2^3=8 and 3^3=27. 9 lies between 8 and 27.\nThere is NO natural number whose cube is 9.\nHence 9 is NOT a perfect cube.\n\n---"
             },
             {
               "q_num": 4,
@@ -311,7 +311,7 @@
               "q_num": 5,
               "marks": 3,
               "question": "Express 4^3 and 5^3 as sums of consecutive odd numbers.",
-              "answer": "Step 1: 4^3 = 64. Fourth group: starts after 3^3's last number.\n3^3 = 27 = 7+9+11. Next odd = 13.\n4^3 = 13+15+17+19 = 64. ✔\nStep 2: 5^3 = 125. Next odd after 19 = 21.\n5^3 = 21+23+25+27+29 = 125. ✔\nAnswer: 64=13+15+17+19; 125=21+23+25+27+29.\n\n---\n\n4 ಮಾರ್ಕ್ಸ್ × 2 questions:"
+              "answer": "Step 1: 4^3 = 64. Fourth group: starts after 3^3's last number.\n3^3 = 27 = 7+9+11. Next odd = 13.\n4^3 = 13+15+17+19 = 64. ✔\nStep 2: 5^3 = 125. Next odd after 19 = 21.\n5^3 = 21+23+25+27+29 = 125. ✔\nAnswer: 64=13+15+17+19; 125=21+23+25+27+29.\n\n---"
             },
             {
               "q_num": 6,
@@ -323,7 +323,7 @@
               "q_num": 7,
               "marks": 4,
               "question": "Find the volume of a cube with side 15 cm. Is 3375 a perfect cube? Verify.",
-              "answer": "Step 1: Volume = side^3 = 15^3.\nStep 2: 15^3 = 15 x 15 x 15 = 225 x 15 = 3375 cm^3.\nStep 3: Is 3375 a perfect cube?\n3375 = 3^3 x 5^3 = (3x5)^3 = 15^3. YES! ✔\nStep 4: cube_root(3375) = 15.\nAnswer: Volume = 3375 cm^3. 3375 = 15^3 is a perfect cube. ✔\n\n---\n\n5 ಮಾರ್ಕ್ಸ್ × 1 question:"
+              "answer": "Step 1: Volume = side^3 = 15^3.\nStep 2: 15^3 = 15 x 15 x 15 = 225 x 15 = 3375 cm^3.\nStep 3: Is 3375 a perfect cube?\n3375 = 3^3 x 5^3 = (3x5)^3 = 15^3. YES! ✔\nStep 4: cube_root(3375) = 15.\nAnswer: Volume = 3375 cm^3. 3375 = 15^3 is a perfect cube. ✔\n\n---"
             },
             {
               "q_num": 8,
@@ -477,7 +477,7 @@
                   "q_num": 3,
                   "marks": 2,
                   "question": "In prime factorisation of a perfect cube, how does each prime factor appear?",
-                  "answer": "Each prime factor appears EXACTLY THREE TIMES (in triplets).\nExample: 8 = 2^3 (factor 2 appears 3 times). cube_root(8) = 2. ✔\n\n---\n\n3 ಮಾರ್ಕ್ಸ್ × 2 questions:"
+                  "answer": "Each prime factor appears EXACTLY THREE TIMES (in triplets).\nExample: 8 = 2^3 (factor 2 appears 3 times). cube_root(8) = 2. ✔\n\n---"
                 },
                 {
                   "q_num": 4,
@@ -489,7 +489,7 @@
                   "q_num": 5,
                   "marks": 3,
                   "question": "Find 12^3 - 11^3 and 20^3 - 19^3 using the pattern.",
-                  "answer": "Step 1: Pattern: (n+1)^3 - n^3 = 1 + 3n(n+1).\nStep 2: 12^3 - 11^3 (n=11): 1 + 3x11x12 = 1 + 396 = 397.\nVerify: 1728 - 1331 = 397. ✔\nStep 3: 20^3 - 19^3 (n=19): 1 + 3x19x20 = 1 + 1140 = 1141.\nVerify: 8000 - 6859 = 1141. ✔\nAnswer: 397; 1141.\n\n---\n\n4 ಮಾರ್ಕ್ಸ್ × 2 questions:"
+                  "answer": "Step 1: Pattern: (n+1)^3 - n^3 = 1 + 3n(n+1).\nStep 2: 12^3 - 11^3 (n=11): 1 + 3x11x12 = 1 + 396 = 397.\nVerify: 1728 - 1331 = 397. ✔\nStep 3: 20^3 - 19^3 (n=19): 1 + 3x19x20 = 1 + 1140 = 1141.\nVerify: 8000 - 6859 = 1141. ✔\nAnswer: 397; 1141.\n\n---"
                 },
                 {
                   "q_num": 6,
@@ -501,7 +501,7 @@
                   "q_num": 7,
                   "marks": 4,
                   "question": "Find 51^3 - 50^3 using the pattern. Also verify 2^3 - 1^3 = 1 + 2x1x3.",
-                  "answer": "Step 1: 51^3 - 50^3 (n=50): 1 + 3x50x51 = 1 + 7650 = 7651.\nStep 2: Verify: 51^3 = 132651. 50^3 = 125000. 132651-125000 = 7651. ✔\nStep 3: Verify 2^3-1^3 = 1+2x1x3:\n2^3-1^3 = 8-1 = 7. And 1+2x1x3 = 1+6 = 7. ✔\nAnswer: 51^3-50^3 = 7651.\n\n---\n\n5 ಮಾರ್ಕ್ಸ್ × 1 question:"
+                  "answer": "Step 1: 51^3 - 50^3 (n=50): 1 + 3x50x51 = 1 + 7650 = 7651.\nStep 2: Verify: 51^3 = 132651. 50^3 = 125000. 132651-125000 = 7651. ✔\nStep 3: Verify 2^3-1^3 = 1+2x1x3:\n2^3-1^3 = 8-1 = 7. And 1+2x1x3 = 1+6 = 7. ✔\nAnswer: 51^3-50^3 = 7651.\n\n---"
                 },
                 {
                   "q_num": 8,
@@ -661,7 +661,7 @@
                   "q_num": 3,
                   "marks": 2,
                   "question": "Find smallest divisor of 500 to get a perfect cube.",
-                  "answer": "500 = 2^2 x 5^3. Factor 2 has no triplet (appears twice).\nDivide by 2^2=4: 500/4=125=5^3. Smallest divisor = 4.\n\n---\n\n3 ಮಾರ್ಕ್ಸ್ × 2 questions:"
+                  "answer": "500 = 2^2 x 5^3. Factor 2 has no triplet (appears twice).\nDivide by 2^2=4: 500/4=125=5^3. Smallest divisor = 4.\n\n---"
                 },
                 {
                   "q_num": 4,
@@ -673,7 +673,7 @@
                   "q_num": 5,
                   "marks": 3,
                   "question": "Which of the following are perfect cubes? 400, 3375, 8000, 9000.",
-                  "answer": "Step 1: 400 = 2^4 x 5^2. 2 appears 4 times (not multiple of 3), 5 twice. NOT perfect cube.\nStep 2: 3375 = 3^3 x 5^3. Both in triplets. PERFECT CUBE. cube_root=15.\nStep 3: 8000 = 2^6 x 5^3. 2^6=(2^2)^3, 5^3. Both in triplets. PERFECT CUBE. cube_root=20.\nStep 4: 9000 = 2^3 x 3^2 x 5^3. Factor 3 appears twice — no triplet. NOT perfect cube.\nAnswer: 3375 and 8000 are perfect cubes; 400 and 9000 are not.\n\n---\n\n4 ಮಾರ್ಕ್ಸ್ × 2 questions:"
+                  "answer": "Step 1: 400 = 2^4 x 5^2. 2 appears 4 times (not multiple of 3), 5 twice. NOT perfect cube.\nStep 2: 3375 = 3^3 x 5^3. Both in triplets. PERFECT CUBE. cube_root=15.\nStep 3: 8000 = 2^6 x 5^3. 2^6=(2^2)^3, 5^3. Both in triplets. PERFECT CUBE. cube_root=20.\nStep 4: 9000 = 2^3 x 3^2 x 5^3. Factor 3 appears twice — no triplet. NOT perfect cube.\nAnswer: 3375 and 8000 are perfect cubes; 400 and 9000 are not.\n\n---"
                 },
                 {
                   "q_num": 6,
@@ -685,7 +685,7 @@
                   "q_num": 7,
                   "marks": 4,
                   "question": "Find the smallest number by which 243 must be multiplied to make it a perfect cube. Find the cube root.",
-                  "answer": "Step 1: 243 = 3^5.\nStep 2: 3^5 = 3^3 x 3^2. One complete triplet (3^3), two remaining.\nStep 3: Need one more 3 to make 3^6 = (3^2)^3 = 9^3.\nStep 4: Multiply by 3: 243x3 = 729 = 3^6 = (3^2)^3 = 9^3.\nAnswer: Multiply by 3. cube_root(729) = 9. Verify: 9^3=729. ✔\n\n---\n\n5 ಮಾರ್ಕ್ಸ್ × 1 question:"
+                  "answer": "Step 1: 243 = 3^5.\nStep 2: 3^5 = 3^3 x 3^2. One complete triplet (3^3), two remaining.\nStep 3: Need one more 3 to make 3^6 = (3^2)^3 = 9^3.\nStep 4: Multiply by 3: 243x3 = 729 = 3^6 = (3^2)^3 = 9^3.\nAnswer: Multiply by 3. cube_root(729) = 9. Verify: 9^3=729. ✔\n\n---"
                 },
                 {
                   "q_num": 8,
@@ -822,7 +822,7 @@
               "q_num": 3,
               "marks": 2,
               "question": "Find cube_root(1000).",
-              "answer": "10^3 = 1000. So cube_root(1000) = 10. ✔\n\n---\n\n3 ಮಾರ್ಕ್ಸ್ × 2 questions:"
+              "answer": "10^3 = 1000. So cube_root(1000) = 10. ✔\n\n---"
             },
             {
               "q_num": 4,
@@ -834,7 +834,7 @@
               "q_num": 5,
               "marks": 3,
               "question": "The volume of a cube is 125 cm^3. Find its side. What is the perimeter of one face?",
-              "answer": "Step 1: Volume = side^3 = 125. Side = cube_root(125) = 5 cm.\nStep 2: One face is a square of side 5 cm.\nStep 3: Perimeter of one face = 4 x 5 = 20 cm.\nAnswer: Side = 5 cm. Perimeter of one face = 20 cm.\n\n---\n\n4 ಮಾರ್ಕ್ಸ್ × 2 questions:"
+              "answer": "Step 1: Volume = side^3 = 125. Side = cube_root(125) = 5 cm.\nStep 2: One face is a square of side 5 cm.\nStep 3: Perimeter of one face = 4 x 5 = 20 cm.\nAnswer: Side = 5 cm. Perimeter of one face = 20 cm.\n\n---"
             },
             {
               "q_num": 6,
@@ -846,7 +846,7 @@
               "q_num": 7,
               "marks": 4,
               "question": "Find cube_root(175616) and cube_root(91125) by prime factorisation.",
-              "answer": "cube_root(175616):\n175616 = 2^3 x 4^3 x 7^3 = (2x4x7)^3 = 56^3.\nActually: 175616 = 2^9 x 7^3? Let me factor: 175616/8=21952, 21952/8=2744, 2744/8=343=7^3.\n175616 = 8^3 x 7^3 = (8x7)^3 = 56^3. cube_root(175616) = 56.\n\ncube_root(91125):\n91125 = 3^6 x 5^3 = (3^2)^3 x 5^3 = (9x5)^3 = 45^3.\ncube_root(91125) = 45.\n\n---\n\n5 ಮಾರ್ಕ್ಸ್ × 1 question:"
+              "answer": "cube_root(175616):\n175616 = 2^3 x 4^3 x 7^3 = (2x4x7)^3 = 56^3.\nActually: 175616 = 2^9 x 7^3? Let me factor: 175616/8=21952, 21952/8=2744, 2744/8=343=7^3.\n175616 = 8^3 x 7^3 = (8x7)^3 = 56^3. cube_root(175616) = 56.\n\ncube_root(91125):\n91125 = 3^6 x 5^3 = (3^2)^3 x 5^3 = (9x5)^3 = 45^3.\ncube_root(91125) = 45.\n\n---"
             },
             {
               "q_num": 8,
@@ -998,7 +998,7 @@
                   "q_num": 3,
                   "marks": 2,
                   "question": "Find cube_root(64).",
-                  "answer": "64 = 2^6 = (2^2)^3 = 4^3. cube_root(64) = 4. ✔\n\n---\n\n3 ಮಾರ್ಕ್ಸ್ × 2 questions:"
+                  "answer": "64 = 2^6 = (2^2)^3 = 4^3. cube_root(64) = 4. ✔\n\n---"
                 },
                 {
                   "q_num": 4,
@@ -1010,7 +1010,7 @@
                   "q_num": 5,
                   "marks": 3,
                   "question": "Find cube_root(74088).",
-                  "answer": "Step 1: 74088 = 2^3 x 3^3 x 7^3.\nStep 2: Triplets: (2x2x2), (3x3x3), (7x7x7).\nStep 3: Take one from each: 2, 3, 7.\nStep 4: cube_root(74088) = 2x3x7 = 42.\nAnswer: cube_root(74088) = 42. Verify: 42^3=74088. ✔\n\n---\n\n4 ಮಾರ್ಕ್ಸ್ × 2 questions:"
+                  "answer": "Step 1: 74088 = 2^3 x 3^3 x 7^3.\nStep 2: Triplets: (2x2x2), (3x3x3), (7x7x7).\nStep 3: Take one from each: 2, 3, 7.\nStep 4: cube_root(74088) = 2x3x7 = 42.\nAnswer: cube_root(74088) = 42. Verify: 42^3=74088. ✔\n\n---"
                 },
                 {
                   "q_num": 6,
@@ -1022,7 +1022,7 @@
                   "q_num": 7,
                   "marks": 4,
                   "question": "Find cube_root(27000) and cube_root(46656).",
-                  "answer": "cube_root(27000):\n27000 = 2^3 x 3^3 x 5^3 = (2x3x5)^3 = 30^3.\ncube_root(27000) = 30.\n\ncube_root(46656):\n46656 = 2^6 x 3^6 = (2^2)^3 x (3^2)^3 = 4^3 x 9^3 = (4x9)^3 = 36^3.\ncube_root(46656) = 36.\n\n---\n\n5 ಮಾರ್ಕ್ಸ್ × 1 question:"
+                  "answer": "cube_root(27000):\n27000 = 2^3 x 3^3 x 5^3 = (2x3x5)^3 = 30^3.\ncube_root(27000) = 30.\n\ncube_root(46656):\n46656 = 2^6 x 3^6 = (2^2)^3 x (3^2)^3 = 4^3 x 9^3 = (4x9)^3 = 36^3.\ncube_root(46656) = 36.\n\n---"
                 },
                 {
                   "q_num": 8,

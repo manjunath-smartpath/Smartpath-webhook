@@ -217,7 +217,7 @@
               "q_num": 4,
               "marks": 2,
               "question": "For what type of problems is Heron's Formula most useful?",
-              "answer": "Heron's Formula is most useful when:\n- All three sides of the triangle are known, but\n- The height (altitude) of the triangle is NOT given or is difficult\nto calculate.\n\nExample situation: A triangular park has sides 40 m, 32 m and 24 m.\nWe can directly find its area using Heron's Formula without calculating\nthe height of the park.\n\ns = (40 + 32 + 24) / 2 = 48 m\nArea = sqrt(48 x 8 x 16 x 24) = sqrt(147456) = 384 m^2.\n\n---\n\n3 ಮಾರ್ಕ್ಸ್ × 2 questions:"
+              "answer": "Heron's Formula is most useful when:\n- All three sides of the triangle are known, but\n- The height (altitude) of the triangle is NOT given or is difficult\nto calculate.\n\nExample situation: A triangular park has sides 40 m, 32 m and 24 m.\nWe can directly find its area using Heron's Formula without calculating\nthe height of the park.\n\ns = (40 + 32 + 24) / 2 = 48 m\nArea = sqrt(48 x 8 x 16 x 24) = sqrt(147456) = 384 m^2.\n\n---"
             },
             {
               "q_num": 5,
@@ -229,7 +229,7 @@
               "q_num": 6,
               "marks": 3,
               "question": "Find the area of an equilateral triangle with side 6 cm using",
-              "answer": "Step 1: Find semi-perimeter.\ns = (6 + 6 + 6) / 2 = 18 / 2 = 9 cm\n\nStep 2: Find (s - a) for each side.\ns - 6 = 9 - 6 = 3 cm  (same for all three sides)\n\nStep 3: Apply Heron's Formula.\nArea = sqrt( 9 x 3 x 3 x 3 )\n= sqrt( 243 )\n= sqrt( 81 x 3 )\n= 9 sqrt(3) cm^2\n\nVerification using standard formula:\nArea = (sqrt(3) / 4) x a^2\n= (sqrt(3) / 4) x 36\n= 9 sqrt(3) cm^2  ✓  (same answer)\n\nArea of equilateral triangle = 9 sqrt(3) cm^2.\n\n---\n\n4 ಮಾರ್ಕ್ಸ್ × 3 questions:"
+              "answer": "Step 1: Find semi-perimeter.\ns = (6 + 6 + 6) / 2 = 18 / 2 = 9 cm\n\nStep 2: Find (s - a) for each side.\ns - 6 = 9 - 6 = 3 cm  (same for all three sides)\n\nStep 3: Apply Heron's Formula.\nArea = sqrt( 9 x 3 x 3 x 3 )\n= sqrt( 243 )\n= sqrt( 81 x 3 )\n= 9 sqrt(3) cm^2\n\nVerification using standard formula:\nArea = (sqrt(3) / 4) x a^2\n= (sqrt(3) / 4) x 36\n= 9 sqrt(3) cm^2  ✓  (same answer)\n\nArea of equilateral triangle = 9 sqrt(3) cm^2.\n\n---"
             },
             {
               "q_num": 7,
@@ -247,7 +247,7 @@
               "q_num": 9,
               "marks": 4,
               "question": "If the sides of a triangle are doubled, how does its area",
-              "answer": "Step 1: General proof — let original sides be a, b, c with semi-perimeter s.\ns = (a + b + c) / 2\nOriginal area = sqrt( s(s-a)(s-b)(s-c) )\n\nStep 2: New sides are 2a, 2b, 2c.\nNew s' = (2a + 2b + 2c) / 2 = (a + b + c) = 2s\n\nStep 3: New area = sqrt( s'(s'-2a)(s'-2b)(s'-2c) )\n= sqrt( 2s x (2s-2a) x (2s-2b) x (2s-2c) )\n= sqrt( 2s x 2(s-a) x 2(s-b) x 2(s-c) )\n= sqrt( 16 x s(s-a)(s-b)(s-c) )\n= 4 x original area\n\nWhen sides are doubled, area becomes 4 times the original.\n\nStep 4: Verification with triangle 6 cm, 8 cm, 10 cm.\ns = 12, Area = sqrt(12 x 6 x 4 x 2) = sqrt(576) = 24 cm^2\n\nDoubled sides: 12, 16, 20 cm.\ns' = 24, Area = sqrt(24 x 12 x 8 x 4) = sqrt(9216) = 96 cm^2\n\n96 / 24 = 4  ✓  (area is exactly 4 times)\n\nConclusion: When sides are doubled, area becomes 4 times the original area.\n\n---\n\n5 ಮಾರ್ಕ್ಸ್ × 1 question:"
+              "answer": "Step 1: General proof — let original sides be a, b, c with semi-perimeter s.\ns = (a + b + c) / 2\nOriginal area = sqrt( s(s-a)(s-b)(s-c) )\n\nStep 2: New sides are 2a, 2b, 2c.\nNew s' = (2a + 2b + 2c) / 2 = (a + b + c) = 2s\n\nStep 3: New area = sqrt( s'(s'-2a)(s'-2b)(s'-2c) )\n= sqrt( 2s x (2s-2a) x (2s-2b) x (2s-2c) )\n= sqrt( 2s x 2(s-a) x 2(s-b) x 2(s-c) )\n= sqrt( 16 x s(s-a)(s-b)(s-c) )\n= 4 x original area\n\nWhen sides are doubled, area becomes 4 times the original.\n\nStep 4: Verification with triangle 6 cm, 8 cm, 10 cm.\ns = 12, Area = sqrt(12 x 6 x 4 x 2) = sqrt(576) = 24 cm^2\n\nDoubled sides: 12, 16, 20 cm.\ns' = 24, Area = sqrt(24 x 12 x 8 x 4) = sqrt(9216) = 96 cm^2\n\n96 / 24 = 4  ✓  (area is exactly 4 times)\n\nConclusion: When sides are doubled, area becomes 4 times the original area.\n\n---"
             },
             {
               "q_num": 10,

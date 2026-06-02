@@ -166,7 +166,7 @@
               "q_num": 4,
               "marks": 2,
               "question": "Find the values p(2), p(0), p(-1), p(4) for p(x) = x^2 - 3x - 4. Which values are zeroes?",
-              "answer": "p(2)  = 4 - 6 - 4 = -6\np(0)  = 0 - 0 - 4 = -4\np(-1) = 1 + 3 - 4 = 0  ← zero ✓\np(4)  = 16 - 12 - 4 = 0  ← zero ✓\nZeroes of p(x) = x^2 - 3x - 4 are -1 and 4 (values where p(x) = 0).\n\n---\n\n3 ಮಾರ್ಕ್ಸ್ × 3 questions:"
+              "answer": "p(2)  = 4 - 6 - 4 = -6\np(0)  = 0 - 0 - 4 = -4\np(-1) = 1 + 3 - 4 = 0  ← zero ✓\np(4)  = 16 - 12 - 4 = 0  ← zero ✓\nZeroes of p(x) = x^2 - 3x - 4 are -1 and 4 (values where p(x) = 0).\n\n---"
             },
             {
               "q_num": 5,
@@ -184,7 +184,7 @@
               "q_num": 7,
               "marks": 3,
               "question": "State the general formula for the zero of a linear polynomial ax + b. Using this, find the zeroes of: (i) 3x - 9   (ii) 5x + 7   (iii) x - sqrt(2).",
-              "answer": "Step 1: Formula.\nZero of ax + b = -b/a = -(Constant term)/(Coefficient of x)\nStep 2: Apply.\n(i) 3x - 9: zero = -(-9)/3 = 9/3 = 3\n(ii) 5x + 7: zero = -(7)/5 = -7/5\n(iii) x - sqrt(2): zero = -(-sqrt(2))/1 = sqrt(2)\nStep 3: The zero of a linear polynomial is always unique and directly determined by its coefficients.\n\n---\n\n4 ಮಾರ್ಕ್ಸ್ × 2 questions:"
+              "answer": "Step 1: Formula.\nZero of ax + b = -b/a = -(Constant term)/(Coefficient of x)\nStep 2: Apply.\n(i) 3x - 9: zero = -(-9)/3 = 9/3 = 3\n(ii) 5x + 7: zero = -(7)/5 = -7/5\n(iii) x - sqrt(2): zero = -(-sqrt(2))/1 = sqrt(2)\nStep 3: The zero of a linear polynomial is always unique and directly determined by its coefficients.\n\n---"
             },
             {
               "q_num": 8,
@@ -196,7 +196,7 @@
               "q_num": 9,
               "marks": 4,
               "question": "For p(x) = x^3 - 4x:",
-              "answer": "Step 1: Table for y = x^3 - 4x.\nx:         -2 | -1 | 0 |  1 | 2\ny=x^3-4x:   0 |  3 | 0 | -3 | 0\nZeroes: x = -2, x = 0, x = 2 (three zeroes)\nFactorisation: x^3 - 4x = x(x-2)(x+2) ✓\nStep 2: Compare other cubic polynomials.\ny = x^3: only zero at x = 0 (ONE zero; graph passes through origin only)\ny = x^3 - x^2 = x^2(x-1): zeroes at x = 0 and x = 1 (TWO zeroes)\ny = x^3 - 4x: zeroes at x = -2, 0, 2 (THREE zeroes)\nStep 3: Conclusion.\n- Linear polynomial (degree 1): at most 1 zero.\n- Quadratic polynomial (degree 2): at most 2 zeroes.\n- Cubic polynomial (degree 3): at most 3 zeroes.\nGeneral rule: A polynomial of degree n has at most n zeroes.\n\n---\n\n5 ಮಾರ್ಕ್ಸ್ × 1 question:"
+              "answer": "Step 1: Table for y = x^3 - 4x.\nx:         -2 | -1 | 0 |  1 | 2\ny=x^3-4x:   0 |  3 | 0 | -3 | 0\nZeroes: x = -2, x = 0, x = 2 (three zeroes)\nFactorisation: x^3 - 4x = x(x-2)(x+2) ✓\nStep 2: Compare other cubic polynomials.\ny = x^3: only zero at x = 0 (ONE zero; graph passes through origin only)\ny = x^3 - x^2 = x^2(x-1): zeroes at x = 0 and x = 1 (TWO zeroes)\ny = x^3 - 4x: zeroes at x = -2, 0, 2 (THREE zeroes)\nStep 3: Conclusion.\n- Linear polynomial (degree 1): at most 1 zero.\n- Quadratic polynomial (degree 2): at most 2 zeroes.\n- Cubic polynomial (degree 3): at most 3 zeroes.\nGeneral rule: A polynomial of degree n has at most n zeroes.\n\n---"
             },
             {
               "q_num": 10,
@@ -517,7 +517,7 @@
               "q_num": 4,
               "marks": 2,
               "question": "State the general rule about the number of zeroes of a polynomial. How many zeroes can a linear, quadratic, and cubic polynomial have?",
-              "answer": "General rule: A polynomial p(x) of degree n has AT MOST n zeroes.\n- Linear (degree 1): at most 1 zero.\n- Quadratic (degree 2): at most 2 zeroes.\n- Cubic (degree 3): at most 3 zeroes.\n\n---\n\n3 ಮಾರ್ಕ್ಸ್ × 3 questions:"
+              "answer": "General rule: A polynomial p(x) of degree n has AT MOST n zeroes.\n- Linear (degree 1): at most 1 zero.\n- Quadratic (degree 2): at most 2 zeroes.\n- Cubic (degree 3): at most 3 zeroes.\n\n---"
             },
             {
               "q_num": 5,
@@ -535,7 +535,7 @@
               "q_num": 7,
               "marks": 3,
               "question": "From Example 2.2.1 (textbook Fig. 2.9), graphs (i) to (vi) of y = p(x) are given. State the number of zeroes for each. What rule did you use?",
-              "answer": "Step 1: Count x-axis intersection points for each graph.\n(i)  Graph meets x-axis at 1 point → 1 zero\n(ii) Graph meets x-axis at 2 points → 2 zeroes\n(iii)Graph meets x-axis at 3 points → 3 zeroes\n(iv) Graph meets x-axis at 1 point → 1 zero\n(v)  Graph meets x-axis at 1 point → 1 zero\n(vi) Graph meets x-axis at 4 points → 4 zeroes\nStep 2: Rule used.\nNumber of zeroes of p(x) = Number of points where graph of y = p(x) intersects/touches the x-axis.\nStep 3: This confirms the general rule: degree n polynomial → at most n zeroes.\n\n---\n\n4 ಮಾರ್ಕ್ಸ್ × 2 questions:"
+              "answer": "Step 1: Count x-axis intersection points for each graph.\n(i)  Graph meets x-axis at 1 point → 1 zero\n(ii) Graph meets x-axis at 2 points → 2 zeroes\n(iii)Graph meets x-axis at 3 points → 3 zeroes\n(iv) Graph meets x-axis at 1 point → 1 zero\n(v)  Graph meets x-axis at 1 point → 1 zero\n(vi) Graph meets x-axis at 4 points → 4 zeroes\nStep 2: Rule used.\nNumber of zeroes of p(x) = Number of points where graph of y = p(x) intersects/touches the x-axis.\nStep 3: This confirms the general rule: degree n polynomial → at most n zeroes.\n\n---"
             },
             {
               "q_num": 8,
@@ -547,7 +547,7 @@
               "q_num": 9,
               "marks": 4,
               "question": "A student sees the graph of y = p(x) for some polynomial p(x). The graph:",
-              "answer": "Step 1: Number of zeroes.\nParabola touches x-axis at ONE point → Case (ii) for quadratic. ONE zero (repeated).\n\nStep 2: Type of zero.\nx = 3 is a REPEATED (equal) zero. Both zeroes are equal: alpha = beta = 3.\n\nStep 3: Write polynomial.\np(x) = (x - 3)^2 = x^2 - 6x + 9\n(Or any k(x-3)^2 for non-zero real k)\n\nStep 4: Verify.\np(3) = (3-3)^2 = 0 ✓\nSum of zeroes = 3 + 3 = 6 = -(-6)/1 = -b/a ✓\nProduct of zeroes = 3 x 3 = 9 = 9/1 = c/a ✓\n\n---\n\n5 ಮಾರ್ಕ್ಸ್ × 1 question:"
+              "answer": "Step 1: Number of zeroes.\nParabola touches x-axis at ONE point → Case (ii) for quadratic. ONE zero (repeated).\n\nStep 2: Type of zero.\nx = 3 is a REPEATED (equal) zero. Both zeroes are equal: alpha = beta = 3.\n\nStep 3: Write polynomial.\np(x) = (x - 3)^2 = x^2 - 6x + 9\n(Or any k(x-3)^2 for non-zero real k)\n\nStep 4: Verify.\np(3) = (3-3)^2 = 0 ✓\nSum of zeroes = 3 + 3 = 6 = -(-6)/1 = -b/a ✓\nProduct of zeroes = 3 x 3 = 9 = 9/1 = c/a ✓\n\n---"
             },
             {
               "q_num": 10,
@@ -904,7 +904,7 @@
               "q_num": 4,
               "marks": 2,
               "question": "Find the sum and product of zeroes of: (i) 3x^2 + 5x - 2   (ii) 4u^2 + 8u.",
-              "answer": "(i) 3x^2 + 5x - 2 (a=3, b=5, c=-2):\nSum = -5/3    Product = -2/3\n\n(ii) 4u^2 + 8u (a=4, b=8, c=0):\nSum = -8/4 = -2    Product = 0/4 = 0\n\n---\n\n3 ಮಾರ್ಕ್ಸ್ × 3 questions:"
+              "answer": "(i) 3x^2 + 5x - 2 (a=3, b=5, c=-2):\nSum = -5/3    Product = -2/3\n\n(ii) 4u^2 + 8u (a=4, b=8, c=0):\nSum = -8/4 = -2    Product = 0/4 = 0\n\n---"
             },
             {
               "q_num": 5,
@@ -922,7 +922,7 @@
               "q_num": 7,
               "marks": 3,
               "question": "Find a quadratic polynomial for each of the following (sum, product) of zeroes:",
-              "answer": "Formula: polynomial = x^2 - (sum)x + (product)\n\nStep 1: (i) Sum = -3, Product = 2:\np(x) = x^2 - (-3)x + 2 = x^2 + 3x + 2\n\nStep 2: (ii) Sum = 0, Product = sqrt(5):\np(x) = x^2 - 0x + sqrt(5) = x^2 + sqrt(5)\n\nStep 3: (iii) Sum = 4, Product = 1:\np(x) = x^2 - 4x + 1\n\n---\n\n4 ಮಾರ್ಕ್ಸ್ × 2 questions:"
+              "answer": "Formula: polynomial = x^2 - (sum)x + (product)\n\nStep 1: (i) Sum = -3, Product = 2:\np(x) = x^2 - (-3)x + 2 = x^2 + 3x + 2\n\nStep 2: (ii) Sum = 0, Product = sqrt(5):\np(x) = x^2 - 0x + sqrt(5) = x^2 + sqrt(5)\n\nStep 3: (iii) Sum = 4, Product = 1:\np(x) = x^2 - 4x + 1\n\n---"
             },
             {
               "q_num": 8,
@@ -934,7 +934,7 @@
               "q_num": 9,
               "marks": 4,
               "question": "Find quadratic polynomials for each of the following (sum, product) pairs:",
-              "answer": "Using: polynomial = x^2 - (sum)x + (product), then clear fractions if needed.\n\n(i) Sum=1/4, Product=-1:\nx^2 - (1/4)x - 1  →  multiply by 4:  4x^2 - x - 4\nVerify: sum = 1/4 = (1/4)/1 ✓   product = -1 = (-4)/4 ✓\n\n(ii) Sum=sqrt(2), Product=1/3:\nx^2 - sqrt(2)x + 1/3  →  multiply by 3:  3x^2 - 3sqrt(2)x + 1\nVerify: sum = sqrt(2) ✓   product = 1/3 ✓\n\n(iii) Sum=-1/4, Product=1/4:\nx^2 - (-1/4)x + 1/4 = x^2 + (1/4)x + 1/4  →  multiply by 4:  4x^2 + x + 1\nVerify: sum = -1/4 = -(1)/4 ✓   product = 1/4 ✓\n\n(iv) Sum=1, Product=1:\nx^2 - x + 1\nVerify: sum = 1 ✓   product = 1 ✓\n\n---\n\n5 ಮಾರ್ಕ್ಸ್ × 1 question:"
+              "answer": "Using: polynomial = x^2 - (sum)x + (product), then clear fractions if needed.\n\n(i) Sum=1/4, Product=-1:\nx^2 - (1/4)x - 1  →  multiply by 4:  4x^2 - x - 4\nVerify: sum = 1/4 = (1/4)/1 ✓   product = -1 = (-4)/4 ✓\n\n(ii) Sum=sqrt(2), Product=1/3:\nx^2 - sqrt(2)x + 1/3  →  multiply by 3:  3x^2 - 3sqrt(2)x + 1\nVerify: sum = sqrt(2) ✓   product = 1/3 ✓\n\n(iii) Sum=-1/4, Product=1/4:\nx^2 - (-1/4)x + 1/4 = x^2 + (1/4)x + 1/4  →  multiply by 4:  4x^2 + x + 1\nVerify: sum = -1/4 = -(1)/4 ✓   product = 1/4 ✓\n\n(iv) Sum=1, Product=1:\nx^2 - x + 1\nVerify: sum = 1 ✓   product = 1 ✓\n\n---"
             },
             {
               "q_num": 10,

@@ -304,7 +304,7 @@
               "q_num": 4,
               "marks": 2,
               "question": "A point P(a,b) lies on x-axis. What condition must hold? If Q lies on y-axis at distance 6 from x-axis, write coordinates of Q.",
-              "answer": "P on x-axis -> b = 0.\nQ on y-axis, distance 6 from x-axis -> x=0, y=6 or -6.\nCoordinates of Q: (0,6) or (0,-6).\n\n---\n\n3 Marks x 3 questions:"
+              "answer": "P on x-axis -> b = 0.\nQ on y-axis, distance 6 from x-axis -> x=0, y=6 or -6.\nCoordinates of Q: (0,6) or (0,-6).\n\n---"
             },
             {
               "q_num": 5,
@@ -322,7 +322,7 @@
               "q_num": 7,
               "marks": 3,
               "question": "Identify the quadrant in which each point lies: (3,4), (-2,5), (-1,-3), (4,-2). Also state the coordinates of origin.",
-              "answer": "Step 1: Quadrants: I(+,+), II(-,+), III(-,-), IV(+,-). Origin = (0,0).\nStep 2: (3,4): x>0, y>0 -> Quadrant I.\n(-2,5): x<0, y>0 -> Quadrant II.\n(-1,-3): x<0, y<0 -> Quadrant III.\nStep 3: (4,-2): x>0, y<0 -> Quadrant IV.\n\n---\n\n4 Marks x 4 questions:"
+              "answer": "Step 1: Quadrants: I(+,+), II(-,+), III(-,-), IV(+,-). Origin = (0,0).\nStep 2: (3,4): x>0, y>0 -> Quadrant I.\n(-2,5): x<0, y>0 -> Quadrant II.\n(-1,-3): x<0, y<0 -> Quadrant III.\nStep 3: (4,-2): x>0, y<0 -> Quadrant IV.\n\n---"
             },
             {
               "q_num": 8,
@@ -346,7 +346,7 @@
               "q_num": 11,
               "marks": 4,
               "question": "Two towns A and B are located in a coordinate system. A is at origin and B is at (36,15) km. A relay tower P needs to be placed such that distance from B is twice the distance from A. Find coordinates of P.",
-              "answer": "Step 1: Distance from A = PA, distance from B = PB. PB = 2*PA -> PA:PB = 1:2.\nP divides AB internally in ratio 1:2.\nStep 2: A=(0,0), B=(36,15), ratio 1:2.\nUsing section formula with m1=1, m2=2:\nx = (1*36+2*0)/(1+2) = 36/3 = 12.\ny = (1*15+2*0)/(1+2) = 15/3 = 5.\nStep 3: P = (12, 5).\nStep 4: Verify: PA = sqrt[12^2+5^2] = sqrt[144+25] = sqrt(169) = 13 km.\nPB = sqrt[(36-12)^2+(15-5)^2] = sqrt[576+100] = sqrt(676) = 26 km.\nPB = 2*PA = 2*13 = 26. Correct.\n\n---\n\n5 Marks x 1 question:"
+              "answer": "Step 1: Distance from A = PA, distance from B = PB. PB = 2*PA -> PA:PB = 1:2.\nP divides AB internally in ratio 1:2.\nStep 2: A=(0,0), B=(36,15), ratio 1:2.\nUsing section formula with m1=1, m2=2:\nx = (1*36+2*0)/(1+2) = 36/3 = 12.\ny = (1*15+2*0)/(1+2) = 15/3 = 5.\nStep 3: P = (12, 5).\nStep 4: Verify: PA = sqrt[12^2+5^2] = sqrt[144+25] = sqrt(169) = 13 km.\nPB = sqrt[(36-12)^2+(15-5)^2] = sqrt[576+100] = sqrt(676) = 26 km.\nPB = 2*PA = 2*13 = 26. Correct.\n\n---"
             },
             {
               "q_num": 12,
@@ -765,7 +765,7 @@
               "q_num": 4,
               "marks": 2,
               "question": "Find values of y for which distance between P(2,-3) and Q(10,y) is 10 units.",
-              "answer": "sqrt[(10-2)^2 + (y+3)^2] = 10\n64 + (y+3)^2 = 100\n(y+3)^2 = 36 -> y+3 = +/-6\ny = 3 or y = -9.\nANSWER: y = 3 or y = -9.\n\n---\n\n3 Marks x 3 questions:"
+              "answer": "sqrt[(10-2)^2 + (y+3)^2] = 10\n64 + (y+3)^2 = 100\n(y+3)^2 = 36 -> y+3 = +/-6\ny = 3 or y = -9.\nANSWER: y = 3 or y = -9.\n\n---"
             },
             {
               "q_num": 5,
@@ -783,7 +783,7 @@
               "q_num": 7,
               "marks": 3,
               "question": "Ashima A(3,1), Bharti B(6,4), Camella C(8,6). Show they are collinear.",
-              "answer": "Step 1: AB = sqrt[(6-3)^2+(4-1)^2] = sqrt[9+9] = 3sqrt(2).\nStep 2: BC = sqrt[(8-6)^2+(6-4)^2] = sqrt[4+4] = 2sqrt(2).\nAC = sqrt[(8-3)^2+(6-1)^2] = sqrt[25+25] = 5sqrt(2).\nStep 3: AB+BC = 3sqrt(2)+2sqrt(2) = 5sqrt(2) = AC. Collinear.\nThey are seated in a straight line.\n\n---\n\n4 Marks x 4 questions:"
+              "answer": "Step 1: AB = sqrt[(6-3)^2+(4-1)^2] = sqrt[9+9] = 3sqrt(2).\nStep 2: BC = sqrt[(8-6)^2+(6-4)^2] = sqrt[4+4] = 2sqrt(2).\nAC = sqrt[(8-3)^2+(6-1)^2] = sqrt[25+25] = 5sqrt(2).\nStep 3: AB+BC = 3sqrt(2)+2sqrt(2) = 5sqrt(2) = AC. Collinear.\nThey are seated in a straight line.\n\n---"
             },
             {
               "q_num": 8,
@@ -807,7 +807,7 @@
               "q_num": 11,
               "marks": 4,
               "question": "Do points (3,2),(-2,-3),(2,3) form a triangle? Find the type.",
-              "answer": "Step 1: P(3,2), Q(-2,-3), R(2,3).\nPQ=sqrt[(3+2)^2+(2+3)^2]=sqrt[25+25]=5sqrt(2).\nQR=sqrt[(-2-2)^2+(-3-3)^2]=sqrt[16+36]=sqrt(52).\nPR=sqrt[(3-2)^2+(2-3)^2]=sqrt[1+1]=sqrt(2).\nStep 2: Check triangle: PQ+PR=5sqrt(2)+sqrt(2)=6sqrt(2). sqrt(52) approx 7.21. 6sqrt(2) approx 8.49 =/= 7.21. So triangle exists (all three form triangle).\nStep 3: Check right angle: PQ^2+PR^2=50+2=52=QR^2. By converse Pythagoras: angle at P = 90 degrees.\nStep 4: ANSWER: Yes, they form a RIGHT TRIANGLE (right-angled at P).\n\n---\n\n5 Marks x 1 question:"
+              "answer": "Step 1: P(3,2), Q(-2,-3), R(2,3).\nPQ=sqrt[(3+2)^2+(2+3)^2]=sqrt[25+25]=5sqrt(2).\nQR=sqrt[(-2-2)^2+(-3-3)^2]=sqrt[16+36]=sqrt(52).\nPR=sqrt[(3-2)^2+(2-3)^2]=sqrt[1+1]=sqrt(2).\nStep 2: Check triangle: PQ+PR=5sqrt(2)+sqrt(2)=6sqrt(2). sqrt(52) approx 7.21. 6sqrt(2) approx 8.49 =/= 7.21. So triangle exists (all three form triangle).\nStep 3: Check right angle: PQ^2+PR^2=50+2=52=QR^2. By converse Pythagoras: angle at P = 90 degrees.\nStep 4: ANSWER: Yes, they form a RIGHT TRIANGLE (right-angled at P).\n\n---"
             },
             {
               "q_num": 12,
@@ -1217,7 +1217,7 @@
               "q_num": 4,
               "marks": 2,
               "question": "A(6,1), B(8,2), C(9,4), D(p,3) are vertices of parallelogram. Find p.",
-              "answer": "Diagonals bisect each other -> midpoint AC = midpoint BD.\n[(6+9)/2,(1+4)/2]=[(8+p)/2,(2+3)/2]\n15/2=(8+p)/2 -> p=7.\nANSWER: p=7.\n\n---\n\n3 Marks x 3 questions:"
+              "answer": "Diagonals bisect each other -> midpoint AC = midpoint BD.\n[(6+9)/2,(1+4)/2]=[(8+p)/2,(2+3)/2]\n15/2=(8+p)/2 -> p=7.\nANSWER: p=7.\n\n---"
             },
             {
               "q_num": 5,
@@ -1235,7 +1235,7 @@
               "q_num": 7,
               "marks": 3,
               "question": "Find coordinates of A, where AB is diameter of circle with centre (2,-3) and B(1,4).",
-              "answer": "Step 1: Centre = midpoint of AB.\n(2,-3) = [(Ax+1)/2, (Ay+4)/2].\nStep 2: (Ax+1)/2=2 -> Ax=3. (Ay+4)/2=-3 -> Ay=-10.\nStep 3: ANSWER: A=(3,-10).\n\n---\n\n4 Marks x 4 questions:"
+              "answer": "Step 1: Centre = midpoint of AB.\n(2,-3) = [(Ax+1)/2, (Ay+4)/2].\nStep 2: (Ax+1)/2=2 -> Ax=3. (Ay+4)/2=-3 -> Ay=-10.\nStep 3: ANSWER: A=(3,-10).\n\n---"
             },
             {
               "q_num": 8,
@@ -1259,7 +1259,7 @@
               "q_num": 11,
               "marks": 4,
               "question": "Find area of rhombus with vertices (3,0),(4,5),(-1,4),(-2,-1). Use Area=(1/2)(d1 x d2).",
-              "answer": "Step 1: d1=diagonal from A(3,0) to C(-1,4):\nAC=sqrt[(3+1)^2+(0-4)^2]=sqrt[16+16]=sqrt(32)=4sqrt(2).\nStep 2: d2=diagonal from B(4,5) to D(-2,-1):\nBD=sqrt[(4+2)^2+(5+1)^2]=sqrt[36+36]=sqrt(72)=6sqrt(2).\nStep 3: Area=(1/2)*4sqrt(2)*6sqrt(2)=(1/2)*4*6*2=(1/2)*48=24.\nStep 4: ANSWER: Area of rhombus = 24 sq units.\n\n---\n\n5 Marks x 1 question:"
+              "answer": "Step 1: d1=diagonal from A(3,0) to C(-1,4):\nAC=sqrt[(3+1)^2+(0-4)^2]=sqrt[16+16]=sqrt(32)=4sqrt(2).\nStep 2: d2=diagonal from B(4,5) to D(-2,-1):\nBD=sqrt[(4+2)^2+(5+1)^2]=sqrt[36+36]=sqrt(72)=6sqrt(2).\nStep 3: Area=(1/2)*4sqrt(2)*6sqrt(2)=(1/2)*4*6*2=(1/2)*48=24.\nStep 4: ANSWER: Area of rhombus = 24 sq units.\n\n---"
             },
             {
               "q_num": 12,

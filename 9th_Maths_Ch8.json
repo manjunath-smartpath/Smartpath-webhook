@@ -402,7 +402,7 @@
               "q_num": 4,
               "marks": 2,
               "question": "In parallelogram ABCD, if angle A = 70 degrees, find all four angles.",
-              "answer": "angle C = angle A = 70 degrees.  (Opposite angles are equal — Theorem 8.4)\nangle A + angle B = 180 degrees.  (Co-interior angles, AD || BC)\nangle B = 180 - 70 = 110 degrees.\nangle D = angle B = 110 degrees.  (Opposite angles are equal)\nAnswer: angle A = 70 degrees, angle B = 110 degrees, angle C = 70 degrees, angle D = 110 degrees.\n\n---\n\n3 ಮಾರ್ಕ್ಸ್ × 2 questions:"
+              "answer": "angle C = angle A = 70 degrees.  (Opposite angles are equal — Theorem 8.4)\nangle A + angle B = 180 degrees.  (Co-interior angles, AD || BC)\nangle B = 180 - 70 = 110 degrees.\nangle D = angle B = 110 degrees.  (Opposite angles are equal)\nAnswer: angle A = 70 degrees, angle B = 110 degrees, angle C = 70 degrees, angle D = 110 degrees.\n\n---"
             },
             {
               "q_num": 5,
@@ -414,7 +414,7 @@
               "q_num": 6,
               "marks": 3,
               "question": "Prove that if the diagonals of a quadrilateral bisect each other, then it is a parallelogram. (Theorem 8.7)",
-              "answer": "GIVEN:    In quadrilateral ABCD, diagonals AC and BD bisect each other at O.\nSo, OA = OC and OB = OD.\nTO PROVE: ABCD is a parallelogram.\nPROOF:\nStep 1: In Triangle AOB and Triangle COD:\nOA = OC  (Given)\nOB = OD  (Given)\nangle AOB = angle COD  (Vertically opposite angles)\nStep 2: By SAS rule: Triangle AOB is congruent to Triangle COD.\nStep 3: Therefore angle OAB = angle OCD.  (CPCT)\nThese are alternate interior angles for lines AB and CD cut by transversal AC.\nSo, AB || CD.\nStep 4: Similarly (using Triangles AOD and COB): BC || AD.\nBoth pairs of opposite sides are parallel, so ABCD is a parallelogram.\nHENCE PROVED.\n\n---\n\n4 ಮಾರ್ಕ್ಸ್ × 3 questions:"
+              "answer": "GIVEN:    In quadrilateral ABCD, diagonals AC and BD bisect each other at O.\nSo, OA = OC and OB = OD.\nTO PROVE: ABCD is a parallelogram.\nPROOF:\nStep 1: In Triangle AOB and Triangle COD:\nOA = OC  (Given)\nOB = OD  (Given)\nangle AOB = angle COD  (Vertically opposite angles)\nStep 2: By SAS rule: Triangle AOB is congruent to Triangle COD.\nStep 3: Therefore angle OAB = angle OCD.  (CPCT)\nThese are alternate interior angles for lines AB and CD cut by transversal AC.\nSo, AB || CD.\nStep 4: Similarly (using Triangles AOD and COB): BC || AD.\nBoth pairs of opposite sides are parallel, so ABCD is a parallelogram.\nHENCE PROVED.\n\n---"
             },
             {
               "q_num": 7,
@@ -432,7 +432,7 @@
               "q_num": 9,
               "marks": 4,
               "question": "Two parallel lines l and m are intersected by a transversal p. Show that the quadrilateral formed by the bisectors of the interior angles is a rectangle.",
-              "answer": "GIVEN:    l || m, transversal p meets l at A and m at C.\nBisectors of angle PAC and angle ACQ meet at B.\nBisectors of angle ACR and angle SAC meet at D.\nTO PROVE: Quadrilateral ABCD is a rectangle.\nPROOF:\nStep 1: Since l || m and p is a transversal:\nangle PAC = angle ACR  (Alternate interior angles)\n(1/2) angle PAC = (1/2) angle ACR,  i.e., angle BAC = angle ACD.\nThese are alternate angles for AB and DC cut by AC.  So AB || DC.\nStep 2: Similarly, considering angle ACB and angle CAD:  BC || AD.\nTherefore ABCD is a parallelogram.\nStep 3: angle PAC + angle CAS = 180 degrees.  (PS is a straight line — linear pair)\n(1/2) angle PAC + (1/2) angle CAS = 90 degrees.\nangle BAC + angle CAD = 90 degrees.\nangle BAD = 90 degrees.\nStep 4: ABCD is a parallelogram with one angle = 90 degrees.\nTherefore ABCD is a rectangle.\nHENCE PROVED.\n\n---\n\n5 ಮಾರ್ಕ್ಸ್ × 1 question:"
+              "answer": "GIVEN:    l || m, transversal p meets l at A and m at C.\nBisectors of angle PAC and angle ACQ meet at B.\nBisectors of angle ACR and angle SAC meet at D.\nTO PROVE: Quadrilateral ABCD is a rectangle.\nPROOF:\nStep 1: Since l || m and p is a transversal:\nangle PAC = angle ACR  (Alternate interior angles)\n(1/2) angle PAC = (1/2) angle ACR,  i.e., angle BAC = angle ACD.\nThese are alternate angles for AB and DC cut by AC.  So AB || DC.\nStep 2: Similarly, considering angle ACB and angle CAD:  BC || AD.\nTherefore ABCD is a parallelogram.\nStep 3: angle PAC + angle CAS = 180 degrees.  (PS is a straight line — linear pair)\n(1/2) angle PAC + (1/2) angle CAS = 90 degrees.\nangle BAC + angle CAD = 90 degrees.\nangle BAD = 90 degrees.\nStep 4: ABCD is a parallelogram with one angle = 90 degrees.\nTherefore ABCD is a rectangle.\nHENCE PROVED.\n\n---"
             },
             {
               "q_num": 10,
@@ -740,7 +740,7 @@
               "q_num": 4,
               "marks": 2,
               "question": "State Theorem 8.9. How is it related to Theorem 8.8?",
-              "answer": "Theorem 8.9 (Converse of Mid-point Theorem):\nThe line drawn through the mid-point of one side of a triangle, parallel to another side, bisects the third side.\nRelation: Theorem 8.9 is the converse of Theorem 8.8.\nTheorem 8.8 says: mid-points joined → line is parallel and half.\nTheorem 8.9 says: line through mid-point, parallel to a side → bisects the third side.\n\n---\n\n3 ಮಾರ್ಕ್ಸ್ × 2 questions:"
+              "answer": "Theorem 8.9 (Converse of Mid-point Theorem):\nThe line drawn through the mid-point of one side of a triangle, parallel to another side, bisects the third side.\nRelation: Theorem 8.9 is the converse of Theorem 8.8.\nTheorem 8.8 says: mid-points joined → line is parallel and half.\nTheorem 8.9 says: line through mid-point, parallel to a side → bisects the third side.\n\n---"
             },
             {
               "q_num": 5,
@@ -752,7 +752,7 @@
               "q_num": 6,
               "marks": 3,
               "question": "Prove: The line drawn through the mid-point of one side of a triangle, parallel to another side bisects the third side. (Theorem 8.9)",
-              "answer": "GIVEN:    In Triangle ABC, E is the mid-point of AB.\nLine l through E is parallel to BC and meets AC at F.\nTO PROVE: F is the mid-point of AC, i.e., AF = CF.\nPROOF:\nStep 1: Suppose F is NOT the mid-point of AC.\nLet F' be the true mid-point of AC.\nStep 2: By Theorem 8.8 (Mid-point Theorem):\nE and F' are mid-points of AB and AC respectively.\nSo, EF' || BC.\nStep 3: But we are given that EF || BC.\nBoth lines EF and EF' pass through E and are parallel to BC.\nStep 4: Through a point, only one line can be drawn parallel to a given line.\nTherefore F and F' must coincide, i.e., F = F'.\nHence, F is the mid-point of AC.\nHENCE PROVED.\n\n---\n\n4 ಮಾರ್ಕ್ಸ್ × 3 questions:"
+              "answer": "GIVEN:    In Triangle ABC, E is the mid-point of AB.\nLine l through E is parallel to BC and meets AC at F.\nTO PROVE: F is the mid-point of AC, i.e., AF = CF.\nPROOF:\nStep 1: Suppose F is NOT the mid-point of AC.\nLet F' be the true mid-point of AC.\nStep 2: By Theorem 8.8 (Mid-point Theorem):\nE and F' are mid-points of AB and AC respectively.\nSo, EF' || BC.\nStep 3: But we are given that EF || BC.\nBoth lines EF and EF' pass through E and are parallel to BC.\nStep 4: Through a point, only one line can be drawn parallel to a given line.\nTherefore F and F' must coincide, i.e., F = F'.\nHence, F is the mid-point of AC.\nHENCE PROVED.\n\n---"
             },
             {
               "q_num": 7,
@@ -770,7 +770,7 @@
               "q_num": 9,
               "marks": 4,
               "question": "ABCD is a trapezium in which AB || DC. BD is a diagonal and E is the mid-point of AD. A line through E, parallel to AB, intersects BC at F. Show that F is the mid-point of BC.",
-              "answer": "GIVEN:    Trapezium ABCD with AB || DC. E is mid-point of AD.\nLine through E parallel to AB meets BC at F.\nTO PROVE: F is the mid-point of BC.\nPROOF:\nStep 1: Let the line through E (parallel to AB) intersect BD at G.\nStep 2: In Triangle ABD:\nE is the mid-point of AD and EG || AB  (since the line is parallel to AB).\nBy Theorem 8.9 (Converse of Mid-point Theorem):\nG is the mid-point of BD.\nStep 3: In Triangle BDC:\nG is the mid-point of BD  (proved above)\nGF || DC  (since EF || AB || DC — all three are parallel)\nBy Theorem 8.9:\nF is the mid-point of BC.\nHENCE PROVED.\n\n---\n\n5 ಮಾರ್ಕ್ಸ್ × 1 question:"
+              "answer": "GIVEN:    Trapezium ABCD with AB || DC. E is mid-point of AD.\nLine through E parallel to AB meets BC at F.\nTO PROVE: F is the mid-point of BC.\nPROOF:\nStep 1: Let the line through E (parallel to AB) intersect BD at G.\nStep 2: In Triangle ABD:\nE is the mid-point of AD and EG || AB  (since the line is parallel to AB).\nBy Theorem 8.9 (Converse of Mid-point Theorem):\nG is the mid-point of BD.\nStep 3: In Triangle BDC:\nG is the mid-point of BD  (proved above)\nGF || DC  (since EF || AB || DC — all three are parallel)\nBy Theorem 8.9:\nF is the mid-point of BC.\nHENCE PROVED.\n\n---"
             },
             {
               "q_num": 10,

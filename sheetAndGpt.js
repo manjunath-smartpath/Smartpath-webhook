@@ -132,6 +132,65 @@ async function incrementGptCount(student) {
   }
 }
 
+// ---------- EVALUATION (₹299, 5/day) ----------
+const EVAL_DAILY_LIMIT = 5;
+
+function checkEvalAccess(student) {
+  const plan = getPlan(student);
+  if (plan !== '299') {
+    return { allowed: false, reason: 'plan', remaining: 0 };
+  }
+  const today = new Date().toISOString().split('T')[0];
+  const evalDate = student.get('Eval_Date') || '';
+  let count = parseInt(student.get('Eval_Count') || '0', 10);
+  if (evalDate !== today) count = 0;
+  if (count >= EVAL_DAILY_LIMIT) {
+    return { allowed: false, reason: 'limit', remaining: 0 };
+  }
+  return { allowed: true, reason: 'ok', remaining: EVAL_DAILY_LIMIT - count };
+}
+
+async function incrementEvalCount(student) {
+  try {
+    const today = new Date().toISOString().split('T')[0];
+    const evalDate = student.get('Eval_Date') || '';
+    let count = parseInt(student.get('Eval_Count') || '0', 10);
+    if (evalDate !== today) count = 0;
+    count++;
+    student.set('Eval_Count', String(count));
+    student.set('Eval_Date', today);
+    await student.save();
+  } catch (e) {
+    console.error('Eval count update error:', e.message);
+  }
+}
+
+// Evaluate a student's answer using GPT (with model answer from JSON)
+async function evaluateAnswer(cls, subject, question, marks, modelAnswer, studentAnswer) {
+  try {
+    const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
+    const sys = `You are a KSEEB class ${cls} ${subject} teacher. ` +
+      `Evaluate the student's answer strictly but kindly. ` +
+      `Give marks out of ${marks}. Compare against the model answer. ` +
+      `Point out: correct points (✅), minor mistakes (⚠️), missed points (❌), grammar errors. ` +
+      `Then give a better model answer. Keep response under 250 words. ` +
+      `Use a simple Kannada + English mix. Use this exact format:\n` +
+      `📝 EVALUATION REPORT — X/${marks} marks\n\n✅ ಸರಿ ಇದೆ:\n...\n\n⚠️ Minor mistakes:\n...\n\n❌ Miss ಆಗಿದ್ದು:\n...\n\n💡 Better answer:\n...`;
+    const user = `Question: ${question} (${marks} marks)\n\n` +
+      `Model Answer (reference): ${modelAnswer}\n\n` +
+      `Student Answer: ${studentAnswer}\n\nEvaluate and give the report.`;
+    const resp = await openai.chat.completions.create({
+      model: 'gpt-4o-mini',
+      messages: [{ role: 'system', content: sys }, { role: 'user', content: user }],
+      max_tokens: 500, temperature: 0.3
+    });
+    return cleanLatex(resp.choices[0].message.content.trim());
+  } catch (e) {
+    console.error('Evaluate error:', e.message);
+    return null;
+  }
+}
+
 // ---------- GPT (Pinecone + GPT-4o-mini) ----------
 const studentMemory = {};
 
@@ -444,5 +503,6 @@ module.exports = {
   saveFeedback,
   saveQuizScore, getProgress, sendParentReport,
   validateSchoolCode, redeemSchoolCode,
+  checkEvalAccess, incrementEvalCount, evaluateAnswer, EVAL_DAILY_LIMIT,
   GPT_DAILY_LIMIT
 };

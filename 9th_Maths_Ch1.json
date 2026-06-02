@@ -72,7 +72,7 @@
           "q_num": 4,
           "marks": 2,
           "question": "State four laws of exponents for a > 0 and rational p, q.",
-          "answer": "(i)   a^p × a^q = a^(p+q)      Example: 2^(1/2) × 2^(1/3) = 2^(5/6).\n(ii)  (a^p)^q  = a^(pq)         Example: (3^(1/2))^4 = 3^2 = 9.\n(iii) a^p / a^q = a^(p-q)       Example: 5^(3/4) / 5^(1/4) = 5^(1/2).\n(iv)  a^p × b^p = (ab)^p        Example: 2^(1/3) × 3^(1/3) = 6^(1/3).\n\n---\n\n3 ಮಾರ್ಕ್ಸ್ × 2 questions:"
+          "answer": "(i)   a^p × a^q = a^(p+q)      Example: 2^(1/2) × 2^(1/3) = 2^(5/6).\n(ii)  (a^p)^q  = a^(pq)         Example: (3^(1/2))^4 = 3^2 = 9.\n(iii) a^p / a^q = a^(p-q)       Example: 5^(3/4) / 5^(1/4) = 5^(1/2).\n(iv)  a^p × b^p = (ab)^p        Example: 2^(1/3) × 3^(1/3) = 6^(1/3).\n\n---"
         },
         {
           "q_num": 5,
@@ -84,7 +84,7 @@
           "q_num": 6,
           "marks": 3,
           "question": "Express 0.2353535... as p/q form.",
-          "answer": "Let x = 0.2353535... = 0.2bar35 (only 35 repeats, not 2).\nStep 1: Two digits repeat → multiply by 100:\n100x = 23.53535...\nStep 2: 100x = 23.3 + 0.23535... = 23.3 + x.\nStep 3: 99x = 23.3 = 233/10.\nStep 4: x = 233/990.\nAnswer: 0.2353535... = 233/990.\nVerification: 233 ÷ 990 = 0.23535... ✓\n\n---\n\n4 ಮಾರ್ಕ್ಸ್ × 3 questions:"
+          "answer": "Let x = 0.2353535... = 0.2bar35 (only 35 repeats, not 2).\nStep 1: Two digits repeat → multiply by 100:\n100x = 23.53535...\nStep 2: 100x = 23.3 + 0.23535... = 23.3 + x.\nStep 3: 99x = 23.3 = 233/10.\nStep 4: x = 233/990.\nAnswer: 0.2353535... = 233/990.\nVerification: 233 ÷ 990 = 0.23535... ✓\n\n---"
         },
         {
           "q_num": 7,
@@ -102,7 +102,7 @@
           "q_num": 9,
           "marks": 4,
           "question": "Find: (i) 9^(3/2)  (ii) 32^(2/5)  (iii) 16^(3/4)  (iv) 125^(-1/3).",
-          "answer": "(i) 9^(3/2): 9^(1/2)=3 (3^2=9). Then 3^3=27. Answer: 27.\n\n(ii) 32^(2/5): 32^(1/5)=2 (2^5=32). Then 2^2=4. Answer: 4.\n\n(iii) 16^(3/4): 16^(1/4)=2 (2^4=16). Then 2^3=8. Answer: 8.\n\n(iv) 125^(-1/3): 125^(1/3)=5 (5^3=125). So 1/5. Answer: 1/5.\n\n---\n\n5 ಮಾರ್ಕ್ಸ್ × 1 question:"
+          "answer": "(i) 9^(3/2): 9^(1/2)=3 (3^2=9). Then 3^3=27. Answer: 27.\n\n(ii) 32^(2/5): 32^(1/5)=2 (2^5=32). Then 2^2=4. Answer: 4.\n\n(iii) 16^(3/4): 16^(1/4)=2 (2^4=16). Then 2^3=8. Answer: 8.\n\n(iv) 125^(-1/3): 125^(1/3)=5 (5^3=125). So 1/5. Answer: 1/5.\n\n---"
         },
         {
           "q_num": 10,
@@ -385,7 +385,7 @@
               "q_num": 4,
               "marks": 2,
               "question": "How many rational numbers exist between any two rational numbers?",
-              "answer": "There are INFINITELY MANY rational numbers between any two rational numbers.\nExample: Between 1 and 2:\nMean method: (1+2)/2 = 3/2. → between 1 and 3/2: (1+3/2)/2 = 5/4.\nWe can always apply the mean method again to find another — endlessly.\nSo infinitely many rationals exist between any two.\n\n---\n\n3 ಮಾರ್ಕ್ಸ್ × 2 questions:"
+              "answer": "There are INFINITELY MANY rational numbers between any two rational numbers.\nExample: Between 1 and 2:\nMean method: (1+2)/2 = 3/2. → between 1 and 3/2: (1+3/2)/2 = 5/4.\nWe can always apply the mean method again to find another — endlessly.\nSo infinitely many rationals exist between any two.\n\n---"
             },
             {
               "q_num": 5,
@@ -397,7 +397,7 @@
               "q_num": 6,
               "marks": 3,
               "question": "Are the following true or false? Give reasons:",
-              "answer": "(i) TRUE. N = {1,2,3,...} ⊂ W = {0,1,2,...}. Every element of N is in W.\n\n(ii) FALSE. Z includes negatives: {...,-2,-1,0,1,2,...}. W = {0,1,2,...}.\nCounter-example: -3 ∈ Z but -3 ∉ W.\n\n(iii) FALSE. Rationals include fractions not in W.\nCounter-example: 3/5 ∈ Q but 3/5 ∉ W.\n\n---\n\n4 ಮಾರ್ಕ್ಸ್ × 3 questions:"
+              "answer": "(i) TRUE. N = {1,2,3,...} ⊂ W = {0,1,2,...}. Every element of N is in W.\n\n(ii) FALSE. Z includes negatives: {...,-2,-1,0,1,2,...}. W = {0,1,2,...}.\nCounter-example: -3 ∈ Z but -3 ∉ W.\n\n(iii) FALSE. Rationals include fractions not in W.\nCounter-example: 3/5 ∈ Q but 3/5 ∉ W.\n\n---"
             },
             {
               "q_num": 7,
@@ -415,7 +415,7 @@
               "q_num": 9,
               "marks": 4,
               "question": "(i) Show 1/2 = 2/4 = 10/20 = 25/50. What are these called?",
-              "answer": "(i) Equivalent forms:\n1/2 = (1×2)/(2×2) = 2/4 ✓\n1/2 = (1×10)/(2×10) = 10/20 ✓\n1/2 = (1×25)/(2×25) = 25/50 ✓\nThese are called EQUIVALENT RATIONAL NUMBERS (equivalent fractions).\n\n(ii) Co-prime form:\n1/2: HCF(1,2)=1 → co-prime form. ✓\n2/4: HCF=2 → not co-prime.\n10/20: HCF=10 → not co-prime.\n25/50: HCF=25 → not co-prime.\nAnswer: 1/2 is the co-prime (standard) form.\n\n(iii) -2005/2006:\np=-2005 (integer ✓), q=2006 (integer ✓), q≠0 ✓.\nYes, -2005/2006 is RATIONAL. It lies between -1 and 0 on number line.\n\n---\n\n5 ಮಾರ್ಕ್ಸ್ × 1 question:"
+              "answer": "(i) Equivalent forms:\n1/2 = (1×2)/(2×2) = 2/4 ✓\n1/2 = (1×10)/(2×10) = 10/20 ✓\n1/2 = (1×25)/(2×25) = 25/50 ✓\nThese are called EQUIVALENT RATIONAL NUMBERS (equivalent fractions).\n\n(ii) Co-prime form:\n1/2: HCF(1,2)=1 → co-prime form. ✓\n2/4: HCF=2 → not co-prime.\n10/20: HCF=10 → not co-prime.\n25/50: HCF=25 → not co-prime.\nAnswer: 1/2 is the co-prime (standard) form.\n\n(iii) -2005/2006:\np=-2005 (integer ✓), q=2006 (integer ✓), q≠0 ✓.\nYes, -2005/2006 is RATIONAL. It lies between -1 and 0 on number line.\n\n---"
             },
             {
               "q_num": 10,
@@ -680,7 +680,7 @@
               "q_num": 4,
               "marks": 2,
               "question": "State approximate decimal values of sqrt(2) and pi.",
-              "answer": "sqrt(2) = 1.41421356237309504880...\npi = 3.14159265358979323846...\nIs 22/7 = pi? NO.\n22/7 = 3.142857bar (non-terminating RECURRING → rational).\npi = 3.14159265... (non-terminating NON-RECURRING → irrational).\n22/7 ≠ pi. 22/7 is only an APPROXIMATION of pi.\n\n---\n\n3 ಮಾರ್ಕ್ಸ್ × 2 questions:"
+              "answer": "sqrt(2) = 1.41421356237309504880...\npi = 3.14159265358979323846...\nIs 22/7 = pi? NO.\n22/7 = 3.142857bar (non-terminating RECURRING → rational).\npi = 3.14159265... (non-terminating NON-RECURRING → irrational).\n22/7 ≠ pi. 22/7 is only an APPROXIMATION of pi.\n\n---"
             },
             {
               "q_num": 5,
@@ -692,7 +692,7 @@
               "q_num": 6,
               "marks": 3,
               "question": "Classify each as rational or irrational with justification:",
-              "answer": "(i) sqrt(9) = 3 = 3/1. RATIONAL (perfect square).\n\n(ii) sqrt(12) = sqrt(4×3) = 2sqrt(3) = 2×1.73205... = 3.46410...\nNon-terminating non-recurring. IRRATIONAL.\n(Non-zero rational × irrational = irrational.)\n\n(iii) pi = 3.14159265... Non-terminating non-recurring.\nProved irrational by Lambert & Legendre (late 1700s). IRRATIONAL.\nNote: 22/7 ≈ 3.14286 ≠ pi. It's only an approximation.\n\n---\n\n4 ಮಾರ್ಕ್ಸ್ × 3 questions:"
+              "answer": "(i) sqrt(9) = 3 = 3/1. RATIONAL (perfect square).\n\n(ii) sqrt(12) = sqrt(4×3) = 2sqrt(3) = 2×1.73205... = 3.46410...\nNon-terminating non-recurring. IRRATIONAL.\n(Non-zero rational × irrational = irrational.)\n\n(iii) pi = 3.14159265... Non-terminating non-recurring.\nProved irrational by Lambert & Legendre (late 1700s). IRRATIONAL.\nNote: 22/7 ≈ 3.14286 ≠ pi. It's only an approximation.\n\n---"
             },
             {
               "q_num": 7,
@@ -710,7 +710,7 @@
               "q_num": 9,
               "marks": 4,
               "question": "Find an irrational number between 1/7 and 2/7. Justify.",
-              "answer": "Step 1: 1/7=0.142857bar, 2/7=0.285714bar.\nStep 2: Construct non-terminating non-recurring decimal between them:\ns = 0.1501500015000015...\n(After each 1: zeros increase — 1,2,3,4,... No block repeats.)\nStep 3: 0.142857... < 0.1501500... < 0.285714... ✓\nWhy irrational: Decimal is non-terminating non-recurring → IRRATIONAL.\nCount: INFINITELY MANY irrational numbers exist between any two rationals.\n\n---\n\n5 ಮಾರ್ಕ್ಸ್ × 1 question:"
+              "answer": "Step 1: 1/7=0.142857bar, 2/7=0.285714bar.\nStep 2: Construct non-terminating non-recurring decimal between them:\ns = 0.1501500015000015...\n(After each 1: zeros increase — 1,2,3,4,... No block repeats.)\nStep 3: 0.142857... < 0.1501500... < 0.285714... ✓\nWhy irrational: Decimal is non-terminating non-recurring → IRRATIONAL.\nCount: INFINITELY MANY irrational numbers exist between any two rationals.\n\n---"
             },
             {
               "q_num": 10,
@@ -1056,7 +1056,7 @@
               "q_num": 4,
               "marks": 2,
               "question": "What kind of decimal expansion does an irrational number have?",
-              "answer": "Irrational: NON-TERMINATING NON-RECURRING.\nsqrt(2) = 1.41421356237309504880168...\nNever terminates; computed to trillions of digits — no repeating block found.\nConverse also true: non-terminating non-recurring → irrational.\n\n---\n\n3 ಮಾರ್ಕ್ಸ್ × 2 questions:"
+              "answer": "Irrational: NON-TERMINATING NON-RECURRING.\nsqrt(2) = 1.41421356237309504880168...\nNever terminates; computed to trillions of digits — no repeating block found.\nConverse also true: non-terminating non-recurring → irrational.\n\n---"
             },
             {
               "q_num": 5,
@@ -1068,7 +1068,7 @@
               "q_num": 6,
               "marks": 3,
               "question": "Express 0.47bar as p/q. Also show 0.99999... = 1.",
-              "answer": "Part 1 — 0.47bar:\nx=0.47474747... (2 digits repeat).\n100x = 47 + x. 99x = 47. x = 47/99.\nAnswer: 0.47bar = 47/99.\n\nPart 2 — 0.99999... = 1:\nx = 0.9bar. 10x = 9+x. 9x=9. x=1.\nTherefore 0.99999... = 1. ✓ (Mathematically valid.)\n\n---\n\n4 ಮಾರ್ಕ್ಸ್ × 3 questions:"
+              "answer": "Part 1 — 0.47bar:\nx=0.47474747... (2 digits repeat).\n100x = 47 + x. 99x = 47. x = 47/99.\nAnswer: 0.47bar = 47/99.\n\nPart 2 — 0.99999... = 1:\nx = 0.9bar. 10x = 9+x. 9x=9. x=1.\nTherefore 0.99999... = 1. ✓ (Mathematically valid.)\n\n---"
             },
             {
               "q_num": 7,
@@ -1086,7 +1086,7 @@
               "q_num": 9,
               "marks": 4,
               "question": "Classify as rational or irrational with full justification:",
-              "answer": "(i) sqrt(23): Not a perfect square. sqrt(23)=4.7958... non-terminating non-recurring.\nIRRATIONAL.\n\n(ii) 0.3796: Terminates after 4 places. = 3796/10000. RATIONAL.\n\n(iii) 0.001bar = 0.001001001...: 3-digit block repeats.\n1000x=1+x. 999x=1. x=1/999. RATIONAL.\n\n(iv) 1.101001000100001...: Zeros between 1s: 1,2,3,4,...\nNo fixed repeating block. NON-TERMINATING NON-RECURRING. IRRATIONAL.\n\n---\n\n5 ಮಾರ್ಕ್ಸ್ × 1 question:"
+              "answer": "(i) sqrt(23): Not a perfect square. sqrt(23)=4.7958... non-terminating non-recurring.\nIRRATIONAL.\n\n(ii) 0.3796: Terminates after 4 places. = 3796/10000. RATIONAL.\n\n(iii) 0.001bar = 0.001001001...: 3-digit block repeats.\n1000x=1+x. 999x=1. x=1/999. RATIONAL.\n\n(iv) 1.101001000100001...: Zeros between 1s: 1,2,3,4,...\nNo fixed repeating block. NON-TERMINATING NON-RECURRING. IRRATIONAL.\n\n---"
             },
             {
               "q_num": 10,
@@ -1437,7 +1437,7 @@
               "q_num": 4,
               "marks": 2,
               "question": "Find (sqrt(5)+sqrt(2))^2. State the identity used.",
-              "answer": "Identity: (sqrt(a)+sqrt(b))^2 = a+2sqrt(ab)+b. Here a=5, b=2.\n= (sqrt(5))^2 + 2×sqrt(5)×sqrt(2) + (sqrt(2))^2\n= 5 + 2sqrt(10) + 2 = 7+2sqrt(10).\nAnswer: (sqrt(5)+sqrt(2))^2 = 7+2sqrt(10).\n\n---\n\n3 ಮಾರ್ಕ್ಸ್ × 2 questions:"
+              "answer": "Identity: (sqrt(a)+sqrt(b))^2 = a+2sqrt(ab)+b. Here a=5, b=2.\n= (sqrt(5))^2 + 2×sqrt(5)×sqrt(2) + (sqrt(2))^2\n= 5 + 2sqrt(10) + 2 = 7+2sqrt(10).\nAnswer: (sqrt(5)+sqrt(2))^2 = 7+2sqrt(10).\n\n---"
             },
             {
               "q_num": 5,
@@ -1449,7 +1449,7 @@
               "q_num": 6,
               "marks": 3,
               "question": "Rationalise 1/(2+sqrt(3)). Show all steps.",
-              "answer": "Step 1: Conjugate of (2+sqrt(3)) = (2-sqrt(3)).\nStep 2: Multiply: 1/(2+sqrt(3)) × (2-sqrt(3))/(2-sqrt(3)).\nStep 3: Denominator: identity (iv): (2+sqrt(3))(2-sqrt(3)) = 4-3 = 1.\nStep 4: = (2-sqrt(3))/1 = 2-sqrt(3).\nAnswer: 1/(2+sqrt(3)) = 2-sqrt(3).\nCheck: (2-sqrt(3))×(2+sqrt(3)) = 4-3 = 1. ✓\n\n---\n\n4 ಮಾರ್ಕ್ಸ್ × 3 questions:"
+              "answer": "Step 1: Conjugate of (2+sqrt(3)) = (2-sqrt(3)).\nStep 2: Multiply: 1/(2+sqrt(3)) × (2-sqrt(3))/(2-sqrt(3)).\nStep 3: Denominator: identity (iv): (2+sqrt(3))(2-sqrt(3)) = 4-3 = 1.\nStep 4: = (2-sqrt(3))/1 = 2-sqrt(3).\nAnswer: 1/(2+sqrt(3)) = 2-sqrt(3).\nCheck: (2-sqrt(3))×(2+sqrt(3)) = 4-3 = 1. ✓\n\n---"
             },
             {
               "q_num": 7,
@@ -1467,7 +1467,7 @@
               "q_num": 9,
               "marks": 4,
               "question": "Describe geometric construction to find sqrt(3.5).",
-              "answer": "Construction:\nStep 1: On a line, mark A. From A, mark B so AB=3.5. From B, mark C so BC=1.\nAC = 3.5+1 = 4.5.\nStep 2: Midpoint O of AC. OC = 4.5/2 = 2.25.\nStep 3: Semicircle centre O, radius OC=2.25.\nStep 4: At B, perpendicular to AC meets semicircle at D.\nStep 5: Transfer BD to number line → represents sqrt(3.5).\n\nProof:\nOD = 2.25 (radius). OB = OC-BC = 2.25-1 = 1.25.\nBD^2 = OD^2-OB^2 = 2.25^2-1.25^2 = 5.0625-1.5625 = 3.5.\nBD = sqrt(3.5). ✓\n\n---\n\n5 ಮಾರ್ಕ್ಸ್ × 1 question:"
+              "answer": "Construction:\nStep 1: On a line, mark A. From A, mark B so AB=3.5. From B, mark C so BC=1.\nAC = 3.5+1 = 4.5.\nStep 2: Midpoint O of AC. OC = 4.5/2 = 2.25.\nStep 3: Semicircle centre O, radius OC=2.25.\nStep 4: At B, perpendicular to AC meets semicircle at D.\nStep 5: Transfer BD to number line → represents sqrt(3.5).\n\nProof:\nOD = 2.25 (radius). OB = OC-BC = 2.25-1 = 1.25.\nBD^2 = OD^2-OB^2 = 2.25^2-1.25^2 = 5.0625-1.5625 = 3.5.\nBD = sqrt(3.5). ✓\n\n---"
             },
             {
               "q_num": 10,
@@ -1747,7 +1747,7 @@
               "q_num": 4,
               "marks": 2,
               "question": "Simplify: (i) 2^(2/3)×2^(1/3)   (ii) (3^(1/5))^4",
-              "answer": "(i) a^p×a^q=a^(p+q): 2^(2/3+1/3) = 2^(3/3) = 2^1 = 2.\n(ii) (a^p)^q=a^(pq): (3^(1/5))^4 = 3^(4/5).\n\n---\n\n3 ಮಾರ್ಕ್ಸ್ × 2 questions:"
+              "answer": "(i) a^p×a^q=a^(p+q): 2^(2/3+1/3) = 2^(3/3) = 2^1 = 2.\n(ii) (a^p)^q=a^(pq): (3^(1/5))^4 = 3^(4/5).\n\n---"
             },
             {
               "q_num": 5,
@@ -1759,7 +1759,7 @@
               "q_num": 6,
               "marks": 3,
               "question": "Simplify: (i) 2^(2/3)×2^(1/5)   (ii) 11^(1/2)/11^(1/4)",
-              "answer": "(i) 2^(2/3+1/5). LCM(3,5)=15: 2/3=10/15, 1/5=3/15.\n= 2^(13/15).\n\n(ii) 11^(1/2-1/4). LCM(2,4)=4: 1/2=2/4.\n= 11^(1/4).\n\n(iii) (7×8)^(1/2) = 56^(1/2) = sqrt(4×14) = 2sqrt(14).\n\n---\n\n4 ಮಾರ್ಕ್ಸ್ × 3 questions:"
+              "answer": "(i) 2^(2/3+1/5). LCM(3,5)=15: 2/3=10/15, 1/5=3/15.\n= 2^(13/15).\n\n(ii) 11^(1/2-1/4). LCM(2,4)=4: 1/2=2/4.\n= 11^(1/4).\n\n(iii) (7×8)^(1/2) = 56^(1/2) = sqrt(4×14) = 2sqrt(14).\n\n---"
             },
             {
               "q_num": 7,
@@ -1777,7 +1777,7 @@
               "q_num": 9,
               "marks": 4,
               "question": "Simplify (10^5)^3/(10^4×10^9). Also show 9.1×10^(-31)=9.1/10^(31).",
-              "answer": "(10^5)^3/(10^4×10^9):\nNum: (10^5)^3 = 10^15. [Law (a^m)^n=a^(mn)]\nDen: 10^4×10^9 = 10^13. [Law a^m×a^n=a^(m+n)]\n= 10^(15-13) = 10^2 = 100. [Law a^m/a^n=a^(m-n)]\nAnswer: 100.\n\n9.1×10^(-31):\n10^(-31) = 1/10^(31). [a^(-n)=1/a^n]\nSo 9.1×10^(-31) = 9.1/10^(31). ✓\n\n---\n\n5 ಮಾರ್ಕ್ಸ್ × 1 question:"
+              "answer": "(10^5)^3/(10^4×10^9):\nNum: (10^5)^3 = 10^15. [Law (a^m)^n=a^(mn)]\nDen: 10^4×10^9 = 10^13. [Law a^m×a^n=a^(m+n)]\n= 10^(15-13) = 10^2 = 100. [Law a^m/a^n=a^(m-n)]\nAnswer: 100.\n\n9.1×10^(-31):\n10^(-31) = 1/10^(31). [a^(-n)=1/a^n]\nSo 9.1×10^(-31) = 9.1/10^(31). ✓\n\n---"
             },
             {
               "q_num": 10,
@@ -2012,7 +2012,7 @@
               "q_num": 4,
               "marks": 2,
               "question": "Write the four extended laws of exponents (a>0, p,q rational).",
-              "answer": "(i)   a^p × a^q = a^(p+q)\n(ii)  (a^p)^q = a^(pq)\n(iii) a^p / a^q = a^(p-q)\n(iv)  a^p × b^p = (ab)^p\n\n---\n\n3 ಮಾರ್ಕ್ಸ್ × 2 questions:"
+              "answer": "(i)   a^p × a^q = a^(p+q)\n(ii)  (a^p)^q = a^(pq)\n(iii) a^p / a^q = a^(p-q)\n(iv)  a^p × b^p = (ab)^p\n\n---"
             },
             {
               "q_num": 5,
@@ -2024,7 +2024,7 @@
               "q_num": 6,
               "marks": 3,
               "question": "R = Q ∪ {irrationals}. Explain:",
-              "answer": "(i) sqrt(2) ∈ R: R includes all real numbers (rational+irrational). ✓\nsqrt(2) ∉ Q: 1.41421... non-terminating non-recurring → cannot write as p/q.\n\n(ii) 1/3 ∈ Q: 1/3 = p/q (p=1, q=3, q≠0). ✓\n1/3 ∈ R: Since Q ⊂ R, every rational is also real. ✓\n\n(iii) NO. Q and {irrationals} are DISJOINT: Q ∩ {irrationals} = ∅.\nEvery real number is EITHER rational OR irrational — never both.\n\n---\n\n4 ಮಾರ್ಕ್ಸ್ × 3 questions:"
+              "answer": "(i) sqrt(2) ∈ R: R includes all real numbers (rational+irrational). ✓\nsqrt(2) ∉ Q: 1.41421... non-terminating non-recurring → cannot write as p/q.\n\n(ii) 1/3 ∈ Q: 1/3 = p/q (p=1, q=3, q≠0). ✓\n1/3 ∈ R: Since Q ⊂ R, every rational is also real. ✓\n\n(iii) NO. Q and {irrationals} are DISJOINT: Q ∩ {irrationals} = ∅.\nEvery real number is EITHER rational OR irrational — never both.\n\n---"
             },
             {
               "q_num": 7,
@@ -2042,7 +2042,7 @@
               "q_num": 9,
               "marks": 4,
               "question": "A student simplifies (sqrt(3)+sqrt(7))^2=10. Find the error and",
-              "answer": "Error in (sqrt(3)+sqrt(7))^2=10:\nStudent computed: (sqrt(3))^2+(sqrt(7))^2 = 3+7 = 10. WRONG.\nError: Missing middle term 2×sqrt(3)×sqrt(7) = 2sqrt(21).\nCorrect: 3+2sqrt(21)+7 = 10+2sqrt(21).\n[2sqrt(21)≈9.165, so correct answer≈19.165, not 10.]\n\n(sqrt(11)-sqrt(7))(sqrt(11)+sqrt(7)):\nIdentity (iii): a-b = 11-7 = 4.\n4 = 4/1 → RATIONAL.\n(Product of two irrationals can be rational.) ✓\n\n---\n\n5 ಮಾರ್ಕ್ಸ್ × 1 question:"
+              "answer": "Error in (sqrt(3)+sqrt(7))^2=10:\nStudent computed: (sqrt(3))^2+(sqrt(7))^2 = 3+7 = 10. WRONG.\nError: Missing middle term 2×sqrt(3)×sqrt(7) = 2sqrt(21).\nCorrect: 3+2sqrt(21)+7 = 10+2sqrt(21).\n[2sqrt(21)≈9.165, so correct answer≈19.165, not 10.]\n\n(sqrt(11)-sqrt(7))(sqrt(11)+sqrt(7)):\nIdentity (iii): a-b = 11-7 = 4.\n4 = 4/1 → RATIONAL.\n(Product of two irrationals can be rational.) ✓\n\n---"
             },
             {
               "q_num": 10,

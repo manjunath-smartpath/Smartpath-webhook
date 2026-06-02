@@ -427,7 +427,7 @@
               "q_num": 4,
               "marks": 2,
               "question": "The angle of elevation of the top of a tower from a point 30 m away from its foot is 30 degrees. Find the height of the tower.",
-              "answer": "In right triangle ABC:\ntan 30 degrees = AB (height) / BC (distance)\n1/sqrt(3) = AB/30\nAB = 30/sqrt(3) = 10*sqrt(3) m\n\nHeight of the tower = 10*sqrt(3) m (approximately 17.32 m).\n\n---\n\n3 ಮಾರ್ಕ್ಸ್ × 3 questions:"
+              "answer": "In right triangle ABC:\ntan 30 degrees = AB (height) / BC (distance)\n1/sqrt(3) = AB/30\nAB = 30/sqrt(3) = 10*sqrt(3) m\n\nHeight of the tower = 10*sqrt(3) m (approximately 17.32 m).\n\n---"
             },
             {
               "q_num": 5,
@@ -445,7 +445,7 @@
               "q_num": 7,
               "marks": 3,
               "question": "A tree breaks due to a storm and its top touches the ground at 30 degrees to it. The distance from the foot of the tree to where the top touches the ground is 8 m. Find the height of the tree.",
-              "answer": "Step 1: Let BC = standing part (vertical), AB = 8 m (ground distance), AC = broken part (hypotenuse).\nAngle CAB = 30 degrees.\n\nStep 2: tan 30 degrees = BC/AB => 1/sqrt(3) = BC/8 => BC = 8/sqrt(3) = 8*sqrt(3)/3 m\n\nStep 3: cos 30 degrees = AB/AC => sqrt(3)/2 = 8/AC => AC = 16/sqrt(3) = 16*sqrt(3)/3 m\n\nStep 4: Total height = BC + AC = 8*sqrt(3)/3 + 16*sqrt(3)/3 = 24*sqrt(3)/3 = 8*sqrt(3) m\n\nAnswer: Height of the tree = 8*sqrt(3) m (approximately 13.86 m).\n\n---\n\n4 ಮಾರ್ಕ್ಸ್ × 4 questions:"
+              "answer": "Step 1: Let BC = standing part (vertical), AB = 8 m (ground distance), AC = broken part (hypotenuse).\nAngle CAB = 30 degrees.\n\nStep 2: tan 30 degrees = BC/AB => 1/sqrt(3) = BC/8 => BC = 8/sqrt(3) = 8*sqrt(3)/3 m\n\nStep 3: cos 30 degrees = AB/AC => sqrt(3)/2 = 8/AC => AC = 16/sqrt(3) = 16*sqrt(3)/3 m\n\nStep 4: Total height = BC + AC = 8*sqrt(3)/3 + 16*sqrt(3)/3 = 24*sqrt(3)/3 = 8*sqrt(3) m\n\nAnswer: Height of the tree = 8*sqrt(3) m (approximately 13.86 m).\n\n---"
             },
             {
               "q_num": 8,
@@ -469,7 +469,7 @@
               "q_num": 11,
               "marks": 4,
               "question": "Two poles of equal height stand on either side of a road 80 m wide. From a point between them on the road, angles of elevation of the tops are 60 degrees and 30 degrees. Find the height of the poles and distances of the point from each pole.",
-              "answer": "Step 1: Each pole height = h m.\nDistance from first pole = x m => distance from second pole = (80 - x) m.\n\nStep 2: For first pole (60 degrees):\ntan 60 degrees = h/x => h = x*sqrt(3) ... (1)\n\nStep 3: For second pole (30 degrees):\ntan 30 degrees = h/(80-x) => h = (80-x)/sqrt(3) ... (2)\n\nStep 4: Equating (1) and (2):\nx*sqrt(3) = (80-x)/sqrt(3) => 3x = 80 - x => 4x = 80 => x = 20 m\n\nStep 5: h = 20*sqrt(3) m. Distance from second pole = 80 - 20 = 60 m.\n\nAnswer: Height of poles = 20*sqrt(3) m. Distance from first pole = 20 m. Distance from second pole = 60 m.\n\n---\n\n5 ಮಾರ್ಕ್ಸ್ × 1 question:"
+              "answer": "Step 1: Each pole height = h m.\nDistance from first pole = x m => distance from second pole = (80 - x) m.\n\nStep 2: For first pole (60 degrees):\ntan 60 degrees = h/x => h = x*sqrt(3) ... (1)\n\nStep 3: For second pole (30 degrees):\ntan 30 degrees = h/(80-x) => h = (80-x)/sqrt(3) ... (2)\n\nStep 4: Equating (1) and (2):\nx*sqrt(3) = (80-x)/sqrt(3) => 3x = 80 - x => 4x = 80 => x = 20 m\n\nStep 5: h = 20*sqrt(3) m. Distance from second pole = 80 - 20 = 60 m.\n\nAnswer: Height of poles = 20*sqrt(3) m. Distance from first pole = 20 m. Distance from second pole = 60 m.\n\n---"
             },
             {
               "q_num": 12,

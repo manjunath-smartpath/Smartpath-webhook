@@ -217,7 +217,7 @@
               "q_num": 4,
               "marks": 2,
               "question": "What does the condition \"a1 and b1 not both zero\" mean in the equation a1x + b1y + c1 = 0?",
-              "answer": "It means at least one of a1 or b1 must be non-zero. If both were zero, the equation would have no variable and would not be a valid linear equation in two variables.\n\n---\n\n3 ಮಾರ್ಕ್ಸ್ × 3 questions:"
+              "answer": "It means at least one of a1 or b1 must be non-zero. If both were zero, the equation would have no variable and would not be a valid linear equation in two variables.\n\n---"
             },
             {
               "q_num": 5,
@@ -235,7 +235,7 @@
               "q_num": 7,
               "marks": 3,
               "question": "From Akhila's fair problem, form the pair of equations and solve to find the number of rides and Hoopla games.",
-              "answer": "Step 1: Let x = rides, y = Hoopla games.\ny = x/2 ...(1) and 3x + 4y = 20 ...(2).\n\nStep 2: Substitute (1) in (2): 3x + 4(x/2) = 20 → 3x + 2x = 20 → 5x = 20 → x = 4.\n\nStep 3: y = 4/2 = 2.\nAkhila had 4 rides and played Hoopla 2 times.\nVerification: 3(4) + 4(2) = 12 + 8 = 20 ✓.\n\n---\n\n4 ಮಾರ್ಕ್ಸ್ × 4 questions:"
+              "answer": "Step 1: Let x = rides, y = Hoopla games.\ny = x/2 ...(1) and 3x + 4y = 20 ...(2).\n\nStep 2: Substitute (1) in (2): 3x + 4(x/2) = 20 → 3x + 2x = 20 → 5x = 20 → x = 4.\n\nStep 3: y = 4/2 = 2.\nAkhila had 4 rides and played Hoopla 2 times.\nVerification: 3(4) + 4(2) = 12 + 8 = 20 ✓.\n\n---"
             },
             {
               "q_num": 8,
@@ -259,7 +259,7 @@
               "q_num": 11,
               "marks": 4,
               "question": "The taxi charges in a city consist of a fixed charge together with a per-km charge. For 10 km, the charge is Rs.105; for 15 km, Rs.155. Find the fixed charge and charge per km. What will a person pay for 25 km?",
-              "answer": "Step 1: Let fixed charge = Rs.x, charge per km = Rs.y.\nx + 10y = 105 ...(1) and x + 15y = 155 ...(2).\n\nStep 2: Subtract (1) from (2): 5y = 50 → y = 10.\n\nStep 3: From (1): x + 10(10) = 105 → x = 5.\n\nStep 4: Fixed charge = Rs.5; charge per km = Rs.10.\nFor 25 km: 5 + 25 × 10 = 5 + 250 = Rs.255.\nVerification: 5 + 10(10) = 105 ✓. 5 + 15(10) = 155 ✓.\n\n---\n\n5 ಮಾರ್ಕ್ಸ್ × 1 question:"
+              "answer": "Step 1: Let fixed charge = Rs.x, charge per km = Rs.y.\nx + 10y = 105 ...(1) and x + 15y = 155 ...(2).\n\nStep 2: Subtract (1) from (2): 5y = 50 → y = 10.\n\nStep 3: From (1): x + 10(10) = 105 → x = 5.\n\nStep 4: Fixed charge = Rs.5; charge per km = Rs.10.\nFor 25 km: 5 + 25 × 10 = 5 + 250 = Rs.255.\nVerification: 5 + 10(10) = 105 ✓. 5 + 15(10) = 155 ✓.\n\n---"
             },
             {
               "q_num": 12,
@@ -579,7 +579,7 @@
               "q_num": 4,
               "marks": 2,
               "question": "Why is the graphical method not always convenient?",
-              "answer": "When the solution has non-integral coordinates like (-1.75, 3.3) or (4/13, 1/19), reading exact values from a graph is very difficult and error-prone. Algebraic methods give exact answers in such cases.\n\n---\n\n3 ಮಾರ್ಕ್ಸ್ × 3 questions:"
+              "answer": "When the solution has non-integral coordinates like (-1.75, 3.3) or (4/13, 1/19), reading exact values from a graph is very difficult and error-prone. Algebraic methods give exact answers in such cases.\n\n---"
             },
             {
               "q_num": 5,
@@ -597,7 +597,7 @@
               "q_num": 7,
               "marks": 3,
               "question": "For x + 2y - 4 = 0 and 2x + 4y - 12 = 0, find the type of lines and solution using ratio method.",
-              "answer": "Step 1: a1=1, b1=2, c1=-4; a2=2, b2=4, c2=-12.\n\nStep 2: a1/a2=1/2; b1/b2=2/4=1/2; c1/c2=(-4)/(-12)=1/3.\n\nStep 3: a1/a2=b1/b2=1/2 but c1/c2=1/3 ≠ 1/2.\nCondition: a1/a2=b1/b2 ≠ c1/c2 → PARALLEL lines → NO SOLUTION → INCONSISTENT.\n\n---\n\n4 ಮಾರ್ಕ್ಸ್ × 4 questions:"
+              "answer": "Step 1: a1=1, b1=2, c1=-4; a2=2, b2=4, c2=-12.\n\nStep 2: a1/a2=1/2; b1/b2=2/4=1/2; c1/c2=(-4)/(-12)=1/3.\n\nStep 3: a1/a2=b1/b2=1/2 but c1/c2=1/3 ≠ 1/2.\nCondition: a1/a2=b1/b2 ≠ c1/c2 → PARALLEL lines → NO SOLUTION → INCONSISTENT.\n\n---"
             },
             {
               "q_num": 8,
@@ -621,7 +621,7 @@
               "q_num": 11,
               "marks": 4,
               "question": "Draw the graphs of x - y + 1 = 0 and 3x + 2y - 12 = 0. Find the vertices of the triangle formed by these lines and the x-axis.",
-              "answer": "Step 1: Points for x-y+1=0 (y=x+1):\nx=0→y=1: A(0,1). x=2→y=3. x=-1→y=0: B(-1,0) (x-axis).\n\nStep 2: Points for 3x+2y-12=0 (y=(12-3x)/2):\nx=0→y=6: C(0,6). x=4→y=0: D(4,0) (x-axis).\n\nStep 3: Find intersection of the two lines.\nFrom x-y+1=0: y=x+1. Substitute in 3x+2(x+1)-12=0 → 5x=10 → x=2, y=3: E(2,3).\n\nStep 4: Triangle vertices:\nB(-1, 0), D(4, 0) — on x-axis. E(2, 3) — intersection point.\nThree vertices: (-1, 0), (4, 0), and (2, 3).\n\n---\n\n5 ಮಾರ್ಕ್ಸ್ × 1 question:"
+              "answer": "Step 1: Points for x-y+1=0 (y=x+1):\nx=0→y=1: A(0,1). x=2→y=3. x=-1→y=0: B(-1,0) (x-axis).\n\nStep 2: Points for 3x+2y-12=0 (y=(12-3x)/2):\nx=0→y=6: C(0,6). x=4→y=0: D(4,0) (x-axis).\n\nStep 3: Find intersection of the two lines.\nFrom x-y+1=0: y=x+1. Substitute in 3x+2(x+1)-12=0 → 5x=10 → x=2, y=3: E(2,3).\n\nStep 4: Triangle vertices:\nB(-1, 0), D(4, 0) — on x-axis. E(2, 3) — intersection point.\nThree vertices: (-1, 0), (4, 0), and (2, 3).\n\n---"
             },
             {
               "q_num": 12,
@@ -896,7 +896,7 @@
               "q_num": 4,
               "marks": 2,
               "question": "When solving a pair of equations algebraically, what does getting a FALSE statement like \"0 = 9\" indicate?",
-              "answer": "It indicates that the lines are parallel — there is no common solution. The pair has NO SOLUTION (inconsistent pair).\n\n---\n\n3 ಮಾರ್ಕ್ಸ್ × 3 questions:"
+              "answer": "It indicates that the lines are parallel — there is no common solution. The pair has NO SOLUTION (inconsistent pair).\n\n---"
             },
             {
               "q_num": 5,
@@ -914,7 +914,7 @@
               "q_num": 7,
               "marks": 3,
               "question": "Compare all three methods (graphical, substitution, elimination). State when each is most suitable.",
-              "answer": "Step 1: Graphical method — Best for visual understanding. Only suitable when solution has integer coordinates. NOT suitable for fractional/irrational solutions.\n\nStep 2: Substitution method — Suitable for ALL cases. Best when one variable can be easily expressed in terms of the other (e.g., x = 3 - 2y). Gives exact values.\n\nStep 3: Elimination method — Suitable for ALL cases. Often faster than substitution when coefficients can be matched easily by multiplying by small integers. All three methods give the same answer.\n\n---\n\n4 ಮಾರ್ಕ್ಸ್ × 4 questions:"
+              "answer": "Step 1: Graphical method — Best for visual understanding. Only suitable when solution has integer coordinates. NOT suitable for fractional/irrational solutions.\n\nStep 2: Substitution method — Suitable for ALL cases. Best when one variable can be easily expressed in terms of the other (e.g., x = 3 - 2y). Gives exact values.\n\nStep 3: Elimination method — Suitable for ALL cases. Often faster than substitution when coefficients can be matched easily by multiplying by small integers. All three methods give the same answer.\n\n---"
             },
             {
               "q_num": 8,
@@ -938,7 +938,7 @@
               "q_num": 11,
               "marks": 4,
               "question": "Solve 3x + 4y = 10 and 2x - 2y = 2 by elimination. Also solve by substitution. Verify both give the same answer.",
-              "answer": "Step 1: ELIMINATION — Multiply 2x-2y=2 by 2: 4x-4y=4. Add to 3x+4y=10:\n7x=14 → x=2. Substitute: 2(2)-2y=2 → 4-2y=2 → y=1.\n\nStep 2: SUBSTITUTION — From 2x-2y=2: x=1+y. Substitute in 3x+4y=10:\n3(1+y)+4y=10 → 3+7y=10 → 7y=7 → y=1. x=1+1=2.\n\nStep 3: Both methods: x=2, y=1. ✓\n\nStep 4: Verification: 3(2)+4(1)=6+4=10 ✓. 2(2)-2(1)=4-2=2 ✓.\n\n---\n\n5 ಮಾರ್ಕ್ಸ್ × 1 question:"
+              "answer": "Step 1: ELIMINATION — Multiply 2x-2y=2 by 2: 4x-4y=4. Add to 3x+4y=10:\n7x=14 → x=2. Substitute: 2(2)-2y=2 → 4-2y=2 → y=1.\n\nStep 2: SUBSTITUTION — From 2x-2y=2: x=1+y. Substitute in 3x+4y=10:\n3(1+y)+4y=10 → 3+7y=10 → 7y=7 → y=1. x=1+1=2.\n\nStep 3: Both methods: x=2, y=1. ✓\n\nStep 4: Verification: 3(2)+4(1)=6+4=10 ✓. 2(2)-2(1)=4-2=2 ✓.\n\n---"
             },
             {
               "q_num": 12,
@@ -1243,7 +1243,7 @@
                   "q_num": 4,
                   "marks": 2,
                   "question": "When does the substitution method give a false statement like \"-4 = 0\"? What does it mean?",
-                  "answer": "This happens when the lines are parallel — there is no common point. It means the pair has NO SOLUTION (inconsistent pair). In the rails problem, the rails will NOT cross each other.\n\n---\n\n3 ಮಾರ್ಕ್ಸ್ × 3 questions:"
+                  "answer": "This happens when the lines are parallel — there is no common point. It means the pair has NO SOLUTION (inconsistent pair). In the rails problem, the rails will NOT cross each other.\n\n---"
                 },
                 {
                   "q_num": 5,
@@ -1261,7 +1261,7 @@
                   "q_num": 7,
                   "marks": 3,
                   "question": "Compare the three outcomes of substitution: unique solution, infinitely many, no solution. Give one example equation for each.",
-                  "answer": "Step 1: Unique solution — Get a specific value (e.g., y=19/29 from 7x-15y=2 and x+2y=3). Consistent pair with intersecting lines.\n\nStep 2: Infinitely many solutions — Get a true statement (e.g., 18=18 from 2x+3y=9 and 4x+6y=18). Dependent consistent pair with coincident lines.\n\nStep 3: No solution — Get a false statement (e.g., -4=0 from x+2y-4=0 and 2x+4y-12=0). Inconsistent pair with parallel lines.\n\n---\n\n4 ಮಾರ್ಕ್ಸ್ × 4 questions:"
+                  "answer": "Step 1: Unique solution — Get a specific value (e.g., y=19/29 from 7x-15y=2 and x+2y=3). Consistent pair with intersecting lines.\n\nStep 2: Infinitely many solutions — Get a true statement (e.g., 18=18 from 2x+3y=9 and 4x+6y=18). Dependent consistent pair with coincident lines.\n\nStep 3: No solution — Get a false statement (e.g., -4=0 from x+2y-4=0 and 2x+4y-12=0). Inconsistent pair with parallel lines.\n\n---"
                 },
                 {
                   "q_num": 8,
@@ -1285,7 +1285,7 @@
                   "q_num": 11,
                   "marks": 4,
                   "question": "A fraction becomes 9/11 if 2 is added to both numerator and denominator. It becomes 5/6 if 3 is added to both. Find the fraction using substitution.",
-                  "answer": "Step 1: Let numerator=p, denominator=q.\n(p+2)/(q+2)=9/11 → 11(p+2)=9(q+2) → 11p-9q=18-22=-4 → 11p-9q=-4 ...(1).\n(p+3)/(q+3)=5/6 → 6(p+3)=5(q+3) → 6p-5q=15-18=-3 → 6p-5q=-3 ...(2).\n\nStep 2: From (2): p=(-3+5q)/6 ...(3). Substitute in (1):\n11×(-3+5q)/6-9q=-4 → (-33+55q)/6-9q=-4 → -33+55q-54q=-24 → q=9.\n\nStep 3: p=(-3+5×9)/6=(-3+45)/6=42/6=7.\nFraction = 7/9.\n\nStep 4: Verification: (7+2)/(9+2)=9/11 ✓. (7+3)/(9+3)=10/12=5/6 ✓.\n\n---\n\n5 ಮಾರ್ಕ್ಸ್ × 1 question:"
+                  "answer": "Step 1: Let numerator=p, denominator=q.\n(p+2)/(q+2)=9/11 → 11(p+2)=9(q+2) → 11p-9q=18-22=-4 → 11p-9q=-4 ...(1).\n(p+3)/(q+3)=5/6 → 6(p+3)=5(q+3) → 6p-5q=15-18=-3 → 6p-5q=-3 ...(2).\n\nStep 2: From (2): p=(-3+5q)/6 ...(3). Substitute in (1):\n11×(-3+5q)/6-9q=-4 → (-33+55q)/6-9q=-4 → -33+55q-54q=-24 → q=9.\n\nStep 3: p=(-3+5×9)/6=(-3+45)/6=42/6=7.\nFraction = 7/9.\n\nStep 4: Verification: (7+2)/(9+2)=9/11 ✓. (7+3)/(9+3)=10/12=5/6 ✓.\n\n---"
                 },
                 {
                   "q_num": 12,
@@ -1584,7 +1584,7 @@
                   "q_num": 4,
                   "marks": 2,
                   "question": "In the two-digit number problem, if ten's digit=x and unit's digit=y, write the original number and its reverse.",
-                  "answer": "Original number = 10x + y (ten's place contributes 10 times its digit).\nReversed number = 10y + x.\n\n---\n\n3 ಮಾರ್ಕ್ಸ್ × 3 questions:"
+                  "answer": "Original number = 10x + y (ten's place contributes 10 times its digit).\nReversed number = 10y + x.\n\n---"
                 },
                 {
                   "q_num": 5,
@@ -1602,7 +1602,7 @@
                   "q_num": 7,
                   "marks": 3,
                   "question": "Compare the three outcomes of the elimination method with examples.",
-                  "answer": "Step 1: Unique solution — Get a specific value (e.g., x=2000 from income problem 9x-4y=2000 and 7x-3y=2000). Consistent pair, lines intersect.\n\nStep 2: No solution — Get a false statement (e.g., 0=9 from 2x+3y=8 and 4x+6y=7). Inconsistent pair, lines are parallel.\n\nStep 3: Infinitely many solutions — Get a true statement (e.g., 0=0 from 2x+3y=9 and 4x+6y=18). Dependent consistent pair, lines coincide.\n\n---\n\n4 ಮಾರ್ಕ್ಸ್ × 4 questions:"
+                  "answer": "Step 1: Unique solution — Get a specific value (e.g., x=2000 from income problem 9x-4y=2000 and 7x-3y=2000). Consistent pair, lines intersect.\n\nStep 2: No solution — Get a false statement (e.g., 0=9 from 2x+3y=8 and 4x+6y=7). Inconsistent pair, lines are parallel.\n\nStep 3: Infinitely many solutions — Get a true statement (e.g., 0=0 from 2x+3y=9 and 4x+6y=18). Dependent consistent pair, lines coincide.\n\n---"
                 },
                 {
                   "q_num": 8,
@@ -1626,7 +1626,7 @@
                   "q_num": 11,
                   "marks": 4,
                   "question": "Meena went to a bank to withdraw Rs.2000. She got Rs.50 and Rs.100 notes only. She received 25 notes in all. Find how many notes of each type she received using elimination.",
-                  "answer": "Step 1: Let Rs.50 notes=x, Rs.100 notes=y.\nx+y=25 ...(1) and 50x+100y=2000 → x+2y=40 ...(2).\n\nStep 2: Subtract (1) from (2): y=15.\n\nStep 3: From (1): x=25-15=10.\n\nStep 4: Meena received 10 notes of Rs.50 and 15 notes of Rs.100.\nVerification: 10+15=25 ✓. 50(10)+100(15)=500+1500=2000 ✓.\n\n---\n\n5 ಮಾರ್ಕ್ಸ್ × 1 question:"
+                  "answer": "Step 1: Let Rs.50 notes=x, Rs.100 notes=y.\nx+y=25 ...(1) and 50x+100y=2000 → x+2y=40 ...(2).\n\nStep 2: Subtract (1) from (2): y=15.\n\nStep 3: From (1): x=25-15=10.\n\nStep 4: Meena received 10 notes of Rs.50 and 15 notes of Rs.100.\nVerification: 10+15=25 ✓. 50(10)+100(15)=500+1500=2000 ✓.\n\n---"
                 },
                 {
                   "q_num": 12,
@@ -1869,68 +1869,37 @@
               "items": [
                 "(No sub-topics — 3.4 is a summary topic.)"
               ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "topic_num": "3.1",
-      "topic_name": "Def ✅ | KeyPts ✅ | LIST OF SUB-TOPICS ✅ | EXAMPLE ✅",
-      "mode": "B",
-      "sections": [
-        {
-          "type": "qa",
-          "label": "TOPIC 3.1 Q&A: 10 Qs (2M×4 + 3M×3 + 4M×4 + 5M×1) ✅",
-          "items": []
-        },
-        {
-          "type": "mcq",
-          "label": "TOPIC 3.1 MCQs: 15 MCQs ✅",
-          "items": []
-        }
-      ],
-      "subtopics": []
-    },
-    {
-      "topic_num": "3.2",
-      "topic_name": "Def ✅ | KeyPts ✅ | LIST OF SUB-TOPICS ✅ | EXAMPLES(3) ✅ | EXERCISE 3.1(7Q) ✅",
-      "mode": "B",
-      "sections": [
-        {
-          "type": "qa",
-          "label": "TOPIC 3.2 Q&A: 10 Qs (2M×4 + 3M×3 + 4M×4 + 5M×1) ✅",
-          "items": []
-        },
-        {
-          "type": "mcq",
-          "label": "TOPIC 3.2 MCQs: 15 MCQs ✅",
-          "items": []
-        }
-      ],
-      "subtopics": []
-    },
-    {
-      "topic_num": "3.3",
-      "topic_name": "Def ✅ | KeyPts ✅ | LIST OF SUB-TOPICS ✅",
-      "mode": "A",
-      "sections": [
-        {
-          "type": "qa",
-          "label": "TOPIC 3.3 Q&A: 10 Qs (2M×4 + 3M×3 + 4M×4 + 5M×1) ✅",
-          "items": []
-        },
-        {
-          "type": "mcq",
-          "label": "TOPIC 3.3 MCQs: 15 MCQs ✅",
-          "items": []
-        }
-      ],
-      "subtopics": [
-        {
-          "subtopic_num": "3.3.1",
-          "subtopic_name": "Def ✅ | KeyPts ✅ | EXAMPLES(4) ✅ | EXERCISE 3.2(3Q) ✅",
-          "sections": [
+            },
+            {
+              "type": "qa",
+              "label": "TOPIC 3.1 Q&A: 10 Qs (2M×4 + 3M×3 + 4M×4 + 5M×1) ✅",
+              "items": []
+            },
+            {
+              "type": "mcq",
+              "label": "TOPIC 3.1 MCQs: 15 MCQs ✅",
+              "items": []
+            },
+            {
+              "type": "qa",
+              "label": "TOPIC 3.2 Q&A: 10 Qs (2M×4 + 3M×3 + 4M×4 + 5M×1) ✅",
+              "items": []
+            },
+            {
+              "type": "mcq",
+              "label": "TOPIC 3.2 MCQs: 15 MCQs ✅",
+              "items": []
+            },
+            {
+              "type": "qa",
+              "label": "TOPIC 3.3 Q&A: 10 Qs (2M×4 + 3M×3 + 4M×4 + 5M×1) ✅",
+              "items": []
+            },
+            {
+              "type": "mcq",
+              "label": "TOPIC 3.3 MCQs: 15 MCQs ✅",
+              "items": []
+            },
             {
               "type": "qa",
               "label": "SUB-TOPIC 3.3.1 Q&A: 10 Qs (2M×4 + 3M×3 + 4M×4 + 5M×1) ✅",
@@ -1940,13 +1909,7 @@
               "type": "mcq",
               "label": "SUB-TOPIC 3.3.1 MCQs: 15 MCQs ✅",
               "items": []
-            }
-          ]
-        },
-        {
-          "subtopic_num": "3.3.2",
-          "subtopic_name": "Def ✅ | KeyPts ✅ | EXAMPLES(3) ✅ | EXERCISE 3.3(2Q) ✅",
-          "sections": [
+            },
             {
               "type": "qa",
               "label": "SUB-TOPIC 3.3.2 Q&A: 10 Qs (2M×4 + 3M×3 + 4M×4 + 5M×1) ✅",
@@ -1960,13 +1923,6 @@
           ]
         }
       ]
-    },
-    {
-      "topic_num": "3.4",
-      "topic_name": "Def ✅ | KeyPts ✅ | LIST OF SUB-TOPICS ✅",
-      "mode": "B",
-      "sections": [],
-      "subtopics": []
     }
   ]
 }

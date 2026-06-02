@@ -186,7 +186,7 @@
               "q_num": 4,
               "marks": 2,
               "question": "Which theorem from Chapter 1 is used to prove irrationality of sqrt(2),",
-              "answer": "The Fundamental Theorem of Arithmetic is used to prove the irrationality of sqrt(2),\nsqrt(3), sqrt(5), and in general sqrt(p) where p is any prime number.\n\n---\n\n3 ಮಾರ್ಕ್ಸ್ × 3 questions:"
+              "answer": "The Fundamental Theorem of Arithmetic is used to prove the irrationality of sqrt(2),\nsqrt(3), sqrt(5), and in general sqrt(p) where p is any prime number.\n\n---"
             },
             {
               "q_num": 5,
@@ -204,7 +204,7 @@
               "q_num": 7,
               "marks": 3,
               "question": "Name four irrational numbers studied in Class IX and explain why",
-              "answer": "Step 1: Four irrational numbers from Class IX:\nsqrt(2), sqrt(3), sqrt(5), pi.\n(Others: sqrt(15), -sqrt(2)/sqrt(3), 0.10110111011110...)\nStep 2: 0.10110111011110... is non-terminating (goes on forever) AND non-repeating\n(there is no fixed block of digits that repeats). So it is irrational.\nStep 3: 0.333... is non-terminating BUT repeating — the digit 3 repeats endlessly.\nIt equals 1/3 = 1/3 which is in p/q form (p=1, q=3). So it is rational.\n\n---\n\n4 ಮಾರ್ಕ್ಸ್ × 4 questions:"
+              "answer": "Step 1: Four irrational numbers from Class IX:\nsqrt(2), sqrt(3), sqrt(5), pi.\n(Others: sqrt(15), -sqrt(2)/sqrt(3), 0.10110111011110...)\nStep 2: 0.10110111011110... is non-terminating (goes on forever) AND non-repeating\n(there is no fixed block of digits that repeats). So it is irrational.\nStep 3: 0.333... is non-terminating BUT repeating — the digit 3 repeats endlessly.\nIt equals 1/3 = 1/3 which is in p/q form (p=1, q=3). So it is rational.\n\n---"
             },
             {
               "q_num": 8,
@@ -222,7 +222,7 @@
               "q_num": 10,
               "marks": 4,
               "question": "The Fundamental Theorem of Arithmetic is described as easy to state but",
-              "answer": "Step 1: STATEMENT of Fundamental Theorem of Arithmetic:\nEvery composite number can be expressed (factorised) as a product of primes,\nand this factorisation is unique, apart from the order of prime factors.\nStep 2: Example: 32760 = 2^3 x 3^2 x 5 x 7 x 13.\nNo matter how we factorise 32760, we always get the same set of prime factors\n(2, 3, 5, 7, 13 with the same powers) — just in different order.\nStep 3: Application 1 — Finding HCF and LCM:\nHCF(6, 20) = 2 (smallest power of common prime).\nLCM(6, 20) = 60 (greatest power of all primes).\nThis is called the Prime Factorisation Method.\nStep 4: Application 2 — Proving Irrationality:\nTo prove sqrt(2) is irrational, we assume sqrt(2) = a/b (coprime).\nUsing FTA's uniqueness, we show both a and b must be divisible by 2 —\ncontradicting that they are coprime. So sqrt(2) is irrational.\n\n---\n\n5 ಮಾರ್ಕ್ಸ್ × 1 question:"
+              "answer": "Step 1: STATEMENT of Fundamental Theorem of Arithmetic:\nEvery composite number can be expressed (factorised) as a product of primes,\nand this factorisation is unique, apart from the order of prime factors.\nStep 2: Example: 32760 = 2^3 x 3^2 x 5 x 7 x 13.\nNo matter how we factorise 32760, we always get the same set of prime factors\n(2, 3, 5, 7, 13 with the same powers) — just in different order.\nStep 3: Application 1 — Finding HCF and LCM:\nHCF(6, 20) = 2 (smallest power of common prime).\nLCM(6, 20) = 60 (greatest power of all primes).\nThis is called the Prime Factorisation Method.\nStep 4: Application 2 — Proving Irrationality:\nTo prove sqrt(2) is irrational, we assume sqrt(2) = a/b (coprime).\nUsing FTA's uniqueness, we show both a and b must be divisible by 2 —\ncontradicting that they are coprime. So sqrt(2) is irrational.\n\n---"
             },
             {
               "q_num": 11,
@@ -527,7 +527,7 @@
               "q_num": 4,
               "marks": 2,
               "question": "What is the relationship between HCF and LCM of two positive integers?",
-              "answer": "For two positive integers a and b: HCF(a, b) x LCM(a, b) = a x b.\nThis does NOT hold for three numbers.\nExample: HCF(6,72,120) x LCM(6,72,120) = 6 x 360 = 2160,\nbut 6 x 72 x 120 = 51840. Not equal.\n\n---\n\n3 ಮಾರ್ಕ್ಸ್ × 3 questions:"
+              "answer": "For two positive integers a and b: HCF(a, b) x LCM(a, b) = a x b.\nThis does NOT hold for three numbers.\nExample: HCF(6,72,120) x LCM(6,72,120) = 6 x 360 = 2160,\nbut 6 x 72 x 120 = 51840. Not equal.\n\n---"
             },
             {
               "q_num": 5,
@@ -545,7 +545,7 @@
               "q_num": 7,
               "marks": 3,
               "question": "Explain why 7 x 11 x 13 + 13 is a composite number.",
-              "answer": "Step 1: 7 x 11 x 13 + 13 = 13 x (7 x 11 + 1) = 13 x (77 + 1) = 13 x 78.\nStep 2: 78 = 2 x 39 = 2 x 3 x 13.\nSo 7 x 11 x 13 + 13 = 13 x 2 x 3 x 13 = 2 x 3 x 13^2.\nStep 3: It has factors 2, 3, 13 (other than 1 and itself).\nBy the Fundamental Theorem of Arithmetic, it is NOT prime.\nAnswer: 7 x 11 x 13 + 13 is a composite number.\n\n---\n\n4 ಮಾರ್ಕ್ಸ್ × 4 questions:"
+              "answer": "Step 1: 7 x 11 x 13 + 13 = 13 x (7 x 11 + 1) = 13 x (77 + 1) = 13 x 78.\nStep 2: 78 = 2 x 39 = 2 x 3 x 13.\nSo 7 x 11 x 13 + 13 = 13 x 2 x 3 x 13 = 2 x 3 x 13^2.\nStep 3: It has factors 2, 3, 13 (other than 1 and itself).\nBy the Fundamental Theorem of Arithmetic, it is NOT prime.\nAnswer: 7 x 11 x 13 + 13 is a composite number.\n\n---"
             },
             {
               "q_num": 8,
@@ -569,7 +569,7 @@
               "q_num": 11,
               "marks": 4,
               "question": "Check whether 4^n and 6^n can end with digit 0 for any natural number n.",
-              "answer": "Step 1: For a number to end with digit 0, it must be divisible by 10 = 2 x 5.\nSo its prime factorisation must contain both primes 2 and 5.\nStep 2: For 4^n:\n4^n = (2^2)^n = 2^(2n).\nOnly prime factor is 2. Since 5 is NOT present, by uniqueness of FTA,\n4^n CANNOT end with digit 0 for any natural number n.\nStep 3: For 6^n:\n6^n = (2 x 3)^n = 2^n x 3^n.\nPrime factors are only 2 and 3. Since 5 is NOT present, by uniqueness of FTA,\n6^n CANNOT end with digit 0 for any natural number n.\nStep 4: Conclusion: Neither 4^n nor 6^n ends with digit 0 for any natural number n.\n\n---\n\n5 ಮಾರ್ಕ್ಸ್ × 1 question:"
+              "answer": "Step 1: For a number to end with digit 0, it must be divisible by 10 = 2 x 5.\nSo its prime factorisation must contain both primes 2 and 5.\nStep 2: For 4^n:\n4^n = (2^2)^n = 2^(2n).\nOnly prime factor is 2. Since 5 is NOT present, by uniqueness of FTA,\n4^n CANNOT end with digit 0 for any natural number n.\nStep 3: For 6^n:\n6^n = (2 x 3)^n = 2^n x 3^n.\nPrime factors are only 2 and 3. Since 5 is NOT present, by uniqueness of FTA,\n6^n CANNOT end with digit 0 for any natural number n.\nStep 4: Conclusion: Neither 4^n nor 6^n ends with digit 0 for any natural number n.\n\n---"
             },
             {
               "q_num": 12,
@@ -891,7 +891,7 @@
               "q_num": 4,
               "marks": 2,
               "question": "Show that 3 x sqrt(2) is irrational.",
-              "answer": "Assume 3 x sqrt(2) = a/b (coprime, b not equal to 0).\nThen sqrt(2) = a/(3b). Since a, 3, b are integers and 3b not equal to 0, a/(3b) is\nrational. So sqrt(2) is rational. But sqrt(2) is irrational — contradiction.\nTherefore 3 x sqrt(2) is irrational.\n\n---\n\n3 ಮಾರ್ಕ್ಸ್ × 3 questions:"
+              "answer": "Assume 3 x sqrt(2) = a/b (coprime, b not equal to 0).\nThen sqrt(2) = a/(3b). Since a, 3, b are integers and 3b not equal to 0, a/(3b) is\nrational. So sqrt(2) is rational. But sqrt(2) is irrational — contradiction.\nTherefore 3 x sqrt(2) is irrational.\n\n---"
             },
             {
               "q_num": 5,
@@ -909,7 +909,7 @@
               "q_num": 7,
               "marks": 3,
               "question": "Prove that 1/sqrt(2) is irrational.",
-              "answer": "Step 1: Assume 1/sqrt(2) = a/b (coprime, b not equal to 0, a not equal to 0).\nStep 2: Then sqrt(2) = b/a. Since b and a are integers (a not 0), b/a is rational.\nStep 3: So sqrt(2) is rational. But sqrt(2) is irrational — contradiction.\nTherefore 1/sqrt(2) is irrational.\n\n---\n\n4 ಮಾರ್ಕ್ಸ್ × 4 questions:"
+              "answer": "Step 1: Assume 1/sqrt(2) = a/b (coprime, b not equal to 0, a not equal to 0).\nStep 2: Then sqrt(2) = b/a. Since b and a are integers (a not 0), b/a is rational.\nStep 3: So sqrt(2) is rational. But sqrt(2) is irrational — contradiction.\nTherefore 1/sqrt(2) is irrational.\n\n---"
             },
             {
               "q_num": 8,
@@ -933,7 +933,7 @@
               "q_num": 11,
               "marks": 4,
               "question": "Prove that the following are irrational:",
-              "answer": "Step 1: Prove 7 x sqrt(5) is irrational:\nAssume 7 x sqrt(5) = a/b (coprime, b not equal to 0).\nThen sqrt(5) = a/(7b). Since a, 7, b are integers and 7b not equal to 0,\na/(7b) is rational. So sqrt(5) is rational.\nBut sqrt(5) is irrational — contradiction.\nStep 2: Therefore 7 x sqrt(5) is irrational.\n\nStep 3: Prove 6 + sqrt(2) is irrational:\nAssume 6 + sqrt(2) = a/b (coprime, b not equal to 0).\nThen sqrt(2) = a/b - 6 = (a - 6b)/b.\nSince a and b are integers, (a - 6b)/b is rational. So sqrt(2) is rational.\nBut sqrt(2) is irrational — contradiction.\nStep 4: Therefore 6 + sqrt(2) is irrational.\n\n---\n\n5 ಮಾರ್ಕ್ಸ್ × 1 question:"
+              "answer": "Step 1: Prove 7 x sqrt(5) is irrational:\nAssume 7 x sqrt(5) = a/b (coprime, b not equal to 0).\nThen sqrt(5) = a/(7b). Since a, 7, b are integers and 7b not equal to 0,\na/(7b) is rational. So sqrt(5) is rational.\nBut sqrt(5) is irrational — contradiction.\nStep 2: Therefore 7 x sqrt(5) is irrational.\n\nStep 3: Prove 6 + sqrt(2) is irrational:\nAssume 6 + sqrt(2) = a/b (coprime, b not equal to 0).\nThen sqrt(2) = a/b - 6 = (a - 6b)/b.\nSince a and b are integers, (a - 6b)/b is rational. So sqrt(2) is rational.\nBut sqrt(2) is irrational — contradiction.\nStep 4: Therefore 6 + sqrt(2) is irrational.\n\n---"
             },
             {
               "q_num": 12,
@@ -1207,7 +1207,7 @@
               "q_num": 4,
               "marks": 2,
               "question": "Does the product rule HCF x LCM = product of numbers hold for three",
-              "answer": "No. For two numbers it holds: HCF(a,b) x LCM(a,b) = a x b.\nFor three numbers it does NOT hold.\nExample: HCF(6,72,120) x LCM(6,72,120) = 6 x 360 = 2160.\nBut 6 x 72 x 120 = 51840. 2160 is not equal to 51840.\n\n---\n\n3 ಮಾರ್ಕ್ಸ್ × 3 questions:"
+              "answer": "No. For two numbers it holds: HCF(a,b) x LCM(a,b) = a x b.\nFor three numbers it does NOT hold.\nExample: HCF(6,72,120) x LCM(6,72,120) = 6 x 360 = 2160.\nBut 6 x 72 x 120 = 51840. 2160 is not equal to 51840.\n\n---"
             },
             {
               "q_num": 5,
@@ -1225,7 +1225,7 @@
               "q_num": 7,
               "marks": 3,
               "question": "Compare the product rule for HCF x LCM for two and three numbers with",
-              "answer": "Step 1: For TWO numbers — rule holds:\nHCF(6, 20) x LCM(6, 20) = 2 x 60 = 120 = 6 x 20. (True)\nStep 2: For THREE numbers — rule does NOT hold:\nHCF(6,72,120) x LCM(6,72,120) = 6 x 360 = 2160.\nBut 6 x 72 x 120 = 51840. Not equal.\nStep 3: For three numbers, the correct formula from Note to Reader is:\nLCM(p,q,r) = [p x q x r x HCF(p,q,r)] / [HCF(p,q) x HCF(q,r) x HCF(p,r)]\n\n---\n\n4 ಮಾರ್ಕ್ಸ್ × 4 questions:"
+              "answer": "Step 1: For TWO numbers — rule holds:\nHCF(6, 20) x LCM(6, 20) = 2 x 60 = 120 = 6 x 20. (True)\nStep 2: For THREE numbers — rule does NOT hold:\nHCF(6,72,120) x LCM(6,72,120) = 6 x 360 = 2160.\nBut 6 x 72 x 120 = 51840. Not equal.\nStep 3: For three numbers, the correct formula from Note to Reader is:\nLCM(p,q,r) = [p x q x r x HCF(p,q,r)] / [HCF(p,q) x HCF(q,r) x HCF(p,r)]\n\n---"
             },
             {
               "q_num": 8,
@@ -1249,7 +1249,7 @@
               "q_num": 11,
               "marks": 4,
               "question": "An equivalent version says: \"The prime factorisation of a natural number",
-              "answer": "Step 1: The statement means: no matter how we factorise, we always get the same primes\n(with same powers) — only the order may differ.\nStep 2: Example 1: 60 = 2 x 2 x 3 x 5 = 2 x 3 x 2 x 5 = 3 x 5 x 2 x 2.\nAll orderings give the same prime factorisation: 2^2 x 3 x 5.\nStep 3: Example 2: 32760 = 2^3 x 3^2 x 5 x 7 x 13.\nWhether we start with 32760 = 2 x 16380 or 32760 = 3 x 10920 or any other way,\nthe final factorisation is always 2^3 x 3^2 x 5 x 7 x 13.\nStep 4: The uniqueness is guaranteed by the Fundamental Theorem of Arithmetic, and it\nis the foundation for all prime factorisation-based methods (HCF, LCM, and\nirrationality proofs).\n\n---\n\n5 ಮಾರ್ಕ್ಸ್ × 1 question:"
+              "answer": "Step 1: The statement means: no matter how we factorise, we always get the same primes\n(with same powers) — only the order may differ.\nStep 2: Example 1: 60 = 2 x 2 x 3 x 5 = 2 x 3 x 2 x 5 = 3 x 5 x 2 x 2.\nAll orderings give the same prime factorisation: 2^2 x 3 x 5.\nStep 3: Example 2: 32760 = 2^3 x 3^2 x 5 x 7 x 13.\nWhether we start with 32760 = 2 x 16380 or 32760 = 3 x 10920 or any other way,\nthe final factorisation is always 2^3 x 3^2 x 5 x 7 x 13.\nStep 4: The uniqueness is guaranteed by the Fundamental Theorem of Arithmetic, and it\nis the foundation for all prime factorisation-based methods (HCF, LCM, and\nirrationality proofs).\n\n---"
             },
             {
               "q_num": 12,

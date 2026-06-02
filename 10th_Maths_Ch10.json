@@ -186,7 +186,7 @@
               "q_num": 4,
               "marks": 2,
               "question": "What is the point of contact? Can a line intersect a circle at more than two points?",
-              "answer": "POINT OF CONTACT: The single common point of a tangent and a circle. The tangent is said to touch the circle at this point.\nNo — a line can intersect a circle at most at two points. The only three cases are: zero (non-intersecting), one (tangent), or two (secant) common points.\n\n---\n\n3 ಮಾರ್ಕ್ಸ್ × 3 questions:"
+              "answer": "POINT OF CONTACT: The single common point of a tangent and a circle. The tangent is said to touch the circle at this point.\nNo — a line can intersect a circle at most at two points. The only three cases are: zero (non-intersecting), one (tangent), or two (secant) common points.\n\n---"
             },
             {
               "q_num": 5,
@@ -204,7 +204,7 @@
               "q_num": 7,
               "marks": 3,
               "question": "What does Activity 10.2.2 establish? State two conclusions from it.",
-              "answer": "Activity 10.2.2 draws lines parallel to a secant PQ on both sides of it.\nStep 1: As lines move away from PQ toward the boundary, the chord length cut by each line gradually decreases — the two intersection points come closer.\nStep 2: On one side, chord length reaches zero — the line just touches the circle at one point. This is tangent P'Q', parallel to PQ.\nStep 3: On the other side, another tangent P''Q'' is formed.\nTwo conclusions:\n(i) A tangent is the limiting case of a secant when the chord length becomes zero.\n(ii) There are at most TWO tangents parallel to a given secant.\n\n---\n\n4 ಮಾರ್ಕ್ಸ್ × 4 questions:"
+              "answer": "Activity 10.2.2 draws lines parallel to a secant PQ on both sides of it.\nStep 1: As lines move away from PQ toward the boundary, the chord length cut by each line gradually decreases — the two intersection points come closer.\nStep 2: On one side, chord length reaches zero — the line just touches the circle at one point. This is tangent P'Q', parallel to PQ.\nStep 3: On the other side, another tangent P''Q'' is formed.\nTwo conclusions:\n(i) A tangent is the limiting case of a secant when the chord length becomes zero.\n(ii) There are at most TWO tangents parallel to a given secant.\n\n---"
             },
             {
               "q_num": 8,
@@ -228,7 +228,7 @@
               "q_num": 11,
               "marks": 4,
               "question": "A student says: \"A tangent and a secant have nothing in common.\" Correct this statement and show the connection between them using both Activity 10.2.1 and Activity 10.2.2.",
-              "answer": "The student's statement is INCORRECT. A tangent is actually a special limiting case of a secant.\nStep 1: Connection via Activity 10.2.1 (Rotating wire):\nWire AB rotates about point P on the circle. In most positions it intersects at P and another point — it is a secant. As it rotates, the second intersection point moves closer to P. In one position, both points coincide at P — the wire becomes a TANGENT. Conclusion: tangent = secant when both chord end points coincide.\nStep 2: Connection via Activity 10.2.2 (Parallel lines):\nLines parallel to secant PQ are drawn. As lines shift toward the edge of the circle, the chord length decreases. When chord length = 0, the line touches the circle at one point — it becomes a TANGENT. Conclusion: tangent = secant when chord length → 0.\nStep 3: Formal statement from textbook:\n\"The tangent to a circle is a special case of the secant, when the two end points of its corresponding chord coincide.\"\nStep 4: Also: a circle can have at most TWO tangents parallel to any given secant — one on each side. This further connects the two concepts.\n\n---\n\n5 ಮಾರ್ಕ್ಸ್ × 1 question:"
+              "answer": "The student's statement is INCORRECT. A tangent is actually a special limiting case of a secant.\nStep 1: Connection via Activity 10.2.1 (Rotating wire):\nWire AB rotates about point P on the circle. In most positions it intersects at P and another point — it is a secant. As it rotates, the second intersection point moves closer to P. In one position, both points coincide at P — the wire becomes a TANGENT. Conclusion: tangent = secant when both chord end points coincide.\nStep 2: Connection via Activity 10.2.2 (Parallel lines):\nLines parallel to secant PQ are drawn. As lines shift toward the edge of the circle, the chord length decreases. When chord length = 0, the line touches the circle at one point — it becomes a TANGENT. Conclusion: tangent = secant when chord length → 0.\nStep 3: Formal statement from textbook:\n\"The tangent to a circle is a special case of the secant, when the two end points of its corresponding chord coincide.\"\nStep 4: Also: a circle can have at most TWO tangents parallel to any given secant — one on each side. This further connects the two concepts.\n\n---"
             },
             {
               "q_num": 12,
@@ -559,7 +559,7 @@
               "q_num": 4,
               "marks": 2,
               "question": "Exercise 10.1 Q3: A tangent PQ at P on a circle of radius 5 cm meets the line through O at Q, OQ = 12 cm. Find PQ.",
-              "answer": "By Theorem 10.1: angle OPQ = 90°.\nIn right triangle OPQ:\nPQ² = OQ² − OP² = 12² − 5² = 144 − 25 = 119.\nPQ = √119 cm.\nAnswer: PQ = √119 cm. [Option (D)]\n\n---\n\n3 ಮಾರ್ಕ್ಸ್ × 3 questions:"
+              "answer": "By Theorem 10.1: angle OPQ = 90°.\nIn right triangle OPQ:\nPQ² = OQ² − OP² = 12² − 5² = 144 − 25 = 119.\nPQ = √119 cm.\nAnswer: PQ = √119 cm. [Option (D)]\n\n---"
             },
             {
               "q_num": 5,
@@ -577,7 +577,7 @@
               "q_num": 7,
               "marks": 3,
               "question": "Why must point Q (taken on tangent XY in the proof of Theorem 10.1) lie outside the circle? What follows from this?",
-              "answer": "Step 1: Q is any point on tangent XY other than P.\nIf Q were INSIDE the circle, the line XY would pass through the interior and intersect the circle at two points — making XY a secant, not a tangent. This contradicts the given condition.\nTherefore Q must lie OUTSIDE the circle.\nStep 2: Since Q is outside: OQ > OP (OP is radius; OQ reaches beyond the circle to Q).\nStep 3: This holds for every Q ≠ P on XY.\nTherefore OP is the shortest distance from O to line XY → OP ⊥ XY.\n\n---\n\n4 ಮಾರ್ಕ್ಸ್ × 4 questions:"
+              "answer": "Step 1: Q is any point on tangent XY other than P.\nIf Q were INSIDE the circle, the line XY would pass through the interior and intersect the circle at two points — making XY a secant, not a tangent. This contradicts the given condition.\nTherefore Q must lie OUTSIDE the circle.\nStep 2: Since Q is outside: OQ > OP (OP is radius; OQ reaches beyond the circle to Q).\nStep 3: This holds for every Q ≠ P on XY.\nTherefore OP is the shortest distance from O to line XY → OP ⊥ XY.\n\n---"
             },
             {
               "q_num": 8,
@@ -601,7 +601,7 @@
               "q_num": 11,
               "marks": 4,
               "question": "A tangent PQ is drawn at P on a circle of radius 5 cm, centre O. Q is on the tangent such that OQ = 13 cm. Find PQ. Also find angle POQ and angle OQP.",
-              "answer": "Given: Radius OP = 5 cm, OQ = 13 cm, PQ tangent at P.\nStep 1: By Theorem 10.1: angle OPQ = 90°.\nStep 2: In right triangle OPQ:\nPQ² = OQ² − OP² = 169 − 25 = 144.\nPQ = 12 cm.\nStep 3: Finding angle OQP:\nsin(angle OQP) = OP/OQ = 5/13.\nangle OQP = sin⁻¹(5/13) ≈ 22.62°.\nStep 4: Finding angle POQ:\nangle POQ = 180° − 90° − angle OQP = 90° − 22.62° ≈ 67.38°.\n(Or: sin(angle POQ) = PQ/OQ = 12/13 → angle POQ ≈ 67.38°.)\nAnswer: PQ = 12 cm. angle OQP ≈ 22.62°. angle POQ ≈ 67.38°.\n\n---\n\n5 ಮಾರ್ಕ್ಸ್ × 1 question:"
+              "answer": "Given: Radius OP = 5 cm, OQ = 13 cm, PQ tangent at P.\nStep 1: By Theorem 10.1: angle OPQ = 90°.\nStep 2: In right triangle OPQ:\nPQ² = OQ² − OP² = 169 − 25 = 144.\nPQ = 12 cm.\nStep 3: Finding angle OQP:\nsin(angle OQP) = OP/OQ = 5/13.\nangle OQP = sin⁻¹(5/13) ≈ 22.62°.\nStep 4: Finding angle POQ:\nangle POQ = 180° − 90° − angle OQP = 90° − 22.62° ≈ 67.38°.\n(Or: sin(angle POQ) = PQ/OQ = 12/13 → angle POQ ≈ 67.38°.)\nAnswer: PQ = 12 cm. angle OQP ≈ 22.62°. angle POQ ≈ 67.38°.\n\n---"
             },
             {
               "q_num": 12,
@@ -977,7 +977,7 @@
               "q_num": 4,
               "marks": 2,
               "question": "From a point Q, tangent to a circle = 24 cm, distance from Q to centre = 25 cm. Find the radius.",
-              "answer": "By Theorem 10.1: angle OTQ = 90° (T = point of contact).\nr² = OQ² − TQ² = 25² − 24² = 625 − 576 = 49.\nr = 7 cm.\nAnswer: Radius = 7 cm.\n\n---\n\n3 ಮಾರ್ಕ್ಸ್ × 3 questions:"
+              "answer": "By Theorem 10.1: angle OTQ = 90° (T = point of contact).\nr² = OQ² − TQ² = 25² − 24² = 625 − 576 = 49.\nr = 7 cm.\nAnswer: Radius = 7 cm.\n\n---"
             },
             {
               "q_num": 5,
@@ -995,7 +995,7 @@
               "q_num": 7,
               "marks": 3,
               "question": "A quadrilateral ABCD circumscribes a circle. AB = 6 cm, BC = 7 cm, CD = 4 cm. Find AD. State the theorem used.",
-              "answer": "Theorem used: For a quadrilateral circumscribing a circle: AB + CD = AD + BC.\nStep 1: This follows from Theorem 10.2 — tangents from each vertex are equal.\nFrom each vertex: the two tangent lengths to the circle are equal.\nStep 2: AB + CD = AD + BC.\n6 + 4 = AD + 7.\n10 = AD + 7.\nStep 3: AD = 3 cm.\nAnswer: AD = 3 cm.\n\n---\n\n4 ಮಾರ್ಕ್ಸ್ × 4 questions:"
+              "answer": "Theorem used: For a quadrilateral circumscribing a circle: AB + CD = AD + BC.\nStep 1: This follows from Theorem 10.2 — tangents from each vertex are equal.\nFrom each vertex: the two tangent lengths to the circle are equal.\nStep 2: AB + CD = AD + BC.\n6 + 4 = AD + 7.\n10 = AD + 7.\nStep 3: AD = 3 cm.\nAnswer: AD = 3 cm.\n\n---"
             },
             {
               "q_num": 8,
@@ -1019,7 +1019,7 @@
               "q_num": 11,
               "marks": 4,
               "question": "Prove: If tangents PA and PB are drawn from external point P, then angle AOB + angle APB = 180°. Find angle AOB if angle APB = 60°.",
-              "answer": "Given: Circle with centre O, external point P, tangents PA and PB (A, B = points of contact).\nTo Prove: angle AOB + angle APB = 180°.\nProof:\nStep 1: By Theorem 10.1: angle OAP = 90° and angle OBP = 90°.\nStep 2: In quadrilateral OAPB:\nangle AOB + angle OAP + angle APB + angle OBP = 360°.\nangle AOB + 90° + angle APB + 90° = 360°.\nStep 3: angle AOB + angle APB = 180°. HENCE PROVED.\n\nApplication: If angle APB = 60°:\nangle AOB = 180° − 60° = 120°.\nAnswer: angle AOB = 120°.\n\n---\n\n5 ಮಾರ್ಕ್ಸ್ × 1 question:"
+              "answer": "Given: Circle with centre O, external point P, tangents PA and PB (A, B = points of contact).\nTo Prove: angle AOB + angle APB = 180°.\nProof:\nStep 1: By Theorem 10.1: angle OAP = 90° and angle OBP = 90°.\nStep 2: In quadrilateral OAPB:\nangle AOB + angle OAP + angle APB + angle OBP = 360°.\nangle AOB + 90° + angle APB + 90° = 360°.\nStep 3: angle AOB + angle APB = 180°. HENCE PROVED.\n\nApplication: If angle APB = 60°:\nangle AOB = 180° − 60° = 120°.\nAnswer: angle AOB = 120°.\n\n---"
             },
             {
               "q_num": 12,

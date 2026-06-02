@@ -206,7 +206,7 @@
               "q_num": 4,
               "marks": 2,
               "question": "In the dot-on-paper example, a dot is 5 cm from the left edge and",
-              "answer": "The ordered pair for the dot's position is (5, 9).\n- First number = horizontal distance from left edge = 5 cm (abscissa).\n- Second number = vertical distance from bottom = 9 cm (ordinate).\nThe horizontal distance is always written FIRST by convention.\n\n---\n\n3 ಮಾರ್ಕ್ಸ್ × 2 questions:"
+              "answer": "The ordered pair for the dot's position is (5, 9).\n- First number = horizontal distance from left edge = 5 cm (abscissa).\n- Second number = vertical distance from bottom = 9 cm (ordinate).\nThe horizontal distance is always written FIRST by convention.\n\n---"
             },
             {
               "q_num": 5,
@@ -218,7 +218,7 @@
               "q_num": 6,
               "marks": 3,
               "question": "In Exercise 3.1 Street Plan, with 5 streets in each direction,",
-              "answer": "Step 1 — Total number of cross-streets:\nThere are 5 streets running North-South and 5 streets running East-West.\nEach N-S street crosses EACH E-W street exactly once.\nTotal distinct cross-streets = 5 × 5 = 25.\nEach cross-street has a unique ordered pair label (x, y).\n\nStep 2 — Are (4, 3) and (3, 4) the same?\nCross-street (4, 3) = crossing of 4th N-S street and 3rd E-W street.\nCross-street (3, 4) = crossing of 3rd N-S street and 4th E-W street.\nThese are TWO DIFFERENT locations on the map.\n\nStep 3 — Conclusion:\nThe ORDER of the numbers in a cross-street label MATTERS.\n(4, 3) ≠ (3, 4). There is only ONE cross-street for each label.\n\n---\n\n4 ಮಾರ್ಕ್ಸ್ × 3 questions:"
+              "answer": "Step 1 — Total number of cross-streets:\nThere are 5 streets running North-South and 5 streets running East-West.\nEach N-S street crosses EACH E-W street exactly once.\nTotal distinct cross-streets = 5 × 5 = 25.\nEach cross-street has a unique ordered pair label (x, y).\n\nStep 2 — Are (4, 3) and (3, 4) the same?\nCross-street (4, 3) = crossing of 4th N-S street and 3rd E-W street.\nCross-street (3, 4) = crossing of 3rd N-S street and 4th E-W street.\nThese are TWO DIFFERENT locations on the map.\n\nStep 3 — Conclusion:\nThe ORDER of the numbers in a cross-street label MATTERS.\n(4, 3) ≠ (3, 4). There is only ONE cross-street for each label.\n\n---"
             },
             {
               "q_num": 7,
@@ -236,7 +236,7 @@
               "q_num": 9,
               "marks": 4,
               "question": "Give four different real-life situations where two independent",
-              "answer": "Step 1 — Situation 1: Street Plan (from textbook)\nTwo main roads cross a city centre. Streets run N-S and E-W, 200 m apart.\nSample pair: (3, 2) = 3rd N-S street meets 2nd E-W street.\nOnly ONE unique crossing corresponds to this label.\n\nStep 2 — Situation 2: Seating Plan in Classroom (from textbook)\nDesks are arranged in rows and columns.\nSample pair: (4, 2) = 4th column, 2nd row.\nThis uniquely identifies one desk. (2, 4) is a different desk.\n\nStep 3 — Situation 3: Dot on Paper (from textbook)\nA dot is placed on a sheet of paper.\nSample pair: (5, 9) = 5 cm from left edge, 9 cm from bottom.\nBoth measurements together fix the position exactly.\n\nStep 4 — Situation 4: Latitude and Longitude on a Map\nThis was the original inspiration for the Cartesian system.\nSample pair: (13°N, 77°E) = 13 degrees North latitude, 77 degrees East longitude.\nThis uniquely identifies a location on Earth (approximately Bengaluru city).\nThe latitude and longitude together act as the two coordinates of a point.\n\n---\n\n5 ಮಾರ್ಕ್ಸ್ × 1 question:"
+              "answer": "Step 1 — Situation 1: Street Plan (from textbook)\nTwo main roads cross a city centre. Streets run N-S and E-W, 200 m apart.\nSample pair: (3, 2) = 3rd N-S street meets 2nd E-W street.\nOnly ONE unique crossing corresponds to this label.\n\nStep 2 — Situation 2: Seating Plan in Classroom (from textbook)\nDesks are arranged in rows and columns.\nSample pair: (4, 2) = 4th column, 2nd row.\nThis uniquely identifies one desk. (2, 4) is a different desk.\n\nStep 3 — Situation 3: Dot on Paper (from textbook)\nA dot is placed on a sheet of paper.\nSample pair: (5, 9) = 5 cm from left edge, 9 cm from bottom.\nBoth measurements together fix the position exactly.\n\nStep 4 — Situation 4: Latitude and Longitude on a Map\nThis was the original inspiration for the Cartesian system.\nSample pair: (13°N, 77°E) = 13 degrees North latitude, 77 degrees East longitude.\nThis uniquely identifies a location on Earth (approximately Bengaluru city).\nThe latitude and longitude together act as the two coordinates of a point.\n\n---"
             },
             {
               "q_num": 10,
@@ -524,7 +524,7 @@
               "q_num": 4,
               "marks": 2,
               "question": "How many quadrants are there in the Cartesian plane? In what",
-              "answer": "There are FOUR quadrants in the Cartesian plane.\n- They are numbered I, II, III, IV in ANTICLOCKWISE direction.\n- Starting from OX (the POSITIVE x-axis direction).\n- Quadrant I is between the positive x-axis and positive y-axis.\n- Each successive quadrant is counted anticlockwise from there.\n\n---\n\n3 ಮಾರ್ಕ್ಸ್ × 2 questions:"
+              "answer": "There are FOUR quadrants in the Cartesian plane.\n- They are numbered I, II, III, IV in ANTICLOCKWISE direction.\n- Starting from OX (the POSITIVE x-axis direction).\n- Quadrant I is between the positive x-axis and positive y-axis.\n- Each successive quadrant is counted anticlockwise from there.\n\n---"
             },
             {
               "q_num": 5,
@@ -536,7 +536,7 @@
               "q_num": 6,
               "marks": 3,
               "question": "Verify with full working: Are the points (3, 4) and (4, 3) the",
-              "answer": "Step 1 — Meaning of (3, 4):\nAbscissa = 3 → 3 units to the right of y-axis.\nOrdinate = 4 → 4 units above the x-axis.\nSo (3, 4) is a point in Quadrant I at horizontal distance 3 and vertical distance 4.\n\nStep 2 — Meaning of (4, 3):\nAbscissa = 4 → 4 units to the right of y-axis.\nOrdinate = 3 → 3 units above the x-axis.\nSo (4, 3) is ALSO in Quadrant I but at horizontal distance 4 and vertical distance 3.\n\nStep 3 — Comparison and general rule:\n(3, 4) ≠ (4, 3) because they represent different distances from the axes.\nThe textbook states: If x ≠ y, then (x, y) ≠ (y, x).\nBut if x = y (for example, (2, 2)), then (x, y) = (y, x).\nGENERAL RULE: Coordinates describe a point UNIQUELY. The order of the numbers\n(abscissa first, ordinate second) is a worldwide convention that must be followed.\n\n---\n\n4 ಮಾರ್ಕ್ಸ್ × 3 questions:"
+              "answer": "Step 1 — Meaning of (3, 4):\nAbscissa = 3 → 3 units to the right of y-axis.\nOrdinate = 4 → 4 units above the x-axis.\nSo (3, 4) is a point in Quadrant I at horizontal distance 3 and vertical distance 4.\n\nStep 2 — Meaning of (4, 3):\nAbscissa = 4 → 4 units to the right of y-axis.\nOrdinate = 3 → 3 units above the x-axis.\nSo (4, 3) is ALSO in Quadrant I but at horizontal distance 4 and vertical distance 3.\n\nStep 3 — Comparison and general rule:\n(3, 4) ≠ (4, 3) because they represent different distances from the axes.\nThe textbook states: If x ≠ y, then (x, y) ≠ (y, x).\nBut if x = y (for example, (2, 2)), then (x, y) = (y, x).\nGENERAL RULE: Coordinates describe a point UNIQUELY. The order of the numbers\n(abscissa first, ordinate second) is a worldwide convention that must be followed.\n\n---"
             },
             {
               "q_num": 7,
@@ -554,7 +554,7 @@
               "q_num": 9,
               "marks": 4,
               "question": "Identify the quadrant or axis for each of the following points.",
-              "answer": "Step 1 — Point (−3, 4):\nx = −3 (negative), y = 4 (positive). Signs (−, +) → QUADRANT II.\n\nStep 2 — Point (5, −2):\nx = 5 (positive), y = −2 (negative). Signs (+, −) → QUADRANT IV.\n\nStep 3 — Point (0, −7):\nx = 0 → point lies ON THE Y-AXIS (negative side, 7 units below origin).\nNot in any quadrant.\n\nStep 4 — Point (4, 0):\ny = 0 → point lies ON THE X-AXIS (positive side, 4 units right of origin).\nNot in any quadrant.\n\nStep 5 — Point (−2, −6):\nx = −2 (negative), y = −6 (negative). Signs (−, −) → QUADRANT III.\n\nStep 6 — Point (3, 3):\nx = 3 (positive), y = 3 (positive). Signs (+, +) → QUADRANT I.\nAlso note: since x = y = 3, the point (3, 3) = (3, 3). The ordered pair\nis same even if reversed, which is the special case mentioned in the textbook.\n\n---\n\n5 ಮಾರ್ಕ್ಸ್ × 1 question:"
+              "answer": "Step 1 — Point (−3, 4):\nx = −3 (negative), y = 4 (positive). Signs (−, +) → QUADRANT II.\n\nStep 2 — Point (5, −2):\nx = 5 (positive), y = −2 (negative). Signs (+, −) → QUADRANT IV.\n\nStep 3 — Point (0, −7):\nx = 0 → point lies ON THE Y-AXIS (negative side, 7 units below origin).\nNot in any quadrant.\n\nStep 4 — Point (4, 0):\ny = 0 → point lies ON THE X-AXIS (positive side, 4 units right of origin).\nNot in any quadrant.\n\nStep 5 — Point (−2, −6):\nx = −2 (negative), y = −6 (negative). Signs (−, −) → QUADRANT III.\n\nStep 6 — Point (3, 3):\nx = 3 (positive), y = 3 (positive). Signs (+, +) → QUADRANT I.\nAlso note: since x = y = 3, the point (3, 3) = (3, 3). The ordered pair\nis same even if reversed, which is the special case mentioned in the textbook.\n\n---"
             },
             {
               "q_num": 10,
