@@ -635,15 +635,27 @@ async function showProgress(from, student) {
     }
   }
 
-  // Evaluation stats (₹299)
+  // Evaluation stats (₹299) — attractive section
   const plan = String(student.get('Plan') || '');
   if (plan === '299') {
     const ev = await G.getEvalStats(from);
     if (ev && ev.count > 0) {
-      msg += `\n✏️ *Evaluation:* ${ev.count} done, avg ${ev.avg}%\n`;
+      const evStars = '⭐'.repeat(Math.max(1, Math.round((ev.avg || 0) / 20)));
+      let evRemark;
+      if (ev.avg >= 80) evRemark = 'ಅದ್ಭುತ ಬರವಣಿಗೆ! 🎉';
+      else if (ev.avg >= 60) evRemark = 'ಒಳ್ಳೆಯ ಉತ್ತರ! 👍';
+      else if (ev.avg >= 40) evRemark = 'ಸುಧಾರಿಸ್ತಿದೆ! 💪';
+      else evRemark = 'ಹೆಚ್ಚು ಬರೆದು ಅಭ್ಯಾಸ ಮಾಡಿ! 📝';
+
+      msg += `\n${'━'.repeat(12)}\n`;
+      msg += `✏️ *Writing Practice (Evaluation)*\n`;
+      msg += `${evStars} ${evRemark}\n`;
+      msg += `📝 ${ev.count} answers ಬರೆದಿದ್ದೀರಿ • avg ${ev.avg}%\n`;
       if (ev.recent && ev.recent.length) {
+        msg += `\n*ಇತ್ತೀಚಿನ Answers:*\n`;
         for (const r of ev.recent) {
-          msg += `   • ${r.subject} ${r.topic} — ${r.score}/${r.total}\n`;
+          const icon = (parseInt(r.percent) >= 60) ? '✅' : '📝';
+          msg += `${icon} ${r.subject} ${r.topic} — ${r.score}/${r.total}\n`;
         }
       }
     }
