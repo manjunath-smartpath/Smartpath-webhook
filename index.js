@@ -173,12 +173,24 @@ app.post('/webhook', async (req, res) => {
         }
         await G.incrementEvalCount(student);
         // Parse marks from report and save to EvalScores tab
+        let evalPct = 0;
         try {
           const { score, total } = G.parseEvalMarks(report, st.evalMarks);
+          evalPct = total > 0 ? Math.round((score / total) * 100) : 0;
           await G.saveEvalScore(from, student.get('Name'), cls, st.subject || '',
             st.evalLabel || '', st.evalQ || '', score, total);
         } catch (e) { console.error('eval save skip:', e.message); }
-        await S.sendText(from, report.substring(0, 4000));
+
+        // Attractive header (like quiz) + GPT report
+        const stars = '⭐'.repeat(Math.max(1, Math.round(evalPct / 20)));
+        let remark;
+        if (evalPct >= 80) remark = 'ಅದ್ಭುತ! Excellent! 🎉';
+        else if (evalPct >= 60) remark = 'ಒಳ್ಳೆಯದು! Well done! 👍';
+        else if (evalPct >= 40) remark = 'ಪರವಾಗಿಲ್ಲ! Keep improving! 💪';
+        else remark = 'ಪ್ರಯತ್ನ ಚೆನ್ನಾಗಿದೆ, ಇನ್ನೂ ಅಭ್ಯಾಸ ಮಾಡೋಣ! 📚';
+        const header = `✏️ *EVALUATION RESULT*\n${stars}  (${evalPct}%)\n${remark}\n${'━'.repeat(12)}\n\n`;
+
+        await S.sendText(from, (header + report).substring(0, 4000));
         await S.sendButtons(from, 'ಮುಂದೇನು? / What next?', [
           { id: 'EVAL_NEXT', title: '📝 Next Question' },
           { id: 'NAV_MENU', title: '🏠 Home' }

@@ -30,13 +30,71 @@
       "label": "LIST OF TOPICS IN THIS CHAPTER:",
       "items": [
         "- Topic 6.1: Introduction",
-        "- Topic 6.2: Cubes"
+        "- Topic 6.2: Cubes",
+        "Sub Topic 6.2.1: Some Interesting Patterns",
+        "Sub Topic 6.2.2: Smallest Multiple that is a Perfect Cube",
+        "- Topic 6.3: Cube Roots",
+        "Sub Topic 6.3.1: Cube Root through Prime Factorisation Method"
       ]
     },
     {
       "type": "qa",
       "label": "CHAPTER 6: Q&A:",
       "items": []
+    },
+    {
+      "type": "qa",
+      "label": "Q&A",
+      "items": [
+        {
+          "q_num": 1,
+          "marks": 2,
+          "question": "What is a perfect cube? Give two examples.",
+          "answer": "A PERFECT CUBE is a number obtained when a natural number is multiplied by itself three times.\nn^3 = n x n x n.\nExamples:\n- 8 = 2^3 (2 x 2 x 2). ✔\n- 125 = 5^3 (5 x 5 x 5). ✔"
+        },
+        {
+          "q_num": 2,
+          "marks": 2,
+          "question": "What is the Hardy-Ramanujan Number? Why is it special?",
+          "answer": "1729 is the Hardy-Ramanujan Number.\nIt is the SMALLEST number expressible as the sum of two cubes in TWO different ways:\n- 1729 = 12^3 + 1^3 = 1728 + 1\n- 1729 = 10^3 + 9^3 = 1000 + 729"
+        },
+        {
+          "q_num": 3,
+          "marks": 2,
+          "question": "What is cube_root(512)?",
+          "answer": "8^3 = 512. So cube_root(512) = 8.\nFinding the cube root is the INVERSE of finding the cube.\n\n---"
+        },
+        {
+          "q_num": 4,
+          "marks": 3,
+          "question": "Find cube_root(74088) by prime factorisation.",
+          "answer": "Step 1: 74088 = 2^3 x 3^3 x 7^3.\nStep 2: Group in triplets: (2x2x2), (3x3x3), (7x7x7).\nStep 3: Take one from each: 2, 3, 7.\nAnswer: cube_root(74088) = 2 x 3 x 7 = 42."
+        },
+        {
+          "q_num": 5,
+          "marks": 3,
+          "question": "Is 392 a perfect cube? Find the smallest number to multiply to make it a perfect cube.",
+          "answer": "Step 1: 392 = 2^3 x 7^2. Factor 7 appears only twice — no triplet.\nStep 2: NOT a perfect cube.\nStep 3: Multiply by 7: 392x7 = 2744 = 2^3 x 7^3 = (2x7)^3 = 14^3.\nAnswer: Multiply by 7. 2744 = 14^3.\n\n---"
+        },
+        {
+          "q_num": 6,
+          "marks": 4,
+          "question": "Is 53240 a perfect cube? If not, find the smallest number to divide it by to get a perfect cube.",
+          "answer": "Step 1: 53240 = 2^3 x 5 x 11^3.\nStep 2: Factor 5 appears only once — no triplet. NOT a perfect cube.\nStep 3: Divide by 5: 53240/5 = 10648 = 2^3 x 11^3 = (2x11)^3 = 22^3.\nAnswer: Divide by 5. 10648 = 22^3. cube_root(10648) = 22."
+        },
+        {
+          "q_num": 7,
+          "marks": 4,
+          "question": "Find cube_root(13824) and cube_root(8000) by prime factorisation.",
+          "answer": "cube_root(13824):\n13824 = 2^9 x 3^3. Triplets: (2x2x2)(2x2x2)(2x2x2)(3x3x3). Take one each: 2,2,2,3.\ncube_root(13824) = 2x2x2x3 = 24.\n\ncube_root(8000):\n8000 = 2^6 x 5^3. Triplets: (2x2x2)(2x2x2)(5x5x5). Take one each: 2,2,5.\ncube_root(8000) = 2x2x5 = 20.\n\n---"
+        },
+        {
+          "q_num": 8,
+          "marks": 5,
+          "question": "",
+          "answer": "PART A:\n\n(i) 3375 = 3^3 x 5^3 = (3x5)^3 = 15^3. cube_root(3375) = 15.\n(ii) 27000 = 3^3 x 10^3 = (3x10)^3 = 30^3. cube_root(27000) = 30.\n(iii) 46656 = 2^6 x 3^6 = (2^2 x 3^2)^3 = (4x9)^3 = 36^3. cube_root(46656) = 36.\n\nPART B:\n\nStep 1: Volume = 13824 litres = 13824 x 0.001 m^3 = 13.824 m^3.\nStep 2: Volume of cube = edge^3. Edge = cube_root(13.824).\nStep 3: 13.824 = 13824/1000 = 13824/10^3.\nStep 4: cube_root(13824) = 24 (from Part A sub-topic work).\ncube_root(1000) = 10.\ncube_root(13.824) = 24/10 = 2.4 m.\nAnswer (Part B): Edge of tank = 2.4 m."
+        }
+      ]
     },
     {
       "type": "mcq",

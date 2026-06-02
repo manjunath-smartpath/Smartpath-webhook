@@ -42,9 +42,232 @@
       "items": []
     },
     {
+      "type": "qa",
+      "label": "Q&A",
+      "items": [
+        {
+          "q_num": 1,
+          "marks": 2,
+          "question": "What is a polynomial in one variable? State the condition",
+          "answer": "A polynomial in one variable x is an algebraic expression of the form\np(x) = a_n*x^n + a_(n-1)*x^(n-1) + ... + a_1*x + a_0,\nwhere a_n ≠ 0 and all constants a_0, a_1, ..., a_n are real numbers.\nCondition: All exponents of the variable must be WHOLE NUMBERS\n(0, 1, 2, 3, ...). For example, 2x^2 + 3x - 1 is a polynomial, but\nx + 1/x is not (since 1/x = x^{-1}, exponent -1 is not a whole number)."
+        },
+        {
+          "q_num": 2,
+          "marks": 2,
+          "question": "Define: (i) degree of a polynomial, (ii) zero of a",
+          "answer": "(i) DEGREE: The highest power of the variable in a polynomial is its\ndegree. Example: degree of 3x^7 - 4x^6 + x + 9 is 7.\n(ii) ZERO: A real number 'a' is a zero of polynomial p(x) if p(a) = 0.\nExample: Zero of p(x) = x - 2 is 2, because p(2) = 2 - 2 = 0."
+        },
+        {
+          "q_num": 3,
+          "marks": 2,
+          "question": "State the Factor Theorem. Use it to check whether (x + 2)",
+          "answer": "Factor Theorem: If p(x) is a polynomial of degree n >= 1 and 'a' is\nany real number, then (x - a) is a factor of p(x) if and only if\np(a) = 0.\nCheck: Zero of (x + 2) is -2.\np(-2) = (-2)^3 + 3(-2)^2 + 5(-2) + 6 = -8 + 12 - 10 + 6 = 0.\nSince p(-2) = 0, (x + 2) IS a factor of x^3 + 3x^2 + 5x + 6."
+        },
+        {
+          "q_num": 4,
+          "marks": 2,
+          "question": "State the Remainder Theorem and give one example to",
+          "answer": "Remainder Theorem: If p(x) is any polynomial of degree >= 1 and it is\ndivided by the linear polynomial (x - a), then the remainder is p(a).\nThat is: p(x) = (x - a)*q(x) + p(a).\nExample: When p(x) = x^3 + 3x^2 + 5x + 6 is divided by (x + 2),\nremainder = p(-2) = -8 + 12 - 10 + 6 = 0. Since remainder = 0,\n(x + 2) is also a factor of p(x).\n\n---"
+        },
+        {
+          "q_num": 5,
+          "marks": 3,
+          "question": "Find the zero of each of the following polynomials and",
+          "answer": "Step 1: For a linear polynomial p(x) = ax + b, zero = -b/a.\n(i) p(x) = 2x + 1: Set 2x + 1 = 0 -> x = -1/2.\nVerify: p(-1/2) = 2(-1/2) + 1 = -1 + 1 = 0. ✓  Zero = -1/2.\n\nStep 2: (ii) p(x) = x^2 - 2x = x(x - 2).\nSet x(x - 2) = 0 -> x = 0 or x = 2.\nVerify: p(0) = 0 - 0 = 0 ✓; p(2) = 4 - 4 = 0 ✓.  Zeroes = 0 and 2.\n\nStep 3: (iii) p(x) = 3x - 2: Set 3x - 2 = 0 -> x = 2/3.\nVerify: p(2/3) = 3(2/3) - 2 = 2 - 2 = 0. ✓  Zero = 2/3."
+        },
+        {
+          "q_num": 6,
+          "marks": 3,
+          "question": "Factorise the following using splitting the middle term:",
+          "answer": "Step 1: (i) 12x^2 - 7x + 1: Need p + q = -7, p*q = 12.\nTry: -3 + (-4) = -7 and (-3)(-4) = 12. ✓\n= 12x^2 - 3x - 4x + 1 = 3x(4x-1) - 1(4x-1) = (4x-1)(3x-1)\n\nStep 2: (ii) 2x^2 + 7x + 3: Need p + q = 7, p*q = 6.\nTry: 1 + 6 = 7 and 1*6 = 6. ✓\n= 2x^2 + x + 6x + 3 = x(2x+1) + 3(2x+1) = (2x+1)(x+3)\n\nStep 3: (iii) 3x^2 - x - 4: Need p + q = -1, p*q = -12.\nTry: -4 + 3 = -1 and (-4)(3) = -12. ✓\n= 3x^2 - 4x + 3x - 4 = x(3x-4) + 1(3x-4) = (3x-4)(x+1)\n\n---"
+        },
+        {
+          "q_num": 7,
+          "marks": 4,
+          "question": "Factorise the following cubic polynomials completely using",
+          "answer": "Step 1: (i) Let p(x) = x^3 - 2x^2 - x + 2.\nFactors of 2: +-1, +-2. Try p(1) = 1 - 2 - 1 + 2 = 0.\nSo (x - 1) is a factor.\n\nStep 2: x^3 - 2x^2 - x + 2 = (x-1)(x^2 - x - 2).\nFactorise x^2 - x - 2: need -2 + 1 = -1, (-2)(1) = -2. ✓\nx^2 - x - 2 = (x-2)(x+1).\nANSWER (i): (x-1)(x-2)(x+1)\n\nStep 3: (ii) Let p(x) = x^3 + 13x^2 + 32x + 20.\nTry p(-1) = -1 + 13 - 32 + 20 = 0. So (x+1) is a factor.\n\nStep 4: x^3 + 13x^2 + 32x + 20 = (x+1)(x^2 + 12x + 20).\nFactorise x^2 + 12x + 20: 2 + 10 = 12, 2*10 = 20. ✓\n= (x+2)(x+10).\nANSWER (ii): (x+1)(x+2)(x+10)"
+        },
+        {
+          "q_num": 8,
+          "marks": 4,
+          "question": "Using suitable algebraic identities, expand and evaluate:",
+          "answer": "Step 1: (i) Expand (3a + 4b + 5c)^2.\nUsing Identity V: (x+y+z)^2 = x^2+y^2+z^2+2xy+2yz+2zx,\nx=3a, y=4b, z=5c:\n= 9a^2 + 16b^2 + 25c^2 + 24ab + 40bc + 30ca\n\nStep 2: (ii) Expand (2x - 3y)^3.\nUsing Identity VII: (x-y)^3 = x^3-y^3-3xy(x-y), x=2x, y=3y:\n= 8x^3 - 27y^3 - 18xy(2x-3y)\n= 8x^3 - 27y^3 - 36x^2y + 54xy^2\n\nStep 3: (iii) (99)^3 = (100-1)^3.\nUsing Identity VII: = 100^3 - 1 - 3(100)(1)(99)\n= 1000000 - 1 - 29700 = 970299.\n\nStep 4: (iv) 105 x 106 = (100+5)(100+6).\nUsing Identity IV: = 100^2 + (5+6)(100) + (5*6)\n= 10000 + 1100 + 30 = 11130."
+        },
+        {
+          "q_num": 9,
+          "marks": 4,
+          "question": "Factorise using appropriate identities:",
+          "answer": "Step 1: (i) 8a^3+b^3+12a^2b+6ab^2\n= (2a)^3 + b^3 + 3(2a)^2(b) + 3(2a)(b)^2\nMatches Identity VI: (x+y)^3, x=2a, y=b.\n= (2a+b)^3\n\nStep 2: (ii) 27y^3+125z^3 = (3y)^3+(5z)^3.\nUsing x^3+y^3 = (x+y)(x^2-xy+y^2):\n= (3y+5z)(9y^2 - 15yz + 25z^2)\n\nStep 3: (iii) 8x^3+y^3+27z^3-18xyz = (2x)^3+y^3+(3z)^3 - 3(2x)(y)(3z).\nUsing Identity VIII: x^3+y^3+z^3-3xyz = (x+y+z)(x^2+y^2+z^2-xy-yz-zx):\n= (2x+y+3z)(4x^2+y^2+9z^2 - 2xy - 3yz - 6xz)\n\nStep 4: (iv) x=-12, y=7, z=5. Check: -12+7+5 = 0.\nSince x+y+z = 0: x^3+y^3+z^3 = 3xyz = 3(-12)(7)(5) = -1260.\n\n---"
+        },
+        {
+          "q_num": 10,
+          "marks": 5,
+          "question": "Chapter 2 brings together polynomial theory and algebraic",
+          "answer": "PART A — Factorise x^3 - 23x^2 + 142x - 120:\nStep 1: Let p(x) = x^3 - 23x^2 + 142x - 120.\nFactors of constant term -120: +-1, +-2, +-3, +-4, +-5, +-6, +-8,\n+-10, +-12, +-15, +-20, +-24, +-30, +-60, +-120.\nApply trial: p(1) = 1 - 23 + 142 - 120 = 0. ✓\nSo (x - 1) is a factor.\n\nStep 2: Divide p(x) by (x - 1) using grouping:\nx^3 - 23x^2 + 142x - 120\n= x^3 - x^2 - 22x^2 + 22x + 120x - 120\n= x^2(x-1) - 22x(x-1) + 120(x-1)\n= (x-1)(x^2 - 22x + 120)\n\nStep 3: Factorise x^2 - 22x + 120 by splitting the middle term.\nNeed p + q = -22, p*q = 120.\nTry: -12 + (-10) = -22 and (-12)(-10) = 120. ✓\nx^2 - 22x + 120 = x^2 - 12x - 10x + 120\n= x(x-12) - 10(x-12) = (x-12)(x-10)\n\nANSWER: x^3 - 23x^2 + 142x - 120 = (x-1)(x-10)(x-12)\nVerification: p(1)=0 ✓, p(10)=1000-2300+1420-120=0 ✓, p(12)=1728-3312+1704-120=0 ✓\n\nPART B — Identity VIII application:\nStep 4: (i) Factorise 27x^3 + y^3 + z^3 - 9xyz.\nRewrite: (3x)^3 + y^3 + z^3 - 3(3x)(y)(z).\nUsing Identity VIII: x^3+y^3+z^3-3xyz = (x+y+z)(x^2+y^2+z^2-xy-yz-zx)\nwith a=3x, b=y, c=z:\n= (3x+y+z)[(3x)^2 + y^2 + z^2 - (3x)(y) - (y)(z) - (3x)(z)]\n= (3x+y+z)(9x^2 + y^2 + z^2 - 3xy - yz - 3xz)\n\nStep 5: (ii) Find (28)^3 + (-15)^3 + (-13)^3 without calculating.\nLet x=28, y=-15, z=-13.\nCheck sum: 28 + (-15) + (-13) = 28 - 28 = 0.\nSince x + y + z = 0, by special case of Identity VIII:\nx^3 + y^3 + z^3 = 3xyz = 3 x (28) x (-15) x (-13)\n= 3 x 28 x 195\n= 3 x 5460 = 16380.\nANSWER: (28)^3 + (-15)^3 + (-13)^3 = 16380."
+        }
+      ]
+    },
+    {
       "type": "mcq",
       "label": "CHAPTER 2: MCQs:",
-      "items": []
+      "items": [
+        {
+          "mcq_num": 1,
+          "difficulty": "Easy",
+          "question": "Which of the following is a polynomial in one variable?",
+          "options": {
+            "A": "y + 1/y",
+            "B": "sqrt(x) + 2",
+            "C": "x^2 + 2x + 1",
+            "D": "t^(1/3) + 5"
+          },
+          "answer": "C",
+          "explanation": "In x^2+2x+1, all exponents (2,1,0) are whole numbers."
+        },
+        {
+          "mcq_num": 2,
+          "difficulty": "Medium",
+          "question": "The expression 3*sqrt(t) + t*sqrt(2) is:",
+          "options": {
+            "A": "A polynomial in t",
+            "B": "Not a polynomial because sqrt(2) is irrational",
+            "C": "Not a polynomial because 3*sqrt(t) = 3t^(1/2) has fractional exponent",
+            "D": "A monomial"
+          },
+          "answer": "C",
+          "explanation": "3*sqrt(t) = 3t^(1/2); exponent 1/2 is not a whole number."
+        },
+        {
+          "mcq_num": 3,
+          "difficulty": "Hard",
+          "question": "Which of the following is a polynomial?",
+          "options": {
+            "A": "x^2+x^(-1)+1",
+            "B": "x^(3/2)+2x",
+            "C": "2x^3-5x+7",
+            "D": "sqrt(x)+x"
+          },
+          "answer": "C",
+          "explanation": "2x^3-5x+7 has only whole number exponents (3,1,0)."
+        },
+        {
+          "mcq_num": 4,
+          "difficulty": "Medium",
+          "question": "The zero of the polynomial p(x) = 3x - 2 is:",
+          "options": {
+            "A": "3/2",
+            "B": "-2/3",
+            "C": "2/3",
+            "D": "-3/2"
+          },
+          "answer": "C",
+          "explanation": "3x-2=0 -> x=2/3."
+        },
+        {
+          "mcq_num": 5,
+          "difficulty": "Medium",
+          "question": "The factorised form of x^3-23x^2+142x-120 is:",
+          "options": {
+            "A": "(x-1)(x-10)(x-12)",
+            "B": "(x+1)(x-10)(x-12)",
+            "C": "(x-1)(x+10)(x+12)",
+            "D": "(x-2)(x-10)(x-12)"
+          },
+          "answer": "A",
+          "explanation": "p(1)=p(10)=p(12)=0."
+        },
+        {
+          "mcq_num": 6,
+          "difficulty": "Hard",
+          "question": "If x+y+z=0, then x^3+y^3+z^3 = ?",
+          "options": {
+            "A": "0",
+            "B": "3xyz",
+            "C": "x^2y+y^2z",
+            "D": "(x+y+z)^3"
+          },
+          "answer": "B",
+          "explanation": "Identity VIII with x+y+z=0 gives x^3+y^3+z^3=3xyz."
+        },
+        {
+          "mcq_num": 7,
+          "difficulty": "Easy",
+          "question": "The degree of the zero polynomial is:",
+          "options": {
+            "A": "0",
+            "B": "1",
+            "C": "-1",
+            "D": "Not defined"
+          },
+          "answer": "D",
+          "explanation": "The degree of the zero polynomial is not defined."
+        },
+        {
+          "mcq_num": 8,
+          "difficulty": "Medium",
+          "question": "(x-a) is a factor of p(x) by Factor Theorem if:",
+          "options": {
+            "A": "p(a)=1",
+            "B": "p(a)=a",
+            "C": "p(a)=0",
+            "D": "p(0)=a"
+          },
+          "answer": "C",
+          "explanation": "Factor Theorem: (x-a) is a factor iff p(a)=0."
+        },
+        {
+          "mcq_num": 9,
+          "difficulty": "Medium",
+          "question": "Identity used to evaluate 103 x 107 is:",
+          "options": {
+            "A": "Identity I",
+            "B": "Identity II",
+            "C": "Identity III",
+            "D": "Identity IV"
+          },
+          "answer": "D",
+          "explanation": "103x107=(100+3)(100+7). Identity IV: (x+a)(x+b)=x^2+(a+b)x+ab."
+        },
+        {
+          "mcq_num": 10,
+          "difficulty": "Medium",
+          "question": "The value of (99)^3 is:",
+          "options": {
+            "A": "970200",
+            "B": "970299",
+            "C": "970301",
+            "D": "971000"
+          },
+          "answer": "B",
+          "explanation": "(100-1)^3=1000000-1-3x100x1x99=970299."
+        },
+        {
+          "mcq_num": 11,
+          "difficulty": "Hard",
+          "question": "Factorised form of x^3-3x^2-9x-5 is:",
+          "options": {
+            "A": "(x+1)^2(x-5)",
+            "B": "(x-1)^2(x+5)",
+            "C": "(x-5)(x+1)^2",
+            "D": "(x+5)(x-1)^2"
+          },
+          "answer": "C",
+          "explanation": "p(5)=0->(x-5); p(-1)=0->(x+1)^2."
+        },
+        {
+          "mcq_num": 12,
+          "difficulty": "Hard",
+          "question": "The value of (-12)^3+(7)^3+(5)^3 is:",
+          "options": {
+            "A": "1260",
+            "B": "-1260",
+            "C": "420",
+            "D": "-420"
+          },
+          "answer": "B",
+          "explanation": "-12+7+5=0, so result=3x(-12)x7x5=-1260."
+        }
+      ]
     }
   ],
   "topics": [
@@ -152,11 +375,6 @@
         {
           "type": "mcq",
           "label": "TOPIC 2.1: MCQs:",
-          "items": []
-        },
-        {
-          "type": "mcq",
-          "label": "MCQ",
           "items": [
             {
               "mcq_num": 1,
@@ -493,11 +711,6 @@
         {
           "type": "mcq",
           "label": "TOPIC 2.2: MCQs:",
-          "items": []
-        },
-        {
-          "type": "mcq",
-          "label": "MCQ",
           "items": [
             {
               "mcq_num": 1,
@@ -847,11 +1060,6 @@
         {
           "type": "mcq",
           "label": "TOPIC 2.3: MCQs:",
-          "items": []
-        },
-        {
-          "type": "mcq",
-          "label": "MCQ",
           "items": [
             {
               "mcq_num": 1,
@@ -1241,11 +1449,6 @@
         {
           "type": "mcq",
           "label": "TOPIC 2.4: MCQs:",
-          "items": []
-        },
-        {
-          "type": "mcq",
-          "label": "MCQ",
           "items": [
             {
               "mcq_num": 1,
@@ -1738,11 +1941,6 @@
         {
           "type": "mcq",
           "label": "TOPIC 2.5: MCQs:",
-          "items": []
-        },
-        {
-          "type": "mcq",
-          "label": "MCQ",
           "items": [
             {
               "mcq_num": 1,

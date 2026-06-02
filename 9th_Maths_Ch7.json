@@ -47,6 +47,72 @@
       "items": []
     },
     {
+      "type": "qa",
+      "label": "Q&A",
+      "items": [
+        {
+          "q_num": 1,
+          "marks": 2,
+          "question": "What is a triangle? Name its parts in delta ABC.",
+          "answer": "A closed figure formed by three intersecting lines is called a triangle ('Tri' = three).\nIn delta ABC:\n- Three sides: AB, BC, CA\n- Three angles: angle A, angle B, angle C\n- Three vertices: A, B, C"
+        },
+        {
+          "q_num": 2,
+          "marks": 2,
+          "question": "What are congruent figures? Give two examples.",
+          "answer": "Two figures are called congruent if they are of the same shape and the same size (equal in all respects).\nExamples:\n1. Two bangles of the same size are congruent.\n2. Two ATM cards issued by the same bank are congruent."
+        },
+        {
+          "q_num": 3,
+          "marks": 2,
+          "question": "What does CPCT stand for? When is it used?",
+          "answer": "CPCT = Corresponding Parts of Congruent Triangles.\nIt is used AFTER two triangles are proved congruent.\nOnce delta ABC = delta DEF is established, any corresponding part (side or angle) can be stated as equal using CPCT."
+        },
+        {
+          "q_num": 4,
+          "marks": 2,
+          "question": "State Theorem 7.2 and Theorem 7.3.",
+          "answer": "Theorem 7.2: Angles opposite to equal sides of an isosceles triangle are equal.\n(If AB = AC in delta ABC, then angle B = angle C.)\n\nTheorem 7.3: The sides opposite to equal angles of a triangle are equal.\n(Converse of Theorem 7.2: If angle B = angle C in delta ABC, then AB = AC.)\n\n---"
+        },
+        {
+          "q_num": 5,
+          "marks": 3,
+          "question": "In delta ABC, the bisector AD of angle A is perpendicular to side BC. Show that AB = AC and delta ABC is isosceles.",
+          "answer": "Given: In delta ABC, AD bisects angle A, AD perpendicular BC.\nTo Prove: AB = AC (delta ABC is isosceles).\n\nStep 1: In delta ABD and delta ACD:\nangle BAD = angle CAD   (AD bisects angle A — Given)\nAD = AD                 (Common)\nangle ADB = angle ADC = 90 degrees   (AD perpendicular BC — Given)\n\nStep 2: Therefore delta ABD = delta ACD   (ASA rule)\n\nStep 3: Therefore AB = AC   (CPCT)\n\nHence, delta ABC is an isosceles triangle."
+        },
+        {
+          "q_num": 6,
+          "marks": 3,
+          "question": "E and F are respectively the mid-points of equal sides AB and AC of delta ABC. Show that BF = CE.",
+          "answer": "Given: AB = AC; E is mid-point of AB, F is mid-point of AC.\nTo Prove: BF = CE.\n\nStep 1: In delta ABF and delta ACE:\nAB = AC              (Given)\nangle A = angle A    (Common angle)\nAF = AE              (Halves of equal sides: AE = AB/2 = AC/2 = AF)\n\nStep 2: Therefore delta ABF = delta ACE   (SAS rule)\n\nStep 3: Therefore BF = CE   (CPCT)\n\nHence proved.\n\n---"
+        },
+        {
+          "q_num": 7,
+          "marks": 4,
+          "question": "Prove Theorem 7.2: Angles opposite to equal sides of an isosceles triangle are equal.",
+          "answer": "Given: Isosceles triangle ABC with AB = AC.\nTo Prove: angle B = angle C.\nConstruction: Draw the bisector of angle A. Let D be the point where this bisector meets BC.\nProof:\n\nStep 1: In delta BAD and delta CAD:\nAB = AC                       (Given)\nangle BAD = angle CAD         (AD is bisector of angle A — construction)\nAD = AD                       (Common)\n\nStep 2: Therefore delta BAD = delta CAD   (By SAS rule)\n\nStep 3: angle ABD = angle ACD   (CPCT — corresponding angles of congruent triangles)\n\nStep 4: Therefore angle B = angle C.\n\nHence Proved. ✓"
+        },
+        {
+          "q_num": 8,
+          "marks": 4,
+          "question": "In an isosceles triangle ABC with AB = AC, D and E are points on BC such that BE = CD. Show that AD = AE.",
+          "answer": "Given: delta ABC with AB = AC; D and E are points on BC with BE = CD.\nTo Prove: AD = AE.\n\nStep 1: Since AB = AC (given), by Theorem 7.2:\nangle B = angle C   ...(1)   (Angles opposite equal sides)\n\nStep 2: BE = CD (Given)\nSubtract DE from both sides:\nBE - DE = CD - DE\nTherefore BD = CE   ...(2)\n\nStep 3: In delta ABD and delta ACE:\nAB = AC   (Given) ...(from above)\nangle B = angle C   ...(1)\nBD = CE   ...(2)\n\nStep 4: Therefore delta ABD = delta ACE   (SAS rule)\nTherefore AD = AE   (CPCT)\n\nHence Proved. ✓"
+        },
+        {
+          "q_num": 9,
+          "marks": 4,
+          "question": "AB is a line-segment. P and Q are points on opposite sides of AB, each equidistant from A and B (PA = PB and QA = QB). Show that PQ is the perpendicular bisector of AB.",
+          "answer": "Given: PA = PB and QA = QB. Let PQ intersect AB at C.\nTo Prove: PQ perpendicular AB and PQ bisects AB.\n\nStep 1: In delta PAQ and delta PBQ:\nAP = BP   (Given)\nAQ = BQ   (Given)\nPQ = PQ   (Common)\nTherefore delta PAQ = delta PBQ   (SSS rule)\nTherefore angle APQ = angle BPQ   (CPCT) ...(i)\n\nStep 2: In delta PAC and delta PBC:\nAP = BP   (Given)\nangle APC = angle BPC   (From (i))\nPC = PC   (Common)\nTherefore delta PAC = delta PBC   (SAS rule)\nTherefore AC = BC   (CPCT) ...(1)\nand angle ACP = angle BCP   (CPCT)\n\nStep 3: angle ACP + angle BCP = 180 degrees   (Linear pair)\n2 × angle ACP = 180 degrees\nTherefore angle ACP = 90 degrees   ...(2)\n\nStep 4: From (1) and (2): PQ bisects AB at right angles.\nTherefore PQ is the perpendicular bisector of AB.\n\nHence Proved. ✓\n\n---"
+        },
+        {
+          "q_num": 10,
+          "marks": 5,
+          "question": "",
+          "answer": "PART A — Proof of ASA Congruence Rule:\nGiven: In triangles ABC and DEF:\nangle B = angle E, angle C = angle F, BC = EF\nTo Prove: delta ABC = delta DEF\n\nCase (i): Let AB = DE\nStep 1: AB = DE (assumed), angle B = angle E (given), BC = EF (given)\nStep 2: Therefore delta ABC = delta DEF   (By SAS rule) ✓\n\nCase (ii): Let AB > DE\nStep 1: Take point P on AB such that PB = DE.\nIn delta PBC and delta DEF:\nPB = DE (construction), angle B = angle E (given), BC = EF (given)\nStep 2: Therefore delta PBC = delta DEF   (SAS rule)\nTherefore angle PCB = angle DFE   (CPCT)\nStep 3: But angle ACB = angle DFE   (given)\nTherefore angle ACB = angle PCB\nThis is possible only if P coincides with A.\nTherefore AB = DE.\nStep 4: Therefore delta ABC = delta DEF   (by SAS) ✓\n\nCase (iii): If AB < DE — similar argument gives AB = DE => delta ABC = delta DEF ✓\n\nHENCE PROVED. (ASA Congruence Rule is established.)\n\nPART B — Application:\nGiven: AB || CD, O is mid-point of AD.\nTo Prove: (i) delta AOB = delta DOC   (ii) O is mid-point of BC.\n\nStep 1: In delta AOB and delta DOC:\nangle ABO = angle DCO   (Alternate angles, AB || CD, BC is transversal)\nangle AOB = angle DOC   (Vertically opposite angles)\nOA = OD                 (O is mid-point of AD — Given)\n\nStep 2: Therefore delta AOB = delta DOC   (AAS rule)\n\nStep 3: Therefore OB = OC   (CPCT)\nTherefore O is also the mid-point of BC. ✓"
+        }
+      ]
+    },
+    {
       "type": "mcq",
       "label": "CHAPTER 7: MCQs:",
       "items": [

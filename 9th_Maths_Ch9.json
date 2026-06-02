@@ -42,13 +42,95 @@
         "- Topic 9.4: Angle Subtended by an Arc of a Circle",
         "- Topic 9.5: Cyclic Quadrilaterals",
         "(NOTE: This chapter has no sub-topics in the textbook. Mode B applies —",
-        "no sub-topics invented. All content is at Topic level only.)"
+        "no sub-topics invented. All content is at Topic level only.)",
+        "CHAPTER 9: SUMMARY OF KEY RESULTS:",
+        "1. A circle is the collection of all points equidistant from a fixed centre.",
+        "2. Equal chords subtend equal angles at the centre (Theorem 9.1).",
+        "3. If central angles are equal, chords are equal (Theorem 9.2 — converse of 9.1).",
+        "4. Perpendicular from centre to chord bisects the chord (Theorem 9.3).",
+        "5. Line through centre bisecting a chord is perpendicular to it (Theorem 9.4 — converse of 9.3).",
+        "6. Equal chords are equidistant from the centre (Theorem 9.5).",
+        "7. Chords equidistant from centre are equal (Theorem 9.6 — converse of 9.5).",
+        "8. Congruent arcs have equal chords and vice versa.",
+        "9. Congruent arcs subtend equal angles at the centre.",
+        "10. Central angle = 2 x inscribed angle on remaining arc (Theorem 9.7).",
+        "11. Angles in the same segment are equal (Theorem 9.8).",
+        "12. Angle in a semicircle = 90 degrees.",
+        "13. Four concyclic points: equal angles on same side (Theorem 9.9).",
+        "14. Opposite angles of cyclic quadrilateral sum to 180 degrees (Theorem 9.10).",
+        "15. If opposite angles sum to 180 degrees, quadrilateral is cyclic (Theorem 9.11)."
       ]
     },
     {
       "type": "qa",
       "label": "CHAPTER 9: Q&A:",
       "items": []
+    },
+    {
+      "type": "qa",
+      "label": "Q&A",
+      "items": [
+        {
+          "q_num": 1,
+          "marks": 2,
+          "question": "Define a circle. Name its centre and state one key property.",
+          "answer": "A circle is the collection of all points in a plane which are equidistant\nfrom a fixed point called the CENTRE. The fixed distance from the centre to\nany point on the circle is the RADIUS.\nKey property: The longest chord of a circle is the DIAMETER = 2 x Radius."
+        },
+        {
+          "q_num": 2,
+          "marks": 2,
+          "question": "What is the difference between a chord and a diameter?",
+          "answer": "A CHORD is any line segment joining two points on a circle.\nA DIAMETER is the longest chord that passes through the centre.\n- All diameters are chords, but not all chords are diameters.\n- Diameter = 2 x Radius."
+        },
+        {
+          "q_num": 3,
+          "marks": 2,
+          "question": "What is a cyclic quadrilateral? State its main angle property.",
+          "answer": "A quadrilateral whose all four vertices lie on a circle is called a CYCLIC\nQUADRILATERAL.\nMain property (Theorem 9.10): The sum of either pair of opposite angles of\na cyclic quadrilateral is 180 degrees.\ni.e., angle A + angle C = 180 degrees and angle B + angle D = 180 degrees."
+        },
+        {
+          "q_num": 4,
+          "marks": 2,
+          "question": "What is the angle subtended by a diameter at any point on the",
+          "answer": "The angle subtended by a diameter at any point on the circle is always\n90 degrees (a right angle). This is called the angle in a semicircle.\nReason: The diameter subtends a central angle of 180 degrees. By Theorem 9.7,\ninscribed angle = (1/2) x 180 degrees = 90 degrees.\n\n---"
+        },
+        {
+          "q_num": 5,
+          "marks": 3,
+          "question": "In a circle with centre O, two equal chords AB and CD are drawn.",
+          "answer": "GIVEN: Circle with centre O. Chords AB and CD such that AB = CD.\nTO PROVE: angle AOB = angle COD.\nPROOF:\nStep 1: In triangles AOB and COD:\nOA = OC  (Radii of the same circle)\nOB = OD  (Radii of the same circle)\nAB = CD  (Given)\nStep 2: By SSS congruence rule, triangle AOB is congruent to triangle COD.\nStep 3: Therefore, angle AOB = angle COD  (CPCT)\nHENCE PROVED. [Theorem 9.1]"
+        },
+        {
+          "q_num": 6,
+          "marks": 3,
+          "question": "What are congruent arcs? Prove that congruent arcs of a circle",
+          "answer": "Definition: Two arcs are CONGRUENT if they have the same length, i.e., they\nsubtend equal angles at the centre. Equivalently, their corresponding chords\nare equal.\nPROOF:\nStep 1: Let arc PQ and arc RS be congruent arcs. Then chord PQ = chord RS\n(congruent arcs have equal chords).\nStep 2: Since PQ = RS (equal chords), by Theorem 9.1:\nangle POQ = angle ROS  (equal chords subtend equal angles at centre).\nStep 3: Therefore congruent arcs subtend equal angles at the centre.\nHENCE PROVED.\n\n---"
+        },
+        {
+          "q_num": 7,
+          "marks": 4,
+          "question": "Prove Theorem 9.10: The sum of either pair of opposite angles of",
+          "answer": "GIVEN: Cyclic quadrilateral ABCD inscribed in a circle with centre O.\nTO PROVE: angle A + angle C = 180 degrees.\nPROOF:\nStep 1: Arc BCD subtends angle BOD at centre O, and angle BAD at point A on\nthe remaining arc.\nBy Theorem 9.7: angle BOD = 2 x angle BAD  ...(1)\nStep 2: Arc BAD subtends reflex angle BOD at centre O, and angle BCD at point C\non the remaining arc.\nBy Theorem 9.7: Reflex angle BOD = 2 x angle BCD  ...(2)\nStep 3: Adding (1) and (2):\nangle BOD + Reflex angle BOD = 2(angle BAD + angle BCD)\n360 degrees = 2(angle A + angle C)\nangle A + angle C = 180 degrees.\nStep 4: Since sum of all angles of ABCD = 360 degrees:\n(angle A + angle C) + (angle B + angle D) = 360 degrees\nTherefore angle B + angle D = 180 degrees.\nHENCE PROVED."
+        },
+        {
+          "q_num": 8,
+          "marks": 4,
+          "question": "How many circles can pass through three non-collinear points?",
+          "answer": "PART 1 — Circles through three non-collinear points:\nStep 1: Given three non-collinear points A, B, C, draw perpendicular bisectors\nof AB and BC.\nStep 2: These perpendicular bisectors meet at a unique point O (they cannot be\nparallel since A, B, C are non-collinear).\nStep 3: O is equidistant from A, B and C. So exactly one circle with centre O\nand radius OA = OB = OC passes through all three points.\nAnswer: Exactly ONE circle can pass through three non-collinear points.\n\nPART 2 — Congruent arcs and their chords:\nStep 1: If two arcs of a circle are congruent, they subtend equal angles at the\ncentre (by definition of congruent arcs).\nStep 2: Equal central angles imply equal chords (Theorem 9.2).\nAnswer: If two arcs of a circle are congruent, their corresponding chords are\nequal. Conversely, if two chords are equal, their corresponding arcs (minor\nand major both) are congruent."
+        },
+        {
+          "q_num": 9,
+          "marks": 4,
+          "question": "Prove that a cyclic parallelogram is always a rectangle.",
+          "answer": "GIVEN: ABCD is a parallelogram inscribed in a circle (cyclic parallelogram).\nTO PROVE: ABCD is a rectangle (all angles = 90 degrees).\nPROOF:\nStep 1: Since ABCD is a cyclic quadrilateral, by Theorem 9.10:\nangle A + angle C = 180 degrees  ...(i)\nStep 2: Since ABCD is a parallelogram:\nangle A = angle C  (Opposite angles of parallelogram are equal)  ...(ii)\nStep 3: From (i) and (ii):\nangle A + angle A = 180 degrees\n2 x angle A = 180 degrees → angle A = 90 degrees.\nStep 4: Similarly angle B = angle D = 90 degrees.\n(Using angle B + angle D = 180 and angle B = angle D from parallelogram)\nStep 5: All four angles = 90 degrees, so ABCD is a rectangle.\nHENCE PROVED.\n\n---"
+        },
+        {
+          "q_num": 10,
+          "marks": 5,
+          "question": "",
+          "answer": "PART A — Theorem 9.7 (Proof):\nGIVEN: Arc PQ. Centre O. Point A on remaining part. angle POQ = central angle.\nangle PAQ = inscribed angle.\nTO PROVE: angle POQ = 2 x angle PAQ.\nCONSTRUCTION: Join AO, extend to point B.\nPROOF:\nStep 1: In triangle OAQ: OA = OQ (radii).\nangle OAQ = angle OQA  (base angles of isosceles triangle).\nExterior angle BOQ = angle OAQ + angle OQA = 2 x angle OAQ  ...(1)\nStep 2: In triangle OAP: OA = OP (radii).\nExterior angle BOP = 2 x angle OAP  ...(2)\nStep 3: Adding (1) and (2):\nangle BOP + angle BOQ = 2(angle OAP + angle OAQ)\nangle POQ = 2 x angle PAQ.\nHENCE PROVED.\nSpecial case: When PQ is diameter, angle PAQ = (1/2) x 180 = 90 degrees.\n\nPART B — Finding angles:\nStep 1: By Theorem 9.10: angle A + angle C = 180 degrees.\n5x + (3x - 20) = 180 → 8x = 200 → x = 25.\nStep 2: angle A = 5 x 25 = 125 degrees. angle C = 3(25) - 20 = 55 degrees.\nVerification: 125 + 55 = 180 degrees. ✓\nStep 3: Since angle B = angle D and angle B + angle D = 180 degrees:\n2 x angle B = 180 → angle B = angle D = 90 degrees.\nANSWER: x = 25. angle A = 125°, angle B = 90°, angle C = 55°, angle D = 90°."
+        }
+      ]
     },
     {
       "type": "mcq",

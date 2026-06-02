@@ -173,6 +173,72 @@
       "items": []
     },
     {
+      "type": "qa",
+      "label": "Q&A",
+      "items": [
+        {
+          "q_num": 1,
+          "marks": 2,
+          "question": "Define a Linear Pair of angles. State Axiom 6.1.",
+          "answer": "LINEAR PAIR OF ANGLES: Two adjacent angles whose non-common arms form a straight line\nare called a linear pair of angles.\nAXIOM 6.1 (Linear Pair Axiom): If a ray stands on a line, then the sum of the two\nadjacent angles so formed is 180 degrees."
+        },
+        {
+          "q_num": 2,
+          "marks": 2,
+          "question": "Define vertically opposite angles. How many pairs are formed when two lines intersect?",
+          "answer": "VERTICALLY OPPOSITE ANGLES: When two lines intersect at a point, the angles formed\nopposite to each other (across the point of intersection) are called vertically\nopposite angles.\nWhen two lines intersect, FOUR angles are formed and TWO PAIRS of vertically opposite\nangles are created."
+        },
+        {
+          "q_num": 3,
+          "marks": 2,
+          "question": "What is the Corresponding Angles Axiom? State its converse.",
+          "answer": "CORRESPONDING ANGLES AXIOM: If a transversal intersects two parallel lines, then each\npair of corresponding angles is equal.\nCONVERSE: If a transversal intersects two lines such that a pair of corresponding\nangles is equal, then the two lines are parallel to each other."
+        },
+        {
+          "q_num": 4,
+          "marks": 2,
+          "question": "In Fig. 6.9, lines PQ and RS intersect at O. If angle POR : angle ROQ = 5 : 7,",
+          "answer": "angle POR + angle ROQ = 180 degrees  (Linear pair, as PQ is a straight line)\nRatio 5 : 7, total parts = 12.\nangle POR = (5/12) x 180 = 75 degrees.\nangle ROQ = (7/12) x 180 = 105 degrees.\n\n---"
+        },
+        {
+          "q_num": 5,
+          "marks": 3,
+          "question": "Lines AB and CD intersect at O. If angle AOC = 65 degrees, find all four",
+          "answer": "GIVEN: Lines AB and CD intersect at O. angle AOC = 65 degrees.\nTO FIND: All four angles.\nStep 1: angle AOD = 180 - angle AOC = 180 - 65 = 115 degrees.\n(Linear pair axiom — ray OA stands on line CD)\nStep 2: angle BOD = angle AOC = 65 degrees.\n(Vertically opposite angles — Theorem 6.1)\nStep 3: angle BOC = angle AOD = 115 degrees.\n(Vertically opposite angles — Theorem 6.1)\nANSWER: angle AOC = 65 degrees, angle AOD = 115 degrees,\nangle BOD = 65 degrees, angle BOC = 115 degrees."
+        },
+        {
+          "q_num": 6,
+          "marks": 3,
+          "question": "In Fig. 6.22, AB || CD and CD || EF. Also EA is perpendicular to AB.",
+          "answer": "GIVEN: AB || CD, CD || EF, EA perpendicular to AB (angle EAB = 90 degrees), angle BEF = 55 degrees.\nStep 1: CD || EF, transversal ED:\ny + 55 = 180 degrees  (Co-interior angles on same side)\ny = 125 degrees.\nStep 2: AB || CD:\nx = y = 125 degrees  (Corresponding angles axiom)\nStep 3: AB || EF  (By Theorem 6.6, since AB || CD and CD || EF)\nangle EAB + angle FEA = 180 degrees  (Co-interior, transversal EA)\n90 + z + 55 = 180\nz = 180 - 145 = 35 degrees.\nANSWER: x = 125 degrees, y = 125 degrees, z = 35 degrees.\n\n---"
+        },
+        {
+          "q_num": 7,
+          "marks": 4,
+          "question": "State and prove Theorem 6.1: If two lines intersect each other, then the",
+          "answer": "STATEMENT: If two lines intersect each other, then the vertically opposite angles are equal.\nGIVEN: Two lines AB and CD intersect each other at point O.\nTO PROVE: (i) angle AOC = angle BOD     (ii) angle AOD = angle BOC\nCONSTRUCTION: None required.\nPROOF:\nStep 1: Ray OA stands on line CD.\nTherefore, angle AOC + angle AOD = 180 degrees  ...(1)\n[Linear pair axiom — Axiom 6.1]\nStep 2: Ray OB stands on line CD.\nTherefore, angle BOD + angle AOD = 180 degrees  ...(2)\n[Linear pair axiom — Axiom 6.1]\nStep 3: From equations (1) and (2):\nangle AOC + angle AOD = angle BOD + angle AOD\nStep 4: Subtracting angle AOD from both sides:\nangle AOC = angle BOD\nStep 5: Similarly, ray OC stands on line AB:\nangle AOC + angle BOC = 180 degrees  ...(3)  [Linear pair]\nFrom (1) and (3): angle AOD = angle BOC\nHENCE PROVED: angle AOC = angle BOD  and  angle AOD = angle BOC."
+        },
+        {
+          "q_num": 8,
+          "marks": 4,
+          "question": "In Fig. 6.19, if PQ || RS, angle MXQ = 135 degrees and angle MYR = 40 degrees,",
+          "answer": "GIVEN: PQ || RS, angle MXQ = 135 degrees, angle MYR = 40 degrees.\nTO FIND: angle XMY.\nCONSTRUCTION: Draw a line AB through M such that AB || PQ.\nPROOF:\nStep 1: AB || PQ and PQ || RS.\nTherefore, AB || RS.  [Theorem 6.6 — lines parallel to the same line]\nStep 2: AB || PQ, transversal XM:\nangle QXM + angle XMB = 180 degrees\n[Co-interior angles on same side of transversal XM]\n135 + angle XMB = 180\nangle XMB = 45 degrees  ...(1)\nStep 3: AB || RS, transversal MY:\nangle BMY = angle MYR  [Alternate interior angles]\nangle BMY = 40 degrees  ...(2)\nStep 4: angle XMY = angle XMB + angle BMY\nangle XMY = 45 + 40 = 85 degrees.\nANSWER: angle XMY = 85 degrees."
+        },
+        {
+          "q_num": 9,
+          "marks": 4,
+          "question": "In Fig. 6.11, OP, OQ, OR and OS are four rays from O.",
+          "answer": "GIVEN: OP, OQ, OR and OS are four rays from point O.\nTO PROVE: angle POQ + angle QOR + angle SOR + angle POS = 360 degrees.\nCONSTRUCTION: Produce ray OQ backwards to a point T so that TOQ is a straight line.\nPROOF:\nStep 1: Ray OP stands on line TOQ.\nangle TOP + angle POQ = 180 degrees  ...(1)\n[Linear pair axiom — Axiom 6.1]\nStep 2: Ray OS stands on line TOQ.\nangle TOS + angle SOQ = 180 degrees\nBut angle SOQ = angle SOR + angle QOR  (since R lies between S and Q direction)\nTherefore, angle TOS + angle SOR + angle QOR = 180 degrees  ...(2)\nStep 3: Adding equations (1) and (2):\nangle TOP + angle POQ + angle TOS + angle SOR + angle QOR = 360 degrees  ...(3)\nStep 4: From the figure, angle TOP + angle TOS = angle POS\n(since T, O lie on line TOQ and rays OP, OS are on the same side)\nStep 5: Substituting in (3):\nangle POS + angle POQ + angle SOR + angle QOR = 360 degrees\nThat is, angle POQ + angle QOR + angle SOR + angle POS = 360 degrees.\nHENCE PROVED.\n\n---"
+        },
+        {
+          "q_num": 10,
+          "marks": 5,
+          "question": "(a) State and prove Theorem 6.6: Lines which are parallel to the same line",
+          "answer": "PART A — Theorem 6.6 (Proof):\n\nSTATEMENT: Lines which are parallel to the same line are parallel to each other.\nGIVEN: Line m || line l  and  line n || line l.\nTO PROVE: Line m || Line n.\nCONSTRUCTION: Draw a transversal t cutting lines l, m and n.\nLet angle 1, angle 2, angle 3 be the angles formed by t with l, m, n respectively\n(corresponding angles at each intersection).\nPROOF:\nStep 1: Since m || l and t is a transversal:\nangle 1 = angle 2  ...(i)\n[Corresponding angles axiom]\nStep 2: Since n || l and t is a transversal:\nangle 1 = angle 3  ...(ii)\n[Corresponding angles axiom]\nStep 3: From (i) and (ii):\nangle 2 = angle 3\nStep 4: angle 2 and angle 3 are corresponding angles formed by transversal t\nwith lines m and n, and they are equal.\nStep 5: Therefore, by the converse of corresponding angles axiom:\nLine m || Line n.\nHENCE PROVED.\n\nPART B — Application (Finding angle QRS):\n\nGIVEN: PQ || ST, angle PQR = 110 degrees, angle RST = 130 degrees.\nTO FIND: angle QRS.\nCONSTRUCTION: Draw line UV through R such that UV || ST.\nPROOF:\nStep 1: UV || ST and PQ || ST.\nTherefore, UV || PQ.  [By Theorem 6.6 — proved above]\nStep 2: PQ || UV, transversal QR:\nangle PQR + angle QRU = 180 degrees  [Co-interior angles]\n110 + angle QRU = 180\nangle QRU = 70 degrees  ...(1)\nStep 3: UV || ST, transversal RS:\nangle URS + angle RST = 180 degrees  [Co-interior angles]\nangle URS + 130 = 180\nangle URS = 50 degrees  ...(2)\nStep 4: angle QRS = angle QRU + angle URS\nangle QRS = 70 + 50 = 120 degrees.\nANSWER: angle QRS = 120 degrees."
+        }
+      ]
+    },
+    {
       "type": "mcq",
       "label": "CHAPTER 6: MCQs:",
       "items": [

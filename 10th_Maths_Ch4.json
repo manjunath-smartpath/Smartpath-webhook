@@ -55,9 +55,219 @@
       "items": []
     },
     {
+      "type": "qa",
+      "label": "Q&A",
+      "items": [
+        {
+          "q_num": 1,
+          "marks": 2,
+          "question": "Define a quadratic equation and write its standard form.",
+          "answer": "A QUADRATIC EQUATION in the variable x is an equation of the form ax^2 + bx + c = 0,\nwhere a, b, c are real numbers and a ≠ 0.\nThe STANDARD FORM has terms written in descending order of degree (x^2 first, then x, then constant)."
+        },
+        {
+          "q_num": 2,
+          "marks": 2,
+          "question": "State the three cases of nature of roots based on the discriminant.",
+          "answer": "For ax^2 + bx + c = 0, D = b^2 - 4ac:\n(i)  D > 0 → TWO DISTINCT REAL ROOTS\n(ii) D = 0 → TWO EQUAL REAL ROOTS (both = -b/2a)\n(iii) D < 0 → NO REAL ROOTS"
+        },
+        {
+          "q_num": 3,
+          "marks": 2,
+          "question": "What is the relationship between zeroes of a quadratic polynomial and roots",
+          "answer": "The ZEROES of the quadratic polynomial ax^2 + bx + c and the ROOTS of the equation\nax^2 + bx + c = 0 are the SAME.\nIf α is a zero of the polynomial, then aα^2 + bα + c = 0, so α is a root of the equation."
+        },
+        {
+          "q_num": 4,
+          "marks": 2,
+          "question": "Find the discriminant of 2x^2 - 3x + 5 = 0. State the nature of its roots.",
+          "answer": "a = 2, b = -3, c = 5.\nD = b^2 - 4ac = (-3)^2 - 4(2)(5) = 9 - 40 = -31.\nSince D = -31 < 0, the equation has NO REAL ROOTS.\n\n---"
+        },
+        {
+          "q_num": 5,
+          "marks": 3,
+          "question": "Find the roots of 2x^2 - 5x + 3 = 0 by factorisation.",
+          "answer": "Step 1: Split -5x as -2x - 3x. [Check: (-2x)×(-3x) = 6x^2 = 2x^2×3 ✓]\nStep 2: 2x^2 - 5x + 3 = 2x^2 - 2x - 3x + 3\nStep 3: = 2x(x - 1) - 3(x - 1) = (2x - 3)(x - 1)\n2x - 3 = 0 → x = 3/2.   x - 1 = 0 → x = 1.\nANSWER: Roots are 3/2 and 1."
+        },
+        {
+          "q_num": 6,
+          "marks": 3,
+          "question": "Find the roots of 3x^2 - 4√3 x + 4 = 0 using the quadratic formula.",
+          "answer": "Step 1: a = 3, b = -4√3, c = 4.\nStep 2: D = (-4√3)^2 - 4(3)(4) = 48 - 48 = 0.\nStep 3: D = 0 → TWO EQUAL REAL ROOTS.\nx = -b/2a = 4√3/(2×3) = 4√3/6 = 2/√3.\nANSWER: Both roots equal 2/√3."
+        },
+        {
+          "q_num": 7,
+          "marks": 3,
+          "question": "Find the value of k for which 2x^2 + kx + 3 = 0 has two equal roots.",
+          "answer": "Step 1: For two equal roots: D = 0.\nStep 2: a=2, b=k, c=3. D = k^2 - 4(2)(3) = k^2 - 24 = 0.\nStep 3: k^2 = 24 → k = ±√24 = ±2√6.\nANSWER: k = 2√6 or k = -2√6.\n\n---"
+        },
+        {
+          "q_num": 8,
+          "marks": 4,
+          "question": "The altitude of a right triangle is 7 cm less than its base. The hypotenuse",
+          "answer": "Step 1: Let base = x cm. Altitude = (x - 7) cm.\nStep 2: By Pythagoras theorem: x^2 + (x-7)^2 = 169.\nx^2 + x^2 - 14x + 49 = 169.\nStep 3: 2x^2 - 14x - 120 = 0 → x^2 - 7x - 60 = 0.\nStep 4: (x - 12)(x + 5) = 0 → x = 12 or x = -5. Reject x = -5.\nANSWER: Base = 12 cm, Altitude = 5 cm.\nVerify: 12^2 + 5^2 = 144 + 25 = 169 = 13^2. ✓"
+        },
+        {
+          "q_num": 9,
+          "marks": 4,
+          "question": "A train travels 480 km at uniform speed. If speed had been 8 km/h less,",
+          "answer": "Step 1: Let speed = x km/h. Time = 480/x hrs. At (x-8): Time = 480/(x-8) hrs.\nStep 2: 480/(x-8) - 480/x = 3.\nStep 3: 480x - 480(x-8) = 3x(x-8) → 3840 = 3x^2 - 24x → x^2 - 8x - 1280 = 0.\nStep 4: (x-40)(x+32) = 0 → x = 40 or x = -32. Reject x = -32.\nANSWER: Speed = 40 km/h.\n\n---"
+        },
+        {
+          "q_num": 10,
+          "marks": 5,
+          "question": "",
+          "answer": "PART A — Rectangular Park:\nStep 1: Let length = x m, breadth = y m.\nPerimeter: 2(x+y)=80 → x+y=40 → y=40-x.\nStep 2: Area: x(40-x)=400 → x^2 - 40x + 400 = 0.\nStep 3: D = (-40)^2 - 4(1)(400) = 1600 - 1600 = 0. D = 0 → POSSIBLE.\nStep 4: x = 40/2 = 20. y = 20.\nANSWER A: YES. The park is a square with side 20 m. (20×20=400 m^2, perimeter=80 m ✓)\n\nPART B — Ages Problem:\nStep 1: Let one age = x. Other = 20 - x.\nStep 2: Four years ago: (x-4)(16-x) = 48.\nStep 3: -x^2 + 20x - 64 = 48 → x^2 - 20x + 112 = 0.\nStep 4: D = 400 - 448 = -48. D < 0 → NO REAL ROOTS.\nANSWER B: NOT POSSIBLE. D < 0 means no real ages satisfy the condition."
+        }
+      ]
+    },
+    {
       "type": "mcq",
       "label": "CHAPTER 4: MCQs:",
-      "items": []
+      "items": [
+        {
+          "mcq_num": 1,
+          "difficulty": "Easy",
+          "question": "The standard form of a quadratic equation is:",
+          "options": {
+            "A": "ax + b = 0",
+            "B": "ax^2 + bx + c = 0, a ≠ 0",
+            "C": "ax^3 + bx^2 + cx + d = 0",
+            "D": "ax^2 + bx + c = 0, a = 0"
+          },
+          "answer": "B",
+          "explanation": "ax^2 + bx + c = 0 with a ≠ 0 ensures degree 2."
+        },
+        {
+          "mcq_num": 2,
+          "difficulty": "Easy",
+          "question": "A quadratic equation can have at most how many roots?",
+          "options": {
+            "A": "1",
+            "B": "2",
+            "C": "3",
+            "D": "Infinite"
+          },
+          "answer": "B",
+          "explanation": "A quadratic polynomial has at most 2 zeroes, so at most 2 roots."
+        },
+        {
+          "mcq_num": 3,
+          "difficulty": "Easy",
+          "question": "The discriminant of ax^2 + bx + c = 0 is:",
+          "options": {
+            "A": "b^2 + 4ac",
+            "B": "b^2 - 4ac",
+            "C": "4ac - b^2",
+            "D": "√(b^2 - 4ac)"
+          },
+          "answer": "B",
+          "explanation": "D = b^2 - 4ac determines the nature of roots."
+        },
+        {
+          "mcq_num": 4,
+          "difficulty": "Medium",
+          "question": "The quadratic formula gives roots as:",
+          "options": {
+            "A": "x = (b ± √(b^2-4ac)) / 2a",
+            "B": "x = (-b ± √(b^2-4ac)) / 2a",
+            "C": "x = (-b ± √(b^2+4ac)) / 2a",
+            "D": "x = (-b ± √(b^2-4ac)) / a"
+          },
+          "answer": "B",
+          "explanation": "x = (-b ± √(b^2-4ac)) / 2a is the correct quadratic formula."
+        },
+        {
+          "mcq_num": 5,
+          "difficulty": "Medium",
+          "question": "If D = b^2 - 4ac = 0, the quadratic equation has:",
+          "options": {
+            "A": "Two distinct real roots",
+            "B": "Two equal real roots",
+            "C": "No real roots",
+            "D": "Three real roots"
+          },
+          "answer": "B",
+          "explanation": "When D = 0, both roots equal -b/2a (coincident roots)."
+        },
+        {
+          "mcq_num": 6,
+          "difficulty": "Medium",
+          "question": "Prayer hall area = 300 m^2, length = (2x+1) m, breadth = x m. The equation is:",
+          "options": {
+            "A": "2x^2 - x - 300 = 0",
+            "B": "2x^2 + x + 300 = 0",
+            "C": "2x^2 + x - 300 = 0",
+            "D": "x^2 + x - 300 = 0"
+          },
+          "answer": "C",
+          "explanation": "x(2x+1) = 300 → 2x^2 + x - 300 = 0."
+        },
+        {
+          "mcq_num": 7,
+          "difficulty": "Medium",
+          "question": "Which ancient mathematician first gave an explicit formula to solve ax^2 + bx = c?",
+          "options": {
+            "A": "Euclid",
+            "B": "Al-Khwarizmi",
+            "C": "Brahmagupta",
+            "D": "Sridharacharya"
+          },
+          "answer": "C",
+          "explanation": "Brahmagupta (C.E. 598-665) gave explicit formula for ax^2 + bx = c."
+        },
+        {
+          "mcq_num": 8,
+          "difficulty": "Hard",
+          "question": "Which equation, after simplification, is NOT a quadratic equation?",
+          "options": {
+            "A": "(x-2)^2 + 1 = 2x - 3",
+            "B": "x(x+1) + 8 = (x+2)(x-2)",
+            "C": "x(2x+3) = x^2 + 1",
+            "D": "(x+2)^3 = x^3 - 4"
+          },
+          "answer": "B",
+          "explanation": "x(x+1)+8=(x+2)(x-2) simplifies to x+12=0, which is linear."
+        },
+        {
+          "mcq_num": 9,
+          "difficulty": "Hard",
+          "question": "A train travels 480 km at speed x km/h. If speed was 8 km/h less, it takes 3 hours more. The quadratic equation formed is:",
+          "options": {
+            "A": "x^2 + 8x - 1280 = 0",
+            "B": "x^2 - 8x - 1280 = 0",
+            "C": "x^2 - 8x + 1280 = 0",
+            "D": "3x^2 - 8x - 1280 = 0"
+          },
+          "answer": "B",
+          "explanation": "480/(x-8) - 480/x = 3 → x^2 - 8x - 1280 = 0."
+        },
+        {
+          "mcq_num": 10,
+          "difficulty": "Hard",
+          "question": "Two friends' ages sum = 20 years. Product of ages 4 years ago = 48. This situation is:",
+          "options": {
+            "A": "Possible; ages are 12 and 8",
+            "B": "Possible; both are 10",
+            "C": "Not possible; D < 0",
+            "D": "Not possible; D = 0"
+          },
+          "answer": "C",
+          "explanation": "x^2 - 20x + 112 = 0. D = 400 - 448 = -48 < 0. No real roots. Not possible."
+        },
+        {
+          "mcq_num": 11,
+          "difficulty": "Hard",
+          "question": "The roots of 3x^2 - 2x + 1/3 = 0 are:",
+          "options": {
+            "A": "1/3 and -1/3",
+            "B": "2/3 and 2/3",
+            "C": "1/3 and 1/3",
+            "D": "No real roots"
+          },
+          "answer": "C",
+          "explanation": "D = 4 - 4(3)(1/3) = 4 - 4 = 0. Roots = 2/6 = 1/3 (equal)."
+        }
+      ]
     }
   ],
   "topics": [

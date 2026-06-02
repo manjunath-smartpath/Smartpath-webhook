@@ -45,6 +45,30 @@
       "items": []
     },
     {
+      "type": "qa",
+      "label": "Q&A",
+      "items": [
+        {
+          "q_num": 1,
+          "marks": 2,
+          "question": "What is Statistics? Name the three measures of central tendency studied in this chapter.",
+          "answer": "Statistics is the branch of mathematics that deals with the collection, organisation, presentation, analysis, and interpretation of numerical data.\n\nThe three measures of central tendency studied in this chapter are:\n(i)   MEAN — the arithmetic average of all observations.\n(ii)  MEDIAN — the middle value that divides the data into two equal halves.\n(iii) MODE — the value that occurs most often (maximum frequency).\n\nIn this chapter, all three measures are extended from ungrouped data to GROUPED DATA.\n\n---"
+        },
+        {
+          "q_num": 2,
+          "marks": 2,
+          "question": "Define class mark. Find the class mark of the class interval 45-55.",
+          "answer": "The CLASS MARK of a class interval is its midpoint — the value that represents all observations in that class.\n\nClass mark = (Upper class limit + Lower class limit) / 2\n\nFor the class interval 45-55:\nClass mark = (45 + 55) / 2 = 100 / 2 = 50\n\n---"
+        },
+        {
+          "q_num": 3,
+          "marks": 2,
+          "question": "Define cumulative frequency. State the formula for median of grouped data.",
+          "answer": "CUMULATIVE FREQUENCY of a class is obtained by adding the frequencies of all classes preceding and including that class."
+        }
+      ]
+    },
+    {
       "type": "formulas",
       "label": "Formula for Median of Grouped Data:",
       "items": [

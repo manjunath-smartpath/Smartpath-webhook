@@ -44,6 +44,60 @@
       "items": []
     },
     {
+      "type": "qa",
+      "label": "Q&A",
+      "items": [
+        {
+          "q_num": 1,
+          "marks": 2,
+          "question": "What is variation? Give two examples from daily life.",
+          "answer": "When a change in one quantity brings about a change in another quantity,\nit is called VARIATION. There are two types:\n(i) Direct variation — more articles purchased, more total cost.\n(ii) Inverse variation — more workers on a job, less time to complete it."
+        },
+        {
+          "q_num": 2,
+          "marks": 2,
+          "question": "Write the condition for two quantities x and y to be in direct",
+          "answer": "Two quantities x and y are in direct proportion if their ratio x/y = k\n(a constant). That is, x1/y1 = x2/y2. When x increases, y also increases in\nthe same ratio."
+        },
+        {
+          "q_num": 3,
+          "marks": 2,
+          "question": "Write the condition for two quantities x and y to be in inverse",
+          "answer": "x and y are in inverse proportion if their product xy = k (constant).\nThat is, x1 × y1 = x2 × y2. When x increases, y decreases proportionally.\n\n---"
+        },
+        {
+          "q_num": 4,
+          "marks": 3,
+          "question": "An electric pole 14 metres high casts a shadow of 10 metres.",
+          "answer": "Step 1: More height → more shadow length — direct proportion.\nStep 2: Let height of tree = x metres.\nUse x1/y1 = x2/y2: 14/10 = x/15\nStep 3: x = (14 × 15)/10 = 210/10 = 21 metres.\nAnswer: The height of the tree is 21 metres."
+        },
+        {
+          "q_num": 5,
+          "marks": 3,
+          "question": "6 pipes are required to fill a tank in 1 hour 20 minutes. How long",
+          "answer": "Step 1: 1 hour 20 minutes = 80 minutes.\nStep 2: Fewer pipes → more time — inverse proportion.\nStep 3: x1 × y1 = x2 × y2\n6 × 80 = 5 × t → t = 480/5 = 96 minutes = 1 hour 36 minutes.\nAnswer: 5 pipes will take 96 minutes (1 hour 36 minutes).\n\n---"
+        },
+        {
+          "q_num": 6,
+          "marks": 4,
+          "question": "The cost of 5 metres of a cloth is Rs 210. A customer wants to buy",
+          "answer": "Step 1: As length increases, cost increases — direct proportion.\nLet x = length (m), y = cost (Rs). Given: x1 = 5, y1 = 210.\nStep 2: Use x1/y1 = x2/y2, i.e., 5/210 = x2/y2.\nStep 3: Calculate each:\n(i) Length = 2 m: y = (2 × 210)/5 = Rs 84.\n(ii) Length = 4 m: y = (4 × 210)/5 = Rs 168.\n(iii) Length = 10 m: y = (10 × 210)/5 = Rs 420.\n(iv) Length = 13 m: y = (13 × 210)/5 = Rs 546.\nStep 4: All values confirm constant ratio 5/210 = 1/42.\nAnswer: Rs 84, Rs 168, Rs 420, Rs 546 for 2m, 4m, 10m, 13m respectively."
+        },
+        {
+          "q_num": 7,
+          "marks": 4,
+          "question": "A school has food provision for 100 students for 20 days. If 25",
+          "answer": "Step 1: More students → fewer days — inverse proportion. xy = constant.\nConstant = 100 × 20 = 2000.\nStep 2: (Part i) Students = 125. Find days:\n100 × 20 = 125 × y → y = 2000/125 = 16 days.\nStep 3: (Part ii) Days = 25. Find students:\n100 × 20 = x × 25 → x = 2000/25 = 80 students.\nStep 4: Verify: 125 × 16 = 2000 ✓  and  80 × 25 = 2000 ✓\nAnswer: (i) Provisions last 16 days for 125 students.\n(ii) 80 students can be fed for 25 days.\n\n---"
+        },
+        {
+          "q_num": 8,
+          "marks": 5,
+          "question": "A train moves at a uniform speed of 75 km/hour.",
+          "answer": "PART A — Distance in 20 minutes:\nStep 1: Uniform speed → distance and time in direct proportion.\n75 km in 60 minutes. Find distance in 20 minutes.\nStep 2: 75/60 = x/20 → x = (75 × 20)/60 = 1500/60 = 25 km.\nAnswer (Part A): The train travels 25 km in 20 minutes.\n\nPART B — Time to cover 250 km and verification:\nStep 1: Use 75/60 = 250/y → y = (250 × 60)/75 = 15000/75 = 200 minutes\n= 3 hours 20 minutes.\nStep 2: Verify direct proportion:\nRatio 1: distance/time = 75/60 = 1.25 km/min\nRatio 2: distance/time = 25/20 = 1.25 km/min\nRatio 3: distance/time = 250/200 = 1.25 km/min\nAll ratios are equal → direct proportion confirmed ✓\nAnswer (Part B): Time to cover 250 km = 200 minutes = 3 hours 20 minutes."
+        }
+      ]
+    },
+    {
       "type": "mcq",
       "label": "CHAPTER 11: MCQs:",
       "items": [

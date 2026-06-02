@@ -62,6 +62,72 @@
       "items": []
     },
     {
+      "type": "qa",
+      "label": "Q&A",
+      "items": [
+        {
+          "q_num": 1,
+          "marks": 2,
+          "question": "What are the two new solid figures studied in Chapter 11?",
+          "answer": "The two new solid figures studied in Chapter 11 are:\n(1) RIGHT CIRCULAR CONE -- a solid with a circular base and a pointed top (vertex),\nformed by rotating a right-angled triangle about one of its perpendicular sides.\n(2) SPHERE (including Hemisphere) -- a three-dimensional solid where all points on\nthe surface are at a constant distance (radius) from a fixed centre point."
+        },
+        {
+          "q_num": 2,
+          "marks": 2,
+          "question": "State the formula for curved surface area and total surface area of a",
+          "answer": "For a right circular cone with base radius r and slant height l:\nCurved Surface Area (CSA) = pi*r*l\nTotal Surface Area (TSA) = pi*r*l + pi*r^2 = pi*r(l + r)\nWhere l = slant height = sqrt(r^2 + h^2), and h = height of the cone."
+        },
+        {
+          "q_num": 3,
+          "marks": 2,
+          "question": "Write the surface area formulas for a sphere and a hemisphere.",
+          "answer": "Let r = radius.\nSurface Area of a Sphere = 4*pi*r^2\nCurved Surface Area of a Hemisphere = 2*pi*r^2\nTotal Surface Area of a Hemisphere = 3*pi*r^2\n(TSA of hemisphere = curved surface + flat circular base = 2*pi*r^2 + pi*r^2 = 3*pi*r^2)"
+        },
+        {
+          "q_num": 4,
+          "marks": 2,
+          "question": "Write the volume formulas for a cone, sphere, and hemisphere.",
+          "answer": "Let r = radius, h = height.\nVolume of a Cone         = (1/3)*pi*r^2*h\nVolume of a Sphere       = (4/3)*pi*r^3\nVolume of a Hemisphere   = (2/3)*pi*r^3\n\n---"
+        },
+        {
+          "q_num": 5,
+          "marks": 3,
+          "question": "The height of a cone is 16 cm and its base radius is 12 cm. Find the",
+          "answer": "Step 1: Given h = 16 cm, r = 12 cm. Find slant height.\nl = sqrt(h^2 + r^2) = sqrt(256 + 144) = sqrt(400) = 20 cm\n\nStep 2: Curved Surface Area = pi*r*l\n= 3.14 x 12 x 20\n= 753.6 cm^2\n\nStep 3: Total Surface Area = pi*r*l + pi*r^2\n= 753.6 + (3.14 x 12 x 12)\n= 753.6 + 452.16\n= 1205.76 cm^2"
+        },
+        {
+          "q_num": 6,
+          "marks": 3,
+          "question": "Find the volume of a conical tent whose base radius is 7 m and height",
+          "answer": "Step 1: Given r = 7 m, h = 24 m. Find slant height.\nl = sqrt(r^2 + h^2) = sqrt(49 + 576) = sqrt(625) = 25 m\n\nStep 2: Volume of cone = (1/3)*pi*r^2*h\n= (1/3) x (22/7) x 49 x 24\n= (1/3) x 22 x 7 x 24\n= 1232 m^3\n\nStep 3: Curved Surface Area = pi*r*l\n= (22/7) x 7 x 25\n= 550 m^2\n\n---"
+        },
+        {
+          "q_num": 7,
+          "marks": 4,
+          "question": "A corn cob shaped like a cone has the radius of its broadest end as",
+          "answer": "Step 1: Given r = 2.1 cm, h = 20 cm.\nSince grains are found only on the curved surface, we need the CSA.\n\nStep 2: Find slant height.\nl = sqrt(r^2 + h^2)\n= sqrt((2.1)^2 + (20)^2)\n= sqrt(4.41 + 400)\n= sqrt(404.41)\n= 20.11 cm (approx.)\n\nStep 3: Curved Surface Area = pi*r*l\n= (22/7) x 2.1 x 20.11\n= 132.73 cm^2 (approx.)\n\nStep 4: Number of grains = CSA x grains per cm^2\n= 132.73 x 4\n= 530.92\n= 531 (approx.)\n\nAnswer: There would be approximately 531 grains of corn on the cob."
+        },
+        {
+          "q_num": 8,
+          "marks": 4,
+          "question": "A hemispherical dome of a building needs to be painted. The",
+          "answer": "Step 1: Circumference of base of dome = 2*pi*r = 17.6 m\n2 x (22/7) x r = 17.6\nr = 17.6 x 7/44 = 2.8 m\n\nStep 2: Only the curved (rounded) surface of the dome is to be painted.\nCurved Surface Area = 2*pi*r^2\n= 2 x (22/7) x 2.8 x 2.8\n= 2 x (22/7) x 7.84\n= 49.28 m^2\n\nStep 3: Cost of painting 100 cm^2 = Rs 5\nTherefore, cost of painting 1 m^2 = Rs 500\n\nStep 4: Total cost of painting = 500 x 49.28 = Rs 24640\n\nAnswer: The cost of painting the hemispherical dome is Rs 24,640."
+        },
+        {
+          "q_num": 9,
+          "marks": 4,
+          "question": "A shot-putt is a metallic sphere of radius 4.9 cm. If the density of the",
+          "answer": "Step 1: Given r = 4.9 cm, density = 7.8 g per cm^3.\nMass = Volume x Density, so first find the volume.\n\nStep 2: Volume of sphere = (4/3)*pi*r^3\n= (4/3) x (22/7) x 4.9 x 4.9 x 4.9\n= (4/3) x (22/7) x 117.649\n= 493 cm^3 (nearly)\n\nStep 3: Mass of 1 cm^3 of metal = 7.8 g\nMass of shot-putt = 7.8 x 493\n= 3845.4 g\n\nStep 4: Convert to kg:\nMass = 3845.4 / 1000 = 3.85 kg (nearly)\n\nAnswer: The mass of the shot-putt is approximately 3.85 kg.\n\n---"
+        },
+        {
+          "q_num": 10,
+          "marks": 5,
+          "question": "Monica has a piece of canvas whose area is 551 m^2. She uses it to",
+          "answer": "PART A -- Finding the height of the conical tent:\n\nStep 1: Total canvas area = 551 m^2.\nCanvas lost in wastage = 1 m^2.\nCanvas available for tent = 551 - 1 = 550 m^2.\n\nStep 2: A tent has only a curved surface (floor is not covered by canvas).\nSo, Curved Surface Area of tent = 550 m^2.\npi*r*l = 550\n(22/7) x 7 x l = 550\n22 x l = 550\nl = 550/22 = 25 m\n\nStep 3: Use l^2 = r^2 + h^2 to find h.\nh = sqrt(l^2 - r^2)\n= sqrt(25^2 - 7^2)\n= sqrt(625 - 49)\n= sqrt(576)\n= 24 m\n\nAnswer (Part A): Height of the conical tent = 24 m.\n\nPART B -- Finding the volume of the conical tent:\n\nStep 4: Volume of cone = (1/3)*pi*r^2*h\n= (1/3) x (22/7) x 7 x 7 x 24\n= (1/3) x (22/7) x 49 x 24\n= (1/3) x 22 x 7 x 24\n= (1/3) x 3696\n= 1232 m^3\n\nAnswer (Part B): Volume of the conical tent = 1232 m^3.\n\nCombined Answer: The tent has height 24 m and can enclose a volume of 1232 m^3."
+        }
+      ]
+    },
+    {
       "type": "mcq",
       "label": "CHAPTER 11: MCQs:",
       "items": [

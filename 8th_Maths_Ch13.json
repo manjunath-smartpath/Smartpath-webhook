@@ -30,7 +30,9 @@
       "type": "list_of_topics",
       "label": "LIST OF TOPICS IN THIS CHAPTER:",
       "items": [
-        "- Topic 13.1: Introduction"
+        "- Topic 13.1: Introduction",
+        "Sub-Topic 13.1.1: A Line Graph",
+        "- Topic 13.2: Some Applications"
       ]
     },
     {
@@ -39,9 +41,142 @@
       "items": []
     },
     {
+      "type": "qa",
+      "label": "Q&A",
+      "items": [
+        {
+          "q_num": 1,
+          "marks": 2,
+          "question": "What is a graph and what is its purpose?",
+          "answer": "A GRAPH is a visual representation of numerical data.\nIts purpose is to show numerical facts in visual form so that they can be understood quickly, easily and clearly.\nData can be presented in a table, but graphical presentation is easier to understand — especially when there is a TREND or COMPARISON to be shown."
+        },
+        {
+          "q_num": 2,
+          "marks": 2,
+          "question": "What are x-coordinate and y-coordinate? What are they used for?",
+          "answer": "X-COORDINATE is the horizontal position of a point on a graph.\nY-COORDINATE is the vertical position of a point on a graph.\nTogether, the x-coordinate and y-coordinate are used to FIX (locate) a point exactly on the graph sheet."
+        },
+        {
+          "q_num": 3,
+          "marks": 2,
+          "question": "What is the difference between the x-axis and the y-axis?",
+          "answer": "X-AXIS is the horizontal line on a graph. It usually shows one type of data such as time, matches played, or number of items.\nY-AXIS is the vertical line on a graph. It usually shows the measured value such as temperature, runs scored, or cost.\n\n---"
+        },
+        {
+          "q_num": 4,
+          "marks": 3,
+          "question": "What is the difference between an independent variable and a dependent variable? Give one example of each.",
+          "answer": "Step 1 — Independent Variable: An INDEPENDENT VARIABLE (also called control variable) is the quantity that is chosen freely and decides the value of another quantity.\nExample: The quantity of electricity consumed is the independent variable — it is chosen by the user.\n\nStep 2 — Dependent Variable: A DEPENDENT VARIABLE is the quantity whose value depends on the independent variable.\nExample: The amount of electric bill is the dependent variable — it depends on how much electricity was consumed.\n\nStep 3 — Relation: The relation between the dependent variable and the independent variable can be shown through a graph. The independent variable is usually shown on the x-axis and the dependent variable on the y-axis."
+        },
+        {
+          "q_num": 5,
+          "marks": 3,
+          "question": "When is graphical presentation more useful than a table? Give a real-life example to explain.",
+          "answer": "Step 1: Graphical presentation is more useful than a table when there is a TREND or COMPARISON to be shown. Trends and comparisons are hard to see in a table but become immediately clear in a graph.\n\nStep 2 — Real-life example: A doctor records a patient's body temperature every four hours: 37°C, 40°C, 38°C, 35°C. In a table, we have to compare numbers carefully. But in a line graph, we can instantly see that the temperature rose to a peak at 10 a.m. and then fell — this is a clear TREND.\n\nStep 3: Also, from a graph we can estimate values that were not directly recorded. For example, even though temperature was not recorded at 8 a.m., the graph suggests it was more than 37°C because the line is going upward between 6 a.m. and 10 a.m.\n\n---"
+        },
+        {
+          "q_num": 6,
+          "marks": 4,
+          "question": "A bank gives 10% Simple Interest on deposits by senior citizens. The following data is given. Plot a graph and find: (a) the annual interest for a deposit of Rs 250, (b) the deposit needed to earn Rs 70 interest per year.",
+          "answer": "Step 1 — Formula: S.I. = (P × R × T) / 100. For 1 year at 10%:\nRs 100 → S.I. = (100 × 1 × 10) / 100 = Rs 10\nRs 200 → S.I. = (200 × 1 × 10) / 100 = Rs 20\nRs 300 → S.I. = (300 × 1 × 10) / 100 = Rs 30\nRs 500 → S.I. = (500 × 1 × 10) / 100 = Rs 50\nRs 1000 → S.I. = (1000 × 1 × 10) / 100 = Rs 100\n\nStep 2 — Scale: Horizontal axis: 1 unit = Rs 100. Vertical axis: 1 unit = Rs 10.\n\nStep 3 — Plot points: (100, 10), (200, 20), (300, 30), (500, 50), (1000, 100). Join the points → we get a linear graph (straight line passing through origin). This confirms DIRECT VARIATION between deposit and S.I.\n\nStep 4 — Graph readings:\n(a) Corresponding to Rs 250 on horizontal axis → interest = Rs 25 on vertical axis.\n(b) Corresponding to Rs 70 on vertical axis → deposit = Rs 700 on horizontal axis."
+        },
+        {
+          "q_num": 7,
+          "marks": 4,
+          "question": "Ajit can ride a scooter at a constant speed of 30 km/hour. Draw a time-distance graph and find: (i) the time taken to ride 75 km, (ii) the distance covered in 3(1/2) hours.",
+          "answer": "Step 1 — Calculate distance using Distance = Speed × Time:\n1 hour: 1 × 30 = 30 km\n2 hours: 2 × 30 = 60 km\n3 hours: 3 × 30 = 90 km\n4 hours: 4 × 30 = 120 km\nTable: Time (hours): 1, 2, 3, 4 | Distance (km): 30, 60, 90, 120\n\nStep 2 — Scale: Horizontal axis: 2 units = 1 hour. Vertical axis: 1 unit = 10 km.\n\nStep 3 — Plot points: (1, 30), (2, 60), (3, 90), (4, 120). Join the points → LINEAR GRAPH. The graph passes through the origin, confirming DIRECT VARIATION between time and distance.\n\nStep 4 — Graph readings:\n(i) Corresponding to 75 km on vertical axis → time = 2.5 hours on horizontal axis. So Ajit takes 2.5 hours to ride 75 km.\n(ii) Corresponding to 3.5 hours on horizontal axis → distance = 105 km on vertical axis.\n\n---"
+        },
+        {
+          "q_num": 8,
+          "marks": 5,
+          "question": "The given graph (Fig 13.4) describes the distances of a car from City P at different times when it travels from City P to City Q, which are 350 km apart. The distances read from the graph are: 8 a.m.=0 km, 9 a.m.=50 km, 10 a.m.=150 km, 11 a.m.=200 km, 12 noon=200 km, 2 p.m.=350 km. Answer the following: (i) What do the two axes show? (ii) When and from where did the car start? (iii) How far did the car go in the first hour? (iv) How far in the 2nd and 3rd hours? (v) Was the speed same throughout? (vi) Did the car stop? Justify. (vii) When did the car reach City Q?",
+          "answer": "PART A — Reading the graph:\n(i) The horizontal (x) axis shows TIME. The vertical (y) axis shows the DISTANCE of the car from City P.\n(ii) The car started from City P at 8 a.m. (distance = 0 at 8 a.m.).\n(iii) 1st hour (8 a.m. to 9 a.m.): Distance covered = 50 - 0 = 50 km.\n(iv) 2nd hour (9 a.m. to 10 a.m.): Distance covered = 150 - 50 = 100 km.\n3rd hour (10 a.m. to 11 a.m.): Distance covered = 200 - 150 = 50 km.\n\nPART B — Interpreting the graph:\n(v) No, the speed was NOT the same throughout. The car covered 50 km in the 1st hour, 100 km in the 2nd hour, and 50 km in the 3rd hour. Since distance covered per hour is different, the speed varied.\n(vi) Yes, the car stopped. The distance was 200 km at 11 a.m. AND also 200 km at 12 noon. The distance did not change during 11 a.m. to 12 noon — this means the car did not move for 1 hour. The horizontal line segment in the graph between 11 a.m. and 12 noon confirms this.\n(vii) The car reached City Q (350 km from P) at 2 p.m."
+        }
+      ]
+    },
+    {
       "type": "mcq",
       "label": "CHAPTER 13: MCQs:",
-      "items": []
+      "items": [
+        {
+          "mcq_num": 1,
+          "difficulty": "Easy",
+          "question": "The purpose of a graph is to show numerical facts in:",
+          "options": {
+            "A": "Table form",
+            "B": "Visual form",
+            "C": "Written form",
+            "D": "Oral form"
+          },
+          "answer": "B",
+          "explanation": "A graph shows numerical facts in VISUAL form so that they can be understood quickly, easily and clearly."
+        },
+        {
+          "mcq_num": 2,
+          "difficulty": "Easy",
+          "question": "For fixing a point on a graph sheet, we need:",
+          "options": {
+            "A": "Only x-coordinate",
+            "B": "Only y-coordinate",
+            "C": "Both x-coordinate and y-coordinate",
+            "D": "Neither"
+          },
+          "answer": "C",
+          "explanation": "For fixing a point on the graph sheet we need both X-COORDINATE and Y-COORDINATE."
+        },
+        {
+          "mcq_num": 3,
+          "difficulty": "Easy",
+          "question": "The vertical line in a graph is called the:",
+          "options": {
+            "A": "x-axis",
+            "B": "Origin",
+            "C": "y-axis",
+            "D": "Scale"
+          },
+          "answer": "C",
+          "explanation": "The VERTICAL LINE in a graph is usually called the Y-AXIS. The horizontal line is the x-axis."
+        },
+        {
+          "mcq_num": 4,
+          "difficulty": "Medium",
+          "question": "Graphical presentation is especially useful when there is a:",
+          "options": {
+            "A": "Large amount of data",
+            "B": "Trend or comparison",
+            "C": "Only one value",
+            "D": "Decimal data"
+          },
+          "answer": "B",
+          "explanation": "The textbook states graphical presentation is especially useful when there is a TREND or COMPARISON to be shown."
+        },
+        {
+          "mcq_num": 5,
+          "difficulty": "Medium",
+          "question": "The quantity that decides the value of another quantity in a graph is called the:",
+          "options": {
+            "A": "Dependent variable",
+            "B": "Constant",
+            "C": "Independent variable",
+            "D": "Fixed value"
+          },
+          "answer": "C",
+          "explanation": "The INDEPENDENT VARIABLE (or control variable) is the quantity that decides the value of the dependent variable."
+        },
+        {
+          "mcq_num": 6,
+          "difficulty": "Hard",
+          "question": "In a graph showing the relation between deposit (x-axis) and simple interest at 10% per year (y-axis), what is the annual S.I. for a deposit of Rs 400?",
+          "options": {
+            "A": "Rs 30",
+            "B": "Rs 35",
+            "C": "Rs 40",
+            "D": "Rs 45"
+          },
+          "answer": "C",
+          "explanation": "S.I. = (400 × 1 × 10) / 100 = Rs 40. The graph is linear so we can also read it directly."
+        }
+      ]
     }
   ],
   "topics": [
@@ -152,11 +287,6 @@
         {
           "type": "mcq",
           "label": "TOPIC 13.1: MCQs:",
-          "items": []
-        },
-        {
-          "type": "mcq",
-          "label": "MCQ",
           "items": [
             {
               "mcq_num": 1,
@@ -381,11 +511,6 @@
             {
               "type": "mcq",
               "label": "SUB-TOPIC 13.1.1: MCQs:",
-              "items": []
-            },
-            {
-              "type": "mcq",
-              "label": "MCQ",
               "items": [
                 {
                   "mcq_num": 1,
@@ -644,11 +769,6 @@
         {
           "type": "mcq",
           "label": "TOPIC 13.2: MCQs:",
-          "items": []
-        },
-        {
-          "type": "mcq",
-          "label": "MCQ",
           "items": [
             {
               "mcq_num": 1,

@@ -30,13 +30,74 @@
       "label": "LIST OF TOPICS IN THIS CHAPTER:",
       "items": [
         "- Topic 4.1: Looking for Information",
-        "- Topic 4.2: Circle Graph or Pie Chart"
+        "- Topic 4.2: Circle Graph or Pie Chart",
+        "Sub-Topic 4.2.1: Drawing Pie Charts",
+        "- Topic 4.3: Chance and Probability",
+        "Sub-Topic 4.3.1: Getting a Result",
+        "Sub-Topic 4.3.2: Equally Likely Outcomes",
+        "Sub-Topic 4.3.3: Linking Chances to Probability",
+        "Sub-Topic 4.3.4: Outcomes as Events",
+        "Sub-Topic 4.3.5: Chance and Probability Related to Real Life"
       ]
     },
     {
       "type": "qa",
       "label": "CHAPTER 4: Q&A:",
       "items": []
+    },
+    {
+      "type": "qa",
+      "label": "Q&A",
+      "items": [
+        {
+          "q_num": 1,
+          "marks": 2,
+          "question": "What is data? Give two examples.",
+          "answer": "Data is the information collected in the context of a situation that we want to study.\nExamples:\n(a) Runs made by a batsman in the last 10 test matches.\n(b) Marks scored by students in a Mathematics test."
+        },
+        {
+          "q_num": 2,
+          "marks": 2,
+          "question": "What is a circle graph? What is it also called?",
+          "answer": "A circle graph shows the relationship between a whole and its parts. The whole circle is divided into sectors. The size of each sector is proportional to the activity or information it represents.\nA circle graph is also called a PIE CHART."
+        },
+        {
+          "q_num": 3,
+          "marks": 2,
+          "question": "What is a random experiment? Give one example.",
+          "answer": "A random experiment is one whose outcome cannot be predicted or controlled exactly in advance.\nExample: Tossing a coin — we cannot predict whether we get Head or Tail.\n\n---"
+        },
+        {
+          "q_num": 4,
+          "marks": 3,
+          "question": "What is probability? Write its formula. When a die is thrown, find the probability of getting an even number.",
+          "answer": "Step 1: Probability is the measure of how likely an event is to occur.\nStep 2: Formula: Probability of an event = Number of outcomes that give the event / Total number of equally likely outcomes.\nStep 3: Even numbers on a die = 2, 4, 6 (3 outcomes). Total outcomes = 6.\nProbability of even number = 3/6 = 1/2."
+        },
+        {
+          "q_num": 5,
+          "marks": 3,
+          "question": "What is the difference between an outcome and an event? Give one example of each.",
+          "answer": "Step 1: OUTCOME — Each possible result of a random experiment is called an outcome.\nExample: When a coin is tossed, getting Head is one outcome.\nStep 2: EVENT — Each outcome or a collection of outcomes of an experiment is called an event.\nExample: When a die is thrown, getting an even number (2, 4, or 6) is an event — a collection of 3 outcomes.\nStep 3: So every outcome is an event, but an event can contain more than one outcome.\n\n---"
+        },
+        {
+          "q_num": 6,
+          "marks": 4,
+          "question": "A family's monthly expenditure is shown in a pie chart: Food 25%, Clothes 10%, House rent 10%, Education 15%, Transport 5%, Others 20%, Savings 15%.",
+          "answer": "Step 1: (i) Largest percentage = Food (25%). So expenditure is maximum on Food.\nStep 2: (ii) Savings = 15%. Education for children = 15%. They are equal.\nStep 3: (iii) 15% = Rs 3000. So 1% = Rs 3000/15 = Rs 200.\nFood = 25% = 25 x 200 = Rs 5000.\nStep 4: (iv) Clothes = 10% = 10 x 200 = Rs 2000."
+        },
+        {
+          "q_num": 7,
+          "marks": 4,
+          "question": "360 people voted for their favourite season: Summer = 90, Rainy = 120, Winter = 150.",
+          "answer": "Step 1: (i) Winter got most votes (150 votes).\nStep 2: (ii) Central angles:\nSummer: (90/360) x 360  = 90 degrees.\nRainy:  (120/360) x 360 = 120 degrees.\nWinter: (150/360) x 360 = 150 degrees.\nStep 3: (iii) Fractions:\nSummer = 90/360 = 1/4.\nRainy  = 120/360 = 1/3.\nWinter = 150/360 = 5/12.\nStep 4: (iv) Check: 90 + 120 + 150 = 360 degrees. (correct)\n\n---"
+        },
+        {
+          "q_num": 8,
+          "marks": 5,
+          "question": "A baker's shop had the following sales on a particular day:",
+          "answer": "PART A — Central angles for baker's shop:\nStep 1: Ordinary bread:     (320/720) x 360 = (4/9) x 360  = 160 degrees.\nStep 2: Fruit bread:        (80/720)  x 360 = (1/9) x 360  = 40 degrees.\nStep 3: Cakes and pastries: (160/720) x 360 = (2/9) x 360  = 80 degrees.\nStep 4: Biscuits:           (120/720) x 360 = (1/6) x 360  = 60 degrees.\nStep 5: Others:             (40/720)  x 360 = (1/18) x 360 = 20 degrees.\nVerify: 160 + 40 + 80 + 60 + 20 = 360 degrees. (correct)\n\nPART B — Probability from bag of balls:\nStep 1: Total balls = 5 red + 3 blue = 8 balls.\nStep 2: (i) P(red)  = 5/8.\nStep 3: (ii) P(blue) = 3/8.\nStep 4: (iii) Since 5/8 > 3/8, getting a red ball is more likely than getting a blue ball."
+        }
+      ]
     },
     {
       "type": "mcq",

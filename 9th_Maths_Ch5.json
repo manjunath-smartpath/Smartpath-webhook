@@ -112,6 +112,72 @@
       "items": []
     },
     {
+      "type": "qa",
+      "label": "Q&A",
+      "items": [
+        {
+          "q_num": 1,
+          "marks": 2,
+          "question": "",
+          "answer": "In Euclid's geometry, three terms are kept undefined: POINT, LINE and PLANE (plane\nsurface). These cannot be precisely defined without creating an endless chain of\ndefinitions. Euclid represented them intuitively or through physical models. A point\nis shown as a dot, a line as a straight mark extending both sides, and a plane as a\nflat surface."
+        },
+        {
+          "q_num": 2,
+          "marks": 2,
+          "question": "",
+          "answer": "Euclid's Postulate 1: A straight line may be drawn from any one point to any other\npoint.\nAxiom 5.1: Given two distinct points, there is a unique line that passes through them.\nNote: The postulate says at least one such line exists. Axiom 5.1 (derived from it)\nadds that the line is unique -- only one line passes through any two distinct points."
+        },
+        {
+          "q_num": 3,
+          "marks": 2,
+          "question": "",
+          "answer": "Both axioms and postulates are assumptions accepted without proof. However, POSTULATES\nare assumptions specific to geometry (Euclid stated 5 postulates). AXIOMS (common\nnotions) are universal assumptions used throughout all mathematics, not limited to\ngeometry (Euclid stated 7 axioms). Today, both terms are used interchangeably."
+        },
+        {
+          "q_num": 4,
+          "marks": 2,
+          "question": "",
+          "answer": "Axiom (1): Things which are equal to the same thing are equal to one another.\nExample: If AB = PQ and PQ = XY, then AB = XY.\n\nAxiom (5): The whole is greater than the part.\nExample: If B lies between A and C, then AC > AB (AC is the whole; AB is a part).\n\n---"
+        },
+        {
+          "q_num": 5,
+          "marks": 3,
+          "question": "",
+          "answer": "GIVEN: Two distinct lines l and m.\nTO PROVE: l and m have only one point in common.\nPROOF:\nStep 1: Assume (for contradiction) that lines l and m intersect in two distinct points,\nP and Q.\nStep 2: This means two distinct lines l and m pass through the same two distinct points\nP and Q. But by Axiom 5.1, given two distinct points, there is a UNIQUE line\npassing through them. So having two lines through P and Q contradicts Axiom 5.1.\nStep 3: Therefore, the assumption is wrong. We conclude that two distinct lines cannot\nhave more than one point in common.\nHENCE PROVED."
+        },
+        {
+          "q_num": 6,
+          "marks": 3,
+          "question": "",
+          "answer": "GIVEN: Points A, B, C on a line; B lies between A and C.\nTO PROVE: AB + BC = AC.\nPROOF:\nStep 1: From the figure, the segment AC coincides with AB + BC, since B divides AC\ninto two parts AB and BC.\nStep 2: By Euclid's Axiom (4): \"Things which coincide with one another are equal to\none another.\"\nStep 3: Since AC coincides with AB + BC:\nAB + BC = AC\nNote: This proof assumes a unique line passes through any two points.\nHENCE PROVED.\n\n---"
+        },
+        {
+          "q_num": 7,
+          "marks": 4,
+          "question": "",
+          "answer": "GIVEN: A line segment AB of any length.\nTO PROVE: An equilateral triangle ABC can be constructed on AB.\nCONSTRUCTION:\nStep 1: Using Euclid's Postulate 3, draw a circle with centre A and radius AB.\nStep 2: Using Euclid's Postulate 3, draw another circle with centre B and radius BA.\nStep 3: Let the two circles meet at point C.\nDraw line segments AC and BC. Triangle ABC is formed.\nPROOF:\nStep 4: AB = AC (both are radii of the circle with centre A)         ...(1)\nStep 5: AB = BC (both are radii of the circle with centre B)         ...(2)\nStep 6: From (1) and (2), applying Euclid's Axiom (1) -- things which are equal to\nthe same thing are equal to one another:\nAB = BC = AC\nStep 7: Since all three sides are equal, triangle ABC is equilateral.\nHENCE PROVED.\nNote: Euclid assumed (without mentioning) that the two circles drawn with centres\nA and B will meet each other at a point."
+        },
+        {
+          "q_num": 8,
+          "marks": 4,
+          "question": "",
+          "answer": "GIVEN: Four points A, B, C, D on a line in the order A, B, C, D; and AC = BD.\nTO PROVE: AB = CD.\nFIGURE: A ____B____C____D\nPROOF:\nStep 1: Since B lies between A and C on the line:\nAC = AB + BC       ...(i)\n[B divides AC into AB and BC]\nStep 2: Since C lies between B and D on the line:\nBD = BC + CD       ...(ii)\n[C divides BD into BC and CD]\nStep 3: It is given that:\nAC = BD            ...(iii)\nStep 4: Substituting (i) and (ii) in (iii):\nAB + BC = BC + CD\nStep 5: By Euclid's Axiom (3) -- \"If equals are subtracted from equals, the remainders\nare equal\" -- subtracting BC from both sides:\nAB = CD\nHENCE PROVED."
+        },
+        {
+          "q_num": 9,
+          "marks": 4,
+          "question": "",
+          "answer": "PART 1 -- Proving AC = (1/2) AB:\nGIVEN: Points A, C, B on a line; C lies between A and B; AC = BC.\nTO PROVE: AC = (1/2) AB.\nFIGURE: A ______C______ B\n\nStep 1: Since C lies between A and C:\nAC + CB = AB       ...(i)\n[By Axiom (4): AC coincides with part of AB, so AC + CB = AB]\nStep 2: Given AC = BC              ...(ii)\nStep 3: Substituting (ii) in (i):\nAC + AC = AB\n2 AC = AB\nAC = (1/2) AB\n[By Axiom (7): Things which are halves of the same things are equal]\nHENCE PROVED.\n\nPART 2 -- Every line segment has only one mid-point:\nStep 4: Suppose, if possible, AB has TWO mid-points C and D (C ≠ D).\nStep 5: Since C is mid-point: 2 AC = AB  =>  AC = AB/2      ...(iii)\nSince D is mid-point: 2 AD = AB  =>  AD = AB/2      ...(iv)\nStep 6: From (iii) and (iv): AC = AD.\nBut C and D are distinct points on AB -- only one point on AB can be at\ndistance AB/2 from A. This is a contradiction.\nStep 7: Therefore the assumption is wrong. Every line segment has one and only one\nmid-point.\nHENCE PROVED.\n\n---"
+        },
+        {
+          "q_num": 10,
+          "marks": 5,
+          "question": "",
+          "answer": "PART A — Development of Geometry Across Civilisations:\n\nGeometry originated from the need for measuring land. The word 'geometry' comes from\nGreek words 'geo' (earth) and 'metrein' (to measure). It was studied in various ancient\ncivilisations:\n\n1. Egyptian Civilisation:\nThe Egyptians developed geometry mainly because of flooding by the river Nile, which\nwiped out field boundaries. They developed techniques for calculating areas and for\nconstructing canals and pyramids. They also knew the formula for the volume of a\ntruncated pyramid.\n\n2. Indus Valley Civilisation (about 3000 BCE):\nExcavations at Harappa and Mohenjo-Daro show extensive use of geometry. Cities were\nwell planned with parallel roads and drainage systems. Bricks had a fixed ratio of\nlength : breadth : thickness = 4 : 2 : 1.\n\n3. Ancient India -- Sulbasutras (800 BCE to 500 BCE):\nThe Sulbasutras were manuals of geometrical constructions for building altars (vedis).\nThe Sriyantra from the Atharvaveda consists of nine interwoven isosceles triangles\nproducing 43 subsidiary triangles. Accurate geometric methods were used but the\nreasoning behind them was not discussed.\n\n4. Babylonians and Egyptians:\nBoth civilisations used geometry mostly for practical purposes -- calculating areas,\nvolumes, and for constructions. There were no general rules or proofs.\n\n5. Greek Civilisation -- Key Difference:\nThe Greeks were the first to emphasise the REASONING behind geometric constructions.\nThey were interested in establishing the TRUTH of geometric statements using\ndeductive reasoning. Thales (640-546 BCE) gave the first known proof -- that a\ncircle is bisected by its diameter. Pythagoras (572 BCE), his famous pupil,\ndiscovered many geometric properties.\n\nEuclid (325-265 BCE), teacher at Alexandria, collected all known geometry into\n'Elements' -- 13 books -- which influenced the world's understanding of geometry.\n\nPART B — Euclid's Approach: Definitions, Axioms, Postulates and Theorems:\n\n1. Definitions:\nEuclid gave 23 definitions in Book 1 of 'Elements'. Some important ones:\n- A point is that which has no part.\n- A line is breadthless length.\n- A straight line lies evenly with the points on itself.\n- A surface has length and breadth only.\n\n2. Undefined Terms:\nSome terms like 'point', 'line' and 'plane' cannot be defined precisely without\ncreating a never-ending chain of definitions. So they are kept as UNDEFINED TERMS.\nWe represent them intuitively using physical models (a dot for point, a straight\nmark for line, a flat surface for plane).\n\n3. Euclid's 7 Axioms (Common Notions -- true throughout all mathematics):\n(1) Things equal to the same thing are equal to one another.\n(2) If equals are added to equals, wholes are equal.\n(3) If equals are subtracted from equals, remainders are equal.\n(4) Things which coincide are equal to one another. [Justifies superposition]\n(5) The whole is greater than the part.\n(6) Things double of the same things are equal.\n(7) Things half of the same things are equal.\n\n4. Euclid's 5 Postulates (specific to geometry):\nPostulate 1: A straight line may be drawn from any point to any other point.\nPostulate 2: A terminated line can be produced indefinitely.\nPostulate 3: A circle can be drawn with any centre and any radius.\nPostulate 4: All right angles are equal to one another.\nPostulate 5: (Parallel postulate -- most complex) If a straight line falling on two\nstraight lines makes interior angles on the same side less than two right angles,\nthe two lines meet on that side if produced indefinitely.\n\n5. Theorems (Propositions):\nStarting from axioms, postulates, and definitions, Euclid PROVED 465 propositions\n(theorems) using deductive reasoning. Theorems are not assumed -- they are derived\nthrough logical steps. Example: Theorem 5.1 proves that two distinct lines cannot\nhave more than one point in common (proved using Axiom 5.1).\n\n6. Consistent System:\nA system of axioms is consistent if no contradiction can be deduced from them.\nEuclid's system is consistent."
+        }
+      ]
+    },
+    {
       "type": "mcq",
       "label": "CHAPTER 5: MCQs:",
       "items": [

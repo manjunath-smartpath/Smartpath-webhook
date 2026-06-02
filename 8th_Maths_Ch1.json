@@ -32,7 +32,13 @@
       "label": "LIST OF TOPICS IN THIS CHAPTER:",
       "items": [
         "- Topic 1.1: Introduction",
-        "- Topic 1.2: Properties of Rational Numbers"
+        "- Topic 1.2: Properties of Rational Numbers",
+        "Sub-Topic 1.2.1: Closure",
+        "Sub-Topic 1.2.2: Commutativity",
+        "Sub-Topic 1.2.3: Associativity",
+        "Sub-Topic 1.2.4: The role of zero (0)",
+        "Sub-Topic 1.2.5: The role of 1",
+        "Sub-Topic 1.2.6: Distributivity of multiplication over addition for rational numbers"
       ]
     },
     {
@@ -41,9 +47,162 @@
       "items": []
     },
     {
+      "type": "qa",
+      "label": "Q&A",
+      "items": [
+        {
+          "q_num": 1,
+          "marks": 2,
+          "question": "What is a rational number? Give two examples.",
+          "answer": "A number which can be written in the form p/q, where p and q are integers and q is not equal to 0, is called a rational number.\nExamples: -2/3 and 6/7 are rational numbers."
+        },
+        {
+          "q_num": 2,
+          "marks": 2,
+          "question": "What is the additive identity for rational numbers? Give an example.",
+          "answer": "Zero (0) is the additive identity for rational numbers.\nFor any rational number a, a + 0 = 0 + a = a.\nExample: -3/7 + 0 = 0 + (-3/7) = -3/7."
+        },
+        {
+          "q_num": 3,
+          "marks": 2,
+          "question": "What is the multiplicative identity for rational numbers? Give an example.",
+          "answer": "One (1) is the multiplicative identity for rational numbers.\nFor any rational number a, a x 1 = 1 x a = a.\nExample: -4/5 x 1 = 1 x (-4/5) = -4/5.\n\n---"
+        },
+        {
+          "q_num": 4,
+          "marks": 3,
+          "question": "Are rational numbers closed under addition? Verify with an example.",
+          "answer": "Yes, rational numbers are closed under addition.\nThis means the sum of any two rational numbers is always a rational number.\n\nVerification:\nStep 1: Take 3/8 + (-5/7)\nStep 2: LCM of 8 and 7 is 56\nStep 3: = 21/56 + (-40/56) = -19/56\n\n-19/56 is a rational number.\nSo rational numbers are closed under addition."
+        },
+        {
+          "q_num": 5,
+          "marks": 3,
+          "question": "State the distributive property of multiplication over addition for rational numbers and verify it.",
+          "answer": "For all rational numbers a, b and c: a(b + c) = ab + ac.\n\nVerification with a = -3/4, b = 2/3, c = -5/6:\nStep 1: LHS = (-3/4) x {(2/3) + (-5/6)} = (-3/4) x (-1/6) = 3/24 = 1/8\nStep 2: RHS = (-3/4 x 2/3) + (-3/4 x -5/6) = -1/2 + 5/8 = -4/8 + 5/8 = 1/8\n\nLHS = RHS = 1/8. So distributive property holds.\n\n---"
+        },
+        {
+          "q_num": 6,
+          "marks": 4,
+          "question": "Verify that addition is commutative and associative for rational numbers using examples.",
+          "answer": "Commutativity of addition (a + b = b + a):\nStep 1: Take a = -2/3, b = 5/7\nStep 2: LHS = -2/3 + 5/7 = -14/21 + 15/21 = 1/21\nStep 3: RHS = 5/7 + (-2/3) = 15/21 + (-14/21) = 1/21\nLHS = RHS. So addition is commutative.\n\nAssociativity of addition ((a + b) + c = a + (b + c)):\nStep 1: Take a = -2/3, b = 3/5, c = -5/6\nStep 2: LHS = (-2/3 + 3/5) + (-5/6) = -1/15 + (-5/6) = -2/30 + (-25/30) = -27/30 = -9/10\nStep 3: RHS = -2/3 + (3/5 + (-5/6)) = -2/3 + (-7/30) = -20/30 + (-7/30) = -27/30 = -9/10\nLHS = RHS. So addition is associative."
+        },
+        {
+          "q_num": 7,
+          "marks": 4,
+          "question": "Simplify using properties of rational numbers:",
+          "answer": "(i) Using commutativity and associativity:\n= [3/7 + (-8/21)] + [-6/11 + 5/22]\n= [(9-8)/21] + [(-12+5)/22]\n= 1/21 + (-7/22)\n= 22/462 + (-147/462)\n= -125/462\n\n(ii) Using commutativity and associativity:\n= (-4/5 x 15/16) x (3/7 x (-14/9))\n= (-3/4) x (-2/3)\n= 6/12 = 1/2\n\n---\n\n(5 mark Q&A is combined at chapter level — see Topic/Sub-topic level for combined questions)"
+        }
+      ]
+    },
+    {
       "type": "mcq",
       "label": "CHAPTER 1: MCQs:",
-      "items": []
+      "items": [
+        {
+          "mcq_num": 1,
+          "difficulty": "Easy",
+          "question": "Q: Which of the following is a rational number?",
+          "options": {
+            "A": "3/0",
+            "B": "-2/3",
+            "C": "0/0",
+            "D": "None of these"
+          },
+          "answer": "B",
+          "explanation": "A rational number is of the form p/q where p, q are integers and q is not equal to 0. Here -2/3 satisfies this. Options A and C have denominator 0, so they are not rational numbers."
+        },
+        {
+          "mcq_num": 2,
+          "difficulty": "Easy",
+          "question": "Q: The additive identity for rational numbers is:",
+          "options": {
+            "A": "1",
+            "B": "-1",
+            "C": "0",
+            "D": "Any rational number"
+          },
+          "answer": "C",
+          "explanation": "Zero (0) is the additive identity because a + 0 = 0 + a = a for any rational number a."
+        },
+        {
+          "mcq_num": 3,
+          "difficulty": "Medium",
+          "question": "Q: Rational numbers are closed under all of the following EXCEPT:",
+          "options": {
+            "A": "Addition",
+            "B": "Subtraction",
+            "C": "Multiplication",
+            "D": "Division"
+          },
+          "answer": "D",
+          "explanation": "Rational numbers are not closed under division because a / 0 is not defined."
+        },
+        {
+          "mcq_num": 4,
+          "difficulty": "Medium",
+          "question": "Q: For all rational numbers a, b and c, a(b + c) = ab + ac is called:",
+          "options": {
+            "A": "Commutativity",
+            "B": "Associativity",
+            "C": "Distributivity",
+            "D": "Closure"
+          },
+          "answer": "C",
+          "explanation": "This is the distributive property of multiplication over addition."
+        },
+        {
+          "mcq_num": 5,
+          "difficulty": "Hard",
+          "question": "Q: Which of the following is TRUE for rational numbers?",
+          "options": {
+            "A": "Subtraction is commutative",
+            "B": "Division is associative",
+            "C": "Multiplication is both commutative and associative",
+            "D": "Division is closed"
+          },
+          "answer": "C",
+          "explanation": "Multiplication is both commutative (a x b = b x a) and associative ((a x b) x c = a x (b x c)) for rational numbers."
+        },
+        {
+          "mcq_num": 6,
+          "difficulty": "Hard",
+          "question": "Q: Which of the following statements is CORRECT?",
+          "options": {
+            "A": "0 is the multiplicative identity for rational numbers",
+            "B": "1 is the additive identity for rational numbers",
+            "C": "0 is the additive identity and 1 is the multiplicative identity",
+            "D": "Both 0 and 1 are additive identities"
+          },
+          "answer": "C",
+          "explanation": "0 is the additive identity (a + 0 = a) and 1 is the multiplicative identity (a x 1 = a) for rational numbers."
+        },
+        {
+          "mcq_num": 7,
+          "difficulty": "Easy",
+          "question": "Q: For rational numbers, which of the following is always a rational number?",
+          "options": {
+            "A": "a + b",
+            "B": "a - b",
+            "C": "a x b",
+            "D": "All of these"
+          },
+          "answer": "D",
+          "explanation": "Rational numbers are closed under addition, subtraction, and multiplication. So all three results are always rational numbers."
+        },
+        {
+          "mcq_num": 8,
+          "difficulty": "Medium",
+          "question": "Q: If a = -3/4 and b = 2/3, then a x b equals:",
+          "options": {
+            "A": "-1/2",
+            "B": "1/2",
+            "C": "-6/12",
+            "D": "Both A and C"
+          },
+          "answer": "D",
+          "explanation": "-3/4 x 2/3 = -6/12 = -1/2. Both A and C are correct representations of the same value."
+        }
+      ]
     }
   ],
   "topics": [
@@ -139,11 +298,6 @@
         {
           "type": "mcq",
           "label": "TOPIC 1.1: MCQs:",
-          "items": []
-        },
-        {
-          "type": "mcq",
-          "label": "MCQ",
           "items": [
             {
               "mcq_num": 1,
@@ -351,11 +505,6 @@
         {
           "type": "mcq",
           "label": "TOPIC 1.2: MCQs:",
-          "items": []
-        },
-        {
-          "type": "mcq",
-          "label": "MCQ",
           "items": [
             {
               "mcq_num": 1,
@@ -589,11 +738,6 @@
             {
               "type": "mcq",
               "label": "SUB-TOPIC 1.2.1: MCQs:",
-              "items": []
-            },
-            {
-              "type": "mcq",
-              "label": "MCQ",
               "items": [
                 {
                   "mcq_num": 1,
@@ -823,11 +967,6 @@
             {
               "type": "mcq",
               "label": "SUB-TOPIC 1.2.2: MCQs:",
-              "items": []
-            },
-            {
-              "type": "mcq",
-              "label": "MCQ",
               "items": [
                 {
                   "mcq_num": 1,
@@ -1096,11 +1235,6 @@
             {
               "type": "mcq",
               "label": "SUB-TOPIC 1.2.3: MCQs:",
-              "items": []
-            },
-            {
-              "type": "mcq",
-              "label": "MCQ",
               "items": [
                 {
                   "mcq_num": 1,
@@ -1290,11 +1424,6 @@
             {
               "type": "mcq",
               "label": "SUB-TOPIC 1.2.4: MCQs:",
-              "items": []
-            },
-            {
-              "type": "mcq",
-              "label": "MCQ",
               "items": [
                 {
                   "mcq_num": 1,
@@ -1485,11 +1614,6 @@
             {
               "type": "mcq",
               "label": "SUB-TOPIC 1.2.5: MCQs:",
-              "items": []
-            },
-            {
-              "type": "mcq",
-              "label": "MCQ",
               "items": [
                 {
                   "mcq_num": 1,
@@ -1712,11 +1836,6 @@
             {
               "type": "mcq",
               "label": "SUB-TOPIC 1.2.6: MCQs:",
-              "items": []
-            },
-            {
-              "type": "mcq",
-              "label": "MCQ",
               "items": [
                 {
                   "mcq_num": 1,

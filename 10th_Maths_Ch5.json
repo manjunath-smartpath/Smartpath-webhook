@@ -45,6 +45,30 @@
       "items": []
     },
     {
+      "type": "qa",
+      "label": "Q&A",
+      "items": [
+        {
+          "q_num": 1,
+          "marks": 2,
+          "question": "Define Arithmetic Progression (AP). Give the general form.",
+          "answer": "An ARITHMETIC PROGRESSION (AP) is a list of numbers in which each term is obtained by\nadding a fixed number to the preceding term, except the first term.\nThis fixed number is called the COMMON DIFFERENCE (d). It can be positive, negative or zero.\n\nGeneral form of an AP:\na,  a+d,  a+2d,  a+3d, ...\nwhere a = first term,  d = common difference.\n\nExample: 2, 5, 8, 11, ... is an AP with a = 2 and d = 3.\n\n---"
+        },
+        {
+          "q_num": 2,
+          "marks": 2,
+          "question": "Write the formula for the nth term of an AP and state what each symbol means.",
+          "answer": "The nth term (general term) of an AP is given by:\n\na_n = a + (n - 1)d\n\nWHERE:\na_n = nth term\na   = first term\nn   = position of the term\nd   = common difference\n\nNote: If there are m terms in the AP, the last term l = a_m = a + (m - 1)d.\n\nExample: For AP 2, 7, 12, ..., a = 2, d = 5.\na_10 = 2 + (10 - 1) × 5 = 2 + 45 = 47.\n\n---"
+        },
+        {
+          "q_num": 3,
+          "marks": 2,
+          "question": "Write the two formulas for the sum of the first n terms of an AP. When is each used?",
+          "answer": ""
+        }
+      ]
+    },
+    {
       "type": "formulas",
       "label": "FORMULA 1 (when a and d are known):",
       "items": [

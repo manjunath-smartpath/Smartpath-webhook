@@ -42,6 +42,72 @@
       "items": []
     },
     {
+      "type": "qa",
+      "label": "Q&A",
+      "items": [
+        {
+          "q_num": 1,
+          "marks": 2,
+          "question": "What is a quadrilateral? Name its elements.",
+          "answer": "A QUADRILATERAL is a closed figure with four sides, four angles and four vertices.\nIts elements are: four sides (AB, BC, CD, DA), four angles (angle A, angle B, angle C, angle D) and four vertices (A, B, C, D).\nThe sum of all four angles of a quadrilateral is 360 degrees."
+        },
+        {
+          "q_num": 2,
+          "marks": 2,
+          "question": "What is a parallelogram? Name three special types of parallelograms.",
+          "answer": "A PARALLELOGRAM is a quadrilateral in which both pairs of opposite sides are parallel.\nThree special types:\n(i)  RECTANGLE — a parallelogram in which one angle is a right angle (90 degrees).\n(ii) RHOMBUS   — a parallelogram in which all four sides are equal.\n(iii) SQUARE   — a parallelogram in which all four sides are equal and one angle is 90 degrees."
+        },
+        {
+          "q_num": 3,
+          "marks": 2,
+          "question": "State the Mid-point Theorem.",
+          "answer": "Mid-point Theorem (Theorem 8.8):\nThe line segment joining the mid-points of two sides of a triangle is parallel to the third side and is half of it.\nIf E and F are mid-points of AB and AC in Triangle ABC, then:\nEF || BC  and  EF = (1/2) BC."
+        },
+        {
+          "q_num": 4,
+          "marks": 2,
+          "question": "State the converse of the Mid-point Theorem. (Theorem 8.9)",
+          "answer": "Converse of Mid-point Theorem (Theorem 8.9):\nThe line drawn through the mid-point of one side of a triangle, parallel to another side, bisects the third side.\nThat is, if E is the mid-point of AB and EF || BC, then F is the mid-point of AC.\n\n---"
+        },
+        {
+          "q_num": 5,
+          "marks": 3,
+          "question": "In a parallelogram ABCD, angle A = 65 degrees. Find all four angles. State the properties used.",
+          "answer": "Step 1: Given: ABCD is a parallelogram, angle A = 65 degrees.\nStep 2: angle C = angle A = 65 degrees.\n(Reason: Opposite angles of a parallelogram are equal — Theorem 8.4)\nStep 3: angle A + angle B = 180 degrees.  (Co-interior angles, AD || BC)\n65 + angle B = 180 degrees.\nangle B = 180 - 65 = 115 degrees.\nStep 4: angle D = angle B = 115 degrees.  (Opposite angles are equal)\nAnswer: angle A = 65 degrees, angle B = 115 degrees, angle C = 65 degrees, angle D = 115 degrees."
+        },
+        {
+          "q_num": 6,
+          "marks": 3,
+          "question": "In Triangle ABC, D and E are mid-points of AB and AC respectively. If DE = 4.5 cm, find BC. Also find the perimeter of Triangle ADE if AB = 8 cm and AC = 6 cm.",
+          "answer": "Step 1: Given: D and E are mid-points of AB and AC. DE = 4.5 cm.\nStep 2: By Mid-point Theorem, DE = (1/2) BC.\nSo, BC = 2 x DE = 2 x 4.5 = 9 cm.\nStep 3: Since D is mid-point of AB: AD = (1/2) x AB = (1/2) x 8 = 4 cm.\nSince E is mid-point of AC: AE = (1/2) x AC = (1/2) x 6 = 3 cm.\nPerimeter of Triangle ADE = AD + DE + AE = 4 + 4.5 + 3 = 11.5 cm.\n\n---"
+        },
+        {
+          "q_num": 7,
+          "marks": 4,
+          "question": "Prove that a diagonal of a parallelogram divides it into two congruent triangles. (Theorem 8.1)",
+          "answer": "GIVEN:    ABCD is a parallelogram. AC is a diagonal.\nTO PROVE: Triangle ABC is congruent to Triangle CDA.\nPROOF:\nStep 1: In parallelogram ABCD, BC || AD and AC is a transversal.\nTherefore, angle BCA = angle DAC.  (Alternate interior angles)\nStep 2: Also, AB || DC and AC is a transversal.\nTherefore, angle BAC = angle DCA.  (Alternate interior angles)\nStep 3: AC = CA.  (Common side)\nStep 4: By ASA congruence rule:\nTriangle ABC is congruent to Triangle CDA.\nTherefore AB = DC and AD = BC.  (CPCT)\nHENCE PROVED."
+        },
+        {
+          "q_num": 8,
+          "marks": 4,
+          "question": "Prove that the diagonals of a parallelogram bisect each other. (Theorem 8.6)",
+          "answer": "GIVEN:    ABCD is a parallelogram. Diagonals AC and BD intersect at O.\nTO PROVE: OA = OC and OB = OD.\nPROOF:\nStep 1: In Triangle AOB and Triangle COD:\nAB || DC and BD is a transversal.\nTherefore, angle OAB = angle OCD.  (Alternate interior angles)\nStep 2: AB || DC and AC is a transversal.\nTherefore, angle OBA = angle ODC.  (Alternate interior angles)\nStep 3: AB = CD.  (Opposite sides of a parallelogram are equal — Theorem 8.2)\nStep 4: By ASA congruence rule:\nTriangle AOB is congruent to Triangle COD.\nTherefore, OA = OC and OB = OD.  (CPCT)\nHence, the diagonals of a parallelogram bisect each other.\nHENCE PROVED."
+        },
+        {
+          "q_num": 9,
+          "marks": 4,
+          "question": "ABCD is a quadrilateral in which P, Q, R and S are mid-points of sides AB, BC, CD and DA respectively. AC is a diagonal. Show that PQRS is a parallelogram.",
+          "answer": "GIVEN:    ABCD is a quadrilateral. P, Q, R, S are mid-points of AB, BC, CD, DA. AC is a diagonal.\nTO PROVE: PQRS is a parallelogram.\nPROOF:\nStep 1: In Triangle ABC, P is mid-point of AB and Q is mid-point of BC.\nBy Mid-point Theorem (Theorem 8.8):\nPQ || AC  and  PQ = (1/2) AC.  ... (1)\nStep 2: In Triangle ACD, S is mid-point of DA and R is mid-point of CD.\nBy Mid-point Theorem (Theorem 8.8):\nSR || AC  and  SR = (1/2) AC.  ... (2)\nStep 3: From (1) and (2): PQ || SR  and  PQ = SR.\nStep 4: In quadrilateral PQRS, one pair of opposite sides (PQ and SR) is both equal and parallel.\nTherefore, PQRS is a parallelogram.\nHENCE PROVED.\n\n---"
+        },
+        {
+          "q_num": 10,
+          "marks": 5,
+          "question": "(a) Prove that in a parallelogram, opposite angles are equal. (Theorem 8.4)",
+          "answer": "PART A — Proof that opposite angles of a parallelogram are equal (Theorem 8.4):\nGIVEN:    ABCD is a parallelogram.\nTO PROVE: angle A = angle C  and  angle B = angle D.\nPROOF:\nStep 1: By Theorem 8.1, diagonal AC divides parallelogram ABCD into two congruent triangles:\nTriangle ABC is congruent to Triangle CDA.  (ASA rule, proved in Theorem 8.1)\nStep 2: From CPCT: angle ABC = angle CDA.\nThat is, angle B = angle D.\nStep 3: Similarly, diagonal BD divides ABCD into Triangle ABD and Triangle CDB.\nBy the same argument (AB || DC, AD || BC, BD common):\nTriangle ABD is congruent to Triangle CDB.  (ASA rule)\nFrom CPCT: angle DAB = angle BCD.\nThat is, angle A = angle C.\nStep 4: Therefore, opposite angles of a parallelogram are equal.\nHENCE PROVED.\n\nPART B — Finding all angles and verifying diagonal bisection:\nStep 1: Given angle A : angle B = 2 : 3.\nLet angle A = 2x and angle B = 3x.\nStep 2: In a parallelogram, consecutive angles are supplementary:\nangle A + angle B = 180 degrees.\n2x + 3x = 180 degrees.\n5x = 180 degrees.\nx = 36 degrees.\nStep 3: angle A = 2 x 36 = 72 degrees.\nangle B = 3 x 36 = 108 degrees.\nangle C = angle A = 72 degrees.  (Opposite angles are equal)\nangle D = angle B = 108 degrees.  (Opposite angles are equal)\nStep 4: Verification — Diagonal bisection:\nGiven AC = 12 cm and BD = 8 cm.\nBy Theorem 8.6 (diagonals of a parallelogram bisect each other):\nOA = OC = AC / 2 = 12 / 2 = 6 cm.\nOB = OD = BD / 2 = 8 / 2 = 4 cm.\nAnswer: angle A = 72 degrees, angle B = 108 degrees, angle C = 72 degrees, angle D = 108 degrees.\nOA = OC = 6 cm, OB = OD = 4 cm."
+        }
+      ]
+    },
+    {
       "type": "mcq",
       "label": "CHAPTER 8: MCQs:",
       "items": [

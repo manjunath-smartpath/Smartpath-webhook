@@ -30,13 +30,68 @@
         "- Topic 10.1: Introduction",
         "- Topic 10.2: Powers with Negative Exponents",
         "- Topic 10.3: Laws of Exponents",
-        "- Topic 10.4: Use of Exponents to Express Small Numbers in Standard Form"
+        "- Topic 10.4: Use of Exponents to Express Small Numbers in Standard Form",
+        "Sub-Topic 10.4.1: Comparing Very Large and Very Small Numbers"
       ]
     },
     {
       "type": "qa",
       "label": "CHAPTER 10: Q&A",
       "items": []
+    },
+    {
+      "type": "qa",
+      "label": "Q&A",
+      "items": [
+        {
+          "q_num": 1,
+          "marks": 2,
+          "question": "What is an exponent? Give an example.",
+          "answer": "EXPONENT (also called power or index) is the number that tells how many times the base is multiplied by itself.\nIn a^m: a is the BASE, m is the EXPONENT.\nExample: 2^5 means 2 x 2 x 2 x 2 x 2 = 32. Here base = 2, exponent = 5.\nIn Class 8, we extend this to negative exponents: a^(-m) = 1/a^m."
+        },
+        {
+          "q_num": 2,
+          "marks": 2,
+          "question": "What does a^(-m) mean? Find 3^(-2) and 10^(-3).",
+          "answer": "a^(-m) = 1/a^m (the multiplicative inverse of a^m).\n3^(-2) = 1/3^2 = 1/9.\n10^(-3) = 1/10^3 = 1/1000 = 0.001.\nRule: (a/b)^(-m) = (b/a)^m."
+        },
+        {
+          "q_num": 3,
+          "marks": 2,
+          "question": "What is standard form of a number? Give one example each for large and small numbers.",
+          "answer": "STANDARD FORM: a number written as m x 10^n, where 1 <= m < 10 and n is an integer.\nLarge: 1,50,000,000,000 m = 1.5 x 10^11 m (positive exponent).\nSmall: 0.000007 m = 7 x 10^(-6) m (negative exponent).\n\n---"
+        },
+        {
+          "q_num": 4,
+          "marks": 3,
+          "question": "State all six laws of exponents. Give one example for any two laws.",
+          "answer": "Step 1: Laws (a, b non-zero integers; m, n any integers):\n(i) a^m x a^n = a^(m+n). (ii) a^m / a^n = a^(m-n). (iii) (a^m)^n = a^(mn).\n(iv) a^m x b^m = (ab)^m. (v) a^m / b^m = (a/b)^m. (vi) a^0 = 1.\nStep 2: Example (i): 2^3 x 2^4 = 2^(3+4) = 2^7 = 128.\nStep 3: Example (iii): (3^2)^3 = 3^(2x3) = 3^6 = 729."
+        },
+        {
+          "q_num": 5,
+          "marks": 3,
+          "question": "Express the following in standard form: (i) 4050000 (ii) 0.000035.",
+          "answer": "Step 1: 4050000 = 4.05 x 1000000 = 4.05 x 10^6.\n(Move decimal 6 places left to get 4.05, a number between 1 and 10.)\nStep 2: 0.000035 = 35/1000000 = 3.5/100000 = 3.5 x 10^(-5).\n(Move decimal 5 places right to get 3.5.)\nStep 3: Check: In 4.05 x 10^6, 1 <= 4.05 < 10 ✓. In 3.5 x 10^(-5), 1 <= 3.5 < 10 ✓.\n\n---"
+        },
+        {
+          "q_num": 6,
+          "marks": 4,
+          "question": "Simplify and write in exponential form:",
+          "answer": "Step 1: (i) (2^5/2^8)^5 x 2^(-5) = (2^(5-8))^5 x 2^(-5) = (2^(-3))^5 x 2^(-5)\n= 2^(-15) x 2^(-5) = 2^(-15-5) = 2^(-20).\nStep 2: (ii) (-4)^(-3) x (5)^(-3) x (-5)^(-3)\n= [(-4) x 5 x (-5)]^(-3)    [Using a^m x b^m = (ab)^m]\n= [100]^(-3) = 1/100^3.\nStep 3: Verification (i): 2^(-20) = 1/2^20. This is a very small positive number. ✓\nStep 4: Verification (ii): (-4) x 5 = -20. -20 x (-5) = 100. So (100)^(-3) = 1/100^3. ✓"
+        },
+        {
+          "q_num": 7,
+          "marks": 4,
+          "question": "A red blood cell is 0.000007 m in diameter. The distance from Earth to Sun is 1.496 x 10^11 m. Express the cell diameter in standard form and find how many times larger the Earth-Sun distance is than the cell diameter.",
+          "answer": "Step 1: Cell diameter = 0.000007 m = 7 x 10^(-6) m.\nStep 2: Earth-Sun distance = 1.496 x 10^11 m.\nStep 3: Ratio = (1.496 x 10^11) / (7 x 10^(-6))\n= (1.496/7) x 10^(11-(-6))\n= (1.496/7) x 10^17\n= 0.2137 x 10^17\n= 2.137 x 10^16.\nStep 4: The Earth-Sun distance is approximately 2.1 x 10^16 times larger than the red blood cell.\n\n---"
+        },
+        {
+          "q_num": 8,
+          "marks": 5,
+          "question": "PART A — Simplify: (i) [(-3)^4 x (5/3)^4] and (ii) Find m if (-3)^(m+1) x (-3)^5 = (-3)^7.",
+          "answer": "PART A — Simplification:\n(i) (-3)^4 x (5/3)^4 = (-3)^4 x 5^4 / 3^4\n= (-1)^4 x 3^4 x 5^4 / 3^4\n= 1 x 5^4 = 5^4 = 625.\n\n(ii) (-3)^(m+1) x (-3)^5 = (-3)^7\n(-3)^(m+1+5) = (-3)^7\n(-3)^(m+6) = (-3)^7\nm + 6 = 7 (equating exponents, since base ≠ ±1)\nm = 1.\n\nPART B — Standard Form Comparison:\nStep 1: Bacterium = 0.0000005 m = 5 x 10^(-7) m.\nStep 2: Hair = 0.00006 m = 6 x 10^(-5) m.\nStep 3: Ratio = (6 x 10^(-5)) / (5 x 10^(-7))\n= (6/5) x 10^(-5-(-7))\n= 1.2 x 10^2 = 120.\nStep 4: A human hair is 120 times thicker than a bacterium.\n\nFinal Answer: 5^4 = 625. m = 1. Hair is 120 times thicker than bacterium."
+        }
+      ]
     },
     {
       "type": "mcq",

@@ -169,20 +169,25 @@ async function incrementEvalCount(student) {
 async function evaluateAnswer(cls, subject, question, marks, modelAnswer, studentAnswer) {
   try {
     const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
-    const sys = `You are a KSEEB class ${cls} ${subject} teacher. ` +
-      `Evaluate the student's answer strictly but kindly. ` +
-      `Give marks out of ${marks}. Compare against the model answer. ` +
-      `Point out: correct points (✅), minor mistakes (⚠️), missed points (❌), grammar errors. ` +
-      `Then give a better model answer. Keep response under 250 words. ` +
-      `Use a simple Kannada + English mix. Use this exact format:\n` +
-      `📝 EVALUATION REPORT — X/${marks} marks\n\n✅ ಸರಿ ಇದೆ:\n...\n\n⚠️ Minor mistakes:\n...\n\n❌ Miss ಆಗಿದ್ದು:\n...\n\n💡 Better answer:\n...`;
-    const user = `Question: ${question} (${marks} marks)\n\n` +
-      `Model Answer (reference): ${modelAnswer}\n\n` +
-      `Student Answer: ${studentAnswer}\n\nEvaluate and give the report.`;
+    const sys = `You are a warm, encouraging KSEEB class ${cls} ${subject} teacher evaluating a student's written exam answer. ` +
+      `Compare the student answer against the model answer and award marks out of ${marks} (can be half marks like 1.5). ` +
+      `Be encouraging like a caring teacher — celebrate what they got right first, then guide gently. ` +
+      `Respond in a friendly Kannada + English mix. Be specific and detailed but warm. ` +
+      `Use EXACTLY this format with these emoji headers:\n\n` +
+      `🎯 *MARKS: X/${marks}*\n\n` +
+      `✅ *ಚೆನ್ನಾಗಿ ಬರೆದಿದ್ದು (Good points):*\n• point 1\n• point 2\n\n` +
+      `📌 *ಸೇರಿಸಬೇಕಾಗಿದ್ದು (To improve):*\n• missed point 1\n• missed point 2\n\n` +
+      `💡 *Model Answer (ideal):*\n(write the complete correct answer here, exam-ready, in simple language)\n\n` +
+      `🌟 *Teacher's tip:* (one short motivating line)\n\n` +
+      `If the student answer is empty/irrelevant, give 0 and kindly encourage them to try. Keep under 280 words.`;
+    const user = `Question (${marks} marks): ${question}\n\n` +
+      `Model Answer (textbook reference): ${modelAnswer}\n\n` +
+      `Student's Answer: ${studentAnswer}\n\n` +
+      `Evaluate warmly and give the full report in the exact format.`;
     const resp = await openai.chat.completions.create({
       model: 'gpt-4o-mini',
       messages: [{ role: 'system', content: sys }, { role: 'user', content: user }],
-      max_tokens: 500, temperature: 0.3
+      max_tokens: 650, temperature: 0.4
     });
     return cleanLatex(resp.choices[0].message.content.trim());
   } catch (e) {

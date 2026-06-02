@@ -44,6 +44,84 @@
       "items": []
     },
     {
+      "type": "qa",
+      "label": "Q&A",
+      "items": [
+        {
+          "q_num": 1,
+          "marks": 2,
+          "question": "What is a tangent to a circle? State the point of contact.",
+          "answer": "A TANGENT to a circle is a line that intersects the circle at only one point.\nThat one common point is called the POINT OF CONTACT.\nThe tangent is said to touch the circle at the point of contact."
+        },
+        {
+          "q_num": 2,
+          "marks": 2,
+          "question": "How many tangents can be drawn from (i) inside, (ii) on, and (iii) outside the circle?",
+          "answer": "(i) From a point INSIDE the circle: 0 tangents — every line through an interior point is a secant.\n(ii) From a point ON the circle: exactly 1 tangent.\n(iii) From a point OUTSIDE the circle: exactly 2 tangents."
+        },
+        {
+          "q_num": 3,
+          "marks": 2,
+          "question": "State Theorem 10.1 and Theorem 10.2.",
+          "answer": "Theorem 10.1: The tangent at any point of a circle is perpendicular to the radius through the point of contact.\nTheorem 10.2: The lengths of tangents drawn from an external point to a circle are equal."
+        },
+        {
+          "q_num": 4,
+          "marks": 2,
+          "question": "In a quadrilateral ABCD circumscribing a circle, AB = 5 cm, BC = 8 cm, CD = 6 cm. Find AD.",
+          "answer": "By Theorem 10.2 (tangent property of circumscribed quadrilateral):\nAB + CD = AD + BC\n5 + 6 = AD + 8\nAD = 11 − 8 = 3 cm.\n\n---"
+        },
+        {
+          "q_num": 5,
+          "marks": 3,
+          "question": "From an external point T, the angle between two tangents TP and TQ to a circle with centre O is 80°. Find angle POQ.",
+          "answer": "Given: angle PTQ = 80°, TP and TQ are tangents.\nStep 1: By Theorem 10.1: angle TPO = 90° and angle TQO = 90°.\nStep 2: In quadrilateral TPOQ, sum of angles = 360°:\nangle PTQ + angle TPO + angle POQ + angle TQO = 360°\n80° + 90° + angle POQ + 90° = 360°\nStep 3: angle POQ = 360° − 260° = 100°.\nAnswer: angle POQ = 100°."
+        },
+        {
+          "q_num": 6,
+          "marks": 3,
+          "question": "Two concentric circles have radii 13 cm and 5 cm. Find the length of the chord of the larger circle that touches the smaller circle.",
+          "answer": "Given: Radius of larger circle OA = 13 cm, radius of smaller circle OP = 5 cm.\nLet AB be the chord of the larger circle touching the smaller circle at P.\nStep 1: AB is a tangent to the smaller circle at P. By Theorem 10.1: OP ⊥ AB.\nStep 2: OP is perpendicular to chord AB of the larger circle from its centre O.\nBy the perpendicular-from-centre property: P is the midpoint of AB, so AP = PB.\nStep 3: In right triangle OAP:\nAP² = OA² − OP² = 169 − 25 = 144 → AP = 12 cm.\nStep 4: AB = 2 × AP = 2 × 12 = 24 cm.\nAnswer: The length of the chord is 24 cm."
+        },
+        {
+          "q_num": 7,
+          "marks": 3,
+          "question": "Prove that the tangents drawn at the ends of a diameter of a circle are parallel.",
+          "answer": "Given: Circle with centre O and diameter AB. Tangents XAY at A and X'BY' at B.\nTo Prove: XAY ∥ X'BY'.\nStep 1: OA is the radius at A and XAY is the tangent at A.\nBy Theorem 10.1: OA ⊥ XAY → angle OAX = angle OAY = 90°.\nStep 2: OB is the radius at B and X'BY' is the tangent at B.\nBy Theorem 10.1: OB ⊥ X'BY' → angle OBX' = angle OBY' = 90°.\nStep 3: OA and OB lie along the same line (diameter AB).\nBoth tangents are perpendicular to the same line AB.\nTwo lines perpendicular to the same line are parallel.\nAnswer: XAY ∥ X'BY'. HENCE PROVED.\n\n---"
+        },
+        {
+          "q_num": 8,
+          "marks": 4,
+          "question": "Prove Theorem 10.1 — The tangent at any point of a circle is perpendicular to the radius through the point of contact.",
+          "answer": "Given: Circle with centre O, tangent XY to the circle at point P.\nTo Prove: OP ⊥ XY.\nProof:\nStep 1: Take any point Q on line XY other than P. Join OQ.\nStep 2: Q must lie outside the circle.\n(If Q were inside, XY would intersect the circle at two points — making it a secant, not a tangent. This contradicts the given.)\nStep 3: Since Q lies outside the circle: OQ > OP (OP is the radius; Q is beyond the circle).\nStep 4: This holds for every point Q on XY except P.\nTherefore, OP is the SHORTEST distance from O to line XY.\nStep 5: The shortest distance from a point to a line is the perpendicular distance.\nHence OP ⊥ XY.\nHENCE PROVED."
+        },
+        {
+          "q_num": 9,
+          "marks": 4,
+          "question": "Prove Theorem 10.2 — The lengths of tangents drawn from an external point to a circle are equal.",
+          "answer": "Given: Circle with centre O, external point P. Tangents PQ and PR with Q and R as points of contact.\nTo Prove: PQ = PR.\nConstruction: Join OP, OQ, OR.\nProof:\nStep 1: In right triangle OQP:\nangle OQP = 90° (tangent ⊥ radius, Theorem 10.1).\nStep 2: In right triangle ORP:\nangle ORP = 90° (tangent ⊥ radius, Theorem 10.1).\nStep 3: Comparing triangles OQP and ORP:\nangle OQP = angle ORP = 90° (Right angles)\nOP = OP (Common hypotenuse)\nOQ = OR (Radii of same circle)\nStep 4: By RHS congruence: △OQP ≅ △ORP.\nStep 5: By CPCT: PQ = PR.\nHENCE PROVED.\nRemark: angle OPQ = angle OPR → OP bisects angle QPR. The centre lies on the angle bisector of the two tangents."
+        },
+        {
+          "q_num": 10,
+          "marks": 4,
+          "question": "A quadrilateral ABCD is drawn to circumscribe a circle. Prove that AB + CD = AD + BC.",
+          "answer": "Given: Quadrilateral ABCD circumscribes a circle. The circle touches AB at P, BC at Q, CD at R, DA at S.\nTo Prove: AB + CD = AD + BC.\nProof:\nStep 1: From vertex A: AP = AS (tangents from A, by Theorem 10.2)  ...(1)\nStep 2: From vertex B: BP = BQ (tangents from B, by Theorem 10.2)  ...(2)\nStep 3: From vertex C: CQ = CR (tangents from C, by Theorem 10.2)  ...(3)\nStep 4: From vertex D: DR = DS (tangents from D, by Theorem 10.2)  ...(4)\nStep 5: Adding (1) + (2) + (3) + (4):\nAP + BP + CQ + DR = AS + BQ + CR + DS\n(AP + BP) + (CQ + DR) = (AS + DS) + (BQ + CQ)\nAB + CD = AD + BC.\nHENCE PROVED."
+        },
+        {
+          "q_num": 11,
+          "marks": 4,
+          "question": "Prove that the parallelogram circumscribing a circle is a rhombus.",
+          "answer": "Given: ABCD is a parallelogram circumscribing a circle.\nTo Prove: ABCD is a rhombus (AB = BC = CD = DA).\nProof:\nStep 1: Since ABCD circumscribes a circle, by Q10 above:\nAB + CD = AD + BC  ...(i)\nStep 2: ABCD is a parallelogram, so opposite sides are equal:\nAB = CD  ...(ii)\nAD = BC  ...(iii)\nStep 3: Substituting (ii) and (iii) into (i):\nAB + AB = AD + AD\n2AB = 2AD → AB = AD.\nStep 4: Since AB = CD and AD = BC (parallelogram), and AB = AD:\nAB = BC = CD = DA.\nStep 5: A parallelogram with all four sides equal is a RHOMBUS.\nHENCE PROVED.\n\n---"
+        },
+        {
+          "q_num": 12,
+          "marks": 5,
+          "question": "",
+          "answer": "PART A — Proof:\nGiven: Circle with centre O, external point P. Tangents PA and PB with A and B as points of contact.\nTo Prove: angle AOB + angle APB = 180°.\nConstruction: Join OA and OB.\nStep 1: By Theorem 10.1:\nangle OAP = 90° (radius OA ⊥ tangent PA)\nangle OBP = 90° (radius OB ⊥ tangent PB)\nStep 2: In quadrilateral OAPB, sum of all angles = 360°:\nangle AOB + angle OAP + angle APB + angle OBP = 360°\nangle AOB + 90° + angle APB + 90° = 360°\nStep 3: angle AOB + angle APB = 360° − 180° = 180°.\nHENCE PROVED: angle AOB and angle APB are supplementary.\n\nPART B — Finding AB and AC:\nGiven: Radius r = 4 cm, BD = 8 cm, DC = 6 cm.\nLet the circle touch AB at E and AC at F. Let AE = AF = x.\nStep 1: By Theorem 10.2:\nFrom B: BD = BE = 8 cm.\nFrom C: CD = CF = 6 cm.\nAB = x + 8,  AC = x + 6,  BC = 14 cm.\nStep 2: Semi-perimeter: s = (x + 8 + 14 + x + 6)/2 = x + 14.\nStep 3: Area using inradius formula:\nArea = r × s = 4(x + 14)  ...(i)\nStep 4: Area using Heron's formula:\ns − AB = 6,  s − BC = x,  s − CA = 8.\nArea = √[(x+14)(6)(x)(8)] = √[48x(x+14)]  ...(ii)\nStep 5: From (i) and (ii):\n4(x + 14) = √[48x(x + 14)]\nSquaring: 16(x + 14)² = 48x(x + 14)\n16(x + 14) = 48x → 16x + 224 = 48x → x = 7 cm.\nStep 6: AB = 7 + 8 = 15 cm,  AC = 7 + 6 = 13 cm.\nAnswer: AB = 15 cm and AC = 13 cm."
+        }
+      ]
+    },
+    {
       "type": "mcq",
       "label": "CHAPTER 10: MCQs:",
       "items": [

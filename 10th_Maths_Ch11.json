@@ -39,6 +39,84 @@
       "items": []
     },
     {
+      "type": "qa",
+      "label": "Q&A",
+      "items": [
+        {
+          "q_num": 1,
+          "marks": 2,
+          "question": "What is a sector of a circle? Name its two types.",
+          "answer": "A SECTOR of a circle is the portion of the circular region enclosed by two radii and the corresponding arc.\nTypes:\n- MINOR SECTOR: The smaller sector (region OAPB).\n- MAJOR SECTOR: The larger sector (region OAQB).\nAngle of major sector = 360° − angle of minor sector."
+        },
+        {
+          "q_num": 2,
+          "marks": 2,
+          "question": "What is a segment of a circle? Name its two types.",
+          "answer": "A SEGMENT of a circle is the portion of the circular region enclosed between a chord and the corresponding arc.\nTypes:\n- MINOR SEGMENT: The smaller segment (region APB).\n- MAJOR SEGMENT: The larger segment (region AQB).\nNote: Unless stated otherwise, \"segment\" means MINOR SEGMENT."
+        },
+        {
+          "q_num": 3,
+          "marks": 2,
+          "question": "State the formula for the area of a sector of a circle with radius r and angle θ (in degrees). Also state the formula for the length of its arc.",
+          "answer": "Area of sector = (θ / 360) × π × r²\n\nLength of arc = (θ / 360) × 2 × π × r\n\nwhere r = radius of the circle and θ = angle of the sector in degrees."
+        },
+        {
+          "q_num": 4,
+          "marks": 2,
+          "question": "State the formula for the area of a segment of a circle. How is it related to the sector?",
+          "answer": "Area of segment APB = Area of sector OAPB − Area of triangle OAB\n= (θ / 360) × π × r² − Area of triangle OAB\n\nThe segment is part of the sector; the triangular region OAB must be subtracted from the sector to get the segment area.\n\n---"
+        },
+        {
+          "q_num": 5,
+          "marks": 3,
+          "question": "Find the area of a sector of a circle with radius 6 cm if the angle of the sector is 60°. (Use π = 22/7)",
+          "answer": "Given: r = 6 cm, θ = 60°, π = 22/7\n\nStep 1: Write the formula.\nArea of sector = (θ / 360) × π × r²\n\nStep 2: Substitute values.\n= (60 / 360) × (22/7) × 6 × 6\n= (1/6) × (22/7) × 36\n\nStep 3: Simplify.\n= (1/6) × (792/7)\n= 792 / 42\n= 132 / 7\n= 18.86 cm² (approx.)\n\nAnswer: Area of sector = 132/7 cm² ≈ 18.86 cm²"
+        },
+        {
+          "q_num": 6,
+          "marks": 3,
+          "question": "The length of the minute hand of a clock is 14 cm. Find the area swept by the minute hand in 5 minutes. (Use π = 22/7)",
+          "answer": "Given: r = 14 cm, π = 22/7\n\nStep 1: Find the angle swept in 5 minutes.\nIn 60 minutes, minute hand completes 360°.\nIn 5 minutes, angle swept = (5/60) × 360° = 30°.\n\nStep 2: Write the formula.\nArea swept = (θ / 360) × π × r²\n\nStep 3: Substitute and calculate.\n= (30 / 360) × (22/7) × 14 × 14\n= (1/12) × (22/7) × 196\n= (1/12) × (22 × 28)\n= (1/12) × 616\n= 51.33 cm² (approx.)\n\nAnswer: Area swept = 616/12 cm² ≈ 51.33 cm²"
+        },
+        {
+          "q_num": 7,
+          "marks": 3,
+          "question": "Derive the formula for the area of a sector using the Unitary Method. (r = radius, θ = angle in degrees)",
+          "answer": "Given: A circle of radius r with a sector of angle θ.\n\nStep 1: Area of the full circle (angle 360°) = π × r²\n\nStep 2: By Unitary Method:\nWhen angle = 360°, area = π × r²\nWhen angle = 1°,   area = π × r² / 360\n\nStep 3: When angle = θ°:\nArea of sector = (θ / 360) × π × r²\n\nThis formula gives the area of a sector with any angle θ in a circle of radius r.\n\n---"
+        },
+        {
+          "q_num": 8,
+          "marks": 4,
+          "question": "A chord of a circle of radius 10 cm subtends a right angle at the centre. Find the area of the corresponding: (i) minor segment (ii) major sector. (Use π = 3.14)",
+          "answer": "Given: r = 10 cm, θ = 90°, π = 3.14\n\nStep 1: Find the area of the minor sector (θ = 90°).\nArea of minor sector = (90/360) × 3.14 × 10 × 10\n= (1/4) × 314\n= 78.5 cm²\n\nStep 2: Find the area of triangle OAB.\nSince θ = 90°, the triangle OAB is a right-angled triangle.\nOA = OB = r = 10 cm (both are radii).\nArea of triangle OAB = (1/2) × OA × OB\n= (1/2) × 10 × 10\n= 50 cm²\n\nStep 3: Find the area of minor segment.\nArea of minor segment = Area of minor sector − Area of triangle OAB\n= 78.5 − 50\n= 28.5 cm²\n\nStep 4: Find the area of major sector.\nArea of major sector = π × r² − Area of minor sector\n= 3.14 × 100 − 78.5\n= 314 − 78.5\n= 235.5 cm²\n\nAnswer: (i) Area of minor segment = 28.5 cm²\n(ii) Area of major sector = 235.5 cm²"
+        },
+        {
+          "q_num": 9,
+          "marks": 4,
+          "question": "In a circle of radius 21 cm, an arc subtends an angle of 60° at the centre. Find: (i) the length of the arc (ii) area of the sector formed by the arc (iii) area of the segment formed by the corresponding chord. (Use π = 22/7)",
+          "answer": "Given: r = 21 cm, θ = 60°, π = 22/7\n\nStep 1: Length of the arc.\nLength = (θ / 360) × 2 × π × r\n= (60/360) × 2 × (22/7) × 21\n= (1/6) × 2 × (22/7) × 21\n= (1/6) × 2 × 66\n= (1/6) × 132\n= 22 cm\n\nStep 2: Area of the sector.\nArea = (θ / 360) × π × r²\n= (60/360) × (22/7) × 21 × 21\n= (1/6) × (22/7) × 441\n= (1/6) × 1386\n= 231 cm²\n\nStep 3: Area of triangle OAB.\nFor θ = 60° and OA = OB = 21 cm, triangle OAB is equilateral.\nSide = r = 21 cm.\nArea of equilateral triangle = (√3 / 4) × 21²\n= (√3 / 4) × 441\n= 441√3 / 4\n≈ (441 × 1.732) / 4\n≈ 763.812 / 4\n≈ 190.95 cm²\n\nStep 4: Area of segment.\nArea = Area of sector − Area of triangle OAB\n= 231 − 190.95\n= 40.05 cm² (approx.)\n\nAnswer: (i) Length of arc = 22 cm\n(ii) Area of sector = 231 cm²\n(iii) Area of segment ≈ 40.05 cm²"
+        },
+        {
+          "q_num": 10,
+          "marks": 4,
+          "question": "An umbrella has 8 ribs which are equally spaced. Assuming the umbrella to be a flat circle of radius 45 cm, find the area between two consecutive ribs of the umbrella. (Use π = 22/7)",
+          "answer": "Given: Number of ribs = 8, r = 45 cm, π = 22/7\n\nStep 1: Find the angle between two consecutive ribs.\nTotal angle = 360°\nAngle between 2 consecutive ribs = 360° / 8 = 45°\n\nStep 2: Area between two consecutive ribs = Area of sector with angle 45°.\nArea = (θ / 360) × π × r²\n\nStep 3: Substitute values.\n= (45 / 360) × (22/7) × 45 × 45\n= (1/8) × (22/7) × 2025\n\nStep 4: Simplify.\n= (22 × 2025) / (8 × 7)\n= 44550 / 56\n= 795.54 cm² (approx.)\n\nAnswer: Area between two consecutive ribs = 44550/56 cm² ≈ 795.54 cm²"
+        },
+        {
+          "q_num": 11,
+          "marks": 4,
+          "question": "A horse is tied to a peg at one corner of a square shaped grass field of side 15 m by means of a 5 m long rope. Find: (i) the area of the field in which the horse can graze. (ii) the increase in the grazing area if the rope were 10 m long instead of 5 m. (Use π = 3.14)",
+          "answer": "Given: Side of square field = 15 m, rope length (radius) = 5 m initially, then 10 m.\n\nStep 1: Find the angle available at the corner of a square.\nInterior angle of square = 90°.\nSo the horse can graze in a sector of angle 90°.\n\nStep 2: (i) Grazing area with rope = 5 m.\nArea = (90/360) × π × r²\n= (1/4) × 3.14 × 5 × 5\n= (1/4) × 78.5\n= 19.625 m²\n\nStep 3: (ii) Grazing area with rope = 10 m.\nNote: Side of square = 15 m > 10 m, so the full sector fits in the field.\nArea = (90/360) × π × r²\n= (1/4) × 3.14 × 10 × 10\n= (1/4) × 314\n= 78.5 m²\n\nStep 4: Increase in grazing area.\nIncrease = 78.5 − 19.625 = 58.875 m²\n\nAnswer: (i) Grazing area with 5 m rope = 19.625 m²\n(ii) Increase in grazing area = 58.875 m²\n\n---"
+        },
+        {
+          "q_num": 12,
+          "marks": 5,
+          "question": "Find the area of the segment AYB shown in the figure, if the radius of the circle is 21 cm and ∠AOB = 120°. (Use π = 22/7)",
+          "answer": "Given: r = 21 cm, θ = 120°, π = 22/7\n\nPART A — Area of Minor Segment AYB:\n\nStep 1: Write the relation.\nArea of segment AYB = Area of sector OAYB − Area of triangle OAB  ...(1)\n\nStep 2: Find area of sector OAYB.\nArea of sector = (θ / 360) × π × r²\n= (120/360) × (22/7) × 21 × 21\n= (1/3) × (22/7) × 441\n= (1/3) × 1386\n= 462 cm²  ...(2)\n\nStep 3: Find area of triangle OAB.\nDraw OM perpendicular to AB.\nSince OA = OB (radii), by RHS congruence:\nTriangle AMO ≅ Triangle BMO.\nSo M is the mid-point of AB.\nAngle AOM = Angle BOM = (1/2) × 120° = 60°.\n\nFrom triangle OMA:\ncos 60° = OM/OA → OM/21 = 1/2 → OM = 21/2 cm\nsin 60° = AM/OA → AM/21 = √3/2 → AM = 21√3/2 cm\n\nAB = 2 × AM = 21√3 cm\n\nArea of triangle OAB = (1/2) × AB × OM\n= (1/2) × 21√3 × (21/2)\n= 441√3/4 cm²  ...(3)\n\nStep 4: Find area of minor segment AYB.\n= 462 − 441√3/4   [From (1), (2), (3)]\n= (1848 − 441√3) / 4\n= (21/4)(88 − 21√3) cm²\n≈ (21/4)(88 − 21 × 1.732)\n≈ (21/4)(88 − 36.372)\n≈ (21/4)(51.628)\n≈ (21 × 51.628) / 4\n≈ 1084.188 / 4\n≈ 271.05 cm²\n\nPART B — Area of Major Segment:\n\nStep 5: Find area of major segment.\nArea of major segment = π × r² − Area of minor segment\n= (22/7) × 21 × 21 − 271.05\n= (22/7) × 441 − 271.05\n= 1386 − 271.05\n= 1114.95 cm² (approx.)\n\nAnswer:\nArea of minor segment AYB = (21/4)(88 − 21√3) cm² ≈ 271.05 cm²\nArea of major segment     ≈ 1114.95 cm²"
+        }
+      ]
+    },
+    {
       "type": "mcq",
       "label": "CHAPTER 11: MCQs (15 Questions: 5 Easy + 6 Medium + 4 Hard)",
       "items": [

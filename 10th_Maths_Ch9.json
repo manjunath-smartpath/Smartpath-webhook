@@ -38,6 +38,84 @@
       "items": []
     },
     {
+      "type": "qa",
+      "label": "Q&A",
+      "items": [
+        {
+          "q_num": 1,
+          "marks": 2,
+          "question": "What is the LINE OF SIGHT? Define ANGLE OF ELEVATION.",
+          "answer": "LINE OF SIGHT is the line drawn from the eye of an observer to the point in the object viewed by the observer.\n\nANGLE OF ELEVATION is the angle formed by the line of sight with the horizontal when the point being viewed is above the horizontal level — i.e., the case when we raise our head to look at the object."
+        },
+        {
+          "q_num": 2,
+          "marks": 2,
+          "question": "What is the ANGLE OF DEPRESSION? How is it different from the angle of elevation?",
+          "answer": "ANGLE OF DEPRESSION is the angle formed by the line of sight with the horizontal when the point being viewed is below the horizontal level — i.e., the case when we lower our head to look at the point being viewed.\n\nDifference: Angle of elevation is formed when we look upward (object above horizontal), while angle of depression is formed when we look downward (object below horizontal). Both angles are measured from the horizontal line of sight."
+        },
+        {
+          "q_num": 3,
+          "marks": 2,
+          "question": "Which trigonometric ratios are used in heights and distances problems? State when each is used.",
+          "answer": "- TAN is used when height (opposite side) and horizontal distance (adjacent side) are known or required.\n- SIN is used when the slant length (hypotenuse) such as a rope or ladder, and the height are involved.\n- COS is used when the slant length (hypotenuse) and the horizontal distance are involved.\n\nThe most commonly used ratio is TAN, as most problems involve height and horizontal distance."
+        },
+        {
+          "q_num": 4,
+          "marks": 2,
+          "question": "A tower stands vertically on the ground. From a point 15 m from its foot, the angle of elevation of the top is 60 degrees. Find the height of the tower.",
+          "answer": "Let AB = height of tower, BC = 15 m.\nIn right triangle ABC:\ntan 60 degrees = AB/BC\nsqrt(3) = AB/15\nAB = 15*sqrt(3) m\n\nHeight of the tower = 15*sqrt(3) m (approximately 25.98 m).\n\n---"
+        },
+        {
+          "q_num": 5,
+          "marks": 3,
+          "question": "An observer 1.5 m tall is 28.5 m away from a chimney. The angle of elevation of the top of the chimney from her eyes is 45 degrees. Find the height of the chimney.",
+          "answer": "Step 1: Let AB = height of chimney, CD = 1.5 m (observer height), DE = CB = 28.5 m.\nLet AE = height of chimney above observer's eye level.\nAB = AE + BE = AE + CD = AE + 1.5\n\nStep 2: In right triangle ADE:\ntan 45 degrees = AE/DE\n1 = AE/28.5\nAE = 28.5 m\n\nStep 3: Height of chimney AB = AE + 1.5 = 28.5 + 1.5 = 30 m\n\nAnswer: Height of the chimney = 30 m."
+        },
+        {
+          "q_num": 6,
+          "marks": 3,
+          "question": "A kite is flying at a height of 60 m above the ground. The string attached to the kite is tied to a point on the ground. The inclination of the string with the ground is 60 degrees. Find the length of the string (no slack).",
+          "answer": "Step 1: Let AB = 60 m (height of kite), AC = length of string (hypotenuse), angle ACB = 60 degrees.\nTriangle ABC is right-angled at B.\n\nStep 2: sin 60 degrees = AB/AC\nsqrt(3)/2 = 60/AC\nAC = 60 * 2/sqrt(3) = 120/sqrt(3)\n\nStep 3: Rationalizing: AC = 120/sqrt(3) * sqrt(3)/sqrt(3) = 120*sqrt(3)/3 = 40*sqrt(3) m\n\nAnswer: Length of the string = 40*sqrt(3) m (approximately 69.28 m)."
+        },
+        {
+          "q_num": 7,
+          "marks": 3,
+          "question": "From a point on the ground, the angle of elevation of the top of a tower is 30 degrees. From a point 20 m closer to the base of the tower, the angle of elevation is 60 degrees. Find the height of the tower.",
+          "answer": "Step 1: Let AB = h (tower height), C = far point (30 degrees), D = near point (60 degrees), BC = x.\nSo BD = x - 20, CD = 20 m.\n\nStep 2: In triangle ABD: tan 60 degrees = h/(x-20)\nsqrt(3) = h/(x-20) => h = sqrt(3)*(x-20) ... (1)\n\nStep 3: In triangle ABC: tan 30 degrees = h/x\n1/sqrt(3) = h/x => h = x/sqrt(3) ... (2)\n\nStep 4: From (1) and (2): sqrt(3)*(x-20) = x/sqrt(3)\n3*(x-20) = x => 3x - 60 = x => 2x = 60 => x = 30\nh = 30/sqrt(3) = 10*sqrt(3) m\n\nAnswer: Height of the tower = 10*sqrt(3) m (approximately 17.32 m).\n\n---"
+        },
+        {
+          "q_num": 8,
+          "marks": 4,
+          "question": "The shadow of a tower standing on level ground is found to be 40 m longer when the Sun's altitude is 30 degrees than when it is 60 degrees. Find the height of the tower.",
+          "answer": "Step 1: Let AB = h m (height of tower).\nLet BC = x m (shadow when Sun's altitude is 60 degrees).\nThen DB = (x + 40) m (shadow when Sun's altitude is 30 degrees).\n\nStep 2: In right triangle ABC (angle of elevation = 60 degrees):\ntan 60 degrees = AB/BC\nsqrt(3) = h/x\nh = x*sqrt(3) ... (1)\n\nStep 3: In right triangle ABD (angle of elevation = 30 degrees):\ntan 30 degrees = AB/BD\n1/sqrt(3) = h/(x + 40)\nh*(sqrt(3)) = x + 40 ... (2)\n\nStep 4: Substituting (1) in (2):\nx*sqrt(3) * sqrt(3) = x + 40\n3x = x + 40\n2x = 40\nx = 20 m\n\nStep 5: From (1): h = 20*sqrt(3) m\n\nAnswer: Height of the tower = 20*sqrt(3) m (approximately 34.64 m)."
+        },
+        {
+          "q_num": 9,
+          "marks": 4,
+          "question": "From a point P on the ground, the angle of elevation of the top of a 10 m tall building is 30 degrees. A flag is hoisted at the top of the building and the angle of elevation of the top of the flagstaff from P is 45 degrees. Find the length of the flagstaff and the distance of the building from P. (sqrt(3) = 1.732)",
+          "answer": "Step 1: Let AB = 10 m (building), BD = x m (flagstaff), AD = (10 + x) m.\nLet PA = distance from P to base of building.\n\nStep 2: In right triangle PAB:\ntan 30 degrees = AB/AP\n1/sqrt(3) = 10/AP\nAP = 10*sqrt(3) = 10 * 1.732 = 17.32 m\n\nStep 3: In right triangle PAD:\ntan 45 degrees = AD/AP\n1 = (10 + x)/(10*sqrt(3))\n10 + x = 10*sqrt(3)\nx = 10*sqrt(3) - 10 = 10*(sqrt(3) - 1)\nx = 10*(1.732 - 1) = 10 * 0.732 = 7.32 m\n\nStep 4: Verification:\nAD = 10 + 7.32 = 17.32 m = AP => tan 45 degrees = 17.32/17.32 = 1 ✓\n\nAnswer: Length of flagstaff = 7.32 m. Distance of building from P = 17.32 m."
+        },
+        {
+          "q_num": 10,
+          "marks": 4,
+          "question": "Two poles of equal heights are standing opposite each other on either side of a road 80 m wide. From a point between them on the road, the angles of elevation of the top of the poles are 60 degrees and 30 degrees. Find the height of the poles and the distances of the point from each pole.",
+          "answer": "Step 1: Let each pole have height h m.\nLet the point between the poles be P.\nLet distance from P to first pole A = x m.\nThen distance from P to second pole B = (80 - x) m.\n\nStep 2: For pole A (angle of elevation 60 degrees):\ntan 60 degrees = h/x\nsqrt(3) = h/x\nh = x*sqrt(3) ... (1)\n\nStep 3: For pole B (angle of elevation 30 degrees):\ntan 30 degrees = h/(80 - x)\n1/sqrt(3) = h/(80 - x)\nh = (80 - x)/sqrt(3) ... (2)\n\nStep 4: From (1) and (2):\nx*sqrt(3) = (80 - x)/sqrt(3)\nx * 3 = 80 - x\n3x + x = 80\n4x = 80\nx = 20 m\n\nStep 5: h = 20*sqrt(3) m. Distance from second pole = 80 - 20 = 60 m.\n\nAnswer: Height of each pole = 20*sqrt(3) m. Distance from pole A = 20 m. Distance from pole B = 60 m."
+        },
+        {
+          "q_num": 11,
+          "marks": 4,
+          "question": "The angles of depression of the top and bottom of an 8 m tall building from the top of a multi-storeyed building are 30 degrees and 45 degrees respectively. Find the height of the multi-storeyed building and the distance between the two buildings.",
+          "answer": "Step 1: Let PC = height of multi-storeyed building, AB = 8 m (shorter building).\nLet AC = horizontal distance between buildings.\nPQ is horizontal from top of PC.\n\nStep 2: Since PQ is parallel to BD:\nAngle QPB = angle PBD = 30 degrees (alternate angles) — depression to top of AB.\nAngle QPA = angle PAC = 45 degrees — depression to bottom of AB.\nLet PD = height above the top of shorter building (DC = AB = 8 m).\n\nStep 3: In right triangle PBD (PD/BD = tan 30 degrees):\nPD/BD = 1/sqrt(3) => BD = PD*sqrt(3)\n\nStep 4: In right triangle PAC (PC/AC = tan 45 degrees):\nPC/AC = 1 => PC = AC\nAlso AC = BD (since AB is vertical, DC = 8 m, ABDC is rectangle)\nSo PC = BD = PD*sqrt(3)\nPC = PD + DC = PD + 8\n\nStep 5: PD + 8 = PD*sqrt(3)\nPD*(sqrt(3) - 1) = 8\nPD = 8/(sqrt(3) - 1) = 8*(sqrt(3) + 1)/((sqrt(3))^2 - 1^2) = 8*(sqrt(3) + 1)/2 = 4*(sqrt(3) + 1) m\n\nStep 6: Height of multi-storeyed building:\nPC = PD + 8 = 4*(sqrt(3) + 1) + 8 = 4*sqrt(3) + 4 + 8 = (12 + 4*sqrt(3)) = 4*(3 + sqrt(3)) m\nDistance = AC = BD = PD*sqrt(3) = 4*(sqrt(3) + 1)*sqrt(3) = 4*(3 + sqrt(3)) m\n\nAnswer: Height of multi-storeyed building = 4*(3 + sqrt(3)) m. Distance between buildings = 4*(3 + sqrt(3)) m.\n\n---"
+        },
+        {
+          "q_num": 12,
+          "marks": 5,
+          "question": "A straight highway leads to the foot of a tower. A man standing at the top of the tower observes a car at an angle of depression of 30 degrees, which is approaching the foot of the tower with uniform speed. Six seconds later, the angle of depression of the car is found to be 60 degrees.",
+          "answer": "PART A — Time to reach foot of tower from second observation:\n\nStep 1: Let AB = h m (height of tower).\nC = first position of car (angle of depression 30 degrees).\nD = second position of car (angle of depression 60 degrees).\nB = foot of tower.\n\nStep 2: In right triangle ABC:\ntan 30 degrees = AB/BC\n1/sqrt(3) = h/BC\nBC = h*sqrt(3) m\n\nStep 3: In right triangle ABD:\ntan 60 degrees = AB/BD\nsqrt(3) = h/BD\nBD = h/sqrt(3) m\n\nStep 4: Distance covered in 6 seconds = CD = BC - BD\nCD = h*sqrt(3) - h/sqrt(3) = h*(3 - 1)/sqrt(3) = 2h/sqrt(3) m\n\nStep 5: Speed of car = CD/time = (2h/sqrt(3))/6 = h/(3*sqrt(3)) m/s\n\nStep 6: Remaining distance from D to foot B = BD = h/sqrt(3) m\nTime = BD/speed = (h/sqrt(3)) / (h/(3*sqrt(3)))\n= (h/sqrt(3)) * (3*sqrt(3)/h)\n= 3 seconds\n\nAnswer (Part A): Time taken = 3 seconds.\n\nPART B — Ratio of distances covered:\n\nStep 7: Distance covered before second observation (C to D) = CD = 2h/sqrt(3)\nDistance to be covered after second observation (D to B) = BD = h/sqrt(3)\n\nStep 8: Ratio = CD : DB = (2h/sqrt(3)) : (h/sqrt(3)) = 2 : 1\n\nAnswer (Part B): Ratio of distances = 2 : 1 (distance before second observation : distance after second observation)."
+        }
+      ]
+    },
+    {
       "type": "mcq",
       "label": "CHAPTER 9: MCQs:",
       "items": [

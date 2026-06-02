@@ -43,6 +43,72 @@
       "items": []
     },
     {
+      "type": "qa",
+      "label": "Q&A",
+      "items": [
+        {
+          "q_num": 1,
+          "marks": 2,
+          "question": "What is the degree of a polynomial? Give one example each of a linear, quadratic, and cubic polynomial.",
+          "answer": "The degree of a polynomial p(x) is the highest power of the variable in p(x).\n- Linear (degree 1): 2x - 3\n- Quadratic (degree 2): x^2 - 3x - 4\n- Cubic (degree 3): 3x^3 - 2x^2 + x - 1"
+        },
+        {
+          "q_num": 2,
+          "marks": 2,
+          "question": "What is a zero of a polynomial? Give one example.",
+          "answer": "A real number k is said to be a ZERO OF A POLYNOMIAL p(x) if p(k) = 0.\nExample: For p(x) = x^2 - 3x - 4, p(-1) = 1 + 3 - 4 = 0, so -1 is a zero."
+        },
+        {
+          "q_num": 3,
+          "marks": 2,
+          "question": "State the formulae for sum and product of zeroes of the quadratic polynomial ax^2 + bx + c.",
+          "answer": "If alpha and beta are zeroes of ax^2 + bx + c (a ≠ 0):\nSum of zeroes:    alpha + beta = -b/a\nProduct of zeroes: alpha x beta = c/a"
+        },
+        {
+          "q_num": 4,
+          "marks": 2,
+          "question": "What is the geometrical meaning of the zeroes of a polynomial?",
+          "answer": "The zeroes of a polynomial p(x) are precisely the x-coordinates of the points where the graph of y = p(x) intersects the x-axis.\nA quadratic polynomial's graph (parabola) can intersect the x-axis at 0, 1, or 2 points — giving 0, 1, or 2 zeroes respectively.\n\n---"
+        },
+        {
+          "q_num": 5,
+          "marks": 3,
+          "question": "Find the zeroes of the quadratic polynomial x^2 + 7x + 10 and verify the relationship between the zeroes and the coefficients.",
+          "answer": "Step 1: Factorise.\nx^2 + 7x + 10 = (x + 2)(x + 5)\nStep 2: Find zeroes.\nx + 2 = 0  →  x = -2\nx + 5 = 0  →  x = -5\nZeroes: alpha = -2, beta = -5\nStep 3: Verify.\nSum = -2 + (-5) = -7 = -(7)/1 = -b/a ✓\nProduct = (-2) x (-5) = 10 = 10/1 = c/a ✓"
+        },
+        {
+          "q_num": 6,
+          "marks": 3,
+          "question": "Find the zeroes of 4s^2 - 4s + 1 and verify the relationship between zeroes and coefficients. What special type of zeroes does it have?",
+          "answer": "Step 1: Factorise.\n4s^2 - 4s + 1 = (2s - 1)^2\nStep 2: Find zeroes.\n(2s - 1)^2 = 0  →  s = 1/2 (repeated)\nBoth zeroes: alpha = beta = 1/2 (EQUAL ZEROES)\nStep 3: Verify (a = 4, b = -4, c = 1).\nSum = 1/2 + 1/2 = 1 = -(-4)/4 = -b/a ✓\nProduct = (1/2) x (1/2) = 1/4 = 1/4 = c/a ✓"
+        },
+        {
+          "q_num": 7,
+          "marks": 3,
+          "question": "Find a quadratic polynomial whose sum of zeroes is -3 and product of zeroes is 2.",
+          "answer": "Step 1: Use the relationship.\nalpha + beta = -3  →  -b/a = -3  →  b = 3 (taking a = 1)\nalpha x beta = 2   →  c/a = 2    →  c = 2\nStep 2: Write the polynomial.\np(x) = x^2 + 3x + 2\nStep 3: Verify.\nSum = -3/1 = -3 ✓     Product = 2/1 = 2 ✓\nAnswer: x^2 + 3x + 2 (or k(x^2 + 3x + 2) for any non-zero real k).\n\n---"
+        },
+        {
+          "q_num": 8,
+          "marks": 4,
+          "question": "Find the zeroes of the following quadratic polynomials and verify the relationship between zeroes and coefficients:",
+          "answer": "(i) x^2 - 2x - 8:\nFactorise: (x - 4)(x + 2) = 0  →  Zeroes: 4 and -2\nSum = 4 + (-2) = 2 = -(-2)/1 = -b/a ✓\nProduct = 4 x (-2) = -8 = -8/1 = c/a ✓\n\n(ii) 6x^2 - 7x - 3 (rewriting 6x^2 - 3 - 7x):\nFactorise: (3x + 1)(2x - 3) = 0  →  Zeroes: -1/3 and 3/2\nSum = -1/3 + 3/2 = (-2 + 9)/6 = 7/6 = -(-7)/6 = -b/a ✓\nProduct = (-1/3) x (3/2) = -1/2 = -3/6 = c/a ✓\n\n(iii) 4u^2 + 8u:\nFactorise: 4u(u + 2) = 0  →  Zeroes: 0 and -2\nSum = 0 + (-2) = -2 = -8/4 = -b/a ✓\nProduct = 0 x (-2) = 0 = 0/4 = c/a ✓"
+        },
+        {
+          "q_num": 9,
+          "marks": 4,
+          "question": "Find a quadratic polynomial for each of the following (sum, product) pairs:",
+          "answer": "Using: Polynomial = x^2 - (sum)x + (product), then multiply by suitable integer if needed.\n\n(i) Sum = 1/4, Product = -1:\np(x) = x^2 - (1/4)x - 1  →  multiply by 4:  4x^2 - x - 4\n\n(ii) Sum = sqrt(2), Product = 1/3:\np(x) = x^2 - sqrt(2)x + 1/3  →  multiply by 3:  3x^2 - 3sqrt(2)x + 1\n\n(iii) Sum = 0, Product = sqrt(5):\np(x) = x^2 - 0x + sqrt(5) = x^2 + sqrt(5)\n\n(iv) Sum = 4, Product = 1:\np(x) = x^2 - 4x + 1\n\n---"
+        },
+        {
+          "q_num": 10,
+          "marks": 5,
+          "question": "",
+          "answer": "PART A — Zeroes of 3x^2 - x - 4:\nStep 1: Factorise by splitting middle term.\n3x^2 - x - 4 = 3x^2 - 4x + 3x - 4 = x(3x - 4) + 1(3x - 4) = (3x - 4)(x + 1)\nStep 2: Find zeroes.\n3x - 4 = 0  →  x = 4/3\nx + 1 = 0   →  x = -1\nZeroes: alpha = 4/3, beta = -1\nStep 3: Verify (a = 3, b = -1, c = -4).\nSum = 4/3 + (-1) = 4/3 - 3/3 = 1/3 = -(-1)/3 = -b/a ✓\nProduct = (4/3) x (-1) = -4/3 = -4/3 = c/a ✓\n\nPART B — Cubic polynomial relationships and verification:\nFor cubic ax^3 + bx^2 + cx + d with zeroes alpha, beta, gamma:\nalpha + beta + gamma = -b/a\nalpha*beta + beta*gamma + gamma*alpha = c/a\nalpha*beta*gamma = -d/a\n\nVerify zeroes of p(x) = 3x^3 - 5x^2 - 11x - 3 (a=3, b=-5, c=-11, d=-3):\np(3)    = 3(27) - 5(9) - 11(3) - 3 = 81 - 45 - 33 - 3 = 0 ✓\np(-1)   = 3(-1) - 5(1) - 11(-1) - 3 = -3 - 5 + 11 - 3 = 0 ✓\np(-1/3) = 3(-1/27) - 5(1/9) - 11(-1/3) - 3 = -1/9 - 5/9 + 33/9 - 27/9 = 0 ✓\n\nVerify relationships (alpha=3, beta=-1, gamma=-1/3):\nSum = 3 + (-1) + (-1/3) = 5/3 = -(-5)/3 = -b/a ✓\nSum of products two at a time:\n= 3(-1) + (-1)(-1/3) + (-1/3)(3) = -3 + 1/3 - 1 = -11/3 = c/a ✓\nProduct = 3 x (-1) x (-1/3) = 1 = -(-3)/3 = -d/a ✓"
+        }
+      ]
+    },
+    {
       "type": "mcq",
       "label": "CHAPTER 2: MCQs:",
       "items": [

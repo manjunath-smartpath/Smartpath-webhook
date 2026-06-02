@@ -72,6 +72,84 @@
       "items": []
     },
     {
+      "type": "qa",
+      "label": "Q&A",
+      "items": [
+        {
+          "q_num": 1,
+          "marks": 2,
+          "question": "What are the four basic solids studied in Class IX?",
+          "answer": "The four basic solids studied in Class IX are:\n1. CUBOID\n2. CONE\n3. CYLINDER\n4. SPHERE\nWe already know how to find the surface area and volume of each of these solids."
+        },
+        {
+          "q_num": 2,
+          "marks": 2,
+          "question": "State the key rule for finding the surface area of a combination of solids.",
+          "answer": "When two or more basic solids are joined to form a combined solid, the TOTAL SURFACE AREA of the new solid is found by adding only the VISIBLE (exposed) surface areas of the individual parts.\n- Surfaces at the joining point are HIDDEN and must NOT be counted.\n- Therefore, TSA of combined solid ≠ sum of TSAs of individual solids."
+        },
+        {
+          "q_num": 3,
+          "marks": 2,
+          "question": "State the key rule for finding the volume of a combination of solids.",
+          "answer": "The VOLUME of a combined solid = SUM of the volumes of all individual constituent solids.\n- Unlike surface area, no volume is lost when solids are joined.\n- Therefore, Volume of combined solid = Volume of Solid 1 + Volume of Solid 2 + ...\n- No subtraction is required at the junction."
+        },
+        {
+          "q_num": 4,
+          "marks": 2,
+          "question": "What is the difference between apparent capacity and actual capacity of a container?",
+          "answer": "APPARENT CAPACITY: The volume calculated by treating the container as a complete basic solid (e.g., full cylinder = πr²h), ignoring any raised portion inside.\nACTUAL CAPACITY: The true usable volume = Apparent capacity − Volume of the raised/hollow portion inside (e.g., hemispherical base).\nExample: A glass with hemispherical raised base → Actual capacity = πr²h − (2/3)πr³.\n\n---"
+        },
+        {
+          "q_num": 5,
+          "marks": 3,
+          "question": "A playing top (lattu) is in the shape of a cone surmounted by a hemisphere. The diameter of the top is 3.5 cm and the total height is 5 cm. Find the height of the conical part and the slant height of the cone.",
+          "answer": "Step 1: Diameter = 3.5 cm → Radius r = 3.5/2 = 1.75 cm\n\nStep 2: Height of cone = Total height − radius of hemisphere\nh = 5 − 1.75 = 3.25 cm\n\nStep 3: Slant height of cone:\nl = √(r² + h²) = √(1.75² + 3.25²)\n= √(3.0625 + 10.5625)\n= √13.625\n≈ 3.7 cm\n\nAnswer: Height of conical part = 3.25 cm; Slant height ≈ 3.7 cm."
+        },
+        {
+          "q_num": 6,
+          "marks": 3,
+          "question": "In combining a cone and a cylinder (where cone base radius r > cylinder base radius r'), explain which surfaces are visible and derive the formula for the total painted area on the conical portion.",
+          "answer": "Step 1: When the cone base is larger than the cylinder base, the cone sits on top of the cylinder with its base overhanging the cylinder top.\n\nStep 2: Visible surfaces on the conical portion:\n(i) Curved surface area (CSA) of the cone = πrl\n(ii) A ring-shaped (annular) area at the cone base that is exposed = π(r² − r'²)\nwhere r = cone base radius, r' = cylinder base radius\n\nStep 3: Area to be painted on conical portion = CSA of cone + Ring area\n= πrl + π(r² − r'²)\n\nThe top face of the cylinder is completely hidden inside the cone base and is NOT painted."
+        },
+        {
+          "q_num": 7,
+          "marks": 3,
+          "question": "Why is the volume of a combination of solids equal to the sum of the individual volumes, while the surface area is NOT equal to the sum of the individual surface areas?",
+          "answer": "Step 1: VOLUME — When two solids are joined, each solid still fully occupies the same space it did before. No material is removed or destroyed at the junction. So, total volume = sum of all individual volumes. No subtraction is needed.\n\nStep 2: SURFACE AREA — When two solids are joined at a surface (like a flat circular face), that face becomes an internal junction. It is no longer visible from outside. So those areas are hidden and must NOT be counted.\n\nStep 3: Conclusion:\n- Volume: No change at junction → Add all volumes.\n- Surface Area: Some area is hidden at junction → Do NOT add all surface areas directly. Add only visible areas.\n\n---"
+        },
+        {
+          "q_num": 8,
+          "marks": 4,
+          "question": "Rasheed got a playing top (lattu) shaped like a cone surmounted by a hemisphere. The entire top is 5 cm in height and the diameter is 3.5 cm. Find the area he has to colour. (Take π = 22/7)",
+          "answer": "Step 1: Identify the shape: Cone (bottom) + Hemisphere (top), both with radius r = 3.5/2 = 1.75 cm.\n\nStep 2: Height of cone:\nh = Total height − radius of hemisphere = 5 − 1.75 = 3.25 cm\n\nStep 3: Slant height of cone:\nl = √(r² + h²) = √(1.75² + 3.25²) = √(3.0625 + 10.5625) = √13.625 ≈ 3.7 cm\n\nStep 4: Colour area = CSA of hemisphere + CSA of cone\n= 2πr² + πrl\n= πr(2r + l)\n= (22/7) × 1.75 × (2 × 1.75 + 3.7)\n= (22/7) × 1.75 × 7.2\n= (22 × 1.75 × 7.2) / 7\n= 277.2 / 7 = 39.6 cm² (approx.)\n\nAnswer: Area to be coloured ≈ 39.6 cm²\n\nNote: The total surface area of the top is NOT the sum of the TSAs of the cone and hemisphere. The flat faces at the junction are hidden."
+        },
+        {
+          "q_num": 9,
+          "marks": 4,
+          "question": "A decorative block is made of a cube with edge 5 cm and a hemisphere of diameter 4.2 cm fixed on top. Find the total surface area of the block. (Take π = 22/7)",
+          "answer": "Step 1: TSA of cube = 6 × (edge)² = 6 × 5² = 6 × 25 = 150 cm²\n\nStep 2: The circular region on the cube's top face where the hemisphere is attached is NOT visible. This area must be subtracted.\nHidden area = πr² = (22/7) × (2.1)² = (22/7) × 4.41 = 97.02/7 = 13.86 cm²\n\nStep 3: CSA of hemisphere (visible curved surface) = 2πr²\n= 2 × 13.86 = 27.72 cm²\n\nStep 4: TSA of block = TSA of cube − πr² + 2πr²\n= 150 − 13.86 + 27.72\n= 150 + 13.86\n= 163.86 cm²\n\nAnswer: Total surface area of the decorative block = 163.86 cm²"
+        },
+        {
+          "q_num": 10,
+          "marks": 4,
+          "question": "A bird-bath for a garden is made in the shape of a cylinder with a hemispherical depression at one end. The height of the cylinder is 1.45 m and its radius is 30 cm. Find the total surface area of the bird-bath. (Take π = 22/7)",
+          "answer": "Step 1: Convert units: h = 1.45 m = 145 cm, r = 30 cm\n\nStep 2: Identify visible surfaces:\n- Curved surface area (CSA) of the cylinder\n- Curved surface area (CSA) of the hemispherical depression\n(The flat top of the cylinder is replaced by the hemispherical depression, so no flat circle is counted at the top.)\n\nStep 3: TSA of bird-bath = CSA of cylinder + CSA of hemisphere\n= 2πrh + 2πr²\n= 2πr(h + r)\n= 2 × (22/7) × 30 × (145 + 30)\n= 2 × (22/7) × 30 × 175\n\nStep 4: Calculate:\n= (2 × 22 × 30 × 175) / 7\n= 231000 / 7\n= 33000 cm² = 3.3 m²\n\nAnswer: Total surface area of the bird-bath = 33000 cm² = 3.3 m²"
+        },
+        {
+          "q_num": 11,
+          "marks": 4,
+          "question": "A cylindrical glass has an inner diameter of 5 cm and height of 10 cm. Its bottom has a hemispherical raised portion. A juice seller uses this glass to serve customers. Find the apparent capacity and the actual capacity of the glass. (Use π = 3.14)",
+          "answer": "Step 1: r = 5/2 = 2.5 cm, h = 10 cm\n\nStep 2: Apparent capacity (as if glass is a full cylinder):\n= πr²h = 3.14 × 2.5 × 2.5 × 10\n= 3.14 × 6.25 × 10\n= 196.25 cm³\n\nStep 3: Volume of hemispherical raised portion at the base:\n= (2/3)πr³ = (2/3) × 3.14 × (2.5)³\n= (2/3) × 3.14 × 15.625\n= (2 × 3.14 × 15.625) / 3\n= 98.125 / 3 = 32.71 cm³ (approx.)\n\nStep 4: Actual capacity = Apparent capacity − Volume of hemisphere\n= 196.25 − 32.71 = 163.54 cm³\n\nAnswer: Apparent capacity = 196.25 cm³; Actual capacity = 163.54 cm³\n(The juice seller is deceiving customers — the glass holds less than it appears to.)\n\n---"
+        },
+        {
+          "q_num": 12,
+          "marks": 5,
+          "question": "A wooden toy rocket is in the shape of a cone mounted on a cylinder. The height of the entire rocket is 26 cm and the height of the conical part is 6 cm. The base diameter of the conical portion is 5 cm and the base diameter of the cylindrical portion is 3 cm. If the conical portion is to be painted orange and the cylindrical portion is to be painted yellow, find the area to be painted with each colour. Also find the volume of the toy rocket. (Take π = 3.14)",
+          "answer": "PART A — Surface Area (Orange and Yellow):\n\nStep 1: Cone: r = 2.5 cm, h_cone = 6 cm\nSlant height of cone: l = √(r² + h²) = √(2.5² + 6²) = √(6.25 + 36) = √42.25 = 6.5 cm\nCylinder: r' = 1.5 cm, h' = 26 − 6 = 20 cm\n\nStep 2: Orange area (conical portion):\nThe cone base (r = 2.5 cm) is larger than the cylinder top (r' = 1.5 cm).\nA ring-shaped area at the cone base is exposed.\nOrange area = CSA of cone + Ring area\n= πrl + π(r² − r'²)\n= 3.14 × [(2.5 × 6.5) + (2.5² − 1.5²)]\n= 3.14 × [16.25 + 6.25 − 2.25]\n= 3.14 × 20.25\n= 63.585 cm²\n\nStep 3: Yellow area (cylindrical portion):\nThe top of the cylinder is hidden under the cone → not painted.\nYellow area = CSA of cylinder + Area of one base of cylinder\n= 2πr'h' + π(r')²\n= πr'(2h' + r')\n= 3.14 × 1.5 × (2 × 20 + 1.5)\n= 3.14 × 1.5 × 41.5\n= 4.71 × 41.5 = 195.465 cm²\n\nPART B — Volume of Toy Rocket:\n\nStep 4: Volume of cone = (1/3)πr²h = (1/3) × 3.14 × (2.5)² × 6\n= (1/3) × 3.14 × 6.25 × 6\n= (1/3) × 117.75 = 39.25 cm³\n\nStep 5: Volume of cylinder = πr'²h' = 3.14 × (1.5)² × 20\n= 3.14 × 2.25 × 20 = 3.14 × 45 = 141.3 cm³\n\nStep 6: Total volume of toy rocket = 39.25 + 141.3 = 180.55 cm³\n\nAnswer:\n- Orange painted area ≈ 63.585 cm²\n- Yellow painted area ≈ 195.465 cm²\n- Total volume of toy rocket ≈ 180.55 cm³"
+        }
+      ]
+    },
+    {
       "type": "mcq",
       "label": "CHAPTER 12: MCQs:",
       "items": [
@@ -141,16 +219,6 @@
           "explanation": "V = (2/3)π(2)³ + (1/3)π(2)²(2) = (16π + 8π)/3 = 8π = 25.12 cm³"
         }
       ]
-    },
-    {
-      "type": "qa",
-      "label": "Q&A MARKS DISTRIBUTION (per section):",
-      "items": []
-    },
-    {
-      "type": "mcq",
-      "label": "MCQ COUNT:",
-      "items": []
     }
   ],
   "topics": [
@@ -1235,6 +1303,16 @@
               "explanation": "V_one ≈ 25.05 cm³. Syrup = 45 × 0.30 × 25.05 ≈ 338 cm³"
             }
           ]
+        },
+        {
+          "type": "qa",
+          "label": "Q&A MARKS DISTRIBUTION (per section):",
+          "items": []
+        },
+        {
+          "type": "mcq",
+          "label": "MCQ COUNT:",
+          "items": []
         }
       ],
       "subtopics": []

@@ -41,6 +41,72 @@
       "items": []
     },
     {
+      "type": "qa",
+      "label": "Q&A",
+      "items": [
+        {
+          "q_num": 1,
+          "marks": 2,
+          "question": "What is Coordinate Geometry?",
+          "answer": "Coordinate Geometry is a branch of Mathematics in which the position of a\npoint in a plane is described using two perpendicular reference lines and\nnumbers called coordinates.\nThe system is known as the CARTESIAN SYSTEM, named after Rene Descartes."
+        },
+        {
+          "q_num": 2,
+          "marks": 2,
+          "question": "What are coordinate axes? Name them.",
+          "answer": "The two perpendicular number lines used in the Cartesian plane are called\nCOORDINATE AXES.\n- The horizontal number line is called the X-AXIS (X'X).\n- The vertical number line is called the Y-AXIS (Y'Y).\nTogether they form the Cartesian plane."
+        },
+        {
+          "q_num": 3,
+          "marks": 2,
+          "question": "What is the origin? Write its coordinates.",
+          "answer": "The ORIGIN is the point where the x-axis and y-axis intersect each other.\n- It is denoted by O.\n- It has zero perpendicular distance from both axes.\n- Coordinates of origin = (0, 0)."
+        },
+        {
+          "q_num": 4,
+          "marks": 2,
+          "question": "Write the sign of coordinates in each of the four quadrants.",
+          "answer": "The four quadrants and their coordinate signs:\n- Quadrant I  : (+, +) — positive x, positive y\n- Quadrant II : (−, +) — negative x, positive y\n- Quadrant III: (−, −) — negative x, negative y\n- Quadrant IV : (+, −) — positive x, negative y\n\n---"
+        },
+        {
+          "q_num": 5,
+          "marks": 3,
+          "question": "Define abscissa and ordinate of a point. Write the coordinates of",
+          "answer": "Step 1 — Abscissa:\nThe ABSCISSA (x-coordinate) of a point is its perpendicular distance from the\ny-axis, measured along the x-axis.\n- Positive if to the RIGHT of y-axis.\n- Negative if to the LEFT of y-axis.\n\nStep 2 — Ordinate:\nThe ORDINATE (y-coordinate) of a point is its perpendicular distance from the\nx-axis, measured along the y-axis.\n- Positive if ABOVE the x-axis.\n- Negative if BELOW the x-axis.\n\nStep 3 — Finding coordinates of P:\nGiven: 4 units to the right of y-axis → abscissa = +4.\n3 units above the x-axis      → ordinate = +3.\nTherefore, coordinates of P = (4, 3). P lies in Quadrant I."
+        },
+        {
+          "q_num": 6,
+          "marks": 3,
+          "question": "What are the coordinates of any point on the x-axis? On the y-axis?",
+          "answer": "Step 1 — Points on x-axis:\nAny point on the x-axis has NO perpendicular distance from the x-axis.\nSo its ordinate (y-coordinate) = 0.\nCoordinates are of the form (x, 0). Example: (3, 0), (−5, 0).\n\nStep 2 — Points on y-axis:\nAny point on the y-axis has NO perpendicular distance from the y-axis.\nSo its abscissa (x-coordinate) = 0.\nCoordinates are of the form (0, y). Example: (0, 4), (0, −2).\n\nStep 3 — Are (3, 4) and (4, 3) the same?\nNo. (3, 4) has abscissa = 3 and ordinate = 4.\n(4, 3) has abscissa = 4 and ordinate = 3.\nSince x-coordinate is written FIRST and y-coordinate SECOND, the order\nmatters. As 3 ≠ 4, the points (3, 4) and (4, 3) are TWO DIFFERENT points,\neven though they use the same numbers.\n\n---"
+        },
+        {
+          "q_num": 7,
+          "marks": 4,
+          "question": "Why do we need two pieces of information to locate a point in a",
+          "answer": "Step 1 — Need for two pieces of information:\nA plane is a TWO-DIMENSIONAL surface. It extends in both horizontal and\nvertical directions. A single number can only tell us the position along\nONE direction (like on a number line). To fix the position exactly in a\nplane, we need TWO independent measurements — one for each dimension.\n\nStep 2 — Real-life Example 1 (Street Plan):\nConsider a city with streets running North-South and East-West.\nIf we only know that a house is on \"Street 2,\" we cannot find it easily\nbecause the street is a long line. But if we know BOTH: Street 2 (N-S)\nAND House number 5 (E-W), we can locate the house exactly as position (2, 5).\nCross-street (2, 5) is DIFFERENT from cross-street (5, 2) — showing\nthat both pieces of information and their ORDER matter.\n\nStep 3 — Real-life Example 2 (Dot on Paper):\nSuppose a dot is placed on a sheet of paper.\nSaying \"the dot is 5 cm from the left edge\" is NOT enough to locate it,\nbecause the dot could be anywhere along a vertical line 5 cm from the edge.\nBut saying \"the dot is 5 cm from the left edge AND 9 cm above the bottom\"\nfixes its position EXACTLY. This position can be written as (5, 9).\n\nStep 4 — Conclusion:\nIn all these cases, TWO perpendicular reference lines and TWO measurements\nare needed to uniquely locate any point in a plane. This is the basis of\nCoordinate Geometry developed by Rene Descartes."
+        },
+        {
+          "q_num": 8,
+          "marks": 4,
+          "question": "From the graph (Fig. 3.11), the points B, M, L, S are marked.",
+          "answer": "Step 1 — Coordinates of B:\nDistance of B from y-axis = 4 units (positive/right direction) → abscissa = 4.\nDistance of B from x-axis = 3 units (positive/up direction)   → ordinate = 3.\nCoordinates of B = (4, 3).\nBoth coordinates positive → B lies in QUADRANT I.\n\nStep 2 — Coordinates of M:\nDistance of M from y-axis = 3 units (negative/left direction) → abscissa = −3.\nDistance of M from x-axis = 4 units (positive/up direction)   → ordinate = 4.\nCoordinates of M = (−3, 4).\nx negative, y positive → M lies in QUADRANT II.\n\nStep 3 — Coordinates of L:\nDistance of L from y-axis = 5 units (negative/left direction)  → abscissa = −5.\nDistance of L from x-axis = 4 units (negative/down direction)  → ordinate = −4.\nCoordinates of L = (−5, −4).\nBoth coordinates negative → L lies in QUADRANT III.\n\nStep 4 — Coordinates of S:\nDistance of S from y-axis = 3 units (positive/right direction) → abscissa = 3.\nDistance of S from x-axis = 4 units (negative/down direction)  → ordinate = −4.\nCoordinates of S = (3, −4).\nx positive, y negative → S lies in QUADRANT IV."
+        },
+        {
+          "q_num": 9,
+          "marks": 4,
+          "question": "From Fig. 3.14, find: (i) coordinates of B and C, (ii) the points",
+          "answer": "Step 1 — Coordinates of B and C:\nReading B from Fig. 3.14:\nB is 5 units to the LEFT of y-axis → abscissa = −5.\nB is 2 units ABOVE x-axis         → ordinate = 2.\nCoordinates of B = (−5, 2).\n\nReading C from Fig. 3.14:\nC is 6 units to the RIGHT of y-axis → abscissa = 6.\nC is 5 units BELOW x-axis           → ordinate = −5.\nCoordinates of C = (6, −5).\n\nStep 2 — Points identified by given coordinates:\nFor (−3, −5): Locate x = −3 (3 left), y = −5 (5 down) → Point E.\nFor (2, −4):  Locate x = 2 (2 right), y = −4 (4 down) → Point G.\n\nStep 3 — Abscissa of D and ordinate of H:\nD is 6 units to the RIGHT of y-axis → Abscissa of D = 6.\nH is 3 units BELOW the x-axis      → Ordinate of H = −3.\n\nStep 4 — Coordinates of L and M:\nL is on the y-axis, 5 units ABOVE origin → L = (0, 5).\nM is on the x-axis, 3 units to the LEFT  → M = (−3, 0).\n\n---"
+        },
+        {
+          "q_num": 10,
+          "marks": 5,
+          "question": "",
+          "answer": "PART A — The Cartesian System:\n\n(i) Formation:\nThe Cartesian plane is formed by placing two number lines perpendicular to each\nother at their zeroes (origins). The horizontal line is called the X-AXIS (X'X)\nand the vertical line is called the Y-AXIS (Y'Y).\n\n(ii) Directions of axes:\n- Positive x-axis direction: OX (to the right of origin).\n- Negative x-axis direction: OX' (to the left of origin).\n- Positive y-axis direction: OY (upward from origin).\n- Negative y-axis direction: OY' (downward from origin).\n\n(iii) Origin:\nThe point where both axes cross is called the ORIGIN, denoted by O.\nCoordinates of O = (0, 0).\n\n(iv) Quadrants:\nThe two axes divide the plane into FOUR parts called QUADRANTS, numbered\nI, II, III, IV in ANTICLOCKWISE direction starting from the positive x-axis:\n- Quadrant I  : enclosed by +x axis and +y axis.\n- Quadrant II : enclosed by −x axis and +y axis.\n- Quadrant III: enclosed by −x axis and −y axis.\n- Quadrant IV : enclosed by +x axis and −y axis.\n\n(v) Sign conventions:\n- Quadrant I  : (+, +) — both abscissa and ordinate are positive.\n- Quadrant II : (−, +) — abscissa negative, ordinate positive.\n- Quadrant III: (−, −) — both abscissa and ordinate are negative.\n- Quadrant IV : (+, −) — abscissa positive, ordinate negative.\n\n(vi) Remark:\nWriting x-coordinate first and y-coordinate second is a worldwide convention\nto avoid confusion. If x ≠ y, then (x, y) ≠ (y, x).\n\nPART B — Coordinates of points on axes (Fig. 3.12):\n\nPoint A:\nA is on the x-axis, 4 units to the RIGHT of origin.\nSince A is on x-axis: ordinate = 0.\nSince it is 4 units in positive direction: abscissa = 4.\nCoordinates of A = (4, 0).\n\nPoint B:\nB is on the y-axis, 3 units ABOVE the origin.\nSince B is on y-axis: abscissa = 0.\nSince it is 3 units in positive direction: ordinate = 3.\nCoordinates of B = (0, 3).\n\nPoint C:\nC is on the x-axis, 5 units to the LEFT of origin.\nSince C is on x-axis: ordinate = 0.\nSince it is 5 units in negative direction: abscissa = −5.\nCoordinates of C = (−5, 0).\n\nPoint D:\nD is on the y-axis, 4 units BELOW the origin.\nSince D is on y-axis: abscissa = 0.\nSince it is 4 units in negative direction: ordinate = −4.\nCoordinates of D = (0, −4).\n\nPoint E:\nE is on the x-axis, 2/3 units to the RIGHT of origin.\nSince E is on x-axis: ordinate = 0.\nSince it is in the positive direction: abscissa = 2/3.\nCoordinates of E = (2/3, 0)."
+        }
+      ]
+    },
+    {
       "type": "keywords",
       "label": "SUMMARY TABLE:",
       "text": "Point | Position              | Coordinates\n------|------------------------|------------\nA     | On +x-axis, 4 right   | (4, 0)\nB     | On +y-axis, 3 up      | (0, 3)\nC     | On −x-axis, 5 left    | (−5, 0)\nD     | On −y-axis, 4 down    | (0, −4)\nE     | On +x-axis, 2/3 right | (2/3, 0)"

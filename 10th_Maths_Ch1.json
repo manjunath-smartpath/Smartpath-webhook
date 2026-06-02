@@ -49,6 +49,84 @@
       "items": []
     },
     {
+      "type": "qa",
+      "label": "Q&A",
+      "items": [
+        {
+          "q_num": 1,
+          "marks": 2,
+          "question": "What is a real number? Give two examples each of rational and irrational",
+          "answer": "A real number is any number that can be found on the number line. Real numbers include\nboth rational and irrational numbers.\nRational examples: 2 (= 2/1), 3/4.\nIrrational examples: sqrt(2), pi."
+        },
+        {
+          "q_num": 2,
+          "marks": 2,
+          "question": "State the Fundamental Theorem of Arithmetic.",
+          "answer": "Every composite number can be expressed (factorised) as a product of primes, and this\nfactorisation is unique, apart from the order in which the prime factors occur."
+        },
+        {
+          "q_num": 3,
+          "marks": 2,
+          "question": "Define HCF and LCM using prime factorisation method.",
+          "answer": "HCF (Highest Common Factor): Product of the SMALLEST power of each COMMON prime factor\nin the given numbers.\nLCM (Lowest Common Multiple): Product of the GREATEST power of each prime factor\nINVOLVED in the given numbers."
+        },
+        {
+          "q_num": 4,
+          "marks": 2,
+          "question": "What is the relationship between HCF and LCM of two positive integers?",
+          "answer": "For any two positive integers a and b:\nHCF(a, b) x LCM(a, b) = a x b.\nExample: a = 6, b = 20.\nHCF(6, 20) = 2;  LCM(6, 20) = 60.\nHCF x LCM = 2 x 60 = 120 = 6 x 20. (Verified)\n\n---"
+        },
+        {
+          "q_num": 5,
+          "marks": 3,
+          "question": "Find the LCM and HCF of 6 and 20 by the prime factorisation method.",
+          "answer": "Step 1: Prime factorisations:\n6 = 2^1 x 3^1\n20 = 2^2 x 5^1\nStep 2: HCF = product of SMALLEST power of each COMMON prime factor.\nCommon prime = 2. Smallest power = 2^1.\nHCF(6, 20) = 2\nStep 3: LCM = product of GREATEST power of each prime factor involved.\nPrimes: 2, 3, 5. Greatest powers: 2^2, 3^1, 5^1.\nLCM(6, 20) = 2^2 x 3 x 5 = 4 x 3 x 5 = 60\nVerification: HCF x LCM = 2 x 60 = 120 = 6 x 20. (Verified)"
+        },
+        {
+          "q_num": 6,
+          "marks": 3,
+          "question": "Find the HCF and LCM of 12, 15 and 21 using prime factorisation.",
+          "answer": "Step 1: Prime factorisations:\n12 = 2^2 x 3\n15 = 3 x 5\n21 = 3 x 7\nStep 2: HCF: Common prime factor in all three = 3.\nSmallest power = 3^1.\nHCF(12, 15, 21) = 3\nStep 3: LCM: All primes involved = 2, 3, 5, 7.\nGreatest powers: 2^2, 3^1, 5^1, 7^1.\nLCM(12, 15, 21) = 4 x 3 x 5 x 7 = 420"
+        },
+        {
+          "q_num": 7,
+          "marks": 3,
+          "question": "Show that sqrt(3) is irrational.",
+          "answer": "Step 1: Assume, to the contrary, that sqrt(3) is rational.\nThen sqrt(3) = a/b where a, b are coprime integers and b not equal to 0.\nStep 2: Squaring both sides: 3b^2 = a^2.\nSo 3 divides a^2. By Theorem 1.2 (p=3), 3 divides a.\nStep 3: Write a = 3c. Substituting: 3b^2 = 9c^2, so b^2 = 3c^2.\nSo 3 divides b^2, hence 3 divides b.\nBut a and b both divisible by 3 — contradicts that a and b are coprime.\nTherefore sqrt(3) is irrational.\n\n---"
+        },
+        {
+          "q_num": 8,
+          "marks": 4,
+          "question": "Find the HCF of 96 and 404 by prime factorisation method. Hence find",
+          "answer": "Step 1: Prime factorisation of 96:\n96 = 2 x 48 = 2 x 2 x 24 = 2 x 2 x 2 x 12 = 2 x 2 x 2 x 2 x 6\n= 2 x 2 x 2 x 2 x 2 x 3 = 2^5 x 3\nStep 2: Prime factorisation of 404:\n404 = 2 x 202 = 2 x 2 x 101 = 2^2 x 101 (101 is prime)\nStep 3: HCF: Common prime = 2. Smallest power = 2^2.\nHCF(96, 404) = 4\nStep 4: LCM using formula: LCM = (a x b) / HCF\nLCM(96, 404) = (96 x 404) / 4 = 38784 / 4 = 9696\nVerification: HCF x LCM = 4 x 9696 = 38784 = 96 x 404. (Verified)"
+        },
+        {
+          "q_num": 9,
+          "marks": 4,
+          "question": "Prove that sqrt(2) is irrational.",
+          "answer": "Step 1: Assume, to the contrary, that sqrt(2) is rational.\nSo sqrt(2) = a/b where a, b are coprime integers and b not equal to 0.\nStep 2: Squaring both sides: 2b^2 = a^2.\nSo 2 divides a^2. By Theorem 1.2 (p=2), 2 divides a.\nStep 3: Write a = 2c for some integer c.\nSubstituting: 2b^2 = (2c)^2 = 4c^2. So b^2 = 2c^2.\nSo 2 divides b^2, hence by Theorem 1.2, 2 divides b.\nStep 4: So a and b are both divisible by 2.\nThis contradicts the fact that a and b are coprime.\nThe contradiction arose from our incorrect assumption that sqrt(2) is rational.\nTherefore sqrt(2) is irrational."
+        },
+        {
+          "q_num": 10,
+          "marks": 4,
+          "question": "Prove that 3 + 2 x sqrt(5) is irrational.",
+          "answer": "Step 1: Assume, to the contrary, that 3 + 2 x sqrt(5) is rational.\nSo 3 + 2 x sqrt(5) = a/b where a, b are coprime and b not equal to 0.\nStep 2: Rearranging: 2 x sqrt(5) = a/b - 3 = (a - 3b)/b.\nStep 3: So sqrt(5) = (a - 3b)/(2b).\nSince a and b are integers, (a - 3b)/(2b) is rational.\nTherefore sqrt(5) is rational.\nStep 4: But sqrt(5) is irrational (proved separately).\nThis is a contradiction.\nThe contradiction arose from our incorrect assumption.\nTherefore 3 + 2 x sqrt(5) is irrational."
+        },
+        {
+          "q_num": 11,
+          "marks": 4,
+          "question": "Check whether 6^n can end with the digit 0 for any natural number n.",
+          "answer": "Step 1: For a number to end with digit 0, it must be divisible by 10 = 2 x 5.\nSo its prime factorisation must contain both 2 and 5.\nStep 2: For 6^n:\n6^n = (2 x 3)^n = 2^n x 3^n.\nPrime factors of 6^n are only 2 and 3. Since 5 is NOT a factor of 6^n,\nby the uniqueness of the Fundamental Theorem of Arithmetic,\n6^n can NEVER end with digit 0 for any natural number n.\nStep 3: For 4^n:\n4^n = (2^2)^n = 2^(2n).\nThe only prime factor is 2. Since 5 is NOT a factor of 4^n,\nby the uniqueness of the Fundamental Theorem of Arithmetic,\n4^n can NEVER end with digit 0 for any natural number n.\nStep 4: Conclusion:\nNeither 6^n nor 4^n ends with digit 0 for any natural number n.\n\n---"
+        },
+        {
+          "q_num": 12,
+          "marks": 5,
+          "question": "(a) Find the HCF and LCM of 6, 72 and 120 using prime factorisation",
+          "answer": "PART A — HCF and LCM of 6, 72 and 120:\n\nStep 1: Prime factorisations:\n6   = 2 x 3\n72  = 2^3 x 3^2\n120 = 2^3 x 3 x 5\n\nStep 2: HCF: Common prime factors in all three numbers = 2 and 3.\nSmallest powers: 2^1 and 3^1.\nHCF(6, 72, 120) = 2^1 x 3^1 = 2 x 3 = 6\n\nStep 3: LCM: All prime factors involved = 2, 3, 5.\nGreatest powers: 2^3, 3^2, 5^1.\nLCM(6, 72, 120) = 2^3 x 3^2 x 5 = 8 x 9 x 5 = 360\n\nStep 4: Check — HCF x LCM vs product of three numbers:\nHCF x LCM = 6 x 360 = 2160\n6 x 72 x 120 = 51840\n2160 is NOT equal to 51840.\nSo the product rule HCF x LCM = product does NOT hold for three numbers.\n\nPART B — LCM(306, 657) when HCF = 9:\n\nStep 5: Using the relation HCF(a,b) x LCM(a,b) = a x b for two numbers:\nLCM(306, 657) = (306 x 657) / HCF\n= (306 x 657) / 9\n= 201042 / 9\n= 22338\n\nAnswer: (a) HCF = 6; LCM = 360; product rule does NOT hold for three numbers.\n(b) LCM(306, 657) = 22338."
+        }
+      ]
+    },
+    {
       "type": "mcq",
       "label": "CHAPTER 1: MCQs:",
       "items": [

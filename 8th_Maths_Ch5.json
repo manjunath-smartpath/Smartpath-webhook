@@ -33,13 +33,82 @@
       "items": [
         "- Topic 5.1: Introduction",
         "- Topic 5.2: Properties of Square Numbers",
-        "- Topic 5.3: Some More Interesting Patterns"
+        "- Topic 5.3: Some More Interesting Patterns",
+        "Sub Topic 5.3.1: Adding Triangular Numbers",
+        "Sub Topic 5.3.2: Numbers Between Square Numbers",
+        "Sub Topic 5.3.3: Adding Odd Numbers",
+        "Sub Topic 5.3.4: A Sum of Consecutive Natural Numbers",
+        "Sub Topic 5.3.5: Product of Two Consecutive Even or Odd Natural Numbers",
+        "Sub Topic 5.3.6: Some More Patterns in Square Numbers",
+        "- Topic 5.4: Finding the Square of a Number",
+        "Sub Topic 5.4.1: Other Patterns in Squares",
+        "Sub Topic 5.4.2: Pythagorean Triplets",
+        "- Topic 5.5: Square Roots",
+        "Sub Topic 5.5.1: Finding Square Roots",
+        "Sub Topic 5.5.2: Finding Square Root through Repeated Subtraction",
+        "Sub Topic 5.5.3: Finding Square Root through Prime Factorisation",
+        "Sub Topic 5.5.4: Finding Square Root by Division Method",
+        "- Topic 5.6: Square Roots of Decimals"
       ]
     },
     {
       "type": "qa",
       "label": "CHAPTER 5: Q&A:",
       "items": []
+    },
+    {
+      "type": "qa",
+      "label": "Q&A",
+      "items": [
+        {
+          "q_num": 1,
+          "marks": 2,
+          "question": "What is a perfect square? Give two examples.",
+          "answer": "A number which can be expressed as n^2, where n is a natural number, is called a PERFECT SQUARE.\nExamples:\n- 25 = 5^2 → perfect square\n- 36 = 6^2 → perfect square\nNumbers like 32 are NOT perfect squares (32 lies between 5^2=25 and 6^2=36; no natural number squares to 32)."
+        },
+        {
+          "q_num": 2,
+          "marks": 2,
+          "question": "What digits can appear at the units place of a perfect square?",
+          "answer": "A perfect square can only end with the digits: 0, 1, 4, 5, 6, or 9.\nNO perfect square ever ends with 2, 3, 7, or 8.\nExample:\n- 19 ends in 9 → 19^2 = 361 ends in 1 ✔\n- 1057 ends in 7 → NOT a perfect square ✔\nRule: This property helps us quickly identify non-perfect squares."
+        },
+        {
+          "q_num": 3,
+          "marks": 2,
+          "question": "What is a square root? What symbol is used?",
+          "answer": "Finding the SQUARE ROOT is the inverse operation of squaring.\nIf n^2 = m, then n is called the square root of m.\nSymbol: sqrt( ) denotes the positive square root.\nExamples:\n- sqrt(25) = 5 (because 5^2 = 25)\n- sqrt(81) = 9 (because 9^2 = 81)\nNote: We take only the POSITIVE square root in this chapter.\n\n---"
+        },
+        {
+          "q_num": 4,
+          "marks": 3,
+          "question": "Find sqrt(2304) using the long division method.",
+          "answer": "Step 1: Place bars: 23|04 (2 bars → 2-digit answer).\nStep 2: Largest number whose square ≤ 23 is 4 (4^2=16).\nQuotient = 4, Remainder = 23 - 16 = 7.\nStep 3: Bring down 04. New dividend = 704.\nDouble the quotient: 4 x 2 = 8. New divisor = 8_.\nStep 4: Find digit: 88 x 8 = 704. Digit = 8. Remainder = 0.\nAnswer: sqrt(2304) = 48.\nVerify: 48^2 = 2304. ✔"
+        },
+        {
+          "q_num": 5,
+          "marks": 3,
+          "question": "Find sqrt(6400) using prime factorisation method.",
+          "answer": "Step 1: Prime factorisation of 6400:\n6400 = 2 x 2 x 2 x 2 x 2 x 2 x 2 x 2 x 5 x 5\n= 2^8 x 5^2\nStep 2: Group factors in pairs:\n(2x2) x (2x2) x (2x2) x (2x2) x (5x5)\nStep 3: Take one from each pair:\n2 x 2 x 2 x 2 x 5 = 80\nAnswer: sqrt(6400) = 80.\nVerify: 80^2 = 6400. ✔\n\n---"
+        },
+        {
+          "q_num": 6,
+          "marks": 4,
+          "question": "Is 2352 a perfect square? If not, find the smallest number by which 2352 must be multiplied to get a perfect square. Also find the square root of the resulting number.",
+          "answer": "Step 1: Find prime factorisation of 2352.\n2352 = 2 x 2 x 2 x 2 x 3 x 7 x 7\n= 2^4 x 3 x 7^2\nStep 2: Group factors in pairs:\n(2x2) x (2x2) x 3 x (7x7)\nFactor 3 has NO pair → 2352 is NOT a perfect square.\nStep 3: To make it a perfect square, multiply by 3 (to complete the pair for 3).\n2352 x 3 = 7056\nStep 4: Verify: 7056 = 2^4 x 3^2 x 7^2 = (2^2 x 3 x 7)^2 = (4 x 3 x 7)^2 = 84^2\nAnswer:\n- 2352 is NOT a perfect square.\n- Smallest multiplier = 3.\n- Resulting perfect square = 7056.\n- sqrt(7056) = 84."
+        },
+        {
+          "q_num": 7,
+          "marks": 4,
+          "question": "Find the least number that must be subtracted from 5607 to make it a perfect square. Also find the square root of the resulting number.",
+          "answer": "Step 1: Find sqrt(5607) using long division method.\nBar: 56|07 (2 bars → 2-digit root)\nStep 2: Largest number whose square ≤ 56 is 7 (7^2=49).\nQuotient = 7, Remainder = 56 - 49 = 7.\nStep 3: Bring down 07. New dividend = 707.\nDouble quotient: 7 x 2 = 14. New divisor = 14_.\nStep 4: Try digits: 144 x 4 = 576. 145 x 5 = 725 > 707.\nSo digit = 4. New dividend = 707 - 576 = 131. Quotient = 74.\nStep 5: Since remainder = 131 ≠ 0, we subtract this remainder from 5607.\n5607 - 131 = 5476\nAnswer:\n- Least number to subtract = 131.\n- Resulting perfect square = 5476.\n- sqrt(5476) = 74. Verify: 74^2 = 5476. ✔\n\n---"
+        },
+        {
+          "q_num": 8,
+          "marks": 5,
+          "question": "",
+          "answer": "PART A — Smallest square divisible by 6, 9 and 15:\n\nStep 1: Find LCM of 6, 9 and 15.\n6 = 2 x 3\n9 = 3 x 3\n15 = 3 x 5\nLCM = 2 x 3^2 x 5 = 90\n\nStep 2: Prime factorisation of 90:\n90 = 2 x 3^2 x 5\n\nStep 3: Identify unpaired factors:\nFactor 2 appears once (unpaired).\nFactor 3^2 is a pair — complete.\nFactor 5 appears once (unpaired).\n\nStep 4: Multiply 90 by 2 x 5 = 10 to complete all pairs.\n90 x 10 = 900 = 2^2 x 3^2 x 5^2 = (2 x 3 x 5)^2 = 30^2\n\nAnswer (Part A): Smallest square number divisible by 6, 9 and 15 = 900.\n\nPART B — Pythagorean Triplet with smallest member 8:\n\nStep 1: General form of Pythagorean triplet: (2m, m^2 - 1, m^2 + 1) for m > 1.\n\nStep 2: Set 2m = 8 → m = 4.\n\nStep 3: Calculate:\nm^2 - 1 = 16 - 1 = 15\nm^2 + 1 = 16 + 1 = 17\n\nStep 4: Triplet is (8, 15, 17).\n\nStep 5: Verify:\n8^2 + 15^2 = 64 + 225 = 289 = 17^2 ✔\n\nAnswer (Part B): Pythagorean triplet = (8, 15, 17)."
+        }
+      ]
     },
     {
       "type": "mcq",

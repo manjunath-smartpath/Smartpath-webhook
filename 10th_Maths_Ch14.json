@@ -49,6 +49,84 @@
       "items": []
     },
     {
+      "type": "qa",
+      "label": "Q&A",
+      "items": [
+        {
+          "q_num": 1,
+          "marks": 2,
+          "question": "Define theoretical probability. Give the formula.",
+          "answer": "The THEORETICAL PROBABILITY of an event E is defined as:\n\nP(E) = Number of outcomes favourable to E\n─────────────────────────────────────────\nNumber of all possible outcomes of the experiment\n\nwhere all outcomes are assumed to be equally likely.\nThis definition was given by Pierre Simon Laplace in 1795.\n\n---"
+        },
+        {
+          "q_num": 2,
+          "marks": 2,
+          "question": "What is the range of probability of any event? State what impossible event and sure event are.",
+          "answer": "For any event E:  0 ≤ P(E) ≤ 1\n\n- IMPOSSIBLE EVENT: An event that can never occur. P = 0.\nExample: Getting 8 in a single throw of a die → P = 0/6 = 0\n\n- SURE (CERTAIN) EVENT: An event that is certain to occur. P = 1.\nExample: Getting a number less than 7 in a throw of a die → P = 6/6 = 1\n\n---"
+        },
+        {
+          "q_num": 3,
+          "marks": 2,
+          "question": "State the complementary events formula. If P(E) = 0.65, find P(not E).",
+          "answer": "For an event E and its complement Ē (\"not E\"):\nP(E) + P(Ē) = 1   ∴   P(Ē) = 1 − P(E)\n\nE and Ē are called COMPLEMENTARY EVENTS.\n\nGiven: P(E) = 0.65\nP(not E) = 1 − 0.65 = 0.35\n\n---"
+        },
+        {
+          "q_num": 4,
+          "marks": 2,
+          "question": "Define elementary event. State the key rule about sum of elementary event probabilities.",
+          "answer": "An event having only ONE outcome of the experiment is called an ELEMENTARY EVENT.\n\nKey Rule: The sum of probabilities of all elementary events of an experiment is always 1.\nP(E₁) + P(E₂) + ... + P(Eₙ) = 1\n\nExample: When a die is thrown, each face {1,2,3,4,5,6} is an elementary event.\nP(1) + P(2) + P(3) + P(4) + P(5) + P(6) = 6 × (1/6) = 1 ✓\n\n---"
+        },
+        {
+          "q_num": 5,
+          "marks": 3,
+          "question": "A bag contains 3 red balls and 5 black balls. One ball is drawn at random.",
+          "answer": "Step 1: Total number of balls = 3 + 5 = 8\nAll balls are equally likely to be drawn.\n\nStep 2: (i) Favourable outcomes for red = 3\nP(red) = 3/8\n\n(ii) Favourable outcomes for black = 5\nP(black) = 5/8\n\n(iii) P(not red) = 1 − P(red) = 1 − 3/8 = 5/8\n[OR: P(not red) = P(black) = 5/8 ✓]\n\nStep 3: Verify: P(red) + P(black) = 3/8 + 5/8 = 8/8 = 1 ✓\n\nANSWER: (i) P(red) = 3/8   (ii) P(black) = 5/8   (iii) P(not red) = 5/8\n\n---"
+        },
+        {
+          "q_num": 6,
+          "marks": 3,
+          "question": "A die is thrown once. Find: (i) P(prime number)  (ii) P(number ≤ 4)  (iii) P(number > 4)",
+          "answer": "Step 1: Total outcomes = {1, 2, 3, 4, 5, 6} → Total = 6 (equally likely)\n\nStep 2: (i) Prime numbers on a die: {2, 3, 5} → Favourable = 3\nP(prime) = 3/6 = 1/2\n\n(ii) Numbers ≤ 4: {1, 2, 3, 4} → Favourable = 4\nP(number ≤ 4) = 4/6 = 2/3\n\n(iii) Numbers > 4: {5, 6} → Favourable = 2\nP(number > 4) = 2/6 = 1/3\n\nStep 3: Note: Events (ii) and (iii) are complementary: 2/3 + 1/3 = 1 ✓\n\nANSWER: (i) 1/2   (ii) 2/3   (iii) 1/3\n\n---"
+        },
+        {
+          "q_num": 7,
+          "marks": 3,
+          "question": "A box contains 5 red marbles, 8 white marbles and 4 green marbles. One marble is drawn at random.",
+          "answer": "Step 1: Total marbles = 5 + 8 + 4 = 17 (equally likely)\n\nStep 2: (i) Favourable for red = 5\nP(red) = 5/17\n\n(ii) Favourable for white = 8\nP(white) = 8/17\n\n(iii) P(not green) = 1 − P(green) = 1 − 4/17 = 13/17\n[OR: Favourable = 5 + 8 = 13 → P = 13/17 ✓]\n\nStep 3: Verify: P(red) + P(white) + P(green) = 5/17 + 8/17 + 4/17 = 17/17 = 1 ✓\n\nANSWER: (i) 5/17   (ii) 8/17   (iii) 13/17\n\n---"
+        },
+        {
+          "q_num": 8,
+          "marks": 4,
+          "question": "A piggy bank contains 100 fifty-paise coins, 50 one-rupee coins, 20 two-rupee coins, and 10 five-rupee coins. If it is equally likely that one of the coins will fall out when the bank is turned upside down, find the probability that the coin that falls out —",
+          "answer": "Step 1: Total coins = 100 + 50 + 20 + 10 = 180\nAll outcomes are equally likely.\n\nStep 2: (i) Favourable outcomes (50p coin) = 100\nP(50p) = 100/180 = 5/9\n\n(ii) Coins that are NOT ₹5 = 180 − 10 = 170\nP(not ₹5) = 170/180 = 17/18\n[OR: P(not ₹5) = 1 − P(₹5) = 1 − 10/180 = 1 − 1/18 = 17/18 ✓]\n\n(iii) ₹1 or ₹2 coins = 50 + 20 = 70\nP(₹1 or ₹2) = 70/180 = 7/18\n\n(iv) Favourable outcomes (₹5 coin) = 10\nP(₹5) = 10/180 = 1/18\n\nStep 3: Verify parts (ii) and (iv): P(not ₹5) + P(₹5) = 17/18 + 1/18 = 1 ✓\n\nANSWER: (i) 5/9   (ii) 17/18   (iii) 7/18   (iv) 1/18\n\n---"
+        },
+        {
+          "q_num": 9,
+          "marks": 4,
+          "question": "One card is drawn from a well-shuffled deck of 52 cards. Find the probability of getting:",
+          "answer": "Step 1: Total outcomes = 52 (well-shuffled — equally likely)\nRecall: 4 suits (Spades♠, Hearts♥, Diamonds♦, Clubs♣), 13 cards each.\nFace cards = Kings + Queens + Jacks = 4 + 4 + 4 = 12\nRed suits = Hearts + Diamonds; Black suits = Spades + Clubs\n\nStep 2: (i) Red kings = King of Hearts + King of Diamonds = 2\nP(king of red colour) = 2/52 = 1/26\n\n(ii) Total face cards = 12\nP(face card) = 12/52 = 3/13\n\n(iii) Red face cards = 3 (Hearts) + 3 (Diamonds) = 6\nP(red face card) = 6/52 = 3/26\n\n(iv) Spade cards = 13 (one full suit)\nP(spade) = 13/52 = 1/4\n\nStep 3: All values lie between 0 and 1. ✓\n\nANSWER: (i) 1/26   (ii) 3/13   (iii) 3/26   (iv) 1/4\n\n---"
+        },
+        {
+          "q_num": 10,
+          "marks": 4,
+          "question": "A box contains 90 discs which are numbered from 1 to 90. If one disc is drawn at random from the box, find the probability that it bears:",
+          "answer": "Step 1: Total outcomes = 90 (discs numbered 1 to 90), all equally likely.\n\nStep 2: (i) Two-digit numbers: 10, 11, 12, ..., 90 → Count = 90 − 10 + 1 = 81\nP(two-digit) = 81/90 = 9/10\n\n(ii) Perfect squares from 1 to 90:\n1, 4, 9, 16, 25, 36, 49, 64, 81 → Count = 9\nP(perfect square) = 9/90 = 1/10\n\n(iii) Numbers divisible by 5: 5, 10, 15, ..., 90 → Count = 90/5 = 18\nP(divisible by 5) = 18/90 = 1/5\n\n(iv) Divisible by both 3 and 5 = divisible by LCM(3, 5) = 15\nNumbers: 15, 30, 45, 60, 75, 90 → Count = 6\nP(divisible by 15) = 6/90 = 1/15\n\nStep 3: All values lie between 0 and 1. ✓\n\nANSWER: (i) 9/10   (ii) 1/10   (iii) 1/5   (iv) 1/15\n\n---"
+        },
+        {
+          "q_num": 11,
+          "marks": 4,
+          "question": "A lot of 20 bulbs contains 4 defective ones. One bulb is drawn at random.",
+          "answer": "Step 1: Initial lot: 20 bulbs — 4 defective, 16 good.\n\nStep 2: (i) P(defective) = 4/20 = 1/5\n\n(ii) The bulb drawn in (i) is NOT defective → it is a good bulb.\nRemaining bulbs = 20 − 1 = 19\nRemaining good = 16 − 1 = 15\nRemaining defective = 4 (unchanged)\n\n(a) P(not defective from remaining) = 15/19\n\n(b) P(defective from remaining) = 4/19\n[OR: 1 − 15/19 = 4/19 ✓]\n\nStep 3: Verify (ii): 15/19 + 4/19 = 19/19 = 1 ✓\n\nANSWER: (i) 1/5   (ii)(a) 15/19   (ii)(b) 4/19\n\n---"
+        },
+        {
+          "q_num": 12,
+          "marks": 5,
+          "question": "",
+          "answer": "PART A — Two Dice:\n\nStep 1: When two dice are thrown, outcomes are ordered pairs (a, b).\nTotal outcomes = 6 × 6 = 36 (all equally likely).\n[Sample space is a 6×6 table of pairs from (1,1) to (6,6)]\nNote: (2,6) and (6,2) are DIFFERENT outcomes.\n\nStep 2: (i) Sum = 8:\nFavourable pairs: (2,6), (3,5), (4,4), (5,3), (6,2) → 5 pairs\nP(sum = 8) = 5/36\n\n(ii) Sum = 13:\nMaximum possible sum = 6 + 6 = 12. Sum of 13 is impossible.\nP(sum = 13) = 0/36 = 0   [Impossible event]\n\n(iii) Sum ≤ 12:\nAll 36 pairs satisfy this (max sum = 12).\nP(sum ≤ 12) = 36/36 = 1   [Sure event]\n\n(iv) Sum = 7:\nFavourable pairs: (1,6), (2,5), (3,4), (4,3), (5,2), (6,1) → 6 pairs\nP(sum = 7) = 6/36 = 1/6\n\n---\n\nPART B — Three Coins:\n\nStep 1: Sample space when three coins are tossed:\n{HHH, HHT, HTH, HTT, THH, THT, TTH, TTT} → Total = 8 (equally likely)\n\nStep 2: (i) All heads: {HHH} → 1 favourable outcome\nP(all heads) = 1/8\n\n(ii) Exactly two heads: {HHT, HTH, THH} → 3 favourable outcomes\nP(exactly two heads) = 3/8\n\n(iii) Hanif wins if all tosses give the same result: {HHH, TTT} → 2 outcomes\nP(Hanif wins) = 2/8 = 1/4\nP(Hanif loses) = 1 − 1/4 = 3/4\n\nStep 3: Verify: 1/8 + 3/8 + P(one head) + P(no head)\n= 1/8 + 3/8 + 3/8 + 1/8 = 8/8 = 1 ✓\n\nANSWER:\nPart A: (i) 5/36   (ii) 0   (iii) 1   (iv) 1/6\nPart B: (i) 1/8   (ii) 3/8   (iii) P(wins) = 1/4,  P(loses) = 3/4"
+        }
+      ]
+    },
+    {
       "type": "mcq",
       "label": "CHAPTER 14: MCQs:",
       "items": [

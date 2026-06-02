@@ -42,6 +42,84 @@
       "items": []
     },
     {
+      "type": "qa",
+      "label": "Q&A",
+      "items": [
+        {
+          "q_num": 1,
+          "marks": 2,
+          "question": "What are similar figures? How do they differ from congruent figures?",
+          "answer": "- SIMILAR FIGURES: Two figures having the same shape but not necessarily the same size are called similar figures.\n- CONGRUENT FIGURES: Two figures having the same shape AND same size are called congruent figures.\n- All congruent figures are similar, but similar figures need not be congruent.\n- Symbol for similarity: '~' (e.g., △ABC ~ △DEF)."
+        },
+        {
+          "q_num": 2,
+          "marks": 2,
+          "question": "State the two conditions for two polygons to be similar.",
+          "answer": "Two polygons of the same number of sides are SIMILAR if:\n(i) Their corresponding angles are equal, AND\n(ii) Their corresponding sides are in the same ratio (proportion).\nBOTH conditions must hold simultaneously — either condition alone is NOT sufficient."
+        },
+        {
+          "q_num": 3,
+          "marks": 2,
+          "question": "State the Basic Proportionality Theorem (Thales Theorem).",
+          "answer": "STATEMENT: If a line is drawn parallel to one side of a triangle to intersect the other two sides in distinct points, then the other two sides are divided in the same ratio.\nIf DE || BC in △ABC (D on AB, E on AC), then:\nAD/DB = AE/EC"
+        },
+        {
+          "q_num": 4,
+          "marks": 2,
+          "question": "Name and state the three similarity criteria for triangles.",
+          "answer": "(1) AAA (Angle-Angle-Angle) — Theorem 6.3: If corresponding angles are equal, triangles are similar.\n(2) SSS (Side-Side-Side) — Theorem 6.4: If sides are proportional, triangles are similar.\n(3) SAS (Side-Angle-Side) — Theorem 6.5: If one angle equal and sides including those angles are proportional, triangles are similar.\n\n---"
+        },
+        {
+          "q_num": 5,
+          "marks": 3,
+          "question": "In △ABC, DE || BC where D is on AB and E is on AC. If AD = 1.5 cm, DB = 3 cm and AE = 1 cm, find EC. Also, if AD/AB = AE/AC, show this holds for the given values.",
+          "answer": "Step 1: Given DE || BC. By Basic Proportionality Theorem (Theorem 6.1):\nAD/DB = AE/EC\nStep 2: Substituting values:\n1.5/3 = 1/EC\nEC = 3 × 1/1.5 = 2 cm\nANSWER: EC = 2 cm.\n\nStep 3: Verification — AD/AB = AE/AC:\nAD = 1.5, DB = 3 → AB = 4.5. AE = 1, EC = 2 → AC = 3.\nAD/AB = 1.5/4.5 = 1/3. AE/AC = 1/3. ✓ Hence proved."
+        },
+        {
+          "q_num": 6,
+          "marks": 3,
+          "question": "If two angles of one triangle are equal to two angles of another triangle, prove that the triangles are similar. State the criterion used.",
+          "answer": "Step 1: Given: In △ABC and △DEF, ∠A = ∠D and ∠B = ∠E.\nStep 2: In any triangle, sum of all three angles = 180°.\n∠A + ∠B + ∠C = 180° → ∠C = 180° – ∠A – ∠B.\n∠D + ∠E + ∠F = 180° → ∠F = 180° – ∠D – ∠E = 180° – ∠A – ∠B.\nStep 3: Therefore ∠C = ∠F. All three corresponding angles are equal.\nCONCLUSION: △ABC ~ △DEF by AAA (or AA) SIMILARITY CRITERION."
+        },
+        {
+          "q_num": 7,
+          "marks": 3,
+          "question": "In △PQR, PS/SQ = PT/TR and ∠PST = ∠PRQ. Prove that △PQR is an isosceles triangle.",
+          "answer": "Step 1: Given PS/SQ = PT/TR.\nBy Converse of BPT (Theorem 6.2): ST || QR.\nStep 2: Since ST || QR:\n∠PST = ∠PQR (Corresponding angles) ...(1)\nStep 3: Given ∠PST = ∠PRQ ...(2)\nFrom (1) and (2): ∠PQR = ∠PRQ.\nStep 4: In △PQR, ∠PQR = ∠PRQ → PQ = PR (sides opposite equal angles are equal).\nCONCLUSION: △PQR is an ISOSCELES TRIANGLE.\n\n---"
+        },
+        {
+          "q_num": 8,
+          "marks": 4,
+          "question": "Prove the Basic Proportionality Theorem (Theorem 6.1): If a line is drawn parallel to one side of a triangle to intersect the other two sides in distinct points, then the other two sides are divided in the same ratio.",
+          "answer": "GIVEN: In △ABC, DE || BC where D is on AB and E is on AC.\nTO PROVE: AD/DB = AE/EC\nCONSTRUCTION: Join BE and CD. Draw DM ⊥ AC and EN ⊥ AB.\nPROOF:\nStep 1: ar(△ADE) = (1/2) × AD × EN\nar(△BDE) = (1/2) × DB × EN\nar(△ADE)/ar(△BDE) = AD/DB ...(1)\n\nStep 2: ar(△ADE) = (1/2) × AE × DM\nar(△DEC) = (1/2) × EC × DM\nar(△ADE)/ar(△DEC) = AE/EC ...(2)\n\nStep 3: △BDE and △DEC are on the same base DE and between the same parallels BC and DE.\n∴ ar(△BDE) = ar(△DEC) ...(3)\n\nStep 4: From (1), (2) and (3):\nar(△ADE)/ar(△BDE) = ar(△ADE)/ar(△DEC)\n∴ AD/DB = AE/EC\nHENCE PROVED."
+        },
+        {
+          "q_num": 9,
+          "marks": 4,
+          "question": "Prove that if in two triangles, corresponding angles are equal, then their corresponding sides are in the same ratio and hence the triangles are similar (AAA Similarity — Theorem 6.3).",
+          "answer": "GIVEN: △ABC and △DEF with ∠A = ∠D, ∠B = ∠E, ∠C = ∠F.\nTO PROVE: AB/DE = BC/EF = CA/FD (i.e., △ABC ~ △DEF).\nCONSTRUCTION: On DE, cut DP = AB. On DF, cut DQ = AC. Join PQ.\nPROOF:\nStep 1: In △ABC and △DPQ:\nAB = DP, ∠A = ∠D (given), AC = DQ.\n∴ △ABC ≅ △DPQ (SAS congruence).\n∴ ∠B = ∠P and ∠C = ∠Q.\n\nStep 2: Since ∠B = ∠P = ∠E (given ∠B = ∠E), we get ∠P = ∠E.\n∴ PQ || EF (corresponding angles equal).\n\nStep 3: By BPT in △DEF: DP/PE = DQ/QF.\n∴ AB/DE = AC/DF ...(i)\n\nStep 4: Similarly, AB/DE = BC/EF ...(ii)\nFrom (i) and (ii): AB/DE = BC/EF = CA/FD.\nHENCE PROVED. △ABC ~ △DEF (AAA similarity)."
+        },
+        {
+          "q_num": 10,
+          "marks": 4,
+          "question": "A girl of height 90 cm is walking away from the base of a lamp-post at a speed of 1.2 m/s. If the lamp is 3.6 m above the ground, find the length of her shadow after 4 seconds. Which similarity criterion is used?",
+          "answer": "Step 1: Let AB = lamp-post height = 3.6 m. CD = girl's height = 90 cm = 0.9 m.\nDistance walked in 4 seconds: BD = 1.2 × 4 = 4.8 m.\nLet DE = shadow length = x metres.\n\nStep 2: In △ABE and △CDE:\n∠ABE = ∠CDE = 90° (lamp-post and girl both vertical to ground).\n∠AEB = ∠CED (same angle — common angle E).\n∴ △ABE ~ △CDE (AA similarity criterion).\n\nStep 3: BE/DE = AB/CD (corresponding sides of similar triangles).\n(4.8 + x)/x = 3.6/0.9 = 4.\n\nStep 4: 4.8 + x = 4x\n3x = 4.8\nx = 1.6 m.\n\nANSWER: The length of the girl's shadow after 4 seconds is 1.6 m.\nCriterion used: AA (Angle-Angle) Similarity."
+        },
+        {
+          "q_num": 11,
+          "marks": 4,
+          "question": "ABCD is a trapezium with AB || DC. E and F are points on non-parallel sides AD and BC respectively such that EF || AB. Show that AE/ED = BF/FC.",
+          "answer": "GIVEN: Trapezium ABCD with AB || DC. E on AD, F on BC. EF || AB.\nTO PROVE: AE/ED = BF/FC.\nCONSTRUCTION: Join AC to intersect EF at G.\nPROOF:\nStep 1: AB || DC (given) and EF || AB (given).\n∴ EF || DC (lines parallel to the same line are parallel to each other).\n\nStep 2: In △ADC: EG || DC (since EF || DC and G is on AC).\nBy BPT (Theorem 6.1): AE/ED = AG/GC ...(1)\n\nStep 3: In △CAB: GF || AB (since EF || AB and G is on AC).\nBy BPT (Theorem 6.1): CG/GA = CF/FB.\n∴ AG/GC = BF/FC ...(2)\n\nStep 4: From (1) and (2): AE/ED = BF/FC.\nHENCE PROVED.\n\n---"
+        },
+        {
+          "q_num": 12,
+          "marks": 5,
+          "question": "",
+          "answer": "PART A — SSS Similarity Criterion (Theorem 6.4):\nSTATEMENT: If in two triangles, sides of one triangle are proportional to the sides of the other triangle, then their corresponding angles are equal and hence the two triangles are similar.\n\nGIVEN: △ABC and △DEF with AB/DE = BC/EF = CA/FD (< 1).\nTO PROVE: ∠A = ∠D, ∠B = ∠E, ∠C = ∠F, and △ABC ~ △DEF.\nCONSTRUCTION: On DE cut DP = AB; on DF cut DQ = AC. Join PQ.\nPROOF:\nStep 1: Given AB/DE = BC/EF = CA/FD. So DP/DE = DQ/DF (since DP = AB, DQ = AC).\nBy Converse of BPT: PQ || EF.\n∴ ∠P = ∠E and ∠Q = ∠F (corresponding angles).\n\nStep 2: In △DPQ and △DEF:\nDP/DE = DQ/DF = PQ/EF.\nFrom given: BC/EF = AB/DE → BC = PQ (since AB = DP, DE common factor).\n\nStep 3: Now △ABC and △DPQ:\nAB = DP, BC = PQ, CA = DQ.\n∴ △ABC ≅ △DPQ (SSS congruence).\n∴ ∠A = ∠D, ∠B = ∠P = ∠E, ∠C = ∠Q = ∠F.\n\nStep 4: Therefore △ABC ~ △DEF (all corresponding angles equal). HENCE PROVED.\n\nPART B — CM/RN = AB/PQ and △CMB ~ △RNQ:\nGIVEN: △ABC ~ △PQR. CM is median of △ABC (M = midpoint of BC). RN is median of △PQR (N = midpoint of QR).\nPROOF:\nStep 1: △ABC ~ △PQR → AB/PQ = BC/QR = CA/RP and ∠A = ∠P, ∠B = ∠Q, ∠C = ∠R.\n\nStep 2: Since CM and RN are medians: BC = 2BM, QR = 2QN.\nBC/QR = 2BM/2QN = BM/QN.\nFrom Step 1: AB/PQ = BM/QN. Also ∠B = ∠Q.\n∴ △CMB ~ △RNQ (SAS — BM/QN = BC/QR = AB/PQ and ∠B = ∠Q).\n\nStep 3: From △CMB ~ △RNQ:\nCM/RN = BM/QN = AB/PQ.\n∴ CM/RN = AB/PQ. HENCE PROVED."
+        }
+      ]
+    },
+    {
       "type": "mcq",
       "label": "CHAPTER 6: MCQs:",
       "items": [

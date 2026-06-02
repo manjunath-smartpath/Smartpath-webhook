@@ -35,13 +35,78 @@
       "type": "list_of_topics",
       "label": "LIST OF TOPICS IN THIS CHAPTER:",
       "items": [
-        "- Topic 12.1: Introduction"
+        "- Topic 12.1: Introduction",
+        "Sub-Topic 12.1.1: Factors of Natural Numbers",
+        "Sub-Topic 12.1.2: Factors of Algebraic Expressions",
+        "- Topic 12.2: What is Factorisation?",
+        "Sub-Topic 12.2.1: Method of Common Factors",
+        "Sub-Topic 12.2.2: Factorisation by Regrouping Terms",
+        "Sub-Topic 12.2.3: Factorisation Using Identities",
+        "Sub-Topic 12.2.4: Factors of the Form (x + a)(x + b)",
+        "- Topic 12.3: Division of Algebraic Expressions",
+        "Sub-Topic 12.3.1: Division of a Monomial by Another Monomial",
+        "Sub-Topic 12.3.2: Division of a Polynomial by a Monomial",
+        "- Topic 12.4: Division of Algebraic Expressions Continued (Polynomial / Polynomial)"
       ]
     },
     {
       "type": "qa",
       "label": "CHAPTER 12: Q&A:",
       "items": []
+    },
+    {
+      "type": "qa",
+      "label": "Q&A",
+      "items": [
+        {
+          "q_num": 1,
+          "marks": 2,
+          "question": "What is factorisation of an algebraic expression?",
+          "answer": "When we factorise an algebraic expression, we write it as a PRODUCT of\nits factors. These factors may be numbers, algebraic variables or algebraic\nexpressions. For example: 2x + 4 = 2(x + 2)."
+        },
+        {
+          "q_num": 2,
+          "marks": 2,
+          "question": "What is an irreducible factor? Give an example.",
+          "answer": "An irreducible factor is a factor that cannot be expressed further as a\nproduct of other factors. Example: In 5xy, the irreducible factors are 5, x\nand y (not 5 and xy, because xy = x × y can be split further)."
+        },
+        {
+          "q_num": 3,
+          "marks": 2,
+          "question": "Write the general relation between Dividend, Divisor, Quotient",
+          "answer": "In general: Dividend = Divisor × Quotient + Remainder.\nWhen remainder is zero: Dividend = Divisor × Quotient.\nExample: 6x^3 ÷ 2x → 6x^3 = 2x × 3x^2 (remainder = 0).\n\n---"
+        },
+        {
+          "q_num": 4,
+          "marks": 3,
+          "question": "Factorise 12a^2b + 15ab^2 using the method of common factors.",
+          "answer": "Step 1: 12a^2b = 2 × 2 × 3 × a × a × b\n15ab^2 = 3 × 5 × a × b × b\nStep 2: Common factors: 3, a, b → HCF = 3ab.\nStep 3: 12a^2b + 15ab^2 = 3ab(4a + 5b).\nAnswer: 3ab(4a + 5b)."
+        },
+        {
+          "q_num": 5,
+          "marks": 3,
+          "question": "Factorise 6xy − 4y + 6 − 9x using the regrouping method.",
+          "answer": "Step 1: No common factor for all terms. Reorder: 6xy − 4y − 9x + 6.\nStep 2: Group: (6xy − 4y) + (6 − 9x).\n6xy − 4y = 2y(3x − 2)\n6 − 9x = −3(3x − 2)\nStep 3: Common factor = (3x − 2).\n2y(3x−2) − 3(3x−2) = (3x − 2)(2y − 3).\nAnswer: (3x − 2)(2y − 3).\n\n---"
+        },
+        {
+          "q_num": 6,
+          "marks": 4,
+          "question": "Factorise each using identities:",
+          "answer": "Step 1: (i) Three terms, both ends perfect squares, middle term positive.\nx^2 + 8x + 16 = x^2 + 2(x)(4) + 4^2 = (x + 4)^2. [Identity I]\nStep 2: (ii) Three terms, middle term negative.\n4y^2 − 12y + 9 = (2y)^2 − 2(2y)(3) + 3^2 = (2y − 3)^2. [Identity II]\nStep 3: (iii) Two terms, both perfect squares, second negative.\n49p^2 − 36 = (7p)^2 − 6^2 = (7p − 6)(7p + 6). [Identity III]\nStep 4: Each identity is verified by expanding back.\nAnswer: (i) (x+4)^2  (ii) (2y−3)^2  (iii) (7p−6)(7p+6)."
+        },
+        {
+          "q_num": 7,
+          "marks": 4,
+          "question": "Divide: (i) 44(x^4 − 5x^3 − 24x^2) by 11x(x − 8)",
+          "answer": "Step 1: (i) Factorise dividend:\n44(x^4 − 5x^3 − 24x^2) = 4 × 11 × x^2(x^2 − 8x + 3x − 24)\n= 4 × 11 × x^2 × [x(x−8) + 3(x−8)] = 4 × 11 × x^2(x+3)(x−8).\nStep 2: Divisor = 11x(x−8).\nCancel 11, x, (x−8): quotient = 4x(x+3).\nStep 3: (ii) Factorise y^2 + 7y + 10: ab=10, a+b=7 → a=2, b=5.\ny^2 + 7y + 10 = (y+2)(y+5).\nStep 4: Cancel (y+5): quotient = (y+2).\nAnswer: (i) 4x(x+3).  (ii) (y+2).\n\n---"
+        },
+        {
+          "q_num": 8,
+          "marks": 5,
+          "question": "",
+          "answer": "PART A — Factorising m^4 − 256:\nStep 1: m^4 = (m^2)^2 and 256 = 16^2. Two terms, both perfect squares,\nsecond negative → Identity III: a^2 − b^2 = (a+b)(a−b).\nStep 2: m^4 − 256 = (m^2 − 16)(m^2 + 16).\nStep 3: m^2 + 16 cannot be factorised further (sum of squares).\nm^2 − 16 = m^2 − 4^2 = (m−4)(m+4). [Identity III again]\nStep 4: m^4 − 256 = (m−4)(m+4)(m^2+16). ✓\nAnswer (Part A): (m − 4)(m + 4)(m^2 + 16).\n\nPART B — Factorising 3m^2 + 9m + 6:\nStep 1: 3 is a common factor (Method of common factors).\n3m^2 + 9m + 6 = 3(m^2 + 3m + 2).\nStep 2: Factorise m^2 + 3m + 2 using Identity IV: (x+a)(x+b) = x^2+(a+b)x+ab.\nFind a, b: ab = 2 and a + b = 3.\nTry a = 1, b = 2: 1×2=2 ✓ and 1+2=3 ✓.\nStep 3: m^2 + 3m + 2 = (m+1)(m+2).\nStep 4: 3m^2 + 9m + 6 = 3(m+1)(m+2). ✓\nAnswer (Part B): 3(m + 1)(m + 2)."
+        }
+      ]
     },
     {
       "type": "mcq",

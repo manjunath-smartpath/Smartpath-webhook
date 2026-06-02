@@ -28,7 +28,21 @@
       "type": "list_of_topics",
       "label": "LIST OF TOPICS IN THIS CHAPTER:",
       "items": [
-        "- Topic 3.1: Introduction"
+        "- Topic 3.1: Introduction",
+        "Sub-Topic 3.1.1: Convex and Concave Polygons",
+        "Sub-Topic 3.1.2: Regular and Irregular Polygons",
+        "- Topic 3.2: Sum of the Measures of the Exterior Angles of a Polygon",
+        "- Topic 3.3: Kinds of Quadrilaterals",
+        "Sub-Topic 3.3.1: Trapezium",
+        "Sub-Topic 3.3.2: Kite",
+        "Sub-Topic 3.3.3: Parallelogram",
+        "Sub-Topic 3.3.4: Elements of a Parallelogram",
+        "Sub-Topic 3.3.5: Angles of a Parallelogram",
+        "Sub-Topic 3.3.6: Diagonals of a Parallelogram",
+        "- Topic 3.4: Some Special Parallelograms",
+        "Sub-Topic 3.4.1: Rhombus",
+        "Sub-Topic 3.4.2: A Rectangle",
+        "Sub-Topic 3.4.3: A Square"
       ]
     },
     {
@@ -37,9 +51,142 @@
       "items": []
     },
     {
+      "type": "qa",
+      "label": "Q&A",
+      "items": [
+        {
+          "q_num": 1,
+          "marks": 2,
+          "question": "What is a quadrilateral? Give two examples.",
+          "answer": "A quadrilateral is a polygon with exactly 4 sides, 4 angles, and\n4 vertices. The sum of all interior angles of a quadrilateral is 360°.\nExamples: Rectangle, Square."
+        },
+        {
+          "q_num": 2,
+          "marks": 2,
+          "question": "What is a trapezium? What is an isosceles trapezium?",
+          "answer": "A trapezium is a quadrilateral with exactly one pair of parallel sides.\nIf the non-parallel sides (legs) of a trapezium are equal in length, it is\ncalled an isosceles trapezium."
+        },
+        {
+          "q_num": 3,
+          "marks": 2,
+          "question": "Name the three special parallelograms and state one unique",
+          "answer": "The three special parallelograms are:\n(i)  Rhombus — all four sides are equal.\n(ii) Rectangle — each angle is a right angle (90°).\n(iii) Square — all sides equal AND each angle is 90°.\n\n---"
+        },
+        {
+          "q_num": 4,
+          "marks": 3,
+          "question": "State and prove that the opposite angles of a parallelogram",
+          "answer": "GIVEN: ABCD is a parallelogram. AB || DC and AD || BC.\nTO PROVE: angle A = angle C and angle B = angle D.\nPROOF:\nStep 1: Draw diagonal AC. In triangles ABC and CDA:\nAB || DC → angle BAC = angle DCA (alternate interior angles)\nAD || BC → angle BCA = angle DAC (alternate interior angles)\nAC = CA (common side)\nStep 2: By ASA congruency, triangle ABC ≅ triangle CDA.\nStep 3: Therefore angle B = angle D (corresponding parts of congruent\ntriangles are equal).\nSimilarly by drawing diagonal BD, angle A = angle C.\nHENCE PROVED: Opposite angles of a parallelogram are equal."
+        },
+        {
+          "q_num": 5,
+          "marks": 3,
+          "question": "Prove that the diagonals of a parallelogram bisect each other.",
+          "answer": "GIVEN: ABCD is a parallelogram with diagonals AC and BD meeting at O.\nTO PROVE: AO = CO and BO = DO.\nPROOF:\nStep 1: In triangles AOB and COD:\nAB || DC → angle OAB = angle OCD (alternate interior angles)\nAB || DC → angle OBA = angle ODC (alternate interior angles)\nAB = DC (opposite sides of parallelogram are equal)\nStep 2: By ASA congruency, triangle AOB ≅ triangle COD.\nStep 3: Therefore AO = CO and BO = DO\n(corresponding parts of congruent triangles).\nHENCE PROVED: The diagonals of a parallelogram bisect each other.\n\n---"
+        },
+        {
+          "q_num": 6,
+          "marks": 4,
+          "question": "Prove that the diagonals of a rhombus are perpendicular",
+          "answer": "DATA: RICE is a rhombus. Diagonals meet at O. OI = 5, OC = 12, RI = 13.\nTO PROVE: Diagonals are perpendicular bisectors of each other.\nPROOF:\nStep 1: RICE is a rhombus → it is also a parallelogram.\nParallelogram property: diagonals bisect each other.\nTherefore OA = OC and OB = OD (where diagonals meet at O).\nStep 2: In triangles AOD and COD:\nOA = OC (diagonals bisect — from Step 1)\nAD = CD (all sides of rhombus are equal)\nOD = OD (common side)\nStep 3: By SSS congruency: triangle AOD ≅ triangle COD.\nTherefore angle AOD = angle COD.\nStep 4: angle AOD + angle COD = 180° (linear pair on straight line AC).\n2 × angle AOD = 180° → angle AOD = 90°.\nHENCE PROVED: Diagonals of a rhombus are perpendicular bisectors of each other.\nFINDING x, y, z:\nStep 5: x = OI = 5 cm (diagonals bisect each other, so x = other half = 5 cm)\nStep 6: y = OR = OC = 12 cm (diagonals bisect, so y = other half = 12 cm)\nStep 7: z = side of rhombus = RI = 13 cm (all sides of a rhombus are equal)\nANSWER: x = 5 cm, y = 12 cm, z = 13 cm."
+        },
+        {
+          "q_num": 7,
+          "marks": 4,
+          "question": "Prove that the diagonals of a rectangle are equal in length.",
+          "answer": "DATA: RENT is a rectangle. Diagonals meet at O. OR = 2x + 4, OT = 3x + 1.\nTO PROVE: Diagonals of rectangle RENT are equal (RE diagonal = TN diagonal).\nPROOF:\nStep 1: RENT is a rectangle → all angles are 90°.\nangle R = angle E = angle N = angle T = 90°.\nStep 2: Consider triangles REN and TEN:\nRE = TN is what we want to prove. Consider triangles RNE and TNR.\nIn triangles REN and ETN:\nEN = EN (common side)\nangle REN = angle TEN = 90° (angles of rectangle)\nRE = NT (opposite sides of rectangle are equal)\nStep 3: By SAS congruency: triangle REN ≅ triangle ETN.\nTherefore RN = ET (corresponding sides).\nSo the two diagonals RN and ET are equal.\nHENCE PROVED: The diagonals of a rectangle are equal in length.\nFINDING x AND DIAGONAL LENGTH:\nStep 4: Since diagonals are equal, their halves are also equal.\nOR = OT (each is half of equal diagonals)\nStep 5: 2x + 4 = 3x + 1\n4 - 1 = 3x - 2x\nx = 3\nStep 6: OR = 2(3) + 4 = 10 cm.\nEach diagonal = 2 × OR = 2 × 10 = 20 cm.\nANSWER: x = 3 and each diagonal = 20 cm.\n\n---"
+        },
+        {
+          "q_num": 8,
+          "marks": 5,
+          "question": "",
+          "answer": "PART A — Prove opposite sides of a parallelogram are equal:\n\nGIVEN: ABCD is a parallelogram. AB || DC and AD || BC.\nTO PROVE: AB = DC and AD = BC.\nCONSTRUCTION: Draw diagonal AC.\nPROOF:\nStep 1: In triangles ABC and CDA:\nAB || DC (given) → angle BAC = angle DCA\n(alternate interior angles, with AC as transversal)\nStep 2: AD || BC (given) → angle DAC = angle BCA\n(alternate interior angles, with AC as transversal)\nStep 3: AC = CA (common side)\nStep 4: By ASA congruency: triangle ABC ≅ triangle CDA.\nStep 5: Therefore AB = DC and BC = AD\n(corresponding parts of congruent triangles are equal).\nHENCE PROVED: The opposite sides of a parallelogram are of equal length.\n\nPART B — Find all angles and perimeter of parallelogram RING:\n\nFINDING ALL ANGLES:\nStep 1: Given angle R = 70°.\nStep 2: angle N = angle R = 70°\n(N is opposite to R; opposite angles of parallelogram are equal).\nStep 3: angle R + angle I = 180°\n(adjacent angles of parallelogram are supplementary)\nangle I = 180° - 70° = 110°.\nStep 4: angle G = angle I = 110°\n(G is opposite to I; opposite angles are equal).\nRESULT: angle R = angle N = 70° and angle I = angle G = 110°.\n\nFINDING PERIMETER:\nStep 5: In parallelogram RING, opposite sides are equal.\nRI = NG = 6 cm and IN = RG = 4 cm.\nStep 6: Perimeter = RI + IN + NG + GR\n= 6 + 4 + 6 + 4\n= 20 cm.\nANSWER: All angles — angle R = angle N = 70°, angle I = angle G = 110°.\nPerimeter of RING = 20 cm."
+        }
+      ]
+    },
+    {
       "type": "mcq",
       "label": "CHAPTER 3: MCQs:",
-      "items": []
+      "items": [
+        {
+          "mcq_num": 1,
+          "difficulty": "Easy",
+          "question": "A polygon with 4 sides is called a:",
+          "options": {
+            "A": "Triangle",
+            "B": "Quadrilateral",
+            "C": "Pentagon",
+            "D": "Hexagon"
+          },
+          "answer": "B",
+          "explanation": "Quadrilateral = quad (4) + lateral (sides). Exactly 4 sides."
+        },
+        {
+          "mcq_num": 2,
+          "difficulty": "Easy",
+          "question": "The sum of all interior angles of a quadrilateral is:",
+          "options": {
+            "A": "180°",
+            "B": "270°",
+            "C": "360°",
+            "D": "540°"
+          },
+          "answer": "C",
+          "explanation": "Any quadrilateral can be split into 2 triangles. Sum = 2 × 180° = 360°."
+        },
+        {
+          "mcq_num": 3,
+          "difficulty": "Medium",
+          "question": "Which of the following is NOT a quadrilateral?",
+          "options": {
+            "A": "Trapezium",
+            "B": "Kite",
+            "C": "Pentagon",
+            "D": "Rhombus"
+          },
+          "answer": "C",
+          "explanation": "A pentagon has 5 sides. Trapezium, kite, rhombus all have 4 sides."
+        },
+        {
+          "mcq_num": 4,
+          "difficulty": "Medium",
+          "question": "A quadrilateral with two pairs of parallel sides is called a:",
+          "options": {
+            "A": "Trapezium",
+            "B": "Kite",
+            "C": "Parallelogram",
+            "D": "None of these"
+          },
+          "answer": "C",
+          "explanation": "A parallelogram has both pairs of opposite sides parallel."
+        },
+        {
+          "mcq_num": 5,
+          "difficulty": "Hard",
+          "question": "Which is the correct order from most general to most specific?",
+          "options": {
+            "A": "Square → Rectangle → Parallelogram → Quadrilateral",
+            "B": "Quadrilateral → Parallelogram → Rectangle → Square",
+            "C": "Parallelogram → Square → Rectangle → Quadrilateral",
+            "D": "Rectangle → Square → Parallelogram → Quadrilateral"
+          },
+          "answer": "B",
+          "explanation": "Quadrilateral is most general. Square is the most specific."
+        },
+        {
+          "mcq_num": 6,
+          "difficulty": "Hard",
+          "question": "A quadrilateral ABCD has AB = CD and AD = BC but no side is parallel to another. What type of quadrilateral could it be?",
+          "options": {
+            "A": "Trapezium",
+            "B": "Kite",
+            "C": "Parallelogram",
+            "D": "Cannot be determined"
+          },
+          "answer": "D",
+          "explanation": "Equal opposite sides alone do not guarantee parallel sides. Without knowing about parallel sides or angles, we cannot classify it definitively from this information alone."
+        }
+      ]
     }
   ],
   "topics": [
@@ -142,11 +289,6 @@
         {
           "type": "mcq",
           "label": "TOPIC 3.1: MCQs:",
-          "items": []
-        },
-        {
-          "type": "mcq",
-          "label": "MCQ",
           "items": [
             {
               "mcq_num": 1,
@@ -312,11 +454,6 @@
             {
               "type": "mcq",
               "label": "SUB-TOPIC 3.1.1: MCQs:",
-              "items": []
-            },
-            {
-              "type": "mcq",
-              "label": "MCQ",
               "items": [
                 {
                   "mcq_num": 1,
@@ -481,11 +618,6 @@
             {
               "type": "mcq",
               "label": "SUB-TOPIC 3.1.2: MCQs:",
-              "items": []
-            },
-            {
-              "type": "mcq",
-              "label": "MCQ",
               "items": [
                 {
                   "mcq_num": 1,
@@ -716,11 +848,6 @@
         {
           "type": "mcq",
           "label": "TOPIC 3.2: MCQs:",
-          "items": []
-        },
-        {
-          "type": "mcq",
-          "label": "MCQ",
           "items": [
             {
               "mcq_num": 1,
@@ -898,11 +1025,6 @@
         {
           "type": "mcq",
           "label": "TOPIC 3.3: MCQs:",
-          "items": []
-        },
-        {
-          "type": "mcq",
-          "label": "MCQ",
           "items": [
             {
               "mcq_num": 1,
@@ -1061,11 +1183,6 @@
             {
               "type": "mcq",
               "label": "SUB-TOPIC 3.3.1: MCQs:",
-              "items": []
-            },
-            {
-              "type": "mcq",
-              "label": "MCQ",
               "items": [
                 {
                   "mcq_num": 1,
@@ -1244,11 +1361,6 @@
             {
               "type": "mcq",
               "label": "SUB-TOPIC 3.3.2: MCQs:",
-              "items": []
-            },
-            {
-              "type": "mcq",
-              "label": "MCQ",
               "items": [
                 {
                   "mcq_num": 1,
@@ -1422,11 +1534,6 @@
             {
               "type": "mcq",
               "label": "SUB-TOPIC 3.3.3: MCQs:",
-              "items": []
-            },
-            {
-              "type": "mcq",
-              "label": "MCQ",
               "items": [
                 {
                   "mcq_num": 1,
@@ -1607,11 +1714,6 @@
             {
               "type": "mcq",
               "label": "SUB-TOPIC 3.3.4: MCQs:",
-              "items": []
-            },
-            {
-              "type": "mcq",
-              "label": "MCQ",
               "items": [
                 {
                   "mcq_num": 1,
@@ -1797,11 +1899,6 @@
             {
               "type": "mcq",
               "label": "SUB-TOPIC 3.3.5: MCQs:",
-              "items": []
-            },
-            {
-              "type": "mcq",
-              "label": "MCQ",
               "items": [
                 {
                   "mcq_num": 1,
@@ -1982,11 +2079,6 @@
             {
               "type": "mcq",
               "label": "SUB-TOPIC 3.3.6: MCQs:",
-              "items": []
-            },
-            {
-              "type": "mcq",
-              "label": "MCQ",
               "items": [
                 {
                   "mcq_num": 1,
@@ -2162,11 +2254,6 @@
         {
           "type": "mcq",
           "label": "TOPIC 3.4: MCQs:",
-          "items": []
-        },
-        {
-          "type": "mcq",
-          "label": "MCQ",
           "items": [
             {
               "mcq_num": 1,
@@ -2356,11 +2443,6 @@
             {
               "type": "mcq",
               "label": "SUB-TOPIC 3.4.1: MCQs:",
-              "items": []
-            },
-            {
-              "type": "mcq",
-              "label": "MCQ",
               "items": [
                 {
                   "mcq_num": 1,
@@ -2547,11 +2629,6 @@
             {
               "type": "mcq",
               "label": "SUB-TOPIC 3.4.2: MCQs:",
-              "items": []
-            },
-            {
-              "type": "mcq",
-              "label": "MCQ",
               "items": [
                 {
                   "mcq_num": 1,
@@ -2731,11 +2808,6 @@
             {
               "type": "mcq",
               "label": "SUB-TOPIC 3.4.3: MCQs:",
-              "items": []
-            },
-            {
-              "type": "mcq",
-              "label": "MCQ",
               "items": [
                 {
                   "mcq_num": 1,
