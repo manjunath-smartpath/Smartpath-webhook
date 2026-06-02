@@ -146,8 +146,9 @@ app.post('/webhook', async (req, res) => {
         }
         const parentPhone = digits.length === 10 ? '91' + digits : digits;
         const prog = await G.getProgress(from);
+        const evStats = await G.getEvalStats(from);
         const cls = String(student.get('Class') || '').replace(/[^\d]/g, '');
-        const ok = await G.sendParentReport(parentPhone, student.get('Name'), cls, prog);
+        const ok = await G.sendParentReport(parentPhone, student.get('Name'), cls, prog, evStats);
         await S.sendButtons(from,
           ok ? '✅ Parent ಗೆ report ಕಳಿಸಿದೆ!' : '⚠️ ಕಳಿಸೋಕೆ ಆಗಲಿಲ್ಲ. ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ.',
           [{ id: 'NAV_MENU', title: '🏠 Home' }]);
@@ -171,6 +172,12 @@ app.post('/webhook', async (req, res) => {
           return;
         }
         await G.incrementEvalCount(student);
+        // Parse marks from report and save to EvalScores tab
+        try {
+          const { score, total } = G.parseEvalMarks(report, st.evalMarks);
+          await G.saveEvalScore(from, student.get('Name'), cls, st.subject || '',
+            st.evalLabel || '', st.evalQ || '', score, total);
+        } catch (e) { console.error('eval save skip:', e.message); }
         await S.sendText(from, report.substring(0, 4000));
         await S.sendButtons(from, 'ಮುಂದೇನು? / What next?', [
           { id: 'EVAL_NEXT', title: '📝 Next Question' },
@@ -616,10 +623,23 @@ async function showProgress(from, student) {
     }
   }
 
+  // Evaluation stats (₹299)
+  const plan = String(student.get('Plan') || '');
+  if (plan === '299') {
+    const ev = await G.getEvalStats(from);
+    if (ev && ev.count > 0) {
+      msg += `\n✏️ *Evaluation:* ${ev.count} done, avg ${ev.avg}%\n`;
+      if (ev.recent && ev.recent.length) {
+        for (const r of ev.recent) {
+          msg += `   • ${r.subject} ${r.topic} — ${r.score}/${r.total}\n`;
+        }
+      }
+    }
+  }
+
   await S.sendText(from, msg.substring(0, 4000));
 
   // Buttons: Parent Report (₹299 only) + Home
-  const plan = String(student.get('Plan') || '');
   const btns = [];
   if (plan === '299') btns.push({ id: 'PARENT_REPORT', title: '📤 Parent Report' });
   btns.push({ id: 'NAV_MENU', title: '🏠 Home' });

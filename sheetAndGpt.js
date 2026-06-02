@@ -348,6 +348,59 @@ async function saveQuizScore(phone, name, cls, subject, chapter, topic, score, t
   }
 }
 
+// Save one evaluation result (marks parsed from GPT report)
+async function saveEvalScore(phone, name, cls, subject, topic, question, score, total) {
+  try {
+    const doc = await getDoc();
+    let sheet = doc.sheetsByTitle['EvalScores'];
+    if (!sheet) {
+      sheet = await doc.addSheet({ title: 'EvalScores',
+        headerValues: ['Date','Phone','Name','Class','Subject','Topic','Question','Score','Total','Percent'] });
+    }
+    const pct = total > 0 ? Math.round((score / total) * 100) : 0;
+    await sheet.addRow({
+      Date: new Date().toISOString(),
+      Phone: phone, Name: name || '', Class: cls || '',
+      Subject: subject || '', Topic: topic || '',
+      Question: (question || '').substring(0, 200),
+      Score: String(score), Total: String(total), Percent: String(pct)
+    });
+    return true;
+  } catch (e) {
+    console.error('Eval score save error:', e.message);
+    return false;
+  }
+}
+
+// Fetch evaluation stats for a student
+async function getEvalStats(phone) {
+  try {
+    const doc = await getDoc();
+    const sheet = doc.sheetsByTitle['EvalScores'];
+    if (!sheet) return { count: 0 };
+    const rows = await sheet.getRows();
+    const mine = rows.filter(r => r.get('Phone') === phone);
+    if (!mine.length) return { count: 0 };
+    const pcts = mine.map(r => parseInt(r.get('Percent')) || 0);
+    const avg = Math.round(pcts.reduce((a, b) => a + b, 0) / pcts.length);
+    const recent = mine.slice(-3).reverse().map(r => ({
+      subject: r.get('Subject'), topic: r.get('Topic'),
+      score: r.get('Score'), total: r.get('Total'), percent: r.get('Percent')
+    }));
+    return { count: mine.length, avg, recent };
+  } catch (e) {
+    console.error('Eval stats error:', e.message);
+    return { count: 0 };
+  }
+}
+
+// Parse "X/Y marks" from GPT evaluation report
+function parseEvalMarks(report, defaultTotal) {
+  const m = report.match(/(\d+(?:\.\d+)?)\s*\/\s*(\d+)/);
+  if (m) return { score: parseFloat(m[1]), total: parseInt(m[2]) };
+  return { score: 0, total: defaultTotal || 3 };
+}
+
 // Fetch progress stats for a student
 async function getProgress(phone) {
   try {
@@ -439,7 +492,7 @@ async function getProgress(phone) {
 }
 
 // Send progress report to a parent's WhatsApp number
-async function sendParentReport(parentPhone, studentName, cls, progress) {
+async function sendParentReport(parentPhone, studentName, cls, progress, evalStats) {
   try {
     const p = progress;
     const stars = '⭐'.repeat(Math.max(1, Math.min(5, Math.round((p.avg || 0) / 20))));
@@ -453,6 +506,9 @@ async function sendParentReport(parentPhone, studentName, cls, progress) {
     }
     if (p.best) msg += `💪 Strong: ${p.best.subject} Ch${p.best.chapter} (${p.best.percent}%)\n`;
     if (p.weak && p.weak.length) msg += `⚠️ Improve: ${p.weak[0].subject} Ch${p.weak[0].chapter} (${p.weak[0].percent}%)\n`;
+    if (evalStats && evalStats.count > 0) {
+      msg += `\n✏️ Writing Practice: ${evalStats.count} answers, avg ${evalStats.avg}%\n`;
+    }
     msg += `\n— Smartpath Kalike 🎓`;
 
     // reuse WhatsApp send via axios (same as sendHelpers)
@@ -502,6 +558,7 @@ module.exports = {
   checkGptAccess, incrementGptCount, askKSEEB,
   saveFeedback,
   saveQuizScore, getProgress, sendParentReport,
+  saveEvalScore, getEvalStats, parseEvalMarks,
   validateSchoolCode, redeemSchoolCode,
   checkEvalAccess, incrementEvalCount, evaluateAnswer, EVAL_DAILY_LIMIT,
   GPT_DAILY_LIMIT
