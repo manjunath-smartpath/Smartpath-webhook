@@ -294,21 +294,57 @@ async function handleRegistration(from, student, step, userText, replyId) {
       return;  // stay in PENDING_CODE
     }
 
-    // Valid code → activate
+    // Valid code → save code details in state, ask register no
     const expiry = new Date();
     expiry.setMonth(expiry.getMonth() + res.months);
+    // Save temporarily — complete after register no
     await G.updateStudent(student, 'Plan', res.plan);
     await G.updateStudent(student, 'Status', 'ACTIVE');
     await G.updateStudent(student, 'StartDate', new Date().toISOString().split('T')[0]);
     await G.updateStudent(student, 'ExpiryDate', expiry.toISOString().split('T')[0]);
+    await G.updateStudent(student, 'Registration_Step', 'PENDING_REGNO');
+    // Store code row index for redemption after regno
+    const st0 = NAV.getState(from);
+    st0._pendingCodeRow = res.row;
+    st0._pendingSchool = res.school;
+    st0._pendingPlan = res.plan;
+    st0._pendingMonths = res.months;
+    st0._pendingExpiry = expiry.toISOString().split('T')[0];
+
+    await S.sendText(from,
+      `✅ Code valid! ಒಂದು ಕ್ಷಣ...\n\n` +
+      `🏫 ${res.school}\n\n` +
+      `📋 ನಿಮ್ಮ School Register Number type ಮಾಡಿ:\n(e.g. REG042 ಅಥವಾ 42)\n\n` +
+      `ಗೊತ್ತಿಲ್ಲ ಅಂದ್ರೆ → *SKIP* type ಮಾಡಿ`);
+    return;
+  }
+
+  if (step === 'PENDING_REGNO') {
+    const cls = String(student.get('Class') || '').replace(/[^\d]/g,'') || '8';
+    const txt = (userText || '').trim();
+    const regno = ['skip','no','illa','ಇಲ್ಲ'].includes(txt.toLowerCase()) ? '' : txt;
+    const st0 = NAV.getState(from);
+
+    // Save RegNo to Sheet1
+    if (regno) await G.updateStudent(student, 'RegNo', regno);
     await G.updateStudent(student, 'Registration_Step', 'COMPLETE');
-    await G.redeemSchoolCode(res.row);
+
+    // Redeem code + save phone+name+regno to SchoolCodes StudentNos
+    if (st0._pendingCodeRow) {
+      await G.redeemSchoolCode(st0._pendingCodeRow,
+        from, student.get('Name') || '', regno);
+    }
+
+    const school = st0._pendingSchool || '';
+    const plan = st0._pendingPlan || '';
+    const expiry = st0._pendingExpiry || '';
 
     await S.sendText(from,
       `🎉 ಯಶಸ್ವಿ! Code activated!\n\n` +
-      `🏫 ${res.school}\n` +
-      `💎 Plan: ₹${res.plan} (${res.months} ತಿಂಗಳು)\n` +
-      `📅 ${expiry.toISOString().split('T')[0]} ತನಕ\n\nಈಗ ಕಲಿಯೋಣ! 📚`);
+      `🏫 ${school}\n` +
+      `${regno ? `📋 Register No: ${regno}\n` : ''}` +
+      `💎 Plan: ₹${plan} (${st0._pendingMonths || 12} ತಿಂಗಳು)\n` +
+      `📅 ${expiry} ತನಕ\n\nಈಗ ಕಲಿಯೋಣ! 📚`);
     await NAV.showMainMenu(from, cls);
     return;
   }

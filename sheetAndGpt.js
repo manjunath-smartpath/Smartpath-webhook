@@ -169,25 +169,36 @@ async function incrementEvalCount(student) {
 async function evaluateAnswer(cls, subject, question, marks, modelAnswer, studentAnswer) {
   try {
     const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
-    const sys = `You are a warm, encouraging KSEEB class ${cls} ${subject} teacher evaluating a student's written exam answer. ` +
-      `Compare the student answer against the model answer and award marks out of ${marks} (can be half marks like 1.5). ` +
-      `Be encouraging like a caring teacher — celebrate what they got right first, then guide gently. ` +
-      `Respond in a friendly Kannada + English mix. Be specific and detailed but warm. ` +
-      `Use EXACTLY this format with these emoji headers:\n\n` +
+
+    const sys = `You are a warm, encouraging KSEEB class ${cls} ${subject} teacher. ` +
+      `Evaluate the student's written answer out of ${marks} marks. ` +
+      `Also analyze spelling and grammar separately as ERROR PERCENTAGE (not marks). ` +
+      `Be encouraging — celebrate good points first, then guide gently. ` +
+      `Use a friendly Kannada + English mix. Use EXACTLY this format:\n\n` +
       `🎯 *MARKS: X/${marks}*\n\n` +
-      `✅ *ಚೆನ್ನಾಗಿ ಬರೆದಿದ್ದು (Good points):*\n• point 1\n• point 2\n\n` +
-      `📌 *ಸೇರಿಸಬೇಕಾಗಿದ್ದು (To improve):*\n• missed point 1\n• missed point 2\n\n` +
-      `💡 *Model Answer (ideal):*\n(write the complete correct answer here, exam-ready, in simple language)\n\n` +
+      `✅ *ಚೆನ್ನಾಗಿ ಬರೆದಿದ್ದು (Good points):*\n• point\n\n` +
+      `📌 *ಸೇರಿಸಬೇಕಾಗಿದ್ದು (To improve):*\n• missed point (or ✅ ಎಲ್ಲ correct!)\n\n` +
+      `🔤 *Spelling Analysis:*\n` +
+      `Error rate: X% (X out of ~Y words misspelled)\n` +
+      `• "wrongword" → "correctword" (list up to 3 mistakes, or ✅ No spelling mistakes!)\n\n` +
+      `✍️ *Grammar Analysis:*\n` +
+      `Error rate: X% (X grammar errors found)\n` +
+      `• wrong usage → correct usage (list up to 3 errors, or ✅ No grammar mistakes!)\n\n` +
+      `💡 *Model Answer (ideal):*\n(complete correct answer, exam-ready)\n\n` +
       `🌟 *Teacher's tip:* (one short motivating line)\n\n` +
-      `If the student answer is empty/irrelevant, give 0 and kindly encourage them to try. Keep under 280 words.`;
+      `Rules for error rate: count total words in student answer, ` +
+      `spelling error rate = (misspelled words / total words) × 100, ` +
+      `grammar error rate = (grammar errors / total sentences) × 100. ` +
+      `Round to nearest 5%. If 0 errors, say 0%. Keep under 300 words.`;
+
     const user = `Question (${marks} marks): ${question}\n\n` +
       `Model Answer (textbook reference): ${modelAnswer}\n\n` +
-      `Student's Answer: ${studentAnswer}\n\n` +
-      `Evaluate warmly and give the full report in the exact format.`;
+      `Student's Answer: ${studentAnswer}\n\nEvaluate with spelling and grammar analysis.`;
+
     const resp = await openai.chat.completions.create({
       model: 'gpt-4o-mini',
       messages: [{ role: 'system', content: sys }, { role: 'user', content: user }],
-      max_tokens: 650, temperature: 0.4
+      max_tokens: 700, temperature: 0.3
     });
     return cleanLatex(resp.choices[0].message.content.trim());
   } catch (e) {
@@ -305,11 +316,17 @@ async function validateSchoolCode(code, studentClass) {
   }
 }
 
-// Increment UsedCount after successful redemption
-async function redeemSchoolCode(codeRow) {
+// Increment UsedCount and append student info to StudentNos
+async function redeemSchoolCode(codeRow, phone, name, regno) {
   try {
     const used = parseInt(codeRow.get('UsedCount')) || 0;
     codeRow.set('UsedCount', String(used + 1));
+    // Append to StudentNos: phone(Name,RegNo)
+    if (phone) {
+      const existing = codeRow.get('StudentNos') || '';
+      const entry = regno ? `${phone}(${name||''},${regno})` : `${phone}(${name||''})`;
+      codeRow.set('StudentNos', existing ? existing + ', ' + entry : entry);
+    }
     await codeRow.save();
     return true;
   } catch (e) {
@@ -392,7 +409,16 @@ async function getEvalStats(phone) {
       subject: r.get('Subject'), topic: r.get('Topic'),
       score: r.get('Score'), total: r.get('Total'), percent: r.get('Percent')
     }));
-    return { count: mine.length, avg, recent };
+    // Best topic — highest percent evaluation
+    let bestTopic = null, bestPct = -1;
+    for (const r of mine) {
+      const pct = parseInt(r.get('Percent')) || 0;
+      if (pct > bestPct) {
+        bestPct = pct;
+        bestTopic = { topic: r.get('Topic'), subject: r.get('Subject'), percent: pct };
+      }
+    }
+    return { count: mine.length, avg, recent, bestTopic };
   } catch (e) {
     console.error('Eval stats error:', e.message);
     return { count: 0 };
@@ -484,11 +510,28 @@ async function getProgress(phone) {
       }
     }
 
+    // Weekly progress: this week avg vs last week avg
+    const now = new Date();
+    const weekMs = 7 * 86400000;
+    const thisWeekStart = new Date(now - weekMs);
+    const lastWeekStart = new Date(now - 2 * weekMs);
+    let twSum = 0, twN = 0, lwSum = 0, lwN = 0;
+    for (const r of mine) {
+      const d = new Date(r.get('Date') || '');
+      const pct = parseInt(r.get('Percent')) || 0;
+      if (d >= thisWeekStart) { twSum += pct; twN++; }
+      else if (d >= lastWeekStart) { lwSum += pct; lwN++; }
+    }
+    const thisWeek = twN ? Math.round(twSum / twN) : 0;
+    const lastWeek = lwN ? Math.round(lwSum / lwN) : 0;
+    const improvement = (twN && lwN) ? thisWeek - lastWeek : null;
+    const weekly = { thisWeek, lastWeek, improvement, hasData: twN > 0 || lwN > 0 };
+
     return {
       count: mine.length, avg,
       best: { percent: best.get('Percent'), subject: best.get('Subject'), chapter: best.get('Chapter') },
       worst: { percent: worst.get('Percent'), subject: worst.get('Subject'), chapter: worst.get('Chapter') },
-      recent, subjects, weak, streak
+      recent, subjects, weak, streak, weekly
     };
   } catch (e) {
     console.error('Progress fetch error:', e.message);
@@ -499,22 +542,91 @@ async function getProgress(phone) {
 // Send progress report to a parent's WhatsApp number
 async function sendParentReport(parentPhone, studentName, cls, progress, evalStats) {
   try {
-    const p = progress;
-    const stars = '⭐'.repeat(Math.max(1, Math.min(5, Math.round((p.avg || 0) / 20))));
-    let msg = `📊 *Smartpath Kalike — Progress Report*\n\n`;
-    msg += `ವಿದ್ಯಾರ್ಥಿ: *${studentName}* (${cls}th)\n\n`;
-    msg += `📝 ಒಟ್ಟು Quiz: ${p.count}\n`;
-    msg += `⭐ Average: ${p.avg}% ${stars}\n\n`;
+    const p = progress || {};
+    const today = new Date().toLocaleDateString('en-IN', { day:'2-digit', month:'short', year:'numeric' });
+
+    let msg = `📊 *SmartPath Kalike — ವಿದ್ಯಾರ್ಥಿ ಪ್ರಗತಿ ವರದಿ*\n\n`;
+    msg += `👨‍🎓 *ವಿದ್ಯಾರ್ಥಿ / Student:* ${studentName} (Class ${cls})\n`;
+    msg += `📅 *ವರದಿ ದಿನಾಂಕ:* ${today}\n\n`;
+
+    // Quiz Performance
+    msg += `📝 *Quiz Performance*\n`;
+    msg += `• ಒಟ್ಟು Quiz Attempts: ${p.count || 0}\n`;
+    msg += `• Average Score: ${p.avg || 0}%\n`;
+    if (p.streak && p.streak > 0) msg += `• ಕಲಿಕೆ Streak: ${p.streak} ದಿನ 🔥\n`;
+    msg += '\n';
+
+    // Subject-wise
     if (p.subjects && p.subjects.length) {
-      msg += p.subjects.map(s =>
-        `${s.subject === 'Maths' ? '📐' : '🔬'} ${s.subject}: ${s.avg}%`).join('  |  ') + '\n\n';
+      msg += `📚 *Subject-wise Performance*\n`;
+      for (const s of p.subjects) {
+        const icon = s.subject === 'Maths' ? '📐' : '🔬';
+        msg += `${icon} ${s.subject}: ${s.avg}%\n`;
+      }
+      msg += '\n';
     }
-    if (p.best) msg += `💪 Strong: ${p.best.subject} Ch${p.best.chapter} (${p.best.percent}%)\n`;
-    if (p.weak && p.weak.length) msg += `⚠️ Improve: ${p.weak[0].subject} Ch${p.weak[0].chapter} (${p.weak[0].percent}%)\n`;
+
+    // Strong area
+    if (p.best && parseInt(p.best.percent) >= 60) {
+      msg += `💪 *Strong Area (ಉತ್ತಮ ಸಾಧನೆ)*\n`;
+      msg += `• ${p.best.subject} Ch${p.best.chapter}: ${p.best.percent}%\n\n`;
+    }
+
+    // Improvement needed
+    msg += `🎯 *Improvement Needed (ಹೆಚ್ಚು ಅಭ್ಯಾಸ ಅಗತ್ಯ)*\n`;
+    if (p.weak && p.weak.length) {
+      for (const w of p.weak.slice(0, 2)) {
+        msg += `• ${w.subject} Ch${w.chapter} ನಲ್ಲಿ ಹೆಚ್ಚಿನ Practice ಮಾಡಿ (${w.percent}%)\n`;
+      }
+    } else {
+      msg += `• ಎಲ್ಲ chapters ನಲ್ಲಿ ನಿಯಮಿತ Practice ಮಾಡಿ\n`;
+    }
+    msg += '\n';
+
+    // Writing Practice (Evaluation)
     if (evalStats && evalStats.count > 0) {
-      msg += `\n✏️ Writing Practice: ${evalStats.count} answers, avg ${evalStats.avg}%\n`;
+      msg += `✍️ *Writing Practice Report*\n`;
+      msg += `• Submitted Answers: ${evalStats.count}\n`;
+      msg += `• Average Writing Score: ${evalStats.avg}%\n`;
+      if (evalStats.bestTopic && evalStats.bestTopic.topic) {
+        msg += `• Best Topic: ${evalStats.bestTopic.topic} (${evalStats.bestTopic.percent}%)\n`;
+      }
+      msg += '\n';
     }
-    msg += `\n— Smartpath Kalike 🎓`;
+
+    // Weekly Progress
+    if (p.weekly && p.weekly.hasData) {
+      msg += `📈 *Weekly Progress (ವಾರದ ಪ್ರಗತಿ)*\n`;
+      msg += `• ಹಿಂದಿನ ವಾರ: ${p.weekly.lastWeek}%\n`;
+      msg += `• ಈ ವಾರ: ${p.weekly.thisWeek}%\n`;
+      if (p.weekly.improvement !== null) {
+        const arrow = p.weekly.improvement >= 0 ? '📈' : '📉';
+        const sign = p.weekly.improvement >= 0 ? '+' : '';
+        msg += `• Improvement: ${sign}${p.weekly.improvement}% ${arrow}\n`;
+      }
+      msg += '\n';
+    }
+
+    // Next steps
+    msg += `📈 *ಮುಂದಿನ ಗುರಿ / Recommended Next Steps*\n`;
+    msg += `✅ ಇಂದಿನ Quiz ಪೂರ್ಣಗೊಳಿಸಿ\n`;
+    if (p.weak && p.weak.length) {
+      msg += `✅ ${p.weak[0].subject} ನಲ್ಲಿ ಹೆಚ್ಚುವರಿ Practice ಮಾಡಿ\n`;
+    }
+    if (evalStats && evalStats.count > 0) {
+      msg += `✅ Writing Practice ನಿಯಮಿತವಾಗಿ ಮಾಡಿ\n`;
+    }
+    msg += '\n';
+
+    // Recommendation
+    msg += `🌟 *SmartPath Recommendation:*\n`;
+    msg += `ನಿಯಮಿತ Quiz ಹಾಗೂ Writing Practice ಮಾಡಿದರೆ ವಿದ್ಯಾರ್ಥಿಯ ಅಂಕಗಳು ಮತ್ತು ಕಲಿಕೆಯ ಸಾಮರ್ಥ್ಯ ಇನ್ನಷ್ಟು ಉತ್ತಮವಾಗುತ್ತದೆ.\n\n`;
+
+    // Parent note
+    msg += `👨‍👩‍👧‍👦 *ಪೋಷಕರಿಗೆ ಸೂಚನೆ:*\n`;
+    msg += `ದಯವಿಟ್ಟು ವಿದ್ಯಾರ್ಥಿಯ ದೈನಂದಿನ ಕಲಿಕೆ ಪ್ರಗತಿಯನ್ನು ಗಮನಿಸಿ ಮತ್ತು ಪ್ರೋತ್ಸಾಹಿಸಿ.\n\n`;
+
+    msg += `— *SmartPath Kalike* 🎓\nAI-Powered Learning Assistant`;
 
     // reuse WhatsApp send via axios (same as sendHelpers)
     const axios = require('axios');
