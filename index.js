@@ -242,8 +242,10 @@ async function handleRegistration(from, student, step, userText, replyId) {
       return;
     }
     await G.updateStudent(student, 'Class', cls);
-    await G.updateStudent(student, 'Registration_Step', 'PENDING_SCHOOL');
-    await S.sendText(from, `${cls}ನೇ ತರಗತಿ ✅\n\nಶಾಲೆಯ ಹೆಸರು? / School name:`);
+    await G.updateStudent(student, 'Registration_Step', 'PENDING_CODE');
+    await S.sendText(from,
+      `${cls}ನೇ ತರಗತಿ ✅\n\n` +
+      `🎟️ ನಿಮ್ಮ *School Code* type ಮಾಡಿ:\n(ಶಾಲೆಯಿಂದ ಸಿಕ್ಕ code, e.g. GHS10A)`);
     return;
   }
 
@@ -270,21 +272,30 @@ async function handleRegistration(from, student, step, userText, replyId) {
     const cls = String(student.get('Class') || '').replace(/[^\d]/g,'') || '8';
     const txt = (userText || '').trim();
 
-    // Skip code → still trial (same 7-day trial, code blank)
-    if (!txt || ['no', 'illa', 'ಇಲ್ಲ', 'skip', 'na'].includes(txt.toLowerCase())) {
-      await G.updateStudent(student, 'Registration_Step', 'PENDING_REGNO');
+    // Code is mandatory now — must match a school code you entered
+    if (!txt) {
       await S.sendText(from,
-        `📋 ನಿಮ್ಮ School Register Number type ಮಾಡಿ:\n(e.g. REG042 ಅಥವಾ 42)\n\n` +
-        `ಗೊತ್ತಿಲ್ಲ ಅಂದ್ರೆ → *SKIP* type ಮಾಡಿ`);
+        `🎟️ ನಿಮ್ಮ *School Code* type ಮಾಡಿ:\n(ಶಾಲೆಯಿಂದ ಸಿಕ್ಕ code)\n\n` +
+        `Code ಗೊತ್ತಿಲ್ಲ ಅಂದ್ರೆ — ನಿಮ್ಮ ಶಾಲೆಯ ಶಿಕ್ಷಕರನ್ನು ಕೇಳಿ.`);
       return;
     }
 
-    // Accept ANY code (no validation) — save it, admin cross-checks later in Supabase
-    await G.updateStudent(student, 'School_Code', txt);
+    // Check if this code exists in your school list (entered via dashboard)
+    const exists = await G.codeExists(txt);
+    if (!exists) {
+      await S.sendText(from,
+        `❌ ಈ Code ಸರಿ ಇಲ್ಲ: *${txt}*\n\n` +
+        `ದಯವಿಟ್ಟು ಸರಿಯಾದ School Code type ಮಾಡಿ.\n` +
+        `(ನಿಮ್ಮ ಶಾಲೆಯ ಶಿಕ್ಷಕರಿಂದ code ಪಡೆಯಿರಿ)`);
+      return;  // stay in PENDING_CODE, ask again
+    }
+
+    // Valid code → save it, ask register number
+    await G.updateStudent(student, 'School_Code', txt.toUpperCase());
     await G.updateStudent(student, 'Registration_Step', 'PENDING_REGNO');
     await S.sendText(from,
-      `✅ Code ಸ್ವೀಕರಿಸಲಾಯಿತು!\n\n` +
-      `📋 ಈಗ ನಿಮ್ಮ School Register Number type ಮಾಡಿ:\n(e.g. REG042 ಅಥವಾ 42)\n\n` +
+      `✅ Code ಸರಿಯಾಗಿದೆ! (${exists.school || ''})\n\n` +
+      `📋 ಈಗ ನಿಮ್ಮ School Register Number type ಮಾಡಿ:\n(e.g. 42 ಅಥವಾ REG042)\n\n` +
       `ಗೊತ್ತಿಲ್ಲ ಅಂದ್ರೆ → *SKIP* type ಮಾಡಿ`);
     return;
   }
@@ -294,10 +305,40 @@ async function handleRegistration(from, student, step, userText, replyId) {
     const txt = (userText || '').trim();
     const regno = ['skip','no','illa','ಇಲ್ಲ'].includes(txt.toLowerCase()) ? '' : txt;
 
-    // Save RegNo, complete registration → 7-day trial (₹299 features) already set at signup
     if (regno) await G.updateStudent(student, 'RegNo', regno);
+
+    // Fill school name + city from the code's details (you entered these in dashboard)
+    const code = student.get('School_Code') || '';
+    const codeInfo = code ? await G.getCodeInfo(code) : null;
+    if (codeInfo) {
+      if (codeInfo.school) await G.updateStudent(student, 'School', codeInfo.school);
+      if (codeInfo.city) await G.updateStudent(student, 'City', codeInfo.city);
+    }
+
     await G.updateStudent(student, 'Registration_Step', 'COMPLETE');
 
+    // Check if this student's school code is already ACTIVE (school has paid)
+    const codeStatus = code ? await G.checkCodeActive(code, cls) : null;
+
+    if (codeStatus && codeStatus.active) {
+      // School paid → auto-activate student with full plan + duration
+      const expiry = new Date();
+      expiry.setMonth(expiry.getMonth() + (codeStatus.months || 12));
+      const expStr = expiry.toISOString().split('T')[0];
+      await G.updateStudent(student, 'Status', 'ACTIVE');
+      await G.updateStudent(student, 'Plan', codeStatus.plan || '299');
+      await G.updateStudent(student, 'ExpiryDate', expStr);
+      await S.sendText(from,
+        `🎉 ನೋಂದಣಿ ಪೂರ್ಣ! / Registered!\n\n` +
+        `${regno ? `📋 Register No: ${regno}\n` : ''}` +
+        `✅ *${codeStatus.school || 'ನಿಮ್ಮ ಶಾಲೆ'}* ಮೂಲಕ ACTIVE! 🎓\n` +
+        `💎 Plan: ₹${codeStatus.plan || '299'} (${codeStatus.months || 12} ತಿಂಗಳು)\n` +
+        `📅 ${expStr} ತನಕ\n\nಈಗ ಕಲಿಯೋಣ! 📚`);
+      await NAV.showMainMenu(from, cls);
+      return;
+    }
+
+    // Code not active → 7-day trial (₹299 features) — admin cross-checks / school pays later
     const expiry = student.get('ExpiryDate') || '';
     await S.sendText(from,
       `🎉 ನೋಂದಣಿ ಪೂರ್ಣ! / Registered!\n\n` +

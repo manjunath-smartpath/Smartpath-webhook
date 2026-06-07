@@ -5,6 +5,7 @@
 // ============================================================
 
 const { createClient } = require('@supabase/supabase-js');
+const G = require('./sheetAndGpt');
 
 const supabase = createClient(
   process.env.SUPABASE_URL,
@@ -29,6 +30,53 @@ function registerDashboard(app) {
     } catch (e) {
       return res.status(500).json({ error: e.message });
     }
+  });
+
+  // ---- API: activate whole school (code + class + plan + duration) ----
+  app.post('/dashboard/activate-school', async (req, res) => {
+    if ((req.query.pw || '') !== DASH_PASSWORD) return res.status(401).json({ error:'unauthorized' });
+    const { code, cls, plan, months } = req.body || {};
+    if (!code || !plan || !months) return res.status(400).json({ error:'missing fields' });
+    const r = await G.activateSchool(code, cls, plan, months);
+    return res.json(r);
+  });
+
+  // ---- API: activate single student (individual payment) ----
+  app.post('/dashboard/activate-student', async (req, res) => {
+    if ((req.query.pw || '') !== DASH_PASSWORD) return res.status(401).json({ error:'unauthorized' });
+    const { phone, plan, months } = req.body || {};
+    if (!phone || !plan || !months) return res.status(400).json({ error:'missing fields' });
+    const r = await G.activateStudent(phone, plan, months);
+    return res.json(r);
+  });
+
+  // ---- API: add/edit a school (code + name + city) ----
+  app.post('/dashboard/add-school', async (req, res) => {
+    if ((req.query.pw || '') !== DASH_PASSWORD) return res.status(401).json({ error:'unauthorized' });
+    const { code, school, city } = req.body || {};
+    if (!code || !school) return res.status(400).json({ error:'code ಮತ್ತು school name ಬೇಕು' });
+    try {
+      const codeUp = String(code).trim().toUpperCase();
+      const { data: ex } = await supabase.from('school_codes').select('code').ilike('code', codeUp).maybeSingle();
+      if (ex) {
+        await supabase.from('school_codes').update({ school, city: city||'' }).ilike('code', codeUp);
+      } else {
+        await supabase.from('school_codes').insert({
+          code: codeUp, school, city: city||'', class:'', plan:'299',
+          duration_months:12, max_uses:0, used_count:0, active:'NO', student_nos:''
+        });
+      }
+      return res.json({ ok:true, code: codeUp });
+    } catch (e) { return res.status(500).json({ error:e.message }); }
+  });
+
+  // ---- API: list all schools (codes) ----
+  app.get('/dashboard/schools', async (req, res) => {
+    if ((req.query.pw || '') !== DASH_PASSWORD) return res.status(401).json({ error:'unauthorized' });
+    try {
+      const { data } = await supabase.from('school_codes').select('*').order('code');
+      return res.json({ schools: data || [] });
+    } catch (e) { return res.status(500).json({ error:e.message }); }
   });
 
   // ---- Dashboard HTML page ----
@@ -92,6 +140,8 @@ tr:last-child td{border-bottom:none}tr:hover td{background:var(--panel2)}
 .toolbar input,.toolbar select{background:var(--panel);border:1px solid var(--line);color:var(--ink);padding:10px 14px;border-radius:10px;font-family:inherit;font-size:13px}
 .toolbar input{flex:1;min-width:160px}.toolbar input:focus,.toolbar select:focus{outline:none;border-color:var(--navy)}
 .btn-export{background:var(--green);color:#fff;border:none;padding:10px 16px;border-radius:10px;font-weight:700;font-size:13px;cursor:pointer;font-family:inherit}
+.btn-act{background:var(--navy);color:#fff;border:none;padding:6px 12px;border-radius:8px;font-weight:700;font-size:12px;cursor:pointer;font-family:inherit;white-space:nowrap}
+.btn-act:hover{opacity:.88}
 .full-card{background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:20px}
 .scroll-x{overflow-x:auto}.loading{text-align:center;padding:40px;color:var(--muted)}
 .empty{text-align:center;padding:30px;color:var(--muted);font-size:13px}
@@ -117,6 +167,33 @@ tr:last-child td{border-bottom:none}tr:hover td{background:var(--panel2)}
       <button class="refresh" onclick="loadAll()">🔄 Refresh</button>
     </div>
     <div class="stats" id="statCards"></div>
+
+    <!-- ADD SCHOOL -->
+    <div class="full-card" style="margin-bottom:18px;border-color:var(--navy)">
+      <h3 style="margin-bottom:6px">🏫 Add School <span class="tag">Demo OK ಆದ school — code entry</span></h3>
+      <p style="font-size:12px;color:var(--muted);margin-bottom:14px">ಇಲ್ಲಿ entry ಮಾಡಿದ code ಮಾತ್ರ — students register ಮಾಡಬಹುದು. (ಬೇರೆ code → reject)</p>
+      <div class="toolbar">
+        <input id="newCode" placeholder="School Code (e.g. GHS10A)" style="flex:1;min-width:130px">
+        <input id="newSchool" placeholder="School Name" style="flex:2;min-width:160px">
+        <input id="newCity" placeholder="City / ಊರು" style="flex:1;min-width:110px">
+        <button class="btn-export" style="background:var(--navy)" onclick="addSchool()">➕ Add School</button>
+      </div>
+      <div id="addResult" style="font-size:13px;margin-top:6px"></div>
+    </div>
+
+    <!-- SCHOOL ACTIVATION -->
+    <div class="full-card" style="margin-bottom:18px;border-color:var(--green)">
+      <h3 style="margin-bottom:6px">⚡ School Activation <span class="tag">School pay ಮಾಡಿದ ಮೇಲೆ — 1 click</span></h3>
+      <p style="font-size:12px;color:var(--muted);margin-bottom:14px">Code + Class + Plan + Duration → "Activate" → ಆ code ನ ಎಲ್ಲ students auto-ACTIVE (existing + future)</p>
+      <div class="toolbar">
+        <input id="actCode" placeholder="School code (e.g. GHS10A)" style="flex:1;min-width:140px">
+        <select id="actClass"><option value="">All Class</option><option value="8">Class 8</option><option value="9">Class 9</option><option value="10">Class 10</option></select>
+        <select id="actPlan"><option value="299">₹299 Premium</option><option value="199">₹199 Standard</option></select>
+        <select id="actMonths"><option value="1">1 month</option><option value="6">6 months</option><option value="12">12 months</option></select>
+        <button class="btn-export" style="background:var(--green)" onclick="activateSchool()">⚡ Activate School</button>
+      </div>
+      <div id="actResult" style="font-size:13px;margin-top:6px"></div>
+    </div>
     <div class="grid">
       <div class="card"><h3>🏫 School-wise Report <span class="tag" id="schCount"></span></h3>
         <div class="toolbar" style="margin-bottom:12px"><input id="schFilter" placeholder="🔍 School code type ಮಾಡಿ (e.g. GHS10A) — ಆ school ಮಾತ್ರ" oninput="renderSchools()"></div>
@@ -127,6 +204,18 @@ tr:last-child td{border-bottom:none}tr:hover td{background:var(--panel2)}
       <div class="card"><h3>💎 Plan Distribution</h3><div class="chart-box"><canvas id="planChart"></canvas></div></div>
       <div class="card"><h3>🔔 Expiring Soon (next 2 days)</h3><div id="expiringList"><div class="loading">Loading…</div></div></div>
     </div>
+    <!-- PRINCIPAL LIST (class-wise, copy/share) -->
+    <div class="full-card" style="margin-bottom:18px;border-color:var(--gold)">
+      <h3 style="margin-bottom:6px">📋 Principal List <span class="tag">School + Class → Copy → WhatsApp ಗೆ</span></h3>
+      <p style="font-size:12px;color:var(--muted);margin-bottom:14px">Principal/teacher ಗೆ confirm ಮಾಡೋಕೆ — class-wise student list (Name, RegNo, Phone)</p>
+      <div class="toolbar">
+        <input id="plCode" placeholder="School code (e.g. GHS10A)" style="flex:1;min-width:140px" oninput="buildList()">
+        <select id="plClass" onchange="buildList()"><option value="">All Class</option><option value="8">Class 8</option><option value="9">Class 9</option><option value="10">Class 10</option></select>
+        <button class="btn-export" style="background:var(--gold);color:#000" onclick="copyList()">📋 Copy List</button>
+      </div>
+      <pre id="plOutput" style="background:var(--bg);border:1px solid var(--line);border-radius:10px;padding:14px;font-family:'JetBrains Mono',monospace;font-size:12px;white-space:pre-wrap;margin-top:8px;min-height:40px;color:var(--ink)">School code type ಮಾಡಿ…</pre>
+    </div>
+
     <div class="full-card">
       <h3 style="margin-bottom:14px">👥 All Students</h3>
       <div class="toolbar">
@@ -135,7 +224,7 @@ tr:last-child td{border-bottom:none}tr:hover td{background:var(--panel2)}
         <select id="fClass" onchange="renderStudents()"><option value="">All Class</option><option value="8">Class 8</option><option value="9">Class 9</option><option value="10">Class 10</option></select>
         <button class="btn-export" onclick="exportCSV()">📤 Export CSV</button>
       </div>
-      <div class="scroll-x"><table id="studentTable"><thead><tr><th>Name</th><th>Phone</th><th>Class</th><th>School Code</th><th>RegNo</th><th>Status</th><th>Plan</th><th>Expiry</th></tr></thead><tbody></tbody></table></div>
+      <div class="scroll-x"><table id="studentTable"><thead><tr><th>Name</th><th>Phone</th><th>Class</th><th>School Code</th><th>RegNo</th><th>Status</th><th>Plan</th><th>Expiry</th><th>Action</th></tr></thead><tbody></tbody></table></div>
     </div>
   </div>
 </div>
@@ -210,13 +299,74 @@ function renderStudents(){
   let list=students.filter(s=>{if(fs&&effStatus(s)!==fs)return false;if(fc&&String(s.class||'').replace(/[^0-9]/g,'')!==fc)return false;if(q){const hay=((s.name||'')+' '+(s.phone||'')+' '+(s.school_code||'')+' '+(s.school||'')+' '+(s.regno||'')).toLowerCase();if(!hay.includes(q))return false;}return true;});
   const tb=document.querySelector('#studentTable tbody');
   if(!list.length){tb.innerHTML='<tr><td colspan="8" class="empty">No students match</td></tr>';return;}
-  tb.innerHTML=list.map(s=>{const st=effStatus(s);const b=st==='ACTIVE'?'active':st==='TRIAL'?'trial':'blocked';return '<tr><td><b>'+(s.name||'—')+'</b></td><td class="mono">'+(s.phone||'')+'</td><td>'+(s.class||'—')+'</td><td>'+(s.school_code?'<span class="code-pill">'+s.school_code+'</span>':'—')+'</td><td>'+(s.regno||'—')+'</td><td><span class="badge '+b+'">'+(st||'—')+'</span></td><td>'+(s.plan?'₹'+s.plan:'—')+'</td><td class="mono" style="font-size:12px">'+(s.expiry_date||'—')+'</td></tr>';}).join('');
+  tb.innerHTML=list.map(s=>{const st=effStatus(s);const b=st==='ACTIVE'?'active':st==='TRIAL'?'trial':'blocked';const act=st!=='ACTIVE'?'<button class="btn-act" onclick="activateStudent(\''+s.phone+'\',\''+(s.name||'')+'\')">✅ Activate</button>':'<span style="color:var(--green2);font-size:12px">✓ Active</span>';return '<tr><td><b>'+(s.name||'—')+'</b></td><td class="mono">'+(s.phone||'')+'</td><td>'+(s.class||'—')+'</td><td>'+(s.school_code?'<span class="code-pill">'+s.school_code+'</span>':'—')+'</td><td>'+(s.regno||'—')+'</td><td><span class="badge '+b+'">'+(st||'—')+'</span></td><td>'+(s.plan?'₹'+s.plan:'—')+'</td><td class="mono" style="font-size:12px">'+(s.expiry_date||'—')+'</td><td>'+act+'</td></tr>';}).join('');
 }
 function exportCSV(){
   const cols=['name','phone','class','school','school_code','regno','status','plan','start_date','expiry_date'];
   let csv=cols.join(',')+String.fromCharCode(10);
   students.forEach(s=>{csv+=cols.map(c=>'"'+((s[c]||'')+'').replace(/"/g,'""')+'"').join(',')+String.fromCharCode(10);});
   const blob=new Blob([csv],{type:'text/csv'});const a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download='smartpath_students_'+new Date().toISOString().split('T')[0]+'.csv';a.click();
+}
+async function activateSchool(){
+  const code=document.getElementById('actCode').value.trim();
+  const cls=document.getElementById('actClass').value;
+  const plan=document.getElementById('actPlan').value;
+  const months=document.getElementById('actMonths').value;
+  const box=document.getElementById('actResult');
+  if(!code){box.innerHTML='<span style="color:var(--red)">School code ಹಾಕಿ</span>';return;}
+  box.innerHTML='<span style="color:var(--muted)">Activating…</span>';
+  const r=await fetch('/dashboard/activate-school?pw='+encodeURIComponent(PW),{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({code,cls,plan,months})});
+  const j=await r.json();
+  if(j.ok){box.innerHTML='<span style="color:var(--green2)">✅ '+code+' activated! '+j.count+' students → ACTIVE (₹'+plan+', '+months+' months, '+j.expiry+' ತನಕ)</span>';loadAll();}
+  else box.innerHTML='<span style="color:var(--red)">❌ '+(j.error||'failed')+'</span>';
+}
+async function activateStudent(phone,name){
+  const plan=prompt('Plan for '+name+'? (299 / 199)','299');
+  if(!plan)return;
+  const months=prompt('Duration months? (1 / 6 / 12)','1');
+  if(!months)return;
+  const r=await fetch('/dashboard/activate-student?pw='+encodeURIComponent(PW),{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({phone,plan,months})});
+  const j=await r.json();
+  if(j.ok){alert('✅ '+name+' activated! ₹'+plan+', '+months+' months ('+j.expiry+' ತನಕ)');loadAll();}
+  else alert('❌ '+(j.error||'failed'));
+}
+async function addSchool(){
+  const code=document.getElementById('newCode').value.trim();
+  const school=document.getElementById('newSchool').value.trim();
+  const city=document.getElementById('newCity').value.trim();
+  const box=document.getElementById('addResult');
+  if(!code||!school){box.innerHTML='<span style="color:var(--red)">Code ಮತ್ತು School name ಬೇಕು</span>';return;}
+  box.innerHTML='<span style="color:var(--muted)">Adding…</span>';
+  const r=await fetch('/dashboard/add-school?pw='+encodeURIComponent(PW),{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({code,school,city})});
+  const j=await r.json();
+  if(j.ok){box.innerHTML='<span style="color:var(--green2)">✅ '+j.code+' added! ಈಗ ಆ code ನ students register ಮಾಡಬಹುದು.</span>';document.getElementById('newCode').value='';document.getElementById('newSchool').value='';document.getElementById('newCity').value='';}
+  else box.innerHTML='<span style="color:var(--red)">❌ '+(j.error||'failed')+'</span>';
+}
+function buildList(){
+  const code=(document.getElementById('plCode').value||'').trim().toLowerCase();
+  const cls=document.getElementById('plClass').value;
+  const out=document.getElementById('plOutput');
+  if(!code){out.textContent='School code type ಮಾಡಿ…';return;}
+  let list=students.filter(s=>(s.school_code||'').toLowerCase()===code);
+  if(cls)list=list.filter(s=>String(s.class||'').replace(/[^0-9]/g,'')===cls);
+  if(!list.length){out.textContent='ಆ code/class ಗೆ students ಇಲ್ಲ';return;}
+  const school=list[0].school||'';const codeUp=(list[0].school_code||code).toUpperCase();
+  let txt='📋 '+codeUp+(school?' — '+school:'')+'\\n';
+  txt+=(cls?'Class '+cls:'All Classes')+' — Students List\\n';
+  txt+='─────────────────────\\n';
+  list.sort((a,b)=>(a.class||'').localeCompare(b.class||''));
+  list.forEach((s,i)=>{txt+=(i+1)+'. '+(s.name||'—')+' | Reg: '+(s.regno||'—')+' | '+(s.phone||'')+(cls?'':' | Cl'+(s.class||'?'))+'\\n';});
+  txt+='─────────────────────\\n';
+  txt+='ಒಟ್ಟು: '+list.length+' students\\n\\n';
+  txt+='ದಯವಿಟ್ಟು confirm ಮಾಡಿ — SmartPath ಕಲಿಕೆ 🎓';
+  out.textContent=txt;
+}
+function copyList(){
+  const txt=document.getElementById('plOutput').textContent;
+  if(!txt||txt.includes('type ಮಾಡಿ')){alert('ಮೊದಲು school code ಹಾಕಿ');return;}
+  navigator.clipboard.writeText(txt).then(()=>alert('✅ Copy ಆಯ್ತು! WhatsApp ನಲ್ಲಿ paste ಮಾಡಿ.'),()=>{
+    const ta=document.createElement('textarea');ta.value=txt;document.body.appendChild(ta);ta.select();document.execCommand('copy');ta.remove();alert('✅ Copy ಆಯ್ತು!');
+  });
 }
 </script>
 </body>

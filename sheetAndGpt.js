@@ -289,6 +289,114 @@ function wrapCode(row) {
   };
 }
 
+// Check if a code exists in your school list (entered via dashboard). Returns {school,city} or null.
+async function codeExists(code) {
+  try {
+    const { data } = await supabase
+      .from('school_codes').select('code,school,city').ilike('code', String(code).trim()).maybeSingle();
+    if (!data) return null;
+    return { school: data.school || '', city: data.city || '' };
+  } catch (e) {
+    console.error('codeExists error:', e.message);
+    return null;
+  }
+}
+
+// Get school + city for a code (to fill student record)
+async function getCodeInfo(code) {
+  try {
+    const { data } = await supabase
+      .from('school_codes').select('school,city').ilike('code', String(code).trim()).maybeSingle();
+    if (!data) return null;
+    return { school: data.school || '', city: data.city || '' };
+  } catch (e) {
+    return null;
+  }
+}
+
+// Check if a school code is ACTIVE (school has paid). Returns plan/months/school if active.
+async function checkCodeActive(code, studentClass) {
+  try {
+    const { data } = await supabase
+      .from('school_codes').select('*').ilike('code', String(code).trim()).maybeSingle();
+    if (!data) return { active:false };
+    const active = String(data.active||'').trim().toUpperCase() === 'YES';
+    if (!active) return { active:false };
+    // optional class match (if code is class-specific)
+    const codeClass = String(data.class||'').replace(/[^\d]/g,'');
+    const stuClass = String(studentClass||'').replace(/[^\d]/g,'');
+    if (codeClass && stuClass && codeClass !== stuClass) return { active:false, classMismatch:true };
+    return {
+      active:true,
+      plan:String(data.plan||'299').trim(),
+      months: parseInt(data.duration_months) || 12,
+      school: data.school || ''
+    };
+  } catch (e) {
+    console.error('checkCodeActive error:', e.message);
+    return { active:false };
+  }
+}
+
+// Activate a whole school: set code active + activate all existing students on that code.
+// Called from dashboard. Returns count of students activated.
+async function activateSchool(code, cls, plan, months) {
+  try {
+    const codeUp = String(code).trim();
+    const expiry = new Date();
+    expiry.setMonth(expiry.getMonth() + (parseInt(months) || 12));
+    const expStr = expiry.toISOString().split('T')[0];
+
+    // 1. Upsert the school_codes row (create if missing, else update to ACTIVE)
+    const { data: existing } = await supabase
+      .from('school_codes').select('code').ilike('code', codeUp).maybeSingle();
+    if (existing) {
+      await supabase.from('school_codes').update({
+        active:'YES', plan:String(plan), class:String(cls||''), duration_months:parseInt(months)||12,
+        expiry_date: expStr
+      }).ilike('code', codeUp);
+    } else {
+      await supabase.from('school_codes').insert({
+        code:codeUp, school:'', class:String(cls||''), plan:String(plan),
+        duration_months:parseInt(months)||12, max_uses:0, used_count:0,
+        active:'YES', expiry_date:expStr, student_nos:''
+      });
+    }
+
+    // 2. Activate all existing students on this code (optionally filter by class)
+    let q = supabase.from('students').update({
+      status:'ACTIVE', plan:String(plan), expiry_date:expStr
+    }).ilike('school_code', codeUp);
+    if (cls) q = q.eq('class', String(cls));
+    await q;
+
+    // 3. Count how many students are now on this code+class
+    let cq = supabase.from('students').select('phone').ilike('school_code', codeUp);
+    if (cls) cq = cq.eq('class', String(cls));
+    const { data: studs } = await cq;
+    return { ok:true, count: (studs||[]).length, expiry: expStr };
+  } catch (e) {
+    console.error('activateSchool error:', e.message);
+    return { ok:false, error:e.message };
+  }
+}
+
+// Activate a single student (individual payment). Returns ok.
+async function activateStudent(phone, plan, months) {
+  try {
+    const expiry = new Date();
+    expiry.setMonth(expiry.getMonth() + (parseInt(months) || 1));
+    const expStr = expiry.toISOString().split('T')[0];
+    await supabase.from('students').update({
+      status:'ACTIVE', plan:String(plan), expiry_date:expStr
+    }).eq('phone', String(phone));
+    return { ok:true, expiry: expStr };
+  } catch (e) {
+    console.error('activateStudent error:', e.message);
+    return { ok:false, error:e.message };
+  }
+}
+
 async function validateSchoolCode(code, studentClass) {
   try {
     const { data, error } = await supabase
@@ -583,6 +691,8 @@ module.exports = {
   saveQuizScore, getProgress, sendParentReport,
   saveEvalScore, getEvalStats, parseEvalMarks,
   validateSchoolCode, redeemSchoolCode,
+  checkCodeActive, activateSchool, activateStudent,
+  codeExists, getCodeInfo,
   checkEvalAccess, incrementEvalCount, evaluateAnswer, EVAL_DAILY_LIMIT,
   GPT_DAILY_LIMIT
 };
