@@ -37,7 +37,14 @@ async function startQuiz(to, st) {
     return;
   }
 
-  st.quizList = validMcq;
+  // Shuffle questions so each attempt has a different order (practice mode)
+  const shuffled = validMcq.slice();
+  for (let i = shuffled.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+  }
+
+  st.quizList = shuffled;
   st.quizIndex = 0;
   st.quizScore = 0;
   st.quizResults = [];   // [{n, correct}]
@@ -45,7 +52,7 @@ async function startQuiz(to, st) {
   st.flow = 'quiz';
 
   await S.sendButtons(to,
-    `📝 *Quiz: ${label}*\n${mcqList.length} questions ಇದೆ. Ready?`,
+    `📝 *Quiz: ${label}*\n${shuffled.length} questions ಇದೆ. Ready?`,
     [
       { id: 'QUIZ_START', title: '✅ Start' },
       { id: 'NAV_MENU', title: '🏠 Home' }

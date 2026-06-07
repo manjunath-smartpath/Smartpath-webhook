@@ -496,11 +496,32 @@ async function handleTypedQuestion(from, student, cls, question) {
   // Allowed → call GPT
   await S.sendText(from, '🤔 ಯೋಚಿಸ್ತಿದೀನಿ... / Thinking...');
   const answer = await G.askKSEEB(question, cls, from);
-  await G.incrementGptCount(student);
-  await S.sendText(from, answer.substring(0, 4000));
-  await S.sendButtons(from,
-    `💎 ${gpt.remaining - 1} questions ಉಳಿದಿದೆ ಇಂದು.`,
-    [{ id: 'NAV_MENU', title: '📚 Browse Topics' }]);
+
+  // Did we get a real answer? (not "not found" / not technical error)
+  const notFound = answer.includes('textbook ನಲ್ಲಿ ಸಿಗಲಿಲ್ಲ');
+  const techError = answer.includes('ತಾಂತ್ರಿಕ ತೊಂದರೆ');
+  const realAnswer = !notFound && !techError;
+
+  if (realAnswer) {
+    // Count this question only when a real answer was given
+    await G.incrementGptCount(student);
+    await S.sendText(from, answer.substring(0, 4000));
+    await S.sendButtons(from,
+      `💎 ${gpt.remaining - 1} questions ಉಳಿದಿದೆ ಇಂದು.`,
+      [{ id: 'NAV_MENU', title: '📚 Browse Topics' }]);
+  } else if (notFound) {
+    // No answer in textbook → do NOT reduce count
+    await S.sendButtons(from,
+      `📖 ಈ ಪ್ರಶ್ನೆಗೆ ಉತ್ತರ ನಿಮ್ಮ Class ${cls} textbook ನಲ್ಲಿ ಸಿಗಲಿಲ್ಲ.\n\n` +
+      `(ನಿಮ್ಮ Class ${cls} ನ Maths/Science ಪ್ರಶ್ನೆ ಕೇಳಿ)\n\n` +
+      `💎 ${gpt.remaining} questions ಉಳಿದಿದೆ (ಈ ಪ್ರಶ್ನೆ count ಆಗಲಿಲ್ಲ).`,
+      [{ id: 'NAV_MENU', title: '📚 Browse Topics' }]);
+  } else {
+    // Technical error → do NOT reduce count
+    await S.sendButtons(from,
+      `⚠️ ತಾಂತ್ರಿಕ ತೊಂದರೆ ಆಗಿದೆ, ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ.\n\n💎 ${gpt.remaining} questions ಉಳಿದಿದೆ.`,
+      [{ id: 'NAV_MENU', title: '📚 Browse Topics' }]);
+  }
 }
 
 // ============================================================
