@@ -80,9 +80,23 @@ function registerDashboard(app) {
   });
 
   // ---- Dashboard HTML page ----
-  app.get('/dashboard', (req, res) => {
+  app.get('/dashboard', async (req, res) => {
     res.set('Content-Type', 'text/html; charset=utf-8');
-    res.send(DASHBOARD_HTML);
+    const pw = req.query.pw || '';
+    // If password provided and correct → serve dashboard WITH data pre-loaded (no button needed)
+    if (pw && pw === DASH_PASSWORD) {
+      try {
+        const { data } = await supabase.from('students').select('*').order('start_date', { ascending: false });
+        const studentsJson = JSON.stringify(data || []);
+        const html = DASHBOARD_HTML
+          .replace('/*__PRELOAD__*/', `window.__PRELOAD_PW=${JSON.stringify(pw)};window.__PRELOAD_STUDENTS=${studentsJson};`);
+        return res.send(html);
+      } catch (e) {
+        return res.send(DASHBOARD_HTML);
+      }
+    }
+    // No/wrong password → serve login form
+    return res.send(DASHBOARD_HTML);
   });
 }
 
@@ -156,10 +170,10 @@ tr:last-child td{border-bottom:none}tr:hover td{background:var(--panel2)}
     <h2>🎓 SmartPath Admin</h2>
     <p>Dashboard ನೋಡೋಕೆ password ಹಾಕಿ.</p>
     <label>Password</label>
-    <input id="pw" type="password" placeholder="Admin password" onkeydown="if(event.key==='Enter')login()">
-    <button id="loginBtn" onclick="login()">Dashboard ತೆರೆ →</button>
+    <input id="pw" type="password" placeholder="Admin password" onkeydown="if(event.key==='Enter')goLogin()">
+    <button id="loginBtn" onclick="goLogin()">Dashboard ತೆರೆ →</button>
     <div class="err" id="loginErr"></div>
-    <div style="text-align:center;font-size:11px;color:var(--muted);margin-top:14px">v8 · login ready</div>
+    <div style="text-align:center;font-size:11px;color:var(--muted);margin-top:14px">v9 · login ready</div>
   </div>
 
   <div id="dash" class="hide">
@@ -231,6 +245,26 @@ tr:last-child td{border-bottom:none}tr:hover td{background:var(--panel2)}
 </div>
 <script>
 let PW='',students=[],classChart=null,planChart=null;
+/*__PRELOAD__*/
+// If server pre-loaded data (password was correct in URL), show dashboard immediately
+if(window.__PRELOAD_STUDENTS){
+  PW=window.__PRELOAD_PW||'';
+  students=window.__PRELOAD_STUDENTS;
+  window.addEventListener('load',function(){
+    try{
+      document.getElementById('gate').classList.add('hide');
+      document.getElementById('dash').classList.remove('hide');
+      renderAll();
+    }catch(e){console.error('preload render:',e);}
+  });
+}
+// Simplest, most reliable login: put password in URL, let server check + preload data
+function goLogin(){
+  var p=(document.getElementById('pw').value||'').trim();
+  if(!p){document.getElementById('loginErr').textContent='Password ಹಾಕಿ';return;}
+  document.getElementById('loginErr').textContent='ತೆರೆಯುತ್ತಿದೆ…';
+  window.location.href='/dashboard?pw='+encodeURIComponent(p);
+}
 async function login(){
   PW=document.getElementById('pw').value.trim();
   const err=document.getElementById('loginErr');
@@ -384,9 +418,9 @@ function copyList(){
 // Fallback: bind login button via JS too (in case inline onclick fails)
 window.addEventListener('load',function(){
   var b=document.getElementById('loginBtn');
-  if(b)b.onclick=login;
+  if(b)b.onclick=goLogin;
   var p=document.getElementById('pw');
-  if(p)p.onkeydown=function(e){if(e.key==='Enter')login();};
+  if(p)p.onkeydown=function(e){if(e.key==='Enter')goLogin();};
 });
 </script>
 </body>
