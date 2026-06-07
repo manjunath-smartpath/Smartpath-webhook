@@ -27,7 +27,8 @@ const COL = {
   StartDate:'start_date', Status:'status', ExpiryDate:'expiry_date',
   Registration_Step:'registration_step', Plan:'plan',
   GPT_Count:'gpt_count', GPT_Date:'gpt_date', ParentPhone:'parent_phone',
-  Eval_Count:'eval_count', Eval_Date:'eval_date', RegNo:'regno'
+  Eval_Count:'eval_count', Eval_Date:'eval_date', RegNo:'regno',
+  School_Code:'school_code'
 };
 function toDbCol(field){ return COL[field] || field.toLowerCase(); }
 
@@ -75,11 +76,11 @@ async function saveNewStudent(phone) {
   try {
     const today = new Date();
     const expiry = new Date(today);
-    expiry.setDate(expiry.getDate() + 2);
+    expiry.setDate(expiry.getDate() + 7);   // 1 week free trial
     await supabase.from('students').insert({
       phone,
       name:'', class:'', school:'', city:'',
-      status:'TRIAL', plan:'',
+      status:'TRIAL', plan:'299',           // trial gets ₹299 features
       start_date: today.toISOString().split('T')[0],
       expiry_date: expiry.toISOString().split('T')[0],
       gpt_count: 0, gpt_date:'',
@@ -116,6 +117,8 @@ function hasAccess(student) {
 
 // ---------- GPT ACCESS (₹299 only, 10/day) ----------
 function checkGptAccess(student) {
+  // Blocked or expired trial → no access
+  if (!hasAccess(student)) return { allowed:false, reason:'expired', remaining:0 };
   const plan = getPlan(student);
   if (plan !== '299') return { allowed:false, reason:'plan', remaining:0 };
   const today = new Date().toISOString().split('T')[0];
@@ -143,6 +146,7 @@ async function incrementGptCount(student) {
 
 // ---------- EVALUATION ACCESS (₹299, 5/day) ----------
 function checkEvalAccess(student) {
+  if (!hasAccess(student)) return { allowed:false, reason:'expired', remaining:0 };
   const plan = getPlan(student);
   if (plan !== '299') return { allowed:false, reason:'plan', remaining:0 };
   const today = new Date().toISOString().split('T')[0];

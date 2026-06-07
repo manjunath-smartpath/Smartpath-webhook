@@ -269,52 +269,21 @@ async function handleRegistration(from, student, step, userText, replyId) {
     const cls = String(student.get('Class') || '').replace(/[^\d]/g,'') || '8';
     const txt = (userText || '').trim();
 
-    // Skip code → trial
+    // Skip code → still trial (same 7-day trial, code blank)
     if (!txt || ['no', 'illa', 'ಇಲ್ಲ', 'skip', 'na'].includes(txt.toLowerCase())) {
-      await G.updateStudent(student, 'Registration_Step', 'COMPLETE');
+      await G.updateStudent(student, 'Registration_Step', 'PENDING_REGNO');
       await S.sendText(from,
-        `🎉 ನೋಂದಣಿ ಪೂರ್ಣ! / Registered!\n\n✅ 2 ದಿನ FREE Trial ಶುರು!\n\nಈಗ ಕಲಿಯೋಣ! 📚`);
-      await NAV.showMainMenu(from, cls);
+        `📋 ನಿಮ್ಮ School Register Number type ಮಾಡಿ:\n(e.g. REG042 ಅಥವಾ 42)\n\n` +
+        `ಗೊತ್ತಿಲ್ಲ ಅಂದ್ರೆ → *SKIP* type ಮಾಡಿ`);
       return;
     }
 
-    // Validate code
-    const res = await G.validateSchoolCode(txt, cls);
-    if (!res.ok) {
-      let msg;
-      switch (res.reason) {
-        case 'invalid': msg = '❌ Code ಸರಿ ಇಲ್ಲ. ಮತ್ತೆ type ಮಾಡಿ ಅಥವಾ *NO* ಅಂತ type ಮಾಡಿ.'; break;
-        case 'inactive': msg = '❌ ಈ code ಈಗ active ಇಲ್ಲ. *NO* type ಮಾಡಿ ಅಥವಾ admin ನ ಸಂಪರ್ಕಿಸಿ.'; break;
-        case 'expired': msg = '❌ ಈ code ನ ಅವಧಿ ಮುಗಿದಿದೆ. *NO* type ಮಾಡಿ.'; break;
-        case 'limit_reached': msg = '❌ ಈ code ನ limit ಮುಗಿದಿದೆ. Admin ನ ಸಂಪರ್ಕಿಸಿ ಅಥವಾ *NO* type ಮಾಡಿ.'; break;
-        case 'class_mismatch': msg = `❌ ಈ code ${res.codeClass}ನೇ ತರಗತಿಗೆ. ನೀವು ${cls}ನೇ ತರಗತಿ. ಸರಿಯಾದ code ಅಥವಾ *NO* type ಮಾಡಿ.`; break;
-        default: msg = '⚠️ ಸಮಸ್ಯೆ ಆಯ್ತು. ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ ಅಥವಾ *NO* type ಮಾಡಿ.';
-      }
-      await S.sendText(from, msg);
-      return;  // stay in PENDING_CODE
-    }
-
-    // Valid code → save code details in state, ask register no
-    const expiry = new Date();
-    expiry.setMonth(expiry.getMonth() + res.months);
-    // Save temporarily — complete after register no
-    await G.updateStudent(student, 'Plan', res.plan);
-    await G.updateStudent(student, 'Status', 'ACTIVE');
-    await G.updateStudent(student, 'StartDate', new Date().toISOString().split('T')[0]);
-    await G.updateStudent(student, 'ExpiryDate', expiry.toISOString().split('T')[0]);
+    // Accept ANY code (no validation) — save it, admin cross-checks later in Supabase
+    await G.updateStudent(student, 'School_Code', txt);
     await G.updateStudent(student, 'Registration_Step', 'PENDING_REGNO');
-    // Store code row index for redemption after regno
-    const st0 = NAV.getState(from);
-    st0._pendingCodeRow = res.row;
-    st0._pendingSchool = res.school;
-    st0._pendingPlan = res.plan;
-    st0._pendingMonths = res.months;
-    st0._pendingExpiry = expiry.toISOString().split('T')[0];
-
     await S.sendText(from,
-      `✅ Code valid! ಒಂದು ಕ್ಷಣ...\n\n` +
-      `🏫 ${res.school}\n\n` +
-      `📋 ನಿಮ್ಮ School Register Number type ಮಾಡಿ:\n(e.g. REG042 ಅಥವಾ 42)\n\n` +
+      `✅ Code ಸ್ವೀಕರಿಸಲಾಯಿತು!\n\n` +
+      `📋 ಈಗ ನಿಮ್ಮ School Register Number type ಮಾಡಿ:\n(e.g. REG042 ಅಥವಾ 42)\n\n` +
       `ಗೊತ್ತಿಲ್ಲ ಅಂದ್ರೆ → *SKIP* type ಮಾಡಿ`);
     return;
   }
@@ -323,28 +292,18 @@ async function handleRegistration(from, student, step, userText, replyId) {
     const cls = String(student.get('Class') || '').replace(/[^\d]/g,'') || '8';
     const txt = (userText || '').trim();
     const regno = ['skip','no','illa','ಇಲ್ಲ'].includes(txt.toLowerCase()) ? '' : txt;
-    const st0 = NAV.getState(from);
 
-    // Save RegNo to Sheet1
+    // Save RegNo, complete registration → 7-day trial (₹299 features) already set at signup
     if (regno) await G.updateStudent(student, 'RegNo', regno);
     await G.updateStudent(student, 'Registration_Step', 'COMPLETE');
 
-    // Redeem code + save phone+name+regno to SchoolCodes StudentNos
-    if (st0._pendingCodeRow) {
-      await G.redeemSchoolCode(st0._pendingCodeRow,
-        from, student.get('Name') || '', regno);
-    }
-
-    const school = st0._pendingSchool || '';
-    const plan = st0._pendingPlan || '';
-    const expiry = st0._pendingExpiry || '';
-
+    const expiry = student.get('ExpiryDate') || '';
     await S.sendText(from,
-      `🎉 ಯಶಸ್ವಿ! Code activated!\n\n` +
-      `🏫 ${school}\n` +
+      `🎉 ನೋಂದಣಿ ಪೂರ್ಣ! / Registered!\n\n` +
       `${regno ? `📋 Register No: ${regno}\n` : ''}` +
-      `💎 Plan: ₹${plan} (${st0._pendingMonths || 12} ತಿಂಗಳು)\n` +
-      `📅 ${expiry} ತನಕ\n\nಈಗ ಕಲಿಯೋಣ! 📚`);
+      `🎁 *1 ವಾರ FREE Trial* ಶುರು! (ಎಲ್ಲ ₹299 features)\n` +
+      `📅 ${expiry} ತನಕ\n\n` +
+      `ಈಗ ಕಲಿಯೋಣ! 📚`);
     await NAV.showMainMenu(from, cls);
     return;
   }
