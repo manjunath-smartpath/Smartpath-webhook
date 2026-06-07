@@ -119,6 +119,7 @@ tr:last-child td{border-bottom:none}tr:hover td{background:var(--panel2)}
     <div class="stats" id="statCards"></div>
     <div class="grid">
       <div class="card"><h3>🏫 School-wise Report <span class="tag" id="schCount"></span></h3>
+        <div class="toolbar" style="margin-bottom:12px"><input id="schFilter" placeholder="🔍 School code type ಮಾಡಿ (e.g. GHS10A) — ಆ school ಮಾತ್ರ" oninput="renderSchools()"></div>
         <div class="scroll-x"><table id="schoolTable"><thead><tr><th>Code</th><th>School</th><th>Total</th><th>Active</th><th>Trial</th><th>Rate</th></tr></thead><tbody><tr><td colspan="6" class="loading">Loading…</td></tr></tbody></table></div></div>
       <div class="card"><h3>📚 Class-wise</h3><div class="chart-box"><canvas id="classChart"></canvas></div></div>
     </div>
@@ -176,10 +177,13 @@ function renderStats(){
 function renderSchools(){
   const map={};
   for(const s of students){const code=s.school_code||'(no code)';if(!map[code])map[code]={code,school:s.school||'—',total:0,active:0,trial:0};map[code].total++;const st=effStatus(s);if(st==='ACTIVE')map[code].active++;else if(st==='TRIAL')map[code].trial++;}
-  const rows=Object.values(map).sort((a,b)=>b.total-a.total);
-  document.getElementById('schCount').textContent=rows.length+' schools';
+  let rows=Object.values(map).sort((a,b)=>b.total-a.total);
+  // School code filter — type code → only that school
+  const q=(document.getElementById('schFilter')?document.getElementById('schFilter').value:'').trim().toLowerCase();
+  if(q){rows=rows.filter(r=>r.code.toLowerCase().includes(q)||(r.school||'').toLowerCase().includes(q));}
+  document.getElementById('schCount').textContent=q?(rows.length+' match'):(rows.length+' schools');
   const tb=document.querySelector('#schoolTable tbody');
-  if(!rows.length){tb.innerHTML='<tr><td colspan="6" class="empty">No data yet</td></tr>';return;}
+  if(!rows.length){tb.innerHTML='<tr><td colspan="6" class="empty">'+(q?'ಆ code ನ school ಇಲ್ಲ':'No data yet')+'</td></tr>';return;}
   tb.innerHTML=rows.map(r=>{const rate=r.total?Math.round(r.active/r.total*100):0;return '<tr><td><span class="code-pill">'+r.code+'</span></td><td>'+r.school+'</td><td><b>'+r.total+'</b></td><td><span class="badge active">'+r.active+'</span></td><td><span class="badge trial">'+r.trial+'</span></td><td style="min-width:90px">'+rate+'%<div class="bar-mini"><i style="width:'+rate+'%"></i></div></td></tr>';}).join('');
 }
 function renderClassChart(){
