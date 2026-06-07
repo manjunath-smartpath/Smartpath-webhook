@@ -10,6 +10,7 @@ const NAV = require('./navigation');
 const C = require('./contentDisplay');
 const Q = require('./quizEngine');
 const G = require('./sheetAndGpt');
+const { registerDashboard } = require('./dashboard');
 
 const app = express();
 app.use(express.json());
@@ -687,6 +688,8 @@ async function showProgress(from, student) {
 }
 
 const PORT = process.env.PORT || 3000;
+registerDashboard(app);
+
 app.listen(PORT, () => console.log(`✅ Smartpath Kalike running on port ${PORT}`));
 
 module.exports = { app, routeInteractive, handleRegistration, handleTypedQuestion };
