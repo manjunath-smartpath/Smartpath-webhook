@@ -173,7 +173,7 @@ tr:last-child td{border-bottom:none}tr:hover td{background:var(--panel2)}
     <input id="pw" type="password" placeholder="Admin password" onkeydown="if(event.key==='Enter')goLogin()">
     <button id="loginBtn" onclick="goLogin()">Dashboard ತೆರೆ →</button>
     <div class="err" id="loginErr"></div>
-    <div style="text-align:center;font-size:11px;color:var(--muted);margin-top:14px">v9 · login ready</div>
+    <div style="text-align:center;font-size:11px;color:var(--muted);margin-top:14px">v10 · ready</div>
   </div>
 
   <div id="dash" class="hide">
@@ -346,7 +346,9 @@ function renderStudents(){
   let list=students.filter(s=>{if(fs&&effStatus(s)!==fs)return false;if(fc&&String(s.class||'').replace(/[^0-9]/g,'')!==fc)return false;if(q){const hay=((s.name||'')+' '+(s.phone||'')+' '+(s.school_code||'')+' '+(s.school||'')+' '+(s.regno||'')).toLowerCase();if(!hay.includes(q))return false;}return true;});
   const tb=document.querySelector('#studentTable tbody');
   if(!list.length){tb.innerHTML='<tr><td colspan="8" class="empty">No students match</td></tr>';return;}
-  tb.innerHTML=list.map(s=>{const st=effStatus(s);const b=st==='ACTIVE'?'active':st==='TRIAL'?'trial':'blocked';const act=st!=='ACTIVE'?'<button class="btn-act" onclick="activateStudent(\''+s.phone+'\',\''+(s.name||'')+'\')">✅ Activate</button>':'<span style="color:var(--green2);font-size:12px">✓ Active</span>';return '<tr><td><b>'+(s.name||'—')+'</b></td><td class="mono">'+(s.phone||'')+'</td><td>'+(s.class||'—')+'</td><td>'+(s.school_code?'<span class="code-pill">'+s.school_code+'</span>':'—')+'</td><td>'+(s.regno||'—')+'</td><td><span class="badge '+b+'">'+(st||'—')+'</span></td><td>'+(s.plan?'₹'+s.plan:'—')+'</td><td class="mono" style="font-size:12px">'+(s.expiry_date||'—')+'</td><td>'+act+'</td></tr>';}).join('');
+  tb.innerHTML=list.map(s=>{const st=effStatus(s);const b=st==='ACTIVE'?'active':st==='TRIAL'?'trial':'blocked';const act=st!=='ACTIVE'?'<button class="btn-act" data-phone="'+(s.phone||'')+'" data-name="'+(s.name||'').replace(/"/g,'')+'">✅ Activate</button>':'<span style="color:var(--green2);font-size:12px">✓ Active</span>';return '<tr><td><b>'+(s.name||'—')+'</b></td><td class="mono">'+(s.phone||'')+'</td><td>'+(s.class||'—')+'</td><td>'+(s.school_code?'<span class="code-pill">'+s.school_code+'</span>':'—')+'</td><td>'+(s.regno||'—')+'</td><td><span class="badge '+b+'">'+(st||'—')+'</span></td><td>'+(s.plan?'₹'+s.plan:'—')+'</td><td class="mono" style="font-size:12px">'+(s.expiry_date||'—')+'</td><td>'+act+'</td></tr>';}).join('');
+  // bind activate buttons (event delegation — no quote escaping issues)
+  tb.querySelectorAll('.btn-act').forEach(function(btn){btn.onclick=function(){activateStudent(btn.getAttribute('data-phone'),btn.getAttribute('data-name'));};});
 }
 function exportCSV(){
   const cols=['name','phone','class','school','school_code','regno','status','plan','start_date','expiry_date'];
