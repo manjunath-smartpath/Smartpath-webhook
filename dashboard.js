@@ -235,21 +235,31 @@ async function login(){
   const err=document.getElementById('loginErr');
   if(!PW){err.textContent='Password ಹಾಕಿ';return;}
   err.textContent='Checking…';
-  const r=await fetch('/dashboard/data?pw='+encodeURIComponent(PW));
-  if(r.status===401){err.textContent='❌ Password ತಪ್ಪು';return;}
-  if(!r.ok){err.textContent='⚠️ Error, ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ';return;}
-  const j=await r.json();
-  students=j.students||[];
-  document.getElementById('gate').classList.add('hide');
-  document.getElementById('dash').classList.remove('hide');
-  renderAll();
+  try{
+    const r=await fetch('/dashboard/data?pw='+encodeURIComponent(PW));
+    if(r.status===401){err.textContent='❌ Password ತಪ್ಪು';return;}
+    if(!r.ok){err.textContent='⚠️ Error ('+r.status+'), ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ';return;}
+    const j=await r.json();
+    students=j.students||[];
+    // Show dashboard FIRST, then render (so a render error never blocks login)
+    document.getElementById('gate').classList.add('hide');
+    document.getElementById('dash').classList.remove('hide');
+    try{ renderAll(); }catch(e){ console.error('render error:',e); }
+  }catch(e){
+    err.textContent='⚠️ Connection error: '+e.message;
+    console.error('login error:',e);
+  }
 }
 async function loadAll(){
   const r=await fetch('/dashboard/data?pw='+encodeURIComponent(PW));
   if(!r.ok){alert('Reload failed');return;}
   const j=await r.json();students=j.students||[];renderAll();
 }
-function renderAll(){renderStats();renderSchools();renderClassChart();renderPlanChart();renderExpiring();renderStudents();}
+function renderAll(){
+  const safe=(fn,name)=>{try{fn();}catch(e){console.error(name+' error:',e);}};
+  safe(renderStats,'stats');safe(renderSchools,'schools');safe(renderClassChart,'classChart');
+  safe(renderPlanChart,'planChart');safe(renderExpiring,'expiring');safe(renderStudents,'students');
+}
 function isExpired(s){return s.expiry_date&&new Date()>new Date(s.expiry_date);}
 function effStatus(s){const st=(s.status||'').toUpperCase();if(st==='BLOCKED')return 'BLOCKED';if(st==='TRIAL'&&isExpired(s))return 'BLOCKED';return st;}
 function renderStats(){
@@ -276,11 +286,13 @@ function renderSchools(){
   tb.innerHTML=rows.map(r=>{const rate=r.total?Math.round(r.active/r.total*100):0;return '<tr><td><span class="code-pill">'+r.code+'</span></td><td>'+r.school+'</td><td><b>'+r.total+'</b></td><td><span class="badge active">'+r.active+'</span></td><td><span class="badge trial">'+r.trial+'</span></td><td style="min-width:90px">'+rate+'%<div class="bar-mini"><i style="width:'+rate+'%"></i></div></td></tr>';}).join('');
 }
 function renderClassChart(){
+  if(typeof Chart==='undefined')return;
   const c={8:0,9:0,10:0};students.forEach(s=>{const cl=String(s.class||'').replace(/[^0-9]/g,'');if(c[cl]!==undefined)c[cl]++;});
   if(classChart)classChart.destroy();
   classChart=new Chart(document.getElementById('classChart'),{type:'bar',data:{labels:['Class 8','Class 9','Class 10'],datasets:[{data:[c[8],c[9],c[10]],backgroundColor:['#1b6fd4','#8b5cf6','#2da844'],borderRadius:8}]},options:{plugins:{legend:{display:false}},scales:{y:{ticks:{color:'#8493b0'},grid:{color:'#26304a'}},x:{ticks:{color:'#8493b0'},grid:{display:false}}}}});
 }
 function renderPlanChart(){
+  if(typeof Chart==='undefined')return;
   let p299=0,p199=0,pTrial=0;
   students.forEach(s=>{const st=effStatus(s);if(st==='ACTIVE'){if(String(s.plan)==='299')p299++;else p199++;}else if(st==='TRIAL')pTrial++;});
   if(planChart)planChart.destroy();
