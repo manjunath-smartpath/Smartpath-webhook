@@ -157,8 +157,9 @@ tr:last-child td{border-bottom:none}tr:hover td{background:var(--panel2)}
     <p>Dashboard ನೋಡೋಕೆ password ಹಾಕಿ.</p>
     <label>Password</label>
     <input id="pw" type="password" placeholder="Admin password" onkeydown="if(event.key==='Enter')login()">
-    <button onclick="login()">Dashboard ತೆರೆ →</button>
+    <button id="loginBtn" onclick="login()">Dashboard ತೆರೆ →</button>
     <div class="err" id="loginErr"></div>
+    <div style="text-align:center;font-size:11px;color:var(--muted);margin-top:14px">v8 · login ready</div>
   </div>
 
   <div id="dash" class="hide">
@@ -380,6 +381,13 @@ function copyList(){
     const ta=document.createElement('textarea');ta.value=txt;document.body.appendChild(ta);ta.select();document.execCommand('copy');ta.remove();alert('✅ Copy ಆಯ್ತು!');
   });
 }
+// Fallback: bind login button via JS too (in case inline onclick fails)
+window.addEventListener('load',function(){
+  var b=document.getElementById('loginBtn');
+  if(b)b.onclick=login;
+  var p=document.getElementById('pw');
+  if(p)p.onkeydown=function(e){if(e.key==='Enter')login();};
+});
 </script>
 </body>
 </html>`;
