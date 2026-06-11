@@ -26,7 +26,8 @@ function registerDashboard(app) {
       const { data, error } = await supabase
         .from('students').select('*').order('start_date', { ascending: false });
       if (error) return res.status(500).json({ error: error.message });
-      return res.json({ students: data || [] });
+      const { data: scData } = await supabase.from('school_codes').select('*').order('code');
+      return res.json({ students: data || [], schools: scData || [] });
     } catch (e) {
       return res.status(500).json({ error: e.message });
     }
@@ -58,15 +59,22 @@ function registerDashboard(app) {
     try {
       const codeUp = String(code).trim().toUpperCase();
       const { data: ex } = await supabase.from('school_codes').select('code').ilike('code', codeUp).maybeSingle();
+      let result;
       if (ex) {
-        await supabase.from('school_codes').update({ school, city: city||'' }).ilike('code', codeUp);
+        result = await supabase.from('school_codes').update({ school, city: city||'' }).ilike('code', codeUp).select();
       } else {
-        await supabase.from('school_codes').insert({
+        result = await supabase.from('school_codes').insert({
           code: codeUp, school, city: city||'', class:'', plan:'299',
           duration_months:12, max_uses:0, used_count:0, active:'NO', student_nos:''
-        });
+        }).select();
       }
-      return res.json({ ok:true, code: codeUp });
+      if (result.error) {
+        return res.status(500).json({ error: 'Supabase: ' + result.error.message });
+      }
+      if (!result.data || result.data.length === 0) {
+        return res.status(500).json({ error: 'Insert returned no row (RLS or permission issue)' });
+      }
+      return res.json({ ok:true, code: codeUp, saved: result.data[0] });
     } catch (e) { return res.status(500).json({ error:e.message }); }
   });
 
@@ -88,8 +96,10 @@ function registerDashboard(app) {
       try {
         const { data } = await supabase.from('students').select('*').order('start_date', { ascending: false });
         const studentsJson = JSON.stringify(data || []);
+        const { data: scData } = await supabase.from('school_codes').select('*').order('code');
+        const schoolsJson = JSON.stringify(scData || []);
         const html = DASHBOARD_HTML
-          .replace('/*__PRELOAD__*/', `window.__PRELOAD_PW=${JSON.stringify(pw)};window.__PRELOAD_STUDENTS=${studentsJson};`);
+          .replace('/*__PRELOAD__*/', `window.__PRELOAD_PW=${JSON.stringify(pw)};window.__PRELOAD_STUDENTS=${studentsJson};window.__PRELOAD_SCHOOLS=${schoolsJson};`);
         return res.send(html);
       } catch (e) {
         return res.send(DASHBOARD_HTML);
@@ -244,12 +254,13 @@ tr:last-child td{border-bottom:none}tr:hover td{background:var(--panel2)}
   </div>
 </div>
 <script>
-let PW='',students=[],classChart=null,planChart=null;
+let PW='',students=[],schoolCodes=[],classChart=null,planChart=null;
 /*__PRELOAD__*/
 // If server pre-loaded data (password was correct in URL), show dashboard immediately
 if(window.__PRELOAD_STUDENTS){
   PW=window.__PRELOAD_PW||'';
   students=window.__PRELOAD_STUDENTS;
+  if(window.__PRELOAD_SCHOOLS)schoolCodes=window.__PRELOAD_SCHOOLS;
   window.addEventListener('load',function(){
     try{
       document.getElementById('gate').classList.add('hide');
@@ -276,6 +287,7 @@ async function login(){
     if(!r.ok){err.textContent='⚠️ Error ('+r.status+'), ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ';return;}
     const j=await r.json();
     students=j.students||[];
+    if(j.schools)schoolCodes=j.schools;
     // Show dashboard FIRST, then render (so a render error never blocks login)
     document.getElementById('gate').classList.add('hide');
     document.getElementById('dash').classList.remove('hide');
@@ -288,7 +300,7 @@ async function login(){
 async function loadAll(){
   const r=await fetch('/dashboard/data?pw='+encodeURIComponent(PW));
   if(!r.ok){alert('Reload failed');return;}
-  const j=await r.json();students=j.students||[];renderAll();
+  const j=await r.json();students=j.students||[];if(j.schools)schoolCodes=j.schools;renderAll();
 }
 function renderAll(){
   const safe=(fn,name)=>{try{fn();}catch(e){console.error(name+' error:',e);}};
@@ -310,7 +322,10 @@ function renderStats(){
 }
 function renderSchools(){
   const map={};
-  for(const s of students){const code=s.school_code||'(no code)';if(!map[code])map[code]={code,school:s.school||'—',total:0,active:0,trial:0};map[code].total++;const st=effStatus(s);if(st==='ACTIVE')map[code].active++;else if(st==='TRIAL')map[code].trial++;}
+  // 1. First add ALL schools from school_codes (Add School entries) — even with 0 students
+  for(const sc of schoolCodes){const code=sc.code||'(no code)';if(!map[code])map[code]={code,school:sc.school||'—',total:0,active:0,trial:0};}
+  // 2. Then count students per school
+  for(const s of students){const code=s.school_code||'(no code)';if(!map[code])map[code]={code,school:s.school||'—',total:0,active:0,trial:0};if(map[code].school==='—'&&s.school)map[code].school=s.school;map[code].total++;const st=effStatus(s);if(st==='ACTIVE')map[code].active++;else if(st==='TRIAL')map[code].trial++;}
   let rows=Object.values(map).sort((a,b)=>b.total-a.total);
   // School code filter — type code → only that school
   const q=(document.getElementById('schFilter')?document.getElementById('schFilter').value:'').trim().toLowerCase();
@@ -388,7 +403,14 @@ async function addSchool(){
   box.innerHTML='<span style="color:var(--muted)">Adding…</span>';
   const r=await fetch('/dashboard/add-school?pw='+encodeURIComponent(PW),{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({code,school,city})});
   const j=await r.json();
-  if(j.ok){box.innerHTML='<span style="color:var(--green2)">✅ '+j.code+' added! ಈಗ ಆ code ನ students register ಮಾಡಬಹುದು.</span>';document.getElementById('newCode').value='';document.getElementById('newSchool').value='';document.getElementById('newCity').value='';}
+  if(j.ok){
+    box.innerHTML='<span style="color:var(--green2)">✅ '+j.code+' added! ಈಗ ಆ code ನ students register ಮಾಡಬಹುದು.</span>';
+    document.getElementById('newCode').value='';document.getElementById('newSchool').value='';document.getElementById('newCity').value='';
+    // Add to local schoolCodes list so it shows in School-wise Report immediately
+    const exists=schoolCodes.find(s=>(s.code||'').toUpperCase()===j.code);
+    if(!exists)schoolCodes.push(j.saved||{code:j.code,school:school,city:city});
+    try{renderSchools();}catch(e){}
+  }
   else box.innerHTML='<span style="color:var(--red)">❌ '+(j.error||'failed')+'</span>';
 }
 function buildList(){
