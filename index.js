@@ -194,6 +194,7 @@ app.post('/webhook', async (req, res) => {
         await S.sendText(from, (header + report).substring(0, 4000));
         await S.sendButtons(from, 'ಮುಂದೇನು? / What next?', [
           { id: 'EVAL_NEXT', title: '📝 Next Question' },
+          { id: 'NAV_OTHER', title: '📋 Other Options' },
           { id: 'NAV_MENU', title: '🏠 Home' }
         ]);
         return;
@@ -468,6 +469,7 @@ async function routeInteractive(from, student, cls, id) {
   // --- Navigation ---
   if (id === 'NAV_BACK') return NAV.showMainMenu(from, cls);
   if (id === 'NAV_MENU') return NAV.showMainMenu(from, cls);
+  if (id === 'NAV_OTHER') return NAV.showOtherOptions(from);
 
   // Unknown → menu
   await NAV.showMainMenu(from, cls);

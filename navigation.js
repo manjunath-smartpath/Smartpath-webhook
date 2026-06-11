@@ -247,9 +247,51 @@ async function handleBack(to) {
   await showMainMenu(to, st.cls);
 }
 
+// ============================================================
+// OTHER OPTIONS — show all features for CURRENT section
+// (called from Quiz/Eval/Q&A "📋 Other Options" button)
+// Shows Notes / Q&A / Quiz / Evaluation for wherever the user is.
+// ============================================================
+async function showOtherOptions(to) {
+  const st = getState(to);
+  let flags = { notes:true, qa:true, quiz:true };
+  let label = 'ಈ Section';
+  try {
+    if (st.contentSource === 'chapter') {
+      const fl = N.chapterContentFlags ? N.chapterContentFlags(st.cls, st.subject, st.ch) : null;
+      if (fl) flags = fl;
+      label = 'Chapter ' + (st.ch || '');
+    } else if (typeof st.subtopicIndex === 'number' && st.subtopicIndex !== null) {
+      const subObj = N.getSubtopic(st.cls, st.subject, st.ch, st.topicIndex, st.subtopicIndex);
+      if (subObj) { flags = N.contentFlags(subObj.sections); label = (subObj.num ? subObj.num + ' ' : '') + (subObj.name || label); }
+    } else if (typeof st.topicIndex === 'number' && st.topicIndex !== null) {
+      const c = N.getChapter(st.cls, st.subject, st.ch);
+      if (c && c.topics && c.topics[st.topicIndex]) {
+        flags = N.contentFlags(c.topics[st.topicIndex].sections);
+        const t = c.topics[st.topicIndex];
+        label = (t.num ? t.num + ' ' : '') + (t.name || label);
+      }
+    }
+  } catch (e) { /* fall back to all-true */ }
+
+  const rows = [];
+  if (flags.notes) rows.push({ id: 'CONTENT_NOTES', title: '📖 Notes' });
+  if (flags.qa)    rows.push({ id: 'CONTENT_QA',   title: '❓ Q&A' });
+  if (flags.quiz)  rows.push({ id: 'CONTENT_QUIZ', title: '📝 Quiz' });
+  if (st.plan === '299' && flags.qa) rows.push({ id: 'EVAL_START', title: '✏️ Evaluation' });
+  rows.push({ id: 'NAV_MENU', title: '🏠 Home' });
+
+  const body = `📋 *Other Options*\\n${label}\\nಏನು ಬೇಕು? / Choose:`;
+  if (rows.length > 3) {
+    await S.sendList(to, body, 'Select', rows, 'Options');
+  } else {
+    await S.sendButtons(to, body, rows);
+  }
+}
+
 module.exports = {
   userState, getState, resetState, pushHistory,
   showMainMenu, showParts, showChapters, showChapterMenu,
   showTopics, showTopicMenu, showSubtopics, showSubtopicMenu,
-  handleBack
+  handleBack, showOtherOptions
 };

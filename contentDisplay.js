@@ -247,11 +247,15 @@ async function sendQAItem(to, st) {
   const btns = [];
   if (st.qaIndex < total - 1) btns.push({ id: 'QA_NEXT', title: '➡️ Next' });
   btns.push({ id: 'CONTENT_QUIZ', title: '📝 Quiz' });
+  btns.push({ id: 'NAV_OTHER', title: '📋 Other Options' });
   btns.push({ id: 'NAV_MENU', title: '🏠 Home' });
 
-  await S.sendButtons(to,
-    st.qaIndex < total - 1 ? `${n}/${total} — ಮುಂದಿನ Q&A?` : `✅ ಎಲ್ಲ ${total} Q&A ಮುಗಿಯಿತು!`,
-    btns.slice(0, 3));
+  const qaBody = st.qaIndex < total - 1 ? `${n}/${total} — ಮುಂದಿನ Q&A?` : `✅ ಎಲ್ಲ ${total} Q&A ಮುಗಿಯಿತು!`;
+  if (btns.length > 3) {
+    await S.sendList(to, qaBody, 'Select', btns, 'Next');
+  } else {
+    await S.sendButtons(to, qaBody, btns);
+  }
 }
 
 async function nextQA(to, st) {

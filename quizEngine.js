@@ -169,11 +169,12 @@ async function showQuizResult(to, st) {
     );
   } catch (e) { console.error('score save skip:', e.message); }
 
-  await S.sendButtons(to, 'ಮುಂದೇನು? / What next?', [
+  await S.sendList(to, 'ಮುಂದೇನು? / What next?', 'Select', [
     { id: 'QUIZ_RETRY', title: '🔄 Retry Quiz' },
     { id: 'PROGRESS', title: '📊 My Progress' },
+    { id: 'NAV_OTHER', title: '📋 Other Options' },
     { id: 'NAV_MENU', title: '🏠 Home' }
-  ]);
+  ], 'Next');
 }
 
 // ============================================================
