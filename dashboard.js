@@ -17,6 +17,15 @@ const DASH_PASSWORD = process.env.DASHBOARD_PASSWORD || process.env.ADMIN_PHONE 
 
 function registerDashboard(app) {
 
+  // ---- CORS: allow QR poster (opened from any file/drive) to call dashboard APIs ----
+  app.use('/dashboard', (req, res, next) => {
+    res.set('Access-Control-Allow-Origin', '*');
+    res.set('Access-Control-Allow-Methods', 'GET, POST, OPTIONS');
+    res.set('Access-Control-Allow-Headers', 'Content-Type');
+    if (req.method === 'OPTIONS') return res.status(200).end();
+    next();
+  });
+
   // ---- API: returns students JSON (only with correct password) ----
   app.get('/dashboard/data', async (req, res) => {
     if ((req.query.pw || '') !== DASH_PASSWORD) {
