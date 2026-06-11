@@ -110,10 +110,11 @@ async function handleQuizAnswer(to, st, chosenLetter) {
 
   // Next or finish
   if (st.quizIndex < total - 1) {
-    await S.sendButtons(to, `${n}/${total} ಮುಗಿಯಿತು. ಮುಂದಿನ ಪ್ರಶ್ನೆ?`, [
+    await S.sendList(to, `${n}/${total} ಮುಗಿಯಿತು. ಮುಂದೇನು?`, 'Select', [
       { id: 'QUIZ_NEXT', title: '➡️ Next Question' },
+      { id: 'NAV_OTHER', title: '📋 Other Options' },
       { id: 'NAV_MENU', title: '🏠 Home' }
-    ]);
+    ], 'Next');
   } else {
     await showQuizResult(to, st);
   }

@@ -262,8 +262,8 @@ async function nextQA(to, st) {
   if (!st.qaList || st.qaIndex >= st.qaList.length - 1) {
     await S.sendButtons(to, '✅ ಎಲ್ಲ Q&A ಮುಗಿಯಿತು!', [
       { id: 'CONTENT_QUIZ', title: '📝 Take Quiz' },
-      { id: 'NAV_MENU', title: '🏠 Home' },
-      { id: 'NAV_MENU', title: '🏠 Menu' }
+      { id: 'NAV_OTHER', title: '📋 Other Options' },
+      { id: 'NAV_MENU', title: '🏠 Home' }
     ]);
     return;
   }
