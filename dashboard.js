@@ -166,11 +166,17 @@ function registerDashboard(app) {
       Object.values(latest).forEach(c => {
         if (counts[c.status] !== undefined) counts[c.status]++; else counts.none++;
         const a = c.agent || '(unknown)';
-        if (!byAgent[a]) byAgent[a] = { total:0, will_subscribe:0 };
+        if (!byAgent[a]) byAgent[a] = { total:0, will_subscribe:0, lastCall:'' };
         byAgent[a].total++;
         if (c.status === 'will_subscribe') byAgent[a].will_subscribe++;
+        if (!byAgent[a].lastCall || c.called_at > byAgent[a].lastCall) byAgent[a].lastCall = c.called_at;
       });
-      return res.json({ counts, byAgent, totalCalls: (calls || []).length, uniquePhones: Object.keys(latest).length });
+      // Recent 20 calls (for owner to verify activity)
+      const recent = (calls || []).slice(0, 20).map(c => ({
+        agent: c.agent || '(unknown)', status: c.status,
+        note: c.note || '', called_at: c.called_at
+      }));
+      return res.json({ counts, byAgent, recent, totalCalls: (calls || []).length, uniquePhones: Object.keys(latest).length });
     } catch (e) { return res.status(500).json({ error:e.message }); }
   });
 
