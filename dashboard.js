@@ -300,7 +300,7 @@ tr:last-child td{border-bottom:none}tr:hover td{background:var(--panel2)}
       <div class="toolbar">
         <input id="actCode" placeholder="School code (e.g. GHS10A)" style="flex:1;min-width:140px">
         <select id="actClass"><option value="">All Class</option><option value="8">Class 8</option><option value="9">Class 9</option><option value="10">Class 10</option></select>
-        <select id="actPlan"><option value="299">₹299 Premium</option><option value="199">₹199 Standard</option></select>
+        <select id="actPlan"><option value="299">₹149 Premium</option><option value="199">₹99 Standard</option></select>
         <select id="actMonths"><option value="1">1 month</option><option value="6">6 months</option><option value="12">12 months</option></select>
         <button class="btn-export" style="background:var(--green)" onclick="activateSchool()">⚡ Activate School</button>
       </div>
@@ -403,7 +403,7 @@ function renderStats(){
   const blocked=students.filter(s=>effStatus(s)==='BLOCKED').length;
   const today=new Date().toISOString().split('T')[0];
   const newToday=students.filter(s=>(s.start_date||'')===today).length;
-  const revenue=active*299;const rate=total?Math.round(active/total*100):0;
+  const revenue=students.reduce((sum,s)=>{if(effStatus(s)==='ACTIVE')return sum+(String(s.plan)==='299'?149:99);return sum;},0);const rate=total?Math.round(active/total*100):0;
   const cards=[{ic:'👥',num:total,lbl:'Total Students',cls:'b'},{ic:'🟢',num:active,lbl:'Active (Paid)',cls:'g'},{ic:'🎁',num:trial,lbl:'On Trial',cls:'gold'},{ic:'🔒',num:blocked,lbl:'Blocked/Expired',cls:'red'},{ic:'🆕',num:newToday,lbl:'New Today',cls:'p'},{ic:'💰',num:'₹'+revenue.toLocaleString('en-IN'),lbl:'Est. Revenue/mo',cls:'g'},{ic:'📈',num:rate+'%',lbl:'Activation Rate',cls:'b'}];
   document.getElementById('statCards').innerHTML=cards.map(c=>'<div class="stat '+c.cls+'"><div class="ic">'+c.ic+'</div><div class="num">'+c.num+'</div><div class="lbl">'+c.lbl+'</div></div>').join('');
 }
@@ -433,7 +433,7 @@ function renderPlanChart(){
   let p299=0,p199=0,pTrial=0;
   students.forEach(s=>{const st=effStatus(s);if(st==='ACTIVE'){if(String(s.plan)==='299')p299++;else p199++;}else if(st==='TRIAL')pTrial++;});
   if(planChart)planChart.destroy();
-  planChart=new Chart(document.getElementById('planChart'),{type:'doughnut',data:{labels:['₹299 Active','₹199 Active','Trial'],datasets:[{data:[p299,p199,pTrial],backgroundColor:['#2da844','#1b6fd4','#f5b324'],borderColor:'#121829',borderWidth:3}]},options:{plugins:{legend:{position:'bottom',labels:{color:'#8493b0',padding:14,font:{size:12}}}},cutout:'62%'}});
+  planChart=new Chart(document.getElementById('planChart'),{type:'doughnut',data:{labels:['₹149 Active','₹99 Active','Trial'],datasets:[{data:[p299,p199,pTrial],backgroundColor:['#2da844','#1b6fd4','#f5b324'],borderColor:'#121829',borderWidth:3}]},options:{plugins:{legend:{position:'bottom',labels:{color:'#8493b0',padding:14,font:{size:12}}}},cutout:'62%'}});
 }
 function renderExpiring(){
   const now=new Date();

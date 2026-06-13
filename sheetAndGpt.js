@@ -1,5 +1,5 @@
 // ============================================================
-// SECTION 5 + 6: SUPABASE + GPT (₹299 gating)
+// SECTION 5 + 6: SUPABASE + GPT (₹149 gating)
 // Smartpath Kalike — Supabase version (drop-in replacement)
 // ============================================================
 // Tables: students, school_codes, quiz_scores, eval_scores, feedback
@@ -76,11 +76,11 @@ async function saveNewStudent(phone) {
   try {
     const today = new Date();
     const expiry = new Date(today);
-    expiry.setDate(expiry.getDate() + 7);   // 1 week free trial
+    expiry.setDate(expiry.getDate() + 10);  // 10 days free trial
     await supabase.from('students').insert({
       phone,
       name:'', class:'', school:'', city:'',
-      status:'TRIAL', plan:'299',           // trial gets ₹299 features
+      status:'TRIAL', plan:'299',           // trial gets ₹149 features
       start_date: today.toISOString().split('T')[0],
       expiry_date: expiry.toISOString().split('T')[0],
       gpt_count: 0, gpt_date:'',
@@ -114,8 +114,16 @@ function hasAccess(student) {
   if (status === 'TRIAL' && isExpired(student)) return false;
   return true;
 }
+// Days left in trial (for reminders). Returns null if not trial.
+function trialDaysLeft(student) {
+  if (getStatus(student) !== 'TRIAL') return null;
+  const exp = student.get('ExpiryDate');
+  if (!exp) return null;
+  const ms = new Date(exp) - new Date();
+  return Math.ceil(ms / (24*60*60*1000));
+}
 
-// ---------- GPT ACCESS (₹299 only, 10/day) ----------
+// ---------- GPT ACCESS (₹149 only, 10/day) ----------
 function checkGptAccess(student) {
   // Blocked or expired trial → no access
   if (!hasAccess(student)) return { allowed:false, reason:'expired', remaining:0 };
@@ -144,7 +152,7 @@ async function incrementGptCount(student) {
   }
 }
 
-// ---------- EVALUATION ACCESS (₹299, 5/day) ----------
+// ---------- EVALUATION ACCESS (₹149, 5/day) ----------
 function checkEvalAccess(student) {
   if (!hasAccess(student)) return { allowed:false, reason:'expired', remaining:0 };
   const plan = getPlan(student);
@@ -685,7 +693,7 @@ async function getSheet() { return null; }
 
 module.exports = {
   getSheet, getStudent, saveNewStudent, updateStudent,
-  getPlan, getStatus, isExpired, hasAccess,
+  getPlan, getStatus, isExpired, hasAccess, trialDaysLeft,
   checkGptAccess, incrementGptCount, askKSEEB,
   saveFeedback,
   saveQuizScore, getProgress, sendParentReport,

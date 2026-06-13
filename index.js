@@ -108,12 +108,30 @@ app.post('/webhook', async (req, res) => {
         await G.updateStudent(student, 'Status', 'BLOCKED');
       }
       await S.sendButtons(from,
-        `⏰ ನಿಮ್ಮ trial/plan ಮುಗಿದಿದೆ!\n\n💰 Upgrade: ₹199 / ₹299\n📞 7019068606`,
+        `⏰ ನಿಮ್ಮ trial/plan ಮುಗಿದಿದೆ!\n\n💰 Upgrade: ₹99 / ₹149\n📞 7019068606`,
         [{ id: 'UPGRADE', title: '💳 Upgrade Plan' }, { id: 'NAV_MENU', title: '🔄 Try Again' }]);
       return;
     }
 
     const cls = String(student.get('Class') || '').replace(/[^\d]/g, '') || '8';
+
+    // ---- Trial reminder: last few days, show subscribe nudge once/day ----
+    try {
+      const daysLeft = G.trialDaysLeft(student);
+      if (daysLeft !== null && daysLeft <= 4 && daysLeft >= 0) {
+        const today = new Date().toISOString().split('T')[0];
+        if (!global.__remindSent) global.__remindSent = {};
+        if (global.__remindSent[from] !== today) {
+          global.__remindSent[from] = today;
+          const dLabel = daysLeft === 0 ? 'ಇಂದು ಕೊನೆ ದಿನ' : daysLeft + ' ದಿನ ಮಾತ್ರ ಉಳಿದಿದೆ';
+          await S.sendButtons(from,
+            `⏰ ನಿಮ್ಮ FREE Trial — ${dLabel}!\n\n` +
+            `ಮುಂದುವರಿಸಲು subscribe ಆಗಿ:\n` +
+            `💎 ₹99 Standard / ₹149 Premium\n📞 7019068606`,
+            [{ id: 'UPGRADE', title: '💳 Subscribe ಆಗಿ' }, { id: 'NAV_MENU', title: '➡️ ಮುಂದುವರಿ' }]);
+        }
+      }
+    } catch (e) { /* best-effort, never block */ }
 
     // ---- Interactive (button/list tap) routing ----
     if (replyId) {
@@ -156,7 +174,7 @@ app.post('/webhook', async (req, res) => {
         return;
       }
 
-      // Evaluation answer capture mode (₹299)
+      // Evaluation answer capture mode (₹149)
       if (st.awaitingEvalAnswer) {
         st.awaitingEvalAnswer = false;
         if (userText.length < 5) {
@@ -205,7 +223,7 @@ app.post('/webhook', async (req, res) => {
         await NAV.showMainMenu(from, cls);
         return;
       }
-      // Otherwise = a typed question → GPT (₹299 only)
+      // Otherwise = a typed question → GPT (₹149 only)
       await handleTypedQuestion(from, student, cls, userText);
       return;
     }
@@ -339,12 +357,12 @@ async function handleRegistration(from, student, step, userText, replyId) {
       return;
     }
 
-    // Code not active → 7-day trial (₹299 features) — admin cross-checks / school pays later
+    // Code not active → 7-day trial (₹149 features) — admin cross-checks / school pays later
     const expiry = student.get('ExpiryDate') || '';
     await S.sendText(from,
       `🎉 ನೋಂದಣಿ ಪೂರ್ಣ! / Registered!\n\n` +
       `${regno ? `📋 Register No: ${regno}\n` : ''}` +
-      `🎁 *1 ವಾರ FREE Trial* ಶುರು! (ಎಲ್ಲ ₹299 features)\n` +
+      `🎁 *10 ದಿನ FREE Trial* ಶುರು! (ಎಲ್ಲ ₹149 features)\n` +
       `📅 ${expiry} ತನಕ\n\n` +
       `ಈಗ ಕಲಿಯೋಣ! 📚`);
     await NAV.showMainMenu(from, cls);
@@ -421,7 +439,7 @@ async function routeInteractive(from, student, cls, id) {
   // --- Progress ---
   if (id === 'PROGRESS') return showProgress(from, student);
 
-  // --- Evaluation (₹299, 5/day) ---
+  // --- Evaluation (₹149, 5/day) ---
   if (id === 'EVAL_START' || id === 'EVAL_NEXT') return startEvaluation(from, student, st);
   if (id && id.startsWith('EVALQ_')) {
     const qIdx = parseInt(id.replace('EVALQ_', ''), 10);
@@ -448,10 +466,10 @@ async function routeInteractive(from, student, cls, id) {
     return;
   }
 
-  // --- Parent Report (₹299 only) ---
+  // --- Parent Report (₹149 only) ---
   if (id === 'PARENT_REPORT') {
     if (String(student.get('Plan')) !== '299') {
-      return S.sendButtons(from, '📤 Parent Report ₹299 plan ಗೆ ಮಾತ್ರ.',
+      return S.sendButtons(from, '📤 Parent Report ₹149 plan ಗೆ ಮಾತ್ರ.',
         [{ id: 'NAV_MENU', title: '🏠 Home' }]);
     }
     st.awaitingParentPhone = true;
@@ -476,7 +494,7 @@ async function routeInteractive(from, student, cls, id) {
 }
 
 // ============================================================
-// TYPED QUESTION → GPT (₹299 only, 10/day)
+// TYPED QUESTION → GPT (₹149 only, 10/day)
 // ============================================================
 async function handleTypedQuestion(from, student, cls, question) {
   const gpt = G.checkGptAccess(student);
@@ -484,8 +502,8 @@ async function handleTypedQuestion(from, student, cls, question) {
   if (!gpt.allowed) {
     if (gpt.reason === 'plan') {
       await S.sendButtons(from,
-        `💎 "Ask Question" is a Premium feature (₹299 plan).\n\n` +
-        `Tap menu ಬಳಸಿ free browse ಮಾಡಿ, ಅಥವಾ ₹299 ಗೆ upgrade!\n📞 7019068606`,
+        `💎 "Ask Question" is a Premium feature (₹149 plan).\n\n` +
+        `Tap menu ಬಳಸಿ free browse ಮಾಡಿ, ಅಥವಾ ₹149 ಗೆ upgrade!\n📞 7019068606`,
         [{ id: 'NAV_MENU', title: '📚 Browse Topics' }]);
     } else if (gpt.reason === 'limit') {
       await S.sendButtons(from,
@@ -528,7 +546,7 @@ async function handleTypedQuestion(from, student, cls, question) {
 }
 
 // ============================================================
-// EVALUATION — GPT evaluates student's written answer (₹299, 5/day)
+// EVALUATION — GPT evaluates student's written answer (₹149, 5/day)
 // ============================================================
 async function startEvaluation(from, student, st) {
   // Access check
@@ -536,8 +554,8 @@ async function startEvaluation(from, student, st) {
   if (!acc.allowed) {
     if (acc.reason === 'plan') {
       await S.sendButtons(from,
-        '✏️ Evaluation ₹299 Premium plan ಗೆ ಮಾತ್ರ.\n\nUpgrade ಮಾಡಿ — ನಿಮ್ಮ answer GPT check ಮಾಡಿ marks + feedback ಕೊಡುತ್ತೆ!',
-        [{ id: 'UPGRADE', title: '💳 Upgrade ₹299' }, { id: 'NAV_MENU', title: '🏠 Home' }]);
+        '✏️ Evaluation ₹149 Premium plan ಗೆ ಮಾತ್ರ.\n\nUpgrade ಮಾಡಿ — ನಿಮ್ಮ answer GPT check ಮಾಡಿ marks + feedback ಕೊಡುತ್ತೆ!',
+        [{ id: 'UPGRADE', title: '💳 Upgrade ₹149' }, { id: 'NAV_MENU', title: '🏠 Home' }]);
     } else {
       await S.sendButtons(from,
         `✏️ ಇಂದಿನ Evaluation limit (5) ಮುಗಿದಿದೆ.\nನಾಳೆ ಮತ್ತೆ try ಮಾಡಿ! 📚`,
@@ -581,7 +599,7 @@ async function askEvalQuestion(from, student, st, qIndex) {
   if (!acc.allowed) {
     await S.sendButtons(from,
       acc.reason === 'plan'
-        ? '✏️ Evaluation ₹299 plan ಗೆ ಮಾತ್ರ.'
+        ? '✏️ Evaluation ₹149 plan ಗೆ ಮಾತ್ರ.'
         : '✏️ ಇಂದಿನ limit (5) ಮುಗಿದಿದೆ. ನಾಳೆ try ಮಾಡಿ!',
       [{ id: 'NAV_MENU', title: '🏠 Home' }]);
     return;
@@ -613,27 +631,27 @@ async function showUpgrade(from, student) {
   let header = '';
   if (plan === '299' && status === 'ACTIVE') {
     await S.sendButtons(from,
-      '✅ ನೀವು ಈಗಾಗಲೇ ₹299 Premium plan ನಲ್ಲಿ ಇದ್ದೀರಿ!\nಎಲ್ಲ features ಲಭ್ಯ. 🎉',
+      '✅ ನೀವು ಈಗಾಗಲೇ ₹149 Premium plan ನಲ್ಲಿ ಇದ್ದೀರಿ!\nಎಲ್ಲ features ಲಭ್ಯ. 🎉',
       [{ id: 'NAV_MENU', title: '🏠 Home' }]);
     return;
   }
   if (plan === '199' && status === 'ACTIVE') {
-    header = '💎 ನೀವು ₹199 plan ನಲ್ಲಿ ಇದ್ದೀರಿ.\n₹299 ಗೆ upgrade ಮಾಡಿ — GPT + Parent Report!\n\n';
+    header = '💎 ನೀವು ₹99 plan ನಲ್ಲಿ ಇದ್ದೀರಿ.\n₹149 ಗೆ upgrade ಮಾಡಿ — GPT + Parent Report!\n\n';
   } else {
     header = '💎 Plan ಆರಿಸಿ — full access ಪಡೆಯಿರಿ!\n\n';
   }
 
   const msg = header +
-    `📘 *₹199 Standard*\nNotes + Q&A + Quiz + Progress\n\n` +
-    `💎 *₹299 Premium*\n₹199 ಎಲ್ಲ + AI Ask Question (10/day) + Parent Report\n\n` +
+    `📘 *₹99 Standard*\nNotes + Q&A + Quiz + Progress\n\n` +
+    `💎 *₹149 Premium*\n₹99 ಎಲ್ಲ + AI Ask Question (10/day) + Parent Report\n\n` +
     `Durations: 1mo / 6mo (₹999/₹1499) / 12mo (₹1799/₹2699)`;
 
   await S.sendText(from, msg);
 
   const rows = [];
   if (!(plan === '199' && status === 'ACTIVE'))
-    rows.push({ id: 'UPG_199', title: '📘 ₹199 Standard' });
-  rows.push({ id: 'UPG_299', title: '💎 ₹299 Premium' });
+    rows.push({ id: 'UPG_199', title: '📘 ₹99 Standard' });
+  rows.push({ id: 'UPG_299', title: '💎 ₹149 Premium' });
   rows.push({ id: 'NAV_MENU', title: '🏠 Home' });
 
   await S.sendButtons(from, 'ಯಾವ plan ಬೇಕು?', rows);
@@ -695,7 +713,7 @@ async function showProgress(from, student) {
     }
   }
 
-  // Evaluation stats (₹299) — attractive section
+  // Evaluation stats (₹149) — attractive section
   const plan = String(student.get('Plan') || '');
   if (plan === '299') {
     const ev = await G.getEvalStats(from);
@@ -723,7 +741,7 @@ async function showProgress(from, student) {
 
   await S.sendText(from, msg.substring(0, 4000));
 
-  // Buttons: Parent Report (₹299 only) + Home
+  // Buttons: Parent Report (₹149 only) + Home
   const btns = [];
   if (plan === '299') btns.push({ id: 'PARENT_REPORT', title: '📤 Parent Report' });
   btns.push({ id: 'NAV_MENU', title: '🏠 Home' });
