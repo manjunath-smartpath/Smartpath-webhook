@@ -17,8 +17,15 @@ const DASH_PASSWORD = process.env.DASHBOARD_PASSWORD || process.env.ADMIN_PHONE 
 
 function registerDashboard(app) {
 
-  // ---- CORS: allow QR poster (opened from any file/drive) to call dashboard APIs ----
+  // ---- CORS: allow QR poster + calling app (any file/drive) ----
   app.use('/dashboard', (req, res, next) => {
+    res.set('Access-Control-Allow-Origin', '*');
+    res.set('Access-Control-Allow-Methods', 'GET, POST, OPTIONS');
+    res.set('Access-Control-Allow-Headers', 'Content-Type');
+    if (req.method === 'OPTIONS') return res.status(200).end();
+    next();
+  });
+  app.use('/calling', (req, res, next) => {
     res.set('Access-Control-Allow-Origin', '*');
     res.set('Access-Control-Allow-Methods', 'GET, POST, OPTIONS');
     res.set('Access-Control-Allow-Headers', 'Content-Type');
@@ -93,6 +100,77 @@ function registerDashboard(app) {
     try {
       const { data } = await supabase.from('school_codes').select('*').order('code');
       return res.json({ schools: data || [] });
+    } catch (e) { return res.status(500).json({ error:e.message }); }
+  });
+
+  // ============================================================
+  // CALLING / TELECALLING APIs (for follow-up employee)
+  // ============================================================
+
+  // List students who registered 14+ days ago and are NOT subscribed (not ACTIVE)
+  app.get('/calling/list', async (req, res) => {
+    if ((req.query.pw || '') !== DASH_PASSWORD) return res.status(401).json({ error:'unauthorized' });
+    try {
+      const days = parseInt(req.query.days || '14', 10);
+      const cutoff = new Date(Date.now() - days*24*60*60*1000).toISOString().slice(0,10);
+      const { data: students } = await supabase.from('students').select('*');
+      // Latest call status per phone
+      const { data: calls } = await supabase.from('call_log').select('*').order('called_at', { ascending: false });
+      const latest = {};
+      (calls || []).forEach(c => { if (!latest[c.phone]) latest[c.phone] = c; });
+      const list = (students || [])
+        .filter(s => {
+          const st = (s.status || '').toUpperCase();
+          if (st === 'ACTIVE') return false;             // already subscribed
+          if (!s.start_date) return true;                // unknown date → include
+          return s.start_date <= cutoff;                 // registered 14+ days ago
+        })
+        .map(s => ({
+          phone: s.phone, name: s.student_name || s.name || '',
+          school_code: s.school_code || '', cls: s.cls || s.class || '',
+          status: s.status || '', start_date: s.start_date || '',
+          call_status: latest[s.phone] ? latest[s.phone].status : '',
+          call_note: latest[s.phone] ? (latest[s.phone].note || '') : '',
+          called_at: latest[s.phone] ? latest[s.phone].called_at : ''
+        }));
+      return res.json({ students: list });
+    } catch (e) { return res.status(500).json({ error:e.message }); }
+  });
+
+  // Save a call status (employee taps after calling)
+  app.post('/calling/status', async (req, res) => {
+    if ((req.query.pw || '') !== DASH_PASSWORD) return res.status(401).json({ error:'unauthorized' });
+    const { phone, status, note, agent } = req.body || {};
+    if (!phone || !status) return res.status(400).json({ error:'phone ಮತ್ತು status ಬೇಕು' });
+    try {
+      const result = await supabase.from('call_log').insert({
+        phone: String(phone), status: String(status),
+        note: note || '', agent: agent || '',
+        called_at: new Date().toISOString()
+      }).select();
+      if (result.error) return res.status(500).json({ error: 'Supabase: ' + result.error.message });
+      return res.json({ ok:true, saved: result.data && result.data[0] });
+    } catch (e) { return res.status(500).json({ error:e.message }); }
+  });
+
+  // Status-wise report (owner)
+  app.get('/calling/report', async (req, res) => {
+    if ((req.query.pw || '') !== DASH_PASSWORD) return res.status(401).json({ error:'unauthorized' });
+    try {
+      const { data: calls } = await supabase.from('call_log').select('*').order('called_at', { ascending: false });
+      // Count latest status per phone
+      const latest = {};
+      (calls || []).forEach(c => { if (!latest[c.phone]) latest[c.phone] = c; });
+      const counts = { not_picked:0, will_subscribe:0, later:0, no:0, none:0 };
+      const byAgent = {};
+      Object.values(latest).forEach(c => {
+        if (counts[c.status] !== undefined) counts[c.status]++; else counts.none++;
+        const a = c.agent || '(unknown)';
+        if (!byAgent[a]) byAgent[a] = { total:0, will_subscribe:0 };
+        byAgent[a].total++;
+        if (c.status === 'will_subscribe') byAgent[a].will_subscribe++;
+      });
+      return res.json({ counts, byAgent, totalCalls: (calls || []).length, uniquePhones: Object.keys(latest).length });
     } catch (e) { return res.status(500).json({ error:e.message }); }
   });
 
