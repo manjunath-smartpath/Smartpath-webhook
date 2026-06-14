@@ -32,6 +32,13 @@ function registerDashboard(app) {
     if (req.method === 'OPTIONS') return res.status(200).end();
     next();
   });
+  app.use('/agents', (req, res, next) => {
+    res.set('Access-Control-Allow-Origin', '*');
+    res.set('Access-Control-Allow-Methods', 'GET, POST, OPTIONS');
+    res.set('Access-Control-Allow-Headers', 'Content-Type');
+    if (req.method === 'OPTIONS') return res.status(200).end();
+    next();
+  });
 
   // ---- API: returns students JSON (only with correct password) ----
   app.get('/dashboard/data', async (req, res) => {
@@ -118,10 +125,20 @@ function registerDashboard(app) {
       const { data: calls } = await supabase.from('call_log').select('*').order('called_at', { ascending: false });
       const latest = {};
       (calls || []).forEach(c => { if (!latest[c.phone]) latest[c.phone] = c; });
+      // Agent filter: if agent_code given, only that agent's assigned school_codes
+      let allowedCodes = null;
+      const agentCode = (req.query.agent_code || '').trim();
+      if (agentCode) {
+        const { data: ag } = await supabase.from('agents').select('*').eq('agent_code', agentCode).maybeSingle();
+        if (!ag) return res.status(404).json({ error: 'Agent code ಸಿಗಲಿಲ್ಲ' });
+        allowedCodes = (ag.school_codes || '').split(',').map(c => c.trim().toUpperCase()).filter(Boolean);
+        if (allowedCodes.length === 0) return res.json({ students: [], agentName: ag.name, note: 'ಈ agent ಗೆ school assign ಆಗಿಲ್ಲ' });
+      }
       const list = (students || [])
         .filter(s => {
           const st = (s.status || '').toUpperCase();
           if (st === 'ACTIVE') return false;             // already subscribed
+          if (allowedCodes && !allowedCodes.includes((s.school_code || '').toUpperCase())) return false; // not this agent's school
           if (!s.start_date) return true;                // unknown date → include
           return s.start_date <= cutoff;                 // registered 14+ days ago
         })
@@ -177,6 +194,64 @@ function registerDashboard(app) {
         note: c.note || '', called_at: c.called_at
       }));
       return res.json({ counts, byAgent, recent, totalCalls: (calls || []).length, uniquePhones: Object.keys(latest).length });
+    } catch (e) { return res.status(500).json({ error:e.message }); }
+  });
+
+  // ============================================================
+  // AGENTS APIs (owner manages calling agents + school assignments)
+  // ============================================================
+
+  // List all agents (with their assigned school counts)
+  app.get('/agents/list', async (req, res) => {
+    if ((req.query.pw || '') !== DASH_PASSWORD) return res.status(401).json({ error:'unauthorized' });
+    try {
+      const { data } = await supabase.from('agents').select('*').order('created_at');
+      return res.json({ agents: data || [] });
+    } catch (e) { return res.status(500).json({ error:e.message }); }
+  });
+
+  // Add a new agent (auto agent_code if not given)
+  app.post('/agents/add', async (req, res) => {
+    if ((req.query.pw || '') !== DASH_PASSWORD) return res.status(401).json({ error:'unauthorized' });
+    const { name, phone } = req.body || {};
+    if (!name) return res.status(400).json({ error:'ಹೆಸರು ಬೇಕು' });
+    try {
+      // Auto code: first 3 letters of name (upper) + random 2 digits
+      let code = (req.body.agent_code || '').trim().toUpperCase();
+      if (!code) {
+        const base = name.replace(/[^A-Za-z]/g,'').slice(0,3).toUpperCase() || 'AGT';
+        code = base + Math.floor(10 + Math.random()*89);
+      }
+      const result = await supabase.from('agents').insert({
+        agent_code: code, name: String(name), phone: phone || '', school_codes: ''
+      }).select();
+      if (result.error) return res.status(500).json({ error: 'Supabase: ' + result.error.message });
+      return res.json({ ok:true, agent: result.data && result.data[0] });
+    } catch (e) { return res.status(500).json({ error:e.message }); }
+  });
+
+  // Assign school codes to an agent (replaces full list)
+  app.post('/agents/assign', async (req, res) => {
+    if ((req.query.pw || '') !== DASH_PASSWORD) return res.status(401).json({ error:'unauthorized' });
+    const { agent_code, school_codes } = req.body || {};
+    if (!agent_code) return res.status(400).json({ error:'agent_code ಬೇಕು' });
+    try {
+      const codes = Array.isArray(school_codes) ? school_codes.join(',') : (school_codes || '');
+      const result = await supabase.from('agents').update({ school_codes: codes }).eq('agent_code', agent_code).select();
+      if (result.error) return res.status(500).json({ error: 'Supabase: ' + result.error.message });
+      return res.json({ ok:true, agent: result.data && result.data[0] });
+    } catch (e) { return res.status(500).json({ error:e.message }); }
+  });
+
+  // Delete an agent
+  app.post('/agents/delete', async (req, res) => {
+    if ((req.query.pw || '') !== DASH_PASSWORD) return res.status(401).json({ error:'unauthorized' });
+    const { agent_code } = req.body || {};
+    if (!agent_code) return res.status(400).json({ error:'agent_code ಬೇಕు' });
+    try {
+      const result = await supabase.from('agents').delete().eq('agent_code', agent_code);
+      if (result.error) return res.status(500).json({ error: result.error.message });
+      return res.json({ ok:true });
     } catch (e) { return res.status(500).json({ error:e.message }); }
   });
 
