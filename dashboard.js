@@ -255,6 +255,43 @@ function registerDashboard(app) {
     } catch (e) { return res.status(500).json({ error:e.message }); }
   });
 
+  // Agent-wise detail: schools, students (non-subscribed), call status per student
+  app.get('/agents/detail', async (req, res) => {
+    if ((req.query.pw || '') !== DASH_PASSWORD) return res.status(401).json({ error:'unauthorized' });
+    const code = (req.query.agent_code || '').trim();
+    if (!code) return res.status(400).json({ error:'agent_code beku' });
+    try {
+      const { data: ag } = await supabase.from('agents').select('*').eq('agent_code', code).maybeSingle();
+      if (!ag) return res.status(404).json({ error:'Agent sigalilla' });
+      const allowedCodes = (ag.school_codes || '').split(',').map(c => c.trim().toUpperCase()).filter(Boolean);
+      const { data: students } = await supabase.from('students').select('*');
+      const { data: calls } = await supabase.from('call_log').select('*').order('called_at', { ascending: false });
+      const latest = {};
+      (calls || []).forEach(c => { if (!latest[c.phone]) latest[c.phone] = c; });
+      const myStudents = (students || [])
+        .filter(s => (s.status||'').toUpperCase() !== 'ACTIVE' && allowedCodes.includes((s.school_code||'').toUpperCase()))
+        .map(s => ({
+          phone: s.phone, name: s.student_name || s.name || '',
+          school_code: s.school_code || '', cls: s.cls || s.class || '',
+          call_status: latest[s.phone] ? latest[s.phone].status : 'none',
+          called_at: latest[s.phone] ? latest[s.phone].called_at : ''
+        }));
+      const breakdown = { none:0, not_picked:0, will_subscribe:0, later:0, no:0 };
+      myStudents.forEach(s => { if (breakdown[s.call_status] !== undefined) breakdown[s.call_status]++; else breakdown.none++; });
+      const myCalls = (calls || []).filter(c => (c.agent||'') === ag.name);
+      const lastCall = myCalls.length ? myCalls[0].called_at : '';
+      return res.json({
+        agent: { code: ag.agent_code, name: ag.name, phone: ag.phone },
+        schools: allowedCodes,
+        totalStudents: myStudents.length,
+        pending: breakdown.none,
+        breakdown, lastCall,
+        myCallCount: myCalls.length,
+        students: myStudents
+      });
+    } catch (e) { return res.status(500).json({ error:e.message }); }
+  });
+
   // ---- Dashboard HTML page ----
   app.get('/dashboard', async (req, res) => {
     res.set('Content-Type', 'text/html; charset=utf-8');
