@@ -92,6 +92,21 @@ function getChapters(cls, subject, part) {
   return (chapterIndex[idxKey] && chapterIndex[idxKey][String(part)]) || [];
 }
 
+// All chapters for a class (both subjects) — for daily study plan
+function allChaptersForClass(cls) {
+  const out = [];
+  for (const key of Object.keys(notesDB)) {
+    if (!key.startsWith(cls + '_')) continue;
+    const parts = key.split('_');
+    const c = notesDB[key];
+    out.push({
+      key, subject: parts[1], ch: parts[2],
+      name: (c.metadata && c.metadata.chapter_name) || ''
+    });
+  }
+  return out;
+}
+
 // Get full chapter data → { metadata, chapter_sections, topics }
 function getChapter(cls, subject, ch) {
   return notesDB[`${cls}_${subject}_${ch}`] || null;
@@ -204,6 +219,7 @@ function collectMCQ(sectionsArr) {
 module.exports = {
   loadAllNotes,
   getChapters,
+  allChaptersForClass,
   getChapter,
   getChapterName,
   hasChapterContent,

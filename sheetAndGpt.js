@@ -510,6 +510,15 @@ function parseEvalMarks(report, defaultTotal) {
   return { score: 0, total: defaultTotal || 3 };
 }
 
+// Raw quiz history (for daily plan chapter mapping)
+async function getQuizHistory(phone) {
+  try {
+    const { data } = await supabase
+      .from('quiz_scores').select('subject,chapter,topic,percent').eq('phone', phone);
+    return data || [];
+  } catch (e) { return []; }
+}
+
 async function getProgress(phone) {
   try {
     const { data: mine } = await supabase
@@ -696,7 +705,7 @@ module.exports = {
   getPlan, getStatus, isExpired, hasAccess, trialDaysLeft,
   checkGptAccess, incrementGptCount, askKSEEB,
   saveFeedback,
-  saveQuizScore, getProgress, sendParentReport,
+  saveQuizScore, getProgress, getQuizHistory, sendParentReport,
   saveEvalScore, getEvalStats, parseEvalMarks,
   validateSchoolCode, redeemSchoolCode,
   checkCodeActive, activateSchool, activateStudent,

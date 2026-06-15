@@ -438,6 +438,7 @@ async function routeInteractive(from, student, cls, id) {
 
   // --- Progress ---
   if (id === 'PROGRESS') return showProgress(from, student);
+  if (id === 'DAILY_PLAN') return showDailyPlan(from, student);
 
   // --- Evaluation (₹149, 5/day) ---
   if (id === 'EVAL_START' || id === 'EVAL_NEXT') return startEvaluation(from, student, st);
@@ -655,6 +656,70 @@ async function showUpgrade(from, student) {
   rows.push({ id: 'NAV_MENU', title: '🏠 Home' });
 
   await S.sendButtons(from, 'ಯಾವ plan ಬೇಕು?', rows);
+}
+
+// ============================================================
+// DAILY STUDY PLAN — "ಇಂದು ಏನು ಓದಬೇಕು"
+// Based on progress: not-yet-studied chapters + weak (low score) ones
+// ============================================================
+async function showDailyPlan(from, student) {
+  const cls = String(student.get('Class') || '').replace(/[^\d]/g, '') || '8';
+  const allChapters = N.allChaptersForClass(cls);
+  if (!allChapters.length) {
+    await S.sendButtons(from, '📅 ನಿಮ್ಮ class ಗೆ chapters ಇನ್ನೂ ready ಆಗಿಲ್ಲ.',
+      [{ id: 'NAV_MENU', title: '🏠 Home' }]);
+    return;
+  }
+  const p = await G.getProgress(from);
+  // Use raw quiz history for accurate chapter mapping
+  let rawDone = {};
+  try {
+    const raw = await G.getQuizHistory(from);
+    (raw || []).forEach(r => {
+      const key = (r.subject || '') + '_' + (r.chapter || '');
+      const pct = parseInt(r.percent) || 0;
+      if (!(key in rawDone) || pct > rawDone[key]) rawDone[key] = pct;
+    });
+  } catch (e) {}
+
+  // Categorize
+  const notStarted = [];
+  const weak = [];
+  for (const ch of allChapters) {
+    const key = ch.subject + '_' + ch.ch;
+    if (!(key in rawDone)) notStarted.push(ch);
+    else if (rawDone[key] < 60) weak.push({ ...ch, pct: rawDone[key] });
+  }
+
+  let msg = '📅 *ಇಂದಿನ Study Plan*\\n\\n';
+  const todayPicks = [];
+  // Priority 1: weak chapters (revise)
+  if (weak.length) {
+    const w = weak[0];
+    msg += `🔴 *ಮೊದಲು ಇದು ಮತ್ತೆ ಓದಿ* (marks ಕಡಿಮೆ ಬಂದಿದೆ):\\n${w.subject} Ch${w.ch}: ${w.name} (${w.pct}%)\\n\\n`;
+    todayPicks.push(w);
+  }
+  // Priority 2: next not-started chapter
+  if (notStarted.length) {
+    const n1 = notStarted[0];
+    msg += `📘 *ಇಂದು ಹೊಸದಾಗಿ ಓದಿ:*\\n${n1.subject} Ch${n1.ch}: ${n1.name}\\n`;
+    if (notStarted[1]) {
+      const n2 = notStarted[1];
+      msg += `\\n📗 *ನಾಳೆಗೆ:*\\n${n2.subject} Ch${n2.ch}: ${n2.name}\\n`;
+    }
+  } else if (!weak.length) {
+    msg += `🎉 *ಭೇಷ್! ಎಲ್ಲ chapters ಮುಗಿಸಿದ್ದೀರಾ!*\\nಈಗ — weak chapters ಮತ್ತೆ practice ಮಾಡಿ, ಪರೀಕ್ಷೆಗೆ ತಯಾರಾಗಿ.\\n`;
+  }
+
+  // Progress summary
+  const total = allChapters.length;
+  const studiedCount = Object.keys(rawDone).length;
+  msg += `\\n📊 ಪ್ರಗತಿ: ${studiedCount}/${total} chapters ಶುರು ಆಗಿದೆ`;
+
+  await S.sendButtons(from, msg, [
+    { id: 'NAV_MENU', title: '📚 ಈಗ ಓದೋಣ' },
+    { id: 'PROGRESS', title: '📊 My Progress' }
+  ]);
 }
 
 // ============================================================

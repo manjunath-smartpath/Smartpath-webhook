@@ -47,6 +47,7 @@ async function showMainMenu(to, cls, track = true) {
   await S.sendList(to, '📚 ಏನು ಕಲಿಯಬೇಕು? / What to learn?', 'Select', [
     { id: 'SUBJ_Maths', title: '📐 ಗಣಿತ Maths' },
     { id: 'SUBJ_Science', title: '🔬 ವಿಜ್ಞಾನ Science' },
+    { id: 'DAILY_PLAN', title: '📅 ಇಂದಿನ Plan' },
     { id: 'PROGRESS', title: '📊 My Progress' },
     { id: 'UPGRADE', title: '💳 Upgrade Plan' },
     { id: 'FEEDBACK', title: '💬 Feedback' }
