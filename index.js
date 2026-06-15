@@ -442,6 +442,8 @@ async function routeInteractive(from, student, cls, id) {
   if (id === 'PROGRESS') return showProgress(from, student);
   if (id === 'DAILY_PLAN') return showDailyPlan(from, student);
   if (id === 'APP_QA') return showApplicationQA(from, student);
+  if (id === 'APPQA_ANSWER' && st.flow === 'appqa') return showAppQAAnswer(from, st);
+  if (id === 'APPQA_NEXT' && st.flow === 'appqa') { st.appQAIdx++; return sendAppQAQuestion(from, st); }
   if (id === 'LBA_QUIZ') return startLBAQuiz(from, student);
   if (id.startsWith('LBAANS_') && st.flow === 'lbaquiz') {
     return handleLBAAnswer(from, st, id.replace('LBAANS_', ''));
@@ -688,21 +690,49 @@ async function showApplicationQA(from, student) {
   const data = loadLBAFile(st.cls, st.subject, st.ch);
   if (!data || !data.lba_qa || !data.lba_qa.length) {
     await S.sendButtons(from,
-      `🧠 Application Q&A — ಈ chapter ಗೆ ಇನ್ನೂ ready ಆಗಿಲ್ಲ.\nಶೀಘ್ರದಲ್ಲೇ ಸೇರಿಸ್ತೀವಿ!`,
-      [{ id: 'NAV_OTHER', title: '📋 Other Options' }, { id: 'NAV_MENU', title: '🏠 Home' }]);
+      `\ud83e\udde0 Application Q&A \u2014 \u0c88 chapter \u0c97\u0cc6 \u0c87\u0ca8\u0ccd\u0ca8\u0cc2 ready \u0c86\u0c97\u0cbf\u0cb2\u0ccd\u0cb2.\n\u0cb6\u0cc0\u0c98\u0ccd\u0cb0\u0ca6\u0cb2\u0ccd\u0cb2\u0cc7 \u0cb8\u0cc7\u0cb0\u0cbf\u0cb8\u0ccd\u0ca4\u0cc0\u0cb5\u0cbf!`,
+      [{ id: 'NAV_OTHER', title: '\ud83d\udccb Other Options' }, { id: 'NAV_MENU', title: '\ud83c\udfe0 Home' }]);
     return;
   }
-  const picks = shuffleArr(data.lba_qa).slice(0, 4);
-  let msg = `🧠 *Application Q&A — ${data.chapter_name}*\n_(ನಿಜ ಜೀವನ ಅನ್ವಯ · LBA style)_\n`;
-  picks.forEach((item, i) => {
-    msg += `\n*Q${i+1}. ${item.q}*\n${item.a}\n_[${item.topic || ''} · ${item.marks || ''} ಅಂಕ]_\n`;
-  });
-  await S.sendText(from, msg.substring(0, 4000));
-  await S.sendButtons(from, 'ಮುಂದೇನು? / What next?', [
-    { id: 'LBA_QUIZ', title: '🔥 LBA Quiz' },
-    { id: 'NAV_OTHER', title: '📋 Other Options' },
-    { id: 'NAV_MENU', title: '🏠 Home' }
-  ]);
+  // Rotation: pick questions not seen recently
+  const _aqKey = st.cls + '_' + st.subject + '_' + st.ch;
+  if (!st.seenAppQA || st.seenAppQAKey !== _aqKey) { st.seenAppQA = []; st.seenAppQAKey = _aqKey; }
+  let _aqPool = data.lba_qa.filter(q => !st.seenAppQA.includes(q.id));
+  if (_aqPool.length < 4) { st.seenAppQA = []; _aqPool = data.lba_qa.slice(); }
+  st.appQA = shuffleArr(_aqPool).slice(0, 4);
+  st.appQA.forEach(p => st.seenAppQA.push(p.id));
+  st.appQAIdx = 0;
+  st.appQAName = data.chapter_name;
+  st.flow = 'appqa';
+  await sendAppQAQuestion(from, st);
+}
+
+async function sendAppQAQuestion(from, st) {
+  const item = st.appQA[st.appQAIdx];
+  const n = st.appQAIdx + 1;
+  const total = st.appQA.length;
+  const msg = `\ud83e\udde0 *Application Q&A \u2014 ${st.appQAName}*\n_(Q${n}/${total})_\n\n*${item.q}*\n\n_[${item.topic || ''} \u00b7 ${item.marks || ''} \u0c85\u0c82\u0c95]_\n\n\u270d\ufe0f \u0cae\u0ca8\u0cb8\u0ccd\u0cb8\u0cbf\u0ca8\u0cb2\u0ccd\u0cb2\u0cbf \u0caf\u0ccb\u0c9a\u0cbf\u0cb8\u0cbf, \u0ca8\u0c82\u0CA4\u0cb0 \u0c89\u0CA4\u0CCD\u0CA4\u0cb0 \u0ca8\u0ccb\u0ca1\u0cbf.`;
+  await S.sendButtons(from, msg, [{ id: 'APPQA_ANSWER', title: '\ud83d\udc41\ufe0f \u0c89\u0CA4\u0CCD\u0CA4\u0cb0 \u0ca8\u0ccb\u0ca1\u0cbf' }]);
+}
+
+async function showAppQAAnswer(from, st) {
+  const item = st.appQA[st.appQAIdx];
+  const msg = `\u2705 *\u0c89\u0CA4\u0CCD\u0CA4\u0cb0:*\n${item.a}`;
+  const n = st.appQAIdx + 1;
+  const total = st.appQA.length;
+  if (n < total) {
+    await S.sendButtons(from, msg, [
+      { id: 'APPQA_NEXT', title: '\u27a1\ufe0f \u0cae\u0CC1\u0c82\u0ca6\u0cbf\u0ca8 \u0caa\u0CCD\u0cb0\u0cb6\u0CCD\u0ca8\u0cc6' },
+      { id: 'NAV_MENU', title: '\ud83c\udfe0 Home' }
+    ]);
+  } else {
+    st.flow = null;
+    await S.sendButtons(from, msg + `\n\n\ud83c\udf89 *Application Q&A \u0cae\u0CC1\u0c97\u0cbf\u0caf\u0cbf\u0CA4\u0CC1!*`, [
+      { id: 'LBA_QUIZ', title: '\ud83d\udd25 LBA Quiz' },
+      { id: 'APP_QA', title: '\ud83e\udde0 \u0cae\u0CA4\u0CCD\u0CA4\u0cb6\u0CCD\u0c9f\u0CC1' },
+      { id: 'NAV_MENU', title: '\ud83c\udfe0 Home' }
+    ]);
+  }
 }
 
 // ============================================================
@@ -717,7 +747,12 @@ async function startLBAQuiz(from, student) {
       [{ id: 'NAV_OTHER', title: '📋 Other Options' }, { id: 'NAV_MENU', title: '🏠 Home' }]);
     return;
   }
-  st.lbaQuiz = shuffleArr(data.lba_mcq).slice(0, 5);
+  const _lqKey = st.cls + '_' + st.subject + '_' + st.ch;
+  if (!st.seenLBA || st.seenLBAKey !== _lqKey) { st.seenLBA = []; st.seenLBAKey = _lqKey; }
+  let _lqPool = data.lba_mcq.filter(q => !st.seenLBA.includes(q.id));
+  if (_lqPool.length < 5) { st.seenLBA = []; _lqPool = data.lba_mcq.slice(); }
+  st.lbaQuiz = shuffleArr(_lqPool).slice(0, 5);
+  st.lbaQuiz.forEach(q => st.seenLBA.push(q.id));
   st.lbaQuizIdx = 0;
   st.lbaQuizScore = 0;
   st.flow = 'lbaquiz';

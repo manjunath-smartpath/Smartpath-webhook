@@ -118,8 +118,8 @@ async function showChapterMenu(to, ch, track = true) {
     rows.push({ id: 'CHCONTENT_TOPICS', title: '📋 Topics' });  // always
     if (flags.qa)   rows.push({ id: 'CHCONTENT_QA', title: '❓ Chapter Q&A' });
     if (flags.quiz) rows.push({ id: 'CHCONTENT_QUIZ', title: '📝 Chapter Quiz' });
-    if (flags.qa)   rows.push({ id: 'APP_QA', title: '🧠 Application Q&A' });
     rows.push({ id: 'LBA_QUIZ', title: '🔥 LBA Quiz' });
+    if (flags.qa)   rows.push({ id: 'APP_QA', title: '🧠 Application Q&A' });
     rows.push({ id: 'NAV_MENU', title: '🏠 Home' });
     await S.sendList(to, `📘 Chapter ${ch}: ${chName}\nಏನು ಬೇಕು? / What do you need?`,
       'Select', rows, 'Chapter Menu');
@@ -180,8 +180,8 @@ async function showTopicMenu(to, topicIndex, track = true) {
   if (flags.quiz)  rows.push({ id: 'CONTENT_QUIZ', title: '📝 Quiz' });
   if (topic.hasSubtopics) rows.push({ id: 'CONTENT_SUBTOPICS', title: '📂 Sub-topics' });
   if (st.plan === '299' && flags.qa) rows.push({ id: 'EVAL_START', title: '✏️ Evaluation' });
-  rows.push({ id: 'APP_QA', title: '🧠 Application Q&A' });
   rows.push({ id: 'LBA_QUIZ', title: '🔥 LBA Quiz' });
+  rows.push({ id: 'APP_QA', title: '🧠 Application Q&A' });
   rows.push({ id: 'NAV_MENU', title: '🏠 Home' });
 
   if (rows.length > 4) {
@@ -234,8 +234,8 @@ async function showSubtopicMenu(to, subIndex, track = true) {
   if (flags.qa)    rows.push({ id: 'CONTENT_QA', title: '❓ Q&A' });
   if (flags.quiz)  rows.push({ id: 'CONTENT_QUIZ', title: '📝 Quiz' });
   if (st.plan === '299' && flags.qa) rows.push({ id: 'EVAL_START', title: '✏️ Evaluation' });
-  rows.push({ id: 'APP_QA', title: '🧠 Application Q&A' });
   rows.push({ id: 'LBA_QUIZ', title: '🔥 LBA Quiz' });
+  rows.push({ id: 'APP_QA', title: '🧠 Application Q&A' });
   rows.push({ id: 'NAV_MENU', title: '🏠 Home' });
 
   const body = `📘 ${sub.num} ${sub.name}\nಏನು ಬೇಕು? / What do you need?`;
