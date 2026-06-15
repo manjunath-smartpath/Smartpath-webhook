@@ -207,6 +207,20 @@ function collectQA(sectionsArr) {
   return out;
 }
 
+// Collect ALL Q&A across a whole chapter (chapter_sections + topics + subtopics)
+function collectChapterQA(cls, subject, ch) {
+  const c = getChapter(cls, subject, ch);
+  if (!c) return [];
+  const out = [];
+  const pull = (sections) => { for (const s of (sections || [])) if (s.type === 'qa') out.push(...(s.items || [])); };
+  pull(c.chapter_sections);
+  (c.topics || []).forEach(t => {
+    pull(t.sections);
+    (t.subtopics || []).forEach(sub => pull(sub.sections));
+  });
+  return out;
+}
+
 // Collect all MCQ items from a sections array
 function collectMCQ(sectionsArr) {
   const out = [];
@@ -230,7 +244,7 @@ module.exports = {
   getTopic,
   getSubtopic,
   getSections,
-  collectQA,
+  collectQA, collectChapterQA,
   collectMCQ,
   // expose for debugging
   _notesDB: notesDB,

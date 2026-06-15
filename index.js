@@ -660,31 +660,35 @@ async function showUpgrade(from, student) {
 }
 
 // ============================================================
-// IMPORTANT QUESTIONS — GPT generates exam questions for chapter (Premium)
+// IMPORTANT QUESTIONS — chapter's Q&A grouped by marks (free, no GPT)
 // ============================================================
 async function showImportantQuestions(from, student) {
   const st = NAV.getState(from);
-  const gpt = G.checkGptAccess(student);
-  if (!gpt.allowed) {
-    if (gpt.reason === 'plan') {
-      await S.sendButtons(from,
-        `💎 "Important Questions" — Premium feature (₹149 plan).\n\n₹149 ಗೆ upgrade ಮಾಡಿ — GPT Ask, Evaluation, Important Questions ಎಲ್ಲ!\n📞 7019068606`,
-        [{ id: 'NAV_MENU', title: '📚 Browse Topics' }]);
-    } else {
-      await S.sendButtons(from,
-        `⏰ ಇಂದಿನ 10 GPT requests ಮುಗಿದಿದೆ. ನಾಳೆ reset ಆಗುತ್ತೆ.`,
-        [{ id: 'NAV_MENU', title: '🏠 Home' }]);
-    }
+  const chName = N.getChapterName(st.cls, st.subject, st.ch) || ('Chapter ' + st.ch);
+  const qa = N.collectChapterQA(st.cls, st.subject, st.ch);
+  if (!qa.length) {
+    await S.sendButtons(from,
+      `⭐ ${chName}\n\nಈ chapter ಗೆ Important Questions ಇನ್ನೂ ready ಆಗಿಲ್ಲ.`,
+      [{ id: 'NAV_OTHER', title: '📋 Other Options' }, { id: 'NAV_MENU', title: '🏠 Home' }]);
     return;
   }
-  const cls = String(student.get('Class') || '').replace(/[^\d]/g, '') || '8';
-  const chName = N.getChapterName(st.cls, st.subject, st.ch) || ('Chapter ' + st.ch);
-  await S.sendText(from, '⭐ Important questions ತಯಾರಿಸ್ತಿದೀನಿ... / Preparing...');
-  const result = await G.genImportantQuestions(cls, st.subject, chName);
-  const techError = result.includes('ತಾಂತ್ರಿಕ ತೊಂದರೆ') || result.includes('ready ಆಗಿಲ್ಲ');
-  if (!techError) await G.incrementGptCount(student);
-  await S.sendText(from, `⭐ *${chName} — Important Questions*\n\n${result}`.substring(0, 4000));
-  await S.sendButtons(from, `💎 ${techError ? gpt.remaining : gpt.remaining - 1} GPT requests ಉಳಿದಿದೆ ಇಂದು.`, [
+  // Group by marks
+  const byMarks = {};
+  qa.forEach(q => {
+    const m = parseInt(q.marks) || 0;
+    if (!byMarks[m]) byMarks[m] = [];
+    byMarks[m].push(q.question);
+  });
+  let msg = `⭐ *${chName}*\n_Important Questions (ಪರೀಕ್ಷೆಗೆ ಅಭ್ಯಾಸ)_\n`;
+  Object.keys(byMarks).map(Number).sort((a,b)=>a-b).forEach(m => {
+    const list = byMarks[m];
+    msg += `\n*⭐ ${m} ಅಂಕದ ಪ್ರಶ್ನೆಗಳು (${list.length}):*\n`;
+    list.forEach((q, i) => { msg += `${i+1}. ${q}\n`; });
+  });
+  msg += `\n💡 ಉತ್ತರ ಬೇಕಾ? — ❓ Q&A ಒತ್ತಿ`;
+  await S.sendText(from, msg.substring(0, 4000));
+  await S.sendButtons(from, 'ಮುಂದೇನು? / What next?', [
+    { id: 'CONTENT_QA', title: '❓ Q&A (ಉತ್ತರ)' },
     { id: 'NAV_OTHER', title: '📋 Other Options' },
     { id: 'NAV_MENU', title: '🏠 Home' }
   ]);
