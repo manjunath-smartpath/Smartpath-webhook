@@ -679,7 +679,7 @@ async function showImportantQuestions(from, student) {
     if (!byMarks[m]) byMarks[m] = [];
     byMarks[m].push(q.question);
   });
-  let msg = `⭐ *${chName}*\n_Important Questions (ಪರೀಕ್ಷೆಗೆ ಅಭ್ಯಾಸ)_\n`;
+  let msg = `⭐ *${chName}*\n_📚 Important Questions of Chapter_\n_(ಸಂಪೂರ್ಣ chapter — ಎಲ್ಲ topics)_\n`;
   Object.keys(byMarks).map(Number).sort((a,b)=>a-b).forEach(m => {
     const list = byMarks[m];
     msg += `\n*⭐ ${m} ಅಂಕದ ಪ್ರಶ್ನೆಗಳು (${list.length}):*\n`;
