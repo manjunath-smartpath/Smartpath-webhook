@@ -10,6 +10,8 @@ const NAV = require('./navigation');
 const C = require('./contentDisplay');
 const Q = require('./quizEngine');
 const G = require('./sheetAndGpt');
+const fs = require('fs');
+const path = require('path');
 const { registerDashboard } = require('./dashboard');
 
 const app = express();
@@ -439,7 +441,11 @@ async function routeInteractive(from, student, cls, id) {
   // --- Progress ---
   if (id === 'PROGRESS') return showProgress(from, student);
   if (id === 'DAILY_PLAN') return showDailyPlan(from, student);
-  if (id === 'IMP_QUESTIONS') return showImportantQuestions(from, student);
+  if (id === 'APP_QA') return showApplicationQA(from, student);
+  if (id === 'LBA_QUIZ') return startLBAQuiz(from, student);
+  if (id.startsWith('LBAANS_') && st.flow === 'lbaquiz') {
+    return handleLBAAnswer(from, st, id.replace('LBAANS_', ''));
+  }
 
   // --- Evaluation (₹149, 5/day) ---
   if (id === 'EVAL_START' || id === 'EVAL_NEXT') return startEvaluation(from, student, st);
@@ -660,38 +666,104 @@ async function showUpgrade(from, student) {
 }
 
 // ============================================================
-// IMPORTANT QUESTIONS — chapter's Q&A grouped by marks (free, no GPT)
+// LBA TEST — full chapter test paper (MCQ + short + long), self-check
+// Free, no GPT. Question paper + model answers.
 // ============================================================
-async function showImportantQuestions(from, student) {
+// APPLICATION Q&A — real-life concept questions (from lba_qa JSON, free)
+// ============================================================
+function loadLBAFile(cls, subject, ch) {
+  try {
+    const fp = path.join(__dirname, 'lba_qa', `${cls}_${subject}_${ch}_lba.json`);
+    return JSON.parse(fs.readFileSync(fp, 'utf8'));
+  } catch (e) { return null; }
+}
+function shuffleArr(arr) {
+  const a = arr.slice();
+  for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random()*(i+1)); [a[i],a[j]]=[a[j],a[i]]; }
+  return a;
+}
+
+async function showApplicationQA(from, student) {
   const st = NAV.getState(from);
-  const chName = N.getChapterName(st.cls, st.subject, st.ch) || ('Chapter ' + st.ch);
-  const qa = N.collectChapterQA(st.cls, st.subject, st.ch);
-  if (!qa.length) {
+  const data = loadLBAFile(st.cls, st.subject, st.ch);
+  if (!data || !data.lba_qa || !data.lba_qa.length) {
     await S.sendButtons(from,
-      `⭐ ${chName}\n\nಈ chapter ಗೆ Important Questions ಇನ್ನೂ ready ಆಗಿಲ್ಲ.`,
+      `🧠 Application Q&A — ಈ chapter ಗೆ ಇನ್ನೂ ready ಆಗಿಲ್ಲ.\nಶೀಘ್ರದಲ್ಲೇ ಸೇರಿಸ್ತೀವಿ!`,
       [{ id: 'NAV_OTHER', title: '📋 Other Options' }, { id: 'NAV_MENU', title: '🏠 Home' }]);
     return;
   }
-  // Group by marks
-  const byMarks = {};
-  qa.forEach(q => {
-    const m = parseInt(q.marks) || 0;
-    if (!byMarks[m]) byMarks[m] = [];
-    byMarks[m].push(q.question);
+  const picks = shuffleArr(data.lba_qa).slice(0, 4);
+  let msg = `🧠 *Application Q&A — ${data.chapter_name}*\n_(ನಿಜ ಜೀವನ ಅನ್ವಯ · LBA style)_\n`;
+  picks.forEach((item, i) => {
+    msg += `\n*Q${i+1}. ${item.q}*\n${item.a}\n_[${item.topic || ''} · ${item.marks || ''} ಅಂಕ]_\n`;
   });
-  let msg = `⭐ *${chName}*\n_📚 Important Questions of Chapter_\n_(ಸಂಪೂರ್ಣ chapter — ಎಲ್ಲ topics)_\n`;
-  Object.keys(byMarks).map(Number).sort((a,b)=>a-b).forEach(m => {
-    const list = byMarks[m];
-    msg += `\n*⭐ ${m} ಅಂಕದ ಪ್ರಶ್ನೆಗಳು (${list.length}):*\n`;
-    list.forEach((q, i) => { msg += `${i+1}. ${q}\n`; });
-  });
-  msg += `\n💡 ಉತ್ತರ ಬೇಕಾ? — ❓ Q&A ಒತ್ತಿ`;
   await S.sendText(from, msg.substring(0, 4000));
   await S.sendButtons(from, 'ಮುಂದೇನು? / What next?', [
-    { id: 'CONTENT_QA', title: '❓ Q&A (ಉತ್ತರ)' },
+    { id: 'LBA_QUIZ', title: '🔥 LBA Quiz' },
     { id: 'NAV_OTHER', title: '📋 Other Options' },
     { id: 'NAV_MENU', title: '🏠 Home' }
   ]);
+}
+
+// ============================================================
+// LBA QUIZ — scenario-based MCQ (from lba_mcq JSON, interactive, free)
+// ============================================================
+async function startLBAQuiz(from, student) {
+  const st = NAV.getState(from);
+  const data = loadLBAFile(st.cls, st.subject, st.ch);
+  if (!data || !data.lba_mcq || !data.lba_mcq.length) {
+    await S.sendButtons(from,
+      `🔥 LBA Quiz — ಈ chapter ಗೆ ಇನ್ನೂ ready ಆಗಿಲ್ಲ.\nಶೀಘ್ರದಲ್ಲೇ ಸೇರಿಸ್ತೀವಿ!`,
+      [{ id: 'NAV_OTHER', title: '📋 Other Options' }, { id: 'NAV_MENU', title: '🏠 Home' }]);
+    return;
+  }
+  st.lbaQuiz = shuffleArr(data.lba_mcq).slice(0, 5);
+  st.lbaQuizIdx = 0;
+  st.lbaQuizScore = 0;
+  st.flow = 'lbaquiz';
+  await sendLBAQuestion(from, st);
+}
+
+async function sendLBAQuestion(from, st) {
+  const q = st.lbaQuiz[st.lbaQuizIdx];
+  const n = st.lbaQuizIdx + 1;
+  const total = st.lbaQuiz.length;
+  let msg = `🔥 *LBA Quiz — Q${n}/${total}*\n\n${q.q}\n`;
+  const opts = q.options || [];
+  const letters = ['A','B','C','D'];
+  opts.forEach((o, i) => { msg += `\n${letters[i]}. ${o}`; });
+  // Buttons: A B C D (max 3 buttons → use list if 4)
+  const rows = letters.slice(0, opts.length).map(L => ({ id: 'LBAANS_' + L, title: L }));
+  await S.sendButtons(from, msg, rows.slice(0,3));
+  if (rows.length > 3) {
+    await S.sendButtons(from, 'ಅಥವಾ:', [rows[3]]);
+  }
+}
+
+async function handleLBAAnswer(from, st, letter) {
+  const q = st.lbaQuiz[st.lbaQuizIdx];
+  const correct = (q.answer || '').toUpperCase() === letter.toUpperCase();
+  if (correct) st.lbaQuizScore++;
+  let fb = correct ? `✅ ಸರಿ! / Correct!` : `❌ ತಪ್ಪು. ಸರಿ ಉತ್ತರ: ${q.answer}`;
+  fb += `\n\n💡 ${q.explanation || ''}`;
+  await S.sendText(from, fb);
+  st.lbaQuizIdx++;
+  if (st.lbaQuizIdx >= st.lbaQuiz.length) {
+    const score = st.lbaQuizScore, total = st.lbaQuiz.length;
+    const pct = Math.round((score/total)*100);
+    let res = `🔥 *LBA Quiz ಮುಗಿಯಿತು!*\n\nScore: ${score}/${total} (${pct}%)\n\n`;
+    if (pct >= 80) res += `🏆 ಭೇಷ್! Concepts ಚೆನ್ನಾಗಿ ಅನ್ವಯಿಸ್ತೀರಾ!`;
+    else if (pct >= 60) res += `👍 ಒಳ್ಳೆದು! ಇನ್ನೂ practice ಮಾಡಿ.`;
+    else res += `📚 ಮತ್ತೆ ಓದಿ — application questions practice ಮಾಡಿ!`;
+    st.flow = null;
+    await S.sendButtons(from, res, [
+      { id: 'APP_QA', title: '🧠 Application Q&A' },
+      { id: 'NAV_OTHER', title: '📋 Other Options' },
+      { id: 'NAV_MENU', title: '🏠 Home' }
+    ]);
+  } else {
+    await sendLBAQuestion(from, st);
+  }
 }
 
 // ============================================================
