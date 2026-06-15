@@ -439,6 +439,7 @@ async function routeInteractive(from, student, cls, id) {
   // --- Progress ---
   if (id === 'PROGRESS') return showProgress(from, student);
   if (id === 'DAILY_PLAN') return showDailyPlan(from, student);
+  if (id === 'IMP_QUESTIONS') return showImportantQuestions(from, student);
 
   // --- Evaluation (₹149, 5/day) ---
   if (id === 'EVAL_START' || id === 'EVAL_NEXT') return startEvaluation(from, student, st);
@@ -659,6 +660,37 @@ async function showUpgrade(from, student) {
 }
 
 // ============================================================
+// IMPORTANT QUESTIONS — GPT generates exam questions for chapter (Premium)
+// ============================================================
+async function showImportantQuestions(from, student) {
+  const st = NAV.getState(from);
+  const gpt = G.checkGptAccess(student);
+  if (!gpt.allowed) {
+    if (gpt.reason === 'plan') {
+      await S.sendButtons(from,
+        `💎 "Important Questions" — Premium feature (₹149 plan).\n\n₹149 ಗೆ upgrade ಮಾಡಿ — GPT Ask, Evaluation, Important Questions ಎಲ್ಲ!\n📞 7019068606`,
+        [{ id: 'NAV_MENU', title: '📚 Browse Topics' }]);
+    } else {
+      await S.sendButtons(from,
+        `⏰ ಇಂದಿನ 10 GPT requests ಮುಗಿದಿದೆ. ನಾಳೆ reset ಆಗುತ್ತೆ.`,
+        [{ id: 'NAV_MENU', title: '🏠 Home' }]);
+    }
+    return;
+  }
+  const cls = String(student.get('Class') || '').replace(/[^\d]/g, '') || '8';
+  const chName = N.getChapterName(st.cls, st.subject, st.ch) || ('Chapter ' + st.ch);
+  await S.sendText(from, '⭐ Important questions ತಯಾರಿಸ್ತಿದೀನಿ... / Preparing...');
+  const result = await G.genImportantQuestions(cls, st.subject, chName);
+  const techError = result.includes('ತಾಂತ್ರಿಕ ತೊಂದರೆ') || result.includes('ready ಆಗಿಲ್ಲ');
+  if (!techError) await G.incrementGptCount(student);
+  await S.sendText(from, `⭐ *${chName} — Important Questions*\n\n${result}`.substring(0, 4000));
+  await S.sendButtons(from, `💎 ${techError ? gpt.remaining : gpt.remaining - 1} GPT requests ಉಳಿದಿದೆ ಇಂದು.`, [
+    { id: 'NAV_OTHER', title: '📋 Other Options' },
+    { id: 'NAV_MENU', title: '🏠 Home' }
+  ]);
+}
+
+// ============================================================
 // DAILY STUDY PLAN — "ಇಂದು ಏನು ಓದಬೇಕು"
 // Based on progress: not-yet-studied chapters + weak (low score) ones
 // ============================================================
@@ -691,30 +723,30 @@ async function showDailyPlan(from, student) {
     else if (rawDone[key] < 60) weak.push({ ...ch, pct: rawDone[key] });
   }
 
-  let msg = '📅 *ಇಂದಿನ Study Plan*\\n\\n';
+  let msg = '📅 *ಇಂದಿನ Study Plan*\n\n';
   const todayPicks = [];
   // Priority 1: weak chapters (revise)
   if (weak.length) {
     const w = weak[0];
-    msg += `🔴 *ಮೊದಲು ಇದು ಮತ್ತೆ ಓದಿ* (marks ಕಡಿಮೆ ಬಂದಿದೆ):\\n${w.subject} Ch${w.ch}: ${w.name} (${w.pct}%)\\n\\n`;
+    msg += `🔴 *ಮೊದಲು ಇದು ಮತ್ತೆ ಓದಿ* (marks ಕಡಿಮೆ ಬಂದಿದೆ):\n${w.subject} Ch${w.ch}: ${w.name} (${w.pct}%)\n\n`;
     todayPicks.push(w);
   }
   // Priority 2: next not-started chapter
   if (notStarted.length) {
     const n1 = notStarted[0];
-    msg += `📘 *ಇಂದು ಹೊಸದಾಗಿ ಓದಿ:*\\n${n1.subject} Ch${n1.ch}: ${n1.name}\\n`;
+    msg += `📘 *ಇಂದು ಹೊಸದಾಗಿ ಓದಿ:*\n${n1.subject} Ch${n1.ch}: ${n1.name}\n`;
     if (notStarted[1]) {
       const n2 = notStarted[1];
-      msg += `\\n📗 *ನಾಳೆಗೆ:*\\n${n2.subject} Ch${n2.ch}: ${n2.name}\\n`;
+      msg += `\n📗 *ನಾಳೆಗೆ:*\n${n2.subject} Ch${n2.ch}: ${n2.name}\n`;
     }
   } else if (!weak.length) {
-    msg += `🎉 *ಭೇಷ್! ಎಲ್ಲ chapters ಮುಗಿಸಿದ್ದೀರಾ!*\\nಈಗ — weak chapters ಮತ್ತೆ practice ಮಾಡಿ, ಪರೀಕ್ಷೆಗೆ ತಯಾರಾಗಿ.\\n`;
+    msg += `🎉 *ಭೇಷ್! ಎಲ್ಲ chapters ಮುಗಿಸಿದ್ದೀರಾ!*\nಈಗ — weak chapters ಮತ್ತೆ practice ಮಾಡಿ, ಪರೀಕ್ಷೆಗೆ ತಯಾರಾಗಿ.\n`;
   }
 
   // Progress summary
   const total = allChapters.length;
   const studiedCount = Object.keys(rawDone).length;
-  msg += `\\n📊 ಪ್ರಗತಿ: ${studiedCount}/${total} chapters ಶುರು ಆಗಿದೆ`;
+  msg += `\n📊 ಪ್ರಗತಿ: ${studiedCount}/${total} chapters ಶುರು ಆಗಿದೆ`;
 
   await S.sendButtons(from, msg, [
     { id: 'NAV_MENU', title: '📚 ಈಗ ಓದೋಣ' },

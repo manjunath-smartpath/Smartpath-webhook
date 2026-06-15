@@ -273,6 +273,66 @@ ${context}` },
   }
 }
 
+// ---------- IMPORTANT EXAM QUESTIONS (Premium, GPT) ----------
+async function genImportantQuestions(studentClass, subject, chapterName) {
+  try {
+    const pc = new Pinecone({ apiKey: process.env.PINECONE_API_KEY });
+    const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
+    const query = `Class ${studentClass} ${subject} ${chapterName} important exam questions`;
+    const embRes = await openai.embeddings.create({
+      model: 'text-embedding-3-small', input: query
+    });
+    const index = pc.index('kseeb-kalike');
+    const searchRes = await index.query({
+      vector: embRes.data[0].embedding, topK: 10, includeMetadata: true,
+      filter: { class: { $eq: studentClass } }
+    });
+    const context = searchRes.matches
+      .filter(m => m.score > 0.25)
+      .map(m => m.metadata.text).join('\n\n');
+    if (!context || context.trim() === '') {
+      return 'ಈ chapter ನ content ಇನ್ನೂ ready ಆಗಿಲ್ಲ.';
+    }
+    const gptRes = await openai.chat.completions.create({
+      model: 'gpt-4o-mini',
+      messages: [
+        { role:'system', content:
+`You are a KSEEB Karnataka board exam expert for class ${studentClass}.
+From the provided textbook context, generate IMPORTANT EXAM QUESTIONS for "${chapterName}".
+Format EXACTLY like this (plain text, no markdown bold, no LaTeX):
+
+⭐ 1 ಅಂಕದ ಪ್ರಶ್ನೆಗಳು:
+1. ...
+2. ...
+3. ...
+
+⭐ 2 ಅಂಕದ ಪ್ರಶ್ನೆಗಳು:
+1. ...
+2. ...
+
+⭐ 5 ಅಂಕದ ಪ್ರಶ್ನೆಗಳು:
+1. ...
+
+Rules:
+- ONLY use the provided context. No outside knowledge.
+- Questions must be answerable from this chapter.
+- Keep questions short and exam-style.
+- Output in Kannada if context is Kannada, else English.
+- Total under 300 words.
+
+Context:
+${context}` },
+        { role:'user', content: `Generate important exam questions for ${chapterName}` }
+      ],
+      max_tokens: 600
+    });
+    return cleanLatex(gptRes.choices[0].message.content);
+  } catch (e) {
+    console.error('genImportantQuestions error:', e.message);
+    return '⚠️ ತಾಂತ್ರಿಕ ತೊಂದರೆ ಆಗಿದೆ, ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ.';
+  }
+}
+
 // ---------- SCHOOL CODE SYSTEM ----------
 // Wrap school_codes row to keep .get()/.set()/.save() interface
 function wrapCode(row) {
@@ -703,7 +763,7 @@ async function getSheet() { return null; }
 module.exports = {
   getSheet, getStudent, saveNewStudent, updateStudent,
   getPlan, getStatus, isExpired, hasAccess, trialDaysLeft,
-  checkGptAccess, incrementGptCount, askKSEEB,
+  checkGptAccess, incrementGptCount, askKSEEB, genImportantQuestions,
   saveFeedback,
   saveQuizScore, getProgress, getQuizHistory, sendParentReport,
   saveEvalScore, getEvalStats, parseEvalMarks,

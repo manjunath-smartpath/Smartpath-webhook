@@ -118,6 +118,7 @@ async function showChapterMenu(to, ch, track = true) {
     rows.push({ id: 'CHCONTENT_TOPICS', title: '📋 Topics' });  // always
     if (flags.qa)   rows.push({ id: 'CHCONTENT_QA', title: '❓ Chapter Q&A' });
     if (flags.quiz) rows.push({ id: 'CHCONTENT_QUIZ', title: '📝 Chapter Quiz' });
+    if (st.plan === '299') rows.push({ id: 'IMP_QUESTIONS', title: '⭐ Important Questions' });
     rows.push({ id: 'NAV_MENU', title: '🏠 Home' });
     await S.sendList(to, `📘 Chapter ${ch}: ${chName}\nಏನು ಬೇಕು? / What do you need?`,
       'Select', rows, 'Chapter Menu');
