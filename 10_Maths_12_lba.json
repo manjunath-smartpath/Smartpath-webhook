@@ -1,0 +1,231 @@
+{
+  "class": "10",
+  "subject": "Maths",
+  "chapter": "12",
+  "chapter_name": "Surface Areas and Volumes",
+  "theme": "Mensuration",
+  "lba_qa": [
+    {
+      "id": "lba_qa_1",
+      "q": "A water tank is in the shape of a cylinder with radius 7 m and height 10 m. Find how much water it can hold (volume). (Use pi = 22/7)",
+      "a": "Volume of a cylinder = pi x r^2 x h.\n= (22/7) x 7 x 7 x 10 = 22 x 7 x 10 = 1540 cubic metres.\nSo the tank can hold 1540 cubic metres of water.",
+      "difficulty": "Average",
+      "topic": "Volume of a cylinder (real-life)",
+      "marks": 3
+    },
+    {
+      "id": "lba_qa_2",
+      "q": "A cricket ball is a sphere of radius 3.5 cm. Find its volume. (Use pi = 22/7)",
+      "a": "Volume of a sphere = (4/3) x pi x r^3.\n= (4/3) x (22/7) x 3.5 x 3.5 x 3.5.\n3.5^3 = 42.875.\n= (4/3) x (22/7) x 42.875 = (4/3) x 134.75 = 179.67 cubic cm (approx).\nSo the volume of the ball is about 179.67 cubic cm.",
+      "difficulty": "Difficult",
+      "topic": "Volume of a sphere (real-life)",
+      "marks": 3
+    },
+    {
+      "id": "lba_qa_3",
+      "q": "An ice cream cone has radius 3.5 cm and height 12 cm. Find the volume of ice cream it can hold (cone volume). (Use pi = 22/7)",
+      "a": "Volume of a cone = (1/3) x pi x r^2 x h.\n= (1/3) x (22/7) x 3.5 x 3.5 x 12.\n= (1/3) x (22/7) x 12.25 x 12 = (1/3) x 462 = 154 cubic cm.\nSo the cone can hold 154 cubic cm of ice cream.",
+      "difficulty": "Average",
+      "topic": "Volume of a cone (real-life)",
+      "marks": 3
+    },
+    {
+      "id": "lba_qa_4",
+      "q": "A room is shaped like a cuboid measuring 5 m long, 4 m wide and 3 m high. Find the volume of air in the room.",
+      "a": "Volume of a cuboid = length x breadth x height.\n= 5 x 4 x 3 = 60 cubic metres.\nSo the room holds 60 cubic metres of air.",
+      "difficulty": "Easy",
+      "topic": "Volume of a cuboid (real-life)",
+      "marks": 2
+    },
+    {
+      "id": "lba_qa_5",
+      "q": "A solid is made by placing a cone on top of a cylinder (like an ice cream in a cylindrical glass). How do we find the total volume of such a combined solid?",
+      "a": "For a combined solid, we add the volumes of the individual shapes. Total volume = volume of cylinder + volume of cone = (pi r^2 h_cylinder) + (1/3 pi r^2 h_cone). We calculate each part separately using its formula and add them. This method of adding volumes is used for any solid made by combining basic shapes.",
+      "difficulty": "Average",
+      "topic": "Combination of solids (concept)",
+      "marks": 2
+    },
+    {
+      "id": "lba_qa_6",
+      "q": "A cylindrical pillar has radius 0.5 m and height 7 m. Find the curved surface area to know how much paint is needed. (Use pi = 22/7)",
+      "a": "Curved surface area of a cylinder = 2 x pi x r x h.\n= 2 x (22/7) x 0.5 x 7 = 2 x 22 x 0.5 = 22 square metres.\nSo 22 sq m of the pillar needs to be painted.",
+      "difficulty": "Average",
+      "topic": "Surface area of a cylinder (real-life)",
+      "marks": 3
+    },
+    {
+      "id": "lba_qa_7",
+      "q": "A metal sphere of radius 6 cm is melted and recast into smaller spheres of radius 2 cm. How is the number of small spheres found? Explain the idea.",
+      "a": "When a solid is melted and recast, its total volume stays the same. So the number of small spheres = volume of big sphere / volume of one small sphere.\n= [(4/3)pi(6)^3] / [(4/3)pi(2)^3] = 6^3/2^3 = 216/8 = 27.\nSo 27 small spheres can be made. The key idea is that the volume is conserved during melting and recasting.",
+      "difficulty": "Difficult",
+      "topic": "Volume conservation (real-life)",
+      "marks": 3
+    },
+    {
+      "id": "lba_qa_8",
+      "q": "A cube has each side 4 cm. Find its total surface area and volume.",
+      "a": "Total surface area of a cube = 6 x side^2 = 6 x 4 x 4 = 96 sq cm.\nVolume of a cube = side^3 = 4 x 4 x 4 = 64 cubic cm.\nSo the surface area is 96 sq cm and the volume is 64 cubic cm.",
+      "difficulty": "Easy",
+      "topic": "Surface area and volume of a cube",
+      "marks": 2
+    },
+    {
+      "id": "lba_qa_9",
+      "q": "A hemispherical bowl has radius 7 cm. Find the volume of liquid it can hold. (Use pi = 22/7)",
+      "a": "Volume of a hemisphere = (2/3) x pi x r^3.\n= (2/3) x (22/7) x 7 x 7 x 7 = (2/3) x 22 x 49 = (2/3) x 1078 = 718.67 cubic cm (approx).\nSo the bowl can hold about 718.67 cubic cm of liquid.",
+      "difficulty": "Average",
+      "topic": "Volume of a hemisphere (real-life)",
+      "marks": 3
+    },
+    {
+      "id": "lba_qa_10",
+      "q": "Why does a sphere of the same radius and height as a cylinder hold less volume than the cylinder? Explain conceptually.",
+      "a": "A cylinder fills its full circular cross-section throughout its height, so it uses all the space in that region. A sphere curves inward at the top and bottom, leaving empty space near the corners of the same region. Because of this curving in, the sphere occupies less space than the cylinder of the same radius and height. That is why the sphere holds less volume.",
+      "difficulty": "Difficult",
+      "topic": "Volume comparison (concept)",
+      "marks": 2
+    }
+  ],
+  "lba_mcq": [
+    {
+      "id": "lba_mcq_1",
+      "q": "A cylindrical tank of radius 7 m and height 10 m holds water (pi = 22/7) of volume:",
+      "options": [
+        "1540 cubic m",
+        "440 cubic m",
+        "770 cubic m",
+        "220 cubic m"
+      ],
+      "answer": "A",
+      "explanation": "Volume = pi r^2 h = (22/7)(49)(10) = 1540 cubic m.",
+      "difficulty": "Average",
+      "topic": "Volume of a cylinder"
+    },
+    {
+      "id": "lba_mcq_2",
+      "q": "A room (cuboid) 5 m x 4 m x 3 m holds air of volume:",
+      "options": [
+        "12 cubic m",
+        "60 cubic m",
+        "47 cubic m",
+        "120 cubic m"
+      ],
+      "answer": "B",
+      "explanation": "Volume = 5 x 4 x 3 = 60 cubic m.",
+      "difficulty": "Easy",
+      "topic": "Volume of a cuboid"
+    },
+    {
+      "id": "lba_mcq_3",
+      "q": "An ice cream cone of radius 3.5 cm and height 12 cm holds (pi = 22/7) ice cream of volume:",
+      "options": [
+        "462 cubic cm",
+        "308 cubic cm",
+        "154 cubic cm",
+        "77 cubic cm"
+      ],
+      "answer": "C",
+      "explanation": "Cone volume = (1/3)(22/7)(12.25)(12) = 154 cubic cm.",
+      "difficulty": "Average",
+      "topic": "Volume of a cone"
+    },
+    {
+      "id": "lba_mcq_4",
+      "q": "For a solid made by placing a cone on a cylinder, the total volume is:",
+      "options": [
+        "Cone minus cylinder",
+        "Cylinder only",
+        "Cone only",
+        "Cone plus cylinder volume"
+      ],
+      "answer": "D",
+      "explanation": "For a combination of solids, add the volumes: cylinder + cone.",
+      "difficulty": "Easy",
+      "topic": "Combination of solids"
+    },
+    {
+      "id": "lba_mcq_5",
+      "q": "A cube of side 4 cm has volume:",
+      "options": [
+        "64 cubic cm",
+        "16 cubic cm",
+        "96 cubic cm",
+        "12 cubic cm"
+      ],
+      "answer": "A",
+      "explanation": "Volume = side^3 = 4^3 = 64 cubic cm.",
+      "difficulty": "Easy",
+      "topic": "Volume of a cube"
+    },
+    {
+      "id": "lba_mcq_6",
+      "q": "A cube of side 4 cm has total surface area:",
+      "options": [
+        "64 sq cm",
+        "96 sq cm",
+        "16 sq cm",
+        "48 sq cm"
+      ],
+      "answer": "B",
+      "explanation": "TSA = 6 x side^2 = 6 x 16 = 96 sq cm.",
+      "difficulty": "Easy",
+      "topic": "Surface area of a cube"
+    },
+    {
+      "id": "lba_mcq_7",
+      "q": "A metal sphere of radius 6 cm melted into spheres of radius 2 cm gives how many small spheres?",
+      "options": [
+        "3",
+        "9",
+        "27",
+        "81"
+      ],
+      "answer": "C",
+      "explanation": "Number = (6/2)^3 = 3^3 = 27 (volume is conserved).",
+      "difficulty": "Difficult",
+      "topic": "Volume conservation"
+    },
+    {
+      "id": "lba_mcq_8",
+      "q": "When a solid is melted and recast into another shape, what stays the same?",
+      "options": [
+        "Surface area",
+        "Shape",
+        "Height",
+        "Volume"
+      ],
+      "answer": "D",
+      "explanation": "Melting and recasting keeps the volume the same, even though the shape changes.",
+      "difficulty": "Average",
+      "topic": "Volume conservation"
+    },
+    {
+      "id": "lba_mcq_9",
+      "q": "A cylindrical pillar of radius 0.5 m and height 7 m has curved surface area (pi = 22/7):",
+      "options": [
+        "22 sq m",
+        "11 sq m",
+        "44 sq m",
+        "7 sq m"
+      ],
+      "answer": "A",
+      "explanation": "CSA = 2 pi r h = 2(22/7)(0.5)(7) = 22 sq m.",
+      "difficulty": "Average",
+      "topic": "Surface area of a cylinder"
+    },
+    {
+      "id": "lba_mcq_10",
+      "q": "The volume of a hemisphere of radius r is:",
+      "options": [
+        "(4/3) pi r^3",
+        "(2/3) pi r^3",
+        "pi r^2 h",
+        "(1/3) pi r^2 h"
+      ],
+      "answer": "B",
+      "explanation": "A hemisphere is half a sphere, so its volume is (2/3) pi r^3.",
+      "difficulty": "Average",
+      "topic": "Volume of a hemisphere"
+    }
+  ]
+}

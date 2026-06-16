@@ -1,0 +1,231 @@
+{
+  "class": "8",
+  "subject": "Maths",
+  "chapter": "5",
+  "chapter_name": "Squares and Square Roots",
+  "theme": "Squares and Square Roots",
+  "lba_qa": [
+    {
+      "q": "A square garden has an area of 144 square metres. Find the length of one side.",
+      "a": "Area of a square = side x side = side^2.\n\nSide = square root of 144\n= 12\n\nSo each side of the garden is 12 metres. ✅",
+      "difficulty": "Easy",
+      "topic": "Square Roots",
+      "marks": 2,
+      "id": "lba_qa_1"
+    },
+    {
+      "q": "A gardener wants to plant 256 saplings in a square arrangement (equal rows and columns). How many saplings will be in each row?",
+      "a": "Number in each row = square root of total saplings.\n= square root of 256\n= 16\n\nSo there will be 16 saplings in each row. ✅",
+      "difficulty": "Easy",
+      "topic": "Square Roots",
+      "marks": 2,
+      "id": "lba_qa_2"
+    },
+    {
+      "q": "Find the smallest number by which 72 must be multiplied to make it a perfect square.",
+      "a": "Prime factorise 72:\n72 = 2 x 2 x 2 x 3 x 3\n= (2 x 2) x (3 x 3) x 2\n\nThe lone factor is 2. Multiply by 2 to pair it.\n72 x 2 = 144 = 12^2.\n\nSo the smallest number is 2. ✅",
+      "difficulty": "Hard",
+      "topic": "Perfect Squares by Factorisation",
+      "marks": 3,
+      "id": "lba_qa_3"
+    },
+    {
+      "q": "A square hall has area 625 square metres. A tile is to be placed along one side. Find the side length.",
+      "a": "Side = square root of area\n= square root of 625\n= 25\n\nSo each side of the hall is 25 metres. ✅",
+      "difficulty": "Easy",
+      "topic": "Square Roots",
+      "marks": 2,
+      "id": "lba_qa_4"
+    },
+    {
+      "q": "Find the square root of 1024 by prime factorisation.",
+      "a": "1024 = 2^10 (ten 2's).\n\nPair them: (2x2)(2x2)(2x2)(2x2)(2x2)\nTake one 2 from each pair: 2 x 2 x 2 x 2 x 2 = 32.\n\nSo the square root of 1024 is 32. ✅",
+      "difficulty": "Medium",
+      "topic": "Square Root by Factorisation",
+      "marks": 3,
+      "id": "lba_qa_5"
+    },
+    {
+      "q": "A number ends in the digit 5 and is a perfect square. What digit will be in the units place of its square root?",
+      "a": "A perfect square ending in 5 has its square root also ending in 5 (since 5 x 5 = 25).\n\nFor example, 225 = 15^2 and 625 = 25^2.\n\nSo the units digit of the square root is 5. ✅",
+      "difficulty": "Medium",
+      "topic": "Patterns in Square Roots",
+      "marks": 2,
+      "id": "lba_qa_6"
+    },
+    {
+      "q": "Find the smallest number that must be subtracted from 130 to make it a perfect square.",
+      "a": "The perfect square just below 130 is 121 = 11^2.\n(The next, 144 = 12^2, is above 130.)\n\n130 - 121 = 9\n\nSo 9 must be subtracted to get 121. ✅",
+      "difficulty": "Hard",
+      "topic": "Perfect Squares",
+      "marks": 3,
+      "id": "lba_qa_7"
+    },
+    {
+      "q": "A square sheet has area 81 square cm. Find its perimeter.",
+      "a": "Side = square root of 81 = 9 cm.\n\nPerimeter = 4 x side\n= 4 x 9\n= 36 cm\n\nSo the perimeter is 36 cm. ✅",
+      "difficulty": "Medium",
+      "topic": "Square Roots and Perimeter",
+      "marks": 2,
+      "id": "lba_qa_8"
+    },
+    {
+      "q": "How many students can stand in a perfect square formation from a group of 200, and how many are left out?",
+      "a": "The perfect square just below 200 is 196 = 14^2.\n\nStudents in the square = 196 (14 rows of 14).\nLeft out = 200 - 196 = 4.\n\nSo 196 students form the square and 4 are left out. ✅",
+      "difficulty": "Hard",
+      "topic": "Perfect Squares",
+      "marks": 3,
+      "id": "lba_qa_9"
+    },
+    {
+      "q": "Find the square of 25 using the pattern that a number ending in 5 squared ends in 25.",
+      "a": "For a number ending in 5, square = (first digit) x (first digit + 1) followed by 25.\nHere first digit = 2.\n2 x (2 + 1) = 2 x 3 = 6.\n\nSo 25^2 = 625. ✅",
+      "difficulty": "Medium",
+      "topic": "Patterns in Squares",
+      "marks": 2,
+      "id": "lba_qa_10"
+    }
+  ],
+  "lba_mcq": [
+    {
+      "q": "A square plot has area 100 square metres. Each side measures:",
+      "options": [
+        "10 m",
+        "50 m",
+        "25 m",
+        "20 m"
+      ],
+      "answer": "A",
+      "explanation": "Side = square root of 100 = 10 m.",
+      "difficulty": "Easy",
+      "topic": "Square Roots",
+      "id": "lba_mcq_1"
+    },
+    {
+      "q": "A teacher arranges 49 students in a perfect square. The number in each row is:",
+      "options": [
+        "8",
+        "7",
+        "9",
+        "6"
+      ],
+      "answer": "B",
+      "explanation": "square root of 49 = 7, so 7 in each row.",
+      "difficulty": "Easy",
+      "topic": "Square Roots",
+      "id": "lba_mcq_2"
+    },
+    {
+      "q": "The units digit of the square of 13 is:",
+      "options": [
+        "1",
+        "3",
+        "9",
+        "6"
+      ],
+      "answer": "C",
+      "explanation": "3 x 3 = 9, so the square ends in 9 (13^2 = 169).",
+      "difficulty": "Medium",
+      "topic": "Patterns in Squares",
+      "id": "lba_mcq_3"
+    },
+    {
+      "q": "The smallest number to multiply 8 by, to make a perfect square, is:",
+      "options": [
+        "8",
+        "3",
+        "4",
+        "2"
+      ],
+      "answer": "D",
+      "explanation": "8 = 2x2x2; multiply by 2 to get 16 = 4^2.",
+      "difficulty": "Medium",
+      "topic": "Perfect Squares",
+      "id": "lba_mcq_4"
+    },
+    {
+      "q": "A square garden of side 15 m has area:",
+      "options": [
+        "225 sq m",
+        "30 sq m",
+        "150 sq m",
+        "60 sq m"
+      ],
+      "answer": "A",
+      "explanation": "Area = 15 x 15 = 225 square metres.",
+      "difficulty": "Easy",
+      "topic": "Squares",
+      "id": "lba_mcq_5"
+    },
+    {
+      "q": "The square root of 169 is:",
+      "options": [
+        "12",
+        "13",
+        "11",
+        "14"
+      ],
+      "answer": "B",
+      "explanation": "13 x 13 = 169, so square root of 169 = 13.",
+      "difficulty": "Easy",
+      "topic": "Square Roots",
+      "id": "lba_mcq_6"
+    },
+    {
+      "q": "If a perfect square ends in 6, its square root may end in:",
+      "options": [
+        "5",
+        "only 6",
+        "4 or 6",
+        "only 4"
+      ],
+      "answer": "C",
+      "explanation": "4x4=16 and 6x6=36 both end in 6, so the root ends in 4 or 6.",
+      "difficulty": "Hard",
+      "topic": "Patterns in Square Roots",
+      "id": "lba_mcq_7"
+    },
+    {
+      "q": "The square root of 1024 by factorisation is:",
+      "options": [
+        "36",
+        "24",
+        "28",
+        "32"
+      ],
+      "answer": "D",
+      "explanation": "1024 = 2^10, so its square root = 2^5 = 32.",
+      "difficulty": "Hard",
+      "topic": "Square Root by Factorisation",
+      "id": "lba_mcq_8"
+    },
+    {
+      "q": "A perfect square cannot end with which digit?",
+      "options": [
+        "2",
+        "9",
+        "4",
+        "1"
+      ],
+      "answer": "A",
+      "explanation": "No perfect square ends in 2, 3, 7 or 8.",
+      "difficulty": "Medium",
+      "topic": "Properties of Squares",
+      "id": "lba_mcq_9"
+    },
+    {
+      "q": "A square field has area 400 sq m. Its perimeter is:",
+      "options": [
+        "20 m",
+        "80 m",
+        "160 m",
+        "40 m"
+      ],
+      "answer": "B",
+      "explanation": "Side = square root of 400 = 20 m; perimeter = 4 x 20 = 80 m.",
+      "difficulty": "Medium",
+      "topic": "Square Roots and Perimeter",
+      "id": "lba_mcq_10"
+    }
+  ]
+}

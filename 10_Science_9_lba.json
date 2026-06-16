@@ -1,0 +1,231 @@
+{
+  "class": "10",
+  "subject": "Science",
+  "chapter": "9",
+  "chapter_name": "Light - Reflection and Refraction",
+  "theme": "Natural Phenomena",
+  "lba_qa": [
+    {
+      "id": "lba_qa_1",
+      "q": "The side mirrors of cars and scooters are convex mirrors, and they often have written 'Objects in mirror are closer than they appear'. Explain why convex mirrors are used as side mirrors.",
+      "a": "Convex mirrors always form a small, erect (upright) image and have a wider field of view. This lets the driver see a larger area of traffic behind in a small mirror. That is why convex mirrors are used as side/rear-view mirrors. Because the image is smaller (diminished), objects appear farther than they really are, so the warning is written to keep drivers careful.",
+      "difficulty": "Average",
+      "topic": "Spherical mirrors (uses)",
+      "marks": 3
+    },
+    {
+      "id": "lba_qa_2",
+      "q": "Dentists use a special mirror to look at teeth, and it shows an enlarged image of the tooth. Which type of mirror is this and why?",
+      "a": "Dentists use a concave mirror. When a tooth is placed close to a concave mirror (within its focus), it forms a magnified (enlarged), erect image. This helps the dentist see a bigger, clearer view of the tooth. That is why concave mirrors are used as dentist's mirrors.",
+      "difficulty": "Average",
+      "topic": "Spherical mirrors (uses)",
+      "marks": 2
+    },
+    {
+      "id": "lba_qa_3",
+      "q": "A pencil placed in a glass of water appears bent or broken at the water surface, though it is actually straight. Explain this everyday observation.",
+      "a": "This happens due to refraction of light. When light from the part of the pencil under water travels into the air, it bends (changes direction) at the water surface because light travels at different speeds in water and air. This bending makes the submerged part of the pencil appear shifted, so the pencil looks bent or broken at the surface, even though it is straight.",
+      "difficulty": "Average",
+      "topic": "Refraction of light",
+      "marks": 2
+    },
+    {
+      "id": "lba_qa_4",
+      "q": "A swimming pool always looks shallower than its real depth. Explain why, using the idea of refraction.",
+      "a": "Light coming from the bottom of the pool bends (refracts) as it passes from water into air, because light travels faster in air than in water. This bending makes the rays appear to come from a point higher than the actual bottom. So the bottom of the pool appears raised, and the pool looks shallower than it really is. This is an effect of refraction.",
+      "difficulty": "Difficult",
+      "topic": "Refraction / refractive index",
+      "marks": 3
+    },
+    {
+      "id": "lba_qa_5",
+      "q": "A magnifying glass (convex lens) is used to read small print and can also burn paper when held in sunlight. Explain both uses.",
+      "a": "A convex lens (magnifying glass) forms a magnified, erect image when the object is placed close to it (within its focus), which is why it is used to read small print. When held in sunlight, the convex lens converges (focuses) the parallel sun rays to a single point (focus). The concentrated heat at this point can burn paper. Both uses come from the converging nature of a convex lens.",
+      "difficulty": "Average",
+      "topic": "Image formation by lenses",
+      "marks": 3
+    },
+    {
+      "id": "lba_qa_6",
+      "q": "An optician writes the power of spectacle lenses as '+2 D' or '-1.5 D'. Explain what the power of a lens means and what the sign indicates.",
+      "a": "The power of a lens tells us how strongly it bends (converges or diverges) light. It is measured in dioptres (D) and equals 1 divided by the focal length in metres. A positive power (+2 D) means a convex (converging) lens, used for far-sighted people. A negative power (-1.5 D) means a concave (diverging) lens, used for near-sighted people. The higher the number, the stronger the lens.",
+      "difficulty": "Difficult",
+      "topic": "Power of a lens",
+      "marks": 3
+    },
+    {
+      "id": "lba_qa_7",
+      "q": "A driver uses a concave mirror as a shaving/make-up mirror at home but a convex mirror in the car. Explain the choice for each.",
+      "a": "A concave mirror, when the face is held close (within its focus), gives a magnified, erect image, useful for shaving or make-up to see the face clearly and large. A convex mirror gives a small image with a wide view, useful in the car to see more traffic behind. So the type of mirror is chosen based on whether a magnified image or a wide view is needed.",
+      "difficulty": "Average",
+      "topic": "Spherical mirrors (uses)",
+      "marks": 2
+    },
+    {
+      "id": "lba_qa_8",
+      "q": "Solar furnaces and solar cookers often use large concave mirrors or reflectors. Explain how the concave mirror helps in cooking or heating.",
+      "a": "A concave mirror converges (focuses) the parallel rays of sunlight to a single point (its focus), concentrating a lot of heat there. By placing the cooking vessel or the object to be heated at this focus, a high temperature is produced. This is how concave reflectors are used in solar cookers and solar furnaces to cook food or melt materials using sunlight.",
+      "difficulty": "Average",
+      "topic": "Spherical mirrors (uses)",
+      "marks": 2
+    },
+    {
+      "id": "lba_qa_9",
+      "q": "Light bends towards the normal when it enters glass from air, but bends away from the normal when it goes from glass to air. Explain why, using the speed of light.",
+      "a": "Light travels faster in air and slower in glass (glass is optically denser). When light enters glass from air, it slows down and bends towards the normal. When it goes from glass to air, it speeds up and bends away from the normal. So the bending direction depends on whether light is entering a denser or rarer medium — this is the basis of refraction and refractive index.",
+      "difficulty": "Difficult",
+      "topic": "Refractive index",
+      "marks": 3
+    },
+    {
+      "id": "lba_qa_10",
+      "q": "We can see our face clearly in a still pond but not in moving (rippled) water. Explain this using the type of reflection.",
+      "a": "A still water surface is smooth, so it gives regular reflection — all reflected rays are parallel and form a clear image of the face. When the water is rippled, the surface is uneven, so light is reflected in many directions (diffuse/irregular reflection). The reflected rays scatter and no clear image is formed. That is why we cannot see our face clearly in moving water.",
+      "difficulty": "Average",
+      "topic": "Reflection of light",
+      "marks": 2
+    }
+  ],
+  "lba_mcq": [
+    {
+      "id": "lba_mcq_1",
+      "q": "Side mirrors of vehicles are convex because they:",
+      "options": [
+        "Give a wider field of view with a small erect image",
+        "Magnify the image",
+        "Form real images",
+        "Reflect less light"
+      ],
+      "answer": "A",
+      "explanation": "Convex mirrors give a small, erect image and a wider field of view, letting the driver see more traffic behind.",
+      "difficulty": "Easy",
+      "topic": "Spherical mirrors (uses)"
+    },
+    {
+      "id": "lba_mcq_2",
+      "q": "A dentist uses a mirror that gives an enlarged image of a tooth held close to it. This mirror is:",
+      "options": [
+        "Plane mirror",
+        "Concave mirror",
+        "Convex mirror",
+        "Two-way mirror"
+      ],
+      "answer": "B",
+      "explanation": "A concave mirror gives a magnified, erect image when the object is within its focus, so it is used by dentists.",
+      "difficulty": "Easy",
+      "topic": "Spherical mirrors (uses)"
+    },
+    {
+      "id": "lba_mcq_3",
+      "q": "A straight pencil dipped in a glass of water looks bent at the surface. This is due to:",
+      "options": [
+        "Reflection",
+        "Total absorption",
+        "Refraction of light",
+        "Dispersion"
+      ],
+      "answer": "C",
+      "explanation": "Light bends (refracts) when passing between water and air, making the submerged part appear shifted, so the pencil looks bent.",
+      "difficulty": "Easy",
+      "topic": "Refraction of light"
+    },
+    {
+      "id": "lba_mcq_4",
+      "q": "A swimming pool appears shallower than its real depth because of:",
+      "options": [
+        "Reflection of light",
+        "The colour of water",
+        "Total internal reflection",
+        "Refraction of light"
+      ],
+      "answer": "D",
+      "explanation": "Refraction makes light from the bottom bend at the surface, so the bottom appears raised and the pool looks shallower.",
+      "difficulty": "Average",
+      "topic": "Refraction"
+    },
+    {
+      "id": "lba_mcq_5",
+      "q": "A magnifying glass can burn paper in sunlight because a convex lens:",
+      "options": [
+        "Converges sunlight to a point (focus)",
+        "Spreads the rays out",
+        "Reflects the rays",
+        "Absorbs all the heat"
+      ],
+      "answer": "A",
+      "explanation": "A convex lens converges parallel sun rays to its focus, concentrating heat there enough to burn paper.",
+      "difficulty": "Average",
+      "topic": "Image formation by lenses"
+    },
+    {
+      "id": "lba_mcq_6",
+      "q": "A spectacle lens marked '-1.5 D' is a:",
+      "options": [
+        "Convex (converging) lens",
+        "Concave (diverging) lens",
+        "Plane glass",
+        "Mirror"
+      ],
+      "answer": "B",
+      "explanation": "A negative power means a concave (diverging) lens, used to correct near-sightedness.",
+      "difficulty": "Difficult",
+      "topic": "Power of a lens"
+    },
+    {
+      "id": "lba_mcq_7",
+      "q": "A solar cooker uses a concave reflector because it:",
+      "options": [
+        "Scatters sunlight",
+        "Cools the food",
+        "Focuses sunlight to a point producing high heat",
+        "Forms a wide image"
+      ],
+      "answer": "C",
+      "explanation": "A concave mirror converges sunlight to its focus, concentrating heat to cook food.",
+      "difficulty": "Average",
+      "topic": "Spherical mirrors (uses)"
+    },
+    {
+      "id": "lba_mcq_8",
+      "q": "When light travels from air into glass, it:",
+      "options": [
+        "Speeds up and bends away from the normal",
+        "Does not bend at all",
+        "Stops completely",
+        "Slows down and bends towards the normal"
+      ],
+      "answer": "D",
+      "explanation": "Glass is denser, so light slows down and bends towards the normal when entering glass from air.",
+      "difficulty": "Average",
+      "topic": "Refractive index"
+    },
+    {
+      "id": "lba_mcq_9",
+      "q": "We see a clear reflection of our face in still water but not in rippled water because rippled water causes:",
+      "options": [
+        "Diffuse (irregular) reflection",
+        "Regular reflection",
+        "Refraction",
+        "No reflection"
+      ],
+      "answer": "A",
+      "explanation": "An uneven (rippled) surface scatters light in many directions (diffuse reflection), so no clear image is formed.",
+      "difficulty": "Average",
+      "topic": "Reflection of light"
+    },
+    {
+      "id": "lba_mcq_10",
+      "q": "A far-sighted person who cannot see nearby objects clearly is given spectacles with a:",
+      "options": [
+        "Concave lens (negative power)",
+        "Convex lens (positive power)",
+        "Plane mirror",
+        "Concave mirror"
+      ],
+      "answer": "B",
+      "explanation": "Far-sightedness is corrected with a convex (converging) lens, which has positive power.",
+      "difficulty": "Difficult",
+      "topic": "Power of a lens / lens uses"
+    }
+  ]
+}

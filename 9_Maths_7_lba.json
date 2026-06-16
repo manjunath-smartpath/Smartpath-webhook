@@ -1,0 +1,201 @@
+{
+  "class": "9",
+  "subject": "Maths",
+  "chapter": "7",
+  "chapter_name": "Triangles",
+  "theme": "Geometry",
+  "lba_qa": [
+    {
+      "q": "A roof has two triangular sides. In both triangles, two sides and the angle between them are equal. Can we say the two triangles are congruent? By which rule?",
+      "a": "Yes, the two triangles are CONGRUENT.\n\nRule used: SAS (Side-Angle-Side) congruence rule ✅\n\nReason:\n- Two sides of one triangle equal two sides of the other\n- The angle BETWEEN those two sides is also equal\n- So by SAS, the triangles are congruent\n\nThis means both roof sides have exactly the same shape and size.",
+      "difficulty": "Medium",
+      "topic": "Congruence - SAS",
+      "marks": 2,
+      "id": "lba_qa_1"
+    },
+    {
+      "q": "In an isosceles triangle, two sides are equal. A student claims the angles opposite these equal sides are also equal. Is this true? Give the reason.",
+      "a": "Yes, the claim is TRUE.\n\nProperty of isosceles triangle:\n'Angles opposite to equal sides are equal.' ✅\n\nExplanation:\n- If two sides of a triangle are equal\n- Then the angles facing (opposite) these sides are also equal\n\nFor example, in a triangle with two sides 5 cm each, the two base angles are equal.",
+      "difficulty": "Medium",
+      "topic": "Isosceles Triangle Property",
+      "marks": 2,
+      "id": "lba_qa_2"
+    },
+    {
+      "q": "Two triangular flags have all three sides respectively equal. Are they congruent? Name the rule used.",
+      "a": "Yes, the two flags are CONGRUENT.\n\nRule used: SSS (Side-Side-Side) congruence rule ✅\n\nReason:\n- All three sides of one triangle equal all three sides of the other\n- So by SSS, the triangles are congruent\n\nTherefore both flags are identical in shape and size.",
+      "difficulty": "Easy",
+      "topic": "Congruence - SSS",
+      "marks": 2,
+      "id": "lba_qa_3"
+    },
+    {
+      "q": "In a triangle, the angles are 50 degrees, 60 degrees and 70 degrees. Which side is the longest, and why?",
+      "a": "Property: the side opposite the LARGEST angle is the LONGEST side.\n\nGiven angles: 50, 60, 70 degrees.\n- Largest angle = 70 degrees\n\nSo the LONGEST side is the one OPPOSITE the 70 degree angle ✅\n\nReason: In any triangle, a bigger angle is always faced by a longer side.",
+      "difficulty": "Medium",
+      "topic": "Sides and Angles of Triangle",
+      "marks": 2,
+      "id": "lba_qa_4"
+    },
+    {
+      "q": "A carpenter has triangle pieces where two angles and the included side are equal. Are the triangles congruent? State the rule.",
+      "a": "Yes, the triangles are CONGRUENT.\n\nRule used: ASA (Angle-Side-Angle) congruence rule ✅\n\nReason:\n- Two angles of one triangle equal two angles of the other\n- The side BETWEEN those two angles is also equal\n- So by ASA, the triangles are congruent\n\nBoth pieces are exactly identical.",
+      "difficulty": "Medium",
+      "topic": "Congruence - ASA",
+      "marks": 2,
+      "id": "lba_qa_5"
+    },
+    {
+      "q": "In a triangle, two sides are 7 cm and 4 cm. Can the third side be 2 cm? Justify using the triangle inequality.",
+      "a": "Triangle inequality: the sum of any two sides must be GREATER than the third side.\n\nCheck with third side = 2 cm:\n- 4 + 2 = 6 cm, but the third side is 7 cm\n- 6 is NOT greater than 7 ✗\n\nSo a triangle with sides 7, 4 and 2 cm is NOT possible. ✅\n\nThe third side must be less than 11 (7+4) and greater than 3 (7-4).",
+      "difficulty": "Hard",
+      "topic": "Triangle Inequality",
+      "marks": 3,
+      "id": "lba_qa_6"
+    },
+    {
+      "q": "A triangular plot has two equal sides of 8 m each. If the angle between the two equal sides is 50 degrees, find the other two angles.",
+      "a": "This is an isosceles triangle (two equal sides), so the two base angles are EQUAL.\n\nLet each base angle = x.\nThe angle between equal sides (vertex angle) = 50 degrees.\n\nAngle sum of triangle = 180 degrees:\n50 + x + x = 180\n50 + 2x = 180\n2x = 130\nx = 65\n\nSo the other two angles are 65 degrees each. ✅",
+      "difficulty": "Hard",
+      "topic": "Isosceles Triangle",
+      "marks": 3,
+      "id": "lba_qa_7"
+    },
+    {
+      "q": "Why does a triangular shape make a bookshelf bracket or a bridge support strong and not change shape easily?",
+      "a": "A triangle is a RIGID shape.\n\nReason:\n- Once the three side lengths of a triangle are fixed, its shape CANNOT change\n- This is shown by the SSS congruence rule — three fixed sides give only one possible triangle ✅\n- Other shapes (like a rectangle) can be pushed out of shape, but a triangle cannot\n\nSo triangles are used in brackets, bridges and roofs for strength and stability.",
+      "difficulty": "Medium",
+      "topic": "Rigidity of Triangle",
+      "marks": 2,
+      "id": "lba_qa_8"
+    }
+  ],
+  "lba_mcq": [
+    {
+      "q": "Two triangular tiles have all three sides respectively equal. They are congruent by which rule?",
+      "options": [
+        "SSS",
+        "SAS",
+        "ASA",
+        "RHS"
+      ],
+      "answer": "A",
+      "explanation": "When all three sides of one triangle equal all three sides of another, they are congruent by the SSS (Side-Side-Side) rule.",
+      "difficulty": "Easy",
+      "topic": "Congruence - SSS",
+      "id": "lba_mcq_1"
+    },
+    {
+      "q": "In an isosceles triangle, the two equal sides are 6 cm each. The angles opposite these sides are:",
+      "options": [
+        "Always 90 degrees",
+        "Equal to each other",
+        "Different",
+        "Always 60 degrees"
+      ],
+      "answer": "B",
+      "explanation": "In an isosceles triangle, the angles opposite the equal sides are equal to each other.",
+      "difficulty": "Easy",
+      "topic": "Isosceles Triangle",
+      "id": "lba_mcq_2"
+    },
+    {
+      "q": "A triangle has angles 40, 60 and 80 degrees. The longest side is opposite the angle:",
+      "options": [
+        "40 degrees",
+        "60 degrees",
+        "80 degrees",
+        "All sides equal"
+      ],
+      "answer": "C",
+      "explanation": "The side opposite the largest angle is the longest. The largest angle is 80 degrees.",
+      "difficulty": "Medium",
+      "topic": "Sides and Angles",
+      "id": "lba_mcq_3"
+    },
+    {
+      "q": "Two triangles have two sides and the included angle equal. They are congruent by:",
+      "options": [
+        "SSS",
+        "AAA",
+        "ASA",
+        "SAS"
+      ],
+      "answer": "D",
+      "explanation": "Two sides and the angle between them being equal gives congruence by the SAS (Side-Angle-Side) rule.",
+      "difficulty": "Easy",
+      "topic": "Congruence - SAS",
+      "id": "lba_mcq_4"
+    },
+    {
+      "q": "Can a triangle have sides 3 cm, 4 cm and 8 cm?",
+      "options": [
+        "No, because 3 + 4 is not greater than 8",
+        "Yes, always",
+        "Yes, if angles are right",
+        "No, sides must be equal"
+      ],
+      "answer": "A",
+      "explanation": "By triangle inequality, the sum of any two sides must exceed the third. Here 3 + 4 = 7, which is not greater than 8, so such a triangle is impossible.",
+      "difficulty": "Hard",
+      "topic": "Triangle Inequality",
+      "id": "lba_mcq_5"
+    },
+    {
+      "q": "Why are triangular trusses used in bridges and roofs?",
+      "options": [
+        "They look nice",
+        "A triangle is rigid and does not change shape",
+        "They are cheaper than squares",
+        "They use less material always"
+      ],
+      "answer": "B",
+      "explanation": "A triangle is a rigid shape — with fixed side lengths it cannot be deformed (SSS). This makes triangular trusses strong and stable.",
+      "difficulty": "Medium",
+      "topic": "Rigidity of Triangle",
+      "id": "lba_mcq_6"
+    },
+    {
+      "q": "In a triangle, the angle opposite the smallest side is:",
+      "options": [
+        "The largest angle",
+        "Always 90 degrees",
+        "The smallest angle",
+        "Always 60 degrees"
+      ],
+      "answer": "C",
+      "explanation": "The smallest side of a triangle is opposite the smallest angle, and the largest side opposite the largest angle.",
+      "difficulty": "Medium",
+      "topic": "Sides and Angles",
+      "id": "lba_mcq_7"
+    },
+    {
+      "q": "An isosceles triangle has a vertex angle of 40 degrees between its two equal sides. Each base angle is:",
+      "options": [
+        "40 degrees",
+        "100 degrees",
+        "50 degrees",
+        "70 degrees"
+      ],
+      "answer": "D",
+      "explanation": "Base angles are equal. 40 + x + x = 180, so 2x = 140, x = 70 degrees each.",
+      "difficulty": "Hard",
+      "topic": "Isosceles Triangle",
+      "id": "lba_mcq_8"
+    },
+    {
+      "q": "Two triangles with two angles and the included side equal are congruent by:",
+      "options": [
+        "ASA",
+        "SSS",
+        "SAS",
+        "RHS"
+      ],
+      "answer": "A",
+      "explanation": "Two angles and the side between them being equal gives congruence by the ASA (Angle-Side-Angle) rule.",
+      "difficulty": "Easy",
+      "topic": "Congruence - ASA",
+      "id": "lba_mcq_9"
+    }
+  ]
+}

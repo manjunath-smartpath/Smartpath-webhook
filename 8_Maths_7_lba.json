@@ -1,0 +1,231 @@
+{
+  "class": "8",
+  "subject": "Maths",
+  "chapter": "7",
+  "chapter_name": "Comparing Quantities",
+  "theme": "Comparing Quantities",
+  "lba_qa": [
+    {
+      "q": "A girl buys a table for 1000 rupees and sells it for 1200 rupees. Find her profit and profit percentage.",
+      "a": "Profit = Selling Price - Cost Price\n= 1200 - 1000 = 200 rupees.\n\nProfit percent = (profit / cost price) x 100\n= (200 / 1000) x 100\n= 20 percent.\n\nSo profit is 200 rupees, that is 20 percent. ✅",
+      "difficulty": "Easy",
+      "topic": "Profit and Loss",
+      "marks": 2,
+      "id": "lba_qa_1"
+    },
+    {
+      "q": "A shirt marked at 800 rupees is sold at a 25 percent discount. Find the selling price.",
+      "a": "Discount = 25 percent of 800\n= (25/100) x 800 = 200 rupees.\n\nSelling Price = Marked Price - Discount\n= 800 - 200\n= 600 rupees.\n\nSo the selling price is 600 rupees. ✅",
+      "difficulty": "Medium",
+      "topic": "Discount",
+      "marks": 2,
+      "id": "lba_qa_2"
+    },
+    {
+      "q": "Find the simple interest on 5000 rupees at 8 percent per year for 2 years.",
+      "a": "Simple Interest = (P x R x T) / 100\n= (5000 x 8 x 2) / 100\n= 80000 / 100\n= 800 rupees.\n\nSo the simple interest is 800 rupees. ✅",
+      "difficulty": "Medium",
+      "topic": "Simple Interest",
+      "marks": 2,
+      "id": "lba_qa_3"
+    },
+    {
+      "q": "A trader buys goods for 600 rupees and sells them for 540 rupees. Find his loss percentage.",
+      "a": "Loss = Cost Price - Selling Price\n= 600 - 540 = 60 rupees.\n\nLoss percent = (loss / cost price) x 100\n= (60 / 600) x 100\n= 10 percent.\n\nSo the loss is 10 percent. ✅",
+      "difficulty": "Medium",
+      "topic": "Profit and Loss",
+      "marks": 3,
+      "id": "lba_qa_4"
+    },
+    {
+      "q": "Find the compound interest on 2000 rupees for 2 years at 10 percent per year, compounded yearly.",
+      "a": "Amount = P x (1 + R/100)^T\n= 2000 x (1 + 10/100)^2\n= 2000 x (11/10) x (11/10)\n= 2000 x 121/100\n= 2420 rupees.\n\nCompound Interest = Amount - Principal\n= 2420 - 2000\n= 420 rupees. ✅",
+      "difficulty": "Hard",
+      "topic": "Compound Interest",
+      "marks": 3,
+      "id": "lba_qa_5"
+    },
+    {
+      "q": "A bill of 1200 rupees includes 20 percent GST. Find the GST amount.",
+      "a": "GST = 20 percent of 1200\n= (20/100) x 1200\n= 240 rupees.\n\nSo the GST amount is 240 rupees. ✅",
+      "difficulty": "Easy",
+      "topic": "Percentage and Tax",
+      "marks": 2,
+      "id": "lba_qa_6"
+    },
+    {
+      "q": "In a class of 50 students, 30 are girls. What percentage of the class are girls?",
+      "a": "Percentage of girls = (30 / 50) x 100\n= 60 percent.\n\nSo 60 percent of the class are girls. ✅",
+      "difficulty": "Easy",
+      "topic": "Percentage",
+      "marks": 2,
+      "id": "lba_qa_7"
+    },
+    {
+      "q": "A man buys a cycle for 2400 rupees and sells it at a profit of 15 percent. Find the selling price.",
+      "a": "Profit = 15 percent of 2400\n= (15/100) x 2400 = 360 rupees.\n\nSelling Price = Cost Price + Profit\n= 2400 + 360\n= 2760 rupees.\n\nSo the selling price is 2760 rupees. ✅",
+      "difficulty": "Medium",
+      "topic": "Profit and Loss",
+      "marks": 3,
+      "id": "lba_qa_8"
+    },
+    {
+      "q": "The price of rice rose from 40 rupees to 50 rupees per kg. Find the percentage increase.",
+      "a": "Increase = 50 - 40 = 10 rupees.\n\nPercentage increase = (increase / original) x 100\n= (10 / 40) x 100\n= 25 percent.\n\nSo the price increased by 25 percent. ✅",
+      "difficulty": "Medium",
+      "topic": "Percentage Change",
+      "marks": 2,
+      "id": "lba_qa_9"
+    },
+    {
+      "q": "A sum of money amounts to 6600 rupees in 2 years at simple interest of 10 percent per year. Find the principal.",
+      "a": "Let principal = P.\nSimple Interest for 2 years = (P x 10 x 2)/100 = 20P/100 = P/5.\n\nAmount = P + Interest\n6600 = P + P/5\n6600 = 6P/5\nP = 6600 x 5 / 6\nP = 5500 rupees.\n\nSo the principal is 5500 rupees. ✅",
+      "difficulty": "Hard",
+      "topic": "Simple Interest",
+      "marks": 3,
+      "id": "lba_qa_10"
+    }
+  ],
+  "lba_mcq": [
+    {
+      "q": "A pen bought for 50 rupees is sold for 60 rupees. The profit percent is:",
+      "options": [
+        "20 percent",
+        "15 percent",
+        "12 percent",
+        "10 percent"
+      ],
+      "answer": "A",
+      "explanation": "Profit = 10; profit percent = 10/50 x 100 = 20 percent.",
+      "difficulty": "Easy",
+      "topic": "Profit and Loss",
+      "id": "lba_mcq_1"
+    },
+    {
+      "q": "A 1000-rupee item at 10 percent discount sells for:",
+      "options": [
+        "1100 rupees",
+        "900 rupees",
+        "990 rupees",
+        "100 rupees"
+      ],
+      "answer": "B",
+      "explanation": "Discount = 100; SP = 1000 - 100 = 900 rupees.",
+      "difficulty": "Easy",
+      "topic": "Discount",
+      "id": "lba_mcq_2"
+    },
+    {
+      "q": "Simple interest on 1000 rupees at 5 percent for 1 year is:",
+      "options": [
+        "5 rupees",
+        "100 rupees",
+        "50 rupees",
+        "500 rupees"
+      ],
+      "answer": "C",
+      "explanation": "SI = (1000 x 5 x 1)/100 = 50 rupees.",
+      "difficulty": "Easy",
+      "topic": "Simple Interest",
+      "id": "lba_mcq_3"
+    },
+    {
+      "q": "The formula for amount in compound interest is:",
+      "options": [
+        "P / (1 + R)",
+        "P + R + T",
+        "P x R x T / 100",
+        "P(1 + R/100)^T"
+      ],
+      "answer": "D",
+      "explanation": "Amount A = P(1 + R/100)^T for yearly compounding.",
+      "difficulty": "Medium",
+      "topic": "Compound Interest",
+      "id": "lba_mcq_4"
+    },
+    {
+      "q": "30 out of 60 students passed. The pass percentage is:",
+      "options": [
+        "50 percent",
+        "60 percent",
+        "40 percent",
+        "30 percent"
+      ],
+      "answer": "A",
+      "explanation": "30/60 x 100 = 50 percent.",
+      "difficulty": "Easy",
+      "topic": "Percentage",
+      "id": "lba_mcq_5"
+    },
+    {
+      "q": "A cycle bought for 2000 rupees is sold at 10 percent loss. The selling price is:",
+      "options": [
+        "1900 rupees",
+        "1800 rupees",
+        "2200 rupees",
+        "2000 rupees"
+      ],
+      "answer": "B",
+      "explanation": "Loss = 200; SP = 2000 - 200 = 1800 rupees.",
+      "difficulty": "Medium",
+      "topic": "Profit and Loss",
+      "id": "lba_mcq_6"
+    },
+    {
+      "q": "A 500-rupee bill with 18 percent GST has total tax of:",
+      "options": [
+        "18 rupees",
+        "50 rupees",
+        "90 rupees",
+        "100 rupees"
+      ],
+      "answer": "C",
+      "explanation": "GST = 18/100 x 500 = 90 rupees.",
+      "difficulty": "Medium",
+      "topic": "Tax",
+      "id": "lba_mcq_7"
+    },
+    {
+      "q": "Compound interest on 1000 rupees for 2 years at 10 percent is:",
+      "options": [
+        "100 rupees",
+        "220 rupees",
+        "200 rupees",
+        "210 rupees"
+      ],
+      "answer": "D",
+      "explanation": "A = 1000(1.1)^2 = 1210; CI = 1210 - 1000 = 210 rupees.",
+      "difficulty": "Hard",
+      "topic": "Compound Interest",
+      "id": "lba_mcq_8"
+    },
+    {
+      "q": "A price rises from 200 to 250 rupees. The percentage increase is:",
+      "options": [
+        "25 percent",
+        "10 percent",
+        "20 percent",
+        "50 percent"
+      ],
+      "answer": "A",
+      "explanation": "Increase 50; 50/200 x 100 = 25 percent.",
+      "difficulty": "Medium",
+      "topic": "Percentage Change",
+      "id": "lba_mcq_9"
+    },
+    {
+      "q": "If cost price is 800 and profit is 25 percent, selling price is:",
+      "options": [
+        "900 rupees",
+        "1000 rupees",
+        "1025 rupees",
+        "825 rupees"
+      ],
+      "answer": "B",
+      "explanation": "Profit = 25/100 x 800 = 200; SP = 800 + 200 = 1000 rupees.",
+      "difficulty": "Hard",
+      "topic": "Profit and Loss",
+      "id": "lba_mcq_10"
+    }
+  ]
+}

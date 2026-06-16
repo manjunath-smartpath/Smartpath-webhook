@@ -1,0 +1,231 @@
+{
+  "class": "10",
+  "subject": "Maths",
+  "chapter": "11",
+  "chapter_name": "Areas Related to Circles",
+  "theme": "Mensuration",
+  "lba_qa": [
+    {
+      "id": "lba_qa_1",
+      "q": "A circular garden has a radius of 7 m. Find its area so the gardener knows how much grass seed to buy. (Use pi = 22/7)",
+      "a": "Area of a circle = pi x r^2.\nArea = (22/7) x 7 x 7 = 22 x 7 = 154 square metres.\nSo the area of the circular garden is 154 sq m, and the gardener needs grass seed for 154 sq m.",
+      "difficulty": "Easy",
+      "topic": "Area of a circle (real-life)",
+      "marks": 2
+    },
+    {
+      "id": "lba_qa_2",
+      "q": "A circular track has a radius of 21 m. A runner wants to know the distance of one full round. Find the circumference. (Use pi = 22/7)",
+      "a": "Circumference = 2 x pi x r.\n= 2 x (22/7) x 21 = 2 x 22 x 3 = 132 metres.\nSo one full round of the track is 132 metres.",
+      "difficulty": "Easy",
+      "topic": "Circumference of a circle (real-life)",
+      "marks": 2
+    },
+    {
+      "id": "lba_qa_3",
+      "q": "A pizza of radius 14 cm is cut into a slice (sector) with an angle of 90 degrees. Find the area of one slice. (Use pi = 22/7)",
+      "a": "Area of a sector = (angle/360) x pi x r^2.\n= (90/360) x (22/7) x 14 x 14.\n= (1/4) x (22/7) x 196 = (1/4) x 616 = 154 sq cm.\nSo the area of one 90-degree pizza slice is 154 sq cm.",
+      "difficulty": "Average",
+      "topic": "Area of a sector (real-life)",
+      "marks": 3
+    },
+    {
+      "id": "lba_qa_4",
+      "q": "A goat is tied to a peg with a 7 m rope in a field. Over how much grassy area can the goat graze? (Use pi = 22/7)",
+      "a": "The goat can move in a circle of radius equal to the rope length (7 m).\nGrazing area = area of circle = pi x r^2 = (22/7) x 7 x 7 = 154 sq m.\nSo the goat can graze over an area of 154 square metres.",
+      "difficulty": "Average",
+      "topic": "Area of a circle (real-life)",
+      "marks": 2
+    },
+    {
+      "id": "lba_qa_5",
+      "q": "A clock's minute hand is 7 cm long. Find the area swept by the minute hand in 15 minutes. (Use pi = 22/7)",
+      "a": "In 15 minutes, the minute hand sweeps 1/4 of the full circle (15/60 = 1/4), which is an angle of 90 degrees.\nArea swept = (angle/360) x pi x r^2 = (90/360) x (22/7) x 7 x 7.\n= (1/4) x (22/7) x 49 = (1/4) x 154 = 38.5 sq cm.\nSo the minute hand sweeps an area of 38.5 sq cm in 15 minutes.",
+      "difficulty": "Difficult",
+      "topic": "Area of a sector (real-life)",
+      "marks": 3
+    },
+    {
+      "id": "lba_qa_6",
+      "q": "A circular flower bed of radius 14 m is surrounded by a path. If we want the area of just the flower bed, what formula do we use and what is the area? (Use pi = 22/7)",
+      "a": "Area of the circular flower bed = pi x r^2.\n= (22/7) x 14 x 14 = 22 x 28 = 616 sq m.\nSo the area of the flower bed is 616 square metres.",
+      "difficulty": "Easy",
+      "topic": "Area of a circle (real-life)",
+      "marks": 2
+    },
+    {
+      "id": "lba_qa_7",
+      "q": "A wire is bent into a circle of radius 7 cm. If the same wire is now bent into a square, what is the perimeter of the square? (Use pi = 22/7)",
+      "a": "The length of the wire = circumference of the circle = 2 x pi x r = 2 x (22/7) x 7 = 44 cm.\nWhen bent into a square, the perimeter of the square = same wire length = 44 cm.\nSo the perimeter of the square is 44 cm (each side = 44/4 = 11 cm).",
+      "difficulty": "Average",
+      "topic": "Circumference and perimeter (real-life)",
+      "marks": 3
+    },
+    {
+      "id": "lba_qa_8",
+      "q": "The area of a sector of a circle depends on its central angle. Explain how a half circle (semicircle) and a quarter circle relate to the full circle's area.",
+      "a": "The area of a sector = (angle/360) x area of full circle.\nA semicircle has a central angle of 180 degrees, so its area = (180/360) = 1/2 of the full circle's area.\nA quarter circle has 90 degrees, so its area = (90/360) = 1/4 of the full circle's area.\nSo the sector area is a fraction of the full circle based on the angle.",
+      "difficulty": "Average",
+      "topic": "Area of a sector (concept)",
+      "marks": 2
+    },
+    {
+      "id": "lba_qa_9",
+      "q": "A circular plate has a diameter of 28 cm. Find its area. (Use pi = 22/7)",
+      "a": "First find the radius: radius = diameter/2 = 28/2 = 14 cm.\nArea = pi x r^2 = (22/7) x 14 x 14 = 22 x 28 = 616 sq cm.\nSo the area of the plate is 616 sq cm.",
+      "difficulty": "Easy",
+      "topic": "Area of a circle (real-life)",
+      "marks": 2
+    },
+    {
+      "id": "lba_qa_10",
+      "q": "A circular pond of radius 14 m is surrounded by a 7 m wide path. Find the area of the path. (Use pi = 22/7)",
+      "a": "Outer radius = 14 + 7 = 21 m; inner radius = 14 m.\nArea of path = area of outer circle - area of inner circle = pi(R^2 - r^2).\n= (22/7)(21^2 - 14^2) = (22/7)(441 - 196) = (22/7)(245) = 22 x 35 = 770 sq m.\nSo the area of the path is 770 square metres.",
+      "difficulty": "Difficult",
+      "topic": "Area of a ring (real-life)",
+      "marks": 3
+    }
+  ],
+  "lba_mcq": [
+    {
+      "id": "lba_mcq_1",
+      "q": "A circular garden has radius 7 m. Its area (pi = 22/7) is:",
+      "options": [
+        "154 sq m",
+        "44 sq m",
+        "49 sq m",
+        "22 sq m"
+      ],
+      "answer": "A",
+      "explanation": "Area = pi r^2 = (22/7)(49) = 154 sq m.",
+      "difficulty": "Easy",
+      "topic": "Area of a circle"
+    },
+    {
+      "id": "lba_mcq_2",
+      "q": "A circular track of radius 21 m: one full round (circumference, pi = 22/7) is:",
+      "options": [
+        "66 m",
+        "132 m",
+        "44 m",
+        "126 m"
+      ],
+      "answer": "B",
+      "explanation": "Circumference = 2 pi r = 2(22/7)(21) = 132 m.",
+      "difficulty": "Easy",
+      "topic": "Circumference"
+    },
+    {
+      "id": "lba_mcq_3",
+      "q": "A 90-degree pizza slice of radius 14 cm has area (pi = 22/7):",
+      "options": [
+        "616 sq cm",
+        "308 sq cm",
+        "154 sq cm",
+        "77 sq cm"
+      ],
+      "answer": "C",
+      "explanation": "Sector area = (90/360)(22/7)(196) = (1/4)(616) = 154 sq cm.",
+      "difficulty": "Average",
+      "topic": "Area of a sector"
+    },
+    {
+      "id": "lba_mcq_4",
+      "q": "A goat tied with a 7 m rope can graze an area (pi = 22/7) of:",
+      "options": [
+        "44 sq m",
+        "22 sq m",
+        "49 sq m",
+        "154 sq m"
+      ],
+      "answer": "D",
+      "explanation": "Grazing area = pi r^2 = (22/7)(49) = 154 sq m.",
+      "difficulty": "Average",
+      "topic": "Area of a circle (real-life)"
+    },
+    {
+      "id": "lba_mcq_5",
+      "q": "A minute hand 7 cm long sweeps in 15 minutes an area (pi = 22/7) of:",
+      "options": [
+        "38.5 sq cm",
+        "154 sq cm",
+        "77 sq cm",
+        "19.25 sq cm"
+      ],
+      "answer": "A",
+      "explanation": "15 min = 90 degrees: (90/360)(22/7)(49) = (1/4)(154) = 38.5 sq cm.",
+      "difficulty": "Difficult",
+      "topic": "Area of a sector"
+    },
+    {
+      "id": "lba_mcq_6",
+      "q": "A wire bent into a circle of radius 7 cm, then into a square, gives a square perimeter (pi = 22/7) of:",
+      "options": [
+        "22 cm",
+        "44 cm",
+        "11 cm",
+        "88 cm"
+      ],
+      "answer": "B",
+      "explanation": "Wire = circumference = 2(22/7)(7) = 44 cm = perimeter of square.",
+      "difficulty": "Average",
+      "topic": "Circumference/perimeter"
+    },
+    {
+      "id": "lba_mcq_7",
+      "q": "A semicircle's area compared to the full circle is:",
+      "options": [
+        "One quarter",
+        "Equal",
+        "One half",
+        "Double"
+      ],
+      "answer": "C",
+      "explanation": "A semicircle (180 degrees) has half the area of the full circle.",
+      "difficulty": "Easy",
+      "topic": "Sector area concept"
+    },
+    {
+      "id": "lba_mcq_8",
+      "q": "A circular plate of diameter 28 cm has area (pi = 22/7):",
+      "options": [
+        "154 sq cm",
+        "88 sq cm",
+        "308 sq cm",
+        "616 sq cm"
+      ],
+      "answer": "D",
+      "explanation": "radius = 14, area = (22/7)(196) = 616 sq cm.",
+      "difficulty": "Easy",
+      "topic": "Area of a circle"
+    },
+    {
+      "id": "lba_mcq_9",
+      "q": "A quarter circle's area compared to the full circle is:",
+      "options": [
+        "One quarter",
+        "One half",
+        "One third",
+        "Equal"
+      ],
+      "answer": "A",
+      "explanation": "A quarter circle (90 degrees) has one-fourth of the full circle's area.",
+      "difficulty": "Easy",
+      "topic": "Sector area concept"
+    },
+    {
+      "id": "lba_mcq_10",
+      "q": "A pond of radius 14 m with a 7 m wide path around it: the path's area (pi = 22/7) is:",
+      "options": [
+        "616 sq m",
+        "770 sq m",
+        "1386 sq m",
+        "154 sq m"
+      ],
+      "answer": "B",
+      "explanation": "Path = pi(R^2 - r^2) = (22/7)(441-196) = (22/7)(245) = 770 sq m.",
+      "difficulty": "Difficult",
+      "topic": "Area of a ring"
+    }
+  ]
+}

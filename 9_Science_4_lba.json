@@ -1,0 +1,231 @@
+{
+  "class": "9",
+  "subject": "Science",
+  "chapter": "4",
+  "chapter_name": "Structure of atom",
+  "theme": "Matter - Nature and Behaviour",
+  "lba_qa": [
+    {
+      "q": "In Rutherford's gold foil experiment, most alpha particles passed straight through but a few bounced back. What did each observation tell him about the atom?",
+      "a": "Rutherford's gold foil experiment observations:\n\n1. Most alpha particles passed straight through:\n- This means most of the atom is EMPTY space ✅\n\n2. Some particles deflected by small angles:\n- There is a positive charge centre that repels them\n\n3. Very few (1 in ~12000) bounced straight back:\n- All the positive charge and mass is concentrated in a tiny, dense centre = the NUCLEUS ✅\n\nConclusion: Atom has a small, dense, positively charged nucleus with mostly empty space around it.",
+      "difficulty": "Hard",
+      "topic": "Rutherford Model",
+      "marks": 3,
+      "id": "lba_qa_1"
+    },
+    {
+      "q": "An element has atomic number 11 and mass number 23. Find the number of protons, neutrons and electrons, and write its electronic configuration.",
+      "a": "Given: Atomic number (Z) = 11, Mass number (A) = 23\n\n- Protons = Z = 11 ✅\n- Electrons = Z = 11 (neutral atom)\n- Neutrons = A - Z = 23 - 11 = 12 ✅\n\nElectronic configuration:\n- K shell = 2\n- L shell = 8\n- M shell = 1\n- So: 2, 8, 1\n\nThis element is SODIUM (Na). It has 1 valence electron.",
+      "difficulty": "Medium",
+      "topic": "Atomic Number and Mass Number",
+      "marks": 3,
+      "id": "lba_qa_2"
+    },
+    {
+      "q": "Chlorine atoms can have mass numbers 35 and 37, yet both behave the same chemically. What are such atoms called and why is chemistry the same?",
+      "a": "These are called ISOTOPES.\n\nDefinition: Atoms of the SAME element with the same atomic number but DIFFERENT mass numbers.\n\nWhy chemistry is the same:\n- Chemical properties depend on the number of ELECTRONS (and valence electrons)\n- Both Cl-35 and Cl-37 have the same number of electrons (17)\n- Only the number of NEUTRONS differs (affects mass, not chemistry) ✅\n\nSo isotopes are chemically identical but differ in mass.",
+      "difficulty": "Hard",
+      "topic": "Isotopes",
+      "marks": 3,
+      "id": "lba_qa_3"
+    },
+    {
+      "q": "The atomic mass of chlorine is given as 35.5 u, but no single chlorine atom weighs 35.5 u. Explain this decimal value.",
+      "a": "The 35.5 u is an AVERAGE mass.\n\nReason:\n- Chlorine exists as two isotopes: Cl-35 and Cl-37\n- They are found in the ratio 3 : 1 in nature\n\nAverage atomic mass:\n= (35 x 75/100) + (37 x 25/100)\n= 26.25 + 9.25\n= 35.5 u ✅\n\nSo 35.5 u is the weighted average of the two isotopes, which is why it is a decimal.",
+      "difficulty": "Hard",
+      "topic": "Isotopes - Average Atomic Mass",
+      "marks": 3,
+      "id": "lba_qa_4"
+    },
+    {
+      "q": "Cobalt and iodine isotopes are used in hospitals. Give one medical use of each isotope.",
+      "a": "Radioactive isotopes have important medical uses:\n\n1. Cobalt (Co-60):\n- Used in the TREATMENT OF CANCER (radiotherapy) ✅\n\n2. Iodine (I-131):\n- Used in the TREATMENT OF GOITRE (thyroid gland problems) ✅\n\nThese isotopes give out radiation that can destroy harmful cells, making them useful in medicine.",
+      "difficulty": "Easy",
+      "topic": "Uses of Isotopes",
+      "marks": 2,
+      "id": "lba_qa_5"
+    },
+    {
+      "q": "Why does an atom of an element with 7 electrons in its outermost shell form an ion with a -1 charge?",
+      "a": "An atom wants a STABLE full outer shell (8 electrons = octet).\n\nWith 7 valence electrons:\n- It needs only 1 MORE electron to complete the octet\n- It is easier to GAIN 1 electron than to lose 7\n- On gaining 1 electron, it gets 1 extra negative charge\n- So it forms an ion with charge -1 ✅\n\nExample: Chlorine (2,8,7) gains 1 electron to form Cl- ion.",
+      "difficulty": "Hard",
+      "topic": "Valency and Ion Formation",
+      "marks": 2,
+      "id": "lba_qa_6"
+    },
+    {
+      "q": "Name the three subatomic particles, their charges, and state which one decides the chemical behaviour of an atom.",
+      "a": "The three subatomic particles:\n\n1. PROTON — positive charge (+1), in the nucleus\n2. NEUTRON — no charge (neutral), in the nucleus\n3. ELECTRON — negative charge (-1), revolves around nucleus\n\nChemical behaviour:\n- It is decided by the ELECTRONS, especially the VALENCE electrons (outermost shell) ✅\n- Protons and neutrons stay in the nucleus and do not take part in chemical reactions",
+      "difficulty": "Easy",
+      "topic": "Subatomic Particles",
+      "marks": 3,
+      "id": "lba_qa_7"
+    },
+    {
+      "q": "What is the maximum number of electrons that the K, L and M shells can hold, and why are inner shells filled first?",
+      "a": "Maximum electrons in a shell = 2n^2 (n = shell number)\n\n- K shell (n=1): 2 x 1^2 = 2 electrons\n- L shell (n=2): 2 x 2^2 = 8 electrons\n- M shell (n=3): 2 x 3^2 = 18 electrons ✅\n\nWhy inner shells fill first:\n- Inner shells are at LOWER energy and more stable\n- Electrons always go to the lowest available energy level first\n- So K fills, then L, then M",
+      "difficulty": "Medium",
+      "topic": "Electronic Configuration",
+      "marks": 3,
+      "id": "lba_qa_8"
+    },
+    {
+      "q": "Why did Bohr propose that electrons revolve only in fixed orbits, instead of anywhere around the nucleus like Rutherford suggested?",
+      "a": "Bohr improved Rutherford's model to explain atom STABILITY.\n\nProblem with Rutherford's model:\n- A revolving electron should lose energy and spiral into the nucleus\n- This would make the atom unstable (collapse)\n\nBohr's postulates:\n1. Electrons revolve only in certain fixed DISCRETE orbits (K, L, M, N)\n2. While in these orbits, electrons do NOT lose energy ✅\n\nThis explained why atoms are stable and do not collapse.",
+      "difficulty": "Hard",
+      "topic": "Bohr Model",
+      "marks": 3,
+      "id": "lba_qa_9"
+    },
+    {
+      "q": "A negatively charged ion contains 18 electrons and has a charge of -1. What is the atomic number of the element?",
+      "a": "An ion with charge -1 has gained 1 extra electron.\n\nGiven: electrons in ion = 18, charge = -1\n\nSo the neutral atom had:\n= 18 - 1\n= 17 electrons\n\nIn a neutral atom, electrons = protons = atomic number\n\nTherefore atomic number = 17 ✅ (this element is Chlorine)",
+      "difficulty": "Medium",
+      "topic": "Ions and Atomic Number",
+      "marks": 2,
+      "id": "lba_qa_10"
+    }
+  ],
+  "lba_mcq": [
+    {
+      "q": "In the gold foil experiment, one alpha particle in about 12000 bounced straight back. What did this rare event reveal?",
+      "options": [
+        "There is a tiny, dense, positively charged nucleus",
+        "The atom is solid throughout",
+        "Electrons are heavier than protons",
+        "Gold has no nucleus"
+      ],
+      "answer": "A",
+      "explanation": "A bounce-back means the particle hit something tiny but very dense and positive. This revealed the nucleus — a small, dense, positively charged centre of the atom.",
+      "difficulty": "Hard",
+      "topic": "Rutherford Model",
+      "id": "lba_mcq_1"
+    },
+    {
+      "q": "A doctor uses Cobalt-60 for one purpose and Iodine-131 for another. Which pairing is correct?",
+      "options": [
+        "Cobalt for goitre, Iodine for cancer",
+        "Cobalt for cancer, Iodine for goitre",
+        "Both for bone fractures",
+        "Both for blood tests"
+      ],
+      "answer": "B",
+      "explanation": "Cobalt-60 is used in cancer radiotherapy, and Iodine-131 is used to treat goitre (thyroid disorders). These radioisotopes have specific medical applications.",
+      "difficulty": "Medium",
+      "topic": "Uses of Isotopes",
+      "id": "lba_mcq_2"
+    },
+    {
+      "q": "Two atoms X and Y have the same atomic number 17 but mass numbers 35 and 37. They react identically with sodium. What are they?",
+      "options": [
+        "Isobars",
+        "Different elements",
+        "Isotopes",
+        "Ions"
+      ],
+      "answer": "C",
+      "explanation": "Same atomic number but different mass numbers = isotopes. They have the same electrons, so they show identical chemical behaviour.",
+      "difficulty": "Medium",
+      "topic": "Isotopes",
+      "id": "lba_mcq_3"
+    },
+    {
+      "q": "An atom has the electronic configuration 2, 8, 7. What kind of ion will it most likely form?",
+      "options": [
+        "Loses 7 electrons to form +7 ion",
+        "Loses 1 electron to form +1 ion",
+        "Stays neutral, forms no ion",
+        "Gains 1 electron to form -1 ion"
+      ],
+      "answer": "D",
+      "explanation": "With 7 valence electrons, it is easier to gain 1 electron to complete the octet than to lose 7. So it forms a -1 ion (like chloride, Cl-).",
+      "difficulty": "Hard",
+      "topic": "Valency and Ion Formation",
+      "id": "lba_mcq_4"
+    },
+    {
+      "q": "Why is the atomic mass of chlorine written as 35.5 u and not a whole number?",
+      "options": [
+        "It is the average mass of its isotopes Cl-35 and Cl-37",
+        "Chlorine atoms are damaged",
+        "Chlorine gains half an electron",
+        "Measuring error of scientists"
+      ],
+      "answer": "A",
+      "explanation": "Chlorine exists as two isotopes (Cl-35 and Cl-37) in a 3:1 ratio. The 35.5 u is their weighted average mass, giving a decimal value.",
+      "difficulty": "Hard",
+      "topic": "Average Atomic Mass",
+      "id": "lba_mcq_5"
+    },
+    {
+      "q": "An element has atomic number 12. How many electrons are in its outermost shell, deciding its valency?",
+      "options": [
+        "8 in L shell (valency 0)",
+        "2 in M shell (valency 2)",
+        "4 in K shell (valency 4)",
+        "12 in one shell"
+      ],
+      "answer": "B",
+      "explanation": "Atomic number 12 → configuration 2, 8, 2. The outermost (M) shell has 2 electrons, so the element (magnesium) has valency 2.",
+      "difficulty": "Medium",
+      "topic": "Electronic Configuration and Valency",
+      "id": "lba_mcq_6"
+    },
+    {
+      "q": "Which subatomic particle, present in the outermost shell, mainly decides how an atom reacts chemically?",
+      "options": [
+        "Neutron",
+        "Proton",
+        "Valence electron",
+        "Nucleus"
+      ],
+      "answer": "C",
+      "explanation": "Chemical behaviour is decided by the valence electrons in the outermost shell. Protons and neutrons stay in the nucleus and do not take part in reactions.",
+      "difficulty": "Easy",
+      "topic": "Subatomic Particles",
+      "id": "lba_mcq_7"
+    },
+    {
+      "q": "Rutherford's model could not explain why the electron does not fall into the nucleus. Whose model solved this by proposing fixed orbits?",
+      "options": [
+        "Dalton",
+        "J.J. Thomson",
+        "Goldstein",
+        "Niels Bohr"
+      ],
+      "answer": "D",
+      "explanation": "Niels Bohr proposed that electrons revolve only in fixed discrete orbits without losing energy, which explained the stability of the atom.",
+      "difficulty": "Medium",
+      "topic": "Bohr Model",
+      "id": "lba_mcq_8"
+    },
+    {
+      "q": "The maximum number of electrons in the M shell (n=3) is calculated using 2n^2. What is it?",
+      "options": [
+        "18",
+        "8",
+        "32",
+        "2"
+      ],
+      "answer": "A",
+      "explanation": "Using 2n^2 with n=3: 2 x 3^2 = 2 x 9 = 18 electrons is the maximum the M shell can hold.",
+      "difficulty": "Easy",
+      "topic": "Electronic Configuration",
+      "id": "lba_mcq_9"
+    },
+    {
+      "q": "J.J. Thomson's 'watermelon model' described the atom as a positive sphere with electrons embedded in it. Which later experiment disproved this?",
+      "options": [
+        "Dalton's atomic theory",
+        "Rutherford's gold foil experiment",
+        "Bohr's orbit theory",
+        "Goldstein's canal ray experiment"
+      ],
+      "answer": "B",
+      "explanation": "Rutherford's gold foil experiment showed the positive charge is concentrated in a tiny nucleus, not spread throughout the atom — disproving Thomson's model.",
+      "difficulty": "Medium",
+      "topic": "Thomson and Rutherford Models",
+      "id": "lba_mcq_10"
+    }
+  ]
+}

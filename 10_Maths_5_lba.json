@@ -1,0 +1,231 @@
+{
+  "class": "10",
+  "subject": "Maths",
+  "chapter": "5",
+  "chapter_name": "Arithmetic Progressions",
+  "theme": "Algebra",
+  "lba_qa": [
+    {
+      "id": "lba_qa_1",
+      "q": "A person saves Rs 100 in the first month and increases the savings by Rs 50 every month. How much will he save in the 12th month?",
+      "a": "This is an AP with first term a = 100 and common difference d = 50.\nThe nth term: a_n = a + (n - 1)d.\nFor the 12th month: a_12 = 100 + (12 - 1)(50) = 100 + 11 x 50 = 100 + 550 = 650.\nSo he will save Rs 650 in the 12th month.",
+      "difficulty": "Average",
+      "topic": "nth term of an AP (real-life)",
+      "marks": 3
+    },
+    {
+      "id": "lba_qa_2",
+      "q": "A theatre has 20 seats in the first row, 22 in the second, 24 in the third, and so on. How many seats are there in the 15th row?",
+      "a": "This is an AP with a = 20, d = 2.\nnth term: a_n = a + (n - 1)d.\na_15 = 20 + (15 - 1)(2) = 20 + 14 x 2 = 20 + 28 = 48.\nSo there are 48 seats in the 15th row.",
+      "difficulty": "Average",
+      "topic": "nth term of an AP (real-life)",
+      "marks": 2
+    },
+    {
+      "id": "lba_qa_3",
+      "q": "A man takes a loan and repays it in monthly instalments. He pays Rs 1000 in the first month and increases each instalment by Rs 100. Find the total amount paid in the first 10 months.",
+      "a": "This is an AP with a = 1000, d = 100, n = 10.\nSum of n terms: S_n = (n/2)[2a + (n - 1)d].\nS_10 = (10/2)[2(1000) + (10 - 1)(100)] = 5[2000 + 900] = 5 x 2900 = 14500.\nSo the total amount paid in 10 months is Rs 14,500.",
+      "difficulty": "Difficult",
+      "topic": "Sum of n terms of an AP (real-life)",
+      "marks": 3
+    },
+    {
+      "id": "lba_qa_4",
+      "q": "Find the sum of the first 50 natural numbers (1 + 2 + 3 + ... + 50) using the AP formula.",
+      "a": "The natural numbers form an AP with a = 1, d = 1, n = 50.\nSum: S_n = (n/2)(first term + last term) = (n/2)(a + a_n).\nLast term a_50 = 50.\nS_50 = (50/2)(1 + 50) = 25 x 51 = 1275.\nSo the sum of the first 50 natural numbers is 1275.",
+      "difficulty": "Average",
+      "topic": "Sum of n terms of an AP",
+      "marks": 2
+    },
+    {
+      "id": "lba_qa_5",
+      "q": "A child stacks logs: 25 logs in the bottom row, 24 in the next, 23 in the next, and so on. How many logs are there in 10 rows?",
+      "a": "This is an AP with a = 25, d = -1, n = 10.\nSum: S_n = (n/2)[2a + (n - 1)d].\nS_10 = (10/2)[2(25) + (10 - 1)(-1)] = 5[50 - 9] = 5 x 41 = 205.\nSo there are 205 logs in 10 rows.",
+      "difficulty": "Difficult",
+      "topic": "Sum of n terms of an AP (real-life)",
+      "marks": 3
+    },
+    {
+      "id": "lba_qa_6",
+      "q": "Which term of the AP 3, 8, 13, 18, ... is 78?",
+      "a": "Here a = 3, d = 8 - 3 = 5. Let the nth term be 78.\na_n = a + (n - 1)d = 78.\n3 + (n - 1)(5) = 78, so (n - 1)(5) = 75, giving n - 1 = 15, so n = 16.\nSo 78 is the 16th term of the AP.",
+      "difficulty": "Average",
+      "topic": "nth term of an AP",
+      "marks": 2
+    },
+    {
+      "id": "lba_qa_7",
+      "q": "A salary starts at Rs 20000 with an annual increment of Rs 1500. What will the salary be in the 8th year?",
+      "a": "This is an AP with a = 20000, d = 1500.\nnth term: a_n = a + (n - 1)d.\na_8 = 20000 + (8 - 1)(1500) = 20000 + 7 x 1500 = 20000 + 10500 = 30500.\nSo the salary in the 8th year will be Rs 30,500.",
+      "difficulty": "Average",
+      "topic": "nth term of an AP (real-life)",
+      "marks": 2
+    },
+    {
+      "id": "lba_qa_8",
+      "q": "How can you check whether the sequence 2, 5, 8, 11, ... is an AP? Explain.",
+      "a": "A sequence is an AP if the difference between consecutive terms is always the same (constant common difference).\nHere: 5 - 2 = 3; 8 - 5 = 3; 11 - 8 = 3.\nSince the difference is the same (3) each time, the sequence is an AP with common difference d = 3.",
+      "difficulty": "Easy",
+      "topic": "Introduction to AP",
+      "marks": 2
+    },
+    {
+      "id": "lba_qa_9",
+      "q": "The sum of the first n terms of an AP is given by S_n = 3n^2 + 2n. Find the first term and the common difference.",
+      "a": "First term a = S_1 = 3(1)^2 + 2(1) = 3 + 2 = 5.\nS_2 = 3(2)^2 + 2(2) = 12 + 4 = 16.\nSecond term = S_2 - S_1 = 16 - 5 = 11.\nCommon difference d = second term - first term = 11 - 5 = 6.\nSo the first term is 5 and the common difference is 6.",
+      "difficulty": "Difficult",
+      "topic": "Sum of n terms of an AP",
+      "marks": 3
+    },
+    {
+      "id": "lba_qa_10",
+      "q": "A farmer plants trees in rows: 1 tree in the first row, 2 in the second, 3 in the third, and so on up to 20 rows. How many trees in total?",
+      "a": "This forms an AP: 1, 2, 3, ..., 20 with a = 1, d = 1, n = 20.\nSum = (n/2)(first + last) = (20/2)(1 + 20) = 10 x 21 = 210.\nSo the farmer plants 210 trees in total.",
+      "difficulty": "Average",
+      "topic": "Sum of n terms of an AP (real-life)",
+      "marks": 2
+    }
+  ],
+  "lba_mcq": [
+    {
+      "id": "lba_mcq_1",
+      "q": "A person saves Rs 100 in month 1 and increases by Rs 50 each month. His saving in the 12th month is:",
+      "options": [
+        "Rs 650",
+        "Rs 600",
+        "Rs 700",
+        "Rs 550"
+      ],
+      "answer": "A",
+      "explanation": "a=100, d=50, a_12 = 100 + 11(50) = 650.",
+      "difficulty": "Average",
+      "topic": "nth term (real-life)"
+    },
+    {
+      "id": "lba_mcq_2",
+      "q": "A theatre has 20 seats in row 1, 22 in row 2, and so on. Seats in the 15th row:",
+      "options": [
+        "46",
+        "48",
+        "50",
+        "44"
+      ],
+      "answer": "B",
+      "explanation": "a=20, d=2, a_15 = 20 + 14(2) = 48.",
+      "difficulty": "Average",
+      "topic": "nth term (real-life)"
+    },
+    {
+      "id": "lba_mcq_3",
+      "q": "The sum of the first 50 natural numbers is:",
+      "options": [
+        "1250",
+        "2550",
+        "1275",
+        "1225"
+      ],
+      "answer": "C",
+      "explanation": "S = (50/2)(1+50) = 25 x 51 = 1275.",
+      "difficulty": "Average",
+      "topic": "Sum of n terms"
+    },
+    {
+      "id": "lba_mcq_4",
+      "q": "Which term of the AP 3, 8, 13, 18, ... is 78?",
+      "options": [
+        "14th",
+        "15th",
+        "17th",
+        "16th"
+      ],
+      "answer": "D",
+      "explanation": "a=3, d=5, 3+(n-1)5=78 gives n=16.",
+      "difficulty": "Average",
+      "topic": "nth term"
+    },
+    {
+      "id": "lba_mcq_5",
+      "q": "The sequence 2, 5, 8, 11, ... is an AP with common difference:",
+      "options": [
+        "3",
+        "2",
+        "5",
+        "1"
+      ],
+      "answer": "A",
+      "explanation": "Each term increases by 3 (5-2=3, 8-5=3), so common difference d=3.",
+      "difficulty": "Easy",
+      "topic": "Introduction to AP"
+    },
+    {
+      "id": "lba_mcq_6",
+      "q": "A salary starts at Rs 20000 with Rs 1500 annual increment. Salary in the 8th year:",
+      "options": [
+        "Rs 29000",
+        "Rs 30500",
+        "Rs 31000",
+        "Rs 28500"
+      ],
+      "answer": "B",
+      "explanation": "a=20000, d=1500, a_8 = 20000 + 7(1500) = 30500.",
+      "difficulty": "Average",
+      "topic": "nth term (real-life)"
+    },
+    {
+      "id": "lba_mcq_7",
+      "q": "A loan is repaid Rs 1000 in month 1, increasing Rs 100 each month. Total paid in 10 months:",
+      "options": [
+        "Rs 10000",
+        "Rs 19000",
+        "Rs 14500",
+        "Rs 15000"
+      ],
+      "answer": "C",
+      "explanation": "S_10 = (10/2)[2(1000)+9(100)] = 5(2900) = 14500.",
+      "difficulty": "Difficult",
+      "topic": "Sum of n terms (real-life)"
+    },
+    {
+      "id": "lba_mcq_8",
+      "q": "Logs are stacked 25, 24, 23, ... in successive rows. Total logs in 10 rows:",
+      "options": [
+        "200",
+        "210",
+        "250",
+        "205"
+      ],
+      "answer": "D",
+      "explanation": "a=25, d=-1, S_10 = (10/2)[50 + 9(-1)] = 5(41) = 205.",
+      "difficulty": "Difficult",
+      "topic": "Sum of n terms (real-life)"
+    },
+    {
+      "id": "lba_mcq_9",
+      "q": "Trees planted 1, 2, 3, ... up to 20 rows. Total number of trees:",
+      "options": [
+        "210",
+        "200",
+        "190",
+        "220"
+      ],
+      "answer": "A",
+      "explanation": "S = (20/2)(1+20) = 10 x 21 = 210.",
+      "difficulty": "Average",
+      "topic": "Sum of n terms (real-life)"
+    },
+    {
+      "id": "lba_mcq_10",
+      "q": "If S_n = 3n^2 + 2n, the common difference of the AP is:",
+      "options": [
+        "5",
+        "6",
+        "3",
+        "2"
+      ],
+      "answer": "B",
+      "explanation": "a = S_1 = 5, second term = S_2 - S_1 = 16 - 5 = 11, d = 11 - 5 = 6.",
+      "difficulty": "Difficult",
+      "topic": "Sum of n terms"
+    }
+  ]
+}

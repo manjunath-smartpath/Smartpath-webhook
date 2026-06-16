@@ -1,0 +1,179 @@
+{
+  "class": "9",
+  "subject": "Maths",
+  "chapter": "10",
+  "chapter_name": "Heron's Formula",
+  "theme": "Mensuration",
+  "lba_qa": [
+    {
+      "q": "A triangular park has sides 13 m, 14 m and 15 m. Find its area using Heron's formula.",
+      "a": "Heron's formula: Area = square root of [s(s-a)(s-b)(s-c)]\nwhere s = (a + b + c)/2\n\nGiven a = 13, b = 14, c = 15.\n\nStep 1 - Find s:\ns = (13 + 14 + 15)/2 = 42/2 = 21 m\n\nStep 2 - Apply formula:\nArea = square root of [21 x (21-13) x (21-14) x (21-15)]\n= square root of [21 x 8 x 7 x 6]\n= square root of 7056\n= 84 square metres ✅",
+      "difficulty": "Hard",
+      "topic": "Heron's Formula",
+      "marks": 3,
+      "id": "lba_qa_1"
+    },
+    {
+      "q": "A triangular signboard has all three sides equal to 6 cm (equilateral). Find s (the semi-perimeter) and set up Heron's formula.",
+      "a": "For an equilateral triangle, all sides = 6 cm.\n\nStep 1 - Semi-perimeter s:\ns = (6 + 6 + 6)/2 = 18/2 = 9 cm ✅\n\nStep 2 - Heron's formula setup:\nArea = square root of [s(s-a)(s-b)(s-c)]\n= square root of [9 x (9-6) x (9-6) x (9-6)]\n= square root of [9 x 3 x 3 x 3]\n= square root of 243\n= about 15.6 square cm ✅",
+      "difficulty": "Medium",
+      "topic": "Heron's Formula - Equilateral",
+      "marks": 3,
+      "id": "lba_qa_2"
+    },
+    {
+      "q": "A triangular plot has sides 5 m, 12 m and 13 m. Find its area using Heron's formula.",
+      "a": "Heron's formula: Area = square root of [s(s-a)(s-b)(s-c)]\n\nGiven a = 5, b = 12, c = 13.\n\nStep 1 - Semi-perimeter:\ns = (5 + 12 + 13)/2 = 30/2 = 15 m\n\nStep 2 - Apply:\nArea = square root of [15 x (15-5) x (15-12) x (15-13)]\n= square root of [15 x 10 x 3 x 2]\n= square root of 900\n= 30 square metres ✅",
+      "difficulty": "Hard",
+      "topic": "Heron's Formula",
+      "marks": 3,
+      "id": "lba_qa_3"
+    },
+    {
+      "q": "A gardener has a triangular flower bed with sides 8 m, 8 m and 4 m. Find its semi-perimeter s.",
+      "a": "Semi-perimeter s = (sum of all three sides)/2\n\nGiven sides: 8 m, 8 m, 4 m.\n\ns = (8 + 8 + 4)/2\n= 20/2\n= 10 m ✅\n\nSo the semi-perimeter is 10 m. (This value is then used in Heron's formula to find the area.)",
+      "difficulty": "Easy",
+      "topic": "Semi-perimeter",
+      "marks": 2,
+      "id": "lba_qa_4"
+    },
+    {
+      "q": "Why is Heron's formula especially useful for finding the area of a triangular field when you only have the three side lengths?",
+      "a": "Heron's formula needs ONLY the three sides — no height required.\n\nUsefulness:\n- The usual area formula (1/2 x base x height) needs the HEIGHT\n- In a real field, measuring the perpendicular height is often hard\n- But the three sides can be measured easily with a tape ✅\n- Heron's formula uses just those sides: Area = square root of [s(s-a)(s-b)(s-c)]\n\nSo it is ideal for irregular triangular plots where only sides are known.",
+      "difficulty": "Medium",
+      "topic": "Application of Heron's Formula",
+      "marks": 2,
+      "id": "lba_qa_5"
+    },
+    {
+      "q": "A triangular tile has sides 3 cm, 4 cm and 5 cm. Find its area using Heron's formula and verify it is a right triangle.",
+      "a": "Step 1 - Semi-perimeter:\ns = (3 + 4 + 5)/2 = 12/2 = 6 cm\n\nStep 2 - Heron's formula:\nArea = square root of [6 x (6-3) x (6-4) x (6-5)]\n= square root of [6 x 3 x 2 x 1]\n= square root of 36\n= 6 square cm ✅\n\nVerify right triangle: 3^2 + 4^2 = 9 + 16 = 25 = 5^2. Yes, it is right-angled. (Check: (1/2)(3)(4) = 6, matches.)",
+      "difficulty": "Hard",
+      "topic": "Heron's Formula",
+      "marks": 3,
+      "id": "lba_qa_6"
+    },
+    {
+      "q": "A triangular banner has sides 9 m, 12 m and 15 m. Find its semi-perimeter and the value of (s - a) for the side a = 9 m.",
+      "a": "Step 1 - Semi-perimeter:\ns = (9 + 12 + 15)/2 = 36/2 = 18 m\n\nStep 2 - Find (s - a) for a = 9:\n= 18 - 9\n= 9 m ✅\n\nSo s = 18 m and (s - 9) = 9 m. These are then put into Heron's formula along with (s - 12) and (s - 15) to get the area.",
+      "difficulty": "Medium",
+      "topic": "Semi-perimeter",
+      "marks": 2,
+      "id": "lba_qa_7"
+    }
+  ],
+  "lba_mcq": [
+    {
+      "q": "A triangle has sides 5, 12 and 13 m. Its semi-perimeter s is:",
+      "options": [
+        "15 m",
+        "30 m",
+        "13 m",
+        "10 m"
+      ],
+      "answer": "A",
+      "explanation": "s = (5 + 12 + 13)/2 = 30/2 = 15 m.",
+      "difficulty": "Easy",
+      "topic": "Semi-perimeter",
+      "id": "lba_mcq_1"
+    },
+    {
+      "q": "Heron's formula for the area of a triangle is:",
+      "options": [
+        "(1/2) x base x height",
+        "square root of [s(s-a)(s-b)(s-c)]",
+        "s(s-a)(s-b)(s-c)",
+        "a x b x c"
+      ],
+      "answer": "B",
+      "explanation": "Heron's formula is Area = square root of [s(s-a)(s-b)(s-c)], where s is the semi-perimeter.",
+      "difficulty": "Easy",
+      "topic": "Heron's Formula",
+      "id": "lba_mcq_2"
+    },
+    {
+      "q": "A triangular park has sides 13, 14, 15 m. Using Heron's formula, its area is:",
+      "options": [
+        "42 square metres",
+        "91 square metres",
+        "84 square metres",
+        "168 square metres"
+      ],
+      "answer": "C",
+      "explanation": "s = 21; Area = square root of [21 x 8 x 7 x 6] = square root of 7056 = 84 square metres.",
+      "difficulty": "Hard",
+      "topic": "Heron's Formula",
+      "id": "lba_mcq_3"
+    },
+    {
+      "q": "Heron's formula is most useful when we know:",
+      "options": [
+        "Only the base",
+        "Only the height",
+        "Just one side",
+        "All three sides"
+      ],
+      "answer": "D",
+      "explanation": "Heron's formula needs all three side lengths and does not require the height, making it ideal when only sides are known.",
+      "difficulty": "Medium",
+      "topic": "Application",
+      "id": "lba_mcq_4"
+    },
+    {
+      "q": "For a triangle with sides 3, 4, 5 cm, the area by Heron's formula is:",
+      "options": [
+        "6 square cm",
+        "12 square cm",
+        "10 square cm",
+        "5 square cm"
+      ],
+      "answer": "A",
+      "explanation": "s = 6; Area = square root of [6 x 3 x 2 x 1] = square root of 36 = 6 square cm.",
+      "difficulty": "Hard",
+      "topic": "Heron's Formula",
+      "id": "lba_mcq_5"
+    },
+    {
+      "q": "For a triangle with sides 8, 8, 4 m, the value of the semi-perimeter s is:",
+      "options": [
+        "20 m",
+        "10 m",
+        "16 m",
+        "8 m"
+      ],
+      "answer": "B",
+      "explanation": "s = (8 + 8 + 4)/2 = 20/2 = 10 m.",
+      "difficulty": "Easy",
+      "topic": "Semi-perimeter",
+      "id": "lba_mcq_6"
+    },
+    {
+      "q": "In Heron's formula, the letter s stands for:",
+      "options": [
+        "The longest side",
+        "The shortest side",
+        "The semi-perimeter (half the perimeter)",
+        "The area"
+      ],
+      "answer": "C",
+      "explanation": "s is the semi-perimeter, equal to half the sum of the three sides: s = (a + b + c)/2.",
+      "difficulty": "Easy",
+      "topic": "Semi-perimeter",
+      "id": "lba_mcq_7"
+    },
+    {
+      "q": "An equilateral triangular tile has each side 6 cm. Its semi-perimeter is:",
+      "options": [
+        "6 cm",
+        "18 cm",
+        "12 cm",
+        "9 cm"
+      ],
+      "answer": "D",
+      "explanation": "s = (6 + 6 + 6)/2 = 18/2 = 9 cm.",
+      "difficulty": "Easy",
+      "topic": "Semi-perimeter",
+      "id": "lba_mcq_8"
+    }
+  ]
+}

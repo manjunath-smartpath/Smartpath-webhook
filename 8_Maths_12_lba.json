@@ -1,0 +1,231 @@
+{
+  "class": "8",
+  "subject": "Maths",
+  "chapter": "12",
+  "chapter_name": "Factorisation",
+  "theme": "Factorisation",
+  "lba_qa": [
+    {
+      "q": "A rectangular garden has area (6x + 9) square units. Factorise this to find a common dimension.",
+      "a": "Find the common factor of 6x and 9.\nBoth are divisible by 3.\n6x + 9 = 3(2x + 3)\n\nSo one dimension can be 3 units and the other (2x + 3) units. ✅",
+      "difficulty": "Easy",
+      "topic": "Common Factor Method",
+      "marks": 2,
+      "id": "lba_qa_1"
+    },
+    {
+      "q": "Factorise x^2 + 5x + 6.",
+      "a": "Find two numbers that multiply to 6 and add to 5: they are 2 and 3.\nSplit the middle term:\nx^2 + 2x + 3x + 6\n= x(x + 2) + 3(x + 2)\n= (x + 2)(x + 3)\n\nSo x^2 + 5x + 6 = (x + 2)(x + 3). ✅",
+      "difficulty": "Hard",
+      "topic": "Splitting the Middle Term",
+      "marks": 3,
+      "id": "lba_qa_2"
+    },
+    {
+      "q": "Factorise the expression 4a^2 - 9 using an identity.",
+      "a": "This is a difference of squares: a^2 - b^2 = (a + b)(a - b).\n4a^2 = (2a)^2 and 9 = 3^2.\n\n4a^2 - 9 = (2a)^2 - 3^2\n= (2a + 3)(2a - 3)\n\nSo 4a^2 - 9 = (2a + 3)(2a - 3). ✅",
+      "difficulty": "Hard",
+      "topic": "Difference of Squares",
+      "marks": 3,
+      "id": "lba_qa_3"
+    },
+    {
+      "q": "Factorise 12ab + 8b by taking out the common factor.",
+      "a": "Common factor of 12ab and 8b is 4b.\n12ab + 8b = 4b(3a + 2)\n\nSo the factors are 4b and (3a + 2). ✅",
+      "difficulty": "Medium",
+      "topic": "Common Factor Method",
+      "marks": 2,
+      "id": "lba_qa_4"
+    },
+    {
+      "q": "Factorise x^2 + 6x + 9 using an identity.",
+      "a": "This matches a^2 + 2ab + b^2 = (a + b)^2 with a = x, b = 3.\nCheck: 2 x x x 3 = 6x (middle term matches) and 3^2 = 9.\n\nx^2 + 6x + 9 = (x + 3)^2\n\nSo the factor is (x + 3)(x + 3). ✅",
+      "difficulty": "Medium",
+      "topic": "Perfect Square Identity",
+      "marks": 2,
+      "id": "lba_qa_5"
+    },
+    {
+      "q": "Factorise 5x^2 + 10x by grouping the common factor.",
+      "a": "Common factor of 5x^2 and 10x is 5x.\n5x^2 + 10x = 5x(x + 2)\n\nSo the factors are 5x and (x + 2). ✅",
+      "difficulty": "Easy",
+      "topic": "Common Factor Method",
+      "marks": 2,
+      "id": "lba_qa_6"
+    },
+    {
+      "q": "Factorise ax + ay + bx + by by grouping.",
+      "a": "Group the terms in pairs:\n(ax + ay) + (bx + by)\n= a(x + y) + b(x + y)\n= (x + y)(a + b)\n\nSo the factors are (x + y) and (a + b). ✅",
+      "difficulty": "Hard",
+      "topic": "Factorisation by Grouping",
+      "marks": 3,
+      "id": "lba_qa_7"
+    },
+    {
+      "q": "Divide 8x^2 + 4x by 4x.",
+      "a": "Divide each term by 4x.\n(8x^2 + 4x) / 4x\n= 8x^2 / 4x + 4x / 4x\n= 2x + 1\n\nSo the result is 2x + 1. ✅",
+      "difficulty": "Medium",
+      "topic": "Division of Expressions",
+      "marks": 2,
+      "id": "lba_qa_8"
+    },
+    {
+      "q": "Factorise x^2 - 49 using an identity.",
+      "a": "Difference of squares: a^2 - b^2 = (a + b)(a - b).\n49 = 7^2.\n\nx^2 - 49 = x^2 - 7^2\n= (x + 7)(x - 7)\n\nSo x^2 - 49 = (x + 7)(x - 7). ✅",
+      "difficulty": "Medium",
+      "topic": "Difference of Squares",
+      "marks": 2,
+      "id": "lba_qa_9"
+    },
+    {
+      "q": "Factorise x^2 + 7x + 12.",
+      "a": "Find two numbers multiplying to 12 and adding to 7: they are 3 and 4.\nx^2 + 3x + 4x + 12\n= x(x + 3) + 4(x + 3)\n= (x + 3)(x + 4)\n\nSo x^2 + 7x + 12 = (x + 3)(x + 4). ✅",
+      "difficulty": "Hard",
+      "topic": "Splitting the Middle Term",
+      "marks": 3,
+      "id": "lba_qa_10"
+    }
+  ],
+  "lba_mcq": [
+    {
+      "q": "The common factor taken out from 6x + 12 is:",
+      "options": [
+        "6",
+        "3",
+        "2",
+        "x"
+      ],
+      "answer": "A",
+      "explanation": "6x + 12 = 6(x + 2); the common factor is 6.",
+      "difficulty": "Easy",
+      "topic": "Common Factor",
+      "id": "lba_mcq_1"
+    },
+    {
+      "q": "x^2 - 25 factorises as:",
+      "options": [
+        "(x-25)(x+1)",
+        "(x+5)(x-5)",
+        "(x-5)(x-5)",
+        "(x+5)(x+5)"
+      ],
+      "answer": "B",
+      "explanation": "Difference of squares: x^2 - 5^2 = (x+5)(x-5).",
+      "difficulty": "Medium",
+      "topic": "Difference of Squares",
+      "id": "lba_mcq_2"
+    },
+    {
+      "q": "x^2 + 4x + 4 factorises as:",
+      "options": [
+        "(x+2)(x+1)",
+        "(x-2)^2",
+        "(x+2)^2",
+        "(x+4)^2"
+      ],
+      "answer": "C",
+      "explanation": "a^2 + 2ab + b^2 = (x+2)^2 since 2x2=4 and 2^2=4.",
+      "difficulty": "Medium",
+      "topic": "Perfect Square Identity",
+      "id": "lba_mcq_3"
+    },
+    {
+      "q": "The factors of 3a + 3b are:",
+      "options": [
+        "a and b",
+        "3a and b",
+        "(a+b) and (a-b)",
+        "3 and (a+b)"
+      ],
+      "answer": "D",
+      "explanation": "3a + 3b = 3(a + b).",
+      "difficulty": "Easy",
+      "topic": "Common Factor",
+      "id": "lba_mcq_4"
+    },
+    {
+      "q": "x^2 + 5x + 6 factorises as:",
+      "options": [
+        "(x+2)(x+3)",
+        "(x+6)(x-1)",
+        "(x+1)(x+6)",
+        "(x+3)(x+3)"
+      ],
+      "answer": "A",
+      "explanation": "2 and 3 multiply to 6 and add to 5: (x+2)(x+3).",
+      "difficulty": "Hard",
+      "topic": "Splitting the Middle Term",
+      "id": "lba_mcq_5"
+    },
+    {
+      "q": "Dividing 10x^2 by 5x gives:",
+      "options": [
+        "5x",
+        "2x",
+        "2x^2",
+        "2"
+      ],
+      "answer": "B",
+      "explanation": "10x^2 / 5x = 2x.",
+      "difficulty": "Easy",
+      "topic": "Division of Expressions",
+      "id": "lba_mcq_6"
+    },
+    {
+      "q": "The common factor of 9pq and 12p is:",
+      "options": [
+        "3q",
+        "9p",
+        "3p",
+        "12"
+      ],
+      "answer": "C",
+      "explanation": "HCF of 9 and 12 is 3, and p is common, so 3p.",
+      "difficulty": "Medium",
+      "topic": "Common Factor",
+      "id": "lba_mcq_7"
+    },
+    {
+      "q": "ax + bx factorises as:",
+      "options": [
+        "ab+x",
+        "a(x+b)",
+        "(a+b)(x)",
+        "x(a+b)"
+      ],
+      "answer": "D",
+      "explanation": "x is common: ax + bx = x(a + b).",
+      "difficulty": "Easy",
+      "topic": "Common Factor",
+      "id": "lba_mcq_8"
+    },
+    {
+      "q": "4x^2 - 1 factorises as:",
+      "options": [
+        "(2x+1)(2x-1)",
+        "(4x+1)(x-1)",
+        "(2x-1)(2x-1)",
+        "(2x+1)^2"
+      ],
+      "answer": "A",
+      "explanation": "(2x)^2 - 1^2 = (2x+1)(2x-1).",
+      "difficulty": "Hard",
+      "topic": "Difference of Squares",
+      "id": "lba_mcq_9"
+    },
+    {
+      "q": "x^2 + 8x + 15 factorises as:",
+      "options": [
+        "(x+4)(x+4)",
+        "(x+3)(x+5)",
+        "(x+1)(x+15)",
+        "(x+8)(x+7)"
+      ],
+      "answer": "B",
+      "explanation": "3 and 5 multiply to 15 and add to 8.",
+      "difficulty": "Medium",
+      "topic": "Splitting the Middle Term",
+      "id": "lba_mcq_10"
+    }
+  ]
+}

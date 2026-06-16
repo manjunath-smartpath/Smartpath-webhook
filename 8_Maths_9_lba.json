@@ -1,0 +1,231 @@
+{
+  "class": "8",
+  "subject": "Maths",
+  "chapter": "9",
+  "chapter_name": "Mensuration",
+  "theme": "Mensuration",
+  "lba_qa": [
+    {
+      "q": "A rectangular room floor is 8 m long and 5 m wide. Find its area.",
+      "a": "Area of a rectangle = length x breadth\n= 8 x 5\n= 40 square metres\n\nSo the floor area is 40 square metres. ✅",
+      "difficulty": "Easy",
+      "topic": "Area of Rectangle",
+      "marks": 2,
+      "id": "lba_qa_1"
+    },
+    {
+      "q": "A cubical water tank has each edge 3 m. Find its volume.",
+      "a": "Volume of a cube = edge x edge x edge\n= 3 x 3 x 3\n= 27 cubic metres\n\nSo the tank holds 27 cubic metres of water. ✅",
+      "difficulty": "Easy",
+      "topic": "Volume of Cube",
+      "marks": 2,
+      "id": "lba_qa_2"
+    },
+    {
+      "q": "A cylindrical drum has radius 7 cm and height 10 cm. Find its volume. (Take pi = 22/7)",
+      "a": "Volume of a cylinder = pi x r^2 x h\n= (22/7) x 7 x 7 x 10\n= 22 x 7 x 10\n= 1540 cubic cm\n\nSo the volume is 1540 cubic cm. ✅",
+      "difficulty": "Hard",
+      "topic": "Volume of Cylinder",
+      "marks": 3,
+      "id": "lba_qa_3"
+    },
+    {
+      "q": "A cuboidal box is 6 cm long, 4 cm wide and 5 cm high. Find its volume.",
+      "a": "Volume of a cuboid = length x breadth x height\n= 6 x 4 x 5\n= 120 cubic cm\n\nSo the volume is 120 cubic cm. ✅",
+      "difficulty": "Medium",
+      "topic": "Volume of Cuboid",
+      "marks": 2,
+      "id": "lba_qa_4"
+    },
+    {
+      "q": "Find the total surface area of a cube whose edge is 5 cm.",
+      "a": "Total surface area of a cube = 6 x edge^2\n= 6 x 5 x 5\n= 6 x 25\n= 150 square cm\n\nSo the total surface area is 150 square cm. ✅",
+      "difficulty": "Medium",
+      "topic": "Surface Area of Cube",
+      "marks": 2,
+      "id": "lba_qa_5"
+    },
+    {
+      "q": "A trapezium-shaped field has parallel sides 10 m and 14 m, and the distance between them is 8 m. Find its area.",
+      "a": "Area of a trapezium = 1/2 x (sum of parallel sides) x height\n= 1/2 x (10 + 14) x 8\n= 1/2 x 24 x 8\n= 96 square metres\n\nSo the area is 96 square metres. ✅",
+      "difficulty": "Hard",
+      "topic": "Area of Trapezium",
+      "marks": 3,
+      "id": "lba_qa_6"
+    },
+    {
+      "q": "A cylindrical tin has radius 7 cm and height 20 cm. Find its curved surface area. (Take pi = 22/7)",
+      "a": "Curved surface area = 2 x pi x r x h\n= 2 x (22/7) x 7 x 20\n= 2 x 22 x 20\n= 880 square cm\n\nSo the curved surface area is 880 square cm. ✅",
+      "difficulty": "Hard",
+      "topic": "Surface Area of Cylinder",
+      "marks": 3,
+      "id": "lba_qa_7"
+    },
+    {
+      "q": "A square park has each side 12 m. Find its area and perimeter.",
+      "a": "Area = side^2 = 12 x 12 = 144 square metres.\nPerimeter = 4 x side = 4 x 12 = 48 metres.\n\nSo the area is 144 square metres and perimeter is 48 metres. ✅",
+      "difficulty": "Easy",
+      "topic": "Area and Perimeter of Square",
+      "marks": 2,
+      "id": "lba_qa_8"
+    },
+    {
+      "q": "A cuboidal tank is 2 m long, 1 m wide and 1.5 m high. How many litres of water can it hold? (1 cubic metre = 1000 litres)",
+      "a": "Volume = length x breadth x height\n= 2 x 1 x 1.5\n= 3 cubic metres.\n\nIn litres = 3 x 1000 = 3000 litres.\n\nSo the tank holds 3000 litres. ✅",
+      "difficulty": "Hard",
+      "topic": "Volume of Cuboid",
+      "marks": 3,
+      "id": "lba_qa_9"
+    },
+    {
+      "q": "The total surface area of a cuboid is needed for a box 5 cm long, 4 cm wide and 3 cm high. Find it.",
+      "a": "Total surface area of a cuboid = 2(lb + bh + hl)\n= 2[(5x4) + (4x3) + (3x5)]\n= 2[20 + 12 + 15]\n= 2 x 47\n= 94 square cm\n\nSo the total surface area is 94 square cm. ✅",
+      "difficulty": "Hard",
+      "topic": "Surface Area of Cuboid",
+      "marks": 3,
+      "id": "lba_qa_10"
+    }
+  ],
+  "lba_mcq": [
+    {
+      "q": "A rectangular plot is 10 m by 6 m. Its area is:",
+      "options": [
+        "60 sq m",
+        "32 sq m",
+        "16 sq m",
+        "26 sq m"
+      ],
+      "answer": "A",
+      "explanation": "Area = 10 x 6 = 60 square metres.",
+      "difficulty": "Easy",
+      "topic": "Area of Rectangle",
+      "id": "lba_mcq_1"
+    },
+    {
+      "q": "A cube of edge 4 cm has volume:",
+      "options": [
+        "12 cubic cm",
+        "64 cubic cm",
+        "48 cubic cm",
+        "16 cubic cm"
+      ],
+      "answer": "B",
+      "explanation": "Volume = 4 x 4 x 4 = 64 cubic cm.",
+      "difficulty": "Easy",
+      "topic": "Volume of Cube",
+      "id": "lba_mcq_2"
+    },
+    {
+      "q": "The formula for the area of a square of side a is:",
+      "options": [
+        "4a",
+        "a^3",
+        "a^2",
+        "2a"
+      ],
+      "answer": "C",
+      "explanation": "Area of a square = a x a = a^2.",
+      "difficulty": "Easy",
+      "topic": "Area of Square",
+      "id": "lba_mcq_3"
+    },
+    {
+      "q": "A cuboid is 3 by 4 by 5 cm. Its volume is:",
+      "options": [
+        "47 cubic cm",
+        "20 cubic cm",
+        "12 cubic cm",
+        "60 cubic cm"
+      ],
+      "answer": "D",
+      "explanation": "Volume = 3 x 4 x 5 = 60 cubic cm.",
+      "difficulty": "Medium",
+      "topic": "Volume of Cuboid",
+      "id": "lba_mcq_4"
+    },
+    {
+      "q": "The total surface area of a cube of edge a is:",
+      "options": [
+        "6a^2",
+        "6a",
+        "4a^2",
+        "a^3"
+      ],
+      "answer": "A",
+      "explanation": "A cube has 6 equal square faces, so TSA = 6a^2.",
+      "difficulty": "Medium",
+      "topic": "Surface Area of Cube",
+      "id": "lba_mcq_5"
+    },
+    {
+      "q": "A cylinder has radius 7 cm and height 5 cm. Its volume (pi = 22/7) is:",
+      "options": [
+        "154 cubic cm",
+        "770 cubic cm",
+        "220 cubic cm",
+        "385 cubic cm"
+      ],
+      "answer": "B",
+      "explanation": "V = 22/7 x 7 x 7 x 5 = 770 cubic cm.",
+      "difficulty": "Hard",
+      "topic": "Volume of Cylinder",
+      "id": "lba_mcq_6"
+    },
+    {
+      "q": "Area of a trapezium with parallel sides 6 and 8 and height 4 is:",
+      "options": [
+        "48 sq units",
+        "56 sq units",
+        "28 sq units",
+        "14 sq units"
+      ],
+      "answer": "C",
+      "explanation": "1/2 x (6+8) x 4 = 1/2 x 14 x 4 = 28 square units.",
+      "difficulty": "Hard",
+      "topic": "Area of Trapezium",
+      "id": "lba_mcq_7"
+    },
+    {
+      "q": "1 cubic metre equals how many litres?",
+      "options": [
+        "10 litres",
+        "10000 litres",
+        "100 litres",
+        "1000 litres"
+      ],
+      "answer": "D",
+      "explanation": "1 cubic metre = 1000 litres.",
+      "difficulty": "Medium",
+      "topic": "Volume Units",
+      "id": "lba_mcq_8"
+    },
+    {
+      "q": "The curved surface area of a cylinder of radius r and height h is:",
+      "options": [
+        "2 pi r h",
+        "pi r^2 h",
+        "pi r h",
+        "2 pi r^2"
+      ],
+      "answer": "A",
+      "explanation": "Curved surface area = 2 x pi x r x h.",
+      "difficulty": "Medium",
+      "topic": "Surface Area of Cylinder",
+      "id": "lba_mcq_9"
+    },
+    {
+      "q": "A square field of side 9 m has perimeter:",
+      "options": [
+        "81 m",
+        "36 m",
+        "18 m",
+        "27 m"
+      ],
+      "answer": "B",
+      "explanation": "Perimeter = 4 x 9 = 36 m.",
+      "difficulty": "Easy",
+      "topic": "Perimeter of Square",
+      "id": "lba_mcq_10"
+    }
+  ]
+}

@@ -1,0 +1,231 @@
+{
+  "class": "10",
+  "subject": "Science",
+  "chapter": "4",
+  "chapter_name": "Carbon and its Compounds",
+  "theme": "Chemical Substances - Nature and Behaviour",
+  "lba_qa": [
+    {
+      "id": "lba_qa_1",
+      "q": "When LPG burns in a kitchen stove, it gives a clean blue flame, but a candle or wood gives a yellow, sooty flame. Explain this difference based on combustion.",
+      "a": "LPG burns with enough oxygen, leading to complete combustion, which gives a clean blue flame. A candle and wood do not get enough oxygen and contain more carbon, leading to incomplete combustion. This produces unburnt carbon particles (soot) and a yellow flame. Complete combustion gives a blue flame; incomplete combustion gives a sooty yellow flame.",
+      "difficulty": "Average",
+      "topic": "Chemical properties - Combustion",
+      "marks": 2
+    },
+    {
+      "id": "lba_qa_2",
+      "q": "A cook notices the bottom of cooking vessels turns black when the gas stove's air holes are blocked. Explain why this happens and how to fix it.",
+      "a": "When the air holes are blocked, the gas does not get enough oxygen, causing incomplete combustion. This produces black, unburnt carbon (soot) that deposits on the vessel. Cleaning the air holes allows more oxygen in, giving complete combustion and a clean blue flame without soot.",
+      "difficulty": "Easy",
+      "topic": "Combustion (complete vs incomplete)",
+      "marks": 2
+    },
+    {
+      "id": "lba_qa_3",
+      "q": "Vegetable oils (unsaturated) are converted into vegetable ghee (saturated) in factories by passing hydrogen gas through them. Name this reaction and explain it.",
+      "a": "This is called a hydrogenation reaction, which is a type of addition reaction. Unsaturated oils have double bonds. In the presence of a catalyst (nickel), hydrogen adds across the double bonds, converting the unsaturated oil into a saturated fat (vegetable ghee). This is how cooking oils are hardened into vanaspati.",
+      "difficulty": "Average",
+      "topic": "Addition reaction",
+      "marks": 3
+    },
+    {
+      "id": "lba_qa_4",
+      "q": "Doctors advise eating food cooked in oils with unsaturated fats rather than saturated fats. Connect this advice to the chemical structure of these fats.",
+      "a": "Unsaturated fats contain carbon-carbon double bonds, while saturated fats have only single bonds. Saturated fats are considered less healthy because they can raise the risk of heart problems. Unsaturated fats (in many vegetable oils) are considered healthier. So the chemical structure (presence of double bonds) is linked to the health advice.",
+      "difficulty": "Average",
+      "topic": "Saturated and unsaturated carbon compounds",
+      "marks": 2
+    },
+    {
+      "id": "lba_qa_5",
+      "q": "Hard water makes it difficult to form lather with soap and leaves a sticky white solid (scum) on clothes. Explain why, and what could be used instead.",
+      "a": "Hard water contains calcium and magnesium salts. Soap reacts with these salts to form an insoluble substance called scum, instead of lather. This wastes soap and dirties the clothes. Detergents can be used instead because they do not form scum with hard water and clean effectively even in hard water.",
+      "difficulty": "Difficult",
+      "topic": "Soaps and detergents",
+      "marks": 3
+    },
+    {
+      "id": "lba_qa_6",
+      "q": "Soap is able to remove oily dirt from clothes even though oil and water do not mix. Explain how soap works.",
+      "a": "A soap molecule has two ends: one end dissolves in water (hydrophilic) and the other dissolves in oil/grease (hydrophobic). The oil-loving end attaches to the dirt/grease, and the water-loving end stays in water. The soap molecules surround the dirt forming a structure called a micelle, which is washed away with water. This is how soap removes oily dirt.",
+      "difficulty": "Difficult",
+      "topic": "Soaps and detergents (cleansing action)",
+      "marks": 3
+    },
+    {
+      "id": "lba_qa_7",
+      "q": "Ethanol is used in alcoholic drinks and also as a fuel, but consuming it affects health. Mention one useful property and one harmful effect of ethanol.",
+      "a": "Useful: Ethanol is a good fuel and is also used as a solvent in medicines, tinctures and many products. It burns to release energy. Harmful: Drinking ethanol slows down body functions, affects judgement and coordination, and excessive consumption damages the liver and health. So ethanol is useful industrially but harmful when consumed.",
+      "difficulty": "Easy",
+      "topic": "Properties of ethanol",
+      "marks": 2
+    },
+    {
+      "id": "lba_qa_8",
+      "q": "A bottle of vinegar (dilute ethanoic acid) is used in the kitchen for pickling and cooking. Why does ethanoic acid make a good food preservative?",
+      "a": "Ethanoic acid (acetic acid) in vinegar is a weak acid. Its acidic nature stops the growth of bacteria and other microbes that spoil food. This is why vinegar is used to preserve pickles and other foods. Its sour taste and smell also add flavour.",
+      "difficulty": "Average",
+      "topic": "Properties of ethanoic acid",
+      "marks": 2
+    },
+    {
+      "id": "lba_qa_9",
+      "q": "Diamond and graphite are both made of only carbon, yet diamond is the hardest substance and graphite is soft and used in pencils. Explain how the same element gives such different materials.",
+      "a": "In diamond, each carbon atom is bonded to four other carbon atoms in a strong, rigid three-dimensional structure, making it extremely hard. In graphite, carbon atoms are arranged in layers that can slide over each other, making it soft and slippery. So the different arrangement of carbon atoms gives diamond and graphite their very different properties.",
+      "difficulty": "Difficult",
+      "topic": "Bonding in carbon / versatile nature of carbon",
+      "marks": 3
+    },
+    {
+      "id": "lba_qa_10",
+      "q": "Members of a homologous series like methane, ethane and propane have similar chemical properties but differ in physical properties. Give a daily-life link to this idea.",
+      "a": "A homologous series is a group of carbon compounds with the same general formula, differing by a -CH2- unit. For example, in cooking fuels, methane (natural gas) and the components of LPG belong to such series. They have similar burning behaviour (chemical property) but differ in boiling point and state (physical property), which is why some are gases and others liquids at room temperature.",
+      "difficulty": "Average",
+      "topic": "Homologous series",
+      "marks": 2
+    }
+  ],
+  "lba_mcq": [
+    {
+      "id": "lba_mcq_1",
+      "q": "The gas stove flame turns yellow and the vessel bottoms get blackened. The most likely reason is:",
+      "options": [
+        "Incomplete combustion due to insufficient oxygen",
+        "Too much oxygen",
+        "The gas is impure water",
+        "The vessel is too clean"
+      ],
+      "answer": "A",
+      "explanation": "A yellow sooty flame and black deposits indicate incomplete combustion due to insufficient oxygen. Cleaning the air holes restores a blue flame.",
+      "difficulty": "Easy",
+      "topic": "Combustion"
+    },
+    {
+      "id": "lba_mcq_2",
+      "q": "Vegetable oil is converted to vanaspati ghee in industry by adding hydrogen. This reaction is a/an:",
+      "options": [
+        "Substitution reaction",
+        "Addition (hydrogenation) reaction",
+        "Combustion reaction",
+        "Displacement reaction"
+      ],
+      "answer": "B",
+      "explanation": "Adding hydrogen across the double bonds of unsaturated oils is hydrogenation, a type of addition reaction, which converts oil to solid fat.",
+      "difficulty": "Average",
+      "topic": "Addition reaction"
+    },
+    {
+      "id": "lba_mcq_3",
+      "q": "Why does soap fail to give good lather with hard water?",
+      "options": [
+        "Hard water is hot",
+        "Hard water has no oxygen",
+        "Soap reacts with calcium/magnesium salts to form scum",
+        "Soap dissolves fully"
+      ],
+      "answer": "C",
+      "explanation": "Hard water contains calcium and magnesium salts that react with soap to form insoluble scum instead of lather, wasting soap.",
+      "difficulty": "Average",
+      "topic": "Soaps and detergents"
+    },
+    {
+      "id": "lba_mcq_4",
+      "q": "A student tests an unknown liquid and finds it reacts with sodium hydrogencarbonate releasing CO2 (brisk effervescence). The liquid is most likely:",
+      "options": [
+        "Ethanol",
+        "Petrol",
+        "Cooking oil",
+        "Ethanoic acid (vinegar)"
+      ],
+      "answer": "D",
+      "explanation": "Ethanoic acid (an acid) reacts with sodium hydrogencarbonate to release CO2. Ethanol does not give this reaction; this test distinguishes acid from alcohol.",
+      "difficulty": "Average",
+      "topic": "Properties of ethanoic acid"
+    },
+    {
+      "id": "lba_mcq_5",
+      "q": "Diamond is the hardest natural substance while graphite is soft, even though both are made of only carbon. The reason is:",
+      "options": [
+        "Different arrangement of carbon atoms",
+        "Diamond has more carbon atoms",
+        "Graphite contains hydrogen",
+        "Diamond is a metal"
+      ],
+      "answer": "A",
+      "explanation": "The different arrangement (structure) of carbon atoms gives diamond its hardness and graphite its softness, though both are pure carbon.",
+      "difficulty": "Difficult",
+      "topic": "Versatile nature of carbon"
+    },
+    {
+      "id": "lba_mcq_6",
+      "q": "The cleansing action of soap is due to the formation of structures that trap oily dirt. These are called:",
+      "options": [
+        "Crystals",
+        "Micelles",
+        "Bubbles",
+        "Esters"
+      ],
+      "answer": "B",
+      "explanation": "Soap molecules surround the oily dirt forming micelles, with the oil-loving ends inside and water-loving ends outside, which are washed away.",
+      "difficulty": "Average",
+      "topic": "Cleansing action of soap"
+    },
+    {
+      "id": "lba_mcq_7",
+      "q": "Vinegar is used to preserve pickles mainly because ethanoic acid:",
+      "options": [
+        "Adds sweetness",
+        "Adds colour",
+        "Stops the growth of spoilage microbes",
+        "Increases water content"
+      ],
+      "answer": "C",
+      "explanation": "The acidic nature of ethanoic acid (vinegar) prevents the growth of bacteria and microbes, preserving the food.",
+      "difficulty": "Easy",
+      "topic": "Properties of ethanoic acid"
+    },
+    {
+      "id": "lba_mcq_8",
+      "q": "Cooking oils with carbon-carbon double bonds are called:",
+      "options": [
+        "Saturated fats",
+        "Mineral salts",
+        "Ionic compounds",
+        "Unsaturated fats"
+      ],
+      "answer": "D",
+      "explanation": "Fats and oils containing carbon-carbon double bonds are unsaturated. These are generally considered healthier than saturated fats.",
+      "difficulty": "Easy",
+      "topic": "Saturated and unsaturated compounds"
+    },
+    {
+      "id": "lba_mcq_9",
+      "q": "Methane, ethane and propane belong to the same homologous series. This means they have:",
+      "options": [
+        "The same general formula and similar chemical properties",
+        "Exactly the same boiling point",
+        "Different elements in each",
+        "No carbon atoms"
+      ],
+      "answer": "A",
+      "explanation": "A homologous series has the same general formula and similar chemical properties, with members differing by a -CH2- unit and showing a gradual change in physical properties.",
+      "difficulty": "Average",
+      "topic": "Homologous series"
+    },
+    {
+      "id": "lba_mcq_10",
+      "q": "Detergents are preferred over soaps for washing clothes in hard water because detergents:",
+      "options": [
+        "Form scum easily",
+        "Do not form scum with hard water",
+        "Are made of metals",
+        "Dissolve only in oil"
+      ],
+      "answer": "B",
+      "explanation": "Detergents do not form insoluble scum with the calcium and magnesium salts in hard water, so they clean effectively even in hard water.",
+      "difficulty": "Average",
+      "topic": "Soaps and detergents"
+    }
+  ]
+}

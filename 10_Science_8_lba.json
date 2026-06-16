@@ -1,0 +1,231 @@
+{
+  "class": "10",
+  "subject": "Science",
+  "chapter": "8",
+  "chapter_name": "Heredity",
+  "theme": "World of Living",
+  "lba_qa": [
+    {
+      "id": "lba_qa_1",
+      "q": "In a family, both parents can roll their tongue, and so can their child. But in another family, the parents can roll their tongue while the child cannot. Explain how this is possible using the idea of inherited traits.",
+      "a": "Traits are controlled by genes, and we get one set from each parent. Tongue-rolling can be a dominant or recessive trait. If both parents carry a hidden (recessive) form of the gene along with the dominant one, the child can inherit the recessive form from both and not be able to roll the tongue, even though the parents can. This shows how hidden (recessive) traits can appear in children.",
+      "difficulty": "Difficult",
+      "topic": "Inherited traits / Rules of inheritance",
+      "marks": 3
+    },
+    {
+      "id": "lba_qa_2",
+      "q": "A couple has three daughters and they hope the next child will be a boy. Scientifically, who determines the sex of the child and what are the chances?",
+      "a": "The sex of a child is determined by the father. The mother always gives an X chromosome. The father can give either an X (resulting in a girl, XX) or a Y (resulting in a boy, XY). So there is about a 50% chance of a boy and 50% chance of a girl for each child, no matter how many children of one sex were born before. The mother does not decide the sex.",
+      "difficulty": "Average",
+      "topic": "Sex determination",
+      "marks": 3
+    },
+    {
+      "id": "lba_qa_3",
+      "q": "When Mendel crossed tall pea plants with short pea plants, all the offspring in the first generation were tall. The short trait reappeared in the next generation. Explain this observation.",
+      "a": "Tallness is a dominant trait and shortness is a recessive trait. In the first generation, every plant received one tall and one short factor (gene), but since tall is dominant, all plants appeared tall. The short (recessive) factor was hidden, not lost. In the next generation, some plants received the short factor from both parents, so the short trait reappeared. This was Mendel's important finding about dominant and recessive traits.",
+      "difficulty": "Difficult",
+      "topic": "Mendel's contributions",
+      "marks": 3
+    },
+    {
+      "id": "lba_qa_4",
+      "q": "A person has a scar on their arm from an accident. Will this scar be passed on to their children? Explain.",
+      "a": "No, the scar will not be passed on. Only traits controlled by genes in the reproductive cells (germ cells) are inherited by children. A scar is an acquired character that affects only the body cells, not the genes in reproductive cells. So acquired characters like scars, learned skills or muscles built by exercise are not passed to the next generation.",
+      "difficulty": "Average",
+      "topic": "Inherited traits / acquired traits",
+      "marks": 2
+    },
+    {
+      "id": "lba_qa_5",
+      "q": "Children show a mix of features from both their mother and father — for example, the eyes of one parent and the nose of the other. Explain why, using the idea of genes.",
+      "a": "Every child receives two sets of genes — one from the mother and one from the father. Different traits (eye shape, nose shape, etc.) are controlled by different genes. The child inherits some genes from the mother and some from the father, so they show a mixture of features from both parents. This is the basis of heredity.",
+      "difficulty": "Easy",
+      "topic": "Inherited traits",
+      "marks": 2
+    },
+    {
+      "id": "lba_qa_6",
+      "q": "Variations slowly build up over many generations. How does this accumulation of variation help in the long run for a species?",
+      "a": "During reproduction, small variations appear in each generation and add up over many generations. Over a long time, these accumulated variations can make a group of organisms quite different from their ancestors. If the variations are useful, they help the organisms adapt to changing environments and may even lead to the formation of new species. So accumulation of variation is important for evolution and survival.",
+      "difficulty": "Difficult",
+      "topic": "Accumulation of variation during reproduction",
+      "marks": 3
+    },
+    {
+      "id": "lba_qa_7",
+      "q": "A child has blood group O, but both parents have blood group A and B. Use the idea of dominant and recessive genes to explain how this is possible.",
+      "a": "Blood group is controlled by genes, where A and B are dominant and O is recessive. A parent with group A can carry a hidden O gene (AO), and a parent with group B can carry a hidden O gene (BO). If the child receives the O gene from both parents, the child will have blood group O. This shows how a recessive trait can appear in a child when both parents carry it hidden.",
+      "difficulty": "Difficult",
+      "topic": "How traits get expressed",
+      "marks": 3
+    },
+    {
+      "id": "lba_qa_8",
+      "q": "Why do we say that the father is responsible for the sex of the child and not the mother? Explain using chromosomes.",
+      "a": "Humans have sex chromosomes: females are XX and males are XY. The mother always provides an X chromosome to the child. The father can provide either an X or a Y chromosome. If the father gives X, the child is a girl (XX); if he gives Y, the child is a boy (XY). So the chromosome from the father decides the sex of the child, not the mother.",
+      "difficulty": "Average",
+      "topic": "Sex determination",
+      "marks": 2
+    },
+    {
+      "id": "lba_qa_9",
+      "q": "Genes are described as the units that carry information from parents to offspring. Where are genes located and how do they pass to the next generation?",
+      "a": "Genes are located on thread-like structures called chromosomes, found inside the nucleus of cells. During reproduction, the offspring receives chromosomes (and the genes on them) from both parents through the reproductive cells (gametes). This is how genetic information, and hence traits, are passed from parents to children.",
+      "difficulty": "Average",
+      "topic": "Inherited traits / how traits are expressed",
+      "marks": 2
+    },
+    {
+      "id": "lba_qa_10",
+      "q": "A trait that is present in the genes but does not show up in a person is called a recessive trait. Give an everyday example showing how a recessive trait can suddenly appear in a child.",
+      "a": "An example is when two parents with attached or free earlobes (or being able to roll the tongue) have a child showing the opposite trait. If both parents carry a hidden recessive gene along with the dominant one, the child may inherit the recessive gene from both parents and show the recessive trait, even though neither parent shows it. So recessive traits can stay hidden for a generation and then reappear.",
+      "difficulty": "Average",
+      "topic": "How traits get expressed (dominant/recessive)",
+      "marks": 2
+    }
+  ],
+  "lba_mcq": [
+    {
+      "id": "lba_mcq_1",
+      "q": "The sex of a human child is determined by:",
+      "options": [
+        "The father",
+        "The mother",
+        "Both equally decide each time",
+        "The environment"
+      ],
+      "answer": "A",
+      "explanation": "The mother always gives an X chromosome. The father gives either X (girl) or Y (boy), so the father determines the sex of the child.",
+      "difficulty": "Average",
+      "topic": "Sex determination"
+    },
+    {
+      "id": "lba_mcq_2",
+      "q": "Mendel crossed pure tall and pure short pea plants. The first generation plants were all:",
+      "options": [
+        "Short",
+        "Tall",
+        "Half tall, half short",
+        "Medium height"
+      ],
+      "answer": "B",
+      "explanation": "Tallness is dominant over shortness, so all first-generation plants were tall, with the short (recessive) factor hidden.",
+      "difficulty": "Average",
+      "topic": "Mendel's contributions"
+    },
+    {
+      "id": "lba_mcq_3",
+      "q": "A bodybuilder develops big muscles by exercise. His children will:",
+      "options": [
+        "Be born with big muscles",
+        "Always be weak",
+        "NOT inherit the big muscles (acquired trait)",
+        "Inherit the muscles only if it is a boy"
+      ],
+      "answer": "C",
+      "explanation": "Muscles built by exercise are acquired traits affecting only body cells, not reproductive cells, so they are not inherited.",
+      "difficulty": "Average",
+      "topic": "Inherited vs acquired traits"
+    },
+    {
+      "id": "lba_mcq_4",
+      "q": "Genes, which carry hereditary information, are located on:",
+      "options": [
+        "The cell wall",
+        "The cell membrane",
+        "Mitochondria only",
+        "Chromosomes in the nucleus"
+      ],
+      "answer": "D",
+      "explanation": "Genes are present on chromosomes inside the nucleus of cells and are passed to offspring through reproductive cells.",
+      "difficulty": "Easy",
+      "topic": "Inherited traits"
+    },
+    {
+      "id": "lba_mcq_5",
+      "q": "Both parents have blood group A and B, but their child has blood group O. This is possible because O is:",
+      "options": [
+        "Recessive and was hidden in both parents",
+        "Dominant",
+        "A new trait",
+        "Not inherited"
+      ],
+      "answer": "A",
+      "explanation": "O is recessive. If both parents carry a hidden O gene, the child can inherit O from both and show blood group O.",
+      "difficulty": "Difficult",
+      "topic": "How traits get expressed"
+    },
+    {
+      "id": "lba_mcq_6",
+      "q": "A trait that remains hidden in the presence of another trait is called:",
+      "options": [
+        "Dominant",
+        "Recessive",
+        "Acquired",
+        "Inherited"
+      ],
+      "answer": "B",
+      "explanation": "A recessive trait stays hidden when a dominant trait is present, and shows only when both genes are recessive.",
+      "difficulty": "Easy",
+      "topic": "Dominant and recessive traits"
+    },
+    {
+      "id": "lba_mcq_7",
+      "q": "A human male has sex chromosomes:",
+      "options": [
+        "XX",
+        "YY",
+        "XY",
+        "X only"
+      ],
+      "answer": "C",
+      "explanation": "Human males have XY sex chromosomes, while females have XX.",
+      "difficulty": "Easy",
+      "topic": "Sex determination"
+    },
+    {
+      "id": "lba_mcq_8",
+      "q": "A couple already has two boys. The chance that their third child is a girl is:",
+      "options": [
+        "0%",
+        "100%",
+        "25%",
+        "About 50%"
+      ],
+      "answer": "D",
+      "explanation": "Each child has about a 50% chance of being a girl or boy, independent of previous children, since the father gives X or Y randomly.",
+      "difficulty": "Average",
+      "topic": "Sex determination"
+    },
+    {
+      "id": "lba_mcq_9",
+      "q": "Children resemble both parents because they inherit:",
+      "options": [
+        "One set of genes from each parent",
+        "Genes only from the father",
+        "Genes only from the mother",
+        "No genes at all"
+      ],
+      "answer": "A",
+      "explanation": "Children receive one set of genes from each parent, so they show a mixture of features from both.",
+      "difficulty": "Easy",
+      "topic": "Inherited traits"
+    },
+    {
+      "id": "lba_mcq_10",
+      "q": "Variations that accumulate over many generations are important because they:",
+      "options": [
+        "Stop reproduction",
+        "Help organisms adapt and may lead to new species",
+        "Make all organisms identical",
+        "Always harm the species"
+      ],
+      "answer": "B",
+      "explanation": "Accumulated useful variations help organisms adapt to changing environments and can lead to evolution of new species.",
+      "difficulty": "Difficult",
+      "topic": "Accumulation of variation"
+    }
+  ]
+}

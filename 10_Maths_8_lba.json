@@ -1,0 +1,231 @@
+{
+  "class": "10",
+  "subject": "Maths",
+  "chapter": "8",
+  "chapter_name": "Introduction to Trigonometry",
+  "theme": "Trigonometry",
+  "lba_qa": [
+    {
+      "id": "lba_qa_1",
+      "q": "In a right triangle, the side opposite to an angle is 3 cm, the adjacent side is 4 cm and the hypotenuse is 5 cm. Find sin, cos and tan of that angle.",
+      "a": "For an angle in a right triangle:\nsin = opposite/hypotenuse = 3/5.\ncos = adjacent/hypotenuse = 4/5.\ntan = opposite/adjacent = 3/4.\nSo sin = 3/5, cos = 4/5, tan = 3/4.",
+      "difficulty": "Average",
+      "topic": "Trigonometric ratios",
+      "marks": 3
+    },
+    {
+      "id": "lba_qa_2",
+      "q": "Why is the value of sin of any angle never more than 1? Explain using the sides of a right triangle.",
+      "a": "sin of an angle = opposite side / hypotenuse. In a right triangle, the hypotenuse is always the longest side, so the opposite side is always shorter than (or equal to) the hypotenuse. Therefore, opposite/hypotenuse is always less than or equal to 1. That is why the value of sin (and also cos) of any angle never exceeds 1.",
+      "difficulty": "Difficult",
+      "topic": "Trigonometric ratios (range)",
+      "marks": 2
+    },
+    {
+      "id": "lba_qa_3",
+      "q": "Find the value of sin 30 degrees + cos 60 degrees, using standard values.",
+      "a": "Standard values: sin 30 = 1/2 and cos 60 = 1/2.\nsin 30 + cos 60 = 1/2 + 1/2 = 1.\nSo the value is 1.",
+      "difficulty": "Easy",
+      "topic": "Trigonometric ratios of standard angles",
+      "marks": 2
+    },
+    {
+      "id": "lba_qa_4",
+      "q": "Prove that sin^2 A + cos^2 A = 1 holds for A = 30 degrees, using standard values.",
+      "a": "Standard values: sin 30 = 1/2, cos 30 = (square root 3)/2.\nsin^2 30 = (1/2)^2 = 1/4.\ncos^2 30 = ((square root 3)/2)^2 = 3/4.\nsin^2 30 + cos^2 30 = 1/4 + 3/4 = 4/4 = 1.\nSo the identity sin^2 A + cos^2 A = 1 holds for A = 30 degrees.",
+      "difficulty": "Average",
+      "topic": "Trigonometric identities",
+      "marks": 3
+    },
+    {
+      "id": "lba_qa_5",
+      "q": "If tan A = 1, find the angle A and give one real-life situation where this ratio occurs.",
+      "a": "tan A = 1 means opposite/adjacent = 1, so the opposite and adjacent sides are equal. This happens when A = 45 degrees.\nReal-life: if a ramp or a hill rises 1 metre for every 1 metre of horizontal distance, the angle of inclination is 45 degrees (tan 45 = 1). So a slope that goes up equally as it goes forward makes a 45 degree angle.",
+      "difficulty": "Average",
+      "topic": "Trigonometric ratios of standard angles",
+      "marks": 2
+    },
+    {
+      "id": "lba_qa_6",
+      "q": "In a right triangle, if cos A = 4/5, find sin A using the identity sin^2 A + cos^2 A = 1.",
+      "a": "We know sin^2 A + cos^2 A = 1.\ncos A = 4/5, so cos^2 A = 16/25.\nsin^2 A = 1 - 16/25 = 9/25.\nsin A = square root of (9/25) = 3/5.\nSo sin A = 3/5.",
+      "difficulty": "Average",
+      "topic": "Trigonometric identities",
+      "marks": 3
+    },
+    {
+      "id": "lba_qa_7",
+      "q": "What is the value of tan 90 degrees, and why is it said to be 'not defined'?",
+      "a": "tan of an angle = sin/cos. At 90 degrees, cos 90 = 0, and dividing by zero is not allowed in mathematics. So tan 90 = sin 90 / cos 90 = 1/0, which is not defined. That is why tan 90 degrees is said to be undefined (not defined).",
+      "difficulty": "Difficult",
+      "topic": "Trigonometric ratios of standard angles",
+      "marks": 2
+    },
+    {
+      "id": "lba_qa_8",
+      "q": "Find the value of (sin 45 degrees)(cos 45 degrees).",
+      "a": "Standard values: sin 45 = 1/(square root 2), cos 45 = 1/(square root 2).\nProduct = (1/square root 2) x (1/square root 2) = 1/2.\nSo (sin 45)(cos 45) = 1/2.",
+      "difficulty": "Average",
+      "topic": "Trigonometric ratios of standard angles",
+      "marks": 2
+    },
+    {
+      "id": "lba_qa_9",
+      "q": "Explain why sin and cos are called 'ratios' and how this makes trigonometry useful in measuring heights.",
+      "a": "sin, cos and tan are ratios of the sides of a right triangle (like opposite/hypotenuse). Because they depend only on the angle (not the size of the triangle), if we know an angle and one side, we can find the other sides using these ratios. This is why trigonometry is useful for finding heights and distances (like the height of a tower) without actually measuring them directly, just by measuring an angle and a distance.",
+      "difficulty": "Average",
+      "topic": "Trigonometric ratios (concept)",
+      "marks": 2
+    },
+    {
+      "id": "lba_qa_10",
+      "q": "If sin A = cos A in a right triangle, find the angle A.",
+      "a": "sin A = cos A means opposite/hypotenuse = adjacent/hypotenuse, so opposite = adjacent. This happens when the two sides are equal, which occurs at A = 45 degrees (since sin 45 = cos 45 = 1/square root 2). So A = 45 degrees.",
+      "difficulty": "Average",
+      "topic": "Trigonometric ratios of standard angles",
+      "marks": 2
+    }
+  ],
+  "lba_mcq": [
+    {
+      "id": "lba_mcq_1",
+      "q": "In a right triangle, opposite = 3, adjacent = 4, hypotenuse = 5. The value of sin of that angle is:",
+      "options": [
+        "3/5",
+        "3/4",
+        "4/5",
+        "5/3"
+      ],
+      "answer": "A",
+      "explanation": "sin = opposite/hypotenuse = 3/5.",
+      "difficulty": "Average",
+      "topic": "Trigonometric ratios"
+    },
+    {
+      "id": "lba_mcq_2",
+      "q": "The value of sin of any angle can never be more than:",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "10"
+      ],
+      "answer": "B",
+      "explanation": "sin = opposite/hypotenuse, and the hypotenuse is the longest side, so sin is never more than 1.",
+      "difficulty": "Average",
+      "topic": "Range of ratios"
+    },
+    {
+      "id": "lba_mcq_3",
+      "q": "The value of sin 30 + cos 60 is:",
+      "options": [
+        "1/2",
+        "0",
+        "1",
+        "2"
+      ],
+      "answer": "C",
+      "explanation": "sin 30 = 1/2, cos 60 = 1/2, sum = 1.",
+      "difficulty": "Easy",
+      "topic": "Standard angles"
+    },
+    {
+      "id": "lba_mcq_4",
+      "q": "If tan A = 1, then angle A is:",
+      "options": [
+        "30 degrees",
+        "60 degrees",
+        "90 degrees",
+        "45 degrees"
+      ],
+      "answer": "D",
+      "explanation": "tan 45 = 1 (opposite = adjacent), so A = 45 degrees.",
+      "difficulty": "Easy",
+      "topic": "Standard angles"
+    },
+    {
+      "id": "lba_mcq_5",
+      "q": "If cos A = 4/5, then sin A equals:",
+      "options": [
+        "3/5",
+        "4/5",
+        "5/3",
+        "1"
+      ],
+      "answer": "A",
+      "explanation": "sin^2 A = 1 - 16/25 = 9/25, so sin A = 3/5.",
+      "difficulty": "Average",
+      "topic": "Identities"
+    },
+    {
+      "id": "lba_mcq_6",
+      "q": "The value of tan 90 degrees is:",
+      "options": [
+        "0",
+        "Not defined",
+        "1",
+        "Infinity exactly"
+      ],
+      "answer": "B",
+      "explanation": "tan 90 = sin 90/cos 90 = 1/0, which is not defined.",
+      "difficulty": "Difficult",
+      "topic": "Standard angles"
+    },
+    {
+      "id": "lba_mcq_7",
+      "q": "The value of sin^2 30 + cos^2 30 is:",
+      "options": [
+        "0",
+        "1/2",
+        "1",
+        "2"
+      ],
+      "answer": "C",
+      "explanation": "By the identity sin^2 A + cos^2 A = 1, the value is 1.",
+      "difficulty": "Average",
+      "topic": "Identities"
+    },
+    {
+      "id": "lba_mcq_8",
+      "q": "The value of (sin 45)(cos 45) is:",
+      "options": [
+        "1",
+        "square root 2",
+        "0",
+        "1/2"
+      ],
+      "answer": "D",
+      "explanation": "(1/square root 2)(1/square root 2) = 1/2.",
+      "difficulty": "Average",
+      "topic": "Standard angles"
+    },
+    {
+      "id": "lba_mcq_9",
+      "q": "If sin A = cos A in a right triangle, then A is:",
+      "options": [
+        "45 degrees",
+        "30 degrees",
+        "60 degrees",
+        "0 degrees"
+      ],
+      "answer": "A",
+      "explanation": "sin 45 = cos 45, so A = 45 degrees.",
+      "difficulty": "Average",
+      "topic": "Standard angles"
+    },
+    {
+      "id": "lba_mcq_10",
+      "q": "Trigonometric ratios depend only on the:",
+      "options": [
+        "Size of the triangle",
+        "Angle (not the size)",
+        "Colour of the triangle",
+        "Position on paper"
+      ],
+      "answer": "B",
+      "explanation": "Trig ratios depend only on the angle, not on the triangle's size, which makes them useful for finding heights and distances.",
+      "difficulty": "Average",
+      "topic": "Concept of ratios"
+    }
+  ]
+}

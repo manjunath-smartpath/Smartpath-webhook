@@ -1,0 +1,187 @@
+{
+  "class": "9",
+  "subject": "Maths",
+  "chapter": "5",
+  "chapter_name": "Introduction to Euclid Geometry",
+  "theme": "Geometry",
+  "lba_qa": [
+    {
+      "q": "Three friends Anil, Banu and Chetan are of the same height as a fourth friend Deepa. What can you conclude about Anil, Banu and Chetan's heights? Which Euclid axiom does this use?",
+      "a": "Each of the three equals Deepa's height.\n\nEuclid's axiom used:\n'Things which are equal to the same thing are equal to one another.' ✅\n\nSince:\n- Anil = Deepa\n- Banu = Deepa\n- Chetan = Deepa\n\nTherefore Anil = Banu = Chetan in height.\nAll three friends are of the same height.",
+      "difficulty": "Medium",
+      "topic": "Euclid's Axioms",
+      "marks": 2,
+      "id": "lba_qa_1"
+    },
+    {
+      "q": "A carpenter cuts two equal pieces of wood and adds the same length to each. Are the new pieces still equal? Which axiom explains this?",
+      "a": "Yes, the new pieces are still equal.\n\nEuclid's axiom used:\n'If equals are added to equals, the wholes are equal.' ✅\n\nExplanation:\n- The two original pieces are equal\n- The same extra length is added to each\n- So the totals remain equal\n\nThis is why balanced additions keep things equal.",
+      "difficulty": "Medium",
+      "topic": "Euclid's Axioms",
+      "marks": 2,
+      "id": "lba_qa_2"
+    },
+    {
+      "q": "How many straight lines can be drawn passing through two given points (like two nails on a wall)? State the related Euclid postulate.",
+      "a": "Only ONE straight line can pass through two given points.\n\nEuclid's postulate (first postulate):\n'A straight line may be drawn from any one point to any other point.' ✅\n\nMeaning:\n- Given two distinct points, there is exactly ONE unique straight line joining them\n- That is why two nails fix a single straight string between them.",
+      "difficulty": "Medium",
+      "topic": "Euclid's Postulates",
+      "marks": 2,
+      "id": "lba_qa_3"
+    },
+    {
+      "q": "Two equal water tanks each lose the same amount of water. Are the remaining amounts equal? Name the axiom.",
+      "a": "Yes, the remaining amounts are equal.\n\nEuclid's axiom used:\n'If equals are subtracted from equals, the remainders are equal.' ✅\n\nExplanation:\n- Both tanks started equal\n- The same amount was removed from each\n- So the leftover water is equal in both tanks.",
+      "difficulty": "Easy",
+      "topic": "Euclid's Axioms",
+      "marks": 2,
+      "id": "lba_qa_4"
+    },
+    {
+      "q": "A student says 'the whole wall is bigger than any single window in it.' Which of Euclid's axioms supports this everyday fact?",
+      "a": "Euclid's axiom used:\n'The whole is greater than the part.' ✅\n\nExplanation:\n- The window is a PART of the whole wall\n- A part can never be larger than the whole it belongs to\n- So the whole wall is greater than any single window in it.\n\nThis is a basic, self-evident truth (axiom).",
+      "difficulty": "Easy",
+      "topic": "Euclid's Axioms",
+      "marks": 2,
+      "id": "lba_qa_5"
+    },
+    {
+      "q": "What is the difference between an axiom and a postulate in Euclid's geometry? Give one example of each.",
+      "a": "Both are accepted as true without proof, but:\n\nAXIOM:\n- A general assumption used throughout mathematics\n- Example: 'Things equal to the same thing are equal to one another.' ✅\n\nPOSTULATE:\n- An assumption specific to GEOMETRY\n- Example: 'A straight line may be drawn from any point to any other point.' ✅\n\nSo axioms are general; postulates are geometry-specific.",
+      "difficulty": "Hard",
+      "topic": "Axioms and Postulates",
+      "marks": 3,
+      "id": "lba_qa_6"
+    },
+    {
+      "q": "A line segment AB has a point C exactly in the middle (midpoint). If AC = CB, what can you say about each part compared to AB?",
+      "a": "C is the midpoint, so AC = CB.\n\nUsing Euclid's idea (the whole = sum of parts):\nAB = AC + CB\n\nSince AC = CB:\nAB = 2 x AC\n\nSo each half:\nAC = CB = (1/2) of AB ✅\n\nEach part is exactly half the whole segment AB.",
+      "difficulty": "Medium",
+      "topic": "Line Segment and Midpoint",
+      "marks": 2,
+      "id": "lba_qa_7"
+    },
+    {
+      "q": "Two angles are each equal to a third angle of 60 degrees. What is the measure of each, and which axiom is used?",
+      "a": "Both angles equal the third angle of 60 degrees.\n\nEuclid's axiom used:\n'Things which are equal to the same thing are equal to one another.' ✅\n\nSo:\n- Angle 1 = 60 degrees\n- Angle 2 = 60 degrees\n- Therefore Angle 1 = Angle 2 = 60 degrees\n\nBoth angles measure 60 degrees.",
+      "difficulty": "Easy",
+      "topic": "Euclid's Axioms",
+      "marks": 2,
+      "id": "lba_qa_8"
+    }
+  ],
+  "lba_mcq": [
+    {
+      "q": "Ram, Sham and Gita are each the same age as Latha. What can we conclude about Ram, Sham and Gita's ages?",
+      "options": [
+        "They are all equal",
+        "They are all different",
+        "Only two are equal",
+        "Cannot be decided"
+      ],
+      "answer": "A",
+      "explanation": "By Euclid's axiom 'things equal to the same thing are equal to one another,' since each equals Latha's age, all three are equal in age.",
+      "difficulty": "Easy",
+      "topic": "Euclid's Axioms",
+      "id": "lba_mcq_1"
+    },
+    {
+      "q": "How many straight lines can pass through two distinct points (e.g., two fixed nails)?",
+      "options": [
+        "Infinitely many",
+        "Exactly one",
+        "Exactly two",
+        "None"
+      ],
+      "answer": "B",
+      "explanation": "Through two distinct points exactly one straight line can be drawn — this is based on Euclid's first postulate.",
+      "difficulty": "Easy",
+      "topic": "Euclid's Postulates",
+      "id": "lba_mcq_2"
+    },
+    {
+      "q": "Two equal ropes each have the same length cut off. The remaining ropes are equal because:",
+      "options": [
+        "The whole is greater than the part",
+        "A line has two endpoints",
+        "Equals subtracted from equals give equal remainders",
+        "Things double when cut"
+      ],
+      "answer": "C",
+      "explanation": "By Euclid's axiom, if equals are subtracted from equals, the remainders are equal. So both leftover ropes are equal.",
+      "difficulty": "Medium",
+      "topic": "Euclid's Axioms",
+      "id": "lba_mcq_3"
+    },
+    {
+      "q": "A full cake is always bigger than one slice of it. This illustrates which axiom?",
+      "options": [
+        "Equals added to equals",
+        "Things equal to the same thing",
+        "A point has no dimension",
+        "The whole is greater than the part"
+      ],
+      "answer": "D",
+      "explanation": "A slice is a part of the whole cake. Euclid's axiom states 'the whole is greater than the part.'",
+      "difficulty": "Easy",
+      "topic": "Euclid's Axioms",
+      "id": "lba_mcq_4"
+    },
+    {
+      "q": "Which statement is a POSTULATE (specific to geometry) rather than a general axiom?",
+      "options": [
+        "A straight line can be drawn from any point to any other point",
+        "Things equal to the same thing are equal",
+        "The whole is greater than the part",
+        "Equals added to equals are equal"
+      ],
+      "answer": "A",
+      "explanation": "Drawing a straight line between two points is a geometric assumption — a postulate. The others are general axioms used in all of mathematics.",
+      "difficulty": "Hard",
+      "topic": "Axioms and Postulates",
+      "id": "lba_mcq_5"
+    },
+    {
+      "q": "Two equal glasses are each filled with the same extra water. The total water in each is equal because of:",
+      "options": [
+        "The whole is greater than the part",
+        "Equals added to equals are equal",
+        "A line has length only",
+        "Two points make a line"
+      ],
+      "answer": "B",
+      "explanation": "By Euclid's axiom, if equals are added to equals, the wholes are equal. Both glasses hold equal totals.",
+      "difficulty": "Medium",
+      "topic": "Euclid's Axioms",
+      "id": "lba_mcq_6"
+    },
+    {
+      "q": "C is the midpoint of segment AB. Then AC equals:",
+      "options": [
+        "AB",
+        "2 times AB",
+        "Half of AB",
+        "AB + CB"
+      ],
+      "answer": "C",
+      "explanation": "A midpoint divides the segment into two equal halves, so AC = CB = half of AB.",
+      "difficulty": "Medium",
+      "topic": "Midpoint",
+      "id": "lba_mcq_7"
+    },
+    {
+      "q": "A point in Euclid's geometry is described as something that has:",
+      "options": [
+        "Length only",
+        "Length and breadth",
+        "Three dimensions",
+        "No length, breadth or thickness (no dimension)"
+      ],
+      "answer": "D",
+      "explanation": "In Euclid's geometry, a point has no dimension — no length, breadth, or thickness. It only marks a position.",
+      "difficulty": "Easy",
+      "topic": "Euclid's Definitions",
+      "id": "lba_mcq_8"
+    }
+  ]
+}

@@ -1,0 +1,231 @@
+{
+  "class": "10",
+  "subject": "Science",
+  "chapter": "13",
+  "chapter_name": "Our Environment",
+  "theme": "Natural Resources",
+  "lba_qa": [
+    {
+      "id": "lba_qa_1",
+      "q": "In a food chain grass → deer → tiger, if all the tigers are killed by hunters, what will happen to the deer and the grass? Explain.",
+      "a": "If tigers are removed, the number of deer will increase because there is no predator to control them. The large number of deer will eat too much grass, and the grass will decrease sharply, possibly destroying the vegetation. This shows that every organism in a food chain is important, and removing one level disturbs the whole ecosystem.",
+      "difficulty": "Average",
+      "topic": "Food chains and webs",
+      "marks": 3
+    },
+    {
+      "id": "lba_qa_2",
+      "q": "Harmful chemicals like pesticides used on crops are found in higher amounts in humans than in plants. Explain this using the idea of food chains.",
+      "a": "Pesticides enter plants and pass into animals that eat them. These chemicals are not broken down easily and accumulate at each level of the food chain. As we move up the food chain (plants → animals → humans), the concentration of these chemicals increases. This process is called biological magnification. Since humans are at the top of many food chains, they end up with the highest amount of these harmful chemicals.",
+      "difficulty": "Difficult",
+      "topic": "Food chains (biological magnification)",
+      "marks": 3
+    },
+    {
+      "id": "lba_qa_3",
+      "q": "We are advised to separate kitchen waste (vegetable peels) from plastic and glass before throwing them. Explain why, using the idea of biodegradable and non-biodegradable waste.",
+      "a": "Vegetable peels are biodegradable — they are broken down by microorganisms and decompose naturally, and can be made into compost. Plastic and glass are non-biodegradable — they are not broken down by microbes and remain in the environment for a very long time, causing pollution. Separating them helps recycle plastic/glass and compost the biodegradable waste, reducing pollution.",
+      "difficulty": "Average",
+      "topic": "Managing the garbage we produce",
+      "marks": 3
+    },
+    {
+      "id": "lba_qa_4",
+      "q": "The use of CFCs (chlorofluorocarbons) in refrigerators and sprays was banned worldwide. Explain why, connecting it to the ozone layer.",
+      "a": "The ozone layer in the upper atmosphere protects us by absorbing harmful ultraviolet (UV) rays from the Sun. CFCs released from refrigerators and sprays rise up and break down the ozone layer, creating an ozone hole. This lets more harmful UV rays reach the Earth, which can cause skin cancer and harm living things. That is why CFCs were banned worldwide.",
+      "difficulty": "Average",
+      "topic": "Ozone layer and its depletion",
+      "marks": 3
+    },
+    {
+      "id": "lba_qa_5",
+      "q": "Only about 10% of the energy passes from one level of a food chain to the next. Explain why food chains usually have only 3 or 4 levels.",
+      "a": "At each level of a food chain, only about 10% of the energy is passed on to the next level; the rest is used up or lost as heat. So the energy keeps decreasing sharply at each level. After 3 or 4 levels, very little energy is left to support another level. That is why food chains generally have only 3 or 4 steps (trophic levels).",
+      "difficulty": "Difficult",
+      "topic": "Food chains (energy flow)",
+      "marks": 3
+    },
+    {
+      "id": "lba_qa_6",
+      "q": "Decomposers like bacteria and fungi are called nature's cleaners. Explain their role in the ecosystem.",
+      "a": "Decomposers break down the dead bodies of plants and animals and waste materials into simpler substances. This cleans the environment and returns nutrients back to the soil, which plants can use again. Without decomposers, dead matter would pile up and nutrients would not be recycled. So decomposers keep the ecosystem clean and keep nutrients cycling.",
+      "difficulty": "Average",
+      "topic": "Ecosystem components",
+      "marks": 2
+    },
+    {
+      "id": "lba_qa_7",
+      "q": "Plastic bags thrown carelessly cause many environmental problems. Give two reasons why plastic is harmful to the environment.",
+      "a": "Plastic is harmful because: (1) It is non-biodegradable — microbes cannot break it down, so it stays in the environment for hundreds of years, causing land and water pollution. (2) It can block drains causing waterlogging, harm animals that eat it, and release harmful gases if burnt. This is why we should reduce, reuse and recycle plastic.",
+      "difficulty": "Easy",
+      "topic": "Managing the garbage we produce",
+      "marks": 2
+    },
+    {
+      "id": "lba_qa_8",
+      "q": "In a garden, plants are producers and insects, birds feed on them. Identify the components of this ecosystem and explain producers and consumers.",
+      "a": "An ecosystem has biotic (living) and abiotic (non-living) components. Producers are green plants that make their own food by photosynthesis (the plants in the garden). Consumers are organisms that eat others for food — insects that eat plants are primary consumers, and birds that eat insects are secondary consumers. Together with decomposers, they form the ecosystem.",
+      "difficulty": "Average",
+      "topic": "Ecosystem components",
+      "marks": 2
+    },
+    {
+      "id": "lba_qa_9",
+      "q": "We are encouraged to make compost from kitchen and garden waste at home. Explain how this helps the environment.",
+      "a": "Kitchen and garden waste is biodegradable. When collected in a compost pit, microorganisms break it down into nutrient-rich compost (manure). This reduces the amount of garbage going to landfills, avoids pollution, and the compost can be used as natural fertiliser for plants instead of chemical fertilisers. So composting is an eco-friendly way to manage waste.",
+      "difficulty": "Easy",
+      "topic": "Managing the garbage we produce",
+      "marks": 2
+    },
+    {
+      "id": "lba_qa_10",
+      "q": "A pond with fish, plants, water and sunlight is called an ecosystem. Explain why it is considered an ecosystem.",
+      "a": "An ecosystem is a place where living organisms interact with each other and with their non-living surroundings. In the pond, the fish and plants (biotic components) interact with water, sunlight and air (abiotic components), and depend on each other for food and survival. Since living and non-living parts interact as a unit, the pond is an ecosystem.",
+      "difficulty": "Easy",
+      "topic": "Ecosystem components",
+      "marks": 2
+    }
+  ],
+  "lba_mcq": [
+    {
+      "id": "lba_mcq_1",
+      "q": "In the food chain grass → deer → tiger, if all tigers are removed, the number of deer will first:",
+      "options": [
+        "Increase, then grass decreases",
+        "Decrease",
+        "Stay the same",
+        "Become zero"
+      ],
+      "answer": "A",
+      "explanation": "Without tigers, deer increase due to no predator, and they overgraze, causing the grass to decrease — disturbing the ecosystem.",
+      "difficulty": "Average",
+      "topic": "Food chains"
+    },
+    {
+      "id": "lba_mcq_2",
+      "q": "Harmful pesticides are found in the highest amount in humans because of:",
+      "options": [
+        "Photosynthesis",
+        "Biological magnification along the food chain",
+        "Decomposition",
+        "Pollination"
+      ],
+      "answer": "B",
+      "explanation": "Pesticides accumulate and increase at each level of the food chain (biological magnification), being highest at the top level (humans).",
+      "difficulty": "Difficult",
+      "topic": "Biological magnification"
+    },
+    {
+      "id": "lba_mcq_3",
+      "q": "Vegetable peels are biodegradable, while plastic bags are:",
+      "options": [
+        "Also biodegradable",
+        "Edible",
+        "Non-biodegradable",
+        "Producers"
+      ],
+      "answer": "C",
+      "explanation": "Plastic is non-biodegradable; microbes cannot break it down, so it persists in the environment causing pollution.",
+      "difficulty": "Easy",
+      "topic": "Managing garbage"
+    },
+    {
+      "id": "lba_mcq_4",
+      "q": "CFCs were banned worldwide because they:",
+      "options": [
+        "Increase oxygen",
+        "Help plants grow",
+        "Cool the Earth safely",
+        "Damage the ozone layer"
+      ],
+      "answer": "D",
+      "explanation": "CFCs break down the ozone layer, which protects us from harmful UV rays, so their use was banned.",
+      "difficulty": "Average",
+      "topic": "Ozone layer depletion"
+    },
+    {
+      "id": "lba_mcq_5",
+      "q": "Food chains usually have only 3-4 levels because at each level:",
+      "options": [
+        "Only about 10% of energy passes to the next level",
+        "Energy increases",
+        "All energy is passed on",
+        "Energy stays the same"
+      ],
+      "answer": "A",
+      "explanation": "Only about 10% of energy passes to the next level; after a few levels too little energy remains to support more.",
+      "difficulty": "Difficult",
+      "topic": "Energy flow in food chains"
+    },
+    {
+      "id": "lba_mcq_6",
+      "q": "Bacteria and fungi that break down dead matter are called:",
+      "options": [
+        "Producers",
+        "Decomposers",
+        "Consumers",
+        "Predators"
+      ],
+      "answer": "B",
+      "explanation": "Decomposers break down dead organisms and waste, recycling nutrients back to the soil and cleaning the environment.",
+      "difficulty": "Easy",
+      "topic": "Ecosystem components"
+    },
+    {
+      "id": "lba_mcq_7",
+      "q": "Green plants in an ecosystem are called:",
+      "options": [
+        "Consumers",
+        "Decomposers",
+        "Producers",
+        "Predators"
+      ],
+      "answer": "C",
+      "explanation": "Green plants make their own food by photosynthesis, so they are producers in an ecosystem.",
+      "difficulty": "Easy",
+      "topic": "Ecosystem components"
+    },
+    {
+      "id": "lba_mcq_8",
+      "q": "The ozone layer is important because it:",
+      "options": [
+        "Provides oxygen to breathe",
+        "Gives us rain",
+        "Produces food",
+        "Absorbs harmful ultraviolet (UV) rays from the Sun"
+      ],
+      "answer": "D",
+      "explanation": "The ozone layer absorbs harmful UV radiation from the Sun, protecting living things on Earth.",
+      "difficulty": "Average",
+      "topic": "Ozone layer"
+    },
+    {
+      "id": "lba_mcq_9",
+      "q": "Making compost from kitchen waste is good because the waste is:",
+      "options": [
+        "Biodegradable and turns into useful manure",
+        "Non-biodegradable",
+        "Made of plastic",
+        "Harmful to plants"
+      ],
+      "answer": "A",
+      "explanation": "Kitchen waste is biodegradable and can be decomposed into nutrient-rich compost, reducing garbage and acting as natural fertiliser.",
+      "difficulty": "Easy",
+      "topic": "Managing garbage"
+    },
+    {
+      "id": "lba_mcq_10",
+      "q": "A pond with fish, plants, water and sunlight is an ecosystem because it has:",
+      "options": [
+        "Only living things",
+        "Living things interacting with their non-living surroundings",
+        "Only non-living things",
+        "No interactions"
+      ],
+      "answer": "B",
+      "explanation": "An ecosystem is formed when living (biotic) and non-living (abiotic) components interact as a unit, as in a pond.",
+      "difficulty": "Average",
+      "topic": "Ecosystem components"
+    }
+  ]
+}

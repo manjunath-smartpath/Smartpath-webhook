@@ -1,0 +1,231 @@
+{
+  "class": "8",
+  "subject": "Maths",
+  "chapter": "3",
+  "chapter_name": "Understanding Quadrilaterals",
+  "theme": "Understanding Quadrilaterals",
+  "lba_qa": [
+    {
+      "q": "A farmer's field is in the shape of a quadrilateral. Three of its angles are 80, 95 and 100 degrees. Find the fourth angle.",
+      "a": "Sum of all angles of a quadrilateral = 360 degrees.\n\nFourth angle = 360 - (80 + 95 + 100)\n= 360 - 275\n= 85 degrees\n\nSo the fourth angle is 85 degrees. ✅",
+      "difficulty": "Easy",
+      "topic": "Angle Sum of a Quadrilateral",
+      "marks": 2,
+      "id": "lba_qa_1"
+    },
+    {
+      "q": "A signboard is a regular hexagon (6 equal sides and angles). Find the measure of each interior angle.",
+      "a": "Sum of interior angles = (n - 2) x 180, where n = 6.\n= (6 - 2) x 180\n= 4 x 180\n= 720 degrees\n\nEach interior angle = 720 / 6 = 120 degrees. ✅",
+      "difficulty": "Medium",
+      "topic": "Interior Angles of a Polygon",
+      "marks": 3,
+      "id": "lba_qa_2"
+    },
+    {
+      "q": "A floor tile is a regular polygon and each exterior angle is 45 degrees. How many sides does the tile have?",
+      "a": "Sum of all exterior angles of any polygon = 360 degrees.\n\nNumber of sides = 360 / each exterior angle\n= 360 / 45\n= 8\n\nSo the tile has 8 sides (a regular octagon). ✅",
+      "difficulty": "Medium",
+      "topic": "Exterior Angles of a Polygon",
+      "marks": 2,
+      "id": "lba_qa_3"
+    },
+    {
+      "q": "In a parallelogram-shaped park, one angle measures 70 degrees. Find the other three angles.",
+      "a": "In a parallelogram, opposite angles are equal and adjacent angles add up to 180 degrees.\n\nAngle opposite to 70 = 70 degrees.\nAdjacent angle = 180 - 70 = 110 degrees.\nIts opposite angle = 110 degrees.\n\nSo the angles are 70, 110, 70 and 110 degrees. ✅",
+      "difficulty": "Medium",
+      "topic": "Properties of a Parallelogram",
+      "marks": 3,
+      "id": "lba_qa_4"
+    },
+    {
+      "q": "A window frame is a rectangle. If one of its diagonals is 13 cm and a rectangle's diagonals are equal, what is the length of the other diagonal?",
+      "a": "In a rectangle, both diagonals are always equal in length.\n\nSo the other diagonal is also 13 cm. ✅",
+      "difficulty": "Easy",
+      "topic": "Properties of a Rectangle",
+      "marks": 1,
+      "id": "lba_qa_5"
+    },
+    {
+      "q": "A kite-shaped craft has two pairs of equal adjacent sides. If the two unequal sides measure 12 cm and 20 cm, find the total length of all four sides (perimeter).",
+      "a": "A kite has two pairs of equal adjacent sides.\nSo the sides are 12, 12, 20 and 20 cm.\n\nPerimeter = 12 + 12 + 20 + 20\n= 64 cm\n\nSo the perimeter is 64 cm. ✅",
+      "difficulty": "Medium",
+      "topic": "Properties of a Kite",
+      "marks": 2,
+      "id": "lba_qa_6"
+    },
+    {
+      "q": "A regular polygon used in a mosaic has each interior angle equal to 108 degrees. How many sides does it have?",
+      "a": "Each exterior angle = 180 - interior angle\n= 180 - 108 = 72 degrees.\n\nNumber of sides = 360 / 72 = 5.\n\nSo it is a regular pentagon with 5 sides. ✅",
+      "difficulty": "Hard",
+      "topic": "Interior and Exterior Angles",
+      "marks": 3,
+      "id": "lba_qa_7"
+    },
+    {
+      "q": "The adjacent angles of a parallelogram are in the ratio 2 : 3. Find both angles.",
+      "a": "Adjacent angles of a parallelogram add up to 180 degrees.\nLet the angles be 2x and 3x.\n\n2x + 3x = 180\n5x = 180\nx = 36\n\nAngles = 2 x 36 = 72 degrees and 3 x 36 = 108 degrees. ✅",
+      "difficulty": "Hard",
+      "topic": "Properties of a Parallelogram",
+      "marks": 3,
+      "id": "lba_qa_8"
+    },
+    {
+      "q": "A rhombus-shaped earring has all sides 6 cm long. Find its perimeter.",
+      "a": "A rhombus has all four sides equal.\n\nPerimeter = 4 x side\n= 4 x 6\n= 24 cm\n\nSo the perimeter is 24 cm. ✅",
+      "difficulty": "Easy",
+      "topic": "Properties of a Rhombus",
+      "marks": 1,
+      "id": "lba_qa_9"
+    },
+    {
+      "q": "The interior angles of a quadrilateral are in the ratio 1 : 2 : 3 : 4. Find the largest angle.",
+      "a": "Sum of angles of a quadrilateral = 360 degrees.\nLet the angles be x, 2x, 3x and 4x.\n\nx + 2x + 3x + 4x = 360\n10x = 360\nx = 36\n\nLargest angle = 4x = 4 x 36 = 144 degrees. ✅",
+      "difficulty": "Medium",
+      "topic": "Angle Sum of a Quadrilateral",
+      "marks": 3,
+      "id": "lba_qa_10"
+    }
+  ],
+  "lba_mcq": [
+    {
+      "q": "Three angles of a quadrilateral-shaped plot are 90, 90 and 90 degrees. The fourth angle is:",
+      "options": [
+        "90 degrees",
+        "120 degrees",
+        "100 degrees",
+        "60 degrees"
+      ],
+      "answer": "A",
+      "explanation": "Sum = 360, so fourth = 360 - 270 = 90 degrees (it is a rectangle).",
+      "difficulty": "Easy",
+      "topic": "Angle Sum of a Quadrilateral",
+      "id": "lba_mcq_1"
+    },
+    {
+      "q": "A regular polygon tile has each exterior angle 60 degrees. The number of sides is:",
+      "options": [
+        "5",
+        "6",
+        "8",
+        "4"
+      ],
+      "answer": "B",
+      "explanation": "Number of sides = 360 / 60 = 6 (a regular hexagon).",
+      "difficulty": "Medium",
+      "topic": "Exterior Angles",
+      "id": "lba_mcq_2"
+    },
+    {
+      "q": "In a parallelogram-shaped gate one angle is 65 degrees. Its adjacent angle is:",
+      "options": [
+        "65 degrees",
+        "90 degrees",
+        "115 degrees",
+        "130 degrees"
+      ],
+      "answer": "C",
+      "explanation": "Adjacent angles add to 180, so 180 - 65 = 115 degrees.",
+      "difficulty": "Medium",
+      "topic": "Parallelogram Angles",
+      "id": "lba_mcq_3"
+    },
+    {
+      "q": "Which shape always has all four sides equal AND all angles 90 degrees, like a chessboard square?",
+      "options": [
+        "Rectangle",
+        "Kite",
+        "Rhombus",
+        "Square"
+      ],
+      "answer": "D",
+      "explanation": "A square has all sides equal and all angles 90 degrees.",
+      "difficulty": "Easy",
+      "topic": "Types of Quadrilaterals",
+      "id": "lba_mcq_4"
+    },
+    {
+      "q": "The sum of interior angles of a pentagon-shaped park is:",
+      "options": [
+        "540 degrees",
+        "180 degrees",
+        "720 degrees",
+        "360 degrees"
+      ],
+      "answer": "A",
+      "explanation": "(n - 2) x 180 = (5 - 2) x 180 = 540 degrees.",
+      "difficulty": "Medium",
+      "topic": "Interior Angles of a Polygon",
+      "id": "lba_mcq_5"
+    },
+    {
+      "q": "A rhombus-shaped board has each side 9 cm. Its perimeter is:",
+      "options": [
+        "81 cm",
+        "36 cm",
+        "18 cm",
+        "27 cm"
+      ],
+      "answer": "B",
+      "explanation": "Perimeter = 4 x 9 = 36 cm.",
+      "difficulty": "Easy",
+      "topic": "Rhombus",
+      "id": "lba_mcq_6"
+    },
+    {
+      "q": "The diagonals of which figure are always equal, like the cross-bars of a rectangular photo frame?",
+      "options": [
+        "General parallelogram",
+        "Kite",
+        "Rectangle",
+        "Rhombus"
+      ],
+      "answer": "C",
+      "explanation": "A rectangle always has equal diagonals.",
+      "difficulty": "Medium",
+      "topic": "Diagonal Properties",
+      "id": "lba_mcq_7"
+    },
+    {
+      "q": "Adjacent angles of a parallelogram window are in ratio 1 : 5. The smaller angle is:",
+      "options": [
+        "45 degrees",
+        "36 degrees",
+        "60 degrees",
+        "30 degrees"
+      ],
+      "answer": "D",
+      "explanation": "x + 5x = 180, so 6x = 180, x = 30 degrees.",
+      "difficulty": "Hard",
+      "topic": "Parallelogram Angles",
+      "id": "lba_mcq_8"
+    },
+    {
+      "q": "A regular octagon stop sign has each interior angle of:",
+      "options": [
+        "135 degrees",
+        "144 degrees",
+        "108 degrees",
+        "120 degrees"
+      ],
+      "answer": "A",
+      "explanation": "Sum = (8-2) x 180 = 1080; each = 1080/8 = 135 degrees.",
+      "difficulty": "Hard",
+      "topic": "Interior Angles of a Polygon",
+      "id": "lba_mcq_9"
+    },
+    {
+      "q": "Which quadrilateral has exactly two pairs of equal adjacent sides, like a flying kite?",
+      "options": [
+        "Rectangle",
+        "Kite",
+        "Square",
+        "Trapezium"
+      ],
+      "answer": "B",
+      "explanation": "A kite has two pairs of equal adjacent sides.",
+      "difficulty": "Easy",
+      "topic": "Types of Quadrilaterals",
+      "id": "lba_mcq_10"
+    }
+  ]
+}

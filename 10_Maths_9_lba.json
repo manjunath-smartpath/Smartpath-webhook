@@ -1,0 +1,231 @@
+{
+  "class": "10",
+  "subject": "Maths",
+  "chapter": "9",
+  "chapter_name": "Some Applications of Trigonometry",
+  "theme": "Trigonometry",
+  "lba_qa": [
+    {
+      "id": "lba_qa_1",
+      "q": "A boy stands 30 m away from the base of a tower. The angle of elevation of the top of the tower is 30 degrees. Find the height of the tower. (tan 30 = 1/square root 3)",
+      "a": "Let the height of the tower = h.\ntan(angle of elevation) = opposite/adjacent = height/distance.\ntan 30 = h/30, so h = 30 x tan 30 = 30 x (1/square root 3) = 30/square root 3 = 10 x square root 3.\nSo the height of the tower is 10 root 3 metres (about 17.3 m).",
+      "difficulty": "Average",
+      "topic": "Heights and distances (angle of elevation)",
+      "marks": 3
+    },
+    {
+      "id": "lba_qa_2",
+      "q": "A ladder leaning against a wall makes an angle of 60 degrees with the ground. If the foot of the ladder is 2.5 m from the wall, find the length of the ladder. (cos 60 = 1/2)",
+      "a": "The ladder is the hypotenuse, the distance from the wall is the adjacent side.\ncos 60 = adjacent/hypotenuse = 2.5/ladder.\n1/2 = 2.5/ladder, so ladder = 2.5 x 2 = 5 m.\nSo the length of the ladder is 5 metres.",
+      "difficulty": "Average",
+      "topic": "Heights and distances",
+      "marks": 3
+    },
+    {
+      "id": "lba_qa_3",
+      "q": "What is meant by 'angle of elevation' and 'angle of depression'? Give a real-life example of each.",
+      "a": "Angle of elevation: the angle made by the line of sight with the horizontal when we look UP at an object (for example, looking up at the top of a tower). Angle of depression: the angle made by the line of sight with the horizontal when we look DOWN at an object (for example, looking down from a balcony at a car on the road). Both are measured from the horizontal line.",
+      "difficulty": "Easy",
+      "topic": "Heights and distances (concept)",
+      "marks": 2
+    },
+    {
+      "id": "lba_qa_4",
+      "q": "The angle of elevation of the top of a building from a point 50 m away is 45 degrees. Find the height of the building. (tan 45 = 1)",
+      "a": "tan 45 = height/distance.\n1 = height/50, so height = 50 m.\nSo the height of the building is 50 metres. (When the elevation angle is 45 degrees, the height equals the horizontal distance.)",
+      "difficulty": "Easy",
+      "topic": "Heights and distances",
+      "marks": 2
+    },
+    {
+      "id": "lba_qa_5",
+      "q": "A kite is flying at a height of 60 m. The string makes an angle of 30 degrees with the ground. Find the length of the string (assume it is straight). (sin 30 = 1/2)",
+      "a": "The string is the hypotenuse and the height is the opposite side.\nsin 30 = height/string length.\n1/2 = 60/string, so string = 60 x 2 = 120 m.\nSo the length of the string is 120 metres.",
+      "difficulty": "Average",
+      "topic": "Heights and distances (real-life)",
+      "marks": 3
+    },
+    {
+      "id": "lba_qa_6",
+      "q": "From the top of a 20 m high building, the angle of depression of a car on the road is 45 degrees. How far is the car from the base of the building? (tan 45 = 1)",
+      "a": "The angle of depression equals the angle of elevation from the car to the top (alternate angles).\ntan 45 = height/distance = 20/distance.\n1 = 20/distance, so distance = 20 m.\nSo the car is 20 metres from the base of the building.",
+      "difficulty": "Average",
+      "topic": "Heights and distances (angle of depression)",
+      "marks": 3
+    },
+    {
+      "id": "lba_qa_7",
+      "q": "Why do we use trigonometry to find the height of a tall tower instead of measuring it directly? Explain.",
+      "a": "A tall tower (or tree, building) cannot be easily measured directly with a tape because of its height. But we can stand at a known distance, measure the angle of elevation of the top using an instrument, and then use trigonometric ratios (like tan = height/distance) to calculate the height. This lets us find heights and distances that are difficult or impossible to measure directly, which is why trigonometry is so useful.",
+      "difficulty": "Average",
+      "topic": "Heights and distances (concept)",
+      "marks": 2
+    },
+    {
+      "id": "lba_qa_8",
+      "q": "A pole casts a shadow of 10 m when the angle of elevation of the Sun is 45 degrees. Find the height of the pole. (tan 45 = 1)",
+      "a": "tan(angle of elevation) = height/shadow length.\ntan 45 = height/10.\n1 = height/10, so height = 10 m.\nSo the height of the pole is 10 metres.",
+      "difficulty": "Easy",
+      "topic": "Heights and distances (real-life)",
+      "marks": 2
+    },
+    {
+      "id": "lba_qa_9",
+      "q": "An observer 1.5 m tall is 28.5 m from a tower. The angle of elevation of the top of the tower from his eyes is 45 degrees. Find the height of the tower. (tan 45 = 1)",
+      "a": "From the observer's eye level: tan 45 = (height of tower above eye level)/distance.\n1 = (h - 1.5)/28.5, so h - 1.5 = 28.5, giving h = 30 m.\n(We add the observer's height of 1.5 m because the angle is measured from his eyes.)\nSo the height of the tower is 30 metres.",
+      "difficulty": "Difficult",
+      "topic": "Heights and distances (real-life)",
+      "marks": 3
+    },
+    {
+      "id": "lba_qa_10",
+      "q": "Why is the angle of depression from a point equal to the angle of elevation to that point? Explain simply.",
+      "a": "When you look down from a height to an object (angle of depression) and the object looks up to you (angle of elevation), the horizontal line at the top and the ground line are parallel. The line of sight is a transversal cutting these parallel lines. By the property of alternate angles, the angle of depression equals the angle of elevation. This is why they are taken as equal in such problems.",
+      "difficulty": "Difficult",
+      "topic": "Heights and distances (concept)",
+      "marks": 2
+    }
+  ],
+  "lba_mcq": [
+    {
+      "id": "lba_mcq_1",
+      "q": "A boy 30 m from a tower sees its top at 30 degrees elevation. The tower's height (tan 30 = 1/root 3) is:",
+      "options": [
+        "10 root 3 m",
+        "30 m",
+        "30 root 3 m",
+        "15 m"
+      ],
+      "answer": "A",
+      "explanation": "h = 30 tan 30 = 30/root 3 = 10 root 3 m.",
+      "difficulty": "Average",
+      "topic": "Angle of elevation"
+    },
+    {
+      "id": "lba_mcq_2",
+      "q": "A ladder makes 60 degrees with the ground, foot 2.5 m from wall (cos 60 = 1/2). Ladder length:",
+      "options": [
+        "2.5 m",
+        "5 m",
+        "10 m",
+        "7.5 m"
+      ],
+      "answer": "B",
+      "explanation": "cos 60 = 2.5/ladder, 1/2 = 2.5/ladder, ladder = 5 m.",
+      "difficulty": "Average",
+      "topic": "Heights and distances"
+    },
+    {
+      "id": "lba_mcq_3",
+      "q": "Looking UP at the top of a tower, the angle with the horizontal is called the angle of:",
+      "options": [
+        "Depression",
+        "Reflection",
+        "Elevation",
+        "Rotation"
+      ],
+      "answer": "C",
+      "explanation": "Looking up makes the angle of elevation with the horizontal.",
+      "difficulty": "Easy",
+      "topic": "Concept"
+    },
+    {
+      "id": "lba_mcq_4",
+      "q": "From 50 m away, a building's top is at 45 degrees elevation (tan 45 = 1). The height is:",
+      "options": [
+        "25 m",
+        "100 m",
+        "75 m",
+        "50 m"
+      ],
+      "answer": "D",
+      "explanation": "tan 45 = h/50, 1 = h/50, h = 50 m.",
+      "difficulty": "Easy",
+      "topic": "Heights and distances"
+    },
+    {
+      "id": "lba_mcq_5",
+      "q": "A kite is at height 60 m, string at 30 degrees with ground (sin 30 = 1/2). String length:",
+      "options": [
+        "120 m",
+        "60 m",
+        "30 m",
+        "90 m"
+      ],
+      "answer": "A",
+      "explanation": "sin 30 = 60/string, 1/2 = 60/string, string = 120 m.",
+      "difficulty": "Average",
+      "topic": "Heights and distances"
+    },
+    {
+      "id": "lba_mcq_6",
+      "q": "From a 20 m building, a car is seen at 45 degrees depression (tan 45 = 1). Car's distance from base:",
+      "options": [
+        "10 m",
+        "20 m",
+        "40 m",
+        "30 m"
+      ],
+      "answer": "B",
+      "explanation": "tan 45 = 20/distance, distance = 20 m.",
+      "difficulty": "Average",
+      "topic": "Angle of depression"
+    },
+    {
+      "id": "lba_mcq_7",
+      "q": "A pole casts a 10 m shadow when the Sun is at 45 degrees (tan 45 = 1). Pole height:",
+      "options": [
+        "5 m",
+        "20 m",
+        "10 m",
+        "15 m"
+      ],
+      "answer": "C",
+      "explanation": "tan 45 = height/10, height = 10 m.",
+      "difficulty": "Easy",
+      "topic": "Heights and distances"
+    },
+    {
+      "id": "lba_mcq_8",
+      "q": "The angle of depression from a point equals the angle of elevation to it because of:",
+      "options": [
+        "Equal sides",
+        "Pythagoras theorem",
+        "Equal areas",
+        "Alternate angles (parallel lines)"
+      ],
+      "answer": "D",
+      "explanation": "The horizontal lines are parallel and the line of sight is a transversal, so by alternate angles they are equal.",
+      "difficulty": "Difficult",
+      "topic": "Concept"
+    },
+    {
+      "id": "lba_mcq_9",
+      "q": "Trigonometry helps measure a tall tower's height because we can:",
+      "options": [
+        "Use an angle and a known distance to calculate it",
+        "Climb it easily",
+        "Guess the height",
+        "Weigh the tower"
+      ],
+      "answer": "A",
+      "explanation": "By measuring the angle of elevation and a known distance, we use trig ratios to calculate the height without direct measurement.",
+      "difficulty": "Average",
+      "topic": "Concept"
+    },
+    {
+      "id": "lba_mcq_10",
+      "q": "An observer 1.5 m tall, 28.5 m from a tower, sees its top at 45 degrees (tan 45 = 1). Tower height:",
+      "options": [
+        "28.5 m",
+        "30 m",
+        "27 m",
+        "31.5 m"
+      ],
+      "answer": "B",
+      "explanation": "(h-1.5)/28.5 = 1, h-1.5 = 28.5, h = 30 m (adding the observer's height).",
+      "difficulty": "Difficult",
+      "topic": "Heights and distances"
+    }
+  ]
+}

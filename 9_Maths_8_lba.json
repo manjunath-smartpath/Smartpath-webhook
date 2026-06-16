@@ -1,0 +1,201 @@
+{
+  "class": "9",
+  "subject": "Maths",
+  "chapter": "8",
+  "chapter_name": "Quadrilaterals",
+  "theme": "Geometry",
+  "lba_qa": [
+    {
+      "q": "A window is made in the shape of a parallelogram. One of its angles is 70 degrees. Find all the other three angles.",
+      "a": "In a parallelogram:\n- Opposite angles are EQUAL\n- Adjacent (co-interior) angles add up to 180 degrees\n\nGiven one angle = 70 degrees.\n- Its opposite angle = 70 degrees\n- Adjacent angle = 180 - 70 = 110 degrees\n- Its opposite = 110 degrees\n\nSo the four angles are: 70, 110, 70, 110 degrees. ✅",
+      "difficulty": "Medium",
+      "topic": "Properties of Parallelogram",
+      "marks": 3,
+      "id": "lba_qa_1"
+    },
+    {
+      "q": "A farmer's rectangular field has its diagonals drawn. He says both diagonals are equal in length. Is he right, and why?",
+      "a": "Yes, the farmer is RIGHT.\n\nProperty of a rectangle:\n'The diagonals of a rectangle are equal in length.' ✅\n\nReason:\n- A rectangle has all angles 90 degrees\n- This makes both diagonals equal\n\nSo both diagonals of the rectangular field are equal. (Note: in a general parallelogram they are NOT equal.)",
+      "difficulty": "Medium",
+      "topic": "Diagonals of Rectangle",
+      "marks": 2,
+      "id": "lba_qa_2"
+    },
+    {
+      "q": "In a parallelogram-shaped park, the diagonals cross at a point. A worker claims this point cuts each diagonal into two equal halves. Justify.",
+      "a": "The worker is CORRECT.\n\nProperty of a parallelogram:\n'The diagonals of a parallelogram bisect each other.' ✅\n\nMeaning:\n- The two diagonals cross at one point\n- That point divides EACH diagonal into two equal parts\n\nSo the crossing point is the midpoint of both diagonals.",
+      "difficulty": "Medium",
+      "topic": "Diagonals of Parallelogram",
+      "marks": 2,
+      "id": "lba_qa_3"
+    },
+    {
+      "q": "In a triangle, the midpoints of two sides are joined. The line joining them is found to be parallel to the third side. State the theorem and what it says about the length.",
+      "a": "This is the MID-POINT THEOREM.\n\nStatement:\n'The line joining the midpoints of two sides of a triangle is parallel to the third side, and is half its length.' ✅\n\nSo if the midpoints of two sides are joined:\n- The joining line is PARALLEL to the third side\n- Its length = HALF the third side\n\nExample: if the third side is 10 cm, the midpoint line is 5 cm.",
+      "difficulty": "Hard",
+      "topic": "Mid-point Theorem",
+      "marks": 3,
+      "id": "lba_qa_4"
+    },
+    {
+      "q": "A square and a rhombus both have all four sides equal. A student says they are exactly the same shape. Is the student correct?",
+      "a": "No, the student is NOT fully correct.\n\nBoth have all four sides equal, BUT:\n\nSQUARE:\n- All sides equal AND all angles 90 degrees ✅\n\nRHOMBUS:\n- All sides equal, but angles are NOT 90 degrees (they are slanted) ✅\n\nSo a square is a special rhombus with right angles. A rhombus that has 90 degree angles becomes a square, but a general rhombus is not a square.",
+      "difficulty": "Medium",
+      "topic": "Types of Quadrilaterals",
+      "marks": 2,
+      "id": "lba_qa_5"
+    },
+    {
+      "q": "A kite-shaped quadrilateral has two pairs of equal adjacent sides. If the sides are 6 cm, 6 cm, 9 cm, 9 cm, find its perimeter.",
+      "a": "Perimeter = sum of all four sides.\n\nGiven sides: 6, 6, 9, 9 cm\n\nPerimeter = 6 + 6 + 9 + 9\n= 30 cm ✅\n\nSo the perimeter of the kite is 30 cm.",
+      "difficulty": "Easy",
+      "topic": "Perimeter of Quadrilateral",
+      "marks": 2,
+      "id": "lba_qa_6"
+    },
+    {
+      "q": "The four angles of a quadrilateral are in the ratio 1 : 2 : 3 : 4. Find each angle.",
+      "a": "The four angles of a quadrilateral ADD UP to 360 degrees.\n\nLet the angles be x, 2x, 3x, 4x.\n\nSum:\nx + 2x + 3x + 4x = 360\n10x = 360\nx = 36\n\nSo the angles are:\n- x = 36 degrees\n- 2x = 72 degrees\n- 3x = 108 degrees\n- 4x = 144 degrees ✅",
+      "difficulty": "Hard",
+      "topic": "Angle Sum of Quadrilateral",
+      "marks": 3,
+      "id": "lba_qa_7"
+    },
+    {
+      "q": "In a parallelogram, one pair of opposite sides is 12 cm. What is the length of the other side in that pair, and why?",
+      "a": "Property of a parallelogram:\n'Opposite sides are equal.' ✅\n\nGiven one side of a pair = 12 cm.\nSo the opposite side in that pair = 12 cm.\n\nReason: In a parallelogram, both pairs of opposite sides are always equal in length.",
+      "difficulty": "Easy",
+      "topic": "Properties of Parallelogram",
+      "marks": 2,
+      "id": "lba_qa_8"
+    }
+  ],
+  "lba_mcq": [
+    {
+      "q": "A parallelogram window has one angle of 60 degrees. Its opposite angle is:",
+      "options": [
+        "60 degrees",
+        "120 degrees",
+        "30 degrees",
+        "90 degrees"
+      ],
+      "answer": "A",
+      "explanation": "In a parallelogram, opposite angles are equal, so the opposite angle is also 60 degrees.",
+      "difficulty": "Easy",
+      "topic": "Properties of Parallelogram",
+      "id": "lba_mcq_1"
+    },
+    {
+      "q": "Which quadrilateral always has equal diagonals?",
+      "options": [
+        "General parallelogram",
+        "Rectangle",
+        "Rhombus",
+        "Trapezium"
+      ],
+      "answer": "B",
+      "explanation": "A rectangle has equal diagonals because all its angles are 90 degrees. A general parallelogram and rhombus do not.",
+      "difficulty": "Medium",
+      "topic": "Diagonals",
+      "id": "lba_mcq_2"
+    },
+    {
+      "q": "The diagonals of a parallelogram always:",
+      "options": [
+        "Are equal",
+        "Are perpendicular",
+        "Bisect each other",
+        "Are parallel"
+      ],
+      "answer": "C",
+      "explanation": "The diagonals of a parallelogram bisect each other — they cross at a point that is the midpoint of both.",
+      "difficulty": "Medium",
+      "topic": "Diagonals of Parallelogram",
+      "id": "lba_mcq_3"
+    },
+    {
+      "q": "Midpoints of two sides of a triangle are joined. By the mid-point theorem, this line is:",
+      "options": [
+        "Equal to the third side",
+        "Twice the third side",
+        "Perpendicular to the third side",
+        "Half the third side and parallel to it"
+      ],
+      "answer": "D",
+      "explanation": "The mid-point theorem states the line joining midpoints of two sides is parallel to the third side and half its length.",
+      "difficulty": "Hard",
+      "topic": "Mid-point Theorem",
+      "id": "lba_mcq_4"
+    },
+    {
+      "q": "The four angles of a quadrilateral add up to:",
+      "options": [
+        "360 degrees",
+        "180 degrees",
+        "270 degrees",
+        "90 degrees"
+      ],
+      "answer": "A",
+      "explanation": "The sum of all four interior angles of any quadrilateral is 360 degrees.",
+      "difficulty": "Easy",
+      "topic": "Angle Sum of Quadrilateral",
+      "id": "lba_mcq_5"
+    },
+    {
+      "q": "A shape has all four sides equal but its angles are not 90 degrees. It is a:",
+      "options": [
+        "Square",
+        "Rhombus",
+        "Rectangle",
+        "Trapezium"
+      ],
+      "answer": "B",
+      "explanation": "All sides equal but angles not 90 degrees describes a rhombus. A square would also need all angles to be 90 degrees.",
+      "difficulty": "Medium",
+      "topic": "Types of Quadrilaterals",
+      "id": "lba_mcq_6"
+    },
+    {
+      "q": "In a parallelogram, one side is 9 cm. The side opposite to it is:",
+      "options": [
+        "4.5 cm",
+        "18 cm",
+        "9 cm",
+        "Cannot be found"
+      ],
+      "answer": "C",
+      "explanation": "Opposite sides of a parallelogram are equal, so the opposite side is also 9 cm.",
+      "difficulty": "Easy",
+      "topic": "Properties of Parallelogram",
+      "id": "lba_mcq_7"
+    },
+    {
+      "q": "Three angles of a quadrilateral are 90, 100 and 80 degrees. The fourth angle is:",
+      "options": [
+        "80 degrees",
+        "100 degrees",
+        "270 degrees",
+        "90 degrees"
+      ],
+      "answer": "D",
+      "explanation": "Sum of angles = 360. Fourth angle = 360 - (90 + 100 + 80) = 360 - 270 = 90 degrees.",
+      "difficulty": "Medium",
+      "topic": "Angle Sum of Quadrilateral",
+      "id": "lba_mcq_8"
+    },
+    {
+      "q": "A square is a special case of a rhombus because a square:",
+      "options": [
+        "Has all sides equal AND all angles 90 degrees",
+        "Has unequal sides",
+        "Has no diagonals",
+        "Is always larger"
+      ],
+      "answer": "A",
+      "explanation": "A square has all sides equal (like a rhombus) but additionally all angles are 90 degrees, making it a special rhombus.",
+      "difficulty": "Medium",
+      "topic": "Types of Quadrilaterals",
+      "id": "lba_mcq_9"
+    }
+  ]
+}

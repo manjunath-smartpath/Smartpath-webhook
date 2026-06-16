@@ -1,0 +1,231 @@
+{
+  "class": "10",
+  "subject": "Science",
+  "chapter": "12",
+  "chapter_name": "Magnetic Effects of Electric Current",
+  "theme": "Effects of Current",
+  "lba_qa": [
+    {
+      "id": "lba_qa_1",
+      "q": "When a compass needle is placed near a wire carrying current, the needle deflects. Explain what this simple experiment proves.",
+      "a": "The deflection of the compass needle shows that a current-carrying wire produces a magnetic field around it. The magnetic field affects the compass needle (which is a small magnet), causing it to deflect. This experiment (by Oersted) proves that electricity and magnetism are linked — an electric current creates a magnetic effect.",
+      "difficulty": "Average",
+      "topic": "Magnetic field due to a current-carrying conductor",
+      "marks": 2
+    },
+    {
+      "id": "lba_qa_2",
+      "q": "Cranes in scrap yards use a large electromagnet to lift heavy iron pieces and drop them by switching off the current. Explain why an electromagnet is used instead of a permanent magnet.",
+      "a": "An electromagnet is a magnet only when current flows through its coil. By switching the current on, the crane picks up the iron; by switching it off, the magnetism stops and the iron is dropped exactly where needed. A permanent magnet cannot be switched off, so it could not release the load easily. This control is why electromagnets are used in cranes.",
+      "difficulty": "Average",
+      "topic": "Magnetic field due to a solenoid (electromagnet)",
+      "marks": 3
+    },
+    {
+      "id": "lba_qa_3",
+      "q": "Domestic circuits have a separate earth wire connected to metal appliances like a refrigerator or iron. Explain how the earth wire keeps us safe.",
+      "a": "The earth wire is connected to the metal body of appliances and to the ground. If, due to a fault, the live wire touches the metal body, the current flows safely to the earth through the earth wire instead of through a person who touches it. This prevents electric shock. So the earth wire is an important safety feature in domestic circuits.",
+      "difficulty": "Average",
+      "topic": "Domestic electric circuits",
+      "marks": 3
+    },
+    {
+      "id": "lba_qa_4",
+      "q": "Electric motors are used in fans, mixers and washing machines. Explain the basic principle that makes an electric motor work.",
+      "a": "An electric motor works on the principle that a current-carrying conductor placed in a magnetic field experiences a force. In a motor, a coil carrying current is placed in a magnetic field. The force on the coil makes it rotate continuously. This rotation is used to run fans, mixers and other machines. So a motor converts electrical energy into mechanical (rotational) energy.",
+      "difficulty": "Difficult",
+      "topic": "Force on a current-carrying conductor",
+      "marks": 3
+    },
+    {
+      "id": "lba_qa_5",
+      "q": "In domestic wiring, a separate fuse and switch are always connected in the live wire, not in the neutral wire. Explain why.",
+      "a": "The fuse and switch are placed in the live wire so that when they break the circuit, the dangerous live (high voltage) supply is cut off from the appliance. If they were in the neutral wire, the appliance would still be connected to the live wire and could give a shock even when switched off. So placing them in the live wire is a safety requirement.",
+      "difficulty": "Difficult",
+      "topic": "Domestic electric circuits",
+      "marks": 2
+    },
+    {
+      "id": "lba_qa_6",
+      "q": "A short circuit in a house can cause sparks and fire. Explain what a short circuit is and how it happens.",
+      "a": "A short circuit happens when the live wire and the neutral wire touch each other directly (for example, due to damaged insulation). This gives a very low resistance path, so a very large current flows suddenly. This large current produces a lot of heat, causing sparks and possibly fire. A fuse or MCB breaks the circuit during a short circuit to prevent damage.",
+      "difficulty": "Average",
+      "topic": "Domestic electric circuits",
+      "marks": 2
+    },
+    {
+      "id": "lba_qa_7",
+      "q": "Using the right-hand thumb rule, explain how you can find the direction of the magnetic field around a straight current-carrying wire.",
+      "a": "According to the right-hand thumb rule, if you hold the current-carrying wire in your right hand with the thumb pointing in the direction of the current, then the curled fingers show the direction of the magnetic field lines around the wire. This simple rule helps find the direction of the circular magnetic field produced around a straight wire.",
+      "difficulty": "Average",
+      "topic": "Right-hand thumb rule",
+      "marks": 2
+    },
+    {
+      "id": "lba_qa_8",
+      "q": "A current-carrying solenoid behaves like a bar magnet. Explain how, and give one use of this property.",
+      "a": "A solenoid is a coil of many circular turns of wire. When current flows through it, it produces a magnetic field similar to that of a bar magnet, with a north and a south pole. A soft iron piece placed inside becomes a strong electromagnet. This property is used to make electromagnets for electric bells, cranes and many devices.",
+      "difficulty": "Average",
+      "topic": "Magnetic field due to a solenoid",
+      "marks": 2
+    },
+    {
+      "id": "lba_qa_9",
+      "q": "Why do we get a more severe shock from the live wire than from the neutral wire if we touch them? Explain.",
+      "a": "The live wire carries the high voltage (around 220 V) from the supply, while the neutral wire is at almost zero potential (close to earth potential). If we touch the live wire, there is a large potential difference between it and the earth (our body), so a large current flows through us, giving a severe shock. Touching the neutral wire alone gives little or no shock because of its low potential.",
+      "difficulty": "Difficult",
+      "topic": "Domestic electric circuits",
+      "marks": 2
+    },
+    {
+      "id": "lba_qa_10",
+      "q": "Iron filings sprinkled around a bar magnet arrange themselves in a definite pattern of lines. Explain what these lines represent.",
+      "a": "The pattern formed by iron filings represents the magnetic field lines of the magnet. These lines show the direction and strength of the magnetic field around the magnet. The lines are closer together where the field is stronger (near the poles) and farther apart where it is weaker. Field lines go from the north pole to the south pole outside the magnet.",
+      "difficulty": "Easy",
+      "topic": "Magnetic field and field lines",
+      "marks": 2
+    }
+  ],
+  "lba_mcq": [
+    {
+      "id": "lba_mcq_1",
+      "q": "A compass needle deflects when brought near a current-carrying wire. This proves that:",
+      "options": [
+        "A current produces a magnetic field",
+        "The wire is hot",
+        "The wire is a magnet permanently",
+        "The compass is faulty"
+      ],
+      "answer": "A",
+      "explanation": "The deflection shows that a current-carrying wire produces a magnetic field, linking electricity and magnetism (Oersted's experiment).",
+      "difficulty": "Easy",
+      "topic": "Magnetic effect of current"
+    },
+    {
+      "id": "lba_mcq_2",
+      "q": "A crane in a scrap yard uses an electromagnet rather than a permanent magnet because the electromagnet:",
+      "options": [
+        "Is cheaper",
+        "Can be switched on and off to pick up and drop iron",
+        "Is lighter",
+        "Never loses magnetism"
+      ],
+      "answer": "B",
+      "explanation": "An electromagnet is magnetic only when current flows, so it can pick up iron and drop it by switching off the current.",
+      "difficulty": "Average",
+      "topic": "Electromagnet (solenoid)"
+    },
+    {
+      "id": "lba_mcq_3",
+      "q": "The earth wire in domestic circuits is connected to metal appliance bodies to:",
+      "options": [
+        "Increase current",
+        "Save electricity",
+        "Provide a safe path for leakage current and prevent shock",
+        "Make appliances run faster"
+      ],
+      "answer": "C",
+      "explanation": "The earth wire safely carries any leakage current to the ground, preventing electric shock if the live wire touches the metal body.",
+      "difficulty": "Average",
+      "topic": "Domestic circuits"
+    },
+    {
+      "id": "lba_mcq_4",
+      "q": "An electric motor works on the principle that a current-carrying conductor in a magnetic field:",
+      "options": [
+        "Produces light",
+        "Becomes cold",
+        "Loses its current",
+        "Experiences a force"
+      ],
+      "answer": "D",
+      "explanation": "A current-carrying conductor in a magnetic field experiences a force; this force rotates the coil in a motor.",
+      "difficulty": "Difficult",
+      "topic": "Force on a current-carrying conductor"
+    },
+    {
+      "id": "lba_mcq_5",
+      "q": "A short circuit causes a sudden large current because the live and neutral wires touch, giving:",
+      "options": [
+        "Very low resistance path",
+        "Very high resistance",
+        "No current path",
+        "More voltage"
+      ],
+      "answer": "A",
+      "explanation": "When live and neutral touch, the resistance becomes very low, so a very large current flows, producing heat and sparks.",
+      "difficulty": "Average",
+      "topic": "Domestic circuits"
+    },
+    {
+      "id": "lba_mcq_6",
+      "q": "The fuse and switch in house wiring are connected in the live wire so that when off:",
+      "options": [
+        "The appliance still gets live supply",
+        "The dangerous live supply is cut off from the appliance",
+        "Current increases",
+        "The neutral wire heats up"
+      ],
+      "answer": "B",
+      "explanation": "Placing the fuse/switch in the live wire ensures the dangerous live supply is disconnected from the appliance when off, for safety.",
+      "difficulty": "Difficult",
+      "topic": "Domestic circuits"
+    },
+    {
+      "id": "lba_mcq_7",
+      "q": "The direction of the magnetic field around a straight current-carrying wire is found using the:",
+      "options": [
+        "Ohm's law",
+        "Lens formula",
+        "Right-hand thumb rule",
+        "Mirror formula"
+      ],
+      "answer": "C",
+      "explanation": "The right-hand thumb rule: thumb points along the current, curled fingers show the circular magnetic field direction.",
+      "difficulty": "Average",
+      "topic": "Right-hand thumb rule"
+    },
+    {
+      "id": "lba_mcq_8",
+      "q": "A current-carrying solenoid behaves like a:",
+      "options": [
+        "Resistor",
+        "Battery",
+        "Capacitor",
+        "Bar magnet"
+      ],
+      "answer": "D",
+      "explanation": "A current-carrying solenoid produces a magnetic field like a bar magnet, with north and south poles.",
+      "difficulty": "Easy",
+      "topic": "Magnetic field due to a solenoid"
+    },
+    {
+      "id": "lba_mcq_9",
+      "q": "Touching the live wire gives a severe shock because it is at:",
+      "options": [
+        "High potential (about 220 V) compared to earth",
+        "Zero potential",
+        "The same potential as earth",
+        "No potential"
+      ],
+      "answer": "A",
+      "explanation": "The live wire is at high potential. Touching it creates a large potential difference with earth, so a large current flows through the body.",
+      "difficulty": "Difficult",
+      "topic": "Domestic circuits"
+    },
+    {
+      "id": "lba_mcq_10",
+      "q": "Iron filings around a bar magnet form a pattern that represents the:",
+      "options": [
+        "Electric current",
+        "Magnetic field lines",
+        "Heat flow",
+        "Sound waves"
+      ],
+      "answer": "B",
+      "explanation": "The pattern of iron filings shows the magnetic field lines, indicating the direction and strength of the magnetic field.",
+      "difficulty": "Easy",
+      "topic": "Magnetic field and field lines"
+    }
+  ]
+}

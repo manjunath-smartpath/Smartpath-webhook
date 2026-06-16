@@ -1,0 +1,209 @@
+{
+  "class": "9",
+  "subject": "Maths",
+  "chapter": "6",
+  "chapter_name": "Lines and Angles",
+  "theme": "Geometry",
+  "lba_qa": [
+    {
+      "q": "Two roads cross each other. One of the four angles formed at the crossing is 70 degrees. Find the angle exactly opposite to it and explain why.",
+      "a": "When two lines cross, the angle opposite (vertically opposite) angles are EQUAL.\n\nGiven one angle = 70 degrees.\n\nThe angle exactly opposite to it:\n= 70 degrees (vertically opposite angles are equal) ✅\n\nReason: Vertically opposite angles formed by two intersecting lines are always equal.",
+      "difficulty": "Medium",
+      "topic": "Vertically Opposite Angles",
+      "marks": 2,
+      "id": "lba_qa_1"
+    },
+    {
+      "q": "A straight road has a signboard pole. Two angles on one side of the road add up along the straight line. If one angle is 110 degrees, find the other.",
+      "a": "Angles on a straight line form a LINEAR PAIR and add up to 180 degrees.\n\nGiven one angle = 110 degrees.\n\nOther angle = 180 - 110\n= 70 degrees ✅\n\nReason: The sum of angles on a straight line (linear pair) is always 180 degrees.",
+      "difficulty": "Easy",
+      "topic": "Linear Pair",
+      "marks": 2,
+      "id": "lba_qa_2"
+    },
+    {
+      "q": "Two angles are complementary. One angle is 35 degrees. Find the other, and give a real example of complementary angles.",
+      "a": "Complementary angles ADD UP to 90 degrees.\n\nGiven one angle = 35 degrees.\n\nOther angle = 90 - 35\n= 55 degrees ✅\n\nReal example: The corner of a book is 90 degrees. If a pencil is placed making 35 degrees with one edge, it makes 55 degrees with the other edge.",
+      "difficulty": "Easy",
+      "topic": "Complementary Angles",
+      "marks": 2,
+      "id": "lba_qa_3"
+    },
+    {
+      "q": "A ladder leans against a wall. The angle between the ladder and the ground is 65 degrees. The wall is vertical (90 degrees to ground). Find the angle between the ladder and the wall.",
+      "a": "The ground and the wall meet at 90 degrees.\n\nThe ladder makes 65 degrees with the ground.\nThe three angles at the foot region: the angle with the ground + angle with the wall = 90 degrees (since wall is vertical).\n\nAngle between ladder and wall:\n= 90 - 65\n= 25 degrees ✅\n\nSo the ladder makes a 25 degree angle with the wall.",
+      "difficulty": "Medium",
+      "topic": "Complementary Angles",
+      "marks": 2,
+      "id": "lba_qa_4"
+    },
+    {
+      "q": "A railway track has two parallel rails cut by a sleeper (transversal). If one angle made is 120 degrees, find its co-interior (allied) angle.",
+      "a": "When a transversal cuts two parallel lines, co-interior (allied) angles ADD UP to 180 degrees.\n\nGiven one angle = 120 degrees.\n\nCo-interior angle = 180 - 120\n= 60 degrees ✅\n\nReason: Co-interior angles on the same side of the transversal between parallel lines are supplementary (sum 180 degrees).",
+      "difficulty": "Hard",
+      "topic": "Parallel Lines and Transversal",
+      "marks": 3,
+      "id": "lba_qa_5"
+    },
+    {
+      "q": "Two parallel walls are crossed by a slanting beam. One angle made by the beam with the first wall is 50 degrees. Find the corresponding angle at the second wall.",
+      "a": "When a transversal cuts parallel lines, CORRESPONDING angles are EQUAL.\n\nGiven angle at first wall = 50 degrees.\n\nCorresponding angle at second wall:\n= 50 degrees ✅\n\nReason: Corresponding angles formed by a transversal with two parallel lines are always equal.",
+      "difficulty": "Medium",
+      "topic": "Corresponding Angles",
+      "marks": 2,
+      "id": "lba_qa_6"
+    },
+    {
+      "q": "In a triangular roof truss, two angles are 55 degrees and 65 degrees. Find the third angle.",
+      "a": "The three angles of a triangle ADD UP to 180 degrees (angle sum property).\n\nGiven two angles = 55 degrees and 65 degrees.\n\nThird angle = 180 - (55 + 65)\n= 180 - 120\n= 60 degrees ✅\n\nSo the third angle of the truss is 60 degrees.",
+      "difficulty": "Medium",
+      "topic": "Angle Sum Property of Triangle",
+      "marks": 2,
+      "id": "lba_qa_7"
+    },
+    {
+      "q": "At 3 o'clock, the hour hand and minute hand of a clock form an angle. Find that angle and explain.",
+      "a": "A clock face is a full circle = 360 degrees, with 12 hour marks.\n\nAngle between two consecutive hour marks:\n= 360 / 12\n= 30 degrees\n\nAt 3 o'clock:\n- Minute hand points at 12\n- Hour hand points at 3\n- They are 3 hour-marks apart\n\nAngle = 3 x 30 = 90 degrees ✅\n\nSo the hands form a 90 degree (right) angle at 3 o'clock.",
+      "difficulty": "Hard",
+      "topic": "Angles - Application",
+      "marks": 3,
+      "id": "lba_qa_8"
+    },
+    {
+      "q": "An exterior angle of a triangle is 110 degrees. One of the two opposite interior angles is 45 degrees. Find the other interior opposite angle.",
+      "a": "Exterior angle property: an exterior angle equals the SUM of the two opposite interior angles.\n\nGiven: exterior angle = 110 degrees, one interior opposite angle = 45 degrees.\n\nSo:\n110 = 45 + other angle\nOther angle = 110 - 45\n= 65 degrees ✅\n\nThe other interior opposite angle is 65 degrees.",
+      "difficulty": "Hard",
+      "topic": "Exterior Angle Property",
+      "marks": 3,
+      "id": "lba_qa_9"
+    }
+  ],
+  "lba_mcq": [
+    {
+      "q": "Two straight roads cross. One angle at the crossing is 65 degrees. The vertically opposite angle is:",
+      "options": [
+        "65 degrees",
+        "115 degrees",
+        "25 degrees",
+        "90 degrees"
+      ],
+      "answer": "A",
+      "explanation": "Vertically opposite angles formed by two intersecting lines are equal, so it is also 65 degrees.",
+      "difficulty": "Easy",
+      "topic": "Vertically Opposite Angles",
+      "id": "lba_mcq_1"
+    },
+    {
+      "q": "On a straight line, one angle of a linear pair is 130 degrees. The other angle is:",
+      "options": [
+        "130 degrees",
+        "50 degrees",
+        "40 degrees",
+        "230 degrees"
+      ],
+      "answer": "B",
+      "explanation": "Angles in a linear pair add up to 180 degrees, so the other angle = 180 - 130 = 50 degrees.",
+      "difficulty": "Easy",
+      "topic": "Linear Pair",
+      "id": "lba_mcq_2"
+    },
+    {
+      "q": "Two angles are complementary. If one is 40 degrees, the other is:",
+      "options": [
+        "140 degrees",
+        "60 degrees",
+        "50 degrees",
+        "90 degrees"
+      ],
+      "answer": "C",
+      "explanation": "Complementary angles add up to 90 degrees, so the other = 90 - 40 = 50 degrees.",
+      "difficulty": "Easy",
+      "topic": "Complementary Angles",
+      "id": "lba_mcq_3"
+    },
+    {
+      "q": "A transversal cuts two parallel rails. One corresponding angle is 75 degrees. The other corresponding angle is:",
+      "options": [
+        "105 degrees",
+        "15 degrees",
+        "90 degrees",
+        "75 degrees"
+      ],
+      "answer": "D",
+      "explanation": "Corresponding angles formed by a transversal with parallel lines are equal, so it is also 75 degrees.",
+      "difficulty": "Medium",
+      "topic": "Corresponding Angles",
+      "id": "lba_mcq_4"
+    },
+    {
+      "q": "In a triangle, two angles are 70 degrees and 60 degrees. The third angle is:",
+      "options": [
+        "50 degrees",
+        "40 degrees",
+        "60 degrees",
+        "130 degrees"
+      ],
+      "answer": "A",
+      "explanation": "Angles of a triangle add to 180 degrees, so third angle = 180 - (70 + 60) = 50 degrees.",
+      "difficulty": "Easy",
+      "topic": "Angle Sum Property",
+      "id": "lba_mcq_5"
+    },
+    {
+      "q": "At 6 o'clock, the angle between the hour and minute hands of a clock is:",
+      "options": [
+        "90 degrees",
+        "180 degrees",
+        "120 degrees",
+        "60 degrees"
+      ],
+      "answer": "B",
+      "explanation": "Each hour mark is 30 degrees apart. At 6 o'clock the hands are 6 marks apart: 6 x 30 = 180 degrees (a straight line).",
+      "difficulty": "Medium",
+      "topic": "Angles - Application",
+      "id": "lba_mcq_6"
+    },
+    {
+      "q": "Co-interior (allied) angles between two parallel lines cut by a transversal always:",
+      "options": [
+        "Are equal",
+        "Add up to 90 degrees",
+        "Add up to 180 degrees",
+        "Add up to 360 degrees"
+      ],
+      "answer": "C",
+      "explanation": "Co-interior angles on the same side of the transversal between parallel lines are supplementary, adding up to 180 degrees.",
+      "difficulty": "Medium",
+      "topic": "Parallel Lines and Transversal",
+      "id": "lba_mcq_7"
+    },
+    {
+      "q": "An exterior angle of a triangle equals 120 degrees. The sum of its two opposite interior angles is:",
+      "options": [
+        "60 degrees",
+        "180 degrees",
+        "240 degrees",
+        "120 degrees"
+      ],
+      "answer": "D",
+      "explanation": "The exterior angle of a triangle equals the sum of the two opposite interior angles, so the sum is 120 degrees.",
+      "difficulty": "Medium",
+      "topic": "Exterior Angle Property",
+      "id": "lba_mcq_8"
+    },
+    {
+      "q": "Two angles are supplementary. If one is 115 degrees, the other is:",
+      "options": [
+        "65 degrees",
+        "75 degrees",
+        "85 degrees",
+        "245 degrees"
+      ],
+      "answer": "A",
+      "explanation": "Supplementary angles add up to 180 degrees, so the other = 180 - 115 = 65 degrees.",
+      "difficulty": "Easy",
+      "topic": "Supplementary Angles",
+      "id": "lba_mcq_9"
+    }
+  ]
+}

@@ -1,0 +1,231 @@
+{
+  "class": "10",
+  "subject": "Maths",
+  "chapter": "7",
+  "chapter_name": "Coordinate Geometry",
+  "theme": "Coordinate Geometry",
+  "lba_qa": [
+    {
+      "id": "lba_qa_1",
+      "q": "On a map, a school is at point (3, 4) and a hospital is at point (7, 1) (in km). Find the straight-line distance between the school and the hospital.",
+      "a": "Use the distance formula: distance = square root of [(x2-x1)^2 + (y2-y1)^2].\nHere (x1,y1) = (3,4), (x2,y2) = (7,1).\nDistance = square root of [(7-3)^2 + (1-4)^2] = square root of [4^2 + (-3)^2] = square root of [16 + 9] = square root of 25 = 5 km.\nSo the distance between the school and hospital is 5 km.",
+      "difficulty": "Average",
+      "topic": "Distance formula (real-life)",
+      "marks": 3
+    },
+    {
+      "id": "lba_qa_2",
+      "q": "A park bench is to be placed exactly midway between two trees located at (2, 3) and (8, 7). Find the coordinates where the bench should be placed.",
+      "a": "Use the midpoint formula: midpoint = ((x1+x2)/2, (y1+y2)/2).\nMidpoint = ((2+8)/2, (3+7)/2) = (10/2, 10/2) = (5, 5).\nSo the bench should be placed at the point (5, 5).",
+      "difficulty": "Average",
+      "topic": "Midpoint / Section formula (real-life)",
+      "marks": 2
+    },
+    {
+      "id": "lba_qa_3",
+      "q": "Find the distance of the point (6, 8) from the origin (0, 0).",
+      "a": "Use the distance formula from the origin: distance = square root of (x^2 + y^2).\nDistance = square root of (6^2 + 8^2) = square root of (36 + 64) = square root of 100 = 10.\nSo the point (6, 8) is 10 units from the origin.",
+      "difficulty": "Easy",
+      "topic": "Distance formula",
+      "marks": 2
+    },
+    {
+      "id": "lba_qa_4",
+      "q": "A point P divides the line joining A(2, 3) and B(8, 9) in the ratio 1:2. Find the coordinates of P.",
+      "a": "Use the section formula: P = ((m*x2 + n*x1)/(m+n), (m*y2 + n*y1)/(m+n)) for ratio m:n.\nHere m=1, n=2, A(2,3), B(8,9).\nx = (1*8 + 2*2)/(1+2) = (8+4)/3 = 12/3 = 4.\ny = (1*9 + 2*3)/(1+2) = (9+6)/3 = 15/3 = 5.\nSo P = (4, 5).",
+      "difficulty": "Difficult",
+      "topic": "Section formula",
+      "marks": 3
+    },
+    {
+      "id": "lba_qa_5",
+      "q": "Three friends are standing at points A(0, 0), B(4, 0) and C(4, 3). Find the perimeter of the triangle they form.",
+      "a": "Find each side using the distance formula.\nAB = square root of [(4-0)^2 + (0-0)^2] = square root of 16 = 4.\nBC = square root of [(4-4)^2 + (3-0)^2] = square root of 9 = 3.\nCA = square root of [(4-0)^2 + (3-0)^2] = square root of (16+9) = square root of 25 = 5.\nPerimeter = AB + BC + CA = 4 + 3 + 5 = 12 units.",
+      "difficulty": "Average",
+      "topic": "Distance formula (real-life)",
+      "marks": 3
+    },
+    {
+      "id": "lba_qa_6",
+      "q": "Show that the points A(1, 1), B(4, 1) and C(4, 5) form a right-angled triangle.",
+      "a": "Find the side lengths using the distance formula.\nAB = square root of [(4-1)^2 + (1-1)^2] = square root of 9 = 3.\nBC = square root of [(4-4)^2 + (5-1)^2] = square root of 16 = 4.\nAC = square root of [(4-1)^2 + (5-1)^2] = square root of (9+16) = square root of 25 = 5.\nCheck: AB^2 + BC^2 = 9 + 16 = 25 = AC^2.\nSince it satisfies the Pythagoras relation, the triangle is right-angled.",
+      "difficulty": "Difficult",
+      "topic": "Distance formula (application)",
+      "marks": 3
+    },
+    {
+      "id": "lba_qa_7",
+      "q": "Find the midpoint of the line segment joining the points (-3, 5) and (7, -1).",
+      "a": "Midpoint = ((x1+x2)/2, (y1+y2)/2).\n= ((-3+7)/2, (5+(-1))/2) = (4/2, 4/2) = (2, 2).\nSo the midpoint is (2, 2).",
+      "difficulty": "Easy",
+      "topic": "Midpoint formula",
+      "marks": 2
+    },
+    {
+      "id": "lba_qa_8",
+      "q": "A delivery person is at point (1, 2) and needs to reach (4, 6). What is the shortest (straight-line) distance to travel?",
+      "a": "Use the distance formula.\nDistance = square root of [(4-1)^2 + (6-2)^2] = square root of [3^2 + 4^2] = square root of [9 + 16] = square root of 25 = 5 units.\nSo the shortest straight-line distance is 5 units.",
+      "difficulty": "Average",
+      "topic": "Distance formula (real-life)",
+      "marks": 2
+    },
+    {
+      "id": "lba_qa_9",
+      "q": "Two towns A and B are at (1, 2) and (1, 10) on a map. A petrol pump is to be built exactly midway between them on the road. Where should it be?",
+      "a": "Midpoint = ((1+1)/2, (2+10)/2) = (2/2, 12/2) = (1, 6).\nSo the petrol pump should be built at the point (1, 6), exactly midway between the two towns.",
+      "difficulty": "Easy",
+      "topic": "Midpoint formula (real-life)",
+      "marks": 2
+    },
+    {
+      "id": "lba_qa_10",
+      "q": "Check whether the points (1, 2), (3, 4) and (5, 6) lie on a straight line (are collinear), using distances.",
+      "a": "Find the distances.\nAB = square root of [(3-1)^2 + (4-2)^2] = square root of (4+4) = square root of 8.\nBC = square root of [(5-3)^2 + (6-4)^2] = square root of (4+4) = square root of 8.\nAC = square root of [(5-1)^2 + (6-2)^2] = square root of (16+16) = square root of 32 = 2 x square root of 8.\nSince AB + BC = square root 8 + square root 8 = 2 x square root 8 = AC, the three points lie on a straight line (collinear).",
+      "difficulty": "Difficult",
+      "topic": "Distance formula (collinearity)",
+      "marks": 3
+    }
+  ],
+  "lba_mcq": [
+    {
+      "id": "lba_mcq_1",
+      "q": "The distance between a school at (3, 4) and a hospital at (7, 1) is:",
+      "options": [
+        "5 km",
+        "4 km",
+        "7 km",
+        "3 km"
+      ],
+      "answer": "A",
+      "explanation": "Distance = square root[(7-3)^2+(1-4)^2] = square root(16+9) = 5 km.",
+      "difficulty": "Average",
+      "topic": "Distance formula"
+    },
+    {
+      "id": "lba_mcq_2",
+      "q": "The midpoint of the segment joining (2, 3) and (8, 7) is:",
+      "options": [
+        "(4, 4)",
+        "(5, 5)",
+        "(6, 5)",
+        "(5, 4)"
+      ],
+      "answer": "B",
+      "explanation": "Midpoint = ((2+8)/2,(3+7)/2) = (5, 5).",
+      "difficulty": "Easy",
+      "topic": "Midpoint formula"
+    },
+    {
+      "id": "lba_mcq_3",
+      "q": "The distance of the point (6, 8) from the origin is:",
+      "options": [
+        "14",
+        "8",
+        "10",
+        "6"
+      ],
+      "answer": "C",
+      "explanation": "Distance = square root(6^2+8^2) = square root(100) = 10.",
+      "difficulty": "Easy",
+      "topic": "Distance formula"
+    },
+    {
+      "id": "lba_mcq_4",
+      "q": "Point P divides the join of A(2,3) and B(8,9) in ratio 1:2. P is:",
+      "options": [
+        "(5, 6)",
+        "(6, 7)",
+        "(3, 4)",
+        "(4, 5)"
+      ],
+      "answer": "D",
+      "explanation": "By section formula: x=(1*8+2*2)/3=4, y=(1*9+2*3)/3=5, so P=(4,5).",
+      "difficulty": "Difficult",
+      "topic": "Section formula"
+    },
+    {
+      "id": "lba_mcq_5",
+      "q": "The perimeter of the triangle with vertices (0,0), (4,0), (4,3) is:",
+      "options": [
+        "12",
+        "10",
+        "14",
+        "9"
+      ],
+      "answer": "A",
+      "explanation": "Sides are 4, 3, 5, so perimeter = 4+3+5 = 12 units.",
+      "difficulty": "Average",
+      "topic": "Distance formula"
+    },
+    {
+      "id": "lba_mcq_6",
+      "q": "The triangle with vertices (1,1), (4,1), (4,5) is right-angled because its sides satisfy:",
+      "options": [
+        "3+4=5",
+        "3^2+4^2=5^2",
+        "All sides equal",
+        "It is not right-angled"
+      ],
+      "answer": "B",
+      "explanation": "Sides 3, 4, 5 satisfy 3^2+4^2 = 5^2 (Pythagoras), so it is right-angled.",
+      "difficulty": "Difficult",
+      "topic": "Distance formula application"
+    },
+    {
+      "id": "lba_mcq_7",
+      "q": "The midpoint of (-3, 5) and (7, -1) is:",
+      "options": [
+        "(4, 4)",
+        "(2, 3)",
+        "(2, 2)",
+        "(5, 2)"
+      ],
+      "answer": "C",
+      "explanation": "Midpoint = ((-3+7)/2,(5-1)/2) = (2, 2).",
+      "difficulty": "Easy",
+      "topic": "Midpoint formula"
+    },
+    {
+      "id": "lba_mcq_8",
+      "q": "A petrol pump midway between towns at (1, 2) and (1, 10) should be at:",
+      "options": [
+        "(1, 5)",
+        "(2, 6)",
+        "(1, 8)",
+        "(1, 6)"
+      ],
+      "answer": "D",
+      "explanation": "Midpoint = ((1+1)/2,(2+10)/2) = (1, 6).",
+      "difficulty": "Easy",
+      "topic": "Midpoint formula"
+    },
+    {
+      "id": "lba_mcq_9",
+      "q": "The shortest distance from (1, 2) to (4, 6) is:",
+      "options": [
+        "5 units",
+        "7 units",
+        "3 units",
+        "4 units"
+      ],
+      "answer": "A",
+      "explanation": "Distance = square root[(4-1)^2+(6-2)^2] = square root(9+16) = 5 units.",
+      "difficulty": "Average",
+      "topic": "Distance formula"
+    },
+    {
+      "id": "lba_mcq_10",
+      "q": "The points (1,2), (3,4) and (5,6) are:",
+      "options": [
+        "Vertices of a triangle",
+        "Collinear (on a straight line)",
+        "Corners of a square",
+        "Not real points"
+      ],
+      "answer": "B",
+      "explanation": "Since AB + BC = AC (distances add up), the three points lie on a straight line (collinear).",
+      "difficulty": "Difficult",
+      "topic": "Collinearity"
+    }
+  ]
+}

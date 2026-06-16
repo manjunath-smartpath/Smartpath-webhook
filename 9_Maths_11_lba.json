@@ -1,0 +1,187 @@
+{
+  "class": "9",
+  "subject": "Maths",
+  "chapter": "11",
+  "chapter_name": "Surface Areas and Volumes",
+  "theme": "Mensuration",
+  "lba_qa": [
+    {
+      "q": "A cricket ball is a sphere of radius 7 cm. Find its surface area. (Use pi = 22/7)",
+      "a": "Surface area of a sphere = 4 x pi x r^2\n\nGiven r = 7 cm, pi = 22/7.\n\n= 4 x (22/7) x (7)^2\n= 4 x (22/7) x 49\n= 4 x 22 x 7\n= 616 square cm ✅\n\nSo the surface area of the ball is 616 square cm.",
+      "difficulty": "Hard",
+      "topic": "Surface Area of Sphere",
+      "marks": 3,
+      "id": "lba_qa_1"
+    },
+    {
+      "q": "An ice cream cone has radius 3.5 cm and slant height 10 cm. Find its curved surface area. (Use pi = 22/7)",
+      "a": "Curved surface area of a cone = pi x r x l\n\nGiven r = 3.5 cm, l = 10 cm, pi = 22/7.\n\n= (22/7) x 3.5 x 10\n= (22/7) x 35\n= 22 x 5\n= 110 square cm ✅\n\nSo the curved surface area of the cone is 110 square cm.",
+      "difficulty": "Medium",
+      "topic": "Surface Area of Cone",
+      "marks": 3,
+      "id": "lba_qa_2"
+    },
+    {
+      "q": "A spherical water balloon has radius 21 cm. Find its volume. (Use pi = 22/7)",
+      "a": "Volume of a sphere = (4/3) x pi x r^3\n\nGiven r = 21 cm, pi = 22/7.\n\n= (4/3) x (22/7) x (21)^3\n= (4/3) x (22/7) x 9261\n\nStep by step:\n(22/7) x 9261 = 22 x 1323 = 29106\n(4/3) x 29106 = 4 x 9702 = 38808\n\nVolume = 38808 cubic cm ✅",
+      "difficulty": "Hard",
+      "topic": "Volume of Sphere",
+      "marks": 3,
+      "id": "lba_qa_3"
+    },
+    {
+      "q": "A conical tent has radius 7 m and height 24 m. Find its volume. (Use pi = 22/7)",
+      "a": "Volume of a cone = (1/3) x pi x r^2 x h\n\nGiven r = 7 m, h = 24 m, pi = 22/7.\n\n= (1/3) x (22/7) x (7)^2 x 24\n= (1/3) x (22/7) x 49 x 24\n= (1/3) x 22 x 7 x 24\n= (1/3) x 3696\n= 1232 cubic metres ✅\n\nSo the tent can hold 1232 cubic metres of air.",
+      "difficulty": "Hard",
+      "topic": "Volume of Cone",
+      "marks": 3,
+      "id": "lba_qa_4"
+    },
+    {
+      "q": "A hemispherical bowl has radius 7 cm. Find its curved surface area. (Use pi = 22/7)",
+      "a": "Curved surface area of a hemisphere = 2 x pi x r^2\n\nGiven r = 7 cm, pi = 22/7.\n\n= 2 x (22/7) x (7)^2\n= 2 x (22/7) x 49\n= 2 x 22 x 7\n= 308 square cm ✅\n\nSo the curved surface area of the bowl is 308 square cm.",
+      "difficulty": "Medium",
+      "topic": "Surface Area of Hemisphere",
+      "marks": 2,
+      "id": "lba_qa_5"
+    },
+    {
+      "q": "A cylindrical water tank has radius 7 m and height 10 m. Find its volume. (Use pi = 22/7)",
+      "a": "Volume of a cylinder = pi x r^2 x h\n\nGiven r = 7 m, h = 10 m, pi = 22/7.\n\n= (22/7) x (7)^2 x 10\n= (22/7) x 49 x 10\n= 22 x 7 x 10\n= 1540 cubic metres ✅\n\nSo the tank can hold 1540 cubic metres of water.",
+      "difficulty": "Medium",
+      "topic": "Volume of Cylinder",
+      "marks": 3,
+      "id": "lba_qa_6"
+    },
+    {
+      "q": "A solid metal sphere of radius 3 cm is melted. What stays the same — its surface area or its volume — when it is recast into a different shape?",
+      "a": "When a solid is melted and recast, the VOLUME stays the same.\n\nReason:\n- The amount of material (matter) does not change on melting\n- So the volume is CONSERVED ✅\n- But the SHAPE changes, so the surface area usually changes\n\nThis idea is used to solve problems where one shape is recast into another (equate the volumes).",
+      "difficulty": "Medium",
+      "topic": "Volume Conservation",
+      "marks": 2,
+      "id": "lba_qa_7"
+    },
+    {
+      "q": "A dome of a building is a hemisphere of radius 14 m. Find the curved surface area to be painted. (Use pi = 22/7)",
+      "a": "Curved surface area of a hemisphere = 2 x pi x r^2\n\nGiven r = 14 m, pi = 22/7.\n\n= 2 x (22/7) x (14)^2\n= 2 x (22/7) x 196\n= 2 x 22 x 28\n= 1232 square metres ✅\n\nSo 1232 square metres of the dome surface needs to be painted.",
+      "difficulty": "Hard",
+      "topic": "Surface Area of Hemisphere",
+      "marks": 3,
+      "id": "lba_qa_8"
+    }
+  ],
+  "lba_mcq": [
+    {
+      "q": "The surface area of a sphere of radius r is given by:",
+      "options": [
+        "4 x pi x r^2",
+        "pi x r^2",
+        "2 x pi x r^2",
+        "(4/3) x pi x r^3"
+      ],
+      "answer": "A",
+      "explanation": "The surface area of a sphere is 4 x pi x r^2. The (4/3) x pi x r^3 formula is its volume.",
+      "difficulty": "Easy",
+      "topic": "Surface Area of Sphere",
+      "id": "lba_mcq_1"
+    },
+    {
+      "q": "A football has radius 7 cm. Using pi = 22/7, its surface area is:",
+      "options": [
+        "154 square cm",
+        "616 square cm",
+        "308 square cm",
+        "1232 square cm"
+      ],
+      "answer": "B",
+      "explanation": "Surface area = 4 x (22/7) x 7^2 = 4 x 22 x 7 = 616 square cm.",
+      "difficulty": "Hard",
+      "topic": "Surface Area of Sphere",
+      "id": "lba_mcq_2"
+    },
+    {
+      "q": "The volume of a cone of radius r and height h is:",
+      "options": [
+        "pi x r^2 x h",
+        "2 x pi x r x h",
+        "(1/3) x pi x r^2 x h",
+        "(4/3) x pi x r^3"
+      ],
+      "answer": "C",
+      "explanation": "The volume of a cone is (1/3) x pi x r^2 x h — one third of a cylinder of the same base and height.",
+      "difficulty": "Easy",
+      "topic": "Volume of Cone",
+      "id": "lba_mcq_3"
+    },
+    {
+      "q": "A cylindrical tank has radius 7 m and height 5 m. Using pi = 22/7, its volume is:",
+      "options": [
+        "220 cubic metres",
+        "154 cubic metres",
+        "1540 cubic metres",
+        "770 cubic metres"
+      ],
+      "answer": "D",
+      "explanation": "Volume = (22/7) x 7^2 x 5 = 22 x 7 x 5 = 770 cubic metres.",
+      "difficulty": "Medium",
+      "topic": "Volume of Cylinder",
+      "id": "lba_mcq_4"
+    },
+    {
+      "q": "The curved surface area of a hemisphere of radius r is:",
+      "options": [
+        "2 x pi x r^2",
+        "4 x pi x r^2",
+        "pi x r^2",
+        "3 x pi x r^2"
+      ],
+      "answer": "A",
+      "explanation": "A hemisphere is half a sphere, so its curved surface area is 2 x pi x r^2.",
+      "difficulty": "Medium",
+      "topic": "Surface Area of Hemisphere",
+      "id": "lba_mcq_5"
+    },
+    {
+      "q": "When a solid metal ball is melted and recast into a cube, which quantity remains unchanged?",
+      "options": [
+        "Surface area",
+        "Volume",
+        "Radius",
+        "Shape"
+      ],
+      "answer": "B",
+      "explanation": "On melting and recasting, the amount of material is unchanged, so the volume stays the same. The shape and surface area change.",
+      "difficulty": "Medium",
+      "topic": "Volume Conservation",
+      "id": "lba_mcq_6"
+    },
+    {
+      "q": "The curved surface area of a cone is given by:",
+      "options": [
+        "pi x r^2",
+        "2 x pi x r x h",
+        "pi x r x l",
+        "(1/3) x pi x r^2 x h"
+      ],
+      "answer": "C",
+      "explanation": "The curved (lateral) surface area of a cone is pi x r x l, where l is the slant height.",
+      "difficulty": "Easy",
+      "topic": "Surface Area of Cone",
+      "id": "lba_mcq_7"
+    },
+    {
+      "q": "The volume of a sphere of radius r is:",
+      "options": [
+        "4 x pi x r^2",
+        "2 x pi x r^3",
+        "pi x r^2 x h",
+        "(4/3) x pi x r^3"
+      ],
+      "answer": "D",
+      "explanation": "The volume of a sphere is (4/3) x pi x r^3.",
+      "difficulty": "Easy",
+      "topic": "Volume of Sphere",
+      "id": "lba_mcq_8"
+    }
+  ]
+}

@@ -1,0 +1,231 @@
+{
+  "class": "10",
+  "subject": "Maths",
+  "chapter": "10",
+  "chapter_name": "Circles",
+  "theme": "Geometry",
+  "lba_qa": [
+    {
+      "id": "lba_qa_1",
+      "q": "A bicycle wheel touches the road at exactly one point as it rolls. Connect this to the idea of a tangent to a circle.",
+      "a": "A tangent is a straight line that touches a circle at exactly one point. The road acts like a tangent to the bicycle wheel (a circle), touching it at just one point at any instant. Also, the radius at the point of contact is perpendicular to the road (tangent). This is a real-life example of a tangent touching a circle at a single point.",
+      "difficulty": "Average",
+      "topic": "Tangent to a circle (concept)",
+      "marks": 2
+    },
+    {
+      "id": "lba_qa_2",
+      "q": "From an external point, two tangents are drawn to a circle. What can you say about the lengths of these two tangents? State the theorem.",
+      "a": "The two tangents drawn from an external point to a circle are equal in length. This is the theorem: 'The lengths of tangents drawn from an external point to a circle are equal.' For example, if two tangents PA and PB are drawn from point P, then PA = PB. This property is used in many circle problems.",
+      "difficulty": "Average",
+      "topic": "Tangents from external point",
+      "marks": 2
+    },
+    {
+      "id": "lba_qa_3",
+      "q": "A tangent is drawn to a circle of radius 7 cm from a point 25 cm from the centre. Find the length of the tangent.",
+      "a": "The radius is perpendicular to the tangent at the point of contact, forming a right triangle with the line from the centre to the external point (hypotenuse).\nBy Pythagoras: (tangent)^2 = (distance from centre)^2 - (radius)^2.\ntangent^2 = 25^2 - 7^2 = 625 - 49 = 576.\ntangent = square root of 576 = 24 cm.\nSo the length of the tangent is 24 cm.",
+      "difficulty": "Difficult",
+      "topic": "Tangent length (real-life)",
+      "marks": 3
+    },
+    {
+      "id": "lba_qa_4",
+      "q": "Why is the radius drawn to the point where a tangent touches the circle always perpendicular to the tangent? State this property.",
+      "a": "This is a key theorem of circles: 'The tangent at any point of a circle is perpendicular to the radius through the point of contact.' So at the exact point where the tangent touches the circle, the radius and the tangent meet at 90 degrees. This property is very useful in solving problems involving tangents.",
+      "difficulty": "Average",
+      "topic": "Tangent and radius",
+      "marks": 2
+    },
+    {
+      "id": "lba_qa_5",
+      "q": "How many tangents can be drawn to a circle from a point that is (a) inside the circle, (b) on the circle, (c) outside the circle?",
+      "a": "(a) From a point inside the circle: no tangent can be drawn (0 tangents), because any line through it cuts the circle at two points.\n(b) From a point on the circle: exactly one tangent can be drawn.\n(c) From a point outside the circle: exactly two tangents can be drawn.\nSo the number of tangents is 0, 1 and 2 respectively.",
+      "difficulty": "Average",
+      "topic": "Number of tangents",
+      "marks": 2
+    },
+    {
+      "id": "lba_qa_6",
+      "q": "A circular table is pushed into a corner of a room so it touches both walls. Relate this to tangents from a point.",
+      "a": "The two walls act like two tangents to the circular table (circle), each touching it at one point. The corner of the room is the external point from which the two 'tangent' walls are drawn. By the tangent property, the distances from the corner to the two points where the table touches the walls are equal (equal tangent lengths). This is a real-life example of equal tangents from an external point.",
+      "difficulty": "Difficult",
+      "topic": "Tangents from external point (real-life)",
+      "marks": 3
+    },
+    {
+      "id": "lba_qa_7",
+      "q": "Two concentric circles (same centre) have radii 5 cm and 3 cm. A chord of the larger circle touches the smaller circle. Explain what 'touches' means here.",
+      "a": "When the chord of the larger circle 'touches' the smaller circle, it acts as a tangent to the smaller circle, meeting it at exactly one point. At that point, the radius of the smaller circle (3 cm) is perpendicular to the chord. This perpendicular from the centre bisects the chord, and we can use the Pythagoras theorem to find the chord's length using the two radii.",
+      "difficulty": "Difficult",
+      "topic": "Tangent and chord",
+      "marks": 2
+    },
+    {
+      "id": "lba_qa_8",
+      "q": "A line cuts a circle at two points. What is such a line called, and how is it different from a tangent?",
+      "a": "A line that cuts (intersects) a circle at two distinct points is called a secant. A tangent touches the circle at only one point. So the difference is: a secant meets the circle at two points, while a tangent meets it at exactly one point.",
+      "difficulty": "Easy",
+      "topic": "Secant and tangent",
+      "marks": 2
+    },
+    {
+      "id": "lba_qa_9",
+      "q": "Two tangents PA and PB are drawn from an external point P. If PA = 8 cm, what is the length of PB and why?",
+      "a": "By the theorem 'tangents from an external point are equal', the two tangents from P are equal in length.\nSince PA = 8 cm, therefore PB = 8 cm as well.\nSo the length of PB is 8 cm.",
+      "difficulty": "Easy",
+      "topic": "Tangents from external point",
+      "marks": 2
+    },
+    {
+      "id": "lba_qa_10",
+      "q": "A tangent touches a circle of radius 8 cm. From the external point, the distance to the centre is 17 cm. Find the length of the tangent.",
+      "a": "By Pythagoras (radius perpendicular to tangent):\n(tangent)^2 = (distance to centre)^2 - (radius)^2.\ntangent^2 = 17^2 - 8^2 = 289 - 64 = 225.\ntangent = square root of 225 = 15 cm.\nSo the length of the tangent is 15 cm.",
+      "difficulty": "Average",
+      "topic": "Tangent length",
+      "marks": 3
+    }
+  ],
+  "lba_mcq": [
+    {
+      "id": "lba_mcq_1",
+      "q": "A bicycle wheel touching the road at one point is a real-life example of a:",
+      "options": [
+        "Tangent",
+        "Secant",
+        "Diameter",
+        "Chord"
+      ],
+      "answer": "A",
+      "explanation": "A tangent touches a circle at exactly one point, like the wheel touching the road.",
+      "difficulty": "Easy",
+      "topic": "Tangent concept"
+    },
+    {
+      "id": "lba_mcq_2",
+      "q": "The lengths of two tangents drawn from an external point to a circle are:",
+      "options": [
+        "Always different",
+        "Equal",
+        "Zero",
+        "Half the radius"
+      ],
+      "answer": "B",
+      "explanation": "Tangents from an external point to a circle are equal in length.",
+      "difficulty": "Easy",
+      "topic": "Tangents from external point"
+    },
+    {
+      "id": "lba_mcq_3",
+      "q": "A tangent from a point 25 cm from the centre of a circle of radius 7 cm has length:",
+      "options": [
+        "18 cm",
+        "32 cm",
+        "24 cm",
+        "20 cm"
+      ],
+      "answer": "C",
+      "explanation": "tangent^2 = 25^2 - 7^2 = 576, tangent = 24 cm.",
+      "difficulty": "Difficult",
+      "topic": "Tangent length"
+    },
+    {
+      "id": "lba_mcq_4",
+      "q": "The tangent at any point of a circle is ___ to the radius at the point of contact.",
+      "options": [
+        "Parallel",
+        "Equal",
+        "Opposite",
+        "Perpendicular"
+      ],
+      "answer": "D",
+      "explanation": "The tangent is perpendicular (90 degrees) to the radius at the point of contact.",
+      "difficulty": "Easy",
+      "topic": "Tangent and radius"
+    },
+    {
+      "id": "lba_mcq_5",
+      "q": "The number of tangents that can be drawn from a point outside a circle is:",
+      "options": [
+        "2",
+        "0",
+        "1",
+        "Infinite"
+      ],
+      "answer": "A",
+      "explanation": "Exactly two tangents can be drawn from an external point to a circle.",
+      "difficulty": "Average",
+      "topic": "Number of tangents"
+    },
+    {
+      "id": "lba_mcq_6",
+      "q": "A line that cuts a circle at two distinct points is called a:",
+      "options": [
+        "Tangent",
+        "Secant",
+        "Radius",
+        "Arc"
+      ],
+      "answer": "B",
+      "explanation": "A secant cuts the circle at two points; a tangent touches at one point.",
+      "difficulty": "Easy",
+      "topic": "Secant and tangent"
+    },
+    {
+      "id": "lba_mcq_7",
+      "q": "Two tangents PA and PB from point P: if PA = 8 cm, then PB is:",
+      "options": [
+        "4 cm",
+        "16 cm",
+        "8 cm",
+        "Cannot say"
+      ],
+      "answer": "C",
+      "explanation": "Tangents from an external point are equal, so PB = PA = 8 cm.",
+      "difficulty": "Easy",
+      "topic": "Tangents from external point"
+    },
+    {
+      "id": "lba_mcq_8",
+      "q": "The number of tangents that can be drawn from a point inside a circle is:",
+      "options": [
+        "1",
+        "2",
+        "Many",
+        "0"
+      ],
+      "answer": "D",
+      "explanation": "No tangent can be drawn from a point inside the circle (0 tangents).",
+      "difficulty": "Average",
+      "topic": "Number of tangents"
+    },
+    {
+      "id": "lba_mcq_9",
+      "q": "A tangent from a point 17 cm from the centre of a circle of radius 8 cm has length:",
+      "options": [
+        "15 cm",
+        "12 cm",
+        "9 cm",
+        "25 cm"
+      ],
+      "answer": "A",
+      "explanation": "tangent^2 = 17^2 - 8^2 = 225, tangent = 15 cm.",
+      "difficulty": "Average",
+      "topic": "Tangent length"
+    },
+    {
+      "id": "lba_mcq_10",
+      "q": "A circular table pushed into a room corner touching both walls illustrates:",
+      "options": [
+        "A diameter",
+        "Two equal tangents from a point",
+        "A secant",
+        "An arc"
+      ],
+      "answer": "B",
+      "explanation": "The two walls act as equal tangents from the corner (external point) to the circular table.",
+      "difficulty": "Difficult",
+      "topic": "Tangents (real-life)"
+    }
+  ]
+}

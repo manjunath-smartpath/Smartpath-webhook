@@ -1,0 +1,231 @@
+{
+  "class": "8",
+  "subject": "Maths",
+  "chapter": "2",
+  "chapter_name": "Linear Equations in One Variable",
+  "theme": "Linear Equations in One Variable",
+  "lba_qa": [
+    {
+      "q": "Amma's age is 4 times Ravi's age. The sum of their ages is 50 years. Find Ravi's age.",
+      "a": "Let Ravi's age = x years.\nThen Amma's age = 4x.\n\nx + 4x = 50\n5x = 50\nx = 50 / 5\nx = 10\n\nSo Ravi is 10 years old. ✅",
+      "difficulty": "Easy",
+      "topic": "Forming and Solving Linear Equations",
+      "marks": 2,
+      "id": "lba_qa_1"
+    },
+    {
+      "q": "A number is increased by 7 and the result is 22. Find the number.",
+      "a": "Let the number = x.\n\nx + 7 = 22\nx = 22 - 7\nx = 15\n\nSo the number is 15. ✅",
+      "difficulty": "Easy",
+      "topic": "Solving Simple Equations",
+      "marks": 1,
+      "id": "lba_qa_2"
+    },
+    {
+      "q": "The length of a rectangular garden is 5 m more than its breadth. The perimeter is 50 m. Find the length and breadth.",
+      "a": "Let breadth = x m, so length = (x + 5) m.\n\nPerimeter = 2 x (length + breadth)\n50 = 2 x (x + 5 + x)\n50 = 2 x (2x + 5)\n50 = 4x + 10\n4x = 40\nx = 10\n\nBreadth = 10 m, Length = 10 + 5 = 15 m. ✅",
+      "difficulty": "Medium",
+      "topic": "Word Problems on Perimeter",
+      "marks": 3,
+      "id": "lba_qa_3"
+    },
+    {
+      "q": "A man has only 2-rupee coins amounting to 20 rupees. Form an equation and find the number of coins.",
+      "a": "Let the number of coins = x.\nEach coin = 2 rupees.\n\n2x = 20\nx = 20 / 2\nx = 10\n\nSo he has 10 coins. ✅",
+      "difficulty": "Easy",
+      "topic": "Forming Linear Equations",
+      "marks": 2,
+      "id": "lba_qa_4"
+    },
+    {
+      "q": "The sum of three consecutive natural numbers is 72. Find the numbers.",
+      "a": "Let the numbers be x, x + 1 and x + 2.\n\nx + (x + 1) + (x + 2) = 72\n3x + 3 = 72\n3x = 69\nx = 23\n\nSo the numbers are 23, 24 and 25. ✅",
+      "difficulty": "Medium",
+      "topic": "Word Problems on Consecutive Numbers",
+      "marks": 3,
+      "id": "lba_qa_5"
+    },
+    {
+      "q": "In a class the number of girls is twice the number of boys. There are 36 students in all. Find the number of boys and girls.",
+      "a": "Let number of boys = x, so girls = 2x.\n\nx + 2x = 36\n3x = 36\nx = 12\n\nBoys = 12, Girls = 2 x 12 = 24. ✅",
+      "difficulty": "Easy",
+      "topic": "Forming and Solving Linear Equations",
+      "marks": 2,
+      "id": "lba_qa_6"
+    },
+    {
+      "q": "A father is three times as old as his son. After 10 years he will be twice as old as his son. Find their present ages.",
+      "a": "Let son's age = x, father's age = 3x.\n\nAfter 10 years:\nFather = 3x + 10, Son = x + 10\n3x + 10 = 2(x + 10)\n3x + 10 = 2x + 20\n3x - 2x = 20 - 10\nx = 10\n\nSon = 10 years, Father = 3 x 10 = 30 years. ✅",
+      "difficulty": "Hard",
+      "topic": "Age Word Problems",
+      "marks": 3,
+      "id": "lba_qa_7"
+    },
+    {
+      "q": "Half of a number added to 8 gives 20. Find the number.",
+      "a": "Let the number = x.\n\nx/2 + 8 = 20\nx/2 = 12\nx = 24\n\nSo the number is 24. ✅",
+      "difficulty": "Easy",
+      "topic": "Solving Equations with Fractions",
+      "marks": 2,
+      "id": "lba_qa_8"
+    },
+    {
+      "q": "A shopkeeper sold a shirt and a tie for 600 rupees. The shirt costs 200 rupees more than the tie. Find the cost of each.",
+      "a": "Let tie cost = x, shirt = x + 200.\n\nx + (x + 200) = 600\n2x + 200 = 600\n2x = 400\nx = 200\n\nTie = 200 rupees, Shirt = 200 + 200 = 400 rupees. ✅",
+      "difficulty": "Medium",
+      "topic": "Word Problems on Money",
+      "marks": 3,
+      "id": "lba_qa_9"
+    },
+    {
+      "q": "The denominator of a fraction is 3 more than its numerator. If the numerator is increased by 2 and the denominator stays the same, the fraction becomes 1/2. Find the original fraction.",
+      "a": "Let numerator = x, denominator = x + 3.\nFraction = x / (x + 3).\n\nAfter adding 2 to numerator:\n(x + 2) / (x + 3) = 1/2\n2(x + 2) = (x + 3)\n2x + 4 = x + 3\nx = -1\n\nNumerator = -1, denominator = 2, so original fraction = -1/2. ✅",
+      "difficulty": "Hard",
+      "topic": "Word Problems on Fractions",
+      "marks": 3,
+      "id": "lba_qa_10"
+    }
+  ],
+  "lba_mcq": [
+    {
+      "q": "A number when multiplied by 5 gives 45. Which equation finds the number x?",
+      "options": [
+        "5x = 45",
+        "x + 5 = 45",
+        "x - 5 = 45",
+        "x/5 = 45"
+      ],
+      "answer": "A",
+      "explanation": "Multiplied by 5 gives 45 means 5x = 45, so x = 9.",
+      "difficulty": "Easy",
+      "topic": "Forming Linear Equations",
+      "id": "lba_mcq_1"
+    },
+    {
+      "q": "Sita's age is 3 years less than her brother's. If her brother is b years old, Sita's age is:",
+      "options": [
+        "b + 3",
+        "b - 3",
+        "3b",
+        "3 - b"
+      ],
+      "answer": "B",
+      "explanation": "3 years less than b is b - 3.",
+      "difficulty": "Easy",
+      "topic": "Forming Expressions",
+      "id": "lba_mcq_2"
+    },
+    {
+      "q": "Solving 2x + 3 = 11 for the length of a rod x, what is x?",
+      "options": [
+        "7",
+        "8",
+        "4",
+        "5"
+      ],
+      "answer": "C",
+      "explanation": "2x = 11 - 3 = 8, so x = 4.",
+      "difficulty": "Easy",
+      "topic": "Solving Equations",
+      "id": "lba_mcq_3"
+    },
+    {
+      "q": "The sum of two consecutive numbers is 25. The smaller number is:",
+      "options": [
+        "11",
+        "13",
+        "10",
+        "12"
+      ],
+      "answer": "D",
+      "explanation": "x + (x+1) = 25, so 2x + 1 = 25, x = 12.",
+      "difficulty": "Medium",
+      "topic": "Consecutive Numbers",
+      "id": "lba_mcq_4"
+    },
+    {
+      "q": "A taxi charges 50 rupees fixed plus 10 rupees per km. For a 'd' km ride the fare equation is:",
+      "options": [
+        "50 + 10d",
+        "60d",
+        "10 + 50d",
+        "50d + 10"
+      ],
+      "answer": "A",
+      "explanation": "Fixed 50 plus 10 per km gives fare = 50 + 10d.",
+      "difficulty": "Medium",
+      "topic": "Forming Linear Equations",
+      "id": "lba_mcq_5"
+    },
+    {
+      "q": "Three times a number decreased by 4 equals 17. The number is:",
+      "options": [
+        "6",
+        "7",
+        "8",
+        "5"
+      ],
+      "answer": "B",
+      "explanation": "3x - 4 = 17, so 3x = 21, x = 7.",
+      "difficulty": "Medium",
+      "topic": "Solving Equations",
+      "id": "lba_mcq_6"
+    },
+    {
+      "q": "A rectangle's length is twice its breadth b. Its perimeter is:",
+      "options": [
+        "2b",
+        "4b",
+        "6b",
+        "3b"
+      ],
+      "answer": "C",
+      "explanation": "Perimeter = 2(length + breadth) = 2(2b + b) = 6b.",
+      "difficulty": "Medium",
+      "topic": "Word Problems on Perimeter",
+      "id": "lba_mcq_7"
+    },
+    {
+      "q": "If half of a number is 15, the number is:",
+      "options": [
+        "7.5",
+        "15",
+        "45",
+        "30"
+      ],
+      "answer": "D",
+      "explanation": "x/2 = 15, so x = 30.",
+      "difficulty": "Easy",
+      "topic": "Solving Equations with Fractions",
+      "id": "lba_mcq_8"
+    },
+    {
+      "q": "A father is 4 times his son's age x. Their total age is 50. The son's age is:",
+      "options": [
+        "10",
+        "8",
+        "12",
+        "15"
+      ],
+      "answer": "A",
+      "explanation": "x + 4x = 50, so 5x = 50, x = 10.",
+      "difficulty": "Medium",
+      "topic": "Age Problems",
+      "id": "lba_mcq_9"
+    },
+    {
+      "q": "Seven added to twice a number gives 19. The number is:",
+      "options": [
+        "5",
+        "6",
+        "8",
+        "7"
+      ],
+      "answer": "B",
+      "explanation": "2x + 7 = 19, so 2x = 12, x = 6.",
+      "difficulty": "Easy",
+      "topic": "Solving Equations",
+      "id": "lba_mcq_10"
+    }
+  ]
+}

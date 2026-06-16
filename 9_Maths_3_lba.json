@@ -1,0 +1,201 @@
+{
+  "class": "9",
+  "subject": "Maths",
+  "chapter": "3",
+  "chapter_name": "Coordinate Geometry",
+  "theme": "Coordinate Geometry",
+  "lba_qa": [
+    {
+      "q": "On a city map drawn as a grid, a school is at point (4, 3) and a temple is at (4, -3). In which quadrants do they lie, and what is special about their position?",
+      "a": "Read the signs of the coordinates:\n\nSchool (4, 3):\n- x is +, y is + → FIRST quadrant ✅\n\nTemple (4, -3):\n- x is +, y is - → FOURTH quadrant ✅\n\nWhat is special:\n- Both have the same x-coordinate (4)\n- So they lie on the SAME vertical line\n- One is above the x-axis, the other below it",
+      "difficulty": "Medium",
+      "topic": "Quadrants",
+      "marks": 2,
+      "id": "lba_qa_1"
+    },
+    {
+      "q": "In a classroom seating chart drawn on a grid, Ravi sits at (0, 5) and Sita at (5, 0). Where exactly does each sit with respect to the axes?",
+      "a": "Look at which coordinate is zero:\n\nRavi (0, 5):\n- x = 0 means he is ON the y-axis\n- 5 units above the origin ✅\n\nSita (5, 0):\n- y = 0 means she is ON the x-axis\n- 5 units to the right of the origin ✅\n\nSo points with x = 0 lie on the y-axis, and points with y = 0 lie on the x-axis.",
+      "difficulty": "Medium",
+      "topic": "Points on Axes",
+      "marks": 2,
+      "id": "lba_qa_2"
+    },
+    {
+      "q": "A treasure is marked at point (-3, -2) on a map grid. Describe how to reach it from the origin (0, 0).",
+      "a": "The origin is the starting point (0, 0).\n\nFor the point (-3, -2):\n- x = -3 → move 3 units to the LEFT (negative x direction)\n- y = -2 → move 2 units DOWN (negative y direction) ✅\n\nThis point lies in the THIRD quadrant (both x and y negative).\n\nSo: from origin, go 3 left and 2 down to reach the treasure.",
+      "difficulty": "Medium",
+      "topic": "Plotting Points",
+      "marks": 2,
+      "id": "lba_qa_3"
+    },
+    {
+      "q": "A surveyor plots the corners of a rectangular plot at A(0,0), B(6,0), C(6,4) and D(0,4). Find the length and breadth of the plot.",
+      "a": "Look at the coordinates of the corners.\n\nLength (A to B along x-axis):\n- A(0,0) to B(6,0): distance = 6 - 0 = 6 units ✅\n\nBreadth (B to C along y-axis):\n- B(6,0) to C(6,4): distance = 4 - 0 = 4 units ✅\n\nSo the plot is 6 units long and 4 units wide.\n(Area = 6 x 4 = 24 square units.)",
+      "difficulty": "Medium",
+      "topic": "Coordinates - Distance on Grid",
+      "marks": 3,
+      "id": "lba_qa_4"
+    },
+    {
+      "q": "A drone flies and stops at the point (7, 0). A student says it is in the first quadrant. Is the student correct?",
+      "a": "No, the student is NOT correct.\n\nReason:\n- The point (7, 0) has y = 0\n- Any point with y = 0 lies ON the x-axis\n- Points ON an axis are NOT counted in any quadrant ✅\n\nSo the drone is on the positive x-axis (7 units right of origin), not in the first quadrant.",
+      "difficulty": "Medium",
+      "topic": "Points on Axes",
+      "marks": 2,
+      "id": "lba_qa_5"
+    },
+    {
+      "q": "On a grid, two friends stand at A(2, 3) and B(2, 8). How far apart are they?",
+      "a": "Both points have the same x-coordinate (2), so they lie on the same vertical line.\n\nDistance = difference in y-coordinates:\n= 8 - 3\n= 5 units ✅\n\nSo the two friends are 5 units apart (a straight vertical distance).",
+      "difficulty": "Easy",
+      "topic": "Distance on Grid",
+      "marks": 2,
+      "id": "lba_qa_6"
+    },
+    {
+      "q": "A point P(x, y) is such that x is negative and y is positive. In which quadrant does it lie? Give an example point.",
+      "a": "Check the sign rule for quadrants:\n\n- x negative, y positive → SECOND quadrant ✅\n\nExample point: (-4, 5)\n- Move 4 units left, 5 units up from origin\n- This lands in the second quadrant\n\nSo any point with x < 0 and y > 0 lies in the second quadrant.",
+      "difficulty": "Easy",
+      "topic": "Quadrants",
+      "marks": 2,
+      "id": "lba_qa_7"
+    },
+    {
+      "q": "A chessboard square is at position (3, 5). The opponent's piece is at (3, 1). Are they in the same row or the same column on the grid?",
+      "a": "Compare the coordinates.\n\nBoth points have the SAME x-coordinate (3):\n- Same x means they lie on the SAME vertical line (column) ✅\n\nThe y-coordinates differ (5 and 1), so they are at different heights.\n\nSo the two pieces are in the same column (vertical line), but different rows.",
+      "difficulty": "Medium",
+      "topic": "Reading Coordinates",
+      "marks": 2,
+      "id": "lba_qa_8"
+    }
+  ],
+  "lba_mcq": [
+    {
+      "q": "A point (5, -2) is marked on a map. In which quadrant does it lie?",
+      "options": [
+        "Fourth quadrant",
+        "First quadrant",
+        "Second quadrant",
+        "Third quadrant"
+      ],
+      "answer": "A",
+      "explanation": "x is positive and y is negative, which is the fourth quadrant.",
+      "difficulty": "Easy",
+      "topic": "Quadrants",
+      "id": "lba_mcq_1"
+    },
+    {
+      "q": "A bus stop is marked at point (0, 6) on a grid. This point lies:",
+      "options": [
+        "On the x-axis",
+        "On the y-axis",
+        "In the first quadrant",
+        "At the origin"
+      ],
+      "answer": "B",
+      "explanation": "Since x = 0, the point lies on the y-axis (6 units above the origin).",
+      "difficulty": "Easy",
+      "topic": "Points on Axes",
+      "id": "lba_mcq_2"
+    },
+    {
+      "q": "Two markers are at (4, 1) and (4, 7) on a grid. The distance between them is:",
+      "options": [
+        "3 units",
+        "11 units",
+        "6 units",
+        "4 units"
+      ],
+      "answer": "C",
+      "explanation": "Same x-coordinate means a vertical line. Distance = 7 - 1 = 6 units.",
+      "difficulty": "Medium",
+      "topic": "Distance on Grid",
+      "id": "lba_mcq_3"
+    },
+    {
+      "q": "The point where the x-axis and y-axis meet on a graph is called the:",
+      "options": [
+        "Quadrant",
+        "Vertex",
+        "Axis",
+        "Origin"
+      ],
+      "answer": "D",
+      "explanation": "The two axes meet at the origin, which has coordinates (0, 0).",
+      "difficulty": "Easy",
+      "topic": "Origin",
+      "id": "lba_mcq_4"
+    },
+    {
+      "q": "A point P(-3, -5) on a treasure map is reached from the origin by moving:",
+      "options": [
+        "3 left and 5 down",
+        "3 right and 5 up",
+        "3 left and 5 up",
+        "3 right and 5 down"
+      ],
+      "answer": "A",
+      "explanation": "Negative x means move left, negative y means move down. So 3 units left and 5 units down — this is the third quadrant.",
+      "difficulty": "Medium",
+      "topic": "Plotting Points",
+      "id": "lba_mcq_5"
+    },
+    {
+      "q": "In which quadrant is a point with x negative and y positive, like (-2, 6)?",
+      "options": [
+        "First",
+        "Second",
+        "Third",
+        "Fourth"
+      ],
+      "answer": "B",
+      "explanation": "x negative, y positive corresponds to the second quadrant.",
+      "difficulty": "Easy",
+      "topic": "Quadrants",
+      "id": "lba_mcq_6"
+    },
+    {
+      "q": "A rectangle has corners (0,0), (8,0), (8,5), (0,5). Its area in square units is:",
+      "options": [
+        "13",
+        "26",
+        "40",
+        "18"
+      ],
+      "answer": "C",
+      "explanation": "Length = 8 units, breadth = 5 units, so area = 8 x 5 = 40 square units.",
+      "difficulty": "Medium",
+      "topic": "Coordinates - Area",
+      "id": "lba_mcq_7"
+    },
+    {
+      "q": "A point lies on the x-axis. What must be true about its coordinates?",
+      "options": [
+        "x = 0",
+        "x = y",
+        "Both are negative",
+        "y = 0"
+      ],
+      "answer": "D",
+      "explanation": "Every point on the x-axis has y-coordinate equal to 0, e.g. (5, 0) or (-3, 0).",
+      "difficulty": "Easy",
+      "topic": "Points on Axes",
+      "id": "lba_mcq_8"
+    },
+    {
+      "q": "Two seats at (6, 2) and (6, 9) on a grid are in the:",
+      "options": [
+        "Same column (vertical line)",
+        "Same row",
+        "Same quadrant only",
+        "Different axes"
+      ],
+      "answer": "A",
+      "explanation": "They share the same x-coordinate (6), so they lie on the same vertical line — the same column.",
+      "difficulty": "Medium",
+      "topic": "Reading Coordinates",
+      "id": "lba_mcq_9"
+    }
+  ]
+}

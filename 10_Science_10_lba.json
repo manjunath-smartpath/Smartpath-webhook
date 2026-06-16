@@ -1,0 +1,231 @@
+{
+  "class": "10",
+  "subject": "Science",
+  "chapter": "10",
+  "chapter_name": "The Human Eye and the Colourful World",
+  "theme": "Natural Phenomena",
+  "lba_qa": [
+    {
+      "id": "lba_qa_1",
+      "q": "An elderly person needs different glasses for reading a book and for watching TV far away. Explain which defect of vision this could be and how it is corrected.",
+      "a": "With age, the eye lens becomes stiff and the ciliary muscles weak, so the eye loses its power to focus on both near and far objects. This defect is called presbyopia. It often needs bifocal lenses — the upper part (concave) for distant vision and the lower part (convex) for reading. Sometimes two separate glasses are used. This is why the person needs different glasses for reading and watching TV.",
+      "difficulty": "Difficult",
+      "topic": "Defects of vision and their correction",
+      "marks": 3
+    },
+    {
+      "id": "lba_qa_2",
+      "q": "A student cannot read the blackboard clearly from the back of the class but can read a book easily. Name the defect and explain its correction.",
+      "a": "This defect is myopia (short-sightedness), where a person can see near objects clearly but not distant ones. It happens because the image of distant objects forms in front of the retina. It is corrected by using a concave (diverging) lens, which spreads the rays so that the image forms on the retina, allowing the student to see the blackboard clearly.",
+      "difficulty": "Average",
+      "topic": "Defects of vision and their correction",
+      "marks": 3
+    },
+    {
+      "id": "lba_qa_3",
+      "q": "The sky appears blue during the day but red/orange at sunrise and sunset. Explain both observations using the scattering of light.",
+      "a": "Sunlight contains all colours. Blue light has a shorter wavelength and is scattered much more by air molecules, so during the day the sky appears blue. At sunrise and sunset, sunlight travels a longer path through the atmosphere; most of the blue light is scattered away, and mainly red/orange light (longer wavelength, scattered less) reaches our eyes. That is why the sky looks red/orange at those times.",
+      "difficulty": "Difficult",
+      "topic": "Scattering of light",
+      "marks": 3
+    },
+    {
+      "id": "lba_qa_4",
+      "q": "When sunlight passes through a glass prism, it splits into seven colours (a rainbow band). Name this phenomenon and explain why it happens.",
+      "a": "This phenomenon is called dispersion of light. White light is made of seven colours. When it passes through a prism, each colour bends by a different amount (violet bends the most, red the least) because they travel at slightly different speeds in glass. So the colours separate and form a band called the spectrum. This is the same effect that produces a rainbow.",
+      "difficulty": "Average",
+      "topic": "Dispersion of white light by a prism",
+      "marks": 3
+    },
+    {
+      "id": "lba_qa_5",
+      "q": "A rainbow appears in the sky after rain, usually when the Sun is behind the observer. Explain how a rainbow is formed.",
+      "a": "After rain, tiny water droplets remain in the air. Sunlight entering these droplets is refracted, then reflected inside the droplet, and refracted again as it comes out. During this, the white light disperses into its seven colours. Many droplets together produce a curved band of colours — the rainbow. It forms opposite the Sun, which is why the Sun is behind the observer.",
+      "difficulty": "Difficult",
+      "topic": "Dispersion / atmospheric refraction",
+      "marks": 3
+    },
+    {
+      "id": "lba_qa_6",
+      "q": "Stars appear to twinkle at night but planets do not twinkle. Explain this using atmospheric refraction.",
+      "a": "Stars are very far away and act like point sources of light. As starlight passes through the atmosphere, it is refracted by layers of air that keep changing (due to temperature differences). This makes the amount of light reaching our eyes vary, so stars appear to twinkle. Planets are closer and appear as larger sources (many points of light), so the variations average out and planets do not twinkle.",
+      "difficulty": "Difficult",
+      "topic": "Atmospheric refraction",
+      "marks": 3
+    },
+    {
+      "id": "lba_qa_7",
+      "q": "When we enter a dark cinema hall from bright sunlight, we cannot see anything at first, but after some time we can see clearly. Explain this using the working of the eye.",
+      "a": "The iris controls the size of the pupil to adjust the amount of light entering the eye. In bright light, the pupil is small. When we enter a dark hall, very little light enters, so we cannot see at first. After some time, the pupil widens (dilates) to let in more light, and our eyes adjust, so we begin to see. This adjusting ability is a function of the eye.",
+      "difficulty": "Average",
+      "topic": "The human eye",
+      "marks": 2
+    },
+    {
+      "id": "lba_qa_8",
+      "q": "The Sun appears slightly oval and can be seen a little before actual sunrise and after actual sunset. Explain this using atmospheric refraction.",
+      "a": "The Sun's light bends (refracts) as it passes through the layers of the atmosphere, which have different densities. Because of this bending, the Sun appears raised above the horizon, so we can see it about 2 minutes before actual sunrise and after actual sunset. Near the horizon, refraction also makes the Sun appear slightly flattened or oval. This is due to atmospheric refraction.",
+      "difficulty": "Difficult",
+      "topic": "Atmospheric refraction",
+      "marks": 2
+    },
+    {
+      "id": "lba_qa_9",
+      "q": "The fine beam of light is visible when sunlight enters a dusty room or passes through fog/smoke. Name this effect and explain it.",
+      "a": "This is called the Tyndall effect — the scattering of light by tiny particles in its path. When light passes through a medium containing fine particles (dust, smoke, tiny water droplets), the particles scatter the light, making its path visible. That is why a beam of sunlight is seen in a dusty room or through fog. Without such particles, the light path would not be visible.",
+      "difficulty": "Average",
+      "topic": "Scattering of light (Tyndall effect)",
+      "marks": 2
+    },
+    {
+      "id": "lba_qa_10",
+      "q": "Why is the 'danger' signal (like the STOP signal and brake lights) made red in colour and not some other colour?",
+      "a": "Red light has the longest wavelength among visible colours and is scattered the least by air, fog, smoke or dust. So red light can travel the farthest and remains visible even in foggy or dusty conditions. This makes red ideal for danger and stop signals, as it can be seen clearly from a long distance even in poor visibility.",
+      "difficulty": "Average",
+      "topic": "Scattering of light",
+      "marks": 2
+    }
+  ],
+  "lba_mcq": [
+    {
+      "id": "lba_mcq_1",
+      "q": "A student can read a book clearly but cannot see the blackboard from the back. This defect is corrected using a:",
+      "options": [
+        "Concave lens",
+        "Convex lens",
+        "Plane mirror",
+        "Prism"
+      ],
+      "answer": "A",
+      "explanation": "This is myopia (short-sightedness), corrected with a concave (diverging) lens so distant images form on the retina.",
+      "difficulty": "Average",
+      "topic": "Defects of vision"
+    },
+    {
+      "id": "lba_mcq_2",
+      "q": "The clear sky appears blue during the day mainly because:",
+      "options": [
+        "The sky is made of blue gas",
+        "Blue light is scattered more by air molecules",
+        "The Sun is blue",
+        "Water vapour is blue"
+      ],
+      "answer": "B",
+      "explanation": "Blue light has a shorter wavelength and is scattered more by air molecules, making the sky appear blue.",
+      "difficulty": "Average",
+      "topic": "Scattering of light"
+    },
+    {
+      "id": "lba_mcq_3",
+      "q": "White light passing through a prism splits into seven colours. This is called:",
+      "options": [
+        "Reflection",
+        "Scattering",
+        "Dispersion",
+        "Total internal reflection"
+      ],
+      "answer": "C",
+      "explanation": "The splitting of white light into its component colours by a prism is called dispersion.",
+      "difficulty": "Easy",
+      "topic": "Dispersion of light"
+    },
+    {
+      "id": "lba_mcq_4",
+      "q": "Stars twinkle at night, but planets generally do not, because of:",
+      "options": [
+        "Reflection from the Moon",
+        "Dispersion in stars",
+        "Stars being closer than planets",
+        "Atmospheric refraction of starlight"
+      ],
+      "answer": "D",
+      "explanation": "Atmospheric refraction of light from distant point-like stars causes twinkling. Planets, being closer and larger, do not twinkle.",
+      "difficulty": "Difficult",
+      "topic": "Atmospheric refraction"
+    },
+    {
+      "id": "lba_mcq_5",
+      "q": "Danger signals and brake lights are red because red light:",
+      "options": [
+        "Is scattered the least and travels farthest",
+        "Is the brightest colour",
+        "Is the cheapest",
+        "Reflects best off water"
+      ],
+      "answer": "A",
+      "explanation": "Red has the longest wavelength and is scattered the least, so it is visible from far even in fog, making it ideal for danger signals.",
+      "difficulty": "Average",
+      "topic": "Scattering of light"
+    },
+    {
+      "id": "lba_mcq_6",
+      "q": "On entering a dark room from bright light, we see clearly only after some time because the:",
+      "options": [
+        "Retina changes colour",
+        "Pupil widens to let in more light",
+        "Lens changes into a mirror",
+        "Eyes produce their own light"
+      ],
+      "answer": "B",
+      "explanation": "The iris widens the pupil in dim light to allow more light in, so the eye gradually adjusts and we begin to see.",
+      "difficulty": "Average",
+      "topic": "The human eye"
+    },
+    {
+      "id": "lba_mcq_7",
+      "q": "A beam of sunlight becomes visible in a dusty room. This effect is called:",
+      "options": [
+        "Dispersion",
+        "Reflection",
+        "Tyndall effect",
+        "Refraction"
+      ],
+      "answer": "C",
+      "explanation": "The scattering of light by fine particles (dust) that makes the light path visible is the Tyndall effect.",
+      "difficulty": "Average",
+      "topic": "Scattering of light"
+    },
+    {
+      "id": "lba_mcq_8",
+      "q": "The Sun can be seen a couple of minutes before actual sunrise because of:",
+      "options": [
+        "Dispersion",
+        "Scattering",
+        "Reflection from clouds",
+        "Atmospheric refraction"
+      ],
+      "answer": "D",
+      "explanation": "Atmospheric refraction bends the Sun's light, making it appear above the horizon before it actually rises.",
+      "difficulty": "Difficult",
+      "topic": "Atmospheric refraction"
+    },
+    {
+      "id": "lba_mcq_9",
+      "q": "An elderly person needing both reading and distance correction uses:",
+      "options": [
+        "Bifocal lenses",
+        "Only a concave lens",
+        "Only a convex lens",
+        "A plane mirror"
+      ],
+      "answer": "A",
+      "explanation": "Presbyopia is corrected with bifocal lenses, having a concave part for distance and a convex part for reading.",
+      "difficulty": "Difficult",
+      "topic": "Defects of vision"
+    },
+    {
+      "id": "lba_mcq_10",
+      "q": "A rainbow is formed by water droplets acting on sunlight through:",
+      "options": [
+        "Only reflection",
+        "Refraction, internal reflection and dispersion",
+        "Only scattering",
+        "Absorption of light"
+      ],
+      "answer": "B",
+      "explanation": "Rainbows form when sunlight is refracted, internally reflected and dispersed by water droplets, separating white light into colours.",
+      "difficulty": "Difficult",
+      "topic": "Dispersion"
+    }
+  ]
+}

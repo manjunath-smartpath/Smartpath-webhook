@@ -1,0 +1,231 @@
+{
+  "class": "8",
+  "subject": "Maths",
+  "chapter": "6",
+  "chapter_name": "Cubes and Cube Roots",
+  "theme": "Cubes and Cube Roots",
+  "lba_qa": [
+    {
+      "q": "A water tank is shaped like a cube with edge 5 metres. Find its volume.",
+      "a": "Volume of a cube = edge x edge x edge = edge^3.\n\n= 5 x 5 x 5\n= 125 cubic metres\n\nSo the volume is 125 cubic metres. ✅",
+      "difficulty": "Easy",
+      "topic": "Cube of a Number",
+      "marks": 2,
+      "id": "lba_qa_1"
+    },
+    {
+      "q": "A cubical box has a volume of 343 cubic cm. Find the length of its edge.",
+      "a": "Edge = cube root of volume\n= cube root of 343.\n\nSince 7 x 7 x 7 = 343,\nedge = 7 cm.\n\nSo the edge of the box is 7 cm. ✅",
+      "difficulty": "Medium",
+      "topic": "Cube Roots",
+      "marks": 2,
+      "id": "lba_qa_2"
+    },
+    {
+      "q": "Find the smallest number by which 128 must be multiplied to make it a perfect cube.",
+      "a": "Prime factorise 128:\n128 = 2^7 = (2x2x2)(2x2x2) x 2\n\nWe have two groups of three 2's and one extra 2. We need two more 2's to make a third group.\nMultiply by 2 x 2 = 4.\n128 x 4 = 512 = 8^3.\n\nSo the smallest number is 4. ✅",
+      "difficulty": "Hard",
+      "topic": "Perfect Cubes by Factorisation",
+      "marks": 3,
+      "id": "lba_qa_3"
+    },
+    {
+      "q": "A sugar cube has edge 2 cm. What is the volume of 1 such cube, and of 27 cubes stacked into a bigger cube?",
+      "a": "Volume of 1 cube = 2 x 2 x 2 = 8 cubic cm.\n\n27 such cubes = 27 x 8 = 216 cubic cm.\nThis forms a bigger cube of edge cube root of 216 = 6 cm.\n\nSo 27 cubes give 216 cubic cm, an edge of 6 cm. ✅",
+      "difficulty": "Medium",
+      "topic": "Cubes and Cube Roots",
+      "marks": 3,
+      "id": "lba_qa_4"
+    },
+    {
+      "q": "Find the cube root of 1728 by prime factorisation.",
+      "a": "1728 = 2x2x2 x 2x2x2 x 3x3x3\n\nGroup in threes and take one from each group:\n= 2 x 2 x 3\n= 12\n\nSo the cube root of 1728 is 12. ✅",
+      "difficulty": "Hard",
+      "topic": "Cube Root by Factorisation",
+      "marks": 3,
+      "id": "lba_qa_5"
+    },
+    {
+      "q": "A cube of side 4 cm is painted. Find its volume.",
+      "a": "Volume = side^3\n= 4 x 4 x 4\n= 64 cubic cm\n\nSo the volume is 64 cubic cm. ✅",
+      "difficulty": "Easy",
+      "topic": "Cube of a Number",
+      "marks": 1,
+      "id": "lba_qa_6"
+    },
+    {
+      "q": "What is the units digit of the cube of 12?",
+      "a": "The units digit of the cube depends on the units digit of the number.\nUnits digit of 12 is 2, and 2^3 = 8.\n\nSo the units digit of the cube of 12 is 8 (12^3 = 1728). ✅",
+      "difficulty": "Medium",
+      "topic": "Patterns in Cubes",
+      "marks": 2,
+      "id": "lba_qa_7"
+    },
+    {
+      "q": "A storeroom holds cubical boxes. A big cube of edge 9 cm is to be filled with small cubes of edge 3 cm. How many small cubes are needed?",
+      "a": "Number of small cubes = (big edge / small edge)^3\n= (9 / 3)^3\n= 3^3\n= 27\n\nSo 27 small cubes are needed. ✅",
+      "difficulty": "Hard",
+      "topic": "Cubes",
+      "marks": 3,
+      "id": "lba_qa_8"
+    },
+    {
+      "q": "Find the cube root of 8000.",
+      "a": "8000 = 8 x 1000\ncube root of 8 = 2, cube root of 1000 = 10.\n\nSo cube root of 8000 = 2 x 10 = 20. ✅",
+      "difficulty": "Medium",
+      "topic": "Cube Roots",
+      "marks": 2,
+      "id": "lba_qa_9"
+    },
+    {
+      "q": "A cube has volume 216 cubic metres. Find the total length of all its 12 edges.",
+      "a": "Edge = cube root of 216 = 6 metres.\n\nA cube has 12 equal edges.\nTotal length = 12 x 6\n= 72 metres.\n\nSo the total edge length is 72 metres. ✅",
+      "difficulty": "Hard",
+      "topic": "Cube Roots",
+      "marks": 3,
+      "id": "lba_qa_10"
+    }
+  ],
+  "lba_mcq": [
+    {
+      "q": "A cubical box has edge 3 cm. Its volume is:",
+      "options": [
+        "27 cubic cm",
+        "18 cubic cm",
+        "12 cubic cm",
+        "9 cubic cm"
+      ],
+      "answer": "A",
+      "explanation": "Volume = 3 x 3 x 3 = 27 cubic cm.",
+      "difficulty": "Easy",
+      "topic": "Cube of a Number",
+      "id": "lba_mcq_1"
+    },
+    {
+      "q": "The cube root of 64 is:",
+      "options": [
+        "8",
+        "4",
+        "2",
+        "16"
+      ],
+      "answer": "B",
+      "explanation": "4 x 4 x 4 = 64, so cube root = 4.",
+      "difficulty": "Easy",
+      "topic": "Cube Roots",
+      "id": "lba_mcq_2"
+    },
+    {
+      "q": "The units digit of the cube of 7 is:",
+      "options": [
+        "7",
+        "9",
+        "3",
+        "1"
+      ],
+      "answer": "C",
+      "explanation": "7^3 = 343, which ends in 3.",
+      "difficulty": "Medium",
+      "topic": "Patterns in Cubes",
+      "id": "lba_mcq_3"
+    },
+    {
+      "q": "A cubical tank has volume 1000 cubic m. Its edge is:",
+      "options": [
+        "100 m",
+        "30 m",
+        "20 m",
+        "10 m"
+      ],
+      "answer": "D",
+      "explanation": "Cube root of 1000 = 10 m.",
+      "difficulty": "Easy",
+      "topic": "Cube Roots",
+      "id": "lba_mcq_4"
+    },
+    {
+      "q": "The smallest number to multiply 9 by to make a perfect cube is:",
+      "options": [
+        "3",
+        "9",
+        "2",
+        "27"
+      ],
+      "answer": "A",
+      "explanation": "9 = 3x3; multiply by 3 to get 27 = 3^3.",
+      "difficulty": "Hard",
+      "topic": "Perfect Cubes",
+      "id": "lba_mcq_5"
+    },
+    {
+      "q": "How many small cubes of edge 2 cm fit into a cube of edge 6 cm?",
+      "options": [
+        "9",
+        "27",
+        "36",
+        "18"
+      ],
+      "answer": "B",
+      "explanation": "(6/2)^3 = 3^3 = 27 cubes.",
+      "difficulty": "Hard",
+      "topic": "Cubes",
+      "id": "lba_mcq_6"
+    },
+    {
+      "q": "The cube of 10 is:",
+      "options": [
+        "300",
+        "100",
+        "1000",
+        "30"
+      ],
+      "answer": "C",
+      "explanation": "10 x 10 x 10 = 1000.",
+      "difficulty": "Easy",
+      "topic": "Cube of a Number",
+      "id": "lba_mcq_7"
+    },
+    {
+      "q": "If the units digit of a cube is 8, the units digit of its cube root is:",
+      "options": [
+        "4",
+        "6",
+        "8",
+        "2"
+      ],
+      "answer": "D",
+      "explanation": "2^3 = 8, so the cube root ends in 2.",
+      "difficulty": "Medium",
+      "topic": "Patterns in Cube Roots",
+      "id": "lba_mcq_8"
+    },
+    {
+      "q": "The cube root of 1728 is:",
+      "options": [
+        "12",
+        "14",
+        "18",
+        "16"
+      ],
+      "answer": "A",
+      "explanation": "12 x 12 x 12 = 1728.",
+      "difficulty": "Medium",
+      "topic": "Cube Roots",
+      "id": "lba_mcq_9"
+    },
+    {
+      "q": "The cube of an even number is always:",
+      "options": [
+        "odd",
+        "even",
+        "zero",
+        "prime"
+      ],
+      "answer": "B",
+      "explanation": "An even number cubed stays even (e.g. 2^3 = 8).",
+      "difficulty": "Medium",
+      "topic": "Properties of Cubes",
+      "id": "lba_mcq_10"
+    }
+  ]
+}

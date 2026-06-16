@@ -1,0 +1,231 @@
+{
+  "class": "10",
+  "subject": "Maths",
+  "chapter": "2",
+  "chapter_name": "Polynomials",
+  "theme": "Algebra",
+  "lba_qa": [
+    {
+      "id": "lba_qa_1",
+      "q": "A farmer's rectangular field has its area represented by the polynomial x^2 + 7x + 12 square metres. Find the possible length and breadth of the field in terms of x.",
+      "a": "Area = x^2 + 7x + 12. Factorise it: we need two numbers whose product is 12 and sum is 7, which are 3 and 4.\nSo x^2 + 7x + 12 = (x + 3)(x + 4).\nSince area = length x breadth, the length and breadth are (x + 4) metres and (x + 3) metres.",
+      "difficulty": "Average",
+      "topic": "Zeroes and factorisation of polynomials",
+      "marks": 3
+    },
+    {
+      "id": "lba_qa_2",
+      "q": "The zeroes of a quadratic polynomial represent the points where its graph cuts the x-axis. If a ball thrown up follows the path of a polynomial and touches the ground at x = 2 and x = 5, what does this mean physically?",
+      "a": "The zeroes of the polynomial are x = 2 and x = 5. Physically, these are the points where the path of the ball meets the ground (the x-axis), i.e. where the height is zero. So the ball is on the ground at x = 2 and x = 5 (start and landing positions along the ground). The zeroes show where the value of the polynomial (height) becomes zero.",
+      "difficulty": "Average",
+      "topic": "Geometrical meaning of zeroes",
+      "marks": 2
+    },
+    {
+      "id": "lba_qa_3",
+      "q": "For the polynomial x^2 - 5x + 6, find the sum and product of its zeroes without solving, and then verify by finding the zeroes.",
+      "a": "For ax^2 + bx + c: sum of zeroes = -b/a, product = c/a.\nHere a = 1, b = -5, c = 6.\nSum = -(-5)/1 = 5; Product = 6/1 = 6.\nVerify: x^2 - 5x + 6 = (x - 2)(x - 3), so zeroes are 2 and 3.\nSum = 2 + 3 = 5 (matches); Product = 2 x 3 = 6 (matches). Verified.",
+      "difficulty": "Average",
+      "topic": "Relationship between zeroes and coefficients",
+      "marks": 3
+    },
+    {
+      "id": "lba_qa_4",
+      "q": "A student says 'every quadratic polynomial must have two zeroes'. Is this always true? Explain with the idea of the graph cutting the x-axis.",
+      "a": "Not always. A quadratic polynomial has at most two zeroes. Its graph is a parabola. If the parabola cuts the x-axis at two points, there are two zeroes; if it just touches the x-axis at one point, there is one (repeated) zero; and if it does not meet the x-axis at all, there are no real zeroes. So a quadratic has at most two zeroes, but not always exactly two.",
+      "difficulty": "Difficult",
+      "topic": "Geometrical meaning of zeroes",
+      "marks": 2
+    },
+    {
+      "id": "lba_qa_5",
+      "q": "Find a quadratic polynomial whose sum of zeroes is 5 and product of zeroes is 6. Where might such a situation occur in real life?",
+      "a": "A quadratic polynomial with given sum (S) and product (P) of zeroes is x^2 - Sx + P.\nHere S = 5, P = 6, so the polynomial is x^2 - 5x + 6.\nReal-life link: if two unknown numbers add up to 5 and multiply to 6 (for example, dimensions or two quantities), they are the zeroes of this polynomial, which are 2 and 3.",
+      "difficulty": "Average",
+      "topic": "Relationship between zeroes and coefficients",
+      "marks": 3
+    },
+    {
+      "id": "lba_qa_6",
+      "q": "The graph of a polynomial cuts the x-axis at 3 points. What is the minimum degree of this polynomial and why?",
+      "a": "The number of times the graph of a polynomial cuts the x-axis equals the number of real zeroes, and a polynomial of degree n has at most n zeroes. Since the graph cuts the x-axis at 3 points, there are 3 zeroes, so the polynomial must have a degree of at least 3 (a cubic polynomial). So the minimum degree is 3.",
+      "difficulty": "Difficult",
+      "topic": "Geometrical meaning of zeroes",
+      "marks": 2
+    },
+    {
+      "id": "lba_qa_7",
+      "q": "If one zero of the polynomial x^2 - 8x + k is 3, find the value of k and the other zero.",
+      "a": "If 3 is a zero, it satisfies the polynomial: (3)^2 - 8(3) + k = 0, so 9 - 24 + k = 0, giving k = 15.\nProduct of zeroes = c/a = 15/1 = 15. One zero is 3, so the other zero = 15/3 = 5.\nSo k = 15 and the other zero is 5.",
+      "difficulty": "Average",
+      "topic": "Relationship between zeroes and coefficients",
+      "marks": 3
+    },
+    {
+      "id": "lba_qa_8",
+      "q": "A polynomial is a constant (for example, p(x) = 7). What is its degree, and can it have any zero?",
+      "a": "A non-zero constant polynomial like p(x) = 7 has degree 0 (no variable term). It has no zero, because its value is always 7 and never becomes 0, so its graph never touches the x-axis. So a non-zero constant polynomial has degree 0 and no zeroes.",
+      "difficulty": "Average",
+      "topic": "Introduction to polynomials",
+      "marks": 2
+    },
+    {
+      "id": "lba_qa_9",
+      "q": "The product of two consecutive positive integers is 56. Form a quadratic polynomial/equation for this situation and explain how it helps find the numbers.",
+      "a": "Let the first integer be x; the next is (x + 1). Their product is 56.\nSo x(x + 1) = 56, which gives x^2 + x - 56 = 0.\nThis is a quadratic polynomial set to zero. Its zeroes give the value of x. Factorising: (x + 8)(x - 7) = 0, so x = 7 (taking the positive value). The consecutive integers are 7 and 8. This shows how forming a polynomial helps solve a real-life number problem.",
+      "difficulty": "Difficult",
+      "topic": "Polynomials in real-life problems",
+      "marks": 3
+    },
+    {
+      "id": "lba_qa_10",
+      "q": "For the polynomial 2x^2 - 3x - 2, find the sum and product of zeroes using coefficients.",
+      "a": "For ax^2 + bx + c: sum of zeroes = -b/a, product = c/a.\nHere a = 2, b = -3, c = -2.\nSum of zeroes = -(-3)/2 = 3/2.\nProduct of zeroes = -2/2 = -1.\nSo the sum is 3/2 and the product is -1.",
+      "difficulty": "Average",
+      "topic": "Relationship between zeroes and coefficients",
+      "marks": 2
+    }
+  ],
+  "lba_mcq": [
+    {
+      "id": "lba_mcq_1",
+      "q": "A rectangular field has area x^2 + 7x + 12. Its length and breadth are:",
+      "options": [
+        "(x+3) and (x+4)",
+        "(x+2) and (x+6)",
+        "(x+1) and (x+12)",
+        "(x+5) and (x+2)"
+      ],
+      "answer": "A",
+      "explanation": "x^2+7x+12 = (x+3)(x+4), so the sides are (x+3) and (x+4).",
+      "difficulty": "Average",
+      "topic": "Factorisation"
+    },
+    {
+      "id": "lba_mcq_2",
+      "q": "The graph of a polynomial cuts the x-axis at 2 distinct points. The number of real zeroes is:",
+      "options": [
+        "0",
+        "2",
+        "1",
+        "3"
+      ],
+      "answer": "B",
+      "explanation": "The number of points where the graph cuts the x-axis equals the number of real zeroes, here 2.",
+      "difficulty": "Easy",
+      "topic": "Geometrical meaning of zeroes"
+    },
+    {
+      "id": "lba_mcq_3",
+      "q": "For x^2 - 5x + 6, the sum and product of zeroes are:",
+      "options": [
+        "Sum -5, Product 6",
+        "Sum 6, Product 5",
+        "Sum 5, Product 6",
+        "Sum -6, Product -5"
+      ],
+      "answer": "C",
+      "explanation": "Sum = -b/a = 5, Product = c/a = 6.",
+      "difficulty": "Average",
+      "topic": "Zeroes and coefficients"
+    },
+    {
+      "id": "lba_mcq_4",
+      "q": "A quadratic polynomial whose zeroes have sum 5 and product 6 is:",
+      "options": [
+        "x^2 + 5x + 6",
+        "x^2 - 5x - 6",
+        "x^2 + 6x + 5",
+        "x^2 - 5x + 6"
+      ],
+      "answer": "D",
+      "explanation": "Polynomial = x^2 - (sum)x + (product) = x^2 - 5x + 6.",
+      "difficulty": "Average",
+      "topic": "Forming polynomials"
+    },
+    {
+      "id": "lba_mcq_5",
+      "q": "If one zero of x^2 - 8x + k is 3, the value of k is:",
+      "options": [
+        "15",
+        "12",
+        "24",
+        "9"
+      ],
+      "answer": "A",
+      "explanation": "Putting x=3: 9 - 24 + k = 0, so k = 15.",
+      "difficulty": "Average",
+      "topic": "Zeroes of polynomials"
+    },
+    {
+      "id": "lba_mcq_6",
+      "q": "The maximum number of zeroes a quadratic polynomial can have is:",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "Unlimited"
+      ],
+      "answer": "B",
+      "explanation": "A quadratic (degree 2) polynomial has at most 2 zeroes.",
+      "difficulty": "Easy",
+      "topic": "Zeroes of polynomials"
+    },
+    {
+      "id": "lba_mcq_7",
+      "q": "If the graph of a polynomial cuts the x-axis at 3 points, its minimum degree is:",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "0"
+      ],
+      "answer": "C",
+      "explanation": "3 zeroes means at least degree 3 (cubic), since a degree-n polynomial has at most n zeroes.",
+      "difficulty": "Difficult",
+      "topic": "Geometrical meaning of zeroes"
+    },
+    {
+      "id": "lba_mcq_8",
+      "q": "The product of two consecutive integers is 56. The correct equation is:",
+      "options": [
+        "x^2 - 56 = 0",
+        "x^2 + 56 = 0",
+        "x + (x+1) = 56",
+        "x^2 + x - 56 = 0"
+      ],
+      "answer": "D",
+      "explanation": "x(x+1) = 56 gives x^2 + x - 56 = 0.",
+      "difficulty": "Average",
+      "topic": "Polynomials in problems"
+    },
+    {
+      "id": "lba_mcq_9",
+      "q": "A non-zero constant polynomial like p(x) = 7 has degree:",
+      "options": [
+        "0",
+        "1",
+        "7",
+        "Undefined"
+      ],
+      "answer": "A",
+      "explanation": "A non-zero constant polynomial has degree 0 and has no zero.",
+      "difficulty": "Average",
+      "topic": "Introduction to polynomials"
+    },
+    {
+      "id": "lba_mcq_10",
+      "q": "For 2x^2 - 3x - 2, the product of zeroes is:",
+      "options": [
+        "1",
+        "-1",
+        "3/2",
+        "-2"
+      ],
+      "answer": "B",
+      "explanation": "Product = c/a = -2/2 = -1.",
+      "difficulty": "Average",
+      "topic": "Zeroes and coefficients"
+    }
+  ]
+}

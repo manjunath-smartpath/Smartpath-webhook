@@ -1,0 +1,231 @@
+{
+  "class": "10",
+  "subject": "Science",
+  "chapter": "7",
+  "chapter_name": "How do Organisms Reproduce?",
+  "theme": "World of Living",
+  "lba_qa": [
+    {
+      "id": "lba_qa_1",
+      "q": "A gardener grows many rose plants from cuttings of one healthy rose plant, and all the new plants have exactly the same flowers. Explain why, using the type of reproduction involved.",
+      "a": "Growing new plants from cuttings is vegetative propagation, a type of asexual reproduction. Since only one parent is involved and no mixing of genetic material happens, all the new plants are genetically identical to the parent. That is why all the rose plants have exactly the same flowers as the original plant.",
+      "difficulty": "Average",
+      "topic": "Vegetative propagation",
+      "marks": 2
+    },
+    {
+      "id": "lba_qa_2",
+      "q": "Farmers grow banana, sugarcane and rose plants using vegetative propagation instead of seeds. Give two advantages of this method.",
+      "a": "Advantages of vegetative propagation: (1) The new plants are exactly like the parent, so good qualities (taste, flower colour, disease resistance) are kept. (2) Plants can be grown faster and even from plants that do not produce seeds (like banana). It also helps grow many plants quickly and cheaply. This is why farmers prefer it for these crops.",
+      "difficulty": "Average",
+      "topic": "Vegetative propagation",
+      "marks": 2
+    },
+    {
+      "id": "lba_qa_3",
+      "q": "If a Planaria (flatworm) is cut into several pieces, each piece grows into a complete new worm. Name this process and explain it.",
+      "a": "This process is called regeneration. Some simple organisms like Planaria and Hydra can regrow their full body from a body part. Specialised cells in the cut piece divide and grow to form all the different tissues and organs, producing a complete new organism. This is a type of asexual reproduction.",
+      "difficulty": "Average",
+      "topic": "Regeneration",
+      "marks": 2
+    },
+    {
+      "id": "lba_qa_4",
+      "q": "Bread or a piece of bread left in a warm, moist place for a few days develops fluffy growth (mould). Explain how the mould reproduces and spreads so fast.",
+      "a": "The mould (a fungus like Rhizopus) reproduces by spore formation. It develops tiny structures that produce a large number of spores. These spores are very light and spread easily through air. When they land on a moist surface like bread, they grow into new mould. Because so many spores form and spread quickly, the mould spreads fast.",
+      "difficulty": "Average",
+      "topic": "Spore formation",
+      "marks": 2
+    },
+    {
+      "id": "lba_qa_5",
+      "q": "Children in a family resemble their parents but are not exactly identical to them or to each other. Explain why, connecting it to the mode of reproduction.",
+      "a": "Children are produced by sexual reproduction, which involves two parents. The offspring receive a mixture of genetic material from both parents. This mixing creates variations, so children resemble their parents but are not exactly identical to them or to each other. Variation is an important feature of sexual reproduction.",
+      "difficulty": "Average",
+      "topic": "Importance of variation / Sexual reproduction",
+      "marks": 2
+    },
+    {
+      "id": "lba_qa_6",
+      "q": "Variation among offspring helps a species survive when the environment changes. Explain this idea with an example.",
+      "a": "Variation means offspring are slightly different from each other. If the environment changes (for example, a new disease or temperature change), some individuals with useful variations may survive better than others. For example, if some bacteria have a variation that lets them survive heat, they will survive when the temperature rises. This helps the species continue to exist. So variation improves the chances of survival of a species.",
+      "difficulty": "Difficult",
+      "topic": "Importance of variation",
+      "marks": 3
+    },
+    {
+      "id": "lba_qa_7",
+      "q": "A drop of pond water seen under a microscope shows an Amoeba splitting into two. Name this mode of reproduction and explain it.",
+      "a": "This is binary fission, a type of asexual reproduction. The single-celled organism (Amoeba) divides into two equal halves. First the nucleus divides, then the cell splits into two daughter cells, each becoming a new Amoeba. It is a simple and fast way for single-celled organisms to reproduce.",
+      "difficulty": "Easy",
+      "topic": "Fission",
+      "marks": 2
+    },
+    {
+      "id": "lba_qa_8",
+      "q": "In flowering plants, pollination must happen before seeds can form. Explain the role of pollination and how it sometimes depends on insects like bees.",
+      "a": "Pollination is the transfer of pollen from the male part (anther) to the female part (stigma) of a flower. It is the first step before fertilisation, which leads to seed formation. Many flowers depend on insects like bees: when bees visit flowers for nectar, pollen sticks to their bodies and is carried to other flowers, helping pollination. This is why bees are important for plant reproduction and food crops.",
+      "difficulty": "Average",
+      "topic": "Sexual reproduction in flowering plants",
+      "marks": 3
+    },
+    {
+      "id": "lba_qa_9",
+      "q": "Yeast used in baking bread reproduces by forming a small bulge on its surface that grows and separates. Name this process and explain.",
+      "a": "This process is called budding. In yeast, a small outgrowth or bud forms on the parent cell. This bud grows in size, gradually develops into a new yeast cell, and then separates from the parent to live on its own. Hydra also reproduces by budding. It is a type of asexual reproduction.",
+      "difficulty": "Easy",
+      "topic": "Budding",
+      "marks": 2
+    },
+    {
+      "id": "lba_qa_10",
+      "q": "Spirogyra (a green alga) found in ponds breaks into smaller pieces and each piece grows into a new individual. Name and explain this mode of reproduction.",
+      "a": "This is called fragmentation. In organisms like Spirogyra, the body breaks (fragments) into two or more pieces when it matures. Each fragment then grows into a new, complete individual. It is a simple type of asexual reproduction seen in some simple multicellular organisms.",
+      "difficulty": "Easy",
+      "topic": "Fragmentation",
+      "marks": 2
+    }
+  ],
+  "lba_mcq": [
+    {
+      "id": "lba_mcq_1",
+      "q": "A gardener grows identical rose plants from cuttings of one plant. This method is:",
+      "options": [
+        "Vegetative propagation",
+        "Sexual reproduction",
+        "Spore formation",
+        "Fission"
+      ],
+      "answer": "A",
+      "explanation": "Growing new plants from a part (cutting) of one parent plant is vegetative propagation, giving plants identical to the parent.",
+      "difficulty": "Easy",
+      "topic": "Vegetative propagation"
+    },
+    {
+      "id": "lba_mcq_2",
+      "q": "A Planaria worm cut into pieces grows into several complete worms. This is called:",
+      "options": [
+        "Budding",
+        "Regeneration",
+        "Fission",
+        "Pollination"
+      ],
+      "answer": "B",
+      "explanation": "The ability to grow a complete organism from a body piece is regeneration, seen in Planaria and Hydra.",
+      "difficulty": "Average",
+      "topic": "Regeneration"
+    },
+    {
+      "id": "lba_mcq_3",
+      "q": "Bread mould spreads very fast in warm, moist conditions because it reproduces by:",
+      "options": [
+        "Binary fission",
+        "Budding",
+        "Spore formation",
+        "Vegetative propagation"
+      ],
+      "answer": "C",
+      "explanation": "Moulds like Rhizopus produce huge numbers of light spores that spread easily through air, so they spread fast.",
+      "difficulty": "Average",
+      "topic": "Spore formation"
+    },
+    {
+      "id": "lba_mcq_4",
+      "q": "Children resemble their parents but show variations because they are produced by:",
+      "options": [
+        "Asexual reproduction",
+        "Fission",
+        "Fragmentation",
+        "Sexual reproduction involving two parents"
+      ],
+      "answer": "D",
+      "explanation": "Sexual reproduction mixes genetic material from two parents, producing offspring with variations who resemble but are not identical to parents.",
+      "difficulty": "Average",
+      "topic": "Sexual reproduction / variation"
+    },
+    {
+      "id": "lba_mcq_5",
+      "q": "An Amoeba in pond water divides into two equal cells. This mode of reproduction is:",
+      "options": [
+        "Binary fission",
+        "Budding",
+        "Regeneration",
+        "Pollination"
+      ],
+      "answer": "A",
+      "explanation": "Amoeba reproduces by binary fission, splitting into two daughter cells, each becoming a new organism.",
+      "difficulty": "Easy",
+      "topic": "Fission"
+    },
+    {
+      "id": "lba_mcq_6",
+      "q": "Bees visiting flowers for nectar help the plant by carrying out:",
+      "options": [
+        "Fertilisation directly",
+        "Pollination",
+        "Germination",
+        "Respiration"
+      ],
+      "answer": "B",
+      "explanation": "Bees carry pollen from one flower to another while collecting nectar, helping pollination, the first step before seed formation.",
+      "difficulty": "Easy",
+      "topic": "Sexual reproduction in flowering plants"
+    },
+    {
+      "id": "lba_mcq_7",
+      "q": "Yeast reproduces by forming a small outgrowth that grows and detaches. This is:",
+      "options": [
+        "Fission",
+        "Fragmentation",
+        "Budding",
+        "Regeneration"
+      ],
+      "answer": "C",
+      "explanation": "Yeast and Hydra reproduce by budding, where a bud grows on the parent and separates as a new individual.",
+      "difficulty": "Easy",
+      "topic": "Budding"
+    },
+    {
+      "id": "lba_mcq_8",
+      "q": "Why do farmers prefer vegetative propagation for banana and sugarcane?",
+      "options": [
+        "It produces many variations",
+        "It needs seeds",
+        "It is the only sexual method",
+        "It keeps the good qualities of the parent and grows faster"
+      ],
+      "answer": "D",
+      "explanation": "Vegetative propagation produces plants identical to the parent, keeping good qualities, and grows faster, even from seedless plants like banana.",
+      "difficulty": "Average",
+      "topic": "Vegetative propagation"
+    },
+    {
+      "id": "lba_mcq_9",
+      "q": "Variation in a population is useful mainly because it:",
+      "options": [
+        "Improves the chances of survival of the species when conditions change",
+        "Makes all individuals identical",
+        "Stops reproduction",
+        "Reduces the number of offspring"
+      ],
+      "answer": "A",
+      "explanation": "Variations help some individuals survive when the environment changes, improving the survival chances of the whole species.",
+      "difficulty": "Difficult",
+      "topic": "Importance of variation"
+    },
+    {
+      "id": "lba_mcq_10",
+      "q": "Spirogyra breaks into pieces and each piece grows into a new individual. This is:",
+      "options": [
+        "Budding",
+        "Fragmentation",
+        "Pollination",
+        "Binary fission"
+      ],
+      "answer": "B",
+      "explanation": "Spirogyra reproduces by fragmentation, where the body breaks into pieces and each grows into a new organism.",
+      "difficulty": "Easy",
+      "topic": "Fragmentation"
+    }
+  ]
+}

@@ -1,0 +1,231 @@
+{
+  "class": "8",
+  "subject": "Maths",
+  "chapter": "1",
+  "chapter_name": "Rational Numbers",
+  "theme": "Rational Numbers",
+  "lba_qa": [
+    {
+      "q": "A recipe for one batch of laddu needs 3/4 cup of sugar. Amma wants to make only half a batch. How much sugar should she use?",
+      "a": "Half a batch means half of 3/4 cup.\n\n= 1/2 x 3/4\n= (1 x 3) / (2 x 4)\n= 3/8 cup\n\nSo Amma should use 3/8 cup of sugar. ✅",
+      "difficulty": "Easy",
+      "topic": "Multiplication of Rational Numbers",
+      "marks": 2,
+      "id": "lba_qa_1"
+    },
+    {
+      "q": "A water tank is 2/5 full in the morning. By evening another 1/3 of the tank is filled. What fraction of the tank is full now?",
+      "a": "Total filled = 2/5 + 1/3\n\nTake LCM of 5 and 3 = 15\n= 6/15 + 5/15\n= 11/15\n\nSo 11/15 of the tank is now full. ✅",
+      "difficulty": "Easy",
+      "topic": "Addition of Rational Numbers",
+      "marks": 2,
+      "id": "lba_qa_2"
+    },
+    {
+      "q": "Ravi walks 5/6 km to school and the same distance back home. How far does he walk in 5 school days?",
+      "a": "Distance per day = 5/6 + 5/6 = 10/6 = 5/3 km\n\nIn 5 days = 5 x 5/3\n= 25/3 km\n= 8 1/3 km\n\nSo Ravi walks 8 1/3 km in 5 days. ✅",
+      "difficulty": "Medium",
+      "topic": "Operations on Rational Numbers",
+      "marks": 2,
+      "id": "lba_qa_3"
+    },
+    {
+      "q": "A rope is 7/2 metres long. It is cut into equal pieces, each 7/8 metre long. How many pieces are obtained?",
+      "a": "Number of pieces = total length / length of one piece\n= (7/2) / (7/8)\n\nDividing means multiply by the reciprocal:\n= 7/2 x 8/7\n= 8/2\n= 4\n\nSo 4 pieces are obtained. ✅",
+      "difficulty": "Medium",
+      "topic": "Division of Rational Numbers",
+      "marks": 2,
+      "id": "lba_qa_4"
+    },
+    {
+      "q": "A shopkeeper sold 3/4 kg of tea in the morning and 2/3 kg in the evening. What total weight of tea did he sell?",
+      "a": "Total = 3/4 + 2/3\n\nLCM of 4 and 3 = 12\n= 9/12 + 8/12\n= 17/12\n= 1 5/12 kg\n\nSo he sold 1 5/12 kg of tea. ✅",
+      "difficulty": "Easy",
+      "topic": "Addition of Rational Numbers",
+      "marks": 2,
+      "id": "lba_qa_5"
+    },
+    {
+      "q": "A milk jug holds 9/4 litres. It is poured fully into small glasses, each holding 3/8 litre. How many glasses can be filled?",
+      "a": "Number of glasses = (9/4) / (3/8)\n= 9/4 x 8/3\n= 72/12\n= 6\n\nSo 6 glasses can be filled. ✅",
+      "difficulty": "Medium",
+      "topic": "Division of Rational Numbers",
+      "marks": 2,
+      "id": "lba_qa_6"
+    },
+    {
+      "q": "On a cold morning the temperature was -3/2 degrees. By noon it rose by 5/2 degrees. What is the temperature at noon?",
+      "a": "Noon temperature = -3/2 + 5/2\n= (-3 + 5) / 2\n= 2/2\n= 1 degree\n\nSo the temperature at noon is 1 degree. ✅",
+      "difficulty": "Easy",
+      "topic": "Addition of Rational Numbers",
+      "marks": 1,
+      "id": "lba_qa_7"
+    },
+    {
+      "q": "A farmer divides 4/5 of his land equally between his 2 sons. What fraction of the whole land does each son get?",
+      "a": "Each son's share = (4/5) / 2\n= 4/5 x 1/2\n= 4/10\n= 2/5\n\nSo each son gets 2/5 of the land. ✅",
+      "difficulty": "Medium",
+      "topic": "Division of Rational Numbers",
+      "marks": 2,
+      "id": "lba_qa_8"
+    },
+    {
+      "q": "A painter uses 2/3 litre of paint for one chair. How many chairs can he paint with 6 litres of paint?",
+      "a": "Number of chairs = total paint / paint per chair\n= 6 / (2/3)\n= 6 x 3/2\n= 18/2\n= 9\n\nSo he can paint 9 chairs. ✅",
+      "difficulty": "Medium",
+      "topic": "Division of Rational Numbers",
+      "marks": 2,
+      "id": "lba_qa_9"
+    },
+    {
+      "q": "A teacher buys notebooks. She spends 1/2 of her money on Maths books and 1/3 on Science books. What fraction is left, and use this to show the distributive idea of grouping the spending?",
+      "a": "Spent = 1/2 + 1/3\nLCM of 2 and 3 = 6\n= 3/6 + 2/6\n= 5/6\n\nMoney left = 1 - 5/6 = 6/6 - 5/6 = 1/6\n\nSo 1/6 of the money is left. Grouping the two spendings first and then subtracting from the whole gives the same answer as subtracting them one by one. ✅",
+      "difficulty": "Hard",
+      "topic": "Operations and Properties",
+      "marks": 3,
+      "id": "lba_qa_10"
+    }
+  ],
+  "lba_mcq": [
+    {
+      "q": "Geeta cuts a 5/6 metre ribbon into 5 equal parts for rakhi. What is the length of each part?",
+      "options": [
+        "5/30 metre = 1/6 metre",
+        "5 metres",
+        "6/5 metre",
+        "1/6 metre"
+      ],
+      "answer": "A",
+      "explanation": "Each part = (5/6) / 5 = 5/6 x 1/5 = 5/30 = 1/6 metre.",
+      "difficulty": "Easy",
+      "topic": "Division of Rational Numbers",
+      "id": "lba_mcq_1"
+    },
+    {
+      "q": "A tank is 3/8 full and then 1/4 more is added. How full is it now?",
+      "options": [
+        "3/32",
+        "5/8",
+        "4/12",
+        "1/2"
+      ],
+      "answer": "B",
+      "explanation": "3/8 + 1/4 = 3/8 + 2/8 = 5/8. Always take the LCM (8) before adding.",
+      "difficulty": "Easy",
+      "topic": "Addition of Rational Numbers",
+      "id": "lba_mcq_2"
+    },
+    {
+      "q": "Manju owes a friend 7/4 rupees worth of sweets. Which rational number shows what he owes (a negative amount to him)?",
+      "options": [
+        "-4/7",
+        "7/4",
+        "-7/4",
+        "4/7"
+      ],
+      "answer": "C",
+      "explanation": "Money owed is shown as a negative rational number, so it is -7/4.",
+      "difficulty": "Easy",
+      "topic": "Rational Numbers on the Number Line",
+      "id": "lba_mcq_3"
+    },
+    {
+      "q": "A shop sells 2/3 kg and 2/3 kg of rice to two customers. Using which property can the shopkeeper add these in any order?",
+      "options": [
+        "Identity property",
+        "Closure property",
+        "Distributive property",
+        "Commutative property"
+      ],
+      "answer": "D",
+      "explanation": "Commutative property of addition: a + b = b + a, so order does not matter.",
+      "difficulty": "Medium",
+      "topic": "Properties of Rational Numbers",
+      "id": "lba_mcq_4"
+    },
+    {
+      "q": "What number should be multiplied by 5/9 so that the product is 1 (so the shopkeeper's scale reads exactly 1 unit)?",
+      "options": [
+        "9/5",
+        "1",
+        "-5/9",
+        "5/9"
+      ],
+      "answer": "A",
+      "explanation": "The product is 1 with the reciprocal: 5/9 x 9/5 = 1. So the number is 9/5.",
+      "difficulty": "Medium",
+      "topic": "Reciprocal (Multiplicative Inverse)",
+      "id": "lba_mcq_5"
+    },
+    {
+      "q": "A car covers 3/4 of a journey on day one and stops. Which rational number shows the part still left?",
+      "options": [
+        "3/4",
+        "1/4",
+        "0",
+        "4/3"
+      ],
+      "answer": "B",
+      "explanation": "Whole journey = 1. Left = 1 - 3/4 = 1/4.",
+      "difficulty": "Easy",
+      "topic": "Subtraction of Rational Numbers",
+      "id": "lba_mcq_6"
+    },
+    {
+      "q": "A jar has 7/2 litre juice poured equally into glasses of 7/8 litre. How many glasses are filled?",
+      "options": [
+        "8",
+        "2",
+        "4",
+        "3"
+      ],
+      "answer": "C",
+      "explanation": "(7/2) / (7/8) = 7/2 x 8/7 = 4 glasses.",
+      "difficulty": "Medium",
+      "topic": "Division of Rational Numbers",
+      "id": "lba_mcq_7"
+    },
+    {
+      "q": "A field of area 4/5 hectare is shared equally among 4 farmers. What does each get?",
+      "options": [
+        "5/4 hectare",
+        "16/5 hectare",
+        "1/5 hectare",
+        "4/20 = 1/5 hectare"
+      ],
+      "answer": "D",
+      "explanation": "(4/5) / 4 = 4/5 x 1/4 = 4/20 = 1/5 hectare.",
+      "difficulty": "Medium",
+      "topic": "Division of Rational Numbers",
+      "id": "lba_mcq_8"
+    },
+    {
+      "q": "Adding 0 to a price of 11/7 rupees keeps it the same. Which property is this?",
+      "options": [
+        "Additive identity property",
+        "Closure property",
+        "Associative property",
+        "Commutative property"
+      ],
+      "answer": "A",
+      "explanation": "0 is the additive identity: a + 0 = a, so the price stays 11/7.",
+      "difficulty": "Easy",
+      "topic": "Properties of Rational Numbers",
+      "id": "lba_mcq_9"
+    },
+    {
+      "q": "A baker needs a rational number that lies between 2/5 and 3/5 of a kg for a small cake. Which value fits?",
+      "options": [
+        "1/5",
+        "1/2",
+        "6/5",
+        "4/5"
+      ],
+      "answer": "B",
+      "explanation": "1/2 = 0.5 lies between 2/5 = 0.4 and 3/5 = 0.6, so it fits.",
+      "difficulty": "Hard",
+      "topic": "Rational Numbers Between Two Numbers",
+      "id": "lba_mcq_10"
+    }
+  ]
+}

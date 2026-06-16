@@ -1,0 +1,231 @@
+{
+  "class": "8",
+  "subject": "Maths",
+  "chapter": "4",
+  "chapter_name": "Data Handling",
+  "theme": "Data Handling",
+  "lba_qa": [
+    {
+      "q": "In a survey of 720 students, 1/4 chose cricket as favourite sport. In a pie chart, how many degrees should the cricket sector be?",
+      "a": "Cricket fraction = 1/4 of the whole circle.\nWhole circle = 360 degrees.\n\nCricket sector = 1/4 x 360\n= 90 degrees\n\nSo the cricket sector is 90 degrees. ✅",
+      "difficulty": "Medium",
+      "topic": "Pie Charts",
+      "marks": 2,
+      "id": "lba_qa_1"
+    },
+    {
+      "q": "A bag has 5 red, 3 green and 2 blue marbles. One marble is drawn at random. What is the probability that it is green?",
+      "a": "Total marbles = 5 + 3 + 2 = 10.\nFavourable (green) = 3.\n\nProbability = favourable / total\n= 3/10\n\nSo the probability of green is 3/10. ✅",
+      "difficulty": "Easy",
+      "topic": "Probability",
+      "marks": 2,
+      "id": "lba_qa_2"
+    },
+    {
+      "q": "A die is rolled once. What is the probability of getting an even number?",
+      "a": "Numbers on a die = 1, 2, 3, 4, 5, 6 (total 6).\nEven numbers = 2, 4, 6 (that is 3).\n\nProbability = 3/6 = 1/2\n\nSo the probability of an even number is 1/2. ✅",
+      "difficulty": "Easy",
+      "topic": "Probability",
+      "marks": 2,
+      "id": "lba_qa_3"
+    },
+    {
+      "q": "In a class budget pie chart, the 'books' sector is 120 degrees out of 360. What fraction and percentage of the budget is for books?",
+      "a": "Fraction = 120 / 360 = 1/3.\n\nPercentage = 1/3 x 100 = 33.33 percent (approximately).\n\nSo books take 1/3, that is about 33.3 percent of the budget. ✅",
+      "difficulty": "Medium",
+      "topic": "Pie Charts",
+      "marks": 3,
+      "id": "lba_qa_4"
+    },
+    {
+      "q": "A spinner has 8 equal parts numbered 1 to 8. What is the probability of landing on a number greater than 5?",
+      "a": "Numbers greater than 5 = 6, 7, 8 (that is 3 numbers).\nTotal = 8.\n\nProbability = 3/8\n\nSo the probability is 3/8. ✅",
+      "difficulty": "Medium",
+      "topic": "Probability",
+      "marks": 2,
+      "id": "lba_qa_5"
+    },
+    {
+      "q": "In a bar graph the bars for four months show 20, 35, 25 and 40 books sold. How many books were sold in total, and which month was highest?",
+      "a": "Total = 20 + 35 + 25 + 40\n= 120 books.\n\nThe highest bar is 40, which is the fourth month.\n\nSo 120 books were sold in all, and the fourth month was highest. ✅",
+      "difficulty": "Easy",
+      "topic": "Bar Graphs",
+      "marks": 2,
+      "id": "lba_qa_6"
+    },
+    {
+      "q": "A pie chart of 360 degrees shows expenses: food 180 degrees, rent 90 degrees, others the rest. What percentage is spent on 'others'?",
+      "a": "Others sector = 360 - (180 + 90)\n= 360 - 270 = 90 degrees.\n\nPercentage = 90/360 x 100 = 25 percent.\n\nSo 25 percent is spent on others. ✅",
+      "difficulty": "Medium",
+      "topic": "Pie Charts",
+      "marks": 3,
+      "id": "lba_qa_7"
+    },
+    {
+      "q": "A coin is tossed once. What is the probability of getting a head?",
+      "a": "A coin has 2 outcomes: head and tail.\nFavourable (head) = 1.\n\nProbability = 1/2\n\nSo the probability of a head is 1/2. ✅",
+      "difficulty": "Easy",
+      "topic": "Probability",
+      "marks": 1,
+      "id": "lba_qa_8"
+    },
+    {
+      "q": "From cards numbered 1 to 20, one is drawn. What is the probability that it is a multiple of 5?",
+      "a": "Multiples of 5 from 1 to 20 = 5, 10, 15, 20 (that is 4).\nTotal = 20.\n\nProbability = 4/20 = 1/5\n\nSo the probability is 1/5. ✅",
+      "difficulty": "Medium",
+      "topic": "Probability",
+      "marks": 2,
+      "id": "lba_qa_9"
+    },
+    {
+      "q": "In a village survey of 1800 people, a pie chart shows 'farmers' as 200 degrees. How many people are farmers?",
+      "a": "Farmers fraction = 200/360.\n\nNumber of farmers = 200/360 x 1800\n= 200 x 5\n= 1000\n\nSo 1000 people are farmers. ✅",
+      "difficulty": "Hard",
+      "topic": "Pie Charts",
+      "marks": 3,
+      "id": "lba_qa_10"
+    }
+  ],
+  "lba_mcq": [
+    {
+      "q": "A bag has 4 white and 6 black balls. The probability of drawing a white ball is:",
+      "options": [
+        "4/10 = 2/5",
+        "6/10",
+        "1/4",
+        "4/6"
+      ],
+      "answer": "A",
+      "explanation": "P(white) = 4/10 = 2/5 (total balls = 10).",
+      "difficulty": "Easy",
+      "topic": "Probability",
+      "id": "lba_mcq_1"
+    },
+    {
+      "q": "In a pie chart, a sector showing 1/2 of the data has an angle of:",
+      "options": [
+        "90 degrees",
+        "180 degrees",
+        "360 degrees",
+        "120 degrees"
+      ],
+      "answer": "B",
+      "explanation": "Half the circle = 1/2 x 360 = 180 degrees.",
+      "difficulty": "Easy",
+      "topic": "Pie Charts",
+      "id": "lba_mcq_2"
+    },
+    {
+      "q": "A die is rolled. Probability of getting a number less than 3 is:",
+      "options": [
+        "1/6",
+        "1/2",
+        "1/3",
+        "2/3"
+      ],
+      "answer": "C",
+      "explanation": "Numbers less than 3 are 1 and 2, so P = 2/6 = 1/3.",
+      "difficulty": "Medium",
+      "topic": "Probability",
+      "id": "lba_mcq_3"
+    },
+    {
+      "q": "A sector in a class pie chart is 72 degrees. What fraction of the whole is it?",
+      "options": [
+        "1/3",
+        "1/4",
+        "1/2",
+        "1/5"
+      ],
+      "answer": "D",
+      "explanation": "A full circle is 360 degrees. The fraction = 72/360 = 1/5 of the whole.",
+      "difficulty": "Medium",
+      "topic": "Pie Charts",
+      "id": "lba_mcq_4"
+    },
+    {
+      "q": "Tossing a coin, the probability of getting a tail is:",
+      "options": [
+        "1/2",
+        "0",
+        "1",
+        "1/4"
+      ],
+      "answer": "A",
+      "explanation": "A coin has 2 equally likely outcomes, so P(tail) = 1/2.",
+      "difficulty": "Easy",
+      "topic": "Probability",
+      "id": "lba_mcq_5"
+    },
+    {
+      "q": "In a bar graph the tallest bar represents:",
+      "options": [
+        "The average value",
+        "The highest value",
+        "Zero value",
+        "The least value"
+      ],
+      "answer": "B",
+      "explanation": "In a bar graph, the tallest bar shows the highest value.",
+      "difficulty": "Easy",
+      "topic": "Bar Graphs",
+      "id": "lba_mcq_6"
+    },
+    {
+      "q": "From cards 1 to 10, one is drawn. Probability of an even number is:",
+      "options": [
+        "2/5",
+        "3/10",
+        "1/2",
+        "1/5"
+      ],
+      "answer": "C",
+      "explanation": "Even numbers 2,4,6,8,10 = 5; P = 5/10 = 1/2.",
+      "difficulty": "Medium",
+      "topic": "Probability",
+      "id": "lba_mcq_7"
+    },
+    {
+      "q": "A pie chart sector for 'travel' is 1/6 of a family budget. Its angle is:",
+      "options": [
+        "30 degrees",
+        "45 degrees",
+        "90 degrees",
+        "60 degrees"
+      ],
+      "answer": "D",
+      "explanation": "1/6 x 360 = 60 degrees.",
+      "difficulty": "Medium",
+      "topic": "Pie Charts",
+      "id": "lba_mcq_8"
+    },
+    {
+      "q": "A spinner has parts coloured 3 red, 1 blue out of 4 equal parts. Probability of red is:",
+      "options": [
+        "3/4",
+        "1/4",
+        "1/2",
+        "1/3"
+      ],
+      "answer": "A",
+      "explanation": "Probability = favourable/total = 3 red out of 4 equal parts = 3/4.",
+      "difficulty": "Easy",
+      "topic": "Probability",
+      "id": "lba_mcq_9"
+    },
+    {
+      "q": "In a survey of 360 students, a 90-degree sector likes music. The number who like music is:",
+      "options": [
+        "180",
+        "90",
+        "120",
+        "45"
+      ],
+      "answer": "B",
+      "explanation": "90/360 x 360 = 90 students.",
+      "difficulty": "Hard",
+      "topic": "Pie Charts",
+      "id": "lba_mcq_10"
+    }
+  ]
+}
