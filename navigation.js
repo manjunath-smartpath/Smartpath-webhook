@@ -119,7 +119,7 @@ async function showChapterMenu(to, ch, track = true) {
     if (flags.qa)   rows.push({ id: 'CHCONTENT_QA', title: '❓ Chapter Q&A' });
     if (flags.quiz) rows.push({ id: 'CHCONTENT_QUIZ', title: '📝 Chapter Quiz' });
     rows.push({ id: 'LBA_QUIZ', title: '🔥 LBA Quiz' });
-    if (flags.qa)   rows.push({ id: 'APP_QA', title: '🧠 Application Q&A' });
+    rows.push({ id: 'APP_QA', title: '🧠 Application Q&A' });
     rows.push({ id: 'NAV_MENU', title: '🏠 Home' });
     await S.sendList(to, `📘 Chapter ${ch}: ${chName}\nಏನು ಬೇಕು? / What do you need?`,
       'Select', rows, 'Chapter Menu');

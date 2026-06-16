@@ -729,7 +729,7 @@ async function showAppQAAnswer(from, st) {
     st.flow = null;
     await S.sendButtons(from, msg + `\n\n\ud83c\udf89 *Application Q&A \u0cae\u0CC1\u0c97\u0cbf\u0caf\u0cbf\u0CA4\u0CC1!*`, [
       { id: 'LBA_QUIZ', title: '\ud83d\udd25 LBA Quiz' },
-      { id: 'APP_QA', title: '\ud83e\udde0 \u0cae\u0CA4\u0CCD\u0CA4\u0cb6\u0CCD\u0c9f\u0CC1' },
+      { id: 'NAV_OTHER', title: '\ud83d\udccb Other Options' },
       { id: 'NAV_MENU', title: '\ud83c\udfe0 Home' }
     ]);
   }
