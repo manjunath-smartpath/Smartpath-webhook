@@ -1,0 +1,231 @@
+{
+  "class": "10",
+  "subject": "Maths",
+  "chapter": "3",
+  "chapter_name": "Pair of Linear Equations in Two Variables",
+  "theme": "Algebra",
+  "lba_qa": [
+    {
+      "id": "lba_qa_1",
+      "q": "In a shop, 2 pens and 3 pencils cost Rs 18, while 3 pens and 2 pencils cost Rs 22. Form the equations and find the cost of one pen and one pencil.",
+      "a": "Let pen = x, pencil = y.\n2x + 3y = 18 ...(1)\n3x + 2y = 22 ...(2)\nMultiply (1) by 3 and (2) by 2: 6x + 9y = 54; 6x + 4y = 44.\nSubtract: 5y = 10, so y = 2.\nPut in (1): 2x + 6 = 18, so 2x = 12, x = 6.\nSo a pen costs Rs 6 and a pencil costs Rs 2.",
+      "difficulty": "Average",
+      "topic": "Algebraic methods of solving linear equations",
+      "marks": 3
+    },
+    {
+      "id": "lba_qa_2",
+      "q": "The sum of the ages of a father and his son is 45 years. Five years ago, the father was 6 times as old as his son. Find their present ages.",
+      "a": "Let father = x, son = y.\nx + y = 45 ...(1)\nFive years ago: (x - 5) = 6(y - 5), so x - 5 = 6y - 30, giving x - 6y = -25 ...(2)\nFrom (1): x = 45 - y. Put in (2): 45 - y - 6y = -25, so -7y = -70, y = 10.\nThen x = 45 - 10 = 35.\nSo father is 35 years and son is 10 years.",
+      "difficulty": "Difficult",
+      "topic": "Linear equations - real-life problems",
+      "marks": 3
+    },
+    {
+      "id": "lba_qa_3",
+      "q": "Two friends went to a hotel. The bill for 2 dosas and 3 idlis was Rs 90, and for 3 dosas and 2 idlis was Rs 110. Find the price of one dosa and one idli.",
+      "a": "Let dosa = x, idli = y.\n2x + 3y = 90 ...(1)\n3x + 2y = 110 ...(2)\nMultiply (1) by 3, (2) by 2: 6x + 9y = 270; 6x + 4y = 220.\nSubtract: 5y = 50, y = 10.\nPut in (1): 2x + 30 = 90, 2x = 60, x = 30.\nSo a dosa costs Rs 30 and an idli costs Rs 10.",
+      "difficulty": "Average",
+      "topic": "Algebraic methods of solving",
+      "marks": 3
+    },
+    {
+      "id": "lba_qa_4",
+      "q": "A pair of linear equations represents two lines. If the two lines are parallel, what does it mean about the solution? Give a real-life link.",
+      "a": "If the two lines are parallel, they never meet, so the pair of equations has no solution (it is inconsistent). Real-life link: if two situations can never be satisfied at the same time (for example, two pricing schemes that can never give the same total), the equations are parallel and there is no common solution.",
+      "difficulty": "Average",
+      "topic": "Graphical method of solution",
+      "marks": 2
+    },
+    {
+      "id": "lba_qa_5",
+      "q": "The cost of 2 kg of rice and 3 kg of sugar is Rs 110. The cost of 3 kg of rice and 2 kg of sugar is Rs 115. Find the cost per kg of rice and sugar.",
+      "a": "Let rice = x, sugar = y per kg.\n2x + 3y = 110 ...(1)\n3x + 2y = 115 ...(2)\nMultiply (1) by 3 and (2) by 2: 6x + 9y = 330; 6x + 4y = 230.\nSubtract: 5y = 100, so y = 20.\nPut in (1): 2x + 60 = 110, so 2x = 50, x = 25.\nSo rice costs Rs 25 per kg and sugar costs Rs 20 per kg.",
+      "difficulty": "Average",
+      "topic": "Algebraic methods of solving",
+      "marks": 3
+    },
+    {
+      "id": "lba_qa_6",
+      "q": "A boat goes 30 km upstream and 44 km downstream in 10 hours. In another case it goes 40 km upstream and 55 km downstream in 13 hours. This forms a pair of equations. Explain what the two unknowns represent.",
+      "a": "In such boat-stream problems, we take two unknowns: the speed of the boat in still water (say x km/h) and the speed of the stream (say y km/h). Upstream speed = (x - y) and downstream speed = (x + y). Using time = distance/speed for each trip, we form two equations in x and y. Solving them gives the boat's speed and the stream's speed. So the two unknowns are the boat speed and the stream speed.",
+      "difficulty": "Difficult",
+      "topic": "Linear equations - real-life problems",
+      "marks": 2
+    },
+    {
+      "id": "lba_qa_7",
+      "q": "The sum of two numbers is 30 and their difference is 10. Form a pair of equations and find the numbers.",
+      "a": "Let the numbers be x and y.\nx + y = 30 ...(1)\nx - y = 10 ...(2)\nAdd (1) and (2): 2x = 40, so x = 20.\nSubtract (2) from (1): 2y = 20, so y = 10.\nSo the two numbers are 20 and 10.",
+      "difficulty": "Easy",
+      "topic": "Algebraic methods of solving",
+      "marks": 2
+    },
+    {
+      "id": "lba_qa_8",
+      "q": "For what value will a pair of linear equations have a unique solution? Explain with the idea of lines meeting.",
+      "a": "A pair of linear equations has a unique solution when the two lines intersect at exactly one point. This happens when the ratio of the coefficients of x is not equal to the ratio of the coefficients of y (a1/a2 is not equal to b1/b2). In real life, this means the two conditions are satisfied by exactly one pair of values, like one fixed price for a pen and pencil.",
+      "difficulty": "Average",
+      "topic": "Graphical/algebraic conditions",
+      "marks": 2
+    },
+    {
+      "id": "lba_qa_9",
+      "q": "A two-digit number is such that the sum of its digits is 9, and when the digits are reversed, the new number is 27 more than the original. Find the number.",
+      "a": "Let tens digit = x, units digit = y. Number = 10x + y.\nx + y = 9 ...(1)\nReversed number = 10y + x. Given: (10y + x) - (10x + y) = 27, so 9y - 9x = 27, giving y - x = 3 ...(2)\nAdd (1) and (2): 2y = 12, y = 6; then x = 3.\nSo the number is 10(3) + 6 = 36.",
+      "difficulty": "Difficult",
+      "topic": "Linear equations - real-life problems",
+      "marks": 3
+    },
+    {
+      "id": "lba_qa_10",
+      "q": "5 chairs and 4 tables cost Rs 5600, while 4 chairs and 3 tables cost Rs 4340. Set up the equations to find the cost of one chair and one table (you may state the equations only).",
+      "a": "Let chair = x, table = y.\nThe two equations are:\n5x + 4y = 5600 ...(1)\n4x + 3y = 4340 ...(2)\nThese can be solved by elimination or substitution: multiply (1) by 3 and (2) by 4 to eliminate y, then solve for x and y. This setup represents the real-life cost situation as a pair of linear equations.",
+      "difficulty": "Average",
+      "topic": "Algebraic methods of solving",
+      "marks": 2
+    }
+  ],
+  "lba_mcq": [
+    {
+      "id": "lba_mcq_1",
+      "q": "2 pens and 3 pencils cost Rs 18; 3 pens and 2 pencils cost Rs 22. The cost of one pen is:",
+      "options": [
+        "Rs 6",
+        "Rs 2",
+        "Rs 4",
+        "Rs 8"
+      ],
+      "answer": "A",
+      "explanation": "Solving 2x+3y=18 and 3x+2y=22 gives x=6 (pen) and y=2 (pencil).",
+      "difficulty": "Average",
+      "topic": "Solving linear equations"
+    },
+    {
+      "id": "lba_mcq_2",
+      "q": "The sum of two numbers is 30 and their difference is 10. The numbers are:",
+      "options": [
+        "15 and 15",
+        "20 and 10",
+        "25 and 5",
+        "18 and 12"
+      ],
+      "answer": "B",
+      "explanation": "x+y=30, x-y=10 gives x=20, y=10.",
+      "difficulty": "Easy",
+      "topic": "Solving linear equations"
+    },
+    {
+      "id": "lba_mcq_3",
+      "q": "If the two lines of a pair of linear equations are parallel, the pair has:",
+      "options": [
+        "A unique solution",
+        "Infinitely many solutions",
+        "No solution",
+        "Exactly two solutions"
+      ],
+      "answer": "C",
+      "explanation": "Parallel lines never meet, so there is no common solution (inconsistent pair).",
+      "difficulty": "Average",
+      "topic": "Graphical method"
+    },
+    {
+      "id": "lba_mcq_4",
+      "q": "A two-digit number has digit sum 9. Reversing the digits gives a number 27 more. The number is:",
+      "options": [
+        "63",
+        "45",
+        "27",
+        "36"
+      ],
+      "answer": "D",
+      "explanation": "x+y=9 and y-x=3 give x=3, y=6, so the number is 36 (reversed 63 = 36+27).",
+      "difficulty": "Difficult",
+      "topic": "Real-life problems"
+    },
+    {
+      "id": "lba_mcq_5",
+      "q": "A pair of linear equations has a unique solution when the two lines:",
+      "options": [
+        "Intersect at one point",
+        "Are parallel",
+        "Coincide (overlap)",
+        "Never meet"
+      ],
+      "answer": "A",
+      "explanation": "A unique solution corresponds to two lines intersecting at exactly one point.",
+      "difficulty": "Average",
+      "topic": "Conditions for solution"
+    },
+    {
+      "id": "lba_mcq_6",
+      "q": "2 dosas and 3 idlis cost Rs 90; 3 dosas and 2 idlis cost Rs 110. The cost of one idli is:",
+      "options": [
+        "Rs 30",
+        "Rs 10",
+        "Rs 20",
+        "Rs 15"
+      ],
+      "answer": "B",
+      "explanation": "Solving 2x+3y=90 and 3x+2y=110 gives dosa x=30, idli y=10.",
+      "difficulty": "Average",
+      "topic": "Solving linear equations"
+    },
+    {
+      "id": "lba_mcq_7",
+      "q": "In a boat-and-stream problem, the two unknowns usually taken are:",
+      "options": [
+        "Distance and time",
+        "Two distances",
+        "Speed of boat in still water and speed of stream",
+        "Two times"
+      ],
+      "answer": "C",
+      "explanation": "We take the boat's speed in still water and the stream's speed as the two unknowns.",
+      "difficulty": "Difficult",
+      "topic": "Real-life problems"
+    },
+    {
+      "id": "lba_mcq_8",
+      "q": "If both equations represent the same line (coincide), the pair has:",
+      "options": [
+        "No solution",
+        "A unique solution",
+        "Two solutions",
+        "Infinitely many solutions"
+      ],
+      "answer": "D",
+      "explanation": "Coincident lines have all points common, so there are infinitely many solutions.",
+      "difficulty": "Average",
+      "topic": "Conditions for solution"
+    },
+    {
+      "id": "lba_mcq_9",
+      "q": "A father and son's ages sum to 45. Five years ago the father was 6 times the son's age. The son's present age is:",
+      "options": [
+        "10 years",
+        "15 years",
+        "8 years",
+        "12 years"
+      ],
+      "answer": "A",
+      "explanation": "Solving x+y=45 and x-6y=-25 gives son y=10, father x=35.",
+      "difficulty": "Difficult",
+      "topic": "Real-life problems"
+    },
+    {
+      "id": "lba_mcq_10",
+      "q": "The most suitable methods to solve a pair of linear equations algebraically include:",
+      "options": [
+        "Only guessing",
+        "Substitution and elimination",
+        "Only drawing",
+        "Counting"
+      ],
+      "answer": "B",
+      "explanation": "Substitution and elimination (and cross-multiplication) are the algebraic methods to solve a pair of linear equations.",
+      "difficulty": "Easy",
+      "topic": "Algebraic methods"
+    }
+  ]
+}

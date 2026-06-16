@@ -1,0 +1,231 @@
+{
+  "class": "10",
+  "subject": "Maths",
+  "chapter": "14",
+  "chapter_name": "Probability",
+  "theme": "Statistics and Probability",
+  "lba_qa": [
+    {
+      "id": "lba_qa_1",
+      "q": "A coin is tossed once. What is the probability of getting a head? Explain.",
+      "a": "When a coin is tossed, there are 2 equally likely outcomes: head and tail.\nProbability = (number of favourable outcomes) / (total number of outcomes).\nFavourable outcome (head) = 1; total outcomes = 2.\nProbability of a head = 1/2.\nSo the probability of getting a head is 1/2.",
+      "difficulty": "Easy",
+      "topic": "Probability of an event (real-life)",
+      "marks": 2
+    },
+    {
+      "id": "lba_qa_2",
+      "q": "A die is rolled once. Find the probability of getting an even number.",
+      "a": "A die has 6 outcomes: 1, 2, 3, 4, 5, 6.\nEven numbers are 2, 4, 6 — that is 3 favourable outcomes.\nProbability = favourable/total = 3/6 = 1/2.\nSo the probability of getting an even number is 1/2.",
+      "difficulty": "Easy",
+      "topic": "Probability of an event (real-life)",
+      "marks": 2
+    },
+    {
+      "id": "lba_qa_3",
+      "q": "A bag contains 5 red balls and 3 blue balls. One ball is drawn at random. Find the probability that it is red.",
+      "a": "Total balls = 5 red + 3 blue = 8.\nFavourable outcomes (red) = 5.\nProbability of red = favourable/total = 5/8.\nSo the probability of drawing a red ball is 5/8.",
+      "difficulty": "Average",
+      "topic": "Probability of an event (real-life)",
+      "marks": 3
+    },
+    {
+      "id": "lba_qa_4",
+      "q": "A card is drawn from a well-shuffled deck of 52 cards. Find the probability that it is a king.",
+      "a": "Total cards = 52.\nThere are 4 kings in a deck.\nProbability of a king = favourable/total = 4/52 = 1/13.\nSo the probability of drawing a king is 1/13.",
+      "difficulty": "Average",
+      "topic": "Probability of an event (real-life)",
+      "marks": 3
+    },
+    {
+      "id": "lba_qa_5",
+      "q": "The probability of an event happening is 0.3. What is the probability that it does NOT happen? Explain.",
+      "a": "The probability of an event and the probability of it not happening always add up to 1.\nP(not happening) = 1 - P(happening) = 1 - 0.3 = 0.7.\nSo the probability that the event does not happen is 0.7.",
+      "difficulty": "Average",
+      "topic": "Complement of an event",
+      "marks": 2
+    },
+    {
+      "id": "lba_qa_6",
+      "q": "Why is the probability of any event always between 0 and 1? Explain with the meaning of 0 and 1.",
+      "a": "Probability = favourable outcomes / total outcomes. The favourable outcomes can never be less than 0 or more than the total, so the value stays between 0 and 1. A probability of 0 means the event is impossible (it can never happen), and a probability of 1 means the event is certain (it will surely happen). So every probability lies from 0 to 1.",
+      "difficulty": "Average",
+      "topic": "Probability (concept)",
+      "marks": 2
+    },
+    {
+      "id": "lba_qa_7",
+      "q": "A bag has 4 green, 5 yellow and 6 red balls. One ball is drawn at random. Find the probability that it is NOT yellow.",
+      "a": "Total balls = 4 + 5 + 6 = 15.\nYellow balls = 5, so non-yellow balls = 15 - 5 = 10.\nProbability (not yellow) = 10/15 = 2/3.\nSo the probability that the ball is not yellow is 2/3.",
+      "difficulty": "Difficult",
+      "topic": "Complement of an event (real-life)",
+      "marks": 3
+    },
+    {
+      "id": "lba_qa_8",
+      "q": "Two coins are tossed together. Find the probability of getting two heads.",
+      "a": "When two coins are tossed, the outcomes are: HH, HT, TH, TT — total 4 outcomes.\nFavourable outcome (two heads, HH) = 1.\nProbability = favourable/total = 1/4.\nSo the probability of getting two heads is 1/4.",
+      "difficulty": "Difficult",
+      "topic": "Probability of an event",
+      "marks": 3
+    },
+    {
+      "id": "lba_qa_9",
+      "q": "A die is rolled. What is the probability of getting a number greater than 4?",
+      "a": "A die has outcomes 1, 2, 3, 4, 5, 6.\nNumbers greater than 4 are 5 and 6 — that is 2 favourable outcomes.\nProbability = favourable/total = 2/6 = 1/3.\nSo the probability of getting a number greater than 4 is 1/3.",
+      "difficulty": "Average",
+      "topic": "Probability of an event",
+      "marks": 2
+    },
+    {
+      "id": "lba_qa_10",
+      "q": "In a lucky draw, 100 tickets are sold and there is 1 winning ticket. If you buy 1 ticket, what is your probability of winning, and of losing?",
+      "a": "Total tickets = 100; winning tickets = 1.\nProbability of winning = 1/100.\nProbability of losing = 1 - 1/100 = 99/100.\nSo your chance of winning is 1/100 and of losing is 99/100.",
+      "difficulty": "Average",
+      "topic": "Probability and its complement (real-life)",
+      "marks": 2
+    }
+  ],
+  "lba_mcq": [
+    {
+      "id": "lba_mcq_1",
+      "q": "A coin is tossed once. The probability of getting a head is:",
+      "options": [
+        "1/2",
+        "1",
+        "0",
+        "2"
+      ],
+      "answer": "A",
+      "explanation": "Favourable (head) = 1, total = 2, so probability = 1/2.",
+      "difficulty": "Easy",
+      "topic": "Probability"
+    },
+    {
+      "id": "lba_mcq_2",
+      "q": "A die is rolled. The probability of getting an even number is:",
+      "options": [
+        "1/3",
+        "1/2",
+        "1/6",
+        "2/3"
+      ],
+      "answer": "B",
+      "explanation": "Even numbers 2,4,6 = 3 favourable out of 6, so 3/6 = 1/2.",
+      "difficulty": "Easy",
+      "topic": "Probability"
+    },
+    {
+      "id": "lba_mcq_3",
+      "q": "A bag has 5 red and 3 blue balls. The probability of drawing a red ball is:",
+      "options": [
+        "3/8",
+        "1/2",
+        "5/8",
+        "5/3"
+      ],
+      "answer": "C",
+      "explanation": "Red = 5, total = 8, probability = 5/8.",
+      "difficulty": "Average",
+      "topic": "Probability"
+    },
+    {
+      "id": "lba_mcq_4",
+      "q": "From a deck of 52 cards, the probability of drawing a king is:",
+      "options": [
+        "1/52",
+        "4/13",
+        "1/4",
+        "1/13"
+      ],
+      "answer": "D",
+      "explanation": "4 kings out of 52 cards = 4/52 = 1/13.",
+      "difficulty": "Average",
+      "topic": "Probability"
+    },
+    {
+      "id": "lba_mcq_5",
+      "q": "If P(event) = 0.3, then P(event does not happen) is:",
+      "options": [
+        "0.7",
+        "0.3",
+        "1",
+        "0"
+      ],
+      "answer": "A",
+      "explanation": "P(not) = 1 - 0.3 = 0.7.",
+      "difficulty": "Average",
+      "topic": "Complement"
+    },
+    {
+      "id": "lba_mcq_6",
+      "q": "The probability of any event always lies between:",
+      "options": [
+        "1 and 10",
+        "0 and 1",
+        "-1 and 1",
+        "0 and 100"
+      ],
+      "answer": "B",
+      "explanation": "Probability ranges from 0 (impossible) to 1 (certain).",
+      "difficulty": "Easy",
+      "topic": "Probability concept"
+    },
+    {
+      "id": "lba_mcq_7",
+      "q": "An event that is certain to happen has probability:",
+      "options": [
+        "0",
+        "1/2",
+        "1",
+        "100"
+      ],
+      "answer": "C",
+      "explanation": "A certain event has probability 1; an impossible event has probability 0.",
+      "difficulty": "Easy",
+      "topic": "Probability concept"
+    },
+    {
+      "id": "lba_mcq_8",
+      "q": "A bag has 4 green, 5 yellow, 6 red balls. The probability that a drawn ball is NOT yellow is:",
+      "options": [
+        "1/3",
+        "5/15",
+        "1/2",
+        "2/3"
+      ],
+      "answer": "D",
+      "explanation": "Non-yellow = 10 out of 15 = 2/3.",
+      "difficulty": "Difficult",
+      "topic": "Complement"
+    },
+    {
+      "id": "lba_mcq_9",
+      "q": "Two coins are tossed together. The probability of getting two heads is:",
+      "options": [
+        "1/4",
+        "1/2",
+        "1/3",
+        "3/4"
+      ],
+      "answer": "A",
+      "explanation": "Outcomes HH, HT, TH, TT; favourable HH = 1, so probability = 1/4.",
+      "difficulty": "Difficult",
+      "topic": "Probability"
+    },
+    {
+      "id": "lba_mcq_10",
+      "q": "In a draw of 100 tickets with 1 winner, the probability of winning with 1 ticket is:",
+      "options": [
+        "1/10",
+        "1/100",
+        "1/50",
+        "99/100"
+      ],
+      "answer": "B",
+      "explanation": "1 winning ticket out of 100 = 1/100.",
+      "difficulty": "Average",
+      "topic": "Probability (real-life)"
+    }
+  ]
+}

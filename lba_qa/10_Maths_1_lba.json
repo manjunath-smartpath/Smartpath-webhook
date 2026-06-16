@@ -1,0 +1,231 @@
+{
+  "class": "10",
+  "subject": "Maths",
+  "chapter": "1",
+  "chapter_name": "Real Numbers",
+  "theme": "Number Systems",
+  "lba_qa": [
+    {
+      "id": "lba_qa_1",
+      "q": "A sweet shop has 120 chocolates and 90 candies. The owner wants to pack them into gift boxes so that each box has the same number of chocolates and the same number of candies, with no sweet left over. What is the maximum number of boxes he can make?",
+      "a": "We need the HCF of 120 and 90.\nPrime factors: 120 = 2^3 x 3 x 5; 90 = 2 x 3^2 x 5.\nHCF = 2 x 3 x 5 = 30.\nSo the maximum number of boxes = 30 (each box gets 4 chocolates and 3 candies).",
+      "difficulty": "Average",
+      "topic": "Fundamental Theorem of Arithmetic (HCF)",
+      "marks": 3
+    },
+    {
+      "id": "lba_qa_2",
+      "q": "Two bells in a temple ring at intervals of 18 minutes and 24 minutes. If they ring together at 6:00 AM, at what time will they next ring together?",
+      "a": "They ring together after a time equal to the LCM of 18 and 24.\n18 = 2 x 3^2; 24 = 2^3 x 3.\nLCM = 2^3 x 3^2 = 72 minutes.\n72 minutes = 1 hour 12 minutes.\nSo they next ring together at 6:00 AM + 1 hr 12 min = 7:12 AM.",
+      "difficulty": "Average",
+      "topic": "Fundamental Theorem of Arithmetic (LCM)",
+      "marks": 3
+    },
+    {
+      "id": "lba_qa_3",
+      "q": "A shopkeeper says the product of the HCF and LCM of two numbers is equal to the product of the numbers. If two numbers are 15 and 20, verify this statement.",
+      "a": "HCF of 15 and 20: 15 = 3 x 5, 20 = 2^2 x 5, so HCF = 5.\nLCM of 15 and 20 = 2^2 x 3 x 5 = 60.\nHCF x LCM = 5 x 60 = 300.\nProduct of numbers = 15 x 20 = 300.\nBoth are equal (300 = 300), so the statement is verified.",
+      "difficulty": "Average",
+      "topic": "Relationship between HCF and LCM",
+      "marks": 2
+    },
+    {
+      "id": "lba_qa_4",
+      "q": "A teacher wants to arrange 84 boys and 63 girls in rows so that each row has the same number of students and only boys or only girls in a row. Find the maximum number of students in each row.",
+      "a": "The maximum students per row = HCF of 84 and 63.\n84 = 2^2 x 3 x 7; 63 = 3^2 x 7.\nHCF = 3 x 7 = 21.\nSo each row can have a maximum of 21 students (4 rows of boys and 3 rows of girls).",
+      "difficulty": "Average",
+      "topic": "Fundamental Theorem of Arithmetic (HCF)",
+      "marks": 3
+    },
+    {
+      "id": "lba_qa_5",
+      "q": "Without doing long division, how can you tell that the number 7 x 11 x 13 + 13 is a composite number? Explain.",
+      "a": "Take 13 common: 7 x 11 x 13 + 13 = 13 x (7 x 11 + 1) = 13 x (77 + 1) = 13 x 78.\nSince the number can be written as a product 13 x 78 (more than just 1 and itself), it has factors other than 1 and itself.\nTherefore it is a composite number.",
+      "difficulty": "Difficult",
+      "topic": "Fundamental Theorem of Arithmetic",
+      "marks": 2
+    },
+    {
+      "id": "lba_qa_6",
+      "q": "A gardener has 105 rose plants and 90 jasmine plants. He wants to plant them in rows with equal numbers and only one type per row. What is the largest number of plants he can put in each row, and how many rows in total?",
+      "a": "Largest plants per row = HCF of 105 and 90.\n105 = 3 x 5 x 7; 90 = 2 x 3^2 x 5.\nHCF = 3 x 5 = 15.\nSo 15 plants per row.\nRows of roses = 105/15 = 7; rows of jasmine = 90/15 = 6.\nTotal rows = 7 + 6 = 13.",
+      "difficulty": "Average",
+      "topic": "Fundamental Theorem of Arithmetic (HCF)",
+      "marks": 3
+    },
+    {
+      "id": "lba_qa_7",
+      "q": "Why is root 2 called an irrational number? Explain its meaning with a real-life link to measurement.",
+      "a": "A rational number can be written as a fraction p/q (q not 0). Root 2 cannot be written as such an exact fraction — its decimal goes on forever without repeating. So it is called irrational. In real life, if a square has side 1 metre, its diagonal is root 2 metres, which cannot be measured exactly as a simple fraction — it is approximately 1.414... metres. This shows irrational numbers occur naturally in measurement.",
+      "difficulty": "Average",
+      "topic": "Revisiting irrational numbers",
+      "marks": 2
+    },
+    {
+      "id": "lba_qa_8",
+      "q": "Three runners take 12, 15 and 18 minutes respectively to complete one round of a circular track. If they start together, after how long will they meet again at the starting point?",
+      "a": "They meet again after a time equal to the LCM of 12, 15 and 18.\n12 = 2^2 x 3; 15 = 3 x 5; 18 = 2 x 3^2.\nLCM = 2^2 x 3^2 x 5 = 180 minutes = 3 hours.\nSo all three runners will meet again at the starting point after 180 minutes (3 hours).",
+      "difficulty": "Difficult",
+      "topic": "Fundamental Theorem of Arithmetic (LCM)",
+      "marks": 3
+    },
+    {
+      "id": "lba_qa_9",
+      "q": "A milk seller has 75 litres of cow milk and 45 litres of buffalo milk. He wants to fill them in cans of equal capacity such that each can has only one type of milk. Find the greatest capacity of such a can.",
+      "a": "Greatest can capacity = HCF of 75 and 45.\n75 = 3 x 5^2; 45 = 3^2 x 5.\nHCF = 3 x 5 = 15.\nSo the greatest capacity of each can is 15 litres (5 cans of cow milk and 3 cans of buffalo milk).",
+      "difficulty": "Average",
+      "topic": "Fundamental Theorem of Arithmetic (HCF)",
+      "marks": 2
+    },
+    {
+      "id": "lba_qa_10",
+      "q": "A number when written as a decimal terminates (ends), like 3/8 = 0.375. How can you tell, just by looking at the denominator, whether a fraction will give a terminating decimal?",
+      "a": "A fraction in its simplest form gives a terminating decimal only if the denominator has prime factors of just 2 and/or 5 (no other prime factor). For example, 3/8: denominator 8 = 2^3, only the factor 2, so it terminates. But 1/3: denominator 3 has a prime factor other than 2 or 5, so it does not terminate (it repeats). This helps decide terminating vs non-terminating decimals without dividing.",
+      "difficulty": "Difficult",
+      "topic": "Rational numbers and their decimal expansions",
+      "marks": 2
+    }
+  ],
+  "lba_mcq": [
+    {
+      "id": "lba_mcq_1",
+      "q": "A shopkeeper packs 120 pens and 90 pencils into boxes with equal numbers and only one item type per box, with none left over. The maximum number of items per box is:",
+      "options": [
+        "30",
+        "10",
+        "60",
+        "15"
+      ],
+      "answer": "A",
+      "explanation": "Maximum per box = HCF(120,90). 120 = 2^3x3x5, 90 = 2x3^2x5, HCF = 2x3x5 = 30.",
+      "difficulty": "Average",
+      "topic": "HCF (real-life)"
+    },
+    {
+      "id": "lba_mcq_2",
+      "q": "Two bells ring at intervals of 18 and 24 minutes. If they ring together now, they next ring together after:",
+      "options": [
+        "42 minutes",
+        "72 minutes",
+        "6 minutes",
+        "432 minutes"
+      ],
+      "answer": "B",
+      "explanation": "Time = LCM(18,24). 18 = 2x3^2, 24 = 2^3x3, LCM = 2^3x3^2 = 72 minutes.",
+      "difficulty": "Average",
+      "topic": "LCM (real-life)"
+    },
+    {
+      "id": "lba_mcq_3",
+      "q": "The HCF of two numbers is 5 and their LCM is 60. If one number is 15, the other number is:",
+      "options": [
+        "12",
+        "300",
+        "20",
+        "45"
+      ],
+      "answer": "C",
+      "explanation": "Product of numbers = HCF x LCM = 5 x 60 = 300. Other number = 300/15 = 20.",
+      "difficulty": "Average",
+      "topic": "HCF-LCM relationship"
+    },
+    {
+      "id": "lba_mcq_4",
+      "q": "The number 7 x 11 x 13 + 13 is:",
+      "options": [
+        "A prime number",
+        "Neither prime nor composite",
+        "An irrational number",
+        "A composite number"
+      ],
+      "answer": "D",
+      "explanation": "= 13(7x11+1) = 13x78, which has factors other than 1 and itself, so it is composite.",
+      "difficulty": "Difficult",
+      "topic": "Fundamental Theorem of Arithmetic"
+    },
+    {
+      "id": "lba_mcq_5",
+      "q": "A gardener arranges 105 roses and 90 jasmine plants in rows with equal plants per row (one type per row). The maximum plants per row is:",
+      "options": [
+        "15",
+        "5",
+        "30",
+        "45"
+      ],
+      "answer": "A",
+      "explanation": "HCF(105,90): 105 = 3x5x7, 90 = 2x3^2x5, HCF = 3x5 = 15 plants per row.",
+      "difficulty": "Average",
+      "topic": "HCF (real-life)"
+    },
+    {
+      "id": "lba_mcq_6",
+      "q": "Which of these numbers is irrational?",
+      "options": [
+        "0.75",
+        "Root 2",
+        "22/7",
+        "3/4"
+      ],
+      "answer": "B",
+      "explanation": "Root 2 cannot be written as an exact fraction and its decimal is non-terminating non-repeating, so it is irrational.",
+      "difficulty": "Easy",
+      "topic": "Irrational numbers"
+    },
+    {
+      "id": "lba_mcq_7",
+      "q": "Three runners complete a round in 12, 15 and 18 minutes. They meet at the start again after:",
+      "options": [
+        "45 minutes",
+        "90 minutes",
+        "180 minutes",
+        "60 minutes"
+      ],
+      "answer": "C",
+      "explanation": "LCM(12,15,18) = 2^2x3^2x5 = 180 minutes (3 hours).",
+      "difficulty": "Difficult",
+      "topic": "LCM (real-life)"
+    },
+    {
+      "id": "lba_mcq_8",
+      "q": "The fraction 3/8 gives a terminating decimal because the denominator 8 has only the prime factor:",
+      "options": [
+        "3",
+        "7",
+        "5 and 3",
+        "2"
+      ],
+      "answer": "D",
+      "explanation": "8 = 2^3, only the prime factor 2. Denominators with only 2 and/or 5 give terminating decimals.",
+      "difficulty": "Average",
+      "topic": "Decimal expansions"
+    },
+    {
+      "id": "lba_mcq_9",
+      "q": "A milk seller fills 75 L cow milk and 45 L buffalo milk into cans of equal greatest capacity (one type per can). The capacity of each can is:",
+      "options": [
+        "15 L",
+        "5 L",
+        "25 L",
+        "45 L"
+      ],
+      "answer": "A",
+      "explanation": "Greatest capacity = HCF(75,45). 75 = 3x5^2, 45 = 3^2x5, HCF = 3x5 = 15 L.",
+      "difficulty": "Average",
+      "topic": "HCF (real-life)"
+    },
+    {
+      "id": "lba_mcq_10",
+      "q": "Any composite number can be expressed as a product of:",
+      "options": [
+        "Even numbers",
+        "Prime numbers (uniquely)",
+        "Odd numbers",
+        "Square numbers"
+      ],
+      "answer": "B",
+      "explanation": "By the Fundamental Theorem of Arithmetic, every composite number can be written as a unique product of prime numbers.",
+      "difficulty": "Easy",
+      "topic": "Fundamental Theorem of Arithmetic"
+    }
+  ]
+}

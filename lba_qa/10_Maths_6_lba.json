@@ -1,0 +1,231 @@
+{
+  "class": "10",
+  "subject": "Maths",
+  "chapter": "6",
+  "chapter_name": "Triangles",
+  "theme": "Geometry",
+  "lba_qa": [
+    {
+      "id": "lba_qa_1",
+      "q": "A 6 m tall pole casts a shadow of 4 m at the same time as a tall tower casts a shadow of 28 m. Using similar triangles, find the height of the tower.",
+      "a": "The pole and tower with their shadows form similar triangles (same Sun angle). So their heights and shadows are in proportion:\nHeight of pole / Shadow of pole = Height of tower / Shadow of tower.\n6 / 4 = h / 28.\nh = (6 x 28) / 4 = 168 / 4 = 42 m.\nSo the height of the tower is 42 metres.",
+      "difficulty": "Average",
+      "topic": "Similar triangles (real-life)",
+      "marks": 3
+    },
+    {
+      "id": "lba_qa_2",
+      "q": "Two triangles are similar. The ratio of their corresponding sides is 3:5. What is the ratio of their areas?",
+      "a": "For two similar triangles, the ratio of their areas equals the square of the ratio of their corresponding sides.\nRatio of sides = 3:5.\nRatio of areas = 3^2 : 5^2 = 9 : 25.\nSo the ratio of their areas is 9:25.",
+      "difficulty": "Average",
+      "topic": "Areas of similar triangles",
+      "marks": 2
+    },
+    {
+      "id": "lba_qa_3",
+      "q": "A ladder 13 m long reaches a window 12 m above the ground. How far is the foot of the ladder from the wall? Use the Pythagoras theorem.",
+      "a": "The wall, ground and ladder form a right-angled triangle, with the ladder as the hypotenuse.\nBy Pythagoras theorem: (ladder)^2 = (height)^2 + (base)^2.\n13^2 = 12^2 + base^2, so 169 = 144 + base^2, giving base^2 = 25, base = 5 m.\nSo the foot of the ladder is 5 metres from the wall.",
+      "difficulty": "Average",
+      "topic": "Pythagoras theorem (real-life)",
+      "marks": 3
+    },
+    {
+      "id": "lba_qa_4",
+      "q": "In a triangle ABC, a line DE is drawn parallel to BC, cutting AB and AC. State the theorem that applies and what it tells us.",
+      "a": "This is the Basic Proportionality Theorem (Thales theorem). It states that if a line is drawn parallel to one side of a triangle, intersecting the other two sides at distinct points, then it divides those two sides in the same ratio. So AD/DB = AE/EC. This is widely used to find unknown lengths in triangles.",
+      "difficulty": "Average",
+      "topic": "Basic Proportionality Theorem",
+      "marks": 2
+    },
+    {
+      "id": "lba_qa_5",
+      "q": "A man wants to find the width of a river without crossing it. Explain how similar triangles can help him.",
+      "a": "He can use similar triangles. By standing at a point and using a set of measurable distances on his side of the river (forming a small triangle) that is similar to the large triangle formed across the river, he can set up a proportion between the corresponding sides. Since corresponding sides of similar triangles are proportional, he can calculate the unknown width of the river using the known measured lengths. This is a real-life use of similar triangles in surveying.",
+      "difficulty": "Difficult",
+      "topic": "Similar triangles (real-life)",
+      "marks": 3
+    },
+    {
+      "id": "lba_qa_6",
+      "q": "Check whether a triangle with sides 7 cm, 24 cm and 25 cm is a right-angled triangle.",
+      "a": "By the converse of the Pythagoras theorem, a triangle is right-angled if the square of the longest side equals the sum of squares of the other two sides.\nLongest side = 25, so 25^2 = 625.\nSum of squares of other sides = 7^2 + 24^2 = 49 + 576 = 625.\nSince 625 = 625, the triangle is right-angled (the right angle is opposite the 25 cm side).",
+      "difficulty": "Average",
+      "topic": "Pythagoras theorem (converse)",
+      "marks": 2
+    },
+    {
+      "id": "lba_qa_7",
+      "q": "Two similar triangles have areas 64 sq cm and 121 sq cm. Find the ratio of their corresponding sides.",
+      "a": "For similar triangles, ratio of areas = (ratio of sides)^2.\nRatio of areas = 64 : 121.\nRatio of sides = square root of (64/121) = 8/11.\nSo the ratio of their corresponding sides is 8 : 11.",
+      "difficulty": "Difficult",
+      "topic": "Areas of similar triangles",
+      "marks": 2
+    },
+    {
+      "id": "lba_qa_8",
+      "q": "When are two triangles said to be 'similar'? Explain the difference between similar and congruent triangles with a simple example.",
+      "a": "Two triangles are similar if their corresponding angles are equal and their corresponding sides are in the same ratio (same shape, may differ in size). Congruent triangles are exactly equal in both shape and size. Example: a small photo and its enlarged copy are similar (same shape, different size), but two identical photos are congruent (same shape and size). So all congruent triangles are similar, but not all similar triangles are congruent.",
+      "difficulty": "Average",
+      "topic": "Similar triangles (concept)",
+      "marks": 2
+    },
+    {
+      "id": "lba_qa_9",
+      "q": "A vertical stick 1.5 m long casts a shadow 3 m long. At the same time, a building casts a shadow 40 m long. Find the height of the building.",
+      "a": "Using similar triangles (same Sun angle):\nHeight of stick / Shadow of stick = Height of building / Shadow of building.\n1.5 / 3 = h / 40.\nh = (1.5 x 40) / 3 = 60 / 3 = 20 m.\nSo the height of the building is 20 metres.",
+      "difficulty": "Average",
+      "topic": "Similar triangles (real-life)",
+      "marks": 3
+    },
+    {
+      "id": "lba_qa_10",
+      "q": "In a right triangle, the two legs are 9 cm and 12 cm. Find the length of the hypotenuse.",
+      "a": "By the Pythagoras theorem: hypotenuse^2 = leg1^2 + leg2^2.\nhypotenuse^2 = 9^2 + 12^2 = 81 + 144 = 225.\nhypotenuse = square root of 225 = 15 cm.\nSo the hypotenuse is 15 cm.",
+      "difficulty": "Easy",
+      "topic": "Pythagoras theorem",
+      "marks": 2
+    }
+  ],
+  "lba_mcq": [
+    {
+      "id": "lba_mcq_1",
+      "q": "A 6 m pole casts a 4 m shadow when a tower casts a 28 m shadow. The tower's height is:",
+      "options": [
+        "42 m",
+        "36 m",
+        "48 m",
+        "40 m"
+      ],
+      "answer": "A",
+      "explanation": "By similar triangles: 6/4 = h/28, so h = 42 m.",
+      "difficulty": "Average",
+      "topic": "Similar triangles"
+    },
+    {
+      "id": "lba_mcq_2",
+      "q": "Two similar triangles have sides in ratio 3:5. The ratio of their areas is:",
+      "options": [
+        "3:5",
+        "9:25",
+        "6:10",
+        "27:125"
+      ],
+      "answer": "B",
+      "explanation": "Ratio of areas = (ratio of sides)^2 = 3^2:5^2 = 9:25.",
+      "difficulty": "Average",
+      "topic": "Areas of similar triangles"
+    },
+    {
+      "id": "lba_mcq_3",
+      "q": "A 13 m ladder reaches a window 12 m high. The foot of the ladder is from the wall:",
+      "options": [
+        "3 m",
+        "7 m",
+        "5 m",
+        "1 m"
+      ],
+      "answer": "C",
+      "explanation": "13^2 = 12^2 + base^2, base^2 = 25, base = 5 m (Pythagoras).",
+      "difficulty": "Average",
+      "topic": "Pythagoras theorem"
+    },
+    {
+      "id": "lba_mcq_4",
+      "q": "A line parallel to one side of a triangle divides the other two sides in the same ratio. This is the:",
+      "options": [
+        "Pythagoras theorem",
+        "Area theorem",
+        "Angle sum property",
+        "Basic Proportionality Theorem"
+      ],
+      "answer": "D",
+      "explanation": "This is the Basic Proportionality Theorem (Thales theorem).",
+      "difficulty": "Easy",
+      "topic": "Basic Proportionality Theorem"
+    },
+    {
+      "id": "lba_mcq_5",
+      "q": "A triangle with sides 7, 24, 25 cm is:",
+      "options": [
+        "Right-angled",
+        "Equilateral",
+        "Not a triangle",
+        "Obtuse but not right"
+      ],
+      "answer": "A",
+      "explanation": "7^2 + 24^2 = 49+576 = 625 = 25^2, so by converse of Pythagoras it is right-angled.",
+      "difficulty": "Average",
+      "topic": "Pythagoras (converse)"
+    },
+    {
+      "id": "lba_mcq_6",
+      "q": "Two similar triangles have areas 64 and 121 sq cm. The ratio of their sides is:",
+      "options": [
+        "64:121",
+        "8:11",
+        "4:11",
+        "32:60"
+      ],
+      "answer": "B",
+      "explanation": "Ratio of sides = square root of (64:121) = 8:11.",
+      "difficulty": "Difficult",
+      "topic": "Areas of similar triangles"
+    },
+    {
+      "id": "lba_mcq_7",
+      "q": "A right triangle has legs 9 cm and 12 cm. The hypotenuse is:",
+      "options": [
+        "13 cm",
+        "21 cm",
+        "15 cm",
+        "18 cm"
+      ],
+      "answer": "C",
+      "explanation": "hyp^2 = 9^2 + 12^2 = 225, hyp = 15 cm.",
+      "difficulty": "Easy",
+      "topic": "Pythagoras theorem"
+    },
+    {
+      "id": "lba_mcq_8",
+      "q": "A 1.5 m stick casts a 3 m shadow when a building casts a 40 m shadow. The building's height is:",
+      "options": [
+        "15 m",
+        "25 m",
+        "30 m",
+        "20 m"
+      ],
+      "answer": "D",
+      "explanation": "1.5/3 = h/40, h = 20 m (similar triangles).",
+      "difficulty": "Average",
+      "topic": "Similar triangles"
+    },
+    {
+      "id": "lba_mcq_9",
+      "q": "Two triangles with equal corresponding angles and proportional sides are:",
+      "options": [
+        "Similar",
+        "Congruent",
+        "Equal in area",
+        "Right-angled"
+      ],
+      "answer": "A",
+      "explanation": "Equal angles and proportional sides means the triangles are similar (same shape, possibly different size).",
+      "difficulty": "Easy",
+      "topic": "Similar triangles (concept)"
+    },
+    {
+      "id": "lba_mcq_10",
+      "q": "All congruent triangles are similar, but all similar triangles are:",
+      "options": [
+        "Always congruent",
+        "Not always congruent",
+        "Always right-angled",
+        "Never similar"
+      ],
+      "answer": "B",
+      "explanation": "Similar triangles have the same shape but may differ in size, so they are not always congruent.",
+      "difficulty": "Average",
+      "topic": "Similar vs congruent"
+    }
+  ]
+}

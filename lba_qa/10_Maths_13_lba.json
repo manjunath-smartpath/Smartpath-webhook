@@ -1,0 +1,231 @@
+{
+  "class": "10",
+  "subject": "Maths",
+  "chapter": "13",
+  "chapter_name": "Statistics",
+  "theme": "Statistics and Probability",
+  "lba_qa": [
+    {
+      "id": "lba_qa_1",
+      "q": "A student scored 80, 70, 90, 60 and 100 marks in five tests. Find the mean (average) marks.",
+      "a": "Mean = sum of all observations / number of observations.\nSum = 80 + 70 + 90 + 60 + 100 = 400.\nNumber of tests = 5.\nMean = 400 / 5 = 80.\nSo the student's mean marks is 80.",
+      "difficulty": "Easy",
+      "topic": "Mean of data (real-life)",
+      "marks": 2
+    },
+    {
+      "id": "lba_qa_2",
+      "q": "The daily wages (in Rs) of 7 workers are 200, 250, 250, 300, 250, 400, 250. Find the mode of the wages and explain what it tells the employer.",
+      "a": "The mode is the value that occurs most often.\nHere 250 appears 4 times, more than any other value.\nSo the mode = Rs 250.\nThis tells the employer that the most common daily wage among the workers is Rs 250.",
+      "difficulty": "Easy",
+      "topic": "Mode of data (real-life)",
+      "marks": 2
+    },
+    {
+      "id": "lba_qa_3",
+      "q": "The heights (in cm) of 5 students are 140, 145, 150, 155, 160. Find the median height and explain why median is useful.",
+      "a": "Arrange in order (already done): 140, 145, 150, 155, 160.\nThere are 5 values (odd), so the median is the middle (3rd) value = 150 cm.\nThe median is useful because it gives the middle value, which is not affected by very high or very low extreme values, so it represents a typical value well.",
+      "difficulty": "Average",
+      "topic": "Median of data (real-life)",
+      "marks": 2
+    },
+    {
+      "id": "lba_qa_4",
+      "q": "A shopkeeper records the number of items sold over 6 days as 10, 12, 15, 11, 14, 10. Find the mean number of items sold per day.",
+      "a": "Mean = sum / number of days.\nSum = 10 + 12 + 15 + 11 + 14 + 10 = 72.\nNumber of days = 6.\nMean = 72 / 6 = 12.\nSo on average, 12 items were sold per day.",
+      "difficulty": "Easy",
+      "topic": "Mean of data (real-life)",
+      "marks": 2
+    },
+    {
+      "id": "lba_qa_5",
+      "q": "A class has marks data. The mean is found using the formula 'mean = sum of (f x x) / sum of f' for grouped data. Explain what f and x stand for and why we use this formula.",
+      "a": "In grouped data, x is the class mark (the midpoint of each class interval) and f is the frequency (how many observations fall in that class). We multiply each class mark by its frequency (f x x) to account for all the observations in that class, add them up, and divide by the total frequency (sum of f). This gives the mean of grouped data, since we cannot use individual values directly.",
+      "difficulty": "Average",
+      "topic": "Mean of grouped data (concept)",
+      "marks": 2
+    },
+    {
+      "id": "lba_qa_6",
+      "q": "The marks of 6 students are 45, 50, 55, 60, 65, 70. Find the median.",
+      "a": "Arrange in order (already done): 45, 50, 55, 60, 65, 70.\nThere are 6 values (even), so the median is the average of the two middle values (3rd and 4th): 55 and 60.\nMedian = (55 + 60) / 2 = 115 / 2 = 57.5.\nSo the median is 57.5 marks.",
+      "difficulty": "Average",
+      "topic": "Median of data (real-life)",
+      "marks": 3
+    },
+    {
+      "id": "lba_qa_7",
+      "q": "Why might the mean give a misleading 'average' when one value is very large? Give a simple example.",
+      "a": "The mean is affected by very large or very small extreme values. For example, if 4 workers earn Rs 200 each and 1 owner earns Rs 5000, the mean = (200x4 + 5000)/5 = 5800/5 = Rs 1160. But this Rs 1160 does not represent the workers well, as most earn only Rs 200. In such cases, the median gives a better 'typical' value. So with extreme values, the mean can be misleading.",
+      "difficulty": "Difficult",
+      "topic": "Mean vs median (concept)",
+      "marks": 2
+    },
+    {
+      "id": "lba_qa_8",
+      "q": "The number of goals scored by a team in 5 matches is 2, 3, 2, 4, 2. Find the mean, median and mode.",
+      "a": "Mean = (2+3+2+4+2)/5 = 13/5 = 2.6 goals.\nMedian: arrange = 2, 2, 2, 3, 4; middle (3rd) value = 2.\nMode: 2 occurs most often (3 times), so mode = 2.\nSo mean = 2.6, median = 2 and mode = 2 goals.",
+      "difficulty": "Average",
+      "topic": "Mean, median, mode (real-life)",
+      "marks": 3
+    },
+    {
+      "id": "lba_qa_9",
+      "q": "What is an 'ogive', and what is it used for in statistics?",
+      "a": "An ogive is a graph (curve) drawn using the cumulative frequencies of grouped data. There are two types: 'less than' and 'more than' ogives. It is mainly used to find the median of grouped data graphically — the point where the two ogives intersect (or by reading from the cumulative frequency) gives the median. So an ogive helps represent cumulative data and find the median visually.",
+      "difficulty": "Average",
+      "topic": "Ogive (concept)",
+      "marks": 2
+    },
+    {
+      "id": "lba_qa_10",
+      "q": "There is a relationship: Mode = 3 Median - 2 Mean. If the median is 50 and the mean is 48, find the mode.",
+      "a": "Use the empirical relationship: Mode = 3 x Median - 2 x Mean.\n= 3 x 50 - 2 x 48 = 150 - 96 = 54.\nSo the mode is 54.",
+      "difficulty": "Difficult",
+      "topic": "Relationship between mean, median, mode",
+      "marks": 3
+    }
+  ],
+  "lba_mcq": [
+    {
+      "id": "lba_mcq_1",
+      "q": "A student scored 80, 70, 90, 60, 100 in five tests. The mean is:",
+      "options": [
+        "80",
+        "70",
+        "90",
+        "85"
+      ],
+      "answer": "A",
+      "explanation": "Mean = (80+70+90+60+100)/5 = 400/5 = 80.",
+      "difficulty": "Easy",
+      "topic": "Mean"
+    },
+    {
+      "id": "lba_mcq_2",
+      "q": "Wages: 200, 250, 250, 300, 250, 400, 250. The mode is:",
+      "options": [
+        "Rs 200",
+        "Rs 250",
+        "Rs 300",
+        "Rs 400"
+      ],
+      "answer": "B",
+      "explanation": "250 occurs most often (4 times), so mode = Rs 250.",
+      "difficulty": "Easy",
+      "topic": "Mode"
+    },
+    {
+      "id": "lba_mcq_3",
+      "q": "Heights 140, 145, 150, 155, 160 cm. The median is:",
+      "options": [
+        "145 cm",
+        "155 cm",
+        "150 cm",
+        "152 cm"
+      ],
+      "answer": "C",
+      "explanation": "For 5 values, median is the middle (3rd) value = 150 cm.",
+      "difficulty": "Average",
+      "topic": "Median"
+    },
+    {
+      "id": "lba_mcq_4",
+      "q": "Items sold over 6 days: 10, 12, 15, 11, 14, 10. The mean per day is:",
+      "options": [
+        "10",
+        "11",
+        "13",
+        "12"
+      ],
+      "answer": "D",
+      "explanation": "Mean = 72/6 = 12 items per day.",
+      "difficulty": "Easy",
+      "topic": "Mean"
+    },
+    {
+      "id": "lba_mcq_5",
+      "q": "Marks 45, 50, 55, 60, 65, 70. The median is:",
+      "options": [
+        "57.5",
+        "55",
+        "60",
+        "55.5"
+      ],
+      "answer": "A",
+      "explanation": "For 6 values, median = average of 3rd and 4th = (55+60)/2 = 57.5.",
+      "difficulty": "Average",
+      "topic": "Median"
+    },
+    {
+      "id": "lba_mcq_6",
+      "q": "In the grouped-data mean formula, 'x' usually represents the:",
+      "options": [
+        "Frequency",
+        "Class mark (midpoint)",
+        "Total",
+        "Median"
+      ],
+      "answer": "B",
+      "explanation": "x is the class mark (midpoint of the class interval); f is the frequency.",
+      "difficulty": "Average",
+      "topic": "Mean of grouped data"
+    },
+    {
+      "id": "lba_mcq_7",
+      "q": "Goals: 2, 3, 2, 4, 2. The mode is:",
+      "options": [
+        "3",
+        "4",
+        "2",
+        "2.6"
+      ],
+      "answer": "C",
+      "explanation": "2 occurs most often (3 times), so the mode is 2.",
+      "difficulty": "Easy",
+      "topic": "Mode"
+    },
+    {
+      "id": "lba_mcq_8",
+      "q": "When data has one very large extreme value, the better measure of a 'typical' value is the:",
+      "options": [
+        "Mean",
+        "Largest value",
+        "Sum",
+        "Median"
+      ],
+      "answer": "D",
+      "explanation": "The median is not affected by extreme values, so it represents a typical value better than the mean.",
+      "difficulty": "Difficult",
+      "topic": "Mean vs median"
+    },
+    {
+      "id": "lba_mcq_9",
+      "q": "A graph drawn from cumulative frequencies, used to find the median, is called a/an:",
+      "options": [
+        "Ogive",
+        "Bar graph",
+        "Pie chart",
+        "Histogram"
+      ],
+      "answer": "A",
+      "explanation": "An ogive is a cumulative frequency curve used to find the median graphically.",
+      "difficulty": "Average",
+      "topic": "Ogive"
+    },
+    {
+      "id": "lba_mcq_10",
+      "q": "If median = 50 and mean = 48, then by Mode = 3 Median - 2 Mean, the mode is:",
+      "options": [
+        "52",
+        "54",
+        "48",
+        "50"
+      ],
+      "answer": "B",
+      "explanation": "Mode = 3(50) - 2(48) = 150 - 96 = 54.",
+      "difficulty": "Difficult",
+      "topic": "Mean-median-mode relationship"
+    }
+  ]
+}
