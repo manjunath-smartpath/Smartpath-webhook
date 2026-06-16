@@ -1,0 +1,231 @@
+{
+  "class": "10",
+  "subject": "Science",
+  "chapter": "11",
+  "chapter_name": "Electricity",
+  "theme": "Effects of Current",
+  "lba_qa": [
+    {
+      "id": "lba_qa_1",
+      "q": "In a house, all the lights and fans are connected in parallel, not in series. Explain the advantage of this with respect to daily use.",
+      "a": "In a parallel connection, each appliance gets the full voltage and can be switched on or off independently without affecting the others. If one bulb fuses, the rest keep working. Also, each appliance can draw the current it needs. If they were in series, switching off one would stop all, and all would share the voltage. That is why home wiring uses parallel connections.",
+      "difficulty": "Average",
+      "topic": "Resistance of a system of resistors (parallel)",
+      "marks": 3
+    },
+    {
+      "id": "lba_qa_2",
+      "q": "The heating element of an electric iron or heater is made of an alloy like nichrome, not copper. Explain why.",
+      "a": "Nichrome has a high resistance and a high melting point. When current flows through it, its high resistance produces a lot of heat (heating effect of current) without melting. Copper has very low resistance, so it would produce little heat and is used for connecting wires instead. That is why heating elements use nichrome, not copper.",
+      "difficulty": "Average",
+      "topic": "Heating effect of electric current",
+      "marks": 2
+    },
+    {
+      "id": "lba_qa_3",
+      "q": "An electric bulb is marked '60 W, 220 V'. Explain what this rating means and how it helps in choosing appliances.",
+      "a": "This means the bulb consumes 60 watts of power when connected to a 220 volt supply. Power tells the rate at which the bulb uses electrical energy. A higher wattage means more energy used per second and a higher electricity bill. Knowing the rating helps us choose appliances based on how much power they use and to calculate the electricity cost.",
+      "difficulty": "Average",
+      "topic": "Electric power",
+      "marks": 2
+    },
+    {
+      "id": "lba_qa_4",
+      "q": "Long, thin wires get hotter than short, thick wires when the same current passes. Explain this using the factors affecting resistance.",
+      "a": "Resistance depends on the length and thickness (area) of a wire. A longer wire has more resistance, and a thinner wire (smaller area) also has more resistance. More resistance means more heat is produced for the same current (heating effect). So a long, thin wire has high resistance and gets hotter, while a short, thick wire has low resistance and stays cooler.",
+      "difficulty": "Difficult",
+      "topic": "Factors on which resistance depends",
+      "marks": 3
+    },
+    {
+      "id": "lba_qa_5",
+      "q": "A fuse wire is used as a safety device in household circuits. Explain how it works to protect appliances.",
+      "a": "A fuse is a short piece of wire with a low melting point, connected in the circuit. If too much current flows (due to a short circuit or overload), the fuse wire heats up and melts, breaking the circuit. This stops the excess current and prevents the appliances and wiring from being damaged or catching fire. So the fuse works on the heating effect of current to protect the circuit.",
+      "difficulty": "Average",
+      "topic": "Heating effect of electric current (fuse)",
+      "marks": 2
+    },
+    {
+      "id": "lba_qa_6",
+      "q": "Birds can sit safely on a single high-voltage power line without getting a shock. Explain why, using the idea of potential difference.",
+      "a": "Electric current flows only when there is a potential difference (voltage difference) between two points. A bird sitting on a single wire touches only one point, so both its feet are at the same potential — there is no potential difference across its body, so no current flows and it is safe. If it touched two wires or a wire and the ground, current would flow and it would get a shock.",
+      "difficulty": "Difficult",
+      "topic": "Electric potential and potential difference",
+      "marks": 3
+    },
+    {
+      "id": "lba_qa_7",
+      "q": "Using Ohm's law, explain why a thick copper wire is preferred over a thin one for carrying large currents safely.",
+      "a": "Ohm's law states V = IR. A thick wire has lower resistance than a thin wire. For carrying large currents, lower resistance means less heat is produced (heating is more when resistance is higher), so the wire does not overheat. A thin wire has high resistance and would heat up dangerously with a large current. So thick copper wires are safer for heavy currents.",
+      "difficulty": "Average",
+      "topic": "Ohm's law / factors affecting resistance",
+      "marks": 2
+    },
+    {
+      "id": "lba_qa_8",
+      "q": "Electricity bills are charged in 'units' (kilowatt-hour), not in joules. Explain what one unit means and why high-power appliances increase the bill.",
+      "a": "One unit of electricity is one kilowatt-hour (kWh) — the energy used by a 1000 watt appliance running for 1 hour. High-power appliances (like heaters and ACs) use more watts, so they consume more units in the same time, increasing the bill. The bill depends on both the power of the appliance and how long it is used.",
+      "difficulty": "Average",
+      "topic": "Electric power / energy",
+      "marks": 2
+    },
+    {
+      "id": "lba_qa_9",
+      "q": "When many high-power appliances are switched on together in a house, sometimes the main fuse blows. Explain why this happens.",
+      "a": "Each appliance draws current, and in a parallel home circuit the total current is the sum of all the appliance currents. When many high-power appliances run together, the total current becomes very large (overload). This large current heats the fuse wire beyond its limit, so it melts (blows) and breaks the circuit, preventing damage. This is the fuse protecting the circuit from overload.",
+      "difficulty": "Average",
+      "topic": "Heating effect / electric power",
+      "marks": 2
+    },
+    {
+      "id": "lba_qa_10",
+      "q": "An electric heater draws more current than an electric bulb from the same supply. Explain why, using the relation between power, voltage and current.",
+      "a": "Power P = V x I, so at the same voltage, an appliance with higher power draws more current (I = P/V). A heater has a much higher power rating than a bulb, so it draws much more current from the same supply. This larger current also produces the large amount of heat the heater needs. That is why heaters draw more current than bulbs.",
+      "difficulty": "Average",
+      "topic": "Electric power",
+      "marks": 2
+    }
+  ],
+  "lba_mcq": [
+    {
+      "id": "lba_mcq_1",
+      "q": "Home appliances are connected in parallel so that:",
+      "options": [
+        "Each works independently at full voltage",
+        "All stop if one fails",
+        "They share the voltage",
+        "They use less wire"
+      ],
+      "answer": "A",
+      "explanation": "In parallel, each appliance gets full voltage and works independently; if one fails, others keep working.",
+      "difficulty": "Easy",
+      "topic": "Resistors in parallel"
+    },
+    {
+      "id": "lba_mcq_2",
+      "q": "The heating element of an electric iron is made of nichrome because it has:",
+      "options": [
+        "Very low resistance",
+        "High resistance and high melting point",
+        "No resistance",
+        "The colour red"
+      ],
+      "answer": "B",
+      "explanation": "Nichrome's high resistance produces a lot of heat, and its high melting point prevents it from melting.",
+      "difficulty": "Average",
+      "topic": "Heating effect of current"
+    },
+    {
+      "id": "lba_mcq_3",
+      "q": "A bird sits safely on a single high-voltage wire because:",
+      "options": [
+        "Birds do not conduct electricity",
+        "The wire has no current",
+        "There is no potential difference across its body",
+        "Birds have rubber feet"
+      ],
+      "answer": "C",
+      "explanation": "Both feet are at the same potential, so there is no potential difference and no current flows through the bird.",
+      "difficulty": "Difficult",
+      "topic": "Potential difference"
+    },
+    {
+      "id": "lba_mcq_4",
+      "q": "A fuse wire protects a circuit because, when current is too high, it:",
+      "options": [
+        "Conducts more current",
+        "Becomes a better conductor",
+        "Stores the extra current",
+        "Melts and breaks the circuit"
+      ],
+      "answer": "D",
+      "explanation": "The fuse has a low melting point; excess current heats and melts it, breaking the circuit and protecting appliances.",
+      "difficulty": "Average",
+      "topic": "Heating effect (fuse)"
+    },
+    {
+      "id": "lba_mcq_5",
+      "q": "For the same current, a long thin wire gets hotter than a short thick wire because the long thin wire has:",
+      "options": [
+        "Higher resistance",
+        "Lower resistance",
+        "No resistance",
+        "More copper"
+      ],
+      "answer": "A",
+      "explanation": "Resistance increases with length and decreases with thickness, so a long thin wire has higher resistance and produces more heat.",
+      "difficulty": "Difficult",
+      "topic": "Factors affecting resistance"
+    },
+    {
+      "id": "lba_mcq_6",
+      "q": "A bulb marked '60 W, 220 V' uses 60 W. This 'W' (watt) measures the:",
+      "options": [
+        "Resistance",
+        "Rate of using electrical energy (power)",
+        "Voltage only",
+        "Current only"
+      ],
+      "answer": "B",
+      "explanation": "Watt is the unit of power — the rate at which electrical energy is consumed.",
+      "difficulty": "Easy",
+      "topic": "Electric power"
+    },
+    {
+      "id": "lba_mcq_7",
+      "q": "One 'unit' of electricity on a bill is equal to:",
+      "options": [
+        "One watt",
+        "One volt",
+        "One kilowatt-hour (kWh)",
+        "One ampere"
+      ],
+      "answer": "C",
+      "explanation": "One unit = one kilowatt-hour, the energy used by a 1000 W appliance in 1 hour.",
+      "difficulty": "Average",
+      "topic": "Electric power / energy"
+    },
+    {
+      "id": "lba_mcq_8",
+      "q": "An electric heater draws more current than a bulb from the same supply because the heater has:",
+      "options": [
+        "Lower power",
+        "No resistance",
+        "Less voltage",
+        "Higher power"
+      ],
+      "answer": "D",
+      "explanation": "Since I = P/V, at the same voltage a higher-power appliance (heater) draws more current.",
+      "difficulty": "Average",
+      "topic": "Electric power"
+    },
+    {
+      "id": "lba_mcq_9",
+      "q": "Connecting wires in circuits are made of copper because copper has:",
+      "options": [
+        "Very low resistance",
+        "Very high resistance",
+        "A high melting point only",
+        "No conductivity"
+      ],
+      "answer": "A",
+      "explanation": "Copper has very low resistance, so it carries current with little heat loss, making it ideal for connecting wires.",
+      "difficulty": "Easy",
+      "topic": "Factors affecting resistance"
+    },
+    {
+      "id": "lba_mcq_10",
+      "q": "The main fuse blows when many high-power appliances run together because of:",
+      "options": [
+        "Low current",
+        "Overload (too much total current)",
+        "Low voltage",
+        "Too little power"
+      ],
+      "answer": "B",
+      "explanation": "Running many appliances draws a large total current (overload), which heats and melts the fuse, breaking the circuit.",
+      "difficulty": "Average",
+      "topic": "Heating effect / power"
+    }
+  ]
+}

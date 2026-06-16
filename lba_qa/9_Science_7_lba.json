@@ -1,0 +1,231 @@
+{
+  "class": "9",
+  "subject": "Science",
+  "chapter": "7",
+  "chapter_name": "Motion",
+  "theme": "Motion, Force and Work",
+  "lba_qa": [
+    {
+      "q": "A boy walks 3 km east to school and then walks back 3 km west to home. Find the total distance and the displacement of his trip.",
+      "a": "DISTANCE = total path length covered (only magnitude).\nDISPLACEMENT = shortest distance from start to end (with direction).\n\nGiven: 3 km east + 3 km back west.\n\n1. Total distance:\n= 3 + 3 = 6 km ✅\n\n2. Displacement:\n- He returns to the SAME starting point (home)\n- Shortest distance from start to end = 0\n- Displacement = 0 km ✅\n\nThis shows distance and displacement can be very different.",
+      "difficulty": "Medium",
+      "topic": "Distance and Displacement",
+      "marks": 2,
+      "id": "lba_qa_1"
+    },
+    {
+      "q": "An athlete runs once around a circular track and stops at the starting point. The track radius is 7 m. Find the distance and displacement. (Use pi = 22/7)",
+      "a": "One full round of a circle.\n\nDistance = circumference = 2 x pi x r\n= 2 x (22/7) x 7\n= 44 m ✅\n\nDisplacement:\n- The athlete ends at the SAME point where he started\n- Shortest distance start to end = 0\n- Displacement = 0 m ✅\n\nSo even after running 44 m, the displacement is zero because he is back at the start.",
+      "difficulty": "Hard",
+      "topic": "Distance and Displacement",
+      "marks": 3,
+      "id": "lba_qa_2"
+    },
+    {
+      "q": "A car travels 20 m in 5 seconds and then another 15 m in the next 10 seconds. Find its average speed for the whole trip.",
+      "a": "Average speed = Total distance / Total time\n\nTotal distance = 20 + 15 = 35 m\nTotal time = 5 + 10 = 15 s\n\nAverage speed:\n= 35 / 15\n= 2.33 m/s ✅\n\nSo the average speed of the car for the whole journey is about 2.33 m/s.",
+      "difficulty": "Medium",
+      "topic": "Average Speed",
+      "marks": 2,
+      "id": "lba_qa_3"
+    },
+    {
+      "q": "A bus slows down from 80 km/hr to 60 km/hr in 5 seconds. Find its acceleration. What does the negative sign mean?",
+      "a": "First convert km/hr to m/s (divide by 3.6):\n- u = 80/3.6 = 22.2 m/s\n- v = 60/3.6 = 16.6 m/s\n- t = 5 s\n\nAcceleration = (v - u) / t\n= (16.6 - 22.2) / 5\n= -5.6 / 5\n= -1.1 m/s^2 ✅\n\nThe NEGATIVE sign means the bus is slowing down. This is called RETARDATION (deceleration).",
+      "difficulty": "Hard",
+      "topic": "Acceleration",
+      "marks": 3,
+      "id": "lba_qa_4"
+    },
+    {
+      "q": "A car's odometer shows the total kilometres travelled, while a GPS shows the straight-line distance to home. Which one measures distance and which measures displacement?",
+      "a": "ODOMETER = measures DISTANCE.\n- It records the total length of the path travelled\n- It keeps adding up no matter which direction you go ✅\n\nGPS straight-line to home = DISPLACEMENT.\n- It gives the shortest straight distance from your position to home\n- It also has a direction ✅\n\nSo odometer → distance (path), GPS straight line → displacement (shortest with direction).",
+      "difficulty": "Medium",
+      "topic": "Distance and Displacement",
+      "marks": 2,
+      "id": "lba_qa_5"
+    },
+    {
+      "q": "Convert a speed of 54 km/hr into m/s, and convert 10 m/s into km/hr. Give the simple rule.",
+      "a": "RULE:\n- km/hr to m/s: multiply by 5/18 (or divide by 3.6)\n- m/s to km/hr: multiply by 18/5 (or multiply by 3.6)\n\n1. 54 km/hr to m/s:\n= 54 x 5/18\n= 15 m/s ✅\n\n2. 10 m/s to km/hr:\n= 10 x 18/5\n= 36 km/hr ✅",
+      "difficulty": "Easy",
+      "topic": "Speed Conversion",
+      "marks": 2,
+      "id": "lba_qa_6"
+    },
+    {
+      "q": "A car starts from rest and moves with a uniform acceleration of 0.1 m/s^2 for 4 minutes. Find the final speed and distance travelled.",
+      "a": "Given: u = 0 (starts from rest), a = 0.1 m/s^2\nt = 4 minutes = 4 x 60 = 240 s\n\n1. Final speed (v = u + at):\n= 0 + (0.1 x 240)\n= 24 m/s ✅\n\n2. Distance (s = ut + (1/2)at^2):\n= (0 x 240) + (1/2 x 0.1 x 240 x 240)\n= 0 + (0.05 x 57600)\n= 2880 m ✅\n\nSo final speed = 24 m/s and distance = 2880 m.",
+      "difficulty": "Hard",
+      "topic": "Equations of Motion",
+      "marks": 3,
+      "id": "lba_qa_7"
+    },
+    {
+      "q": "On a distance-time graph, one runner's line is straight and steep, another's line is curved. What does each line tell us about their motion?",
+      "a": "On a DISTANCE-TIME graph:\n\n1. STRAIGHT line:\n- Equal distance is covered in equal time\n- This means UNIFORM motion (constant speed) ✅\n- A steeper straight line = higher speed\n\n2. CURVED line:\n- Distance covered in equal time keeps changing\n- This means NON-UNIFORM motion (speed is changing) ✅\n\nSo straight = uniform speed, curved = changing speed.",
+      "difficulty": "Medium",
+      "topic": "Graphical Representation of Motion",
+      "marks": 3,
+      "id": "lba_qa_8"
+    },
+    {
+      "q": "The minute hand of a clock completes one full round in one hour. What is its displacement after one hour, and why?",
+      "a": "After one full hour, the minute hand returns to the SAME starting position (the 12).\n\nDisplacement:\n- Displacement = shortest distance between start and end position\n- Start and end positions are the SAME\n- So displacement = 0 ✅\n\nEven though the tip has travelled a distance (the circumference), its displacement is zero because it ends where it began.",
+      "difficulty": "Medium",
+      "topic": "Distance and Displacement",
+      "marks": 2,
+      "id": "lba_qa_9"
+    },
+    {
+      "q": "A cyclist riding around a circular track at a steady 5 m/s says his speed is constant, so there is no acceleration. Is he correct?",
+      "a": "No, he is NOT fully correct.\n\nReason:\n- His SPEED (5 m/s) is constant — true\n- But his DIRECTION keeps changing as he goes around the circle\n- Velocity includes direction, so his VELOCITY is changing\n- A change in velocity means there IS acceleration ✅\n\nThis is called UNIFORM CIRCULAR MOTION — constant speed but continuously changing direction, so it is accelerated motion.",
+      "difficulty": "Hard",
+      "topic": "Uniform Circular Motion",
+      "marks": 3,
+      "id": "lba_qa_10"
+    }
+  ],
+  "lba_mcq": [
+    {
+      "q": "Ravi jogs 100 m forward and then 100 m back to his starting point. What is his total displacement?",
+      "options": [
+        "0 m",
+        "200 m",
+        "100 m",
+        "50 m"
+      ],
+      "answer": "A",
+      "explanation": "Displacement is the shortest distance between start and end. Since Ravi returns to his starting point, his displacement is zero, even though he covered 200 m distance.",
+      "difficulty": "Easy",
+      "topic": "Distance and Displacement",
+      "id": "lba_mcq_1"
+    },
+    {
+      "q": "A speedometer in a car shows 60 km/hr at an instant. What quantity does it actually show?",
+      "options": [
+        "Average speed",
+        "Instantaneous speed",
+        "Displacement",
+        "Acceleration"
+      ],
+      "answer": "B",
+      "explanation": "A speedometer shows the speed of the vehicle at that particular instant — the instantaneous speed.",
+      "difficulty": "Medium",
+      "topic": "Speed",
+      "id": "lba_mcq_2"
+    },
+    {
+      "q": "A train moves at a steady speed and covers equal distances in equal intervals of time. Its distance-time graph will be a:",
+      "options": [
+        "Curved line",
+        "Zig-zag line",
+        "Straight line",
+        "Circle"
+      ],
+      "answer": "C",
+      "explanation": "Equal distances in equal times means uniform motion. On a distance-time graph, uniform motion is shown by a straight line.",
+      "difficulty": "Easy",
+      "topic": "Graphical Representation",
+      "id": "lba_mcq_3"
+    },
+    {
+      "q": "A motorbike's velocity increases from 0 to 20 m/s in 4 seconds. What is its acceleration?",
+      "options": [
+        "80 m/s^2",
+        "4 m/s^2",
+        "16 m/s^2",
+        "5 m/s^2"
+      ],
+      "answer": "D",
+      "explanation": "Acceleration = (v - u)/t = (20 - 0)/4 = 5 m/s^2.",
+      "difficulty": "Medium",
+      "topic": "Acceleration",
+      "id": "lba_mcq_4"
+    },
+    {
+      "q": "A bus driver applies brakes and the bus slows down. The acceleration of the bus during braking is:",
+      "options": [
+        "Negative (retardation)",
+        "Positive",
+        "Zero",
+        "Infinite"
+      ],
+      "answer": "A",
+      "explanation": "When a body slows down, its velocity decreases, so the acceleration is negative. This is called retardation or deceleration.",
+      "difficulty": "Easy",
+      "topic": "Acceleration",
+      "id": "lba_mcq_5"
+    },
+    {
+      "q": "A fan blade rotating at a constant speed is said to be in uniform circular motion. Is it accelerating?",
+      "options": [
+        "No, because speed is constant",
+        "Yes, because direction keeps changing",
+        "No, because it moves in a circle",
+        "Yes, because speed keeps increasing"
+      ],
+      "answer": "B",
+      "explanation": "Even at constant speed, the direction of motion changes continuously in a circle. Since velocity (which includes direction) changes, the motion is accelerated.",
+      "difficulty": "Hard",
+      "topic": "Uniform Circular Motion",
+      "id": "lba_mcq_6"
+    },
+    {
+      "q": "Which device in a vehicle directly measures the total distance travelled?",
+      "options": [
+        "Speedometer",
+        "Barometer",
+        "Odometer",
+        "Lactometer"
+      ],
+      "answer": "C",
+      "explanation": "The odometer records the total distance travelled by a vehicle. The speedometer shows speed, not distance.",
+      "difficulty": "Easy",
+      "topic": "Measuring Distance",
+      "id": "lba_mcq_7"
+    },
+    {
+      "q": "To convert 72 km/hr into m/s, what do we do, and what is the result?",
+      "options": [
+        "Multiply by 3.6; 259.2 m/s",
+        "Divide by 5/18; 200 m/s",
+        "Add 18; 90 m/s",
+        "Multiply by 5/18; 20 m/s"
+      ],
+      "answer": "D",
+      "explanation": "km/hr to m/s: multiply by 5/18. So 72 x 5/18 = 20 m/s.",
+      "difficulty": "Medium",
+      "topic": "Speed Conversion",
+      "id": "lba_mcq_8"
+    },
+    {
+      "q": "A car starts from rest (u=0) and accelerates at 2 m/s^2 for 5 s. What is its final velocity?",
+      "options": [
+        "10 m/s",
+        "7 m/s",
+        "2.5 m/s",
+        "25 m/s"
+      ],
+      "answer": "A",
+      "explanation": "Using v = u + at = 0 + (2 x 5) = 10 m/s.",
+      "difficulty": "Medium",
+      "topic": "Equations of Motion",
+      "id": "lba_mcq_9"
+    },
+    {
+      "q": "Which of the following is NOT a correct equation of motion?",
+      "options": [
+        "v = u + at",
+        "a = s + ut",
+        "v^2 = u^2 + 2as",
+        "s = ut + (1/2)at^2"
+      ],
+      "answer": "B",
+      "explanation": "The three equations of motion are v = u + at, v^2 = u^2 + 2as, and s = ut + (1/2)at^2. 'a = s + ut' is not a valid equation of motion.",
+      "difficulty": "Easy",
+      "topic": "Equations of Motion",
+      "id": "lba_mcq_10"
+    }
+  ]
+}

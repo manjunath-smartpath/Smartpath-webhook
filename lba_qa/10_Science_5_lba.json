@@ -1,0 +1,231 @@
+{
+  "class": "10",
+  "subject": "Science",
+  "chapter": "5",
+  "chapter_name": "Life Processes",
+  "theme": "World of Living",
+  "lba_qa": [
+    {
+      "id": "lba_qa_1",
+      "q": "After running fast for a while, a person breathes heavily and may feel cramps in the leg muscles. Explain this using the type of respiration happening in the muscles.",
+      "a": "During fast running, the muscles do not get enough oxygen. So they carry out anaerobic respiration, breaking glucose into lactic acid without oxygen. The build-up of lactic acid causes muscle cramps. Heavy breathing afterwards supplies extra oxygen to break down the lactic acid. This shows the difference between aerobic and anaerobic respiration.",
+      "difficulty": "Average",
+      "topic": "Respiration",
+      "marks": 3
+    },
+    {
+      "id": "lba_qa_2",
+      "q": "A potted plant kept in a dark room for a few days turns pale and weak. Explain why, connecting it to the plant's nutrition.",
+      "a": "Plants make their own food by photosynthesis, which needs sunlight. In a dark room, the plant cannot carry out photosynthesis and cannot make food (glucose). Without food, it becomes weak and pale because it cannot produce the green pigment chlorophyll and energy. This shows plants depend on light for autotrophic nutrition.",
+      "difficulty": "Easy",
+      "topic": "Autotrophic nutrition (Photosynthesis)",
+      "marks": 2
+    },
+    {
+      "id": "lba_qa_3",
+      "q": "Doctors advise chewing food properly and slowly. Explain the importance of this based on the process of digestion that begins in the mouth.",
+      "a": "Chewing breaks food into smaller pieces, increasing its surface area for enzymes to act. Saliva in the mouth contains the enzyme salivary amylase, which begins the digestion of starch into sugar. Proper chewing mixes food well with saliva, making digestion easier and more efficient in the rest of the digestive system.",
+      "difficulty": "Average",
+      "topic": "Nutrition in human beings (Digestion)",
+      "marks": 2
+    },
+    {
+      "id": "lba_qa_4",
+      "q": "A person suffering from kidney failure is put on dialysis. Explain the function the kidneys normally perform that dialysis replaces.",
+      "a": "The kidneys are excretory organs that filter the blood and remove harmful waste products like urea, excess water and salts, forming urine. In kidney failure, this filtering does not happen and wastes build up in the blood, which is dangerous. Dialysis is an artificial process that filters the blood and removes these wastes, doing the job of the kidneys.",
+      "difficulty": "Average",
+      "topic": "Excretion in human beings",
+      "marks": 3
+    },
+    {
+      "id": "lba_qa_5",
+      "q": "During heavy exercise, the human heart beats faster. Explain why this happens, connecting it to the function of blood transport.",
+      "a": "Blood transports oxygen and nutrients to the body cells and removes carbon dioxide. During exercise, the muscles need much more oxygen and energy. So the heart beats faster to pump more blood quickly, supplying more oxygen to the muscles and removing CO2 faster. This is why the heart rate increases during exercise.",
+      "difficulty": "Average",
+      "topic": "Transportation in human beings",
+      "marks": 2
+    },
+    {
+      "id": "lba_qa_6",
+      "q": "Tall trees are able to carry water from their roots all the way up to the topmost leaves without a pump. Explain how water is transported in plants.",
+      "a": "Water is absorbed by the roots and transported upward through tube-like vessels called xylem. As water evaporates from the leaves through tiny pores (stomata), it creates a suction pull called transpiration pull. This pull draws water upward from the roots to the leaves, even in very tall trees, without any pump.",
+      "difficulty": "Difficult",
+      "topic": "Transportation in plants",
+      "marks": 3
+    },
+    {
+      "id": "lba_qa_7",
+      "q": "Aquatic animals like fish breathe faster than land animals. Explain why, based on the availability of oxygen in their surroundings.",
+      "a": "The amount of dissolved oxygen in water is much lower than the oxygen available in air. Since fish get less oxygen from water, they have to breathe faster (their gills pump water faster) to get enough oxygen. Land animals breathe slower because air has plenty of oxygen. So the breathing rate depends on oxygen availability.",
+      "difficulty": "Average",
+      "topic": "Respiration",
+      "marks": 2
+    },
+    {
+      "id": "lba_qa_8",
+      "q": "A Venus flytrap and the dodder plant (Cuscuta) both get nutrition in unusual ways. Explain how their nutrition differs from a normal green plant.",
+      "a": "A normal green plant makes its own food by photosynthesis (autotrophic). The Venus flytrap is green but grows in nitrogen-poor soil, so it traps and digests insects to get nitrogen. The dodder (Cuscuta) is a parasite that has no chlorophyll and takes ready-made food from the host plant. So both depend partly or fully on others, unlike normal autotrophic plants.",
+      "difficulty": "Average",
+      "topic": "Heterotrophic nutrition",
+      "marks": 2
+    },
+    {
+      "id": "lba_qa_9",
+      "q": "We breathe in oxygen and breathe out carbon dioxide, but the amount of carbon dioxide breathed out is more. Explain what happens to glucose during respiration.",
+      "a": "During respiration, glucose (food) is broken down with the help of oxygen to release energy. In this process, carbon dioxide and water are produced as waste products, and energy is stored as ATP. That is why we take in oxygen and give out carbon dioxide. The energy released is used for all life activities.",
+      "difficulty": "Average",
+      "topic": "Respiration",
+      "marks": 2
+    },
+    {
+      "id": "lba_qa_10",
+      "q": "Leaves of trees fall off in certain seasons, and plants shed old parts. How do plants get rid of their waste products (excretion in plants)?",
+      "a": "Plants do not have a special excretory system like animals. They remove waste products in several ways: oxygen and water vapour are released through stomata; some waste is stored in leaves, bark and old parts, which are then shed (like falling leaves); some waste is stored as gums and resins in older tissues; and some is released into the surrounding soil. This is how plants carry out excretion.",
+      "difficulty": "Easy",
+      "topic": "Excretion in plants",
+      "marks": 2
+    }
+  ],
+  "lba_mcq": [
+    {
+      "id": "lba_mcq_1",
+      "q": "After sprinting, an athlete's leg muscles ache due to a build-up of:",
+      "options": [
+        "Lactic acid",
+        "Glucose",
+        "Oxygen",
+        "Carbon dioxide only"
+      ],
+      "answer": "A",
+      "explanation": "When muscles lack oxygen during fast activity, anaerobic respiration produces lactic acid, whose build-up causes muscle cramps and aches.",
+      "difficulty": "Average",
+      "topic": "Respiration"
+    },
+    {
+      "id": "lba_mcq_2",
+      "q": "A plant kept in complete darkness for several days becomes weak mainly because it cannot:",
+      "options": [
+        "Breathe",
+        "Carry out photosynthesis",
+        "Absorb water",
+        "Lose water"
+      ],
+      "answer": "B",
+      "explanation": "Photosynthesis needs sunlight. Without light the plant cannot make food, so it becomes weak and pale.",
+      "difficulty": "Easy",
+      "topic": "Autotrophic nutrition"
+    },
+    {
+      "id": "lba_mcq_3",
+      "q": "A patient with non-functioning kidneys is kept alive using dialysis, which mainly removes:",
+      "options": [
+        "Oxygen",
+        "Red blood cells",
+        "Nitrogenous wastes like urea from blood",
+        "Glucose"
+      ],
+      "answer": "C",
+      "explanation": "The kidneys filter wastes like urea from blood. Dialysis artificially removes these wastes when the kidneys fail.",
+      "difficulty": "Average",
+      "topic": "Excretion in human beings"
+    },
+    {
+      "id": "lba_mcq_4",
+      "q": "Water rises to the top of a tall tree mainly due to:",
+      "options": [
+        "A pump in the roots",
+        "Wind pressure",
+        "Photosynthesis in roots",
+        "Transpiration pull through xylem"
+      ],
+      "answer": "D",
+      "explanation": "Evaporation of water from leaves (transpiration) creates a suction (transpiration pull) that draws water up through the xylem.",
+      "difficulty": "Difficult",
+      "topic": "Transportation in plants"
+    },
+    {
+      "id": "lba_mcq_5",
+      "q": "Fish breathe faster than land animals because water contains:",
+      "options": [
+        "Less dissolved oxygen than air",
+        "More oxygen than air",
+        "No oxygen",
+        "Only carbon dioxide"
+      ],
+      "answer": "A",
+      "explanation": "Water has much less dissolved oxygen than air, so fish must breathe faster through their gills to get enough oxygen.",
+      "difficulty": "Average",
+      "topic": "Respiration"
+    },
+    {
+      "id": "lba_mcq_6",
+      "q": "Saliva in the mouth begins the digestion of which food component?",
+      "options": [
+        "Proteins",
+        "Starch (carbohydrates)",
+        "Fats",
+        "Minerals"
+      ],
+      "answer": "B",
+      "explanation": "Salivary amylase in saliva begins the digestion of starch into sugar in the mouth.",
+      "difficulty": "Easy",
+      "topic": "Nutrition in human beings"
+    },
+    {
+      "id": "lba_mcq_7",
+      "q": "During exercise, the human heart beats faster mainly to:",
+      "options": [
+        "Cool the body",
+        "Make more blood",
+        "Supply more oxygen to working muscles",
+        "Remove water"
+      ],
+      "answer": "C",
+      "explanation": "Working muscles need more oxygen and energy, so the heart beats faster to pump more oxygen-rich blood to them.",
+      "difficulty": "Average",
+      "topic": "Transportation in human beings"
+    },
+    {
+      "id": "lba_mcq_8",
+      "q": "The dodder plant (Cuscuta) twines around other plants and takes their food. Its mode of nutrition is:",
+      "options": [
+        "Autotrophic",
+        "Saprophytic",
+        "Photosynthetic",
+        "Parasitic"
+      ],
+      "answer": "D",
+      "explanation": "Cuscuta has no chlorophyll and takes ready-made food from a host plant, so it is a parasite (parasitic nutrition).",
+      "difficulty": "Average",
+      "topic": "Heterotrophic nutrition"
+    },
+    {
+      "id": "lba_mcq_9",
+      "q": "The waste product removed by our lungs during breathing out is:",
+      "options": [
+        "Carbon dioxide",
+        "Urea",
+        "Sweat",
+        "Undigested food"
+      ],
+      "answer": "A",
+      "explanation": "Lungs remove carbon dioxide, a waste product of respiration, when we breathe out.",
+      "difficulty": "Easy",
+      "topic": "Respiration / Excretion"
+    },
+    {
+      "id": "lba_mcq_10",
+      "q": "Which of these is a way plants get rid of waste products?",
+      "options": [
+        "Through kidneys",
+        "By shedding old leaves and storing wastes in bark",
+        "By sweating",
+        "Through a heart"
+      ],
+      "answer": "B",
+      "explanation": "Plants store wastes in leaves, bark and old parts which are shed, and release gases through stomata. They have no kidneys or sweat glands.",
+      "difficulty": "Easy",
+      "topic": "Excretion in plants"
+    }
+  ]
+}

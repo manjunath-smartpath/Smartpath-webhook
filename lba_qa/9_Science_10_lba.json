@@ -1,0 +1,231 @@
+{
+  "class": "9",
+  "subject": "Science",
+  "chapter": "10",
+  "chapter_name": "Work and energy",
+  "theme": "Motion, Force and Work",
+  "lba_qa": [
+    {
+      "q": "A man holds a heavy suitcase and stands still for 10 minutes. He feels very tired, yet in science we say he did NO work. Explain.",
+      "a": "In science, WORK = Force x Displacement (in the direction of force).\n\nExplanation:\n- The man applies an upward force to hold the suitcase\n- But the suitcase does NOT move (displacement = 0)\n- Work = Force x 0 = 0 ✅\n\nSo scientifically, no work is done, even though he feels tired.\nHe feels tired because his muscles use energy to stay contracted, but that is not 'work' in the scientific sense.",
+      "difficulty": "Medium",
+      "topic": "Concept of Work",
+      "marks": 2,
+      "id": "lba_qa_1"
+    },
+    {
+      "q": "A force of 7 N pushes a box and moves it 8 m in the direction of the force. Calculate the work done.",
+      "a": "Work done = Force x Displacement\n\nGiven: F = 7 N, distance s = 8 m\n\nCalculation:\n= 7 x 8\n= 56 J (joules) ✅\n\nSo the work done on the box is 56 joules.",
+      "difficulty": "Easy",
+      "topic": "Calculating Work",
+      "marks": 2,
+      "id": "lba_qa_2"
+    },
+    {
+      "q": "A coolie carries a load on his head and walks on a flat platform. Why is the work done against gravity zero here?",
+      "a": "Work done against gravity depends on movement in the DIRECTION of the force (gravity acts vertically).\n\nExplanation:\n- Gravity acts DOWNWARD (vertical)\n- The coolie moves the load HORIZONTALLY along the platform\n- The displacement is at 90 degrees to the gravitational force\n- Work = Force x displacement in force direction = 0 ✅\n\nSince there is no vertical movement of the load, the work done against gravity is zero.",
+      "difficulty": "Hard",
+      "topic": "Work and Direction",
+      "marks": 3,
+      "id": "lba_qa_3"
+    },
+    {
+      "q": "A moving bus and a stretched rubber band both have energy. What type of energy does each have and why?",
+      "a": "1. MOVING BUS — has KINETIC ENERGY:\n- Energy due to MOTION\n- Any moving object possesses kinetic energy ✅\n\n2. STRETCHED RUBBER BAND — has POTENTIAL ENERGY:\n- Energy stored due to its CHANGED SHAPE/position\n- When released, this stored energy is set free ✅\n\nSo kinetic energy = due to motion, potential energy = due to position or shape.",
+      "difficulty": "Medium",
+      "topic": "Kinetic and Potential Energy",
+      "marks": 2,
+      "id": "lba_qa_4"
+    },
+    {
+      "q": "A body of mass 15 kg moves at a speed of 4 m/s. Calculate its kinetic energy.",
+      "a": "Kinetic energy formula: KE = (1/2) x m x v^2\n\nGiven: m = 15 kg, v = 4 m/s\n\nCalculation:\n= (1/2) x 15 x (4)^2\n= (1/2) x 15 x 16\n= (1/2) x 240\n= 120 J ✅\n\nSo the kinetic energy of the body is 120 joules.",
+      "difficulty": "Medium",
+      "topic": "Kinetic Energy",
+      "marks": 2,
+      "id": "lba_qa_5"
+    },
+    {
+      "q": "A body of mass 10 kg is lifted to a height of 6 m. Calculate its potential energy. (g = 9.8 m/s^2)",
+      "a": "Potential energy formula: PE = m x g x h\n\nGiven: m = 10 kg, h = 6 m, g = 9.8 m/s^2\n\nCalculation:\n= 10 x 9.8 x 6\n= 588 J ✅\n\nSo the potential energy stored in the body at 6 m height is 588 joules.",
+      "difficulty": "Medium",
+      "topic": "Potential Energy",
+      "marks": 2,
+      "id": "lba_qa_6"
+    },
+    {
+      "q": "As a stone falls from the top of a building, its potential energy decreases but its kinetic energy increases. Does this break the law of conservation of energy?",
+      "a": "No, it does NOT break the law.\n\nLAW OF CONSERVATION OF ENERGY: Energy cannot be created or destroyed, only changed from one form to another.\n\nWhat happens to the falling stone:\n- At the top: maximum potential energy, zero kinetic energy\n- As it falls: PE decreases, but the SAME amount turns into KE ✅\n- Total energy (PE + KE) stays CONSTANT throughout\n\nSo energy is only being CONVERTED from potential to kinetic — nothing is lost.",
+      "difficulty": "Hard",
+      "topic": "Conservation of Energy",
+      "marks": 3,
+      "id": "lba_qa_7"
+    },
+    {
+      "q": "An electric bulb uses 100 J of energy in 10 seconds. Find its power. What does power tell us?",
+      "a": "POWER = Work (or energy) / Time\n\nGiven: Energy = 100 J, time = 10 s\n\nCalculation:\n= 100 / 10\n= 10 W (watt) ✅\n\nPower tells us the RATE of doing work or using energy — how fast energy is used.\nSo this bulb uses energy at the rate of 10 joules per second.",
+      "difficulty": "Easy",
+      "topic": "Power",
+      "marks": 2,
+      "id": "lba_qa_8"
+    },
+    {
+      "q": "A 60 W bulb is used for 6 hours daily. Find the energy consumed in one day in kilowatt-hours (commercial units).",
+      "a": "Energy = Power x Time\n\nStep 1 - Convert power to kW:\n60 W = 60/1000 = 0.06 kW\n\nStep 2 - Time = 6 hours\n\nStep 3 - Energy:\n= 0.06 x 6\n= 0.36 kWh ✅\n\nSo the bulb consumes 0.36 units (kWh) per day.\nNote: 1 unit of electricity = 1 kWh, which is the commercial unit of energy.",
+      "difficulty": "Hard",
+      "topic": "Commercial Unit of Energy",
+      "marks": 3,
+      "id": "lba_qa_9"
+    },
+    {
+      "q": "A satellite revolves around the Earth in a circular orbit, but the work done by gravity on it is zero. Explain why.",
+      "a": "Work is done only when force and displacement are in the same direction.\n\nFor a satellite in circular orbit:\n- Gravity pulls the satellite toward the Earth's centre (inward)\n- The satellite moves ALONG its circular path (sideways, at 90 degrees to gravity)\n- Force and displacement are PERPENDICULAR ✅\n- Work = Force x displacement in force direction = 0\n\nSo gravity does zero work on the orbiting satellite, which is why it keeps revolving without losing energy.",
+      "difficulty": "Hard",
+      "topic": "Work and Direction",
+      "marks": 3,
+      "id": "lba_qa_10"
+    }
+  ],
+  "lba_mcq": [
+    {
+      "q": "A student pushes hard against a fixed wall but the wall does not move. How much work is done on the wall?",
+      "options": [
+        "Zero work",
+        "Very large work",
+        "Negative work",
+        "Half the force as work"
+      ],
+      "answer": "A",
+      "explanation": "Work = Force x displacement. Since the wall does not move (displacement = 0), no work is done, even though the student applies force and feels tired.",
+      "difficulty": "Easy",
+      "topic": "Concept of Work",
+      "id": "lba_mcq_1"
+    },
+    {
+      "q": "When a force pushes a box and the box moves in the SAME direction as the force, the work done is:",
+      "options": [
+        "Negative",
+        "Positive",
+        "Zero",
+        "Always 100 J"
+      ],
+      "answer": "B",
+      "explanation": "When displacement is in the direction of the applied force, the work done is positive (energy is given to the object).",
+      "difficulty": "Easy",
+      "topic": "Positive and Negative Work",
+      "id": "lba_mcq_2"
+    },
+    {
+      "q": "A stone held at the top of a building has energy due to its position. This energy is called:",
+      "options": [
+        "Kinetic energy",
+        "Heat energy",
+        "Potential energy",
+        "Sound energy"
+      ],
+      "answer": "C",
+      "explanation": "Energy possessed by a body due to its position or height is potential energy. As the stone falls, this converts into kinetic energy.",
+      "difficulty": "Easy",
+      "topic": "Potential Energy",
+      "id": "lba_mcq_3"
+    },
+    {
+      "q": "A 2 kg ball moves at 3 m/s. What is its kinetic energy?",
+      "options": [
+        "6 J",
+        "18 J",
+        "12 J",
+        "9 J"
+      ],
+      "answer": "D",
+      "explanation": "KE = (1/2) x m x v^2 = (1/2) x 2 x 3^2 = (1/2) x 2 x 9 = 9 J.",
+      "difficulty": "Medium",
+      "topic": "Kinetic Energy",
+      "id": "lba_mcq_4"
+    },
+    {
+      "q": "In a hydroelectric dam, the potential energy of stored water is converted mainly into which energy to generate electricity?",
+      "options": [
+        "Kinetic energy of flowing water, then electrical energy",
+        "Sound energy",
+        "Heat energy only",
+        "Chemical energy"
+      ],
+      "answer": "A",
+      "explanation": "Stored water's potential energy converts to kinetic energy as it falls, which turns turbines to produce electrical energy. This shows energy transformation.",
+      "difficulty": "Medium",
+      "topic": "Forms and Conversion of Energy",
+      "id": "lba_mcq_5"
+    },
+    {
+      "q": "As a freely falling ball drops, its potential energy decreases while its kinetic energy increases by the same amount. This demonstrates:",
+      "options": [
+        "Creation of new energy",
+        "Law of conservation of energy",
+        "Destruction of energy",
+        "Loss of total energy"
+      ],
+      "answer": "B",
+      "explanation": "The total energy (PE + KE) stays constant; energy only changes form from potential to kinetic. This is the law of conservation of energy.",
+      "difficulty": "Medium",
+      "topic": "Conservation of Energy",
+      "id": "lba_mcq_6"
+    },
+    {
+      "q": "Two students do the same amount of work, but one finishes faster. The faster student has more:",
+      "options": [
+        "Energy",
+        "Force",
+        "Power",
+        "Mass"
+      ],
+      "answer": "C",
+      "explanation": "Power is the rate of doing work (work/time). The student who does the same work in less time has greater power.",
+      "difficulty": "Easy",
+      "topic": "Power",
+      "id": "lba_mcq_7"
+    },
+    {
+      "q": "The commercial unit of electrical energy used in our electricity bills is:",
+      "options": [
+        "Joule",
+        "Watt",
+        "Newton",
+        "Kilowatt-hour (unit)"
+      ],
+      "answer": "D",
+      "explanation": "Electricity bills measure energy in kilowatt-hours (kWh), called 'units'. 1 unit = 1 kWh, the commercial unit of energy.",
+      "difficulty": "Easy",
+      "topic": "Commercial Unit of Energy",
+      "id": "lba_mcq_8"
+    },
+    {
+      "q": "A porter carries luggage horizontally on a flat platform. The work done against gravity is zero because:",
+      "options": [
+        "The load moves perpendicular to gravity",
+        "Gravity is switched off",
+        "The load has no weight",
+        "He moves very slowly"
+      ],
+      "answer": "A",
+      "explanation": "Gravity acts vertically while the load moves horizontally. Since displacement is perpendicular to the gravitational force, the work done against gravity is zero.",
+      "difficulty": "Hard",
+      "topic": "Work and Direction",
+      "id": "lba_mcq_9"
+    },
+    {
+      "q": "A 100 W bulb glows brighter than a 40 W bulb. The wattage rating tells us the bulb's:",
+      "options": [
+        "Total energy stored",
+        "Rate of using energy (power)",
+        "Voltage only",
+        "Weight"
+      ],
+      "answer": "B",
+      "explanation": "Wattage is the power rating — the rate at which the bulb uses electrical energy. A 100 W bulb uses energy faster than a 40 W bulb.",
+      "difficulty": "Medium",
+      "topic": "Power",
+      "id": "lba_mcq_10"
+    }
+  ]
+}

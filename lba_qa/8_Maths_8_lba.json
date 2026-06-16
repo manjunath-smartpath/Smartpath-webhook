@@ -1,0 +1,231 @@
+{
+  "class": "8",
+  "subject": "Maths",
+  "chapter": "8",
+  "chapter_name": "Algebraic Expressions and Identities",
+  "theme": "Algebraic Expressions and Identities",
+  "lba_qa": [
+    {
+      "q": "The length of a rectangular blackboard is (2x + 3) units and its breadth is (x - 1) units. Find its area as an algebraic expression.",
+      "a": "Area = length x breadth\n= (2x + 3)(x - 1)\n\nMultiply each term:\n= 2x(x - 1) + 3(x - 1)\n= 2x^2 - 2x + 3x - 3\n= 2x^2 + x - 3\n\nSo the area = (2x^2 + x - 3) square units. ✅",
+      "difficulty": "Medium",
+      "topic": "Multiplication of Expressions",
+      "marks": 3,
+      "id": "lba_qa_1"
+    },
+    {
+      "q": "A square garden has each side (3p - 2) units. Find the area of the garden using an identity.",
+      "a": "Area of square = side^2 = (3p - 2)^2.\n\nUse (a - b)^2 = a^2 - 2ab + b^2 with a = 3p, b = 2:\n= (3p)^2 - 2(3p)(2) + 2^2\n= 9p^2 - 12p + 4\n\nSo the area = (9p^2 - 12p + 4) square units. ✅",
+      "difficulty": "Hard",
+      "topic": "Identities",
+      "marks": 3,
+      "id": "lba_qa_2"
+    },
+    {
+      "q": "A shopkeeper's daily income is (5x + 7) rupees and his daily expense is (2x + 3) rupees. Find his daily saving.",
+      "a": "Saving = Income - Expense\n= (5x + 7) - (2x + 3)\n= 5x + 7 - 2x - 3\n= 3x + 4\n\nSo the daily saving = (3x + 4) rupees. ✅",
+      "difficulty": "Easy",
+      "topic": "Subtraction of Expressions",
+      "marks": 2,
+      "id": "lba_qa_3"
+    },
+    {
+      "q": "Find the value of 102 x 98 quickly using an identity.",
+      "a": "Write 102 = 100 + 2 and 98 = 100 - 2.\nUse (a + b)(a - b) = a^2 - b^2 with a = 100, b = 2:\n= 100^2 - 2^2\n= 10000 - 4\n= 9996\n\nSo 102 x 98 = 9996. ✅",
+      "difficulty": "Medium",
+      "topic": "Identity (a+b)(a-b)",
+      "marks": 2,
+      "id": "lba_qa_4"
+    },
+    {
+      "q": "Two fields have areas (4a + 5b) and (2a + 3b) square metres. Find their total area.",
+      "a": "Total area = (4a + 5b) + (2a + 3b)\nAdd like terms:\n= (4a + 2a) + (5b + 3b)\n= 6a + 8b\n\nSo the total area = (6a + 8b) square metres. ✅",
+      "difficulty": "Easy",
+      "topic": "Addition of Expressions",
+      "marks": 2,
+      "id": "lba_qa_5"
+    },
+    {
+      "q": "Find the value of 51^2 using an identity.",
+      "a": "Write 51 = 50 + 1.\nUse (a + b)^2 = a^2 + 2ab + b^2 with a = 50, b = 1:\n= 50^2 + 2(50)(1) + 1^2\n= 2500 + 100 + 1\n= 2601\n\nSo 51^2 = 2601. ✅",
+      "difficulty": "Medium",
+      "topic": "Identity (a+b)^2",
+      "marks": 2,
+      "id": "lba_qa_6"
+    },
+    {
+      "q": "The perimeter of a triangle is (9x + 6) units and two of its sides are (2x + 1) and (3x + 2) units. Find the third side.",
+      "a": "Third side = Perimeter - (sum of other two sides)\n= (9x + 6) - [(2x + 1) + (3x + 2)]\n= (9x + 6) - (5x + 3)\n= 9x + 6 - 5x - 3\n= 4x + 3\n\nSo the third side = (4x + 3) units. ✅",
+      "difficulty": "Hard",
+      "topic": "Operations on Expressions",
+      "marks": 3,
+      "id": "lba_qa_7"
+    },
+    {
+      "q": "Multiply the monomials 3x^2 and 4xy.",
+      "a": "Multiply the numbers and add the powers of like variables.\n= (3 x 4) x (x^2 x x) x y\n= 12 x x^3 x y\n= 12x^3y\n\nSo the product is 12x^3y. ✅",
+      "difficulty": "Easy",
+      "topic": "Multiplication of Monomials",
+      "marks": 2,
+      "id": "lba_qa_8"
+    },
+    {
+      "q": "A rectangular plot has area (x^2 + 7x + 12) square units and one side (x + 3) units. Find the other side.",
+      "a": "Other side = area / one side\n= (x^2 + 7x + 12) / (x + 3)\n\nFactorise the numerator: x^2 + 7x + 12 = (x + 3)(x + 4).\n= (x + 3)(x + 4) / (x + 3)\n= x + 4\n\nSo the other side = (x + 4) units. ✅",
+      "difficulty": "Hard",
+      "topic": "Division of Expressions",
+      "marks": 3,
+      "id": "lba_qa_9"
+    },
+    {
+      "q": "Find the product (x + 5)(x + 3) using the identity for (x + a)(x + b).",
+      "a": "Use (x + a)(x + b) = x^2 + (a + b)x + ab, with a = 5, b = 3:\n= x^2 + (5 + 3)x + (5 x 3)\n= x^2 + 8x + 15\n\nSo (x + 5)(x + 3) = x^2 + 8x + 15. ✅",
+      "difficulty": "Medium",
+      "topic": "Identity (x+a)(x+b)",
+      "marks": 2,
+      "id": "lba_qa_10"
+    }
+  ],
+  "lba_mcq": [
+    {
+      "q": "A rectangle has length (x + 2) and breadth x. Its area is:",
+      "options": [
+        "x^2 + 2x",
+        "x^2 + 2",
+        "2x + 2",
+        "2x"
+      ],
+      "answer": "A",
+      "explanation": "Area = x(x + 2) = x^2 + 2x.",
+      "difficulty": "Easy",
+      "topic": "Multiplication of Expressions",
+      "id": "lba_mcq_1"
+    },
+    {
+      "q": "Using an identity, 99 x 101 equals:",
+      "options": [
+        "10001",
+        "9999",
+        "9998",
+        "10000"
+      ],
+      "answer": "B",
+      "explanation": "(100-1)(100+1) = 100^2 - 1 = 9999.",
+      "difficulty": "Medium",
+      "topic": "Identity (a+b)(a-b)",
+      "id": "lba_mcq_2"
+    },
+    {
+      "q": "The product of monomials 2a and 3a is:",
+      "options": [
+        "5a",
+        "6a",
+        "6a^2",
+        "5a^2"
+      ],
+      "answer": "C",
+      "explanation": "2a x 3a = 6 x a^2 = 6a^2.",
+      "difficulty": "Easy",
+      "topic": "Multiplication of Monomials",
+      "id": "lba_mcq_3"
+    },
+    {
+      "q": "A saving = income (4x+5) minus expense (x+2) equals:",
+      "options": [
+        "5x + 7",
+        "3x + 7",
+        "4x + 3",
+        "3x + 3"
+      ],
+      "answer": "D",
+      "explanation": "(4x+5) - (x+2) = 3x + 3.",
+      "difficulty": "Easy",
+      "topic": "Subtraction of Expressions",
+      "id": "lba_mcq_4"
+    },
+    {
+      "q": "(a + b)^2 expands to:",
+      "options": [
+        "a^2 + 2ab + b^2",
+        "a^2 + b^2",
+        "2ab",
+        "a^2 - 2ab + b^2"
+      ],
+      "answer": "A",
+      "explanation": "(a+b)^2 = a^2 + 2ab + b^2.",
+      "difficulty": "Medium",
+      "topic": "Identities",
+      "id": "lba_mcq_5"
+    },
+    {
+      "q": "The value of 52^2 using (a+b)^2 with a=50, b=2 is:",
+      "options": [
+        "2504",
+        "2704",
+        "2904",
+        "2604"
+      ],
+      "answer": "B",
+      "explanation": "2500 + 200 + 4 = 2704.",
+      "difficulty": "Hard",
+      "topic": "Identity (a+b)^2",
+      "id": "lba_mcq_6"
+    },
+    {
+      "q": "(x + 4)(x + 2) equals:",
+      "options": [
+        "x^2 + 6x + 6",
+        "x^2 + 8x + 6",
+        "x^2 + 6x + 8",
+        "x^2 + 8"
+      ],
+      "answer": "C",
+      "explanation": "x^2 + (4+2)x + (4x2) = x^2 + 6x + 8.",
+      "difficulty": "Medium",
+      "topic": "Identity (x+a)(x+b)",
+      "id": "lba_mcq_7"
+    },
+    {
+      "q": "Two areas (3a + 2b) and (a + 4b) added give:",
+      "options": [
+        "2a + 6b",
+        "3a + 8b",
+        "4a + 2b",
+        "4a + 6b"
+      ],
+      "answer": "D",
+      "explanation": "Add like terms: (3a+a) + (2b+4b) = 4a + 6b.",
+      "difficulty": "Easy",
+      "topic": "Addition of Expressions",
+      "id": "lba_mcq_8"
+    },
+    {
+      "q": "(a - b)^2 expands to:",
+      "options": [
+        "a^2 - 2ab + b^2",
+        "a^2 - b^2",
+        "a^2 + 2ab + b^2",
+        "2ab"
+      ],
+      "answer": "A",
+      "explanation": "(a-b)^2 = a^2 - 2ab + b^2.",
+      "difficulty": "Medium",
+      "topic": "Identities",
+      "id": "lba_mcq_9"
+    },
+    {
+      "q": "The number of terms in the expression 5xy + 3x - 7 is:",
+      "options": [
+        "4",
+        "3",
+        "2",
+        "1"
+      ],
+      "answer": "B",
+      "explanation": "Terms are 5xy, 3x and -7, so 3 terms (a trinomial).",
+      "difficulty": "Easy",
+      "topic": "Terms of an Expression",
+      "id": "lba_mcq_10"
+    }
+  ]
+}

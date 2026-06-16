@@ -1,0 +1,231 @@
+{
+  "class": "9",
+  "subject": "Science",
+  "chapter": "8",
+  "chapter_name": "Force and laws of motion",
+  "theme": "Motion, Force and Work",
+  "lba_qa": [
+    {
+      "q": "When a moving bus suddenly stops, passengers fall forward. When it starts suddenly, they fall backward. Explain both using inertia.",
+      "a": "This is due to INERTIA (Newton's first law).\n\n1. Bus stops suddenly → passengers fall FORWARD:\n- The body was moving along with the bus\n- When the bus stops, the lower body stops but the upper body continues moving forward due to INERTIA OF MOTION ✅\n\n2. Bus starts suddenly → passengers fall BACKWARD:\n- The body was at rest\n- When the bus moves, the body tends to stay at rest due to INERTIA OF REST ✅\n\nInertia = the tendency to resist a change in the state of motion.",
+      "difficulty": "Medium",
+      "topic": "Inertia - First Law",
+      "marks": 3,
+      "id": "lba_qa_1"
+    },
+    {
+      "q": "A cricket fielder pulls his hands backward while catching a fast ball. Why does he do this?",
+      "a": "He does this to reduce the FORCE on his hands.\n\nExplanation:\n- The fast ball has a large momentum\n- By pulling hands back, he INCREASES the TIME taken to stop the ball\n- Force = rate of change of momentum\n- More time → slower change of momentum → SMALLER force ✅\n\nSo by increasing the stopping time, the force on his hands reduces and his hands do not get hurt. (Newton's second law)",
+      "difficulty": "Medium",
+      "topic": "Second Law - Momentum",
+      "marks": 3,
+      "id": "lba_qa_2"
+    },
+    {
+      "q": "When a gun is fired, it jerks backward (recoils). Which law explains this and how?",
+      "a": "This is explained by Newton's THIRD LAW (and conservation of momentum).\n\nExplanation:\n- The gun pushes the bullet forward (action)\n- The bullet pushes the gun backward (reaction) ✅\n- Action and reaction are equal and opposite\n\nMomentum view:\n- Before firing, total momentum = 0\n- Bullet gains forward momentum, so gun gains equal BACKWARD momentum\n- This backward motion of the gun is called RECOIL.",
+      "difficulty": "Medium",
+      "topic": "Third Law - Recoil",
+      "marks": 3,
+      "id": "lba_qa_3"
+    },
+    {
+      "q": "A force of 2 N acts on a body and changes its velocity from 2 m/s to 5 m/s in 10 seconds. Find the mass of the body.",
+      "a": "Given: F = 2 N, u = 2 m/s, v = 5 m/s, t = 10 s\n\nStep 1 - Find acceleration:\na = (v - u) / t = (5 - 2) / 10 = 0.3 m/s^2\n\nStep 2 - Use F = m x a:\n2 = m x 0.3\nm = 2 / 0.3\nm = 6.67 kg ✅\n\nSo the mass of the body is about 6.67 kg.",
+      "difficulty": "Hard",
+      "topic": "Second Law - F=ma",
+      "marks": 3,
+      "id": "lba_qa_4"
+    },
+    {
+      "q": "While walking, we push the ground backward and we move forward. Which law explains walking, and how?",
+      "a": "Walking is explained by Newton's THIRD LAW of motion.\n\nExplanation:\n- When we walk, our foot pushes the ground BACKWARD (action)\n- The ground pushes our foot FORWARD (reaction) ✅\n- This forward reaction force moves us forward\n\nThat is why walking is hard on slippery or muddy ground — the ground cannot give a proper reaction push. Action and reaction make walking possible.",
+      "difficulty": "Medium",
+      "topic": "Third Law - Walking",
+      "marks": 2,
+      "id": "lba_qa_5"
+    },
+    {
+      "q": "A bullet of small mass can kill a person, but a slowly thrown ball of the same mass does not. Why?",
+      "a": "The key is MOMENTUM (mass x velocity).\n\nExplanation:\n- The bullet has a SMALL mass but a VERY HIGH velocity\n- So its momentum is very large (p = m x v)\n- When it hits the body, this large momentum changes to zero in a very short time\n- This produces a HUGE force ✅\n\nA slow ball has low velocity → low momentum → small force. So velocity makes the bullet dangerous.",
+      "difficulty": "Hard",
+      "topic": "Momentum",
+      "marks": 2,
+      "id": "lba_qa_6"
+    },
+    {
+      "q": "A karate player can break a pile of tiles with a single fast blow. Explain the science behind this.",
+      "a": "This works on the principle of MOMENTUM and FORCE.\n\nExplanation:\n- The player moves his hand VERY FAST, giving it large momentum\n- On hitting the tiles, this large momentum reduces to zero in a VERY SHORT time\n- Force = change of momentum / time\n- Short time → very LARGE force ✅\n\nThis large force is enough to break the tiles. Speed is the key — a slow hand would not generate enough force.",
+      "difficulty": "Hard",
+      "topic": "Second Law - Force and Time",
+      "marks": 3,
+      "id": "lba_qa_7"
+    },
+    {
+      "q": "Define momentum and find the momentum of a 2 kg ball moving at 5 m/s. What is its SI unit?",
+      "a": "MOMENTUM = mass x velocity (p = m x v)\nIt is the 'quantity of motion' in a body.\n\nCalculation:\n= 2 kg x 5 m/s\n= 10 kg m/s ✅\n\nSI unit of momentum = kg m/s\n\nSo the ball has a momentum of 10 kg m/s.",
+      "difficulty": "Easy",
+      "topic": "Momentum",
+      "marks": 2,
+      "id": "lba_qa_8"
+    },
+    {
+      "q": "A high jumper lands on a soft foam mattress instead of hard ground. How does the mattress prevent injury?",
+      "a": "The foam mattress works by INCREASING the stopping time.\n\nExplanation:\n- The jumper falls with some momentum\n- On a soft mattress, he takes a LONGER time to stop\n- Force = change of momentum / time\n- Longer time → SMALLER force on the body ✅\n\nOn hard ground, the body stops in a very short time → large force → injury.\nSo the soft mattress reduces the force and prevents injury. (Newton's second law)",
+      "difficulty": "Hard",
+      "topic": "Second Law - Force and Time",
+      "marks": 3,
+      "id": "lba_qa_9"
+    },
+    {
+      "q": "Two teams pull a rope in a tug-of-war, but the rope does not move. What kind of forces are acting and why is there no motion?",
+      "a": "This involves BALANCED forces.\n\nExplanation:\n- Both teams pull with EQUAL force in OPPOSITE directions\n- The two forces cancel each other out\n- The net (resultant) force = 0\n- A zero net force means no change in motion → rope stays still ✅\n\nWhen one team pulls harder, forces become UNBALANCED and the rope moves toward the stronger team.",
+      "difficulty": "Medium",
+      "topic": "Balanced and Unbalanced Forces",
+      "marks": 2,
+      "id": "lba_qa_10"
+    }
+  ],
+  "lba_mcq": [
+    {
+      "q": "When a car stops suddenly, a passenger lurches forward. Which property of the body causes this?",
+      "options": [
+        "Inertia of motion",
+        "Momentum of the car",
+        "Force of friction",
+        "Gravity"
+      ],
+      "answer": "A",
+      "explanation": "The passenger's body was moving with the car. When the car stops, the body tends to keep moving forward due to inertia of motion.",
+      "difficulty": "Easy",
+      "topic": "Inertia",
+      "id": "lba_mcq_1"
+    },
+    {
+      "q": "A cricketer moves his hands backward while catching a fast ball. This reduces the force on his hands because it:",
+      "options": [
+        "Decreases the ball's mass",
+        "Increases the time to stop the ball",
+        "Increases the ball's speed",
+        "Removes the ball's momentum instantly"
+      ],
+      "answer": "B",
+      "explanation": "Pulling hands back increases the time over which the ball's momentum changes. Since force = change in momentum / time, more time means less force.",
+      "difficulty": "Medium",
+      "topic": "Second Law - Momentum",
+      "id": "lba_mcq_2"
+    },
+    {
+      "q": "A rocket moves upward by pushing hot gases downward. Which law of motion explains this?",
+      "options": [
+        "Newton's first law",
+        "Newton's second law",
+        "Newton's third law",
+        "Law of inertia"
+      ],
+      "answer": "C",
+      "explanation": "The rocket pushes gases down (action) and the gases push the rocket up (reaction). Equal and opposite forces — Newton's third law.",
+      "difficulty": "Medium",
+      "topic": "Third Law",
+      "id": "lba_mcq_3"
+    },
+    {
+      "q": "A force of 10 N acts on a 2 kg object. What acceleration does it produce?",
+      "options": [
+        "20 m/s^2",
+        "12 m/s^2",
+        "0.2 m/s^2",
+        "5 m/s^2"
+      ],
+      "answer": "D",
+      "explanation": "Using F = m x a, a = F/m = 10/2 = 5 m/s^2.",
+      "difficulty": "Medium",
+      "topic": "Second Law - F=ma",
+      "id": "lba_mcq_4"
+    },
+    {
+      "q": "It is difficult to walk on smooth wet tiles. Why, in terms of Newton's third law?",
+      "options": [
+        "The ground cannot provide enough reaction force",
+        "Tiles have more gravity",
+        "Our feet become lighter",
+        "Air resistance increases"
+      ],
+      "answer": "A",
+      "explanation": "Walking depends on pushing the ground backward and getting a forward reaction. On slippery tiles, friction is low so the ground cannot give a proper reaction push, making walking difficult.",
+      "difficulty": "Hard",
+      "topic": "Third Law - Walking",
+      "id": "lba_mcq_5"
+    },
+    {
+      "q": "A loaded truck and an empty truck move at the same speed. Which is harder to stop, and why?",
+      "options": [
+        "Empty truck, it has more inertia",
+        "Loaded truck, it has greater momentum",
+        "Both equally, same speed",
+        "Empty truck, it has more momentum"
+      ],
+      "answer": "B",
+      "explanation": "Momentum = mass x velocity. At the same speed, the loaded (heavier) truck has greater momentum, so a larger force is needed to stop it.",
+      "difficulty": "Medium",
+      "topic": "Momentum",
+      "id": "lba_mcq_6"
+    },
+    {
+      "q": "In a tug-of-war, when neither team is able to move the rope, the forces acting on the rope are:",
+      "options": [
+        "Unbalanced",
+        "Zero on both ends",
+        "Balanced",
+        "Only frictional"
+      ],
+      "answer": "C",
+      "explanation": "Both teams pull with equal and opposite forces that cancel out. The net force is zero, so the forces are balanced and the rope does not move.",
+      "difficulty": "Easy",
+      "topic": "Balanced and Unbalanced Forces",
+      "id": "lba_mcq_7"
+    },
+    {
+      "q": "A bullet has a small mass but can cause great damage. What gives the bullet this ability?",
+      "options": [
+        "Its colour",
+        "Its small size",
+        "Its low temperature",
+        "Its very high velocity giving large momentum"
+      ],
+      "answer": "D",
+      "explanation": "Though small in mass, the bullet has a very high velocity, so its momentum (mass x velocity) is large. This produces a huge force on impact.",
+      "difficulty": "Medium",
+      "topic": "Momentum",
+      "id": "lba_mcq_8"
+    },
+    {
+      "q": "The SI unit of force is named after the scientist who gave the laws of motion. What is it?",
+      "options": [
+        "Newton",
+        "Joule",
+        "Pascal",
+        "Watt"
+      ],
+      "answer": "A",
+      "explanation": "The SI unit of force is the newton (N), named after Sir Isaac Newton. 1 N gives a 1 kg mass an acceleration of 1 m/s^2.",
+      "difficulty": "Easy",
+      "topic": "Unit of Force",
+      "id": "lba_mcq_9"
+    },
+    {
+      "q": "An athlete falls on a sand pit after a long jump instead of hard ground. The sand reduces injury because it:",
+      "options": [
+        "Increases the stopping force",
+        "Increases the time to stop, reducing the force",
+        "Adds momentum to the athlete",
+        "Makes the athlete lighter"
+      ],
+      "answer": "B",
+      "explanation": "Soft sand increases the time taken to stop the body. Since force = change in momentum / time, a longer time means a smaller force, reducing injury.",
+      "difficulty": "Hard",
+      "topic": "Second Law - Force and Time",
+      "id": "lba_mcq_10"
+    }
+  ]
+}

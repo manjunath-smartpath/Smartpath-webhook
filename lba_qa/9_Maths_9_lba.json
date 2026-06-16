@@ -1,0 +1,201 @@
+{
+  "class": "9",
+  "subject": "Maths",
+  "chapter": "9",
+  "chapter_name": "Circles",
+  "theme": "Geometry",
+  "lba_qa": [
+    {
+      "q": "In a circular park, two equal chords are drawn. A gardener claims they are at equal distances from the centre. Is this correct? Why?",
+      "a": "Yes, the gardener is CORRECT.\n\nCircle theorem:\n'Equal chords of a circle are equidistant (equal distance) from the centre.' ✅\n\nReason:\n- If two chords have the same length\n- They lie at the same perpendicular distance from the centre\n\nSo equal chords are always equally far from the centre of the circle.",
+      "difficulty": "Medium",
+      "topic": "Equal Chords and Centre",
+      "marks": 2,
+      "id": "lba_qa_1"
+    },
+    {
+      "q": "A wheel's centre is joined to the midpoint of a chord (spoke meeting rim). Why is this line perpendicular to the chord?",
+      "a": "Circle theorem:\n'The line from the centre to the midpoint of a chord is perpendicular to the chord.' ✅\n\nReason:\n- The perpendicular drawn from the centre to a chord always bisects the chord (cuts it into two equal halves)\n- Conversely, the line from the centre to the midpoint of the chord is perpendicular to it\n\nSo this centre-to-midpoint line meets the chord at 90 degrees.",
+      "difficulty": "Hard",
+      "topic": "Perpendicular from Centre to Chord",
+      "marks": 3,
+      "id": "lba_qa_2"
+    },
+    {
+      "q": "An arc of a circle makes an angle of 80 degrees at the centre. What angle does the same arc make at any point on the remaining part of the circle?",
+      "a": "Circle theorem:\n'The angle subtended by an arc at the centre is DOUBLE the angle it subtends at any point on the remaining circle.' ✅\n\nGiven angle at centre = 80 degrees.\n\nAngle at a point on the circle:\n= 80 / 2\n= 40 degrees ✅\n\nSo the arc makes a 40 degree angle at any point on the remaining circle.",
+      "difficulty": "Hard",
+      "topic": "Angle Subtended by Arc",
+      "marks": 3,
+      "id": "lba_qa_3"
+    },
+    {
+      "q": "A semicircular arch is built over a doorway. A point is taken on the arch and joined to the two ends of the diameter. What is the angle at that point?",
+      "a": "Circle theorem:\n'The angle in a semicircle is a right angle (90 degrees).' ✅\n\nReason:\n- The diameter subtends an angle at the point on the arc\n- This angle is always 90 degrees\n\nSo the angle at the point on the semicircular arch is 90 degrees. (This is why semicircular arches are strong.)",
+      "difficulty": "Medium",
+      "topic": "Angle in a Semicircle",
+      "marks": 2,
+      "id": "lba_qa_4"
+    },
+    {
+      "q": "In a cyclic quadrilateral (all four corners on a circle), one angle is 85 degrees. Find its opposite angle.",
+      "a": "Property of a cyclic quadrilateral:\n'Opposite angles add up to 180 degrees.' ✅\n\nGiven one angle = 85 degrees.\n\nOpposite angle = 180 - 85\n= 95 degrees ✅\n\nSo the opposite angle of the cyclic quadrilateral is 95 degrees.",
+      "difficulty": "Medium",
+      "topic": "Cyclic Quadrilateral",
+      "marks": 2,
+      "id": "lba_qa_5"
+    },
+    {
+      "q": "Two equal chords of a circle are 6 cm each. A student says they will subtend equal angles at the centre. Is this true?",
+      "a": "Yes, this is TRUE.\n\nCircle theorem:\n'Equal chords of a circle subtend equal angles at the centre.' ✅\n\nReason:\n- Both chords are 6 cm (equal)\n- So the angles they make at the centre are also equal\n\nThis is why equal chords behave identically in a circle.",
+      "difficulty": "Medium",
+      "topic": "Equal Chords - Angles",
+      "marks": 2,
+      "id": "lba_qa_6"
+    },
+    {
+      "q": "In a circle, a chord is at a distance of 4 cm from the centre, and the radius is 5 cm. Find the length of the chord. (Use Pythagoras)",
+      "a": "The perpendicular from the centre bisects the chord, forming a right triangle.\n\nLet half the chord = h.\nRadius (hypotenuse) = 5 cm, distance from centre = 4 cm.\n\nBy Pythagoras:\n5^2 = 4^2 + h^2\n25 = 16 + h^2\nh^2 = 9\nh = 3 cm\n\nFull chord = 2 x h = 2 x 3 = 6 cm ✅",
+      "difficulty": "Hard",
+      "topic": "Chord Length - Pythagoras",
+      "marks": 3,
+      "id": "lba_qa_7"
+    },
+    {
+      "q": "Why does every diameter of a circle pass through the centre and divide the circle into two equal halves?",
+      "a": "A DIAMETER is the longest chord of a circle.\n\nReason:\n- By definition, a diameter passes through the CENTRE\n- It joins two points on the circle through the centre\n- Since the centre is the exact middle, it divides the circle into two equal halves (semicircles) ✅\n\nSo every diameter splits the circle into two equal parts.",
+      "difficulty": "Easy",
+      "topic": "Diameter and Circle",
+      "marks": 2,
+      "id": "lba_qa_8"
+    }
+  ],
+  "lba_mcq": [
+    {
+      "q": "Two equal chords of a circle are drawn. Their distances from the centre are:",
+      "options": [
+        "Always equal",
+        "Always different",
+        "Always zero",
+        "Cannot be compared"
+      ],
+      "answer": "A",
+      "explanation": "Equal chords of a circle are equidistant from the centre — they lie at the same perpendicular distance.",
+      "difficulty": "Medium",
+      "topic": "Equal Chords and Centre",
+      "id": "lba_mcq_1"
+    },
+    {
+      "q": "An arc subtends 100 degrees at the centre of a circle. The angle it makes at a point on the remaining circle is:",
+      "options": [
+        "200 degrees",
+        "50 degrees",
+        "100 degrees",
+        "25 degrees"
+      ],
+      "answer": "B",
+      "explanation": "The angle at the centre is double the angle at a point on the circle. So angle at the point = 100/2 = 50 degrees.",
+      "difficulty": "Hard",
+      "topic": "Angle Subtended by Arc",
+      "id": "lba_mcq_2"
+    },
+    {
+      "q": "A point on a semicircular arch is joined to both ends of the diameter. The angle formed is:",
+      "options": [
+        "45 degrees",
+        "60 degrees",
+        "90 degrees",
+        "180 degrees"
+      ],
+      "answer": "C",
+      "explanation": "The angle in a semicircle is always a right angle, 90 degrees.",
+      "difficulty": "Medium",
+      "topic": "Angle in Semicircle",
+      "id": "lba_mcq_3"
+    },
+    {
+      "q": "In a cyclic quadrilateral, one angle is 110 degrees. Its opposite angle is:",
+      "options": [
+        "110 degrees",
+        "90 degrees",
+        "250 degrees",
+        "70 degrees"
+      ],
+      "answer": "D",
+      "explanation": "Opposite angles of a cyclic quadrilateral add up to 180 degrees, so the opposite angle = 180 - 110 = 70 degrees.",
+      "difficulty": "Medium",
+      "topic": "Cyclic Quadrilateral",
+      "id": "lba_mcq_4"
+    },
+    {
+      "q": "The line drawn from the centre of a circle to the midpoint of a chord is:",
+      "options": [
+        "Perpendicular to the chord",
+        "Parallel to the chord",
+        "Equal to the chord",
+        "Half the radius"
+      ],
+      "answer": "A",
+      "explanation": "The line from the centre to the midpoint of a chord is perpendicular to the chord (it bisects the chord at right angles).",
+      "difficulty": "Hard",
+      "topic": "Perpendicular from Centre",
+      "id": "lba_mcq_5"
+    },
+    {
+      "q": "A chord is 8 cm long, and its perpendicular distance from the centre is 3 cm. The radius (using Pythagoras) is:",
+      "options": [
+        "7 cm",
+        "5 cm",
+        "11 cm",
+        "4 cm"
+      ],
+      "answer": "B",
+      "explanation": "Half the chord = 4 cm. Radius^2 = 4^2 + 3^2 = 16 + 9 = 25, so radius = 5 cm.",
+      "difficulty": "Hard",
+      "topic": "Chord and Radius",
+      "id": "lba_mcq_6"
+    },
+    {
+      "q": "The longest chord of a circle is its:",
+      "options": [
+        "Radius",
+        "Arc",
+        "Diameter",
+        "Tangent"
+      ],
+      "answer": "C",
+      "explanation": "The diameter is the longest chord of a circle; it passes through the centre.",
+      "difficulty": "Easy",
+      "topic": "Diameter",
+      "id": "lba_mcq_7"
+    },
+    {
+      "q": "Equal chords of a circle subtend angles at the centre that are:",
+      "options": [
+        "Supplementary",
+        "Complementary",
+        "Always 90 degrees",
+        "Equal"
+      ],
+      "answer": "D",
+      "explanation": "Equal chords subtend equal angles at the centre of the circle.",
+      "difficulty": "Medium",
+      "topic": "Equal Chords - Angles",
+      "id": "lba_mcq_8"
+    },
+    {
+      "q": "A diameter divides a circle into:",
+      "options": [
+        "Two equal halves (semicircles)",
+        "Three parts",
+        "Four quadrants always",
+        "Unequal parts"
+      ],
+      "answer": "A",
+      "explanation": "A diameter passes through the centre and divides the circle into two equal halves called semicircles.",
+      "difficulty": "Easy",
+      "topic": "Diameter and Circle",
+      "id": "lba_mcq_9"
+    }
+  ]
+}

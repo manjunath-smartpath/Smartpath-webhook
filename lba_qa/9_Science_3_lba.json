@@ -1,0 +1,231 @@
+{
+  "class": "9",
+  "subject": "Science",
+  "chapter": "3",
+  "chapter_name": "Atoms and molecules",
+  "theme": "Matter - Nature and Behaviour",
+  "lba_qa": [
+    {
+      "q": "In a closed flask, 5 g of substance A reacts with 3 g of substance B. What total mass of product will form, and which law does this prove?",
+      "a": "Total mass of product = 5 g + 3 g = 8 g ✅\n\nThis proves the LAW OF CONSERVATION OF MASS.\n\nLaw: In a chemical reaction, mass can neither be created nor destroyed.\n\nReason:\n- Atoms are only rearranged, not created or destroyed\n- So total mass of reactants = total mass of products\n- 5 + 3 = 8 g, nothing is lost (in a closed flask)",
+      "difficulty": "Medium",
+      "topic": "Law of Conservation of Mass",
+      "marks": 2,
+      "id": "lba_qa_1"
+    },
+    {
+      "q": "Water always contains hydrogen and oxygen in the mass ratio 1:8, whether from a tap, river or rain. Which law does this show and what does it mean?",
+      "a": "This shows the LAW OF CONSTANT (definite) PROPORTIONS.\n\nLaw: In a given compound, the elements are always present in a fixed ratio by mass.\n\nMeaning:\n- In water (H2O), H : O is always 1 : 8 by mass\n- This is true for water from ANY source ✅\n- Example: 9 g water = 1 g hydrogen + 8 g oxygen\n\nSo a compound's composition is always fixed.",
+      "difficulty": "Medium",
+      "topic": "Law of Constant Proportions",
+      "marks": 2,
+      "id": "lba_qa_2"
+    },
+    {
+      "q": "To react completely with 3 g of hydrogen gas, how much oxygen is needed to form water? (H:O mass ratio in water = 1:8)",
+      "a": "In water, hydrogen : oxygen = 1 : 8 by mass.\n\nGiven: 1 g hydrogen needs 8 g oxygen.\n\nFor 3 g hydrogen:\n= 3 x 8\n= 24 g oxygen ✅\n\nSo 24 g of oxygen is required to react completely with 3 g of hydrogen to form water. This uses the law of constant proportions.",
+      "difficulty": "Hard",
+      "topic": "Law of Constant Proportions",
+      "marks": 2,
+      "id": "lba_qa_3"
+    },
+    {
+      "q": "Why can table salt be written as NaCl but the same is never seen floating around as single 'molecules' of salt? Explain using ions.",
+      "a": "Salt (NaCl) is made of IONS, not molecules.\n\nExplanation:\n- Sodium loses 1 electron → Na+ (cation)\n- Chlorine gains 1 electron → Cl- (anion)\n- Opposite charges attract → they form a giant crystal lattice ✅\n\nNaCl is the FORMULA UNIT (the simplest ratio Na:Cl = 1:1), not a separate molecule.\nIonic compounds exist as large arrangements of ions, not single molecules.",
+      "difficulty": "Hard",
+      "topic": "Ions and Formula Unit",
+      "marks": 3,
+      "id": "lba_qa_4"
+    },
+    {
+      "q": "Calculate the molar mass of water (H2O). (Atomic mass: H = 1, O = 16)",
+      "a": "Formula of water = H2O (2 hydrogen + 1 oxygen)\n\nCalculation:\n= (2 x H) + (1 x O)\n= (2 x 1) + (1 x 16)\n= 2 + 16\n= 18 u ✅\n\nSo the molar mass of water = 18 u (or 18 g/mol).",
+      "difficulty": "Easy",
+      "topic": "Molecular Mass",
+      "marks": 2,
+      "id": "lba_qa_5"
+    },
+    {
+      "q": "Helium balloons are filled with single helium atoms, but oxygen is always present as O2. Why do some elements stay as single atoms while others pair up?",
+      "a": "This depends on ATOMICITY (number of atoms in one molecule).\n\nHelium (He):\n- It is a noble/inert gas\n- Its outermost shell is already full and stable\n- So it stays as a SINGLE atom — monoatomic ✅\n\nOxygen (O2):\n- A single oxygen atom is NOT stable\n- Two oxygen atoms share electrons to become stable\n- So oxygen exists as O2 — diatomic ✅\n\nAtoms combine to reach a stable electron arrangement.",
+      "difficulty": "Hard",
+      "topic": "Atomicity",
+      "marks": 3,
+      "id": "lba_qa_6"
+    },
+    {
+      "q": "Write the chemical formula of calcium hydroxide and magnesium chloride using valency, and explain the crossing method.",
+      "a": "CROSSING METHOD: write symbols, put valencies on top, cross them down.\n\n1. Magnesium chloride:\n- Mg (valency 2), Cl (valency 1)\n- Cross over: Mg gets 1, Cl gets 2\n- Formula = MgCl2 ✅\n\n2. Calcium hydroxide:\n- Ca (valency 2), OH (valency 1)\n- Cross over: Ca gets 1, OH gets 2\n- Since OH is a group, use brackets: Ca(OH)2 ✅\n\nRule: when a polyatomic group is more than one, use brackets.",
+      "difficulty": "Medium",
+      "topic": "Writing Chemical Formulae",
+      "marks": 3,
+      "id": "lba_qa_7"
+    },
+    {
+      "q": "Why is it impossible to see a single atom even with a normal classroom microscope?",
+      "a": "Atoms are EXTREMELY small.\n\nReasons:\n- The radius of an atom is measured in nanometres (1 nm = 10^-9 m)\n- An atom is far smaller than the wavelength of visible light\n- A normal optical microscope uses visible light, so it cannot resolve such tiny particles ✅\n\nThat is why atoms cannot be seen even with a powerful school microscope. Special instruments (electron microscopes) are needed.",
+      "difficulty": "Medium",
+      "topic": "Size of Atoms",
+      "marks": 2,
+      "id": "lba_qa_8"
+    },
+    {
+      "q": "The symbol for sodium is Na and for iron is Fe, not So or Ir. Why do these symbols look unrelated to their English names?",
+      "a": "Some element symbols come from their LATIN (old) names, not English.\n\nExamples:\n- Sodium → 'Natrium' → Na ✅\n- Iron → 'Ferrum' → Fe ✅\n- Potassium → 'Kalium' → K\n- Copper → 'Cuprum' → Cu\n\nSo the symbol is based on the historical Latin name. That is why Na (sodium) and Fe (iron) look different from the English words.",
+      "difficulty": "Easy",
+      "topic": "Symbols of Elements",
+      "marks": 2,
+      "id": "lba_qa_9"
+    },
+    {
+      "q": "5 g of magnesium oxide forms when 3 g of magnesium burns in 2 g of oxygen. If 3 g of magnesium is burnt in 5 g of oxygen, how much magnesium oxide forms? Which law applies?",
+      "a": "From the data: Mg : O combine in the ratio 3 : 2 by mass.\n\nSo 3 g of magnesium needs only 2 g of oxygen.\n\nIf 5 g of oxygen is given:\n- Only 2 g of oxygen reacts with 3 g magnesium\n- The extra 3 g oxygen is left unused\n- Magnesium oxide formed = 3 + 2 = 5 g ✅\n\nThis is based on the LAW OF CONSTANT (definite) PROPORTIONS — elements combine in a fixed ratio.",
+      "difficulty": "Hard",
+      "topic": "Law of Constant Proportions",
+      "marks": 3,
+      "id": "lba_qa_10"
+    }
+  ],
+  "lba_mcq": [
+    {
+      "q": "In a sealed bottle, sugar solution is left to react and the bottle is weighed before and after. The mass stays exactly the same. Which law is demonstrated?",
+      "options": [
+        "Law of conservation of mass",
+        "Law of constant proportions",
+        "Law of multiple proportions",
+        "Dalton's atomicity law"
+      ],
+      "answer": "A",
+      "explanation": "In a closed system, the total mass before and after a reaction is unchanged because atoms are only rearranged, not created or destroyed. This is the law of conservation of mass.",
+      "difficulty": "Medium",
+      "topic": "Law of Conservation of Mass",
+      "id": "lba_mcq_1"
+    },
+    {
+      "q": "Rainwater, well water and bottled water all give the same H:O mass ratio of 1:8 when split. What does this prove?",
+      "options": [
+        "Water is an element",
+        "Law of constant proportions",
+        "Water is a mixture",
+        "Conservation of mass"
+      ],
+      "answer": "B",
+      "explanation": "A compound always contains its elements in a fixed mass ratio regardless of source. Water is always H:O = 1:8, which is the law of constant (definite) proportions.",
+      "difficulty": "Medium",
+      "topic": "Law of Constant Proportions",
+      "id": "lba_mcq_2"
+    },
+    {
+      "q": "A 'party balloon' that floats up is filled with a gas whose atoms do not pair up because the atom is already stable. Which gas is it most likely?",
+      "options": [
+        "Oxygen (O2)",
+        "Hydrogen (H2)",
+        "Helium (He)",
+        "Nitrogen (N2)"
+      ],
+      "answer": "C",
+      "explanation": "Helium is a noble gas with a complete outer shell, so it exists as single stable atoms (monoatomic) and is light, making balloons float. O2, H2, N2 are diatomic.",
+      "difficulty": "Easy",
+      "topic": "Atomicity",
+      "id": "lba_mcq_3"
+    },
+    {
+      "q": "A label reads 'Ca(OH)2'. Why is the OH written inside brackets with a 2 outside?",
+      "options": [
+        "OH is a single atom repeated twice",
+        "Brackets make the formula look neat",
+        "Calcium has valency 1",
+        "OH is a polyatomic ion present twice, so brackets are used"
+      ],
+      "answer": "D",
+      "explanation": "OH (hydroxide) is a polyatomic ion. When such a group appears more than once, it is written in brackets with the number outside: Ca(OH)2 means two hydroxide ions.",
+      "difficulty": "Medium",
+      "topic": "Writing Chemical Formulae",
+      "id": "lba_mcq_4"
+    },
+    {
+      "q": "The molar mass of HNO3 is calculated as (H=1, N=14, O=16). What is the value?",
+      "options": [
+        "63 u",
+        "31 u",
+        "47 u",
+        "79 u"
+      ],
+      "answer": "A",
+      "explanation": "HNO3 = (1x1) + (1x14) + (3x16) = 1 + 14 + 48 = 63 u.",
+      "difficulty": "Medium",
+      "topic": "Molecular Mass",
+      "id": "lba_mcq_5"
+    },
+    {
+      "q": "Why is the symbol of potassium 'K' and not 'P', which is already used for phosphorus?",
+      "options": [
+        "K stands for a German scientist",
+        "K comes from its Latin name Kalium",
+        "P was reserved for protons",
+        "Potassium has two symbols"
+      ],
+      "answer": "B",
+      "explanation": "Potassium's symbol K comes from its Latin name 'Kalium'. Also, P is already used for phosphorus, so the Latin-based symbol avoids confusion.",
+      "difficulty": "Easy",
+      "topic": "Symbols of Elements",
+      "id": "lba_mcq_6"
+    },
+    {
+      "q": "Common salt NaCl is made of a metal and a non-metal. What kind of particles hold it together?",
+      "options": [
+        "Neutral molecules",
+        "Free electrons only",
+        "Oppositely charged ions (Na+ and Cl-)",
+        "Shared atoms of the same kind"
+      ],
+      "answer": "C",
+      "explanation": "NaCl is an ionic compound. Sodium loses an electron to become Na+ and chlorine gains it to become Cl-. The opposite charges attract, holding the crystal together.",
+      "difficulty": "Medium",
+      "topic": "Ions",
+      "id": "lba_mcq_7"
+    },
+    {
+      "q": "To completely react with 1 g of hydrogen to form water, how much oxygen is needed (water ratio H:O = 1:8)?",
+      "options": [
+        "1 g",
+        "4 g",
+        "16 g",
+        "8 g"
+      ],
+      "answer": "D",
+      "explanation": "In water, hydrogen and oxygen combine in the mass ratio 1:8. So 1 g of hydrogen needs 8 g of oxygen.",
+      "difficulty": "Easy",
+      "topic": "Law of Constant Proportions",
+      "id": "lba_mcq_8"
+    },
+    {
+      "q": "Argon gas is used inside electric bulbs because it does not react. What is the atomicity of argon?",
+      "options": [
+        "Monoatomic",
+        "Diatomic",
+        "Triatomic",
+        "Tetra-atomic"
+      ],
+      "answer": "A",
+      "explanation": "Argon is a noble gas with a stable full outer shell, so it exists as single atoms — it is monoatomic. Its unreactive nature makes it useful inside bulbs.",
+      "difficulty": "Medium",
+      "topic": "Atomicity",
+      "id": "lba_mcq_9"
+    },
+    {
+      "q": "The valency of aluminium is 3 and oxygen is 2. What is the correct formula of aluminium oxide?",
+      "options": [
+        "AlO",
+        "Al2O3",
+        "Al3O2",
+        "AlO2"
+      ],
+      "answer": "B",
+      "explanation": "Using the crossing method: Al (valency 3) and O (valency 2) cross to give Al2O3. This balances the charges of the ions.",
+      "difficulty": "Hard",
+      "topic": "Writing Chemical Formulae",
+      "id": "lba_mcq_10"
+    }
+  ]
+}

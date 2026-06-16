@@ -1,0 +1,231 @@
+{
+  "class": "8",
+  "subject": "Maths",
+  "chapter": "13",
+  "chapter_name": "Introduction to Graphs",
+  "theme": "Introduction to Graphs",
+  "lba_qa": [
+    {
+      "q": "On a graph, a point is 4 units to the right of the origin and 3 units up. Write its coordinates.",
+      "a": "The horizontal distance (x-coordinate) = 4.\nThe vertical distance (y-coordinate) = 3.\n\nCoordinates are written as (x, y) = (4, 3).\n\nSo the point is (4, 3). ✅",
+      "difficulty": "Easy",
+      "topic": "Coordinates of a Point",
+      "marks": 2,
+      "id": "lba_qa_1"
+    },
+    {
+      "q": "A line graph shows a shop's sales: Monday 20, Tuesday 35, Wednesday 25 units. On which day were sales highest, and by how much did sales rise from Monday to Tuesday?",
+      "a": "Highest sales = 35 units on Tuesday.\n\nRise from Monday to Tuesday = 35 - 20 = 15 units.\n\nSo Tuesday had the highest sales, rising by 15 units from Monday. ✅",
+      "difficulty": "Medium",
+      "topic": "Reading a Line Graph",
+      "marks": 3,
+      "id": "lba_qa_2"
+    },
+    {
+      "q": "What are the coordinates of the origin on a graph?",
+      "a": "The origin is the point where the x-axis and y-axis meet.\nThere, both distances are 0.\n\nSo the coordinates of the origin are (0, 0). ✅",
+      "difficulty": "Easy",
+      "topic": "The Origin",
+      "marks": 1,
+      "id": "lba_qa_3"
+    },
+    {
+      "q": "A point lies on the x-axis, 5 units to the right of the origin. What are its coordinates?",
+      "a": "On the x-axis the y-coordinate is always 0.\nThe point is 5 units right, so x = 5.\n\nSo the coordinates are (5, 0). ✅",
+      "difficulty": "Medium",
+      "topic": "Points on Axes",
+      "marks": 2,
+      "id": "lba_qa_4"
+    },
+    {
+      "q": "A car travels at a steady speed. In 1 hour it covers 40 km, in 2 hours 80 km, in 3 hours 120 km. If we plot time on the x-axis and distance on the y-axis, what kind of graph do we get?",
+      "a": "As time increases, distance increases by an equal amount (40 km each hour).\nSuch equally-spaced points lie on a straight line.\n\nSo the graph is a straight line (a linear graph passing through the origin). ✅",
+      "difficulty": "Hard",
+      "topic": "Linear Graphs",
+      "marks": 3,
+      "id": "lba_qa_5"
+    },
+    {
+      "q": "From the point (2, 3), if we move 3 units right and 1 unit up, what are the coordinates of the new point?",
+      "a": "Moving right increases the x-coordinate; moving up increases the y-coordinate.\nNew x = 2 + 3 = 5.\nNew y = 3 + 1 = 4.\n\nSo the new point is (5, 4). ✅",
+      "difficulty": "Medium",
+      "topic": "Coordinates of a Point",
+      "marks": 2,
+      "id": "lba_qa_6"
+    },
+    {
+      "q": "A point lies on the y-axis, 6 units above the origin. Write its coordinates.",
+      "a": "On the y-axis the x-coordinate is always 0.\nThe point is 6 units up, so y = 6.\n\nSo the coordinates are (0, 6). ✅",
+      "difficulty": "Medium",
+      "topic": "Points on Axes",
+      "marks": 2,
+      "id": "lba_qa_7"
+    },
+    {
+      "q": "Which type of graph best shows how the temperature of a city changes continuously through the day?",
+      "a": "A line graph is used to show data that changes continuously over time.\n\nTemperature changing hour by hour is continuous data, so a line graph is best. ✅",
+      "difficulty": "Easy",
+      "topic": "Types of Graphs",
+      "marks": 2,
+      "id": "lba_qa_8"
+    },
+    {
+      "q": "A bank account earns simple interest. The graph of interest against number of years is a straight line through the origin. If the interest after 2 years is 400 rupees, what is it after 5 years?",
+      "a": "Since the graph is a straight line through the origin, interest is in direct proportion to years.\nInterest per year = 400 / 2 = 200 rupees.\nInterest after 5 years = 5 x 200 = 1000 rupees.\n\nSo the interest after 5 years is 1000 rupees. ✅",
+      "difficulty": "Hard",
+      "topic": "Linear Graphs and Interest",
+      "marks": 3,
+      "id": "lba_qa_9"
+    },
+    {
+      "q": "In the coordinate pair (7, 2), what does the number 7 represent?",
+      "a": "In an ordered pair (x, y), the first number is the x-coordinate.\nIt tells the horizontal distance from the y-axis.\n\nSo 7 is the x-coordinate, the distance to the right of the y-axis. ✅",
+      "difficulty": "Easy",
+      "topic": "Coordinates of a Point",
+      "marks": 1,
+      "id": "lba_qa_10"
+    }
+  ],
+  "lba_mcq": [
+    {
+      "q": "A graph that shows data changing continuously over time is a:",
+      "options": [
+        "line graph",
+        "circle graph",
+        "histogram",
+        "bar graph"
+      ],
+      "answer": "A",
+      "explanation": "A line graph shows continuous change over time.",
+      "difficulty": "Easy",
+      "topic": "Types of Graphs",
+      "id": "lba_mcq_1"
+    },
+    {
+      "q": "The coordinates of the origin are:",
+      "options": [
+        "(0, 1)",
+        "(0, 0)",
+        "(1, 1)",
+        "(1, 0)"
+      ],
+      "answer": "B",
+      "explanation": "The origin is where the axes meet, so (0, 0).",
+      "difficulty": "Easy",
+      "topic": "The Origin",
+      "id": "lba_mcq_2"
+    },
+    {
+      "q": "A point 3 units right and 5 units up from the origin is:",
+      "options": [
+        "(5, 3)",
+        "(3, 3)",
+        "(3, 5)",
+        "(5, 5)"
+      ],
+      "answer": "C",
+      "explanation": "x = 3 (right), y = 5 (up), so (3, 5).",
+      "difficulty": "Easy",
+      "topic": "Coordinates of a Point",
+      "id": "lba_mcq_3"
+    },
+    {
+      "q": "In the pair (4, 9), the y-coordinate is:",
+      "options": [
+        "13",
+        "0",
+        "4",
+        "9"
+      ],
+      "answer": "D",
+      "explanation": "The second number in (x, y) is the y-coordinate, 9.",
+      "difficulty": "Easy",
+      "topic": "Coordinates of a Point",
+      "id": "lba_mcq_4"
+    },
+    {
+      "q": "A point on the x-axis always has y-coordinate:",
+      "options": [
+        "0",
+        "1",
+        "negative",
+        "equal to x"
+      ],
+      "answer": "A",
+      "explanation": "On the x-axis, the y-coordinate is always 0.",
+      "difficulty": "Medium",
+      "topic": "Points on Axes",
+      "id": "lba_mcq_5"
+    },
+    {
+      "q": "From (1, 2), moving 2 right and 3 up reaches:",
+      "options": [
+        "(1, 5)",
+        "(3, 5)",
+        "(3, 3)",
+        "(2, 5)"
+      ],
+      "answer": "B",
+      "explanation": "x = 1+2 = 3, y = 2+3 = 5, so (3, 5).",
+      "difficulty": "Medium",
+      "topic": "Coordinates of a Point",
+      "id": "lba_mcq_6"
+    },
+    {
+      "q": "A point on the y-axis, 4 units up, is:",
+      "options": [
+        "(4, 4)",
+        "(0, 0)",
+        "(0, 4)",
+        "(4, 0)"
+      ],
+      "answer": "C",
+      "explanation": "On the y-axis x = 0, and y = 4, so (0, 4).",
+      "difficulty": "Medium",
+      "topic": "Points on Axes",
+      "id": "lba_mcq_7"
+    },
+    {
+      "q": "A car's distance-time graph at steady speed is a:",
+      "options": [
+        "zig-zag line",
+        "circle",
+        "curve",
+        "straight line"
+      ],
+      "answer": "D",
+      "explanation": "At steady speed equal distances per equal time give a straight line.",
+      "difficulty": "Hard",
+      "topic": "Linear Graphs",
+      "id": "lba_mcq_8"
+    },
+    {
+      "q": "In an ordered pair (x, y), the first number gives the:",
+      "options": [
+        "horizontal distance",
+        "height up",
+        "area",
+        "slope"
+      ],
+      "answer": "A",
+      "explanation": "The first number is the x-coordinate, the horizontal distance.",
+      "difficulty": "Medium",
+      "topic": "Coordinates of a Point",
+      "id": "lba_mcq_9"
+    },
+    {
+      "q": "Which graph best shows a single day's temperature changing each hour?",
+      "options": [
+        "pie chart",
+        "line graph",
+        "pictograph",
+        "bar of one value"
+      ],
+      "answer": "B",
+      "explanation": "Continuous hourly change is best shown by a line graph.",
+      "difficulty": "Hard",
+      "topic": "Types of Graphs",
+      "id": "lba_mcq_10"
+    }
+  ]
+}

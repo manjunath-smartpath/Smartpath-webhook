@@ -1,0 +1,231 @@
+{
+  "class": "8",
+  "subject": "Science",
+  "chapter": "11",
+  "chapter_name": "Chemical Effects of Electric Current",
+  "theme": "Electric current and its chemical effects",
+  "lba_qa": [
+    {
+      "q": "You test plain distilled water and salt water with an LED tester. The LED glows in salt water but not in distilled water. Why this difference?",
+      "a": "The difference is that salt water has dissolved IONS, but distilled water does not.\n\nThe science:\n1. To conduct electricity, a liquid needs charged particles (ions)\n2. Distilled water is PURE — it has no dissolved salts → no ions → does NOT conduct → LED stays off ✅\n3. Salt water has dissolved salt that splits into ions → it conducts electricity → LED glows ✅\n\nSo a liquid conducts only if it has ions in it.\n\nThis is why pure (distilled) water is a poor conductor but salty or impure water conducts well.",
+      "difficulty": "Medium",
+      "topic": "Conduction in Liquids",
+      "marks": 2,
+      "id": "lba_qa_1"
+    },
+    {
+      "q": "A tester with a bulb does not glow even when current flows through a weak conducting liquid, but an LED in the tester does glow. Why is an LED better for testing?",
+      "a": "An LED is better because it lights up even with a VERY SMALL current.\n\nThe science:\n1. A bulb needs a fairly LARGE current to glow brightly\n2. Through a weak conductor, only a tiny current flows → the bulb may not glow ✅\n3. An LED (Light Emitting Diode) lights up even with a very tiny current ✅\n\nSo for testing weakly conducting liquids, an LED shows a result where a bulb would seem to fail.\n\nNote: an LED must be connected the correct way round (it has + and - ends) to work.",
+      "difficulty": "Medium",
+      "topic": "LED Tester",
+      "marks": 2,
+      "id": "lba_qa_2"
+    },
+    {
+      "q": "When current is passed through salty water, you notice gas bubbles forming on the electrodes. What does this prove about electric current?",
+      "a": "The gas bubbles prove the CHEMICAL EFFECT of electric current.\n\nWhat happens:\n1. When current passes through a conducting liquid (electrolyte), a chemical reaction takes place ✅\n2. This reaction can release gases at the electrodes → gas bubbles appear ✅\n3. Other signs include a metal deposit on an electrode or a colour change in the solution\n\nSo electric current does not just produce heat or light — it can also cause CHEMICAL CHANGES.\n\nThe gas bubbles on the electrodes are clear evidence of this chemical effect of electric current.",
+      "difficulty": "Medium",
+      "topic": "Chemical Effect of Current",
+      "marks": 3,
+      "id": "lba_qa_3"
+    },
+    {
+      "q": "A shiny gold-coloured layer is put on a cheap metal bangle using electricity. What is this process called and how does it work?",
+      "a": "This process is ELECTROPLATING — coating one metal with a layer of another using electricity.\n\nHow it works:\n1. The object to be coated and a piece of the coating metal are placed in a salt solution of that metal\n2. Electric current is passed through the solution ✅\n3. The chemical effect of the current deposits a thin layer of the desired metal onto the object ✅\n\nUses of electroplating:\n- Making cheap jewellery look golden\n- Coating iron with zinc/chromium to prevent rusting\n\nSo electroplating uses the chemical effect of current to give a metal coating.",
+      "difficulty": "Hard",
+      "topic": "Electroplating",
+      "marks": 3,
+      "id": "lba_qa_4"
+    },
+    {
+      "q": "Iron objects used in bridges and gates are coated with a thin layer of zinc. Why is this done?",
+      "a": "Iron is coated with ZINC to PREVENT RUSTING (this is called galvanisation).\n\nThe reason:\n1. Iron rusts easily when exposed to air and moisture ✅\n2. Rusting weakens and damages the iron\n3. A thin zinc coating protects the iron from air and water\n4. So the iron does not rust and lasts much longer ✅\n\nThis zinc coating is often done by electroplating.\n\nSo coating iron with zinc protects bridges, gates and pipes from rusting and increases their life.",
+      "difficulty": "Medium",
+      "topic": "Electroplating - Galvanisation",
+      "marks": 2,
+      "id": "lba_qa_5"
+    },
+    {
+      "q": "Tin cans are used to store food. The iron cans are coated with a layer of tin, not left as plain iron. Why use tin?",
+      "a": "Iron cans are coated with TIN because tin is safer for food and does not rust.\n\nThe reasons:\n1. Plain iron rusts and would spoil the food\n2. Tin is LESS REACTIVE than iron ✅\n3. The tin coating stops the food from touching the iron\n4. So the food does not react with the metal and stays safe ✅\n\nSo tin-coating (done by electroplating) keeps stored food from spoiling and protects the iron can from rusting.\n\nThis is why food tins are tin-plated iron.",
+      "difficulty": "Medium",
+      "topic": "Electroplating - Tin Coating",
+      "marks": 2,
+      "id": "lba_qa_6"
+    },
+    {
+      "q": "When a fire breaks out, firefighters first switch off the main electricity supply before spraying water. Why is this step so important?",
+      "a": "This is important because WATER CONDUCTS ELECTRICITY and could cause shocks.\n\nThe reason:\n1. Ordinary water (with its dissolved salts) is a good conductor of electricity ✅\n2. If water is sprayed while the supply is on, electricity can pass through the water\n3. This could give dangerous electric shocks to the firefighters ✅\n\nSo the main supply is switched off first to make the water safe to use.\n\nThis is also why we never use water on an electrical fire until the power is cut. Safety first.",
+      "difficulty": "Medium",
+      "topic": "Conductivity of Water - Safety",
+      "marks": 2,
+      "id": "lba_qa_7"
+    },
+    {
+      "q": "Bicycle handles and wheel rims are coated with shiny chromium. Why is chromium used for this?",
+      "a": "CHROMIUM is used to coat bicycle parts for several good reasons.\n\nWhy chromium:\n1. It has a bright, attractive SHINE (luster) ✅\n2. It does NOT rust or corrode easily\n3. It is hard and resists scratches ✅\n\nWhy not make the whole part of chromium:\n- Chromium is expensive, so only a thin coating is applied (by electroplating)\n\nSo a thin chromium layer makes the cheaper metal underneath look shiny, protects it from rust, and resists scratches — perfect for handles and rims.",
+      "difficulty": "Medium",
+      "topic": "Electroplating - Chromium",
+      "marks": 2,
+      "id": "lba_qa_8"
+    },
+    {
+      "q": "Two testers are dipped, one in tap water and one in sea water. The magnetic needle deflects MORE in sea water. Explain why.",
+      "a": "The needle deflects more in sea water because sea water conducts electricity BETTER.\n\nThe science:\n1. A larger current makes the magnetic needle deflect more (magnetic effect of current)\n2. Sea water has a HIGH amount of dissolved salts → many ions → conducts well → large current ✅\n3. Tap water has only a SMALL amount of dissolved salts → fewer ions → conducts less → small current\n\nSo more salt = better conductor = more current = greater deflection. ✅\n\nThat is why the needle deflects more in the salty sea water than in tap water.",
+      "difficulty": "Hard",
+      "topic": "Magnetic Effect and Conductivity",
+      "marks": 3,
+      "id": "lba_qa_9"
+    },
+    {
+      "q": "Rainwater can conduct a little electricity and make a tester's needle deflect, but pure distilled water cannot. Why the difference?",
+      "a": "The difference is the presence of dissolved salts (impurities).\n\nThe science:\n1. To conduct electricity, water needs dissolved ions\n2. RAINWATER picks up small amounts of dust, gases and salts from the air ✅\n3. These give it a few ions, so it conducts a little and the needle deflects\n4. DISTILLED water is pure — it has NO dissolved salts → no ions → does not conduct ✅\n\nSo even slightly impure water (rain, tap) conducts, but pure distilled water does not.\n\nThis is why we should treat rainwater as a conductor for safety.",
+      "difficulty": "Medium",
+      "topic": "Conduction in Liquids",
+      "marks": 2,
+      "id": "lba_qa_10"
+    }
+  ],
+  "lba_mcq": [
+    {
+      "q": "Priya tests salt water and distilled water with an LED tester. The LED glows only in salt water because salt water:",
+      "options": [
+        "Has dissolved ions that conduct electricity",
+        "Is heavier",
+        "Has no oxygen",
+        "Is colder"
+      ],
+      "answer": "A",
+      "explanation": "Salt water contains dissolved ions that carry current, so it conducts and lights the LED. Pure distilled water has no ions and does not conduct.",
+      "difficulty": "Medium",
+      "topic": "Conduction in Liquids",
+      "id": "lba_mcq_1"
+    },
+    {
+      "q": "To test whether a very weakly conducting liquid carries current, an LED works better than a bulb because the LED:",
+      "options": [
+        "Works only in sunlight",
+        "Glows even with a very small current",
+        "Does not need electricity",
+        "Needs a huge current"
+      ],
+      "answer": "B",
+      "explanation": "An LED lights up even with a very tiny current, so it can detect conduction in weak conductors where a bulb might not glow.",
+      "difficulty": "Medium",
+      "topic": "LED Tester",
+      "id": "lba_mcq_2"
+    },
+    {
+      "q": "Gas bubbles appear on the electrodes when current passes through a conducting solution. This is evidence of the:",
+      "options": [
+        "Lighting effect",
+        "Heating effect only",
+        "Chemical effect of electric current",
+        "Magnetic effect only"
+      ],
+      "answer": "C",
+      "explanation": "When current passes through an electrolyte, a chemical reaction occurs, releasing gas at the electrodes. This is the chemical effect of electric current.",
+      "difficulty": "Medium",
+      "topic": "Chemical Effect of Current",
+      "id": "lba_mcq_3"
+    },
+    {
+      "q": "A cheap iron ring is given a shiny gold coating using electric current. This process is called:",
+      "options": [
+        "Welding",
+        "Distillation",
+        "Galvanising only",
+        "Electroplating"
+      ],
+      "answer": "D",
+      "explanation": "Electroplating uses the chemical effect of electric current to deposit a thin layer of one metal (like gold) onto another object.",
+      "difficulty": "Hard",
+      "topic": "Electroplating",
+      "id": "lba_mcq_4"
+    },
+    {
+      "q": "Iron gates and bridges are coated with a thin layer of zinc mainly to:",
+      "options": [
+        "Prevent them from rusting",
+        "Make them heavier",
+        "Conduct more electricity",
+        "Change their colour for beauty only"
+      ],
+      "answer": "A",
+      "explanation": "A zinc coating (galvanisation) protects iron from air and moisture, preventing rusting and making the structures last longer.",
+      "difficulty": "Medium",
+      "topic": "Electroplating - Galvanisation",
+      "id": "lba_mcq_5"
+    },
+    {
+      "q": "Food storage cans are made of iron coated with tin rather than plain iron because tin:",
+      "options": [
+        "Conducts electricity better",
+        "Is less reactive and keeps the food safe",
+        "Rusts faster than iron",
+        "Is cheaper than iron"
+      ],
+      "answer": "B",
+      "explanation": "Tin is less reactive than iron, so coating the can with tin stops the food from reacting with the metal and prevents rusting, keeping food safe.",
+      "difficulty": "Medium",
+      "topic": "Electroplating - Tin Coating",
+      "id": "lba_mcq_6"
+    },
+    {
+      "q": "Firefighters switch off the main power before spraying water on a fire because:",
+      "options": [
+        "Water boils too fast",
+        "Electricity puts out the fire",
+        "Water conducts electricity and could give shocks",
+        "Water wastes electricity"
+      ],
+      "answer": "C",
+      "explanation": "Ordinary water conducts electricity, so spraying it on a live circuit can cause dangerous shocks. The supply is switched off first for safety.",
+      "difficulty": "Medium",
+      "topic": "Conductivity of Water - Safety",
+      "id": "lba_mcq_7"
+    },
+    {
+      "q": "Bicycle handles are coated with chromium mainly because chromium:",
+      "options": [
+        "Conducts no electricity",
+        "Is very cheap",
+        "Is soft and bends easily",
+        "Is shiny, resists rust and scratches"
+      ],
+      "answer": "D",
+      "explanation": "Chromium gives a bright shine, resists corrosion and scratches, so a thin chromium coating protects and beautifies bicycle handles and rims.",
+      "difficulty": "Medium",
+      "topic": "Electroplating - Chromium",
+      "id": "lba_mcq_8"
+    },
+    {
+      "q": "A tester's magnetic needle deflects more in sea water than in tap water. This shows that sea water:",
+      "options": [
+        "Is a better conductor due to more dissolved salts",
+        "Has no current",
+        "Has no salts",
+        "Is a poorer conductor"
+      ],
+      "answer": "A",
+      "explanation": "Sea water has many dissolved salts (ions), so it conducts more current, causing a larger deflection of the magnetic needle than tap water.",
+      "difficulty": "Hard",
+      "topic": "Magnetic Effect and Conductivity",
+      "id": "lba_mcq_9"
+    },
+    {
+      "q": "Distilled water does NOT conduct electricity, but tap water does. The reason is that tap water:",
+      "options": [
+        "Is colder",
+        "Contains dissolved salts that provide ions",
+        "Has no oxygen",
+        "Is purer"
+      ],
+      "answer": "B",
+      "explanation": "Tap water has dissolved salts that provide ions to carry current, so it conducts. Pure distilled water has no dissolved salts and does not conduct.",
+      "difficulty": "Easy",
+      "topic": "Conduction in Liquids",
+      "id": "lba_mcq_10"
+    }
+  ]
+}

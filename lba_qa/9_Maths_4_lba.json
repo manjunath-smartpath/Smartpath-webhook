@@ -1,0 +1,201 @@
+{
+  "class": "9",
+  "subject": "Maths",
+  "chapter": "4",
+  "chapter_name": "Linear Equations in Two Variables",
+  "theme": "Algebra",
+  "lba_qa": [
+    {
+      "q": "A pen costs Rs x and a pencil costs Rs y. Together they cost Rs 30. Write this as a linear equation in two variables, and check if x = 20, y = 10 is a solution.",
+      "a": "Cost of pen + cost of pencil = total\nSo the equation is:\nx + y = 30 ✅\n\nCheck if (20, 10) is a solution:\n- Put x = 20, y = 10\n- 20 + 10 = 30\n- 30 = 30 (True) ✅\n\nSo yes, x = 20, y = 10 is a solution of x + y = 30.",
+      "difficulty": "Medium",
+      "topic": "Forming Linear Equations",
+      "marks": 3,
+      "id": "lba_qa_1"
+    },
+    {
+      "q": "The cost of 2 apples and 3 bananas is Rs 40. Write a linear equation in two variables to represent this.",
+      "a": "Let the cost of one apple = Rs x\nLet the cost of one banana = Rs y\n\nThen:\n- 2 apples cost = 2x\n- 3 bananas cost = 3y\n\nTotal cost = 40, so the equation is:\n2x + 3y = 40 ✅\n\nThis is a linear equation in two variables x and y.",
+      "difficulty": "Easy",
+      "topic": "Forming Linear Equations",
+      "marks": 2,
+      "id": "lba_qa_2"
+    },
+    {
+      "q": "A taxi charges a fixed Rs 50 plus Rs 10 per km. Write the equation for total fare y for x km, and find the fare for 8 km.",
+      "a": "Total fare = fixed charge + (rate x distance)\n\nSo the equation is:\ny = 50 + 10x ✅\n\nNow find fare for x = 8 km:\ny = 50 + 10(8)\n= 50 + 80\n= 130\n\nSo the fare for 8 km is Rs 130.",
+      "difficulty": "Medium",
+      "topic": "Linear Equation - Application",
+      "marks": 3,
+      "id": "lba_qa_3"
+    },
+    {
+      "q": "For the equation x + y = 7, find any three solutions (pairs of values).",
+      "a": "We choose values for x and find y = 7 - x.\n\n1. If x = 0: y = 7 - 0 = 7 → (0, 7)\n2. If x = 3: y = 7 - 3 = 4 → (3, 4)\n3. If x = 5: y = 7 - 5 = 2 → (5, 2)\n\nSo three solutions are: (0, 7), (3, 4), (5, 2). ✅\nA linear equation in two variables has infinitely many solutions.",
+      "difficulty": "Easy",
+      "topic": "Solutions of Linear Equation",
+      "marks": 2,
+      "id": "lba_qa_4"
+    },
+    {
+      "q": "The age of a father is three times his son's age. If the son's age is x and father's age is y, write the equation and find the father's age when the son is 12.",
+      "a": "Father's age = 3 times son's age\n\nEquation:\ny = 3x ✅\n\nFind y when x = 12:\ny = 3(12)\n= 36\n\nSo when the son is 12 years old, the father is 36 years old.",
+      "difficulty": "Medium",
+      "topic": "Linear Equation - Application",
+      "marks": 2,
+      "id": "lba_qa_5"
+    },
+    {
+      "q": "A line is given by 2x + y = 10. Find where this line cuts the x-axis and the y-axis.",
+      "a": "On the x-axis, y = 0:\n2x + 0 = 10\n2x = 10\nx = 5 → point (5, 0) ✅\n\nOn the y-axis, x = 0:\n2(0) + y = 10\ny = 10 → point (0, 10) ✅\n\nSo the line cuts the x-axis at (5, 0) and the y-axis at (0, 10).",
+      "difficulty": "Hard",
+      "topic": "Graph of Linear Equation",
+      "marks": 3,
+      "id": "lba_qa_6"
+    },
+    {
+      "q": "A shopkeeper says: '5 chocolates and 2 toffees cost Rs 70.' Express this and find the cost of one toffee if one chocolate costs Rs 10.",
+      "a": "Let chocolate = Rs x, toffee = Rs y.\n\nEquation:\n5x + 2y = 70\n\nGiven x = 10 (one chocolate):\n5(10) + 2y = 70\n50 + 2y = 70\n2y = 70 - 50\n2y = 20\ny = 10\n\nSo one toffee costs Rs 10. ✅",
+      "difficulty": "Medium",
+      "topic": "Linear Equation - Application",
+      "marks": 3,
+      "id": "lba_qa_7"
+    },
+    {
+      "q": "Is the point (2, 3) a solution of the equation 3x - y = 3? Verify.",
+      "a": "Substitute x = 2 and y = 3 into 3x - y:\n\n= 3(2) - 3\n= 6 - 3\n= 3\n\nThe equation says 3x - y = 3, and we got 3.\nSo LHS = RHS = 3 (True) ✅\n\nTherefore (2, 3) IS a solution of 3x - y = 3.",
+      "difficulty": "Easy",
+      "topic": "Verifying Solutions",
+      "marks": 2,
+      "id": "lba_qa_8"
+    }
+  ],
+  "lba_mcq": [
+    {
+      "q": "A notebook costs Rs x and a pen costs Rs y, together Rs 25. The correct linear equation is:",
+      "options": [
+        "x + y = 25",
+        "x - y = 25",
+        "xy = 25",
+        "x/y = 25"
+      ],
+      "answer": "A",
+      "explanation": "The total of the two costs is 25, so x + y = 25 is the linear equation in two variables.",
+      "difficulty": "Easy",
+      "topic": "Forming Equations",
+      "id": "lba_mcq_1"
+    },
+    {
+      "q": "A taxi charges Rs 40 fixed plus Rs 12 per km. The fare y for x km is:",
+      "options": [
+        "y = 12 + 40x",
+        "y = 40 + 12x",
+        "y = 40x + 12x",
+        "y = 52x"
+      ],
+      "answer": "B",
+      "explanation": "Total fare = fixed 40 + (12 per km times x km), so y = 40 + 12x.",
+      "difficulty": "Medium",
+      "topic": "Linear Equation - Application",
+      "id": "lba_mcq_2"
+    },
+    {
+      "q": "How many solutions does a linear equation in two variables such as x + y = 6 have?",
+      "options": [
+        "No solution",
+        "Exactly one",
+        "Infinitely many",
+        "Exactly two"
+      ],
+      "answer": "C",
+      "explanation": "A linear equation in two variables has infinitely many solutions, e.g. (0,6), (1,5), (2,4), and so on.",
+      "difficulty": "Easy",
+      "topic": "Solutions",
+      "id": "lba_mcq_3"
+    },
+    {
+      "q": "Is (4, 1) a solution of 2x + 3y = 11?",
+      "options": [
+        "No, since it gives 10",
+        "Yes, since 4 + 1 = 5",
+        "No, since it gives 14",
+        "Yes, since 8 + 3 = 11"
+      ],
+      "answer": "D",
+      "explanation": "Put x = 4, y = 1: 2(4) + 3(1) = 8 + 3 = 11. Since it equals 11, (4, 1) is a solution.",
+      "difficulty": "Medium",
+      "topic": "Verifying Solutions",
+      "id": "lba_mcq_4"
+    },
+    {
+      "q": "The line 3x + y = 9 cuts the y-axis at which point?",
+      "options": [
+        "(0, 9)",
+        "(3, 0)",
+        "(9, 0)",
+        "(0, 3)"
+      ],
+      "answer": "A",
+      "explanation": "On the y-axis x = 0. Then 3(0) + y = 9 gives y = 9, so the point is (0, 9).",
+      "difficulty": "Medium",
+      "topic": "Graph of Linear Equation",
+      "id": "lba_mcq_5"
+    },
+    {
+      "q": "A father's age y is twice his son's age x. The equation is:",
+      "options": [
+        "y = x + 2",
+        "y = 2x",
+        "x = 2y",
+        "y = x - 2"
+      ],
+      "answer": "B",
+      "explanation": "Twice the son's age means y = 2x.",
+      "difficulty": "Easy",
+      "topic": "Application",
+      "id": "lba_mcq_6"
+    },
+    {
+      "q": "The line 2x + y = 8 cuts the x-axis at:",
+      "options": [
+        "(0, 8)",
+        "(8, 0)",
+        "(4, 0)",
+        "(2, 0)"
+      ],
+      "answer": "C",
+      "explanation": "On the x-axis y = 0. Then 2x = 8 gives x = 4, so the point is (4, 0).",
+      "difficulty": "Medium",
+      "topic": "Graph of Linear Equation",
+      "id": "lba_mcq_7"
+    },
+    {
+      "q": "If 4 mangoes cost Rs y and one mango costs Rs x, the relation is:",
+      "options": [
+        "y = x + 4",
+        "y = x/4",
+        "y = 4 + x",
+        "y = 4x"
+      ],
+      "answer": "D",
+      "explanation": "Four mangoes cost 4 times the price of one mango, so y = 4x.",
+      "difficulty": "Easy",
+      "topic": "Forming Equations",
+      "id": "lba_mcq_8"
+    },
+    {
+      "q": "Which pair is NOT a solution of x + y = 10?",
+      "options": [
+        "(6, 3)",
+        "(2, 8)",
+        "(5, 5)",
+        "(0, 10)"
+      ],
+      "answer": "A",
+      "explanation": "Check each: 2+8=10, 5+5=10, 0+10=10 are valid, but 6+3=9 (not 10), so (6, 3) is not a solution.",
+      "difficulty": "Medium",
+      "topic": "Solutions",
+      "id": "lba_mcq_9"
+    }
+  ]
+}

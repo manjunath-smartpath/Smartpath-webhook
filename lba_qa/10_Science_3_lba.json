@@ -1,0 +1,231 @@
+{
+  "class": "10",
+  "subject": "Science",
+  "chapter": "3",
+  "chapter_name": "Metals and Non-metals",
+  "theme": "Chemical Substances - Nature and Behaviour",
+  "lba_qa": [
+    {
+      "id": "lba_qa_1",
+      "q": "Electric wires are made of copper or aluminium and covered with a plastic (PVC) layer. Explain the choice of these materials based on their properties.",
+      "a": "Copper and aluminium are metals that are good conductors of electricity, so they allow current to flow through the wire. Plastic (PVC) is a non-metal and a bad conductor (insulator), so it covers the wire to prevent electric shock and short circuits. This shows how metal and non-metal properties are used together.",
+      "difficulty": "Easy",
+      "topic": "Physical properties of metals and non-metals",
+      "marks": 2
+    },
+    {
+      "id": "lba_qa_2",
+      "q": "A goldsmith is able to beat gold into very thin sheets (gold leaf) used for decorating sweets and idols. Which property of metals makes this possible?",
+      "a": "This is possible due to malleability — the property by which metals can be beaten into thin sheets without breaking. Gold is one of the most malleable metals, which is why it can be made into extremely thin gold leaf.",
+      "difficulty": "Easy",
+      "topic": "Physical properties - Malleability",
+      "marks": 2
+    },
+    {
+      "id": "lba_qa_3",
+      "q": "Sodium metal is stored under kerosene oil and not left in open air. Explain the reason based on its chemical reactivity.",
+      "a": "Sodium is a highly reactive metal. It reacts vigorously with oxygen and moisture in the air, and even catches fire when it reacts with water. To prevent these dangerous reactions, sodium is stored under kerosene oil, which keeps it away from air and moisture.",
+      "difficulty": "Average",
+      "topic": "Chemical properties - reaction with air and water",
+      "marks": 2
+    },
+    {
+      "id": "lba_qa_4",
+      "q": "When an iron nail is dipped in blue copper sulphate solution, the solution slowly turns light green and a brown coating forms on the nail. Explain this with the help of the reactivity series.",
+      "a": "Iron is more reactive than copper in the reactivity series. So iron displaces copper from copper sulphate solution. Iron goes into the solution as iron sulphate (light green), and copper is deposited on the nail as a brown coating. This is a displacement reaction: Fe + CuSO4 → FeSO4 + Cu.",
+      "difficulty": "Average",
+      "topic": "Reaction with other metal salts / Reactivity series",
+      "marks": 3
+    },
+    {
+      "id": "lba_qa_5",
+      "q": "Food cans are made of iron coated with a layer of tin, not zinc, even though both protect iron. Why is tin preferred for food cans?",
+      "a": "Both tin and zinc protect iron from corrosion. However, tin is less reactive and non-toxic, so it does not react with food and is safe for storing eatables. Zinc could react with food acids. That is why tin coating (tinning) is used for food cans.",
+      "difficulty": "Difficult",
+      "topic": "Corrosion and its prevention",
+      "marks": 2
+    },
+    {
+      "id": "lba_qa_6",
+      "q": "Iron railings and gates are painted regularly, especially in coastal areas near the sea. Explain why, and what would happen if they were not painted.",
+      "a": "Iron rusts (corrodes) when exposed to air and moisture, forming reddish-brown rust. In coastal areas, the salty, moist air speeds up rusting. Painting forms a protective layer that keeps air and moisture away from the iron, preventing rust. Without paint, the iron would rust faster and weaken.",
+      "difficulty": "Average",
+      "topic": "Corrosion and its prevention",
+      "marks": 2
+    },
+    {
+      "id": "lba_qa_7",
+      "q": "Ionic compounds like common salt (NaCl) have high melting points and conduct electricity when dissolved in water but not in solid state. Explain these properties.",
+      "a": "Ionic compounds are made of oppositely charged ions held together by strong electrostatic forces, which need a lot of heat to break — hence high melting points. In solid state, the ions are fixed and cannot move, so no conduction. When dissolved in water (or melted), the ions become free to move and carry charge, so the solution conducts electricity.",
+      "difficulty": "Difficult",
+      "topic": "Properties of ionic compounds",
+      "marks": 3
+    },
+    {
+      "id": "lba_qa_8",
+      "q": "Gold and platinum are found in nature in their free (pure metallic) state, while metals like sodium and potassium are always found as compounds. Explain why.",
+      "a": "Gold and platinum are very low in the reactivity series (least reactive), so they do not react with air, water or other substances and stay in free state. Sodium and potassium are highly reactive, so they readily combine with other elements and are always found as compounds, never free.",
+      "difficulty": "Average",
+      "topic": "Occurrence of metals",
+      "marks": 2
+    },
+    {
+      "id": "lba_qa_9",
+      "q": "Pure metals like iron are often mixed with small amounts of other elements (for example, iron with carbon to make steel). Why are alloys made instead of using pure metals?",
+      "a": "Alloys are made to improve the properties of metals. Pure iron is soft and rusts easily, but mixing it with carbon makes steel, which is much harder and stronger. Alloys can be made more resistant to corrosion, harder, or have a lower melting point as needed. So alloys are more useful than pure metals for many purposes.",
+      "difficulty": "Average",
+      "topic": "Properties and uses of metals (Alloys)",
+      "marks": 2
+    },
+    {
+      "id": "lba_qa_10",
+      "q": "Aluminium is a fairly reactive metal, yet aluminium utensils and window frames do not corrode easily. Explain the reason.",
+      "a": "Aluminium reacts with oxygen in air to form a thin, hard layer of aluminium oxide on its surface. This oxide layer is stable and tightly bound, and it prevents further reaction of the metal underneath with air and moisture. So aluminium does not corrode easily, even though it is reactive.",
+      "difficulty": "Average",
+      "topic": "Chemical properties / Corrosion",
+      "marks": 2
+    }
+  ],
+  "lba_mcq": [
+    {
+      "id": "lba_mcq_1",
+      "q": "A blacksmith makes a thin metal sheet by hammering a metal block. Which property is he using?",
+      "options": [
+        "Malleability",
+        "Ductility",
+        "Sonority",
+        "Conductivity"
+      ],
+      "answer": "A",
+      "explanation": "Malleability is the property by which metals can be beaten into thin sheets. Ductility is being drawn into wires.",
+      "difficulty": "Easy",
+      "topic": "Physical properties"
+    },
+    {
+      "id": "lba_mcq_2",
+      "q": "Rahul places an iron nail in copper sulphate solution. After some time he observes:",
+      "options": [
+        "Blue colour deepens",
+        "A brown coating on the nail and solution turns green",
+        "Nail dissolves completely with no colour change",
+        "Nothing happens"
+      ],
+      "answer": "B",
+      "explanation": "Iron is more reactive than copper, so it displaces copper. Copper deposits as a brown coating on the nail and the solution turns light green (iron sulphate).",
+      "difficulty": "Average",
+      "topic": "Reactivity series / displacement"
+    },
+    {
+      "id": "lba_mcq_3",
+      "q": "A science teacher stores a certain metal under kerosene oil to keep it safe. The metal is most likely:",
+      "options": [
+        "Gold",
+        "Copper",
+        "Sodium",
+        "Iron"
+      ],
+      "answer": "C",
+      "explanation": "Sodium is highly reactive and reacts violently with air and water, so it is stored under kerosene to keep it away from air and moisture.",
+      "difficulty": "Easy",
+      "topic": "Chemical properties - reactivity"
+    },
+    {
+      "id": "lba_mcq_4",
+      "q": "Why does an iron gate rust faster in a house near the seashore than in a dry inland area?",
+      "options": [
+        "Sea sand is acidic",
+        "Sunlight is stronger at the sea",
+        "Iron is weaker near the sea",
+        "Salty, moist air speeds up rusting"
+      ],
+      "answer": "D",
+      "explanation": "Rusting needs air and moisture. The salty, moist air near the sea speeds up corrosion of iron, so the gate rusts faster.",
+      "difficulty": "Average",
+      "topic": "Corrosion"
+    },
+    {
+      "id": "lba_mcq_5",
+      "q": "Common salt (an ionic compound) does NOT conduct electricity in solid form but conducts when dissolved in water because:",
+      "options": [
+        "Ions become free to move in solution",
+        "Water is a metal",
+        "Salt becomes an acid in water",
+        "Solid salt has no ions"
+      ],
+      "answer": "A",
+      "explanation": "In solid state ions are fixed and cannot move. In solution, the ions become free to move and carry charge, so it conducts electricity.",
+      "difficulty": "Difficult",
+      "topic": "Properties of ionic compounds"
+    },
+    {
+      "id": "lba_mcq_6",
+      "q": "Food cans are coated with tin rather than zinc mainly because:",
+      "options": [
+        "Tin is cheaper than zinc",
+        "Tin is less reactive and non-toxic, safe for food",
+        "Zinc is a better conductor",
+        "Tin is magnetic"
+      ],
+      "answer": "B",
+      "explanation": "Tin is less reactive and non-toxic, so it does not react with food. Zinc could react with food acids, so tin is preferred for food cans.",
+      "difficulty": "Difficult",
+      "topic": "Corrosion prevention"
+    },
+    {
+      "id": "lba_mcq_7",
+      "q": "A jeweller finds a metal lying in soil in its pure, shiny, free state even after many years. This metal is most likely:",
+      "options": [
+        "Sodium",
+        "Potassium",
+        "Gold",
+        "Iron"
+      ],
+      "answer": "C",
+      "explanation": "Gold is very low in the reactivity series (least reactive), so it does not react with air or moisture and is found in free state. Reactive metals are found as compounds.",
+      "difficulty": "Average",
+      "topic": "Occurrence of metals"
+    },
+    {
+      "id": "lba_mcq_8",
+      "q": "Pure iron is soft, but when a small amount of carbon is added it becomes hard and strong. This mixture is called:",
+      "options": [
+        "An ore",
+        "An acid",
+        "An oxide",
+        "An alloy (steel)"
+      ],
+      "answer": "D",
+      "explanation": "A mixture of a metal with other elements is an alloy. Iron + carbon forms steel, which is harder and stronger than pure iron.",
+      "difficulty": "Easy",
+      "topic": "Alloys"
+    },
+    {
+      "id": "lba_mcq_9",
+      "q": "A magnesium ribbon burns in air with a dazzling white flame. The white powder formed is:",
+      "options": [
+        "Magnesium oxide",
+        "Magnesium chloride",
+        "Magnesium sulphate",
+        "Magnesium carbonate"
+      ],
+      "answer": "A",
+      "explanation": "When magnesium burns in air, it reacts with oxygen to form magnesium oxide (a white powder). Metal + oxygen → metal oxide.",
+      "difficulty": "Average",
+      "topic": "Reaction of metals with air"
+    },
+    {
+      "id": "lba_mcq_10",
+      "q": "Aluminium window frames stay shiny and do not corrode much because:",
+      "options": [
+        "Aluminium is unreactive",
+        "A protective oxide layer forms on the surface",
+        "Aluminium is painted at the factory",
+        "Aluminium does not react with oxygen"
+      ],
+      "answer": "B",
+      "explanation": "Aluminium forms a thin, hard aluminium oxide layer on its surface that prevents further corrosion of the metal beneath, keeping it protected.",
+      "difficulty": "Average",
+      "topic": "Corrosion / Chemical properties"
+    }
+  ]
+}

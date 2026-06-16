@@ -1,0 +1,231 @@
+{
+  "class": "9",
+  "subject": "Maths",
+  "chapter": "1",
+  "chapter_name": "Number System",
+  "theme": "Number System",
+  "lba_qa": [
+    {
+      "q": "A square garden has an area of 50 square metres. Find the length of one side of the garden in simplest surd form.",
+      "a": "Area of a square = side x side = side^2\n\nGiven area = 50 square metres\nSo side = square root of 50\n\nSimplify square root of 50:\n= square root of (25 x 2)\n= square root of 25 x square root of 2\n= 5 x square root of 2\n\nSo the side = 5 square root of 2 metres (about 7.07 m). ✅",
+      "difficulty": "Medium",
+      "topic": "Irrational Numbers - Surds",
+      "marks": 2,
+      "id": "lba_qa_1"
+    },
+    {
+      "q": "A carpenter wants a square tabletop of area 18 square feet. What is the exact length of one side, and is this length a rational or irrational number?",
+      "a": "Side of square = square root of area = square root of 18\n\nSimplify:\n= square root of (9 x 2)\n= 3 x square root of 2 feet\n\nIs it rational or irrational?\n- square root of 2 is irrational (non-terminating, non-repeating decimal)\n- So 3 square root of 2 is also IRRATIONAL ✅\n\nThe side is exactly 3 square root of 2 feet, which is an irrational number.",
+      "difficulty": "Medium",
+      "topic": "Irrational Numbers",
+      "marks": 2,
+      "id": "lba_qa_2"
+    },
+    {
+      "q": "A shopkeeper measures a price tag value of 1/(square root of 3 + square root of 2). Rationalise the denominator to make calculation easier.",
+      "a": "To rationalise, multiply top and bottom by (square root of 3 - square root of 2):\n\n= [1 x (square root of 3 - square root of 2)] / [(square root of 3 + square root of 2)(square root of 3 - square root of 2)]\n\nDenominator uses (a+b)(a-b) = a^2 - b^2:\n= (square root of 3)^2 - (square root of 2)^2\n= 3 - 2 = 1\n\nSo the value = (square root of 3 - square root of 2) / 1\n= square root of 3 - square root of 2 ✅",
+      "difficulty": "Hard",
+      "topic": "Rationalising the Denominator",
+      "marks": 3,
+      "id": "lba_qa_3"
+    },
+    {
+      "q": "A wall clock's pendulum length works out to (256)^(1/4) cm. Find this length using laws of exponents.",
+      "a": "We need (256)^(1/4) — the fourth root of 256.\n\nStep 1 - Write 256 as a power of 2:\n256 = 2 x 2 x 2 x 2 x 2 x 2 x 2 x 2 = 2^8\n\nStep 2 - Apply (a^m)^n = a^(m x n):\n(2^8)^(1/4)\n= 2^(8 x 1/4)\n= 2^2\n= 4\n\nSo the pendulum length = 4 cm. ✅",
+      "difficulty": "Medium",
+      "topic": "Laws of Exponents",
+      "marks": 2,
+      "id": "lba_qa_4"
+    },
+    {
+      "q": "A recurring decimal 0.6666... keeps appearing in a measurement. Express it as a fraction in the form p/q.",
+      "a": "Let x = 0.6666...\n\nStep 1 - Multiply both sides by 10 (one repeating digit):\n10x = 6.6666...\n\nStep 2 - Subtract the first equation from the second:\n10x - x = 6.6666... - 0.6666...\n9x = 6\n\nStep 3 - Solve:\nx = 6/9 = 2/3\n\nSo 0.6666... = 2/3 ✅\nThis shows a recurring decimal is a rational number.",
+      "difficulty": "Hard",
+      "topic": "Decimal Expansion - Rational Numbers",
+      "marks": 3,
+      "id": "lba_qa_5"
+    },
+    {
+      "q": "A student claims that between the marks 7 and 8, there are no more numbers. Is the student correct? Justify.",
+      "a": "No, the student is WRONG.\n\nReason:\n- Between any two rational numbers there are INFINITELY many numbers ✅\n- Example numbers between 7 and 8:\n  7.1, 7.5, 7.25, 7.99, 7.333...\n- We can always find another number between any two (e.g. the average)\n\nSo between 7 and 8 there are infinitely many rational AND irrational numbers. The number line is dense.",
+      "difficulty": "Medium",
+      "topic": "Real Numbers",
+      "marks": 2,
+      "id": "lba_qa_6"
+    },
+    {
+      "q": "A diagonal path is to be made across a square plot of side 1 unit. Using Pythagoras theorem, find the diagonal length and state its nature.",
+      "a": "For a square of side 1, the diagonal forms a right triangle with both legs = 1.\n\nPythagoras: diagonal^2 = side^2 + side^2\n= 1^2 + 1^2\n= 1 + 1 = 2\n\nSo diagonal = square root of 2 units\n\nNature:\n- square root of 2 = 1.41421... (non-terminating, non-repeating)\n- It is an IRRATIONAL number ✅\n\nThe diagonal is square root of 2 units, an irrational length.",
+      "difficulty": "Medium",
+      "topic": "Square Roots - Pythagoras",
+      "marks": 3,
+      "id": "lba_qa_7"
+    },
+    {
+      "q": "Simplify the product (square root of 3 + square root of 2)(square root of 3 - square root of 2), as needed in a measurement formula.",
+      "a": "This is in the form (a + b)(a - b) = a^2 - b^2\n\nHere a = square root of 3, b = square root of 2\n\n= (square root of 3)^2 - (square root of 2)^2\n= 3 - 2\n= 1 ✅\n\nSo the product is 1. (This is why such pairs are used to rationalise denominators.)",
+      "difficulty": "Easy",
+      "topic": "Operations on Real Numbers",
+      "marks": 2,
+      "id": "lba_qa_8"
+    },
+    {
+      "q": "A tailor needs square root of 6 times square root of 27 metres of cloth. Find the simplified length.",
+      "a": "Use the rule: square root of a x square root of b = square root of (a x b)\n\n= square root of (6 x 27)\n= square root of 162\n\nSimplify square root of 162:\n= square root of (81 x 2)\n= square root of 81 x square root of 2\n= 9 x square root of 2\n\nSo the cloth needed = 9 square root of 2 metres (about 12.73 m). ✅",
+      "difficulty": "Medium",
+      "topic": "Operations on Surds",
+      "marks": 2,
+      "id": "lba_qa_9"
+    },
+    {
+      "q": "Classify each as rational or irrational, as a student must for a worksheet: square root of 25, pi, square root of 13.",
+      "a": "1. square root of 25:\n= 5 (a whole number)\n- This is RATIONAL ✅\n\n2. pi (about 3.14159...):\n- Non-terminating, non-repeating decimal\n- This is IRRATIONAL ✅\n\n3. square root of 13:\n- 13 is not a perfect square\n- Its square root is non-terminating, non-repeating\n- This is IRRATIONAL ✅\n\nRule: square root of a perfect square = rational; otherwise irrational.",
+      "difficulty": "Easy",
+      "topic": "Rational and Irrational Numbers",
+      "marks": 2,
+      "id": "lba_qa_10"
+    }
+  ],
+  "lba_mcq": [
+    {
+      "q": "A measuring tape gives a length of square root of 49 metres. Ramya says this number is irrational. Is she right?",
+      "options": [
+        "No, square root of 49 = 7, which is rational",
+        "Yes, all square roots are irrational",
+        "Yes, because 49 is large",
+        "No, it equals square root of 7"
+      ],
+      "answer": "A",
+      "explanation": "square root of 49 = 7, a whole number, so it is rational. Only square roots of non-perfect-squares (like square root of 2) are irrational.",
+      "difficulty": "Easy",
+      "topic": "Rational and Irrational Numbers",
+      "id": "lba_mcq_1"
+    },
+    {
+      "q": "A non-stop, non-repeating decimal 1.101001000100001... appears on a calculator. What kind of number is it?",
+      "options": [
+        "Natural number",
+        "Irrational number",
+        "Whole number",
+        "Rational number"
+      ],
+      "answer": "B",
+      "explanation": "A decimal that never ends and never repeats a pattern is an irrational number. It cannot be written as p/q.",
+      "difficulty": "Easy",
+      "topic": "Irrational Numbers",
+      "id": "lba_mcq_2"
+    },
+    {
+      "q": "A student must write the diagonal of a unit square. Using Pythagoras, the diagonal is:",
+      "options": [
+        "1 unit",
+        "2 units",
+        "square root of 2 units",
+        "square root of 3 units"
+      ],
+      "answer": "C",
+      "explanation": "Diagonal^2 = 1^2 + 1^2 = 2, so diagonal = square root of 2 units, which is irrational.",
+      "difficulty": "Medium",
+      "topic": "Square Roots",
+      "id": "lba_mcq_3"
+    },
+    {
+      "q": "To make the denominator rational in 1/(square root of 5 - square root of 3), you should multiply by:",
+      "options": [
+        "square root of 5 - square root of 3",
+        "square root of 3",
+        "square root of 5",
+        "square root of 5 + square root of 3"
+      ],
+      "answer": "D",
+      "explanation": "Multiply by the conjugate (square root of 5 + square root of 3). Then the denominator becomes (square root of 5)^2 - (square root of 3)^2 = 5 - 3 = 2, a rational number.",
+      "difficulty": "Medium",
+      "topic": "Rationalising the Denominator",
+      "id": "lba_mcq_4"
+    },
+    {
+      "q": "A box volume calculation needs the value of (2^2)^2 squared once more: {[(2)^2]^2}^2. What is it?",
+      "options": [
+        "256",
+        "16",
+        "64",
+        "512"
+      ],
+      "answer": "A",
+      "explanation": "Apply (a^m)^n = a^(mn): {[(2)^2]^2}^2 = 2^(2x2x2) = 2^8 = 256.",
+      "difficulty": "Medium",
+      "topic": "Laws of Exponents",
+      "id": "lba_mcq_5"
+    },
+    {
+      "q": "How many rational numbers lie between 1/2 and 3/4?",
+      "options": [
+        "None",
+        "Infinitely many",
+        "Exactly one",
+        "Exactly two"
+      ],
+      "answer": "B",
+      "explanation": "Between any two rational numbers there are infinitely many rational numbers (and also irrational numbers). The number line is dense.",
+      "difficulty": "Easy",
+      "topic": "Real Numbers",
+      "id": "lba_mcq_6"
+    },
+    {
+      "q": "A craftsman computes square root of 6 times square root of 27. The simplified value is:",
+      "options": [
+        "square root of 33",
+        "162",
+        "9 square root of 2",
+        "9 square root of 3"
+      ],
+      "answer": "C",
+      "explanation": "square root of 6 x square root of 27 = square root of 162 = square root of (81 x 2) = 9 square root of 2.",
+      "difficulty": "Medium",
+      "topic": "Operations on Surds",
+      "id": "lba_mcq_7"
+    },
+    {
+      "q": "The decimal expansion of square root of 2 used in a design is best described as:",
+      "options": [
+        "Terminating",
+        "Non-terminating and recurring",
+        "Exactly 1.41421",
+        "Non-terminating and non-recurring"
+      ],
+      "answer": "D",
+      "explanation": "square root of 2 is irrational, so its decimal expansion goes on forever without any repeating pattern (non-terminating, non-recurring).",
+      "difficulty": "Medium",
+      "topic": "Decimal Expansion",
+      "id": "lba_mcq_8"
+    },
+    {
+      "q": "A scale shows 0.6666... metres. As a fraction p/q this equals:",
+      "options": [
+        "2/3",
+        "6/10",
+        "3/2",
+        "6/100"
+      ],
+      "answer": "A",
+      "explanation": "Let x = 0.6666...; then 10x = 6.6666...; subtracting gives 9x = 6, so x = 6/9 = 2/3.",
+      "difficulty": "Hard",
+      "topic": "Decimal to Fraction",
+      "id": "lba_mcq_9"
+    },
+    {
+      "q": "Which of these is a rational number?",
+      "options": [
+        "square root of 3",
+        "square root of 25",
+        "pi",
+        "1.232342345... (no pattern)"
+      ],
+      "answer": "B",
+      "explanation": "square root of 25 = 5, which is rational. The others are non-terminating non-repeating decimals (irrational).",
+      "difficulty": "Easy",
+      "topic": "Rational Numbers",
+      "id": "lba_mcq_10"
+    }
+  ]
+}

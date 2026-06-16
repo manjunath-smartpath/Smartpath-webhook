@@ -1,0 +1,231 @@
+{
+  "class": "9",
+  "subject": "Science",
+  "chapter": "9",
+  "chapter_name": "Gravitation",
+  "theme": "Motion, Force and Work",
+  "lba_qa": [
+    {
+      "q": "In a vacuum tube, a coin and a feather are dropped together and both reach the bottom at the same time. Why, even though the feather is lighter?",
+      "a": "In a VACUUM there is NO air resistance.\n\nExplanation:\n- All objects fall with the SAME acceleration due to gravity (g)\n- 'g' does not depend on the mass of the object ✅\n- Normally, air resistance slows the light feather more\n- In a vacuum, there is no air to slow the feather\n\nSo both coin and feather fall together and reach the bottom at the same time.",
+      "difficulty": "Medium",
+      "topic": "Free Fall and g",
+      "marks": 2,
+      "id": "lba_qa_1"
+    },
+    {
+      "q": "A person weighs less on the Moon than on the Earth, but his mass stays the same. Explain the difference between mass and weight.",
+      "a": "MASS = the amount of matter in a body.\n- It is the SAME everywhere (Earth, Moon, space) ✅\n- Measured in kg\n\nWEIGHT = the force of gravity on the body (W = m x g).\n- It CHANGES with the value of g ✅\n- Measured in newton (N)\n\nOn the Moon:\n- The Moon's gravity (g) is about 1/6 of Earth's\n- So weight becomes 1/6, but mass stays the same\n\nThat is why he weighs less on the Moon but his mass is unchanged.",
+      "difficulty": "Medium",
+      "topic": "Mass and Weight",
+      "marks": 3,
+      "id": "lba_qa_2"
+    },
+    {
+      "q": "A heavy iron nail sinks in water, but a huge, much heavier ship floats. How is this possible?",
+      "a": "This is due to BUOYANCY (Archimedes' principle).\n\nExplanation:\n- An object floats if the buoyant (upward) force equals its weight\n- The buoyant force depends on the WEIGHT OF WATER DISPLACED\n\nIron nail:\n- Small and dense, displaces little water → small buoyant force → sinks\n\nShip:\n- Hollow shape displaces a HUGE amount of water\n- The water it displaces weighs as much as the ship → it floats ✅\n\nSo shape and displaced water matter, not just weight.",
+      "difficulty": "Hard",
+      "topic": "Buoyancy and Floating",
+      "marks": 3,
+      "id": "lba_qa_3"
+    },
+    {
+      "q": "Calculate the gravitational force between two objects of mass 20 kg and 30 kg placed 2 m apart. (G = 6.673 x 10^-11 N m^2/kg^2)",
+      "a": "Universal law of gravitation: F = (G x m1 x m2) / r^2\n\nGiven: m1 = 20 kg, m2 = 30 kg, r = 2 m\n\nCalculation:\n= (6.673 x 10^-11 x 20 x 30) / (2)^2\n= (6.673 x 10^-11 x 600) / 4\n= (4003.8 x 10^-11) / 4\n= 1001 x 10^-11\n= 1.001 x 10^-8 N ✅\n\nThe force is extremely small, which is why we do not feel attraction between everyday objects.",
+      "difficulty": "Hard",
+      "topic": "Universal Law of Gravitation",
+      "marks": 3,
+      "id": "lba_qa_4"
+    },
+    {
+      "q": "Why is it easier to lift a heavy stone inside water than in air?",
+      "a": "This is because of the UPWARD BUOYANT FORCE of water.\n\nExplanation:\n- When the stone is in water, the water pushes it UP with a buoyant force\n- This buoyant force partly cancels the stone's weight\n- So the stone feels LIGHTER in water ✅\n\nIn air, this upward push is almost zero, so the full weight must be lifted.\nThat is why it is easier to lift the stone in water than in air.",
+      "difficulty": "Medium",
+      "topic": "Buoyancy",
+      "marks": 2,
+      "id": "lba_qa_5"
+    },
+    {
+      "q": "A camel can walk easily on soft sand with its wide flat feet, but a man with narrow shoes sinks. Explain using pressure.",
+      "a": "This is about PRESSURE = Force / Area.\n\nExplanation:\n- A camel's feet have a LARGE area\n- The same weight spread over a large area gives LOW pressure\n- Low pressure → does not sink into sand ✅\n\nA man's narrow shoes:\n- Small contact area\n- Same weight over small area gives HIGH pressure → sinks\n\nSo wide feet reduce pressure, helping the camel walk on sand.",
+      "difficulty": "Medium",
+      "topic": "Pressure",
+      "marks": 2,
+      "id": "lba_qa_6"
+    },
+    {
+      "q": "A wooden block of mass 6 kg has dimensions 50 cm x 30 cm x 20 cm. Find the pressure it exerts when resting on its 50 cm x 30 cm face. (g = 10 m/s^2)",
+      "a": "Pressure = Force / Area\n\nStep 1 - Force (weight):\nF = m x g = 6 x 10 = 60 N\n\nStep 2 - Area of the face (50 cm x 30 cm):\n= 0.5 m x 0.3 m = 0.15 m^2\n\nStep 3 - Pressure:\n= 60 / 0.15\n= 400 N/m^2 (Pascal) ✅\n\nSo the pressure on the 50x30 face is 400 Pa. (A larger face gives less pressure.)",
+      "difficulty": "Hard",
+      "topic": "Pressure",
+      "marks": 3,
+      "id": "lba_qa_7"
+    },
+    {
+      "q": "A ball thrown straight up slows down, stops at the top, and then falls back faster. Explain using acceleration due to gravity.",
+      "a": "Gravity always pulls the ball DOWNWARD.\n\nGoing up:\n- Gravity acts opposite to motion\n- So the ball slows down (deceleration) and finally stops at the top ✅\n\nComing down:\n- Gravity now acts in the direction of motion\n- So the ball speeds up as it falls ✅\n\nThroughout, the acceleration is 'g' (about 9.8 m/s^2) directed downward. Gravity decides the slowing up and the speeding down.",
+      "difficulty": "Medium",
+      "topic": "Free Fall",
+      "marks": 3,
+      "id": "lba_qa_8"
+    },
+    {
+      "q": "State Archimedes' principle and give two devices that work on it.",
+      "a": "ARCHIMEDES' PRINCIPLE:\nWhen a body is fully or partly immersed in a fluid, it experiences an UPWARD force equal to the weight of the fluid it displaces. ✅\n\nDevices based on it:\n1. LACTOMETER — checks the purity of milk\n2. HYDROMETER — measures the density of liquids\n(Also: ships and submarines work on this principle.)\n\nThis principle explains why objects appear lighter and can float in fluids.",
+      "difficulty": "Easy",
+      "topic": "Archimedes Principle",
+      "marks": 2,
+      "id": "lba_qa_9"
+    },
+    {
+      "q": "The value of 'g' is slightly more at the poles than at the equator. Why?",
+      "a": "This is because the Earth is NOT a perfect sphere — it is slightly flattened at the poles and bulging at the equator.\n\nExplanation:\n- g depends on the distance from the Earth's centre (g is larger when closer)\n- The poles are CLOSER to the centre (smaller radius) → g is MORE at poles ✅\n- The equator is FARTHER from the centre (larger radius) → g is LESS at the equator\n\nSo the shape of the Earth makes g vary from poles to equator.",
+      "difficulty": "Hard",
+      "topic": "Variation of g",
+      "marks": 2,
+      "id": "lba_qa_10"
+    }
+  ],
+  "lba_mcq": [
+    {
+      "q": "An astronaut on the Moon weighs about one-sixth of his Earth weight, but his mass is unchanged. Why?",
+      "options": [
+        "The Moon's gravity (g) is about 1/6 of Earth's",
+        "His body shrinks on the Moon",
+        "Mass increases in space",
+        "The Moon has no gravity"
+      ],
+      "answer": "A",
+      "explanation": "Weight = mass x g. The Moon's g is about 1/6 of Earth's, so weight becomes 1/6. Mass is the amount of matter and stays the same everywhere.",
+      "difficulty": "Medium",
+      "topic": "Mass and Weight",
+      "id": "lba_mcq_1"
+    },
+    {
+      "q": "In a vacuum, a hammer and a feather are dropped together. Which hits the ground first?",
+      "options": [
+        "The hammer, it is heavier",
+        "Both hit at the same time",
+        "The feather, it is lighter",
+        "Neither falls in vacuum"
+      ],
+      "answer": "B",
+      "explanation": "In a vacuum there is no air resistance, and g is independent of mass. So both fall with the same acceleration and reach the ground at the same time.",
+      "difficulty": "Easy",
+      "topic": "Free Fall and g",
+      "id": "lba_mcq_2"
+    },
+    {
+      "q": "A giant steel ship floats while a small steel nail sinks. The ship floats because it:",
+      "options": [
+        "Is made of lighter steel",
+        "Has no gravity acting on it",
+        "Displaces a large weight of water equal to its own weight",
+        "Is painted to float"
+      ],
+      "answer": "C",
+      "explanation": "The ship's hollow shape displaces a large volume of water whose weight equals the ship's weight, giving enough buoyant force to float. The dense nail displaces too little water.",
+      "difficulty": "Hard",
+      "topic": "Buoyancy and Floating",
+      "id": "lba_mcq_3"
+    },
+    {
+      "q": "A sharp knife cuts better than a blunt one. This is because a sharp edge has:",
+      "options": [
+        "More area, so less pressure",
+        "More force always",
+        "Less weight",
+        "Less area, so more pressure"
+      ],
+      "answer": "D",
+      "explanation": "Pressure = Force/Area. A sharp edge has a very small area, so the same force produces much higher pressure, cutting more easily.",
+      "difficulty": "Medium",
+      "topic": "Pressure",
+      "id": "lba_mcq_4"
+    },
+    {
+      "q": "It feels easier to lift a bucket of water while it is still submerged in a well than after pulling it out. Why?",
+      "options": [
+        "The buoyant force of water reduces the apparent weight",
+        "Water adds energy to your arms",
+        "Gravity is less inside the well",
+        "The bucket becomes lighter in water"
+      ],
+      "answer": "A",
+      "explanation": "While submerged, the water exerts an upward buoyant force that partly cancels the weight, so the bucket feels lighter. Out of water, you lift its full weight.",
+      "difficulty": "Medium",
+      "topic": "Buoyancy",
+      "id": "lba_mcq_5"
+    },
+    {
+      "q": "The value of the universal gravitational constant G is:",
+      "options": [
+        "9.8 m/s^2",
+        "6.673 x 10^-11 N m^2/kg^2",
+        "6.673 x 10^11 N",
+        "1.001 x 10^-8 N"
+      ],
+      "answer": "B",
+      "explanation": "The universal gravitational constant G = 6.673 x 10^-11 N m^2/kg^2. It is the same everywhere in the universe.",
+      "difficulty": "Hard",
+      "topic": "Universal Law of Gravitation",
+      "id": "lba_mcq_6"
+    },
+    {
+      "q": "A tractor has very wide tyres so that it does not sink in muddy fields. The wide tyres work by:",
+      "options": [
+        "Increasing the weight of the tractor",
+        "Increasing the speed",
+        "Reducing pressure by increasing contact area",
+        "Reducing gravity"
+      ],
+      "answer": "C",
+      "explanation": "Wide tyres spread the tractor's weight over a larger area, reducing pressure on the soft ground so the tractor does not sink.",
+      "difficulty": "Medium",
+      "topic": "Pressure",
+      "id": "lba_mcq_7"
+    },
+    {
+      "q": "A lactometer used to test milk purity works on which principle?",
+      "options": [
+        "Newton's third law",
+        "Law of inertia",
+        "Law of conservation of mass",
+        "Archimedes' principle"
+      ],
+      "answer": "D",
+      "explanation": "A lactometer floats at a level depending on the density of the milk, which is based on Archimedes' principle (buoyancy in fluids).",
+      "difficulty": "Easy",
+      "topic": "Archimedes Principle",
+      "id": "lba_mcq_8"
+    },
+    {
+      "q": "Acceleration due to gravity 'g' on Earth is slightly greater at the poles than at the equator because:",
+      "options": [
+        "Poles are closer to the Earth's centre",
+        "Poles are hotter",
+        "Equator has more gravity",
+        "Earth spins only at poles"
+      ],
+      "answer": "A",
+      "explanation": "The Earth is flattened at the poles, so the poles are nearer the centre (smaller radius). Since g increases as radius decreases, g is greater at the poles.",
+      "difficulty": "Hard",
+      "topic": "Variation of g",
+      "id": "lba_mcq_9"
+    },
+    {
+      "q": "The SI unit of pressure is:",
+      "options": [
+        "Newton",
+        "Pascal",
+        "Joule",
+        "Watt"
+      ],
+      "answer": "B",
+      "explanation": "The SI unit of pressure is the pascal (Pa), which equals one newton per square metre (N/m^2).",
+      "difficulty": "Easy",
+      "topic": "Pressure",
+      "id": "lba_mcq_10"
+    }
+  ]
+}

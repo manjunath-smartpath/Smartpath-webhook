@@ -1,0 +1,231 @@
+{
+  "class": "8",
+  "subject": "Maths",
+  "chapter": "11",
+  "chapter_name": "Direct and Inverse Proportions",
+  "theme": "Direct and Inverse Proportions",
+  "lba_qa": [
+    {
+      "q": "If 5 pens cost 60 rupees, how much will 8 pens cost?",
+      "a": "Cost is in direct proportion to the number of pens.\n\nCost of 1 pen = 60 / 5 = 12 rupees.\nCost of 8 pens = 8 x 12 = 96 rupees.\n\nSo 8 pens cost 96 rupees. ✅",
+      "difficulty": "Easy",
+      "topic": "Direct Proportion",
+      "marks": 2,
+      "id": "lba_qa_1"
+    },
+    {
+      "q": "6 workers can build a wall in 12 days. How many days will 9 workers take to build the same wall?",
+      "a": "More workers means fewer days, so this is inverse proportion.\nProduct (workers x days) stays constant.\n\n6 x 12 = 9 x d\n72 = 9d\nd = 72 / 9\nd = 8\n\nSo 9 workers will take 8 days. ✅",
+      "difficulty": "Medium",
+      "topic": "Inverse Proportion",
+      "marks": 3,
+      "id": "lba_qa_2"
+    },
+    {
+      "q": "A car travels 150 km using 10 litres of petrol. How far can it travel using 16 litres?",
+      "a": "Distance is in direct proportion to petrol used.\n\nDistance per litre = 150 / 10 = 15 km.\nDistance for 16 litres = 16 x 15 = 240 km.\n\nSo the car can travel 240 km. ✅",
+      "difficulty": "Easy",
+      "topic": "Direct Proportion",
+      "marks": 2,
+      "id": "lba_qa_3"
+    },
+    {
+      "q": "If 15 men can finish a job in 20 days, how many men are needed to finish it in 12 days?",
+      "a": "Fewer days needs more men, so inverse proportion.\nmen x days = constant.\n\n15 x 20 = m x 12\n300 = 12m\nm = 300 / 12\nm = 25\n\nSo 25 men are needed. ✅",
+      "difficulty": "Hard",
+      "topic": "Inverse Proportion",
+      "marks": 3,
+      "id": "lba_qa_4"
+    },
+    {
+      "q": "3 kg of sugar costs 120 rupees. Find the cost of 7 kg.",
+      "a": "Direct proportion (more kg, more cost).\nCost of 1 kg = 120 / 3 = 40 rupees.\nCost of 7 kg = 7 x 40 = 280 rupees.\n\nSo 7 kg costs 280 rupees. ✅",
+      "difficulty": "Easy",
+      "topic": "Direct Proportion",
+      "marks": 2,
+      "id": "lba_qa_5"
+    },
+    {
+      "q": "A water tank is filled by 4 taps in 6 hours. How long will 3 taps take to fill it?",
+      "a": "Fewer taps means more time, so inverse proportion.\ntaps x hours = constant.\n\n4 x 6 = 3 x h\n24 = 3h\nh = 8\n\nSo 3 taps will take 8 hours. ✅",
+      "difficulty": "Medium",
+      "topic": "Inverse Proportion",
+      "marks": 3,
+      "id": "lba_qa_6"
+    },
+    {
+      "q": "A map uses a scale where 2 cm represents 50 km. What distance is shown by 7 cm?",
+      "a": "Direct proportion.\nDistance per cm = 50 / 2 = 25 km.\nFor 7 cm = 7 x 25 = 175 km.\n\nSo 7 cm represents 175 km. ✅",
+      "difficulty": "Medium",
+      "topic": "Direct Proportion (Scale)",
+      "marks": 2,
+      "id": "lba_qa_7"
+    },
+    {
+      "q": "If 8 machines produce 240 items in a day, how many items can 5 machines produce in a day?",
+      "a": "Direct proportion (fewer machines, fewer items).\nItems per machine = 240 / 8 = 30.\nFor 5 machines = 5 x 30 = 150 items.\n\nSo 5 machines produce 150 items. ✅",
+      "difficulty": "Medium",
+      "topic": "Direct Proportion",
+      "marks": 2,
+      "id": "lba_qa_8"
+    },
+    {
+      "q": "Food for 20 students lasts 15 days in a hostel. If 5 more students join, how long will the same food last?",
+      "a": "More students means food lasts fewer days, so inverse proportion.\nstudents x days = constant.\nNew students = 20 + 5 = 25.\n\n20 x 15 = 25 x d\n300 = 25d\nd = 12\n\nSo the food will last 12 days. ✅",
+      "difficulty": "Hard",
+      "topic": "Inverse Proportion",
+      "marks": 3,
+      "id": "lba_qa_9"
+    },
+    {
+      "q": "A printer prints 90 pages in 5 minutes. How many pages will it print in 8 minutes at the same rate?",
+      "a": "Direct proportion.\nPages per minute = 90 / 5 = 18.\nIn 8 minutes = 8 x 18 = 144 pages.\n\nSo it will print 144 pages. ✅",
+      "difficulty": "Easy",
+      "topic": "Direct Proportion",
+      "marks": 2,
+      "id": "lba_qa_10"
+    }
+  ],
+  "lba_mcq": [
+    {
+      "q": "If 4 books cost 100 rupees, 6 books cost:",
+      "options": [
+        "150 rupees",
+        "160 rupees",
+        "200 rupees",
+        "120 rupees"
+      ],
+      "answer": "A",
+      "explanation": "1 book = 25; 6 books = 6 x 25 = 150 rupees (direct).",
+      "difficulty": "Easy",
+      "topic": "Direct Proportion",
+      "id": "lba_mcq_1"
+    },
+    {
+      "q": "8 men finish work in 10 days. 4 men will take:",
+      "options": [
+        "16 days",
+        "20 days",
+        "40 days",
+        "5 days"
+      ],
+      "answer": "B",
+      "explanation": "Inverse: 8x10 = 4xd, so d = 80/4 = 20 days.",
+      "difficulty": "Medium",
+      "topic": "Inverse Proportion",
+      "id": "lba_mcq_2"
+    },
+    {
+      "q": "More workers on a job means days needed will:",
+      "options": [
+        "stay same",
+        "double",
+        "decrease",
+        "increase"
+      ],
+      "answer": "C",
+      "explanation": "Workers and days are inversely proportional, so days decrease.",
+      "difficulty": "Easy",
+      "topic": "Inverse Proportion",
+      "id": "lba_mcq_3"
+    },
+    {
+      "q": "A car goes 60 km on 4 litres. On 6 litres it goes:",
+      "options": [
+        "100 km",
+        "80 km",
+        "120 km",
+        "90 km"
+      ],
+      "answer": "D",
+      "explanation": "1 litre = 15 km; 6 litres = 90 km (direct).",
+      "difficulty": "Medium",
+      "topic": "Direct Proportion",
+      "id": "lba_mcq_4"
+    },
+    {
+      "q": "5 taps fill a tank in 12 hours. 6 taps will take:",
+      "options": [
+        "10 hours",
+        "14 hours",
+        "8 hours",
+        "15 hours"
+      ],
+      "answer": "A",
+      "explanation": "Inverse: 5x12 = 6xh, so h = 60/6 = 10 hours.",
+      "difficulty": "Medium",
+      "topic": "Inverse Proportion",
+      "id": "lba_mcq_5"
+    },
+    {
+      "q": "If 2 kg apples cost 80 rupees, 5 kg cost:",
+      "options": [
+        "240 rupees",
+        "200 rupees",
+        "100 rupees",
+        "160 rupees"
+      ],
+      "answer": "B",
+      "explanation": "1 kg = 40; 5 kg = 200 rupees (direct).",
+      "difficulty": "Easy",
+      "topic": "Direct Proportion",
+      "id": "lba_mcq_6"
+    },
+    {
+      "q": "In direct proportion, if one quantity doubles the other:",
+      "options": [
+        "stays same",
+        "halves",
+        "doubles",
+        "becomes zero"
+      ],
+      "answer": "C",
+      "explanation": "In direct proportion both increase together, so the other doubles.",
+      "difficulty": "Easy",
+      "topic": "Direct Proportion",
+      "id": "lba_mcq_7"
+    },
+    {
+      "q": "Food for 30 people lasts 8 days. For 40 people it lasts:",
+      "options": [
+        "10 days",
+        "5 days",
+        "12 days",
+        "6 days"
+      ],
+      "answer": "D",
+      "explanation": "Inverse: 30x8 = 40xd, so d = 240/40 = 6 days.",
+      "difficulty": "Hard",
+      "topic": "Inverse Proportion",
+      "id": "lba_mcq_8"
+    },
+    {
+      "q": "A map scale: 3 cm = 60 km. Then 5 cm shows:",
+      "options": [
+        "100 km",
+        "150 km",
+        "120 km",
+        "80 km"
+      ],
+      "answer": "A",
+      "explanation": "1 cm = 20 km; 5 cm = 100 km (direct).",
+      "difficulty": "Medium",
+      "topic": "Direct Proportion",
+      "id": "lba_mcq_9"
+    },
+    {
+      "q": "In inverse proportion, the product of the two quantities is always:",
+      "options": [
+        "negative",
+        "constant",
+        "zero",
+        "increasing"
+      ],
+      "answer": "B",
+      "explanation": "In inverse proportion x times y stays constant.",
+      "difficulty": "Hard",
+      "topic": "Inverse Proportion",
+      "id": "lba_mcq_10"
+    }
+  ]
+}

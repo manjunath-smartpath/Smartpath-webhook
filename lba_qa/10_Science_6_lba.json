@@ -1,0 +1,231 @@
+{
+  "class": "10",
+  "subject": "Science",
+  "chapter": "6",
+  "chapter_name": "Control and Coordination",
+  "theme": "World of Living",
+  "lba_qa": [
+    {
+      "id": "lba_qa_1",
+      "q": "When you accidentally touch a hot pan, your hand pulls back instantly even before you feel the pain. Explain what kind of action this is and why it is so fast.",
+      "a": "This is a reflex action. It is a quick, automatic response to a harmful stimulus. The message travels from the hand to the spinal cord and back to the muscle through a short path called the reflex arc, without waiting for the brain to decide. This makes the response very fast and protects the body from injury.",
+      "difficulty": "Average",
+      "topic": "Reflex actions",
+      "marks": 3
+    },
+    {
+      "id": "lba_qa_2",
+      "q": "A plant kept on a windowsill grows bending towards the sunlight coming from the window. Name this movement and explain why it happens.",
+      "a": "This movement of a plant towards light is called phototropism. It is a movement due to growth. The plant produces a hormone called auxin, which moves to the shaded side and makes those cells grow longer. This causes the shoot to bend towards the light. It helps the plant get more sunlight for photosynthesis.",
+      "difficulty": "Average",
+      "topic": "Movement due to growth (Tropism)",
+      "marks": 2
+    },
+    {
+      "id": "lba_qa_3",
+      "q": "The leaves of a 'touch-me-not' (Mimosa) plant fold up immediately when touched. How is this movement different from a plant bending towards light?",
+      "a": "The touch-me-not folding is an immediate response to a stimulus (touch), and it is NOT due to growth — the plant changes the water content in its cells to fold the leaves quickly. Bending towards light (phototropism) is a slow movement due to growth caused by hormones. So one is fast and non-growth, the other is slow and growth-based.",
+      "difficulty": "Difficult",
+      "topic": "Immediate response to stimulus",
+      "marks": 3
+    },
+    {
+      "id": "lba_qa_4",
+      "q": "A person who suffers a head injury may lose the ability to balance or speak, while a spinal injury may cause loss of movement in the legs. Explain this based on the functions of the nervous system parts.",
+      "a": "Different parts of the brain control different functions: balance is controlled by the cerebellum, and speech and thinking by the cerebrum. So a head (brain) injury affects these functions. The spinal cord carries messages between the brain and the body. A spinal injury can break this connection, so messages cannot reach the legs, causing loss of movement.",
+      "difficulty": "Average",
+      "topic": "Human brain",
+      "marks": 3
+    },
+    {
+      "id": "lba_qa_5",
+      "q": "When a person is suddenly frightened, their heartbeat increases, breathing becomes fast and they feel ready to run. Which hormone causes this and why is it useful?",
+      "a": "This is caused by the hormone adrenaline, released by the adrenal glands during fear or danger. It increases the heartbeat and breathing rate and sends more blood to the muscles, preparing the body to fight or run away (the 'fight or flight' response). This helps the body respond quickly to an emergency.",
+      "difficulty": "Average",
+      "topic": "Hormones in animals",
+      "marks": 2
+    },
+    {
+      "id": "lba_qa_6",
+      "q": "Children are advised to use iodised salt in their food. Explain which hormone is involved and what happens if iodine is lacking.",
+      "a": "Iodine is needed by the thyroid gland to make the hormone thyroxine, which controls growth and the rate of body processes (metabolism). If iodine is lacking, the thyroid cannot make enough thyroxine, leading to a disease called goitre (swollen neck) and poor growth. So iodised salt provides the iodine needed for proper hormone function.",
+      "difficulty": "Average",
+      "topic": "Hormones in animals",
+      "marks": 2
+    },
+    {
+      "id": "lba_qa_7",
+      "q": "A diabetic patient is given insulin injections. Explain the role of insulin and what happens when the body does not make enough of it.",
+      "a": "Insulin is a hormone made by the pancreas. It controls the level of sugar (glucose) in the blood by helping cells absorb and use glucose. When the body does not make enough insulin, blood sugar rises too high, causing the disease diabetes. Insulin injections help control the blood sugar level in such patients.",
+      "difficulty": "Average",
+      "topic": "Hormones in animals",
+      "marks": 2
+    },
+    {
+      "id": "lba_qa_8",
+      "q": "The brain and spinal cord are very delicate. How does the body protect these important organs?",
+      "a": "The brain is protected inside a hard bony box called the skull (cranium), and the spinal cord is protected by the backbone (vertebral column). In addition, a fluid (cerebrospinal fluid) and protective membranes surround them, acting as a cushion against shocks and injury. This protects the delicate nervous tissue.",
+      "difficulty": "Easy",
+      "topic": "How are these tissues protected",
+      "marks": 2
+    },
+    {
+      "id": "lba_qa_9",
+      "q": "When you smell tasty food, your mouth starts watering. Explain how the nervous system causes this response.",
+      "a": "The smell of food is a stimulus detected by receptors in the nose. This information is carried by sensory nerves to the brain. The brain processes it and sends signals through motor nerves to the salivary glands, telling them to release saliva. This is how the nervous system links a stimulus (smell) to a response (watering of the mouth).",
+      "difficulty": "Average",
+      "topic": "How does nervous tissue cause action",
+      "marks": 2
+    },
+    {
+      "id": "lba_qa_10",
+      "q": "Roots of a plant always grow downward into the soil, while the shoot grows upward, even if a seed is planted upside down. Explain this.",
+      "a": "Roots grow downward in response to gravity — this is called geotropism (positive geotropism). The shoot grows upward, away from gravity (negative geotropism) and towards light. These growth movements are controlled by plant hormones. So no matter how the seed is placed, the root grows down and the shoot grows up.",
+      "difficulty": "Average",
+      "topic": "Movement due to growth (Geotropism)",
+      "marks": 2
+    }
+  ],
+  "lba_mcq": [
+    {
+      "id": "lba_mcq_1",
+      "q": "Touching a hot object and pulling the hand away instantly is controlled mainly by the:",
+      "options": [
+        "Spinal cord (reflex arc)",
+        "Cerebrum",
+        "Hormones",
+        "Heart"
+      ],
+      "answer": "A",
+      "explanation": "Reflex actions are fast, automatic responses controlled through the reflex arc in the spinal cord, without waiting for the brain.",
+      "difficulty": "Easy",
+      "topic": "Reflex actions"
+    },
+    {
+      "id": "lba_mcq_2",
+      "q": "A plant on a windowsill bends towards the light. This is an example of:",
+      "options": [
+        "Geotropism",
+        "Phototropism",
+        "A reflex action",
+        "Hydrotropism"
+      ],
+      "answer": "B",
+      "explanation": "Growth of a plant towards light is phototropism, caused by the hormone auxin making the shaded side grow faster.",
+      "difficulty": "Easy",
+      "topic": "Tropism"
+    },
+    {
+      "id": "lba_mcq_3",
+      "q": "A frightened student's heart races and breathing quickens before an exam. This is due to the hormone:",
+      "options": [
+        "Insulin",
+        "Thyroxine",
+        "Adrenaline",
+        "Auxin"
+      ],
+      "answer": "C",
+      "explanation": "Adrenaline is released during fear or stress, increasing heartbeat and breathing to prepare the body for 'fight or flight'.",
+      "difficulty": "Average",
+      "topic": "Hormones in animals"
+    },
+    {
+      "id": "lba_mcq_4",
+      "q": "Iodised salt is recommended to prevent goitre because iodine is needed to make:",
+      "options": [
+        "Insulin",
+        "Adrenaline",
+        "Auxin",
+        "Thyroxine"
+      ],
+      "answer": "D",
+      "explanation": "Iodine is needed by the thyroid gland to make thyroxine. Lack of iodine causes goitre.",
+      "difficulty": "Average",
+      "topic": "Hormones in animals"
+    },
+    {
+      "id": "lba_mcq_5",
+      "q": "A diabetic patient needs insulin injections. Insulin is produced by the:",
+      "options": [
+        "Pancreas",
+        "Liver",
+        "Kidney",
+        "Brain"
+      ],
+      "answer": "A",
+      "explanation": "Insulin is made by the pancreas and controls blood sugar levels. Its lack causes diabetes.",
+      "difficulty": "Easy",
+      "topic": "Hormones in animals"
+    },
+    {
+      "id": "lba_mcq_6",
+      "q": "Body balance and posture are controlled by which part of the brain?",
+      "options": [
+        "Cerebrum",
+        "Cerebellum",
+        "Medulla",
+        "Spinal cord"
+      ],
+      "answer": "B",
+      "explanation": "The cerebellum controls balance, posture and coordination of movement.",
+      "difficulty": "Average",
+      "topic": "Human brain"
+    },
+    {
+      "id": "lba_mcq_7",
+      "q": "The leaves of the touch-me-not plant fold when touched. This movement is:",
+      "options": [
+        "Due to growth",
+        "A reflex arc",
+        "An immediate response not due to growth",
+        "Caused by adrenaline"
+      ],
+      "answer": "C",
+      "explanation": "The folding is a fast response due to changes in water content of cells, not due to growth.",
+      "difficulty": "Difficult",
+      "topic": "Immediate response to stimulus"
+    },
+    {
+      "id": "lba_mcq_8",
+      "q": "The brain is protected from injury by the:",
+      "options": [
+        "Backbone",
+        "Rib cage",
+        "Muscles only",
+        "Skull (cranium)"
+      ],
+      "answer": "D",
+      "explanation": "The brain is enclosed in the bony skull (cranium), cushioned by fluid, which protects it from shocks.",
+      "difficulty": "Easy",
+      "topic": "Protection of nervous tissue"
+    },
+    {
+      "id": "lba_mcq_9",
+      "q": "Roots grow downward into the soil in response to gravity. This is called:",
+      "options": [
+        "Geotropism",
+        "Phototropism",
+        "Chemotropism",
+        "A reflex action"
+      ],
+      "answer": "A",
+      "explanation": "Growth in response to gravity is geotropism. Roots show positive geotropism (grow towards gravity).",
+      "difficulty": "Average",
+      "topic": "Geotropism"
+    },
+    {
+      "id": "lba_mcq_10",
+      "q": "When you smell good food and your mouth waters, the response (saliva) is carried to the salivary gland by:",
+      "options": [
+        "Sensory nerves",
+        "Motor nerves",
+        "Blood only",
+        "Hormones only"
+      ],
+      "answer": "B",
+      "explanation": "Motor nerves carry the response signal from the brain to the salivary glands (effector), causing saliva release. Sensory nerves carry the smell information to the brain.",
+      "difficulty": "Average",
+      "topic": "How nervous tissue causes action"
+    }
+  ]
+}

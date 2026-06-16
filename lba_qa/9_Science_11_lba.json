@@ -1,0 +1,231 @@
+{
+  "class": "9",
+  "subject": "Science",
+  "chapter": "11",
+  "chapter_name": "Sound",
+  "theme": "Motion, Force and Work",
+  "lba_qa": [
+    {
+      "q": "When you clap near a hill, you hear the same sound again after a few seconds. What is this called and what causes it?",
+      "a": "This repeated sound is called an ECHO.\n\nCause:\n- Sound waves from your clap travel to the hill\n- They REFLECT (bounce back) off the hill surface\n- The reflected sound reaches your ears after a delay ✅\n\nFor a clear echo, the obstacle must be at least 17.2 m away, so that the reflected sound returns after 0.1 second (the time our ears can separate two sounds).",
+      "difficulty": "Medium",
+      "topic": "Echo",
+      "marks": 2,
+      "id": "lba_qa_1"
+    },
+    {
+      "q": "A person claps near a hill and hears the echo after 5 seconds. If the speed of sound is 346 m/s, find the distance to the hill.",
+      "a": "The sound travels TO the hill and BACK, so it covers double the distance.\n\nStep 1 - Total distance travelled by sound:\n= speed x time = 346 x 5 = 1730 m\n\nStep 2 - Distance to the hill (half, since sound goes and returns):\n= 1730 / 2\n= 865 m ✅\n\nSo the hill is 865 m away from the person.",
+      "difficulty": "Hard",
+      "topic": "Echo - Calculation",
+      "marks": 3,
+      "id": "lba_qa_2"
+    },
+    {
+      "q": "Why is sound NOT heard on the Moon, even if two astronauts stand close and shout?",
+      "a": "Sound needs a MEDIUM (solid, liquid or gas) to travel.\n\nExplanation:\n- Sound travels as vibrations passed from particle to particle\n- The Moon has NO atmosphere — it is a vacuum\n- A vacuum has no particles to carry the sound ✅\n\nSo sound cannot travel on the Moon. That is why astronauts use radios (which use electromagnetic waves that do not need a medium) to talk.",
+      "difficulty": "Medium",
+      "topic": "Sound Needs a Medium",
+      "marks": 2,
+      "id": "lba_qa_3"
+    },
+    {
+      "q": "Why are the ceilings of concert halls and cinema theatres often made curved, and the walls covered with soft material?",
+      "a": "This is to control sound reflection and avoid disturbance.\n\n1. CURVED ceilings:\n- They reflect sound EVENLY to all parts of the hall\n- So everyone hears clearly ✅\n\n2. SOFT/rough wall materials:\n- They ABSORB extra sound\n- This reduces REVERBERATION (repeated echoes that jumble the sound) ✅\n\nTogether, these make the sound clear and pleasant for the whole audience.",
+      "difficulty": "Hard",
+      "topic": "Reverberation",
+      "marks": 3,
+      "id": "lba_qa_4"
+    },
+    {
+      "q": "A doctor uses a stethoscope to hear a patient's heartbeat clearly. On what principle of sound does it work?",
+      "a": "A stethoscope works on the MULTIPLE REFLECTION OF SOUND.\n\nExplanation:\n- The faint sound of the heartbeat enters the chest piece\n- It travels through the tubes\n- Inside the tubes, the sound REFLECTS repeatedly (multiple reflection)\n- This keeps the sound from spreading out and weakening\n- So the sound reaches the doctor's ears clearly ✅\n\nMultiple reflection helps carry the weak sound without much loss.",
+      "difficulty": "Medium",
+      "topic": "Multiple Reflection of Sound",
+      "marks": 2,
+      "id": "lba_qa_5"
+    },
+    {
+      "q": "A sound wave has a frequency of 2 kHz and a wavelength of 35 cm. Find the speed of the sound wave.",
+      "a": "Wave speed formula: v = frequency x wavelength\n\nGiven:\n- frequency = 2 kHz = 2000 Hz\n- wavelength = 35 cm = 0.35 m\n\nCalculation:\n= 2000 x 0.35\n= 700 m/s ✅\n\nSo the speed of the sound wave is 700 m/s.",
+      "difficulty": "Hard",
+      "topic": "Wave Speed",
+      "marks": 3,
+      "id": "lba_qa_6"
+    },
+    {
+      "q": "Bats can fly and catch insects in complete darkness without bumping into things. Which property of sound do they use?",
+      "a": "Bats use ULTRASOUND and ECHO (this is called echolocation).\n\nHow it works:\n- Bats produce ULTRASONIC sounds (above 20,000 Hz, which we cannot hear)\n- These sounds hit objects/insects and REFLECT back as echoes\n- The bat hears the echo and judges the object's distance and direction ✅\n\nSo bats 'see' with sound reflection, allowing them to navigate and hunt in the dark.",
+      "difficulty": "Medium",
+      "topic": "Ultrasound - Applications",
+      "marks": 2,
+      "id": "lba_qa_7"
+    },
+    {
+      "q": "How is ultrasound used in hospitals to see an unborn baby inside the mother (ultrasonography)?",
+      "a": "Ultrasonography uses ULTRASOUND waves to make images.\n\nHow it works:\n1. Ultrasonic waves are sent into the body\n2. They REFLECT off internal organs/tissues (and the baby)\n3. The reflected waves are converted into ELECTRICAL signals\n4. These signals form an IMAGE on a screen ✅\n\nThis is safe (no harmful radiation) and lets doctors check the health and growth of the baby and internal organs.",
+      "difficulty": "Hard",
+      "topic": "Ultrasonography",
+      "marks": 3,
+      "id": "lba_qa_8"
+    },
+    {
+      "q": "Why can humans hear a dog whistle make the dog respond, but humans hear nothing?",
+      "a": "This is about the AUDIBLE RANGE of hearing.\n\nExplanation:\n- Humans can hear sounds only between 20 Hz and 20,000 Hz ✅\n- A dog whistle produces ULTRASONIC sound (above 20,000 Hz)\n- This is ABOVE the human audible range, so humans cannot hear it\n- But dogs CAN hear higher frequencies, so the dog responds ✅\n\nSo the whistle's frequency is too high for human ears but within the dog's range.",
+      "difficulty": "Medium",
+      "topic": "Audible Range",
+      "marks": 2,
+      "id": "lba_qa_9"
+    },
+    {
+      "q": "Differentiate between a longitudinal wave and a transverse wave, and state which type sound is.",
+      "a": "LONGITUDINAL WAVE:\n- The particles vibrate PARALLEL to the direction the wave travels\n- It has compressions and rarefactions\n- Example: SOUND waves ✅\n\nTRANSVERSE WAVE:\n- The particles vibrate PERPENDICULAR (at right angles) to the wave's direction\n- It has crests and troughs\n- Example: water ripples, light waves\n\nSound is a LONGITUDINAL wave, because air particles vibrate back and forth along the direction of travel.",
+      "difficulty": "Medium",
+      "topic": "Types of Waves",
+      "marks": 3,
+      "id": "lba_qa_10"
+    }
+  ],
+  "lba_mcq": [
+    {
+      "q": "You shout in an empty large hall and hear your own voice repeated a moment later. This repeated sound is due to:",
+      "options": [
+        "Reflection of sound (echo)",
+        "Refraction of sound",
+        "Absorption of sound",
+        "Diffraction of sound"
+      ],
+      "answer": "A",
+      "explanation": "An echo is the reflection of sound from a distant surface. The reflected sound reaches your ears after a short delay, so you hear your voice again.",
+      "difficulty": "Easy",
+      "topic": "Echo",
+      "id": "lba_mcq_1"
+    },
+    {
+      "q": "Astronauts on the Moon's surface must use radios to talk even when standing close. Why can't they hear each other directly?",
+      "options": [
+        "The Moon is too cold for sound",
+        "There is no medium (air) on the Moon to carry sound",
+        "Sound moves too fast on the Moon",
+        "Their helmets block all sound"
+      ],
+      "answer": "B",
+      "explanation": "Sound needs a material medium to travel. The Moon has no atmosphere (a vacuum), so there are no particles to carry the sound — hence they use radios.",
+      "difficulty": "Medium",
+      "topic": "Sound Needs a Medium",
+      "id": "lba_mcq_2"
+    },
+    {
+      "q": "A fisherman's boat uses SONAR to find the depth of the sea by sending sound and timing its echo. This is an application of:",
+      "options": [
+        "Diffusion of sound",
+        "Absorption of sound",
+        "Reflection of sound",
+        "Sound in vacuum"
+      ],
+      "answer": "C",
+      "explanation": "SONAR sends ultrasonic pulses that reflect off the seabed. By measuring the echo time, the depth is found. This uses reflection of sound.",
+      "difficulty": "Medium",
+      "topic": "Reflection - SONAR",
+      "id": "lba_mcq_3"
+    },
+    {
+      "q": "A dog reacts to a whistle that humans cannot hear at all. The whistle produces sound that is:",
+      "options": [
+        "Below 20 Hz (infrasonic)",
+        "Exactly 100 Hz",
+        "No sound at all",
+        "Above 20,000 Hz (ultrasonic)"
+      ],
+      "answer": "D",
+      "explanation": "A dog whistle produces ultrasonic sound (above 20,000 Hz), beyond the human audible range (20 Hz to 20,000 Hz), but dogs can hear it.",
+      "difficulty": "Medium",
+      "topic": "Audible Range",
+      "id": "lba_mcq_4"
+    },
+    {
+      "q": "In an empty hall, sound seems to persist and overlap, making speech unclear. This continued sound is called:",
+      "options": [
+        "Reverberation",
+        "Echo",
+        "Resonance",
+        "Pitch"
+      ],
+      "answer": "A",
+      "explanation": "Reverberation is the repeated, persistent reflection of sound in a closed space that causes overlapping and unclear sound. Soft materials reduce it.",
+      "difficulty": "Medium",
+      "topic": "Reverberation",
+      "id": "lba_mcq_5"
+    },
+    {
+      "q": "Sound travels by the back-and-forth vibration of particles along the direction of travel. So sound is which type of wave?",
+      "options": [
+        "Transverse wave",
+        "Longitudinal wave",
+        "Electromagnetic wave",
+        "Light wave"
+      ],
+      "answer": "B",
+      "explanation": "In sound, air particles vibrate parallel to the direction of wave travel, producing compressions and rarefactions. This makes sound a longitudinal wave.",
+      "difficulty": "Easy",
+      "topic": "Types of Waves",
+      "id": "lba_mcq_6"
+    },
+    {
+      "q": "A sound wave has frequency 500 Hz and wavelength 0.6 m. What is its speed?",
+      "options": [
+        "833 m/s",
+        "500.6 m/s",
+        "300 m/s",
+        "0.0012 m/s"
+      ],
+      "answer": "C",
+      "explanation": "Wave speed = frequency x wavelength = 500 x 0.6 = 300 m/s.",
+      "difficulty": "Medium",
+      "topic": "Wave Speed",
+      "id": "lba_mcq_7"
+    },
+    {
+      "q": "A bat avoids obstacles in total darkness by sending out sound and listening to its echo. This ability is called:",
+      "options": [
+        "Photosynthesis",
+        "Reverberation",
+        "Resonance",
+        "Echolocation"
+      ],
+      "answer": "D",
+      "explanation": "Bats use echolocation — they emit ultrasonic sounds and detect the reflected echoes to judge the distance and position of objects in the dark.",
+      "difficulty": "Easy",
+      "topic": "Ultrasound Applications",
+      "id": "lba_mcq_8"
+    },
+    {
+      "q": "Why is the inside of a recording studio covered with soft, porous foam material?",
+      "options": [
+        "To absorb sound and reduce reverberation/echo",
+        "To make the room look nice",
+        "To reflect sound back loudly",
+        "To increase the sound speed"
+      ],
+      "answer": "A",
+      "explanation": "Soft, porous materials absorb sound waves, reducing unwanted echoes and reverberation. This keeps recordings clear.",
+      "difficulty": "Medium",
+      "topic": "Absorption of Sound",
+      "id": "lba_mcq_9"
+    },
+    {
+      "q": "To hear a distinct echo, the reflecting surface must be at least how far away (speed of sound about 344 m/s)?",
+      "options": [
+        "1.72 m",
+        "17.2 m",
+        "172 m",
+        "0.172 m"
+      ],
+      "answer": "B",
+      "explanation": "For a distinct echo, the reflected sound must return after at least 0.1 s. At 344 m/s, sound travels about 34.4 m in 0.1 s (to and back), so the surface must be about 17.2 m away.",
+      "difficulty": "Hard",
+      "topic": "Echo - Minimum Distance",
+      "id": "lba_mcq_10"
+    }
+  ]
+}

@@ -90,8 +90,13 @@
     {
       "id": "lba_mcq_1",
       "q": "A student spills some acid on the lab table and immediately wants to neutralise it safely. Which of these should be used?",
-      "options": ["Vinegar", "Lemon juice", "Baking soda solution", "More acid"],
-      "answer": "C",
+      "options": [
+        "Baking soda solution",
+        "Vinegar",
+        "Lemon juice",
+        "More acid"
+      ],
+      "answer": "A",
       "explanation": "Baking soda (sodium hydrogencarbonate) is a mild base. It neutralises the spilt acid safely. Vinegar and lemon juice are themselves acids.",
       "difficulty": "Easy",
       "topic": "Neutralisation"
@@ -99,8 +104,13 @@
     {
       "id": "lba_mcq_2",
       "q": "Rohan tests four liquids with pH paper. Which one is the most acidic?",
-      "options": ["Liquid with pH 2", "Liquid with pH 7", "Liquid with pH 10", "Liquid with pH 13"],
-      "answer": "A",
+      "options": [
+        "Liquid with pH 7",
+        "Liquid with pH 2",
+        "Liquid with pH 10",
+        "Liquid with pH 13"
+      ],
+      "answer": "B",
       "explanation": "The lower the pH value, the more acidic the solution. pH 2 is the most acidic. pH 7 is neutral, and values above 7 are basic.",
       "difficulty": "Easy",
       "topic": "How strong are acid or base solutions (pH scale)"
@@ -108,8 +118,13 @@
     {
       "id": "lba_mcq_3",
       "q": "A gardener finds his hydrangea plants need acidic soil. The soil pH is currently 8. To make it suitable, he should:",
-      "options": ["Add lime (a base)", "Add an acidic compost or organic acid", "Add common salt", "Add more water only"],
-      "answer": "B",
+      "options": [
+        "Add lime (a base)",
+        "Add common salt",
+        "Add an acidic compost or organic acid",
+        "Add more water only"
+      ],
+      "answer": "C",
       "explanation": "Soil pH 8 is basic. To make it acidic (lower the pH), an acidic substance like organic acid/compost should be added. Lime would make it more basic.",
       "difficulty": "Average",
       "topic": "Importance of pH in everyday life"
@@ -117,8 +132,13 @@
     {
       "id": "lba_mcq_4",
       "q": "When zinc granules are added to dilute sulphuric acid, a gas is released that burns with a 'pop' sound when a burning matchstick is brought near. The gas is:",
-      "options": ["Carbon dioxide", "Oxygen", "Hydrogen", "Nitrogen"],
-      "answer": "C",
+      "options": [
+        "Carbon dioxide",
+        "Oxygen",
+        "Nitrogen",
+        "Hydrogen"
+      ],
+      "answer": "D",
       "explanation": "Acid + Metal → Salt + Hydrogen gas. The 'pop' sound test confirms hydrogen gas. CO2 would extinguish the flame instead.",
       "difficulty": "Average",
       "topic": "Reaction of acids with metals"
@@ -126,8 +146,13 @@
     {
       "id": "lba_mcq_5",
       "q": "A shopkeeper stores pickles (which are sour/acidic) for a long time. Which container is the safest choice?",
-      "options": ["Copper container", "Brass container", "Glass or ceramic jar", "Aluminium container"],
-      "answer": "C",
+      "options": [
+        "Glass or ceramic jar",
+        "Copper container",
+        "Brass container",
+        "Aluminium container"
+      ],
+      "answer": "A",
       "explanation": "Pickles contain acids that react with metals like copper, brass and aluminium, spoiling the food. Glass or ceramic does not react with acids, so it is safe.",
       "difficulty": "Easy",
       "topic": "Reaction of acids with metals"
@@ -135,7 +160,12 @@
     {
       "id": "lba_mcq_6",
       "q": "Fresh milk has a pH of about 6. When it turns into curd, the pH:",
-      "options": ["Increases above 7", "Decreases below 6", "Stays exactly the same", "Becomes exactly 7"],
+      "options": [
+        "Increases above 7",
+        "Decreases below 6",
+        "Stays exactly the same",
+        "Becomes exactly 7"
+      ],
       "answer": "B",
       "explanation": "When milk turns to curd, lactic acid is formed, making it more acidic. So the pH decreases (becomes lower than 6).",
       "difficulty": "Average",
@@ -144,8 +174,13 @@
     {
       "id": "lba_mcq_7",
       "q": "A doctor applies a plaster cast on a patient's fractured hand. The white powder used hardens after mixing with water. This substance is:",
-      "options": ["Washing soda", "Plaster of Paris", "Bleaching powder", "Baking soda"],
-      "answer": "B",
+      "options": [
+        "Washing soda",
+        "Bleaching powder",
+        "Plaster of Paris",
+        "Baking soda"
+      ],
+      "answer": "C",
       "explanation": "Plaster of Paris sets into a hard solid (gypsum) when mixed with water. This setting property is used to support fractured bones.",
       "difficulty": "Easy",
       "topic": "Family of salts (Plaster of Paris)"
@@ -153,8 +188,13 @@
     {
       "id": "lba_mcq_8",
       "q": "Bottled soft drinks are slightly acidic. If you place blue litmus paper in a soft drink, it will:",
-      "options": ["Turn red", "Turn green", "Stay blue", "Turn colourless"],
-      "answer": "A",
+      "options": [
+        "Turn green",
+        "Stay blue",
+        "Turn colourless",
+        "Turn red"
+      ],
+      "answer": "D",
       "explanation": "Acidic solutions turn blue litmus red. Since soft drinks are acidic (due to carbonic acid), the blue litmus will turn red.",
       "difficulty": "Easy",
       "topic": "Acids and bases in the laboratory (indicators)"
@@ -162,8 +202,13 @@
     {
       "id": "lba_mcq_9",
       "q": "During the chlor-alkali process, electricity is passed through brine (common salt solution). The product collected at the cathode is:",
-      "options": ["Chlorine gas", "Hydrogen gas", "Sodium metal", "Oxygen gas"],
-      "answer": "B",
+      "options": [
+        "Hydrogen gas",
+        "Chlorine gas",
+        "Sodium metal",
+        "Oxygen gas"
+      ],
+      "answer": "A",
       "explanation": "In the chlor-alkali process, hydrogen gas is released at the cathode, chlorine gas at the anode, and sodium hydroxide forms in the solution.",
       "difficulty": "Difficult",
       "topic": "Chemicals from common salt"
@@ -171,7 +216,12 @@
     {
       "id": "lba_mcq_10",
       "q": "A bottle of dry HCl gas does not change the colour of dry blue litmus paper. The most likely reason is:",
-      "options": ["HCl is a base", "There is no water to release H+ ions", "Litmus does not work on gases", "HCl is neutral"],
+      "options": [
+        "HCl is a base",
+        "There is no water to release H+ ions",
+        "Litmus does not work on gases",
+        "HCl is neutral"
+      ],
       "answer": "B",
       "explanation": "Acidic behaviour requires H+ ions, which form only in the presence of water. Dry HCl gas has no water, so no H+ ions are released and the litmus does not change colour.",
       "difficulty": "Difficult",

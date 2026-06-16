@@ -1,0 +1,187 @@
+{
+  "class": "9",
+  "subject": "Maths",
+  "chapter": "12",
+  "chapter_name": "Statistics",
+  "theme": "Statistics",
+  "lba_qa": [
+    {
+      "q": "The runs scored by a batsman in 5 matches are 40, 50, 60, 70 and 80. Find the mean (average) score.",
+      "a": "Mean = (sum of all observations) / (number of observations)\n\nSum = 40 + 50 + 60 + 70 + 80 = 300\nNumber of matches = 5\n\nMean = 300 / 5\n= 60 runs ✅\n\nSo the batsman's average score is 60 runs per match.",
+      "difficulty": "Easy",
+      "topic": "Mean",
+      "marks": 2,
+      "id": "lba_qa_1"
+    },
+    {
+      "q": "A shopkeeper sells these shoe sizes in a day: 7, 8, 8, 9, 8, 7, 8. Find the mode (most common size) and explain why it is useful to him.",
+      "a": "Mode = the value that occurs MOST often.\n\nCount each size:\n- 7 appears 2 times\n- 8 appears 4 times\n- 9 appears 1 time\n\nMode = 8 (it appears the most) ✅\n\nWhy useful:\n- Size 8 sells most, so the shopkeeper should stock MORE of size 8\n- The mode helps in deciding inventory.",
+      "difficulty": "Medium",
+      "topic": "Mode",
+      "marks": 2,
+      "id": "lba_qa_2"
+    },
+    {
+      "q": "The marks of 7 students are 35, 40, 42, 45, 48, 50, 55. Find the median mark.",
+      "a": "Median = the MIDDLE value when data is arranged in order.\n\nData (already in order): 35, 40, 42, 45, 48, 50, 55\nNumber of values = 7 (odd)\n\nMiddle position = (7 + 1)/2 = 4th value\n\nThe 4th value = 45\n\nSo the median mark = 45. ✅",
+      "difficulty": "Medium",
+      "topic": "Median",
+      "marks": 2,
+      "id": "lba_qa_3"
+    },
+    {
+      "q": "In a survey of 6 families, the number of children is 2, 3, 1, 4, 2, 0. Find the mean number of children per family.",
+      "a": "Mean = (sum of values) / (number of families)\n\nSum = 2 + 3 + 1 + 4 + 2 + 0 = 12\nNumber of families = 6\n\nMean = 12 / 6\n= 2 children per family ✅\n\nSo on average each family has 2 children.",
+      "difficulty": "Easy",
+      "topic": "Mean",
+      "marks": 2,
+      "id": "lba_qa_4"
+    },
+    {
+      "q": "A teacher wants to show how many students scored in different mark ranges (0-10, 10-20, etc.). Which graph should she use and why?",
+      "a": "She should use a HISTOGRAM.\n\nReason:\n- A histogram shows GROUPED (continuous) data in class intervals\n- The bars are drawn TOUCHING each other (no gaps)\n- The height of each bar shows the frequency (number of students) in that range ✅\n\nSo a histogram is the best graph for showing data divided into mark ranges.",
+      "difficulty": "Medium",
+      "topic": "Histogram",
+      "marks": 2,
+      "id": "lba_qa_5"
+    },
+    {
+      "q": "The daily sales (in Rs) of a shop for 5 days are 200, 250, 300, 250, 250. Find the mode and the mean.",
+      "a": "MODE = most frequent value:\n- 250 appears 3 times → Mode = Rs 250 ✅\n\nMEAN = sum / number of days:\nSum = 200 + 250 + 300 + 250 + 250 = 1250\nNumber of days = 5\nMean = 1250 / 5 = Rs 250 ✅\n\nSo both the mode and the mean are Rs 250.",
+      "difficulty": "Medium",
+      "topic": "Mean and Mode",
+      "marks": 3,
+      "id": "lba_qa_6"
+    },
+    {
+      "q": "A student wants to compare the number of trees planted by 4 different classes. Which simple graph is most suitable, and what does the height of each bar show?",
+      "a": "A BAR GRAPH is most suitable.\n\nReason:\n- A bar graph compares separate categories (here, 4 classes)\n- Each class gets ONE bar\n- The bars have EQUAL width with gaps between them\n- The HEIGHT of each bar shows the number of trees planted by that class ✅\n\nSo a bar graph clearly compares the four classes at a glance.",
+      "difficulty": "Easy",
+      "topic": "Bar Graph",
+      "marks": 2,
+      "id": "lba_qa_7"
+    },
+    {
+      "q": "The number of goals scored by a team in 8 matches are 1, 2, 2, 3, 0, 2, 1, 1. Find the mean and the mode of goals.",
+      "a": "MEAN = sum / number of matches:\nSum = 1 + 2 + 2 + 3 + 0 + 2 + 1 + 1 = 12\nNumber of matches = 8\nMean = 12 / 8 = 1.5 goals ✅\n\nMODE = most frequent value:\n- 1 appears 3 times, 2 appears 3 times\n- Both 1 and 2 appear most often → the data has TWO modes: 1 and 2 ✅\n\nSo mean = 1.5 goals; modes = 1 and 2.",
+      "difficulty": "Hard",
+      "topic": "Mean and Mode",
+      "marks": 3,
+      "id": "lba_qa_8"
+    }
+  ],
+  "lba_mcq": [
+    {
+      "q": "A batsman scores 30, 40, 50, 60, 70 in 5 matches. His mean score is:",
+      "options": [
+        "50",
+        "60",
+        "45",
+        "250"
+      ],
+      "answer": "A",
+      "explanation": "Mean = (30+40+50+60+70)/5 = 250/5 = 50 runs.",
+      "difficulty": "Easy",
+      "topic": "Mean",
+      "id": "lba_mcq_1"
+    },
+    {
+      "q": "Shoe sizes sold: 6, 7, 7, 7, 8, 9. The mode (best for stocking decisions) is:",
+      "options": [
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "answer": "B",
+      "explanation": "Mode is the most frequent value. Size 7 appears three times, more than any other, so the mode is 7.",
+      "difficulty": "Easy",
+      "topic": "Mode",
+      "id": "lba_mcq_2"
+    },
+    {
+      "q": "The marks 20, 25, 30, 35, 40 are arranged in order. The median is:",
+      "options": [
+        "25",
+        "35",
+        "30",
+        "20"
+      ],
+      "answer": "C",
+      "explanation": "With 5 values (odd), the median is the middle (3rd) value, which is 30.",
+      "difficulty": "Medium",
+      "topic": "Median",
+      "id": "lba_mcq_3"
+    },
+    {
+      "q": "To show grouped data such as the number of students in mark ranges 0-10, 10-20, the best graph is a:",
+      "options": [
+        "Pie chart",
+        "Bar graph with gaps",
+        "Line of best fit",
+        "Histogram (bars touching)"
+      ],
+      "answer": "D",
+      "explanation": "A histogram is used for grouped continuous data; its bars touch each other to show the class intervals.",
+      "difficulty": "Medium",
+      "topic": "Histogram",
+      "id": "lba_mcq_4"
+    },
+    {
+      "q": "To compare the number of books read by 5 separate students, the most suitable graph is a:",
+      "options": [
+        "Bar graph",
+        "Histogram",
+        "Frequency polygon only",
+        "Scatter plot"
+      ],
+      "answer": "A",
+      "explanation": "A bar graph compares separate categories (the 5 students) using bars of equal width with gaps.",
+      "difficulty": "Easy",
+      "topic": "Bar Graph",
+      "id": "lba_mcq_5"
+    },
+    {
+      "q": "The mean of the data 2, 4, 6, 8 is:",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "20"
+      ],
+      "answer": "B",
+      "explanation": "Mean = (2+4+6+8)/4 = 20/4 = 5.",
+      "difficulty": "Easy",
+      "topic": "Mean",
+      "id": "lba_mcq_6"
+    },
+    {
+      "q": "In a histogram, what does the height of each bar represent?",
+      "options": [
+        "The class width",
+        "The total data",
+        "The frequency (count) in that interval",
+        "The mean"
+      ],
+      "answer": "C",
+      "explanation": "In a histogram, the height of each bar shows the frequency — how many observations fall in that class interval.",
+      "difficulty": "Medium",
+      "topic": "Histogram",
+      "id": "lba_mcq_7"
+    },
+    {
+      "q": "For the data 5, 5, 6, 7, 5, 8, the mode is:",
+      "options": [
+        "6",
+        "7",
+        "8",
+        "5"
+      ],
+      "answer": "D",
+      "explanation": "The value 5 appears three times, more than any other value, so the mode is 5.",
+      "difficulty": "Easy",
+      "topic": "Mode",
+      "id": "lba_mcq_8"
+    }
+  ]
+}
