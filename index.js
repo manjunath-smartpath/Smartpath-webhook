@@ -263,10 +263,10 @@ async function handleRegistration(from, student, step, userText, replyId) {
       return;
     }
     await G.updateStudent(student, 'Class', cls);
-    await G.updateStudent(student, 'Registration_Step', 'PENDING_CODE');
+    await G.updateStudent(student, 'Registration_Step', 'PENDING_SCHOOL');
     await S.sendText(from,
       `${cls}ನೇ ತರಗತಿ ✅\n\n` +
-      `🎟️ ನಿಮ್ಮ *School Code* type ಮಾಡಿ:\n(ಶಾಲೆಯಿಂದ ಸಿಕ್ಕ code, e.g. GHS10A)`);
+      `🏫 ನಿಮ್ಮ *ಶಾಲೆಯ ಹೆಸರು* type ಮಾಡಿ:`);
     return;
   }
 
@@ -274,22 +274,41 @@ async function handleRegistration(from, student, step, userText, replyId) {
     if (!userText) { await S.sendText(from, 'ಶಾಲೆಯ ಹೆಸರು type ಮಾಡಿ:'); return; }
     await G.updateStudent(student, 'School', userText);
     await G.updateStudent(student, 'Registration_Step', 'PENDING_CITY');
-    await S.sendText(from, `${userText} ✅\n\nಊರು? / City:`);
+    await S.sendText(from, `${userText} ✅\n\n🏙️ *ಶಾಲೆ ಇರುವ ಊರು* type ಮಾಡಿ:`);
     return;
   }
 
   if (step === 'PENDING_CITY') {
-    if (!userText) { await S.sendText(from, 'ಊರು type ಮಾಡಿ:'); return; }
+    if (!userText) { await S.sendText(from, 'ಶಾಲೆ ಇರುವ ಊರು type ಮಾಡಿ:'); return; }
     await G.updateStudent(student, 'City', userText);
-    await G.updateStudent(student, 'Registration_Step', 'PENDING_CODE');
+    await G.updateStudent(student, 'Registration_Step', 'COMPLETE');
+
+    const cls = String(student.get('Class') || '').replace(/[^\d]/g,'') || '8';
+    const expiry = student.get('ExpiryDate') || '';
     await S.sendText(from,
-      `📋 School code ಇದ್ಯಾ?\n\n` +
-      `ಇದ್ರೆ → code type ಮಾಡಿ (e.g. GHS10A)\n` +
-      `ಇಲ್ಲ ಅಂದ್ರೆ → *NO* type ಮಾಡಿ (2 ದಿನ free trial)`);
+      `🎉 ನೋಂದಣಿ ಪೂರ್ಣ! / Registered!\n\n` +
+      `🎁 *10 ದಿನ FREE Trial* ಶುರು! (ಎಲ್ಲ ₹149 features)\n` +
+      `📅 ${expiry} ತನಕ\n\n` +
+      `ಈಗ ಕಲಿಯೋಣ! 📚`);
+    await NAV.showMainMenu(from, cls);
     return;
   }
 
-  if (step === 'PENDING_CODE') {
+  if (step === 'PENDING_CODE' || step === 'PENDING_REGNO') {
+    // School code removed from student flow — finish registration with trial
+    const cls = String(student.get('Class') || '').replace(/[^\d]/g,'') || '8';
+    await G.updateStudent(student, 'Registration_Step', 'COMPLETE');
+    const expiry = student.get('ExpiryDate') || '';
+    await S.sendText(from,
+      `🎉 ನೋಂದಣಿ ಪೂರ್ಣ! / Registered!\n\n` +
+      `🎁 *10 ದಿನ FREE Trial* ಶುರು! (ಎಲ್ಲ ₹149 features)\n` +
+      `📅 ${expiry} ತನಕ\n\n` +
+      `ಈಗ ಕಲಿಯೋಣ! 📚`);
+    await NAV.showMainMenu(from, cls);
+    return;
+  }
+
+  if (step === '__DISABLED_PENDING_CODE') {
     const cls = String(student.get('Class') || '').replace(/[^\d]/g,'') || '8';
     const txt = (userText || '').trim();
 
@@ -321,7 +340,7 @@ async function handleRegistration(from, student, step, userText, replyId) {
     return;
   }
 
-  if (step === 'PENDING_REGNO') {
+  if (step === '__DISABLED_PENDING_REGNO') {
     const cls = String(student.get('Class') || '').replace(/[^\d]/g,'') || '8';
     const txt = (userText || '').trim();
     const regno = ['skip','no','illa','ಇಲ್ಲ'].includes(txt.toLowerCase()) ? '' : txt;
